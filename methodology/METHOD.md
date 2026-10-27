@@ -1,15 +1,26 @@
 # Method
 
-How this study collects, cuts, classifies and compares the components of font microsites. It covers Phase 1 (archive), Phase 2 (sample → taxonomy) and the proposed Phase 3 (extraction). **Phase 3 starts only after this document is reviewed.**
+How this study collects, cuts, classifies and compares the components of font microsites. It covers Phase 1 (archive), Phase 2 (sample → taxonomy) and Phase 3 (extraction).
 
-## Decisions needed before Phase 3
+## Decisions (reviewed 2026-10-27)
 
-1. **Taxonomy granularity.** 19 types, 84 variants (76 seen in the sample). Is that the right resolution? Two possible simplifications are below. The current taxonomy keeps them separate.
-   - Fold `chrome`, `navigation`, `newsletter` and `interlude` into one `site-furniture` type.
-   - Fold `game` and `playground-app` into one `toy` type.
-2. **Instance boundaries.** One component sometimes spans several blocks (a long story split by images), and one block sometimes holds two components (a tester and a glyph grid). The proposal: label per block, add `continues: previous` to merge consecutive blocks, and allow up to two labels per block.
-3. **Coverage of tiny blocks.** About 400 blocks under 150px (nav strips, banners) were left out of the sample. The proposal: label them in Phase 3 only as `chrome` or `navigation`, with no rubric.
-4. **Rebuild priorities for the playground** (Phase 4). The proposal is to start with the most common and most reusable patterns: `type-tester/per-row-controls`, `type-tester/global-toolbar`, `glyph-table/glyph-inspector`, `design-details/feature-before-after`, `design-details/axis-explainer`, and 3–4 hero variants.
+1. **Taxonomy structure: three levels.** The 8 original components are **sections**. Each section holds the core type plus the types discovered in the sample, and each type holds its variants (`taxonomy.json → sections`). All 19 types are kept:
+
+   | section | types |
+   |---|---|
+   | Hero | hero, intro-animation |
+   | Story | story |
+   | Glyph table | glyph-table, language-support |
+   | Type tester | type-tester, playground-app, game |
+   | Specimen showcase | specimen-showcase, family-overview, interlude |
+   | Design details | design-details, comparison |
+   | Checkout | checkout, testimonials, newsletter |
+   | Footer | footer, navigation, chrome |
+
+2. **Instance boundaries.** Labels are per block. `continues: previous` merges consecutive blocks into one instance, and a block may carry up to two instances.
+3. **Tiny blocks** (< 150px) are labelled only as `chrome` or `navigation`, with no rubric.
+4. **Every block is looked at** (full crop, plus HTML where behaviour matters), because Phase 4 rebuilds components and needs high-quality reconstruction notes, not only labels.
+5. **Playground.** Within each section and type, you can swap between variants, and within a variant, between example implementations (captured instances and rebuilds) and styles. Rebuilds start with hero variants, then `type-tester/per-row-controls`, `type-tester/global-toolbar`, `glyph-table/glyph-inspector`, `design-details/feature-before-after` and `design-details/axis-explainer`.
 
 ## 1. Unit of analysis
 
@@ -60,7 +71,11 @@ The sample is 250 blocks from 130 sites, at most 3 per site. Half were chosen by
 
 [cluster-report.md](cluster-report.md) tests whether block features (size, controls, glyph density, text hints, colour…) predict the labels. A leave-one-out nearest-centroid classifier gets the **type right 41%** of the time. **Variants** come out at 10–26% for most types; family-overview reaches 78% and design-details 56%. **Conclusion:** the distinctions that matter are visual and experiential, so Phase 3 must look at each block (crop, HTML, video). Features are useful only as hints: checkout, testers, glyph tables, and footers by position.
 
-## 6. Extraction procedure (Phase 3, proposed)
+## 6. Extraction procedure (Phase 3)
+
+_As run:_ the protocol is [EXTRACTION.md](EXTRACTION.md). Each site gets an evidence pack (`node scripts/extract.mjs prepare`). It holds numbered overview sheets of every block, a 16-frame storyboard from the scroll video (for motion), the mobile page folded into columns, and `facts.json` with per-block colour palettes, fonts, controls and text. Agents look at every block's full crop (and its HTML when behaviour matters), write `data/instances/<slug>.json` with a `reconstruction` section per instance, and self-check with `extract.mjs check`. The coordinator runs `sync` between waves. It validates, updates the tracker, builds the section → type → variant index, and collects variant proposals for curation. GT America was extracted first as the calibration and reference example (22 instances from 27 blocks).
+
+_Original proposal:_
 
 Per site, in tracker order (`npm run extract` will feed the queue; the per-site status in PROGRESS.md resumes after interruption):
 

@@ -1,5 +1,7 @@
 # navigation
 
+_Section: Footer (discovered type, alongside footer)_
+
 Wayfinding and cross-promotion beyond the global nav.
 
 Sample: 1 blocks from 1 sites.

@@ -1,227 +1,685 @@
 {
-  "version": 1,
+  "version": 2,
   "note": "Curated taxonomy derived from the 250-block sample (Phase 2). Raw labels in methodology/labels/ are left as observed; aliases map raw names to canonical ones. Edit this file to change the taxonomy, then run `npm run labels`.",
+  "sections": {
+    "hero": {
+      "title": "Hero",
+      "definition": "The above-the-fold impression: a large specimen of the family, the tagline, and a call to action that sets the tone.",
+      "types": [
+        "hero",
+        "intro-animation"
+      ]
+    },
+    "story": {
+      "title": "Story",
+      "definition": "Where the family came from and where it is going: the brief, the references, the decisions that shaped it, in the maker’s own voice.",
+      "types": [
+        "story"
+      ]
+    },
+    "glyph-table": {
+      "title": "Glyph table",
+      "definition": "Every glyph in the font, rendered from the font file, and the scripts and languages it covers.",
+      "types": [
+        "glyph-table",
+        "language-support"
+      ]
+    },
+    "type-tester": {
+      "title": "Type tester",
+      "definition": "Interactive controls a visitor can drive: axis sliders, an editable text field, feature toggles; at the extreme, the whole site as a tool or game.",
+      "types": [
+        "type-tester",
+        "playground-app",
+        "game"
+      ]
+    },
+    "specimen-showcase": {
+      "title": "Specimen showcase",
+      "definition": "The family shown in real use and in display compositions, from waterfalls to prop collages to editorial walls, plus overviews of the styles.",
+      "types": [
+        "specimen-showcase",
+        "family-overview",
+        "interlude"
+      ]
+    },
+    "design-details": {
+      "title": "Design details",
+      "definition": "The micro-decisions behind the drawing: spacing, alternates, OpenType features, true italics, optical sizes, and comparisons that make them visible.",
+      "types": [
+        "design-details",
+        "comparison"
+      ]
+    },
+    "checkout": {
+      "title": "Checkout",
+      "definition": "Acquiring the font: pricing, formats, licences, trials or free downloads, and the copy and social proof that convert.",
+      "types": [
+        "checkout",
+        "testimonials",
+        "newsletter"
+      ]
+    },
+    "footer": {
+      "title": "Footer",
+      "definition": "Colophon, contact and legal: the credibility line and the last thing visitors read, plus the site furniture around the specimen.",
+      "types": [
+        "footer",
+        "navigation",
+        "chrome"
+      ]
+    }
+  },
   "types": {
     "hero": {
       "definition": "The above-the-fold first impression: what the visitor sees before scrolling.",
       "variants": {
-        "giant-wordmark": { "definition": "The family name set as large as the viewport allows on a flat field, little else; may mix styles letter by letter to show range.", "cues": "one dominant name, flat colour, minimal copy" },
-        "sentence-as-specimen": { "definition": "A headline sentence about the font, set in the font (sometimes beside one oversized glyph or rotating through styles): the pitch is the specimen.", "cues": "readable claim or announcement in display size, CTA nearby" },
-        "typeset-page": { "definition": "A classical typeset composition (title page, broadside, dictionary entry) that uses the family's own hierarchy, italics and ornaments.", "cues": "centred stacks, rules, ornaments, multiple sizes and italics" },
-        "kinetic-type": { "definition": "The type in motion is the hero: animated, 3D, generative, video clips, or axes driven by scroll.", "cues": "canvas/video/WebGL, scroll-scrubbed variation, the capture looks mid-animation" },
-        "interactive-specimen": { "definition": "The hero is a specimen the visitor manipulates straight away (axes, weight, contrast, text), via controls or the wheel.", "cues": "sliders, toggles or editable text inside the first screen" },
-        "construction-drawing": { "definition": "A glyph shown as its construction (Bézier points, skeleton, strokes), often drawn on.", "cues": "outline points, handles, metric lines in the hero" },
-        "name-over-photo": { "definition": "Name and a short line over a full-bleed mood photograph.", "cues": "landscape or scene photo, type overlaid" },
-        "material-photo": { "definition": "A photograph of physical material (paper, textile, objects) carrying or framing the type.", "cues": "tactile still life, the type printed or knitted on the material" },
-        "illustration-scene": { "definition": "An illustrated scene or mascot staged with the type; the illustration sets the tone.", "cues": "characters, faces, drawn objects" },
-        "prop-collage": { "definition": "A collage of designed artefacts (documents, tickets, packaging, diagrams) set in the font, implying a fictional world.", "cues": "many small designed objects, all set in the font" },
-        "product-landing": { "definition": "The software-product landing pattern: headline, tagline, paragraph, primary and secondary buttons.", "cues": "SaaS layout, 'Try it now' and 'GitHub' buttons, common for coding fonts" }
+        "giant-wordmark": {
+          "definition": "The family name set as large as the viewport allows on a flat field, little else; may mix styles letter by letter to show range.",
+          "cues": "one dominant name, flat colour, minimal copy"
+        },
+        "sentence-as-specimen": {
+          "definition": "A headline sentence about the font, set in the font (sometimes beside one oversized glyph or rotating through styles): the pitch is the specimen.",
+          "cues": "readable claim or announcement in display size, CTA nearby"
+        },
+        "typeset-page": {
+          "definition": "A classical typeset composition (title page, broadside, dictionary entry) that uses the family's own hierarchy, italics and ornaments.",
+          "cues": "centred stacks, rules, ornaments, multiple sizes and italics"
+        },
+        "kinetic-type": {
+          "definition": "The type in motion is the hero: animated, 3D, generative, video clips, or axes driven by scroll.",
+          "cues": "canvas/video/WebGL, scroll-scrubbed variation, the capture looks mid-animation"
+        },
+        "interactive-specimen": {
+          "definition": "The hero is a specimen the visitor manipulates straight away (axes, weight, contrast, text), via controls or the wheel.",
+          "cues": "sliders, toggles or editable text inside the first screen"
+        },
+        "construction-drawing": {
+          "definition": "A glyph shown as its construction (Bézier points, skeleton, strokes), often drawn on.",
+          "cues": "outline points, handles, metric lines in the hero"
+        },
+        "name-over-photo": {
+          "definition": "Name and a short line over a full-bleed mood photograph.",
+          "cues": "landscape or scene photo, type overlaid"
+        },
+        "material-photo": {
+          "definition": "A photograph of physical material (paper, textile, objects) carrying or framing the type.",
+          "cues": "tactile still life, the type printed or knitted on the material"
+        },
+        "illustration-scene": {
+          "definition": "An illustrated scene or mascot staged with the type; the illustration sets the tone.",
+          "cues": "characters, faces, drawn objects"
+        },
+        "prop-collage": {
+          "definition": "A collage of designed artefacts (documents, tickets, packaging, diagrams) set in the font, implying a fictional world.",
+          "cues": "many small designed objects, all set in the font"
+        },
+        "product-landing": {
+          "definition": "The software-product landing pattern: headline, tagline, paragraph, primary and secondary buttons.",
+          "cues": "SaaS layout, 'Try it now' and 'GitHub' buttons, common for coding fonts"
+        }
       }
     },
     "intro-animation": {
       "definition": "A timed or pinned full-screen sequence played before the page proper, like film opening titles.",
       "variants": {
-        "title-sequence": { "definition": "Full-screen frames revealing name, facts and specimen in sequence, often skippable.", "cues": "'Skip intro', pinned frames" }
+        "title-sequence": {
+          "definition": "Full-screen frames revealing name, facts and specimen in sequence, often skippable.",
+          "cues": "'Skip intro', pinned frames"
+        }
       }
     },
     "story": {
       "definition": "Where the family comes from and why: brief, references, process, people.",
       "variants": {
-        "origin-reference": { "definition": "The source or inspiration (historical artefact, technology, place, genre history) explained in prose and shown visually.", "cues": "archival images, 'inspired by', dates" },
-        "essay": { "definition": "Long-form first-person or editorial text (designer essay, process chapters, commissioner's foreword), laid out like an article.", "cues": "many paragraphs, pull quotes, signature" },
-        "making-of": { "definition": "The process shown visually: sketches, proofs, iterations, photos of the designer at work.", "cues": "process images with little text, stages" },
-        "design-brief": { "definition": "The problem the font solves (purpose, readers, constraints, principles) stated as a list or spec.", "cues": "numbered principles, 'designed for'" },
-        "large-text-intro": { "definition": "A short 'about' paragraph set large in the font, so the description doubles as a text specimen.", "cues": "one big paragraph near the top" },
-        "article-teaser": { "definition": "A short teaser and a link to an off-page article or interview about the making.", "cues": "'Read the story' button" },
-        "scroll-narrative": { "definition": "A pinned, scroll-driven sequence telling a concept metaphor through animated type and diagrams.", "cues": "sticky stage, scroll scrubbing" },
-        "self-test-evidence": { "definition": "The design rationale backed by a small test the visitor runs on themselves (reading speed, legibility).", "cues": "a quiz or timer next to research prose" },
-        "designer-bio": { "definition": "A short, informal bio of the designer with contact links.", "cues": "portrait or name, 'about me'" }
+        "origin-reference": {
+          "definition": "The source or inspiration (historical artefact, technology, place, genre history) explained in prose and shown visually.",
+          "cues": "archival images, 'inspired by', dates"
+        },
+        "essay": {
+          "definition": "Long-form first-person or editorial text (designer essay, process chapters, commissioner's foreword), laid out like an article.",
+          "cues": "many paragraphs, pull quotes, signature"
+        },
+        "making-of": {
+          "definition": "The process shown visually: sketches, proofs, iterations, photos of the designer at work.",
+          "cues": "process images with little text, stages"
+        },
+        "design-brief": {
+          "definition": "The problem the font solves (purpose, readers, constraints, principles) stated as a list or spec.",
+          "cues": "numbered principles, 'designed for'"
+        },
+        "large-text-intro": {
+          "definition": "A short 'about' paragraph set large in the font, so the description doubles as a text specimen.",
+          "cues": "one big paragraph near the top"
+        },
+        "article-teaser": {
+          "definition": "A short teaser and a link to an off-page article or interview about the making.",
+          "cues": "'Read the story' button"
+        },
+        "scroll-narrative": {
+          "definition": "A pinned, scroll-driven sequence telling a concept metaphor through animated type and diagrams.",
+          "cues": "sticky stage, scroll scrubbing"
+        },
+        "self-test-evidence": {
+          "definition": "The design rationale backed by a small test the visitor runs on themselves (reading speed, legibility).",
+          "cues": "a quiz or timer next to research prose"
+        },
+        "designer-bio": {
+          "definition": "A short, informal bio of the designer with contact links.",
+          "cues": "portrait or name, 'about me'"
+        }
       }
     },
     "glyph-table": {
       "definition": "The character set itself, all or by category.",
       "variants": {
-        "full-grid": { "definition": "The whole character set in uniform cells, in encoding order (sometimes with key labels for dingbat fonts).", "cues": "dense grid of small cells" },
-        "glyph-inspector": { "definition": "A grid plus a large preview of the selected or hovered glyph on its metric lines.", "cues": "big glyph panel, cap-height and x-height lines" },
-        "category-lines": { "definition": "The set typeset as running lines per category (or one moving line), no cells.", "cues": "A–Z, a–z, 0–9 as lines of text" },
-        "category-tabs": { "definition": "Tabs or a dropdown switch a large-size strip of one category at a time.", "cues": "tabs: lowercase | uppercase | numerals" },
-        "bento-cards": { "definition": "A grid of cards, each a slice of the set or one feature (arrows, numerals, ligatures).", "cues": "rounded cards of varied sizes" },
-        "keymap-grid": { "definition": "Pictogram or dingbat cells labelled with the key that types them.", "cues": "key letter in each cell corner" }
+        "full-grid": {
+          "definition": "The whole character set in uniform cells, in encoding order (sometimes with key labels for dingbat fonts).",
+          "cues": "dense grid of small cells"
+        },
+        "glyph-inspector": {
+          "definition": "A grid plus a large preview of the selected or hovered glyph on its metric lines.",
+          "cues": "big glyph panel, cap-height and x-height lines"
+        },
+        "category-lines": {
+          "definition": "The set typeset as running lines per category (or one moving line), no cells.",
+          "cues": "A–Z, a–z, 0–9 as lines of text"
+        },
+        "category-tabs": {
+          "definition": "Tabs or a dropdown switch a large-size strip of one category at a time.",
+          "cues": "tabs: lowercase | uppercase | numerals"
+        },
+        "bento-cards": {
+          "definition": "A grid of cards, each a slice of the set or one feature (arrows, numerals, ligatures).",
+          "cues": "rounded cards of varied sizes"
+        },
+        "keymap-grid": {
+          "definition": "Pictogram or dingbat cells labelled with the key that types them.",
+          "cues": "key letter in each cell corner"
+        }
       }
     },
     "type-tester": {
       "definition": "Interactive: the visitor types and/or drives size, axes and features.",
       "variants": {
-        "per-row-controls": { "definition": "Several sample rows, each with its own style, size and leading controls.", "cues": "a control strip on every row" },
-        "global-toolbar": { "definition": "One persistent toolbar restyles all editable samples on the page.", "cues": "sticky bar of selects and sliders" },
-        "labelled-editable-lines": { "definition": "Each style gets a small label and editable lines at a fitting size; click to type, no toolbar.", "cues": "contenteditable lines, style labels, no controls" },
-        "slider-sandbox": { "definition": "One editable sample with a few axis and size sliders around it.", "cues": "one big sample, 2–4 sliders" },
-        "feature-toggle-board": { "definition": "One big sample line plus a panel of OpenType feature toggles labelled with their tags.", "cues": "ss01, dlig, case toggles" },
-        "in-context-editable": { "definition": "A realistic layout (classifieds, menu, poster) whose text is editable.", "cues": "editable text inside a designed artefact" },
-        "code-playground": { "definition": "A mock code editor with language tabs and themes, set in the (coding) font, with font controls.", "cues": "syntax highlighting, editor chrome" },
-        "creative-toy": { "definition": "A playful maker that turns the font into a composition: patterns, shareable images, style pairings, word-by-word styling.", "cues": "share or download buttons, presets, unusual gestures" }
+        "per-row-controls": {
+          "definition": "Several sample rows, each with its own style, size and leading controls.",
+          "cues": "a control strip on every row"
+        },
+        "global-toolbar": {
+          "definition": "One persistent toolbar restyles all editable samples on the page.",
+          "cues": "sticky bar of selects and sliders"
+        },
+        "labelled-editable-lines": {
+          "definition": "Each style gets a small label and editable lines at a fitting size; click to type, no toolbar.",
+          "cues": "contenteditable lines, style labels, no controls"
+        },
+        "slider-sandbox": {
+          "definition": "One editable sample with a few axis and size sliders around it.",
+          "cues": "one big sample, 2–4 sliders"
+        },
+        "feature-toggle-board": {
+          "definition": "One big sample line plus a panel of OpenType feature toggles labelled with their tags.",
+          "cues": "ss01, dlig, case toggles"
+        },
+        "in-context-editable": {
+          "definition": "A realistic layout (classifieds, menu, poster) whose text is editable.",
+          "cues": "editable text inside a designed artefact"
+        },
+        "code-playground": {
+          "definition": "A mock code editor with language tabs and themes, set in the (coding) font, with font controls.",
+          "cues": "syntax highlighting, editor chrome"
+        },
+        "creative-toy": {
+          "definition": "A playful maker that turns the font into a composition: patterns, shareable images, style pairings, word-by-word styling.",
+          "cues": "share or download buttons, presets, unusual gestures"
+        }
       }
     },
     "specimen-showcase": {
       "definition": "The family shown in use or in display compositions.",
       "variants": {
-        "word-stack": { "definition": "Display words or phrases stacked vertically, often cropped, for rhythm and character.", "cues": "huge words, one per line" },
-        "in-use-mockups": { "definition": "Realistic applications (posters, books, screens, signage, client work) as a wall, carousel, shuffler or filmed object.", "cues": "photographic mockups, credits" },
-        "prop-collage": { "definition": "Invented artefacts (UI windows, tickets, files, stickers) set in the font, collaged into a scene.", "cues": "fictional brand objects, humour" },
-        "poster-series": { "definition": "A sequence of self-contained poster or specimen-page compositions, often pastiching a period.", "cues": "full-width graphic panels one after another" },
-        "editorial-in-use": { "definition": "The font running a real or realistic publication (articles, magazine pages) with genuine content.", "cues": "headlines, bylines, body copy" },
-        "kinetic-scenes": { "definition": "Animated, generative or physics compositions (falling or scattered glyphs, liquid) after the hero.", "cues": "canvas/WebGL, overlapping glyphs" },
-        "use-case-samples": { "definition": "Tabs or panels with realistic content samples per use case (code, data tables, UI).", "cues": "tabs: SQL | finance | …" },
-        "modular-grid": { "definition": "A uniform grid of cells mixing large glyphs, sentences and notes, like a specimen sheet.", "cues": "equal cells, mixed content" },
-        "themed-infographic": { "definition": "An interactive infographic on the font's theme, set in the font so the numerals and labels do real work.", "cues": "data, line-ups, timetables" }
+        "word-stack": {
+          "definition": "Display words or phrases stacked vertically, often cropped, for rhythm and character.",
+          "cues": "huge words, one per line"
+        },
+        "in-use-mockups": {
+          "definition": "Realistic applications (posters, books, screens, signage, client work) as a wall, carousel, shuffler or filmed object.",
+          "cues": "photographic mockups, credits"
+        },
+        "prop-collage": {
+          "definition": "Invented artefacts (UI windows, tickets, files, stickers) set in the font, collaged into a scene.",
+          "cues": "fictional brand objects, humour"
+        },
+        "poster-series": {
+          "definition": "A sequence of self-contained poster or specimen-page compositions, often pastiching a period.",
+          "cues": "full-width graphic panels one after another"
+        },
+        "editorial-in-use": {
+          "definition": "The font running a real or realistic publication (articles, magazine pages) with genuine content.",
+          "cues": "headlines, bylines, body copy"
+        },
+        "kinetic-scenes": {
+          "definition": "Animated, generative or physics compositions (falling or scattered glyphs, liquid) after the hero.",
+          "cues": "canvas/WebGL, overlapping glyphs"
+        },
+        "use-case-samples": {
+          "definition": "Tabs or panels with realistic content samples per use case (code, data tables, UI).",
+          "cues": "tabs: SQL | finance | …"
+        },
+        "modular-grid": {
+          "definition": "A uniform grid of cells mixing large glyphs, sentences and notes, like a specimen sheet.",
+          "cues": "equal cells, mixed content"
+        },
+        "themed-infographic": {
+          "definition": "An interactive infographic on the font's theme, set in the font so the numerals and labels do real work.",
+          "cues": "data, line-ups, timetables"
+        }
       }
     },
     "family-overview": {
       "definition": "The family's styles and structure at a glance.",
       "variants": {
-        "style-word-grid": { "definition": "Every style named and shown on a sample word or the same paragraph.", "cues": "style labels plus samples in a grid or stack" },
-        "designspace-map": { "definition": "The family laid out along its axes: a matrix, a cube, or clickable stops that set the sample.", "cues": "width × weight table, axis cube, stop pickers" },
-        "big-number-stats": { "definition": "The family's size stated as huge figures (glyphs, weights, styles).", "cues": "giant numerals with small labels" }
+        "style-word-grid": {
+          "definition": "Every style named and shown on a sample word or the same paragraph.",
+          "cues": "style labels plus samples in a grid or stack"
+        },
+        "designspace-map": {
+          "definition": "The family laid out along its axes: a matrix, a cube, or clickable stops that set the sample.",
+          "cues": "width × weight table, axis cube, stop pickers"
+        },
+        "big-number-stats": {
+          "definition": "The family's size stated as huge figures (glyphs, weights, styles).",
+          "cues": "giant numerals with small labels"
+        }
       }
     },
     "design-details": {
       "definition": "The micro-decisions: features, alternates, axes, spacing, construction.",
       "variants": {
-        "feature-before-after": { "definition": "A feature or alternate shown off vs on (side by side, overlaid, toggled or typed in a loop) with a short explanation.", "cues": "pairs, toggles, feature tags" },
-        "feature-index": { "definition": "Every stylistic set or ligature group catalogued as cards or tiles (input → output), often toggleable or exportable as settings.", "cues": "exhaustive grid of feature cards" },
-        "axis-explainer": { "definition": "Each variable axis demonstrated on its own: a word plus slider, labelled steps, or animation fitting frames.", "cues": "axis names, steps, one axis at a time" },
-        "annotated-specimen": { "definition": "Letterforms with technical annotations or numbered figures (measurements, ink traps, angles), one decision per row.", "cues": "callouts, dimension lines, 'Fig. 1'" },
-        "system-diagrams": { "definition": "The family's logic (weight curve, optical sizes, widths) explained with charts, like a design-system manual.", "cues": "graphs, axes, curves" },
-        "design-notes": { "definition": "A sequence of design decisions, each with a visual and a short caption, as a carousel or video tiles.", "cues": "slides or looping tiles per topic" }
+        "feature-before-after": {
+          "definition": "A feature or alternate shown off vs on (side by side, overlaid, toggled or typed in a loop) with a short explanation.",
+          "cues": "pairs, toggles, feature tags"
+        },
+        "feature-index": {
+          "definition": "Every stylistic set or ligature group catalogued as cards or tiles (input → output), often toggleable or exportable as settings.",
+          "cues": "exhaustive grid of feature cards"
+        },
+        "axis-explainer": {
+          "definition": "Each variable axis demonstrated on its own: a word plus slider, labelled steps, or animation fitting frames.",
+          "cues": "axis names, steps, one axis at a time"
+        },
+        "annotated-specimen": {
+          "definition": "Letterforms with technical annotations or numbered figures (measurements, ink traps, angles), one decision per row.",
+          "cues": "callouts, dimension lines, 'Fig. 1'"
+        },
+        "system-diagrams": {
+          "definition": "The family's logic (weight curve, optical sizes, widths) explained with charts, like a design-system manual.",
+          "cues": "graphs, axes, curves"
+        },
+        "design-notes": {
+          "definition": "A sequence of design decisions, each with a visual and a short caption, as a carousel or video tiles.",
+          "cues": "slides or looping tiles per topic"
+        }
       }
     },
     "language-support": {
       "definition": "Script and language coverage.",
       "variants": {
-        "multiscript-specimen": { "definition": "Sample lines in several scripts, each tagged with script and settings.", "cues": "LATIN / ARABIC / THAI labels" },
-        "diacritic-word-wall": { "definition": "Real words from many languages chosen for their diacritics, at display size.", "cues": "accent-heavy words" },
-        "coverage-statement": { "definition": "A big-type sentence stating the coverage instead of showing it.", "cues": "'Supports 200+ languages'" }
+        "multiscript-specimen": {
+          "definition": "Sample lines in several scripts, each tagged with script and settings.",
+          "cues": "LATIN / ARABIC / THAI labels"
+        },
+        "diacritic-word-wall": {
+          "definition": "Real words from many languages chosen for their diacritics, at display size.",
+          "cues": "accent-heavy words"
+        },
+        "coverage-statement": {
+          "definition": "A big-type sentence stating the coverage instead of showing it.",
+          "cues": "'Supports 200+ languages'"
+        }
       }
     },
     "comparison": {
       "definition": "This font set against others or against previous versions.",
       "variants": {
-        "versus-tabs": { "definition": "Tabs pick a rival typeface; the same text is set in both, stacked.", "cues": "rival names as tabs" }
+        "versus-tabs": {
+          "definition": "Tabs pick a rival typeface; the same text is set in both, stacked.",
+          "cues": "rival names as tabs"
+        }
       }
     },
     "testimonials": {
       "definition": "Social proof from users.",
       "variants": {
-        "quote-columns": { "definition": "User quotes set in the font, in plain columns.", "cues": "quotes with names" },
-        "embedded-social-posts": { "definition": "Embedded posts from users, with avatars and handles.", "cues": "tweet or toot cards" }
+        "quote-columns": {
+          "definition": "User quotes set in the font, in plain columns.",
+          "cues": "quotes with names"
+        },
+        "embedded-social-posts": {
+          "definition": "Embedded posts from users, with avatars and handles.",
+          "cues": "tweet or toot cards"
+        }
       }
     },
     "checkout": {
       "definition": "How the visitor acquires the font: purchase, trial or free download.",
       "variants": {
-        "on-page-cart": { "definition": "Buying happens on the page: licence picker, packages and prices, preview, add to cart.", "cues": "prices, licence sizes, cart" },
-        "link-out-cta": { "definition": "Prominent buy, trial or download buttons linking to an external shop or repository.", "cues": "1–2 big buttons, no prices" },
-        "free-download": { "definition": "A free download with a plain-language licence summary and/or developer install instructions.", "cues": "OFL, npm or brew commands, press kit" },
-        "build-configurator": { "definition": "Options (alternates, spacing, ligatures) select which pre-built files you download.", "cues": "option toggles plus a download button" }
+        "on-page-cart": {
+          "definition": "Buying happens on the page: licence picker, packages and prices, preview, add to cart.",
+          "cues": "prices, licence sizes, cart"
+        },
+        "link-out-cta": {
+          "definition": "Prominent buy, trial or download buttons linking to an external shop or repository.",
+          "cues": "1–2 big buttons, no prices"
+        },
+        "free-download": {
+          "definition": "A free download with a plain-language licence summary and/or developer install instructions.",
+          "cues": "OFL, npm or brew commands, press kit"
+        },
+        "build-configurator": {
+          "definition": "Options (alternates, spacing, ligatures) select which pre-built files you download.",
+          "cues": "option toggles plus a download button"
+        }
       }
     },
     "newsletter": {
       "definition": "Email capture.",
-      "variants": { "email-signup": { "definition": "Email field and subscribe button.", "cues": "input type=email" } }
+      "variants": {
+        "email-signup": {
+          "definition": "Email field and subscribe button.",
+          "cues": "input type=email"
+        }
+      }
     },
     "footer": {
       "definition": "The end of the page: colophon, contact, legal.",
       "variants": {
-        "credits-colophon": { "definition": "Credits: designers, contributors, testers, tools, fonts used.", "cues": "lists of names and roles" },
-        "link-columns": { "definition": "A multi-column footer with links.", "cues": "columns of links" },
-        "big-sign-off": { "definition": "A large closing statement, then small legal lines.", "cues": "display-size last line" },
-        "personal-sign-off": { "definition": "An informal closing note from the designer.", "cues": "'email me', kaomoji" },
-        "slim-legal-bar": { "definition": "One or two lines: copyright and credit.", "cues": "thin bar" }
+        "credits-colophon": {
+          "definition": "Credits: designers, contributors, testers, tools, fonts used.",
+          "cues": "lists of names and roles"
+        },
+        "link-columns": {
+          "definition": "A multi-column footer with links.",
+          "cues": "columns of links"
+        },
+        "big-sign-off": {
+          "definition": "A large closing statement, then small legal lines.",
+          "cues": "display-size last line"
+        },
+        "personal-sign-off": {
+          "definition": "An informal closing note from the designer.",
+          "cues": "'email me', kaomoji"
+        },
+        "slim-legal-bar": {
+          "definition": "One or two lines: copyright and credit.",
+          "cues": "thin bar"
+        }
       }
     },
     "navigation": {
       "definition": "Wayfinding and cross-promotion beyond the global nav.",
-      "variants": { "related-projects": { "definition": "Cards linking to the designer's or foundry's other fonts.", "cues": "'More from…'" } }
+      "variants": {
+        "related-projects": {
+          "definition": "Cards linking to the designer's or foundry's other fonts.",
+          "cues": "'More from…'"
+        }
+      }
     },
     "playground-app": {
       "definition": "The whole site is an application rather than a scrolling page.",
       "variants": {
-        "keyboard-driven-app": { "definition": "A single-screen app driven by keyboard shortcuts.", "cues": "key legend, no scroll" },
-        "desktop-os-windows": { "definition": "The site staged as a desktop OS with draggable windows.", "cues": "windows, taskbar, wallpaper" }
+        "keyboard-driven-app": {
+          "definition": "A single-screen app driven by keyboard shortcuts.",
+          "cues": "key legend, no scroll"
+        },
+        "desktop-os-windows": {
+          "definition": "The site staged as a desktop OS with draggable windows.",
+          "cues": "windows, taskbar, wallpaper"
+        }
       }
     },
     "game": {
       "definition": "A playable game made with the font.",
-      "variants": { "arcade-leaderboard": { "definition": "A browser game with a high-score table and font prizes.", "cues": "score, play button" } }
+      "variants": {
+        "arcade-leaderboard": {
+          "definition": "A browser game with a high-score table and font prizes.",
+          "cues": "score, play button"
+        }
+      }
     },
     "interlude": {
       "definition": "Pure transition between sections; no information.",
-      "variants": { "scroll-door-animation": { "definition": "A pinned, scroll-scrubbed illustration opening like doors.", "cues": "symmetry, scrubbing" } }
+      "variants": {
+        "scroll-door-animation": {
+          "definition": "A pinned, scroll-scrubbed illustration opening like doors.",
+          "cues": "symmetry, scrubbing"
+        }
+      }
     },
     "chrome": {
       "definition": "Site furniture that is not specimen content (banners, nav).",
       "variants": {
-        "announcement-banner": { "definition": "A thin site-wide banner (donation, launch, sale).", "cues": "strip above everything" },
-        "masthead-nav": { "definition": "A slim header with name, tagline and section tabs, standing in for a hero.", "cues": "header only" }
+        "announcement-banner": {
+          "definition": "A thin site-wide banner (donation, launch, sale).",
+          "cues": "strip above everything"
+        },
+        "masthead-nav": {
+          "definition": "A slim header with name, tagline and section tabs, standing in for a hero.",
+          "cues": "header only"
+        }
       }
     },
     "fragment": {
       "definition": "Not a component instance: bad cut, empty capture or duplicate. Excluded from pattern counts.",
       "variants": {
-        "empty-capture": { "definition": "Captured empty or mid-load.", "cues": "blank, loader" },
-        "duplicate-capture": { "definition": "Repeats a section already captured.", "cues": "same as an earlier tile" }
+        "empty-capture": {
+          "definition": "Captured empty or mid-load.",
+          "cues": "blank, loader"
+        },
+        "duplicate-capture": {
+          "definition": "Repeats a section already captured.",
+          "cues": "same as an earlier tile"
+        }
       }
     }
   },
   "aliases": {
-    "hero/style-medley-wordmark": { "to": "hero/giant-wordmark", "why": "a wordmark; the style mix is an attribute" },
-    "hero/pitch-beside-glyph": { "to": "hero/sentence-as-specimen", "why": "the pitch set in the font is the mechanism; the glyph is decoration" },
-    "hero/mixed-style-pangram": { "to": "hero/sentence-as-specimen", "why": "a sentence-as-specimen that rotates styles" },
-    "hero/title-page": { "to": "hero/typeset-page", "why": "renamed to cover broadsides and dictionary entries too" },
-    "hero/dictionary-entry": { "to": "hero/typeset-page", "why": "a classical typeset composition" },
-    "hero/scroll-driven-axes": { "to": "hero/kinetic-type", "why": "motion is the mechanism; scroll is the driver (ux attribute)" },
-    "hero/video-mosaic": { "to": "hero/kinetic-type", "why": "type in motion, delivered as video tiles" },
-    "story/designer-essay": { "to": "story/essay", "why": "merged long-form text variants" },
-    "story/process-essay": { "to": "story/essay", "why": "merged long-form text variants" },
-    "story/foreword": { "to": "story/essay", "why": "an essay in the commissioner's voice" },
-    "story/archival-history": { "to": "story/origin-reference", "why": "history of the source genre" },
-    "story/design-process": { "to": "story/making-of", "why": "process shown visually" },
-    "story/process-gallery": { "to": "story/making-of", "why": "process shown visually" },
-    "story/making-of-photo": { "to": "story/making-of", "why": "process shown visually" },
-    "story/pinned-scroll-narrative": { "to": "story/scroll-narrative", "why": "renamed" },
-    "glyph-table/grid-with-inspector": { "to": "glyph-table/glyph-inspector", "why": "same mechanism" },
-    "glyph-table/alphabet-rows": { "to": "glyph-table/category-lines", "why": "running lines, no cells" },
-    "glyph-table/alphabet-marquee": { "to": "glyph-table/category-lines", "why": "one running line, animated" },
-    "type-tester/ide-playground": { "to": "type-tester/code-playground", "why": "same mechanism" },
-    "type-tester/code-editor-preview": { "to": "type-tester/code-playground", "why": "same mechanism" },
-    "type-tester/word-level-styling": { "to": "type-tester/creative-toy", "why": "playful maker" },
-    "type-tester/pattern-builder": { "to": "type-tester/creative-toy", "why": "playful maker" },
-    "type-tester/shareable-composer": { "to": "type-tester/creative-toy", "why": "playful maker" },
-    "type-tester/pairing-preview": { "to": "type-tester/creative-toy", "why": "playful maker (pairing composition)" },
-    "specimen-showcase/mockup-wall": { "to": "specimen-showcase/in-use-mockups", "why": "real applications, any presentation" },
-    "specimen-showcase/shuffle-mockup": { "to": "specimen-showcase/in-use-mockups", "why": "mockups presented one at a time" },
-    "specimen-showcase/in-use-carousel": { "to": "specimen-showcase/in-use-mockups", "why": "real client work in a carousel" },
-    "specimen-showcase/printed-object-film": { "to": "specimen-showcase/in-use-mockups", "why": "a real printed object, filmed" },
-    "specimen-showcase/period-specimen-pages": { "to": "specimen-showcase/poster-series", "why": "a sequence of period compositions" },
-    "specimen-showcase/glyph-scatter": { "to": "specimen-showcase/kinetic-scenes", "why": "generative or physics compositions" },
-    "specimen-showcase/use-case-tabs": { "to": "specimen-showcase/use-case-samples", "why": "renamed" },
-    "specimen-showcase/multiscript-lines": { "to": "language-support/multiscript-specimen", "why": "its purpose is showing script coverage" },
-    "family-overview/text-block-per-style": { "to": "family-overview/style-word-grid", "why": "styles plus samples; a paragraph instead of a word" },
-    "family-overview/axis-matrix": { "to": "family-overview/designspace-map", "why": "family laid out along its axes" },
-    "family-overview/instance-picker": { "to": "family-overview/designspace-map", "why": "family laid out along its axes, clickable" },
-    "design-details/overlay-comparison": { "to": "design-details/feature-before-after", "why": "comparison by overlay" },
-    "design-details/typewriter-word-cycle": { "to": "design-details/feature-before-after", "why": "alternates compared in sequence" },
-    "design-details/feature-index-cards": { "to": "design-details/feature-index", "why": "renamed; toggles optional" },
-    "design-details/alternate-tiles": { "to": "design-details/feature-index", "why": "a catalogue of alternates" },
-    "design-details/feature-config-builder": { "to": "design-details/feature-index", "why": "a catalogue plus export of settings" },
-    "design-details/axis-steps": { "to": "design-details/axis-explainer", "why": "axis demonstrated by labelled steps" },
-    "design-details/fit-to-frame-animation": { "to": "design-details/axis-explainer", "why": "axis demonstrated by animation" },
-    "design-details/numbered-figures": { "to": "design-details/annotated-specimen", "why": "annotated figures" },
-    "design-details/design-notes-carousel": { "to": "design-details/design-notes", "why": "merged sequence formats" },
-    "design-details/topic-video-tiles": { "to": "design-details/design-notes", "why": "merged sequence formats" },
-    "download-open-source/licence-summary-download": { "to": "checkout/free-download", "why": "free fonts' checkout" },
-    "download-open-source/install-guide": { "to": "checkout/free-download", "why": "free fonts' checkout" },
-    "download-open-source/build-configurator": { "to": "checkout/build-configurator", "why": "free fonts' checkout" },
-    "section-divider/scroll-door-animation": { "to": "interlude/scroll-door-animation", "why": "type renamed" }
+    "hero/style-medley-wordmark": {
+      "to": "hero/giant-wordmark",
+      "why": "a wordmark; the style mix is an attribute"
+    },
+    "hero/pitch-beside-glyph": {
+      "to": "hero/sentence-as-specimen",
+      "why": "the pitch set in the font is the mechanism; the glyph is decoration"
+    },
+    "hero/mixed-style-pangram": {
+      "to": "hero/sentence-as-specimen",
+      "why": "a sentence-as-specimen that rotates styles"
+    },
+    "hero/title-page": {
+      "to": "hero/typeset-page",
+      "why": "renamed to cover broadsides and dictionary entries too"
+    },
+    "hero/dictionary-entry": {
+      "to": "hero/typeset-page",
+      "why": "a classical typeset composition"
+    },
+    "hero/scroll-driven-axes": {
+      "to": "hero/kinetic-type",
+      "why": "motion is the mechanism; scroll is the driver (ux attribute)"
+    },
+    "hero/video-mosaic": {
+      "to": "hero/kinetic-type",
+      "why": "type in motion, delivered as video tiles"
+    },
+    "story/designer-essay": {
+      "to": "story/essay",
+      "why": "merged long-form text variants"
+    },
+    "story/process-essay": {
+      "to": "story/essay",
+      "why": "merged long-form text variants"
+    },
+    "story/foreword": {
+      "to": "story/essay",
+      "why": "an essay in the commissioner's voice"
+    },
+    "story/archival-history": {
+      "to": "story/origin-reference",
+      "why": "history of the source genre"
+    },
+    "story/design-process": {
+      "to": "story/making-of",
+      "why": "process shown visually"
+    },
+    "story/process-gallery": {
+      "to": "story/making-of",
+      "why": "process shown visually"
+    },
+    "story/making-of-photo": {
+      "to": "story/making-of",
+      "why": "process shown visually"
+    },
+    "story/pinned-scroll-narrative": {
+      "to": "story/scroll-narrative",
+      "why": "renamed"
+    },
+    "glyph-table/grid-with-inspector": {
+      "to": "glyph-table/glyph-inspector",
+      "why": "same mechanism"
+    },
+    "glyph-table/alphabet-rows": {
+      "to": "glyph-table/category-lines",
+      "why": "running lines, no cells"
+    },
+    "glyph-table/alphabet-marquee": {
+      "to": "glyph-table/category-lines",
+      "why": "one running line, animated"
+    },
+    "type-tester/ide-playground": {
+      "to": "type-tester/code-playground",
+      "why": "same mechanism"
+    },
+    "type-tester/code-editor-preview": {
+      "to": "type-tester/code-playground",
+      "why": "same mechanism"
+    },
+    "type-tester/word-level-styling": {
+      "to": "type-tester/creative-toy",
+      "why": "playful maker"
+    },
+    "type-tester/pattern-builder": {
+      "to": "type-tester/creative-toy",
+      "why": "playful maker"
+    },
+    "type-tester/shareable-composer": {
+      "to": "type-tester/creative-toy",
+      "why": "playful maker"
+    },
+    "type-tester/pairing-preview": {
+      "to": "type-tester/creative-toy",
+      "why": "playful maker (pairing composition)"
+    },
+    "specimen-showcase/mockup-wall": {
+      "to": "specimen-showcase/in-use-mockups",
+      "why": "real applications, any presentation"
+    },
+    "specimen-showcase/shuffle-mockup": {
+      "to": "specimen-showcase/in-use-mockups",
+      "why": "mockups presented one at a time"
+    },
+    "specimen-showcase/in-use-carousel": {
+      "to": "specimen-showcase/in-use-mockups",
+      "why": "real client work in a carousel"
+    },
+    "specimen-showcase/printed-object-film": {
+      "to": "specimen-showcase/in-use-mockups",
+      "why": "a real printed object, filmed"
+    },
+    "specimen-showcase/period-specimen-pages": {
+      "to": "specimen-showcase/poster-series",
+      "why": "a sequence of period compositions"
+    },
+    "specimen-showcase/glyph-scatter": {
+      "to": "specimen-showcase/kinetic-scenes",
+      "why": "generative or physics compositions"
+    },
+    "specimen-showcase/use-case-tabs": {
+      "to": "specimen-showcase/use-case-samples",
+      "why": "renamed"
+    },
+    "specimen-showcase/multiscript-lines": {
+      "to": "language-support/multiscript-specimen",
+      "why": "its purpose is showing script coverage"
+    },
+    "family-overview/text-block-per-style": {
+      "to": "family-overview/style-word-grid",
+      "why": "styles plus samples; a paragraph instead of a word"
+    },
+    "family-overview/axis-matrix": {
+      "to": "family-overview/designspace-map",
+      "why": "family laid out along its axes"
+    },
+    "family-overview/instance-picker": {
+      "to": "family-overview/designspace-map",
+      "why": "family laid out along its axes, clickable"
+    },
+    "design-details/overlay-comparison": {
+      "to": "design-details/feature-before-after",
+      "why": "comparison by overlay"
+    },
+    "design-details/typewriter-word-cycle": {
+      "to": "design-details/feature-before-after",
+      "why": "alternates compared in sequence"
+    },
+    "design-details/feature-index-cards": {
+      "to": "design-details/feature-index",
+      "why": "renamed; toggles optional"
+    },
+    "design-details/alternate-tiles": {
+      "to": "design-details/feature-index",
+      "why": "a catalogue of alternates"
+    },
+    "design-details/feature-config-builder": {
+      "to": "design-details/feature-index",
+      "why": "a catalogue plus export of settings"
+    },
+    "design-details/axis-steps": {
+      "to": "design-details/axis-explainer",
+      "why": "axis demonstrated by labelled steps"
+    },
+    "design-details/fit-to-frame-animation": {
+      "to": "design-details/axis-explainer",
+      "why": "axis demonstrated by animation"
+    },
+    "design-details/numbered-figures": {
+      "to": "design-details/annotated-specimen",
+      "why": "annotated figures"
+    },
+    "design-details/design-notes-carousel": {
+      "to": "design-details/design-notes",
+      "why": "merged sequence formats"
+    },
+    "design-details/topic-video-tiles": {
+      "to": "design-details/design-notes",
+      "why": "merged sequence formats"
+    },
+    "download-open-source/licence-summary-download": {
+      "to": "checkout/free-download",
+      "why": "free fonts' checkout"
+    },
+    "download-open-source/install-guide": {
+      "to": "checkout/free-download",
+      "why": "free fonts' checkout"
+    },
+    "download-open-source/build-configurator": {
+      "to": "checkout/build-configurator",
+      "why": "free fonts' checkout"
+    },
+    "section-divider/scroll-door-animation": {
+      "to": "interlude/scroll-door-animation",
+      "why": "type renamed"
+    }
   }
 }

@@ -1,0 +1,373 @@
+{
+  "generatedAt": "2026-10-27T21:54:56.440Z",
+  "sites": 1,
+  "sections": {
+    "hero": {
+      "title": "Hero",
+      "types": {
+        "hero": {
+          "prop-collage": [
+            {
+              "id": "gt-america-com#00",
+              "slug": "gt-america-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-america-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ]
+        },
+        "intro-animation": {}
+      }
+    },
+    "story": {
+      "title": "Story",
+      "types": {
+        "story": {
+          "large-text-intro": [
+            {
+              "id": "gt-america-com#01",
+              "slug": "gt-america-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-america-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-america-com#04",
+              "slug": "gt-america-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/gt-america-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-america-com#11",
+              "slug": "gt-america-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/gt-america-com/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-america-com#16",
+              "slug": "gt-america-com",
+              "blocks": [
+                "16"
+              ],
+              "crop": "archive/gt-america-com/blocks/16.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-america-com#19",
+              "slug": "gt-america-com",
+              "blocks": [
+                "19"
+              ],
+              "crop": "archive/gt-america-com/blocks/19.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ]
+        }
+      }
+    },
+    "glyph-table": {
+      "title": "Glyph table",
+      "types": {
+        "glyph-table": {
+          "glyph-inspector": [
+            {
+              "id": "gt-america-com#20",
+              "slug": "gt-america-com",
+              "blocks": [
+                "20"
+              ],
+              "crop": "archive/gt-america-com/blocks/20.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ]
+        },
+        "language-support": {
+          "multiscript-specimen": [
+            {
+              "id": "gt-america-com#05",
+              "slug": "gt-america-com",
+              "blocks": [
+                "05",
+                "07",
+                "08"
+              ],
+              "crop": "archive/gt-america-com/blocks/05.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-america-com#13",
+              "slug": "gt-america-com",
+              "blocks": [
+                "13"
+              ],
+              "crop": "archive/gt-america-com/blocks/13.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "script-catalogue": [
+            {
+              "id": "gt-america-com#12",
+              "slug": "gt-america-com",
+              "blocks": [
+                "12"
+              ],
+              "crop": "archive/gt-america-com/blocks/12.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": true
+            }
+          ],
+          "coverage-table": [
+            {
+              "id": "gt-america-com#21",
+              "slug": "gt-america-com",
+              "blocks": [
+                "21"
+              ],
+              "crop": "archive/gt-america-com/blocks/21.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": true
+            }
+          ]
+        }
+      }
+    },
+    "type-tester": {
+      "title": "Type tester",
+      "types": {
+        "type-tester": {
+          "per-row-controls": [
+            {
+              "id": "gt-america-com#26",
+              "slug": "gt-america-com",
+              "blocks": [
+                "26"
+              ],
+              "crop": null,
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ]
+        },
+        "playground-app": {},
+        "game": {}
+      }
+    },
+    "specimen-showcase": {
+      "title": "Specimen showcase",
+      "types": {
+        "specimen-showcase": {
+          "prop-collage": [
+            {
+              "id": "gt-america-com#06",
+              "slug": "gt-america-com",
+              "blocks": [
+                "06",
+                "09"
+              ],
+              "crop": "archive/gt-america-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-america-com#10",
+              "slug": "gt-america-com",
+              "blocks": [
+                "10"
+              ],
+              "crop": "archive/gt-america-com/blocks/10.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-america-com#14",
+              "slug": "gt-america-com",
+              "blocks": [
+                "14"
+              ],
+              "crop": "archive/gt-america-com/blocks/14.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-america-com#15",
+              "slug": "gt-america-com",
+              "blocks": [
+                "15"
+              ],
+              "crop": "archive/gt-america-com/blocks/15.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-america-com#18",
+              "slug": "gt-america-com",
+              "blocks": [
+                "18"
+              ],
+              "crop": "archive/gt-america-com/blocks/18.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ]
+        },
+        "family-overview": {
+          "designspace-map": [
+            {
+              "id": "gt-america-com#02",
+              "slug": "gt-america-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/gt-america-com/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ]
+        },
+        "interlude": {}
+      }
+    },
+    "design-details": {
+      "title": "Design details",
+      "types": {
+        "design-details": {
+          "axis-explainer": [
+            {
+              "id": "gt-america-com#03",
+              "slug": "gt-america-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/gt-america-com/blocks/03.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "annotated-specimen": [
+            {
+              "id": "gt-america-com#17",
+              "slug": "gt-america-com",
+              "blocks": [
+                "17"
+              ],
+              "crop": "archive/gt-america-com/blocks/17.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "feature-before-after": [
+            {
+              "id": "gt-america-com#17",
+              "slug": "gt-america-com",
+              "blocks": [
+                "17"
+              ],
+              "crop": "archive/gt-america-com/blocks/17.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ]
+        },
+        "comparison": {}
+      }
+    },
+    "checkout": {
+      "title": "Checkout",
+      "types": {
+        "checkout": {
+          "link-out-cta": [
+            {
+              "id": "gt-america-com#23",
+              "slug": "gt-america-com",
+              "blocks": [
+                "23"
+              ],
+              "crop": "archive/gt-america-com/blocks/23.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ]
+        },
+        "testimonials": {},
+        "newsletter": {}
+      }
+    },
+    "footer": {
+      "title": "Footer",
+      "types": {
+        "footer": {
+          "big-sign-off": [
+            {
+              "id": "gt-america-com#24",
+              "slug": "gt-america-com",
+              "blocks": [
+                "24"
+              ],
+              "crop": "archive/gt-america-com/blocks/24.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ]
+        },
+        "navigation": {
+          "related-projects": [
+            {
+              "id": "gt-america-com#22",
+              "slug": "gt-america-com",
+              "blocks": [
+                "22"
+              ],
+              "crop": "archive/gt-america-com/blocks/22.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ]
+        },
+        "chrome": {}
+      }
+    }
+  }
+}

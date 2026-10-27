@@ -1,5 +1,7 @@
 # language-support
 
+_Section: Glyph table (discovered type, alongside glyph-table)_
+
 Script and language coverage.
 
 Sample: 3 blocks from 3 sites.

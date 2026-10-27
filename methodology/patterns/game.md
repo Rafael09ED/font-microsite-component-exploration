@@ -1,5 +1,7 @@
 # game
 
+_Section: Type tester (discovered type, alongside type-tester)_
+
 A playable game made with the font.
 
 Sample: 1 blocks from 1 sites.

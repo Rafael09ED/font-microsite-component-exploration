@@ -1,0 +1,941 @@
+{
+  "slug": "gt-america-com",
+  "extractedBy": "claude",
+  "summary": "A long single page in four colour-coded chapters (Concept, Languages, Design, Information), driven by one illustrated world: retro American-Swiss snack packaging and airline props, set in every script the family covers. The type tester is a hidden drawer opened from a fixed '↓ Type Tester' link.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "prop-collage",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "playful, retro packaging, global",
+        "mobile": "adapts",
+        "carrier": "props",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "Pile of flat-illustrated snack boxes, cans and badges in red-orange and electric blue on white, every label set in GT America in many scripts",
+      "feel": "Cheerful, nostalgic, international",
+      "ux": "Fixed corner links: name top-left, '↓ Type Tester' top-right, chapter index and '↑ Trials ↗ Buy' bottom-left",
+      "learn": "Invent a product universe (snack brands) and letter every package in a different script: the hero proves multi-script coverage before any copy",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×810 (90vh); collage of ~25 overlapping illustrated packages filling the top ~80%, cropped at the edges; family name starts just below the fold at y≈810, 132px left margin",
+        "typography": "Package labels in many weights and widths of GT America (Latin, Greek, Cyrillic, Japanese, Korean, Thai); UI corner links ~12px Mono; name 108px Regular blue in the next block",
+        "palette": [
+          "#ffffff",
+          "#fd3402",
+          "#0303fd"
+        ],
+        "behaviour": "White loader screen ('Loading data. Please wait.') for ~2s before the page shows; the collage is static; corner links stay fixed",
+        "content": "Fake retro snack brands (Pork Skins, Fruit Candy, Bazooka, Hotdog, Popcorn, Nougats) with copy in each script",
+        "assets": "Two-colour vector illustrations of ~25 packages (flat, slight isometric tilt)",
+        "html": "fixed corner nav outside the scroller; the page scrolls <body>, not the window"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "confident, explanatory",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Blue family name at 108px, then a 7-line intro paragraph set at ~36px in blue on white, indented 132px",
+      "feel": "Calm, authoritative",
+      "ux": "static",
+      "learn": "Set the 'about' paragraph at a text-display size so the description doubles as a specimen of the text weights",
+      "reconstruction": {
+        "layout": "Left offset 132px, text column ~1300px wide, ~450px tall; name line then paragraph, generous top margin",
+        "typography": "Name: 108px GT America Intl Regular (wdth 100, wght 350), sentence case; paragraph: ~36px Regular, leading ~1.15, blue",
+        "palette": [
+          "#ffffff",
+          "#0303fd"
+        ],
+        "behaviour": "none",
+        "content": "Real positioning copy: 'GT America connects two centuries of typographic genres…'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "systematic, Swiss",
+        "mobile": "shrinks",
+        "structure": "matrix",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "Hairline-ruled table: five width columns (Compressed → Expanded), rows of 'Aa Bb Cc…' pairs stepping through the weights, light rows blue and bold rows orange",
+      "feel": "Rigorous, reference-like",
+      "ux": "static",
+      "learn": "A width × weight matrix of letter pairs shows the whole design space in one screen, with no style names to read",
+      "reconstruction": {
+        "layout": "Table 1308px wide from x=132, 5 equal columns with column headers in 10px Mono caps; ~7 rows, each with 5 cells of a letter pair, thin blue rules between cells",
+        "typography": "Pairs ~50px; column = width (wdth 50, 75, 100, 125, 150), row = weight from 100 (top) to 900 (bottom); headers 10px GT America Mono uppercase, tracked",
+        "palette": [
+          "#ffffff",
+          "#0303fd",
+          "#fd3402"
+        ],
+        "behaviour": "none",
+        "content": "Alphabet letter pairs in order, continuing across cells (Aa Bb Cc …)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, bold",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "'America' set huge in red-orange twice (Intl and Mono), each line topped by a Mono readout '● 100 WDTH ● 500 WGHT ○ 0° ○ 287 PX'",
+      "feel": "Mechanical, precise",
+      "ux": "The words animate along their axes while the readout labels show the live values (CSS keyframes on font-variation-settings)",
+      "learn": "Pair an animated axis sweep with a live inspector-style readout so visitors read the numbers while they watch the shape change",
+      "reconstruction": {
+        "layout": "Heading 'Variable Fonts' in the left gutter; two lines of one word each, ~290px and ~255px tall, overflowing the right edge",
+        "typography": "Readout: 10px GT America Mono caps, filled or empty dots mark the active axis; words ~287px and ~255px, GT America Intl then Intl Mono, red-orange",
+        "palette": [
+          "#ffffff",
+          "#fd3402",
+          "#0303fd"
+        ],
+        "behaviour": "Looping keyframe animation of wdth (and wght) with matching numeric readouts; filled dot = axis being animated",
+        "content": "One word, the family name",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "historical, explanatory",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "A second large-set paragraph in blue on white about the American Gothic model",
+      "feel": "Didactic",
+      "ux": "static",
+      "learn": "Short origin facts work as a large-text paragraph without needing archival images",
+      "reconstruction": {
+        "layout": "Same column as the intro: x=132, ~1300px wide, ~370px tall",
+        "typography": "~36px GT America Intl Regular, blue, leading ~1.15",
+        "palette": [
+          "#ffffff",
+          "#0303fd"
+        ],
+        "behaviour": "none",
+        "content": "'The prototypical American Gothic is an early version of the sans serif model…'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "07",
+        "08"
+      ],
+      "type": "language-support",
+      "variant": "multiscript-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "playful, multilingual",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": true
+      },
+      "look": "A waterfall of food headlines, each in another script and colour (orange/blue alternating), each tagged with a Mono readout of script, width, weight, slant and px size; animated cowboy hot-dog mascot on the left",
+      "feel": "Lively, menu-like, global",
+      "ux": "Lines animate their wdth or wght (the filled dot shows which); Lottie mascot animation; '↓ Type Tester' link at the right",
+      "learn": "Tag every sample line with its exact settings (script · wdth · wght · slant · px): the specimen teaches the system while showing it",
+      "reconstruction": {
+        "layout": "Mascot column ~260px on the left; lines from x≈490 to the right edge; 7 lines in a size waterfall 230 → 144 → 86 → 54 → 32 → 21 → 14px, each with a 10px readout row above",
+        "typography": "Readout: 10px GT America Mono caps with ○/● axis markers; samples in GT America Intl, Cyrillic, Greek, Vietnamese, Arabic, Devanagari, Hebrew, Korean, Thai, weights 200–900, italic for some lines",
+        "palette": [
+          "#ffffff",
+          "#fd3402",
+          "#0303fd"
+        ],
+        "behaviour": "Each line animates one axis (data-x-axes wdth 50–150) in a loop; mascot is a Lottie JSON animation (character-cowboy-001.json)",
+        "content": "Food copy translated per script: 'It's Good Like That', 'Little Too Sweet For…', 'This Dessert Gathers A Rating…'",
+        "assets": "Lottie mascot animations (cowboy hot dog, waving hot dog)",
+        "html": "[data-component=axes-overview] > [data-component=axes-overview__sample] with data-x-axes, data-x-axes-min/max; readouts in axes-overview__wdth-text / __wght-text / __font-size-text"
+      }
+    },
+    {
+      "blocks": [
+        "06",
+        "09"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "retro packaging, witty",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "grid"
+      },
+      "look": "Loose grid of flat packaging illustrations (caviar tin, milk-chocolate boxes, popcorn bags), each captioned 'GT AMERICA GREEK / THAI / CYRILLIC…' in Mono",
+      "feel": "Collectible, catalogue-like",
+      "ux": "static",
+      "learn": "Caption each prop with the script it demonstrates, so the illustration grid is also a coverage index",
+      "reconstruction": {
+        "layout": "Irregular 3–4 column grid of illustrations at different sizes (~200–420px), lots of white space, captions above each in 10px Mono",
+        "typography": "Packaging lettering in many weights and widths across scripts; captions 10px GT America Mono caps",
+        "palette": [
+          "#ffffff",
+          "#fd3402",
+          "#0303fd"
+        ],
+        "behaviour": "none",
+        "content": "Fake products: American Caviar, Pal sandwich, Masters of Helvetia milk chocolate, Pop Pop Pop snappers",
+        "assets": "Two-colour vector packaging illustrations"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "travel, global",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "single"
+      },
+      "look": "Chapter opener: full-screen electric-blue field with an isometric spread of airline props (mugs, passport, boarding passes, air-sickness bag) lettered in many scripts",
+      "feel": "Jet-set, optimistic",
+      "ux": "static; marks the start of the Languages chapter",
+      "learn": "Switch the background colour and the prop theme at each chapter: colour-coded chapters give a long page clear rhythm",
+      "reconstruction": {
+        "layout": "Full-bleed 100vh panel; props arranged isometrically from bottom-left to top-right",
+        "typography": "Prop labels in GT America across scripts (Hindi, Korean, Russian, Chinese)",
+        "palette": [
+          "#0202fd",
+          "#ffffff",
+          "#fd3402"
+        ],
+        "behaviour": "none",
+        "content": "Fictional 'American Swissair' airline paraphernalia",
+        "assets": "Isometric two-colour vector illustration"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "collaborative, global",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Chapter heading 'Going Global' at 108px and a large white paragraph on blue naming the partner foundries and scripts inline in their own scripts",
+      "feel": "Generous, collaborative",
+      "ux": "static",
+      "learn": "Write script names inline in their own script (عربي, देवनागरी, עברית) inside the English prose",
+      "reconstruction": {
+        "layout": "Same left offset (132px), heading then ~36px paragraph, ~450px tall",
+        "typography": "Heading 108px Regular white; paragraph ~36px Regular white with inline Arabic, Devanagari, Hebrew, Korean and Thai",
+        "palette": [
+          "#0303fd",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Credits the collaborating foundries per script",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "language-support",
+      "variant": "script-catalogue",
+      "newVariant": true,
+      "variantDefinition": "Each supported script named in its own script at display size, in a grid, with style counts and short notes on how it was made",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "orderly, proud",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": true
+      },
+      "look": "On blue, a two-column grid of script names (Latin, Кирилиця, Ελληνικά, Chữ Việt, عربي, देवनागरी, עברית, 한글, 简体中文, 繁體中文, 日本語) in white at ~60px, each with a Mono label and '6 widths · 7 weights'",
+      "feel": "Calm, encyclopedic",
+      "ux": "static",
+      "learn": "Naming each script in itself is the most direct coverage proof; add counts per script for the buyer",
+      "reconstruction": {
+        "layout": "Left gutter with section notes ('The Original Four', 'Intl Expansion', 'Matching Japanese & Chinese'); right two-column grid, rows ~140px, hairline rules",
+        "typography": "Script names ~60px Regular white, centred in their cells; labels 10px Mono caps; notes 13px",
+        "palette": [
+          "#0303fd",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Script names and style counts; notes on partner foundries",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "language-support",
+      "variant": "multiscript-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "editorial",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": true
+      },
+      "look": "Left 'View Scripts' tab list; on the right a headline 'Tasty P…' (~158px), subhead 'No Additional Preservatives' (~70px) and two-column body text in white on blue, each with a Mono settings readout",
+      "feel": "Magazine-like",
+      "ux": "Clicking a script in the left list swaps the headline, subhead and body samples to that script",
+      "learn": "Show each script at three roles (headline, subhead, body), not just one line, so typesetters see the full hierarchy",
+      "reconstruction": {
+        "layout": "Script tab list in the left gutter (12px); samples column from x≈260: headline, subhead, then 2-column body text ~14px",
+        "typography": "Headline ~158px Medium, subhead ~70px Medium, body ~14px Regular; readouts 10px Mono",
+        "palette": [
+          "#0303fd",
+          "#ffffff"
+        ],
+        "behaviour": "Tabs switch the sample set per script",
+        "content": "Food copy (apple pie) translated per script",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "travel, retro airline",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "series"
+      },
+      "look": "Long blue section of airline ephemera (tickets, baggage tags, playing cards, badges) interleaved with multiscript sample lines tagged with weight readouts",
+      "feel": "Busy, celebratory",
+      "ux": "Sample lines animate weight; mascots animate",
+      "learn": "Alternate artefacts and tagged sample lines so the showcase never goes more than a screen without real text",
+      "reconstruction": {
+        "layout": "~3900px tall; alternating rows: illustration clusters (~400–600px) and full-width sample lines with readouts",
+        "typography": "Display lines 60–170px in Korean, Arabic, Devanagari, Cyrillic, Greek, Latin; readouts 10px Mono",
+        "palette": [
+          "#0303fd",
+          "#ffffff",
+          "#fd3402"
+        ],
+        "behaviour": "Axis animations on the sample lines (wght)",
+        "content": "Airline and travel copy (airports, flight codes) per script",
+        "assets": "Vector airline ephemera illustrations"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "retro packaging",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "single"
+      },
+      "look": "Design-chapter opener: isometric still life of packaging (Astro Galaxy, Black Bat, Glow Worms) on white",
+      "feel": "Toy-shop, nostalgic",
+      "ux": "static",
+      "learn": "Reuse the same illustration language for every chapter opener to tie a long page together",
+      "reconstruction": {
+        "layout": "Full-bleed ~100vh panel",
+        "typography": "Package lettering across weights and scripts",
+        "palette": [
+          "#ffffff",
+          "#0303fd",
+          "#fd3402"
+        ],
+        "behaviour": "none",
+        "content": "Fictional toy and snack brands",
+        "assets": "Isometric two-colour vector illustration"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "explanatory",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'Design Union' heading and a large orange paragraph on white about synthesising Gothic and Grotesk",
+      "feel": "Measured",
+      "ux": "static",
+      "learn": "Chapter intros in the same large-paragraph format make a predictable reading rhythm",
+      "reconstruction": {
+        "layout": "x=132, heading + ~36px paragraph, ~410px tall",
+        "typography": "Heading 108px Regular orange; paragraph ~36px Regular orange",
+        "palette": [
+          "#ffffff",
+          "#fd3402"
+        ],
+        "behaviour": "none",
+        "content": "Design rationale (Noël Leu, ten-year development)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "expert, playful",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "scripts",
+          "spacing"
+        ],
+        "presentation": "annotation",
+        "explanation": "prose"
+      },
+      "look": "Sequence of design topics (terminal angles, weight development, stroke flow, inward curving, inktraps, stroke contrast), each a huge orange glyph with degree callouts or Bézier points, the same detail shown across scripts, a short text column, and a cartoon mascot",
+      "feel": "Expert but light-hearted",
+      "ux": "A sticky left index (Width & Weight, Stroke Flow, Adjustments, Details) highlights the current topic as you scroll",
+      "learn": "Show each design decision on the Latin glyph and then on the same feature in Greek, Thai, Arabic and Devanagari: the 'family resemblance' across scripts becomes visible",
+      "reconstruction": {
+        "layout": "~4100px tall; sticky topic index in the left gutter (~130px); each topic is a row with a big glyph (300–600px), a cluster of small script variants (~120px) with labels, and a 250px text column; hairline rules between topics",
+        "typography": "Glyphs 300–600px orange (Bold to Black); script labels 10px Mono caps; angle callouts 14px; body 13px Regular blue",
+        "palette": [
+          "#ffffff",
+          "#fd3402",
+          "#0303fd"
+        ],
+        "behaviour": "Sticky index highlighting the current topic; mascots animate (Lottie); no interaction on glyphs",
+        "content": "Real design notes: terminal angles 4°/7°/25°, inktraps that grow with weight, inward-curving strokes",
+        "assets": "Annotated glyph SVGs with angle markers and Bézier points; mascot Lottie files"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "precise",
+        "mobile": "adapts",
+        "subject": [
+          "alternates",
+          "scripts"
+        ],
+        "presentation": "toggle",
+        "explanation": "caption"
+      },
+      "look": "At the end of the details chapter, three samples (Latin 'Hijinx!', Cyrillic 'Болгарія', Arabic) each under a Mono caption 'CIRCULAR DOTS OFF' / 'BULGARIAN VARIANTS OFF'",
+      "feel": "Utilitarian",
+      "ux": "Buttons toggle the feature on/off per sample; the caption reflects the state",
+      "learn": "Use the caption itself as the state indicator ('… OFF'): no separate switch UI needed",
+      "reconstruction": {
+        "layout": "Row of three equal columns, ~200px tall, each with a caption above a ~60px sample",
+        "typography": "Samples ~60px Regular orange; captions 10px Mono caps",
+        "palette": [
+          "#ffffff",
+          "#fd3402"
+        ],
+        "behaviour": "Click toggles the OpenType feature (localized forms, ss for circular dots) and flips the caption ON/OFF",
+        "content": "Words chosen to contain the affected glyphs",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "snack-aisle",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "single"
+      },
+      "look": "Information-chapter opener: red-orange field with packaging (potato chips, Hebrew and Greek products) scattered at the edges",
+      "feel": "Bright, fun",
+      "ux": "static",
+      "learn": "Leaving the centre empty in a chapter opener frames the next heading",
+      "reconstruction": {
+        "layout": "Full-bleed ~100vh; props at the edges, empty centre",
+        "typography": "Package lettering in Hebrew, Greek, Korean, Latin",
+        "palette": [
+          "#fd3501",
+          "#0c0df6",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Fictional snack brands",
+        "assets": "Vector packaging illustrations"
+      }
+    },
+    {
+      "blocks": [
+        "19"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "confident",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'Universal Typographic Tool' heading and a large white paragraph on red-orange ('your Swiss Army Knife of typography, a passport to everywhere')",
+      "feel": "Assured, sales-minded",
+      "ux": "static",
+      "learn": "Close the page's argument with a one-paragraph positioning statement right before the technical information",
+      "reconstruction": {
+        "layout": "x=132, heading + ~36px paragraph, ~410px",
+        "typography": "Heading 108px Regular white; paragraph ~36px Regular white",
+        "palette": [
+          "#fb3403",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Positioning copy",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "20"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "technical",
+        "mobile": "shrinks",
+        "coverage": "by-category",
+        "interaction": "select",
+        "metricsShown": false,
+        "namesOrUnicode": true
+      },
+      "look": "On red-orange: a white square preview of the selected glyph ('Á', ~300px) beside a dense grid of the character set grouped as Basic Alphabet, Diacritics, Numbers & Punctuation, Alternates",
+      "feel": "Tool-like, exhaustive",
+      "ux": "Left list picks the script; Standard/Regular/Wide and style selectors; hovering or clicking a grid cell shows the glyph large with its Unicode",
+      "learn": "Group the grid by category with headings and keep a big preview square pinned: browsing becomes inspecting",
+      "reconstruction": {
+        "layout": "Script list in the left gutter; preview square ~420×420px white; grid ~650px wide to the right, cells ~28px, category headings 10px Mono",
+        "typography": "Preview glyph ~300px orange; grid glyphs ~18px white; labels 10px Mono caps",
+        "palette": [
+          "#fd3402",
+          "#ffffff"
+        ],
+        "behaviour": "Hover or click a cell → preview updates; selectors change width/style",
+        "content": "Full character set per script",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "21"
+      ],
+      "type": "language-support",
+      "variant": "coverage-table",
+      "newVariant": true,
+      "variantDefinition": "A per-script specification table: designers, axes, widths and weights, and the full list of supported languages",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "reference",
+        "mobile": "shrinks",
+        "method": "list",
+        "nonLatin": true
+      },
+      "look": "Red-orange spec sheet: one row per script (Latin, Cyrillic, Greek, Vietnamese, Arabic…) with credits, 'Variable Axes: Width, Weight', style counts and a long paragraph of language names",
+      "feel": "Dry, complete",
+      "ux": "static",
+      "learn": "Put the exhaustive language list at the end, in a table, for the buyer who needs to check one language",
+      "reconstruction": {
+        "layout": "~1700px tall table; columns: script name + credits (~300px), axes/widths/weights (~250px), languages paragraph (~600px); hairline rules",
+        "typography": "All ~12–13px Regular white; script headings ~13px Medium",
+        "palette": [
+          "#fd3703",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Credits per script (designers, partner foundries) and supported language lists",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "22"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "brand family",
+        "mobile": "adapts"
+      },
+      "look": "'More from Grilli Type': two columns of other GT family names at ~40px, each with a small Swiss-flag-style shield icon; the colophon sits just above",
+      "feel": "Branded, collectible",
+      "ux": "Each name links to that family's microsite",
+      "learn": "Give each sibling family a heraldic mini-logo so the cross-links feel like a collection",
+      "reconstruction": {
+        "layout": "Two columns of ~10 rows, ~45px rows, icon 28px + name",
+        "typography": "Names ~40px Regular white",
+        "palette": [
+          "#fd3402",
+          "#ffffff",
+          "#0303fd"
+        ],
+        "behaviour": "none",
+        "content": "List of Grilli Type families",
+        "assets": "Shield icons per family"
+      }
+    },
+    {
+      "blocks": [
+        "23"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "direct",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Large white text rows 'Buy GT America Intl Licensing ↗', 'Download Free Trial Fonts ↓', 'Download PDF Specimen ↓' on red-orange, each with an outlined pill or circle button",
+      "feel": "Confident, uncluttered",
+      "ux": "Buy links to the Grilli Type shop; trial fonts and PDF specimen download directly",
+      "learn": "Offer the PDF specimen next to the trial: a take-away for people who aren't ready to buy",
+      "reconstruction": {
+        "layout": "Stack of three full-width rows, ~140px each, text left with outlined circle (~120px) or pill (~600px) buttons",
+        "typography": "~60px Regular white with arrow glyphs ↗ ↓",
+        "palette": [
+          "#fc3403",
+          "#ffffff"
+        ],
+        "behaviour": "Hover inverts the button fill (likely)",
+        "content": "Three CTAs: buy, trial, PDF",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "24"
+      ],
+      "type": "footer",
+      "variant": "big-sign-off",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "exuberant ending",
+        "mobile": "adapts",
+        "contains": [
+          "sign-off"
+        ]
+      },
+      "look": "Closing full-screen pile-up of every package and airline prop on red-orange",
+      "feel": "Party, abundance",
+      "ux": "static end of page",
+      "learn": "End with the whole illustrated universe at once, a visual 'curtain call'",
+      "reconstruction": {
+        "layout": "Full-bleed ~830px; dense overlapping collage edge to edge",
+        "typography": "Prop lettering in all scripts",
+        "palette": [
+          "#fb3404",
+          "#0607f8",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "All the fictional brands",
+        "assets": "Vector collage"
+      }
+    },
+    {
+      "blocks": [
+        "26"
+      ],
+      "type": "type-tester",
+      "variant": "per-row-controls",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "practical, multilingual",
+        "mobile": "unknown",
+        "controls": [
+          "text",
+          "weight",
+          "axes",
+          "style-select",
+          "language"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A full-screen drawer (hidden off-canvas, captured in HTML only) with ~16 sample rows, each with a script select, a style select and width/weight sliders with numeric readouts above editable text at large, medium or small size",
+      "feel": "Thorough, professional",
+      "ux": "Opened from the fixed '↓ Type Tester' link; per row: pick script and named instance or 'Variable', drag wdth 50–150 and wght 100–900, type over the sample; RTL rows for Arabic and Hebrew",
+      "learn": "Keep the tester in a drawer reachable from every screen: the long story page stays clean, and testing is one click away anywhere",
+      "reconstruction": {
+        "layout": "Off-canvas panel the size of the viewport, sliding in from the top; rows stacked, each a control area (two selects + two sliders with value readouts) above a contenteditable sample; sizes l/m/s",
+        "typography": "Samples at l ≈ 150px, m ≈ 70px, s ≈ 16px paragraph; controls 10–12px Mono",
+        "palette": [
+          "#ffffff",
+          "#0303fd",
+          "#fd3402"
+        ],
+        "behaviour": "Slider input → font-variation-settings on the sample; style select sets wght from data-wght (100–900) or 'Variable' for free sliders; script select swaps font family and sample text; per-language lang and dir attributes",
+        "content": "Themed food copy per language: 'Tasty Mixture', 'No Additional Preservatives', 'Apple pie can be made with many different sorts of apples…', 'Київські Троянди'",
+        "assets": "none",
+        "html": "[data-component=tt__sample] > tt__control-area (tt__sample-options__script select, tt__sample-options__styles select with option[data-wght], tt__wdth-slider, tt__wght-slider, tt__wdth-value, tt__wght-value) + tt__sample-text[contenteditable][data-size=l|m|s][lang][dir]"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "25",
+      "reason": "loader overlay ('Loading data. Please wait.'), shown for ~2s before the page"
+    }
+  ],
+  "sequence": [
+    "hero/prop-collage",
+    "story/large-text-intro",
+    "family-overview/designspace-map",
+    "design-details/axis-explainer",
+    "story/large-text-intro",
+    "language-support/multiscript-specimen",
+    "specimen-showcase/prop-collage",
+    "story/large-text-intro",
+    "language-support/script-catalogue",
+    "language-support/multiscript-specimen",
+    "specimen-showcase/prop-collage",
+    "story/large-text-intro",
+    "design-details/annotated-specimen",
+    "design-details/feature-before-after",
+    "specimen-showcase/prop-collage",
+    "story/large-text-intro",
+    "glyph-table/glyph-inspector",
+    "language-support/coverage-table",
+    "checkout/link-out-cta",
+    "footer/big-sign-off",
+    "type-tester/per-row-controls"
+  ]
+}

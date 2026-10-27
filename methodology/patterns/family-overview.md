@@ -1,5 +1,7 @@
 # family-overview
 
+_Section: Specimen showcase (discovered type, alongside specimen-showcase)_
+
 The family's styles and structure at a glance.
 
 Sample: 10 blocks from 10 sites.

@@ -11,7 +11,7 @@ _Generated from `data/progress.json` by `scripts/lib/progress.mjs` — edit via 
 - [x] Phase 2.2 — Sample ~250 blocks across sites, contact sheets, label each sheet — 28/28 sheets labelled — 250 blocks, 28 sheets labelled (6 by Claude, 22 by agents)
 - [x] Phase 2.3 — Cluster instances by component similarity — taxonomy.json: 19 types / 84 variants; DOM features predict type 41%
 - [ ] Phase 2.4 — Write METHOD.md + patterns/*.md, review together — METHOD.md written — awaiting review of the 4 decisions
-- [ ] Phase 3 — Extract: type + variant + rubric + note per block — 0/181 done
+- [ ] Phase 3 — Extract: type + variant + rubric + note per block — 1/181 done
 - [ ] Phase 4 — Gallery & playground
 
 ## Sites
@@ -19,7 +19,7 @@ _Generated from `data/progress.json` by `scripts/lib/progress.mjs` — edit via 
 Legend: ✓ done · ✗ failed · … interrupted · ↻ stale (older method, will redo) · – skipped · ☐ pending
 
 - [ ] 001 [gt-walsheim-com](https://gt-walsheim.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 002 [gt-america-com](https://www.gt-america.com) — archive ✓ · blocks ✓ · extract ☐
+- [x] 002 [gt-america-com](https://www.gt-america.com) — archive ✓ · blocks ✓ · extract ✓
 - [ ] 003 [gt-cinetype-com](https://gt-cinetype.com) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 004 [gt-eesti-com](https://gt-eesti.com) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 005 [gt-ultra-com](https://gt-ultra.com) — archive ✓ · blocks ✓ · extract ☐

@@ -1,5 +1,7 @@
 # glyph-table
 
+_Section: Glyph table_
+
 The character set itself, all or by category.
 
 Sample: 21 blocks from 21 sites.

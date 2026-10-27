@@ -1,5 +1,7 @@
 # interlude
 
+_Section: Specimen showcase (discovered type, alongside specimen-showcase)_
+
 Pure transition between sections; no information.
 
 Sample: 1 blocks from 1 sites.

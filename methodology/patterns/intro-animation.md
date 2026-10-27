@@ -1,5 +1,7 @@
 # intro-animation
 
+_Section: Hero (discovered type, alongside hero)_
+
 A timed or pinned full-screen sequence played before the page proper, like film opening titles.
 
 Sample: 2 blocks from 1 sites.

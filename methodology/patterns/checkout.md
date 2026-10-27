@@ -1,5 +1,7 @@
 # checkout
 
+_Section: Checkout_
+
 How the visitor acquires the font: purchase, trial or free download.
 
 Sample: 17 blocks from 17 sites.

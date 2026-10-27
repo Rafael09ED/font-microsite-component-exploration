@@ -1,5 +1,7 @@
 # footer
 
+_Section: Footer_
+
 The end of the page: colophon, contact, legal.
 
 Sample: 18 blocks from 17 sites.

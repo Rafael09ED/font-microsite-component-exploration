@@ -1,5 +1,7 @@
 # chrome
 
+_Section: Footer (discovered type, alongside footer)_
+
 Site furniture that is not specimen content (banners, nav).
 
 Sample: 2 blocks from 2 sites.

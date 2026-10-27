@@ -22,6 +22,8 @@ Collects and compares components from 181 font microsites ([font-microsite-urls.
 - `scripts/labels.mjs`: merges `methodology/labels/sheet-NN.json` → `variants.json` + `label-summary.md`. The protocol is in [methodology/LABELING.md](methodology/LABELING.md)
 - `scripts/cluster.mjs`: Phase 2.3 → `methodology/cluster-report.md` + per-variant contact sheets in `methodology/variants/` (committed, so the pattern pages show images without the archive)
 - `scripts/patterns.mjs`: `methodology/PATTERNS.md` + `patterns/<type>.md` from `taxonomy.json`
+- `scripts/extract.mjs`: Phase 3. `prepare` builds the per-site evidence pack in `archive/<slug>/pack/` (facts.json with palettes, numbered overview sheets, video storyboard, mobile strip). `next` lists pending sites. `check <slug>` is read-only validation, safe for parallel agents. `sync` validates all `data/instances/*.json`, updates the tracker, and writes `data/instances/index.json` (section → type → variant) and `methodology/proposals.md`. Only the coordinator runs `sync`. The protocol is in [methodology/EXTRACTION.md](methodology/EXTRACTION.md); `data/instances/gt-america-com.json` is the reference example.
+- `methodology/taxonomy.json` has three levels: `sections` (the user's original 8) → `types` (19) → `variants`, plus `aliases`. Curate Phase 3 proposals into it, then re-run `labels`, `patterns` and `extract sync`.
 - `scripts/inspect-dom.mjs <url>…`: debugging helper that prints a page's box tree (position, overflow, scroll height). Use it when a site captures or cuts badly
 - Bump a phase's `version` in `scripts/lib/progress.mjs` when its method changes: older results become stale (↻) and get redone.
 

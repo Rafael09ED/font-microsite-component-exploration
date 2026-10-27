@@ -1,5 +1,7 @@
 # design-details
 
+_Section: Design details_
+
 The micro-decisions: features, alternates, axes, spacing, construction.
 
 Sample: 36 blocks from 29 sites.

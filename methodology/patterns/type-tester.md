@@ -1,5 +1,7 @@
 # type-tester
 
+_Section: Type tester_
+
 Interactive: the visitor types and/or drives size, axes and features.
 
 Sample: 24 blocks from 24 sites.

@@ -1,5 +1,7 @@
 # comparison
 
+_Section: Design details (discovered type, alongside design-details)_
+
 This font set against others or against previous versions.
 
 Sample: 1 blocks from 1 sites.

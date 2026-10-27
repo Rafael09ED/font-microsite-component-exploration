@@ -1,5 +1,7 @@
 # hero
 
+_Section: Hero_
+
 The above-the-fold first impression: what the visitor sees before scrolling.
 
 Sample: 48 blocks from 47 sites.

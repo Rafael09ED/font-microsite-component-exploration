@@ -1,5 +1,7 @@
 # testimonials
 
+_Section: Checkout (discovered type, alongside checkout)_
+
 Social proof from users.
 
 Sample: 2 blocks from 2 sites.

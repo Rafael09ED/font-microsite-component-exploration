@@ -1,5 +1,7 @@
 # specimen-showcase
 
+_Section: Specimen showcase_
+
 The family shown in use or in display compositions.
 
 Sample: 32 blocks from 25 sites.

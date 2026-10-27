@@ -1,5 +1,7 @@
 # playground-app
 
+_Section: Type tester (discovered type, alongside type-tester)_
+
 The whole site is an application rather than a scrolling page.
 
 Sample: 2 blocks from 2 sites.

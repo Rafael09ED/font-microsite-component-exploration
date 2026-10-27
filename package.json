@@ -11,7 +11,8 @@
     "labels": "node scripts/labels.mjs",
     "qa": "node scripts/qa.mjs",
     "cluster": "node scripts/cluster.mjs",
-    "patterns": "node scripts/patterns.mjs"
+    "patterns": "node scripts/patterns.mjs",
+    "extract": "node scripts/extract.mjs"
   },
   "keywords": [],
   "author": "",

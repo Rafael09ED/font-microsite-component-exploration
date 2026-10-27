@@ -1,5 +1,7 @@
 # newsletter
 
+_Section: Checkout (discovered type, alongside checkout)_
+
 Email capture.
 
 Sample: 1 blocks from 1 sites.
