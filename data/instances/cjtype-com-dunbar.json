@@ -1,0 +1,486 @@
+{
+  "slug": "cjtype-com-dunbar",
+  "extractedBy": "agent",
+  "summary": "A long, single-column (770px) specimen for Dunbar, a geometric sans revival of Erbar-Grotesk in three optical variants (Tall, Low, Text). It runs from a coral alphabet showing and a stack of retro posters, through fit-to-width editable pastry names labelled by style, a catalogue of OpenType features as grey-to-black before/after pairs, to a long illustrated research essay on Erbar, the designer's own account, footnotes and colophon.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed cyan bar across the top: 'DUNBAR' in dark blue, then Features, Research, Process and '↓ Buy' in white; it is painted into many crops of this capture as a cyan stripe"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "typeset-page",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "classic foundry showing",
+        "mobile": "adapts",
+        "carrier": "glyph",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "On cream, the full alphabet, figures and ampersand in thin coral Dunbar set as a justified five-line block (ABCDEFGHIJKL / MNOPQRSTUV / WXYZ0123456 / 789&abcdefghijkl / mnopqrsſztuvwxyz) signed 'DUNBAR by CJ Dunn' in bold coral",
+      "feel": "Old-specimen, calm, confident",
+      "ux": "static; fixed nav above",
+      "learn": "Open with the alphabet showing exactly as a metal-type foundry would: for a revival, the specimen page itself is the reference",
+      "reconstruction": {
+        "layout": "770px column centred (x=335–1105); alphabet block fills the column width, ~5 lines at ~105px line pitch, top ~40px under the nav; byline ~20px below; whole block ~600px tall",
+        "typography": "Alphabet ~135px Dunbar Tall Light (or Hairline-ish) in coral, tight leading (~0.8), lines justified to the column by the SVG; byline ~20px Dunbar Text Bold coral",
+        "palette": [
+          "#fef5eb",
+          "#e8573a"
+        ],
+        "behaviour": "none",
+        "content": "A–Z, 0–9, &, a–z including the long-s/ſz alternate",
+        "assets": "Alphabet as an SVG (images/alphabet_overview-03.svg)",
+        "html": "section.specimen > img.svg.overview"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "Weimar print, 70s disco, bold",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "series"
+      },
+      "look": "A column of full-width posters: big blue 'Dunbar' banner with an orange bar; 'Low' beside a stack of striped names (Lugosi, Dark, Entries, Colonel, Telegram); a blue 'LEIPZIGER MESSE' trade-fair ad (Eisen-, Stahlwerke Hoesch, Motoren); a brown poster with a rainbow-striped 'a' and a weight list Ultra → Extra Light ('Dunbar Tall'); 'Paradise Garage '77' with coloured stripes; a dense blue word list; and an animated hot-pink 'You are the observer' GIF",
+      "feel": "Exuberant, period-hopping",
+      "ux": "static images, one animated GIF",
+      "learn": "Pastiche one period per poster (1920s German trade ad, 1970s disco stripes) to show that a revival can be 'retro in more than one way'",
+      "reconstruction": {
+        "layout": "Stack of 770px-wide images, each 400–900px tall, no gaps; the series runs ~4500px between the hero and the editable words",
+        "typography": "All set in Dunbar: Low Bold and Tall Ultra for headlines, Text for the ad body copy, weight lists from Ultra to Hairline",
+        "palette": [
+          "#fbedcb",
+          "#0a4ed6",
+          "#0d3693",
+          "#ee4d2e",
+          "#6b4a35",
+          "#ff2d8a"
+        ],
+        "behaviour": "bauerisms.gif loops a line animation; others static",
+        "content": "Invented ads and posters: Leipziger Messe trade fair, Paradise Garage '77, band and record names",
+        "assets": "Raster poster images (dunbar_banner_low_6.2_1360.svg, 4_v5-01.png, 3-01.png, 2-01.png, family_overview_dark_blue.png, bauerisms.gif)",
+        "html": "img sequence inside section.specimen"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "type-tester",
+      "variant": "auto-fit-editable-lines",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "international, appetising",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Twelve pastry names from many languages (MELONPAN, Blåbärssoppa, Franzbrötchen, BAUMKUCHEN, Garrapiñadas, Nußecken, Baba-de-Moça, Berliner, KEŞKÜL-Ü FUKARA, Pfeffernüsse, Vanillekipferl, Crème anglaise) in bright blue, each filling the column width in a different style, with a tiny highlighted style label below ('Dunbar Low Regular', 'Dunbar Tall Light' …)",
+      "feel": "Tasty, lively, global",
+      "ux": "Click any word to type; size-to-width.js rescales the line to the column width; each label links to the shop entry",
+      "learn": "Pick words with the diacritics and special letters (å, ß, ñ, ç, ş) the family covers, so the fit-to-width editable list doubles as a language-coverage check",
+      "reconstruction": {
+        "layout": "770px column; each item a figure filling the width, font-size set by script (101–206px), label ~11px under the left edge with a pale-blue highlight; ~150–250px per item; 'Get Dunbar' button after the last item",
+        "typography": "Alternating Dunbar Low and Dunbar Tall in Hairline to Ultra; some upper-case (.uc) lines; labels ~11px Dunbar Text Bold on a light-blue highlight",
+        "palette": [
+          "#fef5eb",
+          "#0000ff",
+          "#bfe6f7"
+        ],
+        "behaviour": "figure[contenteditable] with class size-to-width: on load and input the font-size is recomputed so the line fills the column; FontFaceObserver delays it until the fonts load (visibility toggled)",
+        "content": "Pastry and dessert names from Japanese, Swedish, German, Spanish, Portuguese, Turkish and French",
+        "assets": "none",
+        "html": "figure.size-to-width.DunbarLowRegular.uc[contenteditable=true][style=font-size] + figcaption > a[href=/typefaces/#dunbar-series]"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "18"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "Full-column outlined 'Get Dunbar' buttons (dark-blue rounded border, bold blue label) after the editable words and after the designer's essay, plus '↓ Buy' in the fixed nav",
+      "feel": "Plain, unobtrusive",
+      "ux": "Links to the CJ Type typefaces page (one copy still points at the old Type Network shop)",
+      "learn": "A full-width outlined button closing each long section is enough when the nav also carries Buy",
+      "reconstruction": {
+        "layout": "Button 770×56px, 2px border, ~8px radius, label centred",
+        "typography": "~20px Dunbar Text Bold, blue",
+        "palette": [
+          "#fef5eb",
+          "#0f07b1"
+        ],
+        "behaviour": "Plain links",
+        "content": "Get Dunbar",
+        "assets": "none",
+        "html": "a.button.center.buy[href=/typefaces/#dunbar-series]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "system-diagrams",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "clear, didactic",
+        "mobile": "adapts",
+        "subject": [
+          "optical-size"
+        ],
+        "presentation": "diagram",
+        "explanation": "prose"
+      },
+      "look": "'Dunbar Design Features' intro paragraph, then 'Optical Sizes': a diagram of the words 'Tall' and 'Low' in black with arrows converging on 'Text' below, followed by a paragraph on when to use each",
+      "feel": "Simple, explanatory",
+      "ux": "static",
+      "learn": "Explain a three-member optical-size system with three words and two arrows: the two display extremes feed the text cut",
+      "reconstruction": {
+        "layout": "770px column; blue h2 with a 1px blue rule under it; intro paragraph ~570px wide; diagram SVG full width ~400px tall; paragraph below",
+        "typography": "h2 ~48px Dunbar Low Book blue; body ~19px Dunbar Text Regular, leading ~1.45; diagram words ~150px Dunbar Bold black",
+        "palette": [
+          "#fdf5eb",
+          "#0000ff",
+          "#231f20"
+        ],
+        "behaviour": "none (a white SVG variant exists for a dark theme switch that is commented out)",
+        "content": "Real explanation of Tall, Low and Text",
+        "assets": "SVG diagram (optical_sizes-01.svg)"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "precise, witty",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates",
+          "italics"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "A long run of feature sections, each a blue heading, a paragraph and SVG pairs: default text with the affected glyphs in grey → coral arrow tagged with the feature (SS03, SS05, SS02, SS04, SS18, SS19, SS01, ZERO) → the result in black. Topics: Terminals (Soccer Cats), Optically Adjusted Caps (Top Pup Rap Kid), Case Sensitive Forms («HELLO», a–z A–Z(X)), Fractions (7 3/4\" C2 H2O), Stylistic Alternates (DÖNER, BIERWÜRSTE, SPÄTZLE, blåbärssoppa, KRÄFTIG), Discretionary Ligatures (Drucksache), Italic Forms (Macbeth)",
+      "feel": "Clear, rigorous, a little playful",
+      "ux": "static; nav anchors (#salts, #salt-terminals, #italic-forms) let other pages link to a feature",
+      "learn": "Grey out exactly the glyphs a feature will change, then put the feature tag on the arrow: one line teaches what, where and how to switch it on",
+      "reconstruction": {
+        "layout": "Paragraph column 617px; each pair is an SVG ~770px wide and ~80–100px per line, 2–6 lines per topic; topics separated by ~150px with blue h2 + rule",
+        "typography": "Pairs ~56px Dunbar Low/Tall Medium–Bold in near-black, affected glyphs grey #b0aaa5, arrow and tag coral (tag ~9px caps above the arrow); body ~19px Dunbar Text Regular",
+        "palette": [
+          "#fef5eb",
+          "#231f20",
+          "#b5afaa",
+          "#ee4d2e",
+          "#0000ff"
+        ],
+        "behaviour": "none",
+        "content": "Words chosen to trigger each feature: Soccer Cats, Top Pup Rap Kid, «HELLO», H+H Bagel, Döner, Bierwürste, Spätzle, Kräftig, yes—but, 6′2″, Drucksache, Macbeth",
+        "assets": "One SVG per feature (terminals-01.svg, optical_adjustments-01.svg, case_sensitive_forms-01.svg, fracs-01.svg, alt_dieresis-01.svg, alt_terminals-01.svg, salt-01.svg, dligs_drucksache-01.svg, italic_forms-01.svg, optical_sizes_italics-01.svg) plus '_white' versions",
+        "html": "h2 + p + img.svg (light/dark pairs) ; a.anchor#salts / #salt-terminals / #salt-caps / h2#italic-forms"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "reference",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'Extended Character Set': the set typeset as running blue lines under small captions (Lower Case, Upper Case, Numbers, Fractions, Superiors & Inferiors, Punctuation, Math & Symbols); never cut on desktop (it sits in the gap after block 09) but visible in the mobile capture and the HTML",
+      "feel": "Compact, thorough",
+      "ux": "static",
+      "learn": "Run each accented base letter's variants together (aàáâãäå…) so the coverage reads as words rather than cells",
+      "reconstruction": {
+        "layout": "770px column; caption then a justified paragraph of glyphs per category, ~4–6 lines each; zero-width spaces separate base-letter groups",
+        "typography": "Glyphs ~28px Dunbar Low Regular blue; captions ~11px Dunbar Text Bold; numerals line uses numr/dnom features",
+        "palette": [
+          "#fef5eb",
+          "#0000ff",
+          "#231f20"
+        ],
+        "behaviour": "none",
+        "content": "Full extended Latin set, numerals, fractions, superiors and inferiors, punctuation, maths, currency, arrows",
+        "assets": "none",
+        "html": "h2 'Extended Character Set' + p + figcaption/figure pairs; span.numr / span.dnom"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "reference",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": false
+      },
+      "look": "A small running paragraph 'Supported Languages are Afrikaans, Albanian, Basque, Belarussian, …' under the character set; in the uncaptured gap after block 09",
+      "feel": "Dry, complete",
+      "ux": "static",
+      "learn": "Close the character set with the plain list of languages it serves",
+      "reconstruction": {
+        "layout": "770px column, one paragraph",
+        "typography": "~13px Dunbar Text Regular, lead-in in Bold",
+        "palette": [
+          "#fef5eb",
+          "#231f20"
+        ],
+        "behaviour": "none",
+        "content": "About 90 Latin-script languages by name",
+        "assets": "none",
+        "html": "p.languages > strong"
+      }
+    },
+    {
+      "blocks": [
+        "10",
+        "19"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "scholarly, generous",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "archival"
+        ],
+        "length": "long"
+      },
+      "look": "'On Erbar and Early Geometric Sans Serifs': a white panel with a long article by Indra Kupferschmid, illustrated with archival specimen scans (Erbar-Grotesk 'Zweite Garnitur' showing, Lichte Fette Grotesk 1923, Erbar's 1922 sketch alphabet, Swiss Büchler specimen 1941) with bold captions; numbered footnotes follow at the end of the page",
+      "feel": "Scholarly, museum-like",
+      "ux": "Inline links to sources; footnote references",
+      "learn": "Commission a real historian's essay and let the scans carry the argument: the revival's legitimacy is shown, not claimed",
+      "reconstruction": {
+        "layout": "White panel 770px wide (~5300px tall) on the cream page; h2 with blue rule; images ~620px wide inset 50px, captions ~11px bold under each; text column ~620px",
+        "typography": "h2 ~48px Dunbar Low Book blue; body ~15px Dunbar Text Regular, leading ~1.5; captions Dunbar Text Bold; footnotes ~13px in their own cream section with an h2",
+        "palette": [
+          "#f9f8f7",
+          "#231f20",
+          "#0000ff",
+          "#fef5eb"
+        ],
+        "behaviour": "none",
+        "content": "History of early geometric sans serifs: Johnston, Gill, Erbar's Feder-Grotesk, Lichte Fette Grotesk, Erbar-Grotesk sets I and II, Futura, Tschichold; footnotes translate German specimen text",
+        "assets": "Archival specimen scans (Letterform Archive, Lubalin Center, ATF collection)"
+      }
+    },
+    {
+      "blocks": [
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "personal, reflective",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "'Designing Dunbar': six plain paragraphs in the designer's voice on cream, from the conversation with Indra Kupferschmid to the variable x-height designspace and the three sub-families, ending 'I can't wait to see how you use Dunbar.'",
+      "feel": "Honest, conversational",
+      "ux": "One underlined coral link to the alternates section",
+      "learn": "Follow the scholar's history with the designer's own decisions (which point size to base it on, why two x-height extremes): context first, then intent",
+      "reconstruction": {
+        "layout": "617px text column left-aligned in the 770px page column; h2 with blue rule; paragraphs ~20px apart",
+        "typography": "h2 ~48px Dunbar Low Book blue; body ~19px Dunbar Text Regular, leading ~1.45, near-black; links underlined in coral",
+        "palette": [
+          "#fdf5eb",
+          "#231f20",
+          "#0000ff",
+          "#ee4d2e"
+        ],
+        "behaviour": "none",
+        "content": "Designer's account: Erbar scans, x-height designspace, Tall 9 weights, Text 4 weights, Low 7 weights, 'Akzidenzsatz' jobbing use",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "20"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "modest, grateful",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "contact",
+          "socials",
+          "legal"
+        ]
+      },
+      "look": "'Colophon' heading, then short lines: Text by Indra Kupferschmid, Site design by CJ Dunn, Typefaces used…, thanks to archives, CJ Type email and Twitter, and a trademark/copyright line",
+      "feel": "Quiet, bookish",
+      "ux": "mailto and Twitter links",
+      "learn": "Thank the archives that lent the scans in the colophon",
+      "reconstruction": {
+        "layout": "770px column, ~380px tall; h2 with blue rule; label–value lines",
+        "typography": "h2 ~35px Dunbar Low Book blue; lines ~14px Dunbar Text with bold labels; legal ~12px",
+        "palette": [
+          "#fef6eb",
+          "#231f20",
+          "#0000ff"
+        ],
+        "behaviour": "none",
+        "content": "Credits, thanks, contact, copyright 2026",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "11",
+      "reason": "empty 48px spacer between the research panel and 'Designing Dunbar'"
+    }
+  ],
+  "sequence": [
+    "hero/typeset-page",
+    "specimen-showcase/poster-series",
+    "type-tester/auto-fit-editable-lines",
+    "checkout/link-out-cta",
+    "design-details/system-diagrams",
+    "design-details/feature-before-after",
+    "glyph-table/category-lines",
+    "language-support/language-name-list",
+    "story/origin-reference",
+    "story/essay",
+    "footer/credits-colophon"
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "slug": "lexend-com",
+  "extractedBy": "agent",
+  "summary": "A red-and-white persuasion page for Lexend, a free variable font (custom LXND axis for width and spacing) designed to improve reading fluency. It argues like a research brief: reading-difficulty statistics, testimonials, an explanation of Words Correct Per Minute with a sticky reading-speed test you take yourself in Times New Roman and Lexend, the study results as a chart and a counted-up stats grid, an LXND slider that shows its CSS, the founder's history and an email-gated download.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "mission-driven, earnest",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "Pure red full-width field (~680px) with a four-line white question left of centre: 'What if we could / change the way the world reads— / starting with a font designed to adjust / specifically for your needs?'",
+      "feel": "Bold, idealistic",
+      "ux": "On load the words 'change the way the world reads—' drop in one after another (opacity + translateY stagger); the phrase links to #download",
+      "learn": "Ask the mission as a question and animate only the key phrase in: the hero stays readable, which is the point for a legibility font",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×678 red section; text block from x≈160, vertically centred (y≈220–460), max width ~900px",
+        "typography": "~46px Lexend (LXND 0), white, sentence case, leading ~1.4; the animated phrase slightly indented on its own line",
+        "palette": [
+          "#ff0000",
+          "#ffffff"
+        ],
+        "behaviour": "Each word of the phrase is a span animated from opacity 0 and a small vertical offset to rest, staggered ~150ms per word on load",
+        "content": "Mission statement as a question",
+        "assets": "none",
+        "html": "section > h1 > strong > div[href=#download] > span[letter=change|the|way|the|world|reads—] with inline opacity/transform"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "testimonials",
+      "variant": "quote-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "human, reassuring",
+        "mobile": "adapts"
+      },
+      "look": "A stat sentence with red highlights ('For more than 50 years the U.S. Department of Education has found that nearly 70% of the population experiences some reading difficulty.'), then three red-outlined quote cards in a staggered 2+1 layout with huge black “ ” marks overlapping the corners; two cards have a photo half (a tutor with a teenager, a smiling girl)",
+      "feel": "Warm, testimonial-ad",
+      "ux": "Numbers in the stat sentence count up when scrolled into view",
+      "learn": "Pair a hard statistic with three readers of different ages (adult, teen, teacher about a child): the font's audience is shown, not described",
+      "reconstruction": {
+        "layout": "Stat sentence ~1000px wide from x≈210; cards ~640×330px with 6px red borders, two in a row at x≈50 and x≈750, the third centred below at x≈345; photo fills the right ~40% of a card; quote marks ~60px overlapping top-left and bottom-right corners",
+        "typography": "Stat ~34px Lexend Regular, black with red highlighted phrases; quotes ~19px Regular with italic emphasis; attribution ~11px uppercase tracked grey ('— LISE, 37, TECH BUSINESS STRATEGIST')",
+        "palette": [
+          "#ffffff",
+          "#ff0000",
+          "#000000",
+          "#999999"
+        ],
+        "behaviour": "Counters animate the numbers (years, %) on entering the viewport",
+        "content": "Real-sounding testimonials from a tech strategist, a high-school sophomore and a first-grade teacher",
+        "assets": "Two stock-style photos (tutor with student, smiling child)"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "05"
+      ],
+      "type": "story",
+      "variant": "self-test-evidence",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "scientific, persuasive",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "diagram"
+        ],
+        "length": "long"
+      },
+      "look": "Left: a sticky card with 'Avg WPM (100)' slider, 'Text #0' select, a font select (Times New Roman, later Lexend), a red START button, a passage ('My name is Commander Smith…') with the current word highlighted yellow, and counters TIME TO READ / WORDS READ / ERRORS / WORDS CORRECT PER MINUTE; right: 'What makes a good reader?' prose and 'Fluency is measured in Words Correct Per Minute.' with six numbered steps and grey code boxes ('409 words - 55 mistakes = 354 correct words'); later the same card in Lexend beside a red-and-grey bar chart of each student's WCPM in Times vs Lexend",
+      "feel": "Clinical but engaging, like an interactive paper",
+      "ux": "Pick a passage and a pacing speed, press START: a highlighter moves word by word at the set WPM while the visitor reads aloud; counters fill in; the font select switches between Times New Roman and Lexend as the page argues its case",
+      "learn": "Make the visitor run the study's own measurement on themselves, first in the control font, then in yours: the evidence becomes personal",
+      "reconstruction": {
+        "layout": "Two columns: test card ~600×1250px (x≈60–660) sticky while the right column (~650px from x≈755) scrolls through ~2200px of prose and steps; in block 05 the right column is a vertical bar chart ~680×700px with 19 student pairs",
+        "typography": "Headings ~49px Lexend Regular; body ~17px Lexend, leading ~1.6; step numbers in red circled numerals; code boxes ~14px monospace on #f2f2f2; passage ~14px Times New Roman or Lexend; counter labels ~9px uppercase red, values ~22px",
+        "palette": [
+          "#f7f7f7",
+          "#ffffff",
+          "#ff0000",
+          "#000000",
+          "#d9d8d8",
+          "#fff176"
+        ],
+        "behaviour": "range 50–400 step 50 sets pacing; START steps a <mark>-style highlight through the words at that rate and times the read; selects choose one of five passages and the font (disabled until a stage of the story); chart bars compare Times (grey) and Lexend (red) per anonymous student",
+        "content": "Real research framing (U.S. Dept. of Education, The Reading Teacher), the WCPM formula worked through with numbers, five reading passages about Earth and Texas",
+        "assets": "Chart (SVG) of the study data",
+        "html": "input[type=range][min=50][max=400][step=50][aria-label^='Average reading speed']; select[aria-label='Select reading passage']; select[aria-label='Select font family']; button 'Start'"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "hopeful, explanatory",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Centred heading 'What if we could turn it around… with typography?' over a narrow column: the educational therapist's observation (1999), her theory (2000) as three red-numbered principles, and 'This is where Lexend was formed.'",
+      "feel": "Clear, didactic",
+      "ux": "static",
+      "learn": "State the font's design hypotheses as a short numbered list (reduce noise, expand scaling, hyper-expand spacing): each becomes a promise the rest of the page tests",
+      "reconstruction": {
+        "layout": "Heading centred ~880px wide; text column ~760px from x≈340; numbered list indented ~40px",
+        "typography": "Heading ~58px Lexend Regular, 2 lines centred; body ~19px, leading ~1.6; list ~15px with red circled numbers; 'Lexend' in red",
+        "palette": [
+          "#f9f9f9",
+          "#000000",
+          "#ff0000"
+        ],
+        "behaviour": "none",
+        "content": "1) A sans-serif font to reduce cognitive noise 2) Expanded scaling to improve character recognition 3) Hyper-expansion of character spacing to reduce crowding and masking",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "measured, scientific",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "Right column: the word 'LEXEND' seven times, each letter inside a thin grey bounding box, labelled 'DECA • LXND 0', 'EXA • LXND 40', 'GIGA • LXND 56', 'MEGA • LXND 64', 'PETA • LXND 72', 'TERA • LXND 80', 'ZETTA • LXND 100', growing wider and more spaced; left: 'A variable font empirically shown to significantly improve reading-proficiency.' and 'The Demonstration of Effectiveness' study description",
+      "feel": "Methodical, lab-like",
+      "ux": "static; the right column scrolls past while the explanatory text sits left",
+      "learn": "Draw each glyph's bounding box: the growing gaps make an otherwise subtle spacing axis visible",
+      "reconstruction": {
+        "layout": "Two columns: prose ~640px from x≈35; style stack from x≈770, 7 rows ~170px apart; ~1300px tall",
+        "typography": "Labels ~11px uppercase tracked ('DECA • LXND 0'); samples ~60px Lexend uppercase at LXND 0–100 with 1px #d6d6d5 boxes around each letter; headings ~46px; body ~15px grey",
+        "palette": [
+          "#f8f8f8",
+          "#000000",
+          "#d6d6d5",
+          "#b1b1b1"
+        ],
+        "behaviour": "none",
+        "content": "The seven named stops of the LXND axis; study method: 20 third graders, five fonts, one-minute reads at 16pt",
+        "assets": "none",
+        "html": "letters as spans with border boxes and inline font-variation-settings: 'LXND' n"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "family-overview",
+      "variant": "big-number-stats",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "evidential, punchy",
+        "mobile": "adapts",
+        "structure": "stats",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "A bento grid of thin red-outlined cells, each a huge numeral with a tiny uppercase caption: '15/16 had better scores with Lexend over Times New Roman', '1 could not be measured', '6 had the best score with Lexend Giga', '110 / 115 avg WCPM', '+16.5% avg improvement in WCPM'",
+      "feel": "Conclusive, data-forward",
+      "ux": "Numbers count up from 0 when the grid scrolls into view",
+      "learn": "Report results as big counted-up numerals in a bento grid; here the figures are study results rather than the family's size, but the mechanism is the same",
+      "reconstruction": {
+        "layout": "Full-width grid ~1440×900: row 1 one double cell (720px) + two cells; row 2 four cells; row 3 two cells + one double cell; 1px red borders with ~8px gutters",
+        "typography": "Numerals ~144px (15/16, +16.5%) and ~56px (others) Lexend Regular, black; captions ~9px uppercase, tracked, grey",
+        "palette": [
+          "#fcfafa",
+          "#000000",
+          "#f9dcdc",
+          "#ff0000"
+        ],
+        "behaviour": "Scroll-triggered count-up from 0 to the final value",
+        "content": "Study results per font style and averages",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "testimonials",
+      "variant": "award-logo-strip",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "credible, institutional",
+        "mobile": "adapts"
+      },
+      "look": "A row of six grey-black logos (Adobe, Stanford University, Google, Apple, Microsoft, HP), then a centred paragraph listing where Lexend has been discussed and is available, with red links (Google Fonts, Google Chrome, open-source download, Helperbird)",
+      "feel": "Authoritative",
+      "ux": "Text links to Google Fonts, Chrome and the GitHub repo",
+      "learn": "A logo row plus one sentence explaining each association is more credible than logos alone",
+      "reconstruction": {
+        "layout": "Logos evenly spaced across ~1300px at ~45px height; paragraph ~720px wide centred, ~150px below",
+        "typography": "Paragraph ~15px Lexend, leading ~1.7, red links",
+        "palette": [
+          "#fcfcfc",
+          "#000000",
+          "#b1b2b2",
+          "#f76c6b"
+        ],
+        "behaviour": "none",
+        "content": "Stanford labs, HP, Microsoft, Apple K-12 Assistive Technology, Adobe research, Google Fonts",
+        "assets": "Six company logos (monochrome)"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "practical, empowering",
+        "mobile": "adapts",
+        "controls": [
+          "axes"
+        ],
+        "scope": "global",
+        "defaultText": "meaningful",
+        "export": true
+      },
+      "look": "'The Valuable Virtues of Variable Font Technology' (eyeglass-prescription analogy), the word 'LEXEND' in per-letter bounding boxes, a slider 'VARIABLE WIDTH + BOUNDING BOX' and a grey code box 'h1, p { font-variation-settings: 'LXND' 0; }'; the reading-test card in Lexend sits to the right",
+      "feel": "Hands-on, prescriptive",
+      "ux": "Dragging the LXND slider (0–100) widens the boxed word and the reading passage, and rewrites the CSS line so the setting can be copied; the visitor can then run the reading test at that setting",
+      "learn": "Give the visitor their own 'prescription': one axis slider, a live CSS line to copy, and a test to check the setting works for them",
+      "reconstruction": {
+        "layout": "Left column ~650px from x≈50: heading, three paragraphs, boxed word (~340px wide) at y≈650, slider ~660px long, label, code box ~600×40px; right column the reading-test card ~600px",
+        "typography": "Heading ~46px Lexend; body ~17px; sample ~78px uppercase in 1px grey letter boxes; labels ~10px uppercase tracked; code ~13px monospace",
+        "palette": [
+          "#f6f6f6",
+          "#000000",
+          "#d8d8d8",
+          "#ff0000"
+        ],
+        "behaviour": "input#lxnd-axis range 0–100 → font-variation-settings 'LXND' n on the sample and on h1/p of the passage; the <pre><code> line updates with the value",
+        "content": "Eyeglass analogy copy; the CSS snippet; the reading passages",
+        "assets": "none",
+        "html": "label[for=lxnd-axis] + input#lxnd-axis[type=range][min=0][max=100]; pre > code 'h1, p { font-variation-settings: 'LXND' 0; }'"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "story",
+      "variant": "designer-bio",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "respectful, biographical",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "'Lexend History' centred, a black-and-white portrait print of Dr. Bonnie Shaver-Troup tilted slightly with a drop shadow and her name on the photo, and four short dated paragraphs to its right",
+      "feel": "Personal, credible",
+      "ux": "static",
+      "learn": "Close the argument with the person behind the research: one portrait and four dated paragraphs",
+      "reconstruction": {
+        "layout": "Heading centred; portrait ~260×400px at x≈90 rotated ~-2° with soft shadow; text column ~360px from x≈480",
+        "typography": "Heading ~46px Lexend; paragraphs ~13px, leading ~1.6, black",
+        "palette": [
+          "#f7f7f7",
+          "#2f2f2f",
+          "#515151",
+          "#ff0000"
+        ],
+        "behaviour": "none",
+        "content": "Founded in 2000; years of beta testing; Google collaboration from 2017; 'What began as a seed in the home office of an educational therapist…'",
+        "assets": "Black-and-white portrait photo"
+      }
+    },
+    {
+      "blocks": [
+        "10",
+        "11"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "inviting, mission",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "'Download Lexend for free — and start changing the way the world reads today.' with the second half in red, a short note, then a white form card on a red band: 'YOUR FIRST NAME:', 'YOUR EMAIL:' and a full-width red button 'SUBSCRIBE & SEND ME THESE FONTS'",
+      "feel": "Friendly but gated",
+      "ux": "The download link is sent by email after subscribing (newsletter opt-in); the GitHub open-source link appears only in the logo section's text",
+      "learn": "An email gate for a free font trades friction for a mailing list; say plainly what the subscriber will receive",
+      "reconstruction": {
+        "layout": "Heading centred ~680px wide; form card ~690px wide centred on a full-width red band (~350px), two stacked inputs and a button, ~60px vertical rhythm",
+        "typography": "Heading ~46px Lexend, black with red emphasis; note ~15px; labels ~10px uppercase tracked; button ~10px uppercase white on red",
+        "palette": [
+          "#ffffff",
+          "#ff0000",
+          "#000000",
+          "#f2f2f2"
+        ],
+        "behaviour": "Form submit → email with download link",
+        "content": "Mission-echoing CTA copy",
+        "assets": "none",
+        "html": "form: input[type=text] first name, input[type=text|email] email, button 'Subscribe & send me these fonts'"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "One small line 'For questions & contact, email info@lexend.com. © 2026 Lexend. All rights reserved.' at the bottom-left, above the fixed red line"
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Fixed bottom bar (HTML only, repeated in every crop): a full-width thin red rule at ~y 816 and a red 'LXND' badge at the right that links to #download; the hidden E's of 'LEXEND' (width 0) suggest it expands to the full name on hover"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "testimonials/quote-columns",
+    "story/self-test-evidence",
+    "story/design-brief",
+    "family-overview/style-word-grid",
+    "family-overview/big-number-stats",
+    "testimonials/award-logo-strip",
+    "type-tester/slider-sandbox",
+    "story/designer-bio",
+    "checkout/free-download",
+    "footer/slim-legal-bar"
+  ]
+}

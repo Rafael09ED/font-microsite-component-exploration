@@ -1,0 +1,387 @@
+{
+  "slug": "departuremono-com",
+  "extractedBy": "agent",
+  "summary": "A free pixel monospace staged as a retro-futurist space mission: a glitching wordmark over a collage of mission paperwork, a departures board, boarding-pass ephemera, editable sample lines labelled with size and tracking, a cockpit HUD that turns the page from light to dark, a glyph inspector with metric card, use-case panels (box-drawing diagrams, Rust/SQL code, an editable mission report on tractor-feed paper) and a playable Arkanoid clone. Each section is introduced by a small '░' comment caption.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "prop-collage",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "retro-futurist, deadpan",
+        "mobile": "adapts",
+        "carrier": "props",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Top-left wordmark 'DEPARTURƎ_MOƝO' in pixel caps on a grey selection-like bar with a tiny 'v1.500'; top-right '↓ DOWNLOAD / > GITHUB / ♥ DONATE'; below, a collage of mission paperwork: a Mercury Research Labs letter to 'Dr. Kerning' with sage-highlighted lines, a tan 'EVIDENCE OF GEOTHERMAL ACTIVITY ON NEWLY DISCOVERED KBOS' clipping with a QR-like pixel block and paperclip, a dark access badge '2 0 7 … E. Kerning', a line-drawn highlighter and planet construction circles",
+      "feel": "Cinematic, nerdy, quietly funny",
+      "ux": "Loader shows a grey bar, then the title appears and glitches letters into look-alikes (E→Ǝ/3, N→Ɲ, O→0); collage pieces shift with scroll; side caption '░ DEPARTURE MONO IS A MONOSPACED PIXEL FONT WITH A LO-FI TECHNICAL VIBE'",
+      "learn": "Glitch the wordmark between look-alike glyphs of the font itself: the name animates without any extra artwork",
+      "reconstruction": {
+        "layout": "Light #eeeeee page; wordmark ~780×76px at x=44, y≈140 on a #d3d3d2 bar; link stack top-right at x≈1270; collage from y≈400: letter ~940px wide at x≈500 (cropped right), clipping ~380px rotated on top-right, badge ~260×540px at x≈0 partly offscreen, highlighter ~660px line drawing at y≈1220, planet circles behind",
+        "typography": "Wordmark ~80px Departure Mono uppercase with underscore; version ~9px; links ~11px uppercase with ↓ › ♥ glyphs; letter body ~14px; clipping headline ~24px uppercase; captions ~8px uppercase with '░' prefix",
+        "palette": [
+          "#eeeeee",
+          "#444444",
+          "#d3d3d2",
+          "#b9c9b4",
+          "#d6c3a5",
+          "#494949"
+        ],
+        "behaviour": "Intro: dark → grey placeholder bar (~1.5s) → title; title characters periodically swap to alternate/look-alike glyphs; collage items (#planet, #brief, #newspaper-clipping, #badge, #highlighter) move at different scroll rates",
+        "content": "Fictional mission to the Kuiper belt: letter from Mercury Research Labs, Farnsworth Research Institute clipping, crew badge for E. Kerning",
+        "assets": "SVG props: planet.svg, brief.svg, newspaper-clipping.svg, paperclip.svg, badge.svg, highlighter-outline.svg",
+        "html": "h1#title with #title-space-dyn / #title-space-sta; #version; links to ZIP, GitHub releases, buymeacoffee; img#planet, #brief, #newspaper-clipping, #paperclip, #badge, #highlighter"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "terse, terminal",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Three stacked micro-links at the top right: '↓ DOWNLOAD', '> GITHUB', '♥ DONATE'; the OFL licence is named only in the footer and HUD",
+      "feel": "Understated",
+      "ux": "Download is a direct ZIP (DepartureMono-1.500.zip); GitHub opens the latest release; Donate goes to Buy Me a Coffee",
+      "learn": "Use the font's own arrow and heart glyphs as button icons: the CTA doubles as a glyph sample",
+      "reconstruction": {
+        "layout": "Vertical stack of 3 links, ~18px line pitch, right-aligned block at x≈1270, y≈150",
+        "typography": "~11px Departure Mono uppercase, #444444",
+        "palette": [
+          "#eeeeee",
+          "#444444"
+        ],
+        "behaviour": "none",
+        "content": "Download, GitHub, Donate",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "02",
+        "04"
+      ],
+      "type": "specimen-showcase",
+      "variant": "use-case-samples",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "technical, sci-fi",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "series"
+      },
+      "look": "Panels per use case, each tagged by a tiny '░' comment: a departures board in box-drawing characters ('Destination ↑ | Departing | Gate | Status', KBA Kuiper Alpha row highlighted sage) with '░ IT'S GREAT FOR WORKING WITH TABULAR DATA'; on dark, a TCP header bit diagram and a full keyboard drawn in box-drawing lines ('░ INCLUDED: BOX DRAWING CHARACTERS FOR YOUR PSEUDO-GRAPHICAL NEEDS'); Rust code with orange types, a huge SQL 'SELECT mission_… FROM gamma_bl…', a labelled Mercury-capsule line drawing and an orange pixel countdown '14' ('░ ADD A RETRO FLAVOR TO YOUR CODE AND TECHNICAL DOCUMENTATION')",
+      "feel": "Convincing, in-world",
+      "ux": "The board row blinks; the countdown ticks down; panels are otherwise static",
+      "learn": "Caption each sample with the job it proves (tables, box drawing, code, docs) as a code comment: the showcase reads like a feature list",
+      "reconstruction": {
+        "layout": "Table: full-width pre (#departures) ~1500px wide, cropped right, rows ~56px, at y≈1490 in block 00; box drawing: TCP diagram ~450px at x≈50 and keyboard ~820px at x≈620 cropped right; code: Rust block from x≈800, SQL ~45px at the bottom-left, drawing ~600px behind the countdown at x≈0–620; captions ~8px with a 4px vertical bar to the left",
+        "typography": "Table ~40px Departure Mono; box drawing ~13px in grey #6c6c58 on #242424; Rust ~20px with orange (#f5a036) types and grey identifiers; SQL ~45px; countdown ~120px orange; captions ~8px uppercase",
+        "palette": [
+          "#eeeeee",
+          "#242424",
+          "#262525",
+          "#c0c0c0",
+          "#b9c9b4",
+          "#f5a036"
+        ],
+        "behaviour": "Highlighted table row blinks (.blink); countdown numerals decrement; nothing else interactive",
+        "content": "In-world data: departures to Europa 1, Kuiper Alpha, Mars Landing, New Tokyo, Zvezda Moonbase; a TCP header; a LifeSupport Rust struct; SQL on mission tables; Mercury capsule parts list",
+        "assets": "Mercury capsule technical line drawing (SVG); otherwise text",
+        "html": "pre#departures with span.blink row; #keeb and #proto box-drawing pres; #code-rust, #code-sql; p.comment captions"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "travel ephemera, wry",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "single"
+      },
+      "look": "Overlapping travel ephemera: a white diner receipt ('Double R Diner, Terminal 9… Cherry pie 39.75, Damn good coffee 25.50'), a dark 'KÁRMÁN SPACELINES BOARDING PASS' LAX ▸▸ KBA with barcode, and a sage luggage tag 'KUIPER ALPHA 45 LBS'",
+      "feel": "Playful, Twin Peaks wink",
+      "ux": "static apart from scroll offsets",
+      "learn": "Receipts, passes and tags are natural homes for a pixel mono: numbers, codes and tiny labels in one glance",
+      "reconstruction": {
+        "layout": "Cluster centred at x≈130–1440, y≈2150–2830: receipt ~400×560px left, boarding pass ~1060×460px right (cropped), bag tag ~520×330px overlapping lower middle",
+        "typography": "Receipt ~13px; boarding pass labels ~9px uppercase and values ~40px; bag tag vertical text ~30px",
+        "palette": [
+          "#eeeeee",
+          "#494949",
+          "#ffffff",
+          "#8fa88a"
+        ],
+        "behaviour": "Parallax offsets while scrolling (likely)",
+        "content": "In-world ephemera with jokes (Double R Diner cherry pie and 'damn good coffee')",
+        "assets": "SVG props: boarding-pass.svg, receipt.svg, bag-tag.svg"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "type-tester",
+      "variant": "labelled-editable-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "announcement, cabin-crew",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Four editable lines at falling sizes, each under a tiny label row 'DEPARTURE MONO · 121PX · -11PX TRACK': 'ATTN: PASSENGERS QUIET IN THE CABIN', 'FLIGHT ATTENDANTS, PREPARE FOR TAKEOFF', then the font description in caps at 22px and in sentence case at 16.5px",
+      "feel": "Direct, poster-like",
+      "ux": "Click any line and type; no controls; labels state the exact size and negative tracking used",
+      "learn": "Label each sample with its px size and tracking: the specimen documents the settings that make a pixel font crisp (multiples of 11px)",
+      "reconstruction": {
+        "layout": "Left-aligned at x=44, full width; label row ~28px above each line; ~80px between samples",
+        "typography": "121px with -11px letter-spacing; 55px with -5px; 22px; 16.5px; all Departure Mono #444444; labels ~8px uppercase grey in three spaced columns",
+        "palette": [
+          "#eeeeee",
+          "#444444",
+          "#999999"
+        ],
+        "behaviour": "contenteditable with spellcheck off",
+        "content": "Cabin announcements, then the font's own description",
+        "assets": "none",
+        "html": "#tester .type-samples > .type-sample > .type-sample-header + .type-sample-text[contenteditable][style=font-size:121px;letter-spacing:-11px]"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "themed-infographic",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "sci-fi cockpit",
+        "mobile": "shrinks",
+        "medium": "ui",
+        "sequence": "single"
+      },
+      "look": "A cockpit HUD: 'EARTH TIME: 20:44:48:49' clocks, '|||||||| D E P A R T U R E   M O N O ||||||||' header, gauge bars (OMS He tank, N₂ tank, fuel %, H₂O %, hydraulic), a scrolling 'GLYPHS' counter 1182…1190 with 1186 bracketed, an attitude sphere with 'R 012 P 021 Y 130' and 'AUTO', an ACCEL ticker, and a fact row 'INITIATED: 2022 · LAUNCHED: 2024 · CLASSIFICATION: PIXEL MONOSPACED · LICENSE: SIL OFL'; drawn grey on light, then repeated orange on near-black",
+      "feel": "Immersive, ‘launch’ moment",
+      "ux": "As you scroll through it the page flips from light to dark and the HUD from grey to orange; clocks, counters and attitude values tick",
+      "learn": "Turn the font's facts (glyph count, release dates, licence) into instrument readings, and use the section as the light→dark switch of the page",
+      "reconstruction": {
+        "layout": "Pinned 1440×~900 HUD: side columns ~150px at x≈120 and x≈1180 with gauges; glyph counter column at x≈320; attitude sphere ~440px centred; accel ticker at x≈1060; fact row under the sphere; the page background transitions over ~1000px of scroll",
+        "typography": "All Departure Mono: header ~12px letter-spaced; counters ~22px; labels ~8–10px uppercase; values ~10px",
+        "palette": [
+          "#ebebeb",
+          "#262523",
+          "#6c6c6c",
+          "#f5a036",
+          "#1b1b1b"
+        ],
+        "behaviour": "Live clock; tickers scroll their number columns; attitude values change; scroll-driven background/colour transition (#transition, #cockpit)",
+        "content": "Fake telemetry plus real font facts (1186 glyphs, 2022/2024, SIL OFL)",
+        "assets": "SVG HUD frame (sphere, brackets), gauges as divs",
+        "html": "#cockpit with #accel, #sensor, #glyph-list; #transition wrapper"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "technical, spec-sheet",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "hover",
+        "metricsShown": true,
+        "namesOrUnicode": true
+      },
+      "look": "On dark grey: a sticky light-grey card with a clipped corner showing the selected glyph ~300px tall in pixels ('LATIN CAPITAL LETTER Q', 'U+0051') across ruled metric lines labelled ASCENDER/CAP HEIGHT 400, X-HEIGHT 300, BASELINE 0, DESCENDER -100; on the right a long grid by category (Basic Latin, Extended Latin, Cyrillic, Greek, Punctuation & Symbols, Numerals/Math/Currency, Graphical) with the active glyph boxed in orange",
+      "feel": "Engineering datasheet",
+      "ux": "Hover or click a glyph to load it in the card with its Unicode name and code point; the card stays pinned while the ~8000px grid scrolls; faint technical diagrams sit behind",
+      "learn": "For a pixel font, show the selected glyph on its unit metrics (400/300/0/-100): the grid and the numbers explain the whole design",
+      "reconstruction": {
+        "layout": "Card ~500×660px at x≈35 (sticky, top-right corner clipped 45°); grid column from x≈620 to ~1110, 11 columns at ~60px, rows ~60px; category labels ~8px above each group; total ~8100px tall",
+        "typography": "Card labels ~8px uppercase; preview glyph ~330px black; grid glyphs ~28px #c4c4c4; selected cell orange fill #f5a036 with black glyph",
+        "palette": [
+          "#2a2a2a",
+          "#c4c4c4",
+          "#bababa",
+          "#1b1b1b",
+          "#f5a036"
+        ],
+        "behaviour": "Pointer over a cell → card updates name, code point and big glyph; orange highlight follows",
+        "content": "Full character set (~1100 glyphs) including fractions, currency, arrows, music notes, block and box-drawing elements",
+        "assets": "none",
+        "html": "#glyph-specimen (sticky card) + #glyph-specimen-static; grid of glyph cells by category"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "type-tester",
+      "variant": "in-context-editable",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "mission log, dry",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A sheet of grey tractor-feed printer paper with punched sprocket holes on both edges, holding a Markdown-style '# MISSION REPORT 75X9389 1/17' with subject, earth date, director E. KERNING, '## OVERVIEW', '### OBSERVATIONS' and a box-drawn table of compounds (Methane CH₄ 1450 ppm, Ethane, Water Ice…)",
+      "feel": "Analog-computer nostalgia",
+      "ux": "The whole report is an editable <pre>: click and type into the document",
+      "learn": "Make the realistic document itself editable: the visitor tests the font inside its intended use (technical docs) rather than in a blank box",
+      "reconstruction": {
+        "layout": "Paper ~1010×650px at x≈340, overlapping the code section, sprocket holes ~14px every ~38px on both edges; text column inset ~110px",
+        "typography": "13.75px Departure Mono, #222 on #c4c4c4, subscripts in chemical formulas",
+        "palette": [
+          "#c2c2c2",
+          "#262525",
+          "#1c1c1c"
+        ],
+        "behaviour": "pre[contenteditable] with max-height and overflow clip",
+        "content": "Fictional mission report on anomalous energy from Kerberos 5",
+        "assets": "Printer-paper frame (CSS or SVG)",
+        "html": "#mission-report > pre[contenteditable][style=font-size:13.75px]"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "game",
+      "variant": "arcade-leaderboard",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "game-like",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "8-bit, playful",
+        "mobile": "adapts"
+      },
+      "look": "'░ AND OF COURSE, DEPARTURE MONO IS PERFECT FOR YOUR 8-BIT VIDEO GAME OR ASCII ART' beside a canvas Arkanoid clone: grey bevelled bricks in a space-invader formation, an orange ball and capsule paddle, 'SCORE 00000' top-left; no leaderboard or prizes",
+      "feel": "Fun encore",
+      "ux": "Focusable section (tabindex 0); the visitor plays with keyboard or pointer",
+      "learn": "End a pixel-font page with a tiny playable game whose score uses the font: the last use case is play",
+      "reconstruction": {
+        "layout": "Canvas 880×600 centred-right (x≈500), caption at the left ~8px",
+        "typography": "Score ~10px Departure Mono; caption ~8px uppercase",
+        "palette": [
+          "#242424",
+          "#535353",
+          "#666666",
+          "#f5a036"
+        ],
+        "behaviour": "Breakout physics on canvas: paddle follows input, ball breaks bricks, score increments",
+        "content": "Game 'Deparkanoid'",
+        "assets": "none (drawn on canvas)",
+        "html": "section#deparkanoid[tabindex=0] > p.comment + canvas[width=880][height=600]"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Dark bar: 'DEPARTURE MONO' wordmark on a grey highlight at the left; at the right a 3-line credit 'Departure Mono is a monospaced pixel font by Helena Zhang, licensed under the SIL OFL. Website built by Tobias Fried.' with underlined links"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/prop-collage",
+    "checkout/free-download",
+    "specimen-showcase/use-case-samples",
+    "specimen-showcase/prop-collage",
+    "type-tester/labelled-editable-lines",
+    "specimen-showcase/themed-infographic",
+    "glyph-table/glyph-inspector",
+    "type-tester/in-context-editable",
+    "game/arcade-game",
+    "footer/slim-legal-bar"
+  ]
+}

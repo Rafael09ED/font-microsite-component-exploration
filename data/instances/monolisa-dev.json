@@ -1,0 +1,989 @@
+{
+  "slug": "monolisa-dev",
+  "extractedBy": "agent",
+  "summary": "The MonoLisa site (FaceType) is a long, pale-blue developer-product page for a coding superfamily (MonoLisa Code, monospaced, and MonoLisa Text, proportional; variable wght + GRAD). Short, comment-ruled sections ('/* ==== *** ==== */') each prove one design decision with a small live demo (Code/Text switches, ligature-mode tabs, grade sliders on light vs dark cards, ligature-group toggles that write a settings.json line), then a full code playground, a text tester, price cards and a team section. A 'Get MonoLisa or try in the tester' strip and a testimonial marquee recur between chapters.",
+  "instances": [
+    {
+      "blocks": [
+        "34"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed 48px bar in small caps: '../', TESTER, SPECIMEN, POSTS, RELEASES, FAQ, MY ORDERS and a gold 'GET MONOLISA' pill at left; at right a 'Choose color theme' button of five overlapping colour dots (repeats across stitched crops)"
+    },
+    {
+      "blocks": [
+        "00",
+        "01",
+        "02"
+      ],
+      "type": "hero",
+      "variant": "product-landing",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "calm, developer-product",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "'MonoLisa' in gold at 144px and 'font follows function_' in blue below (with 'function' in the script italic and a blinking underscore cursor), a ~27px one-paragraph pitch, then a gold 'Get MonoLisa' button with 'or try in the tester' as an underlined link, all left-aligned on pale blue-grey",
+      "feel": "Polished, quiet, editor-like",
+      "ux": "The name and tagline type themselves on (CSS steps animation, cursor '_' blinks then stops); the button jumps to #buy; the link opens /tester",
+      "learn": "Type the wordmark and tagline on with a terminal cursor and switch the last word to the script italic: two features of a coding font shown before any copy",
+      "reconstruction": {
+        "layout": "Content column 1240px centred (x=100); name block ~330px tall from y≈86; paragraph ~640px wide, 3 lines; CTA strip 146px full-bleed slightly darker band with button + link inline",
+        "typography": "Name 144px MonoLisa Code Regular gold #b58e0d, line-height 1; tagline ~54px MonoLisa Code blue (#2c5d8f), 'function' in script italic (ss01); paragraph ~27px MonoLisa Text, line-height 1.6, slate; button ~14px on gold",
+        "palette": [
+          "#f0f3f8",
+          "#b58e0d",
+          "#2c5d8f",
+          "#4a5560",
+          "#eaedf2"
+        ],
+        "behaviour": "Typewriter via CSS custom properties per span (steps: 8 chars over 500ms after 0ms for the h1, 21 chars over 1000ms after 2000ms for the h2; cursor blink 1000ms/2500ms, h1 cursor stops after 2250ms); opacity fade-in 1000ms ease-out",
+        "content": "'A typeface built for you, the developers and creatives, Monolisa improves code legibility and provides a clear sans serif for all design tasks.'",
+        "assets": "none",
+        "html": "h1 > span[style='--steps:8; --duration:500ms'] > span 'MonoLisa' + span[aria-hidden] '_'; h2 same with 'font follows <em>function</em>'; section > p > a[href=#buy] + a[href=/tester]"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "12",
+        "21",
+        "27",
+        "32"
+      ],
+      "type": "testimonials",
+      "variant": "quote-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "warm, peer-to-peer",
+        "mobile": "adapts"
+      },
+      "look": "'What Users Say' with a 'Use script variant' toggle at right; a horizontally drifting row of white cards, each an avatar (40px), linked name, role ('CIO at Infinite Red', 'Software developer at Microsoft') and a quote set in the script italic; repeated five times between chapters",
+      "feel": "Friendly social proof from known developers",
+      "ux": "Cards scroll continuously (90s CSS marquee); the toggle switches the quotes between the script variant and the regular italic",
+      "learn": "Let a testimonial toggle double as a feature demo: the same quotes flip between the regular and script italic",
+      "reconstruction": {
+        "layout": "Full-bleed band 475px; header row in the 1240px column; marquee track of ~280px cards with 16px gaps, edges faded",
+        "typography": "Heading ~16px MonoLisa Text bold blue; name ~13px underlined gold link; role ~11px grey; quote ~14px MonoLisa Text italic with ss01 script forms",
+        "palette": [
+          "#edf0f6",
+          "#ffffff",
+          "#2c5d8f",
+          "#b58e0d",
+          "#cdd0d5"
+        ],
+        "behaviour": "animation-duration 90s linear infinite translateX on the track; checkbox#testimonials-script-variant toggles font-feature-settings 'ss01'",
+        "content": "Real user quotes (Gant Laborde, Kyle Welch, Horacio Herrera, Max Stoiber, Mark Dalgleish, David Khourshid, Sara Vieira, Cassidy Williams)",
+        "assets": "Avatar photos",
+        "html": "section > h3 + label > input#testimonials-script-variant[type=checkbox]; div[style='animation-duration:90s'] > div > figure (a > img, figcaption > a + small) + blockquote"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "specimen-showcase",
+      "variant": "use-case-samples",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "contemporary, AI-era",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "series"
+      },
+      "look": "'MonoLisa Family' and 'A perfect pairing for the AI era' copy above two framed panels side by side: left 'Markdown Source' (an AI code-review reply in MonoLisa Code, with ## headings and a ```typescript block), right 'Rendered Output' (the same reply rendered with headings and body in MonoLisa Text and the code snippet in Code); a small 'Replay' button between captions",
+      "feel": "Practical, of the moment",
+      "ux": "Replay re-runs the streaming of the reply into both panels, like an AI chat response",
+      "learn": "Show a superfamily's two members on the same content in its raw and rendered states: the pairing argument is made by the sample itself",
+      "reconstruction": {
+        "layout": "Copy block ~1000px wide; two equal panels (~600×300px, 1px borders, 8px radius, scrolling content) with captions below and the Replay pill centred",
+        "typography": "Headings ~22px MonoLisa Text gold/blue; panels ~13px MonoLisa Code (left) and MonoLisa Text (right) with Code for inline code",
+        "palette": [
+          "#eef1f6",
+          "#d7dce4",
+          "#2c5d8f",
+          "#b58e0d"
+        ],
+        "behaviour": "Typed/streamed text animation on reveal; Replay restarts it",
+        "content": "A plausible AI code review ('Consider using useMemo…', 'The useEffect dependency array is missing userId')",
+        "assets": "none",
+        "html": "figure > pre (markdown) + figcaption 'Markdown Source'; figure > rendered h2/h3/ol/pre + figcaption 'Rendered Output'; button 'Replay'"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "clear, didactic",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "prose"
+      },
+      "look": "'Distinction' with a short paragraph and a Code | Text switch; three big grey glyph groups 'Il1', 'db', 'CG' (~144px) where translucent gold circles mark the telling details (bowl joins of d/b, terminals of C/G), each with an italic caption ('Similar characters look different', 'Distinct lower case connections', 'Different terminals of capitals')",
+      "feel": "Calm, precise",
+      "ux": "The Code | Text radio switches the glyphs between the monospaced and proportional family",
+      "learn": "Circle the exact stroke that disambiguates confusable glyphs; the eye goes straight to the decision",
+      "reconstruction": {
+        "layout": "Heading block left (~800px) with the switch at top right; three figures in a row, ~350px each, captions centred under",
+        "typography": "Glyphs ~144px MonoLisa Code Regular, slate grey #8a96a3; captions ~10px italic; body ~14px MonoLisa Text",
+        "palette": [
+          "#f0f3f8",
+          "#8a96a3",
+          "#d6b04a",
+          "#2c5d8f"
+        ],
+        "behaviour": "Radio group fontFamily (code/text) swaps font-family of the figures",
+        "content": "Confusable sets Il1, db, CG",
+        "assets": "none",
+        "html": "div[role=radiogroup] > input[name=fontFamily-…][value=code|text]; figure > span 'd' + span[aria-hidden] (marker circle) … + figcaption"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "proud detail",
+        "mobile": "adapts",
+        "subject": [
+          "italics"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "'Italics' with one sentence ('not just slanted upright') and a Code | Text switch; four pairs 'aa ee ff gg' at ~144px, each upright in slate grey beside its true italic in gold",
+      "feel": "Elegant",
+      "ux": "Code | Text switch; otherwise static",
+      "learn": "Pair upright and italic of the letters whose structure changes (a, e, f, g) and colour the italic: true-italic design becomes obvious",
+      "reconstruction": {
+        "layout": "Heading block then one row of four pairs spread across 1240px",
+        "typography": "~144px MonoLisa Code Regular (grey) + Italic (gold)",
+        "palette": [
+          "#f0f3f8",
+          "#8a96a3",
+          "#b58e0d"
+        ],
+        "behaviour": "Family switch",
+        "content": "a e f g",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "pangram",
+        "tone": "playful, elegant",
+        "mobile": "adapts",
+        "subject": [
+          "italics",
+          "alternates"
+        ],
+        "presentation": "toggle",
+        "explanation": "caption"
+      },
+      "look": "'Script — If simple italics are not enough, there is a script version available.' above a three-way segmented control (Upright | Italic | Script, Script active in gold) and a two-line pangram in blue cursive-like script italic",
+      "feel": "Charming",
+      "ux": "Pick Upright, Italic or Script to restyle the pangram; Code | Text switch",
+      "learn": "A three-state switch (upright → italic → script) shows that the script is a third style, not a replacement for the italic",
+      "reconstruction": {
+        "layout": "Segmented control 700px wide (3 equal tabs, 1px borders); sample below ~700px wide",
+        "typography": "Sample ~36px MonoLisa Code, script = italic + ss01; tab labels ~12px",
+        "palette": [
+          "#f0f3f8",
+          "#2c5d8f",
+          "#b58e0d",
+          "#d8dce3"
+        ],
+        "behaviour": "Radio name=italics sets font-style and font-feature-settings 'ss01'",
+        "content": "'The quick brown fox jumps over the lazy dog and runs away.'",
+        "assets": "none",
+        "html": "fieldset > legend 'Italics style' + input[name=italics][value=Upright|Italic|Script]"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "technical, helpful",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "'Variable' copy explaining Weight and Grade, two sliders (Weight 400, Grade 0) and two cards side by side: a light card ('Current surface — GRAD 0') and a dark navy card ('Inverse surface — GRAD -50'), both with the same paragraph containing code spans",
+      "feel": "Thoughtful, pro-tool",
+      "ux": "Drag Weight (1–900) or Grade (-50…50, step 5) and both cards update; the dark card keeps its -50 grade offset to show compensation for light-on-dark",
+      "learn": "Explain grade with a light and a dark card side by side: the visitor sees why text on dark needs a lower grade, and that widths don't move",
+      "reconstruction": {
+        "layout": "Copy block, slider row (~300px per slider, label + value + track), then two cards ~380×140px with captions",
+        "typography": "Card text ~13px MonoLisa Text with inline MonoLisa Code; values ~11px",
+        "palette": [
+          "#eff2f8",
+          "#162f45",
+          "#38526a",
+          "#ffffff",
+          "#b58e0d"
+        ],
+        "behaviour": "input[type=range] weight → font-variation-settings 'wght'; grade → 'GRAD' (dark card = value − 50); captions show live GRAD",
+        "content": "Set font-variation-settings: \"GRAD\" -50 to compensate on a darker surface…",
+        "assets": "none",
+        "html": "section#variable > figure > label+div+input[type=range][min=1][max=900] , input[type=range][min=-50][max=50][step=5]; two div cards with figcaption"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "quietly comprehensive",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": true
+      },
+      "look": "'Languages: … support 593 languages' above a faint wall of drifting rows of language names ('Abkhazian • Acehnese • Adangme • …'), with five words in their own scripts set large and coloured on top: Français, հայկ, Українська, Ελληνικά, טיפוגרפיה",
+      "feel": "Global, understated",
+      "ux": "Background rows scroll sideways as marquees; the link opens the FAQ list",
+      "learn": "Use the full language list as a textured background and pull a few native-script words to the front: proof and highlight in one layer",
+      "reconstruction": {
+        "layout": "Copy block, then a ~300px band: ~8 rows of small language names at low opacity behind; 5 coloured words at ~36px placed loosely in two rows",
+        "typography": "Names ~11px MonoLisa Text, pale; feature words ~36px in navy, red, green, gold, blue",
+        "palette": [
+          "#eff2f8",
+          "#ccd2d6",
+          "#2c5d8f",
+          "#c0392b",
+          "#3a7d44",
+          "#b58e0d"
+        ],
+        "behaviour": "CSS marquee on aria-hidden name rows",
+        "content": "All 593 supported language names; Latin, Armenian, Cyrillic, Greek, Hebrew samples",
+        "assets": "none",
+        "html": "span[title=Latin] 'Français' … ; div[aria-hidden] > div 'Abkhazian • Acehnese • …'"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "systematic, reference",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "'OpenType Features' with copy and a Code | Text switch, then a 4-column grid under 'Common features', 'Code-only features' and 'Text-only features': each tile has an italic label with its tag ('Contextual alternatives calt', 'Alt g 1 [upright only] ss03', 'Hexadecimal x [multiply] ss13') and a before → after pair, default in grey and featured form in gold (1:1 1:1, ¡M! ¡M!, === ≡, 3/4 ¾, 0xF 0×F, H2O H₂O)",
+      "feel": "Exhaustive yet tidy",
+      "ux": "Code | Text switch swaps the family; the copy links to the tester and explains that features can be baked into the download",
+      "learn": "Show every feature as 'plain → featured' in two colours, with its human name and tag: the catalogue works for designers and for people configuring an editor",
+      "reconstruction": {
+        "layout": "~1750px tall; 4 equal columns (~300px), tiles ~110px tall: label row then sample pair; group headings ~13px",
+        "typography": "Samples ~36px MonoLisa Code (grey default, gold featured); labels ~10px italic grey with tag in lighter grey",
+        "palette": [
+          "#eef1f6",
+          "#8a96a3",
+          "#b58e0d",
+          "#2c5d8f"
+        ],
+        "behaviour": "Family switch only",
+        "content": "calt, case, dlig, frac, liga, onum, ordn, ss01–ss15, subs, sups, zero, cv01–cv12",
+        "assets": "none",
+        "html": "h3 'Common features' > div > div > h4 'Contextual alternatives calt' + div '1:11:1' (second copy styled with the feature)"
+      }
+    },
+    {
+      "blocks": [
+        "11",
+        "20",
+        "26"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "low-pressure",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "A recurring 146px band: gold 'Get MonoLisa' button, then 'or try in the tester' as an underlined link, repeating the hero CTA after every few chapters",
+      "feel": "Gentle reminder",
+      "ux": "Button scrolls to #buy; link opens the tester",
+      "learn": "Repeat the same two-door CTA (buy or try) between chapters so readers can act wherever they are convinced",
+      "reconstruction": {
+        "layout": "Full-bleed slightly darker band, contents left-aligned in the 1240px column, vertically centred",
+        "typography": "Button ~14px MonoLisa Text on gold #b58e0d, white text; link ~14px gold underlined",
+        "palette": [
+          "#eaedf2",
+          "#b58e0d",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "'Get MonoLisa or try in the tester'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "13",
+        "14",
+        "15"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "measured, technical",
+        "mobile": "adapts",
+        "subject": [
+          "spacing",
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "prose"
+      },
+      "look": "Three consecutive rows, text left and specimen right: 'Increased Width' with 'Wide' at ~144px over a gold dimension arrow ('MonoLisa is ~7% wider compared to other monospaced fonts'); 'Reading Flow' with 'flows' where small gold arrows show terminals pointing to the next letter; 'Space' with 'WMA' in navy (MonoLisa Code) above 'WMA' in grey (Monaco)",
+      "feel": "Rational, persuasive",
+      "ux": "static",
+      "learn": "One word per decision with one minimal annotation (a dimension line, direction arrows, a rival underneath) keeps each claim checkable at a glance",
+      "reconstruction": {
+        "layout": "Rows ~400–530px; text column ~420px at left, specimen ~700px at right; captions small italic under specimens",
+        "typography": "Specimen words ~144px MonoLisa Code (grey #8a96a3 or navy); annotations thin gold SVG lines and arrowheads; body ~14px MonoLisa Text",
+        "palette": [
+          "#f0f3f8",
+          "#8a96a3",
+          "#1d3a57",
+          "#b58e0d"
+        ],
+        "behaviour": "none",
+        "content": "Width (~7% wider), reading flow (terminals), space balance vs Monaco",
+        "assets": "SVG annotation arrows",
+        "html": "section > div (h2 + p) + figure > p 'Wide' + svg + figcaption"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "developer, clear",
+        "mobile": "adapts",
+        "subject": [
+          "features"
+        ],
+        "presentation": "toggle",
+        "explanation": "prose"
+      },
+      "look": "'Coding Ligatures' (over 120) with a three-tab control (Disabled | Whitespace Only | Coding Ligatures, last active in gold) above four centred lines of operator soup: '++a>=b%%0!=c~~>d', '<!--Comment-->', '<>###Title...</>', '??e:=f=>{|1,2,3|}' with the ligated operators in navy and letters in grey",
+      "feel": "Neutral, lets you decide",
+      "ux": "Switch between no ligatures, whitespace-only (calt) and full coding ligatures (liga) to watch the same lines change",
+      "learn": "Three states instead of on/off acknowledge the ligature debate and show the middle ground",
+      "reconstruction": {
+        "layout": "Tabs 700px wide centred; 4 sample lines centred, ~60px line pitch",
+        "typography": "~45px MonoLisa Code; operators navy, letters grey",
+        "palette": [
+          "#eff2f7",
+          "#1d3a57",
+          "#8a96a3",
+          "#b58e0d"
+        ],
+        "behaviour": "Radio name=ligatures value none|calt|liga sets font-feature-settings",
+        "content": "Code-like strings packed with ligature triggers",
+        "assets": "none",
+        "html": "fieldset > input[name=ligatures][value=none|calt|liga] + labels; div with <br> separated lines"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "respectful, developer-first",
+        "mobile": "adapts",
+        "subject": [
+          "features"
+        ],
+        "presentation": "catalogue",
+        "explanation": "prose"
+      },
+      "look": "'Your Code, Your Rules': three paragraphs on opt-in ligatures, then 'Choose the features you want to enable, and copy the following line into your settings.json' with a grey code box '\"editor.fontLigatures\": \"'calt', 'liga', 'dlig', 'cv01', …\"' and a Copy button; below, a 4-column grid of cards per group (calt 2 Contextual alternatives, liga 73 Whitespace ligatures, dlig 72 Coding ligatures, cv01 3 Markdown headings, cv02 Less/slash/greater, cv08 8 Arrows, cv09 11 Equal combinations, cv11 9 Tilde combinations, cv12 6 Ampersand combinations…), each with a gold toggle and a list of input sequences with dotted leaders to their ligated result",
+      "feel": "Generous, in-control",
+      "ux": "Toggling a group card adds or removes its tag from the settings line live; Copy puts the line on the clipboard; the copy points to the customizer for editors without OpenType support",
+      "learn": "Turn the feature catalogue into a config generator: the visitor leaves with a ready settings.json line, not just an impression",
+      "reconstruction": {
+        "layout": "~1880px; copy column ~1000px; code output box full content width (~1240px, 44px tall, horizontally scrolling) with Copy at right; cards 4 per row (~300px, variable height up to ~420px), 1px border, 8px radius; each card header: tag (gold) + count, name below, toggle top-right; rows: input left, dotted leader, output right",
+        "typography": "Tags ~13px MonoLisa Code gold; names ~10px grey; sequences ~12px MonoLisa Code grey, results navy",
+        "palette": [
+          "#eef1f6",
+          "#ffffff",
+          "#d8dce3",
+          "#b58e0d",
+          "#1d3a57"
+        ],
+        "behaviour": "Checkbox per group → recompute the output string (in order) → clipboard on Copy",
+        "content": "Every ligature group with all its sequences",
+        "assets": "none",
+        "html": "output 'editor.fontLigatures…' + button[aria-label='Copy settings to clipboard']; card > div (div 'calt2' + label > input[type=checkbox][aria-label='Toggle calt']) + list of div pairs"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "specimen-showcase",
+      "variant": "use-case-samples",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "practical, terminal",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "series"
+      },
+      "look": "'Symbols for Terminal' (PowerLine) above two macOS-style terminal windows side by side, 'System Monospace' and 'MonoLisa Code', each showing a powerline shell prompt (user@host › ~/projects/app › main), a box-drawing table (File / Status / Lines with ✓ ●), progress bars (Build 62%, Tests 100%, Lint 25%) and a vim-style status line (NORMAL › main · index.ts · utf-8 · 42:15)",
+      "feel": "Familiar, convincing",
+      "ux": "static; link to the specimen for all symbols",
+      "learn": "Render the same terminal UI in the system font and in yours: broken box-drawing and missing powerline glyphs make the case",
+      "reconstruction": {
+        "layout": "Two windows ~350×280px each, centred with 16px gap; caption below ('Status lines for vim, tmux, and shell prompts')",
+        "typography": "~11px monospace in each window (system vs MonoLisa Code); coloured powerline segments",
+        "palette": [
+          "#eef1f6",
+          "#2a5d9a",
+          "#3a7d44",
+          "#b58e0d",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Shell prompt, box drawing table, progress indicators, status line",
+        "assets": "none",
+        "html": "figure > window chrome (3 dots + title) + pre lines"
+      }
+    },
+    {
+      "blocks": [
+        "19"
+      ],
+      "type": "type-tester",
+      "variant": "code-playground",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "developer, polished",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "weight",
+          "axes",
+          "features",
+          "presets"
+        ],
+        "scope": "single",
+        "defaultText": "code",
+        "export": false
+      },
+      "look": "'Try MonoLisa Code': a segmented row of language tabs with logos (JavaScript, CSS, Java, PHP, Python, Reason, Markdown), a control row (Size 15px, Weight 400, Grade 0 sliders, an 'OpenType ▼' dropdown and a Reset button), then an editable, syntax-highlighted code pane (JSDoc comment in grey italic, keywords in gold, strings in teal)",
+      "feel": "Like your own editor, nicer",
+      "ux": "Pick a language to load its sample; edit the code directly; Size 10–96px, Weight 1–900, Grade -50…50; the OpenType dropdown toggles features; Reset restores defaults",
+      "learn": "Keep the playground's chrome minimal (tabs + three sliders + one feature menu) and make the code itself editable, highlighted live",
+      "reconstruction": {
+        "layout": "Content column 1240px; tabs bar 48px (7 equal segments with icons); control row 30px; code pane ~600px tall, white, 1px border, 24px padding",
+        "typography": "Code 15px MonoLisa Code, comments italic (script ss01 italic), keywords gold #b58e0d, strings/tags teal, plain navy; controls ~11px MonoLisa Text",
+        "palette": [
+          "#eff1f7",
+          "#ffffff",
+          "#b58e0d",
+          "#2c8c8c",
+          "#1d3a57",
+          "#8a96a3"
+        ],
+        "behaviour": "Radio name=language swaps the sample; sliders set font-size, 'wght', 'GRAD'; OpenType popover toggles font-feature-settings; contenteditable pre re-highlighted on input (sh__ token classes)",
+        "content": "Real code per language (JSDoc'd JavaScript, CSS, Java, PHP, Python, Reason, Markdown)",
+        "assets": "Language logo icons",
+        "html": "div[role=radiogroup] > input[name=language][value=javascript|css|java|php|python|reason|markdown]; input[type=range][min=10][max=96], [min=1][max=900], [min=-50][max=50][step=5]; button[aria-expanded] 'OpenType ▼'; button 'Reset'; pre[contenteditable=true][spellcheck=false]"
+      }
+    },
+    {
+      "blocks": [
+        "22"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "confident, explanatory",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "photo"
+        ],
+        "length": "medium"
+      },
+      "look": "Second chapter opener 'MonoLisa Text' in gold: two paragraphs on creating a proportional companion ('We went back to the drawing board…'), 'A Perfect Match' subhead and paragraph, then a large dark screenshot of an IDE with code, file tree and an AI chat panel set in MonoLisa Code and Text",
+      "feel": "Product story",
+      "ux": "static",
+      "learn": "Introduce a companion family with the reason it exists (prose next to code in modern editors) and one real screenshot of that situation",
+      "reconstruction": {
+        "layout": "Copy column ~800px; screenshot ~760×400px centred below with drop shadow",
+        "typography": "Heading ~36px MonoLisa Text gold; subhead ~22px blue; body ~14px MonoLisa Text, leading 1.6",
+        "palette": [
+          "#eef1f6",
+          "#b58e0d",
+          "#2c5d8f",
+          "#292b2e",
+          "#1e1f23"
+        ],
+        "behaviour": "none",
+        "content": "Real product copy (scripts incl. Braille, large x-height)",
+        "assets": "IDE screenshot (JetBrains-style dark UI with AI chat)"
+      }
+    },
+    {
+      "blocks": [
+        "23"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "practical, UI-minded",
+        "mobile": "adapts",
+        "subject": [
+          "spacing"
+        ],
+        "presentation": "diagram",
+        "explanation": "prose"
+      },
+      "look": "'Great for UI' with copy on equal vertical metrics, beside a light button reading 'Button' (~70px) with gold measurement brackets marking equal space above cap height and below baseline",
+      "feel": "Designer-friendly",
+      "ux": "static",
+      "learn": "Prove vertical metrics with a real UI element: a button whose label sits optically centred with no padding hacks",
+      "reconstruction": {
+        "layout": "Text left ~420px, figure right ~500px: button ~320×100px with bracket annotations right ('Cap height', 'Baseline')",
+        "typography": "'Button' ~70px MonoLisa Text Regular; annotation labels ~8px gold; caption ~10px italic",
+        "palette": [
+          "#eef2f7",
+          "#d9e4ee",
+          "#1d3a57",
+          "#b58e0d"
+        ],
+        "behaviour": "none",
+        "content": "'The space above cap height and below baseline is equal — no padding tricks needed'",
+        "assets": "SVG annotation"
+      }
+    },
+    {
+      "blocks": [
+        "24"
+      ],
+      "type": "type-tester",
+      "variant": "per-row-controls",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "UI-focused",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "weight",
+          "axes",
+          "features"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "'Try MonoLisa Text': two framed rows, each with its own Size 48px / Weight 400 / Grade 0 sliders, OpenType ▼ and Reset above an editable sample: 'MonoLisa Text / Balance: $1,234.56 ↑ 12% / Dashboard → Settings → Profile' and 'Emphasize important information with italics.'",
+      "feel": "App-UI realistic",
+      "ux": "Edit each sample; each row's sliders and OpenType menu affect only that row",
+      "learn": "Seed a UI-font tester with interface strings (balances, arrows, breadcrumbs) instead of pangrams",
+      "reconstruction": {
+        "layout": "Two stacked panels ~1240px wide; control row 30px; sample area ~150px",
+        "typography": "Samples 48px MonoLisa Text Regular (second row Italic), navy",
+        "palette": [
+          "#f0f3f8",
+          "#ffffff",
+          "#1d3a57",
+          "#b58e0d",
+          "#cbd1d7"
+        ],
+        "behaviour": "Per-row sliders → font-size, 'wght', 'GRAD'; OpenType popover; Reset",
+        "content": "UI copy with currency, percentages and arrows",
+        "assets": "none",
+        "html": "two blocks of input[type=range] ×3 + button 'OpenType ▼' + button 'Reset' + div[contenteditable=true]"
+      }
+    },
+    {
+      "blocks": [
+        "25"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "brand, print",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "carousel"
+      },
+      "look": "'MonoLisa Text in Action': a large photo carousel (hands holding a navy stand-up pouch printed 'Packaging Design' with a yellow arrow logo), with a ■ pause button and dot pagination below",
+      "feel": "Real-world, branded",
+      "ux": "Auto-advancing slides with pause and dots",
+      "learn": "One carousel of print mockups is enough to show a coding family's text cut working off-screen",
+      "reconstruction": {
+        "layout": "Image area ~710×530px centred in the column; nav row centred below",
+        "typography": "Mockup lettering MonoLisa Text Bold",
+        "palette": [
+          "#f5f6f9",
+          "#1c2a44",
+          "#e8c12f",
+          "#514f51"
+        ],
+        "behaviour": "Timed autoplay slideshow; pause toggles; dots jump",
+        "content": "Packaging and print mockups",
+        "assets": "Photographic mockups",
+        "html": "nav > button[title='Pause playback'] + a[aria-current] dots"
+      }
+    },
+    {
+      "blocks": [
+        "28"
+      ],
+      "type": "newsletter",
+      "variant": "email-signup",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "unobtrusive",
+        "mobile": "adapts"
+      },
+      "look": "A ruled box: 'Stay up to date with MonoLisa — Only typeface updates, by email. Unsubscribe at any time.' with an outlined gold 'Subscribe for updates' button at right",
+      "feel": "Low-key",
+      "ux": "Button links to an external sign-up form (no field on the page)",
+      "learn": "A link-out sign-up keeps the page free of forms and tracking scripts",
+      "reconstruction": {
+        "layout": "1240px column, left border accent, text left, button right, ~120px tall",
+        "typography": "Heading ~27px MonoLisa Text; line ~14px; button ~14px gold outline",
+        "palette": [
+          "#eceff5",
+          "#b28e0f",
+          "#2c5d8f"
+        ],
+        "behaviour": "none",
+        "content": "Update-only newsletter promise",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "29"
+      ],
+      "type": "story",
+      "variant": "designer-bio",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "personal, credible",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "'The Team': three black-and-white square portraits (Marcus Sterz, Typeface Designer; Juho Vepsäläinen, Expertise, Marketing; Andrey Okonetchnikov, Expertise, Website) with gold name links, then two lines on the FaceType collaboration and the award",
+      "feel": "Human, trustworthy",
+      "ux": "Names link to personal sites",
+      "learn": "Credit the developer collaborators next to the type designer: for a coding font, their expertise is a selling point",
+      "reconstruction": {
+        "layout": "Heading, 3 portraits ~220px square in a row with captions, paragraph below",
+        "typography": "Heading ~36px MonoLisa Text gold; names ~12px gold underlined; roles ~10px grey; paragraph ~14px",
+        "palette": [
+          "#f0f3f7",
+          "#2a2d32",
+          "#b58e0d",
+          "#8d9095"
+        ],
+        "behaviour": "none",
+        "content": "Team credits, 'award-winning coding font created by professionals for professionals'",
+        "assets": "B/W portrait photos"
+      }
+    },
+    {
+      "blocks": [
+        "30",
+        "31"
+      ],
+      "type": "checkout",
+      "variant": "package-price-sheet",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "clear, fair",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": true,
+        "free": false
+      },
+      "look": "'Get MonoLisa' and three cards: Trial ('Try a limited version… Free →'), Developer with a 'BEST VALUE' tag and gold border ('MonoLisa Code with all its features. $149.00 →'), Creator with a 'CUSTOM LICENSE' tag ('Includes MonoLisa superfamily (Code + Text). $49.00 / weight →'); below, two small notes: License (EULA, refund policy) and For students (email proof for a discount)",
+      "feel": "Simple, honest pricing",
+      "ux": "Each card links to its /buy/<plan> page where the purchase and customisation happen",
+      "learn": "Three cards (free trial, best-value developer bundle, per-weight creator licence) map to three kinds of buyer; a student note handles the edge case",
+      "reconstruction": {
+        "layout": "3 equal cards ~400×150px with 16px gaps; title + tag row, description, price row with → at right; notes in two columns below",
+        "typography": "Card titles ~22px MonoLisa Text; tags ~8px caps outlined; prices ~22px gold/green; notes ~11px",
+        "palette": [
+          "#eceff4",
+          "#e6e5d7",
+          "#b58e0d",
+          "#3a7d44",
+          "#2c5d8f"
+        ],
+        "behaviour": "Hover highlights the card",
+        "content": "Trial free, Developer $149, Creator $49 per weight",
+        "assets": "none",
+        "html": "div#buy > a[href=/buy/trial|developer|creator][data-testid=product-card] > h2 + tag + p + price"
+      }
+    },
+    {
+      "blocks": [
+        "33"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "tidy, product",
+        "mobile": "adapts",
+        "contains": [
+          "legal",
+          "socials",
+          "credits",
+          "newsletter"
+        ]
+      },
+      "look": "Three short link columns (Get MonoLisa, Tester, Specimen, Releases, FAQ | My orders, Send feedback, Follow on Twitter, Subscribe for updates | License, Refund Policy, Privacy Policy, Cookie Policy, Imprint), the FaceType 'F' logo with '© FaceType, 2026 / Made in Vienna by Component-Driven', and an award badge",
+      "feel": "Orderly",
+      "ux": "Plain links; feedback goes to GitHub issues",
+      "learn": "Send feedback to a public GitHub issues board: it fits a developer audience and signals openness",
+      "reconstruction": {
+        "layout": "~210px; three 130px link columns at left, logo/credit column, badge at right",
+        "typography": "~11px MonoLisa Text gold links, grey credit",
+        "palette": [
+          "#f0f3f8",
+          "#b58e0d",
+          "#8a96a3"
+        ],
+        "behaviour": "none",
+        "content": "Site links, legal, credits",
+        "assets": "FaceType logo, award badge"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/product-landing",
+    "testimonials/quote-columns",
+    "specimen-showcase/use-case-samples",
+    "design-details/annotated-specimen",
+    "design-details/feature-before-after",
+    "design-details/axis-explainer",
+    "language-support/language-name-list",
+    "design-details/feature-index",
+    "checkout/link-out-cta",
+    "design-details/annotated-specimen",
+    "design-details/feature-before-after",
+    "design-details/feature-index",
+    "specimen-showcase/use-case-samples",
+    "type-tester/code-playground",
+    "story/essay",
+    "design-details/annotated-specimen",
+    "type-tester/per-row-controls",
+    "specimen-showcase/in-use-mockups",
+    "newsletter/email-signup",
+    "story/designer-bio",
+    "checkout/package-price-sheet",
+    "footer/link-columns"
+  ]
+}

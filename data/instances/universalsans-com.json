@@ -1,0 +1,421 @@
+{
+  "slug": "universalsans-com",
+  "extractedBy": "agent",
+  "summary": "Family Type's Universal Sans is not a specimen page but a one-screen, dark configurator app: a seven-step side panel lets the visitor build their own sans (six custom axes, per-glyph alternates, extra weights, italics, optical size, name), a big live sample with a toolbar previews it, and the build (encoded in a shareable BuildID URL) is downloaded as a trial or licensed in an on-page Stripe checkout. Phones get a static fallback page instead ('Visit on desktop').",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "playground-app",
+      "variant": "configurator-wizard",
+      "newVariant": true,
+      "variantDefinition": "A single-screen app where a numbered step panel walks the visitor through building their own version of the font (axis values, per-glyph alternates, extra weights, italics, optical size, name) while a large live sample previews every choice; the build is encoded in a shareable ID or URL and ends in a trial download or a licence purchase.",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "product-like, premium, guided",
+        "mobile": "hidden"
+      },
+      "look": "Black app screen: huge white 'Hello font friend.' filling the left 3/4, a charcoal side panel at right headed '1. START HERE' with intro copy, BASIC | INTERPOLATOR pill tabs and slider rows (Weight 450, Width 50, X-height 40, Ink Traps 25…) each with a '?' button, a numbered step rail 1–7 on the far right edge, and a slim top bar with 'UNIVERSAL SANS 2.0' and the live 'BuildID v2.0.0.50.25.40.50.1111…450'",
+      "feel": "A design tool, not a brochure: calm, confident, empowering",
+      "ux": "Work down seven steps: 1 Geometry (six axis sliders or the XY interpolator), 2A–2C Alternates (pick numbered variants for a, a spur/tail, g, shoulder hn, y, terminal curve tfj, l, J, Q, R, G, K/k junction; numerals 1 2 3 7 6&9; round or square dots, curly or straight punctuation), 3 Add weights (+/– extra weights), 4 Add italics (9° slant, single-storey a option), 5 Optical size (Text, Display or both), 6 Name your typeface, 7 Download (trial or licence); every choice updates the sample and the BuildID in the URL hash so the build can be saved and shared",
+      "learn": "Turn the variable font's design space into a guided build-your-own-family flow: numbered steps, a '?' explanation for every option and a URL-encoded build ID make an open-ended configurator feel safe and finishable",
+      "reconstruction": {
+        "layout": "1440×900 fixed app, no page scroll. Stage 0–1070px wide (sample top-left at x=20, y=80); side panel x=1070–1395 (~325px), charcoal rounded card, sections separated by hairlines, each option a row: label left, '?' circle right, slider + numeric field below; step rail x=1395–1440 with numbers 1–7 stacked at the top and the vertical 'UNIVERSAL SANS' tab at the bottom; top bar 30px",
+        "typography": "Sample 202px Universal Sans Display GX (wght 450, rnds 50, xhgt 40, prop 50, trml 0, skew 25), leading 1.04, tracking -0.008em, white; panel title ~11px caps; panel body ~13px Universal Sans Regular grey-white; slider labels ~13px; values ~12px",
+        "palette": [
+          "#040404",
+          "#2e2e2e",
+          "#4c4c4c",
+          "#ffffff",
+          "#dad6d1"
+        ],
+        "behaviour": "Panel slides in from the right after load and the sample text types itself on (storyboard t≈1.6–4.3s); range inputs (wght 100–900; width/proportions/terminals/ink traps 0–100; x-height 0–80) write font-variation-settings on every .font--update element; alternate tiles set ss01–ss20 / cv09–cv19; selections serialise into the BuildID (e.g. #v2.0.0.50.25.40.50.1111111111111111111.01.01.450) in the URL hash; step rail scrolls the panel to that step",
+        "content": "Instructional copy per step ('Welcome to Universal Sans, the award-winning customisable typeface platform…'); sample 'Hello font friend.'",
+        "assets": "Variable fonts with custom axes (UniversalSansGX, DisplayGX, ItalicDisplayGX); no imagery",
+        "html": "div.section--instruct > div#instruct--N.instruct--block[data-section=N] > div.header.panel--title + div.instruct--panel rows with input[type=range][name=amountRange]; div.instruct--selector > .selector--basic / .selector--advanced; span.build--number"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "clean, tool-like",
+        "mobile": "hidden",
+        "controls": [
+          "text",
+          "size",
+          "leading",
+          "tracking",
+          "features",
+          "alignment",
+          "color",
+          "presets",
+          "style-select",
+          "axes"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "The configurator's stage: one editable sample at 202px with a dark pill toolbar along the bottom (Opentype, TT size slider with '202px' readout, leading 'A/A 3.8', tracking 'VA -4.1', Text | Display segmented switch, Auto, black/white half-circle toggle, It, AA, vertical-centre and three alignment buttons) and a row of content pills above it (Abc, Word, Sentence, Paragraph, Glyphs)",
+      "feel": "Sleek, app-like",
+      "ux": "Click and type in the sample; size slider 12–500px; leading and tracking are editable numbers with up/down arrows; Opentype opens a list of 13 feature toggles (calt, case, dnom, frac, locl, nalt, numr, ordn, sinf, subs, sups, tnum, zero); content pills swap the text for an alphabet, a word, a sentence, a paragraph or the glyph sheet; the axis sliders live in the side panel",
+      "learn": "Separate 'what the font is' (axes in the side panel) from 'how I am looking at it' (size, spacing, case, colour, text preset in a bottom toolbar), so the preview controls never mix with the design choices",
+      "reconstruction": {
+        "layout": "Stage 1070×900; sample block top-left with 20px inset; content pills centred at y≈842; toolbar full stage width at y≈880, height ~24px, pill groups separated by small gaps",
+        "typography": "Sample 202px Universal Sans Display, leading 1.038em, letter-spacing -0.0082em; toolbar labels ~10px Universal Sans in grey pills",
+        "palette": [
+          "#040404",
+          "#2e2e2e",
+          "#4c4c4c",
+          "#ffffff"
+        ],
+        "behaviour": "input.size--input[type=range][min=12][max=500] sets font-size and its readout; contenteditable numeric spans for line-height and letter-spacing with arrow steppers; Text/Display radio swaps between the text and display optical styles; It toggles the italic font; AA toggles caps; black--white toggle inverts the stage; opentype--option[data-ot] toggles font-feature-settings",
+        "content": "'Hello font friend.' with presets for Abc / Word / Sentence / Paragraph / Glyphs",
+        "assets": "none",
+        "html": "div.section--tester > div.tester--input.font--update[contenteditable] + div.tester--controls > #opentype--block, #size--block, #control--block (#lineHeight--button, #letterspacing--button, .optical--container radios, #italic--toggle, #caps--toggle, #align--buttons), #content--block; ul in .opentype--menu > li.opentype--option[data-ot]"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "type-tester",
+      "variant": "xy-pad",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "exploratory, technical",
+        "mobile": "hidden",
+        "controls": [
+          "axes",
+          "weight"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Behind the INTERPOLATOR tab of step 1 (HTML only, not visible in the capture): a square 10×10 grid pad with a crosshair (x line labelled 'rnds 50', y line 'wght 450') and a dot at the current value, above two dropdowns choosing which axis drives X and which drives Y",
+      "feel": "Exploratory, instrument-like",
+      "ux": "Drag the dot to set two axes at once; the dropdowns assign any of Weight, Width, Proportions, X-height, Terminals, Ink Traps or None to each direction",
+      "learn": "Let visitors choose which two axes the pad maps, so one small control explores every pair in a six-axis design space",
+      "reconstruction": {
+        "layout": "Pad ~290×290px inside the 325px panel, table.grid--background 10×10 hairline cells; axis lines are absolutely positioned and translated to the value; two dropdown buttons side by side below",
+        "typography": "Axis readouts ~10px Universal Sans with tag + value ('wght 450'); dropdown labels ~12px",
+        "palette": [
+          "#2e2e2e",
+          "#4c4c4c",
+          "#ffffff"
+        ],
+        "behaviour": "Pointer drag → current--val translate(x,y) → mapped to data-min/data-max of the selected axes → font-variation-settings on the sample; slider rows in BASIC stay in sync",
+        "content": "Same sample as the stage",
+        "assets": "none",
+        "html": "div.instruct--panel.interpolator > div.input--grid (div.axis--x > .axis--line, div.axis--y > .axis--line, div.current--val, table.grid--background) + div.interpolator--selector > .selector--left/.selector--right dropdown > li.button[data-name][data-min][data-max]"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "reference, live",
+        "mobile": "hidden",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": true
+      },
+      "look": "The 'Glyphs' preset of the stage (HTML only): a flex grid of ~375 cells, each with the character as a small label on top, the glyph rendered in the current build, and its code point (U+0041) at the bottom",
+      "feel": "Reference sheet that follows your design",
+      "ux": "Every cell is .font--update, so the grid redraws as the visitor moves axes or picks alternates",
+      "learn": "Render the glyph sheet in the visitor's own configuration: the character set becomes a check of their choices, not a static catalogue",
+      "reconstruction": {
+        "layout": "Flex-wrap grid filling the stage width, uniform square cells (~90px), folio label top-left and Unicode bottom",
+        "typography": "Glyphs ~48px Universal Sans in current variation; folios ~9px",
+        "palette": [
+          "#040404",
+          "#ffffff",
+          "#4c4c4c"
+        ],
+        "behaviour": "font-variation-settings mirrored from the configurator on every cell",
+        "content": "Basic Latin and Latin-1 / Extended-A",
+        "assets": "none",
+        "html": "div.glyph--sheet.font--update > div.flex-grid > div.flex-grid-item.font--update > p.folio--top + glyph + p.folio--bottom"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "info-popover",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "helpful, explanatory",
+        "mobile": "hidden",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "A small draggable 'INFO' window with a close × (HTML only), holding one of 30 tips: the option name as a header bar and a short explanation (e.g. Weight: '100: Thin … 900: Black'); letter x-ray diagrams exist in the markup but are commented out",
+      "feel": "Like a tool tip palette in design software",
+      "ux": "Each '?' button in the side panel opens the tip window on that option's text; the window can be dragged anywhere over the stage (jQuery UI draggable)",
+      "learn": "Put every design explanation behind a '?' next to the control it explains: the copy arrives exactly when the visitor is making that decision",
+      "reconstruction": {
+        "layout": "Floating panel ~260px wide over the stage; header bar 'INFO' with close icon, sub-header with the option name, text below",
+        "typography": "~12–13px Universal Sans Regular, white on charcoal; header caps ~10px",
+        "palette": [
+          "#2e2e2e",
+          "#ffffff",
+          "#4c4c4c"
+        ],
+        "behaviour": "jQuery UI draggable; '?' click toggles .selected on #tip--1a … #tip--5d",
+        "content": "Tips for the six axes (1a–1f), each alternate (2a–2s), italics (4a) and optical size (5a–5d)",
+        "assets": "none",
+        "html": "div.draggable--container > div.tip--window.draggable > div.tip--contents#tip--1a.selected > .panel--header + .tip--text"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "on-page-cart",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "transparent, self-serve",
+        "mobile": "hidden",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": true,
+        "free": false
+      },
+      "look": "Step 7 'Download your family' in the side panel and a checkout section (HTML only): a Trial option with 'I agree to the EULA', licence selects (Desktop by personnel 1 → >640, Web by visitors <2.5k → >2m, Social by followers…), then Billing details, Licence holder, Payment (Stripe) and a 'Review order' table: Licence 450 Weights £75.00, Italics +50%, Text & Display +50%, Custom Name +25%, Total",
+      "feel": "Self-serve, like buying software",
+      "ux": "Trial downloads the visitor's build with a reduced character set; licensing prices scale with tiers and with each option added in earlier steps; payment and order confirmation ('ORDER #0000 Thanks for your order!') happen without leaving the app; the BuildID is shown as the receipt reference",
+      "learn": "Price the custom build as a base licence plus percentage surcharges for each extra (italics, Text+Display, custom name) so the cost visibly follows the visitor's choices",
+      "reconstruction": {
+        "layout": "Inside the 325px panel: step header, explanatory paragraph, trial row with checkbox + button, licence dropdown rows; checkout as a full-height panel with form sections and an order summary table (label left, surcharge, price right)",
+        "typography": "~13px Universal Sans, prices tabular; section titles ~11px caps",
+        "palette": [
+          "#040404",
+          "#2e2e2e",
+          "#ffffff"
+        ],
+        "behaviour": "Selects recompute the total; Stripe Elements for payment (js.stripe.com font loaded); confirm screen offers the font download link and emails it",
+        "content": "Licence tiers, FAQ-backed copy on formats (TTF, WOFF2) and character sets",
+        "assets": "none",
+        "html": "div.section--checkout > billing form (country select), licence holder, payment; div.section--checkout--confirm with order number and download"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "navigation",
+      "variant": "scroll-spy-nav",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "minimal, wayfinding",
+        "mobile": "hidden"
+      },
+      "look": "A 45px rail at the right edge with step numbers 1–7 stacked at the top (current one in a circle) and 'UNIVERSAL SANS' set vertically at the bottom; a hover menu names the steps (Geometry, Alternates, Weights, Italics, Optical Size, Name, Download)",
+      "feel": "Quiet progress indicator",
+      "ux": "Marks the step currently in view in the panel; click a number to jump; the vertical name opens the information drawer",
+      "learn": "A numbered rail doubles as progress bar and table of contents for a multi-step tool",
+      "reconstruction": {
+        "layout": "Fixed column x=1395–1440, numbers ~22px apart from y=10; vertical label rotated 90° at the bottom",
+        "typography": "~11px Universal Sans; active number inside an 18px circle",
+        "palette": [
+          "#040404",
+          "#ffffff",
+          "#4c4c4c"
+        ],
+        "behaviour": "Active state follows the panel scroll position; .menu--circle per step",
+        "content": "Step numbers and names",
+        "assets": "none",
+        "html": "div.section--menu > .menu--list > .menu--title + .menu--circle"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "info-popover",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "proud, mission-driven",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "photo"
+        ],
+        "length": "medium"
+      },
+      "look": "An off-canvas information drawer (captured offscreen) opened from the vertical 'UNIVERSAL SANS' tab: ABOUT (five paragraphs on democratising custom type, Briton Smith for Family Type, built with twomuch.studio), a 'Winner of a D&AD Black Pencil' card with a looping video of the black pencil trophy and 'View more →'",
+      "feel": "Credible, low-key",
+      "ux": "Slides over the app; close button; on phones the same content becomes the static fallback page (hero text, award card, 'Universal Serif – coming soon' card)",
+      "learn": "In an app-style site, keep the story and the social proof in a drawer one click away, so the tool owns the screen",
+      "reconstruction": {
+        "layout": "Drawer ~1390px wide × 100vh sliding in from the right; columns of menu--section blocks (about text, award card with video, release notes, contact, FAQ)",
+        "typography": "Section titles ~11px caps; body ~15px Universal Sans Regular, light grey (#dad6d1 for the award)",
+        "palette": [
+          "#040404",
+          "#2e2e2e",
+          "#dad6d1",
+          "#ffffff"
+        ],
+        "behaviour": "Award video autoplay, loop, muted",
+        "content": "Real project description, D&AD award",
+        "assets": "Looping trophy video (blackpencil.mp4)",
+        "html": "div.section--information > div.menu--info > div.menu--wrapper > div.menu--section (about), div.menu--section#blackpencil > video"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "practical",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "contact",
+          "legal"
+        ]
+      },
+      "look": "The rest of the information drawer stands in for a footer: RELEASE NOTES table (v2.0.0.7 Update, v2.0.0.6 Open Beta), CONTACT (hello@familytype.co, Instagram, Family Type Pty Ltd, ABN, Sydney) and a FAQ (formats, hinting, character set, OpenType), with the EULA text elsewhere in the DOM",
+      "feel": "Thorough, support-desk",
+      "ux": "Static text with mail and web links",
+      "learn": "A software-style release-notes table signals that the font platform is maintained and versioned",
+      "reconstruction": {
+        "layout": "Further menu--section columns in the drawer; release notes as a two-column table",
+        "typography": "~13–15px Universal Sans; titles ~11px caps",
+        "palette": [
+          "#040404",
+          "#ffffff",
+          "#4c4c4c"
+        ],
+        "behaviour": "none",
+        "content": "Release notes, contact, FAQ",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "newsletter",
+      "variant": "email-signup",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly",
+        "mobile": "adapts"
+      },
+      "look": "'Stay in touch 👋' with an email field and a grey 'Subscribe for updates' button, seen on the mobile fallback page (the form also sits in the DOM for desktop, not visible in the capture)",
+      "feel": "Casual",
+      "ux": "Email field (required) and submit",
+      "learn": "When the main tool cannot run on phones, capture the visitor's email so they come back on desktop",
+      "reconstruction": {
+        "layout": "Full-width card on mobile: heading, 40px input, 40px button, contact lines below",
+        "typography": "Heading ~20px Universal Sans; input and button ~13px",
+        "palette": [
+          "#1c1c1c",
+          "#ffffff",
+          "#bdbdbd"
+        ],
+        "behaviour": "Form submit",
+        "content": "'Stay in touch', 'Subscribe for updates'",
+        "assets": "none",
+        "html": "input[type=email][placeholder='Email address']"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "playground-app/configurator-wizard",
+    "type-tester/slider-sandbox",
+    "type-tester/xy-pad",
+    "glyph-table/full-grid",
+    "story/info-popover",
+    "checkout/on-page-cart",
+    "story/info-popover",
+    "footer/credits-colophon",
+    "newsletter/email-signup"
+  ]
+}

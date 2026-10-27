@@ -1,0 +1,455 @@
+{
+  "slug": "font-subf-dev-en",
+  "extractedBy": "agent",
+  "summary": "The site for Maple Mono, an open-source rounded monospace font with a cursive italic, by a single developer (subframe7536): a narrow, dark slate single column with a gradient wordmark, a first-person 'Why another one?', feature cards whose switches toggle the actual OpenType features (cv01, cv04, zero, cursive italic, ligatures, [TODO]-style tag ligatures), a tabbed comparison against JetBrains Mono, Fira Code and Iosevka, a grid of real code snippets, a testimonial carousel and generous credits. Downloading and the full playground live on sub-pages.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "developer, minimal",
+        "mobile": "adapts"
+      },
+      "look": "Fixed translucent bar with backdrop blur: maple-leaf icon, WHY · FEATURES · PREVIEW · CREDITS anchors with animated underlines at left; GitHub, Playground, Usage (icon + label) and a light-blue 'Get Font' button at right (repeated across the stitched crops)",
+      "feel": "Lightweight docs-site chrome",
+      "ux": "Anchors scroll inside the main scroller; Get Font goes to /en/download, Playground to the full tester",
+      "learn": "Keep the heavy tools (playground, usage docs, downloads) on their own pages and link them from a small fixed bar, so the landing page stays a story",
+      "reconstruction": {
+        "layout": "Fixed full-width bar ~48px, bg-background/50 + backdrop-blur-lg; links as 32px-high ghost buttons with 16px padding",
+        "typography": "~12–14px Maple Mono, weight 500, caps for anchors",
+        "palette": [
+          "#27364b",
+          "#e2e8f0",
+          "#a8d4f0"
+        ],
+        "behaviour": "Animated underline on hover",
+        "content": "Section anchors and site links",
+        "assets": "Maple leaf favicon, lucide icons",
+        "html": "nav.fixed.backdrop-blur-lg > a > img + div (a[href=#why] … ) + div (a GitHub, a Playground, a Usage, a Get Font)"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "product-landing",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "friendly, polished, indie",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "Left-aligned in a 896px column on slate navy: 'Maple Mono' at ~80px bold with a mint-to-sky-blue gradient, 'Smooth your coding flow' in peach cursive italic below, a 5-line paragraph (with 'Maple Mono' in bold italic inline), then a filled light-blue 'Learn More ↓' and an outlined 'Try it now →' button",
+      "feel": "Warm, approachable dev tool",
+      "ux": "The title is drawn first as an outline (SVG stroke) and then filled, and keeps cycling between outline and fill (storyboard t≈0.9–2.2s); Learn More scrolls to #why, Try it now opens the playground",
+      "learn": "Use the cursive italic for the slogan right under the upright name: the font's signature feature is the first thing read",
+      "reconstruction": {
+        "layout": "100vh section, content column 896px (x=272), block vertically centred: title, 24px gap, slogan, 32px gap, paragraph (~11 words per line), 40px gap, two 200×48px buttons 24px apart",
+        "typography": "Title ~80px Maple Mono Bold, linear-gradient text mint #a6e3b8 → blue #5aa9f0; slogan ~40px Maple Mono Italic (cursive cv forms), peach #fcd9b0; paragraph ~19px Regular, leading 1.9, #e2e8f0",
+        "palette": [
+          "#27364b",
+          "#a6e3b8",
+          "#5aa9f0",
+          "#fcd9b0",
+          "#e2e8f0",
+          "#a8d4f0"
+        ],
+        "behaviour": "Title SVG overlay: stroke-dasharray draw-on, then fill fades in; loop or replay on view (Solid 'Title' island)",
+        "content": "Real pitch: 'We use code to bring ideas to life as products, but the font we choose is the silent architect…'",
+        "assets": "SVG outline of the wordmark",
+        "html": "section#hero > astro-island[component-url*=title] > h1[aria-label='Maple Mono'] > div > svg + div 'Maple Mono'; p slogan; a[href=#why] + a[href=/en/playground]"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "candid, personal",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'Why Another One?' in mint, a paragraph and a bullet list naming what the author dislikes in other coding fonts (JetBrains Mono too rigid, Fira Code's synthetic italic angle, Victor Mono's exaggerated cursive, Sarasa Gothic too narrow, few rounded corners, little Nerd-Font/CJK support), then 'Therefore, I created this font with clean glyphs, a cursive-style italic, fine-grained configuration, built-in Nerd-Font, and a 2:1 ratio for Chinese and English'",
+      "feel": "Honest maker's note",
+      "ux": "static",
+      "learn": "Frame the brief as a list of honest complaints about named rivals: every complaint becomes a design requirement the page can then prove",
+      "reconstruction": {
+        "layout": "896px column, heading then text, ~980px tall; bullets with 8px dot markers, indented 24px",
+        "typography": "Heading ~36px Maple Mono Bold mint; body ~17px Regular, leading 1.9; rival names in italic blue; 'Nerd-Font' in an outlined tag",
+        "palette": [
+          "#28374c",
+          "#a6e3b8",
+          "#e2e8f0",
+          "#7cb7ea",
+          "#e8706a"
+        ],
+        "behaviour": "none",
+        "content": "First-person rationale referencing JetBrains Mono, Fira Code, Victor Mono, Sarasa Gothic",
+        "assets": "none",
+        "html": "section#why > h1 + p + ul > li"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "light, confident",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "'One Font, Infinite Weights' (infinity icon chip) with 'Variable font support, get whatever weight you like.' above the word 'Variable' at ~128px in peach, each letter at a different weight as a wave passes through it",
+      "feel": "Smooth, rhythmic",
+      "ux": "Continuous CSS animation; no controls",
+      "learn": "A staggered weight wave across one word shows a variable axis in motion with zero UI",
+      "reconstruction": {
+        "layout": "Feature header (32px icon chip + 24px title), one-line description, word below spanning ~520px",
+        "typography": "'Variable' ~128px Maple Mono, base weight 200, peach #fcd9b0",
+        "palette": [
+          "#27364b",
+          "#fcd9b0",
+          "#a6e3b8"
+        ],
+        "behaviour": "@keyframes wave-weight animates font-weight (≈200 → 800 → 200) on each letter span, animation-delay 0.2s × index, infinite",
+        "content": "The word 'Variable'",
+        "assets": "lucide icon",
+        "html": "div > span.animate-wave-weight.font-200[style='animation-delay:0.2s'] per letter"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "playful, customisable",
+        "mobile": "adapts",
+        "subject": [
+          "alternates",
+          "features",
+          "italics"
+        ],
+        "presentation": "toggle",
+        "explanation": "caption"
+      },
+      "look": "Two feature groups as a 2-column grid of cards: 'Distinct Glyphs, Smooth Design' (@ $ & % → with a 'cv01' switch; cursive f i l k x y with a 'plain style' switch; I 1 l with 'cv04'; O 0 o with 'zero'), and 'Smart Ligatures, Large Variety' (a 'Ligature ON | Ligature OFF' segmented tab above three rows of mint ligatures interleaved with dim letters: <>a??b≢c…d↦), then 'Special Ligatures' cards: pill-shaped DEBUG INFO WARN ERROR TODO FIXME tags (calt), connected italic 'all class / ultra suffix' (calt), smart spacing '1>>4 / Vec<R<T>>' (calt); each card has a one-line grey note",
+      "feel": "Tinkerer-friendly, delightful",
+      "ux": "Every switch toggles that card's real OpenType feature(s) (e.g. 'plain style' flips cv32–cv37 on the italic; [DEBUG] turns into a pill only with calt on); the ligature tabs toggle calt on the three rows",
+      "learn": "Put a labelled switch with the feature tag under each sample: visitors learn the tag names they'll need in their editor config while playing",
+      "reconstruction": {
+        "layout": "Cards in a 2-col grid (~430px each, 24px gap), no borders: sample (2 lines) → 24px-high switch with tag label → note; ligature block full width with 3 rows; special-ligature cards in 2 cols",
+        "typography": "Samples ~80px Maple Mono (italic cards in Italic), white; ligature rows ~64px, ligatures mint #a6e3b8, letters dim slate; tag pills ~40px bold dark text on pale blue; switch labels ~14px; notes ~13px grey",
+        "palette": [
+          "#27364b",
+          "#ffffff",
+          "#a6e3b8",
+          "#cfe8f7",
+          "#455866",
+          "#7a8ca0"
+        ],
+        "behaviour": "Solid FeatureCard islands: switch sets CSS variables like --feat-cv01:0/1 consumed by font-feature-settings; ligature tabs (role=tablist) toggle 'calt'",
+        "content": "Feature glyph sets, log-level tags, generics/bitwise operators",
+        "assets": "none",
+        "html": "astro-island[component-url*=feature-card][props={showText, feature:'cv01', activeFeatures:[…], description}] > div[style='--feat-cv01:0'] + div[role=group] > input[type=checkbox][role=switch] + label 'cv01'; astro-island[component-url*=generic-ligature] > div[role=tablist] > button 'Ligature ON' / 'Ligature OFF'"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "modern terminal",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "single"
+      },
+      "look": "'Beautiful Icons, Embrace Modernity — First-class Nerd-Font support, iconize your modern terminal.' with a screenshot of a zsh session (Starship prompt with git and runtime icons, ls listing with file-type icons) and credits 'Art By CodeImg · Theme Maple · Prompt Starship' (below the cut of the truncated crop; seen in the storyboard and mobile)",
+      "feel": "Cool, contemporary",
+      "ux": "Links to the screenshot tools",
+      "learn": "Credit the theme and prompt used in the screenshot: developers will want to copy the whole setup",
+      "reconstruction": {
+        "layout": "Feature header, then a 1194×738 image scaled to the 896px column with rounded corners, a 3-column credit row underneath",
+        "typography": "Terminal in Maple Mono NF ~14px; credit labels ~12px italic",
+        "palette": [
+          "#27364b",
+          "#1e1e2e",
+          "#a6e3b8",
+          "#f9e2af"
+        ],
+        "behaviour": "none",
+        "content": "Real terminal session",
+        "assets": "Terminal screenshot (zsh.webp)"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "checkout",
+      "variant": "build-configurator",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "candid, humorous",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "'Your favor, Your Font' (hammer icon): a JSON config snippet (family_name, use_hinted, pool_size, ligature, feature_freeze) beside 'Configure or freeze OpenType features as you want, create your own perfect font.' and a 'See Guide' button; then an emoji dialogue (😡 'Why these glyphs are SOOOOO WEIRD ???' / 🤗 'this one is for you: Maple Mono Normal…') with the preset's enabled features (cv01, cv02, cv33… ss08), a 'Test In Playground Page' link and a code preview in that preset (HTML only; cut from the truncated crop)",
+      "feel": "Self-aware, accommodating",
+      "ux": "Guide links to the custom-build docs on GitHub; the Normal preset is a direct download and can be previewed in the playground",
+      "learn": "Anticipate the objection to quirky glyphs with a ready-made 'normal' preset: the configurable font stays opinionated without losing sceptics",
+      "reconstruction": {
+        "layout": "Two-column row: code block (~430px) left, text + button right; then dialogue lines, feature list in a code block, link, and a ~300px code preview",
+        "typography": "Code ~13px Maple Mono with Shiki colours; dialogue ~16px",
+        "palette": [
+          "#27364b",
+          "#1e1e1e",
+          "#a6e3b8",
+          "#fcd9b0"
+        ],
+        "behaviour": "none",
+        "content": "Build config JSON, preset feature list, TypeScript class example",
+        "assets": "none",
+        "html": "pre > code (config.json) + p + a[href*=custom-build] 'See Guide'; pre 'cv01, cv02, …'; a[href*=playground?normal]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "comparison",
+      "variant": "versus-tabs",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "confident, fair",
+        "mobile": "adapts"
+      },
+      "look": "'Comparison — See how Maple Mono compares to other popular programming fonts.' with a segmented tab bar (JetBrains Mono | Fira Code | Iosevka) and an 'Italic' switch; below, 'Cloudflare' at ~128px in peach Maple Mono stacked over 'Cloudflare' in pale blue in the chosen rival",
+      "feel": "Direct, visual",
+      "ux": "Pick a rival tab to swap the lower word's font; the Italic switch sets both in italic, contrasting Maple's cursive with the rival's italic",
+      "learn": "Choose a test word full of telling letters (C l o u d f l a r e) and stack it in both fonts at display size: differences in terminals and the f/l/r shapes are instant",
+      "reconstruction": {
+        "layout": "Tab bar ~600px wide (3 equal tabs, active pill), switch at right; two lines of the word, each full column width, ~150px line pitch",
+        "typography": "~128px; top Maple Mono in peach #fcd9b0, bottom JetBrains Mono / Fira Code / Iosevka in pale blue #d9ecf7",
+        "palette": [
+          "#27364b",
+          "#384858",
+          "#fcd9b0",
+          "#d9ecf7",
+          "#5a8fd0"
+        ],
+        "behaviour": "role=tablist buttons set font-family of the second line; switch toggles font-style italic on both",
+        "content": "The word 'Cloudflare'",
+        "assets": "Rival webfonts (JetBrains Mono, Fira Code, Iosevka)",
+        "html": "astro-island[component-url*=comparison-tabs] > div[role=tablist] > button[role=tab] ×3 + div[role=group] > input[role=switch] 'Italic'; div[role=tabpanel] > div 'Cloudflare' + div 'Cloudflare'"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "specimen-showcase",
+      "variant": "use-case-samples",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "practical",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "grid"
+      },
+      "look": "'Preview — See what the font looks like in real code snippets.' then a 2-column grid of dark rounded code cards captioned TypeScript JSX, Vue, Java, Go, Python, C++, with VS Code-like highlighting, ligatures (=>, !==, ::) and cursive italic keywords (function, const, class, return)",
+      "feel": "Editor-realistic",
+      "ux": "static (the editable playground is a separate page)",
+      "learn": "Show the same features (ligatures, cursive italic keywords) across six languages so every reader sees their own stack",
+      "reconstruction": {
+        "layout": "896px column; 2 columns × 3 rows of cards (~430px wide, 200–320px tall, 8px radius, 16px padding), language caption above each",
+        "typography": "~13px Maple Mono with italics for keywords/comments; captions ~16px",
+        "palette": [
+          "#292b2e",
+          "#1e1e1e",
+          "#27364b",
+          "#9cdcfe",
+          "#dcdcaa",
+          "#ce9178",
+          "#569cd6"
+        ],
+        "behaviour": "none",
+        "content": "Real snippets: a Solid counter, Vue script setup, Spring Boot app, Go HTTP server, Python merger class, C++ quicksort",
+        "assets": "none",
+        "html": "section#preview > div grid > h3 caption + pre.shiki > code"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "testimonials",
+      "variant": "quote-columns",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "community, warm",
+        "mobile": "adapts"
+      },
+      "look": "'What people say' carousel: one quote at a time in Maple Mono italic between big corner brackets (┏ … ┛), with a round initial avatar (N), the author's name in peach and the platform (Twitter, Discord, ZhiHu, Reddit) in grey, and five pagination dots",
+      "feel": "Grassroots enthusiasm",
+      "ux": "Auto-rotating slides; dots to jump",
+      "learn": "Cite the platform (Reddit, ZhiHu, Discord) instead of a job title: for an indie font, community voice is the proof",
+      "reconstruction": {
+        "layout": "Avatar + name block left (~180px), quote right (~520px) framed by bracket glyphs at top-left and bottom-right; dots centred below",
+        "typography": "Quote ~16px Maple Mono Italic (cursive), leading 1.6; name ~14px peach; platform ~12px grey; avatar letter ~24px",
+        "palette": [
+          "#28374b",
+          "#cfe8f7",
+          "#fcd9b0",
+          "#7a8ca0"
+        ],
+        "behaviour": "Timed carousel (Solid testimonial-banner island)",
+        "content": "Five real user quotes with platform names",
+        "assets": "none",
+        "html": "astro-island[component-url*=testimonial-banner] > div[role=region] > div[role=group] > avatar + blockquote > span '┏' …"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "grateful, open-source",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "other-fonts"
+        ]
+      },
+      "look": "'Credits — Maple Mono is standing on the shoulders of giants.' then three columns of italic headings with external links: Base Font (JetBrains Mono), Icon Integration (Nerd Fonts), Port of CN glyphs (Resource Han Rounded), Glyph Inspiration (Commit Mono, Fira Code, Iosevka, Monaspace, Monolisa, Recursive, Roboto Mono, Victor Mono), Font Builder (Fonttools, FoundryTools-CLI, Pyodide), Website Tools (Astro, SolidJS, UnoCSS, ESM.sh)",
+      "feel": "Generous, transparent",
+      "ux": "External links with ↗ icons",
+      "learn": "List the fonts that inspired the design by name and link: it reads as confidence, not weakness",
+      "reconstruction": {
+        "layout": "896px column, 3 columns of groups, 24px between groups, ~630px tall",
+        "typography": "Group headings ~14px Maple Mono Italic peach; links ~12px white with external-link icon",
+        "palette": [
+          "#27364b",
+          "#fcd9b0",
+          "#e2e8f0",
+          "#a6e3b8"
+        ],
+        "behaviour": "none",
+        "content": "Real credits",
+        "assets": "lucide external-link icon"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/product-landing",
+    "story/design-brief",
+    "design-details/axis-explainer",
+    "design-details/feature-before-after",
+    "specimen-showcase/in-use-mockups",
+    "checkout/build-configurator",
+    "comparison/versus-tabs",
+    "specimen-showcase/use-case-samples",
+    "testimonials/quote-columns",
+    "footer/credits-colophon"
+  ]
+}

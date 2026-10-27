@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "note": "Curated taxonomy derived from the 250-block sample (Phase 2). Raw labels in methodology/labels/ are left as observed; aliases map raw names to canonical ones. Edit this file to change the taxonomy, then run `npm run labels`.",
   "sections": {
     "hero": {
@@ -125,6 +125,14 @@
         "click-to-stamp": {
           "definition": "An almost empty first screen; each click drops a word or phrase in the font at the pointer with randomised style or axis values, so the visitor composes the hero.",
           "cues": "“click anywhere” prompt, scattered stamped words"
+        },
+        "strip-mixer": {
+          "definition": "A typeset page cut into headline, deck and body strips, each its own carousel of styles cycling on its own timer and swipeable, so the page keeps recombining.",
+          "cues": "horizontal strips sliding independently"
+        },
+        "glyph-grid-sampler": {
+          "definition": "A small name over a large grid of characters from every covered script, often on writing-practice guide cells.",
+          "cues": "grid of CJK/Latin characters in guide cells"
         }
       }
     },
@@ -183,6 +191,10 @@
         "expandable-timeline": {
           "definition": "A dated timeline of rows that expand into text cards on hover or click, with the year and title switching from light to heavy weight.",
           "cues": "years in a column, accordion rows"
+        },
+        "faq": {
+          "definition": "Practical questions and answers about the font, as a collapsed accordion (often grouped by tabs) or an open anchored list.",
+          "cues": "Q&A list, expand on click"
         }
       }
     },
@@ -273,6 +285,14 @@
         "xy-pad": {
           "definition": "One editable sample beside a 2D pad: dragging one handle sets two axes at once (e.g. weight × optical size).",
           "cues": "square pad with a crosshair handle"
+        },
+        "outline-editor": {
+          "definition": "The visitor drags a glyph's outline points and Bézier handles, with undo/redo, reset and image download.",
+          "cues": "points and handles on a big glyph"
+        },
+        "sound-reactive-axis": {
+          "definition": "The microphone level drives an axis (e.g. weight) of a large word, letter by letter.",
+          "cues": "microphone permission, letters pulsing with sound"
         }
       }
     },
@@ -409,6 +429,10 @@
         "language-profile": {
           "definition": "A deep dive into the one language the family was designed for: special characters with Unicode and keyboard notes, a map, the alphabet and a sample text.",
           "cues": "map, alphabet, single-language focus"
+        },
+        "translated-word-picker": {
+          "definition": "A wheel or list of language names beside one giant word; picking a language swaps the word for its translation.",
+          "cues": "language list + one big word"
         }
       }
     },
@@ -476,6 +500,10 @@
         "package-price-sheet": {
           "definition": "The licence packages (family, subfamily, single style) laid out with contents and ‘from’ prices, illustrated with style samples; the purchase itself happens in an external shop.",
           "cues": "package cards with prices, buy links out"
+        },
+        "supporter-tier-wall": {
+          "definition": "For a free font: donation tiers shown as medals with amounts, each followed by the names of supporters at that level; the thank-you wall is also the ask.",
+          "cues": "tiers, amounts, supporter names"
         }
       }
     },
@@ -527,6 +555,10 @@
         "toc-drawer": {
           "definition": "An off-canvas panel of section links opened from a fixed edge tab or menu icon.",
           "cues": "edge tab, slide-out list"
+        },
+        "next-chapter-link": {
+          "definition": "A band at the end of a page linking to the next numbered page of a multi-page microsite.",
+          "cues": "“Next: 02 …” band"
         }
       }
     },
@@ -540,15 +572,23 @@
         "desktop-os-windows": {
           "definition": "The site staged as a desktop OS with draggable windows.",
           "cues": "windows, taskbar, wallpaper"
+        },
+        "configurator-wizard": {
+          "definition": "A one-screen app where numbered steps build the visitor's own version of the font (axes, alternates, weights, name) with a live preview, saved as a shareable ID and ending in trial or purchase.",
+          "cues": "numbered steps, big preview, share/buy at the end"
         }
       }
     },
     "game": {
       "definition": "A playable game made with the font.",
       "variants": {
-        "arcade-leaderboard": {
-          "definition": "A browser game with a high-score table and font prizes.",
-          "cues": "score, play button"
+        "arcade-game": {
+          "definition": "A playable arcade game set in or made from the font (platformer, Pong, Arkanoid), often with a leaderboard and font prizes.",
+          "cues": "canvas game, score, play button"
+        },
+        "destructible-page": {
+          "definition": "A hidden game layer over the specimen itself: elements can be shot or destroyed with clicks, with sounds, score, unlockable modes and a restore screen.",
+          "cues": "crosshair cursor, debris, score"
         }
       }
     },
@@ -566,6 +606,14 @@
         "scroll-scrubbed-sequence": {
           "definition": "A pinned, scroll-scrubbed animation (pre-rendered frame sequence or illustration, e.g. doors opening, an object turning or releasing letters) between sections, with little or no text.",
           "cues": "sticky stage, image changes with scroll"
+        },
+        "annotated-spacer": {
+          "definition": "Empty bands of the page's visible grid between sections, each labelled with a technical note.",
+          "cues": "grid cells with small labels, no content"
+        },
+        "ghost-marquee": {
+          "definition": "One sentence from nearby copy, set near viewport height in a very pale tint, scrolling sideways as an endless band between sections.",
+          "cues": "huge pale marquee text"
         }
       }
     },
@@ -583,6 +631,10 @@
         "nav-bar": {
           "definition": "A persistent site bar (top or bottom, fixed or static): name or logo, section links or view tabs, a buy/get button, sometimes toggles such as colour themes.",
           "cues": "thin bar, repeated across stitched screens when fixed"
+        },
+        "scroll-progress-indicator": {
+          "definition": "A sticky element showing scroll progress (bar, dot on a chart, counter).",
+          "cues": "sticky progress marker"
         }
       }
     },
@@ -812,6 +864,18 @@
     "language-support/coverage-table": {
       "to": "language-support/language-name-list",
       "why": "Phase 3: a tabular form of the language list"
+    },
+    "story/faq-accordion": {
+      "to": "story/faq",
+      "why": "Phase 3: merged with faq-list"
+    },
+    "story/faq-list": {
+      "to": "story/faq",
+      "why": "Phase 3: merged with faq-accordion"
+    },
+    "game/arcade-leaderboard": {
+      "to": "game/arcade-game",
+      "why": "Phase 3: broadened (leaderboard optional)"
     }
   }
 }

@@ -1,0 +1,303 @@
+{
+  "slug": "fictional-typeface-com",
+  "extractedBy": "agent",
+  "summary": "A one-screen-and-a-bit bento page for Fictional, a five-weight cartoon sans by Jonas Type: a comic-sticker hero that types itself in, coloured cards for styles, a weight slider, a glyph inspector and a starburst BUY NOW. Hidden underneath is a game: every element is 'shootable', with sound effects, a score, unlockable select/text/fire modes and a restore screen.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "game-like",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "comic, cheerful, loud",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "A rounded peach card with 'Fictional' at ~200px in black bold, surrounded by comic stickers: white speech bubbles ('A friendly & quirky typeface', 'with a cartoonesque character'), a red 'KABOOOM' starburst, a yellow 'BANG' starburst, a green 'NEW!' disc, violet 'OUT NOW' and 'scroll down ↓' discs, green '5 WEIGHTS' and red 'FREE TRIAL AVAILABLE' and 'GET IT HERE' tilted labels",
+      "feel": "Loud, cartoon, toy-box",
+      "ux": "On load the name types in letter by letter on an empty peach card, then the stickers pop in one after another; every sticker and letter is a target in the hidden shooting game; in text mode the name and bubbles are editable (max 10 / 28 / 29 characters)",
+      "learn": "Use comic-book sticker shapes (speech bubble, starburst, label) for the selling points around the name: the tagline copy becomes part of the specimen",
+      "reconstruction": {
+        "layout": "Card x=20, y=20, 1400×860, radius ~12px; name centred at ~200px; nine stickers absolutely positioned around it, each rotated −15…+15°: bubbles ~480×70px, starbursts ~300px, discs ~130px, labels ~40px tall",
+        "typography": "Name ~200px Fictional wght 140 (UltraBold); bubble text ~30px wght 100; sticker text 18–30px caps in wght 100–140; ss01 used on some stickers",
+        "palette": [
+          "#feeacf",
+          "#fcf9f5",
+          "#fdd90c",
+          "#fd4a36",
+          "#080707",
+          "#8a53ff",
+          "#3ccb09"
+        ],
+        "behaviour": "CSS keyframes ani-intro-lettering (each letter span appears, with a wght change), then ani-intro-speechbubble_1/2, ani-intro-round, ani-intro-label_1/2, ani-intro-shout pop the stickers in with staggered delays (~2.5s total)",
+        "content": "Taglines and comic shouts: 'A friendly & quirky typeface', 'with a cartoonesque character', 'NEW!', 'OUT NOW', '5 WEIGHTS', 'FREE TRIAL AVAILABLE', 'KABOOOM', 'BANG'",
+        "assets": "SVG starburst and speech-bubble tail shapes",
+        "html": "section.intro > h1.editable.shootable[data-max-length=10] > span per letter + div.intro-stickercontainer > div.intro-sticker.intro-sticker--speechbubble|--round|--label|--shout.shootable"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "07"
+      ],
+      "type": "game",
+      "variant": "destructible-page",
+      "newVariant": true,
+      "variantDefinition": "A hidden game layer over the specimen page itself: every element (letters, stickers, glyph cells, buttons) is a target the visitor clicks to shoot away, with sound effects, a score counter, modes unlocked by playing (e.g. text editing, rapid fire) and a restore button that rebuilds the page.",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "on-interaction",
+        "interactivity": "game-like",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "mischievous, comic",
+        "mobile": "unknown"
+      },
+      "look": "Nothing signals the game in the capture: a hidden toolbar (↖ Select mode, T Text mode, F Fire mode, 'restore'), a score counter '0', toast notifications ('Toolbar unlocked!', 'Text mode unlocked!', 'Fire mode unlocked!', 'Congratulations! You shot ’em all!') and an off-screen violet 'r e s t o r e' screen whose letters drop in one by one",
+      "feel": "Secret, rewarding, silly",
+      "ux": "Clicking 'shootable' elements blows them away with a boom sound (or a 'blocked' sound), raising the score; progress unlocks a toolbar, then Text mode (edit the name, bubbles, paragraph and CTA within max lengths) and Fire mode; 'restore' plays the full-screen restore animation and rebuilds the page",
+      "learn": "Turn the specimen into the game board: shooting letters and stickers makes visitors touch every glyph, and unlocking 'text mode' rewards play with a tester",
+      "reconstruction": {
+        "layout": "Toolbar of four small square buttons and a score counter, fixed (position unknown, likely a corner); notifications stacked as dismissible pills (×); restore screen is a fixed full-viewport violet overlay with a centred word",
+        "typography": "Restore word ~115px Fictional wght 100 white, letters spaced apart; toasts ~16px",
+        "palette": [
+          "#8a53ff",
+          "#ffffff",
+          "#fd4b37",
+          "#fdd80d"
+        ],
+        "behaviour": "Every .shootable element listens for clicks; hit → explode/remove + audio.boom (assets/sounds/boom.m4a), non-target → audio.blocked; .score increments (scoreanimation keyframes animate its weight); thresholds unlock .toolbar and modes; .editable elements become editable in text mode, limited by data-max-length and resettable from data-original-text; restore → .refreshscreen letters animate in with 0.1s staggered animation-delay",
+        "content": "Game copy: 'Toolbar unlocked!', 'Text mode unlocked!', 'Fire mode unlocked!', 'Congratulations! You shot ’em all!'",
+        "assets": "Two sound effects (boom, blocked) from zapsplat.com",
+        "html": "div.toolbar > button.toolbar-selectmode / .toolbar-textmode / .toolbar-firemode / .toolbar-btn--refresh; div.score; div.notifications > button.notification-*; div.refreshscreen > div.refreshscreen-text > span[style=animation-delay]; 328 .shootable elements; body.body--selectmode"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "friendly, bouncy",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": true
+      },
+      "look": "A violet rounded card with five centred white lines 'Fictional Light / Regular / SemiBold / Bold / UltraBold', each in its own weight and tilted slightly alternately left and right",
+      "feel": "Bouncy, childlike",
+      "ux": "Each style name is a button (data-weight 60–140), likely setting the weight of the neighbouring paragraph and slider; also shootable",
+      "learn": "Tilting each style line by a degree or two in alternate directions gives a plain weight list the font's playful character",
+      "reconstruction": {
+        "layout": "Card x=20, 690×559, radius ~12px; five lines centred, ~105px apart, each width 15ch, nowrap",
+        "typography": "~50px Fictional at wght 60, 80, 100, 120, 140; white; sentence case",
+        "palette": [
+          "#8b52fe",
+          "#ffffff",
+          "#b28ef6"
+        ],
+        "behaviour": "button.styles-style[data-weight] click → set weight (likely updates the text card); rotation is static",
+        "content": "The five style names",
+        "assets": "none",
+        "html": "section.styles > button.styles-style[data-weight=60…140][style=font-variation-settings]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, simple",
+        "mobile": "adapts",
+        "controls": [
+          "weight"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A yellow rounded card with a centred two-paragraph description ('Fictional is a friendly, playful typeface, full of warmth and personality. Perfect for cheerful branding, packaging, game interfaces, and children's books.') above a thick black slider with a round black knob",
+      "feel": "Simple, toy-like",
+      "ux": "Drag the slider to change the paragraph's weight (wght 60–140, default 100); text editable in the game's text mode (max 250 characters)",
+      "learn": "One chunky slider under the description is enough for a five-weight family: no labels, no numbers",
+      "reconstruction": {
+        "layout": "Card x=730, 690×559, radius ~12px; text centred ~560px wide; slider ~490px wide, 2px track, 28px knob, ~90px from the bottom",
+        "typography": "~37px Fictional wght 100, black, centred, leading ~1.3",
+        "palette": [
+          "#fdd80d",
+          "#000000"
+        ],
+        "behaviour": "input.text-slider.text-weight[type=range min=60 max=140 value=100] → font-variation-settings 'wght' on .text-text",
+        "content": "Real positioning copy (uses: branding, packaging, game interfaces, children's books)",
+        "assets": "none",
+        "html": "section.text > div.text-text.editable[data-max-length=250] + input.text-slider[type=range]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "orderly, bright",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "select",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A red rounded card: a 20-column grid of ~300 small white glyph buttons (A Á Ă … arrows) on the left, the active one framed by a yellow rounded square, and one big white 'A' on the right",
+      "feel": "Tidy, bright",
+      "ux": "Click a glyph to show it large; the large glyph animates (charsetdetail keyframes vary its weight); every cell is also shootable",
+      "learn": "A plain cell grid plus one big animated preview is enough of an inspector for a small display family",
+      "reconstruction": {
+        "layout": "Card x=20, 1400×598, radius ~12px; grid ~1000px wide, 20 columns × 16 rows, cells ~44×38px; preview zone right ~360px with the glyph ~300px tall",
+        "typography": "Grid glyphs ~22px Fictional wght 60, white; preview ~300px white",
+        "palette": [
+          "#fd4b37",
+          "#ffffff",
+          "#fdd90c"
+        ],
+        "behaviour": "button click → .charset-detail span updates; active cell gets a yellow outline; charsetdetail keyframe loops wght on the preview",
+        "content": "Full character set in encoding order (Latin Extended, figures, punctuation, currency, maths, arrows)",
+        "assets": "none",
+        "html": "section.charset > div.charset-overview > ul > li.shootable > button(.active) + div.charset-detail.charset-detail--animated > span"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "05"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "cheerful, direct",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "A green rounded card ('For trial fonts, licensing options and more head over to Jonas Type! If you have any questions, please send an email!') beside a big tilted yellow starburst with 'BUY NOW' in navy caps",
+      "feel": "Shouty, comic, friendly",
+      "ux": "Links to the Jonas Type shop and a mailto; the starburst links to the product page",
+      "learn": "Make the buy button a comic starburst sticker: the CTA speaks the same visual language as the hero",
+      "reconstruction": {
+        "layout": "Green card x=20, 927×467, radius ~12px, text centred; starburst SVG ~450×425 at x=967, rotated ~−10°, partly overlapping the card",
+        "typography": "Card ~40px Fictional wght 100 centred, links underlined; 'BUY NOW' ~72px Fictional wght 120 caps navy (#0b1a8c), two lines",
+        "palette": [
+          "#3bcb0a",
+          "#000000",
+          "#fed90c",
+          "#0b1a8c",
+          "#ffffff"
+        ],
+        "behaviour": "none (both also shootable and editable in game modes)",
+        "content": "Shop and email pointers; 'BUY NOW'",
+        "assets": "SVG starburst shape",
+        "html": "section.info > div.editable + section.getit > div.getit-link > a > svg.getit-link-shout + span.getit-link-text"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "modest",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal",
+          "contact",
+          "socials"
+        ]
+      },
+      "look": "Two small grey lines under the cards: 'A project by Jonas Pelzer, sounds from zapsplat.com.' and 'Imprint Contact Instagram LinkedIn'",
+      "feel": "Quiet",
+      "ux": "Underlined links",
+      "learn": "Credit the sound effects source when the page plays sounds",
+      "reconstruction": {
+        "layout": "Two lines at x=20, ~45px total",
+        "typography": "~16px Fictional wght 70, grey #666666, underlined links",
+        "palette": [
+          "#ffffff",
+          "#666666"
+        ],
+        "behaviour": "none",
+        "content": "Credits, imprint, contact, socials",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "game/destructible-page",
+    "family-overview/style-word-grid",
+    "type-tester/slider-sandbox",
+    "glyph-table/glyph-inspector",
+    "checkout/link-out-cta",
+    "footer/slim-legal-bar"
+  ]
+}

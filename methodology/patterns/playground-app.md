@@ -10,6 +10,7 @@ Sample: 2 blocks from 2 sites.
 |---|---|---|---|
 | [keyboard-driven-app](#keyboard-driven-app) | 1 | A single-screen app driven by keyboard shortcuts. | key legend, no scroll |
 | [desktop-os-windows](#desktop-os-windows) | 1 | The site staged as a desktop OS with draggable windows. | windows, taskbar, wallpaper |
+| [configurator-wizard](#configurator-wizard) | 0 | A one-screen app where numbered steps build the visitor's own version of the font (axes, alternates, weights, name) with a live preview, saved as a shareable ID and ending in trial or purchase. | numbered steps, big preview, share/buy at the end |
 
 ## keyboard-driven-app
 
@@ -34,3 +35,11 @@ The site staged as a desktop OS with draggable windows.
 | example | look | feel | ux | learn |
 |---|---|---|---|---|
 | [gt-flaire-com#05](../../archive/gt-flaire-com/blocks/05.jpg) | Pastel cloud wallpaper, big purple manifesto paragraphs, then retro OS windows: GT Shop, Credits, Flaire Book, Site Explorer, taskbar | Playful, nostalgic, ironic-corporate | Drag windows around; glyph viewer with weight/flair/italic sliders and alternates switch; taskbar jumps | An OS-desktop metaphor turns dull facts (buy, credits, charset) into objects people want to poke |
+
+## configurator-wizard
+
+A one-screen app where numbered steps build the visitor's own version of the font (axes, alternates, weights, name) with a live preview, saved as a shareable ID and ending in trial or purchase.
+
+**Recognise by:** numbered steps, big preview, share/buy at the end
+
+_No instance in the sample yet._

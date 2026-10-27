@@ -1,0 +1,462 @@
+{
+  "slug": "isolation-abc-xyz",
+  "extractedBy": "agent",
+  "summary": "A one-designer Readymag page for a quirky lockdown-era grotesque, dark throughout: a scattered collage of designed objects (book cover, shop widget, subway sign, sticker), then a dense specimen sheet (metrics, character lines, ligature GIFs, size waterfall, hover glyph grid) beside a running joke chart, and an uncut last page with a photo carousel, a one-slider tester and a giant 'Get Regular' pill whose sales go to the Ukrainian Red Cross.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "prop-collage",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "deadpan, design-nerd humour",
+        "mobile": "adapts",
+        "carrier": "props",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "Near-black page with two small white lines at the top ('Today is a Tuesday' left, 'Isolation Grotesque is a typeface' at centre) and a staggered two-column scatter of objects set in the font: an orange 'Grid systems / Raster systeme' book cover, a black shop widget (S M L XL, ADD TO BAG), a camera shutter dial, a 'Times Sq–42 St Station' subway sign, a 'Similar Times' T-shirt, a keyboard and a 'SERIFEN? NEIN DANKE' sticker",
+      "feel": "Dry, witty, insider design culture",
+      "ux": "No nav and no big name: the weekday is filled in live by JavaScript (a lockdown joke); props are images with Readymag hover animations; the scatter runs ~2.5 screens before the intro paragraph",
+      "learn": "Let the hero be a scatter of familiar design objects (Müller-Brockmann cover, subway sign, shop UI) re-set in the font, each a joke about where a grotesque usually lives; a live 'Today is a <weekday>' line adds a human touch for free",
+      "reconstruction": {
+        "layout": "Full width 1440, ~2800px tall, background #131313. Top line at y≈20: two 16px labels at x=20 and x=720. Objects alternate left (x≈70–540) and right (x≈800–1360) in a zig-zag, ~250px vertical gap: book cover 460×680, shop card 545×330 (radius ~16px), shutter dial ⌀360, subway sign 515×380, T-shirt ~560 wide, keyboard 690×290, sticker ⌀290",
+        "typography": "Labels ~16px Isolation Grotesque Regular white; props carry the font at various sizes inside images (book title ~44px, sign 'Times Sq–42 St Station' ~50px, button caps ~14px); no display-size name anywhere in the hero",
+        "palette": [
+          "#131313",
+          "#faf9f9",
+          "#f0672a",
+          "#292a2a"
+        ],
+        "behaviour": "span#weekday set from new Date().getDay(); props are pictures with on-hover animation (Readymag has-onhover-animation); white loader for ~2s on load",
+        "content": "Design-culture artefacts: Grid Systems book cover, e-commerce size picker, camera dial, NYC subway sign, 'Similar Times' T-shirt, keyboard, anti-serif protest sticker",
+        "assets": "12 SVG/PNG illustrations of the objects with type converted to outlines",
+        "html": "Readymag page: .rmwidget.widget-picture.has-onhover-animation.svg; p > span#weekday"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "casual, confident",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "At the bottom of the collage, a 7-line white paragraph: 'Isolation Grotesque is designed to be the antidote to boring sans-serif typefaces commonly found in user interfaces…'",
+      "feel": "Chatty, self-assured",
+      "ux": "static",
+      "learn": "Make the claim concrete (tall x-height, legible small, characterful large) and date it ('drawn in early 2020 and refined throughout the lockdowns')",
+      "reconstruction": {
+        "layout": "Left column from x≈60, ~880px wide, ~240px tall, at the end of the 2800px collage block",
+        "typography": "~24px Isolation Grotesque Regular, leading ~1.25, white, ragged right",
+        "palette": [
+          "#131313",
+          "#faf9f9"
+        ],
+        "behaviour": "none",
+        "content": "Positioning copy: antidote to boring UI sans serifs; large x-height; drawn in 2020 lockdowns; 'coming to font managers near you'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, bold",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "none"
+      },
+      "look": "'Qq&' in white at ~500px on four hairline metric lines labelled 700, 540, 0 and −180 in tiny grey numerals",
+      "feel": "Blueprint-like",
+      "ux": "static",
+      "learn": "Label the metric lines in font units (cap 700, x-height 540): the numbers prove the 'tall x-height' claim without prose",
+      "reconstruction": {
+        "layout": "Left column x≈72–940, ~420px tall; hairlines across the column at ascender, x-height, baseline, descender with unit labels at the far left",
+        "typography": "Glyphs ~500px Isolation Grotesque Regular white; labels ~9px grey",
+        "palette": [
+          "#040404",
+          "#f9f9f9",
+          "#525252"
+        ],
+        "behaviour": "none",
+        "content": "Q, q and & (cap, descender and a showy ampersand)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "specimen sheet, punchy",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A specimen-sheet stack in white on black: A–Z and a–z set as running lines (~50px), a row of 16 arrows, 0–9 with circled and negative-circled numerals and €$¥£, big fractions ½ ¼ ⅛ and a 1/123456 arbitrary fraction, an outlined 'R', a © and a giant 'Aa' beside an outlined, rotated ß",
+      "feel": "Dense, poster-like, confident",
+      "ux": "static; interleaved with the ligature GIF cards (separate instance)",
+      "learn": "Mix filled and outline-only glyphs at different scales so a plain character listing reads as a composed poster",
+      "reconstruction": {
+        "layout": "Left column x≈60–1000, ~2000px tall; two-column zones where a 430×370 white GIF card sits beside a category (alphabet right of card 1, numerals left of card 2, 'Aa' right of card 3); big outlined R ~400px behind the fractions",
+        "typography": "Alphabet ~50px Regular, leading ~1.1; arrows ~65px; numerals ~60px with circled forms; fractions ~110px (frac feature); 'Aa' ~300px; outlines as text-stroke 1px grey",
+        "palette": [
+          "#040404",
+          "#f9f9f9",
+          "#525252"
+        ],
+        "behaviour": "none",
+        "content": "Alphabet, arrows, numerals, enclosed numerals, currency, fractions",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "UI-like, precise",
+        "mobile": "adapts",
+        "subject": [
+          "features"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "Three white rounded cards on the black sheet, each with a tiny 'ligatures' label and iOS-style switch in the top-right corner and one sample at ~150px: '|->', '{10', '(i', with the input string in small type at the bottom",
+      "feel": "App-like, clean",
+      "ux": "Each card is a looping GIF: the switch flips on and off and the sample changes between plain characters and the ligature or case-sensitive form (arrow ligature, raised brackets)",
+      "learn": "Fake the toggle in a looping animation: the visitor sees the before/after without clicking, and the switch tells them it is an optional feature",
+      "reconstruction": {
+        "layout": "Cards ~430×370px, radius ~10px, white; switch label top-right (12px); sample centred; raw input string centred near the bottom (10px)",
+        "typography": "Sample ~150px Isolation Grotesque Regular black; labels ~11px",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#040404"
+        ],
+        "behaviour": "Three looping GIFs toggling ligatures (dlig/hlig/case-style forms) on and off",
+        "content": "Code-like strings: '|->', '{10', '(i'",
+        "assets": "3 GIF animations (could be rebuilt live with font-feature-settings toggled on a timer)"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "size-waterfall",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "witty, German bureaucratic",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "'Isolation' repeated at six shrinking sizes (~200 → 32px); from the fifth line the word grows into German compounds with the extra part in grey ('Isolations|bescheid', 'Isolations|bescheidsformularvorlage'); then the same Fort Boyard paragraph at labelled sizes 'Regular · 28px', '20px', '14px', '11px' in columns",
+      "feel": "Playful, systematic",
+      "ux": "static",
+      "learn": "As the size drops, lengthen the word (German compounds) so every line keeps roughly the same width: the waterfall stays a solid block and the joke rewards reading",
+      "reconstruction": {
+        "layout": "Left column x≈60–1000; display lines stacked tight (~1.0 leading); then 28px paragraph full column (~900px), then two columns (~440px each) for 20px and 14px, 11px under the 14px one; small grey size label above each paragraph",
+        "typography": "Display 'Isolation' at ~200, 165, 130, 97, 64, 32px Isolation Grotesque Regular white, grey (#525252) for the compound tail; paragraphs Regular at 28/20/14/11px, leading ~1.25; labels ~10px grey",
+        "palette": [
+          "#040404",
+          "#f9f9f9",
+          "#525252",
+          "#6e6e6e"
+        ],
+        "behaviour": "none",
+        "content": "German compound jokes on the name; Wikipedia-style paragraph about Fort Boyard (fortification and TV game show) with numbers and accented French names",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "orderly, tactile",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "249 glyphs in a 15-column grid of square cells with hairline grey borders, white glyphs on black, in encoding-ish order (A Á Â … to arrows)",
+      "feel": "Calm, complete",
+      "ux": "Hovering a cell pops it: scale 1.25 with a springy cubic-bezier, white fill, black glyph",
+      "learn": "A springy hover zoom (overshooting cubic-bezier) makes a plain grid feel physical at no cost",
+      "reconstruction": {
+        "layout": "Left column 0–1000px, 15 columns of ~67px square cells, 1px #2f2f2f borders; ~17 rows (~1150px)",
+        "typography": "Glyphs ~22px Isolation Grotesque Regular white, centred",
+        "palette": [
+          "#040404",
+          "#f9f9f9",
+          "#2f2f2f"
+        ],
+        "behaviour": ".glyphs div { transition: all .3s cubic-bezier(0.68,-0.6,0.32,1.6) } :hover { transform: scale(1.25); background:#fff; color:#000; border-color: transparent }",
+        "content": "Full character set: Latin with diacritics, numerals, enclosed numerals, fractions, punctuation, currency, maths, arrows",
+        "assets": "none",
+        "html": ".glyphs > div (one per glyph)"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "chrome",
+      "variant": "scroll-progress-indicator",
+      "newVariant": true,
+      "variantDefinition": "A sticky or fixed element that shows how far the visitor has scrolled (a bar, a dial, or a dot travelling along a drawn curve), often dressed as a themed figure or joke; it has no links.",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Sticky in the right gutter for the whole specimen sheet: a white hairline exponential curve with a dot that climbs it as you scroll, captioned 'Fig (a) · Time spent looking at exponential graphs' (a 2020 pandemic joke); hidden on mobile"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "lifestyle, product",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "carousel"
+      },
+      "look": "Never cut as a block (Readymag's last page, attached here): a full-bleed photo carousel opening on a phone calculator showing '58008' tucked into a white puffer jacket, grey round arrows at the left and right edges",
+      "feel": "Glossy, tongue-in-cheek",
+      "ux": "Arrows step through ~11 full-bleed photographs; an expand button opens fullscreen",
+      "learn": "Pick mockups where the font plays a real UI role (a calculator display) and add one cheeky detail (58008)",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×~1000 slideshow, cover-fit photos; 28px round grey arrow buttons vertically centred at both edges",
+        "typography": "Font only inside the photos (phone UI numerals ~70px)",
+        "palette": [
+          "#e9e9e9",
+          "#141414",
+          "#e48a2a"
+        ],
+        "behaviour": "Readymag slideshow: click arrows or swipe; fullscreen viewer",
+        "content": "Product-style photos of devices and objects using the font",
+        "assets": "~11 photos (4000×2667) of mockups",
+        "html": ".rmwidget.widget-slideshow .common-slideshow-v2 > .images > .image (background-image)"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "pangram",
+        "tone": "friendly, minimal",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "Never cut as a block (attached here): small grey 'Type Tester' label, a 200px hairline slider with a white dot thumb, and a borderless textarea reading 'Say hello to yourself. Type here.' at 64px",
+      "feel": "Inviting, bare",
+      "ux": "Drag the slider to set font size 11–120px (default 64); type straight into the sample",
+      "learn": "A one-slider tester with a second-person prompt as default text is enough for a single-style release",
+      "reconstruction": {
+        "layout": "Left-aligned at x≈60, slider 200px wide above a full-width textarea ~500px tall; lots of empty space before the CTA",
+        "typography": "Label ~11px grey; sample 64px Isolation Grotesque Regular white, leading ~1.15",
+        "palette": [
+          "#141414",
+          "#ffffff",
+          "#878787"
+        ],
+        "behaviour": "input[type=range]#ctrl-fs min 11 max 120 value 64 → textarea style.fontSize; thumb 20px white circle, cursor ew-resize, track 1px #878787",
+        "content": "Prompt: 'Say hello to yourself. Type here.'",
+        "assets": "none",
+        "html": ".type-tester > .type-tester__controls > input.type-tester__slider#ctrl-fs + textarea.type-tester__preview"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "generous, bold",
+        "mobile": "adapts",
+        "destination": "distributor",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Never cut as a block (attached here): a gigantic pill button nearly the page width with a pastel pink-cream-mint gradient and debossed grey 'Get Regular'; a small note that all sales go to the Ukrainian Red Cross; below, 'Trial Version' with a Gumroad icon and a dimmed 'Full Family (coming soon)'",
+      "feel": "Soft, generous, a little absurd in scale",
+      "ux": "'Get Regular' and 'Trial Version' link out to Gumroad; donating elsewhere and emailing the receipt (minimum €10) also gets the font",
+      "learn": "Make the single buy button the biggest object on the page and attach a cause to it: the scale says 'this is the ask', the donation note gives a reason",
+      "reconstruction": {
+        "layout": "Pill ~1320×345px, radius 50%, centred; fine print centred 2 lines below (~10px, max ~840px); link row centred ~80px below",
+        "typography": "Button label ~150px Isolation Grotesque Regular in light grey with an inset/emboss shadow; note ~10px grey; links ~18px white underlined, 'coming soon' in an outlined 9px pill",
+        "palette": [
+          "#141414",
+          "#fbe9f6",
+          "#f6f2ea",
+          "#e9f8ee",
+          "#cfcfcf"
+        ],
+        "behaviour": "Static links (Readymag button widget)",
+        "content": "Get Regular; donation note; Trial Version; Full Family coming soon",
+        "assets": "Gumroad app icon",
+        "html": "a.external-link[href*=gumroad] > .rmwidget.widget-button (1384×360, border-radius 180px)"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "maker's credit",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal"
+        ]
+      },
+      "look": "Never cut as a block (attached here): one line 'Built using [Glyphs], [Figma] and [Readymag].' at ~28px with each app's icon inline, and a tiny 'Made by Elias Tinchon (Imprint)' at the right",
+      "feel": "Transparent, indie",
+      "ux": "Imprint links to the designer's legal page",
+      "learn": "Credit the tools with their app icons inline in a large line: a friendly colophon that doubles as a type sample",
+      "reconstruction": {
+        "layout": "Single row at the page bottom: credit line left (x≈60), legal note right-aligned",
+        "typography": "~28px Isolation Grotesque Regular white with 24px inline app icons; legal ~9px grey",
+        "palette": [
+          "#141414",
+          "#ffffff",
+          "#878787"
+        ],
+        "behaviour": "none",
+        "content": "Tools used; designer credit; imprint link",
+        "assets": "Glyphs, Figma and Readymag icons"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/prop-collage",
+    "story/large-text-intro",
+    "design-details/annotated-specimen",
+    "glyph-table/category-lines",
+    "design-details/feature-before-after",
+    "specimen-showcase/size-waterfall",
+    "glyph-table/full-grid",
+    "specimen-showcase/in-use-mockups",
+    "type-tester/slider-sandbox",
+    "checkout/link-out-cta",
+    "footer/slim-legal-bar"
+  ]
+}

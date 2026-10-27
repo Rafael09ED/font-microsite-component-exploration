@@ -11,7 +11,7 @@ Prepare the pack with `node scripts/extract.mjs prepare --only <slug>` if `archi
 | `archive/<slug>/pack/overview-N.jpg` | every cropped block on numbered tiles (`#NN`), 9 per sheet, top of each block |
 | `archive/<slug>/pack/storyboard.jpg` | 16 frames of the recorded video. Frames before t≈2s show the intro (loader or animation) before any scrolling. The video then holds the slow scroll-through and, after it, the screenshot pass, so the page can appear twice top to bottom. Use it to judge **motion** |
 | `archive/<slug>/pack/mobile.jpg` | the mobile page folded into columns, for the `mobile` rubric attribute |
-| `archive/<slug>/blocks/NN.jpg` | full crop of block NN, 720px wide (= 1440 CSS px, so halve sizes measured on it). For tall blocks it covers only the top ~4800 CSS px (`cropTruncated: true`) |
+| `archive/<slug>/blocks/NN.jpg` | full crop of block NN, at most 720px wide. Divide sizes measured on it by `cropScale` in facts (0.5 for full-width blocks, so usually: double them). For tall blocks it covers only the top ~4800 CSS px (`cropTruncated: true`) |
 | `archive/<slug>/pack/tall/NN-2.jpg …` | continuation crops for tall blocks, same scale, listed in `facts.json → blocks[].cropParts`; view them too |
 | `archive/<slug>/blocks/NN.html` | block HTML (scripts and styles stripped); grep it for controls, labels and features |
 | `methodology/taxonomy.json` | sections → types → variants, with definitions and cues. **Classify against this.** |

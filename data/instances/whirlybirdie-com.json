@@ -1,0 +1,398 @@
+{
+  "slug": "whirlybirdie-com",
+  "extractedBy": "agent",
+  "summary": "A cheerful Svelte one-pager for Whirly Birdie (a 50s-advertising display variable font: wght, wdth, ital) and its companion Whirlybats (a dingbat font whose 'anim' axis animates 200+ pictograms). Flat mid-century illustration throughout: a city-skyline hero, a black tester panel with per-row sliders and a colour picker, an on-screen keyboard for the dingbats, an illustrated room built from glyphs, a PayPal package picker and a lavender sign-off stamp.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "hero",
+      "variant": "illustration-scene",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "playful, mid-century, sunny",
+        "mobile": "adapts",
+        "carrier": "illustration",
+        "cta": "scroll",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "On warm off-white, 'WHIRLY BIRDIE!' in a wide heavy cut with letters coloured black, red, blue and green, a red bird glyph perched above 'A NEW FONT!', and a flat illustrated city below: blue tower blocks holding signs ('ONE HOT FONT', 'PUNCHY TITLES', an animated sun and eye), a street with trees, a snail and a car",
+      "feel": "Sunny, toy-like, 1950s ad",
+      "ux": "Name letters bob alternately up and down; Whirlybats signs animate; a round icon button top-left opens the section menu; custom glyph cursor",
+      "learn": "Build the hero illustration from the dingbat companion font itself (sun, eye, car, snail are glyphs), so the scene is also a specimen of the second font",
+      "reconstruction": {
+        "layout": "Full screen (100vh) plus the street running into the next screen; name centred, two lines spanning x≈290–1150 at y≈260–560; bird ~60px above; skyline of ~6 towers along the bottom edge, signs ~150×150px mounted on top; street row of 6 leaf-shaped trees at y≈1000–1150",
+        "typography": "Name ~150px Whirly Birdie wide heavy (wght 100, wdth 150), caps-and-lowercase mix (WhIrly BIrdie!), each letter a different brand colour; 'A NEW FONT!' ~11px caps; sign lettering in Whirly Birdie at 40–58px (red on black, red on yellow), Whirlybats pictograms at 110px",
+        "palette": [
+          "#fbeede",
+          "#101010",
+          "#e63228",
+          "#509bc3",
+          "#3d7a46",
+          "#fec533",
+          "#2c4d8e"
+        ],
+        "behaviour": "Each title char gets an alternating translateY of about ±5px in a loop (wobble); Whirlybats signs run 'basicAnimationDelay' keyframes (5–6s infinite) on the anim axis; car and snail on the street are glyphs (.car, .car2, .snail)",
+        "content": "Name, 'A new Font!', and ad slogans on the signs (One Hot Font, Punchy Titles)",
+        "assets": "SVG tower blocks and trees; everything else is font glyphs (two sign images failed to load in the capture and show alt text)",
+        "html": "section.hero > .titleContainer (p.message, p.bird) + h1 > .title[aria-label] > span.charN[style=transform] ; .city > .towersign ×4 ; .street > .car, .car2, .snail, .tree ×6"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "navigation",
+      "variant": "toc-drawer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "playful, compact",
+        "mobile": "adapts"
+      },
+      "look": "A small white circular button fixed top-left showing a Whirlybats pictogram that changes with the section (gear, camera, pointing hand, piggy bank); never cut as its own block",
+      "feel": "Discreet, witty",
+      "ux": "Click opens a full-screen nav with four big entries: Whirly Birdie, Whirlybats, Playground, Buy Now! each flanked by a pictogram; the current one is marked selected",
+      "learn": "Let the menu button's icon be a dingbat that swaps per section: it doubles as a section indicator and a teaser of the dingbat font",
+      "reconstruction": {
+        "layout": "Button ~40px circle, fixed at 20px/20px; overlay nav fills the viewport with 4 stacked h2 rows",
+        "typography": "Menu entries in Whirly Birdie at display size, letter spans with kerning classes (.kerny, .kernhalf); icons in Whirlybats",
+        "palette": [
+          "#ffffff",
+          "#101010",
+          "#fbeede"
+        ],
+        "behaviour": "Button toggles nav.hide; icon glyph changes per section in view",
+        "content": "Whirly Birdie / Whirlybats / Playground / Buy Now!",
+        "assets": "none (icons are font glyphs)",
+        "html": "button.wb-icon[type=button] + nav > .bg + h2(.selected) > span.wb-icon + span per letter"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "04"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, brief",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "illustration"
+        ],
+        "length": "short"
+      },
+      "look": "Two small coloured info cards that introduce each font: a yellow card with a sun pictogram ('WHIRLY BIRDIE is a display typeface inspired by American advertising of the 50s…') and a navy card with a TV pictogram ('WHIRLYBATS is a dingbat font with a twist…'), each ending 'Try it below! ↓'",
+      "feel": "Chatty, compact",
+      "ux": "static; points down to the tool that follows",
+      "learn": "Introduce each font with a three-line card that ends in an arrow to the tester: the story is a caption for the playground, not a chapter",
+      "reconstruction": {
+        "layout": "Card ~620×250px centred on the section seam (x≈410–1030), big pictogram ~130px on the left, text column ~380px on the right",
+        "typography": "Font name in Whirly Birdie wide (wght 70, wdth 150) caps, letter-spacing 2px; body ~17px Nicholson Beta at 55–70% opacity; 'Try it below! ↓' at full opacity",
+        "palette": [
+          "#fec533",
+          "#101010",
+          "#2c4d8e",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "One-sentence positioning per font: 50s American advertising; anim axis used to animate 200+ glyphs instead of squish and squash",
+        "assets": "Pictograms from Whirlybats (sun face, TV)",
+        "html": ".infobox > p.dropillo (glyph) + p > span[style=font-variation-settings] + span[style=opacity:.55]"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "03",
+        "04"
+      ],
+      "type": "type-tester",
+      "variant": "per-row-controls",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "punchy, cereal-box",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes",
+          "style-select",
+          "color"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A black panel inset on off-white with five editable ad slogans ('CORN FLAKES', 'REAL WHOLE GRAIN', 'STRAWBERRY GOODNESS', 'CAFÉ AROUND BACK →', 'ENHANCED WITH CHOCOLATE BITS'), each under a thin control bar: preset select + Weight, Width, Italic sliders with white rectangular thumbs; a sticky white card of five colour dots on the right edge",
+      "feel": "Bold, packaging-like, hands-on",
+      "ux": "Pick a named preset or drag the three axis sliders per row (select switches to 'Custom'); type over any line; the colour dots recolour the panel (black, red, blue, yellow, green themes)",
+      "learn": "Seed each row with a different extreme of the design space (wide bold, narrow light, narrow italic) and a cereal-box slogan, so the default state is already a specimen",
+      "reconstruction": {
+        "layout": "Panel x=80–1360, ~3 screens tall; each row: control bar (select ~230×30px, then three ~170px sliders with 11px labels above) then the sample centred; rows ~450–600px apart; colour-picker card ~50×240px fixed on the right edge, white with 5 dots ~26px",
+        "typography": "Samples Whirly Birdie at font-size 10vw, 12vw, 9vw, 8vw, 6vw (144, 173, 130, 115, 86px at 1440), all caps; initial settings wght 100/wdth 150, wght 50/wdth 50, wght 100/wdth 50, wght 75/wdth 50/ital 12, wght 50/wdth 110; labels ~11px sans",
+        "palette": [
+          "#040404",
+          "#ffffff",
+          "#fbeede",
+          "#e63228",
+          "#509bc3",
+          "#fec533"
+        ],
+        "behaviour": "input[type=range] wght 50–100, wdth 50–150, ital 0–20 write font-variation-settings on the row's p[contenteditable]; preset select sets all three; colour picker swaps CSS vars (--type/--bg) for the section",
+        "content": "1950s cereal and diner advertising slogans",
+        "assets": "none",
+        "html": "section > .controls > .select > select.type-presets (Regular, Italic, Bold, Light, Wide, Narrow… + hidden 'Custom') + .sliders > .slider > label + input.slider.weight|width|italic ; p[contenteditable][style=font-variation-settings;font-size:Nvw] ; .colorpicker.sticky > div[color=invert|red|blue|sun|green]"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "05"
+      ],
+      "type": "glyph-table",
+      "variant": "keymap-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "toy-like, techy",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "select",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "On a blue field with drifting large pictograms, a white card shows one big animated Whirlybats glyph (a globe) above an on-screen QWERTY keyboard whose grey keys show the pictograms; the selected key is blue with its letter, plus shift and '123' keys and a space bar",
+      "feel": "Gadget-like, inviting",
+      "ux": "Click a key (or type) to show that pictogram large, animated through its anim axis; shift and 123 switch the key layer; the large glyph is also contenteditable; colour dots recolour the card",
+      "learn": "For a dingbat font, render the keyboard itself: each key shows the picture it types, and the big preview plays the glyph's animation",
+      "reconstruction": {
+        "layout": "Blue section; white card ~1000×560px centred; preview glyph ~160px at the top; keyboard rows of ~50×36px keys with 8px gaps (10 / 9 / 8 + shift / 123 + space bar); background pictograms absolutely placed at 14–20vw with low opacity",
+        "typography": "Keys: Whirlybats ~24px black on #f0f0f0; selected key shows the Latin letter in white on blue; preview Whirlybats ~160px",
+        "palette": [
+          "#509bc3",
+          "#ffffff",
+          "#f0f0f0",
+          "#101010",
+          "#2c4d8e"
+        ],
+        "behaviour": "Selected glyph runs keyframes animating font-variation-settings 'anim' (e.g. 100 → 200, 1s linear infinite); key buttons set data-text of the featured p",
+        "content": "Whirlybats pictograms mapped to a–z, caps and numerals",
+        "assets": "none (font glyphs only)",
+        "html": ".interactive > .display > .featured > p[contenteditable][data-text] + #keyboard > .row.row-0…3 > button(.selected|.cap|.num) > p ; .spacebar"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "06",
+        "07"
+      ],
+      "type": "specimen-showcase",
+      "variant": "kinetic-scenes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "cosy, mid-century, playful",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "single"
+      },
+      "look": "'Playground': a flat-illustrated mauve study: a bookshelf whose spines carry titles in different widths and weights (Silver Cave, Brave Stars, On the Trail, Liminal Zinc), a wall clock with Whirlybats pictograms for numerals, a card with a huge narrow 'A', a red lamp, a TV with a green waveform, a plant, and a desk with a computer and chair",
+      "feel": "Warm, homely, toy room",
+      "ux": "Objects are glyphs and react when clicked or hovered (bounce containers, animated clock hands, a glyph-built computer and chair); the clock keeps real time",
+      "learn": "Furnish a room out of the two fonts: book spines show the text face's widths, and every object (clock face, chair, monitor) is a dingbat",
+      "reconstruction": {
+        "layout": "Full-width mauve section ~2 screens; two-column scatter: shelf (~600px wide) top-left, clock (~280px circle) top-right, 'A' card (~290×440px) bottom-left, lamp and plant centre-right, desk spanning the next screen; floor band in off-white with a slanted edge",
+        "typography": "Book titles Whirly Birdie 22–30px, rotated 90°, wdth 50–120, wght 70–90, ital 0–10; 'A' ~255px (wght 75, wdth 53); clock numerals and furniture in Whirlybats (250–330px for the computer and seat)",
+        "palette": [
+          "#d9c9ca",
+          "#fbeedf",
+          "#101010",
+          "#e63228",
+          "#2c4d8e",
+          "#673d16",
+          "#86c0e5"
+        ],
+        "behaviour": "Clock SVG with hour/minute/second hands; .bounce containers animate on interaction (squash keyframes); TV waveform glyph animates on the anim axis",
+        "content": "Invented book titles; clock numbers replaced by pictograms",
+        "assets": "Inline SVG furniture (desk, lamp, shelf) with font-set text elements",
+        "html": "section.playground > .demo.col2.demo-1 (shelf > .book > .booktitle[style=font-variation-settings]) + .demo.col1.demo-2 (svg clock, text.num) + .demo-3 (svg text.letter) + .demo-4 (svg#desk with #computer/#seat in Whirlybats)"
+      }
+    },
+    {
+      "blocks": [
+        "07",
+        "08",
+        "09"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "orderly, friendly",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A sky-blue panel listing the Whirly Birdie character set in a 15-column grid of navy glyphs (A À Á … numerals, punctuation, arrows, extended Latin), a rule, then the full Whirlybats set as a grid of small navy pictograms",
+      "feel": "Tidy, complete",
+      "ux": "static",
+      "learn": "Put both fonts' sets in one panel separated by a rule, right beside the price list",
+      "reconstruction": {
+        "layout": "Panel x=80–925 (~845px wide), ~1300px tall; Latin grid 15 columns × ~16 rows, ~44px cells; hr; pictogram grid 16 columns, ~44px cells",
+        "typography": "Whirly Birdie regular width ~26px navy; Whirlybats ~22px navy",
+        "palette": [
+          "#87c2e6",
+          "#25417a",
+          "#fafafa"
+        ],
+        "behaviour": "none",
+        "content": "175 Latin glyphs and 210 pictograms",
+        "assets": "none",
+        "html": ".specimen > .whirlybirdiecharset > span ×175 + hr + .whirlybatcharset"
+      }
+    },
+    {
+      "blocks": [
+        "08",
+        "09"
+      ],
+      "type": "checkout",
+      "variant": "on-page-cart",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "indie, straightforward",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "A white card beside the glyph panel: 'PURCHASE FONTS!' in tall narrow light caps, three radio rows with prices (Whirly Birdie Variable $25, Whirlybats Variable $25, Whirly Birdie + Whirlybats Variable $45), a green pill 'Purchase →', a blue pill 'Licensing' and a tiny '?' disclosure",
+      "feel": "Small-shop, honest",
+      "ux": "Choose one radio package, submit to a PayPal hosted button; 'Licensing' opens licence info; the '?' details element says payments go through PayPal",
+      "learn": "Three radio rows with prices and a bundle discount are all an indie two-font release needs; PayPal hosted buttons avoid a shop",
+      "reconstruction": {
+        "layout": "Card x≈930–1360, ~420×840px, sticky beside the glyph panel; heading top; rows separated by 1px rules, price right-aligned; pills ~170×50px stacked",
+        "typography": "Heading ~90px Whirly Birdie narrow light (wdth 50, wght 50) caps on two lines; rows ~18px Nicholson Beta; pill labels ~17px white",
+        "palette": [
+          "#ffffff",
+          "#101010",
+          "#3d7a46",
+          "#509bc3"
+        ],
+        "behaviour": "form[action=paypal.com/cgi-bin/webscr] with hidden hosted_button_id; custom radio checkmarks fill blue when selected; details/summary for help",
+        "content": "Three packages and prices",
+        "assets": "none",
+        "html": "section.checkout > h2 + form.purchaseform > label.container > p name + p price + input[type=radio][name=font] + span.checkmark ; input.purchasebutton[type=submit] ; button#licensing ; details > summary"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, crafted",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "socials",
+          "contact"
+        ]
+      },
+      "look": "On black with thick charcoal pipes winding across, a big lavender circle stamp: 'WE MADE THIS ↑' over a rule, then two credit columns (RICHARD YEE Design & Dev, ALEX TOMLINSON Type & Design) with pictogram social links; a cyclist pictogram travels along a pipe; 'Contact' bottom-right",
+      "feel": "Charming, signed",
+      "ux": "Pictogram icons link to personal sites, Twitter, Instagram; Telegram sticker pack link; mailto contact",
+      "learn": "Use the dingbat font for the social icons and animate a glyph along an SVG path in the footer: the credits keep showing the product",
+      "reconstruction": {
+        "layout": "Last screen ~760px; circle ~700px diameter centred; heading ~50px with rule below, credits in two ~160px columns; pipes as a full-bleed SVG (viewBox 1500×800, slice)",
+        "typography": "Heading ~48px Whirly Birdie narrow; names ~11px caps; roles ~11px; icons Whirlybats ~22px",
+        "palette": [
+          "#030303",
+          "#a999be",
+          "#302d38",
+          "#101010"
+        ],
+        "behaviour": "Pipe glyphs move with offset-distance keyframes (pipeani) along the pipe paths; stamp scales in (scale3d)",
+        "content": "Credits, socials, Telegram stickers, contact",
+        "assets": "SVG pipe paths",
+        "html": "footer > .cred > h2 + container > div (h3, p, a×3–4) ; .stamp ; svg#pipes > text.pipe ; .telegramstickers a ; .contact a"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/illustration-scene",
+    "story/large-text-intro",
+    "type-tester/per-row-controls",
+    "glyph-table/keymap-grid",
+    "specimen-showcase/kinetic-scenes",
+    "glyph-table/full-grid",
+    "checkout/on-page-cart",
+    "footer/credits-colophon"
+  ]
+}

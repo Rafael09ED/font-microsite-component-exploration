@@ -1,0 +1,293 @@
+{
+  "slug": "heydon-works-skwar",
+  "extractedBy": "agent",
+  "summary": "Heydon Pickering's one-page, black-and-white specimen for SKWAR, a square monospaced variable font (wdth 500–1000, wght 100–800). Each 100vh screen is one joke-like demo: an echo-stack wordmark, a shuffle-the-glyphs slider tester, pangrams with CSS effects, a letter equalizer that dances to music, a text funnel asking 'How do I get the font?', then Get/Buy buttons and a 'You've scrolled too far!' video.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "retro arcade, deadpan",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "scroll",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "'SKWAR' in white at ~130px centred on black, with five grey copies stacked above it, each narrower and lighter, receding like a pyramid or a Star Wars crawl; a one-line description and a ↓ arrow below",
+      "feel": "Retro computer game title screen",
+      "ux": "No nav; the echo layers fade and blur in one after another on load, then the arrow invites the scroll",
+      "learn": "Stack the name at stepped axis values (wdth 500→1000 with wght 100→600) behind the final one: the hero both shows the axes and reads as a 3D title",
+      "reconstruction": {
+        "layout": "100vh black screen, everything centred; echo stack ~820px wide and ~400px tall above the main name, layers overlapping by ~60% of their height; description 2 lines centred ~20px below; ↓ ~40px below that",
+        "typography": "Main name ~130px SKWARLETTERS at wdth 1000 / wght 600, white; echo layers same size at wdth 500/600/700/800/900 with wght 100/200/300/400/500, grey (#4c4c4c–#707070) and partly blurred; description ~20px system monospace, with 'SKWAR' inline in the font",
+        "palette": [
+          "#040404",
+          "#ffffff",
+          "#707070",
+          "#4c4c4c",
+          "#2d2d2d"
+        ],
+        "behaviour": "Each echo span is an aria-hidden copy with --weight/--width custom properties feeding font-variation-settings and a staggered animation-delay (0.2s, 0.4s … 1s); the copies fade/blur in from the top in sequence on load (storyboard t≈1.6–4s)",
+        "content": "Family name only, plus 'SKWAR is a very square, monospaced variable font with weight and width axes'",
+        "assets": "none",
+        "html": "h1.skwar > span.red|.green|.blue[style='--weight:100;--width:500;animation-delay:.2s'][aria-hidden] ×5 + span[style='--weight:600;--width:1000']; each section is div.screen (100vh)"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "minimal, toy-like",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes"
+        ],
+        "scope": "single",
+        "defaultText": "pangram",
+        "export": false
+      },
+      "look": "A small control row (WEIGHT slider, WIDTH slider, white 'SHUFFLE!' button) centred above four lines of the whole character set in random order, white outline-thin square glyphs on black",
+      "feel": "Fidgety, playful",
+      "ux": "Drag WEIGHT (100–800) or WIDTH (500–1000) to restyle the sample; SHUFFLE! re-randomises the order of all 67 characters; the sample is contenteditable so visitors can type over it",
+      "learn": "Use the shuffled character set as the default text: it shows every glyph at once and the shuffle button makes the glyph table a toy",
+      "reconstruction": {
+        "layout": "100vh screen; control cluster centred at the top of the content (~460px wide, labels left of each slider, 0.75em gaps); sample block ~1000px wide centred below, 4 lines left-aligned, ~70px line pitch",
+        "typography": "Labels ~10px monospace caps; sample ~60px SKWARLETTERS/NUMBERS/PUNC at wdth 600–750 / wght 200 by default, white, letter-spaced by the monospace grid",
+        "palette": [
+          "#040404",
+          "#ffffff",
+          "#707070"
+        ],
+        "behaviour": "input[type=range] → --weight / --width custom properties on #sample1 → font-variation-settings 'wdth' and 'wght'; SHUFFLE! button shuffles the character string (Fisher–Yates) and rewrites the sample",
+        "content": "The full character set (letters, figures, punctuation, £ @ & etc.) in random order, no words",
+        "assets": "none",
+        "html": "div.cluster[role=form] > label > input#weight1[min=100][max=800] + label > input#width1[min=500][max=1000] + button#shuffleButton1; div#sample1.sample.skwar[contenteditable=true][style='--weight:200;--width:750']"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "minimal, toy-like",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "The tester's sample doubles as the site's only glyph overview: all 67 characters as four running lines, no cells or labels, in shuffled order",
+      "feel": "Casual, complete",
+      "ux": "Reorder with SHUFFLE!; restyle with the tester sliders",
+      "learn": "For a small character set, a shuffled running line is enough of a glyph table and invites play",
+      "reconstruction": {
+        "layout": "Same as the slider tester: 4 left-aligned lines ~1000px wide, centred",
+        "typography": "~60px SKWAR, white, monospaced so the lines form a grid without cells",
+        "palette": [
+          "#040404",
+          "#ffffff"
+        ],
+        "behaviour": "Shuffle button randomises the order",
+        "content": "Letters A–Z, figures 0–9, punctuation and symbols (no lowercase: SKWAR is caps-only)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "pangram",
+        "tone": "arcade, effects demo",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Five classic pangrams stacked full-bleed at ~100px, each cropped at both edges and each with a different CSS effect: double-line outline, solid heavy, thin hatched lines, 3D echo 'feedback' shadow, blurred 'spray'",
+      "feel": "Arcade attract mode, lo-fi effects",
+      "ux": "Lines drift horizontally (marquee-style; different offsets in successive frames); not interactive",
+      "learn": "Give each pangram line its own effect treatment (stroke, hatch, echo, blur) so a stack of pangrams becomes a menu of styling ideas",
+      "reconstruction": {
+        "layout": "100vh aside, 5 lines stacked with ~25px gaps, each wider than the viewport (white-space: nowrap, overflow hidden), vertically centred",
+        "typography": "~100px SKWAR caps; line weights vary (thin outline, bold, hairline, bold with stepped shadow, medium blurred); white on black",
+        "palette": [
+          "#040404",
+          "#ffffff",
+          "#707070",
+          "#2d2d2d"
+        ],
+        "behaviour": "Horizontal drift of each line (translateX animation, likely alternating directions); effects are static CSS (text-stroke, repeating-linear-gradient background-clip text, stacked text-shadows, blur filter)",
+        "content": "'The five boxing wizards jump quickly', 'Pack my box with five dozen liquor jugs', 'Waltz, bad nymph, for quick jigs vex', 'Jackdaws love my big sphinx of quartz', 'Sphinx of black quartz, judge my vow'",
+        "assets": "none",
+        "html": "aside.screen[aria-label='Pangrams to demonstrate the font'] > div.pangrams.stack > div.pangram, .pangram.stroke, .pangram.lines, .pangram.feedback, .pangram.spray"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "specimen-showcase",
+      "variant": "kinetic-scenes",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "musical, arcade",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "A graphic equalizer drawn with letters: ten vertical columns of rotated random capitals rising from a hairline baseline, in shades of grey and white, with a white 'PLAY?' button in the middle",
+      "feel": "Retro hi-fi, cheeky",
+      "ux": "PLAY? starts a music track (guess_the_track.mp3) and the letter bands react like equalizer bars by changing their width axis",
+      "learn": "Map the width axis to an audio level: a variable font becomes a visualiser, and each bar is set type rather than a shape",
+      "reconstruction": {
+        "layout": "100vh screen; 10 bands ~67px wide with ~40px gaps, centred over a ~1300px hairline; bands 380–680px tall (text rotated 90°); PLAY? button centred over the bands (~190×70px white box)",
+        "typography": "Bands ~60px SKWAR caps rotated, each with its own --width (507–998) mapped to wdth; colours from #4c4c4c to white; button ~40px SKWAR black on white",
+        "palette": [
+          "#040404",
+          "#ffffff",
+          "#707070",
+          "#4c4c4c"
+        ],
+        "behaviour": "button#play plays an <audio> element; on playback each p.band's --width is updated from the audio analyser (or a timed sequence), so the bars pump along the wdth axis",
+        "content": "Ten 10-letter random strings (ADISNHOPAY, LAKFUCNMET…)",
+        "assets": "An mp3 music track",
+        "html": "div.push-to-middle > button#play.control.skwar + audio[src=/music/guess_the_track.mp3]; div.spread.skwar[role=img][aria-label='graphic equalizer…'] > p.band[style='--width:829'] ×10"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "blunt, funny",
+        "mobile": "adapts",
+        "destination": "distributor",
+        "pricesOnPage": true,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Lead-in screen: 'HOW DO I GET THE FONT?' repeated as a block of text cut into a downward-pointing funnel; then two big white boxes 'GET' and 'BUY (€20)' with hard black-offset shadows, each above a small bullet list (trial: letters only, TTF; buy: €20, letters, numbers and punctuation, TTF/WOFF/WOFF2, full licence)",
+      "feel": "Honest, sweary, DIY",
+      "ux": "GET downloads the trial TTF directly from Cloudinary; BUY (€20) links to Payhip; licence links to EULA pages",
+      "learn": "Shape the question text into an arrow (shape-outside floats) that points at the answer: the funnel is both a joke and the transition into the buy buttons",
+      "reconstruction": {
+        "layout": "Funnel: 100vh screen, text block ~760px wide at the top narrowing to one word at the bottom, made by two shape-outside floats (.how-left, .how-right) forming a V; then a 900px screen with two equal columns (~660px each, 40px gutter): white button 660×220px with an 8px black-and-white offset shadow, list below starting ~40px under",
+        "typography": "Funnel text ~30px SKWAR caps white, justified to the shape; button labels ~65px SKWAR wght 600 black, price in parentheses at 0.75em; lists ~24px system monospace, white, square bullets, underlined links",
+        "palette": [
+          "#030303",
+          "#fbfbfb",
+          "#cecece"
+        ],
+        "behaviour": "none (hover state not captured)",
+        "content": "'How do I get the font?' repeated; frank list copy ('TTF format only because Cloudinary doesn't f**king support ZIP files')",
+        "assets": "none",
+        "html": "div.how > div.how-left + div.how-right (floats with shape-outside) + div.how-text.skwar; nav.actions[aria-label='Get or buy the font'] > div > a.action.skwar + ul"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "footer",
+      "variant": "big-sign-off",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "jokey, arcade",
+        "mobile": "adapts",
+        "contains": [
+          "sign-off"
+        ]
+      },
+      "look": "A looping video of 'YOU'VE SCROLLED / TOO FAR!' in glitchy, scan-lined SKWAR between rows of ^^^ and vvv, centred on black",
+      "feel": "Game-over screen",
+      "ux": "Autoplaying looped video; a paused still frame (#t=2) is swapped in for prefers-reduced-motion",
+      "learn": "End the page with a game-style 'you went too far' screen instead of a footer, and provide a still for reduced motion",
+      "reconstruction": {
+        "layout": "100vh black screen, text group ~1050px wide centred",
+        "typography": "'YOU'VE SCROLLED' ~40px, 'TOO FAR!' ~110px, both SKWAR caps with horizontal glitch streaks (baked into the video)",
+        "palette": [
+          "#020202",
+          "#ffffff",
+          "#d2d2d2"
+        ],
+        "behaviour": "div.motion holds video[autoplay loop]; div.no-motion holds the same video at #t=2 without autoplay; CSS media query prefers-reduced-motion toggles which is shown",
+        "content": "'You've scrolled too far!'",
+        "assets": "Rendered MP4 of the glitch animation (skwar_too_far.mp4)",
+        "html": "div.screen[role=img][aria-label='you have scrolled too far'] > div.motion > video[autoplay loop] + div.no-motion > video[src=…#t=2]"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "type-tester/slider-sandbox",
+    "glyph-table/category-lines",
+    "specimen-showcase/word-stack",
+    "specimen-showcase/kinetic-scenes",
+    "checkout/link-out-cta",
+    "footer/big-sign-off"
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "slug": "djr-com-gimlet-xray",
+  "extractedBy": "agent",
+  "summary": "A one-component demo page on djr.com for Gimlet X-Ray, a variable COLR/CPAL colour font that draws its own anatomy: contours, on- and off-curve points, handles, advance-width boxes and kerning markers. The font's own description, set editable at display size, fills the page; a fixed floating panel drives weight and width plus four 'anatomy' axes (outline and point sizes) and recolours each layer. A short release note and DJR's standard footer follow.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "look": "DJR's 33px white site header above the demo (never cut as a block, attached to 00): 'DAVID JONATHAN ROSS' left, 'FONTS ▾ CLUB TYPESET GLYPHS NOTES ABOUT Sign in Cart' right in small spaced mono caps; 'MENU' on mobile"
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "type-tester",
+      "variant": "palette-editor",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "technical, diagrammatic, nerdy",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes",
+          "color"
+        ],
+        "scope": "global",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "The whole first screen and beyond: ten lines of 'Gimlet X-Ray showcases the mechanics of what is going on with the guts inside of an OpenType variable font…' in a light Gimlet whose glyphs are drawn as thin black outlines on a translucent grey fill, studded with blue square on-curve points and orange round off-curve points on handles, each glyph inside a thin orange advance-width box, small orange-framed squares marking kerning pairs; a two-part floating panel at the right (Weight/Width sliders; Glyph Outline, Other Outlines, Oncurve Points, Offcurve Points sliders each with a colour swatch; Glyph Fill and Background swatches; ↺)",
+      "feel": "Like looking at a font in a font editor, made friendly",
+      "ux": "Type into the text; Weight (200–900) and Width (80–100) reshape the letters and move every point with them; the four anatomy sliders thicken the outlines (LINE, PTLN 2–10) or enlarge the points (ONCR, OFFC 4–36); each swatch opens a Spectrum colour picker that rewrites that palette layer; ↺ randomises all colours; the panel stays fixed while scrolling",
+      "learn": "Expose the drawing itself as variable axes (point size, outline weight) of a colour font: the specimen becomes an explanation of how type is built, and visitors learn Bézier anatomy by playing",
+      "reconstruction": {
+        "layout": "contenteditable .big-text filling the page width from x≈16, running off the right edge, ~2200px tall at 1440 (10 lines × ~200px line-height); fixed #ui panel bottom-right ~400px wide (x≈1000–1395): a 75px box with two slider rows, then a ~205px box with a 3-column grid (swatch + ▼, label, slider) and a final row Glyph Fill swatch, Background swatch, ↺ button; boxes rounded ~8px, white at ~85% opacity with a light shadow",
+        "typography": "Sample ~210px GimletXRayWeb via generated ColorFontCustomizr1/2 faces (font-variation-settings 'wght' 200, 'wdth' 100, 'LINE' 2, 'PTLN' 2, 'ONCR' 36, 'OFFC' 36), sentence case; panel labels ~10px Output Sans, 'WEIGHT'/'WIDTH' bold tracked caps",
+        "palette": [
+          "#f4f4f2",
+          "#000000",
+          "#d2770a",
+          "#007ab7",
+          "#f7941d"
+        ],
+        "behaviour": "Range input → font-variation-settings on the sample; colour pick → JS rewrites the CPAL palette and swaps between two generated @font-face names (ColorFontCustomizr1/2) to avoid flicker; on load the page flashes black with only the points visible (~1s) before the palette font is applied; ↺ = random palette",
+        "content": "The font's own description as the sample: what X-Ray shows, COLR/CPAL and SVG flavours, released to Font of the Month Club in January 2020",
+        "assets": "Gimlet X-Ray variable colour font (wght, wdth, LINE, PTLN, ONCR, OFFC); Spectrum colour-picker library",
+        "html": ".scroll-wrapper > .big-text.preview[contenteditable]; #ui > ul.floatbox.ww (input#axis-wght, input#axis-wdth) + ul.floatbox.color-choices (input#axis-LINE/PTLN/ONCR/OFFC, li.color > input[type=color] + .sp-replacer, button.randomize-colors)"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "article-teaser",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "casual, modest",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Under the demo, a pale grey rounded box with one small paragraph: 'Gimlet X-Ray is the January 2020 offering from Font of the Month Club. It is an experimental version of my typeface Gimlet… This online demo was made with the help of Chris Lewis.'",
+      "feel": "Behind-the-scenes footnote",
+      "ux": "Links to Font of the Month Club, the Gimlet page and Chris Lewis",
+      "learn": "Keep the context to one boxed paragraph after the toy, so the demo speaks first",
+      "reconstruction": {
+        "layout": "Box ~980px wide centred (x≈230–1210), ~95px tall, padding ~16px, 1px grey border, radius ~4px, ~30px below the sample",
+        "typography": "~15px Output Sans, leading ~1.5, bold link names",
+        "palette": [
+          "#f4f4f2",
+          "#eae4d8",
+          "#222222"
+        ],
+        "behaviour": "none",
+        "content": "Real release note",
+        "assets": "none",
+        "html": "section > .wrapper > p"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "quiet, archival",
+        "mobile": "adapts",
+        "contains": [
+          "other-fonts",
+          "socials",
+          "newsletter",
+          "legal"
+        ]
+      },
+      "look": "DJR's standard white footer in small mono: three columns (David Jonathan Ross feeds and mailing list + Elsewhere; Font of the Month Club + Typefaces Bungee → Warbler; Typeset, Glyph Navigator, Notes, About, Contact, Licensing…); the fixed control panel is stamped over its right edge in the capture",
+      "feel": "Orderly index",
+      "ux": "Links to every DJR family, licences and tools",
+      "learn": "A footer that lists the whole catalogue turns a one-off experiment into an entry point",
+      "reconstruction": {
+        "layout": "540px band; three columns at x≈250, 640 and 1040, headings then ~20px rows",
+        "typography": "~11px Input Sans Narrow, headings bold tracked caps, links grey",
+        "palette": [
+          "#fdfdfd",
+          "#555555",
+          "#222222"
+        ],
+        "behaviour": "none",
+        "content": "Real site links",
+        "assets": "none"
+      }
+    }
+  ],
+  "sequence": [
+    "type-tester/palette-editor",
+    "story/article-teaser",
+    "footer/link-columns"
+  ]
+}

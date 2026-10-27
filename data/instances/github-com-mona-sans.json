@@ -1,0 +1,472 @@
+{
+  "slug": "github-com-mona-sans",
+  "extractedBy": "agent",
+  "summary": "GitHub's page for its two open-source variable brand fonts (Mona Sans and Hubot Sans), built as a product-marketing page inside github.com's own header and footer: a 3D-rendered mascot hero under a stacked wordmark, a twin intro card and basic glyph grid per family, a blue weight/width/slant sandbox with a Mona↔Hubot switch, a staggered poster wall, scroll-faded slogans and a 'free under OFL, send a pull request' close. Compared with foundry sites it sells adoption and community, not licences: brand mascots and animated emoji replace type history, and every CTA goes to a GitHub repository.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "github.com's global dark header (72px): octocat logo, Platform · Solutions · Resources · Open Source · Enterprise · Pricing dropdowns, search field, Sign in / Sign up; not specific to the fonts"
+    },
+    {
+      "blocks": [
+        "01",
+        "02"
+      ],
+      "type": "hero",
+      "variant": "illustration-scene",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "epic, playful, brand",
+        "mobile": "adapts",
+        "carrier": "illustration",
+        "cta": "scroll",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "Deep navy radial glow with the curve of a dark planet at the bottom; a tiny condensed kicker 'TWO VARIABLE, OPEN SOURCE FONTS from GITHUB'; a huge white stacked wordmark 'MONA / & / HUBOT / SANS' in four different widths, weights and slants; a glossy 3D render of the robot Hubot holding the octocat Mona, who holds a glowing 'T' font file, overlapping the last word; under it, 'Two files. / Thousands of variations. / Infinite possibilities.' in thin grey-lilac type",
+      "feel": "Cinematic, toy-like, grand",
+      "ux": "No buttons in the first screen; the mascots build in as the page scrolls (js-build-in-trigger) and the tagline's letters are split into spans for a per-character build-in",
+      "learn": "Make the wordmark itself the range demo: each line of the stacked name uses a different family, width, weight and slant (font-stretch 83%, extra-condensed, italic heavy), so the logo shows the design space",
+      "reconstruction": {
+        "layout": "Full-bleed ~1650px including the tagline; kicker at y≈130; h1 centred, font-size min(21vw, 350px) ≈ 302px at 1440, line-height 83%, '&' at 0.75em with negative margins (−0.7em top, −0.42em bottom) layered behind 'HUBOT'; mascot image max-width min(648px, 88%) pulled up by max(−18vw, −460px) so it overlaps 'SANS'; tagline centred ~240px below the planet rim",
+        "typography": "Kicker ~16px Mona Sans ultra-light extra-condensed caps; 'MONA' Mona Sans heavy, font-stretch 83%; '&' extrabold with stacked drop shadows (0 3px 3px / 0 1px 1px / 0 6px 14px); 'HUBOT' Hubot Sans extra-condensed heavy with soft text-shadow; 'SANS' Hubot Sans heavy italic (ital 10) font-stretch 82%; all uppercase, letter-spacing −0.01em, white #f5f7fb; tagline 48px Mona Sans extra-light, lilac-grey, centred",
+        "palette": [
+          "#0f104c",
+          "#0e1133",
+          "#101169",
+          "#080812",
+          "#f5f7fb"
+        ],
+        "behaviour": "Build-in on scroll (js-build-in-trigger, build-in-scale-up) for the mascots; tagline characters wrapped in span.m-c for a staggered reveal; page fades in from white for ~1.5s on load",
+        "content": "Brand claim: two variable open-source fonts; 'Two files. Thousands of variations. Infinite possibilities.'",
+        "assets": "3D-rendered mascot image (mona-hubot.webp, 2221×1638) with glow; planet arc gradient",
+        "html": "p.f3-mktg.text-ultra-light.text-extra-condensed ; h1[style=font-size:min(21vw,350px);line-height:83%] > span[style=font-stretch:83%] + span .mona-ampersand + span.font-alt-mktg.text-extra-condensed + span.text-italic.text-heavy.font-alt-mktg ; h2.h3-mktg > span.m-c per character"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "06"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "friendly, product marketing",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "illustration"
+        ],
+        "length": "short"
+      },
+      "look": "Two parallel family cards: a hairline-ruled header with the name in wide extrabold caps ('MONA SANS', 'HUBOT SANS') and a small mascot icon at the right; a 4–5 line description at ~64px ('A strong and versatile typeface, designed with Degarism and inspired by industrial-era grotesques…', 'Mona's robotic sidekick. More geometric accents…'), a looping animated emoji (Mona with hearts) or a 3D Hubot flying past a giant white '&', and two buttons",
+      "feel": "Warm, approachable, brand-polished",
+      "ux": "Each card ends with 'Download font' (outlined) and 'View on GitHub' (text) linking to that family's repository; the animated emoji videos play only in the viewport",
+      "learn": "When a site ships two sibling families, give each the same card (name bar, big description in that font, mascot, two buttons) so the pair reads as a set and the description is set in the family it describes",
+      "reconstruction": {
+        "layout": "Container 1376px (x=32): header row ~70px between 1px #2a2c33 rules (name left, 32px icon right); paragraph col-9 (~1030px) with emoji video col-3 (~340px) at right, or for Hubot a ~500px video + '&' at left and text at right; buttons row ~40px below",
+        "typography": "Names min(10vw, 56px) extrabold, expanded width, uppercase, −0.01em (Mona Sans / Hubot Sans); description min(4.9vw, 64px) SemiBold Mona Sans (or Hubot Sans Light for Hubot), leading ~1.0 ('lh-condensed-ultra'); buttons 14px SemiBold",
+        "palette": [
+          "#08090d",
+          "#ffffff",
+          "#6c6d72",
+          "#2b2c31"
+        ],
+        "behaviour": "Looping muted videos (hearts.webm, hubot.webm) with js-viewport-aware-video (pause off-screen); build-in-scale-up on enter",
+        "content": "Real positioning: Mona Sans by Degarism, industrial grotesque, product/web/print; Hubot Sans as the geometric, technical sidekick for headers and pull-quotes",
+        "assets": "Animated emoji video (Mona hearts), 3D Hubot video, mascot icons (octoface, hubot face)",
+        "html": ".js-build-in-trigger > p.col-sm-8.text-semibold.lh-condensed-ultra[style=font-size:min(4.9vw,64px)] + div[role=img] > video.js-viewport-aware-video.looping-mktg"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "06"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "developer, low-key",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Under each family card, a pair of buttons: 'Download font' in a 1px grey outlined box and 'View on GitHub' as plain bold text",
+      "feel": "Understated",
+      "ux": "'Download font' → github.com/github/<family>/releases/latest; 'View on GitHub' → the repository",
+      "learn": "Point downloads at the 'latest release' URL so the page never needs updating when the font does",
+      "reconstruction": {
+        "layout": "Two inline buttons left-aligned under the description, ~150×40 and ~130×40, 24px gap; full-width stacked on mobile",
+        "typography": "14px Mona Sans SemiBold white",
+        "palette": [
+          "#08090d",
+          "#ffffff",
+          "#30363d"
+        ],
+        "behaviour": "Hover states from GitHub Primer",
+        "content": "Download font / View on GitHub",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "07"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "clean, technical",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "One per family: a 12-column grid of 84 square-ish cells with hairline grey borders on near-black, white glyphs A–Z, 0–9, a–z and common punctuation (! ? # % & ~ ( ) [ ] / = _ { } ' @ — > < . ;)",
+      "feel": "Orderly, code-adjacent",
+      "ux": "Grid scripted by js-typegrid (likely a pointer/hover effect on cells; not visible in the capture)",
+      "learn": "A short 84-character grid (no accents) is enough for a brand font whose audience is developers: it shows the code-relevant punctuation alongside the alphabet",
+      "reconstruction": {
+        "layout": "Container 1376px, 12 columns of ~114px × ~127px cells, 1px #2a2c33 borders, 7 rows (~890px)",
+        "typography": "Glyphs ~40px Mona Sans (block 04) or Hubot Sans (block 07) Regular, white, centred",
+        "palette": [
+          "#0e1118",
+          "#ffffff",
+          "#2a2c33"
+        ],
+        "behaviour": "js-typegrid initialises the grid (hover effect assumed)",
+        "content": "Basic Latin letters, figures and code punctuation",
+        "assets": "none",
+        "html": "div.d-flex.flex-wrap.glyph-table.js-typegrid > div (one per character)"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "08"
+      ],
+      "type": "interlude",
+      "variant": "full-bleed-image",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "sketchy, behind-the-scenes",
+        "mobile": "adapts",
+        "medium": "illustration"
+      },
+      "look": "A full-width strip of faint white line sketches of the mascot from seven angles (character turnaround): Mona after the Mona Sans grid, Hubot after the Hubot Sans grid",
+      "feel": "Quiet, concept-art",
+      "ux": "static separator between the family sections",
+      "learn": "Character turnaround sketches make a soft, on-brand divider between two dense sections",
+      "reconstruction": {
+        "layout": "Container 1376px wide, ~350–420px tall image strip",
+        "typography": "none (image only)",
+        "palette": [
+          "#0e1017",
+          "#272830",
+          "#8e8e8e"
+        ],
+        "behaviour": "Hubot strip uses mix-blend-mode: difference",
+        "content": "Mascot sketches",
+        "assets": "mona-sketches.webp (2920×736), hubot-sketches.webp (3032×854)"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "bold, developer slang",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes",
+          "style-select"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A full-bleed electric-blue panel framed top and bottom by marquee bands 'USE THEM FLEX'EM FORK THEM' in wide heavy caps; in the middle, a Mona-icon / switch / Hubot-icon toggle, a white 'Ship it' at 140px (heavy, condensed, italic) and three small sliders labelled WEIGHT, WIDTH, SLANT; plus-sign registration marks at the corners",
+      "feel": "Energetic, tool-like, on-brand",
+      "ux": "Type into 'Ship it'; drag weight 200–900, width 75–125 and slant 0–10 (stepped); the toggle swaps the sample between Mona Sans and Hubot Sans",
+      "learn": "Default the sliders to an extreme corner (900 / 75 / slant 10) so the sample opens loud, and use a family switch instead of a dropdown when there are only two families",
+      "reconstruction": {
+        "layout": "Full-bleed ~1380px; marquee bands ~60px tall at top and bottom; centre stack col-11 with toggle row (icons 32px, pill switch ~60×28) and corner '+' marks, sample with large vertical padding, sliders row (3 × ~130px, 24px gap) with labels above",
+        "typography": "Marquee: ~48px Hubot Sans extrabold expanded caps white; sample min(15vw, 140px), font-weight 900, font-stretch 75%, font-variation-settings 'ital' 10, leading condensed; slider labels ~10px caps tracked ~0.2em",
+        "palette": [
+          "#3c43d2",
+          "#ffffff",
+          "#1e2370",
+          "#0e1018"
+        ],
+        "behaviour": "input.js-font-slider-weight (200–900 step any), .js-font-slider-width (75–125 → font-stretch), .js-font-slider-italics (0–10 step 1 → 'ital') update .js-font-slider-target; checkbox.before-after-toggle-checkbox switches font-family; marquee rows scroll horizontally; accent-color #fff for the range inputs",
+        "content": "Developer slang: 'Ship it', 'Use them, flex'em, fork them'",
+        "assets": "Mona and Hubot face icons, plus-mark SVGs",
+        "html": "label > img(octoface) + .before-after-toggle > input.before-after-toggle-checkbox + span.before-after-toggle-knob ; div.js-font-slider-target.mona-sans-sandbox[contenteditable] ; label > input[type=range].js-font-slider-weight|width|italics.mona-sans-slider"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "explanatory, cheerful",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "A big white headline 'Find the right width, weight, & slant that fits you.' in which the words 'width' (condensed) and 'weight' (heavy) are set in the axis they name, beside a mind-blown animated emoji and a short paragraph explaining variable fonts and the three axes",
+      "feel": "Accessible, a bit cheeky",
+      "ux": "static text; emoji video loops",
+      "learn": "Set each axis name in its own axis inside the sentence: the explanation demonstrates itself",
+      "reconstruction": {
+        "layout": "Two columns: headline left (~650px, 4 lines), right column (~320px) with a 280px emoji video above ~14px body text",
+        "typography": "Headline ~110px Mona Sans Medium, tight tracking, leading ~1.0; 'width' at narrow font-stretch, 'weight' at heavy wght; body ~14px Regular grey-white with a linked 'Variable fonts'",
+        "palette": [
+          "#0c0f17",
+          "#ffffff",
+          "#2e3136"
+        ],
+        "behaviour": "Mind-blown emoji video loops in view",
+        "content": "Explanation: one file, three axes (weight ultra thin → extra heavy, width condensed → expanded, slant regular → italic)",
+        "assets": "Animated emoji video (mind-blown)"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "developer culture, Swiss poster",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "grid"
+      },
+      "look": "Six portrait posters in a staggered three-column wall: 'Software is eating the world one byte at a time' (dotted grid, Pac-Man), 'IF A SQUIRREL TELLS YOU TO SHIP IT YOU MUST SHIP IT' (condensed black on white with the GitHub app icon), 'GIT' on yellow with a branch diagram, 'Commit' in a black frame, 'Blazing fast cloud environments' (Codespaces) vertical, and 'dem os not me mos' on a blue-green gradient",
+      "feel": "Witty, design-literate, in-house",
+      "ux": "static images",
+      "learn": "Stagger the columns' top offsets (128 / 0 / 64px) so a poster grid feels pinned up by hand rather than tiled",
+      "reconstruction": {
+        "layout": "Three col-4 columns (~430px) of 480×720 posters (2:3), column top offsets 128px, 0, 64px, ~24–48px vertical gaps; spans ~1500px",
+        "typography": "Posters set in Mona Sans and Hubot Sans across widths: condensed heavy caps, wide display, light text blocks",
+        "palette": [
+          "#0c0f17",
+          "#ecd579",
+          "#fcfcfc",
+          "#343a43"
+        ],
+        "behaviour": "none",
+        "content": "Developer in-jokes and GitHub product names (Git, Commit, Codespaces, 'demos not memos')",
+        "assets": "6 poster JPG/WebP images (480×720)"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "uplifting, slogan",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "A tall purple-to-near-black gradient where six slogans stack one per screen in white bold ('3 variables', 'granular control', 'unlimited freedom', 'Fast', 'expressive', 'and flexible'), then a link 'Learn about how to use variable fonts effectively' and Mona's purple ears peeking up at the bottom",
+      "feel": "Airy, celebratory",
+      "ux": "Each phrase fades in as it scrolls into view (and out after), so only one or two are visible at a time",
+      "learn": "Give each claim its own screen and fade it in: a list of adjectives becomes a paced reveal",
+      "reconstruction": {
+        "layout": "Full-bleed ~2500px, background linear-gradient(180deg, #8250DF 15%, #131121 100%); phrases centred, ~300px apart (tmp-pb-10); link centred col-6; 696×211 ears image at the bottom",
+        "typography": "Phrases min(9vw, 220px) ≈ 130px Mona Sans Bold white, centred; link min(10vw, 45px) Medium",
+        "palette": [
+          "#8250df",
+          "#543690",
+          "#3d2868",
+          "#131121",
+          "#ffffff"
+        ],
+        "behaviour": "span.js-build-in.build-in-fade with data-build-margin-top/bottom: opacity toggles by viewport position; link uses build-in-slideY",
+        "content": "Benefit slogans about variable fonts",
+        "assets": "Mona ears PNG",
+        "html": "h2[style=font-size:min(9vw,220px)] > span.js-build-in.build-in-fade.d-block × 6 + a.js-build-in.build-in-slideY"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "open, community",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Centred on near-black: a macOS-style file icon 'Ag' labelled 'Mona-Sans.woff2' (selected, blue label), 'Open-source / and free to use' (second line grey), a one-line OFL summary '(basically, you can use it on your sites and in your projects—read the full license)', a strip of GitHub-contribution-graph green squares, and 'Every contribution counts. Help us make Mona Sans and Hubot Sans better by creating a pull request on GitHub.'",
+      "feel": "Inclusive, open-source pride",
+      "ux": "Links to the LICENSE file and the repository; the contribution squares light up (animated)",
+      "learn": "Summarise the licence in one parenthetical and turn 'contribute' into the closing CTA, using the platform's own contribution graph as the visual",
+      "reconstruction": {
+        "layout": "~2000px section; file icon 190×228 centred; heading two lines centred; licence line ~520px wide; contribution graph ~1000×300 (squares ~50px, 10px gaps); closing statement ~640px wide centred",
+        "typography": "Heading ~80px Mona Sans SemiBold, line 2 grey (#8b949e); licence line 14px; closing ~48px Bold, leading ~1.1, link underlined grey",
+        "palette": [
+          "#0d1017",
+          "#ffffff",
+          "#8b949e",
+          "#2ea043",
+          "#196c2e"
+        ],
+        "behaviour": "Contribution squares fade in/out in shades of green",
+        "content": "OFL summary and contribution invitation",
+        "assets": "File icon PNG; contribution-graph squares (SVG/CSS)"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "corporate",
+        "mobile": "adapts",
+        "contains": [
+          "newsletter",
+          "legal",
+          "socials"
+        ]
+      },
+      "look": "github.com's global footer: octocat, 'THE DEVELOPER NEWSLETTER' with a green Subscribe button, four columns (Platform, Ecosystem, Support, Company), then a legal row (© GitHub, Terms, Privacy, cookies) with social icons and a language picker",
+      "feel": "Corporate, standard",
+      "ux": "Site-wide links; Subscribe opens the newsletter sign-up",
+      "learn": "Hosted on a platform, the font page inherits the platform footer: no type colophon, no designer credit beyond the intro's 'designed with Degarism'",
+      "reconstruction": {
+        "layout": "Full width ~840px; content 1216px centred; newsletter block on top, 4 equal link columns, legal bar with hairline above",
+        "typography": "Column headings ~13px Mona Sans Mono caps grey; links 14px Mona Sans; legal 11px Mono caps",
+        "palette": [
+          "#101511",
+          "#ffffff",
+          "#2c312e",
+          "#2da44e"
+        ],
+        "behaviour": "none",
+        "content": "GitHub site links, newsletter, legal",
+        "assets": "Social icons"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/illustration-scene",
+    "story/large-text-intro",
+    "checkout/link-out-cta",
+    "glyph-table/full-grid",
+    "interlude/full-bleed-image",
+    "type-tester/slider-sandbox",
+    "design-details/axis-explainer",
+    "specimen-showcase/poster-series",
+    "specimen-showcase/word-stack",
+    "checkout/free-download",
+    "footer/link-columns"
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "slug": "almnt-github-io-crimsonpro-microsite",
+  "extractedBy": "agent",
+  "summary": "An unfinished 'Friends of Google Fonts' microsite for Crimson Pro (variable wght 200–900) built as a book: every section is a two-page spread with page numbers and running heads (intro, design, preview, acknowledgement) on a dark desk, themed on Alice in Wonderland ('Drink me', 'Eat me', 'White Rabbit with pink eyes'), with weight sliders, size buttons and editable artefacts (dictionary entry, newspaper, manuscript). Placeholders ('TK', 'shapes go here', broken images) remain, and the 3D book cover at the top did not render in the capture.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "interactive-specimen",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "bookish, quiet",
+        "mobile": "unknown",
+        "carrier": "controls",
+        "cta": "none",
+        "rangeShown": "whole-family",
+        "navVisible": false
+      },
+      "look": "Captured as an empty dark-grey screen with a single white dot (a slider thumb); the HTML holds a CSS 3D book: front cover 'Crimson Pro / is a variable font / for book and digital production…', spine 'Crimson Pro' and back cover 'Additional Credits' (Google: Dave Crossland, Irin Kim, Paula Ashton; site: Amélie Lamont)",
+      "feel": "Intimate, bookish (intended)",
+      "ux": "A range input (wght 200–900, default 200) beside the book likely changes the cover's weight and/or turns the book; nothing rendered in headless capture",
+      "learn": "Open a specimen with the font as a physical book object: the cover, spine and back carry the intro and credits",
+      "reconstruction": {
+        "layout": "Full viewport (~916px) dark #262626; book with front, back, left (spine) and right faces in CSS 3D, centred; slider at the top-left (white thumb visible at x≈40, y≈120)",
+        "typography": "Cover heading ~40px Crimson Pro, subheading italic, copy ~16px; spine title vertical",
+        "palette": [
+          "#262626",
+          "#f2f2f2",
+          "#ffffff"
+        ],
+        "behaviour": "input.slider.slider--book (200–900) → font-variation-settings on the cover (likely) and/or rotateY of .book",
+        "content": "Real intro and credits copy",
+        "assets": "none",
+        "html": "div.page--full > input.slider.slider--book[type=range min=200 max=900] + div.book > div.book-face__front|__back|__left|__right"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "typeset-page",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "literary, restrained",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "An open book spread on the dark desk: a blank left page and, centred on the right page, a small half-title 'The Benefits of Crimson Pro & Variable Fonts' with an outlined italic ampersand",
+      "feel": "Hushed, bookish",
+      "ux": "static",
+      "learn": "A near-empty half-title spread sets a reading pace before the specimen begins",
+      "reconstruction": {
+        "layout": "Spread 1200px wide at x=120 (two ~595px pages with a 10px gutter), ~1018px tall; title centred on the recto",
+        "typography": "~24px Crimson Pro Regular, two centred lines; '&' in outline italic",
+        "palette": [
+          "#262626",
+          "#f2f2f2",
+          "#d5d5d5"
+        ],
+        "behaviour": "none",
+        "content": "Half-title",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "friendly, educational",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "Spread 'Benefits of Variable Fonts': left page with a yellow-to-pink radial-gradient disc containing ':c)', five outlined axis pills (wght, wdth, slnt, ital, opsz) and short prose; right page with six large glyphs '0 Y 5 / t e r' in a 2-col grid, each over its own thin slider with a '100' readout",
+      "feel": "Gentle, hands-on primer",
+      "ux": "Each glyph has its own weight slider (100–900); the readout label shows the value in the matching weight",
+      "learn": "Give each glyph its own small weight slider so visitors discover that every instance can sit anywhere on the axis",
+      "reconstruction": {
+        "layout": "Left page: headline, 220px gradient disc, pill row, ruled subheading, paragraph; right page: 3×2 grid of cards (glyph ~120px, slider ~110px, label)",
+        "typography": "Headline ~28px Crimson Pro with light-italic 'Variable Fonts'; glyphs ~120px Crimson Pro Bold; pills ~10px; body ~13px",
+        "palette": [
+          "#f1f1f1",
+          "#262626",
+          "#ffe95c",
+          "#ffc2e6"
+        ],
+        "behaviour": "input.weight-card__range#weight-card__sliderN (100–900) → font-variation-settings 'wght' on .weight-card__character and its label",
+        "content": "Explainer on axes (wght, wdth, slnt, ital, opsz)",
+        "assets": "none",
+        "html": "div.smiley > div.smiley__text; button.button--pill ×5; div.weight-cards > div.weight-card > div.weight-card__character + input.weight-card__range + label.weight-card__label"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "09",
+        "15"
+      ],
+      "type": "interlude",
+      "variant": "full-bleed-image",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "quiet, painterly",
+        "mobile": "adapts"
+      },
+      "look": "Chapter-opener spreads: a blank numbered left page and a right page filled by a black ink-blob shape (an ovoid, a leaning slab, a heart-like curve) with a tiny white label 'Design', 'Example' or 'Acknowledgment'",
+      "feel": "Calm, graphic pauses",
+      "ux": "static",
+      "learn": "Use a full-page abstract shape with a one-word label as a chapter divider in a book-like specimen",
+      "reconstruction": {
+        "layout": "Spread as above; shape ~300×450px centred on the recto; label ~10px white centred in the shape",
+        "typography": "Label ~10px Crimson Pro white",
+        "palette": [
+          "#f2f2f2",
+          "#272727",
+          "#bababa"
+        ],
+        "behaviour": "none",
+        "content": "Section names",
+        "assets": "SVG blobs (images/graphics/page-design.svg …)"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "friendly, minimal",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "Left page: an editable 'Hi,' at ~240px framed by tall pink square brackets, over a ruled 'Size' row of round buttons XS S M L XL (L active in black), then 'Easy on the eyes' and a note on the cap height",
+      "feel": "Inviting, light",
+      "ux": "Click 'Hi,' to type; size buttons switch between five preset sizes",
+      "learn": "Five named size buttons are friendlier than a slider for a reading-focused text face",
+      "reconstruction": {
+        "layout": "Page ~595px; sample block ~240px tall with 6px pink bracket borders left and right; button row with hairline rules",
+        "typography": "Sample ~240px Crimson Pro Regular; buttons ~10px; body ~13px",
+        "palette": [
+          "#f1f1f1",
+          "#262626",
+          "#ffc2f0"
+        ],
+        "behaviour": "div.type-sample[contenteditable]; .button--round-base click sets font-size class (XS–XL), active gets --active-pink",
+        "content": "'Hi,'",
+        "assets": "none",
+        "html": "div.type-sample[contenteditable] + div > button.button--round-base ×5"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "specimen-showcase",
+      "variant": "size-waterfall",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "literary, orderly",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Right page 'Weight Axis': a thin slider over twelve lines of 'White Rabbit with pink eyes' shrinking from ~48px to ~8px, cropped at the page edge",
+      "feel": "Classic specimen, Alice-themed",
+      "ux": "One weight slider (100–900) restyles all twelve lines at once",
+      "learn": "Pair a size waterfall with a single weight slider: visitors see how weight reads at every size",
+      "reconstruction": {
+        "layout": "Recto page; slider full page width; 12 lines left-aligned, overflow hidden",
+        "typography": "Crimson Pro from ~48px down to ~8px, wght 100 default",
+        "palette": [
+          "#f1f1f1",
+          "#262626"
+        ],
+        "behaviour": "input#weight-sentence__slider → font-variation-settings on every .weight-sentences__sentence",
+        "content": "'White Rabbit with pink eyes'",
+        "assets": "none",
+        "html": "input#weight-sentence__slider + div.weight-sentences > div.weight-sentences__sentence ×12"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "didactic, playful",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "Left page: a giant black 'P' with its counter filled bright blue and labelled 'counter', captioned 'With large counters and apertures, readers can easily recognize different characters at smaller sizes.'; right page: an eye-chart of glyphs on rows labelled WGHT 900, 700, 600, 500, 400, 300, 200, each row smaller and lighter (a / B Đ P / ć h 4 O / R Q D A …) with small Alice graphics (some broken)",
+      "feel": "Optometrist-chart wit",
+      "ux": "static",
+      "learn": "Fill the feature you are explaining (the counter) with one flat colour and name it: the simplest possible annotation",
+      "reconstruction": {
+        "layout": "Left page: 'P' ~600px tall; right page: 7 rows with weight numbers in a 40px left column, glyphs shrinking 110px → 14px",
+        "typography": "'P' ~1000px Crimson Pro Bold; chart glyphs Crimson Pro at the row's weight",
+        "palette": [
+          "#f2f2f2",
+          "#2a2a2a",
+          "#18a8e8"
+        ],
+        "behaviour": "none",
+        "content": "Counter explanation; weight eye chart",
+        "assets": "Small Alice SVGs (mushroom…), several missing"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "whimsical, Alice",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "color",
+          "style-select",
+          "size",
+          "weight"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Left page: an editable 'Drink me' in big red bold italic, a row of eight colour dots (red, yellow, blue, tan, white, black, green, white), boxed 'Roman' / 'Italic' buttons, a 'Size' row XS–XL (L active in red) and, in a dotted-ruled column, a 'Weight' slider with a large '100' readout",
+      "feel": "Playful, potion-label",
+      "ux": "Type over 'Drink me'; click a dot to recolour; switch Roman/Italic; pick a size; drag weight 100–900 (the readout is set in the current weight)",
+      "learn": "Theme the tester's default text on the story ('Drink me' changes size like Alice): the controls become the plot",
+      "reconstruction": {
+        "layout": "Page ~595px; sample ~260px tall; colour dots 14px spaced 40px; control block split into two columns by a vertical rule: left Roman/Italic + Size, right Weight slider + readout",
+        "typography": "Sample ~130px Crimson Pro Italic Black, red #e8000b; readout ~22px; buttons ~11px",
+        "palette": [
+          "#f0f0f0",
+          "#e8000b",
+          "#262626",
+          "#ffe100",
+          "#1aa3e8"
+        ],
+        "behaviour": "button.button--round-small → colour; .drink-me__buttons-button → Roman/Italic family; size buttons → font-size; input#drink-me__slider (100–900) → wght on text and label",
+        "content": "'Drink me'",
+        "assets": "none",
+        "html": "div.drink-me > div.drink-me__text[contenteditable] + div.drink-me__controls (colors, buttons, section-buttons, input#drink-me__slider + label)"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "graphic, gentle",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "diagram",
+        "explanation": "prose"
+      },
+      "look": "Right page 'Weight axis': a 9×7 grid of outlined 'a's, each column a step heavier, the right three columns filled pink, above a paragraph on custom instances",
+      "feel": "Systematic, soft",
+      "ux": "static",
+      "learn": "Show the axis as a grid of the same glyph in outline, stepping in weight, with the named instances filled: the in-between space becomes visible",
+      "reconstruction": {
+        "layout": "Grid ~610×280px of 'a' at ~70px; paragraph below with an italic ruled subheading",
+        "typography": "Crimson Pro 'a' outlined grey #bdbdbd and filled pink #ffc4f0, weights 100 → 900 across",
+        "palette": [
+          "#f0f0f0",
+          "#bdbdbd",
+          "#ffc4f0",
+          "#262626"
+        ],
+        "behaviour": "none",
+        "content": "Weight axis explanation",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "07",
+        "08"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "airy, storybook",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "tabs",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Two spreads with 'Regular' / 'Italic' pill toggles: A–Z in a loose 4-column grid with gaps; a hand-drawn cake labelled 'EAT ME' over symbols (₤ & $ € # + ÷ × = * ? % ! < []); a–z beside 0–9; and the quote '“So she set to work, and very soon finished off the cake”' in olive outlined bold over a drawn plate with crumbs",
+      "feel": "Spacious, storybook",
+      "ux": "Regular/Italic pills switch the grid's style",
+      "learn": "Break the character set into book pages and decorate each with a story drawing: a glyph table that reads like a picture book",
+      "reconstruction": {
+        "layout": "Each page: toggle top-right; glyph grid 4 columns with ~70px cells, deliberate gaps; drawings ~420px wide",
+        "typography": "Glyphs ~60px Crimson Pro Regular/Italic; quote ~40px bold with olive outline (#cbcbaf / text-stroke)",
+        "palette": [
+          "#f1f1f1",
+          "#262626",
+          "#cbcbaf"
+        ],
+        "behaviour": "button.button--pill--100 toggles Roman/Italic family on the grid",
+        "content": "A–Z, a–z, 0–9, symbols; Alice quote",
+        "assets": "Line drawings of a cake and a plate",
+        "html": "div.grid-characters__upper-characters > div.grid-characters__upper-character ×26"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "language-support",
+      "variant": "multiscript-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "literary, tidy",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": false
+      },
+      "look": "Spread: left page 'Looking to use Crimson Pro in your language?' with 28 outlined pill buttons (AFRIKAANS … VIETNAMESE); right page 'preview' with a select ('ENGLISH') over 'Alice's Adventures in Wonderland / Chapter II' in green outlined bold and three paragraphs of the chapter",
+      "feel": "Literary, inviting",
+      "ux": "Choosing a language (pill or select) swaps the Alice chapter into that translation",
+      "learn": "Use a book that exists in every language (Alice) as the language sample: real translated prose instead of pangrams",
+      "reconstruction": {
+        "layout": "Left: headline + 4-col pill grid (~90×24px pills); right: select full page width, title block centred, body column",
+        "typography": "Headline ~24px with light-italic name; pills ~8px caps; title ~30px bold green #3a9a3a with outline, chapter ~20px italic; body ~11px",
+        "palette": [
+          "#f0f0f0",
+          "#262626",
+          "#3a9a3a"
+        ],
+        "behaviour": "button.language-options__option / select → replace preview text with the translation",
+        "content": "Alice's Adventures in Wonderland, Chapter II, in 28 languages",
+        "assets": "none",
+        "html": "div.language-options > button.language-options__option ×28; select"
+      }
+    },
+    {
+      "blocks": [
+        "11",
+        "12",
+        "13"
+      ],
+      "type": "type-tester",
+      "variant": "in-context-editable",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "editorial, witty",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Three editable artefacts on the dark desk: a pale-blue dictionary card 'write (ˈrīt) verb' with four numbered definitions (blank in the desktop capture), a newspaper front 'THE CRIMSON PRO DAILY' (No.53210, Thursday January 18 2020, $3.00) with italic headlines 'Genius, Genocide Denier Or Both', 'Up for Sale: Pop Culture Mementos' and 'MAD TEA', and a manuscript 'Write a book' with a random prompt, 'Give Me a New Prompt', title, overview, characters, Chapter One and a 'New message from agent' notification",
+      "feel": "Literary, humorous, real-world",
+      "ux": "Every artefact is contenteditable; 'Give Me a New Prompt' generates a new book idea",
+      "learn": "Offer several genres of text (dictionary, newspaper, manuscript) as editable layouts so writers test the face in the form they actually use",
+      "reconstruction": {
+        "layout": "Each on a full-width dark page: card or paper ~1140px wide; newspaper with masthead, rule, 2-col articles; manuscript a single column with section headings",
+        "typography": "Dictionary headword ~48px bold; masthead ~40px Crimson Pro Bold caps; headlines ~28px bold italic; bylines ~11px italic caps; body ~11–14px",
+        "palette": [
+          "#262626",
+          "#dbd6d3",
+          "#e2ddda",
+          "#dbe8f7"
+        ],
+        "behaviour": "div.dictionary__entry / newspaper / div.manuscript__details [contenteditable]; p.manuscript__prompt-new click → new random prompt",
+        "content": "Real-looking news (Handke Nobel story), an absurd book prompt (a dog and her ball in a vortex of daemons and panthers), dictionary definitions",
+        "assets": "none",
+        "html": "div.dictionary > div.dictionary__entry[contenteditable]; div.manuscript > div.manuscript__prompt (p.manuscript__prompt-new) + div.manuscript__details[contenteditable]"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "story",
+      "variant": "designer-bio",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "warm, factual",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'acknowledgment' spread: two bios, 'Jacques Le Bailley' (senior type designer in The Hague, Baron von Fonthausen) and 'Sebastian Kosch' (engineer who sketched the first Crimson in 2009), each under a placeholder line 'shapes go here'",
+      "feel": "Personal, unfinished",
+      "ux": "static",
+      "learn": "Tell the origin through the people: the original student designer and the professional who extended it",
+      "reconstruction": {
+        "layout": "One bio per page, top-aligned; placeholder line above each name",
+        "typography": "Names ~16px Crimson Pro Bold; bios ~11px Regular",
+        "palette": [
+          "#f2f2f2",
+          "#262626"
+        ],
+        "behaviour": "none",
+        "content": "Designer biographies",
+        "assets": "Intended shapes/portraits (missing)"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "14",
+      "reason": "unfinished placeholder: pink panel 'Typography example!' with 'TK'"
+    }
+  ],
+  "sequence": [
+    "hero/interactive-specimen",
+    "hero/typeset-page",
+    "design-details/axis-explainer",
+    "interlude/full-bleed-image",
+    "type-tester/slider-sandbox",
+    "specimen-showcase/size-waterfall",
+    "design-details/annotated-specimen",
+    "type-tester/slider-sandbox",
+    "design-details/axis-explainer",
+    "glyph-table/full-grid",
+    "language-support/multiscript-specimen",
+    "type-tester/in-context-editable",
+    "story/designer-bio"
+  ]
+}

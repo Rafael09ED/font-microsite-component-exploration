@@ -21,6 +21,8 @@ Sample: 48 blocks from 47 sites.
 | [prop-collage](#prop-collage) | 2 | A collage of designed artefacts (documents, tickets, packaging, diagrams) set in the font, implying a fictional world. | many small designed objects, all set in the font |
 | [mini-game](#mini-game) | 0 | The hero is a small playable game built from the page's own elements (e.g. Pong); collisions or score change the name's axes, CTAs can be game pieces. | ball, paddles, score in the first screen |
 | [click-to-stamp](#click-to-stamp) | 0 | An almost empty first screen; each click drops a word or phrase in the font at the pointer with randomised style or axis values, so the visitor composes the hero. | “click anywhere” prompt, scattered stamped words |
+| [strip-mixer](#strip-mixer) | 0 | A typeset page cut into headline, deck and body strips, each its own carousel of styles cycling on its own timer and swipeable, so the page keeps recombining. | horizontal strips sliding independently |
+| [glyph-grid-sampler](#glyph-grid-sampler) | 0 | A small name over a large grid of characters from every covered script, often on writing-practice guide cells. | grid of CJK/Latin characters in guide cells |
 
 ## Rubric
 
@@ -213,5 +215,21 @@ _No instance in the sample yet._
 An almost empty first screen; each click drops a word or phrase in the font at the pointer with randomised style or axis values, so the visitor composes the hero.
 
 **Recognise by:** “click anywhere” prompt, scattered stamped words
+
+_No instance in the sample yet._
+
+## strip-mixer
+
+A typeset page cut into headline, deck and body strips, each its own carousel of styles cycling on its own timer and swipeable, so the page keeps recombining.
+
+**Recognise by:** horizontal strips sliding independently
+
+_No instance in the sample yet._
+
+## glyph-grid-sampler
+
+A small name over a large grid of characters from every covered script, often on writing-practice guide cells.
+
+**Recognise by:** grid of CJK/Latin characters in guide cells
 
 _No instance in the sample yet._

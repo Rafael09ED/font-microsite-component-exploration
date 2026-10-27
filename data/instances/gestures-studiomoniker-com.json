@@ -1,0 +1,105 @@
+{
+  "slug": "gestures-studiomoniker-com",
+  "extractedBy": "agent",
+  "summary": "Moniker's one-screen Svelte app for Gestures, a sans in four weights where every letter has a scribbly hand-drawn alternate. The whole site is a tester: a screenplay line set huge in the middle, one slider at the bottom whose target is picked from 'Size / Weight / Alt characters', a dark-mode switch and green/blue pill buttons. Per the info text, filmed hands of the designer (WebGL canvas, with voice-over and a mute button) reach in and drag the settings back to the intended values; all copy lives in an info panel.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "look": "No bar, just floating pill buttons in the corners: a green 'Gestures ▾' style dropdown top-left; a blue 'buy', a green round speaker (mute) button and a green 'info' top-right"
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "theatrical, playful, deadpan",
+        "mobile": "breaks",
+        "controls": [
+          "size",
+          "weight",
+          "features",
+          "style-select",
+          "color"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A light-grey screen with 'INT. IDENTITY TRAINING FACILITY–DAY' (a screenplay scene heading, with one scribbly 'T' alternate) centred in two lines of thin black Gestures; along the bottom 'Dark mode' with a toggle, then the words 'Size', 'Weight', 'Alt characters:' (the active one underlined) and one long grey slider with a white round thumb",
+      "feel": "Quiet stage set waiting for a performance",
+      "ux": "Pick Size, Weight or Alt characters, then drag the single slider: Alt characters swaps a growing share of letters for their scribbly siblings (0–1); the dropdown picks the weight; dark mode inverts the page; the designer's filmed hands (canvas video, with spoken voices) come in and drag the values back, and the mute button silences them",
+      "learn": "One slider whose target is chosen by plain-word radio labels keeps the screen almost empty; a percentage slider for alternates shows a feature as a dose, not an on/off switch",
+      "reconstruction": {
+        "layout": "Single 1440×900 screen, no scroll; sample centred both ways, max ~1260px wide; corner pills 16–24px from the edges, ~48px tall; bottom row at y≈845: 'Dark mode' + 40×20 toggle at x≈64, radio labels from x≈320, slider track from x≈740 to 1375 (2px grey, thumb 21px white circle with grey ring); canvas layer above for hand video",
+        "typography": "Sample font-size calc(var(--vh) × 68.9) × 18% ≈ 112px at 900px tall, Gestures weight 80 (thin), letter-spacing 0, line-height 1.1, all caps with 'case' feature on the dash; UI ~24px grotesk (Gestures Regular) black on pills",
+        "palette": [
+          "#f6f6f6",
+          "#000000",
+          "#d0d0d0",
+          "#5bd21c",
+          "#2d80f0"
+        ],
+        "behaviour": "Radio selects which property (fontSize, fontWeight, fontAltChars) the mdc-slider drives (step 0.0001); alternates appear letter by letter as the value rises; dark mode swaps --black/--white; scripted hand videos on a WebGL canvas reset the settings, with voice lines (mutable); idle capture showed no motion",
+        "content": "A screenplay ('INT. IDENTITY TRAINING FACILITY–DAY'), with voices credited as characters 'Anatomia' and 'The Greatfisher'",
+        "assets": "Filmed hand video assets (sold separately as 'Gestures Video Assets'), voice recordings, the Gestures font with alternates",
+        "html": ".text-container > .text[style=font-size: calc(var(--vh)*68.9)] > div[style=font-size:18%; font-weight:80] > p; .bottom > #dark-btn, .selectors > input[type=radio]#size|#weight|#alt + label, #alt-slider.mdc-slider[role=slider]; canvas#canvas"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "info-popover",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "warm, studio voice",
+        "mobile": "unknown",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "Hidden panel (#info-text, off-canvas at -100vw, captured in HTML only) opened by the 'info' pill: the description with a few letters set as scribbly alternates, 'download a PDF specimen', the story of Moniker's first own typeface, a mailto for a free trial, a link to buy the hand video assets, and full credits",
+      "feel": "Chatty, self-aware",
+      "ux": "Slides in from the left over the tester; links to the PDF specimen, mailto trial request, shop page for video assets",
+      "learn": "Sprinkle the font's alternates into the about text itself (one per sentence) so even the copy demonstrates the feature",
+      "reconstruction": {
+        "layout": "Full-height panel sliding in from the left (translateX(-100vw) → 0); paragraphs with margin-bottom classes mb / mb-2",
+        "typography": "Body in Gestures Regular ~24px, span.alt letters in the scribbly alternate, links underlined",
+        "palette": [
+          "#f6f6f6",
+          "#000000"
+        ],
+        "behaviour": "Slide-in on 'info' click",
+        "content": "Description, PDF specimen link, studio story, trial by email, 'Jolana's own hands annoyingly change the settings back… They are sold separately here ↓', credits (concept, typeface design, development, hand assets, voices, kerning)",
+        "assets": "PDF specimen",
+        "html": "div#info-text > p (span.alt for alternate glyphs, span.case)"
+      }
+    }
+  ],
+  "sequence": [
+    "type-tester/slider-sandbox",
+    "story/info-popover"
+  ]
+}

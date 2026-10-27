@@ -1,0 +1,531 @@
+{
+  "slug": "finaltype-de-en-projects-monoflow",
+  "extractedBy": "agent",
+  "summary": "A project page on the Finaltype foundry site for Monoflow, a humanist coding monospace. It reads like an illustrated article: a looping 3D laptop video, title, intro and a free-regular CTA, then dark navy SVG figures (styles on a monospace grid, an animated 'contextual repositioning' diagram, italics, diacritics) between short prose sections, an editable mock code editor, a poster carousel, a Fontspring buy box, author bios and the site footer. Its distinctive idea is explaining how letters shift inside fixed-width cells to improve monospace spacing.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "look": "150px charcoal header (#222222): Finaltype wordmark with its small logo top-left, 'Topics Fonts People Contact' right in a serif with a red underline under the active 'Fonts'; a red 'de / en' language tab is fixed to the right edge of the window on every screen"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "material-photo",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "video",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "friendly, product-like, warm",
+        "mobile": "adapts",
+        "carrier": "motion",
+        "cta": "download",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "A full-width pale-yellow band with a rendered white laptop floating at an angle, its screen showing a dark code editor set in Monoflow ('# Monoflow // enjoy the difference', 'import finaltype.de'); below on warm beige the title 'Monoflow' (~125px), an italic byline, a four-line intro in Monoflow and a small black 'Get the regular weight for free via Fontspring →' button (title area never cut as a block, attached to 01)",
+      "feel": "Calm, friendly, tech-product",
+      "ux": "The 3D laptop video plays once on load (the laptop flies in and opens; at the end it closes flat); the button links out to Fontspring for the free Regular",
+      "learn": "Put the coding font where it will live: a rendered laptop screen with real-looking code says 'for programmers' before any copy",
+      "reconstruction": {
+        "layout": "Video band full-bleed 1440×450 at y=150 (laptop ~500px wide centred); title block on #ece7e1 from y≈600: content column x=168, ~1000px wide; title at y≈700, byline 20px below, intro paragraph at y≈1000 (~990px wide, 5 lines), CTA at y≈1310",
+        "typography": "Title ~125px Monoflow Bold (dark #222); byline ~14px Benedikt italic grey ('published on 04.4.2020 by Prof. Hans R. Heitmann'); intro ~22px Monoflow Regular, line-height ~1.6; CTA ~15px Benedikt italic white on #222",
+        "palette": [
+          "#fdf1ac",
+          "#fcfcf8",
+          "#ece7e1",
+          "#222222",
+          "#5c5b63"
+        ],
+        "behaviour": "Muted inline video (header-animation.mp4) plays once over a blank poster image; no loop controls",
+        "content": "Code snippet with puns ('from human import character', 'int readability = 11;'); real intro copy: 'A monospace typeface with unique character and beautiful spacing…'",
+        "assets": "3D-rendered laptop animation (MP4) with Monoflow code on screen",
+        "html": "div.intro.center (background-image blanko.png) > video#header-animation[muted][playsinline]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "orderly, technical",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "On navy: eight lines 'Monoflow Light', 'Monoflow LightItalic' … 'Monoflow BoldItalic' in cream, stacked over thin vertical rules that mark every character cell, and a small repeat of the same list at the right",
+      "feel": "Precise, blueprint-like",
+      "ux": "static SVG figure",
+      "learn": "Draw the monospace cell grid behind the style list: the lines prove that every weight and italic keeps the same width",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×687 navy panel; list block at x≈170–970, 8 rows of ~66px; vertical hairlines at each ~35px character cell through all rows; small list ~16px at x≈1010",
+        "typography": "~58px Monoflow in each style (Light → Bold, roman and italic alternating), cream; small list ~15px",
+        "palette": [
+          "#272635",
+          "#fdebae",
+          "#514c4d"
+        ],
+        "behaviour": "none",
+        "content": "Style names only",
+        "assets": "SVG figure (schnitteafdesign.svg)",
+        "html": "section.figure.full-width > figure > object[type=image/svg+xml]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "type-tester",
+      "variant": "code-playground",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "nerdy, punny",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "single",
+        "defaultText": "code",
+        "export": false
+      },
+      "look": "'Testdrive Monoflow by typing in this box:' above a mock editor window: a black title bar with red, yellow and teal dots and a slate-grey body with ten lines of cream code ('# Monoflow // enjoy the difference', 'function setAttributes(){', 'int readability = 11;')",
+      "feel": "Cosy, developer-friendly",
+      "ux": "The code body is contenteditable; no syntax highlighting, themes or font controls",
+      "learn": "A plain editor chrome (three dots and a dark body) is enough context to make an editable box read as 'your IDE'",
+      "reconstruction": {
+        "layout": "Content column x=168, 1104px wide; label then a window: 30px title bar #1d1d1e with three 12px dots, body #4b4b57 ~360px tall, padding ~30px",
+        "typography": "Label ~16px Monoflow Bold dark; code ~20px Monoflow Regular cream #efeae4, line-height ~1.5",
+        "palette": [
+          "#ece7e1",
+          "#4b4b57",
+          "#1d1d1e",
+          "#efeae4"
+        ],
+        "behaviour": "Typing edits the code; nothing else",
+        "content": "Code pun snippet: 'import finaltype.de / from human import character / str verticalMetrics = \"classical\"; boolean hasItalics = true;'",
+        "assets": "none",
+        "html": "section.code > div > h2 + div#testdrive[contenteditable]"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "05",
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "explanatory, precise",
+        "mobile": "adapts",
+        "subject": [
+          "spacing",
+          "features"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "Two short prose sections ('Harmonic spacing despite monospace?', 'Better spacing through contextual repositioning') around a navy figure: 'main' in big cream letters, each inside its own ruled monospace cell, the 'a' shown twice (a grey ghost at its default position and the cream letter shifted towards its neighbour)",
+      "feel": "Clear, quietly clever",
+      "ux": "The SVG animates the 'a' sliding inside its fixed cell as the context changes; static prose on beige around it",
+      "learn": "Draw the fixed-width cells and let one letter move inside its box: the animation shows 'words stay monospace while letters shift in context' faster than the paragraph does",
+      "reconstruction": {
+        "layout": "Prose blocks in the 1104px column (x=168), ~340px each; between them a full-bleed 1440×576 navy panel with four cells ~275×280px outlined in grey hairlines centred, letters filling the cell height",
+        "typography": "Headings ~16px Monoflow Bold; body ~16px Monoflow Regular dark grey, line-height ~1.55, 'This is new:' in bold; diagram letters ~300px Monoflow Bold cream #fdebae, ghost in warm grey",
+        "palette": [
+          "#eee9e3",
+          "#242333",
+          "#fdebae",
+          "#5c5b63"
+        ],
+        "behaviour": "Looping SVG animation (contextual-repositioning.svg): the 'a' alternates between its default and repositioned place in the cell",
+        "content": "Real explanation: typewriter roots, kerning impossible in monospace, Monoflow repositions letters within their fixed-width box",
+        "assets": "Animated SVG diagram",
+        "html": "section.figure.full-width > figure > object[data$=contextual-repositioning.svg]"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "plain, comparative",
+        "mobile": "adapts",
+        "subject": [
+          "italics"
+        ],
+        "presentation": "pairs",
+        "explanation": "none"
+      },
+      "look": "On navy, 'adegkuvxyz JKLXZ' in cream upright, and directly below the same letters in italic, so the cursive single-storey a, g and changed k, v, x, y, z line up under their roman forms",
+      "feel": "Matter-of-fact",
+      "ux": "static SVG figure",
+      "learn": "Pick only the letters that change in the italic and stack them under the roman: the comparison needs no caption",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×397 navy panel; two centred lines ~86px apart",
+        "typography": "~72px Monoflow Regular and Italic, cream",
+        "palette": [
+          "#242332",
+          "#fbefb4"
+        ],
+        "behaviour": "none",
+        "content": "adegkuvxyz JKLXZ",
+        "assets": "SVG figure (italics.svg)"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "sampler",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "On navy, five rows of fifteen accented and special glyphs (À Â Ã Å Ç ñ Ă ą ă ď ę Ď ğ å ê, Ħ Ő Ŋ ŋ Š ţ Ţ Ů Ŵ, … ¢ £ ¥ © Æ Î Ý Þ æ ą Ą Ċ ħ Ō ŧ) in cream, evenly spaced without cell lines",
+      "feel": "Sampler, not inventory",
+      "ux": "static SVG figure",
+      "learn": "A curated grid of the trickiest accents signals coverage without listing the whole set",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×536 navy panel; grid ~1100px wide centred, 15 columns × 5 rows, ~70px pitch",
+        "typography": "~32px Monoflow Regular cream",
+        "palette": [
+          "#242333",
+          "#fdebae"
+        ],
+        "behaviour": "none",
+        "content": "Selection of diacritics, ligatures and currency signs",
+        "assets": "SVG figure (akzente.svg)"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "plain, factual",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": false
+      },
+      "look": "Under the diacritics figure (never cut as a block, attached to 08): 'Support for more than 37 languages' in bold, then one paragraph listing them, 'Afrikaans, Albanian, Basque, Bosnian … Welsh and Zulu.'",
+      "feel": "Dry, reassuring",
+      "ux": "static",
+      "learn": "Pair the visual accent sampler with the plain language list right below it",
+      "reconstruction": {
+        "layout": "1104px column at x=168, ~200px tall, ~100px below the navy panel",
+        "typography": "Heading ~16px Monoflow Bold; list ~16px Monoflow Regular, line-height ~1.6, dark grey",
+        "palette": [
+          "#ece7e1",
+          "#222222"
+        ],
+        "behaviour": "none",
+        "content": "37 Latin-script language names",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "graphic, informative",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "carousel"
+      },
+      "look": "A navy carousel of six 'Monoflow posters' (cover with laptop illustration and claim, capital ẞ in context, regular vs half-width space, a keyboard illustration with M-O-N-O-F-L-O-W keycaps, large m g l g letters, an illustration), thin ‹ › arrows outside the frame and six dots below (active red)",
+      "feel": "Polished, poster-like",
+      "ux": "Owl Carousel: arrows, dots and drag/swipe; slides 1104px wide, infinite loop with cloned slides",
+      "learn": "Recycle the launch posters as a carousel: each slide is a self-contained argument (feature, letter, use) the reader can flip through",
+      "reconstruction": {
+        "layout": "Carousel 1104×~550px at x=168; slide images fill the width; arrows ~40px outside left and right at mid-height; 6 dots 8px, 12px apart, below",
+        "typography": "Posters typeset in Monoflow: captured slide has pink headings ~22px and two cream columns of ~22px German copy; yellow circle sticker 'optimal for use in graphic design' ~15px",
+        "palette": [
+          "#262434",
+          "#fdebae",
+          "#e8457a",
+          "#4a4a56"
+        ],
+        "behaviour": "Slide transition 0.25s translate3d; looped",
+        "content": "German demo copy about the dlig half-space, sharp s, letters, plus claim posters",
+        "assets": "Six poster images (JPEG, rendered illustrations and type compositions)",
+        "html": "section.owl-carousel > .owl-stage-outer > .owl-stage > .owl-item > figure > img; .owl-nav ‹ ›; .owl-dots"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "typographic, practical",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "spacing"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "The carousel slide captured on desktop: two columns of the same German paragraph, left headed 'Monoflow with regular space', right '½ space via »dlig« feature', the right one visibly tighter, with a yellow circle sticker 'optimal for use in graphic design'",
+      "feel": "Editorial, persuasive",
+      "ux": "One slide among six in the carousel",
+      "learn": "Set the same paragraph twice, feature off and on, in real body copy so the change in texture (fewer rivers) is obvious",
+      "reconstruction": {
+        "layout": "Two equal columns ~400px each inside a navy 1104px slide, heading above each, sticker overlapping the bottom-right column",
+        "typography": "Headings ~22px Monoflow pink; body ~22px Monoflow Regular cream, line-height ~1.4, hyphenated",
+        "palette": [
+          "#262434",
+          "#fdebae",
+          "#e8457a"
+        ],
+        "behaviour": "none (static image slide)",
+        "content": "German text explaining the optional-ligature half-width word space",
+        "assets": "Poster image"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain",
+        "mobile": "adapts",
+        "destination": "distributor",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "Below the carousel (never cut, attached to 09): a wide box with a 2px dark border holding the Fontspring logo and 'Buy »Monoflow« on Fontspring →' in italics, then a small black '↑ jump to top' button",
+      "feel": "Low-key, honest",
+      "ux": "The whole box links to Fontspring (refby=finaltype); the hero button also offers the Regular free there",
+      "learn": "Show the distributor's logo in the buy box so visitors know where they are going",
+      "reconstruction": {
+        "layout": "Box 1104×112 at x=168, ~140px below the carousel; logo ~260px wide at left, text from x≈530; jump-to-top button ~110×50 below",
+        "typography": "~24px Benedikt italic dark; button ~13px italic white on #222",
+        "palette": [
+          "#ece7e1",
+          "#222222",
+          "#3f8ab8"
+        ],
+        "behaviour": "none",
+        "content": "Buy »Monoflow« on Fontspring →",
+        "assets": "Fontspring logo"
+      }
+    },
+    {
+      "blocks": [
+        "10",
+        "11"
+      ],
+      "type": "story",
+      "variant": "designer-bio",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "personal, academic",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "Two cards, each a dark low-key portrait on the left and a pale grey panel with an italic caps name ('PROF. HANS R. HEITMANN', 'JOHANNES AMMON') and a short serif bio",
+      "feel": "Serious, personal",
+      "ux": "static",
+      "learn": "Low-key black portraits next to short bios give a small foundry faces without a big 'team' section",
+      "reconstruction": {
+        "layout": "Cards 1104×240 at x=168, ~64px apart; photo 300×240 left, text panel right with ~30px padding",
+        "typography": "Name ~13px Benedikt italic caps; bio ~13px Benedikt Regular, line-height ~1.7, grey-brown",
+        "palette": [
+          "#d7d1cf",
+          "#b4afac",
+          "#222222"
+        ],
+        "behaviour": "none",
+        "content": "Real bios (Finaltype initiator and professor; communication designer who calls type design 'the nerdiest design discipline')",
+        "assets": "Two black-background portrait photos"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "newsletter",
+      "variant": "email-signup",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain",
+        "mobile": "adapts"
+      },
+      "look": "In the charcoal footer: red small caps 'NEWSLETTER', label 'Email Adress', a white input and a red 'SUBSCRIBE' button, a one-line note about Buttondown",
+      "feel": "Unobtrusive",
+      "ux": "Email field and submit (Buttondown)",
+      "learn": "One line explaining the mailing provider and unsubscribe makes the form feel trustworthy",
+      "reconstruction": {
+        "layout": "Footer band 1152px wide at x=144, 300px tall; input ~250×26 with a ~70px button to its right",
+        "typography": "Heading ~12px Benedikt caps red; labels and note ~10px Benedikt",
+        "palette": [
+          "#222222",
+          "#ffffff",
+          "#e4003a"
+        ],
+        "behaviour": "none",
+        "content": "Newsletter signup",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain",
+        "mobile": "adapts",
+        "contains": [
+          "legal"
+        ]
+      },
+      "look": "'© 2016–2026 Finaltype — Impressum / Datenschutz' in tiny grey serif at the bottom of the charcoal footer",
+      "feel": "Minimal",
+      "ux": "Legal links",
+      "learn": "Keep legal to one line under the signup",
+      "reconstruction": {
+        "layout": "One line ~60px under the newsletter, left-aligned at x=170",
+        "typography": "~10px Benedikt grey",
+        "palette": [
+          "#222222",
+          "#999999"
+        ],
+        "behaviour": "none",
+        "content": "Copyright and legal links",
+        "assets": "none"
+      }
+    }
+  ],
+  "sequence": [
+    "hero/material-photo",
+    "family-overview/style-word-grid",
+    "type-tester/code-playground",
+    "design-details/feature-before-after",
+    "glyph-table/full-grid",
+    "language-support/language-name-list",
+    "specimen-showcase/poster-series",
+    "design-details/feature-before-after",
+    "checkout/link-out-cta",
+    "story/designer-bio",
+    "newsletter/email-signup",
+    "footer/slim-legal-bar"
+  ]
+}

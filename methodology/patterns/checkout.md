@@ -13,6 +13,7 @@ Sample: 17 blocks from 17 sites.
 | [free-download](#free-download) | 2 | A free download with a plain-language licence summary and/or developer install instructions. | OFL, npm or brew commands, press kit |
 | [build-configurator](#build-configurator) | 1 | Options (alternates, spacing, ligatures) select which pre-built files you download. | option toggles plus a download button |
 | [package-price-sheet](#package-price-sheet) | 0 | The licence packages (family, subfamily, single style) laid out with contents and ‘from’ prices, illustrated with style samples; the purchase itself happens in an external shop. | package cards with prices, buy links out |
+| [supporter-tier-wall](#supporter-tier-wall) | 0 | For a free font: donation tiers shown as medals with amounts, each followed by the names of supporters at that level; the thank-you wall is also the ask. | tiers, amounts, supporter names |
 
 ## Rubric
 
@@ -90,5 +91,13 @@ Options (alternates, spacing, ligatures) select which pre-built files you downlo
 The licence packages (family, subfamily, single style) laid out with contents and ‘from’ prices, illustrated with style samples; the purchase itself happens in an external shop.
 
 **Recognise by:** package cards with prices, buy links out
+
+_No instance in the sample yet._
+
+## supporter-tier-wall
+
+For a free font: donation tiers shown as medals with amounts, each followed by the names of supporters at that level; the thank-you wall is also the ask.
+
+**Recognise by:** tiers, amounts, supporter names
 
 _No instance in the sample yet._

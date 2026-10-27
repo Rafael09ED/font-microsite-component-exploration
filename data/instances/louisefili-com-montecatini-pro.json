@@ -1,0 +1,497 @@
+{
+  "slug": "louisefili-com-montecatini-pro",
+  "extractedBy": "agent",
+  "summary": "A Squarespace page for the expanded Montecatini (6 weights × 4 widths) that alternates commissioned Stile Liberty poster and luggage-label artwork with plain typographic sections: an origin story with archival posters, a width × weight style list, a one-line tester with segmented style buttons, a catalogue of the ligature features, and a city-name wall with the ligatures picked out in pink.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "illustration-scene",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "Art Nouveau, sunny, Italian spa",
+        "mobile": "adapts",
+        "carrier": "illustration",
+        "cta": "none",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "Coral-red field with 'MONTECATINI PRO' in white at ~137px, two small tracked captions 'IN SIX WEIGHTS' / '& FOUR WIDTHS' left and right, and a stylised pale-blue Liberty-style fountain with wavy water bands rising from the bottom edge",
+      "feel": "Sunny, nostalgic, poster-like",
+      "ux": "static; no site nav visible in the capture",
+      "learn": "A single period-correct illustration (a spa fountain) placed under the name makes the hero read as a Stile Liberty travel poster, so the historical reference is felt before it is explained",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×742 (~82vh) coral field; name centred at y≈120 spanning x≈310–1130; captions at y≈380 centred in the left and right thirds (x≈270 and x≈1110); fountain illustration (2048×563 PNG) centred, bottom-anchored, ~400px tall, with wave bands running edge to edge",
+        "typography": "Name 137px Montecatini VAR (wdth 100, wght 300–400), all caps with the contextual ligatures (CA, PR-O); captions ~28px all caps in a wide bold instance (wdth ≈261, wght 700), tracked, two lines each",
+        "palette": [
+          "#d7655a",
+          "#ffffff",
+          "#b2d1d8",
+          "#d4e6e9"
+        ],
+        "behaviour": "Static in the capture; the h1 carries id='flex', which may hook a width animation, but no motion shows in the video",
+        "content": "Family name and the two facts of the expansion (six weights, four widths)",
+        "assets": "Fountain illustration PNG (Montecatini_Header-Fountain.png, 2048×563) in pale blue with white highlights",
+        "html": "section#opener > .title h1#flex + .sub-title > .half h2 ×2 + .fountain img"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "03"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "warm, historical",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "archival"
+        ],
+        "length": "medium"
+      },
+      "look": "A justified serif intro paragraph with a Montecatini drop cap 'M' on white, then (after a label collage) a sage-green band with three archival Italian posters and labels (Orzata Gio. Gancia, Regie Terme di Montecatini, Il Figurino dei Bambini) above two more justified paragraphs about Montecatini Terme and the Stile Liberty lettering",
+      "feel": "Literate, book-like, nostalgic",
+      "ux": "static",
+      "learn": "Show the three source artefacts in a row right above the text that names them, and open each paragraph with a drop cap in the display face so the body serif and the display face meet",
+      "reconstruction": {
+        "layout": "Text column ~1040px wide centred (x≈200–1240), justified; block 01 is ~420px tall on white. Block 03: full-width sage panel 1190px tall; three posters ~380px wide × ~540px tall in a centred row with ~40px gaps, top at y≈80; text column below at y≈700, 2 paragraphs",
+        "typography": "Body ~22px Sorts Mill Goudy, leading ~1.5, grey #636363 on white and white on sage; drop cap 'M' ~3 lines tall in Montecatini (wght 300) in coral on white, white on sage",
+        "palette": [
+          "#fafafa",
+          "#636363",
+          "#d7655a",
+          "#6a8479",
+          "#ffffff"
+        ],
+        "behaviour": "Lazy-loaded images; otherwise static",
+        "content": "Real copy: the 2017 release, the expansion to 24 styles, Louise Fili's first visit to the spa in the 1980s and the decision to build widths and weights from poster lettering",
+        "assets": "Three scanned archival posters and labels (Montecatini_Reference-1/2/4.png)",
+        "html": "section > .text-container > p.drop; section#history > .posters-container > .poster img ×3 + .text-container > p.drop"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "10"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "travel, nostalgic, ornate",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "series"
+      },
+      "look": "Full-width collage of overlapping vintage hotel luggage labels (Hotel Adlon, Auberge Châtelet, Blue Moon, La Parisienne Boutique, Palazzo Grassi, Canal Grande, Royal Palace) in coral, pale blue, pink and dark green, every label lettered in Montecatini; the same artwork returns near the end, cut out on white",
+      "feel": "Grand-tour, collectible",
+      "ux": "static image breaks between sections",
+      "learn": "Luggage labels are a natural home for a poster face: each label is a tiny logo, so one collage shows the widths, weights and ligatures doing branding work",
+      "reconstruction": {
+        "layout": "02: full-bleed image 1440×720, labels cropped at all edges. 10: same set of labels on white, ~1440×626, the collage's lower edge cut out (not a rectangle)",
+        "typography": "All label lettering in Montecatini: Ampio/Largo widths for names like HOTEL ADLON, condensed Stretto for CANAL GRANDE, ligature-rich caps (LA PARISIENNE, BOUTIQUE)",
+        "palette": [
+          "#d7655a",
+          "#97c4ce",
+          "#f6d4ca",
+          "#395676",
+          "#6e8579"
+        ],
+        "behaviour": "none",
+        "content": "Invented hotels and shops in European resort towns (Amsterdam 1923, Rive Gauche, Šibenik-Hrvatska, Rue Saint Honoré 47)",
+        "assets": "Flat-colour vector luggage-label illustrations composed into one raster collage (Montecatini_Labels_01.png and a cut-out variant)"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "interlude",
+      "variant": "full-bleed-image",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "archival, textured",
+        "mobile": "adapts"
+      },
+      "look": "Full-width enlarged detail of the 'Il Figurino dei Bambini' poster from the history section: condensed and expanded black caps on pink paper with halftone texture",
+      "feel": "Tactile, archival",
+      "ux": "static pause between the story and the overview",
+      "learn": "Blow up a detail of one source poster so visitors see the mixed widths in the original before they see them in the font",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×603 raster, no text overlay",
+        "typography": "None live: the image shows the original lettering (condensed heavy caps, wide light caps, mixed in one block)",
+        "palette": [
+          "#f6c7b8",
+          "#cea79a",
+          "#91746b",
+          "#1a1a1a"
+        ],
+        "behaviour": "none",
+        "content": "Archival poster detail",
+        "assets": "High-resolution scan crop of the source poster"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "orderly, decorative",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "'OVERVIEW' heading in coral between two square Art Nouveau ornaments, then four columns headed STRETTO / NORMALE / AMPIO / LARGO, each listing LIGHT → ULTRA with every name set in its own style",
+      "feel": "Neat, catalogue-like",
+      "ux": "static",
+      "learn": "A width-per-column, weight-per-row list of style names is the cheapest designspace overview: no samples needed when the names themselves are set in each style",
+      "reconstruction": {
+        "layout": "Section heading centred at y≈150 with ornament SVGs (~64×50px) either side; style grid at y≈300: 4 columns ~280px wide from x=80 with ~54px gutters; column header 12px caps above a 1px grey rule; 6 names stacked, ~48px rows",
+        "typography": "Heading ~130px Montecatini Light caps, coral; column headers ~12px Josefin Sans caps, tracked +15%, grey; style names ~42px Montecatini caps in their own weight (Light 300 → Ultra 800) and width family (Montecatini Stretto/Normale/Ampio/Largo), coral. In the capture the four columns look the same width, so the width fonts may not have loaded",
+        "palette": [
+          "#fdfbfb",
+          "#d7655a",
+          "#999999"
+        ],
+        "behaviour": "none",
+        "content": "Style names only",
+        "assets": "Two decorative ornament SVGs (mirrored)",
+        "html": "section#overview > .section-title (svg.left-orn, h1, svg.right-orn) + .style-container > .width-container.width-{stretto|normale|ampio|largo} > .style-title h2 + .weight-container > .style.style-{light…ultra} p"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "simple, inviting",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "style-select"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "One editable line 'TRY IT YOURSELF' at ~216px in coral over a thin coral rule, with two segmented button bars below: widths (Stretto, Normale, Ampio, Largo) and weights (Light … Ultra), the active segment filled coral",
+      "feel": "Simple, low-friction",
+      "ux": "Click the line to type (hover shows 'Click to Edit'); click a width or weight segment to restyle the line; no size or axis sliders",
+      "learn": "Two segmented bars (width × weight) are enough to drive a 24-style family: the visitor picks a cell of the design space without seeing a slider",
+      "reconstruction": {
+        "layout": "Editable line centred, ~1260px wide, at y≈880 of the section; 1px coral rule under it; button bars at y≈1090: widths bar ~490px (4 segments) left, weights bar ~750px (6 segments) right, each 44px tall with 1px coral borders; purchase button centred below",
+        "typography": "Sample ~216px Montecatini caps, coral; segment labels ~12px Josefin Sans caps tracked, coral on white, white on coral when active",
+        "palette": [
+          "#fdfbfb",
+          "#d7655a",
+          "#f0d4d1",
+          "#ffffff"
+        ],
+        "behaviour": "Clicking a segment swaps the sample's font-family (width) and font-weight (Light 300 … Ultra 800) and moves the .active class; contenteditable sample with spellcheck off and a 'Click to Edit' hover hint",
+        "content": "Prompt text 'Try it yourself'",
+        "assets": "none",
+        "html": ".tester-container > [contenteditable=true] + span.hover('Click to Edit') + .control-editor > .control-width ul.width li#buttonStretto.active… + .control-weight ul.weight li#buttonLight.active…"
+      }
+    },
+    {
+      "blocks": [
+        "06",
+        "09"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "Riviera travel poster",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "series"
+      },
+      "look": "Two full-width illustrated travel posters set in Montecatini: 'HÔTEL COMELLA / SORRENTO' (navy band, pink-outlined white inline caps, orange trees and Vesuvius) and 'VILLA & RISTORANTE «GROSSETO»' (green and coral caps over a coral hotel silhouette with pink clouds)",
+      "feel": "Holiday, period-perfect",
+      "ux": "static image breaks before Features and before the closing",
+      "learn": "Commission new posters in the source genre instead of showing old ones: the font proves it can produce the very artefacts it was drawn from",
+      "reconstruction": {
+        "layout": "Each a full-bleed raster ~1440×720 (06) and ~1440×705 (09) framed by a thin pale-pink border; type occupies about half the image height",
+        "typography": "Lettering in Montecatini: 'SORRENTO' heavy wide with inline/outline effect ~260px; 'HÔTEL COMELLA' light; 'VILLA & RISTORANTE' Regular ~140px with ligatures; «GROSSETO» with guillemets",
+        "palette": [
+          "#395676",
+          "#f7c6b8",
+          "#8aaeb4",
+          "#d7655a",
+          "#6e8579"
+        ],
+        "behaviour": "none",
+        "content": "Invented hotels and restaurants in Italian resort towns",
+        "assets": "Two flat-colour poster illustrations (landscape, hotel silhouette)"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "elegant, explanatory",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "'FEATURES' heading with ornaments, a justified intro paragraph, then four fitted display lines in grey, each with a tiny tracked caption: LA PARISIENNE (Contextual Alternates), TIPOGRAFICI (Stylistic Alternates), HÔTEL FAÇONNÉ (Language Support ▾), PLT Nº 9¾ (Ordinals & Fractions)",
+      "feel": "Calm, gallery-like",
+      "ux": "The glyphs a feature changes are wrapped in highlight spans (shown coral on mobile; on desktop the lines render grey in the capture, so the highlight is probably hover-revealed); the 'Language Support ▾' caption toggles a hidden list of accented capitals",
+      "learn": "One word per feature, fitted to the column, with the affected letters tinted: the caption names the feature and the colour shows exactly where it acts",
+      "reconstruction": {
+        "layout": "Heading as in Overview; intro paragraph ~1040px column; then four rows, each a single line fit-to-width (~1260px, fitText via inline font-size 240–300px and transform scale ≈1.05) and a centred caption ~70px below; ~180px between rows; section ~2190px tall",
+        "typography": "Display lines Montecatini Light caps ~240–300px, grey ~#808080; highlighted glyph spans .red in coral; captions ~12px Josefin Sans caps, tracked +20%, light grey; intro ~22px Sorts Mill Goudy justified",
+        "palette": [
+          "#fafafa",
+          "#808080",
+          "#d7655a",
+          "#d3d3d3"
+        ],
+        "behaviour": "calt on by default (span.no-calt switches it off locally); ss02 class on TIPOGRAFICI; ordn and frac classes on 'No.' and '¾'; click on 'Language Support' (#lang-arrow) opens #diacritics; highlight spans recolour",
+        "content": "Italian/French hotel and printing words chosen to trigger each feature: La Parisienne, Tipografici, Hôtel Façonné, PLT No. 9 ¾",
+        "assets": "Ornament SVGs; red triangle caret for the expander",
+        "html": ".feature > .fit > p[style=font-size…;transform:scale()] with span.red on affected glyphs, p.ss02, span.ordn, span.frac, span.no-calt; .text-container.desc caption"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "reference",
+        "mobile": "unknown",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Hidden drawer under the 'Language Support ▾' caption: a list of 111 accented capitals (Á Ă Ǎ Â Ä À Ā Ą Å Ã Æ Ć Č …) in Montecatini Regular; not visible in the crop",
+      "feel": "Reference, tucked away",
+      "ux": "Opened by clicking the caption of the language-support feature line; scrolls inside a .scroll container",
+      "learn": "Tuck the diacritic set behind the caption of the sample that uses diacritics, so coverage is one click away without breaking the feature sequence",
+      "reconstruction": {
+        "layout": "Collapsible panel below the HÔTEL FAÇONNÉ line; ul of li cells, probably a wrapping row of characters (layout not captured)",
+        "typography": "Montecatini Regular caps (style-regular class), size unknown",
+        "palette": [
+          "#fafafa",
+          "#808080"
+        ],
+        "behaviour": "Click #lang-arrow toggles #diacritics open/closed",
+        "content": "111 accented and special Latin capitals (Á…Ž, Æ, Œ, Þ, Ŋ)",
+        "assets": "none",
+        "html": "#lang-arrow p#info.lang-info + #diacritics.diacritics.style-regular > .scroll + ul.diacritic-characters > li ×111"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "highlighted-in-context",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "festive, Italian",
+        "mobile": "adapts",
+        "subject": [
+          "alternates",
+          "features"
+        ],
+        "presentation": "pairs",
+        "explanation": "none"
+      },
+      "look": "Sage-green panel framed by a pink border: six justified lines of Italian city names in white caps (ROMA MILANO CATANIA BARI / ACIREALE BOLOGNA LUCERNA / … / PALERMO GROSSETO VOGHERA), every ligature pair (RO, LA, CA, CC, TI, NN, SS…) picked out in pink; each line one weight heavier, Light to Ultra",
+      "feel": "Joyful, rhythmic",
+      "ux": "static",
+      "learn": "Choose real place names that contain the ligature pairs, colour only the ligatures, and step the weight per line: one panel shows the feature set and the weight range together",
+      "reconstruction": {
+        "layout": "Full-width panel 1440×791 with an ~8px pale-pink border; six lines each fit to ~1360px width (fitText), ~120px line pitch, no captions",
+        "typography": "Montecatini caps, lines at 136, 124, 126, 118 … px with transform scale ≈1.04 to justify; wght 300 / 470 / 510 / 590 / 700 / 800 (Light → Ultra) line by line; ligature spans .light-pink; .ss03 on one A; .no-calt to break unwanted pairs",
+        "palette": [
+          "#6a8479",
+          "#ffffff",
+          "#f6c7b8"
+        ],
+        "behaviour": "none",
+        "content": "Italian city names: Roma, Milano, Catania, Bari, Acireale, Bologna, Lucerna, Lucca, Tivoli, Chieti, Treviso, Padova, Ravenna, Como, Pisa, Messina, Velletri, Quittengo, Palermo, Grosseto, Voghera",
+        "assets": "none",
+        "html": "section#ligatures > .ligatures > .style-{light|regular|medium|semibold|bold|ultra}.fit > span.inner[style=font-size;transform:scale] with span.light-pink"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "11"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "polite, understated",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "A navy rectangular button 'PURCHASE MONTECATINI PRO' in small tracked white caps, placed under the tester and again under the credits",
+      "feel": "Discreet",
+      "ux": "Opens tipofili.com/fonts/montecatini in a new tab",
+      "learn": "Repeat the buy button right after the tester, the moment of highest intent, and again at the end",
+      "reconstruction": {
+        "layout": "Centred button ~444×72px, no border radius",
+        "typography": "~16px Josefin Sans caps, tracked +10%, white",
+        "palette": [
+          "#3a5a79",
+          "#ffffff"
+        ],
+        "behaviour": "Link with target=_blank; hover state not captured",
+        "content": "One CTA: Purchase Montecatini Pro",
+        "assets": "none",
+        "html": ".purchase > a.button[href='https://tipofili.com/fonts/montecatini'][target=_blank]"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "modest",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "A short centred justified paragraph of credits in grey serif with an underlined 'Louise Fili Ltd' link, then the purchase button",
+      "feel": "Quiet ending",
+      "ux": "static; one link to the studio",
+      "learn": "Credit every contributor (original design, expansion, engineering partner, web) in one sentence-style paragraph",
+      "reconstruction": {
+        "layout": "Centred column ~600px wide at the top of a ~490px white section; button ~60px below",
+        "typography": "~16px Sorts Mill Goudy, grey #636363, justified; link underlined",
+        "palette": [
+          "#fdfdfd",
+          "#636363",
+          "#3a5a79"
+        ],
+        "behaviour": "none",
+        "content": "Designed by Louise Fili Ltd; original design Louise Fili and Nick Misani; expansion Louise Fili and Andy Anzollitto; assistance Schriftlabor; website Matthew Smith",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/illustration-scene",
+    "story/origin-reference",
+    "specimen-showcase/prop-collage",
+    "interlude/full-bleed-image",
+    "family-overview/style-word-grid",
+    "type-tester/slider-sandbox",
+    "specimen-showcase/poster-series",
+    "design-details/feature-index",
+    "glyph-table/full-grid",
+    "design-details/highlighted-in-context",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

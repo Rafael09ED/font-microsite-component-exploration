@@ -1,0 +1,280 @@
+{
+  "slug": "indestructibletype-com-gnomon",
+  "extractedBy": "agent",
+  "summary": "A one-column pink page for Gnomon*, a WWII-poster display face built as two layers: a static foreground and a variable shadow font with custom 'Time of Day' (TOTD) and 'Shadow Distance' (DIST) axes. On load the shadow is set from the visitor's real clock (6:00→18:00 mapped onto TOTD 0→1000), hero sliders override it, and every section heading uses the same two-layer shadow, so the whole page is lit by the same 'sun'. The rest is a first-person essay in three chapters, one 'TRY ME!' input and a Download link.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "01",
+        "02"
+      ],
+      "type": "hero",
+      "variant": "interactive-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "retro poster, cheerful, experimental",
+        "mobile": "adapts",
+        "carrier": "controls",
+        "cta": "download",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "On flat bubblegum pink: a tiny tracked white line 'THE INDESTRUCTIBLE TYPE* COMPANY PRESENTS', then 'GNOMON*' huge in white with a hot-magenta extruded shadow (dark-magenta asterisk), then two full-width sliders labelled 'Time of Day: 1:41' and 'Shadow Distance: 100%' and a white 'Download' between two thick white rules",
+      "feel": "Sunny, toy-like, poster-bold",
+      "ux": "The shadow is already set to the visitor's local time on load; dragging 'Time of Day' swings the shadow around the letters like a sundial, 'Shadow Distance' lengthens or shortens it; both readouts update live and the sliders also restyle every section heading on the page",
+      "learn": "Bind a custom axis to something real (the visitor's clock) and expose it as a slider: the font becomes a live object and the slider becomes an explanation",
+      "reconstruction": {
+        "layout": "Centred single column on a pink field, ~1100px tall above the first section; presenter line at y≈40; name 288px spanning x≈120–1290 (two absolutely stacked h1 layers, .bottom = variable shadow, .top = static foreground); labels centred above 1210px-wide range inputs (x≈100–1314) at y≈470 and y≈660; 'Download' centred at y≈900, ~360px wide with 6px white bars above and below",
+        "typography": "Presenter line ~14px heavy caps, letter-spacing ~0.5em, white; name 288px Gnomon* (Umbra foreground over Umbra-Shadow with font-variation-settings 'TOTD' 640, 'DIST' 333), asterisk in a darker magenta span; slider labels and 'Download' ~50px Gnomon* Foreground mixed case white, value in the same style",
+        "palette": [
+          "#fdaacd",
+          "#fcfcfd",
+          "#f60767",
+          "#f0015c"
+        ],
+        "behaviour": "On load JS reads local time and sets TOTD = (hour − 6)/12 × 1000 (13:41 → 640), shown as '~1:41'; input on #time and #distance rewrites font-variation-settings on every .bottom element (hero name and all section headings); slider track filled magenta left of the thumb via a background gradient color-stop at the value; DIST 333 displays as 100%",
+        "content": "Only the family name; the readouts (clock time, shadow %) are the copy",
+        "assets": "two font files: a static foreground and a variable shadow font with custom TOTD and DIST axes",
+        "html": "h1.bottom#TOTD (variable shadow) + h1.top (static); #sliders > h2 'Time of Day:' span#displaytime + input#time[type=range min=0 max=1000], h2 'Shadow Distance:' span#displaydistance + input#distance, h2#Download > a"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04",
+        "05",
+        "06",
+        "07"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "earnest, enthusiastic, personal",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "Chapter 'ABOUT' as a two-layer shadowed heading (white over magenta), then three short sections under tracked magenta caps subheads ('GNOMON MEANING SHADOW', 'OPENTYPE VARIABLE FONTS', 'A LIMITLESS TECHNOLOGY') in plum Jost on pink",
+      "feel": "Excited maker explaining a new technology",
+      "ux": "static; inline links to Axis-Praxis and Typotheque's Wind; the heading's shadow follows the hero sliders",
+      "learn": "Set each chapter heading in the live variable font so even the essay's signposts keep demonstrating the axis",
+      "reconstruction": {
+        "layout": "Centred 810px text column (x=315); chapter heading centred ~140px tall, two stacked layers; subheads centred; paragraphs left-aligned, ~70px gap between sections",
+        "typography": "Chapter heading ~135px Gnomon* two-layer (shadow font with TOTD/DIST under the static foreground); subheads ~20px heavy caps, letter-spacing ~0.3em, magenta; body Jost ~22px Book, plum, line-height ~2.3 (51px), underlined links",
+        "palette": [
+          "#fdaacd",
+          "#fcfcfd",
+          "#f60666",
+          "#c95888"
+        ],
+        "behaviour": "Heading shadow driven by the hero sliders; otherwise static",
+        "content": "First-person explanation: 'the first font ever to respond to the user's actual time… come back and refresh this webpage every couple of hours'; what variable fonts are",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "08",
+        "09",
+        "10",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "hopeful, manifesto-like",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "diagram"
+        ],
+        "length": "medium"
+      },
+      "look": "Chapter 'DESIGN' (shadowed heading) with 'INSPIRED BY A BOLD PAST', then, after the TRY ME! field, 'NEW FRONTIERS' and 'A BRIGHT FUTURE', closing with a white diagram 'Jost* → Jost* → Jost*' (Hairline to Black) and 'Besley* → Besley*' and a small caption",
+      "feel": "Promise of what's to come",
+      "ux": "static",
+      "learn": "Show the roadmap as type: an arrow from the thin to the heavy cut of the foundry's other fonts says 'these will become variable' without a chart",
+      "reconstruction": {
+        "layout": "Same 810px centred column; diagram image 1008px wide (x=216), 186px tall, two rows with → arrows; caption 13px centred below",
+        "typography": "Chapter heading ~135px Gnomon* two-layer; subheads ~20px tracked heavy caps magenta; body Jost ~22px plum, leading ~2.3; diagram rows ~75px Jost* (Hairline, Book, Black) and Besley* (Regular, Black) in white",
+        "palette": [
+          "#fcaacd",
+          "#fafafd",
+          "#f60666",
+          "#c95888"
+        ],
+        "behaviour": "Heading shadow follows the hero sliders",
+        "content": "Origin in one paragraph (American WWII posters, one weight, retro headlines), then a manifesto for location-, weather- and light-responsive fonts and an open-source variable foundry",
+        "assets": "SVG of the weight-progression diagram (Gnomon/example.svg)"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "type-tester",
+      "variant": "labelled-editable-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "playful, inviting",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "A borderless full-width text input whose placeholder 'TRY ME!' is set ~240px in pale pink Gnomon* across the column, nothing else",
+      "feel": "Casual dare",
+      "ux": "Click and type: the input renders in the two-layer Gnomon* (foreground over the variable shadow layer in a sibling div); no size or axis controls of its own",
+      "learn": "A placeholder set at display size in a faded tint reads as part of the layout until the visitor realises it is a field",
+      "reconstruction": {
+        "layout": "Full-width band 1440×418 inside the essay; input centred, text spanning x≈200–1230, no border or background",
+        "typography": "~240px Gnomon* caps; placeholder in pale pink #fed3e5; typed text in the white/magenta two-layer style (Umbra over Umbra-Shadow 'DIST' 0, 'TOTD' 500)",
+        "palette": [
+          "#ffa9cc",
+          "#fed3e5"
+        ],
+        "behaviour": "Typing mirrors the value into the shadow layer (likely via JS into the empty sibling div); .fade class suggests a fade-in on reveal",
+        "content": "Placeholder 'TRY ME!'",
+        "assets": "none",
+        "html": "div.fade > div (shadow mirror) + input[type=text][placeholder='TRY ME!']"
+      }
+    },
+    {
+      "blocks": [
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "practical, helpful",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "Chapter 'APPLICATION' (shadowed heading) with three sections 'SUPPORT', 'USING GNOMON*', 'WEB USE' in the same plum-on-pink essay style",
+      "feel": "Generous how-to",
+      "ux": "static; links to the GitHub repository and a CSS-Tricks tutorial on variable fonts",
+      "learn": "When a font needs two layered files, explain which file does what (static foreground vs variable background) and how the web version is driven by JS",
+      "reconstruction": {
+        "layout": "Same 810px centred column, chapter heading then three subheaded sections",
+        "typography": "Chapter heading ~135px Gnomon* two-layer; subheads ~20px tracked heavy caps magenta; body Jost ~22px plum, leading ~2.3",
+        "palette": [
+          "#fbaacc",
+          "#fbf9fc",
+          "#f80566",
+          "#ca5989"
+        ],
+        "behaviour": "Heading shadow follows the hero sliders",
+        "content": "Application support (Photoshop, Illustrator), the two versions (Foreground static, Simple variable with 'Time of Day' 6–18 and 'Shadow Distance'), how the site updates font-variation-settings from the clock",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "21"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "simple, direct",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Closing 'Download' in white Gnomon* between two thick white rules, with 'VIEW ON GITHUB' in small tracked white caps below (block cut as a 48px strip; content seen in the full page)",
+      "feel": "Unfussy",
+      "ux": "Download goes to the foundry's own checkout page (GnomonCheckout.html); GitHub link for the web version",
+      "learn": "Repeat the hero's download button at the end, styled identically, so the page has one recognisable action",
+      "reconstruction": {
+        "layout": "Centred stack: button ~300px wide with 8px white bars above and below, ~60px gap, GitHub link",
+        "typography": "'Download' ~56px Gnomon* Foreground white; 'VIEW ON GITHUB' ~16px heavy caps, letter-spacing ~0.3em, white",
+        "palette": [
+          "#ffa9cc",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Download, View on GitHub",
+        "assets": "none",
+        "html": "#sliders > h2#Download > a; b#linker > a"
+      }
+    },
+    {
+      "blocks": [
+        "22"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "A single magenta asterisk and a tiny centred 'Created by indestructible type*'"
+    }
+  ],
+  "sequence": [
+    "hero/interactive-specimen",
+    "story/essay",
+    "type-tester/labelled-editable-lines",
+    "story/essay",
+    "checkout/link-out-cta",
+    "footer/slim-legal-bar"
+  ]
+}

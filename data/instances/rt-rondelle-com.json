@@ -1,0 +1,373 @@
+{
+  "slug": "rt-rondelle-com",
+  "extractedBy": "agent",
+  "summary": "Razzia Type's Lay-theme (WordPress) page for RT Rondelle, a grotesque grown from public-transport signage. A single black, centred column reads as the designer's first-person essay: origin chapters with archival signage photos, a 'Design' chapter of three annotated metric diagrams, then three long style lists set as station names and platform announcements, colour-coded green, red and blue by weight group like transit lines. It ends with licence, trial and PDF pills, links to sister typefaces and credits.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "sober, Swiss, quiet",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "'RT Rondelle' in white Medium, centred at 150px on pure black, then a five-line description in small white text in a narrow centred column; no nav, no buttons",
+      "feel": "Calm, confident, like a station sign at night",
+      "ux": "static",
+      "learn": "With no nav and no CTA, a centred name and one paragraph on black set the essay's reading pace from the first screen",
+      "reconstruction": {
+        "layout": "Black page; name row with 80px padding top and bottom, name centred at y≈120–270; description column ~715px wide centred (x≈362–1078) at y≈390",
+        "typography": "Name 150px RTRondelle-Medium white, sentence case, tight tracking; description ~24px RT Dromo Regular (the foundry's text face, not Rondelle), white, leading ~1.3",
+        "palette": [
+          "#010101",
+          "#fbfbfb"
+        ],
+        "behaviour": "none",
+        "content": "'RT Rondelle is the result of an exploration into public transport signage typefaces… a versatile grotesque with a balanced geometrical touch.'",
+        "assets": "none",
+        "html": "Lay theme .row > .col.type-text > h1._RTRondelle"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "curious, scholarly, personal",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "archival",
+          "photo"
+        ],
+        "length": "long"
+      },
+      "look": "Chapter 'ORIGIN' then three source studies, each a small centred label ('Polskie Pismo Drogowe', 'London Airport Lettering', 'SBB signage'), a wide archival image on black (a binder of yellow-highlighted construction drawings, an open Typographica spread of airport lettering, a b/w diptych of two 'Dietikon' station signs), a credited caption and a paragraph",
+      "feel": "Researched, generous with sources",
+      "ux": "static; captions credit photographers and the Letterform Archive",
+      "learn": "Give each reference its own mini-chapter (label, image, credit line, paragraph) so the lineage reads as evidence, not mood",
+      "reconstruction": {
+        "layout": "Centred text column ~715px (x≈362–1078); section labels centred ~60px above each image; images 1080×720 centred (x≈180–1260) on black; captions centred under images; ~190px between sections",
+        "typography": "Chapter label 'ORIGIN' ~21px caps, other labels ~21px sentence case, white; body ~21px RT Dromo Regular white, leading ~1.45; captions ~15px RT Dromo Light, centred",
+        "palette": [
+          "#050505",
+          "#fbfbfb",
+          "#d5d6cc",
+          "#e3dccb"
+        ],
+        "behaviour": "none",
+        "content": "Real research: Marek Sigmund's 1975 Polish road-sign alphabet, Matthew Carter's London Airport Lettering (Typographica 5, 1962), SBB signage and Josef Müller-Brockmann; further references listed (Highway Gothic, Interstate, Rail Alphabet, Transport, Johnston Sans)",
+        "assets": "Archival scans and photos: road-sign manual pages, Typographica spread, station sign photographs",
+        "html": "Lay theme rows: .col.type-text (p) and .col.type-img with caption"
+      }
+    },
+    {
+      "blocks": [
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "precise, didactic",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "spacing"
+        ],
+        "presentation": "annotation",
+        "explanation": "prose"
+      },
+      "look": "Chapter 'DESIGN', then three topics ('Vertical Proportions', 'Horizontal Proportions', the geometry note), each a station name in big white letters ('Hamburg', 'Oerlikon', 'Victoria') above the same word drawn in thin outline on grey metric lines with coloured annotations (x-height red, ascender green, descender blue; mathematical circles red over the o's; narrow letters boxed blue, wide letters green) and a small colour legend, followed by a paragraph",
+      "feel": "Technical drawing, but elegant",
+      "ux": "static images",
+      "learn": "Show the solid word and its annotated outline stacked: the eye matches the measurement to the real shape, and a two-line colour legend replaces callouts",
+      "reconstruction": {
+        "layout": "Each diagram a full-width 1440×720 image: solid word ~220px centred-left at top (x≈220), outline copy below between 4 grey hairline metric lines spanning x≈180–1260, legend bottom-left at x≈220 with short colour bars or lines; paragraph 715px centred below; small centred section label above each",
+        "typography": "Words ~220px RT Rondelle Regular white; outlines 1px; legend ~15px; body ~21px RT Dromo Regular white with inline bold letters ('f j r t', 'o c e b d p q')",
+        "palette": [
+          "#040404",
+          "#f7f7f7",
+          "#fa3c1e",
+          "#00963c",
+          "#1450dc"
+        ],
+        "behaviour": "none",
+        "content": "Station names as subjects; real explanation of the high x-height growing with weight, short descenders, optical vs mathematical circles, narrower f j r t and wider round letters",
+        "assets": "Three annotated diagram images (word + outline + metric lines + legend)"
+      }
+    },
+    {
+      "blocks": [
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "transit, rhythmic",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "After a 'Wordmark Quality' paragraph: sixteen London Underground and Berlin U-Bahn station names, one per line at 150px, each in the next style (Thin → Black, then Thin Italic → Black Italic) under a tiny style label, coloured like transit lines: green for Thin–Light, red for Book–Regular, blue for Medium–Black",
+      "feel": "Like walking past platform signs",
+      "ux": "static",
+      "learn": "Colour-code weight groups (light, middle, heavy) as if they were transit lines: the long stack gets a rhythm and the weight progression reads at a glance",
+      "reconstruction": {
+        "layout": "Centred lines, 246px row pitch; small style label ~60px above each name; one two-line name (Shepherd's Bush) wraps",
+        "typography": "Names 150px RT Rondelle in each of the 16 styles (h1._Specimen1 with inline font-family per style), sentence case; labels ~13px RT Dromo white",
+        "palette": [
+          "#020202",
+          "#00963c",
+          "#fa3c1e",
+          "#1450dc"
+        ],
+        "behaviour": "none",
+        "content": "Edgware Road, Upminster, Camden Town, Richmond, Shepherd's Bush, Heathrow, Oxford Circus, Waterloo; Deutsche Oper, Gleisdreieck, Hallesches Tor, Ruhleben, Leopoldplatz, Britz-Süd, Osloer Straße, Wedding",
+        "assets": "none",
+        "html": "h1._Specimen1 > span[style='font-family: RTRondelle-Thin; color: #00963c']"
+      }
+    },
+    {
+      "blocks": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "orderly, European",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "'The Family' paragraph, then sixteen European main-line stations (Antwerpen Centraal, Liège-Guillemans, Zürich Stadelhofen … Milano Centrale) at 100px, each labelled with its style and coloured green / red / blue by weight group",
+      "feel": "Timetable-like, complete",
+      "ux": "static",
+      "learn": "Pick sample words with the diacritics and hyphens of many countries (Liège, Zürich, Chamartín, Hlavní Nádraží): the style list doubles as a coverage check",
+      "reconstruction": {
+        "layout": "Centred lines, 195px pitch; label ~45px above each name; intro paragraph 715px centred",
+        "typography": "Names 100px RT Rondelle per style (h1 with inline font-family), labels ~13px RT Dromo white; intro ~21px RT Dromo",
+        "palette": [
+          "#020301",
+          "#00963c",
+          "#fa3c1e",
+          "#1450dc"
+        ],
+        "behaviour": "none",
+        "content": "Two-word European station names, one per style",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "multilingual, witty, everyday",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "paragraph",
+        "interactive": false
+      },
+      "look": "Eight platform announcements in eight languages, each set in one weight with the station name in the matching italic and labelled 'Thin + Italic' … 'Black + Italic': 'Il treno regionale proveniente Genova è in arrivo al binario 6.', 'Concorde! Attention à la marche…', 'Alexanderplatz! Dieser Zug endet hier.', 'This is a Circle line train via Tower Hill and Liverpool Street.'",
+      "feel": "Lively, like a station soundscape",
+      "ux": "static",
+      "learn": "Pair each weight with its italic inside one real-sounding sentence, italic only on the place name: the roman–italic match is shown in use, not side by side",
+      "reconstruction": {
+        "layout": "Centred sentences, max ~1000px wide, 2–3 lines each, 218–294px pitch; small label above each",
+        "typography": "~70px RT Rondelle weight + matching Italic for the station name (h1._Specimen3), colour by weight group; labels ~13px RT Dromo",
+        "palette": [
+          "#020502",
+          "#00963c",
+          "#fa3c1e",
+          "#1450dc"
+        ],
+        "behaviour": "none",
+        "content": "Platform announcements in Italian, French, Czech, German, Swedish, Romanian, German (Swiss) and English",
+        "assets": "none",
+        "html": "h1._Specimen3 > span[font-family: RTRondelle-Thin] > span[font-family: RTRondelle-ThinItalic]"
+      }
+    },
+    {
+      "blocks": [
+        "61",
+        "62",
+        "63",
+        "64"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, polite",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "A closing paragraph ('…RT Rondelle embarks on a new life of its own…') then three stacked white pill buttons with dark caps: 'LICENSE RT RONDELLE', 'GET FREE TRIAL FONTS', 'SEE PDF SPECIMEN'",
+      "feel": "Unpushy",
+      "ux": "Licence and trial link to razziatype.com; the PDF opens from the Razzia store",
+      "learn": "Close the essay with one summary paragraph so the buttons read as the last sentence",
+      "reconstruction": {
+        "layout": "Paragraph in a wider ~1080px column; pills centred, ~276×64px, ~44px apart",
+        "typography": "Paragraph ~21px RT Dromo white; pill labels ~21px RT Dromo caps, near-black on white",
+        "palette": [
+          "#040404",
+          "#fcfcfc",
+          "#222222"
+        ],
+        "behaviour": "none",
+        "content": "Licence, trial, PDF specimen",
+        "assets": "none",
+        "html": "p > a.laybutton3.laybutton"
+      }
+    },
+    {
+      "blocks": [
+        "65",
+        "66",
+        "67"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "'Check out other Razzia typefaces:' over three outlined rectangular buttons 'RT Alias', 'RT Dromo', 'RT Vitrine' (each linking to its own microsite)"
+    },
+    {
+      "blocks": [
+        "68"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "A white hairline, then 'Credits' and two small columns: 'Typeface — Designed by Mirco Schiavone, RazziaType' and 'Website — Design, copy writing and documentation by Mirco Schiavone'"
+    }
+  ],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/origin-reference",
+    "design-details/annotated-specimen",
+    "specimen-showcase/word-stack",
+    "family-overview/style-word-grid",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

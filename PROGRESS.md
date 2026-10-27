@@ -2,7 +2,7 @@
 
 _Generated from `data/progress.json` by `scripts/lib/progress.mjs` — edit via the scripts, not by hand._
 
-**Next action:** Run `node scripts/extract.mjs next` and extract those sites per methodology/EXTRACTION.md (agents), then `node scripts/extract.mjs sync` — 110 site(s) pending for **extract**.
+**Next action:** Run `node scripts/extract.mjs next` and extract those sites per methodology/EXTRACTION.md (agents), then `node scripts/extract.mjs sync` — 62 site(s) pending for **extract**.
 
 ## Phases
 
@@ -11,7 +11,7 @@ _Generated from `data/progress.json` by `scripts/lib/progress.mjs` — edit via 
 - [x] Phase 2.2 — Sample ~250 blocks across sites, contact sheets, label each sheet — 28/28 sheets labelled — 250 blocks, 28 sheets labelled (6 by Claude, 22 by agents)
 - [x] Phase 2.3 — Cluster instances by component similarity — taxonomy.json: 19 types / 84 variants; DOM features predict type 41%
 - [x] Phase 2.4 — Write METHOD.md + patterns/*.md, review together — reviewed 2026-10-27: sections→types→variants, look at every block, reconstruction notes
-- [ ] Phase 3 — Extract: type + variant + rubric + reconstruction per block — 71/181 done
+- [ ] Phase 3 — Extract: type + variant + rubric + reconstruction per block — 119/181 done
 - [ ] Phase 4 — Gallery & playground — browser built (npm run app → localhost:5178); playground rebuilds after Phase 3
 
 ## Sites
@@ -58,7 +58,7 @@ Legend: ✓ done · ✗ failed · … interrupted · ↻ stale (older method, wi
 - [x] 038 [system-mass-driver-com](https://system.mass-driver.com) — archive ✓ · blocks ✓ · extract ✓
 - [x] 039 [recursive-design](https://www.recursive.design) — archive ✓ · blocks ✓ · extract ✓
 - [x] 040 [shantellsans-com](https://shantellsans.com) — archive ✓ · blocks ✓ · extract ✓
-- [x] 041 [kermit-font-com](https://kermit-font.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 041 [kermit-font-com](https://kermit-font.com) — archive ✓ · blocks ✓ · extract ✓ — _recapture: screens 02-04 black (write tester, gallery, footer HTML-only)_
 - [x] 042 [karrik-phantom-foundry-com](http://karrik.phantom-foundry.com) — archive ✓ · blocks ✓ · extract ✓
 - [x] 043 [surt-font-eu](https://surt-font.eu) — archive ✓ · blocks ✓ · extract ✓
 - [x] 044 [neuedin-com](https://neuedin.com) — archive ✓ · blocks ✓ · extract ✓
@@ -89,54 +89,54 @@ Legend: ✓ done · ✗ failed · … interrupted · ↻ stale (older method, wi
 - [x] 069 [cinetype-com-fabbrica](https://www.cinetype.com/fabbrica) — archive ✓ · blocks ✓ · extract ✓
 - [x] 070 [floriankarsten-github-io-space-grotesk](https://floriankarsten.github.io/space-grotesk/) — archive ✓ · blocks ✓ · extract ✓
 - [x] 071 [typearture-com-schijn-specimen](https://www.typearture.com/schijn/specimen/) — archive ✓ · blocks ✓ · extract ✓
-- [ ] 072 [avantt-displaay-net](https://avantt.displaay.net) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 073 [indestructibletype-com-gnomon](https://indestructibletype.com/Gnomon.html) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 074 [djr-com-gimlet-xray](https://djr.com/gimlet-xray) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 075 [finaltype-de-en-projects-monoflow](https://finaltype.de/en/projects/monoflow) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 076 [gestures-studiomoniker-com](https://gestures.studiomoniker.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 077 [rt-rondelle-com](https://www.rt-rondelle.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 078 [proxima-vara-marksimonson-com](https://proxima-vara.marksimonson.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 079 [kampanjat-hs-fi-climatefont](https://kampanjat.hs.fi/climatefont/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 080 [louisefili-com-montecatini-pro](https://www.louisefili.com/montecatini-pro) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 081 [whirlybirdie-com](https://whirlybirdie.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 082 [cjtype-com-dunbar](https://cjtype.com/dunbar/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 083 [fraunces-undercase-xyz](https://fraunces.undercase.xyz) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 084 [etunni-github-io-arapey-minisite](https://etunni.github.io/Arapey-Minisite/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 085 [djr-com-megazoid](https://djr.com/megazoid) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 086 [nmtype-com-movement](https://www.nmtype.com/movement/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 087 [cnap-fr-sites-faune-en](https://www.cnap.fr/sites/faune/en.html) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 088 [heydon-works-skwar](https://heydon.works/skwar/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 089 [erikdemaine-org-fonts-tetris](http://erikdemaine.org/fonts/tetris/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 090 [universalsans-com](https://universalsans.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 091 [larsenwork-com-monoid](https://larsenwork.com/monoid) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 092 [garet-typeforward-com](https://garet.typeforward.com/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 093 [monolisa-dev](https://www.monolisa.dev) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 094 [jetbrains-com-lp-mono](https://www.jetbrains.com/lp/mono) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 095 [font-subf-dev-en](https://font.subf.dev/en) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 096 [rubjo-github-io-victor-mono](https://rubjo.github.io/victor-mono) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 097 [levien-com-type-myfonts-inconsolata](https://levien.com/type/myfonts/inconsolata.html) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 098 [adelfaure-net-tools-jgs](https://adelfaure.net/tools/jgs) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 099 [madmalik-github-io-mononoki](https://madmalik.github.io/mononoki) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 100 [lexend-com](https://www.lexend.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 101 [departuremono-com](https://departuremono.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 102 [area-font-eu](https://area-font.eu/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 103 [tiktok-com-font](https://www.tiktok.com/font) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 104 [apoc-font-eu](https://apoc-font.eu/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 105 [fictional-typeface-com](https://fictional-typeface.com/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 106 [scenik-frostype-xyz](https://scenik.frostype.xyz) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 107 [calhern-frostype-xyz](https://calhern.frostype.xyz) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 108 [logical-family](https://logical.family) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 109 [biceps-togetherwithyou-co](https://biceps.togetherwithyou.co) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 110 [almnt-github-io-crimsonpro-microsite](https://almnt.github.io/crimsonpro-microsite/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 111 [rt-alias-com](https://www.rt-alias.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 112 [etna-marksimonson-com](https://etna.marksimonson.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 113 [isolation-abc-xyz](https://isolation-abc.xyz) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 114 [rsms-me-inter](https://rsms.me/inter) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 115 [justfont-com-huninn](https://justfont.com/huninn/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 116 [github-com-mona-sans](https://github.com/mona-sans) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 117 [ibm-com-plex](https://www.ibm.com/plex) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 118 [source-typekit-com-source-han-serif](https://source.typekit.com/source-han-serif/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 119 [tokotype-github-io-plusjakarta-sans](https://tokotype.github.io/plusjakarta-sans) — archive ✓ · blocks ✓ · extract ☐
+- [x] 072 [avantt-displaay-net](https://avantt.displaay.net) — archive ✓ · blocks ✓ · extract ✓ — _recapture: Wayback snapshot stuck on preloader; try another snapshot or live_
+- [x] 073 [indestructibletype-com-gnomon](https://indestructibletype.com/Gnomon.html) — archive ✓ · blocks ✓ · extract ✓ — _recut: hero sliders (02) and download (21) cut as 48px strips_
+- [x] 074 [djr-com-gimlet-xray](https://djr.com/gimlet-xray) — archive ✓ · blocks ✓ · extract ✓
+- [x] 075 [finaltype-de-en-projects-monoflow](https://finaltype.de/en/projects/monoflow) — archive ✓ · blocks ✓ · extract ✓ — _recut: title/intro/free button, language list, buy box not cut_
+- [x] 076 [gestures-studiomoniker-com](https://gestures.studiomoniker.com) — archive ✓ · blocks ✓ · extract ✓ — _recapture: hand videos/voice-over only in HTML_
+- [x] 077 [rt-rondelle-com](https://www.rt-rondelle.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 078 [proxima-vara-marksimonson-com](https://proxima-vara.marksimonson.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 079 [kampanjat-hs-fi-climatefont](https://kampanjat.hs.fi/climatefont/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 080 [louisefili-com-montecatini-pro](https://www.louisefili.com/montecatini-pro) — archive ✓ · blocks ✓ · extract ✓
+- [x] 081 [whirlybirdie-com](https://whirlybirdie.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 082 [cjtype-com-dunbar](https://cjtype.com/dunbar/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 083 [fraunces-undercase-xyz](https://fraunces.undercase.xyz) — archive ✓ · blocks ✓ · extract ✓
+- [x] 084 [etunni-github-io-arapey-minisite](https://etunni.github.io/Arapey-Minisite/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 085 [djr-com-megazoid](https://djr.com/megazoid) — archive ✓ · blocks ✓ · extract ✓
+- [x] 086 [nmtype-com-movement](https://www.nmtype.com/movement/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 087 [cnap-fr-sites-faune-en](https://www.cnap.fr/sites/faune/en.html) — archive ✓ · blocks ✓ · extract ✓
+- [x] 088 [heydon-works-skwar](https://heydon.works/skwar/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 089 [erikdemaine-org-fonts-tetris](http://erikdemaine.org/fonts/tetris/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 090 [universalsans-com](https://universalsans.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 091 [larsenwork-com-monoid](https://larsenwork.com/monoid) — archive ✓ · blocks ✓ · extract ✓
+- [x] 092 [garet-typeforward-com](https://garet.typeforward.com/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 093 [monolisa-dev](https://www.monolisa.dev) — archive ✓ · blocks ✓ · extract ✓
+- [x] 094 [jetbrains-com-lp-mono](https://www.jetbrains.com/lp/mono) — archive ✓ · blocks ✓ · extract ✓
+- [x] 095 [font-subf-dev-en](https://font.subf.dev/en) — archive ✓ · blocks ✓ · extract ✓
+- [x] 096 [rubjo-github-io-victor-mono](https://rubjo.github.io/victor-mono) — archive ✓ · blocks ✓ · extract ✓
+- [x] 097 [levien-com-type-myfonts-inconsolata](https://levien.com/type/myfonts/inconsolata.html) — archive ✓ · blocks ✓ · extract ✓
+- [x] 098 [adelfaure-net-tools-jgs](https://adelfaure.net/tools/jgs) — archive ✓ · blocks ✓ · extract ✓
+- [x] 099 [madmalik-github-io-mononoki](https://madmalik.github.io/mononoki) — archive ✓ · blocks ✓ · extract ✓
+- [x] 100 [lexend-com](https://www.lexend.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 101 [departuremono-com](https://departuremono.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 102 [area-font-eu](https://area-font.eu/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 103 [tiktok-com-font](https://www.tiktok.com/font) — archive ✓ · blocks ✓ · extract ✓
+- [x] 104 [apoc-font-eu](https://apoc-font.eu/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 105 [fictional-typeface-com](https://fictional-typeface.com/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 106 [scenik-frostype-xyz](https://scenik.frostype.xyz) — archive ✓ · blocks ✓ · extract ✓
+- [x] 107 [calhern-frostype-xyz](https://calhern.frostype.xyz) — archive ✓ · blocks ✓ · extract ✓
+- [x] 108 [logical-family](https://logical.family) — archive ✓ · blocks ✓ · extract ✓
+- [x] 109 [biceps-togetherwithyou-co](https://biceps.togetherwithyou.co) — archive ✓ · blocks ✓ · extract ✓
+- [x] 110 [almnt-github-io-crimsonpro-microsite](https://almnt.github.io/crimsonpro-microsite/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 111 [rt-alias-com](https://www.rt-alias.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 112 [etna-marksimonson-com](https://etna.marksimonson.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 113 [isolation-abc-xyz](https://isolation-abc.xyz) — archive ✓ · blocks ✓ · extract ✓
+- [x] 114 [rsms-me-inter](https://rsms.me/inter) — archive ✓ · blocks ✓ · extract ✓
+- [x] 115 [justfont-com-huninn](https://justfont.com/huninn/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 116 [github-com-mona-sans](https://github.com/mona-sans) — archive ✓ · blocks ✓ · extract ✓
+- [x] 117 [ibm-com-plex](https://www.ibm.com/plex) — archive ✓ · blocks ✓ · extract ✓
+- [x] 118 [source-typekit-com-source-han-serif](https://source.typekit.com/source-han-serif/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 119 [tokotype-github-io-plusjakarta-sans](https://tokotype.github.io/plusjakarta-sans) — archive ✓ · blocks ✓ · extract ✓
 - [ ] 120 [overpassfont-org](https://overpassfont.org) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 121 [boharat-com-zaatar](https://boharat.com/zaatar/) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 122 [brailleinstitute-org-freefont](https://www.brailleinstitute.org/freefont/) — archive ✓ · blocks ✓ · extract ☐

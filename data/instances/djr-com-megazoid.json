@@ -1,0 +1,640 @@
+{
+  "slug": "djr-com-megazoid",
+  "extractedBy": "agent",
+  "summary": "DJR's page for Megazoid, a blocky 1970s sci-fi display face with variable shade layers (DPTH, STRK axes on Left/Right Shade styles). A run of saturated full-width colour bands (rainbow stripes, synthwave grid, Atari game-manual copy) alternates word stacks and layered-shade compositions with a designer essay, a styles list with depth/stroke sliders, a working calculator, a stylistic-set card index, a glyph grid and DJR's standard on-page licence cart.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "retro sci-fi, groovy",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Purple field crossed by diagonal rainbow stripes (pink, orange, yellow, olive, blue) from the bottom-left; 'Megazoid' in white with a deep black extruded shade across the middle; four white pill buttons TRY · BUY · TYPESET · PDF along the bottom",
+      "feel": "Loud, nostalgic, 70s packaging",
+      "ux": "Stripes draw in first, then the name appears and its shade depth animates in; DJR's slim site nav sits above",
+      "learn": "Build the shade from two stacked layers per letter (fill + variable shade font) so the 3D depth can be animated with an axis instead of an image",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×874 below a 33px site bar; 5 diagonal stripes ~120px wide at ~35° from bottom-left to top-centre; name centred spanning x≈130–1320, ~200px tall; pills ~100×30px in a centred row at y≈800",
+        "typography": "Name ~202px Megazoid Right (fill, white) over Megazoid Right Shade (DPTH -300, STRK 20, black); pill labels ~14px Megazoid caps black on white",
+        "palette": [
+          "#5d358e",
+          "#e4469b",
+          "#fa7a2d",
+          "#ffcb27",
+          "#a5b215",
+          "#0492b8",
+          "#faf8f6",
+          "#111111"
+        ],
+        "behaviour": "Intro: stripes slide in, then letters pop with a keyframe 'depth-animation' on DPTH (0 → -300); per-letter wrappers allow staggering",
+        "content": "Name; Try (trial add-to-cart), Buy (anchor), Typeset (typeset.djr.com), PDF specimen",
+        "assets": "Grain texture over flat colours",
+        "html": "section.hero > .hero-container > .hero-text > .hero-line ×2 > .letter-wrapper ×8 > span.top-layer + span.bot-layer ; links Try/Buy/Typeset/PDF"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "confident, wry",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "One sentence in cream on very dark purple, four lines, left-aligned: 'MEGAZOID celebrates the awkwardness of raw geometry.'",
+      "feel": "Punchy, self-aware",
+      "ux": "static",
+      "learn": "A one-sentence thesis set large right after the hero frames everything that follows",
+      "reconstruction": {
+        "layout": "Band 1440×634; text block from x≈80, ~660px wide, vertically centred",
+        "typography": "~115px Megazoid Right (DPTH 0), cream, leading ~0.95",
+        "palette": [
+          "#2b1049",
+          "#f5f5ef"
+        ],
+        "behaviour": "none",
+        "content": "Positioning sentence",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "03",
+        "11"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "sci-fi, arcade",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Three bands of stacked sci-fi words filling the width: yellow caps on pink (NEURODISCS, VOIDSPHERE, ASTRORIDER, DARKSTORM, MOONQUEST, SYNTHWAVE); two columns on yellow with olive cast shadows, caps (METRIC, RETURN, PHOBIA…) and lowercase (Angular, Echelon, Optimal…) in Shade Right and Shade Left; white mixed-case words on blue (Stereoscopic, Amalgamate, Upgradeable, Whiteboards, Effervescent, Micrometers)",
+      "feel": "Energetic, poster-like",
+      "ux": "static",
+      "learn": "Pick words from the genre's vocabulary (astro-, synth-, -zoid) and justify them to the band width: the stack reads like an album-cover tracklist",
+      "reconstruction": {
+        "layout": "Bands 1279px, 1156px and 1341px tall; caps stack 6 lines ~180px pitch fitted to ~1300px; shades band in two ~620px columns; lowercase band 6 lines ~170px",
+        "typography": "Megazoid Right ~173px caps (with ss09 on some letters); shade band ~130px with Megazoid Right Shade / Left Shade at DPTH -300, STRK 40 in olive under cream fills; lowercase ~173px white",
+        "palette": [
+          "#e4469b",
+          "#ffcb27",
+          "#a5b215",
+          "#f5f5ef",
+          "#0297c2"
+        ],
+        "behaviour": "none",
+        "content": "Invented sci-fi and tech words",
+        "assets": "Paper-grain texture",
+        "html": "section.spec-upper-caps (span.ss09) ; section.spec-shades > .shade-right/.shade-left > .layered-wrap > span.top-layer + span.bot-layer ; section.spec-lowercase"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "nerdy, generous",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "archival"
+        ],
+        "length": "medium"
+      },
+      "look": "On cream paper, the red Radio Shack logo (circa 1972–1995) and a Photo-Lettering Inc. 'Decotype' booklet page on the left, and DJR's essay in monospace on the right, opening with a teal 3D drop-cap 'M'; many underlined links to related typefaces; pink stripes close the section",
+      "feel": "Chatty, well-referenced",
+      "ux": "Inline links to other typefaces (Blippo, Pump, Futura Extra Bold, Avant Garde, Papirtis Pink Mouse, Letraset)",
+      "learn": "Name the one logo that captures the vibe (Radio Shack) and show it beside the first paragraph: the reference does the explaining",
+      "reconstruction": {
+        "layout": "Two columns inside ~1200px: images column ~510px (x=120), text column ~640px (x=680); drop cap ~140px square; stripes band ~120px at the bottom",
+        "typography": "Body ~15px Input Mono / Gimlet Text Narrow, leading ~1.6; drop cap Megazoid Left with Left Shade (DPTH -300, STRK 20) teal; captions ~13px; glyph mentions boxed inline",
+        "palette": [
+          "#f1eee3",
+          "#111111",
+          "#c6302e",
+          "#3fb39c",
+          "#e4469b"
+        ],
+        "behaviour": "none",
+        "content": "Designer essay: square vs circle, Radio Shack logo, sci-fi sans genre, Megabase/Megavolt siblings, Letraset and Photo-Lettering catalogues",
+        "assets": "Radio Shack logo, Photo-Lettering booklet scan"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "synthwave, playful",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "On navy, under pink horizontal speed stripes: five big pink words, one per style, each with a small mono caption: Quantum (Regular, for general typesetting), Plasmira (Italic), Tachyons (Shade Left, for shades and cast shadows), Hardburn (Shade Right), WHOOSH (Fill, for drop shade and texture fills); a pink perspective synthwave grid fades out at the bottom",
+      "feel": "Retro-futurist, arcade",
+      "ux": "The two shade styles carry sliders (see axis explainer)",
+      "learn": "Caption each style with what it is for ('for shades and cast shadows'), not just its name: a layered family needs usage notes",
+      "reconstruction": {
+        "layout": "Band 2811px; words centred-left from x≈200, ~1050px wide, ~230px tall, ~450px apart; caption 12px under each; perspective grid ~500px tall at the bottom",
+        "typography": "Words ~202px Megazoid Right / Right Italic / Left + Left Shade / Right + Right Shade / Fill, pink #ea479a (shades: navy fill with pink shade); captions ~11px Input Mono, style name bold",
+        "palette": [
+          "#24244e",
+          "#ea479a",
+          "#ffffff",
+          "#1a2249"
+        ],
+        "behaviour": "none apart from the shade sliders",
+        "content": "Invented sci-fi words per style",
+        "assets": "Perspective grid (CSS or SVG)",
+        "html": "section.spec-styles > .stripe ×6 ; .layered-wrap > span.top-layer.sample + span.bot-layer.sample ; .style-info-row > span.style-info"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "technical, hands-on",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "toggle",
+        "explanation": "caption"
+      },
+      "look": "Under 'Tachyons' and 'Hardburn', a compact control block: Depth slider (-300) and Stroke slider (40) with mono readouts and a 'Link layer depth' checkbox",
+      "feel": "Precise, tool-like",
+      "ux": "Depth (-600 to 600) moves the extruded shade in or out; Stroke (0–75) thickens the shade's outline; 'Link layer depth' keeps fill and shade aligned",
+      "learn": "Expose the shade font's custom axes (DPTH, STRK) on the word itself, with a link toggle explaining that fill and shade are two layered fonts",
+      "reconstruction": {
+        "layout": "Controls ~500px wide under each word: two rows (label 60px, slider ~200px, value 40px) and a checkbox to the right",
+        "typography": "~11px Input Mono white/pink",
+        "palette": [
+          "#24244e",
+          "#ea479a",
+          "#ffffff"
+        ],
+        "behaviour": "input#shade-left-slider / #shade-right-slider (-600–600) and #shade-left-stroke-slider / #shade-right-stroke-slider (0–75) set font-variation-settings 'DPTH' and 'STRK' on span.bot-layer; checkbox #shade-*-link couples layer depth",
+        "content": "Words Tachyons and Hardburn",
+        "assets": "none",
+        "html": ".slider-controls > .depth-slider (label + input[type=range] + span.depth-value) + .stroke-slider (… span.stroke-value) + .link-control > input[type=checkbox] + label"
+      }
+    },
+    {
+      "blocks": [
+        "06",
+        "09",
+        "13"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "Atari manual, arcade",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Three bands of game-manual paragraphs set at display size and cropped by the right edge: white with purple shade on pink ('Make the great escape! Smash your way out of a thick wall of bricks…'), light-blue italic on purple ('Strange creatures from outer space are threatening our planet…'), pink all-caps with deep shade on purple ('THE ROAD AHEAD IS DARK AND WINDING…')",
+      "feel": "Arcade-cabinet, immersive",
+      "ux": "static",
+      "learn": "Set paraphrased 1970s arcade instructions (Breakout, Space Invaders, Night Driver) at headline size and let the lines run off the page",
+      "reconstruction": {
+        "layout": "Bands 739px, 821px, 1002px; 5–7 lines from x≈40, overflowing the right edge, ~80px line pitch",
+        "typography": "~115px Megazoid Right (DPTH 100 shade) / Right Italic (DPTH 150) / Right caps with Right Shade (DPTH -500); fills white, light blue #58cee8, pink",
+        "palette": [
+          "#e4469b",
+          "#f4f6e8",
+          "#5f3694",
+          "#58cee8",
+          "#392a6b"
+        ],
+        "behaviour": "none",
+        "content": "Paraphrased Atari game instructions",
+        "assets": "none",
+        "html": "section.spec-regular-paragraph-1 / .spec-italics / .spec-regular-paragraph-2 > .layered-text > span.top-layer + span.bot-layer"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "specimen-showcase",
+      "variant": "kinetic-scenes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "Bauhaus toy, cheerful",
+        "mobile": "adapts",
+        "medium": "generative",
+        "sequence": "single"
+      },
+      "look": "A tall cream field packed with huge cropped glyph fragments in pink, purple, blue, yellow, orange, olive and red, interlocking like building blocks",
+      "feel": "Joyful, toy-block",
+      "ux": "Each letter path has an 'animate' class: pieces appear to slide or pop into place as the section scrolls in",
+      "learn": "Crop giant glyphs and tile them like Tetris pieces in the palette: the letters' raw geometry becomes the illustration",
+      "reconstruction": {
+        "layout": "Full-bleed ~2186px tall SVG; ~30 letter paths 150–700px, rotated 0/90/180°, small gaps between them",
+        "typography": "Megazoid glyph outlines as SVG paths",
+        "palette": [
+          "#f8ebce",
+          "#e04695",
+          "#5f3694",
+          "#0297c2",
+          "#ffcb27",
+          "#fb7a2a",
+          "#fa3b24",
+          "#a5b215"
+        ],
+        "behaviour": "path.letter-letter-N.animate: probably a staggered scroll-in transform",
+        "content": "Letters only",
+        "assets": "One SVG with ~30 glyph paths",
+        "html": "section.letter-field > svg > path.letter-letter-1…30.animate"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "type-tester",
+      "variant": "in-context-editable",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "on-interaction",
+        "interactivity": "game-like",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "nostalgic gadget",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A skeuomorphic beige 'DJR' desk calculator over the letter field and rainbow stripes, its LCD reading '1985' in cyan Megazoid figures, with rounded number keys and coloured operator keys",
+      "feel": "Tactile, charming",
+      "ux": "The keypad works like a calculator; results appear in the LCD set in Megazoid's figures",
+      "learn": "Make a gadget whose display is the font and let visitors press real buttons: the figures get tested without a type tester",
+      "reconstruction": {
+        "layout": "Calculator ~700×760px centred on a band of five horizontal colour stripes; LCD ~600×80px; 4×4 key grid plus a tall '=' key",
+        "typography": "LCD figures ~72px Megazoid Right, cyan #58e0ee on near-black",
+        "palette": [
+          "#f7e8cb",
+          "#d6d2c4",
+          "#2a2a2a",
+          "#58e0ee",
+          "#e04595",
+          "#0297c2"
+        ],
+        "behaviour": "Key buttons (SVG images per key) update the display value; '=' evaluates",
+        "content": "Default display '1985'",
+        "assets": "Calculator header and key SVGs (btn-0…9, plus, minus, multiply, divide, percent, clear, decimal, equal)",
+        "html": "section.calculator > img calc-header + display + .btn-base ×16 > img[alt]"
+      }
+    },
+    {
+      "blocks": [
+        "10",
+        "14",
+        "15"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "op-art, 70s graphics",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Three repeat-stack compositions: 'ROADWAY' echoed in orange layers fading up and down on yellow; 'MEGAZOID' repeated seven times as pink outlines ending in one solid line (grocery-bag 'Thank You' style) on pale grey; 'SUPER BREAKOUT' on navy built from five offset layers that fan out into coloured bands (collapsed in the desktop capture, fanned in the mobile one)",
+      "feel": "Hypnotic, retro-graphic",
+      "ux": "SUPER BREAKOUT layers move apart with a 0.3s transition (likely scroll- or hover-triggered); ROADWAY is a static SVG",
+      "learn": "Repeat one word in outline or offset layers to fake the dry-transfer effects of the 70s with live type",
+      "reconstruction": {
+        "layout": "Bands 1103px, 1319px, 1102px; ROADWAY stack ~800px wide centred; MEGAZOID stack 7 lines ~100px pitch; SUPER BREAKOUT two lines centred with 5 absolutely positioned layer spans",
+        "typography": "~173px Megazoid Right caps; outline lines via stroke-only text; layers at font-size clamp(1.6rem, 12vw, 12rem)",
+        "palette": [
+          "#ffcb27",
+          "#fa8f2b",
+          "#eeeeee",
+          "#de378f",
+          "#222351",
+          "#fdcb24"
+        ],
+        "behaviour": "span.layer-1…5 with transition: top 0.3s, font-size 0.3s; keyframe 'shift-animation' exists for layered effects",
+        "content": "Arcade game titles and the family name",
+        "assets": "roadway.svg",
+        "html": "section.spec-roadway > img ; section#spec-thankyou > span ×7 ; spans .layer-1…5"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "friendly, developer-ready",
+        "mobile": "adapts",
+        "subject": [
+          "alternates",
+          "features"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "A two-column card grid on cream with hairline dividers: each card a coloured word that triggers one stylistic set (grade, hijinks, juice, WORM, AVERT, PIZZAS, Couch, buddy, EERIE, Sweet, Potato, Game), a bold one-line description ('Flipped diagonals') and the CSS line 'font-feature-settings: ss05'",
+      "feel": "Clear, collectible",
+      "ux": "static; CSS lines ready to copy",
+      "learn": "One word per stylistic set, each in a different palette colour, plus the exact CSS: the catalogue is both specimen and documentation",
+      "reconstruction": {
+        "layout": "Two columns of 720px; 6 rows ~267px; word top-left at ~40px padding, caption and CSS line below; 1px rules between cells",
+        "typography": "Words ~96px Megazoid Right with the ss on, colours cycling purple/pink/red/orange/yellow/olive/teal/blue/navy; description ~13px Input Mono Bold; CSS ~13px Input Mono",
+        "palette": [
+          "#f1ede3",
+          "#5f3694",
+          "#e04695",
+          "#fa3b24",
+          "#fb7a2a",
+          "#ffcb27",
+          "#a5b215",
+          "#1d7a6c",
+          "#0297c2",
+          "#222351"
+        ],
+        "behaviour": "none",
+        "content": "ss01–ss12: simplified a g q, square/small dots, diagonals, upright S Z, square alternates, rounded d E e, flipped t, Mathieu's G",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "orderly",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A 12-column grid of all 435 glyphs (A–Z, a–z, figures, punctuation, accents, Cyrillic) in black on cream inside thin pink hairline cells",
+      "feel": "Methodical, complete",
+      "ux": "static",
+      "learn": "Pink hairline cells on cream keep a 435-glyph grid on-palette",
+      "reconstruction": {
+        "layout": "~1320px wide grid (x=60), 12 columns × ~37 rows, square cells ~110px",
+        "typography": "~58px Megazoid Regular black, centred in cells",
+        "palette": [
+          "#f5efe6",
+          "#111111",
+          "#e8a3c4"
+        ],
+        "behaviour": "none",
+        "content": "Full character set incl. Vietnamese and Cyrillic",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "warm, grateful",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "Credits as two big paragraphs in white Megazoid on dark purple, every person's name in yellow: designed by DJR, shade-layer scripting by Connor Davenport, page by Loud Room, thanks to Cyrillic, Vietnamese and design reviewers",
+      "feel": "Celebratory",
+      "ux": "Names link to their sites",
+      "learn": "Set the credits in the display face at headline size: thanks become part of the specimen",
+      "reconstruction": {
+        "layout": "Band 1440×766; text block x≈80, ~900px wide",
+        "typography": "~58px Megazoid Right white, names yellow #fdcb24, leading ~1.05",
+        "palette": [
+          "#2b0f49",
+          "#ffffff",
+          "#fdcb24"
+        ],
+        "behaviour": "none",
+        "content": "Credits and thanks",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "checkout",
+      "variant": "on-page-cart",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "fair, transparent",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": true,
+        "free": false
+      },
+      "look": "'Are You Ready?' in huge black Megazoid, then DJR's standard cart: purple-labelled bars LICENSE SIZES (eight cards: Mini, Small, Medium, Large, Extra Large, Discounted Mini, Educational, Testing, each with workstation / web-visitor / app limits), PREVIEW TEXT input ('Your custom text here'), FULL SERIES PACKAGE row (checkbox, 'MEGAZOID 5 Styles', $25 Mini License, BUY NOW, scrolling style samples), 'Buy selected packages and styles', MEGAZOID ELSEWHERE (Type Network, Fontstand, Adobe Fonts) and ADDITIONAL INFORMATION",
+      "feel": "Honest, thorough",
+      "ux": "Pick a licence size card (Mini selected), type preview text into the package samples, tick packages and add to cart; trial via the hero's Try link",
+      "learn": "Spell out licence sizes in plain numbers (3 workstations, 15,000 visitors, 1 app) and offer discounted and educational tiers on the same grid",
+      "reconstruction": {
+        "layout": "Headline ~1100px wide centred; cart column ~980px (x≈230) with section bars 30px tall dark purple; licence cards in a 4×2 grid ~230×270px with 1px borders; package row ~250px tall with sample lines cropped",
+        "typography": "Headline ~259px Megazoid Right; cart in ~11–13px Input Sans Narrow, numbers ~16px bold; samples ~60px Megazoid Regular/Italic",
+        "palette": [
+          "#f7f3f0",
+          "#111111",
+          "#432c5b",
+          "#d3cdd0"
+        ],
+        "behaviour": "Licence card click selects size and updates prices; text input rewrites package samples; checkbox selects package; collapsible package preview",
+        "content": "Real licences and $25 Mini price; distributor links; formats, language support, alternates list",
+        "assets": "Distributor logos",
+        "html": "license cards, input[type=text] preview, input[type=checkbox] package, button 'Buy selected packages and styles'"
+      }
+    },
+    {
+      "blocks": [
+        "19"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "foundry-wide",
+        "mobile": "adapts",
+        "contains": [
+          "other-fonts",
+          "socials",
+          "newsletter",
+          "legal"
+        ]
+      },
+      "look": "DJR's site footer on purple: three columns of tiny caps links (David Jonathan Ross RSS and mailing list; Elsewhere; Font of the Month Club; Typefaces list; Typeset, Glyph Navigator, Notes, About; Licensing; Press; Privacy; Tools)",
+      "feel": "Utilitarian",
+      "ux": "Links across DJR's site and elsewhere",
+      "learn": "A shared foundry footer gives every microsite the same exits",
+      "reconstruction": {
+        "layout": "Purple band ~540px; three columns starting x≈160, ~250px apart",
+        "typography": "~10px Input Sans Narrow caps, headings bold, white",
+        "palette": [
+          "#5d358e",
+          "#ffffff",
+          "#31154f"
+        ],
+        "behaviour": "none",
+        "content": "Site-wide links",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/large-text-intro",
+    "specimen-showcase/word-stack",
+    "story/origin-reference",
+    "family-overview/style-word-grid",
+    "design-details/axis-explainer",
+    "specimen-showcase/word-stack",
+    "specimen-showcase/kinetic-scenes",
+    "type-tester/in-context-editable",
+    "specimen-showcase/word-stack",
+    "design-details/feature-index",
+    "glyph-table/full-grid",
+    "footer/credits-colophon",
+    "checkout/on-page-cart",
+    "footer/link-columns"
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "slug": "madmalik-github-io-mononoki",
+  "extractedBy": "agent",
+  "summary": "A short single-column page for a free coding font in Solarized Light colours: name, tagline and two buttons, then four pilcrow-separated rows pairing a small specimen (code, boxed 'monospace', high/low, |1lI B8 CD0O) with a note that opens with an ASCII-art drop cap, a tip-jar line and the full character set. Everything is set in mononoki itself.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "product-landing",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "calm, editor-like",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "Lowercase 'mononoki' in Solarized orange, centred at ~96px, an italic tagline 'a font for programming and code review' beneath, and two small outlined green buttons '→ View on GitHub' and '→ Download' far apart on one row",
+      "feel": "Quiet, warm, like a light editor theme",
+      "ux": "Buttons link to the GitHub repo and directly to the release ZIP",
+      "learn": "Borrow a well-known editor colour scheme (Solarized) for the whole page: coders recognise the setting their font will live in",
+      "reconstruction": {
+        "layout": "Centred 1000px column (x 220–1220) on a #fdf6e3 page with #eee8d5 side margins; name centred at y≈60–130; tagline ~30px below; buttons at x≈390 and x≈910, y≈265",
+        "typography": "Name ~96px mononoki Regular lowercase, #cb4b16-ish orange; tagline ~20px mononoki Italic, orange; buttons ~14px Regular green with 1px green border, '→' prefix",
+        "palette": [
+          "#fdf6e3",
+          "#eee8d5",
+          "#cb4b16",
+          "#859900"
+        ],
+        "behaviour": "none",
+        "content": "Name, one-line purpose, GitHub and Download",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "thoughtful, craft-minded",
+        "mobile": "adapts",
+        "subject": [
+          "spacing",
+          "construction"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "Four rows separated by a grey '¶': left a small specimen (highlighted Python FizzBuzz 'mono'/'noki', the word 'monospace' with each letter in its own dark cell, 'high' / 'low' with italic 'works well on … resolution displays', and '|1lI B8 CD0O' under 'differentiation of characters'), right a short paragraph whose first letter is a 4-line ASCII-art drop cap (M, T, R, E) drawn with | \\ / _ in orange",
+      "feel": "Considered, quietly witty",
+      "ux": "static; pilcrows act as section anchors (top links)",
+      "learn": "Give each design principle its own tiny proof (cells for monospace, look-alike glyphs for differentiation) and keep the explanation to one paragraph beside it",
+      "reconstruction": {
+        "layout": "Two-column rows inside the 1000px column: specimen centred in the left half (~480px), text column ~400px from x≈770; '¶' at x≈270 between rows; rows ~260px apart",
+        "typography": "Notes ~17px mononoki Regular, leading ~1.1, dark grey-green #586e75; drop caps 4 lines tall built from ASCII characters in orange #cb4b16; 'monospace' ~44px light on #586e75 cells; 'high'/'low' ~40px Regular/Bold; '|1lI B8 CD0O' ~40px grey-green; captions ~14px Italic; code ~16px with Solarized syntax colours (comment grey italic, keywords green, strings cyan, numbers magenta)",
+        "palette": [
+          "#fdf6e3",
+          "#586e75",
+          "#cb4b16",
+          "#859900",
+          "#93a1a1"
+        ],
+        "behaviour": "none",
+        "content": "Real design notes: who made it and why, monospace as a structuring convention, surviving low-resolution grids, distinguishing similar characters",
+        "assets": "none",
+        "html": "div.grid > div.box (div.example) + div.dropcap[aria-hidden] (ASCII art) + div.droptext; div.wingdings.span-all '¶' separators"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "modest, personal",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "A centred italic orange note 'mononoki is a free font developed as a passion project in my spare time, but if you enjoy my work and would like to leave a tip, here is my → tip jar!'; the actual Download button is in the hero",
+      "feel": "Polite, unpushy",
+      "ux": "Tip-jar link; download is a direct release ZIP from GitHub (hero button)",
+      "learn": "For a free font, a one-sentence tip-jar line placed after the arguments is enough",
+      "reconstruction": {
+        "layout": "Centred text block ~450px wide, 4 lines, between two '¶' separators",
+        "typography": "~15px mononoki Italic, orange; link in green with '→'",
+        "palette": [
+          "#fdf6e3",
+          "#cb4b16",
+          "#859900"
+        ],
+        "behaviour": "none",
+        "content": "Donation request in the designer's voice",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "complete, orderly",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'All characters contained in mononoki' over a centred grid of every glyph (accented Latin, Cyrillic, Greek, numerals, punctuation, arrows, box-drawing and block elements, powerline shapes) in grey-green, ~32 per row",
+      "feel": "Calm, exhaustive",
+      "ux": "static, selectable text",
+      "learn": "A coding font's set should end with the box-drawing and block characters: they are what terminal users check",
+      "reconstruction": {
+        "layout": "Grid ~1000px wide, ~32 columns of ~31px, ~22 rows at ~26px pitch; title centred above",
+        "typography": "Glyphs ~18px mononoki Regular, #657b83; title ~15px",
+        "palette": [
+          "#fdf6e3",
+          "#657b83",
+          "#93a1a1"
+        ],
+        "behaviour": "none",
+        "content": "Every character in the font, text rendered from the webfont",
+        "assets": "none",
+        "html": "div.showcase > div.showcase-title + characters as spans"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "understated",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "One centred italic line '-- color scheme inspired by → solarized --' in grey and green",
+      "feel": "Modest",
+      "ux": "Link to the Solarized project",
+      "learn": "Credit the colour scheme you borrowed in one line",
+      "reconstruction": {
+        "layout": "Single centred line ~50px below the glyph grid",
+        "typography": "~15px mononoki Italic",
+        "palette": [
+          "#fdf6e3",
+          "#93a1a1",
+          "#859900"
+        ],
+        "behaviour": "none",
+        "content": "Credit line",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/product-landing",
+    "design-details/design-notes",
+    "checkout/free-download",
+    "glyph-table/full-grid",
+    "footer/slim-legal-bar"
+  ]
+}

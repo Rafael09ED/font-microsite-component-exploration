@@ -170,6 +170,8 @@ async function prepare(site) {
       headings: b.headings, parentHeadings: b.parentHeadings, textPreview: b.textPreview, fontFamilies: b.fontFamilies,
       maxFontSizePx: b.maxFontSizePx, variationSettings: b.variationSettings, controls: b.controls, media: b.media,
       background: b.background, color: b.color, palette: b.crop ? await palette(path.join(ROOT, b.crop)) : null,
+      // Crop pixels per CSS px: 0.5 for full-width blocks, larger for narrow ones (crops are ≤720px wide).
+      cropScale: b.crop ? +(Math.min(720, b.box.w) / b.box.w).toFixed(3) : null,
       crop: b.crop, cropTruncated: b.cropTruncated, cropParts: shotMeta ? await continuationCrops(shot, shotMeta, b, path.join(pack, 'tall')) : [], html: b.html, htmlBytes: htmlFile && fs.existsSync(htmlFile) ? fs.statSync(htmlFile).size : 0 });
   }
   const facts = {

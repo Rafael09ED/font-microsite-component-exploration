@@ -1,0 +1,460 @@
+{
+  "slug": "justfont-com-huninn",
+  "extractedBy": "agent",
+  "summary": "A Taiwanese foundry's page for a free, open-source rounded Chinese font (jf open 粉圓, built on Kosugi Maru and Varela Round), themed on bubble tea: flat geometric cup-and-pearl illustrations, googly-eyed bird mascots and speech bubbles carry a friendly, punny voice. Unlike a foundry sales page it works as public outreach inside the corporate site's chrome: before/after toggles of the adjustments, an added-character marquee, a double-click tester, a long plain-language explanation of the OFL licence and how it differs from the company's paid licence, and donation and Messenger-subscribe buttons.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "The corporate justfont site bar (white, 67px): green 'jf justfont' logo left; 字體教育 ▾ · jf 精選 ▾ · store · 登入 (outlined pill) right; it scrolls away"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Sticky product sub-nav (white, 66px, shadow): 'jf open 粉圓' logo left; 免費下載 (direct .ttf download from GitHub releases), GitHub / Instagram / Facebook icons and a red-orange '自由樂捐' (donate) pill right; stitched over every crop below"
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "hero",
+      "variant": "illustration-scene",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "cute, punny, local",
+        "mobile": "adapts",
+        "carrier": "illustration",
+        "cta": "download",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Full-screen flat geometric poster: a yellow bubble-tea cup with googly eyes in the centre, topped by a dome of red tapioca 'pearls' on blue; side panels of giant cropped Chinese glyphs in orange, green and yellow, one tile reading 'Open!'; white title '加粉圓，都免錢' and a blue '免費下載' pill on the cup",
+      "feel": "Joyful, snack-like, warm",
+      "ux": "An intro build animation (~3s): coloured panels appear, the cup and pearls pop in, the eyes open, then the side glyphs slide in; one download CTA",
+      "learn": "Turn the font's name into the illustration (粉圓 = tapioca pearls): the cup and pearls are made of the same round shapes as the font's terminals",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×810. Three columns: left 315px and right 315px, each split into two ~405px tiles of giant cropped glyphs or circle patterns; centre 810px holds the cup (trapezoid widening upward) under a semicircle of 6 red circles on blue; title and copy centred on the cup at y≈500",
+        "typography": "Title '加粉圓，都免錢' 48px jf open 粉圓 white, bold-looking; body 16px white centred, leading ~1.9; button 14px white on blue pill (~90×36); side glyphs ~600px, cropped",
+        "palette": [
+          "#febb02",
+          "#f04719",
+          "#f1f3ef",
+          "#0a69b1",
+          "#1a7046",
+          "#f49516"
+        ],
+        "behaviour": "Intro sequence with CSS classes afd-in/afd-up + delay1 (animate on display); ScrollMagic scenes (sm-scene) animate each section in; mascot eyes (svg .pupil) likely track the pointer ('fix-eyes')",
+        "content": "Pun headline 'Add tapioca pearls, all free'; what the font is (based on Kosugi Maru, optimised for Taiwan) and 'free to use, optimise, remix'",
+        "assets": "Inline SVG geometric illustration (cup, pearls, eyes); giant glyph tiles set in the font",
+        "html": "nav#sub-navbar (bootstrap) ; .text-block.afd-in.delay1.animate > h2 + p + a.btn.obtn-info.ga-go-download[href=…jf-openhuninn-2.1.ttf]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "grateful, folksy",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "illustration"
+        ],
+        "length": "short"
+      },
+      "look": "Same three-panel poster grid, now a big green circle in the centre with the white heading '食粉圓，拜樹頭' and a short paragraph thanking Motoya (Kosugi Maru) and Joe Prince and Avraham Cornfeld (Varela Round); a white speech bubble from a yellow bird invites remixes on GitHub; a red-orange bird peeks in from the right",
+      "feel": "Thankful, community-minded",
+      "ux": "Section fades in on scroll; GitHub link in the speech bubble",
+      "learn": "Credit the source fonts with a proverb ('when you eat, honour the tree's roots'): an open-source derivative states its lineage up front, warmly",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×810; centre column 810px with a ~700px green circle; text centred in the circle; speech bubble (~400×160, rounded with a tail) at bottom-left of the centre; side tiles with circle patterns and a bird",
+        "typography": "Heading 48px jf open 粉圓 white; body ~15px white, leading ~2; bubble text ~16px dark",
+        "palette": [
+          "#1a7046",
+          "#fcbb02",
+          "#fbfbfb",
+          "#f49516",
+          "#f04719"
+        ],
+        "behaviour": "afd-up fade-in on scroll",
+        "content": "Why the font exists (a give-back after the Jinxuan crowdfunding) and credits to the source fonts' makers",
+        "assets": "SVG bird mascots with eyes, circle patterns"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "chatty, local pride",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "illustration"
+        ],
+        "length": "short"
+      },
+      "look": "On an off-white field patterned with pale circles, a half-visible cup mascot at the left and three yellow-orange speech bubbles: the heading '古椎得人疼 ê 台灣口味' and two paragraphs about the gap (few open rounded Chinese fonts fit Taiwanese typesetting) and the work (~2,800 Taiwanese hanzi, zhuyin, Taiwanese romanisation, punctuation settings, even colour)",
+      "feel": "Conversational, like a mascot talking",
+      "ux": "Bubbles animate in on scroll",
+      "learn": "Put the brief in speech bubbles from the mascot: technical goals (character count, phonetic symbols, typesetting) become a friendly conversation",
+      "reconstruction": {
+        "layout": "Full-bleed ~810px; cup mascot cropped at the left edge (~350px visible); bubbles stacked in the centre-right column, ~600–800px wide, radius ~80px with a tail; background pattern of large pale circles (~360px) on #f6f7f4",
+        "typography": "Heading ~34px jf open 粉圓 white in an orange bubble; body ~18px white, leading ~1.9; heading mixes Han and Taiwanese romanisation (ê)",
+        "palette": [
+          "#f6f7f4",
+          "#feba03",
+          "#f49314",
+          "#ef471a"
+        ],
+        "behaviour": "Bubbles fade/slide up when scrolled into view",
+        "content": "Mixed Mandarin and Taiwanese Hokkien heading ('cute and lovable, Taiwanese flavour'); facts: ~2,800 characters adjusted, zhuyin and romanisation added",
+        "assets": "SVG mascots, speech-bubble shapes"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "clear, didactic",
+        "mobile": "adapts",
+        "subject": [
+          "history-of-revision",
+          "construction",
+          "spacing",
+          "scripts"
+        ],
+        "presentation": "toggle",
+        "explanation": "caption"
+      },
+      "look": "Two sections, each with a centred heading and caption and a red-orange pill switch labelled '調整前' (before adjustment) / '調整後' (after): '設計調整' shows a 10×4 grid of hanzi (們備到創參啓園圜多宮…) and '排版調整' a paragraph of mixed Chinese and Latin text; the switch flips them between the source font Kosugi Maru and jf open 粉圓",
+      "feel": "Honest, hands-on",
+      "ux": "Click the switch to swap the sample between the original Japanese font and the Taiwan-optimised version: stroke weights and Japanese forms (design), punctuation placement and the Latin font (typesetting)",
+      "learn": "A single before/after switch on the same sample is the clearest way to show the value of a derivative font; choose characters where the changes are most visible",
+      "reconstruction": {
+        "layout": "Each section full-bleed ~810px on the pale circle pattern; heading + 1–2 line caption centred; switch centred (~70×28 pill with a sliding knob and label); sample below: 10-column hanzi grid (~800px wide, ~70px pitch) or a ~900px paragraph; mascots peek in at the edges",
+        "typography": "Headings ~20px; captions ~13px; grid hanzi ~50px; paragraph ~18px with leading ~2.0; sample font switches between 'Kosugi Maru' and 'jf-openhuninn'",
+        "palette": [
+          "#f5f5f1",
+          "#ef471a",
+          "#feba03",
+          "#93908e"
+        ],
+        "behaviour": "input[type=checkbox].toggle-btn-checkbox#switch-font-optimization / #switch-font-layout + label.toggle-btn; checked swaps the font-family of .toggle-content (and the label text 調整前 ↔ 調整後)",
+        "content": "Characters with the largest changes; a real paragraph about the font's origin with Latin names (Kosugi Maru, Joe Prince, Varela Round) to show the punctuation and Latin changes",
+        "assets": "none",
+        "html": ".switch-content > input#switch-font-optimization.toggle-btn-checkbox + label.toggle-btn ; .toggle > .toggle-content"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "abundant, rhythmic",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'增補字符' (added characters): caption '1,477 Taiwanese hanzi missing from the Japanese font, plus zhuyin and Taiwanese romanisation', then six full-width lines of characters (哼 唉 啃 啟 啡 啤 啥 Ă Ĕ Ĭ Ŏ Ŭ ㄅ ㄆ …) running off both edges",
+      "feel": "Generous, flowing",
+      "ux": "Each 6400px line slides sideways continuously like a ticker (content duplicated for a seamless loop)",
+      "learn": "Show 'what we added' as endless ticker lines rather than a grid: the motion says 'a lot' without making the visitor scroll through it",
+      "reconstruction": {
+        "layout": "Full-bleed ~810px; heading and caption centred at top; 6 lines × 80 characters, each line 6400px wide, ~80px apart, overflow hidden",
+        "typography": "Characters ~40–50px jf open 粉圓 dark grey, wide spacing (~80px pitch); heading ~20px; caption 13px",
+        "palette": [
+          "#f5f6f2",
+          "#2b2b2b",
+          "#d2d1ce",
+          "#ef471a"
+        ],
+        "behaviour": "Ticker animation translating each .line horizontally in a loop (likely alternating directions/speeds)",
+        "content": "The added Taiwanese characters, zhuyin and romanisation letters with breves",
+        "assets": "SVG bird mascots at the corners",
+        "html": ".feature-font-increase > .line[style=width:6400px] > span.charset × 80"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "playful, colloquial",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "size",
+          "style-select"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "'來試看看粉圓吧！' ('Try huninn!', subtitle 'double-click, chew, taste sweet') above a large pill-shaped outline (yellow border) holding a 3-line sample in slangy Mandarin with zhuyin, a kaomoji and Taiwanese romanisation",
+      "feel": "Cheeky, inviting",
+      "ux": "Double-click the sample to turn it into a textarea and reveal button groups for font, weight and size (empty in the capture); type your own text",
+      "learn": "Hide the controls until the visitor double-clicks: the tester looks like a finished sample, and the default text tells you how to activate it",
+      "reconstruction": {
+        "layout": "Full-bleed ~810px section; heading centred; pill ~900×320px (border ~3px yellow, radius 50%), textarea ~750px wide inside; option button rows below the text when active",
+        "typography": "Sample 30px jf open 粉圓 Regular (400), line-height 52.5px (1.75), black; heading ~20px; subtitle 12px",
+        "palette": [
+          "#f5f6f3",
+          "#f7f0d3",
+          "#fcbb02",
+          "#000000"
+        ],
+        "behaviour": "p.content (title 'double-click to change weight and size') hides on dblclick and shows .explore-ctrl: textarea + .font-family/.font-weight/.font-size .btn-group; '.ctrl-loading' while the webfont subset loads (likely dynamic subsetting for CJK)",
+        "content": "'哇哩咧～這ㄇ好ㄘの粉圓！你也要來試看看嗎？o(ﾟ∀ﾟo)v 清爽不發胖，欲來試看覓無？(beh lâi tshì-khuànn-māi--bô?) 想測試的話，你可以自己按兩下來輸入字樣喔～'",
+        "assets": "SVG bird mascot",
+        "html": "#font-explore.font-explore > p.content[data-ctrl-type=content] + .explore-ctrl > .ctrl-input textarea + .ctrl-options (.font-family/.font-weight/.font-size.btn-group) + .ctrl-loading"
+      }
+    },
+    {
+      "blocks": [
+        "09",
+        "10",
+        "11"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "reassuring, plain-language",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "A licence explainer in three parts: a big green computer-monitor illustration whose yellow screen reads '用都用，放心用' ('use it, use it worry-free') with the OFL summary; three square geometric tiles 'Free!', 'Share!', 'Modify!' with headings 自由商用 / 自由傳布 / 自由改作為其他字型 and one-line explanations; a yellow speech bubble asking how this differs from 'justfont 通用授權' (the company's paid licence), answered below with a link",
+      "feel": "Patient, reassuring, consumer-friendly",
+      "ux": "Links to the SIL OFL text (and a Chinese reference translation) and to the paid-licence page; downloads come from the nav and hero (GitHub release .ttf)",
+      "learn": "Translate the open licence into three verbs with icons (Free, Share, Modify) and contrast it with your own paid licence: it answers the emails before they are sent ('不必再寫信來問了')",
+      "reconstruction": {
+        "layout": "Block 09: centred 900px monitor illustration (~1030px tall incl. stand), text centred on the screen. Block 10: 1200px container, 3 equal columns (~360px) of square tiles (~360×370) then heading + 2–3 line text; centred licence link below. Block 11: 800px column, bubble ~430×160 then centred paragraph and link",
+        "typography": "Monitor heading ~54px jf open 粉圓 Bold-looking, dark; body ~18px, leading ~1.8; tile words ~36px Varela-style Latin; column headings ~16px; body 13px; links blue underlined",
+        "palette": [
+          "#f5f6f2",
+          "#186f47",
+          "#f9b828",
+          "#f0471a",
+          "#0a69b1"
+        ],
+        "behaviour": "Sections fade in on scroll; static otherwise",
+        "content": "Plain-language OFL rights (commercial use without fee or credit, redistribution, modification under OFL) and the difference from justfont's commercial licence",
+        "assets": "SVG monitor illustration, three geometric tile graphics, bird mascots"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "story",
+      "variant": "article-teaser",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "curious, inviting",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "illustration"
+        ],
+        "length": "short"
+      },
+      "look": "The three-panel poster again: concentric yellow and red-orange circles on green in the centre, giant cropped glyphs and an ampersand on the sides; white heading '美味秘方能講一下嗎' ('can you share the secret recipe?'), three lines about a year of research, and a blue button '設計師的設計尬聊' (designers' chat)",
+      "feel": "Teasing, warm",
+      "ux": "Button opens the justfont blog post about the design (new tab)",
+      "learn": "Keep the process story off-page and tease it with the page's food metaphor ('secret recipe')",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×810, same 315 / 810 / 315 column grid as the hero; concentric circles ~800px and ~400px in the centre; text centred",
+        "typography": "Heading 48px jf open 粉圓 white; body ~15px white; button 14px white on blue pill",
+        "palette": [
+          "#febc02",
+          "#196f46",
+          "#ef4617",
+          "#fcfbf9",
+          "#0a69b1"
+        ],
+        "behaviour": "fade-in on scroll",
+        "content": "Teaser for the blog article 'huninn-preview'",
+        "assets": "Geometric SVG panels, giant glyph tiles"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "humble, humorous",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Closing poster: a red-orange cup with a blue lid and wavy orange steam lines, giant cropped glyphs on the sides; white heading '泡茶開講，自由樂捐' and a paragraph asking for donations 'to buy the designers' snacks', then two pills: yellow '訂閱通知' (subscribe) and blue '自由樂捐' (donate)",
+      "feel": "Cosy, grateful",
+      "ux": "Subscribe opens Facebook Messenger (m.me) for update notifications; Donate (href '#', also in the sticky nav) opens a donation flow on the page (not captured)",
+      "learn": "For a free font, replace 'Buy' with pay-what-you-want and a follow channel, framed with a joke so it doesn't feel like begging",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×810, same three-column poster grid; cup trapezoid in the centre column with text centred; two ~90×34 pills side by side",
+        "typography": "Heading 48px jf open 粉圓 white; body ~15px white, leading ~1.9; buttons 13px",
+        "palette": [
+          "#ef471a",
+          "#f3f5f0",
+          "#febb06",
+          "#0c69b1",
+          "#1a7046"
+        ],
+        "behaviour": "Steam lines may animate; fade-in on scroll",
+        "content": "Donation appeal and notification subscription",
+        "assets": "Geometric SVG cup with steam, giant glyph tiles",
+        "html": "a.btn.obtn-warning.ga-go-subscribe[href^=https://m.me/] + a.btn.obtn-info.ga-go-donate[href=#]"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "corporate, tidy",
+        "mobile": "adapts",
+        "contains": [
+          "contact",
+          "legal",
+          "socials",
+          "other-fonts"
+        ]
+      },
+      "look": "The corporate justfont footer: six columns on white, 聯絡我們 (company name, tax ID, email, phone, ©justfont 2023), 教育資源, 關於我們, 授權與服務, 社群頻道 (FB, IG) and 加入 LINE 好友 with a green LINE 'add friend' button",
+      "feel": "Institutional, complete",
+      "ux": "Links to education resources, company pages, licensing services and social channels",
+      "learn": "A microsite hosted inside a company site inherits its full footer: legal identity, services and a regional messaging channel (LINE) rather than a type colophon",
+      "reconstruction": {
+        "layout": "Full width, ~260px; content ~1100px centred; 6 columns, headings then 4–6 link lines",
+        "typography": "Headings ~15px Medium; links ~12px Regular grey, leading ~1.7 (GenYoGothic TW)",
+        "palette": [
+          "#fdfdfd",
+          "#333333",
+          "#cfcfcf",
+          "#06c755"
+        ],
+        "behaviour": "none",
+        "content": "Company contact and legal ID, site sections, social and LINE links",
+        "assets": "LINE button"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/illustration-scene",
+    "story/origin-reference",
+    "story/design-brief",
+    "design-details/feature-before-after",
+    "glyph-table/category-lines",
+    "type-tester/slider-sandbox",
+    "checkout/free-download",
+    "story/article-teaser",
+    "checkout/link-out-cta",
+    "footer/link-columns"
+  ]
+}

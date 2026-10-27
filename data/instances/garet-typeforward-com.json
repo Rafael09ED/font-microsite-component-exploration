@@ -1,0 +1,445 @@
+{
+  "slug": "garet-typeforward-com",
+  "extractedBy": "agent",
+  "summary": "Type Forward's microsite for Garet, a geometric sans (variable wght 50–950 plus italic), built on a visible hairline grid where empty cells are labelled with their area in px². Each section is a different toy: sliding style-labelled wordmarks, a Bézier editor for the alternate g, a per-word tester driven by mouse gestures, a microphone-driven weight demo and a magnifier over the glyph map. A cookie-consent modal covers the centre of every capture, so much of this is read from the HTML.",
+  "instances": [
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed 64px white bar: 'type>> forward' logo, bold 'Buy Garet↗', 'Download free fonts' at left; 'About Type Forward' and 'Subscribe' at right (repeats across the stitched crops)"
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, precise",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "On a light page ruled into tall hairline cells, 'Garet' in red (#ff3b4e) at 276px sits in horizontal rows that are offset sideways so only parts of the name show; each row carries a small spec line ('Medium 500 · 276 px · #ff3b4e', 'Hairline 50', 'Book 300', Heavy 900); a split bar along the bottom: black 'Buy Garet — Get the complete font family — 23 fonts. Buy↗' and white 'Free download · Two free weights'. Mostly hidden by the cookie modal in the capture",
+      "feel": "Spec-sheet cool, slightly mechanical",
+      "ux": "Rows slide horizontally (the name scrolls into view on load: 'are' → 'Ga' in the storyboard); Buy links out; 'Free download' opens the email pop-up",
+      "learn": "Label each sliding instance of the name with its style, size and colour like a design-tool inspector, so the hero doubles as a style sheet",
+      "reconstruction": {
+        "layout": "100vh; vertical hairlines divide the page into cells (~560 / 160 / 160 / 560px); 2 big and 2 small slider rows stacked, each translated on X (e.g. translateX(172px)); spec labels 12px above the word; CTA bar 90px tall at the bottom, left half black, right half white",
+        "typography": "Name 276px Garet Variable at wght 500, 50, 300 and 900 in red; spec labels ~12px wght 400; CTA titles ~22px wght 700, sub-lines ~11px",
+        "palette": [
+          "#f6f6f6",
+          "#ff3b4e",
+          "#040404",
+          "#d6d6d6"
+        ],
+        "behaviour": "GSAP translates each .hero-slider-row horizontally (load-in slide, continuous offset); 'Free download' toggles #downpop",
+        "content": "The family name, style names with weight numbers, size and hex colour",
+        "assets": "none",
+        "html": "header > div#heros > div.hero-sliders > div.hero-slider-big|small > div.hero-slider-row#heroslider1[style=transform] > div.hero-stats (stat-1 style, stat-2 size, stat-3 colour) + h1.hero-title.w500; div.hero-ctas"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "direct",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "The hero's bottom-left black panel 'Buy Garet / Get the complete font family — 23 fonts.' with an underlined 'Buy↗', repeated as 'Buy Garet↗' in the fixed nav",
+      "feel": "Matter-of-fact",
+      "ux": "Links to typeforward.com/buy/?family=garet in a new tab",
+      "learn": "Put the buy CTA and the free option side by side in one split bar at the hero's foot, so both visitor types find their door in the first screen",
+      "reconstruction": {
+        "layout": "Bottom bar of the hero, left half 720×90px black, title + subline at left, link at right",
+        "typography": "Title ~22px Garet wght 700 white; subline ~11px wght 400 grey; link ~11px wght 500 underlined",
+        "palette": [
+          "#040404",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "'Get the complete font family — 23 fonts.'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "generous, lead-capture",
+        "mobile": "hidden",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Right half of the hero bar 'Two free weights — Get Garet Book & Garet Heavy fonts for free' and its pop-up (HTML only): 'Get 2 free fonts' with ✗ close, a line naming the two weights and 'Garet's Type specimen included', an email field with a '↳' submit, a consent checkbox and Brevo small print",
+      "feel": "Generous but transactional",
+      "ux": "'Free download' (also in the nav) opens the pop-up; the free weights and PDF specimen are sent after email sign-up with consent; desktop only",
+      "learn": "Give two weights away for an email address: the free fonts become the newsletter's lead magnet",
+      "reconstruction": {
+        "layout": "Pop-up panel over the hero (~560px wide), heading row with icon and close, paragraph, input + square submit on one line, checkbox, small print",
+        "typography": "Heading ~36px Garet wght 500; paragraph ~16px wght 400 with bold weight names; small print ~10px",
+        "palette": [
+          "#ffffff",
+          "#040404",
+          "#ff3b4e"
+        ],
+        "behaviour": "#downtrig / #downtrig1 toggle #downpop; Brevo form validates email and consent, shows inline errors",
+        "content": "Garet Book and Garet Heavy free for desktop and web, with specimen PDF",
+        "assets": "none",
+        "html": "div.hero-pop-up#downpop > form#brevo-bonus-signup-form > input#brevo-free-fonts-email[type=email] + input[type=submit][value=↳] + input#heroConsentCheck"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "03",
+        "05",
+        "07",
+        "09",
+        "11"
+      ],
+      "type": "interlude",
+      "variant": "annotated-spacer",
+      "newVariant": true,
+      "variantDefinition": "A deliberately empty band of the page's visible layout grid between sections, annotated with a technical label (e.g. the cell's area in px²), so whitespace reads as part of the specimen's drafting system rather than a gap.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "dry, nerdy wit",
+        "mobile": "adapts"
+      },
+      "look": "300px bands of empty hairline-ruled cells between every section; one cell in each carries a tiny centred measurement like '47,400 px²', '263,400 px²', '99,600 px²'",
+      "feel": "Blueprint, tongue-in-cheek",
+      "ux": "static",
+      "learn": "Make the grid itself visible and label the empty cells with their area: the pauses between demos become part of the typographic system and show off superscripts",
+      "reconstruction": {
+        "layout": "Full-width 300px band split into 2–4 boxes along the page's column lines (1px #d6d6d6 borders); the labelled box is the 'main' one, label centred",
+        "typography": "~9px Garet wght 400, numerals with thousands separators, 'px2' as a superscript (sups feature)",
+        "palette": [
+          "#f6f6f6",
+          "#d6d6d6",
+          "#575757"
+        ],
+        "behaviour": "none",
+        "content": "Area of the labelled cell in px²",
+        "assets": "none",
+        "html": "div.spacing-body > div.space-box-N … div.main-space-box > span.sl-z '47,400' + span.f-sup ' px2'"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "outline-editor",
+      "newVariant": true,
+      "variantDefinition": "One glyph drawn as its outline with on-curve points and Bézier handles that the visitor drags to reshape it, with undo/redo, a rewind to the original and an image download: the glyph's construction becomes a toy.",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "game-like",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "playful, type-nerd",
+        "mobile": "adapts",
+        "controls": [
+          "presets"
+        ],
+        "scope": "single",
+        "defaultText": "user-empty",
+        "export": true
+      },
+      "look": "'Mess with the g' at left with two lines of copy and a keyboard legend (Ctrl+Z Undo, Ctrl+Y Redo, Right Click Toggle Shape Outlines); at right a huge black alternate double-storey 'g' on a canvas, its outline traced in red with square on-curve points and round handles; Download and ↻ Rewind buttons in a black strip under the text",
+      "feel": "Hands-on, a bit irreverent",
+      "ux": "Select any point and drag it or its handles to deform the g; Ctrl+Z / Ctrl+Y undo and redo; right-click toggles the outline view; Rewind animates back to the original; Download exports the result as an image with a transparent or solid background (desktop); mobile gets a simpler 'Hide outlines' toggle",
+      "learn": "Let visitors grab the real Bézier points of the most characterful glyph: they feel how carefully the original is drawn when they break it, and they leave with an image",
+      "reconstruction": {
+        "layout": "Section ~593px tall: left column ~560px with heading, copy, legend chips (icon + key + action) and a 2-button strip at the bottom (black, ~50px); right ~880px canvas (1756×1184 backing store at 2×) with the g centred and cropped top and bottom",
+        "typography": "Heading ~36px Garet wght 500 with the alternate g (styl-sa = salt/ss); copy ~11px wght 400; legend keys ~10px wght 700, actions wght 400; buttons ~13px wght 500 white",
+        "palette": [
+          "#f5f5f5",
+          "#080808",
+          "#ff3b4e",
+          "#d2d2d2"
+        ],
+        "behaviour": "Canvas drawing of the glyph path from its point list; pointer hit-testing on points and handles; drag updates the path; an undo stack bound to Ctrl+Z/Ctrl+Y; contextmenu toggles outline/fill; Rewind tweens points back to the originals; Download renders the canvas to PNG with transparent or solid background",
+        "content": "The alternate 'g' outline",
+        "assets": "Glyph point data for the alternate g; icon SVGs for the legend",
+        "html": "section.section-editor > div.editor-content-holder (h1, h4, div.legend-cont-rel > div.legend-elem) + div.editor-secon-content > #b3 Download, #b2 Rewind, #b5 transparent, #b4 solid; div.editor-tool#ill[oncontextmenu=return false] > canvas#bezier-bottom + div#canv-overlay + svg"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "type-tester",
+      "variant": "creative-toy",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "exploratory, multilingual",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "weight",
+          "axes",
+          "tracking",
+          "features",
+          "color"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "'Experience Garet' with a gesture legend (Scroll = Font Size, Hold Left = Font Weight, Hold Right = Italic Angle, Spacebar = Letter-spacing); below, a framed editor: black Reset and Set buttons around a 'Type here…' field and a theme toggle, a narrow left column of OpenType samples (fi, ty, aa, вв, 1a, [], 11, A₂, A², ½, 0, ligature X; active one in red), and a large paragraph of mixed Latin/Cyrillic words, numerals, symbols and dingbats (☞ ❺ ⚐ →) at ~58px light weight, each word styleable on its own",
+      "feel": "Curious, game-like",
+      "ux": "Hover a word, then scroll to resize it, hold the left button to sweep its weight, hold the right button to slant it, press space to track it out; click a feature cell to apply that OpenType feature; type a new text and press Set (resets all styling); Reset restores the sample; mobile swaps gestures for Weight 50–950, Italic 0–100 and Size 57–384 sliders on the selected word",
+      "learn": "Map axes to mouse gestures on individual words: visitors style a paragraph word by word and discover the range without a single slider",
+      "reconstruction": {
+        "layout": "Section ~1040px: heading block (copy left, legend chips right); editor 1300px wide: control row 40px (Reset 160px black, OT toggle, input, theme, Set 160px black), then left feature column ~45px of stacked 45px cells, paragraph panel ~1000px, 'Scroll here' side gutters",
+        "typography": "Paragraph ~58px Garet Variable starting at wght 339 (Book/Light), leading ~1.4; per-word overrides of font-size, wght 50–950, slnt/ital 0–100, letter-spacing; feature cells ~16px; legend ~10px",
+        "palette": [
+          "#f3f3f3",
+          "#575757",
+          "#ff3b4e",
+          "#040404",
+          "#d1d1d1"
+        ],
+        "behaviour": "Each word is a span#intWordN; wheel over a word changes its font-size; mousedown-hold left ramps wght, right ramps italic; spacebar ramps letter-spacing; feature cells toggle classes (liga, ss, locl, ordn, case, tnum, subs, sups, frac, zero, dlig) on the paragraph; #theme-button inverts colours; Set rebuilds spans from the input (maxlength 420)",
+        "content": "Mixed-language sampler: 'Barcelona 14 km! ЦИФРА type shape ☞ stormy night 17% out of 420 {MOTOR} figure ❺ översättare A zászlóshajó ⚐ Volleyballplatz → ретро музыка Декоративный? 30 Май 1672 год ROOM 1a върволица oт @ 3/4 pts. ©'",
+        "assets": "Legend icons (mouse, spacebar)",
+        "html": "section.text-editor > div.text-editor-controler (#reset-button-1, #otftoggle, form#reset-text-f > input#reset-text, #theme-button, #set-button) + div.text-editor-holder > div.text-editor-panel#te-panel > div#otf0…#otf11 + div#int-txt > span#intWordN; div.text-mobile-controler > input#mslider1/#mslider2/#mslider3"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "type-tester",
+      "variant": "sound-reactive-axis",
+      "newVariant": true,
+      "variantDefinition": "The microphone's input level drives a variable axis (usually weight) of a large word or of its individual letters in real time; the visitor's voice or ambient noise is the only control.",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "game-like",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "playful, experimental",
+        "mobile": "adapts",
+        "controls": [
+          "weight"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "'Sound=weight' with a line asking for microphone access and an orange 'We are not recording or storing any data.'; a black panel with a big white microphone button at top right; below, the word 'talk' set huge (~360px) in a hairline weight",
+      "feel": "Surprising, physical",
+      "ux": "Press the mic button and allow the microphone; speaking or making noise thickens the letters of 'talk' (per character), silence thins them back",
+      "learn": "Use the visitor's voice as the axis controller: the word 'talk' invites the action, and loudness → weight is instantly understood",
+      "reconstruction": {
+        "layout": "Section ~740px: top row with text block left (~800px) and black mic panel right (~550×140px); below a full-width stage with the word centred",
+        "typography": "Heading ~36px Garet wght 500; copy ~11px; privacy note in orange; word ~360px Garet Variable starting at wght 50, letters split for per-character weights",
+        "palette": [
+          "#f7f7f7",
+          "#030303",
+          "#575857",
+          "#ff7a2e"
+        ],
+        "behaviour": "getUserMedia + Web Audio AnalyserNode; RMS level mapped to wght 50–950 per character (Splitting.js .char spans, maybe with frequency bands or a stagger); eased so the weight swells and decays",
+        "content": "One prompt word, 'talk'",
+        "assets": "Microphone icon",
+        "html": "section.voice-section > div#voicesection (h1, h4, div.orangec) + div#voice-button; div.voice-section-interaction > div#vtext[data-splitting] > span.word > span.char[data-char]"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "precise, reference",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": true
+      },
+      "look": "'The alphabet: Use the 3-step magnifier to examine in detail Garet's extended Latin A-Z case. Uprights, 133 of 947 glyphs.' above a full-width grid of lowercase Latin and accented letters (a á ă â ä … ż), each with its glyph name in tiny type beneath, ruled into cells",
+      "feel": "Loupe on a proof sheet",
+      "ux": "A round magnifying glass follows the pointer over the glyph map; left click zooms in, right click zooms out (3 steps); a light and a dark version of the map follow the theme; on mobile two sliding rows of letters are scrubbed with a ←→ range slider",
+      "learn": "A pointer loupe over a high-resolution glyph map gives inspector-level detail without building a separate preview panel",
+      "reconstruction": {
+        "layout": "Heading block then a 1440px-wide SVG glyph map (~13 columns × 6 rows of ~110px cells); magnifier glass a circle (~200px) absolutely positioned at the pointer",
+        "typography": "Glyphs ~48px Garet Regular, names ~7px below; heading ~36px wght 500",
+        "palette": [
+          "#f6f6f6",
+          "#585958",
+          "#d4d4d4"
+        ],
+        "behaviour": "mousemove positions .img-magnifier-glass and sets its background-position on the same SVG at 2×/3×/4× (background-size 2880×1006); click/contextmenu change the zoom step; mobile range input#glyph-control translates h1.slider-row",
+        "content": "Extended-Latin lowercase a–z with diacritics",
+        "assets": "Pre-rendered SVG glyph maps (light and dark)",
+        "html": "section.glyph-map > div.img-magnifier-container#glyphintd > img#glyphimage(.light-sticker) + img#glyphimage2(.dark-sticker) + div.img-magnifier-glass#imagg; mobile div#glyphinteraction > h1.slider-row#glyphslider1/2 + input#glyph-control[type=range][max=1440]"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "newsletter",
+      "variant": "email-signup",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "friendly, no-spam",
+        "mobile": "adapts"
+      },
+      "look": "'Let's keep in touch' centred between two grids of cells each holding one large glyph (ä € ½ ç | ж ß © Φ) in mixed weights; email field, full-width black '↳' submit, consent checkbox and small print",
+      "feel": "Tidy, specimen-like even for a form",
+      "ux": "Brevo form with consent checkbox and inline errors; the variable-weight glyph cells (wvar) shift weight",
+      "learn": "Frame the sign-up form with single glyph specimens in the grid so even the newsletter section shows the font",
+      "reconstruction": {
+        "layout": "~480px tall: left glyph grid ~400px (one full-width half-height cell, then halves), centre form column ~600px, right glyph grid ~400px; hairline cell borders",
+        "typography": "Glyphs 100–150px Garet at wght 300–900; heading ~36px wght 500; input ~14px; small print ~9px",
+        "palette": [
+          "#fcfcfc",
+          "#020202",
+          "#cecece",
+          "#616161"
+        ],
+        "behaviour": "Glyph cells with .wvar animate weight; form submit to Brevo",
+        "content": "'Learn about our next releases, offers and free fonts. We won't spam.'",
+        "assets": "none",
+        "html": "section.subscribe-section#subsanc > div.subscribe-left (div#scell1…) + div.subscribe-center > form#brevo-subscribe-signup-form + div.subscribe-right"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "minimal",
+        "mobile": "adapts",
+        "contains": [
+          "legal",
+          "socials",
+          "credits"
+        ]
+      },
+      "look": "One line: '© 2026 Type Forward · Privacy Policy↗' and five small social icons (Facebook, Instagram, Behance, Dribbble, MyFonts) at left, 'We did it with Gradientic↗.' at right",
+      "feel": "Unobtrusive",
+      "ux": "Links out",
+      "learn": "Credit the web studio in the footer line: one sentence, no extra block",
+      "reconstruction": {
+        "layout": "~190px band, single row at mid-height, 64px side padding",
+        "typography": "~11px Garet wght 400, studio name wght 500",
+        "palette": [
+          "#f6f6f6",
+          "#040404"
+        ],
+        "behaviour": "none",
+        "content": "Copyright, privacy, socials, studio credit",
+        "assets": "Social icons"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "14",
+      "reason": "cookie-consent modal ('Your privacy choices', Accept all / Reject optional / Choose separately), fixed over the centre of every capture"
+    }
+  ],
+  "sequence": [
+    "hero/giant-wordmark",
+    "checkout/link-out-cta",
+    "checkout/free-download",
+    "interlude/annotated-spacer",
+    "type-tester/outline-editor",
+    "type-tester/creative-toy",
+    "type-tester/sound-reactive-axis",
+    "glyph-table/glyph-inspector",
+    "newsletter/email-signup",
+    "footer/slim-legal-bar"
+  ]
+}

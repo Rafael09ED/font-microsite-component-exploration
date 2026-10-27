@@ -1,0 +1,386 @@
+{
+  "slug": "kampanjat-hs-fi-climatefont",
+  "extractedBy": "agent",
+  "summary": "Helsingin Sanomat's campaign page for the free Climate Crisis Font, whose weight axis is labelled in years (1979→2050) and mapped to real and forecast Arctic sea-ice extent, so letters thin and break apart as the ice shrinks. A stack of full-screen black, white and grey sections, mostly over video: a melting title, the data chart behind the axis, an animated timeline, a parallax 'CLIMATE CHANGE ISN'T REAL' wall, the 1979 vs 2050 alphabets, newspaper use cases, a year-slider tester and an OFL download with a press kit.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "look": "Fixed transparent top bar: black 'HELSINGIN SANOMAT' logo tag at the left (HS monogram on mobile), a globe 'FI' language link and a small white 'Free download' button at the right; repeated over every section"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "kinetic-type",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "urgent, cold, journalistic",
+        "mobile": "adapts",
+        "carrier": "motion",
+        "cta": "multiple",
+        "rangeShown": "whole-family",
+        "navVisible": true
+      },
+      "look": "Full-screen looping aerial video of broken sea ice in slate blue-grey; centred 'CLIMATE CRISIS FONT' in three white lines that keep melting from solid heavy caps into thin, fractured shapes and back, 'Type to Act.' below in serif, a white 'Free Download' button and an outlined 'Play video' button, a mouse-scroll indicator at the bottom",
+      "feel": "Alarming but beautiful",
+      "ux": "The title's weight animates through the year axis on a loop (CSS keyframes 'header_melt'); 'Play video' opens a Vimeo film in a lightbox; Free Download jumps to the download section",
+      "learn": "Animate the title across an axis that carries meaning (years of ice loss): the motion itself states the message before any copy",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×900, background video cover; content centred both ways: title ~540px wide, three lines; tagline 20px below; two buttons side by side ~150×36px; scroll indicator at bottom centre",
+        "typography": "Title ~90px ClimateCrisis caps, white, line-height ~1, letter-spacing wide; animated font-variation-settings 'wght' between 1979 (solid) and 2050 (fractured); tagline ~24px Sanomat serif bold; buttons ~12px Sanomat",
+        "palette": [
+          "#75848b",
+          "#6d7b84",
+          "#292a2e",
+          "#ffffff"
+        ],
+        "behaviour": "@keyframes header_melt on h1 (wght 1979↔2050, slow loop); background video autoplay muted loop; bouncing ball in the scroll indicator (@keyframes indicator-ball)",
+        "content": "Name and campaign line 'Type to Act.'",
+        "assets": "Aerial sea-ice video (bg-section-hero-vid.mp4); campaign film on Vimeo",
+        "html": "section#section-hero > .bg-video-wrapper > video.bg-video[autoplay muted loop] + .complete-center > h1 + p.hero-description + a#hero-download + a#filmbox.popup"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "earnest, journalistic",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "Over a black-and-white glacier image: 'FREE FONT FOR VISUALIZING THE URGENCY OF THE CLIMATE CRISIS' in four lines of heavy white caps and a centred serif paragraph explaining why the font exists and how its weights follow the ice data",
+      "feel": "Serious, purposeful",
+      "ux": "static",
+      "learn": "State the purpose (make an abstract crisis tangible) before the mechanism; the heading is set in the heaviest '1979' weight",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×871 photo background; centred column ~620px: heading then paragraph",
+        "typography": "Heading ~51px ClimateCrisis 1979 (heaviest), white caps, tight leading; paragraph ~16px Sanomat serif white, centred, line-height ~1.5",
+        "palette": [
+          "#505050",
+          "#6f6f6f",
+          "#313131",
+          "#ffffff"
+        ],
+        "behaviour": "none (background may be video)",
+        "content": "Climate change is lengthy and abstract; Helsingin Sanomat made a variable font whose weight follows NSIDC data (1979–2019) and IPCC predictions to 2050",
+        "assets": "Black-and-white glacier calving photograph"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "system-diagrams",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "video",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "data-driven, stark",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "diagram",
+        "explanation": "prose"
+      },
+      "look": "On black: 'BASED ON REAL ARCTIC SEA ICE DATA', a line chart of ice extent at 1979, 1990, 2000, 2010, 2019, 2030, 2040, 2050 whose rows of 'CLIMATE CHANGE' get thinner and more broken at each year, a source paragraph, and a looping video of a big 'A' stepping through the eight year-instances with year tags; then on light graph paper the word 'CLIMATE CRISIS' with each letter one year further along a ruled timeline, grey ice-floe silhouettes shrinking above it",
+      "feel": "Factual, sobering",
+      "ux": "The 'A' video loops; source links to NSIDC and IPCC; the timeline is a static image (vertical on mobile)",
+      "learn": "Plot the axis against its data source: the chart, the stepped glyph and the timeline all say 'weight = sea ice', so the variable axis becomes a data visualisation",
+      "reconstruction": {
+        "layout": "Section 03: black 1440×974, two-column grid: left ~700px (heading, chart SVG ~720×270, paragraph), right column with the A video (~120px glyphs, 8 rows with boxed year tags); section 04: full-bleed 1440×814 grid-paper image, word ~1050px wide at y≈400, timeline rule with 8 year labels, ice silhouettes ~60px tall above each pair of letters",
+        "typography": "Heading ~37px ClimateCrisis heaviest caps white; chart row labels ~11px ClimateCrisis at decreasing weights; years ~12px Sanomat bold; paragraph ~16px Sanomat white; timeline word ~90px, one weight per letter; year tags ~10px tracked caps in boxes",
+        "palette": [
+          "#030303",
+          "#ffffff",
+          "#f6f6f6",
+          "#d1d1d1",
+          "#b0b0b0"
+        ],
+        "behaviour": "ice-data-liftup.mp4 autoplay muted loop; other diagrams static images",
+        "content": "Real data: Arctic sea-ice minimum 1979 → IPCC 2050 forecast at 30% of the 1979 extent",
+        "assets": "Chart SVG (ice-data-graph.svg), stepping-A video, timeline image (bg-section-graph.png and a vertical mobile version)",
+        "html": "section#section-insight > .grid-2-column (h2 + img#ice-data-graph + p | video#ice-data-liftup); section#section-graph > picture > img#graph-img"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "technical, plain",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "diagram"
+        ],
+        "length": "short"
+      },
+      "look": "A white card 'THE FONT' over a light-grey looping video of huge glyph outlines with Bézier points and handles on graph paper; two short paragraphs: an OpenType variable font where you pick a year 1979–2050, with static fallback weights for 1979, 1990, 2000, 2010, 2019, 2030, 2040, 2050, supporting Latin Extended-A",
+      "feel": "Informative, workshop-like",
+      "ux": "static text over ambient video",
+      "learn": "When the axis has meaningful stops, ship them as named static fonts too and say so: users without variable-font support still get the story",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×921 background video; white card ~620×600px at x≈105, y≈160, padding ~60px",
+        "typography": "Heading ~77px ClimateCrisis heaviest caps black, two lines; body ~16px Sanomat serif, line-height ~1.6",
+        "palette": [
+          "#cacaca",
+          "#f2f2f2",
+          "#000000"
+        ],
+        "behaviour": "Background video of outline drawings autoplay muted loop",
+        "content": "Technical facts about the year axis, fallback weights and language support",
+        "assets": "Construction-outline video (bg-section-implementation-vid.mp4)"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "ironic, confrontational",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "Full-screen black wall of the line 'CLIMATE CHANGE ISN'T REAL' repeated in white edge to edge, each row a few years further along the axis so the words thin, crack and break apart towards the bottom",
+      "feel": "Ironic, unsettling",
+      "ux": "Background image with parallax (background-position changes with scroll); no text to select",
+      "learn": "Let the font contradict the sentence: a denialist line visibly melting down the screen is an argument without commentary",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×810, background image ~8 rows of ~70px caps, each row cropped at both edges",
+        "typography": "~70px ClimateCrisis caps white, one weight step per row from 1979 (solid) to 2050 (broken)",
+        "palette": [
+          "#050505",
+          "#ffffff",
+          "#707070"
+        ],
+        "behaviour": "Background-position parallax driven by scroll (style background-position 50% 0%)",
+        "content": "'CLIMATE CHANGE ISN'T REAL' repeated",
+        "assets": "Pre-rendered wallpaper image",
+        "html": "section#section-wallpaper (empty, CSS background image)"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "stark before/after",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "On white, '1979' above the alphabet A–Z, Ä Ö and 1234567890 set in heavy, solid black caps, then '2050' above the same set in the thinnest, fractured weight",
+      "feel": "Before-and-after, elegiac",
+      "ux": "static",
+      "learn": "Show the character set twice, at the two ends of the axis, labelled with the meaning of each end",
+      "reconstruction": {
+        "layout": "Centred container ~1100px, 1440×1085 section; year label, 3 lines of letters and figures, ~120px gap, year label, 3 lines",
+        "typography": "Year labels ~24px Sanomat serif; letters ~32px ClimateCrisis caps letter-spaced (wght 1975 for the bold set, 2050 for the thin set)",
+        "palette": [
+          "#fcfcfc",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Uppercase alphabet with Finnish Ä Ö and figures",
+        "assets": "none",
+        "html": "section#section-history > p.history-year + p.alphabet-bold, p.history-year + p.alphabet-light"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "editorial, social-media",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "grid"
+      },
+      "look": "On a black-to-charcoal gradient: 'USE CASES' and a paragraph at the left; at the right a 3×2 grid of portrait story-format thumbnails (the melting 'CLIMATE CHANGE ISN'T REAL' stack, 'Tuvalu' fading, 'WHEN I GROW UP I WANT TO BE A MOM/DAD' over children's faces, 'Arctic sea ice extent 7.05 → 4.32', 'Annually averaged arctic sea ice volume 25.400 → 13.500')",
+      "feel": "Newsroom-ready, emotive",
+      "ux": "Thumbnails open in a Fancybox lightbox gallery (two are videos)",
+      "learn": "Show the font doing journalism (statistics, social stories) in the publisher's own format, so other media see how to use it",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×960, two-column grid: text ~560px at x≈105; gallery ~540px at x≈785, 3 columns × 2 rows of ~170×240 thumbnails, 8px gaps",
+        "typography": "Heading ~77px ClimateCrisis heaviest caps white; body ~16px Sanomat white; thumbnails mix ClimateCrisis at several years with serif captions",
+        "palette": [
+          "#161616",
+          "#292929",
+          "#ffffff",
+          "#8d8d8d"
+        ],
+        "behaviour": "Click → Fancybox lightbox (images and MP4)",
+        "content": "Real Helsingin Sanomat social stories and data graphics",
+        "assets": "Six story-format images/videos (1230×1740)",
+        "html": ".gallery-wrapper > a[data-fancybox=gallery] > img"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "wry, simple",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "size",
+          "alignment"
+        ],
+        "scope": "single",
+        "defaultText": "pangram",
+        "export": false
+      },
+      "look": "On white: a small info line 'Try the font yourself. You can change the weight by moving the slider.', a four-line centred sample 'The quick polar bear turns brown and jumps over a melting glacier with a lazy fox.' in heavy black, and one control row: 'Edit sample', a slider labelled 1979 … 2050, three alignment icons and a '60px ▾' size select",
+      "feel": "Clean, slightly darkly funny",
+      "ux": "Drag the year slider to melt the sample; 'Edit sample' focuses the contenteditable box; radios set alignment; select sets 20/40/60/80px",
+      "learn": "Label the slider ends with the axis's meaning (1979, 2050) instead of numbers, and rewrite the pangram into the theme",
+      "reconstruction": {
+        "layout": "Section 1440×822; centred container ~960px: info line at y≈180, sample box fixed 290px tall (overflow hidden) centred, control row centred at y≈645: button, slider ~270px between year labels, align radios, size select",
+        "typography": "Sample 60px ClimateCrisis at wght 1975 (heaviest), black, centred, line-height ~1.1; controls ~14px Sanomat serif",
+        "palette": [
+          "#fdfdfd",
+          "#151515",
+          "#d0d0d0"
+        ],
+        "behaviour": "input#font_slider (1975–2050, step 1) → font-variation-settings 'wght' on #font_editor_box; align radios toggle classes; select swaps font-size classes",
+        "content": "Themed pangram: 'The quick polar bear turns brown and jumps over a melting glacier with a lazy fox.'",
+        "assets": "none",
+        "html": "section#section-font-editor > p#font-editor-disclaimer + div#font_editor_box[contenteditable] + #font-editor-wrapper (button#font_edit_desktop, input#font_slider[min=1975 max=2050], input.font-align radios, select#font_size_select)"
+      }
+    },
+    {
+      "blocks": [
+        "10",
+        "11"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "open, civic",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "A light-grey panel straddling the white page and the black footer band: left 'Free for all' with a black 'Download font' button and the SIL OFL summary in small serif; right 'Press kit' with an outlined 'Download PR-kit' button and the media contact (Art Director, Helsingin Sanomat); the black band below holds only a back-to-top arrow",
+      "feel": "Generous, institutional",
+      "ux": "Direct ZIP downloads for the font and the press kit; the top-bar and hero buttons all jump here",
+      "learn": "Pair the free font with a press kit and a named media contact: a campaign font is also a story journalists need to cover",
+      "reconstruction": {
+        "layout": "Panel 1260×485 at x=90 over the white/black boundary; two columns, each centred: heading, button (~150×32), small text ~380px wide; footer band 378px black with a scroll-to-top icon bottom-right",
+        "typography": "Headings ~24px Sanomat serif; buttons ~12px; disclaimer ~11px Sanomat serif, centred, line-height ~1.6",
+        "palette": [
+          "#f7f7f7",
+          "#010101",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "OFL terms in plain language ('free for personal or business use… not allowed to sell'), press contact",
+        "assets": "Font ZIP, press-kit ZIP",
+        "html": "section#section-download > .grid-2-column > .grid-block (h3, a.download-btn#download-font, p.file-disclaimer); section#section-footer > #scrollTop"
+      }
+    }
+  ],
+  "sequence": [
+    "hero/kinetic-type",
+    "story/design-brief",
+    "design-details/system-diagrams",
+    "story/design-brief",
+    "specimen-showcase/word-stack",
+    "glyph-table/category-lines",
+    "specimen-showcase/in-use-mockups",
+    "type-tester/slider-sandbox",
+    "checkout/free-download"
+  ]
+}

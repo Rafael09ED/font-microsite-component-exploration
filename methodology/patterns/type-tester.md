@@ -22,6 +22,8 @@ Sample: 24 blocks from 24 sites.
 | [palette-editor](#palette-editor) | 0 | One editable sample in a colour font with a colour picker per palette layer (outline, fill, gradient stops, randomise) that rewrites the palette live. | colour swatches beside a colour-font sample |
 | [write-on-playback](#write-on-playback) | 0 | Editable samples in a font with a time (write-on) axis: a play button draws the text stroke by stroke and a timeline slider scrubs it. | play button, timeline scrubber |
 | [xy-pad](#xy-pad) | 0 | One editable sample beside a 2D pad: dragging one handle sets two axes at once (e.g. weight × optical size). | square pad with a crosshair handle |
+| [outline-editor](#outline-editor) | 0 | The visitor drags a glyph's outline points and Bézier handles, with undo/redo, reset and image download. | points and handles on a big glyph |
+| [sound-reactive-axis](#sound-reactive-axis) | 0 | The microphone level drives an axis (e.g. weight) of a large word, letter by letter. | microphone permission, letters pulsing with sound |
 
 ## Rubric
 
@@ -189,5 +191,21 @@ _No instance in the sample yet._
 One editable sample beside a 2D pad: dragging one handle sets two axes at once (e.g. weight × optical size).
 
 **Recognise by:** square pad with a crosshair handle
+
+_No instance in the sample yet._
+
+## outline-editor
+
+The visitor drags a glyph's outline points and Bézier handles, with undo/redo, reset and image download.
+
+**Recognise by:** points and handles on a big glyph
+
+_No instance in the sample yet._
+
+## sound-reactive-axis
+
+The microphone level drives an axis (e.g. weight) of a large word, letter by letter.
+
+**Recognise by:** microphone permission, letters pulsing with sound
 
 _No instance in the sample yet._

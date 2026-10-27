@@ -1,0 +1,321 @@
+{
+  "slug": "proxima-vara-marksimonson-com",
+  "extractedBy": "agent",
+  "summary": "Mark Simonson's launch page for Proxima Vara, the variable (wght, wdth, ital) version of Proxima Nova. Nearly everything is a tester: photographed props (a matchbox, VHS tapes) whose printed lettering morphs with sliders, an editable article whose headline, body and byline each get their own sliders, and three sticker-like editable lines. Every slider label is set in its own axis ('Weight' bold, 'Width' wide, 'Slant' slanted). A fixed green launch strip with a dark-mode switch and a red rotating-text 'Licensing & Purchasing Info' seal frame the page.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "announcement-banner",
+      "look": "Fixed ~25px neon-green (#00ff7c) strip across the top of every screen: 'Introducing Proxima Vara, a new variable font by Mark Simonson' in small condensed bold at the left, 'Switch to dark mode | Auto' links at the right (never cut as a block, attached to 00)"
+    },
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "upbeat, retro-pop, commercial",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "'Proxima' in Black upright and 'Vara' in Thin italic run together at ~238px in charcoal on white, then a red circular seal with 'LICENSING & PURCHASING INFO' set around its edge beside 'Proxima Nova goes variable! Change width, slant, and weight to get any style you can imagine. Try it today! ↓'",
+      "feel": "Cheerful, salesy in a good way",
+      "ux": "The seal links to the licensing page; 'Try it today! ↓' points at the testers below",
+      "learn": "Set the name's two words at opposite corners of the design space (Black roman vs Thin italic): the wordmark alone announces 'variable'",
+      "reconstruction": {
+        "layout": "Header 1440×310 under the fixed strip; name left-aligned at x≈48, spanning ~1290px; seal 131px circle at x≈60, y≈380; pitch text column from x≈640, ~600px wide",
+        "typography": "'Proxima' ~238px Proxima Vara wght 900, 'Vara' same size wght 100 with 'ital' 125, no space between; seal text ~13px bold caps white on a textPath; pitch: title ~29px bold, line ~20px regular, 'Try it today!' bold italic with a red ↓",
+        "palette": [
+          "#fdfefe",
+          "#323232",
+          "#ff0000",
+          "#00ff7c"
+        ],
+        "behaviour": "Static (the seal is an inline SVG with text on a circular path)",
+        "content": "Family name; launch pitch",
+        "assets": "none",
+        "html": "header#top.top-bar > h1 > span.proxima + span.vara; section.cta > a.info-button > svg (circle + text > textPath[href=#circle])"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "specimen-showcase",
+      "variant": "slider-morph-mockups",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "nostalgic, product-photo, playful",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "series"
+      },
+      "look": "Two photographed props with live type laid on top: a white matchbox printed with a huge red '3' and 'ON A MATCH' running down it, and two black VHS tapes on grey with labels ('Friends Seasons 1–9', '90210 Cosmos VH1') and a sleeve reading 'DUB DUB DUB DUB' in black, red, green and red; each prop has Weight, Width and Slant sliders under it",
+      "feel": "Retro, tactile, fun",
+      "ux": "Dragging a prop's sliders restyles all lettering on that prop at once (wght 100–900/850, wdth 50–100/85, ital 0–125); the text layers are live HTML over the photos",
+      "learn": "Lay live variable text over a photo of a real object: one slider then 'reprints' the matchbox, so visitors judge styles on a believable product",
+      "reconstruction": {
+        "layout": "Two-column section 1382px wide (x=29): left column ~690px with the matchbox photo (~330×600 portrait) and a 3-slider panel, then the 'Advantages' text; right column ~690px grey (#cdcccc) photo of two tapes, sliders below; each slider row: label 70px + track ~230px",
+        "typography": "Matchbox '3' ~360px Proxima Vara wght 500 red, 'ON A MATCH' ~28px caps stacked vertically; tape labels ~14–20px bold condensed; 'DUB' ×4 ~90px rotated 90°, Bold condensed; slider labels ~12px: 'Weight' bold, 'Width' expanded, 'Slant' italic",
+        "palette": [
+          "#fafafa",
+          "#cdcccc",
+          "#ff0000",
+          "#00ff7c",
+          "#1a73e8"
+        ],
+        "behaviour": "input[type=range] → font-variation-settings on every text layer inside the prop container (wght, wdth, ital)",
+        "content": "Themed packaging copy: '3 on a match', VHS labels 'Friends Seasons 1–9', '90210', 'Cosmos', 'VH1', 'Dub'",
+        "assets": "Two product photos (matchbox, VHS tapes) without lettering, to overlay live text",
+        "html": ".examples__one.matchbox.tester > .matchbox-area (figure img + .big-three + .on-a-match) + sliders input#word-tester-wght-matchbox / -wdth- / -ital-; .examples__two.vhs-tapes.tester > .vhs-tapes-area"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "persuasive, plain",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Under the matchbox: 'Advantages of Proxima Vara' and seven short paragraphs of benefits (any weight between Regular and Medium, fit headlines by width, 5,000,000 possible styles, one file smaller than a few static styles), ending 'Proxima Vara is Proxima Nova: The Next Generation!' and a red underlined 'Licensing and purchasing info…'",
+      "feel": "Straight sales pitch",
+      "ux": "static; link to licensing",
+      "learn": "State what a variable font solves in the buyer's own problems (in-between weights, headline fitting, bandwidth) rather than in technology terms",
+      "reconstruction": {
+        "layout": "Left column ~690px, paragraphs ~19px with 18px gaps, after the matchbox sliders",
+        "typography": "Heading ~24px Proxima Vara Bold; body ~19px Regular, 'any' and the tagline in slanted ital; link ~24px bold red underlined",
+        "palette": [
+          "#fafafa",
+          "#323232",
+          "#ff0000"
+        ],
+        "behaviour": "none",
+        "content": "Real benefit list",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "type-tester",
+      "variant": "in-context-editable",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "editorial, practical",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A grey article panel 'The Proxima Vara Story' with a bold headline, a long run-on body paragraph using small caps, oldstyle figures and ◆ ▶ ★ ● as paragraph markers, and a red byline 'By Mark Simonson' rotated vertically at the right edge; below, three slider groups labelled Headline, Body and Byline (Weight, Width, Slant each)",
+      "feel": "Like adjusting a magazine page",
+      "ux": "Headline, byline and body are contenteditable; each group of sliders restyles only its role, so visitors tune a typographic hierarchy, not a single line; the body scrolls inside the fixed-height panel",
+      "learn": "Give each text role (headline, body, byline) its own axes in one realistic article: the tester teaches pairing styles within one family",
+      "reconstruction": {
+        "layout": "Panel 1222×~700 at x=109, grey #d2d2d2, content column ~880px from x≈240, overflow scroll; byline rotated 90° pinned to the right edge; control panel below: three equal columns, each a title and three slider rows (label ~90px + track ~300px)",
+        "typography": "Headline ~42px Proxima Vara wght 600; body ~22px Regular, line-height ~1.5, 'c2sc' small caps for PROXIMA VARA and ATF, 'pnum' 'onum' figures; byline ~18px bold red condensed; control titles ~16px bold, slider labels ~11px set in their axis",
+        "palette": [
+          "#d2d2d2",
+          "#f2f1f1",
+          "#323232",
+          "#ff0000",
+          "#1a73e8"
+        ],
+        "behaviour": "9 sliders (hdr-, body-, byline- × wght 100–900, wdth 50–100, ital 0–125) set font-variation-settings per role; text editable",
+        "content": "Mark Simonson's real history of Proxima (1981 sketches, Proxima Sans 1994, Proxima Nova, Rolling Stone redesign, the variable version)",
+        "assets": "none",
+        "html": "section.type-tester.tester > .content (h2[contenteditable], h3[contenteditable], p[contenteditable] with span[style=font-feature-settings]) + .control-panel > .control-group × 3 > .slider > label.bold|.wide|.slant + input#tester-hdr-wght …"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "personal, historical",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "long"
+      },
+      "look": "The tester's sample text is the real origin story, written by the designer as one long paragraph with typographic dingbats instead of breaks",
+      "feel": "Candid, craftsman's memoir",
+      "ux": "Read inside the scrolling article panel of the tester",
+      "learn": "Use the designer's story as the tester's default text: the history gets read because visitors are already looking at the paragraph",
+      "reconstruction": {
+        "layout": "Inside the 880px column of the tester panel",
+        "typography": "~22px Proxima Vara Regular with small caps and oldstyle figures",
+        "palette": [
+          "#d2d2d2",
+          "#323232"
+        ],
+        "behaviour": "none beyond the tester",
+        "content": "From a 1981 idea and Gill Sans at a magazine, through Proxima Sans (1994) and Proxima Nova, to OpenType variations",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "type-tester",
+      "variant": "per-row-controls",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "playful, sticker-like",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes"
+        ],
+        "scope": "per-row",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "Three white label boxes with thick black bottom edges, staggered and overlapping like stickers: 'Go Ahead &' in heavy neon green, 'CHANGE' in thin wide black caps, 'this text!' in red condensed; each with its own Weight/Width/Slant sliders beside it",
+      "feel": "Loud, inviting",
+      "ux": "Click any line to type; its three sliders restyle only that line; the defaults already show three very different styles",
+      "learn": "Start each editable line at a different extreme (bold green, thin wide, condensed red) so the range is visible before anyone touches a slider",
+      "reconstruction": {
+        "layout": "Grid 1222px wide at x=109, ~565px tall: boxes ~600–780×110px with 1px border and ~8px black bottom border, offset diagonally (left, right, centre) and overlapping; slider groups (3 rows, track ~260px) placed in the free space beside each box",
+        "typography": "~112px Proxima Vara: 'Go Ahead &' wght ~625 wdth 85 green #01fe79; 'CHANGE' thin, wide, caps, black; 'this text!' medium condensed red",
+        "palette": [
+          "#fbfbfb",
+          "#01fe79",
+          "#000000",
+          "#ff0000",
+          "#1a73e8"
+        ],
+        "behaviour": "Per-line range inputs (wght 100–900, wdth 50–100, ital 0–125) → font-variation-settings; contenteditable",
+        "content": "'Go Ahead & CHANGE this text!' split across the three lines",
+        "assets": "none",
+        "html": "section.word-testers > .word-tester-grid > .word-tester.human|.comfort|.smart.tester > .content > p[contenteditable] + sliders input#word-tester-wght-1 …"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "badge-like, friendly",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "The red circular seal 'LICENSING & PURCHASING INFO' again, alone at the right edge before the footer (the same seal sits beside the hero pitch)",
+      "feel": "Like a sale sticker",
+      "ux": "Links to the font's page on marksimonson.com for licensing",
+      "learn": "A round seal with text on a circular path reads as a sticker, not a button, and can be repeated at the top and bottom without feeling pushy",
+      "reconstruction": {
+        "layout": "131px circle right-aligned at x≈1250 in a 216px band",
+        "typography": "~13px bold caps white on a circular textPath (textLength 300)",
+        "palette": [
+          "#ffffff",
+          "#ff0000"
+        ],
+        "behaviour": "none captured",
+        "content": "Licensing & Purchasing Info",
+        "assets": "Inline SVG seal",
+        "html": "section.cta > .button-area > a.info-button > svg"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Solid red (#fd0102) band with 'marksimonson.com' at the left and '©2021 Mark Simonson' at the right in small white type"
+    }
+  ],
+  "sequence": [
+    "hero/giant-wordmark",
+    "specimen-showcase/slider-morph-mockups",
+    "story/design-brief",
+    "type-tester/in-context-editable",
+    "story/essay",
+    "type-tester/per-row-controls",
+    "checkout/link-out-cta",
+    "footer/slim-legal-bar"
+  ]
+}

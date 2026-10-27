@@ -19,6 +19,7 @@ Sample: 24 blocks from 24 sites.
 | [designer-bio](#designer-bio) | 1 | A short, informal bio of the designer with contact links. | portrait or name, 'about me' |
 | [info-popover](#info-popover) | 0 | Section copy hidden behind a small info button and shown as a popover beside the specimen; the page shows type first, text on demand. | (i) Info buttons |
 | [expandable-timeline](#expandable-timeline) | 0 | A dated timeline of rows that expand into text cards on hover or click, with the year and title switching from light to heavy weight. | years in a column, accordion rows |
+| [faq](#faq) | 0 | Practical questions and answers about the font, as a collapsed accordion (often grouped by tabs) or an open anchored list. | Q&A list, expand on click |
 
 ## Rubric
 
@@ -164,5 +165,13 @@ _No instance in the sample yet._
 A dated timeline of rows that expand into text cards on hover or click, with the year and title switching from light to heavy weight.
 
 **Recognise by:** years in a column, accordion rows
+
+_No instance in the sample yet._
+
+## faq
+
+Practical questions and answers about the font, as a collapsed accordion (often grouped by tabs) or an open anchored list.
+
+**Recognise by:** Q&A list, expand on click
 
 _No instance in the sample yet._

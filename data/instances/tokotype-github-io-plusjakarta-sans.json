@@ -1,0 +1,238 @@
+{
+  "slug": "tokotype-github-io-plusjakarta-sans",
+  "extractedBy": "agent",
+  "summary": "A plain Bootstrap one-pager on GitHub Pages for an open-source family commissioned for the City of Jakarta's '+Jakarta City of Collaboration' branding: black wordmark hero, short about text, a red tester whose default text lists the city's brand colours, a hairline character map and a download section with credits, OFL, contribution notes and a changelog. A civic commission presented with minimal design; the brand context (city colours, branding agency credit) does the storytelling.",
+  "instances": [
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed black top bar (HTML only, stitched over every crop): white '+j' dotted logo at the left, smooth-scroll links About Fonts · Type Tester · Characters · Download at the right; collapses to a hamburger on mobile"
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "clean, civic, modern",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Full black screen, mostly empty; at the lower left '+Jakarta Sans' in white Display Medium (~144px) and under it, indented to the 'J', 'Open-source Fonts for Jakarta City of Collaboration' (~32px)",
+      "feel": "Confident, understated",
+      "ux": "No CTA in the hero; the fixed nav carries Download",
+      "learn": "The '+' prefix of the city brand becomes part of the wordmark: a commissioned font can carry the client's identity device in its own name",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×845, black; wordmark baseline at y≈640, x≈56; subtitle at y≈710 starting x≈148 (aligned with the J)",
+        "typography": "Name ~144px Plus Jakarta Display Medium, white, tight tracking; subtitle ~32px Plus Jakarta Text Regular, white",
+        "palette": [
+          "#020202",
+          "#ffffff",
+          "#4f4f4f"
+        ],
+        "behaviour": "none",
+        "content": "Name and one-line positioning",
+        "assets": "+j logo SVG (in nav)"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "warm, civic pride",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "White section: 'About Fonts' (~32px) in the left column and a 6-line paragraph at right: designed for +Jakarta City Branding in 2020, each glyph with its own varieties 'like the city itself, the beauty is in the details', Display with alternates and a Text version adjusted for small sizes",
+      "feel": "Friendly, brief",
+      "ux": "static; anchor #about",
+      "learn": "State the commission and the Display/Text split in one paragraph: who it's for, and why there are two optical families",
+      "reconstruction": {
+        "layout": "Two columns: label ~400px from x≈48; paragraph column from x≈505 to ~1390; ~500px section with ~100px padding",
+        "typography": "Label ~32px Plus Jakarta Display Regular; paragraph ~20px Plus Jakarta Text Regular, leading ~1.6, black",
+        "palette": [
+          "#fcfcfc",
+          "#020202"
+        ],
+        "behaviour": "none",
+        "content": "Commission context and family structure",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "bold, local, colourful",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "leading",
+          "tracking",
+          "style-select",
+          "features"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A full-width red-orange panel: a row of four white controls (style dropdown 'Plus Jakarta Display Medium', and Font Size, Line Height, Letter Spacing sliders drawn as white bars with a dark square thumb and the label inside), a big white editable sample 'Hijau Betawi / Jingga Bis Kota / Kuning Gigi Balang / Biru Abang / Pink None & City Collaboration.', and three white feature buttons 'Lancip Alternates: SS01', 'Lurus Alternates: SS02', 'Lingkar Alternates: SS03'",
+      "feel": "Energetic, civic, hands-on",
+      "ux": "Pick any of 14 styles (Display and Text, roman and italic); drag size 10–120 (default 80), line height 30–300% (150), letter spacing −10…20 (0); type over the sample; toggle the three named stylistic sets (all on by default)",
+      "learn": "Use the client's brand vocabulary as default text (the city's named colours: Betawi green, city-bus orange, Abang blue) and give stylistic sets local names (Lancip = pointed, Lurus = straight, Lingkar = round)",
+      "reconstruction": {
+        "layout": "Full-bleed ~830px, background #fe331b; container ~1340px: control row of 4 equal boxes (~315×38px, 30px gaps); sample block below (~3 lines at 80px/150%); feature row of 3 equal white bars (~430×38px) at the bottom",
+        "typography": "Sample 80px Plus Jakarta Display Medium white, line-height 150%; control labels ~11px Plus Jakarta Text Regular grey inside the white boxes; feature labels ~12px centred",
+        "palette": [
+          "#fe331b",
+          "#ffffff",
+          "#020102",
+          "#fa4a34"
+        ],
+        "behaviour": "select#fontFamilySelector onchange=changeFont() swaps font-family; input#fontsize (10–120), #lineheight (30–300), #spacing (−10–20 step .1) oninput=updateSlider() set font-size, line-height and letter-spacing; checkboxes .otFeature ss01/ss02/ss03 onchange=updateFeatures() build font-feature-settings",
+        "content": "City-brand colour names plus 'City Collaboration.'",
+        "assets": "none",
+        "html": "#tester: select#fontFamilySelector.custom-select ; label.sliderlabel + input.slider#fontsize|#lineheight|#spacing ; div[contenteditable] ; input.otFeature#ss01–03 + label.otFeatureLabel"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "neutral, tidy",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'Characters Map' then 259 glyphs in a 20-column grid of square cells with light grey hairlines: Latin caps and lowercase with accents, figures, inferiors and superiors, fractions, punctuation, currency, maths and symbols",
+      "feel": "Plain, complete",
+      "ux": "static",
+      "learn": "A hairline square grid is the minimum viable character map: no interaction needed when the set is small",
+      "reconstruction": {
+        "layout": "Container ~1370px from x≈34, 20 columns of ~68px square cells, 1px #d7d7d7 borders, 13 rows (~890px)",
+        "typography": "Heading ~32px Plus Jakarta Display Regular; glyphs ~20px Plus Jakarta Display Regular black, centred",
+        "palette": [
+          "#fbfbfb",
+          "#030303",
+          "#d7d7d7"
+        ],
+        "behaviour": "none",
+        "content": "Full character set (259 glyphs)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "open-source, practical",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "'Download Fonts' label at the left and, at the right, ruled sub-sections 'Credits:' (branding by 6616 Creative House, typeface by Tokotype Studio), 'License:' (SIL OFL 1.1), 'Contribution:' (fork, issues, email, 'tag us @6616__ & @tokotype'), 'Current version:' (21 February 2020, v1.000 changelog), and a full-width red 'Download +Jakarta Sans Fonts' button",
+      "feel": "Transparent, community-friendly",
+      "ux": "Button links to GitHub releases; issue tracker, email and Instagram links",
+      "learn": "Put a dated changelog next to the download button: it shows the font is maintained and tells people which version they have",
+      "reconstruction": {
+        "layout": "Two columns like 'About': label left (~400px), content column from x≈505 to ~1390; sub-sections separated by 1px #d4d4d4 rules; button full content width, ~38px tall",
+        "typography": "Sub-headings ~22px Plus Jakarta Display Regular; body ~14px Plus Jakarta Text Regular, leading ~1.6; links grey; button 14px white on #fe331b",
+        "palette": [
+          "#fcfcfc",
+          "#020202",
+          "#d4d4d4",
+          "#fe331b"
+        ],
+        "behaviour": "none",
+        "content": "Credits, OFL notice, contribution guidelines, changelog",
+        "assets": "none",
+        "html": "#download … a[href*=github.com/tokotype/PlusJakartaSans/releases] > button.btn.btn-primary.btn-download"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Black bar: 'Copyright © Tokotype Studio 2020. All rights reserved.' at the left, Tokotype Studio and +j logos at the right"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/design-brief",
+    "type-tester/slider-sandbox",
+    "glyph-table/full-grid",
+    "checkout/free-download",
+    "footer/slim-legal-bar"
+  ]
+}

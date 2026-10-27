@@ -1,0 +1,33 @@
+{
+  "slug": "avantt-displaay-net",
+  "extractedBy": "agent",
+  "summary": "Displaay's Vue microsite for Avantt (8 weights + italics, variable wght 100–900, 'inspired by architectural functionalism'). The Wayback capture never got past the preloader: the Vue app (#app) mounted empty and two stylesheets were blocked, so only the two-colour preloader screen was recorded. No components could be extracted; the site needs a live re-capture.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "fragment",
+      "variant": "empty-capture",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Preloader only: a magenta (#c40052) panel 536px wide on the left and a warm grey (#757165) field filling the rest of the 1440×900 screen, no text; the same frame for the whole 14s recording, mobile shows the magenta panel stacked above grey",
+      "feel": "n/a (capture failed)",
+      "ux": "The Vue app never mounted on the Wayback copy (empty #app, 4 console errors, Avantt variable woff2 requested but 'unloaded')",
+      "learn": "Even the preloader is brand-coded: a fixed accent column in the site's two colours holds the layout before the app renders",
+      "reconstruction": {
+        "layout": "#preloaderAccentPart absolute left 0, width 536px, full height, #c3004f; body background grey; below 1200px the accent becomes a full-width top band calc(50vw + 190px) tall (calc(50vw + 92px) below 850px)",
+        "typography": "none rendered; fonts declared: Avantt variable (wght 100–900) roman and italic woff2",
+        "palette": [
+          "#757165",
+          "#c40052"
+        ],
+        "behaviour": "Static until the app loads (never happened in this capture)",
+        "content": "none",
+        "assets": "none",
+        "html": "<div id=preloaderAccentPart> + <div id=app> (Vue, empty)"
+      }
+    }
+  ],
+  "sequence": []
+}

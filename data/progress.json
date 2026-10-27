@@ -1004,7 +1004,8 @@
         "instances": 7,
         "warnings": 0,
         "updatedAt": "2026-10-27T22:51:11.641Z"
-      }
+      },
+      "note": "recapture: screens 02-04 black (write tester, gallery, footer HTML-only)"
     },
     "karrik-phantom-foundry-com": {
       "archive": {
@@ -1730,8 +1731,12 @@
         "updatedAt": "2026-10-20T21:00:40.351Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 0,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.907Z"
+      },
+      "note": "recapture: Wayback snapshot stuck on preloader; try another snapshot or live"
     },
     "indestructibletype-com-gnomon": {
       "archive": {
@@ -1750,8 +1755,12 @@
         "updatedAt": "2026-10-20T21:00:40.731Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 7,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.911Z"
+      },
+      "note": "recut: hero sliders (02) and download (21) cut as 48px strips"
     },
     "djr-com-gimlet-xray": {
       "archive": {
@@ -1770,7 +1779,10 @@
         "updatedAt": "2026-10-20T21:00:41.103Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 4,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.918Z"
       }
     },
     "finaltype-de-en-projects-monoflow": {
@@ -1790,8 +1802,12 @@
         "updatedAt": "2026-10-20T21:00:41.371Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 14,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.921Z"
+      },
+      "note": "recut: title/intro/free button, language list, buy box not cut"
     },
     "gestures-studiomoniker-com": {
       "archive": {
@@ -1810,8 +1826,12 @@
         "updatedAt": "2026-10-20T21:00:41.385Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 3,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.923Z"
+      },
+      "note": "recapture: hand videos/voice-over only in HTML"
     },
     "rt-rondelle-com": {
       "archive": {
@@ -1830,7 +1850,10 @@
         "updatedAt": "2026-10-20T21:00:44.463Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 9,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.926Z"
       }
     },
     "proxima-vara-marksimonson-com": {
@@ -1850,7 +1873,10 @@
         "updatedAt": "2026-10-20T21:00:44.583Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 9,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.928Z"
       }
     },
     "kampanjat-hs-fi-climatefont": {
@@ -1870,7 +1896,10 @@
         "updatedAt": "2026-10-20T21:00:44.903Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 10,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.930Z"
       }
     },
     "louisefili-com-montecatini-pro": {
@@ -1890,7 +1919,10 @@
         "updatedAt": "2026-10-20T21:00:45.307Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 12,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.932Z"
       }
     },
     "whirlybirdie-com": {
@@ -1910,7 +1942,10 @@
         "updatedAt": "2026-10-20T21:00:45.584Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 9,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.934Z"
       }
     },
     "cjtype-com-dunbar": {
@@ -1930,7 +1965,10 @@
         "updatedAt": "2026-10-20T21:00:46.749Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 12,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.936Z"
       }
     },
     "fraunces-undercase-xyz": {
@@ -1950,7 +1988,10 @@
         "updatedAt": "2026-10-20T21:00:47.169Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 12,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.938Z"
       }
     },
     "etunni-github-io-arapey-minisite": {
@@ -1970,7 +2011,10 @@
         "updatedAt": "2026-10-20T21:00:47.623Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 14,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.940Z"
       }
     },
     "djr-com-megazoid": {
@@ -1990,7 +2034,10 @@
         "updatedAt": "2026-10-20T21:00:48.870Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 15,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.942Z"
       }
     },
     "nmtype-com-movement": {
@@ -2010,7 +2057,10 @@
         "updatedAt": "2026-10-20T21:00:48.956Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 11,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.944Z"
       }
     },
     "cnap-fr-sites-faune-en": {
@@ -2030,7 +2080,10 @@
         "updatedAt": "2026-10-20T21:00:49.176Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 8,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.945Z"
       }
     },
     "heydon-works-skwar": {
@@ -2050,7 +2103,10 @@
         "updatedAt": "2026-10-20T21:00:49.269Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 7,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.947Z"
       }
     },
     "erikdemaine-org-fonts-tetris": {
@@ -2070,7 +2126,10 @@
         "updatedAt": "2026-10-20T21:00:49.343Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 4,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.949Z"
       }
     },
     "universalsans-com": {
@@ -2092,7 +2151,10 @@
         "updatedAt": "2026-10-20T21:00:49.397Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 10,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.951Z"
       }
     },
     "larsenwork-com-monoid": {
@@ -2113,7 +2175,10 @@
         "updatedAt": "2026-10-20T21:00:49.484Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 4,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.953Z"
       }
     },
     "garet-typeforward-com": {
@@ -2134,7 +2199,10 @@
         "updatedAt": "2026-10-20T21:00:49.739Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 11,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.955Z"
       }
     },
     "monolisa-dev": {
@@ -2155,7 +2223,10 @@
         "updatedAt": "2026-10-20T21:00:51.208Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 24,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.957Z"
       }
     },
     "jetbrains-com-lp-mono": {
@@ -2176,7 +2247,10 @@
         "updatedAt": "2026-10-20T21:00:52.040Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 13,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.959Z"
       }
     },
     "font-subf-dev-en": {
@@ -2196,7 +2270,10 @@
         "updatedAt": "2026-10-20T21:00:52.260Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 11,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.961Z"
       }
     },
     "rubjo-github-io-victor-mono": {
@@ -2217,7 +2294,10 @@
         "updatedAt": "2026-10-20T21:00:52.710Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 17,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.962Z"
       }
     },
     "levien-com-type-myfonts-inconsolata": {
@@ -2237,7 +2317,10 @@
         "updatedAt": "2026-10-20T21:00:52.742Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 5,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.964Z"
       }
     },
     "adelfaure-net-tools-jgs": {
@@ -2257,7 +2340,10 @@
         "updatedAt": "2026-10-20T21:00:53.215Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 8,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.966Z"
       }
     },
     "madmalik-github-io-mononoki": {
@@ -2277,7 +2363,10 @@
         "updatedAt": "2026-10-20T21:00:53.256Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 5,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.968Z"
       }
     },
     "lexend-com": {
@@ -2298,7 +2387,10 @@
         "updatedAt": "2026-10-20T21:00:53.730Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 12,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.970Z"
       }
     },
     "departuremono-com": {
@@ -2318,7 +2410,10 @@
         "updatedAt": "2026-10-20T21:00:54.076Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 10,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.971Z"
       }
     },
     "area-font-eu": {
@@ -2338,7 +2433,10 @@
         "updatedAt": "2026-10-20T21:00:54.307Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 13,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.973Z"
       }
     },
     "tiktok-com-font": {
@@ -2358,7 +2456,10 @@
         "updatedAt": "2026-10-20T21:00:54.587Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 10,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.975Z"
       }
     },
     "apoc-font-eu": {
@@ -2379,7 +2480,10 @@
         "updatedAt": "2026-10-20T21:00:55.021Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 18,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.977Z"
       }
     },
     "fictional-typeface-com": {
@@ -2400,7 +2504,10 @@
         "updatedAt": "2026-10-20T21:00:55.112Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 7,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.979Z"
       }
     },
     "scenik-frostype-xyz": {
@@ -2422,7 +2529,10 @@
         "updatedAt": "2026-10-20T21:00:55.144Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 15,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.981Z"
       }
     },
     "calhern-frostype-xyz": {
@@ -2443,7 +2553,10 @@
         "updatedAt": "2026-10-20T21:00:56.784Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 21,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.984Z"
       }
     },
     "logical-family": {
@@ -2463,7 +2576,10 @@
         "updatedAt": "2026-10-20T21:00:57.227Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 13,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.986Z"
       }
     },
     "biceps-togetherwithyou-co": {
@@ -2483,7 +2599,10 @@
         "updatedAt": "2026-10-20T21:00:58.303Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 9,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.988Z"
       }
     },
     "almnt-github-io-crimsonpro-microsite": {
@@ -2503,7 +2622,10 @@
         "updatedAt": "2026-10-20T21:00:58.880Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 13,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.989Z"
       }
     },
     "rt-alias-com": {
@@ -2523,7 +2645,10 @@
         "updatedAt": "2026-10-20T21:00:59.745Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 10,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.992Z"
       }
     },
     "etna-marksimonson-com": {
@@ -2543,7 +2668,10 @@
         "updatedAt": "2026-10-20T21:00:59.780Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 4,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.993Z"
       }
     },
     "isolation-abc-xyz": {
@@ -2563,7 +2691,10 @@
         "updatedAt": "2026-10-20T21:00:59.892Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 12,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.995Z"
       }
     },
     "rsms-me-inter": {
@@ -2583,7 +2714,10 @@
         "updatedAt": "2026-10-20T21:01:00.429Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 13,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.997Z"
       }
     },
     "justfont-com-huninn": {
@@ -2603,7 +2737,10 @@
         "updatedAt": "2026-10-20T21:01:00.795Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 12,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:12.999Z"
       }
     },
     "github-com-mona-sans": {
@@ -2623,7 +2760,10 @@
         "updatedAt": "2026-10-20T21:01:01.206Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 12,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:13.001Z"
       }
     },
     "ibm-com-plex": {
@@ -2644,7 +2784,10 @@
         "updatedAt": "2026-10-20T21:01:01.324Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 7,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:13.003Z"
       }
     },
     "source-typekit-com-source-han-serif": {
@@ -2664,7 +2807,10 @@
         "updatedAt": "2026-10-20T21:01:01.680Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 12,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:13.005Z"
       }
     },
     "tokotype-github-io-plusjakarta-sans": {
@@ -2685,7 +2831,10 @@
         "updatedAt": "2026-10-20T21:01:01.778Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 7,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T23:13:13.007Z"
       }
     },
     "overpassfont-org": {

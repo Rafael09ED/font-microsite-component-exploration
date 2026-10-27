@@ -14,6 +14,7 @@ Sample: 3 blocks from 3 sites.
 | [script-catalogue](#script-catalogue) | 0 | Each supported script named in its own script at display size, in a grid, with style counts and notes on how it was made. | Кирилиця, Ελληνικά, عربي as headings |
 | [language-name-list](#language-name-list) | 0 | The supported languages listed by name, as small running text, columns, or a per-script table with credits and style counts; the list is the proof. | long alphabetical list of language names |
 | [language-profile](#language-profile) | 0 | A deep dive into the one language the family was designed for: special characters with Unicode and keyboard notes, a map, the alphabet and a sample text. | map, alphabet, single-language focus |
+| [translated-word-picker](#translated-word-picker) | 0 | A wheel or list of language names beside one giant word; picking a language swaps the word for its translation. | language list + one big word |
 
 ## Rubric
 
@@ -79,5 +80,13 @@ _No instance in the sample yet._
 A deep dive into the one language the family was designed for: special characters with Unicode and keyboard notes, a map, the alphabet and a sample text.
 
 **Recognise by:** map, alphabet, single-language focus
+
+_No instance in the sample yet._
+
+## translated-word-picker
+
+A wheel or list of language names beside one giant word; picking a language swaps the word for its translation.
+
+**Recognise by:** language list + one big word
 
 _No instance in the sample yet._

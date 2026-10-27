@@ -11,6 +11,8 @@ Sample: 1 blocks from 1 sites.
 | [scroll-scrubbed-sequence](#scroll-scrubbed-sequence) | 1 | A pinned, scroll-scrubbed animation (pre-rendered frame sequence or illustration, e.g. doors opening, an object turning or releasing letters) between sections, with little or no text. | sticky stage, image changes with scroll |
 | [chapter-title-overlay](#chapter-title-overlay) | 0 | A fixed full-screen overlay flashing the chapter number or name in giant type each time a chapter scrolls in, then fading. | giant blended numerals over content |
 | [full-bleed-image](#full-bleed-image) | 0 | A full-viewport image without text (close-up of the source or of the letters) as a pause between chapters. | one photo, no text |
+| [annotated-spacer](#annotated-spacer) | 0 | Empty bands of the page's visible grid between sections, each labelled with a technical note. | grid cells with small labels, no content |
+| [ghost-marquee](#ghost-marquee) | 0 | One sentence from nearby copy, set near viewport height in a very pale tint, scrolling sideways as an endless band between sections. | huge pale marquee text |
 
 ## scroll-scrubbed-sequence
 
@@ -35,5 +37,21 @@ _No instance in the sample yet._
 A full-viewport image without text (close-up of the source or of the letters) as a pause between chapters.
 
 **Recognise by:** one photo, no text
+
+_No instance in the sample yet._
+
+## annotated-spacer
+
+Empty bands of the page's visible grid between sections, each labelled with a technical note.
+
+**Recognise by:** grid cells with small labels, no content
+
+_No instance in the sample yet._
+
+## ghost-marquee
+
+One sentence from nearby copy, set near viewport height in a very pale tint, scrolling sideways as an endless band between sections.
+
+**Recognise by:** huge pale marquee text
 
 _No instance in the sample yet._
