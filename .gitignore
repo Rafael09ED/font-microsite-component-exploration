@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Phase 1 archive: large (~1.3 GB), regenerable with `npm run archive && npm run blocks`.
+# Holds rendered DOM, screenshots, scroll videos and block crops of third-party sites.
+archive/
+
+# Run logs
+*.log
+
+# Playwright: CLI session output (may contain credentials) and test artefacts
+.playwright-cli/
+test-results/
+playwright-report/
+blob-report/
+
+# Font files: never commit (font URLs only, see CLAUDE.md)
+*.otf
+*.ttf
+*.woff
+*.woff2
+*.eot
+
+# Local Claude Code settings (shared settings and skills in .claude/ are committed)
+.claude/settings.local.json
+
+# Secrets
+.env
+.env.*
+
+# OS and editor files
+*:Zone.Identifier
+*.Zone.Identifier
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~

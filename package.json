@@ -1,0 +1,27 @@
+{
+  "name": "font-microsite-component-exploration",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "seed": "node scripts/seed.mjs",
+    "archive": "node scripts/archive.mjs",
+    "progress": "node scripts/progress.mjs",
+    "blocks": "node scripts/blocks.mjs",
+    "sample": "node scripts/sample.mjs",
+    "labels": "node scripts/labels.mjs",
+    "qa": "node scripts/qa.mjs",
+    "cluster": "node scripts/cluster.mjs",
+    "patterns": "node scripts/patterns.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "private": true,
+  "devDependencies": {
+    "@playwright/cli": "^0.1.22",
+    "cheerio": "^1.2.0",
+    "playwright": "^1.64.0-alpha-1790635538000",
+    "sharp": "^0.35.5"
+  }
+}
