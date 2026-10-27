@@ -1,0 +1,3366 @@
+{
+  "slug": "monolisa-dev",
+  "url": "https://www.monolisa.dev",
+  "pageHeight": 20977,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "monolisa-dev#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2) > main > div:nth-of-type(2)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv7h",
+        "_9xgetv7m",
+        "_9xgetv8p",
+        "_9xgetv8u",
+        "_9xgetv4x"
+      ],
+      "box": {
+        "x": 100,
+        "y": 86,
+        "w": 1240,
+        "h": 329
+      },
+      "headings": [
+        "MonoLisa _",
+        "font follows function _"
+      ],
+      "parentHeadings": null,
+      "textPreview": "MonoLisa _ font follows function _",
+      "fontFamilies": [
+        "MonoLisaCode"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.004,
+        "heightVh": 0.312,
+        "widthRatio": 0.861,
+        "text": 3.555,
+        "elements": 2.485,
+        "headings": 2,
+        "fontSizes": 2,
+        "maxFontVw": 0.1,
+        "singleChar": 1.099,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/00.html"
+    },
+    {
+      "id": "monolisa-dev#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2) > main > div:nth-of-type(3)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv7h",
+        "_9xgetv7m",
+        "_9xgetv8p",
+        "_9xgetv8u",
+        "_9xgetv4x"
+      ],
+      "box": {
+        "x": 100,
+        "y": 415,
+        "w": 1240,
+        "h": 178
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "A typeface built for you, the developers and creatives, Monolisa improves code legibility and provides a clear sans serif for all design tasks.",
+      "fontFamilies": [
+        "MonoLisaText"
+      ],
+      "maxFontSizePx": 27,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.03,
+        "relY": 0.02,
+        "heightVh": 0.18,
+        "widthRatio": 0.861,
+        "text": 4.97,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.019,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/01.html"
+    },
+    {
+      "id": "monolisa-dev#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > main > section:nth-of-type(1)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetvs1"
+      ],
+      "box": {
+        "x": 0,
+        "y": 592,
+        "w": 1440,
+        "h": 146
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Get MonoLisa or try in the tester",
+      "fontFamilies": [
+        "MonoLisaText"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(225, 231, 238, 0.5)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.061,
+        "relY": 0.028,
+        "heightVh": 0.15,
+        "widthRatio": 1,
+        "text": 3.526,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.793,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/02.html"
+    },
+    {
+      "id": "monolisa-dev#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > main > section:nth-of-type(2)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvs1",
+        "testimonials-section",
+        "_10z6nt14"
+      ],
+      "box": {
+        "x": 0,
+        "y": 738,
+        "w": 1440,
+        "h": 475
+      },
+      "headings": [
+        "What Users Say"
+      ],
+      "parentHeadings": null,
+      "textPreview": "What Users Say Use script variant Gant Laborde CIO at Infinite Red As a consultant, an instructor, and a presenter, having a clean and engaging mono font is paramount, and MonoLisa delivers information perfectly to everyone without forgetti",
+      "fontFamilies": [
+        "MonoLisaText",
+        "Arial"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 1,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 26,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(225, 231, 238, 0.5)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.091,
+        "relY": 0.035,
+        "heightVh": 0.424,
+        "widthRatio": 1,
+        "text": 8.637,
+        "elements": 5.421,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0.693,
+        "buttons": 0,
+        "img": 3.296,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 4.007,
+        "bgLum": 0.793,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/03.html"
+    },
+    {
+      "id": "monolisa-dev#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#family > section:nth-of-type(1)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvp7",
+        "_9xgetvgl",
+        "_9xgetvgq"
+      ],
+      "box": {
+        "x": 22,
+        "y": 1225,
+        "w": 1397,
+        "h": 825
+      },
+      "headings": [
+        "MonoLisa Family",
+        "A perfect pairing for the AI era",
+        "Code Review Summary",
+        "Performance Improvements"
+      ],
+      "parentHeadings": [
+        "MonoLisa Family",
+        "A perfect pairing for the AI era",
+        "Code Review Summary",
+        "Performance Improvements"
+      ],
+      "textPreview": "MonoLisa Family Both MonoLisa Code and MonoLisa Text share the same design principles and characteristics that make MonoLisa exceptional: distinctive letterforms, carefully balanced spacing, and extensive language support. Whether you’re wr",
+      "fontFamilies": [
+        "MonoLisaText",
+        "MonoLisaCode",
+        "monospace"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.121,
+        "relY": 0.058,
+        "heightVh": 0.651,
+        "widthRatio": 0.97,
+        "text": 7.411,
+        "elements": 4.844,
+        "headings": 4,
+        "fontSizes": 6,
+        "maxFontVw": 0.025,
+        "singleChar": 3.829,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/04.html"
+    },
+    {
+      "id": "monolisa-dev#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#family > section:nth-of-type(2)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvp7",
+        "_9xgetvgl",
+        "_9xgetvgq"
+      ],
+      "box": {
+        "x": 22,
+        "y": 2071,
+        "w": 1397,
+        "h": 486
+      },
+      "headings": [
+        "Distinction"
+      ],
+      "parentHeadings": [
+        "MonoLisa Family",
+        "A perfect pairing for the AI era",
+        "Code Review Summary",
+        "Performance Improvements"
+      ],
+      "textPreview": "Code Text Distinction Distinction is critical for a good coding font since it reduces ambiguity and helps avoid mistakes that can lead to software bugs. MonoLisa’s glyphs fit perfectly together, but at the same time are distinct enough so y",
+      "fontFamilies": [
+        "MonoLisaText",
+        "Arial",
+        "MonoLisaCode"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.152,
+        "relY": 0.099,
+        "heightVh": 0.432,
+        "widthRatio": 0.97,
+        "text": 5.981,
+        "elements": 3.466,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.1,
+        "singleChar": 1.386,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/05.html"
+    },
+    {
+      "id": "monolisa-dev#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#family > section:nth-of-type(3)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvp7",
+        "_9xgetvgl",
+        "_9xgetvgq"
+      ],
+      "box": {
+        "x": 22,
+        "y": 2571,
+        "w": 1397,
+        "h": 432
+      },
+      "headings": [
+        ""
+      ],
+      "parentHeadings": [
+        "MonoLisa Family",
+        "A perfect pairing for the AI era",
+        "Code Review Summary",
+        "Performance Improvements"
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "MonoLisaText",
+        "Arial",
+        "MonoLisaCode"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.182,
+        "relY": 0.123,
+        "heightVh": 0.392,
+        "widthRatio": 0.97,
+        "text": 0,
+        "elements": 3.258,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.1,
+        "singleChar": 2.197,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/06.html"
+    },
+    {
+      "id": "monolisa-dev#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#family > section:nth-of-type(4)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvp7",
+        "_9xgetvgl",
+        "_9xgetvgq"
+      ],
+      "box": {
+        "x": 22,
+        "y": 3017,
+        "w": 1397,
+        "h": 465
+      },
+      "headings": [
+        ""
+      ],
+      "parentHeadings": [
+        "MonoLisa Family",
+        "A perfect pairing for the AI era",
+        "Code Review Summary",
+        "Performance Improvements"
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "MonoLisaText",
+        "Arial",
+        "MonoLisaCode"
+      ],
+      "maxFontSizePx": 54,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.212,
+        "relY": 0.144,
+        "heightVh": 0.417,
+        "widthRatio": 0.97,
+        "text": 0,
+        "elements": 3.258,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.037,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/07.html"
+    },
+    {
+      "id": "monolisa-dev#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#variable",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvp7",
+        "_9xgetvgl",
+        "_9xgetvgq"
+      ],
+      "box": {
+        "x": 22,
+        "y": 3500,
+        "w": 1397,
+        "h": 663
+      },
+      "headings": [
+        ""
+      ],
+      "parentHeadings": [
+        "MonoLisa Family",
+        "A perfect pairing for the AI era",
+        "Code Review Summary",
+        "Performance Improvements"
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "MonoLisaText",
+        "Arial",
+        "MonoLisaCode"
+      ],
+      "maxFontSizePx": 27,
+      "variationSettings": [
+        "\"GRAD\" 0",
+        "\"GRAD\" -50"
+      ],
+      "controls": {
+        "range": 2,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.242,
+        "relY": 0.167,
+        "heightVh": 0.552,
+        "widthRatio": 0.97,
+        "text": 0,
+        "elements": 3.555,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.019,
+        "singleChar": 0.693,
+        "varSettings": 2,
+        "range": 1.099,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/08.html"
+    },
+    {
+      "id": "monolisa-dev#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#family > section:nth-of-type(6)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvp7",
+        "_9xgetvgl",
+        "_9xgetvgq"
+      ],
+      "box": {
+        "x": 22,
+        "y": 4183,
+        "w": 1397,
+        "h": 597
+      },
+      "headings": [
+        ""
+      ],
+      "parentHeadings": [
+        "MonoLisa Family",
+        "A perfect pairing for the AI era",
+        "Code Review Summary",
+        "Performance Improvements"
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "MonoLisaText"
+      ],
+      "maxFontSizePx": 54,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.273,
+        "relY": 0.199,
+        "heightVh": 0.509,
+        "widthRatio": 0.97,
+        "text": 0,
+        "elements": 3.555,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.037,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/09.html"
+    },
+    {
+      "id": "monolisa-dev#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#family > section:nth-of-type(7)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvp7",
+        "_9xgetvgl",
+        "_9xgetvgq"
+      ],
+      "box": {
+        "x": 22,
+        "y": 4815,
+        "w": 1397,
+        "h": 1754
+      },
+      "headings": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "parentHeadings": [
+        "MonoLisa Family",
+        "A perfect pairing for the AI era",
+        "Code Review Summary",
+        "Performance Improvements"
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "MonoLisaText",
+        "Arial",
+        "MonoLisaCode"
+      ],
+      "maxFontSizePx": 54,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.303,
+        "relY": 0.23,
+        "heightVh": 1.081,
+        "widthRatio": 0.97,
+        "text": 0,
+        "elements": 5.677,
+        "headings": 4,
+        "fontSizes": 6,
+        "maxFontVw": 0.037,
+        "singleChar": 3.97,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/10.html"
+    },
+    {
+      "id": "monolisa-dev#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > main > section:nth-of-type(4)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetvs1"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6596,
+        "w": 1440,
+        "h": 146
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Get MonoLisa or try in the tester",
+      "fontFamilies": [
+        "MonoLisaText"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(225, 231, 238, 0.5)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.314,
+        "heightVh": 0.15,
+        "widthRatio": 1,
+        "text": 3.526,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.793,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/11.html"
+    },
+    {
+      "id": "monolisa-dev#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > main > section:nth-of-type(5)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvs1",
+        "testimonials-section",
+        "_10z6nt14"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6742,
+        "w": 1440,
+        "h": 475
+      },
+      "headings": [
+        "What Users Say"
+      ],
+      "parentHeadings": null,
+      "textPreview": "What Users Say Use script variant Gant Laborde CIO at Infinite Red As a consultant, an instructor, and a presenter, having a clean and engaging mono font is paramount, and MonoLisa delivers information perfectly to everyone without forgetti",
+      "fontFamilies": [
+        "MonoLisaText",
+        "Arial"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 1,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 26,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(225, 231, 238, 0.5)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.364,
+        "relY": 0.321,
+        "heightVh": 0.424,
+        "widthRatio": 1,
+        "text": 8.637,
+        "elements": 5.421,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0.693,
+        "buttons": 0,
+        "img": 3.296,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 4.007,
+        "bgLum": 0.793,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/12.html"
+    },
+    {
+      "id": "monolisa-dev#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#code > div:nth-of-type(1)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv52",
+        "_9xgetv65",
+        "_9xgetv6a",
+        "_9xgetvp7"
+      ],
+      "box": {
+        "x": 22,
+        "y": 7453,
+        "w": 1397,
+        "h": 450
+      },
+      "headings": [
+        ""
+      ],
+      "parentHeadings": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "MonoLisaText",
+        "MonoLisaCode"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.394,
+        "relY": 0.355,
+        "heightVh": 0.405,
+        "widthRatio": 0.97,
+        "text": 0,
+        "elements": 2.89,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.1,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/13.html"
+    },
+    {
+      "id": "monolisa-dev#14",
+      "nn": "14",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#code > div:nth-of-type(2)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv52",
+        "_9xgetv65",
+        "_9xgetv6a",
+        "_9xgetvp7"
+      ],
+      "box": {
+        "x": 22,
+        "y": 7916,
+        "w": 1397,
+        "h": 395
+      },
+      "headings": [
+        ""
+      ],
+      "parentHeadings": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "MonoLisaText",
+        "MonoLisaCode"
+      ],
+      "maxFontSizePx": 27,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 4,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.424,
+        "relY": 0.377,
+        "heightVh": 0.364,
+        "widthRatio": 0.97,
+        "text": 0,
+        "elements": 2.996,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.019,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.609,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/14.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/14.html"
+    },
+    {
+      "id": "monolisa-dev#15",
+      "nn": "15",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#code > div:nth-of-type(3)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv52",
+        "_9xgetv65",
+        "_9xgetv6a",
+        "_9xgetvp7"
+      ],
+      "box": {
+        "x": 22,
+        "y": 8325,
+        "w": 1397,
+        "h": 531
+      },
+      "headings": [
+        ""
+      ],
+      "parentHeadings": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "MonoLisaText",
+        "MonoLisaCode"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.455,
+        "relY": 0.397,
+        "heightVh": 0.464,
+        "widthRatio": 0.97,
+        "text": 0,
+        "elements": 2.197,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.1,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/15.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/15.html"
+    },
+    {
+      "id": "monolisa-dev#16",
+      "nn": "16",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#code > section:nth-of-type(2)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvp7",
+        "_9xgetvgl",
+        "_9xgetvgq"
+      ],
+      "box": {
+        "x": 22,
+        "y": 8877,
+        "w": 1397,
+        "h": 802
+      },
+      "headings": [
+        ""
+      ],
+      "parentHeadings": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "MonoLisaText",
+        "MonoLisaCode",
+        "Arial"
+      ],
+      "maxFontSizePx": 72,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.485,
+        "relY": 0.423,
+        "heightVh": 0.637,
+        "widthRatio": 0.97,
+        "text": 0,
+        "elements": 3.555,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.05,
+        "singleChar": 2.398,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/16.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/16.html"
+    },
+    {
+      "id": "monolisa-dev#17",
+      "nn": "17",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#code > section:nth-of-type(3)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvp7",
+        "_9xgetvgl",
+        "_9xgetvgq"
+      ],
+      "box": {
+        "x": 22,
+        "y": 9720,
+        "w": 1397,
+        "h": 1879
+      },
+      "headings": [
+        ""
+      ],
+      "parentHeadings": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "MonoLisaText",
+        "MonoLisaCode",
+        "Arial"
+      ],
+      "maxFontSizePx": 27,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 12,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.515,
+        "relY": 0.463,
+        "heightVh": 1.127,
+        "widthRatio": 0.97,
+        "text": 0,
+        "elements": 6.926,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.019,
+        "singleChar": 4.727,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 2.565,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/17.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/17.html"
+    },
+    {
+      "id": "monolisa-dev#18",
+      "nn": "18",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#code > section:nth-of-type(4)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvp7",
+        "_9xgetvgl",
+        "_9xgetvgq"
+      ],
+      "box": {
+        "x": 22,
+        "y": 11642,
+        "w": 1397,
+        "h": 886
+      },
+      "headings": [
+        ""
+      ],
+      "parentHeadings": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "MonoLisaText",
+        "monospace",
+        "MonoLisaCode"
+      ],
+      "maxFontSizePx": 27,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.545,
+        "relY": 0.555,
+        "heightVh": 0.685,
+        "widthRatio": 0.97,
+        "text": 0,
+        "elements": 4.836,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.019,
+        "singleChar": 3.219,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/18.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/18.html"
+    },
+    {
+      "id": "monolisa-dev#19",
+      "nn": "19",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#code > section:nth-of-type(5)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvp7",
+        "_9xgetvgl",
+        "_9xgetvgq"
+      ],
+      "box": {
+        "x": 22,
+        "y": 12557,
+        "w": 1397,
+        "h": 1029
+      },
+      "headings": [
+        "Try MonoLisa Code"
+      ],
+      "parentHeadings": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "textPreview": "Try MonoLisa Code Choose an example JavaScript CSS Java PHP Python Reason Markdown Size 15px Weight 400 Grade 0 OpenType ▼ Reset /** * JSDoc example * @param {Object} block - The block to be processed. * @param {string} cls - The class name",
+      "fontFamilies": [
+        "MonoLisaText",
+        "Arial",
+        "MonoLisaCode"
+      ],
+      "maxFontSizePx": 27,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 3,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 7,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.576,
+        "relY": 0.599,
+        "heightVh": 0.762,
+        "widthRatio": 0.97,
+        "text": 6.551,
+        "elements": 5.602,
+        "headings": 1,
+        "fontSizes": 6,
+        "maxFontVw": 0.019,
+        "singleChar": 4.454,
+        "varSettings": 1,
+        "range": 1.386,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 1.099,
+        "img": 0,
+        "svg": 2.079,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/19.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/19.html"
+    },
+    {
+      "id": "monolisa-dev#20",
+      "nn": "20",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > main > section:nth-of-type(7)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetvs1"
+      ],
+      "box": {
+        "x": 0,
+        "y": 13602,
+        "w": 1440,
+        "h": 146
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Get MonoLisa or try in the tester",
+      "fontFamilies": [
+        "MonoLisaText"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(225, 231, 238, 0.5)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.606,
+        "relY": 0.648,
+        "heightVh": 0.15,
+        "widthRatio": 1,
+        "text": 3.526,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.793,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/20.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/20.html"
+    },
+    {
+      "id": "monolisa-dev#21",
+      "nn": "21",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > main > section:nth-of-type(8)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvs1",
+        "testimonials-section",
+        "_10z6nt14"
+      ],
+      "box": {
+        "x": 0,
+        "y": 13748,
+        "w": 1440,
+        "h": 475
+      },
+      "headings": [
+        "What Users Say"
+      ],
+      "parentHeadings": null,
+      "textPreview": "What Users Say Use script variant Gant Laborde CIO at Infinite Red As a consultant, an instructor, and a presenter, having a clean and engaging mono font is paramount, and MonoLisa delivers information perfectly to everyone without forgetti",
+      "fontFamilies": [
+        "MonoLisaText",
+        "Arial"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 1,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 26,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(225, 231, 238, 0.5)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.636,
+        "relY": 0.655,
+        "heightVh": 0.424,
+        "widthRatio": 1,
+        "text": 8.637,
+        "elements": 5.421,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0.693,
+        "buttons": 0,
+        "img": 3.296,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 4.007,
+        "bgLum": 0.793,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/21.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/21.html"
+    },
+    {
+      "id": "monolisa-dev#22",
+      "nn": "22",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#text > section:nth-of-type(1)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvp7",
+        "_9xgetvgl",
+        "_9xgetvgq"
+      ],
+      "box": {
+        "x": 22,
+        "y": 14245,
+        "w": 1397,
+        "h": 1459
+      },
+      "headings": [
+        "",
+        ""
+      ],
+      "parentHeadings": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "MonoLisaText"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.679,
+        "heightVh": 0.964,
+        "widthRatio": 0.97,
+        "text": 0,
+        "elements": 2.485,
+        "headings": 2,
+        "fontSizes": 3,
+        "maxFontVw": 0.025,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/22.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/22.html"
+    },
+    {
+      "id": "monolisa-dev#23",
+      "nn": "23",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#text > div",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv52",
+        "_9xgetv65",
+        "_9xgetv6a",
+        "_9xgetvp7"
+      ],
+      "box": {
+        "x": 22,
+        "y": 15735,
+        "w": 1397,
+        "h": 535
+      },
+      "headings": [
+        ""
+      ],
+      "parentHeadings": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "MonoLisaText"
+      ],
+      "maxFontSizePx": 70,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.697,
+        "relY": 0.75,
+        "heightVh": 0.467,
+        "widthRatio": 0.97,
+        "text": 0,
+        "elements": 3.258,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.049,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/23.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/23.html"
+    },
+    {
+      "id": "monolisa-dev#24",
+      "nn": "24",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#text > section:nth-of-type(2)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvp7",
+        "_9xgetvgl",
+        "_9xgetvgq"
+      ],
+      "box": {
+        "x": 22,
+        "y": 16291,
+        "w": 1397,
+        "h": 815
+      },
+      "headings": [
+        ""
+      ],
+      "parentHeadings": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "MonoLisaText",
+        "Arial"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 6,
+        "text": 0,
+        "contenteditable": 2,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 4,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.727,
+        "relY": 0.777,
+        "heightVh": 0.645,
+        "widthRatio": 0.97,
+        "text": 0,
+        "elements": 3.912,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.033,
+        "singleChar": 1.099,
+        "varSettings": 1,
+        "range": 1.946,
+        "textInput": 1.099,
+        "toggles": 0,
+        "buttons": 1.609,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/24.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/24.html"
+    },
+    {
+      "id": "monolisa-dev#25",
+      "nn": "25",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#text > section:nth-of-type(3)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvp7",
+        "_9xgetvgl",
+        "_9xgetvgq"
+      ],
+      "box": {
+        "x": 22,
+        "y": 17136,
+        "w": 1397,
+        "h": 1063
+      },
+      "headings": [
+        ""
+      ],
+      "parentHeadings": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "MonoLisaText"
+      ],
+      "maxFontSizePx": 27,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(240, 244, 248)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.758,
+        "relY": 0.817,
+        "heightVh": 0.78,
+        "widthRatio": 0.97,
+        "text": 0,
+        "elements": 2.639,
+        "headings": 1,
+        "fontSizes": 1,
+        "maxFontVw": 0.019,
+        "singleChar": 1.386,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 1.099,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.9,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/25.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/25.html"
+    },
+    {
+      "id": "monolisa-dev#26",
+      "nn": "26",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > main > section:nth-of-type(10)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetvs1"
+      ],
+      "box": {
+        "x": 0,
+        "y": 18215,
+        "w": 1440,
+        "h": 146
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Get MonoLisa or try in the tester",
+      "fontFamilies": [
+        "MonoLisaText"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(225, 231, 238, 0.5)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.788,
+        "relY": 0.868,
+        "heightVh": 0.15,
+        "widthRatio": 1,
+        "text": 3.526,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.793,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/26.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/26.html"
+    },
+    {
+      "id": "monolisa-dev#27",
+      "nn": "27",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > main > section:nth-of-type(11)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvs1",
+        "testimonials-section",
+        "_10z6nt14"
+      ],
+      "box": {
+        "x": 0,
+        "y": 18360,
+        "w": 1440,
+        "h": 475
+      },
+      "headings": [
+        "What Users Say"
+      ],
+      "parentHeadings": null,
+      "textPreview": "What Users Say Use script variant Gant Laborde CIO at Infinite Red As a consultant, an instructor, and a presenter, having a clean and engaging mono font is paramount, and MonoLisa delivers information perfectly to everyone without forgetti",
+      "fontFamilies": [
+        "MonoLisaText",
+        "Arial"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 1,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 26,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(225, 231, 238, 0.5)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.818,
+        "relY": 0.875,
+        "heightVh": 0.424,
+        "widthRatio": 1,
+        "text": 8.637,
+        "elements": 5.421,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0.693,
+        "buttons": 0,
+        "img": 3.296,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 4.007,
+        "bgLum": 0.793,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/27.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/27.html"
+    },
+    {
+      "id": "monolisa-dev#28",
+      "nn": "28",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2) > main > div:nth-of-type(4)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv7h",
+        "_9xgetv7m",
+        "_9xgetv8p",
+        "_9xgetv8u",
+        "_9xgetv51"
+      ],
+      "box": {
+        "x": 100,
+        "y": 18835,
+        "w": 1240,
+        "h": 232
+      },
+      "headings": [
+        "Stay up to date with MonoLisa"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Stay up to date with MonoLisa Only typeface updates, by email. Unsubscribe at any time. Subscribe for updates",
+      "fontFamilies": [
+        "MonoLisaText"
+      ],
+      "maxFontSizePx": 27,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": true,
+        "price": false
+      },
+      "vector": {
+        "order": 0.848,
+        "relY": 0.898,
+        "heightVh": 0.229,
+        "widthRatio": 0.861,
+        "text": 4.718,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.019,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/28.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/28.html"
+    },
+    {
+      "id": "monolisa-dev#29",
+      "nn": "29",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2) > main > div:nth-of-type(5)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv7h",
+        "_9xgetv7m",
+        "_9xgetv8p",
+        "_9xgetv8u",
+        "_9xgetv4x"
+      ],
+      "box": {
+        "x": 100,
+        "y": 19067,
+        "w": 1240,
+        "h": 729
+      },
+      "headings": [
+        "The Team"
+      ],
+      "parentHeadings": null,
+      "textPreview": "The Team Marcus Sterz Typeface Designer Juho Vepsäläinen Expertise, Marketing Andrey Okonetchnikov Expertise, Website MonoLisa is designed by Marcus Sterz, a professional typeface designer and co-founder of FaceType foundry, in collaboratio",
+      "fontFamilies": [
+        "MonoLisaText"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.879,
+        "relY": 0.909,
+        "heightVh": 0.593,
+        "widthRatio": 0.861,
+        "text": 6.159,
+        "elements": 3.367,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.025,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.386,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.485,
+        "bgLum": -1,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/29.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/29.html"
+    },
+    {
+      "id": "monolisa-dev#30",
+      "nn": "30",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#buy",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv7h",
+        "_9xgetv7m",
+        "_9xgetv8p",
+        "_9xgetv8u",
+        "_9xgetv4x"
+      ],
+      "box": {
+        "x": 100,
+        "y": 19796,
+        "w": 1240,
+        "h": 349
+      },
+      "headings": [
+        "Get MonoLisa",
+        "Trial",
+        "Developer",
+        "Creator"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Get MonoLisa Trial Try a limited version of MonoLisa on your computer. Free → Developer BEST VALUE MonoLisa Code with all its features. $149.00 → Creator CUSTOM LICENSE Includes MonoLisa superfamily (Code + Text). $49.00 / weight →",
+      "fontFamilies": [
+        "MonoLisaText"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": true
+      },
+      "vector": {
+        "order": 0.909,
+        "relY": 0.944,
+        "heightVh": 0.328,
+        "widthRatio": 0.861,
+        "text": 5.472,
+        "elements": 3.689,
+        "headings": 4,
+        "fontSizes": 5,
+        "maxFontVw": 0.025,
+        "singleChar": 1.386,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/30.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/30.html"
+    },
+    {
+      "id": "monolisa-dev#31",
+      "nn": "31",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2) > main > div:nth-of-type(7)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv7h",
+        "_9xgetv7m",
+        "_9xgetv8p",
+        "_9xgetv8u",
+        "_9xgetv4x"
+      ],
+      "box": {
+        "x": 100,
+        "y": 20145,
+        "w": 1240,
+        "h": 149
+      },
+      "headings": [
+        "License",
+        "For students"
+      ],
+      "parentHeadings": null,
+      "textPreview": "License By purchasing and downloading the font you’re agreeing to the EULA and our Refund Policy. For students To apply for a student discount (basic version only), send proof of your student status to our email and we’ll see what we can do",
+      "fontFamilies": [
+        "MonoLisaText"
+      ],
+      "maxFontSizePx": 14,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": true,
+        "price": false
+      },
+      "vector": {
+        "order": 0.939,
+        "relY": 0.96,
+        "heightVh": 0.153,
+        "widthRatio": 0.861,
+        "text": 5.673,
+        "elements": 2.565,
+        "headings": 2,
+        "fontSizes": 2,
+        "maxFontVw": 0.009,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/31.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/31.html"
+    },
+    {
+      "id": "monolisa-dev#32",
+      "nn": "32",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > main > section:nth-of-type(12)",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv4x",
+        "_9xgetv65",
+        "_9xgetvs1",
+        "testimonials-section",
+        "_10z6nt14"
+      ],
+      "box": {
+        "x": 0,
+        "y": 20293,
+        "w": 1440,
+        "h": 475
+      },
+      "headings": [
+        "What Users Say"
+      ],
+      "parentHeadings": null,
+      "textPreview": "What Users Say Use script variant Gant Laborde CIO at Infinite Red As a consultant, an instructor, and a presenter, having a clean and engaging mono font is paramount, and MonoLisa delivers information perfectly to everyone without forgetti",
+      "fontFamilies": [
+        "MonoLisaText",
+        "Arial"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 1,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 26,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(225, 231, 238, 0.5)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.97,
+        "relY": 0.967,
+        "heightVh": 0.424,
+        "widthRatio": 1,
+        "text": 8.637,
+        "elements": 5.421,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0.693,
+        "buttons": 0,
+        "img": 3.296,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 4.007,
+        "bgLum": 0.793,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/32.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/32.html"
+    },
+    {
+      "id": "monolisa-dev#33",
+      "nn": "33",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > div:nth-of-type(2) > footer",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetv65",
+        "_9xgetvyd",
+        "_9xgetv11p",
+        "_9xgetv151",
+        "_9xgetv18d"
+      ],
+      "box": {
+        "x": 0,
+        "y": 20768,
+        "w": 1440,
+        "h": 209
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Get MonoLisa Tester Specimen Releases FAQ My orders Send feedback Follow on Twitter Subscribe for updates License Refund Policy Privacy Policy Cookie Policy Imprint © FaceType, 2026 Made in Vienna by Component-Driven",
+      "fontFamilies": [
+        "MonoLisaText"
+      ],
+      "maxFontSizePx": 14,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": true,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.99,
+        "heightVh": 0.209,
+        "widthRatio": 1,
+        "text": 5.389,
+        "elements": 3.526,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.009,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.944,
+        "bgLum": -1,
+        "fgLum": 0.026
+      },
+      "crop": "archive/monolisa-dev/blocks/33.jpg",
+      "cropTruncated": false,
+      "html": "archive/monolisa-dev/blocks/33.html"
+    },
+    {
+      "id": "monolisa-dev#34",
+      "nn": "34",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "header",
+      "selector": "body > div:nth-of-type(2) > header",
+      "classes": [
+        "_9xgetv0",
+        "_9xgetvyd",
+        "_9xgetv11p",
+        "_9xgetv151",
+        "_9xgetv18d",
+        "_9xgetv5"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 48
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "../ TESTER SPECIMEN POSTS RELEASES FAQ MY ORDERS GET MONOLISA",
+      "fontFamilies": [
+        "MonoLisaText",
+        "Arial"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"GRAD\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(26, 46, 66)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.03,
+        "relY": 0,
+        "heightVh": 0.052,
+        "widthRatio": 1,
+        "text": 4.127,
+        "elements": 3.045,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.099,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.197,
+        "bgLum": -1,
+        "fgLum": 0.026
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/monolisa-dev/blocks/34.html"
+    }
+  ]
+}

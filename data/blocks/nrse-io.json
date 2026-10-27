@@ -1,0 +1,269 @@
+{
+  "slug": "nrse-io",
+  "url": "https://www.nrse.io",
+  "pageHeight": 3797,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "nrse-io#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "article",
+      "selector": "body > article",
+      "classes": [
+        "w-100",
+        "contain",
+        "bg-top"
+      ],
+      "box": {
+        "x": 0,
+        "y": 128,
+        "w": 1440,
+        "h": 970
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Norse Sans Norse Sans Norse Sans Norse Sans Norse Sans Norse Sans Norse Sans Norse Sans Norse Sans Norse Sans Norse Sans Norse Sans Norse Sans Norse Sans Norse Sans Norse Sans Norse Sans Norse Sans Impressive language support — Château ∞ d’",
+      "fontFamilies": [
+        "norse"
+      ],
+      "maxFontSizePx": 60,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.034,
+        "heightVh": 0.731,
+        "widthRatio": 1,
+        "text": 7.728,
+        "elements": 5.533,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.042,
+        "singleChar": 4.977,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.006
+      },
+      "crop": "archive/nrse-io/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/nrse-io/blocks/00.html"
+    },
+    {
+      "id": "nrse-io#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(1)",
+      "classes": [
+        "row",
+        "z-1",
+        "relative"
+      ],
+      "box": {
+        "x": 150,
+        "y": 1226,
+        "w": 1140,
+        "h": 2507
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "NOR A typeface for the modern world. An exciting combo between grotesque principles and legibility. SE Norse really shines when small due to it's spacious layout of shapes rendering it ideal for body text. But sports enough pizzazz to be us",
+      "fontFamilies": [
+        "norse"
+      ],
+      "maxFontSizePx": 96,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.323,
+        "heightVh": 1.331,
+        "widthRatio": 0.792,
+        "text": 6.735,
+        "elements": 6.14,
+        "headings": 0,
+        "fontSizes": 5,
+        "maxFontVw": 0.067,
+        "singleChar": 5.231,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0.006
+      },
+      "crop": "archive/nrse-io/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/nrse-io/blocks/01.html"
+    },
+    {
+      "id": "nrse-io#02",
+      "nn": "02",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "nav",
+      "selector": "body > nav",
+      "classes": [
+        "fixed",
+        "w-100",
+        "top-0",
+        "left-0",
+        "bg-whisper",
+        "z-5"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 77
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Norse Sans Typeface Purchase Norse →",
+      "fontFamilies": [
+        "norse"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(246, 243, 249)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 2,
+        "relY": 0,
+        "heightVh": 0.082,
+        "widthRatio": 1,
+        "text": 3.611,
+        "elements": 1.946,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.905,
+        "fgLum": 0.006
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/nrse-io/blocks/02.html"
+    }
+  ]
+}

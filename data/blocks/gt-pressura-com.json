@@ -1,0 +1,1165 @@
+{
+  "slug": "gt-pressura-com",
+  "url": "https://www.gt-pressura.com",
+  "pageHeight": 23767,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "gt-pressura-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": true,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(1)",
+      "classes": [
+        "bg-red",
+        "text-black"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 2073
+      },
+      "headings": [
+        "GT Pressura Refreshed"
+      ],
+      "parentHeadings": null,
+      "textPreview": "GT Pressura Refreshed GT Pressura uses the visual gesture of ink spreading under pressure as a stylistic device, bringing the warmth of analog print back to the digital design space. Available exclusively at Grilli Type, now with extended w",
+      "fontFamilies": [
+        "GT Pressura Proportional",
+        "GT Pressura Mono"
+      ],
+      "maxFontSizePx": 432,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 700",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 500",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 500",
+        "\"ital\" 0, \"wght\" 500",
+        "\"ital\" 0, \"wght\" 300",
+        "\"ital\" 1, \"wght\" 300",
+        "\"ital\" 0, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(253, 66, 56)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 1.195,
+        "widthRatio": 1,
+        "text": 6.286,
+        "elements": 4.331,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.3,
+        "singleChar": 1.386,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.251,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-pressura-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-pressura-com/blocks/00.html"
+    },
+    {
+      "id": "gt-pressura-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(1)",
+      "classes": [
+        "content",
+        "grid",
+        "pt-9"
+      ],
+      "box": {
+        "x": 225,
+        "y": 2073,
+        "w": 990,
+        "h": 1600
+      },
+      "headings": [
+        "Constructing History"
+      ],
+      "parentHeadings": [
+        "Constructing History",
+        "Setting the Standard",
+        "Mono Mechanics",
+        "Extended Efforts"
+      ],
+      "textPreview": "Constructing History GT Pressura draws inspiration from conceptual art and Constructivist aesthetics. In 2008, Marc Kappeler and Dominik Huber began designing GT Pressura. The designers of Moiré (a Zurich-based graphic design studio) needed",
+      "fontFamilies": [
+        "GT Pressura Proportional",
+        "GT Pressura Mono"
+      ],
+      "maxFontSizePx": 170,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 700",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 500",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.111,
+        "relY": 0.087,
+        "heightVh": 1.022,
+        "widthRatio": 0.688,
+        "text": 6.672,
+        "elements": 3.761,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.118,
+        "singleChar": 1.099,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-pressura-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-pressura-com/blocks/01.html"
+    },
+    {
+      "id": "gt-pressura-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1)",
+      "classes": [
+        "hidden",
+        "md:block",
+        "flex-col",
+        "mb-8",
+        "w-full"
+      ],
+      "box": {
+        "x": 225,
+        "y": 3673,
+        "w": 990,
+        "h": 640
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Setting the Standard",
+        "Mono Mechanics",
+        "Extended Efforts"
+      ],
+      "textPreview": "M ← → o ← → n ← → o ← → S ← → t ← → a ← → n ← → d ← → a ← → r ← → d ← → E ← → x ← → t ← → e ← → n ← → d ← → e ← → d ← →",
+      "fontFamilies": [
+        "GT Pressura Proportional",
+        "GT Pressura Mono"
+      ],
+      "maxFontSizePx": 202,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wght\" 500",
+        "\"wdth\" 100, \"wght\" 900",
+        "\"ital\" 0, \"wght\" 400",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 500",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 500",
+        "\"wdth\" 150, \"wght\" 900"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.222,
+        "relY": 0.155,
+        "heightVh": 0.537,
+        "widthRatio": 0.688,
+        "text": 5.288,
+        "elements": 4.489,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.14,
+        "singleChar": 3.045,
+        "varSettings": 7,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-pressura-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-pressura-com/blocks/02.html"
+    },
+    {
+      "id": "gt-pressura-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2)",
+      "classes": [
+        "col-span-12",
+        "grid",
+        "mb-6",
+        "md:mb-8"
+      ],
+      "box": {
+        "x": 225,
+        "y": 4413,
+        "w": 990,
+        "h": 746
+      },
+      "headings": [
+        "Setting the Standard"
+      ],
+      "parentHeadings": [
+        "Setting the Standard",
+        "Mono Mechanics",
+        "Extended Efforts"
+      ],
+      "textPreview": "Setting the Standard GT Pressura nods to industrial uses of type that were more for utility than anything else—like on shipping boxes, where condensed typography proved to be highly functional within limited space. GT Pressura’s narrow desi",
+      "fontFamilies": [
+        "GT Pressura Proportional"
+      ],
+      "maxFontSizePx": 60,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.186,
+        "heightVh": 0.604,
+        "widthRatio": 0.688,
+        "text": 6.1,
+        "elements": 6.513,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.042,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-pressura-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-pressura-com/blocks/03.html"
+    },
+    {
+      "id": "gt-pressura-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3)",
+      "classes": [
+        "col-span-12",
+        "grid",
+        "mb-6",
+        "md:mb-8"
+      ],
+      "box": {
+        "x": 225,
+        "y": 5259,
+        "w": 990,
+        "h": 595
+      },
+      "headings": [
+        "Mono Mechanics"
+      ],
+      "parentHeadings": [
+        "Setting the Standard",
+        "Mono Mechanics",
+        "Extended Efforts"
+      ],
+      "textPreview": "Mono Mechanics GT Pressura’s mechanic personality is packed tightly into this Mono version that’s based on typewriter style, emphasizing its warmth and regularity. The uppercase letters from the Standard width serve as the basis for an even",
+      "fontFamilies": [
+        "GT Pressura Proportional",
+        "GT Pressura Mono"
+      ],
+      "maxFontSizePx": 60,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 700",
+        "\"ital\" 0, \"wght\" 350",
+        "\"ital\" 0, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.444,
+        "relY": 0.221,
+        "heightVh": 0.507,
+        "widthRatio": 0.688,
+        "text": 5.948,
+        "elements": 4.043,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.042,
+        "singleChar": 1.099,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-pressura-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-pressura-com/blocks/04.html"
+    },
+    {
+      "id": "gt-pressura-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4)",
+      "classes": [
+        "col-span-12",
+        "grid",
+        "mb-6",
+        "md:mb-8"
+      ],
+      "box": {
+        "x": 225,
+        "y": 5953,
+        "w": 990,
+        "h": 719
+      },
+      "headings": [
+        "Extended Efforts"
+      ],
+      "parentHeadings": [
+        "Setting the Standard",
+        "Mono Mechanics",
+        "Extended Efforts"
+      ],
+      "textPreview": "Extended Efforts The Extended subfamily gives GT Pressura room to breathe, embracing a more organic rhythm with a variety of character widths. In its departure from GT Pressura’s strict beginnings, the type becomes more elegant and “more Sw",
+      "fontFamilies": [
+        "GT Pressura Proportional",
+        "GT Pressura Extended Anim",
+        "GT Pressura Mono"
+      ],
+      "maxFontSizePx": 83,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 700",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 350",
+        "\"wdth\" 106.037, \"wght\" 300",
+        "\"wdth\" 106.037, \"wght\" 350",
+        "\"wdth\" 106.037, \"wght\" 400",
+        "\"wdth\" 106.037, \"wght\" 500",
+        "\"wdth\" 106.037, \"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.556,
+        "relY": 0.25,
+        "heightVh": 0.587,
+        "widthRatio": 0.688,
+        "text": 6.267,
+        "elements": 3.178,
+        "headings": 1,
+        "fontSizes": 6,
+        "maxFontVw": 0.057,
+        "singleChar": 1.099,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-pressura-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-pressura-com/blocks/05.html"
+    },
+    {
+      "id": "gt-pressura-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": true,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(3)",
+      "classes": [
+        "bg-black",
+        "text-white"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6922,
+        "w": 1440,
+        "h": 4367
+      },
+      "headings": [
+        "Digitizing Analog",
+        "Design Principle",
+        "Shape Shifting",
+        "Weights & Families"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Digitizing Analog HEAVY METAL Sharp type from lead-carved printing blocks begins the process. PAPER PRESSURE The stamp is pressed into paper, causing the ink to spread and expand the original letter form. ON SCREEN The printed type gets dig",
+      "fontFamilies": [
+        "GT Pressura Proportional",
+        "GT Pressura Mono"
+      ],
+      "maxFontSizePx": 170,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 700",
+        "\"ital\" 0, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 3,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.291,
+        "heightVh": 1.767,
+        "widthRatio": 1,
+        "text": 7.723,
+        "elements": 7.181,
+        "headings": 4,
+        "fontSizes": 5,
+        "maxFontVw": 0.118,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.386,
+        "svg": 1.386,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-pressura-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-pressura-com/blocks/06.html"
+    },
+    {
+      "id": "gt-pressura-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": true,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(4)",
+      "classes": [
+        "bg-red",
+        "text-black"
+      ],
+      "box": {
+        "x": 0,
+        "y": 11289,
+        "w": 1440,
+        "h": 5586
+      },
+      "headings": [
+        "Language Support",
+        "Latin+ and Vietnamese",
+        "Cyrillic",
+        "Greek"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Language Support All of our typefaces cover the Latin alphabet, including additional characters required to support almost 200 languages—from Afaan to Zuni. GT Pressura features Cyrillic, Greek, and Vietnamese add-ons and typeface matching ",
+      "fontFamilies": [
+        "GT Pressura Proportional"
+      ],
+      "maxFontSizePx": 170,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 700",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 12,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(253, 66, 56)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.778,
+        "relY": 0.475,
+        "heightVh": 1.975,
+        "widthRatio": 1,
+        "text": 7.492,
+        "elements": 7.032,
+        "headings": 4,
+        "fontSizes": 5,
+        "maxFontVw": 0.118,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 2.565,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.251,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-pressura-com/blocks/07.jpg",
+      "cropTruncated": true,
+      "html": "archive/gt-pressura-com/blocks/07.html"
+    },
+    {
+      "id": "gt-pressura-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": true,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(5)",
+      "classes": [
+        "bg-white",
+        "text-black"
+      ],
+      "box": {
+        "x": 0,
+        "y": 16874,
+        "w": 1440,
+        "h": 5646
+      },
+      "headings": [
+        "GT Pressura Overview"
+      ],
+      "parentHeadings": null,
+      "textPreview": "GT Pressura Overview GT Pressura unearths the imperfections of analog design and optimizes them for the digital age in a newly refreshed family. A new Standard is set, Mono holds space in the balance, and Extended showcases what’s possible ",
+      "fontFamilies": [
+        "GT Pressura Proportional",
+        "GT Pressura Mono",
+        "GT Pressura Charset"
+      ],
+      "maxFontSizePx": 288,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 700",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 500",
+        "\"ital\" 0, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 300",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 300",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.889,
+        "relY": 0.71,
+        "heightVh": 1.984,
+        "widthRatio": 1,
+        "text": 7.767,
+        "elements": 6.933,
+        "headings": 1,
+        "fontSizes": 8,
+        "maxFontVw": 0.2,
+        "singleChar": 5.69,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-pressura-com/blocks/08.jpg",
+      "cropTruncated": true,
+      "html": "archive/gt-pressura-com/blocks/08.html"
+    },
+    {
+      "id": "gt-pressura-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": true,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(6)",
+      "classes": [
+        "bg-red",
+        "text-black"
+      ],
+      "box": {
+        "x": 0,
+        "y": 22520,
+        "w": 1440,
+        "h": 1247
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "DOWNLOAD TRIAL FONTS PURCHASE LICENSING DOWNLOAD PDF SPECIMEN TYPEFACE CREDITS Designed by Dominik Huber and Marc Kappeler (Moiré). Script extensions by Dominik Huber with Grilli Type. Exclusively available at Grilli Type. Consulting by Pan",
+      "fontFamilies": [
+        "GT Pressura Proportional",
+        "GT Pressura Mono"
+      ],
+      "maxFontSizePx": 35,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wght\" 700",
+        "\"ital\" 0, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(253, 66, 56)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.948,
+        "heightVh": 0.869,
+        "widthRatio": 1,
+        "text": 6.575,
+        "elements": 3.664,
+        "headings": 0,
+        "fontSizes": 5,
+        "maxFontVw": 0.024,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.135,
+        "bgLum": 0.251,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-pressura-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-pressura-com/blocks/09.html"
+    },
+    {
+      "id": "gt-pressura-com#10",
+      "nn": "10",
+      "kind": "offscreen",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#loader-section",
+      "classes": [
+        "fixed",
+        "top-0",
+        "flex",
+        "w-full",
+        "h-full",
+        "overflow-hidden"
+      ],
+      "box": {
+        "x": 0,
+        "y": -900,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "LOADING DATA. PLEASE WAIT. THANK YOU.",
+      "fontFamilies": [
+        "GT Pressura Proportional",
+        "font-loader"
+      ],
+      "maxFontSizePx": 17,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.111,
+        "relY": -0.038,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 3.638,
+        "elements": 4.511,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.012,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-pressura-com/blocks/10.html"
+    },
+    {
+      "id": "gt-pressura-com#11",
+      "nn": "11",
+      "kind": "offscreen",
+      "sticky": false,
+      "tag": "nav",
+      "selector": "body > nav",
+      "classes": [
+        "w-full",
+        "h-[62px]",
+        "border-b",
+        "fixed",
+        "top-0",
+        "font-mono-regular"
+      ],
+      "box": {
+        "x": 0,
+        "y": -62,
+        "w": 1440,
+        "h": 62
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "GT PRESSURA TYPETESTER PURCHASE",
+      "fontFamilies": [
+        "GT Pressura Mono"
+      ],
+      "maxFontSizePx": 14,
+      "variationSettings": [
+        "\"ital\" 0, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(253, 66, 56)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.222,
+        "relY": -0.003,
+        "heightVh": 0.067,
+        "widthRatio": 1,
+        "text": 3.466,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.01,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.251,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-pressura-com/blocks/11.html"
+    }
+  ]
+}

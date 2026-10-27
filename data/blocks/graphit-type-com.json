@@ -1,0 +1,1644 @@
+{
+  "slug": "graphit-type-com",
+  "url": "https://www.graphit-type.com",
+  "pageHeight": 19191,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "graphit-type-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#app > div:nth-of-type(1) > section:nth-of-type(1)",
+      "classes": [
+        "o-section",
+        "o-section--intro"
+      ],
+      "box": {
+        "x": 0,
+        "y": 80,
+        "w": 1440,
+        "h": 701
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "The quirky little minxis stealing the valuableGemstone from thegentlepeacefulsleeping Dragon. The jinxed, diligentMidget smuggles tonsof QuartzandAmethyst out ofthe dark Mountain. The wild Squad ofhairy Giantsisbroiling juicy tofuSticks ove",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 96,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 3,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(220, 220, 220)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.004,
+        "heightVh": 0.576,
+        "widthRatio": 1,
+        "text": 6.105,
+        "elements": 4.963,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.067,
+        "singleChar": 1.946,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.386,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.716
+      },
+      "crop": "archive/graphit-type-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/graphit-type-com/blocks/00.html"
+    },
+    {
+      "id": "graphit-type-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#app > div:nth-of-type(1) > section:nth-of-type(2)",
+      "classes": [
+        "o-section",
+        "o-section--about"
+      ],
+      "box": {
+        "x": 0,
+        "y": 781,
+        "w": 1440,
+        "h": 557
+      },
+      "headings": [
+        "ABOUT GRAPHIT"
+      ],
+      "parentHeadings": null,
+      "textPreview": "ABOUT GRAPHIT Graphit is a typeface designed by Lit Design Studio & curated by HvD Fonts. It combines clear, geometric shapes with edgy yet finely-crafted details. Graphit features uncompromising characters such as G, Q, f, k and 1. It work",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(220, 220, 220)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": true,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.071,
+        "relY": 0.041,
+        "heightVh": 0.482,
+        "widthRatio": 1,
+        "text": 7.134,
+        "elements": 2.89,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.025,
+        "singleChar": 1.792,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0.716
+      },
+      "crop": "archive/graphit-type-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/graphit-type-com/blocks/01.html"
+    },
+    {
+      "id": "graphit-type-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#app > div:nth-of-type(1) > section:nth-of-type(3)",
+      "classes": [
+        "o-section",
+        "o-section--split",
+        "o-section--character"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1338,
+        "w": 1440,
+        "h": 785
+      },
+      "headings": [
+        "CHARACTERISTIC ELEMENT",
+        "SIX WEIGHTS PLUS ITALICS"
+      ],
+      "parentHeadings": null,
+      "textPreview": "CHARACTERISTIC ELEMENT 1 SIX WEIGHTS PLUS ITALICS",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 100,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(220, 220, 220)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.143,
+        "relY": 0.07,
+        "heightVh": 0.627,
+        "widthRatio": 1,
+        "text": 3.912,
+        "elements": 5.273,
+        "headings": 2,
+        "fontSizes": 3,
+        "maxFontVw": 0.069,
+        "singleChar": 0.693,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.716
+      },
+      "crop": "archive/graphit-type-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/graphit-type-com/blocks/02.html"
+    },
+    {
+      "id": "graphit-type-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#typeTester",
+      "classes": [
+        "o-section",
+        "o-section--text-writer"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2123,
+        "w": 1440,
+        "h": 1176
+      },
+      "headings": [
+        "JUST WRITE SOMETHING"
+      ],
+      "parentHeadings": null,
+      "textPreview": "JUST WRITE SOMETHING Weight Size Italic Alternates The fat polite cyclops tirelessly hacks the solid rock to 89 fine pieces.",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 134,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 4,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(220, 220, 220)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.214,
+        "relY": 0.111,
+        "heightVh": 0.836,
+        "widthRatio": 1,
+        "text": 4.828,
+        "elements": 3.761,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.093,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 1.609,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.716
+      },
+      "crop": "archive/graphit-type-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/graphit-type-com/blocks/03.html"
+    },
+    {
+      "id": "graphit-type-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#app > div:nth-of-type(1) > section:nth-of-type(5)",
+      "classes": [
+        "o-section",
+        "o-section--weights",
+        "is-hidden-mobile"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3299,
+        "w": 1440,
+        "h": 714
+      },
+      "headings": [
+        "RANGE OF WEIGHTS"
+      ],
+      "parentHeadings": null,
+      "textPreview": "RANGE OF WEIGHTS Black 200 Bold 162 Medium 126 Regular 92 Light 60 Thin 28",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 7,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(220, 220, 220)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.286,
+        "relY": 0.172,
+        "heightVh": 0.584,
+        "widthRatio": 1,
+        "text": 4.394,
+        "elements": 3.97,
+        "headings": 1,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 1.386,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 2.079,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.716
+      },
+      "crop": "archive/graphit-type-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/graphit-type-com/blocks/04.html"
+    },
+    {
+      "id": "graphit-type-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(1) > div:nth-of-type(1)",
+      "classes": [
+        "o-section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4013,
+        "w": 1440,
+        "h": 2740
+      },
+      "headings": [
+        "DISPLAY SIZES"
+      ],
+      "parentHeadings": null,
+      "textPreview": "DISPLAY SIZES",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(220, 220, 220)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.357,
+        "relY": 0.209,
+        "heightVh": 1.397,
+        "widthRatio": 1,
+        "text": 2.639,
+        "elements": 5.421,
+        "headings": 1,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.716
+      },
+      "crop": "archive/graphit-type-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/graphit-type-com/blocks/05.html"
+    },
+    {
+      "id": "graphit-type-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#app > div:nth-of-type(1) > section:nth-of-type(6)",
+      "classes": [
+        "o-section",
+        "o-section--text-samples"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6753,
+        "w": 1440,
+        "h": 1754
+      },
+      "headings": [
+        "READING SIZES"
+      ],
+      "parentHeadings": null,
+      "textPreview": "READING SIZES Medium, Regular and Light are optimized for usage in copy texts. For smaller sizes and longer texts, the alternate character set features a double-storey „a“ and a simplifed „f“ for improved legibility. Medium 24 PX So irrte e",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(220, 220, 220)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.429,
+        "relY": 0.352,
+        "heightVh": 1.081,
+        "widthRatio": 1,
+        "text": 8.659,
+        "elements": 3.664,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.716
+      },
+      "crop": "archive/graphit-type-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/graphit-type-com/blocks/06.html"
+    },
+    {
+      "id": "graphit-type-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#app > div:nth-of-type(1) > section:nth-of-type(7)",
+      "classes": [
+        "o-section",
+        "o-section--lang"
+      ],
+      "box": {
+        "x": 0,
+        "y": 8507,
+        "w": 1440,
+        "h": 855
+      },
+      "headings": [
+        "+93 LANGUAGES SUPPORTED"
+      ],
+      "parentHeadings": null,
+      "textPreview": "+93 LANGUAGES SUPPORTED Blockchain English Bækørred Dansk Ćevapčići Croatian Compañero Spanish Geithĩkai Gikuyu Spårfordon Swedish töframaður Islandic Mahál kitá Tagalog kształt Polish Küçük hanım Turkish Coração Portuguese découverte Frenc",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 60,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(220, 220, 220)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.443,
+        "heightVh": 0.668,
+        "widthRatio": 1,
+        "text": 5.746,
+        "elements": 3.951,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.042,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.716
+      },
+      "crop": "archive/graphit-type-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/graphit-type-com/blocks/07.html"
+    },
+    {
+      "id": "graphit-type-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#app > div:nth-of-type(1) > section:nth-of-type(8)",
+      "classes": [
+        "o-section",
+        "o-section--split"
+      ],
+      "box": {
+        "x": 0,
+        "y": 9362,
+        "w": 1440,
+        "h": 760
+      },
+      "headings": [
+        "LIGATURES",
+        "ALTERNATES"
+      ],
+      "parentHeadings": null,
+      "textPreview": "LIGATURES ALTERNATES",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(220, 220, 220)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.571,
+        "relY": 0.488,
+        "heightVh": 0.612,
+        "widthRatio": 1,
+        "text": 3.045,
+        "elements": 4.71,
+        "headings": 2,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.716
+      },
+      "crop": "archive/graphit-type-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/graphit-type-com/blocks/08.html"
+    },
+    {
+      "id": "graphit-type-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#app > div:nth-of-type(1) > section:nth-of-type(9)",
+      "classes": [
+        "o-section",
+        "o-section--opentypes"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10122,
+        "w": 1440,
+        "h": 1016
+      },
+      "headings": [
+        "FEATURES & SIGNS"
+      ],
+      "parentHeadings": null,
+      "textPreview": "FEATURES & SIGNS aa Alternates 11 Tabular Figures ⅞ Fractions O₂ Subscripts m3 Superscripts № Numero ¿H Case sensitive  Symbols Åã Latin extended →→ Arrows $£ Currency signs ∫µ Mathematical signs 12ª Ordinals ffi Ligatures @ Symbols",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 65,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(220, 220, 220)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.643,
+        "relY": 0.527,
+        "heightVh": 0.756,
+        "widthRatio": 1,
+        "text": 5.576,
+        "elements": 4.615,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.045,
+        "singleChar": 3.258,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.716
+      },
+      "crop": "archive/graphit-type-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/graphit-type-com/blocks/09.html"
+    },
+    {
+      "id": "graphit-type-com#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#app > div:nth-of-type(1) > section:nth-of-type(10)",
+      "classes": [
+        "o-section",
+        "o-section--charset"
+      ],
+      "box": {
+        "x": 0,
+        "y": 11138,
+        "w": 1440,
+        "h": 1838
+      },
+      "headings": [
+        "CHARACTER SET SELECTION"
+      ],
+      "parentHeadings": null,
+      "textPreview": "CHARACTER SET SELECTION A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9 1 Q a f r ß t Á Ă Â Ä À Ā Ą Å Ǻ Ã Æ Ǽ Ć Č Ç Ċ Ð Ď Đ É Ě Ê Ë Ė È Ē Ę Ğ Ǧ Ģ Ġ Ħ Í Î Ï İ Ì Ī Į ",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(220, 220, 220)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.714,
+        "relY": 0.58,
+        "heightVh": 1.113,
+        "widthRatio": 1,
+        "text": 6.768,
+        "elements": 6.739,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.022,
+        "singleChar": 5.293,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.716
+      },
+      "crop": "archive/graphit-type-com/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/graphit-type-com/blocks/10.html"
+    },
+    {
+      "id": "graphit-type-com#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#app > div:nth-of-type(1) > section:nth-of-type(11)",
+      "classes": [
+        "o-section",
+        "o-section--samples"
+      ],
+      "box": {
+        "x": 0,
+        "y": 12976,
+        "w": 1440,
+        "h": 5327
+      },
+      "headings": [
+        "SAMPLES"
+      ],
+      "parentHeadings": null,
+      "textPreview": "SAMPLES",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 19,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(220, 220, 220)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.786,
+        "relY": 0.676,
+        "heightVh": 1.934,
+        "widthRatio": 1,
+        "text": 2.079,
+        "elements": 4.754,
+        "headings": 1,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 2.996,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.716
+      },
+      "crop": "archive/graphit-type-com/blocks/11.jpg",
+      "cropTruncated": true,
+      "html": "archive/graphit-type-com/blocks/11.html"
+    },
+    {
+      "id": "graphit-type-com#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#trialfonts > section:nth-of-type(1)",
+      "classes": [
+        "o-section",
+        "o-section--outro"
+      ],
+      "box": {
+        "x": 0,
+        "y": 18303,
+        "w": 1440,
+        "h": 364
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "BUY DOWNLOAD TRIAL FONTS",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(220, 220, 220)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.857,
+        "relY": 0.954,
+        "heightVh": 0.34,
+        "widthRatio": 1,
+        "text": 3.219,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0.716
+      },
+      "crop": "archive/graphit-type-com/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/graphit-type-com/blocks/12.html"
+    },
+    {
+      "id": "graphit-type-com#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#trialfonts > section:nth-of-type(2)",
+      "classes": [
+        "o-section",
+        "o-section--credits"
+      ],
+      "box": {
+        "x": 0,
+        "y": 18667,
+        "w": 1440,
+        "h": 424
+      },
+      "headings": [
+        "DESIGN",
+        "PUBLISHING"
+      ],
+      "parentHeadings": null,
+      "textPreview": "DESIGN PUBLISHING",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(220, 220, 220)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.929,
+        "relY": 0.973,
+        "heightVh": 0.386,
+        "widthRatio": 1,
+        "text": 2.89,
+        "elements": 2.565,
+        "headings": 2,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0.716
+      },
+      "crop": "archive/graphit-type-com/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/graphit-type-com/blocks/13.html"
+    },
+    {
+      "id": "graphit-type-com#14",
+      "nn": "14",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "#app > div:nth-of-type(1) > footer",
+      "classes": [
+        "c-footer"
+      ],
+      "box": {
+        "x": 0,
+        "y": 19091,
+        "w": 1440,
+        "h": 100
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Download Specimen PDF Imprint Data Privacy © Lit Design Studio 2019",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(220, 220, 220)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.995,
+        "heightVh": 0.105,
+        "widthRatio": 1,
+        "text": 4.234,
+        "elements": 2.079,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.014,
+        "singleChar": 1.099,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 0.716
+      },
+      "crop": "archive/graphit-type-com/blocks/14.jpg",
+      "cropTruncated": false,
+      "html": "archive/graphit-type-com/blocks/14.html"
+    },
+    {
+      "id": "graphit-type-com#15",
+      "nn": "15",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "header",
+      "selector": "#app > div:nth-of-type(1) > header",
+      "classes": [
+        "c-header"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 80
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Graphit Type face Black site White site Color Contact Buy",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 6,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 30,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(25, 25, 25)",
+      "color": "rgb(220, 220, 220)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.071,
+        "relY": 0,
+        "heightVh": 0.085,
+        "widthRatio": 1,
+        "text": 4.06,
+        "elements": 4.543,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.946,
+        "img": 0,
+        "svg": 3.434,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.079,
+        "bgLum": 0.01,
+        "fgLum": 0.716
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/graphit-type-com/blocks/15.html"
+    },
+    {
+      "id": "graphit-type-com#16",
+      "nn": "16",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(1) > div:nth-of-type(3)",
+      "classes": [
+        "Cookie",
+        "Cookie--bottom",
+        "Cookie--base"
+      ],
+      "box": {
+        "x": 0,
+        "y": 840,
+        "w": 1440,
+        "h": 60
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "This site uses cookies Okmore Information",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(25, 25, 25)",
+      "color": "rgb(220, 220, 220)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.143,
+        "relY": 0.044,
+        "heightVh": 0.065,
+        "widthRatio": 1,
+        "text": 3.761,
+        "elements": 2.303,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0.693,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.01,
+        "fgLum": 0.716
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/graphit-type-com/blocks/16.html"
+    },
+    {
+      "id": "graphit-type-com#17",
+      "nn": "17",
+      "kind": "offscreen",
+      "sticky": false,
+      "tag": "span",
+      "selector": "body > span:nth-of-type(1)",
+      "classes": [],
+      "box": {
+        "x": -10000,
+        "y": -10000,
+        "w": 2305,
+        "h": 357
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "giItT1WQy@!-/#",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 300,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.214,
+        "relY": -0.521,
+        "heightVh": 0.334,
+        "widthRatio": 1.601,
+        "text": 2.708,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.208,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/graphit-type-com/blocks/17.html"
+    },
+    {
+      "id": "graphit-type-com#18",
+      "nn": "18",
+      "kind": "offscreen",
+      "sticky": false,
+      "tag": "span",
+      "selector": "body > span:nth-of-type(2)",
+      "classes": [],
+      "box": {
+        "x": -10000,
+        "y": -10000,
+        "w": 2305,
+        "h": 356
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "giItT1WQy@!-/#",
+      "fontFamilies": [
+        "Graphit"
+      ],
+      "maxFontSizePx": 300,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.286,
+        "relY": -0.521,
+        "heightVh": 0.333,
+        "widthRatio": 1.601,
+        "text": 2.708,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.208,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/graphit-type-com/blocks/18.html"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "slug": "isolation-abc-xyz",
+  "url": "https://isolation-abc.xyz",
+  "pageHeight": 10060,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "isolation-abc-xyz#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "article",
+      "selector": "#root > main > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1)",
+      "classes": [
+        "page",
+        "center-page",
+        "neighbour"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 2803
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Isolation Grotesque is a typeface Today is a Tuesday Isolation Grotesque is designed to be the antidote to boring sans-serif typefaces commonly found in user interfaces. Thanks to its large x-height it is ultra legible at small sizes. At th",
+      "fontFamilies": [
+        "-apple-system"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 12,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(40, 40, 40)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 1.415,
+        "widthRatio": 1,
+        "text": 6.254,
+        "elements": 6.151,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.099,
+        "svg": 2.565,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0.021
+      },
+      "crop": "archive/isolation-abc-xyz/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/isolation-abc-xyz/blocks/00.html"
+    },
+    {
+      "id": "isolation-abc-xyz#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "article",
+      "selector": "#root > main > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2)",
+      "classes": [
+        "page",
+        "page-with-fixeds-desktop",
+        "page-with-fixeds-sticky-or-mobile",
+        "next-page",
+        "neighbour"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2803,
+        "w": 1440,
+        "h": 5017
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Fig (a) · Time spent looking at exponential graphs ABCDEFGHIJ KLMNOPQRST UVWXYZ abcdefghijkl mnopqrstuvw xyz </<-<\\^|/>|->↕↔</ˇ|\\>-> 012345 6789 ⓪①②③④⑤ ⑥⑦⑧⑨ €$¥£ R 1/2 1/4 1/8 1/123456 ß © Aa Isolation Isolation Isolation Isolation Isolatio",
+      "fontFamilies": [
+        "-apple-system",
+        "Times New Roman",
+        "custom_67501"
+      ],
+      "maxFontSizePx": 500,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(40, 40, 40)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.279,
+        "heightVh": 1.883,
+        "widthRatio": 1,
+        "text": 8.05,
+        "elements": 6.492,
+        "headings": 0,
+        "fontSizes": 22,
+        "maxFontVw": 0.347,
+        "singleChar": 4.82,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.386,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0.021
+      },
+      "crop": "archive/isolation-abc-xyz/blocks/01.jpg",
+      "cropTruncated": true,
+      "html": "archive/isolation-abc-xyz/blocks/01.html"
+    }
+  ]
+}

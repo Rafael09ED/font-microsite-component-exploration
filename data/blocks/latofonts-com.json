@@ -1,0 +1,540 @@
+{
+  "slug": "latofonts-com",
+  "url": "https://latofonts.com",
+  "pageHeight": 5199,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "latofonts-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "nav",
+      "selector": "body > div:nth-of-type(1) > nav",
+      "classes": [
+        "navbar",
+        "bg-base-100",
+        "shadow-sm",
+        "border-b",
+        "border-base-200"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 67
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Lato fonts Lato fonts Download free fonts Usage gallery Contact the Lato team Download Donate",
+      "fontFamilies": [
+        "lato"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "oklch(1 0 0)",
+      "color": "oklch(0.21 0.006 285.885)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.072,
+        "widthRatio": 1,
+        "text": 4.543,
+        "elements": 3.584,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.014,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.565,
+        "bgLum": 0,
+        "fgLum": 0.094
+      },
+      "crop": "archive/latofonts-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/latofonts-com/blocks/00.html"
+    },
+    {
+      "id": "latofonts-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#main-content > section:nth-of-type(1)",
+      "classes": [
+        "hero",
+        "min-h-96",
+        "bg-gradient-to-br",
+        "from-base-100",
+        "to-base-200"
+      ],
+      "box": {
+        "x": 0,
+        "y": 67,
+        "w": 1440,
+        "h": 384
+      },
+      "headings": [
+        "Lato fonts"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Lato fonts A sanserif typeface family designed in the Summer 2010 by Warsaw-based designer Łukasz Dziedzic. Supporting 100+ Latin, 50+ Cyrillic, and Greek languages. Download Free Fonts View Gallery",
+      "fontFamilies": [
+        "lato"
+      ],
+      "maxFontSizePx": 72,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.21 0.006 285.885)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.2,
+        "relY": 0.013,
+        "heightVh": 0.355,
+        "widthRatio": 1,
+        "text": 5.303,
+        "elements": 2.639,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.05,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 0.094
+      },
+      "crop": "archive/latofonts-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/latofonts-com/blocks/01.html"
+    },
+    {
+      "id": "latofonts-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#main-content > section:nth-of-type(3)",
+      "classes": [
+        "py-20",
+        "bg-base-100"
+      ],
+      "box": {
+        "x": 0,
+        "y": 483,
+        "w": 1440,
+        "h": 2557
+      },
+      "headings": [
+        "Nine Beautiful Weights",
+        "Lato Hairline",
+        "Lato Thin",
+        "Lato Light"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Nine Beautiful Weights (Note: if you're using a recent version of IE, Firefox, Safari or Chrome, you can edit the text sample lines below to see what your text looks like when typeset in Lato!) Try typing your own text: Lato Hairline (100) ",
+      "fontFamilies": [
+        "lato"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 1,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "oklch(1 0 0)",
+      "color": "oklch(0.21 0.006 285.885)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": true,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.4,
+        "relY": 0.093,
+        "heightVh": 1.346,
+        "widthRatio": 1,
+        "text": 7.87,
+        "elements": 4.522,
+        "headings": 4,
+        "fontSizes": 6,
+        "maxFontVw": 0.025,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.094
+      },
+      "crop": "archive/latofonts-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/latofonts-com/blocks/02.html"
+    },
+    {
+      "id": "latofonts-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#main-content > section:nth-of-type(4)",
+      "classes": [
+        "py-20",
+        "bg-base-200"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3041,
+        "w": 1440,
+        "h": 1679
+      },
+      "headings": [
+        "About the Font Family Lato",
+        "Complete Character Set"
+      ],
+      "parentHeadings": null,
+      "textPreview": "About the Font Family Lato Lato is a sanserif typeface family designed in the Summer 2010 by Warsaw-based designer Łukasz Dziedzic (\"Lato\" means \"Summer\" in Polish). In December 2010 the Lato family was published under the open-source Open ",
+      "fontFamilies": [
+        "lato"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "oklch(0.98 0 0)",
+      "color": "oklch(0.21 0.006 285.885)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.6,
+        "relY": 0.585,
+        "heightVh": 1.053,
+        "widthRatio": 1,
+        "text": 7.96,
+        "elements": 3.178,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.025,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": 0,
+        "fgLum": 0.094
+      },
+      "crop": "archive/latofonts-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/latofonts-com/blocks/03.html"
+    },
+    {
+      "id": "latofonts-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > div:nth-of-type(1) > footer",
+      "classes": [
+        "footer",
+        "footer-center",
+        "bg-base-200",
+        "text-base-content",
+        "p-10",
+        "mt-16"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4783,
+        "w": 1440,
+        "h": 261
+      },
+      "headings": [
+        "Stay Updated",
+        "About Lato"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Download Fonts Contact Team Gallery License (OFL) Donate via PayPal Stay Updated Get notified about new Lato font updates and typography resources. About Lato Lato is a sanserif typeface family designed by Łukasz Dziedzic in 2010. The famil",
+      "fontFamilies": [
+        "lato"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "oklch(0.98 0 0)",
+      "color": "oklch(0.21 0.006 285.885)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.8,
+        "relY": 0.92,
+        "heightVh": 0.255,
+        "widthRatio": 1,
+        "text": 6.198,
+        "elements": 3.367,
+        "headings": 2,
+        "fontSizes": 3,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.485,
+        "bgLum": 0,
+        "fgLum": 0.094
+      },
+      "crop": "archive/latofonts-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/latofonts-com/blocks/04.html"
+    },
+    {
+      "id": "latofonts-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 5044,
+        "w": 1440,
+        "h": 156
+      },
+      "headings": [
+        "Privacy Preferences"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Privacy Preferences We and our partners share information on your use of this website to help improve your experience. For more information, or to opt out click the Do Not Sell My Information button below. Consent Do Not Sell My Information",
+      "fontFamilies": [
+        "lato"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "oklch(0.21 0.006 285.885)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.97,
+        "heightVh": 0.16,
+        "widthRatio": 1,
+        "text": 5.493,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.099,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.094
+      },
+      "crop": "archive/latofonts-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/latofonts-com/blocks/05.html"
+    }
+  ]
+}

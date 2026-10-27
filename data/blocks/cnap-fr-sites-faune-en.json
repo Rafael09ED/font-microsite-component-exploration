@@ -1,0 +1,785 @@
+{
+  "slug": "cnap-fr-sites-faune-en",
+  "url": "https://www.cnap.fr/sites/faune/en.html",
+  "pageHeight": 8839,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "cnap-fr-sites-faune-en#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#loading",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "Faune"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(26, 23, 51)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.011,
+        "fgLum": 1
+      },
+      "crop": "archive/cnap-fr-sites-faune-en/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/cnap-fr-sites-faune-en/blocks/00.html"
+    },
+    {
+      "id": "cnap-fr-sites-faune-en#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#header",
+      "classes": [
+        "section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 870
+      },
+      "headings": [
+        "Your javascript is disabled"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Français fau ne",
+      "fontFamilies": [
+        "Faune"
+      ],
+      "maxFontSizePx": 400,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 16,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(26, 23, 51)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.125,
+        "relY": 0,
+        "heightVh": 0.676,
+        "widthRatio": 1,
+        "text": 2.773,
+        "elements": 3.85,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.278,
+        "singleChar": 0.693,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.833,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.011,
+        "fgLum": 1
+      },
+      "crop": "archive/cnap-fr-sites-faune-en/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/cnap-fr-sites-faune-en/blocks/01.html"
+    },
+    {
+      "id": "cnap-fr-sites-faune-en#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#presentation",
+      "classes": [
+        "section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 870,
+        "w": 1440,
+        "h": 1437
+      },
+      "headings": [
+        "Foreword"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Foreword For this new commission of a typeface family by the Centre National des Arts Plastiques, we wished to associate the skills and domains of activity of our two institutions with the aim of accompanying a new creation. The Centre Nati",
+      "fontFamilies": [
+        "Faune"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(158, 232, 197)",
+      "color": "rgb(26, 23, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.25,
+        "relY": 0.098,
+        "heightVh": 0.954,
+        "widthRatio": 1,
+        "text": 7.441,
+        "elements": 3.091,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.033,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.69,
+        "fgLum": 0.011
+      },
+      "crop": "archive/cnap-fr-sites-faune-en/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/cnap-fr-sites-faune-en/blocks/02.html"
+    },
+    {
+      "id": "cnap-fr-sites-faune-en#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#quote",
+      "classes": [
+        "section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2307,
+        "w": 1440,
+        "h": 741
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "\"It is not the same world that emerges along the line that writes the verb ‘to look’, depending on whether the line passes via the lynx, the hawk, the ox, the bat, the antelope, the snake or the man, indeed as it is not quite the same from ",
+      "fontFamilies": [
+        "Faune",
+        "Demo",
+        "Arial"
+      ],
+      "maxFontSizePx": 56,
+      "variationSettings": [],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(26, 23, 51)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.375,
+        "relY": 0.261,
+        "heightVh": 0.601,
+        "widthRatio": 1,
+        "text": 5.844,
+        "elements": 3.178,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.039,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0.693,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.011,
+        "fgLum": 1
+      },
+      "crop": "archive/cnap-fr-sites-faune-en/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/cnap-fr-sites-faune-en/blocks/03.html"
+    },
+    {
+      "id": "cnap-fr-sites-faune-en#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#text",
+      "classes": [
+        "section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3048,
+        "w": 1440,
+        "h": 989
+      },
+      "headings": [
+        "Faune"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Faune A text by Alice Savoie To study the plurality of the animal world for the purposes of creating a new type family: this is the surprising ambition of Faune that you can discover on this website. Though natural history has had a strong ",
+      "fontFamilies": [
+        "Faune"
+      ],
+      "maxFontSizePx": 40,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 54,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 242, 176)",
+      "color": "rgb(26, 23, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.345,
+        "heightVh": 0.741,
+        "widthRatio": 1,
+        "text": 9.558,
+        "elements": 5.056,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.028,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 4.007,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.792,
+        "bgLum": 0.879,
+        "fgLum": 0.011
+      },
+      "crop": "archive/cnap-fr-sites-faune-en/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/cnap-fr-sites-faune-en/blocks/04.html"
+    },
+    {
+      "id": "cnap-fr-sites-faune-en#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#quote2",
+      "classes": [
+        "section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4037,
+        "w": 1440,
+        "h": 664
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "In the study of natural history there are two equally dangerous pitfalls to be avoided: the first is to have no methodology; and the second is to wish to make everything part of a particular system. Georges-Louis Leclerc, comte de Buffon, P",
+      "fontFamilies": [
+        "Faune",
+        "Demo",
+        "Arial"
+      ],
+      "maxFontSizePx": 56,
+      "variationSettings": [],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(26, 23, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.625,
+        "relY": 0.457,
+        "heightVh": 0.553,
+        "widthRatio": 1,
+        "text": 5.82,
+        "elements": 3.178,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.039,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0.693,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0.011
+      },
+      "crop": "archive/cnap-fr-sites-faune-en/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/cnap-fr-sites-faune-en/blocks/05.html"
+    },
+    {
+      "id": "cnap-fr-sites-faune-en#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#melimelo",
+      "classes": [
+        "section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4701,
+        "w": 1440,
+        "h": 1308
+      },
+      "headings": [
+        "Mix-and-match"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Mix-and-match Create your own chimera: scroll through the animals using the arrows, type your text and choose your variant of the Faune typeface. Then share this combination as you wish on social media or by email! ↑ ↓ ↑ ↓ a a a a a Place y",
+      "fontFamilies": [
+        "Faune"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 21,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(26, 23, 51)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": true,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": true,
+        "price": false
+      },
+      "vector": {
+        "order": 0.75,
+        "relY": 0.532,
+        "heightVh": 0.897,
+        "widthRatio": 1,
+        "text": 5.71,
+        "elements": 4.431,
+        "headings": 1,
+        "fontSizes": 7,
+        "maxFontVw": 0.033,
+        "singleChar": 2.303,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 3.091,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": 0.011,
+        "fgLum": 1
+      },
+      "crop": "archive/cnap-fr-sites-faune-en/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/cnap-fr-sites-faune-en/blocks/06.html"
+    },
+    {
+      "id": "cnap-fr-sites-faune-en#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#download",
+      "classes": [
+        "section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6008,
+        "w": 1440,
+        "h": 1614
+      },
+      "headings": [
+        "Download",
+        "Conditions for use of the typeface",
+        "Downloading the type specimen",
+        "Installing Faune on a computer"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Download Conditions for use of the typeface The Faune family of typefaces can be freely downloaded and used by anyone, in a private or professional capacity, under the Creative Commons license CC BY-ND 4.0.This license authorizes the free u",
+      "fontFamilies": [
+        "Faune",
+        "monospace"
+      ],
+      "maxFontSizePx": 40,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 242, 176)",
+      "color": "rgb(26, 23, 51)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.875,
+        "relY": 0.68,
+        "heightVh": 1.027,
+        "widthRatio": 1,
+        "text": 8.124,
+        "elements": 4.796,
+        "headings": 4,
+        "fontSizes": 5,
+        "maxFontVw": 0.028,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.079,
+        "bgLum": 0.879,
+        "fgLum": 0.011
+      },
+      "crop": "archive/cnap-fr-sites-faune-en/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/cnap-fr-sites-faune-en/blocks/07.html"
+    },
+    {
+      "id": "cnap-fr-sites-faune-en#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#credits",
+      "classes": [
+        "section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 7622,
+        "w": 1440,
+        "h": 1217
+      },
+      "headings": [
+        "Credits",
+        "Centre National des Arts Plastiques",
+        "Groupe Imprimerie Nationale",
+        "Creation of the Faune typeface, text and design of the type specimen"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Credits Faune, a typeface family designed by Alice Savoie. A commission by the Centre National des Arts Plastiques, in partnership with the Groupe Imprimerie Nationale. Centre National des Arts Plastiques Yves Robert, Director Véronique Mar",
+      "fontFamilies": [
+        "Faune"
+      ],
+      "maxFontSizePx": 40,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(26, 23, 51)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.862,
+        "heightVh": 0.855,
+        "widthRatio": 1,
+        "text": 7.05,
+        "elements": 4.19,
+        "headings": 4,
+        "fontSizes": 4,
+        "maxFontVw": 0.028,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.079,
+        "bgLum": 0.011,
+        "fgLum": 1
+      },
+      "crop": "archive/cnap-fr-sites-faune-en/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/cnap-fr-sites-faune-en/blocks/08.html"
+    }
+  ]
+}

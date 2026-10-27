@@ -1,0 +1,1100 @@
+{
+  "slug": "gt-standard-com",
+  "url": "https://gt-standard.com",
+  "pageHeight": 49010,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "gt-standard-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": true,
+      "tag": "header",
+      "selector": "body > header",
+      "classes": [
+        "bg-[#EAEAEA]"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 40
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "standard try buy",
+      "fontFamilies": [
+        "GT Standard"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [
+        "\"opsz\" 18, \"slnt\" 0, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(234, 234, 234)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.043,
+        "widthRatio": 1,
+        "text": 2.833,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": 0.823,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-standard-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-standard-com/blocks/00.html"
+    },
+    {
+      "id": "gt-standard-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(1)",
+      "classes": [
+        "pin-spacer",
+        "pin-spacer-chapters"
+      ],
+      "box": {
+        "x": 0,
+        "y": 40,
+        "w": 1440,
+        "h": 2232
+      },
+      "headings": [
+        "gt standard",
+        "① design",
+        "② system",
+        "③ platform"
+      ],
+      "parentHeadings": null,
+      "textPreview": "gt standard ① design ② system ③ platform about gt standard is a contemporary response to the pursuit of typographic standardization. rooted in swiss modernist principles of geometry and minimalism, it builds on this lasting legacy, refining",
+      "fontFamilies": [
+        "GT Standard"
+      ],
+      "maxFontSizePx": 200,
+      "variationSettings": [
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 100, \"wght\" 700",
+        "\"opsz\" 18, \"slnt\" 0, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 18, \"slnt\" 6, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 3,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.111,
+        "relY": 0.001,
+        "heightVh": 1.247,
+        "widthRatio": 1,
+        "text": 6.784,
+        "elements": 5.056,
+        "headings": 4,
+        "fontSizes": 4,
+        "maxFontVw": 0.139,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.386,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-standard-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-standard-com/blocks/01.html"
+    },
+    {
+      "id": "gt-standard-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": true,
+      "tag": "aside",
+      "selector": "body > aside:nth-of-type(1)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 2272,
+        "w": 1440,
+        "h": 40
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "design",
+      "fontFamilies": [
+        "GT Standard"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [
+        "\"opsz\" 18, \"slnt\" 0, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.222,
+        "relY": 0.046,
+        "heightVh": 0.043,
+        "widthRatio": 1,
+        "text": 1.946,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-standard-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-standard-com/blocks/02.html"
+    },
+    {
+      "id": "gt-standard-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2)",
+      "classes": [
+        "pin-spacer",
+        "pin-spacer-chapters"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2312,
+        "w": 1440,
+        "h": 8433
+      },
+      "headings": [
+        "design",
+        "anatomy",
+        "efficiency",
+        "minimalism"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Concept GT Standard is built on simplicity and precision. Its design distills typography to its purest form, using basic, geometrically-inspired forms to create a versatile, highly adaptable type system. Stripped of excess, its construction",
+      "fontFamilies": [
+        "GT Standard"
+      ],
+      "maxFontSizePx": 288,
+      "variationSettings": [
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 18, \"slnt\" 0, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 100, \"wght\" 700",
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 100, \"wght\" 900",
+        "\"opsz\" 10, \"slnt\" 0, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 2,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 9,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.047,
+        "heightVh": 2.339,
+        "widthRatio": 1,
+        "text": 8.003,
+        "elements": 6.763,
+        "headings": 4,
+        "fontSizes": 6,
+        "maxFontVw": 0.2,
+        "singleChar": 4.143,
+        "varSettings": 5,
+        "range": 1.099,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 2.303,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-standard-com/blocks/03.jpg",
+      "cropTruncated": true,
+      "html": "archive/gt-standard-com/blocks/03.html"
+    },
+    {
+      "id": "gt-standard-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": true,
+      "tag": "aside",
+      "selector": "body > aside:nth-of-type(2)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 10745,
+        "w": 1440,
+        "h": 40
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "system",
+      "fontFamilies": [
+        "GT Standard"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [
+        "\"opsz\" 18, \"slnt\" 0, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.444,
+        "relY": 0.219,
+        "heightVh": 0.043,
+        "widthRatio": 1,
+        "text": 1.946,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-standard-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-standard-com/blocks/04.html"
+    },
+    {
+      "id": "gt-standard-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(3)",
+      "classes": [
+        "pin-spacer",
+        "pin-spacer-chapters"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10785,
+        "w": 1440,
+        "h": 23361
+      },
+      "headings": [
+        "system",
+        "weight axis",
+        "optical axis",
+        "distinction"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Variable Typographic System Four heavy-duty axes with 126 upright and 126 oblique styles — all together in one big variable font. And we haven’t even touched on the 84 monospaced styles. GT Standard is a systematized typographic workhorse b",
+      "fontFamilies": [
+        "GT Standard"
+      ],
+      "maxFontSizePx": 288,
+      "variationSettings": [
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 18, \"slnt\" 0, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 100, \"wght\" 700",
+        "\"opsz\" 10, \"slnt\" 0, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 2,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 26,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.556,
+        "relY": 0.22,
+        "heightVh": 3.294,
+        "widthRatio": 1,
+        "text": 9.029,
+        "elements": 9.355,
+        "headings": 4,
+        "fontSizes": 5,
+        "maxFontVw": 0.2,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 1.099,
+        "buttons": 0,
+        "img": 0,
+        "svg": 3.296,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-standard-com/blocks/05.jpg",
+      "cropTruncated": true,
+      "html": "archive/gt-standard-com/blocks/05.html"
+    },
+    {
+      "id": "gt-standard-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": true,
+      "tag": "aside",
+      "selector": "body > aside:nth-of-type(3)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 34146,
+        "w": 1440,
+        "h": 40
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "platform",
+      "fontFamilies": [
+        "GT Standard"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [
+        "\"opsz\" 18, \"slnt\" 0, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.697,
+        "heightVh": 0.043,
+        "widthRatio": 1,
+        "text": 2.197,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-standard-com/blocks/06.html"
+    },
+    {
+      "id": "gt-standard-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(4)",
+      "classes": [
+        "pin-spacer",
+        "pin-spacer-chapters"
+      ],
+      "box": {
+        "x": 0,
+        "y": 34186,
+        "w": 1440,
+        "h": 12348
+      },
+      "headings": [
+        "platform",
+        "icons",
+        "pictograms",
+        "enclosed letters"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Designed to Expand From the start, GT Standard was designed as a platform for customization. Its underlying structure makes it easy to expand, including styles, widths, or even writing systems. It is a living project, built to grow in step ",
+      "fontFamilies": [
+        "GT Standard",
+        "GT Standard Icons"
+      ],
+      "maxFontSizePx": 364,
+      "variationSettings": [
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 18, \"slnt\" 0, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 100, \"wght\" 700",
+        "\"wght\" 400",
+        "\"opsz\" 10, \"slnt\" 0, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 7,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 24,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.778,
+        "relY": 0.698,
+        "heightVh": 2.689,
+        "widthRatio": 1,
+        "text": 8.264,
+        "elements": 6.898,
+        "headings": 4,
+        "fontSizes": 8,
+        "maxFontVw": 0.252,
+        "singleChar": 5.505,
+        "varSettings": 5,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 2.079,
+        "buttons": 0,
+        "img": 3.219,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-standard-com/blocks/07.html"
+    },
+    {
+      "id": "gt-standard-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": true,
+      "tag": "aside",
+      "selector": "body > aside:nth-of-type(4)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 46534,
+        "w": 1440,
+        "h": 40
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "outro",
+      "fontFamilies": [
+        "GT Standard"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [
+        "\"opsz\" 18, \"slnt\" 0, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.889,
+        "relY": 0.949,
+        "heightVh": 0.043,
+        "widthRatio": 1,
+        "text": 1.792,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-standard-com/blocks/08.html"
+    },
+    {
+      "id": "gt-standard-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(5)",
+      "classes": [
+        "pin-spacer",
+        "pin-spacer-chapters"
+      ],
+      "box": {
+        "x": 0,
+        "y": 46574,
+        "w": 1440,
+        "h": 2436
+      },
+      "headings": [
+        "outro",
+        "free trials",
+        "purchase license",
+        "customization"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Summary GT Standard is a study in precision, minimalism, and adaptability. Built from fundamental, geometric shapes, it balances clarity and expression to create a versatile typographic system. Its four variable axes — weight, width, optica",
+      "fontFamilies": [
+        "GT Standard"
+      ],
+      "maxFontSizePx": 288,
+      "variationSettings": [
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 18, \"slnt\" 0, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 100, \"wght\" 700",
+        "\"opsz\" 10, \"slnt\" 0, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 17,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.95,
+        "heightVh": 1.31,
+        "widthRatio": 1,
+        "text": 7.328,
+        "elements": 5.075,
+        "headings": 4,
+        "fontSizes": 5,
+        "maxFontVw": 0.2,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 2.89,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.135,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-standard-com/blocks/09.html"
+    },
+    {
+      "id": "gt-standard-com#10",
+      "nn": "10",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(6)",
+      "classes": [
+        "bg-white",
+        "bottom-0",
+        "duration-400",
+        "fixed",
+        "left-0",
+        "lg:p-0"
+      ],
+      "box": {
+        "x": 0,
+        "y": 900,
+        "w": 1440,
+        "h": 860
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "weight 700 width 100 optical 30 slant 0 proportional monospace 200px simple geometry 100px simple geometry is the backbone of typography 50px Simple geometry is the backbone of typographic design, reducing forms to circles, squares, and lin",
+      "fontFamilies": [
+        "GT Standard"
+      ],
+      "maxFontSizePx": 200,
+      "variationSettings": [
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 10, \"slnt\" 0, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 100, \"wght\" 700"
+      ],
+      "controls": {
+        "range": 4,
+        "text": 0,
+        "contenteditable": 5,
+        "checkbox": 1,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.111,
+        "relY": 0.018,
+        "heightVh": 0.671,
+        "widthRatio": 1,
+        "text": 6.901,
+        "elements": 4.007,
+        "headings": 0,
+        "fontSizes": 8,
+        "maxFontVw": 0.139,
+        "singleChar": 1.099,
+        "varSettings": 3,
+        "range": 1.609,
+        "textInput": 1.792,
+        "toggles": 0.693,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-standard-com/blocks/10.html"
+    },
+    {
+      "id": "gt-standard-com#11",
+      "nn": "11",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(7)",
+      "classes": [
+        "bg-forest",
+        "bottom-0",
+        "duration-400",
+        "fixed",
+        "left-0",
+        "overflow-auto"
+      ],
+      "box": {
+        "x": 0,
+        "y": 900,
+        "w": 1440,
+        "h": 860
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "buy gt standard fonts licensing is exclusively available through grilli type. buy now. full family 336 styles 12 subfamilies 3 optical sizes from $1008 the full family includes twelve subfamilies — six mono and six proportional — covering t",
+      "fontFamilies": [
+        "GT Standard",
+        "GT Standard Mono"
+      ],
+      "maxFontSizePx": 50,
+      "variationSettings": [
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 100, \"wght\" 700",
+        "\"opsz\" 18, \"slnt\" 0, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 0, \"wght\" 700",
+        "\"opsz\" 10, \"slnt\" 0, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 37, \"wght\" 700",
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 75, \"wght\" 700",
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 125, \"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(11, 110, 73)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": true
+      },
+      "vector": {
+        "order": 1.222,
+        "relY": 0.018,
+        "heightVh": 0.671,
+        "widthRatio": 1,
+        "text": 7.125,
+        "elements": 4.431,
+        "headings": 0,
+        "fontSizes": 5,
+        "maxFontVw": 0.035,
+        "singleChar": 1.386,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.117,
+        "fgLum": 1
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-standard-com/blocks/11.html"
+    }
+  ]
+}

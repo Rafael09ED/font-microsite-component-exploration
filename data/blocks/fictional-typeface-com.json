@@ -1,0 +1,711 @@
+{
+  "slug": "fictional-typeface-com",
+  "url": "https://fictional-typeface.com/",
+  "pageHeight": 2670,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "fictional-typeface-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(1)",
+      "classes": [
+        "section",
+        "intro"
+      ],
+      "box": {
+        "x": 20,
+        "y": 20,
+        "w": 1400,
+        "h": 860
+      },
+      "headings": [
+        "Fictional"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Fictional A friendly & quirky typeface with a cartoonesque character NEW! OUT NOW 5 WEIGHTS FREE TRIAL AVAILABLE BANG KABOOOM scroll down ↓ GET IT HERE",
+      "fontFamilies": [
+        "Fictional"
+      ],
+      "maxFontSizePx": 202,
+      "variationSettings": [
+        "\"wght\" 140",
+        "\"wght\" 60",
+        "\"wght\" 100",
+        "\"wght\" 120"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 4,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 233, 206)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.007,
+        "heightVh": 0.671,
+        "widthRatio": 0.972,
+        "text": 5.024,
+        "elements": 3.761,
+        "headings": 1,
+        "fontSizes": 7,
+        "maxFontVw": 0.14,
+        "singleChar": 2.398,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.609,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.84,
+        "fgLum": 0
+      },
+      "crop": "archive/fictional-typeface-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/fictional-typeface-com/blocks/00.html"
+    },
+    {
+      "id": "fictional-typeface-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(2)",
+      "classes": [
+        "section",
+        "styles"
+      ],
+      "box": {
+        "x": 20,
+        "y": 900,
+        "w": 690,
+        "h": 559
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Fictional Light Fictional Regular Fictional SemiBold Fictional Bold Fictional UltraBold",
+      "fontFamilies": [
+        "Fictional"
+      ],
+      "maxFontSizePx": 50,
+      "variationSettings": [
+        "\"wght\" 60",
+        "\"wght\" 80",
+        "\"wght\" 100",
+        "\"wght\" 120",
+        "\"wght\" 140"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 5,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(138, 83, 255)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.167,
+        "relY": 0.337,
+        "heightVh": 0.483,
+        "widthRatio": 0.479,
+        "text": 4.477,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.035,
+        "singleChar": 0,
+        "varSettings": 5,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.792,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.188,
+        "fgLum": 1
+      },
+      "crop": "archive/fictional-typeface-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/fictional-typeface-com/blocks/01.html"
+    },
+    {
+      "id": "fictional-typeface-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(3)",
+      "classes": [
+        "section",
+        "text"
+      ],
+      "box": {
+        "x": 730,
+        "y": 900,
+        "w": 690,
+        "h": 559
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Fictional is a friendly, playful typeface, full of warmth and personality. Perfect for cheerful branding, packaging, game interfaces, and children’s books.",
+      "fontFamilies": [
+        "Fictional"
+      ],
+      "maxFontSizePx": 37,
+      "variationSettings": [
+        "\"wght\" 100"
+      ],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 216, 12)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.337,
+        "heightVh": 0.483,
+        "widthRatio": 0.479,
+        "text": 5.056,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.026,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0.693,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.704,
+        "fgLum": 0
+      },
+      "crop": "archive/fictional-typeface-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/fictional-typeface-com/blocks/02.html"
+    },
+    {
+      "id": "fictional-typeface-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(4)",
+      "classes": [
+        "section",
+        "charset"
+      ],
+      "box": {
+        "x": 20,
+        "y": 1479,
+        "w": 1400,
+        "h": 598
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "A Á Ă Â Ä À Ā Ą Å Ã Æ B C Ć Č Ç D Ð Ď Đ E É Ě Ê Ë Ė È Ē Ę F G Ģ H I Í Î Ï Ì Ī Į J K Ķ L Ĺ Ľ Ļ Ł M N Ń Ň Ņ Ŋ Ñ O Ó Ô Ö Ò Ő Ō Ø Õ Œ Þ Q R Ŕ Ř Ŗ S Ś Š Ş ẞ T Ŧ Ť Ţ U Ú Û Ü Ù Ű Ū Ų Ů V W Ẃ Ŵ Ẅ Ẁ X Y Ý Ŷ Ÿ Ỳ Z Ź Ž Ż a á ă â ä à ā ą å ã a á ă â ä ",
+      "fontFamilies": [
+        "Fictional"
+      ],
+      "maxFontSizePx": 22,
+      "variationSettings": [
+        "\"wght\" 60"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 307,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(253, 75, 56)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.554,
+        "heightVh": 0.509,
+        "widthRatio": 0.972,
+        "text": 7.115,
+        "elements": 6.428,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.015,
+        "singleChar": 5.298,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 5.73,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.262,
+        "fgLum": 1
+      },
+      "crop": "archive/fictional-typeface-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/fictional-typeface-com/blocks/03.html"
+    },
+    {
+      "id": "fictional-typeface-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(5)",
+      "classes": [
+        "section",
+        "info"
+      ],
+      "box": {
+        "x": 20,
+        "y": 2096,
+        "w": 927,
+        "h": 467
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "For trial fonts, licensing options and more head over to Jonas Type! If you have any questions, please send an email!",
+      "fontFamilies": [
+        "Fictional"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [
+        "\"wght\" 100"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(60, 203, 9)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": true,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.785,
+        "heightVh": 0.418,
+        "widthRatio": 0.644,
+        "text": 4.779,
+        "elements": 1.946,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.033,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.437,
+        "fgLum": 0
+      },
+      "crop": "archive/fictional-typeface-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/fictional-typeface-com/blocks/04.html"
+    },
+    {
+      "id": "fictional-typeface-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(6)",
+      "classes": [
+        "getit"
+      ],
+      "box": {
+        "x": 967,
+        "y": 2096,
+        "w": 453,
+        "h": 425
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "BUY NOW",
+      "fontFamilies": [
+        "Fictional"
+      ],
+      "maxFontSizePx": 72,
+      "variationSettings": [
+        "\"wght\" 60",
+        "\"wght\" 120"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.833,
+        "relY": 0.785,
+        "heightVh": 0.387,
+        "widthRatio": 0.315,
+        "text": 2.079,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.05,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/fictional-typeface-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/fictional-typeface-com/blocks/05.html"
+    },
+    {
+      "id": "fictional-typeface-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(3)",
+      "classes": [
+        "credits"
+      ],
+      "box": {
+        "x": 20,
+        "y": 2606,
+        "w": 1400,
+        "h": 45
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "A project by Jonas Pelzer, sounds from zapsplat.com. Imprint Contact Instagram LinkedIn",
+      "fontFamilies": [
+        "Fictional"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"wght\" 70"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(102, 102, 102)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.976,
+        "heightVh": 0.049,
+        "widthRatio": 0.972,
+        "text": 4.575,
+        "elements": 2.197,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.946,
+        "bgLum": -1,
+        "fgLum": 0.133
+      },
+      "crop": "archive/fictional-typeface-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/fictional-typeface-com/blocks/06.html"
+    },
+    {
+      "id": "fictional-typeface-com#07",
+      "nn": "07",
+      "kind": "offscreen",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(4)",
+      "classes": [
+        "refreshscreen"
+      ],
+      "box": {
+        "x": -360,
+        "y": -1350,
+        "w": 2160,
+        "h": 1350
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "r e s t o r e",
+      "fontFamilies": [
+        "Fictional"
+      ],
+      "maxFontSizePx": 115,
+      "variationSettings": [
+        "\"wght\" 100"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(138, 83, 255)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.167,
+        "relY": -0.506,
+        "heightVh": 0.916,
+        "widthRatio": 1.5,
+        "text": 2.639,
+        "elements": 2.197,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.08,
+        "singleChar": 2.079,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.188,
+        "fgLum": 1
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/fictional-typeface-com/blocks/07.html"
+    }
+  ]
+}

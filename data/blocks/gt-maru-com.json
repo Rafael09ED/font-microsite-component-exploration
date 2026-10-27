@@ -1,0 +1,1499 @@
+{
+  "slug": "gt-maru-com",
+  "url": "https://gt-maru.com",
+  "pageHeight": 26863,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "gt-maru-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#intro",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 5400
+      },
+      "headings": [
+        "GT MARU"
+      ],
+      "parentHeadings": null,
+      "textPreview": "GT MARU The typeface is a result of Thierry Blancpain’s trips to Japan. Afterwards, he found himself thinking about the wayfinding signage he had encountered on his trip. What could he learn from these designs? S C R O L L",
+      "fontFamilies": [
+        "GT Maru"
+      ],
+      "maxFontSizePx": 187,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 550",
+        "\"slnt\" 0, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 32,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 104, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 1.946,
+        "widthRatio": 1,
+        "text": 5.416,
+        "elements": 4.443,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.13,
+        "singleChar": 1.946,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 3.497,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.171,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-maru-com/blocks/00.jpg",
+      "cropTruncated": true,
+      "html": "archive/gt-maru-com/blocks/00.html"
+    },
+    {
+      "id": "gt-maru-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#story",
+      "classes": [
+        "side-paddings",
+        "padding-bottom-m",
+        "js-animation-paused"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5400,
+        "w": 1440,
+        "h": 4973
+      },
+      "headings": [
+        "NI",
+        "HON"
+      ],
+      "parentHeadings": null,
+      "textPreview": "NI HON During one of his trips to Japan, Thierry couldn’t help but admire the casual and friendly tone of wayfinding systems found around construction sites. Comparing the design of public communication was one way for him to try to begin t",
+      "fontFamilies": [
+        "GT Maru"
+      ],
+      "maxFontSizePx": 158,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 550"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 4,
+        "svg": 3,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(179, 217, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.083,
+        "relY": 0.201,
+        "heightVh": 1.876,
+        "widthRatio": 1,
+        "text": 7.14,
+        "elements": 6.078,
+        "headings": 2,
+        "fontSizes": 3,
+        "maxFontVw": 0.11,
+        "singleChar": 0.693,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.609,
+        "svg": 1.386,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.664,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-maru-com/blocks/01.jpg",
+      "cropTruncated": true,
+      "html": "archive/gt-maru-com/blocks/01.html"
+    },
+    {
+      "id": "gt-maru-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#design",
+      "classes": [
+        "side-paddings",
+        "padding-bottom-m",
+        "js-animation-paused"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10395,
+        "w": 1440,
+        "h": 2817
+      },
+      "headings": [
+        "DESIGN"
+      ],
+      "parentHeadings": null,
+      "textPreview": "DESIGN Over the course of the next four years, Thierry carefully drafted countless iterations of rounded letters, paying homage to the signs he saw in Japan. The GT Maru family is a result of this design exploration into roundness — or maru",
+      "fontFamilies": [
+        "GT Maru"
+      ],
+      "maxFontSizePx": 158,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 550"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 4,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.167,
+        "relY": 0.387,
+        "heightVh": 1.418,
+        "widthRatio": 1,
+        "text": 6.804,
+        "elements": 3.638,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.11,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.609,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-maru-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-maru-com/blocks/02.html"
+    },
+    {
+      "id": "gt-maru-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#typeface",
+      "classes": [
+        "side-paddings",
+        "padding-bottom-m",
+        "js-animation-paused"
+      ],
+      "box": {
+        "x": 0,
+        "y": 13234,
+        "w": 1440,
+        "h": 1552
+      },
+      "headings": [
+        "TYPEFACE"
+      ],
+      "parentHeadings": null,
+      "textPreview": "TYPEFACE Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz GT MARU SUBFAMILY TYPE TESTER ↗ Setagaya WEIGHT OBLIQUE",
+      "fontFamilies": [
+        "GT Maru",
+        "GT Maru Mono"
+      ],
+      "maxFontSizePx": 230,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 550"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 27,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 104, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": true,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.25,
+        "relY": 0.493,
+        "heightVh": 1.002,
+        "widthRatio": 1,
+        "text": 4.963,
+        "elements": 4.682,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.16,
+        "singleChar": 3.296,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 3.332,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.171,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-maru-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-maru-com/blocks/03.html"
+    },
+    {
+      "id": "gt-maru-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#monospaced",
+      "classes": [
+        "side-paddings",
+        "padding-bottom-m",
+        "js-animation-paused"
+      ],
+      "box": {
+        "x": 0,
+        "y": 14808,
+        "w": 1440,
+        "h": 1702
+      },
+      "headings": [
+        "MONO"
+      ],
+      "parentHeadings": null,
+      "textPreview": "MONO GT Maru Mono celebrates the square character frame used to compose Japanese characters by fully embracing the aesthetic quality of the grid. The width of each letter is equal to the uppercase height. The typeface comes to life in this ",
+      "fontFamilies": [
+        "GT Maru",
+        "GT Maru Mono"
+      ],
+      "maxFontSizePx": 173,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 550",
+        "\"slnt\" 0, \"wght\" 900",
+        "\"slnt\" 0, \"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(179, 217, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.551,
+        "heightVh": 1.062,
+        "widthRatio": 1,
+        "text": 6.782,
+        "elements": 5.187,
+        "headings": 1,
+        "fontSizes": 9,
+        "maxFontVw": 0.12,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.664,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-maru-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-maru-com/blocks/04.html"
+    },
+    {
+      "id": "gt-maru-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#mega",
+      "classes": [
+        "side-paddings",
+        "padding-bottom-m",
+        "js-animation-paused"
+      ],
+      "box": {
+        "x": 0,
+        "y": 16532,
+        "w": 1440,
+        "h": 2831
+      },
+      "headings": [
+        "MEGA"
+      ],
+      "parentHeadings": null,
+      "textPreview": "MEGA Breaking free from the constraints of body text, GT Maru Mega takes the liberty to pump the design language up a notch. As the fullest expression of roundness in the family, Mega’s strokes inflate and deflate into each other — as if th",
+      "fontFamilies": [
+        "GT Maru",
+        "GT Maru Mega",
+        "Arial"
+      ],
+      "maxFontSizePx": 288,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 550",
+        "\"opsz\" 175"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 3,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.417,
+        "relY": 0.615,
+        "heightVh": 1.422,
+        "widthRatio": 1,
+        "text": 6.608,
+        "elements": 3.871,
+        "headings": 1,
+        "fontSizes": 7,
+        "maxFontVw": 0.2,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 1.386,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-maru-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-maru-com/blocks/05.html"
+    },
+    {
+      "id": "gt-maru-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#emoji",
+      "classes": [
+        "side-paddings",
+        "padding-bottom-m",
+        "js-animation-paused"
+      ],
+      "box": {
+        "x": 0,
+        "y": 19385,
+        "w": 1440,
+        "h": 2547
+      },
+      "headings": [
+        "EMOJI"
+      ],
+      "parentHeadings": null,
+      "textPreview": "EMOJI The worldwide phenomenon of emoji traces its creation back to Japan. Taking cues from their birthplace, GT Maru features a lighthearted cast of happy characters available in black and white and color variants. The color emojis are als",
+      "fontFamilies": [
+        "GT Maru",
+        "GT Maru Emoji BW",
+        "GT Maru Emoji"
+      ],
+      "maxFontSizePx": 158,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 550",
+        "\"ital\" 0, \"wdth\" 0, \"wght\" 400",
+        "\"wght\" 550"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 104, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.722,
+        "heightVh": 1.343,
+        "widthRatio": 1,
+        "text": 7.969,
+        "elements": 6.825,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.11,
+        "singleChar": 5.948,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.171,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-maru-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-maru-com/blocks/06.html"
+    },
+    {
+      "id": "gt-maru-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#overview > div:nth-of-type(1)",
+      "classes": [
+        "area-container-outside",
+        "padding-top-m",
+        "padding-bottom-l"
+      ],
+      "box": {
+        "x": 60,
+        "y": 21954,
+        "w": 1320,
+        "h": 313
+      },
+      "headings": [
+        "OVERVIEW"
+      ],
+      "parentHeadings": [
+        "OVERVIEW",
+        "INSTAGRAM",
+        "STICKERSET",
+        "TWITTER"
+      ],
+      "textPreview": "OVERVIEW",
+      "fontFamilies": [
+        "GT Maru"
+      ],
+      "maxFontSizePx": 158,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 550"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.583,
+        "relY": 0.817,
+        "heightVh": 0.298,
+        "widthRatio": 0.917,
+        "text": 2.197,
+        "elements": 1.099,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.11,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-maru-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-maru-com/blocks/07.html"
+    },
+    {
+      "id": "gt-maru-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#overview > div:nth-of-type(2)",
+      "classes": [
+        "area-container-outside",
+        "padding-bottom-l"
+      ],
+      "box": {
+        "x": 60,
+        "y": 22267,
+        "w": 1320,
+        "h": 461
+      },
+      "headings": [],
+      "parentHeadings": [
+        "OVERVIEW",
+        "INSTAGRAM",
+        "STICKERSET",
+        "TWITTER"
+      ],
+      "textPreview": "The GT Maru family features five weights in both proportional and monospaced with matching oblique styles. The expansive Mega subfamily can be a companion or function as a standalone design. Finally, the two emoji fonts allow you to express",
+      "fontFamilies": [
+        "GT Maru"
+      ],
+      "maxFontSizePx": 25,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 550"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.829,
+        "heightVh": 0.414,
+        "widthRatio": 0.917,
+        "text": 5.666,
+        "elements": 1.946,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-maru-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-maru-com/blocks/08.html"
+    },
+    {
+      "id": "gt-maru-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#overview > div:nth-of-type(3)",
+      "classes": [
+        "area-container-outside",
+        "padding-bottom-s",
+        "family-overview"
+      ],
+      "box": {
+        "x": 60,
+        "y": 22728,
+        "w": 1320,
+        "h": 871
+      },
+      "headings": [],
+      "parentHeadings": [
+        "OVERVIEW",
+        "INSTAGRAM",
+        "STICKERSET",
+        "TWITTER"
+      ],
+      "textPreview": "GT MARU FULL FAMILY 25 Styles, 3 Variable fonts, 2 Emoji fonts GT Maru GT Maru Mono GT Maru Mega GT Maru Emoji",
+      "fontFamilies": [
+        "GT Maru"
+      ],
+      "maxFontSizePx": 25,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 550"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 4,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.75,
+        "relY": 0.846,
+        "heightVh": 0.677,
+        "widthRatio": 0.917,
+        "text": 4.727,
+        "elements": 2.833,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.609,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-maru-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-maru-com/blocks/09.html"
+    },
+    {
+      "id": "gt-maru-com#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#overview > div:nth-of-type(5)",
+      "classes": [
+        "character-set-container",
+        "character-set-primary",
+        "padding-bottom-l"
+      ],
+      "box": {
+        "x": 60,
+        "y": 23599,
+        "w": 1320,
+        "h": 1239
+      },
+      "headings": [],
+      "parentHeadings": [
+        "OVERVIEW",
+        "INSTAGRAM",
+        "STICKERSET",
+        "TWITTER"
+      ],
+      "textPreview": "BASIC LATIN A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z EXTENDED LATIN Á Ă Â Ä Æ Ǽ À Ā Ą Å Ã Ć Č Ç Ĉ Ċ Ď Đ É Ĕ Ě Ê Ë Ė È Ē Ę Ð Ğ Ĝ Ģ Ġ Ħ Ĥ Í Ĭ Î Ï İ Ì Ĳ Ī Į Ĩ Ĵ Ķ Ĺ Ľ Ļ Ŀ Ł Ń Ň Ņ Ñ",
+      "fontFamilies": [
+        "GT Maru",
+        "GT Maru Emoji"
+      ],
+      "maxFontSizePx": 27,
+      "variationSettings": [
+        "\"wght\" 550",
+        "\"slnt\" 0, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.833,
+        "relY": 0.878,
+        "heightVh": 0.866,
+        "widthRatio": 0.917,
+        "text": 6.889,
+        "elements": 6.096,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.019,
+        "singleChar": 5.974,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-maru-com/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-maru-com/blocks/10.html"
+    },
+    {
+      "id": "gt-maru-com#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#overview > div:nth-of-type(6)",
+      "classes": [
+        "area-container-outside",
+        "margin-bottom-l"
+      ],
+      "box": {
+        "x": 60,
+        "y": 24838,
+        "w": 1320,
+        "h": 686
+      },
+      "headings": [],
+      "parentHeadings": [
+        "OVERVIEW",
+        "INSTAGRAM",
+        "STICKERSET",
+        "TWITTER"
+      ],
+      "textPreview": "Typeface design by Thierry Blancpain 2017–2021, exclusively available at Grilli Type. Emojis by Grilli Type with Anya Danilova. Production of GT Maru Mega by Huw Williams. Quality control by Christoph Koeberlin. Website design and artwork b",
+      "fontFamilies": [
+        "GT Maru"
+      ],
+      "maxFontSizePx": 25,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 550"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.917,
+        "relY": 0.925,
+        "heightVh": 0.567,
+        "widthRatio": 0.917,
+        "text": 6.324,
+        "elements": 3.045,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.565,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-maru-com/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-maru-com/blocks/11.html"
+    },
+    {
+      "id": "gt-maru-com#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#overview > div:nth-of-type(8)",
+      "classes": [
+        "area-container-outside",
+        "margin-bottom-s",
+        "margin-top-s",
+        "links-minisites"
+      ],
+      "box": {
+        "x": 60,
+        "y": 25783,
+        "w": 1320,
+        "h": 994
+      },
+      "headings": [
+        "GT ALPINA",
+        "GT AMERICA",
+        "GT CINETYPE",
+        "GT EESTI"
+      ],
+      "parentHeadings": [
+        "OVERVIEW",
+        "INSTAGRAM",
+        "STICKERSET",
+        "TWITTER"
+      ],
+      "textPreview": "GT ALPINA GT AMERICA GT CINETYPE GT EESTI GT FLEXA GT HAPTIK GT SUPER GT WALSHEIM GT ZIRKON",
+      "fontFamilies": [
+        "GT Maru"
+      ],
+      "maxFontSizePx": 25,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 550"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 9,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.96,
+        "heightVh": 0.744,
+        "widthRatio": 0.917,
+        "text": 4.522,
+        "elements": 3.401,
+        "headings": 4,
+        "fontSizes": 1,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.303,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.485,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-maru-com/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-maru-com/blocks/12.html"
+    },
+    {
+      "id": "gt-maru-com#13",
+      "nn": "13",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "nav",
+      "selector": "body > nav",
+      "classes": [],
+      "box": {
+        "x": 20,
+        "y": 20,
+        "w": 1400,
+        "h": 41
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Story Design Typeface Mono Mega Emoji Overview Loading... Try Buy",
+      "fontFamilies": [
+        "GT Maru"
+      ],
+      "maxFontSizePx": 25,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 550"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.083,
+        "relY": 0.001,
+        "heightVh": 0.045,
+        "widthRatio": 0.972,
+        "text": 4.19,
+        "elements": 2.944,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.017,
+        "singleChar": 1.386,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.197,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-maru-com/blocks/13.html"
+    },
+    {
+      "id": "gt-maru-com#14",
+      "nn": "14",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(3)",
+      "classes": [
+        "typetester-settings-area"
+      ],
+      "box": {
+        "x": 60,
+        "y": 924,
+        "w": 1320,
+        "h": 294
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "↑ SELECT STYLE GT Maru LightOblique RegularOblique MediumOblique BoldOblique BlackOblique GT Maru Mono LightOblique RegularOblique MediumOblique BoldOblique BlackOblique GT Maru Mega Mini Midi Maxi FONT SIZE SUBFAMILY MARU MONO MEGA WEIGHT ",
+      "fontFamilies": [
+        "GT Maru",
+        "GT Maru Mono",
+        "GT Maru Mega",
+        "Arial"
+      ],
+      "maxFontSizePx": 35,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 550",
+        "\"slnt\" 0, \"wght\" 200",
+        "\"slnt\" 7, \"wght\" 200",
+        "\"slnt\" 0, \"wght\" 360",
+        "\"slnt\" 7, \"wght\" 360",
+        "\"slnt\" 7, \"wght\" 550",
+        "\"slnt\" 0, \"wght\" 700",
+        "\"slnt\" 7, \"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 3,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.167,
+        "relY": 0.034,
+        "heightVh": 0.283,
+        "widthRatio": 0.917,
+        "text": 5.659,
+        "elements": 4.522,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.024,
+        "singleChar": 0.693,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 1.386,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-maru-com/blocks/14.html"
+    },
+    {
+      "id": "gt-maru-com#15",
+      "nn": "15",
+      "kind": "offscreen",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2)",
+      "classes": [
+        "typetester-container"
+      ],
+      "box": {
+        "x": 0,
+        "y": -990,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Download Trial Fonts ↗ Buy Licensing ↗ GT MARU BLACK 187PX Futomaki 😃 GT MARU BLACK 108PX THICK SUSHI ROLL with colorful fillings GT MARU MONO BLACK 54PX Sometimes also called Maki Sushi The diameter is about 5–6cm With lotus root, unagi, ",
+      "fontFamilies": [
+        "GT Maru",
+        "GT Maru Mono",
+        "GT Maru Mega"
+      ],
+      "maxFontSizePx": 266,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 550",
+        "\"slnt\" 0, \"wght\" 900",
+        "\"slnt\" 0, \"wght\" 700",
+        "\"slnt\" 0, \"wght\" 360",
+        "\"slnt\" 0, \"wght\" 200",
+        "\"opsz\" 175",
+        "\"opsz\" 100"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 18,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.25,
+        "relY": -0.037,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 7.165,
+        "elements": 4.779,
+        "headings": 0,
+        "fontSizes": 6,
+        "maxFontVw": 0.185,
+        "singleChar": 0,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 2.944,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-maru-com/blocks/15.html"
+    }
+  ]
+}

@@ -1,0 +1,953 @@
+{
+  "slug": "brailleneue-com",
+  "url": "https://brailleneue.com",
+  "pageHeight": 7170,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "brailleneue-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section",
+      "classes": [
+        "relative",
+        "h-[100svh]",
+        "min-h-[560px]"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "Character with Braille."
+      ],
+      "parentHeadings": null,
+      "textPreview": "Braille Neue About Project Movie Typeface Case Study Collaborator Media Reference Contact Character with Braille. 点字と文字が一体になった、目でも指でも読める書体。",
+      "fontFamilies": [
+        "Poppins"
+      ],
+      "maxFontSizePx": 72,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 4.949,
+        "elements": 3.401,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.05,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0.693,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.303,
+        "bgLum": -1,
+        "fgLum": 0.033
+      },
+      "crop": "archive/brailleneue-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/brailleneue-com/blocks/00.html"
+    },
+    {
+      "id": "brailleneue-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#about",
+      "classes": [
+        "pt-[80px]",
+        "md:pt-[120px]",
+        "mx-auto",
+        "w-full",
+        "max-w-[960px]",
+        "px-5"
+      ],
+      "box": {
+        "x": 240,
+        "y": 900,
+        "w": 960,
+        "h": 549
+      },
+      "headings": [
+        "About"
+      ],
+      "parentHeadings": [
+        "About",
+        "Project Movie",
+        "Typeface",
+        "Case Study"
+      ],
+      "textPreview": "About Braille Neue is a project that creates a universal typeface that combines Braille and characters, with the aim of delivering alternative ways of communication through sharing information between the sighted and the visually impaired u",
+      "fontFamilies": [
+        "Poppins"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.111,
+        "relY": 0.126,
+        "heightVh": 0.476,
+        "widthRatio": 0.667,
+        "text": 5.948,
+        "elements": 2.079,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.033
+      },
+      "crop": "archive/brailleneue-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/brailleneue-com/blocks/01.html"
+    },
+    {
+      "id": "brailleneue-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#movie",
+      "classes": [
+        "pt-[80px]",
+        "md:pt-[120px]",
+        "mx-auto",
+        "w-full",
+        "max-w-[960px]",
+        "px-5"
+      ],
+      "box": {
+        "x": 240,
+        "y": 1449,
+        "w": 960,
+        "h": 745
+      },
+      "headings": [
+        "Project Movie"
+      ],
+      "parentHeadings": [
+        "About",
+        "Project Movie",
+        "Typeface",
+        "Case Study"
+      ],
+      "textPreview": "Project Movie",
+      "fontFamilies": [
+        "Poppins"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 1
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.222,
+        "relY": 0.202,
+        "heightVh": 0.603,
+        "widthRatio": 0.667,
+        "text": 2.639,
+        "elements": 1.609,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0.693,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.033
+      },
+      "crop": "archive/brailleneue-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/brailleneue-com/blocks/02.html"
+    },
+    {
+      "id": "brailleneue-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#typeface",
+      "classes": [
+        "pt-[80px]",
+        "md:pt-[120px]",
+        "mx-auto",
+        "w-full",
+        "max-w-[960px]",
+        "px-5"
+      ],
+      "box": {
+        "x": 240,
+        "y": 2194,
+        "w": 960,
+        "h": 546
+      },
+      "headings": [
+        "Typeface"
+      ],
+      "parentHeadings": [
+        "About",
+        "Project Movie",
+        "Typeface",
+        "Case Study"
+      ],
+      "textPreview": "Typeface Braille Neue Standard (Latin Alphabets) Braille Neue Outline (Latin Alphabets, Japanese Katakana)",
+      "fontFamilies": [
+        "Poppins"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.306,
+        "heightVh": 0.474,
+        "widthRatio": 0.667,
+        "text": 4.71,
+        "elements": 2.639,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.099,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.033
+      },
+      "crop": "archive/brailleneue-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/brailleneue-com/blocks/03.html"
+    },
+    {
+      "id": "brailleneue-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#casestudy",
+      "classes": [
+        "pt-[80px]",
+        "md:pt-[120px]",
+        "mx-auto",
+        "w-full",
+        "max-w-[960px]",
+        "px-5"
+      ],
+      "box": {
+        "x": 240,
+        "y": 2739,
+        "w": 960,
+        "h": 1385
+      },
+      "headings": [
+        "Case Study"
+      ],
+      "parentHeadings": [
+        "About",
+        "Project Movie",
+        "Typeface",
+        "Case Study"
+      ],
+      "textPreview": "Case Study Shibuya City Office Signage Design Date: 2019.1 Client: Shibuya City Place: Tokyo, Japan Panasonic Center Exhibition Design Date: 2019.1 Client: Panasonic Place: Tokyo, Japan Fix me. Storybook Design Date: 2019.1 Client: Non-Clie",
+      "fontFamilies": [
+        "Poppins"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 6,
+        "color": 0
+      },
+      "media": {
+        "img": 11,
+        "svg": 6,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.444,
+        "relY": 0.382,
+        "heightVh": 0.932,
+        "widthRatio": 0.667,
+        "text": 5.628,
+        "elements": 4.094,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.946,
+        "img": 2.485,
+        "svg": 1.946,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.033
+      },
+      "crop": "archive/brailleneue-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/brailleneue-com/blocks/04.html"
+    },
+    {
+      "id": "brailleneue-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#collaborators",
+      "classes": [
+        "pt-[80px]",
+        "md:pt-[120px]",
+        "mx-auto",
+        "w-full",
+        "max-w-[960px]",
+        "px-5"
+      ],
+      "box": {
+        "x": 240,
+        "y": 4124,
+        "w": 960,
+        "h": 390
+      },
+      "headings": [
+        "Collaborators"
+      ],
+      "parentHeadings": [
+        "About",
+        "Project Movie",
+        "Typeface",
+        "Case Study"
+      ],
+      "textPreview": "Collaborators",
+      "fontFamilies": [
+        "Poppins"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 8,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.556,
+        "relY": 0.575,
+        "heightVh": 0.36,
+        "widthRatio": 0.667,
+        "text": 2.639,
+        "elements": 2.996,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.197,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.033
+      },
+      "crop": "archive/brailleneue-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/brailleneue-com/blocks/05.html"
+    },
+    {
+      "id": "brailleneue-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#media",
+      "classes": [
+        "pt-[80px]",
+        "md:pt-[120px]",
+        "mx-auto",
+        "w-full",
+        "max-w-[960px]",
+        "px-5"
+      ],
+      "box": {
+        "x": 240,
+        "y": 4514,
+        "w": 960,
+        "h": 826
+      },
+      "headings": [
+        "Media"
+      ],
+      "parentHeadings": [
+        "About",
+        "Project Movie",
+        "Typeface",
+        "Case Study"
+      ],
+      "textPreview": "Media 2018.03.26 designboom : braille neue wins one for information-equality design 2018.03.29 CAREER HACK : 目が見える人も見えない人も、同じ文字で繋がる社会へ 2018.04.02 Spoon and Tamago : Braille Neue Communicates Visually and Physically 2018.11.13 Wired AUDI inn",
+      "fontFamilies": [
+        "Poppins"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 10,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.63,
+        "heightVh": 0.651,
+        "widthRatio": 0.667,
+        "text": 6.368,
+        "elements": 3.989,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 2.398,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.398,
+        "bgLum": -1,
+        "fgLum": 0.033
+      },
+      "crop": "archive/brailleneue-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/brailleneue-com/blocks/06.html"
+    },
+    {
+      "id": "brailleneue-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#reference",
+      "classes": [
+        "pt-[80px]",
+        "md:pt-[120px]",
+        "mx-auto",
+        "w-full",
+        "max-w-[960px]",
+        "px-5"
+      ],
+      "box": {
+        "x": 240,
+        "y": 5340,
+        "w": 960,
+        "h": 645
+      },
+      "headings": [
+        "Reference"
+      ],
+      "parentHeadings": [
+        "About",
+        "Project Movie",
+        "Typeface",
+        "Case Study"
+      ],
+      "textPreview": "Reference The idea of combining braille with existing characters itself has been practiced by various designers around the world. In this project, we aim to create an inclusive society where the use of Braille is commonplace through the con",
+      "fontFamilies": [
+        "Poppins"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 3,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.778,
+        "relY": 0.745,
+        "heightVh": 0.54,
+        "widthRatio": 0.667,
+        "text": 6.6,
+        "elements": 3.091,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.386,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 0.033
+      },
+      "crop": "archive/brailleneue-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/brailleneue-com/blocks/07.html"
+    },
+    {
+      "id": "brailleneue-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#contact",
+      "classes": [
+        "pt-[80px]",
+        "md:pt-[120px]",
+        "mx-auto",
+        "w-full",
+        "max-w-[960px]",
+        "px-5"
+      ],
+      "box": {
+        "x": 240,
+        "y": 5984,
+        "w": 960,
+        "h": 866
+      },
+      "headings": [
+        "Contact"
+      ],
+      "parentHeadings": [
+        "About",
+        "Project Movie",
+        "Typeface",
+        "Case Study"
+      ],
+      "textPreview": "Contact For inquiries regarding the use of typefaces, media coverage, and other project-related matters, please use this form. We also provide typefaces for a fee. Please feel free to contact us. 書体の使用、ライセンス供与、メディア取材、その他プロジェクトに関係するお問い合わせは、以",
+      "fontFamilies": [
+        "Poppins"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 2,
+        "contenteditable": 0,
+        "checkbox": 1,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.889,
+        "relY": 0.835,
+        "heightVh": 0.674,
+        "widthRatio": 0.667,
+        "text": 5.94,
+        "elements": 3.258,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.022,
+        "singleChar": 1.386,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 1.099,
+        "toggles": 0.693,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0.033
+      },
+      "crop": "archive/brailleneue-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/brailleneue-com/blocks/08.html"
+    },
+    {
+      "id": "brailleneue-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > footer",
+      "classes": [
+        "mt-[120px]",
+        "flex",
+        "h-[200px]",
+        "flex-col",
+        "items-center",
+        "justify-center"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6970,
+        "w": 1440,
+        "h": 200
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "(C)2018-2022 Braille Neue, All rights reserved. Designed by Kosuke Takahashi.",
+      "fontFamilies": [
+        "Poppins"
+      ],
+      "maxFontSizePx": 14,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(51, 51, 51)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.972,
+        "heightVh": 0.201,
+        "widthRatio": 1,
+        "text": 4.357,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.01,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.033,
+        "fgLum": 0.033
+      },
+      "crop": "archive/brailleneue-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/brailleneue-com/blocks/09.html"
+    }
+  ]
+}

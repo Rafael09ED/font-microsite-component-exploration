@@ -1,0 +1,1897 @@
+{
+  "slug": "gt-planar-com",
+  "url": "https://gt-planar.com",
+  "pageHeight": 24435,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "gt-planar-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(1)",
+      "classes": [
+        "intro",
+        "relative",
+        "w-full",
+        "intro--enter"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "TYPE THE FINAL FRONTIER GT PLANAR −45°+45°",
+      "fontFamilies": [
+        "GT Planar"
+      ],
+      "maxFontSizePx": 146,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 300",
+        "\"slnt\" -25, \"wght\" 500",
+        "\"slnt\" -8.33, \"wght\" 500",
+        "\"slnt\" 8.33, \"wght\" 500",
+        "\"slnt\" 25, \"wght\" 500",
+        "\"slnt\" 17.86, \"wght\" 500",
+        "\"slnt\" 10.72, \"wght\" 500",
+        "\"slnt\" 3.58, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 1,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 3.761,
+        "elements": 3.85,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.101,
+        "singleChar": 3.367,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0.693,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-planar-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-planar-com/blocks/00.html"
+    },
+    {
+      "id": "gt-planar-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(1)",
+      "classes": [
+        "content",
+        "grid",
+        "pb-8",
+        "md:pb-9"
+      ],
+      "box": {
+        "x": 250,
+        "y": 1050,
+        "w": 940,
+        "h": 318
+      },
+      "headings": [
+        "LIFTOFF"
+      ],
+      "parentHeadings": [
+        "LIFTOFF",
+        "NEW TERRITORY",
+        "BEYOND DIVISIONS",
+        "DESIGN"
+      ],
+      "textPreview": "LIFTOFF Welcome to a galaxy of Uprights and Italics built as one, not as separate entities. GT Planar bends the laws of type design as it seamlessly transitions from Thin to Black, from -45° Retalic to +45° Italic. Rooted in Modernism, Domi",
+      "fontFamilies": [
+        "GT Planar"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 300",
+        "\"slnt\" 39.2018, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.063,
+        "relY": 0.043,
+        "heightVh": 0.303,
+        "widthRatio": 0.653,
+        "text": 5.796,
+        "elements": 1.386,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-planar-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-planar-com/blocks/01.html"
+    },
+    {
+      "id": "gt-planar-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(2) > section:nth-of-type(1)",
+      "classes": [
+        "axes-overview",
+        "content",
+        "relative",
+        "mb-8",
+        "z-0"
+      ],
+      "box": {
+        "x": 250,
+        "y": 1368,
+        "w": 940,
+        "h": 705
+      },
+      "headings": [],
+      "parentHeadings": [
+        "LIFTOFF",
+        "NEW TERRITORY",
+        "BEYOND DIVISIONS",
+        "DESIGN"
+      ],
+      "textPreview": "Bending the laws of nature ANGLE: WEIGHT:",
+      "fontFamilies": [
+        "GT Planar"
+      ],
+      "maxFontSizePx": 187,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 300",
+        "\"slnt\" 0, \"wght\" 700",
+        "\"slnt\" 0, \"wght\" 450"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 4,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.125,
+        "relY": 0.056,
+        "heightVh": 0.578,
+        "widthRatio": 0.653,
+        "text": 3.738,
+        "elements": 2.833,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.13,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 1.609,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-planar-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-planar-com/blocks/02.html"
+    },
+    {
+      "id": "gt-planar-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(3)",
+      "classes": [
+        "content",
+        "grid",
+        "pb-8"
+      ],
+      "box": {
+        "x": 250,
+        "y": 2483,
+        "w": 940,
+        "h": 621
+      },
+      "headings": [
+        "BEYOND DIVISIONS"
+      ],
+      "parentHeadings": [
+        "LIFTOFF",
+        "NEW TERRITORY",
+        "BEYOND DIVISIONS",
+        "DESIGN"
+      ],
+      "textPreview": "BEYOND DIVISIONS What historically has been separate now comes together: Retalic to Upright to Italic as a single, continuous design space. None of them exists above the other—this is how the typeface drastically expands its capabilities an",
+      "fontFamilies": [
+        "GT Planar"
+      ],
+      "maxFontSizePx": 17,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 300",
+        "\"slnt\" 0, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.188,
+        "relY": 0.102,
+        "heightVh": 0.525,
+        "widthRatio": 0.653,
+        "text": 5.951,
+        "elements": 5.136,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.012,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-planar-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-planar-com/blocks/03.html"
+    },
+    {
+      "id": "gt-planar-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(2) > section:nth-of-type(2)",
+      "classes": [
+        "family-style-overview",
+        "content",
+        "flex",
+        "flex-col",
+        "items-stretch",
+        "justify-center"
+      ],
+      "box": {
+        "x": 250,
+        "y": 3105,
+        "w": 940,
+        "h": 935
+      },
+      "headings": [],
+      "parentHeadings": [
+        "LIFTOFF",
+        "NEW TERRITORY",
+        "BEYOND DIVISIONS",
+        "DESIGN"
+      ],
+      "textPreview": "RETALIC 45 RETALIC 30 RETALIC 15 UPRIGHT ITALIC 15 ITALIC 30 ITALIC 45 Thin Thin Light Light Regular Regular Medium Medium Bold Bold Black Black",
+      "fontFamilies": [
+        "GT Planar"
+      ],
+      "maxFontSizePx": 115,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 300",
+        "\"slnt\" 0, \"wght\" 100",
+        "\"slnt\" 0, \"wght\" 250",
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 550",
+        "\"slnt\" 0, \"wght\" 750",
+        "\"slnt\" 0, \"wght\" 900",
+        "\"slnt\" 0, \"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.25,
+        "relY": 0.127,
+        "heightVh": 0.712,
+        "widthRatio": 0.653,
+        "text": 4.977,
+        "elements": 5.342,
+        "headings": 0,
+        "fontSizes": 5,
+        "maxFontVw": 0.08,
+        "singleChar": 0.693,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-planar-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-planar-com/blocks/04.html"
+    },
+    {
+      "id": "gt-planar-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(2) > section:nth-of-type(3)",
+      "classes": [
+        "ss",
+        "ss--first"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4040,
+        "w": 1440,
+        "h": 4050
+      },
+      "headings": [
+        "DESIGN"
+      ],
+      "parentHeadings": [
+        "LIFTOFF",
+        "NEW TERRITORY",
+        "BEYOND DIVISIONS",
+        "DESIGN"
+      ],
+      "textPreview": "DESIGN GT Planar provides a program pushed and not constrained by its exceptions, balancing constructed rigidity with the autonomy of curved strokes. Where mechanical shortcuts would have been at hand, the design opts instead for elaboratel",
+      "fontFamilies": [
+        "GT Planar"
+      ],
+      "maxFontSizePx": 146,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 300",
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 25, \"wght\" 125",
+        "\"slnt\" 16.7, \"wght\" 125",
+        "\"slnt\" 8.3, \"wght\" 125",
+        "\"slnt\" -8.3, \"wght\" 125",
+        "\"slnt\" -16.7, \"wght\" 125",
+        "\"slnt\" -25, \"wght\" 125"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.313,
+        "relY": 0.165,
+        "heightVh": 1.705,
+        "widthRatio": 1,
+        "text": 5.969,
+        "elements": 3.871,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.101,
+        "singleChar": 3.045,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-planar-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-planar-com/blocks/05.html"
+    },
+    {
+      "id": "gt-planar-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(3)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 8090,
+        "w": 1440,
+        "h": 1108
+      },
+      "headings": [
+        "STRAIGHT CURVES"
+      ],
+      "parentHeadings": null,
+      "textPreview": "SCALE 36565% ACCE‰‡ STRAIGHT CURVES GT Planar’s design emphasizes the horizontal dimension. Stroke endings and stroke joints are leveled to allow the verticals a full range of motion across 90 degrees. This kink in the construction is both ",
+      "fontFamilies": [
+        "GT Planar"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 4,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.375,
+        "relY": 0.331,
+        "heightVh": 0.802,
+        "widthRatio": 1,
+        "text": 5.991,
+        "elements": 8.204,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.609,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-planar-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-planar-com/blocks/06.html"
+    },
+    {
+      "id": "gt-planar-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(1)",
+      "classes": [
+        "content",
+        "grid",
+        "pb-8"
+      ],
+      "box": {
+        "x": 250,
+        "y": 9197,
+        "w": 940,
+        "h": 372
+      },
+      "headings": [
+        "FLEXIBLE PERSISTENCE"
+      ],
+      "parentHeadings": null,
+      "textPreview": "FLEXIBLE PERSISTENCE Horizontal terminals stay horizontal—no matter the Italic or Retalic angle. This key construction detail enables the characters to handle extreme angles and defines the typeface’s particular aesthetic.",
+      "fontFamilies": [
+        "GT Planar",
+        "GT Planar Tabular"
+      ],
+      "maxFontSizePx": 17,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 300",
+        "\"slnt\" 0, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.438,
+        "relY": 0.376,
+        "heightVh": 0.346,
+        "widthRatio": 0.653,
+        "text": 5.407,
+        "elements": 5.318,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.012,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-planar-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-planar-com/blocks/07.html"
+    },
+    {
+      "id": "gt-planar-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2)",
+      "classes": [
+        "content",
+        "grid",
+        "mb8",
+        "pb-8"
+      ],
+      "box": {
+        "x": 250,
+        "y": 9569,
+        "w": 940,
+        "h": 312
+      },
+      "headings": [
+        "CALCULATED SURPRISES"
+      ],
+      "parentHeadings": null,
+      "textPreview": "CALCULATED SURPRISES The same applies to spurs, which stay vertical at all angles. Lowercase terminals stay completely straight throughout the full range.",
+      "fontFamilies": [
+        "GT Planar"
+      ],
+      "maxFontSizePx": 17,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 300",
+        "\"slnt\" 0, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.392,
+        "heightVh": 0.298,
+        "widthRatio": 0.653,
+        "text": 5.043,
+        "elements": 4.575,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.012,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-planar-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-planar-com/blocks/08.html"
+    },
+    {
+      "id": "gt-planar-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(3)",
+      "classes": [
+        "content",
+        "grid",
+        "pb-8"
+      ],
+      "box": {
+        "x": 250,
+        "y": 9881,
+        "w": 940,
+        "h": 346
+      },
+      "headings": [
+        "EXPRESSIVE CONTROL"
+      ],
+      "parentHeadings": null,
+      "textPreview": "EXPRESSIVE CONTROL The italics are manually drawn, not just computer-generated. Its most angled styles follow a narrower architecture with balanced vertical and horizontal stems to visually match the Upright styles. The more the characters ",
+      "fontFamilies": [
+        "GT Planar",
+        "GT Planar Tabular"
+      ],
+      "maxFontSizePx": 17,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 300",
+        "\"slnt\" 0, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.563,
+        "relY": 0.404,
+        "heightVh": 0.325,
+        "widthRatio": 0.653,
+        "text": 5.663,
+        "elements": 4.344,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.012,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-planar-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-planar-com/blocks/09.html"
+    },
+    {
+      "id": "gt-planar-com#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(4)",
+      "classes": [
+        "content",
+        "grid",
+        "pb-7"
+      ],
+      "box": {
+        "x": 250,
+        "y": 10227,
+        "w": 940,
+        "h": 442
+      },
+      "headings": [
+        "DYNAMIC PACE"
+      ],
+      "parentHeadings": null,
+      "textPreview": "DYNAMIC PACE Depending on a typeface’s uppercase proportions, an otherwise contemporary design can suddenly feel historical. In this case, GT Planar’s horizontal rhythm emphasizes it modern aspects through precise metrics and steady capital",
+      "fontFamilies": [
+        "GT Planar"
+      ],
+      "maxFontSizePx": 17,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 300",
+        "\"slnt\" 0, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.625,
+        "relY": 0.419,
+        "heightVh": 0.4,
+        "widthRatio": 0.653,
+        "text": 5.956,
+        "elements": 5.858,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.012,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-planar-com/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-planar-com/blocks/10.html"
+    },
+    {
+      "id": "gt-planar-com#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(5)",
+      "classes": [
+        "content",
+        "grid",
+        "pb-8"
+      ],
+      "box": {
+        "x": 250,
+        "y": 10670,
+        "w": 940,
+        "h": 546
+      },
+      "headings": [
+        "BALANCING ACT"
+      ],
+      "parentHeadings": null,
+      "textPreview": "BALANCING ACT GT Planar’s uppercase counters are shifted toward the top and bottom of each letter. This calculated adjustment gives the letters a crisp and accelerated look. The horizontal and vertical proportions work together to emphasize",
+      "fontFamilies": [
+        "GT Planar",
+        "GT Planar Tabular"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.688,
+        "relY": 0.437,
+        "heightVh": 0.474,
+        "widthRatio": 0.653,
+        "text": 5.733,
+        "elements": 6.836,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-planar-com/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-planar-com/blocks/11.html"
+    },
+    {
+      "id": "gt-planar-com#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(4)",
+      "classes": [
+        "ss",
+        "ss--second"
+      ],
+      "box": {
+        "x": 0,
+        "y": 11216,
+        "w": 1440,
+        "h": 6750
+      },
+      "headings": [
+        "FUTURE CLASSIC"
+      ],
+      "parentHeadings": null,
+      "textPreview": "FUTURE CLASSIC Expressive rationalism. Vivid discipline. Playful determination. GT Planar has come to you from a future where design traditions are not a burden, but instead lead the way to further dimensions. Grounded in the well-known and",
+      "fontFamilies": [
+        "GT Planar"
+      ],
+      "maxFontSizePx": 146,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 300",
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.75,
+        "relY": 0.459,
+        "heightVh": 2.14,
+        "widthRatio": 1,
+        "text": 6.084,
+        "elements": 3.526,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.101,
+        "singleChar": 0.693,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-planar-com/blocks/12.jpg",
+      "cropTruncated": true,
+      "html": "archive/gt-planar-com/blocks/12.html"
+    },
+    {
+      "id": "gt-planar-com#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(5) > section:nth-of-type(1)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 17966,
+        "w": 1440,
+        "h": 835
+      },
+      "headings": [
+        "FAMILY OVERVIEW"
+      ],
+      "parentHeadings": [
+        "FAMILY OVERVIEW",
+        "STYLISTIC ALTERNATES",
+        "CHARACTER SET",
+        "CREDITS"
+      ],
+      "textPreview": "FAMILY OVERVIEW Download all 42 trial font files of GT Planar together with the rest of the Grilli Type fonts library. The package allows you to try the fonts out before buying any licensing. DOWNLOAD FREE TRIAL FONTS -45° -30° -15° 0° +15°",
+      "fontFamilies": [
+        "GT Planar"
+      ],
+      "maxFontSizePx": 58,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 300",
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 500",
+        "\"slnt\" -45, \"wght\" 100",
+        "\"slnt\" -30, \"wght\" 100",
+        "\"slnt\" -15, \"wght\" 100",
+        "\"slnt\" 0, \"wght\" 100",
+        "\"slnt\" 15, \"wght\" 100"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.813,
+        "relY": 0.735,
+        "heightVh": 0.656,
+        "widthRatio": 1,
+        "text": 6.057,
+        "elements": 4.779,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.04,
+        "singleChar": 3.784,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-planar-com/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-planar-com/blocks/13.html"
+    },
+    {
+      "id": "gt-planar-com#14",
+      "nn": "14",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(5) > section:nth-of-type(2)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 18801,
+        "w": 1440,
+        "h": 3529
+      },
+      "headings": [
+        "STYLISTIC ALTERNATES"
+      ],
+      "parentHeadings": [
+        "FAMILY OVERVIEW",
+        "STYLISTIC ALTERNATES",
+        "CHARACTER SET",
+        "CREDITS"
+      ],
+      "textPreview": "STYLISTIC ALTERNATES At your request, the typeface’s focus on functionality can make space for less utilitarian alternate designs. This wide range of stylistic alternates invites further navigation between planes and curves. WEIGHT 900 ANGL",
+      "fontFamilies": [
+        "GT Planar"
+      ],
+      "maxFontSizePx": 274,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 300",
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 900",
+        "\"slnt\" 0, \"wght\" 700",
+        "\"slnt\" 0, \"wght\" 500",
+        "\"slnt\" 0, \"wght\" 100"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.875,
+        "relY": 0.769,
+        "heightVh": 1.594,
+        "widthRatio": 1,
+        "text": 7.499,
+        "elements": 5.572,
+        "headings": 1,
+        "fontSizes": 8,
+        "maxFontVw": 0.19,
+        "singleChar": 4.942,
+        "varSettings": 6,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-planar-com/blocks/14.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-planar-com/blocks/14.html"
+    },
+    {
+      "id": "gt-planar-com#15",
+      "nn": "15",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(5) > section:nth-of-type(3)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 22329,
+        "w": 1440,
+        "h": 1549
+      },
+      "headings": [
+        "CHARACTER SET"
+      ],
+      "parentHeadings": [
+        "FAMILY OVERVIEW",
+        "STYLISTIC ALTERNATES",
+        "CHARACTER SET",
+        "CREDITS"
+      ],
+      "textPreview": "CHARACTER SET GT Planar supports over 187 Latin-alphabet languages, covering a wide range of languages from around the world. DOWNLOAD PDF SPECIMEN W W W BASIC LATIN A B C D E F G H I J K L M N N O P Q R S T U V W X Y Z a b c d e f g h i j ",
+      "fontFamilies": [
+        "GT Planar"
+      ],
+      "maxFontSizePx": 86,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 300",
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 30, \"wght\" 500",
+        "\"slnt\" -30, \"wght\" 500",
+        "\"slnt\" 0, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.938,
+        "relY": 0.914,
+        "heightVh": 1.001,
+        "widthRatio": 1,
+        "text": 7.018,
+        "elements": 6.153,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.06,
+        "singleChar": 5.927,
+        "varSettings": 5,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-planar-com/blocks/15.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-planar-com/blocks/15.html"
+    },
+    {
+      "id": "gt-planar-com#16",
+      "nn": "16",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(5) > div:nth-of-type(3)",
+      "classes": [
+        "content",
+        "grid",
+        "pb-8"
+      ],
+      "box": {
+        "x": 250,
+        "y": 24083,
+        "w": 940,
+        "h": 352
+      },
+      "headings": [
+        "MINISITES"
+      ],
+      "parentHeadings": [
+        "FAMILY OVERVIEW",
+        "STYLISTIC ALTERNATES",
+        "CHARACTER SET",
+        "CREDITS"
+      ],
+      "textPreview": "MINISITES GT Ultra GT Maru GT Flexa GT Alpina GT Zirkon GT Super GT Walsheim GT America GT Eesti GT Cinetype GT Haptik",
+      "fontFamilies": [
+        "GT Planar"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.986,
+        "heightVh": 0.33,
+        "widthRatio": 0.653,
+        "text": 4.779,
+        "elements": 3.219,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.485,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-planar-com/blocks/16.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-planar-com/blocks/16.html"
+    },
+    {
+      "id": "gt-planar-com#17",
+      "nn": "17",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(7) > div:nth-of-type(9)",
+      "classes": [
+        "fixed",
+        "w-full",
+        "h-full",
+        "top-0",
+        "left-0",
+        "text-white"
+      ],
+      "box": {
+        "x": -576,
+        "y": -360,
+        "w": 2592,
+        "h": 1620
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "AUTO PILOT PRESETS DEF STA DOM BOU IMP ENE R_0 HUD TEST BUY EXIT POWER STEERING FEATURES FLAT SHAPES ALTS CURVED NUMBERS SINGLE STORY ALTS ANGLE +27 0° -15° +15° -30° +30° -45° +45° WEIGHT THIN MEDIUM LIGHT BOLD REGULAR BLACK 423",
+      "fontFamilies": [
+        "GT Planar"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 500",
+        "\"slnt\" 0, \"wght\" 700"
+      ],
+      "controls": {
+        "range": 3,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 25,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 3,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": true,
+        "tester": true,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.063,
+        "relY": -0.015,
+        "heightVh": 1.03,
+        "widthRatio": 1.8,
+        "text": 5.438,
+        "elements": 5.273,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.022,
+        "singleChar": 2.079,
+        "varSettings": 2,
+        "range": 1.386,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 3.258,
+        "img": 0,
+        "svg": 1.386,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-planar-com/blocks/17.html"
+    },
+    {
+      "id": "gt-planar-com#18",
+      "nn": "18",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "nav",
+      "selector": "body > nav",
+      "classes": [
+        "w-full",
+        "fixed",
+        "flex",
+        "flex-row",
+        "justify-end",
+        "md:justify-between"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 45
+      },
+      "headings": [
+        "GT PLANAR"
+      ],
+      "parentHeadings": null,
+      "textPreview": "GT PLANAR BUCKLE IN TO ENSURE PILOT SAFETY HUD TYPETESTER BUY",
+      "fontFamilies": [
+        "GT Planar"
+      ],
+      "maxFontSizePx": 14,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.125,
+        "relY": 0,
+        "heightVh": 0.049,
+        "widthRatio": 1,
+        "text": 4.22,
+        "elements": 2.708,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.01,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-planar-com/blocks/18.html"
+    },
+    {
+      "id": "gt-planar-com#19",
+      "nn": "19",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(6)",
+      "classes": [
+        "fixed",
+        "top-0",
+        "left-0",
+        "w-full",
+        "h-full",
+        "text-white"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "GT PLANAR ENG PXS VEC SNR NFO BAT ODS TXT PLO FLX BUCKLE IN TO ENSURE PILOT SAFETY BUCKLE IN TO ENSURE PILOT SAFETY BUCKLE IN TO ENSURE PILOT SAFETY EXIT ENG BAT 100% 0 PXS VEC 0005 TLT +15° ON OFF SNR MOD DISTANCE 0PX P B R 837228 FOCUS OX",
+      "fontFamilies": [
+        "GT Planar"
+      ],
+      "maxFontSizePx": 40,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 500",
+        "\"slnt\" 0, \"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 6,
+        "svg": 5,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.188,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 5.659,
+        "elements": 5.861,
+        "headings": 0,
+        "fontSizes": 7,
+        "maxFontVw": 0.028,
+        "singleChar": 2.485,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.946,
+        "svg": 1.792,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-planar-com/blocks/19.html"
+    }
+  ]
+}

@@ -1,0 +1,697 @@
+{
+  "slug": "moriston-losttype-com",
+  "url": "http://moriston.losttype.com",
+  "pageHeight": 14982,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "moriston-losttype-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(1)",
+      "classes": [
+        "story"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1056
+      },
+      "headings": [
+        "MORISTON"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Introducing MORISTON A sans-serif typeface with unusually high contrast—and enthusiasm! by Riley Cran Adding contrast to a conversation makes your voice stand out. Moriston is a sans-serif grotesque available in 6 reliable weights, with sup",
+      "fontFamilies": [
+        "Moriston"
+      ],
+      "maxFontSizePx": 110,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.776,
+        "widthRatio": 1,
+        "text": 6.315,
+        "elements": 2.89,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.076,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/moriston-losttype-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/moriston-losttype-com/blocks/00.html"
+    },
+    {
+      "id": "moriston-losttype-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2)",
+      "classes": [
+        "section",
+        "section--short",
+        "riso"
+      ],
+      "box": {
+        "x": 30,
+        "y": 1056,
+        "w": 1380,
+        "h": 1967
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "6 5 a s p 2 ß Q m G m % 7 M @ 0 d & ® ? 8 V 4 £",
+      "fontFamilies": [
+        "Moriston"
+      ],
+      "maxFontSizePx": 498,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.143,
+        "relY": 0.07,
+        "heightVh": 1.159,
+        "widthRatio": 0.958,
+        "text": 3.871,
+        "elements": 5.398,
+        "headings": 0,
+        "fontSizes": 19,
+        "maxFontVw": 0.346,
+        "singleChar": 3.219,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/moriston-losttype-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/moriston-losttype-com/blocks/01.html"
+    },
+    {
+      "id": "moriston-losttype-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(3)",
+      "classes": [
+        "section",
+        "section--crop"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3023,
+        "w": 1440,
+        "h": 813
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "MORISTON MORISTON MORISTON",
+      "fontFamilies": [
+        "Moriston"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.286,
+        "relY": 0.202,
+        "heightVh": 0.644,
+        "widthRatio": 1,
+        "text": 3.296,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/moriston-losttype-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/moriston-losttype-com/blocks/02.html"
+    },
+    {
+      "id": "moriston-losttype-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(4)",
+      "classes": [
+        "section",
+        "knockout",
+        "knockout--blue"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3836,
+        "w": 1440,
+        "h": 1077
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Airplane travels ROLLFAST BICYCLE Scottish River Glens LOCAL LOCH Very good Jazz albums New York",
+      "fontFamilies": [
+        "Moriston"
+      ],
+      "maxFontSizePx": 127,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 150, 202)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.429,
+        "relY": 0.256,
+        "heightVh": 0.787,
+        "widthRatio": 1,
+        "text": 4.575,
+        "elements": 2.197,
+        "headings": 0,
+        "fontSizes": 7,
+        "maxFontVw": 0.088,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.261,
+        "fgLum": 1
+      },
+      "crop": "archive/moriston-losttype-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/moriston-losttype-com/blocks/03.html"
+    },
+    {
+      "id": "moriston-losttype-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(5)",
+      "classes": [
+        "section",
+        "section--crop"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4913,
+        "w": 1440,
+        "h": 840
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "3 4 5 6 7 8 9 10 11 12 1 2",
+      "fontFamilies": [
+        "Moriston"
+      ],
+      "maxFontSizePx": 104,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.571,
+        "relY": 0.328,
+        "heightVh": 0.659,
+        "widthRatio": 1,
+        "text": 3.296,
+        "elements": 2.996,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.072,
+        "singleChar": 2.565,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/moriston-losttype-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/moriston-losttype-com/blocks/04.html"
+    },
+    {
+      "id": "moriston-losttype-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(6)",
+      "classes": [
+        "section",
+        "knockout",
+        "knockout--grayDark"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5753,
+        "w": 1440,
+        "h": 802
+      },
+      "headings": [
+        "Moriston speaks your language"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Moriston speaks your language Abenaki, Afaan, Oromo, Afar, Afrikaans, Albanian, Alsatian, Amis, Anuta, Aragonese, Aranese, Aromanian, Arrernte, Arvanitic (Latin), Asturian, Atayal, Aymara, Azerbaijani, Bashkir (Latin), Basque, Belarusian (L",
+      "fontFamilies": [
+        "Moriston"
+      ],
+      "maxFontSizePx": 61,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 2,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(51, 51, 51)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.714,
+        "relY": 0.384,
+        "heightVh": 0.637,
+        "widthRatio": 1,
+        "text": 7.8,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.043,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 1.099,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.033,
+        "fgLum": 1
+      },
+      "crop": "archive/moriston-losttype-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/moriston-losttype-com/blocks/05.html"
+    },
+    {
+      "id": "moriston-losttype-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#story",
+      "classes": [
+        "section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6555,
+        "w": 1440,
+        "h": 6941
+      },
+      "headings": [
+        "READ MORISTON",
+        "Glenmoriston",
+        "At first, light",
+        "Riley Cran @rileycran"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Fall 2015 READ MORISTON The spark for Moriston came from an unexpected source during my first visit to New York City in the fall of 2013. While waiting outside the Evolution store on Spring St. between Greene and Mercer in Soho, I saw a 50’",
+      "fontFamilies": [
+        "Moriston"
+      ],
+      "maxFontSizePx": 30,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 2,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 7,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.857,
+        "relY": 0.438,
+        "heightVh": 2.165,
+        "widthRatio": 1,
+        "text": 8.128,
+        "elements": 4.159,
+        "headings": 4,
+        "fontSizes": 4,
+        "maxFontVw": 0.021,
+        "singleChar": 1.386,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 1.099,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.079,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.609,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/moriston-losttype-com/blocks/06.jpg",
+      "cropTruncated": true,
+      "html": "archive/moriston-losttype-com/blocks/06.html"
+    },
+    {
+      "id": "moriston-losttype-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > footer",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 13496,
+        "w": 1440,
+        "h": 1487
+      },
+      "headings": [
+        "Special thanks to…"
+      ],
+      "parentHeadings": null,
+      "textPreview": "I want to hear about future Lost Type releases, email me then! Or, follow @losttypecoop here Special thanks to… My Friends and Family: My parents, Marg and Dave. My girlfriend Heather Neale, she’s got my back. And to Dan Gneiding, Danelle C",
+      "fontFamilies": [
+        "Moriston"
+      ],
+      "maxFontSizePx": 30,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": true,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.901,
+        "heightVh": 0.975,
+        "widthRatio": 1,
+        "text": 6.942,
+        "elements": 3.258,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.021,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.792,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/moriston-losttype-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/moriston-losttype-com/blocks/07.html"
+    }
+  ]
+}

@@ -1,0 +1,1707 @@
+{
+  "slug": "grandgothik-com",
+  "url": "https://grandgothik.com",
+  "pageHeight": 25227,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "grandgothik-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#contentPage1",
+      "classes": [
+        "black",
+        "cursor",
+        "contentPage"
+      ],
+      "box": {
+        "x": 0,
+        "y": 55,
+        "w": 1440,
+        "h": 820
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "PFGrandGothik"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.002,
+        "heightVh": 0.648,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": "archive/grandgothik-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/grandgothik-com/blocks/00.html"
+    },
+    {
+      "id": "grandgothik-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#contentPage2",
+      "classes": [
+        "white",
+        "cursor",
+        "contentPage",
+        "p100"
+      ],
+      "box": {
+        "x": 0,
+        "y": 875,
+        "w": 1440,
+        "h": 834
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "PFGrandGothik"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.059,
+        "relY": 0.035,
+        "heightVh": 0.656,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": "archive/grandgothik-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/grandgothik-com/blocks/01.html"
+    },
+    {
+      "id": "grandgothik-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#clickme > div:nth-of-type(1)",
+      "classes": [
+        "scrollmagic-pin-spacer",
+        "cursor"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1709,
+        "w": 1440,
+        "h": 912
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "PFGrandGothik",
+        ""
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 1,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(152, 0, 35)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.118,
+        "relY": 0.068,
+        "heightVh": 0.7,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 2.197,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0.693,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.068
+      },
+      "crop": "archive/grandgothik-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/grandgothik-com/blocks/02.html"
+    },
+    {
+      "id": "grandgothik-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#contentPage4",
+      "classes": [
+        "white",
+        "cursor",
+        "contentPage",
+        "p50Top"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2621,
+        "w": 1440,
+        "h": 2474
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "BACK STORY Grand Gothik is a postmodern, multiscript, multifaceted and variable type system which pays homage to the development of grotesque (gothic) typefaces over the years. Taking late 19th and early 20th century European and American g",
+      "fontFamilies": [
+        "PFGrandGothik"
+      ],
+      "maxFontSizePx": 25,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.176,
+        "relY": 0.104,
+        "heightVh": 1.321,
+        "widthRatio": 1,
+        "text": 7.531,
+        "elements": 3.135,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": "archive/grandgothik-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/grandgothik-com/blocks/03.html"
+    },
+    {
+      "id": "grandgothik-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#contentPage5",
+      "classes": [
+        "white",
+        "cursor",
+        "contentPage"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5094,
+        "w": 1440,
+        "h": 1118
+      },
+      "headings": [
+        "DEFAULT VARIANT",
+        "DEFAULT VARIANT",
+        "DEFAULT VARIANT",
+        "DEFAULT VARIANT"
+      ],
+      "parentHeadings": null,
+      "textPreview": "DETAILS Its first variation (ss01) retains the squared-off stems of the default version, while letter \"a\" and \"G\" lose their spur, the curved tail of \"y\" becomes straight and the crotch of \"M\" sharp-pointed, altogether imbuing the typeface ",
+      "fontFamilies": [
+        "PFGrandGothik"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 8,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.235,
+        "relY": 0.202,
+        "heightVh": 0.807,
+        "widthRatio": 1,
+        "text": 7.366,
+        "elements": 5.598,
+        "headings": 4,
+        "fontSizes": 3,
+        "maxFontVw": 0.025,
+        "singleChar": 1.609,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 2.197,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": "archive/grandgothik-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/grandgothik-com/blocks/04.html"
+    },
+    {
+      "id": "grandgothik-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#clickme > div:nth-of-type(2)",
+      "classes": [
+        "scrollmagic-pin-spacer",
+        "cursor"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6212,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "PFGrandGothik",
+        ""
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 1,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(152, 0, 35)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.294,
+        "relY": 0.246,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 2.197,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0.693,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.068
+      },
+      "crop": "archive/grandgothik-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/grandgothik-com/blocks/05.html"
+    },
+    {
+      "id": "grandgothik-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#contentPage789",
+      "classes": [
+        "white",
+        "cursor",
+        "contentPage",
+        "p50"
+      ],
+      "box": {
+        "x": 0,
+        "y": 7112,
+        "w": 1440,
+        "h": 3214
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "PFGrandGothik"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.353,
+        "relY": 0.282,
+        "heightVh": 1.52,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 2.197,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": "archive/grandgothik-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/grandgothik-com/blocks/06.html"
+    },
+    {
+      "id": "grandgothik-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#clickme > div:nth-of-type(3)",
+      "classes": [
+        "scrollmagic-pin-spacer",
+        "cursor"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10326,
+        "w": 1440,
+        "h": 810
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "PFGrandGothik"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(152, 0, 35)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.412,
+        "relY": 0.409,
+        "heightVh": 0.642,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.068
+      },
+      "crop": "archive/grandgothik-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/grandgothik-com/blocks/07.html"
+    },
+    {
+      "id": "grandgothik-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#contentPage11",
+      "classes": [
+        "white",
+        "cursor",
+        "contentPage",
+        "p100Down",
+        "p75Top"
+      ],
+      "box": {
+        "x": 0,
+        "y": 11136,
+        "w": 1440,
+        "h": 985
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "PFGrandGothik"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 9,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.471,
+        "relY": 0.441,
+        "heightVh": 0.739,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 4.394,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.025,
+        "singleChar": 1.099,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 2.303,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": "archive/grandgothik-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/grandgothik-com/blocks/08.html"
+    },
+    {
+      "id": "grandgothik-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#clickme > div:nth-of-type(4)",
+      "classes": [
+        "black",
+        "w-100",
+        "pad"
+      ],
+      "box": {
+        "x": 0,
+        "y": 12121,
+        "w": 1440,
+        "h": 120
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.529,
+        "relY": 0.48,
+        "heightVh": 0.125,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 0,
+        "headings": 0,
+        "fontSizes": 0,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": "archive/grandgothik-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/grandgothik-com/blocks/09.html"
+    },
+    {
+      "id": "grandgothik-com#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#clickme > div:nth-of-type(5)",
+      "classes": [
+        "scrollmagic-pin-spacer",
+        "cursor"
+      ],
+      "box": {
+        "x": 0,
+        "y": 12241,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "PFGrandGothik",
+        ""
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 1,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(152, 0, 35)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.588,
+        "relY": 0.485,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 2.197,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0.693,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.068
+      },
+      "crop": "archive/grandgothik-com/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/grandgothik-com/blocks/10.html"
+    },
+    {
+      "id": "grandgothik-com#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#contentPage13",
+      "classes": [
+        "white",
+        "cursor",
+        "contentPage"
+      ],
+      "box": {
+        "x": 0,
+        "y": 13141,
+        "w": 1440,
+        "h": 675
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "PFGrandGothik"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 4,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.647,
+        "relY": 0.521,
+        "heightVh": 0.56,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 3.689,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.609,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": "archive/grandgothik-com/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/grandgothik-com/blocks/11.html"
+    },
+    {
+      "id": "grandgothik-com#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#contentPage14",
+      "classes": [
+        "black",
+        "cursor",
+        "contentPage",
+        "p50"
+      ],
+      "box": {
+        "x": 0,
+        "y": 13816,
+        "w": 1440,
+        "h": 1037
+      },
+      "headings": [
+        "SYMBOLS"
+      ],
+      "parentHeadings": null,
+      "textPreview": "SYMBOLS Keeping up with the ever-evolving virtual and digital landscape, Grand Gothik comes with an extended character set of weather icons, numeral symbols, wayfinding arrows, movie rating stars and emojis.",
+      "fontFamilies": [
+        "PFGrandGothik"
+      ],
+      "maxFontSizePx": 25,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.706,
+        "relY": 0.548,
+        "heightVh": 0.767,
+        "widthRatio": 1,
+        "text": 5.342,
+        "elements": 2.485,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": "archive/grandgothik-com/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/grandgothik-com/blocks/12.html"
+    },
+    {
+      "id": "grandgothik-com#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#contentPage15",
+      "classes": [
+        "white",
+        "cursor",
+        "contentPage"
+      ],
+      "box": {
+        "x": 0,
+        "y": 14853,
+        "w": 1440,
+        "h": 969
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "FAMILIES + STYLES",
+      "fontFamilies": [
+        "PFGrandGothik"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 4,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.765,
+        "relY": 0.589,
+        "heightVh": 0.731,
+        "widthRatio": 1,
+        "text": 2.89,
+        "elements": 4.248,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.609,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": "archive/grandgothik-com/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/grandgothik-com/blocks/13.html"
+    },
+    {
+      "id": "grandgothik-com#14",
+      "nn": "14",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#contentPage16",
+      "classes": [
+        "white",
+        "contentPage",
+        "d-none",
+        "d-xl-block"
+      ],
+      "box": {
+        "x": 0,
+        "y": 15822,
+        "w": 1440,
+        "h": 6593
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "CHARACTER SET ! \" # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \\ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~ ¨ £ ™ ‰ ß ® © § ° ¥ « » œ µ π ΅ ΄ ½ ­ Γ ",
+      "fontFamilies": [
+        "PFGrandGothik"
+      ],
+      "maxFontSizePx": 30,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 1,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.824,
+        "relY": 0.627,
+        "heightVh": 2.119,
+        "widthRatio": 1,
+        "text": 7.624,
+        "elements": 7.621,
+        "headings": 0,
+        "fontSizes": 5,
+        "maxFontVw": 0.021,
+        "singleChar": 5.283,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0.693,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": "archive/grandgothik-com/blocks/14.jpg",
+      "cropTruncated": true,
+      "html": "archive/grandgothik-com/blocks/14.html"
+    },
+    {
+      "id": "grandgothik-com#15",
+      "nn": "15",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#contentPage18",
+      "classes": [
+        "white",
+        "cursor",
+        "contentPage",
+        "p50"
+      ],
+      "box": {
+        "x": 0,
+        "y": 22416,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "CINEMATOGRAPHY - 16:9 FLIPBOOK",
+      "fontFamilies": [
+        "PFGrandGothik",
+        "Avenir"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 1
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.882,
+        "relY": 0.889,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 3.434,
+        "elements": 2.708,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0.693,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": "archive/grandgothik-com/blocks/15.jpg",
+      "cropTruncated": false,
+      "html": "archive/grandgothik-com/blocks/15.html"
+    },
+    {
+      "id": "grandgothik-com#16",
+      "nn": "16",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#contentPage19",
+      "classes": [
+        "white",
+        "cursor",
+        "contentPage",
+        "cinematography"
+      ],
+      "box": {
+        "x": 0,
+        "y": 23316,
+        "w": 1440,
+        "h": 1028
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Cinematography is a limited edition 156-page flipbook which implements PF Grand Gothik and analyzes historically significant movie titles with 70 postmodern typographic images/posters, aiming to reflect and comment on cinematic content thro",
+      "fontFamilies": [
+        "PFGrandGothik"
+      ],
+      "maxFontSizePx": 22,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 700",
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.941,
+        "relY": 0.924,
+        "heightVh": 0.762,
+        "widthRatio": 1,
+        "text": 6.835,
+        "elements": 2.773,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.015,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": "archive/grandgothik-com/blocks/16.jpg",
+      "cropTruncated": false,
+      "html": "archive/grandgothik-com/blocks/16.html"
+    },
+    {
+      "id": "grandgothik-com#17",
+      "nn": "17",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#contentPage17",
+      "classes": [
+        "black",
+        "cursor",
+        "contentPage",
+        "position-relative"
+      ],
+      "box": {
+        "x": 0,
+        "y": 24344,
+        "w": 1440,
+        "h": 883
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "www.parachutefonts.com ©2026 Parachute Typefoundry IMPRINT",
+      "fontFamilies": [
+        "PFGrandGothik"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 350",
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 12,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.965,
+        "heightVh": 0.684,
+        "widthRatio": 1,
+        "text": 4.111,
+        "elements": 4.078,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.565,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.565,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": "archive/grandgothik-com/blocks/17.jpg",
+      "cropTruncated": false,
+      "html": "archive/grandgothik-com/blocks/17.html"
+    },
+    {
+      "id": "grandgothik-com#18",
+      "nn": "18",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "nav",
+      "selector": "#nav",
+      "classes": [
+        "navbar",
+        "nav-bg",
+        "fixed-top",
+        "no-padUp",
+        "no-padDown"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 55
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "PFGrandGothik"
+      ],
+      "maxFontSizePx": 14,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 50, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(152, 0, 35)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.059,
+        "relY": 0,
+        "heightVh": 0.059,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 3.332,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.01,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.099,
+        "img": 1.386,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.708,
+        "bgLum": 0,
+        "fgLum": 0.068
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/grandgothik-com/blocks/18.html"
+    }
+  ]
+}

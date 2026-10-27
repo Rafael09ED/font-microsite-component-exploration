@@ -1,0 +1,1683 @@
+{
+  "slug": "gt-alpina-com",
+  "url": "https://gt-alpina.com",
+  "pageHeight": 19787,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "gt-alpina-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "header",
+      "selector": "body > header",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 450
+      },
+      "headings": [
+        "GT Alpina"
+      ],
+      "parentHeadings": null,
+      "textPreview": "GT Alpina",
+      "fontFamilies": [
+        "Alpina Italic",
+        "Alpina",
+        "Alpina Typewriter Italic",
+        "Alpina Morph Proportional to Typewriter"
+      ],
+      "maxFontSizePx": 230,
+      "variationSettings": [
+        "\"disp\" 1, \"wdth\" 400, \"wght\" 1000",
+        "\"disp\" 671.162, \"mrph\" 671.162, \"wdth\" 500, \"wght\" 400",
+        "\"disp\" 1, \"mrph\" 319.71, \"wdth\" 400, \"wght\" 319.71",
+        "\"disp\" 1, \"mrph\" 319.71, \"wdth\" 319.71, \"wght\" 600",
+        "\"mrph\" 319.71, \"wght\" 319.71",
+        "\"mrph\" 671.162",
+        "\"disp\" 671.162, \"mrph\" 671.162, \"wdth\" 500, \"wght\" 677.416"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.405,
+        "widthRatio": 1,
+        "text": 2.303,
+        "elements": 2.303,
+        "headings": 1,
+        "fontSizes": 1,
+        "maxFontVw": 0.16,
+        "singleChar": 2.197,
+        "varSettings": 7,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-alpina-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-alpina-com/blocks/00.html"
+    },
+    {
+      "id": "gt-alpina-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(4)",
+      "classes": [
+        "copy",
+        "copy-intro"
+      ],
+      "box": {
+        "x": 252,
+        "y": 450,
+        "w": 936,
+        "h": 837
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "GT Alpina by Reto Moser proudly calls itself a workhorse serif, but delights in playing with the very meaning of that concept. It reaches into the grab bag of typographic history to resurrect shapes some may mistakenly see as too expressive",
+      "fontFamilies": [
+        "Alpina",
+        "Alpina Emoji 1"
+      ],
+      "maxFontSizePx": 100,
+      "variationSettings": [
+        "\"disp\" 1000, \"wdth\" 500, \"wght\" 500",
+        "\"mrph\" 539.262, \"wght\" 539.262"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.067,
+        "relY": 0.023,
+        "heightVh": 0.658,
+        "widthRatio": 0.65,
+        "text": 6.394,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.069,
+        "singleChar": 0.693,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-alpina-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-alpina-com/blocks/01.html"
+    },
+    {
+      "id": "gt-alpina-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(1)",
+      "classes": [
+        "color-purple"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1407,
+        "w": 1440,
+        "h": 1041
+      },
+      "headings": [
+        "🔴 The Design’s Story ⌛",
+        "· 🕛 Lean Into It"
+      ],
+      "parentHeadings": null,
+      "textPreview": "1st DRAFT RELEASE 🔴 The Design’s Story ⌛ GT Alpina started its life in 2011 as a one-off typeface, designed for a book celebrating the 75 year anniversary of the Swiss Foundation for Alpine Research. The typeface’s roots lie in classic boo",
+      "fontFamilies": [
+        "Alpina",
+        "Alpina Morph Roman Development",
+        "Alpina Morph Italic Development",
+        "Alpina Italic"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"disp\" 1, \"wdth\" 500, \"wght\" 400",
+        "\"mrph\" 60.9867, \"wght\" 60.9867",
+        "\"mrph\" 73.5124, \"wght\" 73.5124"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 2,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(129, 64, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.133,
+        "relY": 0.071,
+        "heightVh": 0.769,
+        "widthRatio": 1,
+        "text": 6.471,
+        "elements": 3.367,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.1,
+        "singleChar": 2.079,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 1.099,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.156
+      },
+      "crop": "archive/gt-alpina-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-alpina-com/blocks/02.html"
+    },
+    {
+      "id": "gt-alpina-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(1)",
+      "classes": [
+        "sample",
+        "sample-anim"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2568,
+        "w": 1440,
+        "h": 639
+      },
+      "headings": [
+        "🔴 Pumping & Posing☱"
+      ],
+      "parentHeadings": [
+        "🔴 Pumping & Posing☱",
+        "🔵 ☲Flexing & Stretching",
+        "⚫ Business and Pleasure ☰",
+        "⚫ Zany 🕹 Details"
+      ],
+      "textPreview": "THIN BOLD 🔴 Pumping & Posing☱ The design of the roman styles is first and foremost concerned with the reading experience. To that aim, the characters’ widths are carefully balanced. Unique and unexpected design details add personality to t",
+      "fontFamilies": [
+        "Alpina"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"disp\" 1, \"wdth\" 500, \"wght\" 400",
+        "\"disp\" 1, \"mrph\" 138.964, \"wdth\" 400, \"wght\" 138.964"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 64, 64)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.2,
+        "relY": 0.13,
+        "heightVh": 0.536,
+        "widthRatio": 1,
+        "text": 5.765,
+        "elements": 2.565,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.1,
+        "singleChar": 1.099,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.253
+      },
+      "crop": "archive/gt-alpina-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-alpina-com/blocks/03.html"
+    },
+    {
+      "id": "gt-alpina-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(2)",
+      "classes": [
+        "sample",
+        "sample-anim"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3261,
+        "w": 1440,
+        "h": 601
+      },
+      "headings": [
+        "🔵 ☲Flexing & Stretching"
+      ],
+      "parentHeadings": [
+        "🔴 Pumping & Posing☱",
+        "🔵 ☲Flexing & Stretching",
+        "⚫ Business and Pleasure ☰",
+        "⚫ Zany 🕹 Details"
+      ],
+      "textPreview": "CONDENSED EXTENDED 🔵 ☲Flexing & Stretching The Standard width subfamily is the main summit of GT Alpina, flanked by the Condensed and Extended widths. The three subfamilies are both functional and conceptual siblings to grow the typeface’s",
+      "fontFamilies": [
+        "Alpina"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"disp\" 1, \"wdth\" 500, \"wght\" 400",
+        "\"disp\" 1, \"mrph\" 130.033, \"wdth\" 130.033, \"wght\" 600"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 64, 64)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.267,
+        "relY": 0.165,
+        "heightVh": 0.511,
+        "widthRatio": 1,
+        "text": 5.533,
+        "elements": 2.565,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.1,
+        "singleChar": 1.099,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.253
+      },
+      "crop": "archive/gt-alpina-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-alpina-com/blocks/04.html"
+    },
+    {
+      "id": "gt-alpina-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(3)",
+      "classes": [
+        "sample",
+        "sample-anim"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3917,
+        "w": 1440,
+        "h": 601
+      },
+      "headings": [
+        "⚫ Business and Pleasure ☰"
+      ],
+      "parentHeadings": [
+        "🔴 Pumping & Posing☱",
+        "🔵 ☲Flexing & Stretching",
+        "⚫ Business and Pleasure ☰",
+        "⚫ Zany 🕹 Details"
+      ],
+      "textPreview": "NORMAL FINE ⚫ Business and Pleasure ☰ The three widths are accompanied by a higher-contrast version each, the Fine subfamilies, which play with the contrast between the thick and thin parts of each letter. The result of this exploration emp",
+      "fontFamilies": [
+        "Alpina"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"disp\" 1, \"wdth\" 500, \"wght\" 400",
+        "\"disp\" 36.4836, \"mrph\" 36.4836, \"wdth\" 500, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 64, 64)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.198,
+        "heightVh": 0.511,
+        "widthRatio": 1,
+        "text": 5.756,
+        "elements": 2.639,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.1,
+        "singleChar": 1.099,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.253
+      },
+      "crop": "archive/gt-alpina-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-alpina-com/blocks/05.html"
+    },
+    {
+      "id": "gt-alpina-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(4)",
+      "classes": [
+        "sample",
+        "sample-anim"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4573,
+        "w": 1440,
+        "h": 607
+      },
+      "headings": [
+        "⚫ Zany 🕹 Details"
+      ],
+      "parentHeadings": [
+        "🔴 Pumping & Posing☱",
+        "🔵 ☲Flexing & Stretching",
+        "⚫ Business and Pleasure ☰",
+        "⚫ Zany 🕹 Details"
+      ],
+      "textPreview": "BLAND GT ALPINA ⚫ Zany 🕹 Details While built to be a workhorse serif, the typeface isn’t trading personality for efficiency. The key for any typeface to shine lies in all the little details making up its personality. To illustrate these de",
+      "fontFamilies": [
+        "Alpina",
+        "Alpina Morph Bland Serif"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"disp\" 1, \"wdth\" 500, \"wght\" 400",
+        "\"mrph\" 69.2111"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 64, 64)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.4,
+        "relY": 0.231,
+        "heightVh": 0.515,
+        "widthRatio": 1,
+        "text": 6.368,
+        "elements": 2.485,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.1,
+        "singleChar": 1.099,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.253
+      },
+      "crop": "archive/gt-alpina-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-alpina-com/blocks/06.html"
+    },
+    {
+      "id": "gt-alpina-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(2) > div:nth-of-type(5)",
+      "classes": [
+        "sample",
+        "sample-anim"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5235,
+        "w": 1440,
+        "h": 607
+      },
+      "headings": [
+        "⚫ Have Some 🖤 Balls"
+      ],
+      "parentHeadings": [
+        "🔴 Pumping & Posing☱",
+        "🔵 ☲Flexing & Stretching",
+        "⚫ Business and Pleasure ☰",
+        "⚫ Zany 🕹 Details"
+      ],
+      "textPreview": "BLAND GT ALPINA ⚫ Have Some 🖤 Balls GT Alpina’s distinct ball terminals create visual accents sprinkled across the typeface. If it lacked them, the texture of the typeface would even out even more—but also lead to a stale look. As the ball",
+      "fontFamilies": [
+        "Alpina",
+        "Alpina Morph Bland Serif"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"disp\" 1, \"wdth\" 500, \"wght\" 400",
+        "\"mrph\" 65.0208"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 64, 64)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.467,
+        "relY": 0.265,
+        "heightVh": 0.515,
+        "widthRatio": 1,
+        "text": 6.375,
+        "elements": 2.565,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.1,
+        "singleChar": 1.099,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.253
+      },
+      "crop": "archive/gt-alpina-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-alpina-com/blocks/07.html"
+    },
+    {
+      "id": "gt-alpina-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(3)",
+      "classes": [
+        "color-blue"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5962,
+        "w": 1440,
+        "h": 1076
+      },
+      "headings": [
+        "🥔 ☳ Renounce Boring",
+        "🔵 Variety ╠═══════╣ the Spice of Life"
+      ],
+      "parentHeadings": null,
+      "textPreview": "FINE FINE ITALIC 🥔 ☳ Renounce Boring Likewise, the italic is a study in how a body copy typeface can find character in historical examples while eschewing the strictness of any single such model. Its variable angle and the soft pathing, as",
+      "fontFamilies": [
+        "Alpina",
+        "Alpina Morph Roman to Italic",
+        "Alpina Italic"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"disp\" 1, \"wdth\" 500, \"wght\" 400",
+        "\"mrph\" 130.033",
+        "\"disp\" 1, \"mrph\" 130.033, \"wdth\" 130.033, \"wght\" 600"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 2,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 104, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.533,
+        "relY": 0.301,
+        "heightVh": 0.786,
+        "widthRatio": 1,
+        "text": 6.375,
+        "elements": 3.367,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.1,
+        "singleChar": 1.609,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 1.099,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.171
+      },
+      "crop": "archive/gt-alpina-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-alpina-com/blocks/08.html"
+    },
+    {
+      "id": "gt-alpina-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(4)",
+      "classes": [
+        "color-green"
+      ],
+      "box": {
+        "x": 0,
+        "y": 7158,
+        "w": 1440,
+        "h": 2176
+      },
+      "headings": [
+        "🥔 EASY COME ⌨ Easy Go",
+        "🔴 Time & Again 🎈",
+        "🔴 Nothing is Permanent ☴ Except Change"
+      ],
+      "parentHeadings": null,
+      "textPreview": "PROPORTIONAL TYPEWRITER 🥔 EASY COME ⌨ Easy Go For the monospaced part of the family, Reto was inspired by the letters sent across the globe by explorers of the late 18th and early 19th century. As the Typewriter name implies, its roots lie",
+      "fontFamilies": [
+        "Alpina",
+        "Alpina Morph Proportional to Typewriter",
+        "Alpina Typewriter",
+        "Alpina Typewriter Italic"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"disp\" 1, \"wdth\" 500, \"wght\" 400",
+        "\"mrph\" 157.821",
+        "\"mrph\" 138.964, \"wght\" 138.964",
+        "\"mrph\" 121.347, \"wght\" 121.347"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 3,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 191, 58)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.6,
+        "relY": 0.362,
+        "heightVh": 1.229,
+        "widthRatio": 1,
+        "text": 6.936,
+        "elements": 3.871,
+        "headings": 3,
+        "fontSizes": 4,
+        "maxFontVw": 0.1,
+        "singleChar": 2.485,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 1.386,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.376
+      },
+      "crop": "archive/gt-alpina-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-alpina-com/blocks/09.html"
+    },
+    {
+      "id": "gt-alpina-com#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(5)",
+      "classes": [
+        "color-magenta"
+      ],
+      "box": {
+        "x": 0,
+        "y": 9453,
+        "w": 1440,
+        "h": 1230
+      },
+      "headings": [
+        "🔴 We are family ☵"
+      ],
+      "parentHeadings": null,
+      "textPreview": "THIN BOLD 🔴 We are family ☵ This family of 70 styles across 7 subfamilies, while supporting over 50 languages, also sports a wide range of non-alphabetic characters: emojis, arrows, box-building elements, and much more. GT Alpina Thin Ligh",
+      "fontFamilies": [
+        "Alpina",
+        "Alpina Italic",
+        "Alpina Typewriter"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"disp\" 1, \"wdth\" 500, \"wght\" 400",
+        "\"disp\" 209.828, \"mrph\" 4.9717, \"wdth\" 224.856, \"wght\" 209.828",
+        "\"disp\" 1, \"wdth\" 1, \"wght\" 300",
+        "\"wght\" 20",
+        "\"wght\" 240",
+        "\"wght\" 400",
+        "\"wght\" 630",
+        "\"wght\" 1000"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 128, 213)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.478,
+        "heightVh": 0.861,
+        "widthRatio": 1,
+        "text": 6.109,
+        "elements": 4.277,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.1,
+        "singleChar": 3.664,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.415
+      },
+      "crop": "archive/gt-alpina-com/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-alpina-com/blocks/10.html"
+    },
+    {
+      "id": "gt-alpina-com#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(6)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 10803,
+        "w": 1440,
+        "h": 1872
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Basic Latin A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z Extended Latin Á Ă Â Ä Æ Ǽ À Ā Ą Å Ã Ć Č Ç Ĉ Ċ Ď Đ É Ĕ Ě Ê Ë Ė È Ē Ę Ð Ğ Ĝ Ģ Ġ Ħ Ĥ Í Ĭ Î Ï İ Ì Ĳ Ī Į Ĩ Ĵ Ķ Ĺ Ľ Ļ Ŀ Ł Ń Ň Ņ Ñ",
+      "fontFamilies": [
+        "Alpina",
+        "Alpina Typewriter"
+      ],
+      "maxFontSizePx": 23,
+      "variationSettings": [
+        "\"disp\" 1, \"wdth\" 500, \"wght\" 400",
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.733,
+        "relY": 0.546,
+        "heightVh": 1.125,
+        "widthRatio": 1,
+        "text": 7.765,
+        "elements": 6.947,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.016,
+        "singleChar": 5.945,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-alpina-com/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-alpina-com/blocks/11.html"
+    },
+    {
+      "id": "gt-alpina-com#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(7)",
+      "classes": [
+        "download-purchase-links-section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 12795,
+        "w": 1440,
+        "h": 212
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Get GT Alpina ☁ Download Trial Fonts 🛒 Purchase Licensing",
+      "fontFamilies": [
+        "Alpina Typewriter",
+        "Alpina"
+      ],
+      "maxFontSizePx": 120,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"disp\" 1, \"wdth\" 500, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.8,
+        "relY": 0.647,
+        "heightVh": 0.212,
+        "widthRatio": 1,
+        "text": 4.078,
+        "elements": 1.946,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.083,
+        "singleChar": 1.099,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-alpina-com/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-alpina-com/blocks/12.html"
+    },
+    {
+      "id": "gt-alpina-com#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#typeface-specimen",
+      "classes": [
+        "color-black"
+      ],
+      "box": {
+        "x": 0,
+        "y": 13127,
+        "w": 1440,
+        "h": 5345
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "✆ Panoramic View & BINOCULARS ☝ GT Alpina Fine Condensed Thin ✿ Vertical Peaks of the Swiss Alps ✿ ✯ Mont Blanc and the Matterhorn ✯ ✺ 82 Alpine summits of 13,123 ft ✺ GT Alpina Condensed Light Lake Geneva 🌛 GT Alpina Fine Condensed Regula",
+      "fontFamilies": [
+        "Alpina",
+        "Alpina Typewriter",
+        "Alpina Italic",
+        "Alpina Typewriter Italic"
+      ],
+      "maxFontSizePx": 241,
+      "variationSettings": [
+        "\"disp\" 1, \"wdth\" 500, \"wght\" 400",
+        "\"disp\" 1000, \"wdth\" 1, \"wght\" 20",
+        "\"wght\" 400",
+        "\"disp\" 1, \"wdth\" 1, \"wght\" 240",
+        "\"disp\" 1000, \"wdth\" 1, \"wght\" 400",
+        "\"disp\" 1, \"wdth\" 1, \"wght\" 630",
+        "\"disp\" 1, \"wdth\" 1, \"wght\" 1000",
+        "\"disp\" 1, \"wdth\" 500, \"wght\" 1"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 20,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.867,
+        "relY": 0.663,
+        "heightVh": 1.937,
+        "widthRatio": 1,
+        "text": 7.445,
+        "elements": 4.82,
+        "headings": 0,
+        "fontSizes": 8,
+        "maxFontVw": 0.167,
+        "singleChar": 1.099,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 3.045,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-alpina-com/blocks/13.jpg",
+      "cropTruncated": true,
+      "html": "archive/gt-alpina-com/blocks/13.html"
+    },
+    {
+      "id": "gt-alpina-com#14",
+      "nn": "14",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(9)",
+      "classes": [
+        "color-red"
+      ],
+      "box": {
+        "x": 0,
+        "y": 18592,
+        "w": 1440,
+        "h": 808
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Grilli Type Minisites 永 GT Cinetype 我 GT Eesti 警 GT Haptik 然 GT Super 国 GT America 意 GT Walsheim 今 GT Zirkon",
+      "fontFamilies": [
+        "Alpina Typewriter",
+        "Alpina",
+        "Alpina Minisite Icons"
+      ],
+      "maxFontSizePx": 120,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"disp\" 1, \"wdth\" 350, \"wght\" 1000"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 64, 64)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.933,
+        "relY": 0.94,
+        "heightVh": 0.641,
+        "widthRatio": 1,
+        "text": 4.691,
+        "elements": 2.833,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.083,
+        "singleChar": 2.079,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.079,
+        "bgLum": -1,
+        "fgLum": 0.253
+      },
+      "crop": "archive/gt-alpina-com/blocks/14.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-alpina-com/blocks/14.html"
+    },
+    {
+      "id": "gt-alpina-com#15",
+      "nn": "15",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(10)",
+      "classes": [
+        "color-red"
+      ],
+      "box": {
+        "x": 0,
+        "y": 19519,
+        "w": 1440,
+        "h": 148
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Credits Typeface design of GT Alpina by Reto Moser Website design and development by Grilli Type & Informal Inquiry, with Javascript development by Sensor Station Icons by Grilli Type and Reto Moser Copywriting by Grilli Type.",
+      "fontFamilies": [
+        "Alpina Typewriter",
+        "Alpina"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"disp\" 1, \"wdth\" 350, \"wght\" 1000",
+        "\"wght\" 1000"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 64, 64)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.986,
+        "heightVh": 0.152,
+        "widthRatio": 1,
+        "text": 5.425,
+        "elements": 1.946,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.014,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.253
+      },
+      "crop": "archive/gt-alpina-com/blocks/15.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-alpina-com/blocks/15.html"
+    },
+    {
+      "id": "gt-alpina-com#16",
+      "nn": "16",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#loader",
+      "classes": [
+        "hidden"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "⌛"
+      ],
+      "parentHeadings": null,
+      "textPreview": "⌛ Loading…",
+      "fontFamilies": [
+        "Alpina Emoji Loader"
+      ],
+      "maxFontSizePx": 360,
+      "variationSettings": [
+        "\"mrph\" 1000",
+        "\"disp\" 1, \"wdth\" 500, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 64, 64)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.067,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 2.485,
+        "elements": 1.099,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.25,
+        "singleChar": 0.693,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.253,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-alpina-com/blocks/16.html"
+    },
+    {
+      "id": "gt-alpina-com#17",
+      "nn": "17",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#overlay-stylepicker-container",
+      "classes": [
+        "overlay-item",
+        "overlay-stylepicker-container"
+      ],
+      "box": {
+        "x": 29,
+        "y": 928,
+        "w": 1160,
+        "h": 290
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Condensed Thin Thin Italic Light Light Italic Regular Regular Italic Medium Medium Italic Bold Bold Italic Standard Thin Thin Italic Light Light Italic Regular Regular Italic Medium Medium Italic Bold Bold Italic Extended Thin Thin Italic L",
+      "fontFamilies": [
+        "Alpina Typewriter",
+        "Alpina",
+        "Alpina Italic",
+        "Alpina Typewriter Italic"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"disp\" 2, \"wdth\" 1, \"wght\" 400",
+        "\"disp\" 1, \"wdth\" 1, \"wght\" 20",
+        "\"disp\" 1, \"wdth\" 1, \"wght\" 240",
+        "\"disp\" 1, \"wdth\" 1, \"wght\" 400",
+        "\"disp\" 1, \"wdth\" 1, \"wght\" 630",
+        "\"disp\" 1, \"wdth\" 1, \"wght\" 1000",
+        "\"disp\" 2, \"wdth\" 500, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.133,
+        "relY": 0.047,
+        "heightVh": 0.279,
+        "widthRatio": 0.806,
+        "text": 6.635,
+        "elements": 4.443,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-alpina-com/blocks/17.html"
+    }
+  ]
+}

@@ -1,0 +1,992 @@
+{
+  "hero": {
+    "giant-wordmark": {
+      "definition": "The family name set as large as the viewport allows on a flat field, little else; may mix styles letter by letter to show range.",
+      "cues": "one dominant name, flat colour, minimal copy",
+      "count": 8,
+      "examples": [
+        "cnap-fr-sites-infini-en#00",
+        "excelsiorama-com#00",
+        "karrik-phantom-foundry-com#00",
+        "larsenwork-com-monoid#00",
+        "marbla-de#00",
+        "nichrome-mass-driver-com#00",
+        "kostasbartsokas-com-oi-you-mate#00",
+        "nmtype-com-movement#01"
+      ],
+      "mergedFrom": [
+        "hero/style-medley-wordmark"
+      ]
+    },
+    "sentence-as-specimen": {
+      "definition": "A headline sentence about the font, set in the font (sometimes beside one oversized glyph or rotating through styles): the pitch is the specimen.",
+      "cues": "readable claim or announcement in display size, CTA nearby",
+      "count": 7,
+      "examples": [
+        "compressa-preusstype-com#00",
+        "faction-losttype-com#00",
+        "infinite-tragedy-com#00",
+        "moriston-losttype-com#00",
+        "optician-sans-com#00",
+        "graphit-type-com#00",
+        "gt-ultra-com#00"
+      ],
+      "mergedFrom": [
+        "hero/pitch-beside-glyph",
+        "hero/mixed-style-pangram"
+      ]
+    },
+    "typeset-page": {
+      "definition": "A classical typeset composition (title page, broadside, dictionary entry) that uses the family's own hierarchy, italics and ornaments.",
+      "cues": "centred stacks, rules, ornaments, multiple sizes and italics",
+      "count": 4,
+      "examples": [
+        "prospectus-losttype-com#00",
+        "vollkorn-typeface-com#00",
+        "djr-com-fern#00",
+        "almnt-github-io-crimsonpro-microsite#01"
+      ],
+      "mergedFrom": [
+        "hero/dictionary-entry",
+        "hero/title-page"
+      ]
+    },
+    "kinetic-type": {
+      "definition": "The type in motion is the hero: animated, 3D, generative, video clips, or axes driven by scroll.",
+      "cues": "canvas/video/WebGL, scroll-scrubbed variation, the capture looks mid-animation",
+      "count": 8,
+      "examples": [
+        "gt-cinetype-com#00",
+        "leon-kim-com#00",
+        "lozanotype-github-io-java-sans#00",
+        "polychrome-mass-driver-com#00",
+        "pp-fragment-com#00",
+        "readvisions-com-marvin#00",
+        "apoc-font-eu#00",
+        "dyslexiefont-com#02"
+      ],
+      "mergedFrom": [
+        "hero/video-mosaic",
+        "hero/scroll-driven-axes"
+      ]
+    },
+    "interactive-specimen": {
+      "definition": "The hero is a specimen the visitor manipulates straight away (axes, weight, contrast, text), via controls or the wheel.",
+      "cues": "sliders, toggles or editable text inside the first screen",
+      "count": 5,
+      "examples": [
+        "garet-typeforward-com#00",
+        "heydon-works-skwar#00",
+        "kachibuwa-com#00",
+        "nationalparktypeface-com#00",
+        "kachibuwa-com#01"
+      ],
+      "mergedFrom": []
+    },
+    "construction-drawing": {
+      "definition": "A glyph shown as its construction (Bézier points, skeleton, strokes), often drawn on.",
+      "cues": "outline points, handles, metric lines in the hero",
+      "count": 2,
+      "examples": [
+        "kermit-font-com#00",
+        "djr-com-gimlet-xray#00"
+      ],
+      "mergedFrom": []
+    },
+    "name-over-photo": {
+      "definition": "Name and a short line over a full-bleed mood photograph.",
+      "cues": "landscape or scene photo, type overlaid",
+      "count": 4,
+      "examples": [
+        "aspen-ludwigtype-de#00",
+        "gidole-github-io#00",
+        "pp-frama-com#00",
+        "area-font-eu#00"
+      ],
+      "mergedFrom": []
+    },
+    "material-photo": {
+      "definition": "A photograph of physical material (paper, textile, objects) carrying or framing the type.",
+      "cues": "tactile still life, the type printed or knitted on the material",
+      "count": 2,
+      "examples": [
+        "colab-munken-com-munken-sans#00",
+        "knitgrotesk-com#00"
+      ],
+      "mergedFrom": []
+    },
+    "illustration-scene": {
+      "definition": "An illustrated scene or mascot staged with the type; the illustration sets the tone.",
+      "cues": "characters, faces, drawn objects",
+      "count": 2,
+      "examples": [
+        "gt-maru-com#00",
+        "halyard-dardenstudio-com#02"
+      ],
+      "mergedFrom": []
+    },
+    "prop-collage": {
+      "definition": "A collage of designed artefacts (documents, tickets, packaging, diagrams) set in the font, implying a fictional world.",
+      "cues": "many small designed objects, all set in the font",
+      "count": 2,
+      "examples": [
+        "departuremono-com#00",
+        "gt-mechanik-com#00"
+      ],
+      "mergedFrom": []
+    },
+    "product-landing": {
+      "definition": "The software-product landing pattern: headline, tagline, paragraph, primary and secondary buttons.",
+      "cues": "SaaS layout, 'Try it now' and 'GitHub' buttons, common for coding fonts",
+      "count": 4,
+      "examples": [
+        "font-subf-dev-en#00",
+        "overpassfont-org#00",
+        "rubjo-github-io-victor-mono#00",
+        "daifoldes-com-eubiescript-sub#00"
+      ],
+      "mergedFrom": []
+    }
+  },
+  "intro-animation": {
+    "title-sequence": {
+      "definition": "Full-screen frames revealing name, facts and specimen in sequence, often skippable.",
+      "cues": "'Skip intro', pinned frames",
+      "count": 2,
+      "examples": [
+        "calhern-frostype-xyz#07",
+        "calhern-frostype-xyz#11"
+      ],
+      "mergedFrom": []
+    }
+  },
+  "story": {
+    "origin-reference": {
+      "definition": "The source or inspiration (historical artefact, technology, place, genre history) explained in prose and shown visually.",
+      "cues": "archival images, 'inspired by', dates",
+      "count": 7,
+      "examples": [
+        "djr-com-roslindale#03",
+        "cinetype-com-fabbrica#07",
+        "polychrome-mass-driver-com#06",
+        "fridamedrano-com-jabin#03",
+        "github-com-mona-sans#08",
+        "pacaembu-naipefoundry-com#08",
+        "gt-walsheim-com#07"
+      ],
+      "mergedFrom": [
+        "story/archival-history"
+      ]
+    },
+    "essay": {
+      "definition": "Long-form first-person or editorial text (designer essay, process chapters, commissioner's foreword), laid out like an article.",
+      "cues": "many paragraphs, pull quotes, signature",
+      "count": 4,
+      "examples": [
+        "cnap-fr-sites-faune-en#02",
+        "moriston-losttype-com#06",
+        "readvisions-com-marvin#09",
+        "lobdell-me-affogato#06"
+      ],
+      "mergedFrom": [
+        "story/foreword",
+        "story/designer-essay",
+        "story/process-essay"
+      ]
+    },
+    "making-of": {
+      "definition": "The process shown visually: sketches, proofs, iterations, photos of the designer at work.",
+      "cues": "process images with little text, stages",
+      "count": 3,
+      "examples": [
+        "gt-ultra-com#06",
+        "optician-sans-com#08",
+        "2021-typemedia-org-gajana#15"
+      ],
+      "mergedFrom": [
+        "story/design-process",
+        "story/making-of-photo",
+        "story/process-gallery"
+      ]
+    },
+    "design-brief": {
+      "definition": "The problem the font solves (purpose, readers, constraints, principles) stated as a list or spec.",
+      "cues": "numbered principles, 'designed for'",
+      "count": 2,
+      "examples": [
+        "betaniapatmos-huertatipografica-com#01",
+        "brailleinstitute-org-freefont#03"
+      ],
+      "mergedFrom": []
+    },
+    "large-text-intro": {
+      "definition": "A short 'about' paragraph set large in the font, so the description doubles as a text specimen.",
+      "cues": "one big paragraph near the top",
+      "count": 2,
+      "examples": [
+        "graphit-type-com#01",
+        "gt-flaire-com#02"
+      ],
+      "mergedFrom": []
+    },
+    "article-teaser": {
+      "definition": "A short teaser and a link to an off-page article or interview about the making.",
+      "cues": "'Read the story' button",
+      "count": 3,
+      "examples": [
+        "bigshoulders-me#04",
+        "justfont-com-huninn#12",
+        "github-rosettatype-com-yrsa-rasa#02"
+      ],
+      "mergedFrom": []
+    },
+    "scroll-narrative": {
+      "definition": "A pinned, scroll-driven sequence telling a concept metaphor through animated type and diagrams.",
+      "cues": "sticky stage, scroll scrubbing",
+      "count": 1,
+      "examples": [
+        "gt-mechanik-com#01"
+      ],
+      "mergedFrom": [
+        "story/pinned-scroll-narrative"
+      ]
+    },
+    "self-test-evidence": {
+      "definition": "The design rationale backed by a small test the visitor runs on themselves (reading speed, legibility).",
+      "cues": "a quiz or timer next to research prose",
+      "count": 1,
+      "examples": [
+        "lexend-com#02"
+      ],
+      "mergedFrom": []
+    },
+    "designer-bio": {
+      "definition": "A short, informal bio of the designer with contact links.",
+      "cues": "portrait or name, 'about me'",
+      "count": 1,
+      "examples": [
+        "2020-typefacedesign-org-simon#12"
+      ],
+      "mergedFrom": []
+    }
+  },
+  "glyph-table": {
+    "full-grid": {
+      "definition": "The whole character set in uniform cells, in encoding order (sometimes with key labels for dingbat fonts).",
+      "cues": "dense grid of small cells",
+      "count": 8,
+      "examples": [
+        "x5-acjs-net#02",
+        "editorialnew-com#03",
+        "exat-hottype-co#05",
+        "liebling-fontef-com#01",
+        "karrik-phantom-foundry-com#06",
+        "optician-sans-com#06",
+        "grandgothik-com#14",
+        "boharat-com-zaatar#09"
+      ],
+      "mergedFrom": []
+    },
+    "glyph-inspector": {
+      "definition": "A grid plus a large preview of the selected or hovered glyph on its metric lines.",
+      "cues": "big glyph panel, cap-height and x-height lines",
+      "count": 3,
+      "examples": [
+        "vercel-com-font#04",
+        "rsms-me-inter#10",
+        "gt-pressura-com#08"
+      ],
+      "mergedFrom": [
+        "glyph-table/grid-with-inspector"
+      ]
+    },
+    "category-lines": {
+      "definition": "The set typeset as running lines per category (or one moving line), no cells.",
+      "cues": "A–Z, a–z, 0–9 as lines of text",
+      "count": 5,
+      "examples": [
+        "colroy-ch#01",
+        "basco-typofonderie-com#02",
+        "pampatype-com-octothorpe-en#06",
+        "pp-frama-com#05",
+        "djr-com-fit#13"
+      ],
+      "mergedFrom": [
+        "glyph-table/alphabet-marquee",
+        "glyph-table/alphabet-rows"
+      ]
+    },
+    "category-tabs": {
+      "definition": "Tabs or a dropdown switch a large-size strip of one category at a time.",
+      "cues": "tabs: lowercase | uppercase | numerals",
+      "count": 1,
+      "examples": [
+        "etunni-github-io-arapey-minisite#03"
+      ],
+      "mergedFrom": []
+    },
+    "bento-cards": {
+      "definition": "A grid of cards, each a slice of the set or one feature (arrows, numerals, ligatures).",
+      "cues": "rounded cards of varied sizes",
+      "count": 3,
+      "examples": [
+        "isolation-abc-xyz#01",
+        "logical-family#06",
+        "compagnon-eesab-fr#06"
+      ],
+      "mergedFrom": []
+    },
+    "keymap-grid": {
+      "definition": "Pictogram or dingbat cells labelled with the key that types them.",
+      "cues": "key letter in each cell corner",
+      "count": 1,
+      "examples": [
+        "cursorfont-liebermannkiepereddemann-de#01"
+      ],
+      "mergedFrom": []
+    }
+  },
+  "type-tester": {
+    "per-row-controls": {
+      "definition": "Several sample rows, each with its own style, size and leading controls.",
+      "cues": "a control strip on every row",
+      "count": 6,
+      "examples": [
+        "nmtype-com-movement#02",
+        "halyard-dardenstudio-com#03",
+        "nichrome-mass-driver-com#04",
+        "sanssheriff-wtf#06",
+        "s-u-c-c-e-s-s-com#11",
+        "monolisa-dev#24"
+      ],
+      "mergedFrom": []
+    },
+    "global-toolbar": {
+      "definition": "One persistent toolbar restyles all editable samples on the page.",
+      "cues": "sticky bar of selects and sliders",
+      "count": 4,
+      "examples": [
+        "tofino-losttype-com#02",
+        "gt-super-com#10",
+        "system-mass-driver-com#04",
+        "kampanjat-hs-fi-climatefont#09"
+      ],
+      "mergedFrom": []
+    },
+    "labelled-editable-lines": {
+      "definition": "Each style gets a small label and editable lines at a fitting size; click to type, no toolbar.",
+      "cues": "contenteditable lines, style labels, no controls",
+      "count": 3,
+      "examples": [
+        "polychrome-mass-driver-com#10",
+        "gt-zirkon-com#04",
+        "gt-alpina-com#13"
+      ],
+      "mergedFrom": []
+    },
+    "slider-sandbox": {
+      "definition": "One editable sample with a few axis and size sliders around it.",
+      "cues": "one big sample, 2–4 sliders",
+      "count": 2,
+      "examples": [
+        "github-com-mona-sans#09",
+        "marbla-de#03"
+      ],
+      "mergedFrom": []
+    },
+    "feature-toggle-board": {
+      "definition": "One big sample line plus a panel of OpenType feature toggles labelled with their tags.",
+      "cues": "ss01, dlig, case toggles",
+      "count": 1,
+      "examples": [
+        "kostasbartsokas-com-oi-you-mate#04"
+      ],
+      "mergedFrom": []
+    },
+    "in-context-editable": {
+      "definition": "A realistic layout (classifieds, menu, poster) whose text is editable.",
+      "cues": "editable text inside a designed artefact",
+      "count": 2,
+      "examples": [
+        "liebling-fontef-com#00",
+        "prospectus-losttype-com#03"
+      ],
+      "mergedFrom": []
+    },
+    "code-playground": {
+      "definition": "A mock code editor with language tabs and themes, set in the (coding) font, with font controls.",
+      "cues": "syntax highlighting, editor chrome",
+      "count": 2,
+      "examples": [
+        "monaspace-githubnext-com#04",
+        "larsenwork-com-monoid#02"
+      ],
+      "mergedFrom": [
+        "type-tester/ide-playground",
+        "type-tester/code-editor-preview"
+      ]
+    },
+    "creative-toy": {
+      "definition": "A playful maker that turns the font into a composition: patterns, shareable images, style pairings, word-by-word styling.",
+      "cues": "share or download buttons, presets, unusual gestures",
+      "count": 4,
+      "examples": [
+        "garet-typeforward-com#04",
+        "djr-com-fern#07",
+        "cnap-fr-sites-faune-en#06",
+        "apoc-font-eu#09"
+      ],
+      "mergedFrom": [
+        "type-tester/word-level-styling",
+        "type-tester/pattern-builder",
+        "type-tester/shareable-composer",
+        "type-tester/pairing-preview"
+      ]
+    }
+  },
+  "specimen-showcase": {
+    "word-stack": {
+      "definition": "Display words or phrases stacked vertically, often cropped, for rhythm and character.",
+      "cues": "huge words, one per line",
+      "count": 7,
+      "examples": [
+        "2021-typemedia-org-gajana#06",
+        "bigshoulders-me#14",
+        "gt-ultra-com#07",
+        "pleasure-typefaces-pizza#07",
+        "bigshoulders-me#22",
+        "compressa-preusstype-com#14",
+        "basco-typofonderie-com#06"
+      ],
+      "mergedFrom": []
+    },
+    "in-use-mockups": {
+      "definition": "Realistic applications (posters, books, screens, signage, client work) as a wall, carousel, shuffler or filmed object.",
+      "cues": "photographic mockups, credits",
+      "count": 7,
+      "examples": [
+        "input-djr-com#01",
+        "pp-fragment-com#06",
+        "halyard-dardenstudio-com#05",
+        "surt-font-eu#09",
+        "betaniapatmos-huertatipografica-com#20",
+        "grandgothik-com#15",
+        "exat-hottype-co#09"
+      ],
+      "mergedFrom": [
+        "specimen-showcase/mockup-wall",
+        "specimen-showcase/shuffle-mockup",
+        "specimen-showcase/in-use-carousel",
+        "specimen-showcase/printed-object-film"
+      ]
+    },
+    "prop-collage": {
+      "definition": "Invented artefacts (UI windows, tickets, files, stickers) set in the font, collaged into a scene.",
+      "cues": "fictional brand objects, humour",
+      "count": 4,
+      "examples": [
+        "daifoldes-com-eubiescript-sub#01",
+        "etunni-github-io-arapey-minisite#05",
+        "gt-flaire-com#04",
+        "louisefili-com-montecatini-pro#10"
+      ],
+      "mergedFrom": []
+    },
+    "poster-series": {
+      "definition": "A sequence of self-contained poster or specimen-page compositions, often pastiching a period.",
+      "cues": "full-width graphic panels one after another",
+      "count": 4,
+      "examples": [
+        "cjtype-com-dunbar#01",
+        "pleasure-typefaces-pizza#08",
+        "arteria-typofonderie-com#06",
+        "louisefili-com-montecatini-pro#09"
+      ],
+      "mergedFrom": [
+        "specimen-showcase/period-specimen-pages"
+      ]
+    },
+    "editorial-in-use": {
+      "definition": "The font running a real or realistic publication (articles, magazine pages) with genuine content.",
+      "cues": "headlines, bylines, body copy",
+      "count": 3,
+      "examples": [
+        "etna-marksimonson-com#01",
+        "foodissue-commercialtype-com#05",
+        "foodissue-commercialtype-com#06"
+      ],
+      "mergedFrom": []
+    },
+    "kinetic-scenes": {
+      "definition": "Animated, generative or physics compositions (falling or scattered glyphs, liquid) after the hero.",
+      "cues": "canvas/WebGL, overlapping glyphs",
+      "count": 4,
+      "examples": [
+        "2021-typemedia-org-gajana#07",
+        "basco-typofonderie-com#03",
+        "leon-kim-com#06",
+        "leon-kim-com#07"
+      ],
+      "mergedFrom": [
+        "specimen-showcase/glyph-scatter"
+      ]
+    },
+    "use-case-samples": {
+      "definition": "Tabs or panels with realistic content samples per use case (code, data tables, UI).",
+      "cues": "tabs: SQL | finance | …",
+      "count": 1,
+      "examples": [
+        "usgraphics-com-products-berkeley-mono#02"
+      ],
+      "mergedFrom": [
+        "specimen-showcase/use-case-tabs"
+      ]
+    },
+    "modular-grid": {
+      "definition": "A uniform grid of cells mixing large glyphs, sentences and notes, like a specimen sheet.",
+      "cues": "equal cells, mixed content",
+      "count": 1,
+      "examples": [
+        "compagnon-eesab-fr#03"
+      ],
+      "mergedFrom": []
+    },
+    "themed-infographic": {
+      "definition": "An interactive infographic on the font's theme, set in the font so the numerals and labels do real work.",
+      "cues": "data, line-ups, timetables",
+      "count": 1,
+      "examples": [
+        "pacaembu-naipefoundry-com#11"
+      ],
+      "mergedFrom": []
+    }
+  },
+  "family-overview": {
+    "style-word-grid": {
+      "definition": "Every style named and shown on a sample word or the same paragraph.",
+      "cues": "style labels plus samples in a grid or stack",
+      "count": 6,
+      "examples": [
+        "plex-korean-demo-vercel-app#00",
+        "knitgrotesk-com#04",
+        "fictional-typeface-com#01",
+        "lobdell-me-affogato#05",
+        "monaspace-githubnext-com#10",
+        "gt-mechanik-com#20"
+      ],
+      "mergedFrom": [
+        "family-overview/text-block-per-style"
+      ]
+    },
+    "designspace-map": {
+      "definition": "The family laid out along its axes: a matrix, a cube, or clickable stops that set the sample.",
+      "cues": "width × weight table, axis cube, stop pickers",
+      "count": 3,
+      "examples": [
+        "system-mass-driver-com#03",
+        "fraunces-undercase-xyz#11",
+        "gt-flexa-com#12"
+      ],
+      "mergedFrom": [
+        "family-overview/instance-picker",
+        "family-overview/axis-matrix"
+      ]
+    },
+    "big-number-stats": {
+      "definition": "The family's size stated as huge figures (glyphs, weights, styles).",
+      "cues": "giant numerals with small labels",
+      "count": 1,
+      "examples": [
+        "editorialnew-com#01"
+      ],
+      "mergedFrom": []
+    }
+  },
+  "design-details": {
+    "feature-before-after": {
+      "definition": "A feature or alternate shown off vs on (side by side, overlaid, toggled or typed in a loop) with a short explanation.",
+      "cues": "pairs, toggles, feature tags",
+      "count": 13,
+      "examples": [
+        "compressa-preusstype-com#01",
+        "djr-com-forma#06",
+        "font-subf-dev-en#02",
+        "justfont-com-huninn#05",
+        "rsms-me-inter#09",
+        "azeret-displaay-net#04",
+        "andada-huertatipografica-com#07",
+        "tofino-losttype-com#12",
+        "andada-huertatipografica-com#14",
+        "boharat-com-zaatar#07",
+        "andada-huertatipografica-com#26",
+        "etunni-github-io-arapey-minisite#09",
+        "cinetype-com-fabbrica#40"
+      ],
+      "mergedFrom": [
+        "design-details/overlay-comparison",
+        "design-details/typewriter-word-cycle"
+      ]
+    },
+    "feature-index": {
+      "definition": "Every stylistic set or ligature group catalogued as cards or tiles (input → output), often toggleable or exportable as settings.",
+      "cues": "exhaustive grid of feature cards",
+      "count": 4,
+      "examples": [
+        "vollkorn-typeface-com#01",
+        "monolisa-dev#17",
+        "exat-hottype-co#07",
+        "monaspace-githubnext-com#14"
+      ],
+      "mergedFrom": [
+        "design-details/feature-index-cards",
+        "design-details/feature-config-builder",
+        "design-details/alternate-tiles"
+      ]
+    },
+    "axis-explainer": {
+      "definition": "Each variable axis demonstrated on its own: a word plus slider, labelled steps, or animation fitting frames.",
+      "cues": "axis names, steps, one axis at a time",
+      "count": 11,
+      "examples": [
+        "almnt-github-io-crimsonpro-microsite#02",
+        "gt-flexa-com#02",
+        "monolisa-dev#08",
+        "gt-pressura-com#05",
+        "marbla-de#02",
+        "gt-alpina-com#08",
+        "almnt-github-io-crimsonpro-microsite#06",
+        "gt-alpina-com#09",
+        "djr-com-roslindale#07",
+        "gt-pantheon-com#06",
+        "gt-flexa-com#09"
+      ],
+      "mergedFrom": [
+        "design-details/fit-to-frame-animation",
+        "design-details/axis-steps"
+      ]
+    },
+    "annotated-specimen": {
+      "definition": "Letterforms with technical annotations or numbered figures (measurements, ink traps, angles), one decision per row.",
+      "cues": "callouts, dimension lines, 'Fig. 1'",
+      "count": 4,
+      "examples": [
+        "gt-zirkon-com#03",
+        "gt-planar-com#07",
+        "betaniapatmos-huertatipografica-com#14",
+        "gt-canon-com#06"
+      ],
+      "mergedFrom": [
+        "design-details/numbered-figures"
+      ]
+    },
+    "system-diagrams": {
+      "definition": "The family's logic (weight curve, optical sizes, widths) explained with charts, like a design-system manual.",
+      "cues": "graphs, axes, curves",
+      "count": 2,
+      "examples": [
+        "gt-standard-com#03",
+        "gt-standard-com#05"
+      ],
+      "mergedFrom": []
+    },
+    "design-notes": {
+      "definition": "A sequence of design decisions, each with a visual and a short caption, as a carousel or video tiles.",
+      "cues": "slides or looping tiles per topic",
+      "count": 2,
+      "examples": [
+        "pacaembu-naipefoundry-com#03",
+        "rt-dromo-com#58"
+      ],
+      "mergedFrom": [
+        "design-details/design-notes-carousel",
+        "design-details/topic-video-tiles"
+      ]
+    }
+  },
+  "language-support": {
+    "multiscript-specimen": {
+      "definition": "Sample lines in several scripts, each tagged with script and settings.",
+      "cues": "LATIN / ARABIC / THAI labels",
+      "count": 1,
+      "examples": [
+        "gt-america-com#05"
+      ],
+      "mergedFrom": [
+        "specimen-showcase/multiscript-lines"
+      ]
+    },
+    "diacritic-word-wall": {
+      "definition": "Real words from many languages chosen for their diacritics, at display size.",
+      "cues": "accent-heavy words",
+      "count": 1,
+      "examples": [
+        "kostasbartsokas-com-oi-you-mate#08"
+      ],
+      "mergedFrom": []
+    },
+    "coverage-statement": {
+      "definition": "A big-type sentence stating the coverage instead of showing it.",
+      "cues": "'Supports 200+ languages'",
+      "count": 1,
+      "examples": [
+        "calhern-frostype-xyz#32"
+      ],
+      "mergedFrom": []
+    }
+  },
+  "comparison": {
+    "versus-tabs": {
+      "definition": "Tabs pick a rival typeface; the same text is set in both, stacked.",
+      "cues": "rival names as tabs",
+      "count": 1,
+      "examples": [
+        "font-subf-dev-en#03"
+      ],
+      "mergedFrom": []
+    }
+  },
+  "testimonials": {
+    "quote-columns": {
+      "definition": "User quotes set in the font, in plain columns.",
+      "cues": "quotes with names",
+      "count": 1,
+      "examples": [
+        "dyslexiefont-com#14"
+      ],
+      "mergedFrom": []
+    },
+    "embedded-social-posts": {
+      "definition": "Embedded posts from users, with avatars and handles.",
+      "cues": "tweet or toot cards",
+      "count": 1,
+      "examples": [
+        "rubjo-github-io-victor-mono#12"
+      ],
+      "mergedFrom": []
+    }
+  },
+  "checkout": {
+    "on-page-cart": {
+      "definition": "Buying happens on the page: licence picker, packages and prices, preview, add to cart.",
+      "cues": "prices, licence sizes, cart",
+      "count": 9,
+      "examples": [
+        "readvisions-com-marvin#05",
+        "djr-com-gimlet#18",
+        "djr-com-forma#15",
+        "djr-com-turnip#10",
+        "djr-com-roslindale#14",
+        "djr-com-fern#12",
+        "djr-com-job-clarendon#27",
+        "stencil-gothic-com#09",
+        "djr-com-fit#17"
+      ],
+      "mergedFrom": []
+    },
+    "link-out-cta": {
+      "definition": "Prominent buy, trial or download buttons linking to an external shop or repository.",
+      "cues": "1–2 big buttons, no prices",
+      "count": 5,
+      "examples": [
+        "nn-konrad-ch#14",
+        "escafina-losttype-com#06",
+        "graphit-type-com#12",
+        "louisefili-com-montecatini-pro#11",
+        "tiktok-com-font#10"
+      ],
+      "mergedFrom": []
+    },
+    "free-download": {
+      "definition": "A free download with a plain-language licence summary and/or developer install instructions.",
+      "cues": "OFL, npm or brew commands, press kit",
+      "count": 2,
+      "examples": [
+        "vercel-com-font#08",
+        "kampanjat-hs-fi-climatefont#10"
+      ],
+      "mergedFrom": [
+        "download-open-source/install-guide",
+        "download-open-source/licence-summary-download"
+      ]
+    },
+    "build-configurator": {
+      "definition": "Options (alternates, spacing, ligatures) select which pre-built files you download.",
+      "cues": "option toggles plus a download button",
+      "count": 1,
+      "examples": [
+        "larsenwork-com-monoid#01"
+      ],
+      "mergedFrom": [
+        "download-open-source/build-configurator"
+      ]
+    }
+  },
+  "newsletter": {
+    "email-signup": {
+      "definition": "Email field and subscribe button.",
+      "cues": "input type=email",
+      "count": 1,
+      "examples": [
+        "finaltype-de-en-projects-monoflow#12"
+      ],
+      "mergedFrom": []
+    }
+  },
+  "footer": {
+    "credits-colophon": {
+      "definition": "Credits: designers, contributors, testers, tools, fonts used.",
+      "cues": "lists of names and roles",
+      "count": 8,
+      "examples": [
+        "foodissue-commercialtype-com#09",
+        "knitgrotesk-com#14",
+        "pp-fragment-com#09",
+        "prospectus-losttype-com#07",
+        "gt-canon-com#10",
+        "jetbrains-com-lp-mono#18",
+        "logical-family#12",
+        "nichrome-mass-driver-com#08"
+      ],
+      "mergedFrom": []
+    },
+    "link-columns": {
+      "definition": "A multi-column footer with links.",
+      "cues": "columns of links",
+      "count": 3,
+      "examples": [
+        "dyslexiefont-com#20",
+        "github-com-mona-sans#13",
+        "biceps-togetherwithyou-co#23"
+      ],
+      "mergedFrom": []
+    },
+    "big-sign-off": {
+      "definition": "A large closing statement, then small legal lines.",
+      "cues": "display-size last line",
+      "count": 3,
+      "examples": [
+        "nn-swinton-world#23",
+        "editorialnew-com#12",
+        "grandgothik-com#17"
+      ],
+      "mergedFrom": []
+    },
+    "personal-sign-off": {
+      "definition": "An informal closing note from the designer.",
+      "cues": "'email me', kaomoji",
+      "count": 2,
+      "examples": [
+        "adelfaure-net-tools-jgs#12",
+        "adelfaure-net-tools-jgs#13"
+      ],
+      "mergedFrom": []
+    },
+    "slim-legal-bar": {
+      "definition": "One or two lines: copyright and credit.",
+      "cues": "thin bar",
+      "count": 2,
+      "examples": [
+        "brailleneue-com#09",
+        "latest-losttype-com-introducing-dotties#03"
+      ],
+      "mergedFrom": []
+    }
+  },
+  "navigation": {
+    "related-projects": {
+      "definition": "Cards linking to the designer's or foundry's other fonts.",
+      "cues": "'More from…'",
+      "count": 1,
+      "examples": [
+        "fridamedrano-com-jabin#08"
+      ],
+      "mergedFrom": []
+    }
+  },
+  "playground-app": {
+    "keyboard-driven-app": {
+      "definition": "A single-screen app driven by keyboard shortcuts.",
+      "cues": "key legend, no scroll",
+      "count": 1,
+      "examples": [
+        "commitmono-com#00"
+      ],
+      "mergedFrom": []
+    },
+    "desktop-os-windows": {
+      "definition": "The site staged as a desktop OS with draggable windows.",
+      "cues": "windows, taskbar, wallpaper",
+      "count": 1,
+      "examples": [
+        "gt-flaire-com#05"
+      ],
+      "mergedFrom": []
+    }
+  },
+  "game": {
+    "arcade-leaderboard": {
+      "definition": "A browser game with a high-score table and font prizes.",
+      "cues": "score, play button",
+      "count": 1,
+      "examples": [
+        "sanssheriff-wtf#01"
+      ],
+      "mergedFrom": []
+    }
+  },
+  "interlude": {
+    "scroll-door-animation": {
+      "definition": "A pinned, scroll-scrubbed illustration opening like doors.",
+      "cues": "symmetry, scrubbing",
+      "count": 1,
+      "examples": [
+        "gt-pantheon-com#01"
+      ],
+      "mergedFrom": [
+        "section-divider/scroll-door-animation"
+      ]
+    }
+  },
+  "chrome": {
+    "announcement-banner": {
+      "definition": "A thin site-wide banner (donation, launch, sale).",
+      "cues": "strip above everything",
+      "count": 1,
+      "examples": [
+        "brailleinstitute-org-freefont#00"
+      ],
+      "mergedFrom": []
+    },
+    "masthead-nav": {
+      "definition": "A slim header with name, tagline and section tabs, standing in for a hero.",
+      "cues": "header only",
+      "count": 1,
+      "examples": [
+        "input-djr-com#00"
+      ],
+      "mergedFrom": []
+    }
+  },
+  "fragment": {
+    "empty-capture": {
+      "definition": "Captured empty or mid-load.",
+      "cues": "blank, loader",
+      "count": 2,
+      "examples": [
+        "finaltype-de-en-projects-monoflow#00",
+        "garet-typeforward-com#01"
+      ],
+      "mergedFrom": []
+    },
+    "duplicate-capture": {
+      "definition": "Repeats a section already captured.",
+      "cues": "same as an earlier tile",
+      "count": 2,
+      "examples": [
+        "cnap-fr-sites-infini-en#20",
+        "cnap-fr-sites-infini-en#40"
+      ],
+      "mergedFrom": []
+    }
+  }
+}

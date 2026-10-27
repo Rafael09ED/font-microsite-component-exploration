@@ -1,0 +1,622 @@
+{
+  "slug": "tokotype-github-io-plusjakarta-sans",
+  "url": "https://tokotype.github.io/plusjakarta-sans",
+  "pageHeight": 4183,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "tokotype-github-io-plusjakarta-sans#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div",
+      "classes": [
+        "bg-black",
+        "section",
+        "text-white",
+        "d-flex",
+        "align-items-end",
+        "py-5"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 845
+      },
+      "headings": [
+        "+Jakarta Sans"
+      ],
+      "parentHeadings": null,
+      "textPreview": "+Jakarta Sans Open-source Fonts for Jakarta City of Collaboration",
+      "fontFamilies": [
+        "Plus Jakarta Text Regular",
+        "Plus Jakarta Display Medium"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.662,
+        "widthRatio": 1,
+        "text": 4.205,
+        "elements": 1.386,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.1,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": "archive/tokotype-github-io-plusjakarta-sans/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/tokotype-github-io-plusjakarta-sans/blocks/00.html"
+    },
+    {
+      "id": "tokotype-github-io-plusjakarta-sans#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#about",
+      "classes": [
+        "bg-white",
+        "text-black"
+      ],
+      "box": {
+        "x": 0,
+        "y": 845,
+        "w": 1440,
+        "h": 500
+      },
+      "headings": [
+        "About Fonts"
+      ],
+      "parentHeadings": null,
+      "textPreview": "About Fonts The +Jakarta Sans is a versatile modern type family designed for +Jakarta City Branding in 2020, where each glyph has its own varieties with its own different characteristics. Like the city itself, the beauty is in the details. ",
+      "fontFamilies": [
+        "Plus Jakarta Text Regular",
+        "Plus Jakarta Display Regular"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.2,
+        "relY": 0.202,
+        "heightVh": 0.442,
+        "widthRatio": 1,
+        "text": 6.254,
+        "elements": 1.946,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0.006
+      },
+      "crop": "archive/tokotype-github-io-plusjakarta-sans/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/tokotype-github-io-plusjakarta-sans/blocks/01.html"
+    },
+    {
+      "id": "tokotype-github-io-plusjakarta-sans#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#tester",
+      "classes": [
+        "bg-white",
+        "section-content",
+        "bg-green"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1345,
+        "w": 1440,
+        "h": 829
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Plus Jakarta Display Light Plus Jakarta Display Light Italic Plus Jakarta Display Regular Plus Jakarta Display Italic Plus Jakarta Display Medium Plus Jakarta Display Medium Italic Plus Jakarta Display Bold Plus Jakarta Display Bold Italic ",
+      "fontFamilies": [
+        "Plus Jakarta Text Regular",
+        "Plus Jakarta Display Medium"
+      ],
+      "maxFontSizePx": 14,
+      "variationSettings": [],
+      "controls": {
+        "range": 3,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 3,
+        "select": 1,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.4,
+        "relY": 0.322,
+        "heightVh": 0.653,
+        "widthRatio": 1,
+        "text": 6.441,
+        "elements": 3.85,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.01,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 1.386,
+        "textInput": 0.693,
+        "toggles": 1.609,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 1
+      },
+      "crop": "archive/tokotype-github-io-plusjakarta-sans/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/tokotype-github-io-plusjakarta-sans/blocks/02.html"
+    },
+    {
+      "id": "tokotype-github-io-plusjakarta-sans#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#character-map",
+      "classes": [
+        "bg-white",
+        "text-black"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2174,
+        "w": 1440,
+        "h": 1089
+      },
+      "headings": [
+        "Characters Map"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Characters Map A Á Â Ä À Å Ã Æ B C Ç D Ð E É Ê Ë È F G H I Í Î Ï Ì J K L Ł M N Ñ O Ó Ô Ö Ò Ø Õ Œ P Þ Q R S Š T U Ú Û Ü Ù V W X Y Ý Ÿ Z Ž a á â ä à å ã æ b c ç d ð e é ê ë è f g h i ı í î ï ì j k l ł m n ñ o ó ô ö ò ø õ œ p þ q r s š ß t u ú",
+      "fontFamilies": [
+        "Plus Jakarta Text Regular",
+        "Plus Jakarta Display Regular"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.6,
+        "relY": 0.52,
+        "heightVh": 0.793,
+        "widthRatio": 1,
+        "text": 6.275,
+        "elements": 6.261,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.022,
+        "singleChar": 5.288,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0.006
+      },
+      "crop": "archive/tokotype-github-io-plusjakarta-sans/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/tokotype-github-io-plusjakarta-sans/blocks/03.html"
+    },
+    {
+      "id": "tokotype-github-io-plusjakarta-sans#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#download",
+      "classes": [
+        "bg-white",
+        "text-black"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3263,
+        "w": 1440,
+        "h": 773
+      },
+      "headings": [
+        "Download Fonts",
+        "Credits:",
+        "License:",
+        "Contribution:"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Download Fonts Credits: +Jakarta City of Collaboration branding designed by 6616 Creative House. Custom Typeface designed & developed by Tokotype Studio License: This Font Software is licensed under the SIL Open Font License, Version 1.1. T",
+      "fontFamilies": [
+        "Plus Jakarta Text Regular",
+        "Plus Jakarta Display Regular"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.8,
+        "relY": 0.78,
+        "heightVh": 0.62,
+        "widthRatio": 1,
+        "text": 6.687,
+        "elements": 3.611,
+        "headings": 4,
+        "fontSizes": 3,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.197,
+        "bgLum": 1,
+        "fgLum": 0.006
+      },
+      "crop": "archive/tokotype-github-io-plusjakarta-sans/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/tokotype-github-io-plusjakarta-sans/blocks/04.html"
+    },
+    {
+      "id": "tokotype-github-io-plusjakarta-sans#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > footer",
+      "classes": [
+        "py-5",
+        "bg-black"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4037,
+        "w": 1440,
+        "h": 146
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Copyright © Tokotype Studio 2020. All rights reserved.",
+      "fontFamilies": [
+        "Plus Jakarta Text Regular"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.965,
+        "heightVh": 0.15,
+        "widthRatio": 1,
+        "text": 4.007,
+        "elements": 2.197,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.099,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": "archive/tokotype-github-io-plusjakarta-sans/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/tokotype-github-io-plusjakarta-sans/blocks/05.html"
+    },
+    {
+      "id": "tokotype-github-io-plusjakarta-sans#06",
+      "nn": "06",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "header",
+      "selector": "#navbar",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 116
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "About Fonts Type Tester Characters Download",
+      "fontFamilies": [
+        "Plus Jakarta Text Regular",
+        "Plus Jakarta Display Regular"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": true,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.2,
+        "relY": 0,
+        "heightVh": 0.121,
+        "widthRatio": 1,
+        "text": 3.784,
+        "elements": 2.833,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.792,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/tokotype-github-io-plusjakarta-sans/blocks/06.html"
+    }
+  ]
+}

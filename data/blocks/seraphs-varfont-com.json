@@ -1,0 +1,1840 @@
+{
+  "slug": "seraphs-varfont-com",
+  "url": "https://www.seraphs.varfont.com",
+  "pageHeight": 13116,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "seraphs-varfont-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(1)",
+      "classes": [
+        "center4"
+      ],
+      "box": {
+        "x": 8,
+        "y": 8,
+        "w": 1424,
+        "h": 65
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "THIS WEBSITE USES VARIABLE FONTS AND CSS EFFECTS. IT IS OPTIMIZED FOR CHROME AND SAFARI.",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"SRFS\" 0, \"wght\" 100"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(13, 26, 38)",
+      "color": "rgb(204, 255, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.001,
+        "heightVh": 0.07,
+        "widthRatio": 0.989,
+        "text": 4.489,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.01,
+        "fgLum": 0.846
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/00.html"
+    },
+    {
+      "id": "seraphs-varfont-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(2)",
+      "classes": [
+        "center1"
+      ],
+      "box": {
+        "x": 8,
+        "y": 91,
+        "w": 1424,
+        "h": 227
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "SAY HELLO TO",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 50,
+      "variationSettings": [
+        "\"SRFS\" 0, \"wght\" 160"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(13, 26, 38)",
+      "color": "rgb(204, 255, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.05,
+        "relY": 0.007,
+        "heightVh": 0.225,
+        "widthRatio": 0.989,
+        "text": 2.565,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.035,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.01,
+        "fgLum": 0.846
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/01.html"
+    },
+    {
+      "id": "seraphs-varfont-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(3)",
+      "classes": [
+        "center5"
+      ],
+      "box": {
+        "x": 8,
+        "y": 318,
+        "w": 1424,
+        "h": 236
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "SERAPHS",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 274,
+      "variationSettings": [
+        "\"SRFS\" 2, \"wght\" 200"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(13, 26, 38)",
+      "color": "rgb(204, 255, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.1,
+        "relY": 0.024,
+        "heightVh": 0.233,
+        "widthRatio": 0.989,
+        "text": 2.079,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.19,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.01,
+        "fgLum": 0.846
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/02.html"
+    },
+    {
+      "id": "seraphs-varfont-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(4)",
+      "classes": [
+        "center1"
+      ],
+      "box": {
+        "x": 8,
+        "y": 554,
+        "w": 1424,
+        "h": 227
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "NOT YOUR AVERAGE TEXT FONT",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 50,
+      "variationSettings": [
+        "\"SRFS\" 0, \"wght\" 160"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(13, 26, 38)",
+      "color": "rgb(204, 255, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.15,
+        "relY": 0.042,
+        "heightVh": 0.225,
+        "widthRatio": 0.989,
+        "text": 3.296,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.035,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.01,
+        "fgLum": 0.846
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/03.html"
+    },
+    {
+      "id": "seraphs-varfont-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(5)",
+      "classes": [
+        "center2"
+      ],
+      "box": {
+        "x": 8,
+        "y": 781,
+        "w": 1424,
+        "h": 687
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Seraphs is like Jekyll and Hyde, or Bruce Banner and Hulk.",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"SRFS\" 5.33169, \"wght\" 173.268"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(204, 255, 51)",
+      "color": "rgb(13, 26, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.2,
+        "relY": 0.06,
+        "heightVh": 0.567,
+        "widthRatio": 0.989,
+        "text": 4.078,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.846,
+        "fgLum": 0.01
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/04.html"
+    },
+    {
+      "id": "seraphs-varfont-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(6)",
+      "classes": [
+        "center1"
+      ],
+      "box": {
+        "x": 8,
+        "y": 1468,
+        "w": 1424,
+        "h": 476
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "It is like a pig that grows Merino wool and lays eggs.",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"SRFS\" 2.26973, \"wght\" 137.829"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(13, 26, 38)",
+      "color": "rgb(204, 255, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.25,
+        "relY": 0.112,
+        "heightVh": 0.425,
+        "widthRatio": 0.989,
+        "text": 4.007,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.01,
+        "fgLum": 0.846
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/05.html"
+    },
+    {
+      "id": "seraphs-varfont-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(7)",
+      "classes": [
+        "center2"
+      ],
+      "box": {
+        "x": 8,
+        "y": 1944,
+        "w": 1424,
+        "h": 360
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "TRANSMUTATION",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 137,
+      "variationSettings": [
+        "\"SRFS\" 2.00492, \"wght\" 133.169"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(204, 255, 51)",
+      "color": "rgb(13, 26, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.3,
+        "relY": 0.148,
+        "heightVh": 0.336,
+        "widthRatio": 0.989,
+        "text": 2.639,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.095,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.846,
+        "fgLum": 0.01
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/06.html"
+    },
+    {
+      "id": "seraphs-varfont-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(8)",
+      "classes": [
+        "center1"
+      ],
+      "box": {
+        "x": 8,
+        "y": 2304,
+        "w": 1424,
+        "h": 442
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "You can also use it for STATIC TEXT",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 130,
+      "variationSettings": [
+        "\"SRFS\" 0, \"wght\" 100"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(13, 26, 38)",
+      "color": "rgb(204, 255, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.35,
+        "relY": 0.176,
+        "heightVh": 0.4,
+        "widthRatio": 0.989,
+        "text": 3.584,
+        "elements": 1.386,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.09,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.01,
+        "fgLum": 0.846
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/07.html"
+    },
+    {
+      "id": "seraphs-varfont-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(9)",
+      "classes": [
+        "center2"
+      ],
+      "box": {
+        "x": 8,
+        "y": 2746,
+        "w": 1424,
+        "h": 190
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Seraphs started with the idea to create a designspace using only a light and a bold master. The other spots in the designspace were created with Brace Layers and Corner Components. In the end the setup was expanded into 12 Masters to be abl",
+      "fontFamilies": [
+        "Lucida Console",
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 173,
+      "variationSettings": [
+        "\"SRFS\" 0, \"wght\" 135",
+        "\"SRFS\" 0, \"wght\" 100",
+        "\"SRFS\" 0, \"wght\" 200"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(204, 255, 51)",
+      "color": "rgb(13, 26, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.4,
+        "relY": 0.209,
+        "heightVh": 0.192,
+        "widthRatio": 0.989,
+        "text": 5.656,
+        "elements": 1.946,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.12,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.846,
+        "fgLum": 0.01
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/08.html"
+    },
+    {
+      "id": "seraphs-varfont-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(10)",
+      "classes": [
+        "center1"
+      ],
+      "box": {
+        "x": 8,
+        "y": 2936,
+        "w": 1424,
+        "h": 999
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "It has a weight axis and multiple serif styles that all interpolate:",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 130,
+      "variationSettings": [
+        "\"SRFS\" 0, \"wght\" 170",
+        "\"SRFS\" 3, \"wght\" 160",
+        "\"SRFS\" 6, \"wght\" 160"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(13, 26, 38)",
+      "color": "rgb(204, 255, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.45,
+        "relY": 0.224,
+        "heightVh": 0.747,
+        "widthRatio": 0.989,
+        "text": 4.234,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.09,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.01,
+        "fgLum": 0.846
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/09.html"
+    },
+    {
+      "id": "seraphs-varfont-com#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(11)",
+      "classes": [
+        "center6"
+      ],
+      "box": {
+        "x": 8,
+        "y": 3935,
+        "w": 1424,
+        "h": 701
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "From sans to Seraphs",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"SRFS\" 4.15346, \"wght\" 169.224"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(204, 255, 51)",
+      "color": "rgb(13, 26, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.3,
+        "heightVh": 0.576,
+        "widthRatio": 0.989,
+        "text": 3.045,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.846,
+        "fgLum": 0.01
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/10.html"
+    },
+    {
+      "id": "seraphs-varfont-com#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(12)",
+      "classes": [
+        "center1"
+      ],
+      "box": {
+        "x": 8,
+        "y": 4636,
+        "w": 1424,
+        "h": 861
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Seraphs Sans Light Seraphs Light Seraphs Slab Light Seraphs Wedge Light Seraphs Tuskan Light Seraphs Calligraphic Light",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 115,
+      "variationSettings": [
+        "\"SRFS\" 0, \"wght\" 100",
+        "\"SRFS\" 1, \"wght\" 100",
+        "\"SRFS\" 2, \"wght\" 100",
+        "\"SRFS\" 3, \"wght\" 100",
+        "\"SRFS\" 4, \"wght\" 100",
+        "\"SRFS\" 6, \"wght\" 100"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(13, 26, 38)",
+      "color": "rgb(204, 255, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.55,
+        "relY": 0.353,
+        "heightVh": 0.671,
+        "widthRatio": 0.989,
+        "text": 4.787,
+        "elements": 2.485,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.08,
+        "singleChar": 0,
+        "varSettings": 6,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.01,
+        "fgLum": 0.846
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/11.html"
+    },
+    {
+      "id": "seraphs-varfont-com#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(13)",
+      "classes": [
+        "center2"
+      ],
+      "box": {
+        "x": 8,
+        "y": 5497,
+        "w": 1424,
+        "h": 861
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Seraphs Sans Regular Seraphs Regular Seraphs Slab Regular Seraphs Wedge Regular Seraphs Tuskan Regular Seraphs Calligraphic Regular",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 115,
+      "variationSettings": [
+        "\"SRFS\" 0, \"wght\" 142",
+        "\"SRFS\" 1, \"wght\" 142",
+        "\"SRFS\" 2, \"wght\" 142",
+        "\"SRFS\" 3, \"wght\" 142",
+        "\"SRFS\" 4, \"wght\" 142",
+        "\"SRFS\" 6, \"wght\" 142"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(204, 255, 51)",
+      "color": "rgb(13, 26, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.6,
+        "relY": 0.419,
+        "heightVh": 0.671,
+        "widthRatio": 0.989,
+        "text": 4.883,
+        "elements": 2.485,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.08,
+        "singleChar": 0,
+        "varSettings": 6,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.846,
+        "fgLum": 0.01
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/12.html"
+    },
+    {
+      "id": "seraphs-varfont-com#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(14)",
+      "classes": [
+        "center1"
+      ],
+      "box": {
+        "x": 8,
+        "y": 6358,
+        "w": 1424,
+        "h": 861
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Seraphs Sans Bold Seraphs Bold Seraphs Slab Bold Seraphs Wedge Bold Seraphs Tuskan Bold Seraphs Calligraphic Bold",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 115,
+      "variationSettings": [
+        "\"SRFS\" 0, \"wght\" 200",
+        "\"SRFS\" 1, \"wght\" 200",
+        "\"SRFS\" 2, \"wght\" 200",
+        "\"SRFS\" 3, \"wght\" 200",
+        "\"SRFS\" 4, \"wght\" 200",
+        "\"SRFS\" 6, \"wght\" 200"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(13, 26, 38)",
+      "color": "rgb(204, 255, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.65,
+        "relY": 0.485,
+        "heightVh": 0.671,
+        "widthRatio": 0.989,
+        "text": 4.736,
+        "elements": 2.485,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.08,
+        "singleChar": 0,
+        "varSettings": 6,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.01,
+        "fgLum": 0.846
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/13.html"
+    },
+    {
+      "id": "seraphs-varfont-com#14",
+      "nn": "14",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(15)",
+      "classes": [
+        "center2"
+      ],
+      "box": {
+        "x": 8,
+        "y": 7218,
+        "w": 1424,
+        "h": 693
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Up to now Seraphs just speaks English, but the characterset will be extended.",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"SRFS\" 6, \"wght\" 160"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(204, 255, 51)",
+      "color": "rgb(13, 26, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.7,
+        "relY": 0.55,
+        "heightVh": 0.571,
+        "widthRatio": 0.989,
+        "text": 4.357,
+        "elements": 1.386,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.846,
+        "fgLum": 0.01
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/14.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/14.html"
+    },
+    {
+      "id": "seraphs-varfont-com#15",
+      "nn": "15",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(16)",
+      "classes": [
+        "center1"
+      ],
+      "box": {
+        "x": 8,
+        "y": 7911,
+        "w": 1424,
+        "h": 1475
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "A B C D E F G H I K L M N O P Q R S T U V W X Y Z",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"SRFS\" 4.15346, \"wght\" 169.224"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(13, 26, 38)",
+      "color": "rgb(204, 255, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.75,
+        "relY": 0.603,
+        "heightVh": 0.97,
+        "widthRatio": 0.989,
+        "text": 3.912,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.01,
+        "fgLum": 0.846
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/15.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/15.html"
+    },
+    {
+      "id": "seraphs-varfont-com#16",
+      "nn": "16",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(17)",
+      "classes": [
+        "center2"
+      ],
+      "box": {
+        "x": 8,
+        "y": 9386,
+        "w": 1424,
+        "h": 1475
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "a b c d e f g h i j k l m n o p q r s t u v w x y z",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"SRFS\" 4.15346, \"wght\" 169.224"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(204, 255, 51)",
+      "color": "rgb(13, 26, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.8,
+        "relY": 0.716,
+        "heightVh": 0.97,
+        "widthRatio": 0.989,
+        "text": 3.951,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.846,
+        "fgLum": 0.01
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/16.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/16.html"
+    },
+    {
+      "id": "seraphs-varfont-com#17",
+      "nn": "17",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(18)",
+      "classes": [
+        "center1"
+      ],
+      "box": {
+        "x": 8,
+        "y": 10862,
+        "w": 1424,
+        "h": 1275
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "ALPHABET circus BERLIN Calligraphic influence",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs",
+        "Lucida Console"
+      ],
+      "maxFontSizePx": 274,
+      "variationSettings": [
+        "\"SRFS\" 4.33169, \"wght\" 200",
+        "\"SRFS\" 5.33169, \"wght\" 173.268",
+        "\"SRFS\" 0.331692, \"wght\" 200"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(13, 26, 38)",
+      "color": "rgb(204, 255, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.85,
+        "relY": 0.828,
+        "heightVh": 0.882,
+        "widthRatio": 0.989,
+        "text": 3.871,
+        "elements": 2.197,
+        "headings": 0,
+        "fontSizes": 5,
+        "maxFontVw": 0.19,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.01,
+        "fgLum": 0.846
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/17.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/17.html"
+    },
+    {
+      "id": "seraphs-varfont-com#18",
+      "nn": "18",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(19)",
+      "classes": [
+        "center6"
+      ],
+      "box": {
+        "x": 8,
+        "y": 12137,
+        "w": 1424,
+        "h": 506
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "WEIGHT SERIF FONT-SIZE Give it a try!",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs",
+        "Arial"
+      ],
+      "maxFontSizePx": 109,
+      "variationSettings": [
+        "\"SRFS\" 0, \"wght\" 160"
+      ],
+      "controls": {
+        "range": 3,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(204, 255, 51)",
+      "color": "rgb(13, 26, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.9,
+        "relY": 0.925,
+        "heightVh": 0.446,
+        "widthRatio": 0.989,
+        "text": 3.738,
+        "elements": 2.398,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.076,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 1.386,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.846,
+        "fgLum": 0.01
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/18.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/18.html"
+    },
+    {
+      "id": "seraphs-varfont-com#19",
+      "nn": "19",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(20)",
+      "classes": [
+        "center1"
+      ],
+      "box": {
+        "x": 8,
+        "y": 12643,
+        "w": 1424,
+        "h": 368
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "SERAPHS",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs"
+      ],
+      "maxFontSizePx": 274,
+      "variationSettings": [
+        "\"SRFS\" 2, \"wght\" 200"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(13, 26, 38)",
+      "color": "rgb(204, 255, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.95,
+        "relY": 0.964,
+        "heightVh": 0.343,
+        "widthRatio": 0.989,
+        "text": 2.079,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.19,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.01,
+        "fgLum": 0.846
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/19.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/19.html"
+    },
+    {
+      "id": "seraphs-varfont-com#20",
+      "nn": "20",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div:nth-of-type(21)",
+      "classes": [
+        "center5"
+      ],
+      "box": {
+        "x": 8,
+        "y": 13029,
+        "w": 1424,
+        "h": 80
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "BUY SERAPHS ON FUTURE FONTS | TYPEFACE AND WEBSITE BY BERND VOLMER",
+      "fontFamilies": [
+        "BerndVolmerVariableSeraphs",
+        "Lucida Console"
+      ],
+      "maxFontSizePx": 22,
+      "variationSettings": [
+        "\"SRFS\" 0, \"wght\" 100",
+        "\"SRFS\" 0, \"wght\" 200"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(13, 26, 38)",
+      "color": "rgb(204, 255, 51)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.993,
+        "heightVh": 0.085,
+        "widthRatio": 0.989,
+        "text": 4.205,
+        "elements": 1.946,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.015,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.01,
+        "fgLum": 0.846
+      },
+      "crop": "archive/seraphs-varfont-com/blocks/20.jpg",
+      "cropTruncated": false,
+      "html": "archive/seraphs-varfont-com/blocks/20.html"
+    }
+  ]
+}

@@ -1,0 +1,1772 @@
+{
+  "slug": "djr-com-megazoid",
+  "url": "https://djr.com/megazoid",
+  "pageHeight": 28504,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "djr-com-megazoid#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#megazoid > section:nth-of-type(1)",
+      "classes": [
+        "hero"
+      ],
+      "box": {
+        "x": 0,
+        "y": 33,
+        "w": 1440,
+        "h": 874
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "M M e e g g a a z z o o i i d d TRY BUY TYPESET PDF",
+      "fontFamilies": [
+        "GimletTextNarrowWeb",
+        "Megazoid Right",
+        "Megazoid Right Shade"
+      ],
+      "maxFontSizePx": 202,
+      "variationSettings": [
+        "\"DPTH\" -300",
+        "\"DPTH\" -300, \"STRK\" 20",
+        "\"DPTH\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.001,
+        "heightVh": 0.679,
+        "widthRatio": 1,
+        "text": 3.951,
+        "elements": 4.143,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.14,
+        "singleChar": 3.497,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.609,
+        "bgLum": -1,
+        "fgLum": 0.006
+      },
+      "crop": "archive/djr-com-megazoid/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/00.html"
+    },
+    {
+      "id": "djr-com-megazoid#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#overview",
+      "classes": [
+        "overview"
+      ],
+      "box": {
+        "x": 0,
+        "y": 907,
+        "w": 1440,
+        "h": 634
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "MEGAZOID celebrates the awkwardness of raw geometry.",
+      "fontFamilies": [
+        "Megazoid Right"
+      ],
+      "maxFontSizePx": 115,
+      "variationSettings": [
+        "\"DPTH\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(42, 16, 75)",
+      "color": "rgb(245, 245, 239)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.053,
+        "relY": 0.032,
+        "heightVh": 0.533,
+        "widthRatio": 1,
+        "text": 3.97,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.08,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.014,
+        "fgLum": 0.909
+      },
+      "crop": "archive/djr-com-megazoid/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/01.html"
+    },
+    {
+      "id": "djr-com-megazoid#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#spec-upper-caps",
+      "classes": [
+        "spec-upper-caps"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1541,
+        "w": 1440,
+        "h": 1279
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "NEURODISCS VOIDSPHERE ASTRORIDER DARKSTORM MOONQUEST SYNTHWAVE",
+      "fontFamilies": [
+        "Megazoid Right"
+      ],
+      "maxFontSizePx": 173,
+      "variationSettings": [
+        "\"DPTH\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(228, 70, 155)",
+      "color": "rgb(255, 203, 39)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.105,
+        "relY": 0.054,
+        "heightVh": 0.884,
+        "widthRatio": 1,
+        "text": 4.143,
+        "elements": 1.946,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.12,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.232,
+        "fgLum": 0.641
+      },
+      "crop": "archive/djr-com-megazoid/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/02.html"
+    },
+    {
+      "id": "djr-com-megazoid#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#spec-shades",
+      "classes": [
+        "spec-shades"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2819,
+        "w": 1440,
+        "h": 1156
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "METRIC METRIC RETURN RETURN PHOBIA PHOBIA DYADIC DYADIC SILICON SILICON NEBULA NEBULA Angular Angular Echelon Echelon Optimal Optimal Starship Starship Diverge Diverge Isotopic Isotopic",
+      "fontFamilies": [
+        "GimletTextNarrowWeb",
+        "Megazoid Right",
+        "Megazoid Right Shade",
+        "Megazoid Left",
+        "Megazoid Left Shade"
+      ],
+      "maxFontSizePx": 130,
+      "variationSettings": [
+        "\"DPTH\" -300",
+        "\"DPTH\" -300, \"STRK\" 40"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 203, 39)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.158,
+        "relY": 0.099,
+        "heightVh": 0.826,
+        "widthRatio": 1,
+        "text": 5.226,
+        "elements": 3.664,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.09,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.641,
+        "fgLum": 0.006
+      },
+      "crop": "archive/djr-com-megazoid/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/03.html"
+    },
+    {
+      "id": "djr-com-megazoid#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#history",
+      "classes": [
+        "history"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3975,
+        "w": 1440,
+        "h": 1679
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "M M EGAZOID pits square and circle against each other, contrasting blocky exteriors with counterforms that are mostly circular and cylindrical. This juxtaposition recalls the classic Radio Shack logo and its distinctive retro-futuristic vib",
+      "fontFamilies": [
+        "GimletTextNarrowWeb",
+        "Input Mono",
+        "Megazoid Left Shade",
+        "Megazoid Left"
+      ],
+      "maxFontSizePx": 103,
+      "variationSettings": [
+        "\"slnt\" 0, \"wdth\" 80, \"wght\" 300",
+        "\"DPTH\" -300, \"STRK\" 20",
+        "\"DPTH\" -300",
+        "\"slnt\" -8, \"wdth\" 80, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(245, 245, 239)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.211,
+        "relY": 0.139,
+        "heightVh": 1.053,
+        "widthRatio": 1,
+        "text": 7.728,
+        "elements": 4.127,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.071,
+        "singleChar": 2.485,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.099,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.996,
+        "bgLum": 0.909,
+        "fgLum": 0.006
+      },
+      "crop": "archive/djr-com-megazoid/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/04.html"
+    },
+    {
+      "id": "djr-com-megazoid#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#spec-styles",
+      "classes": [
+        "spec-styles"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5654,
+        "w": 1440,
+        "h": 2811
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Quantum Regular, for general typesetting Plasmira Italic, for general typesetting Tachyons Tachyons Shade Left, for shades and cast shadows Depth -300 Link layer depth Stroke 40 Hardburn Hardburn Shade Right, for shades and cast shadows Dep",
+      "fontFamilies": [
+        "GimletTextNarrowWeb",
+        "Megazoid Right",
+        "Input Mono",
+        "Megazoid Right Italic",
+        "Megazoid Left",
+        "Megazoid Left Shade",
+        "Arial",
+        "Megazoid Right Shade"
+      ],
+      "maxFontSizePx": 202,
+      "variationSettings": [
+        "\"DPTH\" 0",
+        "\"wdth\" 90",
+        "\"DPTH\" -300",
+        "\"DPTH\" -300, \"STRK\" 40"
+      ],
+      "controls": {
+        "range": 4,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 2,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(34, 35, 81)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.263,
+        "relY": 0.198,
+        "heightVh": 1.417,
+        "widthRatio": 1,
+        "text": 5.793,
+        "elements": 4.159,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.14,
+        "singleChar": 1.099,
+        "varSettings": 4,
+        "range": 1.609,
+        "textInput": 0,
+        "toggles": 1.099,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.021,
+        "fgLum": 0.006
+      },
+      "crop": "archive/djr-com-megazoid/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/05.html"
+    },
+    {
+      "id": "djr-com-megazoid#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#spec-regular-paragraph-1",
+      "classes": [
+        "spec-regular-paragraph-1"
+      ],
+      "box": {
+        "x": 0,
+        "y": 8465,
+        "w": 1440,
+        "h": 739
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Make the great escape! Smash your way out of a thick wall of bricks. The first few bricks are easy. But the closer you come to breaking out, the tougher it gets. The ball you use to smash bricks may play tricks on you. Once you’ve mastered ",
+      "fontFamilies": [
+        "Megazoid Right"
+      ],
+      "maxFontSizePx": 115,
+      "variationSettings": [
+        "\"DPTH\" 100",
+        "\"DPTH\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(228, 70, 155)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.316,
+        "relY": 0.297,
+        "heightVh": 0.599,
+        "widthRatio": 1,
+        "text": 6.356,
+        "elements": 1.386,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.08,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.232,
+        "fgLum": 0.006
+      },
+      "crop": "archive/djr-com-megazoid/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/06.html"
+    },
+    {
+      "id": "djr-com-megazoid#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#letter-field",
+      "classes": [
+        "letter-field"
+      ],
+      "box": {
+        "x": 0,
+        "y": 9203,
+        "w": 1440,
+        "h": 2186
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "GimletTextNarrowWeb"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(251, 238, 213)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.368,
+        "relY": 0.323,
+        "heightVh": 1.232,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 3.611,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.865,
+        "fgLum": 0.006
+      },
+      "crop": "archive/djr-com-megazoid/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/07.html"
+    },
+    {
+      "id": "djr-com-megazoid#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#calculator",
+      "classes": [
+        "calculator"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10989,
+        "w": 1440,
+        "h": 1060
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "1985",
+      "fontFamilies": [
+        "GimletTextNarrowWeb",
+        "Megazoid Right"
+      ],
+      "maxFontSizePx": 72,
+      "variationSettings": [
+        "\"DPTH\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 18,
+        "color": 0
+      },
+      "media": {
+        "img": 19,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.421,
+        "relY": 0.386,
+        "heightVh": 0.778,
+        "widthRatio": 1,
+        "text": 1.609,
+        "elements": 4.127,
+        "headings": 0,
+        "fontSizes": 5,
+        "maxFontVw": 0.05,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 2.944,
+        "img": 2.996,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.006
+      },
+      "crop": "archive/djr-com-megazoid/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/08.html"
+    },
+    {
+      "id": "djr-com-megazoid#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#spec-italics",
+      "classes": [
+        "spec-italics"
+      ],
+      "box": {
+        "x": 0,
+        "y": 12049,
+        "w": 1440,
+        "h": 821
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Strange creatures from outer space are threatening our planet. Who are these aliens and what do they want? No time for questions now. Your mission is to destroy the aliens with your laser cannon before they reach Earth. Hit a space invader ",
+      "fontFamilies": [
+        "Megazoid Right Italic"
+      ],
+      "maxFontSizePx": 115,
+      "variationSettings": [
+        "\"DPTH\" 150",
+        "\"DPTH\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(95, 54, 148)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.474,
+        "relY": 0.423,
+        "heightVh": 0.648,
+        "widthRatio": 1,
+        "text": 6.492,
+        "elements": 1.386,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.08,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.072,
+        "fgLum": 0.006
+      },
+      "crop": "archive/djr-com-megazoid/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/09.html"
+    },
+    {
+      "id": "djr-com-megazoid#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#roadway",
+      "classes": [
+        "spec-roadway"
+      ],
+      "box": {
+        "x": 0,
+        "y": 12870,
+        "w": 1440,
+        "h": 1103
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "GimletTextNarrowWeb"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 203, 39)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.526,
+        "relY": 0.452,
+        "heightVh": 0.8,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.641,
+        "fgLum": 0.006
+      },
+      "crop": "archive/djr-com-megazoid/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/10.html"
+    },
+    {
+      "id": "djr-com-megazoid#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#spec-lowercase",
+      "classes": [
+        "spec-lowercase"
+      ],
+      "box": {
+        "x": 0,
+        "y": 13973,
+        "w": 1440,
+        "h": 1341
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Stereoscopic Amalgamate Upgradeable Whiteboards Effervescent Micrometers",
+      "fontFamilies": [
+        "Megazoid Right"
+      ],
+      "maxFontSizePx": 173,
+      "variationSettings": [
+        "\"DPTH\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(2, 151, 194)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.579,
+        "relY": 0.49,
+        "heightVh": 0.912,
+        "widthRatio": 1,
+        "text": 4.29,
+        "elements": 2.079,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.12,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.26,
+        "fgLum": 1
+      },
+      "crop": "archive/djr-com-megazoid/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/11.html"
+    },
+    {
+      "id": "djr-com-megazoid#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#opentype",
+      "classes": [
+        "opentype"
+      ],
+      "box": {
+        "x": 0,
+        "y": 15314,
+        "w": 1440,
+        "h": 1603
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "grade Simplified a, g, q font-feature-settings: ss01 hijinks i and j with square dots font-feature-settings: ss02 juice i and j with small dots font-feature-settings: ss03 WORM More diagonals font-feature-settings: ss04 AVERT Flipped diagon",
+      "fontFamilies": [
+        "GimletTextNarrowWeb",
+        "Megazoid Right",
+        "Input Mono"
+      ],
+      "maxFontSizePx": 96,
+      "variationSettings": [
+        "\"DPTH\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(245, 245, 239)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.632,
+        "relY": 0.537,
+        "heightVh": 1.023,
+        "widthRatio": 1,
+        "text": 6.392,
+        "elements": 4.127,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.067,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.909,
+        "fgLum": 0.006
+      },
+      "crop": "archive/djr-com-megazoid/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/12.html"
+    },
+    {
+      "id": "djr-com-megazoid#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#spec-regular-paragraph-2",
+      "classes": [
+        "spec-regular-paragraph-2"
+      ],
+      "box": {
+        "x": 0,
+        "y": 16917,
+        "w": 1440,
+        "h": 1002
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "THE ROAD AHEAD IS DARK AND WINDING. YOU KNOW YOU’RE GETTING SOMEWHERE BECAUSE THE FENCE ALONG THE SIDE OF THE ROAD SEEMS TO KEEP MOVING. DON’T GET DROWSY NOW. THE LONGER YOU STAY ON THE ROAD, THE HIGHER YOUR SCORE. AND WATCH OUT FOR THOSE O",
+      "fontFamilies": [
+        "Megazoid Right",
+        "Megazoid Right Shade"
+      ],
+      "maxFontSizePx": 115,
+      "variationSettings": [
+        "\"DPTH\" -500",
+        "\"DPTH\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(95, 54, 148)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.684,
+        "relY": 0.593,
+        "heightVh": 0.748,
+        "widthRatio": 1,
+        "text": 6.608,
+        "elements": 1.386,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.08,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.072,
+        "fgLum": 0.006
+      },
+      "crop": "archive/djr-com-megazoid/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/13.html"
+    },
+    {
+      "id": "djr-com-megazoid#14",
+      "nn": "14",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#spec-thankyou",
+      "classes": [
+        "spec-thankyou"
+      ],
+      "box": {
+        "x": 0,
+        "y": 17919,
+        "w": 1440,
+        "h": 1319
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "MEGAZOID MEGAZOID MEGAZOID MEGAZOID MEGAZOID MEGAZOID MEGAZOID",
+      "fontFamilies": [
+        "Megazoid Right"
+      ],
+      "maxFontSizePx": 173,
+      "variationSettings": [
+        "\"DPTH\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(238, 238, 238)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.737,
+        "relY": 0.629,
+        "heightVh": 0.902,
+        "widthRatio": 1,
+        "text": 4.143,
+        "elements": 2.079,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.12,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.855,
+        "fgLum": 0.006
+      },
+      "crop": "archive/djr-com-megazoid/blocks/14.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/14.html"
+    },
+    {
+      "id": "djr-com-megazoid#15",
+      "nn": "15",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#spec-breakout",
+      "classes": [
+        "spec-breakout"
+      ],
+      "box": {
+        "x": 0,
+        "y": 19238,
+        "w": 1440,
+        "h": 1102
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "SUPER SUPER SUPER SUPER SUPER BREAKOUT BREAKOUT BREAKOUT BREAKOUT BREAKOUT",
+      "fontFamilies": [
+        "GimletTextNarrowWeb",
+        "Megazoid Right"
+      ],
+      "maxFontSizePx": 173,
+      "variationSettings": [
+        "\"DPTH\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(34, 35, 81)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.789,
+        "relY": 0.675,
+        "heightVh": 0.8,
+        "widthRatio": 1,
+        "text": 4.317,
+        "elements": 2.639,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.12,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.021,
+        "fgLum": 0.006
+      },
+      "crop": "archive/djr-com-megazoid/blocks/15.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/15.html"
+    },
+    {
+      "id": "djr-com-megazoid#16",
+      "nn": "16",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#characters",
+      "classes": [
+        "characters"
+      ],
+      "box": {
+        "x": 0,
+        "y": 20340,
+        "w": 1440,
+        "h": 4436
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9 ! \" # $ % & ' ( ) * + , - . / : ; < = > ? @ [ \\ ] ^ _ ` { | } ~ ¡ ¢ £ ¥ ¦ § ¨ © ª « ® ¯ ° ± ´ ¶ · ¸ º » ¿ À Á Â Ã Ä ",
+      "fontFamilies": [
+        "GimletTextNarrowWeb",
+        "Megazoid Regular"
+      ],
+      "maxFontSizePx": 58,
+      "variationSettings": [
+        "\"DPTH\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(245, 245, 239)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.842,
+        "relY": 0.714,
+        "heightVh": 1.78,
+        "widthRatio": 1,
+        "text": 6.768,
+        "elements": 6.082,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.04,
+        "singleChar": 5.989,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.909,
+        "fgLum": 0.006
+      },
+      "crop": "archive/djr-com-megazoid/blocks/16.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/16.html"
+    },
+    {
+      "id": "djr-com-megazoid#17",
+      "nn": "17",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#credits",
+      "classes": [
+        "credits"
+      ],
+      "box": {
+        "x": 0,
+        "y": 24776,
+        "w": 1440,
+        "h": 766
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Megazoid was designed by DJR, with variable shade layers scripting done by Connor Davenport. This webpage was designed by Loud Room. Special thanks to Jovana Jocić for Cyrillic feedback, Donny Truong for Vietnamese feedback, and Eben Sorkin",
+      "fontFamilies": [
+        "Megazoid Right"
+      ],
+      "maxFontSizePx": 58,
+      "variationSettings": [
+        "\"DPTH\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(42, 16, 75)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.895,
+        "relY": 0.869,
+        "heightVh": 0.616,
+        "widthRatio": 1,
+        "text": 5.684,
+        "elements": 2.303,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.04,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.079,
+        "bgLum": 0.014,
+        "fgLum": 1
+      },
+      "crop": "archive/djr-com-megazoid/blocks/17.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/17.html"
+    },
+    {
+      "id": "djr-com-megazoid#18",
+      "nn": "18",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#buy",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 25542,
+        "w": 1440,
+        "h": 2421
+      },
+      "headings": [
+        "Are You Ready?",
+        "LICENSE SIZES",
+        "PREVIEW TEXT",
+        "FULL SERIES PACKAGE"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Are You Ready? LICENSE SIZES Mini For use not exceeding: 3 workstations for print/desktop use 15,000 monthly unique web visitors 1 app or e-book More Info Small For use not exceeding: 8 workstations for print/desktop use 100,000 monthly uni",
+      "fontFamilies": [
+        "Megazoid Right",
+        "GimletTextNarrowWeb",
+        "Arial",
+        "InputSansNarrowWeb",
+        "Megazoid-Regular",
+        "Megazoid Regular",
+        "Megazoid-I",
+        "Megazoid Right Italic"
+      ],
+      "maxFontSizePx": 259,
+      "variationSettings": [
+        "\"DPTH\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 1,
+        "contenteditable": 0,
+        "checkbox": 1,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.947,
+        "relY": 0.896,
+        "heightVh": 1.306,
+        "widthRatio": 1,
+        "text": 7.985,
+        "elements": 5.22,
+        "headings": 4,
+        "fontSizes": 12,
+        "maxFontVw": 0.18,
+        "singleChar": 2.485,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0.693,
+        "buttons": 0.693,
+        "img": 1.386,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.639,
+        "bgLum": -1,
+        "fgLum": 0.006
+      },
+      "crop": "archive/djr-com-megazoid/blocks/18.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/18.html"
+    },
+    {
+      "id": "djr-com-megazoid#19",
+      "nn": "19",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > footer",
+      "classes": [
+        "site-footer",
+        "h-card"
+      ],
+      "box": {
+        "x": 0,
+        "y": 27963,
+        "w": 1440,
+        "h": 540
+      },
+      "headings": [
+        "DAVID JONATHAN ROSS",
+        "ELSEWHERE",
+        "FONT OF THE MONTH CLUB",
+        "TYPEFACES"
+      ],
+      "parentHeadings": null,
+      "textPreview": "DAVID JONATHAN ROSS RSS feed: Blog RSS feed: Glyph of the Day Mailing List ELSEWHERE Fonts in Use Mastodon Glyph of the Day Type Network Fontstand Adobe Fonts GitHub Calendly (Type Crit Crew) Instagram (inactive) FONT OF THE MONTH CLUB TYPE",
+      "fontFamilies": [
+        "InputSansNarrowWeb"
+      ],
+      "maxFontSizePx": 15,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(95, 54, 148)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.981,
+        "heightVh": 0.47,
+        "widthRatio": 1,
+        "text": 6.452,
+        "elements": 4.787,
+        "headings": 4,
+        "fontSizes": 3,
+        "maxFontVw": 0.01,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.932,
+        "bgLum": 0.072,
+        "fgLum": 1
+      },
+      "crop": "archive/djr-com-megazoid/blocks/19.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megazoid/blocks/19.html"
+    }
+  ]
+}

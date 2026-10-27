@@ -1,0 +1,1194 @@
+{
+  "slug": "sourcefoundry-org-hack",
+  "url": "https://sourcefoundry.org/hack/",
+  "pageHeight": 8281,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "sourcefoundry-org-hack#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#intro",
+      "classes": [
+        "intro-section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "A TYPEFACE DESIGNED FOR SOURCE CODE Designed for the screen. Open source. Libre. LEARN MORE TRY IT DOWNLOAD",
+      "fontFamilies": [
+        "Helvetica Neue"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(34, 34, 34)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": true,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 4.682,
+        "elements": 4.007,
+        "headings": 0,
+        "fontSizes": 5,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.609,
+        "bgLum": 0.016,
+        "fgLum": 0.033
+      },
+      "crop": "archive/sourcefoundry-org-hack/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/sourcefoundry-org-hack/blocks/00.html"
+    },
+    {
+      "id": "sourcefoundry-org-hack#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#about > div:nth-of-type(2)",
+      "classes": [
+        "about-image",
+        "bg-grey"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1146,
+        "w": 1440,
+        "h": 1024
+      },
+      "headings": [
+        "A WORKHORSE FOR CODE"
+      ],
+      "parentHeadings": [
+        "A FAMILY OF FOUR FACES",
+        "MULTILINGUAL",
+        "POWERLINE SUPPORT",
+        "A WORKHORSE FOR CODE"
+      ],
+      "textPreview": "A WORKHORSE FOR CODE No frills. No gimmicks. Hack is hand groomed and optically balanced to be your go-to code face.",
+      "fontFamilies": [
+        "Helvetica Neue",
+        "Open Sans"
+      ],
+      "maxFontSizePx": 28,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(17, 17, 17)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.091,
+        "relY": 0.138,
+        "heightVh": 0.76,
+        "widthRatio": 1,
+        "text": 4.771,
+        "elements": 2.197,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.019,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.006,
+        "fgLum": 0.033
+      },
+      "crop": "archive/sourcefoundry-org-hack/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/sourcefoundry-org-hack/blocks/01.html"
+    },
+    {
+      "id": "sourcefoundry-org-hack#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#about > div:nth-of-type(4)",
+      "classes": [
+        "container",
+        "content-lg"
+      ],
+      "box": {
+        "x": 135,
+        "y": 2377,
+        "w": 1170,
+        "h": 871
+      },
+      "headings": [
+        "FEATURES",
+        "Metrics & Style",
+        "Type Traits",
+        "Free and Open Source"
+      ],
+      "parentHeadings": [
+        "A FAMILY OF FOUR FACES",
+        "MULTILINGUAL",
+        "POWERLINE SUPPORT",
+        "A WORKHORSE FOR CODE"
+      ],
+      "textPreview": "FEATURES Metrics & Style Type design features to improve legibility in the harsh conditions of the screen. Minimal stroke contrast Large x-height Open counters Wide apertures Sturdy terminals Type Traits Functional with a bit of personality",
+      "fontFamilies": [
+        "Helvetica Neue",
+        "Open Sans",
+        "FontAwesome",
+        "Merriweather",
+        "Lato"
+      ],
+      "maxFontSizePx": 28,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.182,
+        "relY": 0.287,
+        "heightVh": 0.677,
+        "widthRatio": 0.813,
+        "text": 6.494,
+        "elements": 3.714,
+        "headings": 4,
+        "fontSizes": 5,
+        "maxFontVw": 0.019,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0.033
+      },
+      "crop": "archive/sourcefoundry-org-hack/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/sourcefoundry-org-hack/blocks/02.html"
+    },
+    {
+      "id": "sourcefoundry-org-hack#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#about > div:nth-of-type(5)",
+      "classes": [
+        "parallax-counter",
+        "parallaxBg"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3248,
+        "w": 1440,
+        "h": 307
+      },
+      "headings": [
+        "A TYPEFACE IN THE BITSTREAM VERA LINEAGE"
+      ],
+      "parentHeadings": [
+        "A FAMILY OF FOUR FACES",
+        "MULTILINGUAL",
+        "POWERLINE SUPPORT",
+        "A WORKHORSE FOR CODE"
+      ],
+      "textPreview": "A TYPEFACE IN THE BITSTREAM VERA LINEAGE Hack has deep roots in the libre, open source typeface community and includes the contributions of the Bitstream Vera & DejaVu projects. The face has been re-designed with an expanded glyph set, modi",
+      "fontFamilies": [
+        "Helvetica Neue",
+        "Open Sans"
+      ],
+      "maxFontSizePx": 28,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.273,
+        "relY": 0.392,
+        "heightVh": 0.293,
+        "widthRatio": 1,
+        "text": 5.765,
+        "elements": 2.079,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.019,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.033
+      },
+      "crop": "archive/sourcefoundry-org-hack/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/sourcefoundry-org-hack/blocks/03.html"
+    },
+    {
+      "id": "sourcefoundry-org-hack#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#about > div:nth-of-type(6)",
+      "classes": [
+        "about-image",
+        "bg-grey"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3555,
+        "w": 1440,
+        "h": 1613
+      },
+      "headings": [
+        "THE CAST OF CHARACTERS"
+      ],
+      "parentHeadings": [
+        "A FAMILY OF FOUR FACES",
+        "MULTILINGUAL",
+        "POWERLINE SUPPORT",
+        "A WORKHORSE FOR CODE"
+      ],
+      "textPreview": "THE CAST OF CHARACTERS Letters, punctuation, and symbols are well-balanced and easily distinguished. The regular weight is comfortable to read at the small text sizes used for source code development. Click either image above for a full typ",
+      "fontFamilies": [
+        "Helvetica Neue",
+        "Open Sans",
+        "Lato"
+      ],
+      "maxFontSizePx": 28,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(17, 17, 17)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.364,
+        "relY": 0.429,
+        "heightVh": 1.027,
+        "widthRatio": 1,
+        "text": 5.541,
+        "elements": 2.565,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.019,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.099,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.006,
+        "fgLum": 0.033
+      },
+      "crop": "archive/sourcefoundry-org-hack/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/sourcefoundry-org-hack/blocks/04.html"
+    },
+    {
+      "id": "sourcefoundry-org-hack#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "ul",
+      "selector": "#about > ul",
+      "classes": [
+        "list-unstyled",
+        "row",
+        "portfolio-box-v1"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5383,
+        "w": 1440,
+        "h": 320
+      },
+      "headings": [
+        "",
+        "",
+        ""
+      ],
+      "parentHeadings": [
+        "A FAMILY OF FOUR FACES",
+        "MULTILINGUAL",
+        "POWERLINE SUPPORT",
+        "A WORKHORSE FOR CODE"
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "Helvetica Neue",
+        "Open Sans"
+      ],
+      "maxFontSizePx": 22,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.455,
+        "relY": 0.65,
+        "heightVh": 0.304,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 2.944,
+        "headings": 3,
+        "fontSizes": 4,
+        "maxFontVw": 0.015,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.386,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 0.033
+      },
+      "crop": "archive/sourcefoundry-org-hack/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/sourcefoundry-org-hack/blocks/05.html"
+    },
+    {
+      "id": "sourcefoundry-org-hack#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#about > div:nth-of-type(8)",
+      "classes": [
+        "container",
+        "content-lg"
+      ],
+      "box": {
+        "x": 135,
+        "y": 5703,
+        "w": 1170,
+        "h": 596
+      },
+      "headings": [
+        "DISTINCT GLYPH SHAPES",
+        "A HANDFUL OF SERIFS",
+        "WEIGHT AND SPACING"
+      ],
+      "parentHeadings": [
+        "A FAMILY OF FOUR FACES",
+        "MULTILINGUAL",
+        "POWERLINE SUPPORT",
+        "A WORKHORSE FOR CODE"
+      ],
+      "textPreview": "DISTINCT GLYPH SHAPES A HANDFUL OF SERIFS Strategically placed serifs improve the rhythm of the monospaced text by eliminating large gaps on each side of narrow characters and help to distinguish glyphs like the lowercase l and number 1 at ",
+      "fontFamilies": [
+        "Helvetica Neue",
+        "Open Sans",
+        "FontAwesome",
+        "Lato"
+      ],
+      "maxFontSizePx": 28,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.545,
+        "relY": 0.689,
+        "heightVh": 0.508,
+        "widthRatio": 0.813,
+        "text": 6.387,
+        "elements": 2.89,
+        "headings": 3,
+        "fontSizes": 5,
+        "maxFontVw": 0.019,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.033
+      },
+      "crop": "archive/sourcefoundry-org-hack/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/sourcefoundry-org-hack/blocks/06.html"
+    },
+    {
+      "id": "sourcefoundry-org-hack#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#confusedchars",
+      "classes": [
+        "clients-section",
+        "parallaxBg"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6299,
+        "w": 1440,
+        "h": 275
+      },
+      "headings": [],
+      "parentHeadings": [
+        "A FAMILY OF FOUR FACES",
+        "MULTILINGUAL",
+        "POWERLINE SUPPORT",
+        "A WORKHORSE FOR CODE"
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "Helvetica Neue"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 9,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(51, 51, 51)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.636,
+        "relY": 0.761,
+        "heightVh": 0.267,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 3.85,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.303,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.303,
+        "bgLum": 0.033,
+        "fgLum": 0.033
+      },
+      "crop": "archive/sourcefoundry-org-hack/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/sourcefoundry-org-hack/blocks/07.html"
+    },
+    {
+      "id": "sourcefoundry-org-hack#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#body > div:nth-of-type(2)",
+      "classes": [
+        "call-action-v1"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6574,
+        "w": 1440,
+        "h": 94
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Grab the carousel images and drag to the left or right to view other characters that commonly have legibility issues.",
+      "fontFamilies": [
+        "Helvetica Neue"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.727,
+        "relY": 0.794,
+        "heightVh": 0.099,
+        "widthRatio": 1,
+        "text": 4.771,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.033
+      },
+      "crop": "archive/sourcefoundry-org-hack/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/sourcefoundry-org-hack/blocks/08.html"
+    },
+    {
+      "id": "sourcefoundry-org-hack#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#download",
+      "classes": [
+        "parallax-counter",
+        "parallaxBg"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6668,
+        "w": 1440,
+        "h": 1191
+      },
+      "headings": [
+        "DOWNLOAD",
+        "TRY HACK IN YOUR BROWSER",
+        "WEB FONT CDN"
+      ],
+      "parentHeadings": null,
+      "textPreview": "DOWNLOAD For a quick installation, choose the option for your operating system below. This will download either an archive with TrueType (.ttf) fonts, or take you to the download site for a convenient setup application that will help instal",
+      "fontFamilies": [
+        "Helvetica Neue",
+        "Open Sans",
+        "Menlo",
+        "Hack"
+      ],
+      "maxFontSizePx": 28,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.818,
+        "relY": 0.805,
+        "heightVh": 0.843,
+        "widthRatio": 1,
+        "text": 6.947,
+        "elements": 3.497,
+        "headings": 3,
+        "fontSizes": 4,
+        "maxFontVw": 0.019,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.609,
+        "bgLum": -1,
+        "fgLum": 0.033
+      },
+      "crop": "archive/sourcefoundry-org-hack/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/sourcefoundry-org-hack/blocks/09.html"
+    },
+    {
+      "id": "sourcefoundry-org-hack#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#footer-v3",
+      "classes": [
+        "footer-v3"
+      ],
+      "box": {
+        "x": 0,
+        "y": 7887,
+        "w": 1440,
+        "h": 250
+      },
+      "headings": [
+        "About Hack",
+        "Development",
+        "Releases"
+      ],
+      "parentHeadings": null,
+      "textPreview": "A typeface designed for source code. About Hack License Changelog Contributors Install Guide Type Specimen Development Source Repository Issue Reporting Open Issues Releases Desktop Builds (.ttf) Windows Installer (.exe) Web Font Archive",
+      "fontFamilies": [
+        "Helvetica Neue",
+        "Lato",
+        "Open Sans"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.909,
+        "relY": 0.952,
+        "heightVh": 0.245,
+        "widthRatio": 1,
+        "text": 5.476,
+        "elements": 3.738,
+        "headings": 3,
+        "fontSizes": 3,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.565,
+        "bgLum": -1,
+        "fgLum": 0.033
+      },
+      "crop": "archive/sourcefoundry-org-hack/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/sourcefoundry-org-hack/blocks/10.html"
+    },
+    {
+      "id": "sourcefoundry-org-hack#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#body > div:nth-of-type(6)",
+      "classes": [
+        "copyright-section",
+        "type-lato"
+      ],
+      "box": {
+        "x": 0,
+        "y": 8137,
+        "w": 1440,
+        "h": 144
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Content on this site is licensed under a Creative Commons Attribution 4.0 International license. Web and font hosting by Github | Site CDN by Cloudflare | Font CDN by jsDelivr",
+      "fontFamilies": [
+        "Lato",
+        "FontAwesome"
+      ],
+      "maxFontSizePx": 14,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(21, 21, 21)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.983,
+        "heightVh": 0.148,
+        "widthRatio": 1,
+        "text": 5.176,
+        "elements": 2.565,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.01,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.946,
+        "bgLum": 0.007,
+        "fgLum": 0.033
+      },
+      "crop": "archive/sourcefoundry-org-hack/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/sourcefoundry-org-hack/blocks/11.html"
+    },
+    {
+      "id": "sourcefoundry-org-hack#12",
+      "nn": "12",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "nav",
+      "selector": "#body > nav",
+      "classes": [
+        "one-page-header",
+        "navbar",
+        "navbar-default",
+        "navbar-fixed-top"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 74
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "SPECIMEN SOURCE DOWNLOAD",
+      "fontFamilies": [
+        "Helvetica Neue",
+        "Open Sans"
+      ],
+      "maxFontSizePx": 13,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0.4)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.091,
+        "relY": 0,
+        "heightVh": 0.079,
+        "widthRatio": 1,
+        "text": 3.219,
+        "elements": 2.944,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.009,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.609,
+        "bgLum": 0,
+        "fgLum": 0.033
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/sourcefoundry-org-hack/blocks/12.html"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "slug": "db-pixel-club",
+  "url": "https://db-pixel.club",
+  "pageHeight": 900,
+  "segmentation": "screens",
+  "blocks": [
+    {
+      "id": "db-pixel-club#00",
+      "nn": "00",
+      "kind": "screen",
+      "sticky": false,
+      "tag": "screen",
+      "selector": null,
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "db-pixel.club"
+      ],
+      "parentHeadings": null,
+      "textPreview": "db-pixel.club Pretty cool font right? And it's free for you to download and use and / or modify however you please. Have fun and tell your designer friends about it ;) Created something using this font? Feel free to email it to: hello@daanb",
+      "fontFamilies": [],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": null,
+      "color": null,
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": true,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 0,
+        "headings": 1,
+        "fontSizes": 0,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": -1
+      },
+      "crop": "archive/db-pixel-club/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": null
+    },
+    {
+      "id": "db-pixel-club#01",
+      "nn": "01",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#textContainer",
+      "classes": [
+        "text-container"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "e Q k H N L & s V 1 t s f : 4 [ X ( f L [ Q m . T * - U g L ) 7 F 4 R 8 J d ? U o g F J # R ! E ] o 7 7 R v F 7 H q t 8 - ! t 4 Q v ? a y D 0 j k 8 > D 6 % , 5 Y @ I j [ _ i < P O h H . u c @ } , % F q 7 y k y c 3 ] y k b k z m f n J b f 9 ",
+      "fontFamilies": [
+        "db-pixel"
+      ],
+      "maxFontSizePx": 45,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 16, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 6.822,
+        "elements": 6.131,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.031,
+        "singleChar": 5.994,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.004
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/db-pixel-club/blocks/01.html"
+    }
+  ]
+}

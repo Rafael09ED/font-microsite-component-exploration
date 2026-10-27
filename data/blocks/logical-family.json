@@ -1,0 +1,1137 @@
+{
+  "slug": "logical-family",
+  "url": "https://logical.family",
+  "pageHeight": 12679,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "logical-family#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#App > div:nth-of-type(1)",
+      "classes": [
+        "Splash",
+        "css-aqsxs5"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": ":shield: Logical",
+      "fontFamilies": [
+        "font-d41d8cd98f00b204e9800998ecf8427e"
+      ],
+      "maxFontSizePx": 160,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 2.833,
+        "elements": 3.497,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.111,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/logical-family/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/logical-family/blocks/00.html"
+    },
+    {
+      "id": "logical-family#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#App > div:nth-of-type(2)",
+      "classes": [
+        "Section",
+        "css-1ogdpd8"
+      ],
+      "box": {
+        "x": 0,
+        "y": 900,
+        "w": 1440,
+        "h": 275
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "This typeface follows a logical set of rules that influences the shape of each letter in the font family. It comes with a rich set of icons that are automatically transformed from words (logos in Greek). Logical maintains a friendly and hum",
+      "fontFamilies": [
+        "font-d41d8cd98f00b204e9800998ecf8427e"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 80, 90)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.083,
+        "relY": 0.071,
+        "heightVh": 0.267,
+        "widthRatio": 1,
+        "text": 5.687,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0.065
+      },
+      "crop": "archive/logical-family/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/logical-family/blocks/01.html"
+    },
+    {
+      "id": "logical-family#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#App > div:nth-of-type(3)",
+      "classes": [
+        "Section",
+        "css-1ttwqn"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1175,
+        "w": 1440,
+        "h": 753
+      },
+      "headings": [
+        "Parameters :down:"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Parameters :down: (1) open counter shapes for optimal legibility (2) circular shapes (3) rounded stroke endings in diagonal stems and terminals",
+      "fontFamilies": [
+        "font-d41d8cd98f00b204e9800998ecf8427e"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 80, 90)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.167,
+        "relY": 0.093,
+        "heightVh": 0.608,
+        "widthRatio": 1,
+        "text": 4.97,
+        "elements": 3.912,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.065
+      },
+      "crop": "archive/logical-family/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/logical-family/blocks/02.html"
+    },
+    {
+      "id": "logical-family#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#App > div:nth-of-type(4)",
+      "classes": [
+        "Section",
+        "css-1ttwqn"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1927,
+        "w": 1440,
+        "h": 1227
+      },
+      "headings": [
+        "Family :down:"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Family :down: Ag Logical Thin A human being is a symbol that doesn’t know its own meaning. Two people together form new ligatures and unheard-of sounds. Humanity™ is a set of emojis that God continuously updates and expands. Ag Logical Thin",
+      "fontFamilies": [
+        "font-d41d8cd98f00b204e9800998ecf8427e"
+      ],
+      "maxFontSizePx": 64,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 80, 90)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.25,
+        "relY": 0.152,
+        "heightVh": 0.86,
+        "widthRatio": 1,
+        "text": 8.15,
+        "elements": 4.477,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.044,
+        "singleChar": 2.833,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.065
+      },
+      "crop": "archive/logical-family/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/logical-family/blocks/03.html"
+    },
+    {
+      "id": "logical-family#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#App > div:nth-of-type(5)",
+      "classes": [
+        "Section",
+        "css-943999"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3154,
+        "w": 1440,
+        "h": 669
+      },
+      "headings": [
+        "Icons :down:"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Icons :down: All eight weights from Thin to Black are accompanied by an extensive set of pictograms and icons. These are accessible via smart OpenType features that automatically convert words into associated symbols. Or simply type these k",
+      "fontFamilies": [
+        "font-d41d8cd98f00b204e9800998ecf8427e"
+      ],
+      "maxFontSizePx": 160,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(60, 210, 210)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.249,
+        "heightVh": 0.556,
+        "widthRatio": 1,
+        "text": 5.943,
+        "elements": 2.485,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.111,
+        "singleChar": 0.693,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0.517
+      },
+      "crop": "archive/logical-family/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/logical-family/blocks/04.html"
+    },
+    {
+      "id": "logical-family#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#App > div:nth-of-type(6)",
+      "classes": [
+        "Section",
+        "css-bb35ic"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3823,
+        "w": 1440,
+        "h": 1123
+      },
+      "headings": [
+        "Intermission :down:"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Intermission :down: Bird’s Song :cloud: :bird: I don’t even know her name, but since me, her name is :bird:. She is a thousand girls twerking in their bedrooms. When all logic fails, fantasy might work. Chorus: Ein Mensch ist ein Symbol, da",
+      "fontFamilies": [
+        "font-d41d8cd98f00b204e9800998ecf8427e"
+      ],
+      "maxFontSizePx": 206,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(60, 210, 210)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.417,
+        "relY": 0.302,
+        "heightVh": 0.81,
+        "widthRatio": 1,
+        "text": 7.221,
+        "elements": 4.143,
+        "headings": 1,
+        "fontSizes": 11,
+        "maxFontVw": 0.143,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0.517
+      },
+      "crop": "archive/logical-family/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/logical-family/blocks/05.html"
+    },
+    {
+      "id": "logical-family#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#App > div:nth-of-type(7)",
+      "classes": [
+        "Section",
+        "css-1ttwqn"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4946,
+        "w": 1440,
+        "h": 2481
+      },
+      "headings": [
+        "Characters :down:"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Characters :down: Uppercase A Á À Â Ä Ā Ă Å Ã Ą Æ Ǽ B Ḃ C Ć Č Ĉ Ç Ċ D Ḋ Ď Đ Ð E É È Ě Ê Ë Ė Ē Ĕ Ę F Ḟ G Ĝ Ġ Ğ Ģ H Ĥ Ħ I Í Ì Î Ï İ Ī Ĭ Ĩ Į Ĳ J Ĵ K Ķ L Ĺ Ľ Ļ Ŀ Ł M Ṁ N Ń Ň Ñ Ņ Ŋ O Ó Ò Ô Ö Ō Ŏ Õ Ő Ø Ǿ Œ P Ṗ Þ Q R Ŕ Ř Ŗ S Ś Š Ŝ Ṡ Ș Ş ẞ T Ť Ṫ Ţ ",
+      "fontFamilies": [
+        "font-d41d8cd98f00b204e9800998ecf8427e"
+      ],
+      "maxFontSizePx": 33,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 80, 90)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.39,
+        "heightVh": 1.324,
+        "widthRatio": 1,
+        "text": 8.714,
+        "elements": 5.966,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.023,
+        "singleChar": 4.369,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.065
+      },
+      "crop": "archive/logical-family/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/logical-family/blocks/06.html"
+    },
+    {
+      "id": "logical-family#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#App > div:nth-of-type(8)",
+      "classes": [
+        "Section",
+        "css-1ttwqn"
+      ],
+      "box": {
+        "x": 0,
+        "y": 7427,
+        "w": 1440,
+        "h": 2174
+      },
+      "headings": [
+        "Features :down:"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Features :down: LigaturesIDCSSW fb ffb ff fh ffh fi ffi fj ffj fk ffk fl ffl → fb ffb ff fh ffh fi ffi fj ffj fk ffk fl ffl :right: :left: :up: :down: :fun: :me: :ai: → :right: :left: :up: :down: :fun: :me: :ai: Small CapsIDCSSW B Great 2n8",
+      "fontFamilies": [
+        "font-d41d8cd98f00b204e9800998ecf8427e",
+        "monospace"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 80, 90)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.583,
+        "relY": 0.586,
+        "heightVh": 1.228,
+        "widthRatio": 1,
+        "text": 7.668,
+        "elements": 6.768,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.022,
+        "singleChar": 2.89,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.065
+      },
+      "crop": "archive/logical-family/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/logical-family/blocks/07.html"
+    },
+    {
+      "id": "logical-family#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#App > div:nth-of-type(9)",
+      "classes": [
+        "Section",
+        "css-1pa17au"
+      ],
+      "box": {
+        "x": 0,
+        "y": 9601,
+        "w": 1440,
+        "h": 533
+      },
+      "headings": [
+        "Tester :down:"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Tester :down: Thin Thin Italic Light Light Italic Regular Regular Italic Book Book Italic Medium Medium Italic Bold Bold Italic Heavy Heavy Italic Black Black Italic Size: 60 px Type something... Ligatures Small Caps Capitals to Small Caps ",
+      "fontFamilies": [
+        "font-d41d8cd98f00b204e9800998ecf8427e",
+        "Arial"
+      ],
+      "maxFontSizePx": 60,
+      "variationSettings": [],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 1,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(240, 250, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.757,
+        "heightVh": 0.465,
+        "widthRatio": 1,
+        "text": 6.114,
+        "elements": 4.248,
+        "headings": 1,
+        "fontSizes": 6,
+        "maxFontVw": 0.042,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0.693,
+        "textInput": 0.693,
+        "toggles": 0.693,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.869
+      },
+      "crop": "archive/logical-family/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/logical-family/blocks/08.html"
+    },
+    {
+      "id": "logical-family#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#App > div:nth-of-type(10)",
+      "classes": [
+        "Section",
+        "css-1pa17au"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10134,
+        "w": 1440,
+        "h": 537
+      },
+      "headings": [
+        "Languages :down:"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Languages :down: Afrikaans Albanian Basque Bokmål (Norwegian) Bosnian Breton Catalan Croatian Czech Danish Dutch English Esperanto Estonian Faroese Filipono Finnish French Galician German Greenlandic Hungarian Islandic Indonesian Italian Ir",
+      "fontFamilies": [
+        "font-d41d8cd98f00b204e9800998ecf8427e"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 1,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(240, 250, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.75,
+        "relY": 0.799,
+        "heightVh": 0.468,
+        "widthRatio": 1,
+        "text": 6.535,
+        "elements": 4.094,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0.693,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0.869
+      },
+      "crop": "archive/logical-family/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/logical-family/blocks/09.html"
+    },
+    {
+      "id": "logical-family#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#App > div:nth-of-type(11)",
+      "classes": [
+        "Section",
+        "css-ymuxr2"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10671,
+        "w": 1440,
+        "h": 843
+      },
+      "headings": [
+        "Underline :down:"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Underline :down: I find it very, very easy to be true I find myself alone when each day is through Yes, I’ll admit that I’m a fool for you Because you’re mine, I walk the line As_sure_as_night_is_dark_and_day_is_light I_keep_you_on_my_mind_",
+      "fontFamilies": [
+        "font-d41d8cd98f00b204e9800998ecf8427e"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 80, 90)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.833,
+        "relY": 0.842,
+        "heightVh": 0.661,
+        "widthRatio": 1,
+        "text": 6.526,
+        "elements": 3.97,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.065
+      },
+      "crop": "archive/logical-family/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/logical-family/blocks/10.html"
+    },
+    {
+      "id": "logical-family#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#App > div:nth-of-type(12)",
+      "classes": [
+        "Section",
+        "css-itwaq7"
+      ],
+      "box": {
+        "x": 0,
+        "y": 11514,
+        "w": 1440,
+        "h": 557
+      },
+      "headings": [
+        "Buy :down:"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Buy :down: :cart: boldmonday.com",
+      "fontFamilies": [
+        "font-d41d8cd98f00b204e9800998ecf8427e"
+      ],
+      "maxFontSizePx": 160,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 80, 90)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.917,
+        "relY": 0.908,
+        "heightVh": 0.482,
+        "widthRatio": 1,
+        "text": 3.497,
+        "elements": 2.303,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.111,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0.065
+      },
+      "crop": "archive/logical-family/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/logical-family/blocks/11.html"
+    },
+    {
+      "id": "logical-family#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#App > div:nth-of-type(13)",
+      "classes": [
+        "Section",
+        "css-1dcrzbn"
+      ],
+      "box": {
+        "x": 0,
+        "y": 12071,
+        "w": 1440,
+        "h": 608
+      },
+      "headings": [
+        "Credits :down:"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Credits :down: Designer Edgar Walthert, ewalthert.com Foundry Bold Monday, Pieter van Rosmalen:bird: & Paul van der Laan:bird: Website RULES RULES RULES, Frederic Brodbeck Text Dirk Vis, dirkvis.net:bird: Editing, English dictionary & advic",
+      "fontFamilies": [
+        "font-d41d8cd98f00b204e9800998ecf8427e"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 80, 90)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.952,
+        "heightVh": 0.516,
+        "widthRatio": 1,
+        "text": 7.437,
+        "elements": 6.182,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.386,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 5.352,
+        "bgLum": -1,
+        "fgLum": 0.065
+      },
+      "crop": "archive/logical-family/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/logical-family/blocks/12.html"
+    }
+  ]
+}

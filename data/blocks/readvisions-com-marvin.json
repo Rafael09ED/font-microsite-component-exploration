@@ -1,0 +1,992 @@
+{
+  "slug": "readvisions-com-marvin",
+  "url": "https://www.readvisions.com/marvin",
+  "pageHeight": 41312,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "readvisions-com-marvin#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(1)",
+      "classes": [
+        "header"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 4473
+      },
+      "headings": [
+        "Marvin Visions EXPANDS & BECOMES A VARIABLE FONT WITH 2 OPTICAL SIZES & A RANGE "
+      ],
+      "parentHeadings": null,
+      "textPreview": "Marvin Visions EXPANDS & BECOMES A VARIABLE FONT WITH 2 OPTICAL SIZES & A RANGE OF WEIGHTS",
+      "fontFamilies": [
+        "Marvin Visions Variable"
+      ],
+      "maxFontSizePx": 389,
+      "variationSettings": [
+        "\"opsz\" 99"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(248, 248, 248)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 1.787,
+        "widthRatio": 1,
+        "text": 4.522,
+        "elements": 3.135,
+        "headings": 1,
+        "fontSizes": 1,
+        "maxFontVw": 0.27,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.939
+      },
+      "crop": "archive/readvisions-com-marvin/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/readvisions-com-marvin/blocks/00.html"
+    },
+    {
+      "id": "readvisions-com-marvin#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(2)",
+      "classes": [
+        "menu",
+        "wrapper"
+      ],
+      "box": {
+        "x": 180,
+        "y": 4473,
+        "w": 1080,
+        "h": 67
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Specimen Download Notes",
+      "fontFamilies": [
+        "Marvin Visions Variable"
+      ],
+      "maxFontSizePx": 54,
+      "variationSettings": [
+        "\"opsz\" 80"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 196, 0)",
+      "color": "rgb(248, 248, 248)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.1,
+        "relY": 0.108,
+        "heightVh": 0.072,
+        "widthRatio": 0.75,
+        "text": 3.178,
+        "elements": 1.386,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.037,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": 0.607,
+        "fgLum": 0.939
+      },
+      "crop": "archive/readvisions-com-marvin/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/readvisions-com-marvin/blocks/01.html"
+    },
+    {
+      "id": "readvisions-com-marvin#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(3)",
+      "classes": [
+        "intro",
+        "wrapper",
+        "gradient-links"
+      ],
+      "box": {
+        "x": 180,
+        "y": 4540,
+        "w": 1080,
+        "h": 736
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Marvin Visions is a modern and consistent reinterpretation of Marvin, a typeface originally designed by Michael Chave in 1969 and published by Face Photosetting. It has been revived and expanded by Mathieu Triay for the identity of Visions,",
+      "fontFamilies": [
+        "Bricolage Grotesque"
+      ],
+      "maxFontSizePx": 22,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(248, 248, 248)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.2,
+        "relY": 0.11,
+        "heightVh": 0.598,
+        "widthRatio": 0.75,
+        "text": 6.988,
+        "elements": 2.833,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.015,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.303,
+        "bgLum": -1,
+        "fgLum": 0.939
+      },
+      "crop": "archive/readvisions-com-marvin/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/readvisions-com-marvin/blocks/02.html"
+    },
+    {
+      "id": "readvisions-com-marvin#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#specimen",
+      "classes": [
+        "cascade",
+        "wrapper-wide"
+      ],
+      "box": {
+        "x": 90,
+        "y": 5277,
+        "w": 1260,
+        "h": 2688
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "TIGHT SCIENCE NOT TOUCHING FICTION NOT Now available in small sizes and in a range of weights NEUTRAL ART NOUVEAU 1984 UPPERCASE DECO ONLY TO 2001 EFFORTLESSLY MYSTERIOUS but also more flexible with variable fonts GEOMETRIC BUT NOT REALLY S",
+      "fontFamilies": [
+        "Marvin Visions Variable"
+      ],
+      "maxFontSizePx": 167,
+      "variationSettings": [
+        "\"opsz\" 99",
+        "\"opsz\" 80"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(248, 248, 248)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.3,
+        "relY": 0.128,
+        "heightVh": 1.383,
+        "widthRatio": 0.875,
+        "text": 6.446,
+        "elements": 3.871,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.116,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.939
+      },
+      "crop": "archive/readvisions-com-marvin/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/readvisions-com-marvin/blocks/03.html"
+    },
+    {
+      "id": "readvisions-com-marvin#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#try-font",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 7965,
+        "w": 1440,
+        "h": 480
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "TYPE YOUR OWN TEXT AND USE THE SLIDER TO CHANGE WEIGHTS & OPTICAL SIZES",
+      "fontFamilies": [
+        "Marvin Visions Variable",
+        "Bricolage Grotesque"
+      ],
+      "maxFontSizePx": 71,
+      "variationSettings": [
+        "\"opsz\" 83.2885"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 1,
+        "iframe": 0
+      },
+      "background": "rgb(248, 248, 248)",
+      "color": "rgb(248, 248, 248)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.4,
+        "relY": 0.193,
+        "heightVh": 0.427,
+        "widthRatio": 1,
+        "text": 4.277,
+        "elements": 1.386,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.049,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0.693,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.939,
+        "fgLum": 0.939
+      },
+      "crop": "archive/readvisions-com-marvin/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/readvisions-com-marvin/blocks/04.html"
+    },
+    {
+      "id": "readvisions-com-marvin#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#get-the-font",
+      "classes": [
+        "bg-yellow",
+        "black"
+      ],
+      "box": {
+        "x": 0,
+        "y": 8445,
+        "w": 1440,
+        "h": 706
+      },
+      "headings": [
+        "Pro, Trial, Free: Take your pick",
+        "Licence type",
+        "Weight selection",
+        "Big & Small"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Pro, Trial, Free: Take your pick Licence type Read the licence (390 words) Pro Licence for commercial use, desktop and web. Trial Try the full family for free with a limited character set. No commercial or personal use. Personal Full charac",
+      "fontFamilies": [
+        "Bricolage Grotesque",
+        "Marvin Visions Variable",
+        "Arial",
+        "IBM Plex Mono"
+      ],
+      "maxFontSizePx": 160,
+      "variationSettings": [
+        "\"opsz\" 99",
+        "\"opsz\" 80",
+        "\"opsz\" 90"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 3,
+        "contenteditable": 0,
+        "checkbox": 15,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 2
+      },
+      "background": "rgb(255, 196, 0)",
+      "color": "rgb(30, 30, 30)",
+      "hints": {
+        "commerce": true,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.204,
+        "heightVh": 0.579,
+        "widthRatio": 1,
+        "text": 5.71,
+        "elements": 4.956,
+        "headings": 4,
+        "fontSizes": 12,
+        "maxFontVw": 0.111,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 1.386,
+        "toggles": 2.773,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 1.099,
+        "links": 1.099,
+        "bgLum": 0.607,
+        "fgLum": 0.013
+      },
+      "crop": "archive/readvisions-com-marvin/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/readvisions-com-marvin/blocks/05.html"
+    },
+    {
+      "id": "readvisions-com-marvin#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2)",
+      "classes": [
+        "bg-white",
+        "black"
+      ],
+      "box": {
+        "x": 0,
+        "y": 9150,
+        "w": 1440,
+        "h": 1657
+      },
+      "headings": [
+        "Examples in use"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Examples in use Postcards designed by Matthew Young, Tom Etherington, Claudia Toia and Mathieu Triay Posters designed by James Jones",
+      "fontFamilies": [
+        "Bricolage Grotesque",
+        "Marvin Visions Variable"
+      ],
+      "maxFontSizePx": 160,
+      "variationSettings": [
+        "\"opsz\" 99"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 12,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(248, 248, 248)",
+      "color": "rgb(30, 30, 30)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.6,
+        "relY": 0.221,
+        "heightVh": 1.044,
+        "widthRatio": 1,
+        "text": 4.905,
+        "elements": 3.178,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.111,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.565,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.792,
+        "bgLum": 0.939,
+        "fgLum": 0.013
+      },
+      "crop": "archive/readvisions-com-marvin/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/readvisions-com-marvin/blocks/06.html"
+    },
+    {
+      "id": "readvisions-com-marvin#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#making-marvin",
+      "classes": [
+        "wrapper"
+      ],
+      "box": {
+        "x": 180,
+        "y": 10807,
+        "w": 1080,
+        "h": 774
+      },
+      "headings": [
+        "Part 1: NOTES ON REVIVING MARVIN",
+        "Part 2: NOTES ON EXTENDING MARVIN"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Part 1: NOTES ON REVIVING MARVIN This covers the making of Marvin Visions Bold, from idea to finished font, showing the different design decisions. Read Part 2: NOTES ON EXTENDING MARVIN This describes the process of expanding Marvin Vision",
+      "fontFamilies": [
+        "Bricolage Grotesque",
+        "Marvin Visions Variable"
+      ],
+      "maxFontSizePx": 115,
+      "variationSettings": [
+        "\"opsz\" 95",
+        "\"opsz\" 80"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(248, 248, 248)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.7,
+        "relY": 0.262,
+        "heightVh": 0.621,
+        "widthRatio": 0.75,
+        "text": 5.869,
+        "elements": 2.197,
+        "headings": 2,
+        "fontSizes": 3,
+        "maxFontVw": 0.08,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0.939
+      },
+      "crop": "archive/readvisions-com-marvin/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/readvisions-com-marvin/blocks/07.html"
+    },
+    {
+      "id": "readvisions-com-marvin#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#making-marvin-part-1",
+      "classes": [
+        "article"
+      ],
+      "box": {
+        "x": 0,
+        "y": 11581,
+        "w": 1440,
+        "h": 12633
+      },
+      "headings": [
+        "NOTES ON REVIVING MARVIN",
+        "Analysing Marvin",
+        "Redesigning Marvin",
+        "The A Team"
+      ],
+      "parentHeadings": null,
+      "textPreview": "NOTES ON REVIVING MARVIN by Mathieu Triay Visions is a new science fiction magazine that aims to introduce the genre to a wider audience. Mixing classic texts and new writing, its identity needs to reflect a breadth of styles and ideas. Dur",
+      "fontFamilies": [
+        "Bricolage Grotesque",
+        "Marvin Visions Variable"
+      ],
+      "maxFontSizePx": 261,
+      "variationSettings": [
+        "\"opsz\" 99",
+        "\"opsz\" 80"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 13,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(20, 20, 20)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.8,
+        "relY": 0.28,
+        "heightVh": 2.71,
+        "widthRatio": 1,
+        "text": 9.691,
+        "elements": 5.124,
+        "headings": 4,
+        "fontSizes": 7,
+        "maxFontVw": 0.181,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.639,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.434,
+        "bgLum": 1,
+        "fgLum": 0.007
+      },
+      "crop": "archive/readvisions-com-marvin/blocks/08.jpg",
+      "cropTruncated": true,
+      "html": "archive/readvisions-com-marvin/blocks/08.html"
+    },
+    {
+      "id": "readvisions-com-marvin#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#making-marvin-part-2",
+      "classes": [
+        "article"
+      ],
+      "box": {
+        "x": 0,
+        "y": 24214,
+        "w": 1440,
+        "h": 16999
+      },
+      "headings": [
+        "NOTES ON EXTENDING MARVIN",
+        "Marvin Goes On A Diet",
+        "Marvin Goes Under The Microscope",
+        "Marvin & The Shape-Changers From Outer Space"
+      ],
+      "parentHeadings": null,
+      "textPreview": "NOTES ON EXTENDING MARVIN by Mathieu Triay After modernising Marvin, ironing out some of the kinks I could see and making a more sturdy and a little more versatile version, I set out to extend it. I started working on Marvin Visions to supp",
+      "fontFamilies": [
+        "Bricolage Grotesque",
+        "Marvin Visions Variable",
+        "monospace"
+      ],
+      "maxFontSizePx": 261,
+      "variationSettings": [
+        "\"opsz\" 99",
+        "\"opsz\" 80"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 14,
+        "svg": 0,
+        "video": 1,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(20, 20, 20)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.9,
+        "relY": 0.586,
+        "heightVh": 2.99,
+        "widthRatio": 1,
+        "text": 9.882,
+        "elements": 5.043,
+        "headings": 4,
+        "fontSizes": 6,
+        "maxFontVw": 0.181,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.708,
+        "svg": 0,
+        "video": 0.693,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.296,
+        "bgLum": 1,
+        "fgLum": 0.007
+      },
+      "crop": "archive/readvisions-com-marvin/blocks/09.jpg",
+      "cropTruncated": true,
+      "html": "archive/readvisions-com-marvin/blocks/09.html"
+    },
+    {
+      "id": "readvisions-com-marvin#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(3)",
+      "classes": [
+        "bg-truewhite",
+        "black"
+      ],
+      "box": {
+        "x": 0,
+        "y": 41213,
+        "w": 1440,
+        "h": 99
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Privacy Policy",
+      "fontFamilies": [
+        "Bricolage Grotesque"
+      ],
+      "maxFontSizePx": 17,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(30, 30, 30)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.998,
+        "heightVh": 0.104,
+        "widthRatio": 1,
+        "text": 2.708,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.012,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 1,
+        "fgLum": 0.013
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/readvisions-com-marvin/blocks/10.html"
+    }
+  ]
+}

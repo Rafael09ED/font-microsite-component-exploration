@@ -1,0 +1,548 @@
+{
+  "slug": "brailleinstitute-org-freefont",
+  "url": "https://www.brailleinstitute.org/freefont/",
+  "pageHeight": 15961,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "brailleinstitute-org-freefont#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "header",
+      "selector": "#et-boc > header",
+      "classes": [
+        "et-l",
+        "et-l--header"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 245
+      },
+      "headings": [
+        "TRIPLE MATCH Your support now will go 3X as far to help keep our library resourc"
+      ],
+      "parentHeadings": null,
+      "textPreview": "TRIPLE MATCH Your support now will go 3X as far to help keep our library resources free! Give now. Menu Text Size & Contrast Give",
+      "fontFamilies": [
+        "AtkinsonHyperlegibleNextVF",
+        "atkinsonhyperlegiblenextvf",
+        "-apple-system"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 1,
+        "contenteditable": 0,
+        "checkbox": 6,
+        "select": 1,
+        "buttons": 12,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(37, 55, 70)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.241,
+        "widthRatio": 1,
+        "text": 4.875,
+        "elements": 5.775,
+        "headings": 1,
+        "fontSizes": 6,
+        "maxFontVw": 0.025,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 2.079,
+        "buttons": 2.565,
+        "img": 1.386,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 4.06,
+        "bgLum": -1,
+        "fgLum": 0.036
+      },
+      "crop": "archive/brailleinstitute-org-freefont/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/brailleinstitute-org-freefont/blocks/00.html"
+    },
+    {
+      "id": "brailleinstitute-org-freefont#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#main-content > div > div > div:nth-of-type(1)",
+      "classes": [
+        "et_pb_with_border",
+        "et_pb_section",
+        "et_pb_section_0_tb_body",
+        "section-section-menu",
+        "et_pb_with_background",
+        "et_section_regular"
+      ],
+      "box": {
+        "x": 0,
+        "y": 325,
+        "w": 1440,
+        "h": 63
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Section Menu",
+      "fontFamilies": [
+        "AtkinsonHyperlegibleNextVF"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(255, 255, 255, 0)",
+      "color": "rgb(37, 55, 70)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.2,
+        "relY": 0.02,
+        "heightVh": 0.068,
+        "widthRatio": 1,
+        "text": 2.565,
+        "elements": 2.639,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.025,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 0.036
+      },
+      "crop": "archive/brailleinstitute-org-freefont/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/brailleinstitute-org-freefont/blocks/01.html"
+    },
+    {
+      "id": "brailleinstitute-org-freefont#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#main-content > div > div > div:nth-of-type(2)",
+      "classes": [
+        "et_pb_with_border",
+        "et_pb_section",
+        "et_pb_section_1_tb_body",
+        "body-title",
+        "et_pb_with_background",
+        "et_section_regular"
+      ],
+      "box": {
+        "x": 60,
+        "y": 418,
+        "w": 1320,
+        "h": 166
+      },
+      "headings": [
+        "Read Easier With Our Family of Hyperlegible® Fonts"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Read Easier With Our Family of Hyperlegible® Fonts",
+      "fontFamilies": [
+        "AtkinsonHyperlegibleNextVF"
+      ],
+      "maxFontSizePx": 90,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(255, 255, 255, 0)",
+      "color": "rgb(37, 55, 70)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.4,
+        "relY": 0.026,
+        "heightVh": 0.169,
+        "widthRatio": 0.917,
+        "text": 3.932,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.063,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.036
+      },
+      "crop": "archive/brailleinstitute-org-freefont/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/brailleinstitute-org-freefont/blocks/02.html"
+    },
+    {
+      "id": "brailleinstitute-org-freefont#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#main-content > div > div > div:nth-of-type(3)",
+      "classes": [
+        "et_pb_with_border",
+        "et_pb_section",
+        "et_pb_section_2_tb_body",
+        "body-content",
+        "et_section_regular"
+      ],
+      "box": {
+        "x": 0,
+        "y": 584,
+        "w": 1440,
+        "h": 13717
+      },
+      "headings": [
+        "Legible. Life Changing.",
+        "Unique Design Features",
+        "One Family. Three Versions.",
+        "The Atkinson Hyperlegible® Font"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Is this font easy for you to read? Good—that’s the idea. At Braille Institute, we’ve created a family of hyperlegible® fonts designed to improve legibility and readability for individuals with low vision. These carefully crafted fonts featu",
+      "fontFamilies": [
+        "AtkinsonHyperlegibleNextVF"
+      ],
+      "maxFontSizePx": 115,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 2,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 6,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 3
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(37, 55, 70)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.6,
+        "relY": 0.037,
+        "heightVh": 2.788,
+        "widthRatio": 1,
+        "text": 8.882,
+        "elements": 6.384,
+        "headings": 4,
+        "fontSizes": 9,
+        "maxFontVw": 0.08,
+        "singleChar": 3.367,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 1.099,
+        "buttons": 1.099,
+        "img": 1.946,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 1.386,
+        "links": 1.792,
+        "bgLum": 1,
+        "fgLum": 0.036
+      },
+      "crop": "archive/brailleinstitute-org-freefont/blocks/03.jpg",
+      "cropTruncated": true,
+      "html": "archive/brailleinstitute-org-freefont/blocks/03.html"
+    },
+    {
+      "id": "brailleinstitute-org-freefont#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#main-content > div > div > div:nth-of-type(4)",
+      "classes": [
+        "et_pb_with_border",
+        "et_pb_section",
+        "et_pb_section_4_tb_body",
+        "section-sock",
+        "blue-divider",
+        "et_pb_with_background"
+      ],
+      "box": {
+        "x": 0,
+        "y": 14301,
+        "w": 1440,
+        "h": 549
+      },
+      "headings": [
+        "A Partner in Your Vision Loss Journey"
+      ],
+      "parentHeadings": null,
+      "textPreview": "A Partner in Your Vision Loss Journey Take Our Quiz Ready to Join?",
+      "fontFamilies": [
+        "AtkinsonHyperlegibleNextVF"
+      ],
+      "maxFontSizePx": 70,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(221, 247, 255)",
+      "color": "rgb(37, 55, 70)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.8,
+        "relY": 0.896,
+        "heightVh": 0.476,
+        "widthRatio": 1,
+        "text": 4.234,
+        "elements": 2.89,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.049,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.891,
+        "fgLum": 0.036
+      },
+      "crop": "archive/brailleinstitute-org-freefont/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/brailleinstitute-org-freefont/blocks/04.html"
+    },
+    {
+      "id": "brailleinstitute-org-freefont#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "#et-main-area > footer",
+      "classes": [
+        "et-l",
+        "et-l--footer"
+      ],
+      "box": {
+        "x": 0,
+        "y": 14850,
+        "w": 1440,
+        "h": 1112
+      },
+      "headings": [
+        "Give Us Your Feedback"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Give Us Your Feedback You may have noticed our new look! Help us improve the new website by taking our quick survey here. 1-800-BRAILLE (272-4553) Braille Institute of America, Inc 741 N. Vermont Avenue Los Angeles, CA 90029 Contact Us Gene",
+      "fontFamilies": [
+        "AtkinsonHyperlegibleNextVF"
+      ],
+      "maxFontSizePx": 56,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 5,
+        "color": 0
+      },
+      "media": {
+        "img": 5,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(37, 55, 70)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.93,
+        "heightVh": 0.804,
+        "widthRatio": 1,
+        "text": 6.571,
+        "elements": 4.489,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.039,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.792,
+        "img": 1.792,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.89,
+        "bgLum": -1,
+        "fgLum": 0.036
+      },
+      "crop": "archive/brailleinstitute-org-freefont/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/brailleinstitute-org-freefont/blocks/05.html"
+    }
+  ]
+}

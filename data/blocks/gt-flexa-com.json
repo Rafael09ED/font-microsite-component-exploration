@@ -1,0 +1,1436 @@
+{
+  "slug": "gt-flexa-com",
+  "url": "https://www.gt-flexa.com",
+  "pageHeight": 15876,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "gt-flexa-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "header",
+      "selector": "#pong",
+      "classes": [
+        "side-margins",
+        "margin-bottom-lg"
+      ],
+      "box": {
+        "x": 69,
+        "y": 0,
+        "w": 1303,
+        "h": 753
+      },
+      "headings": [
+        "GT Flexa"
+      ],
+      "parentHeadings": null,
+      "textPreview": "↗ FREE TRIAL FONTS GT Flexa ↗ BUY LICENSING",
+      "fontFamilies": [
+        "Flexa"
+      ],
+      "maxFontSizePx": 158,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 500",
+        "\"ital\" 100, \"wdth\" 140.779, \"wght\" 652.324"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.608,
+        "widthRatio": 0.905,
+        "text": 3.784,
+        "elements": 2.079,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.11,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-flexa-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-flexa-com/blocks/00.html"
+    },
+    {
+      "id": "gt-flexa-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(1)",
+      "classes": [
+        "side-margins",
+        "grid",
+        "margin-bottom-lg",
+        "intro"
+      ],
+      "box": {
+        "x": 69,
+        "y": 856,
+        "w": 1303,
+        "h": 875
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "DESIGNED BY DOMINIK HUBER WITH MARC KAPPELER 2015–2020 PUBLISHED BY GRILLI TYPE IN JULY 2020 FAMILY OF 112 STYLES ACROSS 8 FAMILIES AND 2 VARIABLE FONTS Instead of the traditional view of a typeface as a collection of static styles, GT Flex",
+      "fontFamilies": [
+        "Flexa"
+      ],
+      "maxFontSizePx": 45,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 400",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"ital\" 100, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.083,
+        "relY": 0.054,
+        "heightVh": 0.679,
+        "widthRatio": 0.905,
+        "text": 6.504,
+        "elements": 2.079,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.031,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-flexa-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-flexa-com/blocks/01.html"
+    },
+    {
+      "id": "gt-flexa-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(2) > section:nth-of-type(1)",
+      "classes": [
+        "grid",
+        "margin-bottom-lg",
+        "design-aspect",
+        "design-aspect-2x1"
+      ],
+      "box": {
+        "x": 69,
+        "y": 1833,
+        "w": 1303,
+        "h": 1039
+      },
+      "headings": [
+        "FONT FITS FORMAT"
+      ],
+      "parentHeadings": [
+        "FONT FITS FORMAT",
+        "RAW POWER",
+        "DETAILS MATTER",
+        "FLEXIBLE FLUIDITY"
+      ],
+      "textPreview": "FONT FITS FORMAT From thin to thick, narrow to wide, and upright to italic—along its three axes, GT Flexa dynamically responds to any given format: the ideal partner for truly responsive typography.",
+      "fontFamilies": [
+        "Flexa",
+        ""
+      ],
+      "maxFontSizePx": 158,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 50, \"wght\" 700",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 100",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 800",
+        "\"ital\" 0, \"wdth\" 0, \"wght\" 400",
+        "\"ital\" 0, \"wdth\" 200, \"wght\" 400",
+        "\"ital\" 100, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 2,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.167,
+        "relY": 0.115,
+        "heightVh": 0.768,
+        "widthRatio": 0.905,
+        "text": 5.298,
+        "elements": 2.565,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.11,
+        "singleChar": 0,
+        "varSettings": 7,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 1.099,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-flexa-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-flexa-com/blocks/02.html"
+    },
+    {
+      "id": "gt-flexa-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(2) > section:nth-of-type(2)",
+      "classes": [
+        "grid",
+        "margin-bottom-lg",
+        "design-aspect",
+        "design-aspect-info-right"
+      ],
+      "box": {
+        "x": 69,
+        "y": 2975,
+        "w": 1303,
+        "h": 659
+      },
+      "headings": [
+        "RAW POWER"
+      ],
+      "parentHeadings": [
+        "FONT FITS FORMAT",
+        "RAW POWER",
+        "DETAILS MATTER",
+        "FLEXIBLE FLUIDITY"
+      ],
+      "textPreview": "RAW POWER Simplicity is the key to this typeface’s appearance. The design pieces together simple shapes with minimal refinement and limited stroke contrast. The resulting raw build gives it both personality and the necessary sturdiness to p",
+      "fontFamilies": [
+        "Flexa",
+        ""
+      ],
+      "maxFontSizePx": 158,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 50, \"wght\" 700",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 1,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.25,
+        "relY": 0.187,
+        "heightVh": 0.549,
+        "widthRatio": 0.905,
+        "text": 5.638,
+        "elements": 1.946,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.11,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0.693,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-flexa-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-flexa-com/blocks/03.html"
+    },
+    {
+      "id": "gt-flexa-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(2) > section:nth-of-type(3)",
+      "classes": [
+        "grid",
+        "margin-bottom-lg",
+        "design-aspect",
+        "design-aspect-info-left"
+      ],
+      "box": {
+        "x": 69,
+        "y": 3736,
+        "w": 1303,
+        "h": 659
+      },
+      "headings": [
+        "DETAILS MATTER"
+      ],
+      "parentHeadings": [
+        "FONT FITS FORMAT",
+        "RAW POWER",
+        "DETAILS MATTER",
+        "FLEXIBLE FLUIDITY"
+      ],
+      "textPreview": "DETAILS MATTER Design decisions down to the smallest details are guided by simple principles. Visibly carved inktraps counter the cluttering of heavy weights. Looped terminals minimize the inside white space in the narrow widths. These feat",
+      "fontFamilies": [
+        "Flexa",
+        ""
+      ],
+      "maxFontSizePx": 158,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 50, \"wght\" 700",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 1,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.235,
+        "heightVh": 0.549,
+        "widthRatio": 0.905,
+        "text": 5.753,
+        "elements": 1.946,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.11,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0.693,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-flexa-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-flexa-com/blocks/04.html"
+    },
+    {
+      "id": "gt-flexa-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(2) > section:nth-of-type(4)",
+      "classes": [
+        "grid",
+        "design-aspect",
+        "design-aspect-2x1"
+      ],
+      "box": {
+        "x": 69,
+        "y": 4498,
+        "w": 1303,
+        "h": 991
+      },
+      "headings": [
+        "FLEXIBLE FLUIDITY"
+      ],
+      "parentHeadings": [
+        "FONT FITS FORMAT",
+        "RAW POWER",
+        "DETAILS MATTER",
+        "FLEXIBLE FLUIDITY"
+      ],
+      "textPreview": "FLEXIBLE FLUIDITY GT Flexa embraces the new variable font technology. Its design space runs along 3 axes: ↑ Weight, → Width, and ↗ Italic. Within this three-dimensional space, you can create any style that best fits your requirements. If th",
+      "fontFamilies": [
+        "Flexa",
+        ""
+      ],
+      "maxFontSizePx": 158,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 50, \"wght\" 700",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 1,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.417,
+        "relY": 0.283,
+        "heightVh": 0.742,
+        "widthRatio": 0.905,
+        "text": 5.835,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.11,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0.693,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-flexa-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-flexa-com/blocks/05.html"
+    },
+    {
+      "id": "gt-flexa-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(3)",
+      "classes": [
+        "margin-bottom-lg",
+        "interrupter",
+        "interrupter-design-aspect",
+        "js-animation-paused"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5592,
+        "w": 1402,
+        "h": 1807
+      },
+      "headings": [
+        "FINALLY, A FUN GROTESK"
+      ],
+      "parentHeadings": null,
+      "textPreview": "FINALLY, A FUN GROTESK",
+      "fontFamilies": [
+        "Flexa",
+        ""
+      ],
+      "maxFontSizePx": 116,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 70.3037, \"wght\" 640.607"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 1,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(136, 0, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.352,
+        "heightVh": 1.101,
+        "widthRatio": 0.974,
+        "text": 3.135,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.081,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0.693,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.125
+      },
+      "crop": "archive/gt-flexa-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-flexa-com/blocks/06.html"
+    },
+    {
+      "id": "gt-flexa-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(4)",
+      "classes": [
+        "side-margins",
+        "margin-bottom-lg",
+        "axis-explainer",
+        "js-animation-paused"
+      ],
+      "box": {
+        "x": 69,
+        "y": 7502,
+        "w": 1303,
+        "h": 370
+      },
+      "headings": [
+        "WEIGHT"
+      ],
+      "parentHeadings": null,
+      "textPreview": "WEIGHT AXIS If you don’t require the full flexibility of variable fonts, the family still comes structured as seven carefully selected weights, ranging from Lazer to Black. LAZER SPACE Fill The Empty Spaces Where THIN RATTLE Drowning For Yo",
+      "fontFamilies": [
+        "Flexa"
+      ],
+      "maxFontSizePx": 832,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 0, \"wght\" 500",
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 700",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 400",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 100",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 200",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 300",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.583,
+        "relY": 0.473,
+        "heightVh": 0.344,
+        "widthRatio": 0.905,
+        "text": 6.913,
+        "elements": 3.871,
+        "headings": 1,
+        "fontSizes": 8,
+        "maxFontVw": 0.578,
+        "singleChar": 2.398,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-flexa-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-flexa-com/blocks/07.html"
+    },
+    {
+      "id": "gt-flexa-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(5)",
+      "classes": [
+        "side-margins",
+        "margin-bottom-lg",
+        "axis-explainer",
+        "js-animation-paused"
+      ],
+      "box": {
+        "x": 69,
+        "y": 7974,
+        "w": 1303,
+        "h": 1066
+      },
+      "headings": [
+        "WIDTH"
+      ],
+      "parentHeadings": null,
+      "textPreview": "WIDTH AXIS GT Flexa covers a vast range of different widths. Play with the flexing type below to get a feeling for how they can be used to achieve a multitude of effects. X EXPANDED STANDARD GT Flexa GT Flexa X COMPRESSED STANDARD EXPANDED ",
+      "fontFamilies": [
+        "Flexa"
+      ],
+      "maxFontSizePx": 158,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 700",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 400",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.502,
+        "heightVh": 0.781,
+        "widthRatio": 0.905,
+        "text": 6.344,
+        "elements": 4.382,
+        "headings": 1,
+        "fontSizes": 11,
+        "maxFontVw": 0.11,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-flexa-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-flexa-com/blocks/08.html"
+    },
+    {
+      "id": "gt-flexa-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(6)",
+      "classes": [
+        "side-margins",
+        "margin-bottom-lg",
+        "axis-explainer",
+        "js-animation-paused"
+      ],
+      "box": {
+        "x": 69,
+        "y": 9143,
+        "w": 1303,
+        "h": 1157
+      },
+      "headings": [
+        "ITALIC"
+      ],
+      "parentHeadings": null,
+      "textPreview": "ITALIC AXIS Using an Italic? That’s so 2019! 2020 is all about half-Italics and quarter-Italics. Your Italics can be animated, bounce, and jigger: they are yours to play with. DIP Drift Plunge SLOUCH Settle TILT DIP",
+      "fontFamilies": [
+        "Flexa"
+      ],
+      "maxFontSizePx": 1008,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 700",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"ital\" 48.0714, \"wdth\" 50, \"wght\" 100",
+        "\"ital\" 40.8669, \"wdth\" 150, \"wght\" 700",
+        "\"ital\" 72.2176, \"wdth\" 122.218, \"wght\" 533.305",
+        "\"ital\" 86.4845, \"wdth\" 179.727, \"wght\" 700",
+        "\"ital\" 45.8311, \"wdth\" 102.457, \"wght\" 700",
+        "\"ital\" 34.1867, \"wdth\" 51.7718, \"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.75,
+        "relY": 0.576,
+        "heightVh": 0.827,
+        "widthRatio": 0.905,
+        "text": 5.384,
+        "elements": 3.296,
+        "headings": 1,
+        "fontSizes": 9,
+        "maxFontVw": 0.7,
+        "singleChar": 1.946,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-flexa-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-flexa-com/blocks/09.html"
+    },
+    {
+      "id": "gt-flexa-com#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(7)",
+      "classes": [
+        "side-margins",
+        "margin-bottom-lg",
+        "axis-explainer",
+        "js-animation-paused"
+      ],
+      "box": {
+        "x": 69,
+        "y": 10403,
+        "w": 1303,
+        "h": 370
+      },
+      "headings": [
+        "MONO"
+      ],
+      "parentHeadings": null,
+      "textPreview": "MONO AXIS When even all of GT Flexa’s different widths aren’t enough, there’s still the Mono, where each character takes up the same horizontal space. Of course, it comes with both a weight and italic axis. ZAG WICKED WILLY-NILLY? MUMBO-JUM",
+      "fontFamilies": [
+        "Flexa",
+        "Flexa Mono"
+      ],
+      "maxFontSizePx": 832,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 0, \"wght\" 500",
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 700",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"ital\" 0, \"wght\" 178.488",
+        "\"ital\" 44.2748, \"wght\" 322.901",
+        "\"ital\" 0, \"wght\" 200",
+        "\"ital\" 0, \"wght\" 799.436",
+        "\"ital\" 100, \"wght\" 200.564"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.833,
+        "relY": 0.655,
+        "heightVh": 0.344,
+        "widthRatio": 0.905,
+        "text": 7.018,
+        "elements": 3.951,
+        "headings": 1,
+        "fontSizes": 9,
+        "maxFontVw": 0.578,
+        "singleChar": 2.398,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-flexa-com/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-flexa-com/blocks/10.html"
+    },
+    {
+      "id": "gt-flexa-com#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(8)",
+      "classes": [
+        "margin-bottom-lg",
+        "interrupter",
+        "interrupter-axes-explainer",
+        "js-animation-paused"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10875,
+        "w": 1402,
+        "h": 1807
+      },
+      "headings": [
+        "MIX AND MATCH"
+      ],
+      "parentHeadings": null,
+      "textPreview": "MIX AND MATCH",
+      "fontFamilies": [
+        "Flexa",
+        ""
+      ],
+      "maxFontSizePx": 101,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 0, \"wght\" 500",
+        "\"ital\" 0, \"wdth\" 0.431217, \"wght\" 796.982",
+        "\"ital\" 0, \"wdth\" 500, \"wght\" 152.036",
+        "\"ital\" 0, \"wdth\" 99.5688, \"wght\" 103.019"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 1,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 192, 237)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.917,
+        "relY": 0.685,
+        "heightVh": 1.101,
+        "widthRatio": 0.974,
+        "text": 2.639,
+        "elements": 2.197,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.07,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0.693,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.651
+      },
+      "crop": "archive/gt-flexa-com/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-flexa-com/blocks/11.html"
+    },
+    {
+      "id": "gt-flexa-com#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(9)",
+      "classes": [
+        "margin-bottom-lg",
+        "about-sections",
+        "js-animation-paused"
+      ],
+      "box": {
+        "x": 0,
+        "y": 12785,
+        "w": 1440,
+        "h": 2988
+      },
+      "headings": [
+        "GT Flexa Family",
+        "Free Trial Fonts",
+        "Character Set",
+        "Other Minisites"
+      ],
+      "parentHeadings": null,
+      "textPreview": "GT Flexa Family You can purchase licensing for the entire typeface or any of the eight subfamilies and 112 single styles. Please email us for variable font files, which are included in the full family purchase. BUY LICENSING GT FLEXA LAZER ",
+      "fontFamilies": [
+        "Flexa",
+        "Flexa Mono"
+      ],
+      "maxFontSizePx": 45,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 500",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 500",
+        "\"ital\" 0, \"wdth\" 0, \"wght\" 100",
+        "\"ital\" 0, \"wdth\" 0, \"wght\" 200",
+        "\"ital\" 0, \"wdth\" 0, \"wght\" 300",
+        "\"ital\" 0, \"wdth\" 0, \"wght\" 400",
+        "\"ital\" 0, \"wdth\" 0, \"wght\" 500",
+        "\"ital\" 0, \"wdth\" 0, \"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 8,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": true,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.805,
+        "heightVh": 1.463,
+        "widthRatio": 1,
+        "text": 7.83,
+        "elements": 6.657,
+        "headings": 4,
+        "fontSizes": 7,
+        "maxFontVw": 0.031,
+        "singleChar": 5.645,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 2.197,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.045,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-flexa-com/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-flexa-com/blocks/12.html"
+    },
+    {
+      "id": "gt-flexa-com#13",
+      "nn": "13",
+      "kind": "offscreen",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#loader",
+      "classes": [
+        "exit"
+      ],
+      "box": {
+        "x": 0,
+        "y": -900,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "GT Flexa Loading...",
+      "fontFamilies": [
+        "Flexa Loader"
+      ],
+      "maxFontSizePx": 587,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 104, \"wght\" 407"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 222, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.083,
+        "relY": -0.057,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 2.996,
+        "elements": 2.197,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.407,
+        "singleChar": 1.609,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.737
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-flexa-com/blocks/13.html"
+    },
+    {
+      "id": "gt-flexa-com#14",
+      "nn": "14",
+      "kind": "offscreen",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2)",
+      "classes": [
+        "typetester-container"
+      ],
+      "box": {
+        "x": 1440,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "TYPETESTER ⟳ NEW SAMPLE COPIED LINK! 🔗 SHARE THIS SAMPLE ↗ DOWNLOAD FREE TRIAL FONTS ↗ BUY LICENSING MONO WIDTH WEIGHT ITALIC CLOSE Imagination is more important than knowledge",
+      "fontFamilies": [
+        "Flexa"
+      ],
+      "maxFontSizePx": 151,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 500",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 800",
+        "\"ital\" 0, \"wdth\" 170, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.167,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 5.187,
+        "elements": 3.892,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.105,
+        "singleChar": 1.792,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-flexa-com/blocks/14.html"
+    }
+  ]
+}

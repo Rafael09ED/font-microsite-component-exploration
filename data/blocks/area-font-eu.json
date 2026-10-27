@@ -1,0 +1,641 @@
+{
+  "slug": "area-font-eu",
+  "url": "https://area-font.eu/",
+  "pageHeight": 8856,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "area-font-eu#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#intro",
+      "classes": [],
+      "box": {
+        "x": 40,
+        "y": 40,
+        "w": 1360,
+        "h": 1637
+      },
+      "headings": [
+        "AREA"
+      ],
+      "parentHeadings": null,
+      "textPreview": "AREA AREA AREA AREA AREA BLAZE TYPE AREA AREA AREA AREA AREA A R E A is a variable font family of 88 fonts. Revolving around two width: Normal and Extended, matching italics. Two styles: Normal and Inktrap, matching italics. Taking full adv",
+      "fontFamilies": [
+        "Area",
+        "Arial"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"slnt\" 0",
+        "\"INKT\" 97.2762, \"slnt\" 0, \"wdth\" 197.276, \"wght\" 886.381",
+        "\"INKT\" 98.6089, \"slnt\" 0, \"wdth\" 198.609, \"wght\" 893.044",
+        "\"INKT\" 87.5, \"slnt\" 0, \"wdth\" 187.5, \"wght\" 837.5",
+        "\"INKT\" 59.5, \"slnt\" 0, \"wdth\" 159.5, \"wght\" 697.5",
+        "\"INKT\" 24.5, \"slnt\" 0, \"wdth\" 124.5, \"wght\" 522.5",
+        "\"INKT\" 3.55911, \"slnt\" 0, \"wdth\" 103.559, \"wght\" 128.473",
+        "\"INKT\" 0.055778, \"slnt\" 0, \"wdth\" 100.056, \"wght\" 100.446"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 3,
+        "video": 2,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.005,
+        "heightVh": 1.036,
+        "widthRatio": 0.944,
+        "text": 6.913,
+        "elements": 5.147,
+        "headings": 1,
+        "fontSizes": 17,
+        "maxFontVw": 0.1,
+        "singleChar": 3.258,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 1.386,
+        "video": 1.099,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/area-font-eu/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/area-font-eu/blocks/00.html"
+    },
+    {
+      "id": "area-font-eu#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#family",
+      "classes": [],
+      "box": {
+        "x": 40,
+        "y": 1717,
+        "w": 1360,
+        "h": 1008
+      },
+      "headings": [
+        "1 By taking full advantage of the variable technology, Area is a workhorse font "
+      ],
+      "parentHeadings": null,
+      "textPreview": "1 By taking full advantage of the variable technology, Area is a workhorse font family: Regular & Extended: Area Area Area Area Area Area Area Area Area Area Area Area Area Area Area Area Area Area Area Area Area Area Area Area Area Area Ar",
+      "fontFamilies": [
+        "Area"
+      ],
+      "maxFontSizePx": 94,
+      "variationSettings": [
+        "\"slnt\" 0",
+        "\"slnt\" 0, \"wght\" 100",
+        "\"slnt\" 100, \"wght\" 100",
+        "\"slnt\" 0, \"wdth\" 200, \"wght\" 100",
+        "\"slnt\" 100, \"wdth\" 200, \"wght\" 100",
+        "\"slnt\" 0, \"wght\" 200",
+        "\"slnt\" 100, \"wght\" 200",
+        "\"slnt\" 0, \"wdth\" 200, \"wght\" 200"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.167,
+        "relY": 0.194,
+        "heightVh": 0.751,
+        "widthRatio": 0.944,
+        "text": 6.323,
+        "elements": 4.615,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.065,
+        "singleChar": 1.099,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/area-font-eu/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/area-font-eu/blocks/01.html"
+    },
+    {
+      "id": "area-font-eu#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#pairing",
+      "classes": [
+        "margin-b"
+      ],
+      "box": {
+        "x": 40,
+        "y": 2765,
+        "w": 1360,
+        "h": 1243
+      },
+      "headings": [
+        "Straight From The Blaze"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Apoc Emeritus Inferi Joly Oroban Sigurd Straight From The Blaze Being able to provide great tools for designers to work with is one of the foundry’s core of action. It was a pretty straightforward decision to answer what seemed to be their ",
+      "fontFamilies": [
+        "Area",
+        "Arial",
+        "Apoc",
+        "Emeritus",
+        "Inferi",
+        "Joly",
+        "Oroban",
+        "Sigurd"
+      ],
+      "maxFontSizePx": 86,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 14,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.312,
+        "heightVh": 0.868,
+        "widthRatio": 0.944,
+        "text": 7.412,
+        "elements": 4.263,
+        "headings": 1,
+        "fontSizes": 6,
+        "maxFontVw": 0.059,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.099,
+        "img": 2.708,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/area-font-eu/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/area-font-eu/blocks/02.html"
+    },
+    {
+      "id": "area-font-eu#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#alternate",
+      "classes": [],
+      "box": {
+        "x": 40,
+        "y": 4049,
+        "w": 1360,
+        "h": 1003
+      },
+      "headings": [
+        "3 With alternate glyphs for almost all letters, Area is a playground to experime"
+      ],
+      "parentHeadings": null,
+      "textPreview": "3 With alternate glyphs for almost all letters, Area is a playground to experiment with : See alternates In Area, every lowercase benefits at least one alternate version, which are clear references to Paul Renner’s original Futura drawings.",
+      "fontFamilies": [
+        "Area",
+        "Arial"
+      ],
+      "maxFontSizePx": 35,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 7,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.457,
+        "heightVh": 0.749,
+        "widthRatio": 0.944,
+        "text": 6.806,
+        "elements": 3.714,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.024,
+        "singleChar": 0.693,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 2.079,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/area-font-eu/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/area-font-eu/blocks/03.html"
+    },
+    {
+      "id": "area-font-eu#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#inktrap",
+      "classes": [],
+      "box": {
+        "x": 40,
+        "y": 5092,
+        "w": 1360,
+        "h": 1741
+      },
+      "headings": [
+        "4 The inktrap version assures high legibility in all sizes :"
+      ],
+      "parentHeadings": null,
+      "textPreview": "4 The inktrap version assures high legibility in all sizes : In this family, each weight comes with an inktrap version. While we can observe an inktrap resurgence in the type design market during the past few years — sometimes for the sole ",
+      "fontFamilies": [
+        "Area"
+      ],
+      "maxFontSizePx": 35,
+      "variationSettings": [
+        "\"slnt\" 0",
+        "\"INKT\" 100, \"slnt\" 0",
+        "\"slnt\" 100",
+        "\"INKT\" 100, \"slnt\" 10, \"wdth\" 100, \"wght\" 900"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.575,
+        "heightVh": 1.077,
+        "widthRatio": 0.944,
+        "text": 6.969,
+        "elements": 3.367,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.024,
+        "singleChar": 0.693,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.386,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/area-font-eu/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/area-font-eu/blocks/04.html"
+    },
+    {
+      "id": "area-font-eu#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#interface",
+      "classes": [],
+      "box": {
+        "x": 40,
+        "y": 6873,
+        "w": 1360,
+        "h": 983
+      },
+      "headings": [
+        "5 Area will cover every needs for digital interface design :"
+      ],
+      "parentHeadings": null,
+      "textPreview": "5 Area will cover every needs for digital interface design : Area was primarily designed for digital interfaces, which require a readable character set which can be read in small or even very small sizes thanks to the inktrap version. The w",
+      "fontFamilies": [
+        "Area"
+      ],
+      "maxFontSizePx": 35,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.833,
+        "relY": 0.776,
+        "heightVh": 0.738,
+        "widthRatio": 0.944,
+        "text": 6.639,
+        "elements": 2.833,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.024,
+        "singleChar": 0.693,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.099,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/area-font-eu/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/area-font-eu/blocks/05.html"
+    },
+    {
+      "id": "area-font-eu#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#links",
+      "classes": [
+        "margin-b-l"
+      ],
+      "box": {
+        "x": 40,
+        "y": 7896,
+        "w": 1360,
+        "h": 834
+      },
+      "headings": [
+        "Discover other fonts:"
+      ],
+      "parentHeadings": null,
+      "textPreview": "See Area on Blaze Type’s website now ! Discover other fonts: f",
+      "fontFamilies": [
+        "Area"
+      ],
+      "maxFontSizePx": 35,
+      "variationSettings": [
+        "\"slnt\" 0",
+        "\"INKT\" 100, \"slnt\" 0, \"wdth\" 200"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 3,
+        "video": 3,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.892,
+        "heightVh": 0.656,
+        "widthRatio": 0.944,
+        "text": 4.19,
+        "elements": 3.135,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.024,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.386,
+        "svg": 1.386,
+        "video": 1.386,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.609,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/area-font-eu/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/area-font-eu/blocks/06.html"
+    }
+  ]
+}

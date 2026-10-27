@@ -1,0 +1,677 @@
+{
+  "slug": "font-subf-dev-en",
+  "url": "https://font.subf.dev/en",
+  "pageHeight": 10140,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "font-subf-dev-en#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#hero",
+      "classes": [
+        "no-inview:scroll-mt-12",
+        "mx-auto",
+        "max-w-4xl",
+        "w-96%",
+        "xs:w-90%",
+        "text-left"
+      ],
+      "box": {
+        "x": 272,
+        "y": 0,
+        "w": 896,
+        "h": 900
+      },
+      "headings": [
+        "Maple Mono"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Maple Mono Smooth your coding flow We use code to bring ideas to life as products, but the font we choose is the silent architect that shapes how we experience that journey. Crafted for programmers, Maple Mono boosts your productivity with ",
+      "fontFamilies": [
+        "MapleMono"
+      ],
+      "maxFontSizePx": 80,
+      "variationSettings": [
+        "\"wght\" 700",
+        "\"wght\" 600",
+        "\"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(217, 233, 242)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 0.622,
+        "text": 5.846,
+        "elements": 2.996,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.056,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0.794
+      },
+      "crop": "archive/font-subf-dev-en/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/font-subf-dev-en/blocks/00.html"
+    },
+    {
+      "id": "font-subf-dev-en#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#why",
+      "classes": [
+        "no-inview:scroll-mt-12",
+        "mx-auto",
+        "max-w-4xl",
+        "w-96%",
+        "xs:w-90%",
+        "text-left"
+      ],
+      "box": {
+        "x": 272,
+        "y": 900,
+        "w": 896,
+        "h": 983
+      },
+      "headings": [
+        "Why Another One?"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Why Another One? With so many excellent monospace fonts on the market, designed by professional designers and looking neat and beautiful, it’s surprising how many fall short when I actually use them for coding. I’ve found myself consistentl",
+      "fontFamilies": [
+        "MapleMono"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [
+        "\"wght\" 700",
+        "\"wght\" 650"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(217, 233, 242)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.167,
+        "relY": 0.089,
+        "heightVh": 0.738,
+        "widthRatio": 0.622,
+        "text": 7.031,
+        "elements": 2.996,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.025,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.794
+      },
+      "crop": "archive/font-subf-dev-en/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/font-subf-dev-en/blocks/01.html"
+    },
+    {
+      "id": "font-subf-dev-en#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#features",
+      "classes": [
+        "no-inview:scroll-mt-12",
+        "mx-auto",
+        "max-w-4xl",
+        "w-96%",
+        "xs:w-90%",
+        "text-left"
+      ],
+      "box": {
+        "x": 272,
+        "y": 1947,
+        "w": 896,
+        "h": 4704
+      },
+      "headings": [
+        "Features",
+        "One Font, Infinite Weights",
+        "Distinct Glyphs, Smooth Design",
+        "Smart Ligatures, Large Variety"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Features One Font, Infinite Weights Variable font support, get whatever weight you like. V a r i a b l e Distinct Glyphs, Smooth Design Round corners, brand-new glyph designs with cursive style in italic style. @ $ & % -> cv01 Brand new gly",
+      "fontFamilies": [
+        "MapleMono"
+      ],
+      "maxFontSizePx": 128,
+      "variationSettings": [
+        "\"wght\" 700",
+        "\"wght\" 600",
+        "\"wght\" 791.909",
+        "\"wght\" 783.686",
+        "\"wght\" 674.276",
+        "\"wght\" 482.398",
+        "\"wght\" 299.84",
+        "\"wght\" 208.091"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 7,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(217, 233, 242)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.192,
+        "heightVh": 1.829,
+        "widthRatio": 0.622,
+        "text": 7.634,
+        "elements": 5.659,
+        "headings": 4,
+        "fontSizes": 10,
+        "maxFontVw": 0.089,
+        "singleChar": 4.317,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 2.079,
+        "buttons": 1.099,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.792,
+        "bgLum": -1,
+        "fgLum": 0.794
+      },
+      "crop": "archive/font-subf-dev-en/blocks/02.jpg",
+      "cropTruncated": true,
+      "html": "archive/font-subf-dev-en/blocks/02.html"
+    },
+    {
+      "id": "font-subf-dev-en#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#comparison",
+      "classes": [
+        "no-inview:scroll-mt-12",
+        "mx-auto",
+        "max-w-4xl",
+        "w-96%",
+        "xs:w-90%",
+        "text-left"
+      ],
+      "box": {
+        "x": 272,
+        "y": 6715,
+        "w": 896,
+        "h": 636
+      },
+      "headings": [
+        "Comparison"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Comparison See how Maple Mono compares to other popular programming fonts. JetBrains Mono Fira Code Iosevka Italic Cloudflare Cloudflare",
+      "fontFamilies": [
+        "MapleMono",
+        "JetBrains Mono"
+      ],
+      "maxFontSizePx": 128,
+      "variationSettings": [
+        "\"wght\" 700",
+        "\"wght\" 600",
+        "\"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 1,
+        "select": 0,
+        "buttons": 3,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(217, 233, 242)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.662,
+        "heightVh": 0.535,
+        "widthRatio": 0.622,
+        "text": 4.934,
+        "elements": 3.045,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.089,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0.693,
+        "buttons": 1.386,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.794
+      },
+      "crop": "archive/font-subf-dev-en/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/font-subf-dev-en/blocks/03.html"
+    },
+    {
+      "id": "font-subf-dev-en#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#preview",
+      "classes": [
+        "no-inview:scroll-mt-12",
+        "mx-auto",
+        "max-w-4xl",
+        "w-96%",
+        "xs:w-90%",
+        "text-left"
+      ],
+      "box": {
+        "x": 272,
+        "y": 7415,
+        "w": 896,
+        "h": 1348
+      },
+      "headings": [
+        "Preview"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Preview See what the font looks like in real code snippets. TypeScript JSX function Counter() { const [val, setVal] = createSignal(10); const dec = () => val() !== ~~3.1415926 && setVal(prev => prev--); return ( <button type=\"button\" onClic",
+      "fontFamilies": [
+        "MapleMono"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [
+        "\"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(217, 233, 242)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.731,
+        "heightVh": 0.915,
+        "widthRatio": 0.622,
+        "text": 7.728,
+        "elements": 6.506,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.025,
+        "singleChar": 5.263,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.794
+      },
+      "crop": "archive/font-subf-dev-en/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/font-subf-dev-en/blocks/04.html"
+    },
+    {
+      "id": "font-subf-dev-en#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#testimonials",
+      "classes": [
+        "no-inview:scroll-mt-12",
+        "mx-auto",
+        "max-w-4xl",
+        "w-96%",
+        "xs:w-90%",
+        "text-left"
+      ],
+      "box": {
+        "x": 272,
+        "y": 8827,
+        "w": 896,
+        "h": 549
+      },
+      "headings": [
+        "What people say"
+      ],
+      "parentHeadings": null,
+      "textPreview": "What people say Join thousands of developers who have already fallen in love with Maple Mono. S Siddharth Pant Twitter ┏ Needed a font with some pazzazz🌟 and good italics. Maple Mono NF by @subframe7536 is my new favorite coding font. Just",
+      "fontFamilies": [
+        "MapleMono"
+      ],
+      "maxFontSizePx": 40,
+      "variationSettings": [
+        "\"wght\" 700",
+        "\"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(217, 233, 242)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.833,
+        "relY": 0.871,
+        "heightVh": 0.476,
+        "widthRatio": 0.622,
+        "text": 7.147,
+        "elements": 4.248,
+        "headings": 1,
+        "fontSizes": 6,
+        "maxFontVw": 0.028,
+        "singleChar": 2.773,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.794
+      },
+      "crop": "archive/font-subf-dev-en/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/font-subf-dev-en/blocks/05.html"
+    },
+    {
+      "id": "font-subf-dev-en#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#credits",
+      "classes": [
+        "no-inview:scroll-mt-12",
+        "mx-auto",
+        "max-w-4xl",
+        "w-96%",
+        "xs:w-90%",
+        "text-left"
+      ],
+      "box": {
+        "x": 272,
+        "y": 9440,
+        "w": 896,
+        "h": 636
+      },
+      "headings": [
+        "Credits"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Credits Maple Mono is standing on the shoulders of giants. Base Font JetBrains Mono Icon Integration Nerd Fonts Port of CN glyphs Resource Han Rounded Glyph Inspiration Commit Mono Fira Code Iosevka Monaspace Monolisa Recursive Roboto Mono ",
+      "fontFamilies": [
+        "MapleMono"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [
+        "\"wght\" 700",
+        "\"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(217, 233, 242)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.931,
+        "heightVh": 0.535,
+        "widthRatio": 0.622,
+        "text": 5.841,
+        "elements": 4.174,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.025,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.944,
+        "bgLum": -1,
+        "fgLum": 0.794
+      },
+      "crop": "archive/font-subf-dev-en/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/font-subf-dev-en/blocks/06.html"
+    }
+  ]
+}

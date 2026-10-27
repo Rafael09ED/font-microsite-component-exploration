@@ -1,0 +1,981 @@
+{
+  "slug": "karrik-phantom-foundry-com",
+  "url": "http://karrik.phantom-foundry.com",
+  "pageHeight": 8940,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "karrik-phantom-foundry-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "article",
+      "selector": "#first",
+      "classes": [
+        "center"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "Karrik regular, italic"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Karrik regular, italic",
+      "fontFamilies": [
+        "Karrik"
+      ],
+      "maxFontSizePx": 200,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 3.135,
+        "elements": 1.386,
+        "headings": 1,
+        "fontSizes": 1,
+        "maxFontVw": 0.139,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/karrik-phantom-foundry-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/karrik-phantom-foundry-com/blocks/00.html"
+    },
+    {
+      "id": "karrik-phantom-foundry-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "p",
+      "selector": "#second > p:nth-of-type(1)",
+      "classes": [
+        "text",
+        "orange"
+      ],
+      "box": {
+        "x": 195,
+        "y": 1000,
+        "w": 1050,
+        "h": 264
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Ankou statue at the Plouidry’s ossuary (29)",
+        "Ankou statue at the Noyal-Pontivy’s Church (56)",
+        "Miller & Richard, Sans-Serif n°5 60-96, 1912 [Source]",
+        "Turlot, Antiques Turlot n°5, ca.1896 [Source]"
+      ],
+      "textPreview": "Karrik est un caractère typographique open source dessiné par Jean-Baptiste Morizot et Lucas Le Bihan. Commandité par le magazine “Cercle” à l’occasion du numéro consacré aux fantômes, le dessin commence en mars 2019 et s’achève en octobre ",
+      "fontFamilies": [
+        "Karrik"
+      ],
+      "maxFontSizePx": 30,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 120, 20)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.111,
+        "relY": 0.112,
+        "heightVh": 0.257,
+        "widthRatio": 0.729,
+        "text": 6.277,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.021,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.338
+      },
+      "crop": "archive/karrik-phantom-foundry-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/karrik-phantom-foundry-com/blocks/01.html"
+    },
+    {
+      "id": "karrik-phantom-foundry-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "figure",
+      "selector": "#second > figure:nth-of-type(1)",
+      "classes": [
+        "first"
+      ],
+      "box": {
+        "x": 20,
+        "y": 1294,
+        "w": 690,
+        "h": 556
+      },
+      "headings": [
+        "Ankou statue at the Plouidry’s ossuary (29)"
+      ],
+      "parentHeadings": [
+        "Ankou statue at the Plouidry’s ossuary (29)",
+        "Ankou statue at the Noyal-Pontivy’s Church (56)",
+        "Miller & Richard, Sans-Serif n°5 60-96, 1912 [Source]",
+        "Turlot, Antiques Turlot n°5, ca.1896 [Source]"
+      ],
+      "textPreview": "Ankou statue at the Plouidry’s ossuary (29)",
+      "fontFamilies": [
+        "Karrik"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.222,
+        "relY": 0.145,
+        "heightVh": 0.481,
+        "widthRatio": 0.479,
+        "text": 3.784,
+        "elements": 1.099,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.014,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/karrik-phantom-foundry-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/karrik-phantom-foundry-com/blocks/02.html"
+    },
+    {
+      "id": "karrik-phantom-foundry-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "figure",
+      "selector": "#second > figure:nth-of-type(2)",
+      "classes": [],
+      "box": {
+        "x": 730,
+        "y": 1294,
+        "w": 690,
+        "h": 556
+      },
+      "headings": [
+        "Ankou statue at the Noyal-Pontivy’s Church (56)"
+      ],
+      "parentHeadings": [
+        "Ankou statue at the Plouidry’s ossuary (29)",
+        "Ankou statue at the Noyal-Pontivy’s Church (56)",
+        "Miller & Richard, Sans-Serif n°5 60-96, 1912 [Source]",
+        "Turlot, Antiques Turlot n°5, ca.1896 [Source]"
+      ],
+      "textPreview": "Ankou statue at the Noyal-Pontivy’s Church (56)",
+      "fontFamilies": [
+        "Karrik"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.145,
+        "heightVh": 0.481,
+        "widthRatio": 0.479,
+        "text": 3.871,
+        "elements": 1.099,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.014,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/karrik-phantom-foundry-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/karrik-phantom-foundry-com/blocks/03.html"
+    },
+    {
+      "id": "karrik-phantom-foundry-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#second > div",
+      "classes": [
+        "images"
+      ],
+      "box": {
+        "x": 20,
+        "y": 2540,
+        "w": 1400,
+        "h": 1309
+      },
+      "headings": [
+        "Miller & Richard, Sans-Serif n°5 60-96, 1912 [Source]",
+        "Turlot, Antiques Turlot n°5, ca.1896 [Source]"
+      ],
+      "parentHeadings": [
+        "Ankou statue at the Plouidry’s ossuary (29)",
+        "Ankou statue at the Noyal-Pontivy’s Church (56)",
+        "Miller & Richard, Sans-Serif n°5 60-96, 1912 [Source]",
+        "Turlot, Antiques Turlot n°5, ca.1896 [Source]"
+      ],
+      "textPreview": "Miller & Richard, Sans-Serif n°5 60-96, 1912 [Source] Turlot, Antiques Turlot n°5, ca.1896 [Source]",
+      "fontFamilies": [
+        "Karrik"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.444,
+        "relY": 0.284,
+        "heightVh": 0.898,
+        "widthRatio": 0.972,
+        "text": 4.605,
+        "elements": 2.197,
+        "headings": 2,
+        "fontSizes": 2,
+        "maxFontVw": 0.014,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.099,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/karrik-phantom-foundry-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/karrik-phantom-foundry-com/blocks/04.html"
+    },
+    {
+      "id": "karrik-phantom-foundry-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "p",
+      "selector": "#second > p:nth-of-type(3)",
+      "classes": [
+        "text",
+        "violet"
+      ],
+      "box": {
+        "x": 195,
+        "y": 3852,
+        "w": 1050,
+        "h": 528
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Ankou statue at the Plouidry’s ossuary (29)",
+        "Ankou statue at the Noyal-Pontivy’s Church (56)",
+        "Miller & Richard, Sans-Serif n°5 60-96, 1912 [Source]",
+        "Turlot, Antiques Turlot n°5, ca.1896 [Source]"
+      ],
+      "textPreview": "Le Karrik est un héritier de la typographie vernaculaire. Les déplacements de graisses, l’absence de corrections optiques et les proportions anarchiques des lettres sont autant de caractéristiques qui nous ont inspirés et que nous avons che",
+      "fontFamilies": [
+        "Karrik"
+      ],
+      "maxFontSizePx": 30,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(120, 90, 180)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.556,
+        "relY": 0.431,
+        "heightVh": 0.462,
+        "widthRatio": 0.729,
+        "text": 7.096,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.021,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.146
+      },
+      "crop": "archive/karrik-phantom-foundry-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/karrik-phantom-foundry-com/blocks/05.html"
+    },
+    {
+      "id": "karrik-phantom-foundry-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "article",
+      "selector": "#third",
+      "classes": [
+        "rose",
+        "center"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4400,
+        "w": 1440,
+        "h": 2678
+      },
+      "headings": [
+        "GUIPAVAS",
+        "Poltergeist",
+        "Alpha",
+        "Beta"
+      ],
+      "parentHeadings": null,
+      "textPreview": "GUIPAVAS Poltergeist Alpha Beta PLEYBEN Poltergeist Alpha Beta LESNEVEN Poltergeist Alpha Beta Jetez un œil aux lettres du Karrik, le glyphset complet est disponible avec le téléchargement du caractère. Take a look at Karrik’s letters, the ",
+      "fontFamilies": [
+        "Karrik"
+      ],
+      "maxFontSizePx": 200,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 102,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(250, 110, 180)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.492,
+        "heightVh": 1.38,
+        "widthRatio": 1,
+        "text": 5.875,
+        "elements": 5.004,
+        "headings": 4,
+        "fontSizes": 4,
+        "maxFontVw": 0.139,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 4.635,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.348
+      },
+      "crop": "archive/karrik-phantom-foundry-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/karrik-phantom-foundry-com/blocks/06.html"
+    },
+    {
+      "id": "karrik-phantom-foundry-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "article",
+      "selector": "#four",
+      "classes": [
+        "jaune",
+        "center"
+      ],
+      "box": {
+        "x": 0,
+        "y": 7078,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "100%",
+        "Téléchargement",
+        "Gitlab →"
+      ],
+      "parentHeadings": null,
+      "textPreview": "100% Karrik est une typographie libre. Vous pouvez visiter la page gitlab du projet, ou télécharger le caractère complet. Karrik is an open source typeface, you can visit the gitlab repository or download the entire font files. Téléchargeme",
+      "fontFamilies": [
+        "Karrik"
+      ],
+      "maxFontSizePx": 200,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(209, 180, 26)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.778,
+        "relY": 0.792,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 5.537,
+        "elements": 2.398,
+        "headings": 3,
+        "fontSizes": 4,
+        "maxFontVw": 0.139,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0.463
+      },
+      "crop": "archive/karrik-phantom-foundry-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/karrik-phantom-foundry-com/blocks/07.html"
+    },
+    {
+      "id": "karrik-phantom-foundry-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "article",
+      "selector": "#five",
+      "classes": [
+        "blanc",
+        "center"
+      ],
+      "box": {
+        "x": 0,
+        "y": 7978,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "KARRIK THE GAME",
+        "Play an interactive fiction based on a typeface →"
+      ],
+      "parentHeadings": null,
+      "textPreview": "KARRIK THE GAME Play an interactive fiction based on a typeface →",
+      "fontFamilies": [
+        "Karrik"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(242, 242, 242)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.889,
+        "relY": 0.892,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 4.19,
+        "elements": 2.197,
+        "headings": 2,
+        "fontSizes": 3,
+        "maxFontVw": 0.014,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0.888
+      },
+      "crop": "archive/karrik-phantom-foundry-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/karrik-phantom-foundry-com/blocks/08.html"
+    },
+    {
+      "id": "karrik-phantom-foundry-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > main > footer",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 8878,
+        "w": 1440,
+        "h": 62
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Code, textes et typographies codding, texts and typedesign: Jean-Baptiste MorizotLucas Le Bihan",
+      "fontFamilies": [
+        "Karrik"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.993,
+        "heightVh": 0.067,
+        "widthRatio": 1,
+        "text": 4.564,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.014,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/karrik-phantom-foundry-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/karrik-phantom-foundry-com/blocks/09.html"
+    },
+    {
+      "id": "karrik-phantom-foundry-com#10",
+      "nn": "10",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "header",
+      "selector": "body > header",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 62
+      },
+      "headings": [
+        "Informations Specimen Download Game",
+        "Menu",
+        "Informations Specimen Download Game"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Informations Specimen Download Game",
+      "fontFamilies": [
+        "Karrik"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.111,
+        "relY": 0,
+        "heightVh": 0.067,
+        "widthRatio": 1,
+        "text": 3.584,
+        "elements": 2.639,
+        "headings": 3,
+        "fontSizes": 2,
+        "maxFontVw": 0.014,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.197,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/karrik-phantom-foundry-com/blocks/10.html"
+    }
+  ]
+}

@@ -1,0 +1,820 @@
+{
+  "slug": "nichrome-mass-driver-com",
+  "url": "https://nichrome.mass-driver.com",
+  "pageHeight": 10147,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "nichrome-mass-driver-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#splash",
+      "classes": [
+        "fullheight",
+        "gradient"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "MD IO"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 3,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(238, 234, 229)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 2.773,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.386,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.827,
+        "fgLum": 0
+      },
+      "crop": "archive/nichrome-mass-driver-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/nichrome-mass-driver-com/blocks/00.html"
+    },
+    {
+      "id": "nichrome-mass-driver-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": true,
+      "tag": "section",
+      "selector": "#nav-header",
+      "classes": [
+        "header",
+        "technical"
+      ],
+      "box": {
+        "x": 0,
+        "y": 900,
+        "w": 1440,
+        "h": 50
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Overview Design Specimens OpenType Glyphs Try ↗ Buy ↗",
+      "fontFamilies": [
+        "MD IO"
+      ],
+      "maxFontSizePx": 14,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(204, 206, 195)",
+      "color": "rgb(17, 34, 51)",
+      "hints": {
+        "commerce": true,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.125,
+        "relY": 0.089,
+        "heightVh": 0.054,
+        "widthRatio": 1,
+        "text": 4.078,
+        "elements": 2.639,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.01,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.079,
+        "bgLum": 0.609,
+        "fgLum": 0.015
+      },
+      "crop": "archive/nichrome-mass-driver-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/nichrome-mass-driver-com/blocks/01.html"
+    },
+    {
+      "id": "nichrome-mass-driver-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#overview",
+      "classes": [
+        "nav_section",
+        "sage",
+        "gradient"
+      ],
+      "box": {
+        "x": 0,
+        "y": 950,
+        "w": 1440,
+        "h": 1048
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "MD Nichrome is a display typeface based on the typography of paperback science fiction from the 70s and early 80s. Rather than imitating any single typeface of this era, it aims instead to capture elements from several. Originally released ",
+      "fontFamilies": [
+        "MD IO",
+        "MD Nichrome"
+      ],
+      "maxFontSizePx": 65,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 100",
+        "\"slnt\" 0, \"wght\" 200",
+        "\"slnt\" 0, \"wght\" 300",
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 500",
+        "\"slnt\" 0, \"wght\" 700",
+        "\"slnt\" 0, \"wght\" 800",
+        "\"slnt\" 0, \"wght\" 900"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(204, 206, 195)",
+      "color": "rgb(17, 34, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.25,
+        "relY": 0.094,
+        "heightVh": 0.772,
+        "widthRatio": 1,
+        "text": 6.768,
+        "elements": 3.714,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.045,
+        "singleChar": 0,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.609,
+        "fgLum": 0.015
+      },
+      "crop": "archive/nichrome-mass-driver-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/nichrome-mass-driver-com/blocks/02.html"
+    },
+    {
+      "id": "nichrome-mass-driver-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#design",
+      "classes": [
+        "nav_section",
+        "sage",
+        "gradient"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1998,
+        "w": 1440,
+        "h": 1181
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "A large x-height adds gravity to the lowercase, in line with the distinctive caps The relative proportions of round and squarish letters vary across weights Eight weights, each with matching obliques, plus a variable font for even finer con",
+      "fontFamilies": [
+        "MD IO",
+        ""
+      ],
+      "maxFontSizePx": 14,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 6,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(204, 206, 195)",
+      "color": "rgb(17, 34, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.375,
+        "relY": 0.197,
+        "heightVh": 0.838,
+        "widthRatio": 1,
+        "text": 6.213,
+        "elements": 3.258,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.01,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 1.946,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.609,
+        "fgLum": 0.015
+      },
+      "crop": "archive/nichrome-mass-driver-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/nichrome-mass-driver-com/blocks/03.html"
+    },
+    {
+      "id": "nichrome-mass-driver-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#specimens",
+      "classes": [
+        "nav_section",
+        "fullheight",
+        "sage",
+        "gradient"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3179,
+        "w": 1440,
+        "h": 2761
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "MD Nichrome Ultra GeometricRoundedGothic ROCKET SHIP GALILEO MD Nichrome Black Oblique GeometricRoundedGothic The Rings of Saturn MD Nichrome Bold GeometricRoundedGothic FOUNDATION MD Nichrome Dark Oblique GeometricRoundedGothic “Have Space",
+      "fontFamilies": [
+        "MD IO",
+        "MD Nichrome"
+      ],
+      "maxFontSizePx": 395,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 1000",
+        "\"slnt\" -10, \"wght\" 850",
+        "\"slnt\" 0, \"wght\" 700",
+        "\"slnt\" -10, \"wght\" 570",
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" -10, \"wght\" 250",
+        "\"slnt\" 0, \"wght\" 115",
+        "\"slnt\" -10, \"wght\" 1"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 8,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 24,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(204, 206, 195)",
+      "color": "rgb(17, 34, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.313,
+        "heightVh": 1.403,
+        "widthRatio": 1,
+        "text": 6.229,
+        "elements": 4.727,
+        "headings": 0,
+        "fontSizes": 9,
+        "maxFontVw": 0.274,
+        "singleChar": 0,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 2.197,
+        "toggles": 0,
+        "buttons": 3.219,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.609,
+        "fgLum": 0.015
+      },
+      "crop": "archive/nichrome-mass-driver-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/nichrome-mass-driver-com/blocks/04.html"
+    },
+    {
+      "id": "nichrome-mass-driver-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#opentype",
+      "classes": [
+        "nav_section",
+        "fullheight",
+        "cobalt"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5940,
+        "w": 1440,
+        "h": 2419
+      },
+      "headings": [
+        "KR ajkt &",
+        "Retake the Deeping-Wall!",
+        "AMNWXY mnruwy",
+        "Armour and Weaponry"
+      ],
+      "parentHeadings": null,
+      "textPreview": "SS01 Geometric Alternates KR ajkt & Retake the Deeping-Wall! SS02 Rounded Alternates AMNWXY mnruwy Armour and Weaponry SS03 Gothic Alternates AEMNW e Make Each Night Worthwhile SS04 Solid Arrows ↑ ↗ → ↔ ↕ File → Resize ↔ Options ↗ SS05 Barl",
+      "fontFamilies": [
+        "MD IO",
+        "MD Nichrome"
+      ],
+      "maxFontSizePx": 96,
+      "variationSettings": [
+        "\"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(48, 80, 255)",
+      "color": "rgb(238, 234, 229)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.625,
+        "relY": 0.585,
+        "heightVh": 1.305,
+        "widthRatio": 1,
+        "text": 6.443,
+        "elements": 4.277,
+        "headings": 4,
+        "fontSizes": 2,
+        "maxFontVw": 0.067,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.136,
+        "fgLum": 0.827
+      },
+      "crop": "archive/nichrome-mass-driver-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/nichrome-mass-driver-com/blocks/05.html"
+    },
+    {
+      "id": "nichrome-mass-driver-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#technical",
+      "classes": [
+        "nav_section",
+        "fullheight",
+        "sage"
+      ],
+      "box": {
+        "x": 0,
+        "y": 8359,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "MD IO"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(204, 206, 195)",
+      "color": "rgb(17, 34, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.75,
+        "relY": 0.824,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 1.386,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.609,
+        "fgLum": 0.015
+      },
+      "crop": "archive/nichrome-mass-driver-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/nichrome-mass-driver-com/blocks/06.html"
+    },
+    {
+      "id": "nichrome-mass-driver-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#ctas",
+      "classes": [
+        "sage"
+      ],
+      "box": {
+        "x": 0,
+        "y": 9259,
+        "w": 1440,
+        "h": 542
+      },
+      "headings": [
+        "Buy MD Nichrome ↗",
+        "Download Trial Fonts ↓",
+        "Read the PDF Specimen →"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Buy MD Nichrome ↗ Download Trial Fonts ↓ Read the PDF Specimen →",
+      "fontFamilies": [
+        "MD Nichrome",
+        "MD IO"
+      ],
+      "maxFontSizePx": 96,
+      "variationSettings": [
+        "\"slnt\" 0, \"wght\" 900",
+        "\"slnt\" 0, \"wght\" 400",
+        "\"slnt\" 0, \"wght\" 100"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(204, 206, 195)",
+      "color": "rgb(17, 34, 51)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.875,
+        "relY": 0.912,
+        "heightVh": 0.471,
+        "widthRatio": 1,
+        "text": 4.174,
+        "elements": 2.079,
+        "headings": 3,
+        "fontSizes": 2,
+        "maxFontVw": 0.067,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": 0.609,
+        "fgLum": 0.015
+      },
+      "crop": "archive/nichrome-mass-driver-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/nichrome-mass-driver-com/blocks/07.html"
+    },
+    {
+      "id": "nichrome-mass-driver-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(10)",
+      "classes": [
+        "footer",
+        "night"
+      ],
+      "box": {
+        "x": 0,
+        "y": 9800,
+        "w": 1440,
+        "h": 346
+      },
+      "headings": [
+        "About the Website",
+        "About the Foundry",
+        "Links"
+      ],
+      "parentHeadings": null,
+      "textPreview": "About the Website Supporting text on this microsite is set in MD IO. Animations created with Coldtype. This site was designed and built in-house by Mass-Driver. It does not use cookies. © Mass-Driver 2021–24 About the Foundry Established in",
+      "fontFamilies": [
+        "MD IO"
+      ],
+      "maxFontSizePx": 14,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(17, 34, 51)",
+      "color": "rgb(204, 206, 195)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.966,
+        "heightVh": 0.325,
+        "widthRatio": 1,
+        "text": 6.192,
+        "elements": 3.466,
+        "headings": 3,
+        "fontSizes": 1,
+        "maxFontVw": 0.01,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.398,
+        "bgLum": 0.015,
+        "fgLum": 0.609
+      },
+      "crop": "archive/nichrome-mass-driver-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/nichrome-mass-driver-com/blocks/08.html"
+    }
+  ]
+}

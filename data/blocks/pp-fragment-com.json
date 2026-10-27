@@ -1,0 +1,1184 @@
+{
+  "slug": "pp-fragment-com",
+  "url": "https://pp-fragment.com",
+  "pageHeight": 20132,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "pp-fragment-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#top > section:nth-of-type(1)",
+      "classes": [
+        "s-hero",
+        "is-inview"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "P P P P P P P P P P F F F F F R R R R R A A A A A G G G G G M M M M M E E E E E "
+      ],
+      "parentHeadings": null,
+      "textPreview": "P P P P P P P P P P F F F F F R R R R R A A A A A G G G G G M M M M M E E E E E N N N N N T T T T T SANS GLARE SERIF TEXT A New 【Free to Try】 Font by Francesca Bolognini & Mathieu Desjardins Available exclusively at pangrampangram.com",
+      "fontFamilies": [
+        "PP Fragment Sans Variable",
+        "PP Fragment Glare Variable",
+        "PP Fragment Serif Variable",
+        "PP Fragment Text Variable"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"wght\" 300",
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 25,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 5.468,
+        "elements": 5.278,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.1,
+        "singleChar": 4.025,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 3.258,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/pp-fragment-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/pp-fragment-com/blocks/00.html"
+    },
+    {
+      "id": "pp-fragment-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#introduction",
+      "classes": [
+        "s-intro",
+        "|",
+        "o-container"
+      ],
+      "box": {
+        "x": 62,
+        "y": 900,
+        "w": 1378,
+        "h": 1920
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "PP Fragment is born from vintage lettering and signs, bridging 19th-century letterforms and contemporary typography ✳ Pangram Pangram’s 35th release uses the latest technology. Gracefully oscillating between an elegant, highly contrasted Se",
+      "fontFamilies": [
+        "PP Fragment Sans Variable",
+        "PP Fragment Glare Variable",
+        "PP Fragment Text Variable"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [
+        "\"wght\" 200"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.1,
+        "relY": 0.045,
+        "heightVh": 1.142,
+        "widthRatio": 0.957,
+        "text": 6.961,
+        "elements": 5.635,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.033,
+        "singleChar": 3.912,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/pp-fragment-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/pp-fragment-com/blocks/01.html"
+    },
+    {
+      "id": "pp-fragment-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#top > div:nth-of-type(1)",
+      "classes": [
+        "s-info",
+        "|",
+        "o-sticky-section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2910,
+        "w": 1440,
+        "h": 3600
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "4 4 4 4 4 C C C C C U U U U U T T T T T S S S S S 9 9 9 9 9 S S S S S T T T T T Y Y Y Y Y L L L L L E E E E E S S S S S 5 5 5 5 5 8 8 8 8 8 1 1 1 1 1 G G G G G L L L L L Y Y Y Y Y P P P P P H H H H H S S S S S",
+      "fontFamilies": [
+        "PP Fragment Sans Variable",
+        "PP Fragment Glare Variable",
+        "PP Fragment Serif Variable",
+        "PP Fragment Text Variable"
+      ],
+      "maxFontSizePx": 173,
+      "variationSettings": [
+        "\"wght\" 200"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.2,
+        "relY": 0.145,
+        "heightVh": 1.609,
+        "widthRatio": 1,
+        "text": 5.357,
+        "elements": 5.136,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.12,
+        "singleChar": 4.663,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.386,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/pp-fragment-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/pp-fragment-com/blocks/02.html"
+    },
+    {
+      "id": "pp-fragment-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#from-sans-to-serif",
+      "classes": [
+        "s-random",
+        "|",
+        "o-container",
+        "o-sticky-section",
+        "-desktop",
+        "u-color-invert"
+      ],
+      "box": {
+        "x": 62,
+        "y": 5610,
+        "w": 1378,
+        "h": 1800
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "UNLIMITED COMBINATIONSAND SO MANY POSSIBILITIES UNLIMITED COMBINATIONSAND SO MANY POSSIBILITIES UNLIMITED COMBINATIONSAND SO MANY POSSIBILITIES UNLIMITED COMBINATIONSAND SO MANY POSSIBILITIES UNLIMITED COMBINATIONSAND SO MANY POSSIBILITIES ",
+      "fontFamilies": [
+        "PP Fragment Sans Variable",
+        "PP Fragment Text Variable",
+        "PP Fragment Glare Variable",
+        "PP Fragment Serif Variable"
+      ],
+      "maxFontSizePx": 74,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"wght\" 700",
+        "\"wght\" 900"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.3,
+        "relY": 0.279,
+        "heightVh": 1.099,
+        "widthRatio": 0.957,
+        "text": 6.061,
+        "elements": 5.043,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.051,
+        "singleChar": 4.331,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": "archive/pp-fragment-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/pp-fragment-com/blocks/03.html"
+    },
+    {
+      "id": "pp-fragment-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#glyph-set",
+      "classes": [
+        "s-glyph"
+      ],
+      "box": {
+        "x": 0,
+        "y": 7499,
+        "w": 1440,
+        "h": 2314
+      },
+      "headings": [
+        "Pangram Pangram® Foundry offers you an elegant & retro contemporary new font — F"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Sans Regular Pangram Pangram® Foundry offers you an elegant & retro contemporary new font — Fragment ! \" # $ % ; ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; ; = ; ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \\ ] ^ _ \\ a b c d e f",
+      "fontFamilies": [
+        "PP Fragment Sans Variable",
+        "PP Fragment Glare Variable"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [
+        "\"wght\" 200",
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 29,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.4,
+        "relY": 0.372,
+        "heightVh": 1.273,
+        "widthRatio": 1,
+        "text": 6.949,
+        "elements": 6.891,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.033,
+        "singleChar": 5.17,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 3.401,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/pp-fragment-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/pp-fragment-com/blocks/04.html"
+    },
+    {
+      "id": "pp-fragment-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#font-sampler",
+      "classes": [
+        "s-playground",
+        "|",
+        "o-container"
+      ],
+      "box": {
+        "x": 62,
+        "y": 9813,
+        "w": 1378,
+        "h": 1356
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Font SANS GLARE SERIF TEXT Size 225pt Weight 400 Letter Spacing 0% Line Height 281pt Type in some text",
+      "fontFamilies": [
+        "PP Fragment Sans Variable"
+      ],
+      "maxFontSizePx": 225,
+      "variationSettings": [
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 4,
+        "text": 1,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 9,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.487,
+        "heightVh": 0.919,
+        "widthRatio": 0.957,
+        "text": 4.635,
+        "elements": 4.317,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.156,
+        "singleChar": 2.996,
+        "varSettings": 1,
+        "range": 1.609,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 2.303,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": "archive/pp-fragment-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/pp-fragment-com/blocks/05.html"
+    },
+    {
+      "id": "pp-fragment-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#fragment-in-use",
+      "classes": [
+        "s-posters",
+        "|",
+        "o-container",
+        "o-sticky-section",
+        "-desktop",
+        "u-color-invert"
+      ],
+      "box": {
+        "x": 62,
+        "y": 11349,
+        "w": 1378,
+        "h": 1800
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "RANDOMIZE",
+      "fontFamilies": [
+        "PP Fragment Sans Variable"
+      ],
+      "maxFontSizePx": 12,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 15,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.6,
+        "relY": 0.564,
+        "heightVh": 1.099,
+        "widthRatio": 0.957,
+        "text": 2.303,
+        "elements": 3.829,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.008,
+        "singleChar": 2.303,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 2.773,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/pp-fragment-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/pp-fragment-com/blocks/06.html"
+    },
+    {
+      "id": "pp-fragment-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#top > div:nth-of-type(5)",
+      "classes": [
+        "c-home_details",
+        "|",
+        "o-container"
+      ],
+      "box": {
+        "x": 62,
+        "y": 13149,
+        "w": 1378,
+        "h": 1760
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Afrikaans Basque Breton Catalan Croatian Czech Danish Dutch English Estonian Finnish French Gaelic German Hungarian Icelandic Indonesian Irish Italian Latvian Lituanian Norwegian Polish Portuguese Romanian Saami Serbian Slovak Slovenian Spa",
+      "fontFamilies": [
+        "PP Fragment Sans Variable",
+        "PP Fragment Text Variable",
+        "PP Fragment Serif Variable"
+      ],
+      "maxFontSizePx": 74,
+      "variationSettings": [
+        "\"wght\" 100"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 6,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.7,
+        "relY": 0.653,
+        "heightVh": 1.084,
+        "widthRatio": 0.957,
+        "text": 5.943,
+        "elements": 4.522,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.051,
+        "singleChar": 1.609,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.946,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/pp-fragment-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/pp-fragment-com/blocks/07.html"
+    },
+    {
+      "id": "pp-fragment-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#top > div:nth-of-type(6)",
+      "classes": [
+        "s-push",
+        "|",
+        "o-container",
+        "o-sticky-section",
+        "-desktop"
+      ],
+      "box": {
+        "x": 62,
+        "y": 14684,
+        "w": 1378,
+        "h": 3600
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "① BUY BUY PP® FRAGMENT ② TRY FOR FREE TRY PP® FRAGMENT FOR FREE ③ PP® WALLPAPERS ENJOY PP® FRAGMENT WALLPAPERS",
+      "fontFamilies": [
+        "PP Fragment Sans Variable",
+        "PP Fragment Serif Variable"
+      ],
+      "maxFontSizePx": 34,
+      "variationSettings": [
+        "\"wght\" 500",
+        "\"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 6,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.8,
+        "relY": 0.729,
+        "heightVh": 1.609,
+        "widthRatio": 0.957,
+        "text": 4.71,
+        "elements": 4.7,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.024,
+        "singleChar": 4.174,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.946,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/pp-fragment-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/pp-fragment-com/blocks/08.html"
+    },
+    {
+      "id": "pp-fragment-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#top > div:nth-of-type(7)",
+      "classes": [
+        "s-credits",
+        "|",
+        "o-container"
+      ],
+      "box": {
+        "x": 62,
+        "y": 18059,
+        "w": 1378,
+        "h": 552
+      },
+      "headings": [
+        "Credits",
+        "Typeface",
+        "Visuals"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Credits Typeface PP Fragment is born from vintage lettering and signs, bridging 19th-century letterforms and contemporary typography ● Pangram Pangram’s 35th release uses the latest technology, gracefully oscillating between an elegant, hig",
+      "fontFamilies": [
+        "PP Fragment Glare Variable",
+        "PP Fragment Sans Variable"
+      ],
+      "maxFontSizePx": 34,
+      "variationSettings": [
+        "\"wght\" 200"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.9,
+        "relY": 0.897,
+        "heightVh": 0.478,
+        "widthRatio": 0.957,
+        "text": 6.984,
+        "elements": 5.398,
+        "headings": 3,
+        "fontSizes": 2,
+        "maxFontVw": 0.023,
+        "singleChar": 3.135,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/pp-fragment-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/pp-fragment-com/blocks/09.html"
+    },
+    {
+      "id": "pp-fragment-com#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "#app > footer",
+      "classes": [
+        "c-footer",
+        "|",
+        "o-container"
+      ],
+      "box": {
+        "x": 62,
+        "y": 18611,
+        "w": 1378,
+        "h": 1521
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Ω Copyright © 2022 Pangram Pangram Foundry Website by Locomotive",
+      "fontFamilies": [
+        "PP Fragment Sans Variable",
+        "PP Fragment Serif Variable"
+      ],
+      "maxFontSizePx": 950,
+      "variationSettings": [
+        "\"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.924,
+        "heightVh": 0.99,
+        "widthRatio": 0.957,
+        "text": 4.205,
+        "elements": 2.996,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.66,
+        "singleChar": 1.386,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/pp-fragment-com/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/pp-fragment-com/blocks/10.html"
+    },
+    {
+      "id": "pp-fragment-com#11",
+      "nn": "11",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "header",
+      "selector": "#app > div:nth-of-type(2) > header",
+      "classes": [
+        "c-header"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 62
+      },
+      "headings": [
+        "PANGRAM PANGRAM® FOUNDRY + LOCOMOTIVE®"
+      ],
+      "parentHeadings": null,
+      "textPreview": "PANGRAM PANGRAM® FOUNDRY + LOCOMOTIVE® PP® FRAGMENT GET THE FONT",
+      "fontFamilies": [
+        "PP Fragment Sans Variable"
+      ],
+      "maxFontSizePx": 12,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.1,
+        "relY": 0,
+        "heightVh": 0.067,
+        "widthRatio": 1,
+        "text": 4.174,
+        "elements": 2.996,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.008,
+        "singleChar": 2.398,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.609,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/pp-fragment-com/blocks/11.html"
+    },
+    {
+      "id": "pp-fragment-com#12",
+      "nn": "12",
+      "kind": "offscreen",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(2) > div:nth-of-type(1)",
+      "classes": [
+        "c-menu"
+      ],
+      "box": {
+        "x": -511,
+        "y": 62,
+        "w": 511,
+        "h": 838
+      },
+      "headings": [
+        "Fragment"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Fragment Introduction From Sans to Serif Glyph Set Font Sampler Fragment in Use Special Characters Get 〖the font〗 Pangram Pangram® Foundry Locomotive Terms & Conditions FAQ Contact",
+      "fontFamilies": [
+        "PP Fragment Sans Variable",
+        "PP Fragment Serif Variable"
+      ],
+      "maxFontSizePx": 28,
+      "variationSettings": [
+        "\"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.2,
+        "relY": 0.003,
+        "heightVh": 0.658,
+        "widthRatio": 0.355,
+        "text": 5.198,
+        "elements": 4.443,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.019,
+        "singleChar": 3.135,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.565,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/pp-fragment-com/blocks/12.html"
+    }
+  ]
+}

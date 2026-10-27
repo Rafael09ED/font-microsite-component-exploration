@@ -1,0 +1,1171 @@
+{
+  "slug": "finaltype-de-en-projects-monoflow",
+  "url": "https://finaltype.de/en/projects/monoflow",
+  "pageHeight": 8162,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "finaltype-de-en-projects-monoflow#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "header",
+      "selector": "#top",
+      "classes": [
+        "header",
+        "cf"
+      ],
+      "box": {
+        "x": 96,
+        "y": 0,
+        "w": 1248,
+        "h": 150
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Topics Fonts People Contact de en",
+      "fontFamilies": [
+        "BenediktCritical"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(34, 34, 34)",
+      "color": "rgb(236, 231, 225)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.154,
+        "widthRatio": 0.867,
+        "text": 3.526,
+        "elements": 2.89,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.014,
+        "singleChar": 1.099,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.079,
+        "bgLum": 0.016,
+        "fgLum": 0.804
+      },
+      "crop": "archive/finaltype-de-en-projects-monoflow/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/finaltype-de-en-projects-monoflow/blocks/00.html"
+    },
+    {
+      "id": "finaltype-de-en-projects-monoflow#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > main > div",
+      "classes": [
+        "intro",
+        "center"
+      ],
+      "box": {
+        "x": 0,
+        "y": 150,
+        "w": 1440,
+        "h": 450
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "BenediktCritical",
+        ""
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 1,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.083,
+        "relY": 0.018,
+        "heightVh": 0.405,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0.693,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.016
+      },
+      "crop": "archive/finaltype-de-en-projects-monoflow/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/finaltype-de-en-projects-monoflow/blocks/01.html"
+    },
+    {
+      "id": "finaltype-de-en-projects-monoflow#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section > section:nth-of-type(2)",
+      "classes": [
+        "figure",
+        "full-width"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1474,
+        "w": 1440,
+        "h": 687
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Monoflow",
+        "Testdrive Monoflow by typing in this box:",
+        "Harmonic spacing despite monospace?",
+        "Better spacing through contextual repositioning"
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "BenediktCritical"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(34, 34, 51)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.167,
+        "relY": 0.181,
+        "heightVh": 0.567,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.017,
+        "fgLum": 0.016
+      },
+      "crop": "archive/finaltype-de-en-projects-monoflow/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/finaltype-de-en-projects-monoflow/blocks/02.html"
+    },
+    {
+      "id": "finaltype-de-en-projects-monoflow#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section > section:nth-of-type(3)",
+      "classes": [
+        "code"
+      ],
+      "box": {
+        "x": 168,
+        "y": 2289,
+        "w": 1104,
+        "h": 442
+      },
+      "headings": [
+        "Testdrive Monoflow by typing in this box:"
+      ],
+      "parentHeadings": [
+        "Monoflow",
+        "Testdrive Monoflow by typing in this box:",
+        "Harmonic spacing despite monospace?",
+        "Better spacing through contextual repositioning"
+      ],
+      "textPreview": "Testdrive Monoflow by typing in this box: # Monoflow // enjoy the difference import finaltype.de from human import character function setAttributes(){ str verticalMetrics = \"classical\"; int readability = 11; boolean hasItalics = true; };",
+      "fontFamilies": [
+        "Monoflow"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.25,
+        "relY": 0.28,
+        "heightVh": 0.4,
+        "widthRatio": 0.767,
+        "text": 5.485,
+        "elements": 2.639,
+        "headings": 1,
+        "fontSizes": 1,
+        "maxFontVw": 0.014,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.016
+      },
+      "crop": "archive/finaltype-de-en-projects-monoflow/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/finaltype-de-en-projects-monoflow/blocks/03.html"
+    },
+    {
+      "id": "finaltype-de-en-projects-monoflow#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section > section:nth-of-type(4)",
+      "classes": [
+        "bodytext"
+      ],
+      "box": {
+        "x": 168,
+        "y": 2791,
+        "w": 1104,
+        "h": 340
+      },
+      "headings": [
+        "Harmonic spacing despite monospace?"
+      ],
+      "parentHeadings": [
+        "Monoflow",
+        "Testdrive Monoflow by typing in this box:",
+        "Harmonic spacing despite monospace?",
+        "Better spacing through contextual repositioning"
+      ],
+      "textPreview": "Harmonic spacing despite monospace? If you follow our publications, you might have noticed: We do care a lot about spacing. It was clear from the start that if we did a monospace, we’d have to get it right. It seems like an impossible task ",
+      "fontFamilies": [
+        "Monoflow"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.342,
+        "heightVh": 0.32,
+        "widthRatio": 0.767,
+        "text": 6.709,
+        "elements": 1.386,
+        "headings": 1,
+        "fontSizes": 1,
+        "maxFontVw": 0.014,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.016
+      },
+      "crop": "archive/finaltype-de-en-projects-monoflow/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/finaltype-de-en-projects-monoflow/blocks/04.html"
+    },
+    {
+      "id": "finaltype-de-en-projects-monoflow#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section > section:nth-of-type(5)",
+      "classes": [
+        "figure",
+        "full-width"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3259,
+        "w": 1440,
+        "h": 576
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Monoflow",
+        "Testdrive Monoflow by typing in this box:",
+        "Harmonic spacing despite monospace?",
+        "Better spacing through contextual repositioning"
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "BenediktCritical"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(34, 34, 51)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.417,
+        "relY": 0.399,
+        "heightVh": 0.495,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.017,
+        "fgLum": 0.016
+      },
+      "crop": "archive/finaltype-de-en-projects-monoflow/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/finaltype-de-en-projects-monoflow/blocks/05.html"
+    },
+    {
+      "id": "finaltype-de-en-projects-monoflow#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section > section:nth-of-type(6)",
+      "classes": [
+        "bodytext"
+      ],
+      "box": {
+        "x": 168,
+        "y": 3962,
+        "w": 1104,
+        "h": 340
+      },
+      "headings": [
+        "Better spacing through contextual repositioning"
+      ],
+      "parentHeadings": [
+        "Monoflow",
+        "Testdrive Monoflow by typing in this box:",
+        "Harmonic spacing despite monospace?",
+        "Better spacing through contextual repositioning"
+      ],
+      "textPreview": "Better spacing through contextual repositioning We live in crazy times. Compared to the typewriter, the root of the beloved aesthetics of monospace fonts, we have a lot more typographic flexibility today. In regular (non monospaced) fonts, ",
+      "fontFamilies": [
+        "Monoflow"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.485,
+        "heightVh": 0.32,
+        "widthRatio": 0.767,
+        "text": 6.648,
+        "elements": 1.609,
+        "headings": 1,
+        "fontSizes": 1,
+        "maxFontVw": 0.014,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.016
+      },
+      "crop": "archive/finaltype-de-en-projects-monoflow/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/finaltype-de-en-projects-monoflow/blocks/06.html"
+    },
+    {
+      "id": "finaltype-de-en-projects-monoflow#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section > section:nth-of-type(7)",
+      "classes": [
+        "figure",
+        "full-width"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4430,
+        "w": 1440,
+        "h": 397
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Monoflow",
+        "Testdrive Monoflow by typing in this box:",
+        "Harmonic spacing despite monospace?",
+        "Better spacing through contextual repositioning"
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "BenediktCritical"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(34, 34, 51)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.583,
+        "relY": 0.543,
+        "heightVh": 0.365,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.017,
+        "fgLum": 0.016
+      },
+      "crop": "archive/finaltype-de-en-projects-monoflow/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/finaltype-de-en-projects-monoflow/blocks/07.html"
+    },
+    {
+      "id": "finaltype-de-en-projects-monoflow#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section > section:nth-of-type(8)",
+      "classes": [
+        "figure",
+        "full-width"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4956,
+        "w": 1440,
+        "h": 536
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Monoflow",
+        "Testdrive Monoflow by typing in this box:",
+        "Harmonic spacing despite monospace?",
+        "Better spacing through contextual repositioning"
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "BenediktCritical"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(34, 34, 51)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.607,
+        "heightVh": 0.467,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.017,
+        "fgLum": 0.016
+      },
+      "crop": "archive/finaltype-de-en-projects-monoflow/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/finaltype-de-en-projects-monoflow/blocks/08.html"
+    },
+    {
+      "id": "finaltype-de-en-projects-monoflow#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section > section:nth-of-type(10)",
+      "classes": [
+        "owl-carousel",
+        "owl-theme",
+        "owl-loaded",
+        "owl-drag"
+      ],
+      "box": {
+        "x": 168,
+        "y": 5900,
+        "w": 1104,
+        "h": 598
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Monoflow",
+        "Testdrive Monoflow by typing in this box:",
+        "Harmonic spacing despite monospace?",
+        "Better spacing through contextual repositioning"
+      ],
+      "textPreview": "‹ ›",
+      "fontFamilies": [
+        "BenediktCritical"
+      ],
+      "maxFontSizePx": 80,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 8,
+        "color": 0
+      },
+      "media": {
+        "img": 12,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.75,
+        "relY": 0.723,
+        "heightVh": 0.509,
+        "widthRatio": 0.767,
+        "text": 1.386,
+        "elements": 4.043,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.056,
+        "singleChar": 1.099,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 2.197,
+        "img": 2.565,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.016
+      },
+      "crop": "archive/finaltype-de-en-projects-monoflow/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/finaltype-de-en-projects-monoflow/blocks/09.html"
+    },
+    {
+      "id": "finaltype-de-en-projects-monoflow#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "aside",
+      "selector": "body > main > section > aside:nth-of-type(2)",
+      "classes": [
+        "author"
+      ],
+      "box": {
+        "x": 168,
+        "y": 7030,
+        "w": 1104,
+        "h": 240
+      },
+      "headings": [
+        "PROF. HANS R. HEITMANN"
+      ],
+      "parentHeadings": [
+        "Monoflow",
+        "Testdrive Monoflow by typing in this box:",
+        "Harmonic spacing despite monospace?",
+        "Better spacing through contextual repositioning"
+      ],
+      "textPreview": "PROF. HANS R. HEITMANN Prof. Hans R. Heitmann is the initiator of Finaltype. His main areas of expertise are type & type design, logo design, calligraphy, typography and artistic design. In his teaching he developed his own didactical conce",
+      "fontFamilies": [
+        "BenediktCritical"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(34, 34, 34, 0.1)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.833,
+        "relY": 0.861,
+        "heightVh": 0.236,
+        "widthRatio": 0.767,
+        "text": 5.826,
+        "elements": 1.946,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.016,
+        "fgLum": 0.016
+      },
+      "crop": "archive/finaltype-de-en-projects-monoflow/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/finaltype-de-en-projects-monoflow/blocks/10.html"
+    },
+    {
+      "id": "finaltype-de-en-projects-monoflow#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "aside",
+      "selector": "body > main > section > aside:nth-of-type(3)",
+      "classes": [
+        "author"
+      ],
+      "box": {
+        "x": 168,
+        "y": 7334,
+        "w": 1104,
+        "h": 240
+      },
+      "headings": [
+        "JOHANNES AMMON"
+      ],
+      "parentHeadings": [
+        "Monoflow",
+        "Testdrive Monoflow by typing in this box:",
+        "Harmonic spacing despite monospace?",
+        "Better spacing through contextual repositioning"
+      ],
+      "textPreview": "JOHANNES AMMON After earning a bachelor’s degree in communication design from the University of Applied Sciences in Augsburg, Johannes Ammon earned his master’s degree at the University of Applied Sciences in Mainz. Besides Finaltype he is ",
+      "fontFamilies": [
+        "BenediktCritical"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(34, 34, 34, 0.1)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.917,
+        "relY": 0.899,
+        "heightVh": 0.236,
+        "widthRatio": 0.767,
+        "text": 5.999,
+        "elements": 1.946,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.016,
+        "fgLum": 0.016
+      },
+      "crop": "archive/finaltype-de-en-projects-monoflow/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/finaltype-de-en-projects-monoflow/blocks/11.html"
+    },
+    {
+      "id": "finaltype-de-en-projects-monoflow#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > footer",
+      "classes": [],
+      "box": {
+        "x": 144,
+        "y": 7862,
+        "w": 1152,
+        "h": 300
+      },
+      "headings": [
+        "newsletter"
+      ],
+      "parentHeadings": null,
+      "textPreview": "newsletter Email Adress We use Buttondown for sending our newsletters. You can unsubscribe at any time by clicking the link in the footer of our emails. © 2016–2026 Finaltype — Impressum / Datenschutz",
+      "fontFamilies": [
+        "BenediktCritical",
+        "Benedikt"
+      ],
+      "maxFontSizePx": 19,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(236, 231, 225)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": true,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.963,
+        "heightVh": 0.288,
+        "widthRatio": 0.8,
+        "text": 5.323,
+        "elements": 2.565,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 0.804
+      },
+      "crop": "archive/finaltype-de-en-projects-monoflow/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/finaltype-de-en-projects-monoflow/blocks/12.html"
+    }
+  ]
+}

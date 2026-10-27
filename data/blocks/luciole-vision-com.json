@@ -1,0 +1,619 @@
+{
+  "slug": "luciole-vision-com",
+  "url": "https://luciole-vision.com",
+  "pageHeight": 5596,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "luciole-vision-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": true,
+      "tag": "header",
+      "selector": "#header",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 60
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Skip to content Luciole Introduction About Try it Download The Team Français",
+      "fontFamilies": [
+        "Luciole",
+        "Arial"
+      ],
+      "maxFontSizePx": 22,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(48, 56, 52)",
+      "color": "rgb(251, 250, 247)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": true,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.065,
+        "widthRatio": 1,
+        "text": 4.344,
+        "elements": 2.833,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.015,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.197,
+        "bgLum": 0.037,
+        "fgLum": 0.956
+      },
+      "crop": "archive/luciole-vision-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/luciole-vision-com/blocks/00.html"
+    },
+    {
+      "id": "luciole-vision-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#intro",
+      "classes": [
+        "wrapper"
+      ],
+      "box": {
+        "x": 120,
+        "y": 60,
+        "w": 1200,
+        "h": 798
+      },
+      "headings": [
+        "Luciole is a new typeface developed explicitly for visually impaired people.",
+        "Introduction"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Luciole is a new typeface developed explicitly for visually impaired people. Introduction The result of a two-year collaboration between the Regional Technical Center for Visual Impairment and the type-design studio typographies.fr, this pr",
+      "fontFamilies": [
+        "Luciole"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 7,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 56, 52)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.167,
+        "relY": 0.011,
+        "heightVh": 0.635,
+        "widthRatio": 0.833,
+        "text": 6.428,
+        "elements": 3.584,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.033,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.079,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.079,
+        "bgLum": -1,
+        "fgLum": 0.037
+      },
+      "crop": "archive/luciole-vision-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/luciole-vision-com/blocks/01.html"
+    },
+    {
+      "id": "luciole-vision-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#about",
+      "classes": [
+        "wrapper",
+        "lg:col-2"
+      ],
+      "box": {
+        "x": 120,
+        "y": 858,
+        "w": 1200,
+        "h": 1698
+      },
+      "headings": [
+        "About",
+        "A typeface for visual impairment",
+        "A powerful editorial tool",
+        "A typeface to advance research"
+      ],
+      "parentHeadings": null,
+      "textPreview": "About A typeface for visual impairment Word massing, spacing, the structure of the letters: the concept for Luciole adheres to a dozen specific design criteria to provide the best possible reading experience for the visually impaired. Parti",
+      "fontFamilies": [
+        "Luciole"
+      ],
+      "maxFontSizePx": 27,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 56, 52)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.153,
+        "heightVh": 1.06,
+        "widthRatio": 0.833,
+        "text": 7.533,
+        "elements": 3.497,
+        "headings": 4,
+        "fontSizes": 3,
+        "maxFontVw": 0.019,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.386,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 0.037
+      },
+      "crop": "archive/luciole-vision-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/luciole-vision-com/blocks/02.html"
+    },
+    {
+      "id": "luciole-vision-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#try",
+      "classes": [
+        "full-width"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2556,
+        "w": 1440,
+        "h": 840
+      },
+      "headings": [
+        "Try it"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Try it Variant Luciole Regular Luciole Italic Luciole Bold Luciole Bold Italic Text align Size Leading Give the Luciole typeface a try by typing some text here.",
+      "fontFamilies": [
+        "Luciole",
+        "Arial"
+      ],
+      "maxFontSizePx": 60,
+      "variationSettings": [],
+      "controls": {
+        "range": 2,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 1,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 3,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(93, 96, 92)",
+      "color": "rgb(251, 250, 247)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": true,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.457,
+        "heightVh": 0.659,
+        "widthRatio": 1,
+        "text": 5.088,
+        "elements": 3.807,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.042,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 1.099,
+        "textInput": 0.693,
+        "toggles": 0.693,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.386,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.115,
+        "fgLum": 0.956
+      },
+      "crop": "archive/luciole-vision-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/luciole-vision-com/blocks/03.html"
+    },
+    {
+      "id": "luciole-vision-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#download",
+      "classes": [
+        "wrapper",
+        "lg:col-2",
+        "border-b"
+      ],
+      "box": {
+        "x": 120,
+        "y": 3396,
+        "w": 1200,
+        "h": 759
+      },
+      "headings": [
+        "Download",
+        "Download the typeface"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Download Download the typeface Luciole is available for download under a Creative Commons Attribution license, which covers use (including commercial use) and distribution of the typeface for free. Simply download the fonts and move the fil",
+      "fontFamilies": [
+        "Luciole"
+      ],
+      "maxFontSizePx": 27,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 56, 52)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.607,
+        "heightVh": 0.612,
+        "widthRatio": 0.833,
+        "text": 6.479,
+        "elements": 3.135,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.019,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.792,
+        "bgLum": -1,
+        "fgLum": 0.037
+      },
+      "crop": "archive/luciole-vision-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/luciole-vision-com/blocks/04.html"
+    },
+    {
+      "id": "luciole-vision-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#team",
+      "classes": [
+        "wrapper"
+      ],
+      "box": {
+        "x": 120,
+        "y": 4155,
+        "w": 1200,
+        "h": 852
+      },
+      "headings": [
+        "The team",
+        "Project initial team",
+        "Project current team",
+        "Contact"
+      ],
+      "parentHeadings": null,
+      "textPreview": "The team Project initial team Coordination: Carole Malet and Jonathan Fabreguettes Ophthalmologist: Dr Florence de Saint-Etienne Orthoptist: Anne-Céline Blanc Psychologist: Véronique Morra Typeface designer: Laurent Bourcellier Transcriber:",
+      "fontFamilies": [
+        "Luciole"
+      ],
+      "maxFontSizePx": 27,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 56, 52)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.833,
+        "relY": 0.742,
+        "heightVh": 0.666,
+        "widthRatio": 0.833,
+        "text": 7.117,
+        "elements": 4.159,
+        "headings": 4,
+        "fontSizes": 3,
+        "maxFontVw": 0.019,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.079,
+        "bgLum": -1,
+        "fgLum": 0.037
+      },
+      "crop": "archive/luciole-vision-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/luciole-vision-com/blocks/05.html"
+    },
+    {
+      "id": "luciole-vision-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "#footer",
+      "classes": [
+        "wrapper"
+      ],
+      "box": {
+        "x": 120,
+        "y": 5055,
+        "w": 1200,
+        "h": 541
+      },
+      "headings": [
+        "Impressum"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Impressum Director of publication: Carole Malet Tél.: 04 37 43 38 20 c.malet@lespep69.org CTRDV Head office: 150, rue du 4 Août 1789 69100 Villeurbanne, FR Hosting: OVH – SAS au capital de 10 000 000 € RCS Roubaix – Tourcoing 424 761 419 00",
+      "fontFamilies": [
+        "Luciole"
+      ],
+      "maxFontSizePx": 27,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 7,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(48, 56, 52)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.903,
+        "heightVh": 0.471,
+        "widthRatio": 0.833,
+        "text": 6.475,
+        "elements": 4.205,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.019,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.079,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.197,
+        "bgLum": -1,
+        "fgLum": 0.037
+      },
+      "crop": "archive/luciole-vision-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/luciole-vision-com/blocks/06.html"
+    }
+  ]
+}

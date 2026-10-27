@@ -1,0 +1,273 @@
+{
+  "slug": "heydon-works-skwar",
+  "url": "https://heydon.works/skwar/",
+  "pageHeight": 6300,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "heydon-works-skwar#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "main",
+      "selector": "body > main",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 4500
+      },
+      "headings": [
+        "SKWAR SKWAR SKWAR SKWAR SKWAR SKWAR"
+      ],
+      "parentHeadings": null,
+      "textPreview": "SKWAR SKWAR SKWAR SKWAR SKWAR SKWAR SKWAR is a very square, monospaced variable font with weight and width axes ↓ WEIGHT WIDTH SHUFFLE! 8 ” ‘ ’ 2 E O U ? - 1 K F 3 ! : R H Q ; + M ' J > G % * W \\ @ P 6 & \" £ T | 4 0 ) _ ` S < ( “ Z C 9 , 5 ",
+      "fontFamilies": [
+        "monospace",
+        "SKWARLETTERS"
+      ],
+      "maxFontSizePx": 130,
+      "variationSettings": [
+        "\"wdth\" 600, \"wght\" 400",
+        "\"wdth\" 500, \"wght\" 100",
+        "\"wdth\" 600, \"wght\" 200",
+        "\"wdth\" 700, \"wght\" 300",
+        "\"wdth\" 800, \"wght\" 400",
+        "\"wdth\" 900, \"wght\" 500",
+        "\"wdth\" 1000, \"wght\" 600",
+        "\"wdth\" 500, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 2,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 1.792,
+        "widthRatio": 1,
+        "text": 7.303,
+        "elements": 6.921,
+        "headings": 1,
+        "fontSizes": 17,
+        "maxFontVw": 0.09,
+        "singleChar": 5.631,
+        "varSettings": 8,
+        "range": 1.099,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 1.099,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/heydon-works-skwar/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/heydon-works-skwar/blocks/00.html"
+    },
+    {
+      "id": "heydon-works-skwar#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "nav",
+      "selector": "body > nav",
+      "classes": [
+        "actions"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4500,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Get Just the letters TTF format only because Cloudinary doesn’t f**king support ZIP files Trial license Buy (€20) €20! Letters, numbers, and punctuation TTF, WOFF, WOFF2 Full license for desktop and web use",
+      "fontFamilies": [
+        "monospace",
+        "SKWARLETTERS"
+      ],
+      "maxFontSizePx": 65,
+      "variationSettings": [
+        "\"wdth\" 600, \"wght\" 600"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": true
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.714,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 5.333,
+        "elements": 2.89,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.045,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.609,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/heydon-works-skwar/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/heydon-works-skwar/blocks/01.html"
+    },
+    {
+      "id": "heydon-works-skwar#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div",
+      "classes": [
+        "screen"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5400,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "monospace"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 2,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.857,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 1.099,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/heydon-works-skwar/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/heydon-works-skwar/blocks/02.html"
+    }
+  ]
+}

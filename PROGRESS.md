@@ -1,0 +1,201 @@
+# Progress
+
+_Generated from `data/progress.json` by `scripts/lib/progress.mjs` — edit via the scripts, not by hand._
+
+**Next action:** Phase 2.4 — Write METHOD.md + patterns/*.md, review together. When finished: `node scripts/progress.mjs set method done`.
+
+## Phases
+
+- [x] Phase 1 — Archive every site (DOM, screenshots, video, outline, signals) — 181/181 done
+- [x] Phase 2.1 — Rough-cut every site into unlabelled blocks — 181/181 done
+- [x] Phase 2.2 — Sample ~250 blocks across sites, contact sheets, label each sheet — 28/28 sheets labelled — 250 blocks, 28 sheets labelled (6 by Claude, 22 by agents)
+- [x] Phase 2.3 — Cluster instances by component similarity — taxonomy.json: 19 types / 84 variants; DOM features predict type 41%
+- [ ] Phase 2.4 — Write METHOD.md + patterns/*.md, review together — METHOD.md written — awaiting review of the 4 decisions
+- [ ] Phase 3 — Extract: type + variant + rubric + note per block — 0/181 done
+- [ ] Phase 4 — Gallery & playground
+
+## Sites
+
+Legend: ✓ done · ✗ failed · … interrupted · ↻ stale (older method, will redo) · – skipped · ☐ pending
+
+- [ ] 001 [gt-walsheim-com](https://gt-walsheim.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 002 [gt-america-com](https://www.gt-america.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 003 [gt-cinetype-com](https://gt-cinetype.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 004 [gt-eesti-com](https://gt-eesti.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 005 [gt-ultra-com](https://gt-ultra.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 006 [gt-flexa-com](https://www.gt-flexa.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 007 [gt-maru-com](https://gt-maru.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 008 [gt-alpina-com](https://gt-alpina.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 009 [gt-super-com](https://www.gt-super.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 010 [gt-haptik-com](https://www.gt-haptik.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 011 [gt-zirkon-com](https://gt-zirkon.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 012 [gt-pressura-com](https://www.gt-pressura.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 013 [gt-planar-com](https://gt-planar.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 014 [gt-mechanik-com](https://gt-mechanik.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 015 [gt-canon-com](https://gt-canon.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 016 [gt-flaire-com](https://gt-flaire.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 017 [gt-pantheon-com](https://gt-pantheon.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 018 [gt-standard-com](https://gt-standard.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 019 [pp-fragment-com](https://pp-fragment.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 020 [editorialnew-com](https://editorialnew.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 021 [pp-frama-com](https://pp-frama.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 022 [foodissue-commercialtype-com](https://foodissue.commercialtype.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 023 [tofino-losttype-com](https://tofino.losttype.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 024 [prospectus-losttype-com](http://prospectus.losttype.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 025 [mort-modern-losttype-com](https://mort-modern.losttype.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 026 [faction-losttype-com](http://faction.losttype.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 027 [moriston-losttype-com](http://moriston.losttype.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 028 [escafina-losttype-com](http://escafina.losttype.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 029 [latest-losttype-com-introducing-dotties](https://latest.losttype.com/introducing/dotties) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 030 [sanssheriff-wtf](https://www.sanssheriff.wtf) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 031 [infinite-tragedy-com](https://www.infinite-tragedy.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 032 [serf-nan-xyz](https://serf.nan.xyz) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 033 [s-u-c-c-e-s-s-com](https://www.s-u-c-c-e-s-s.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 034 [djr-com-forma](https://djr.com/forma) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 035 [nichrome-mass-driver-com](https://nichrome.mass-driver.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 036 [polychrome-mass-driver-com](https://polychrome.mass-driver.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 037 [djr-com-roslindale](https://djr.com/roslindale) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 038 [system-mass-driver-com](https://system.mass-driver.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 039 [recursive-design](https://www.recursive.design) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 040 [shantellsans-com](https://shantellsans.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 041 [kermit-font-com](https://kermit-font.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 042 [karrik-phantom-foundry-com](http://karrik.phantom-foundry.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 043 [surt-font-eu](https://surt-font.eu) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 044 [neuedin-com](https://neuedin.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 045 [exat-hottype-co](https://exat.hottype.co) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 046 [nn-konrad-ch](https://www.nn-konrad.ch) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 047 [colroy-ch](https://www.colroy.ch) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 048 [pivot-grotesk-world](http://pivot-grotesk.world) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 049 [knitgrotesk-com](https://www.knitgrotesk.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 050 [nn-swinton-world](https://nn-swinton.world) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 051 [abcdestragon-xyz](https://abcdestragon.xyz) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 052 [djr-com-fit](https://djr.com/fit) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 053 [azeret-displaay-net](https://azeret.displaay.net) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 054 [booton-displaay-net](https://booton.displaay.net) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 055 [andada-huertatipografica-com](https://andada.huertatipografica.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 056 [piazzolla-huertatipografica-com](https://piazzolla.huertatipografica.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 057 [weg-huertatipografica-com](https://weg.huertatipografica.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 058 [betaniapatmos-huertatipografica-com](https://betaniapatmos.huertatipografica.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 059 [input-djr-com](https://input.djr.com/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 060 [djr-com-megabase-stripe](https://djr.com/megabase-stripe) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 061 [halyard-dardenstudio-com](https://halyard.dardenstudio.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 062 [ernestinefont-com](http://ernestinefont.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 063 [liebling-fontef-com](https://liebling.fontef.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 064 [kachibuwa-com](https://kachibuwa.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 065 [pacaembu-naipefoundry-com](https://pacaembu.naipefoundry.com/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 066 [readvisions-com-marvin](https://www.readvisions.com/marvin) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 067 [raphaelbastide-com-avara](https://raphaelbastide.com/avara/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 068 [djr-com-gimlet](https://djr.com/gimlet) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 069 [cinetype-com-fabbrica](https://www.cinetype.com/fabbrica) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 070 [floriankarsten-github-io-space-grotesk](https://floriankarsten.github.io/space-grotesk/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 071 [typearture-com-schijn-specimen](https://www.typearture.com/schijn/specimen/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 072 [avantt-displaay-net](https://avantt.displaay.net) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 073 [indestructibletype-com-gnomon](https://indestructibletype.com/Gnomon.html) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 074 [djr-com-gimlet-xray](https://djr.com/gimlet-xray) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 075 [finaltype-de-en-projects-monoflow](https://finaltype.de/en/projects/monoflow) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 076 [gestures-studiomoniker-com](https://gestures.studiomoniker.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 077 [rt-rondelle-com](https://www.rt-rondelle.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 078 [proxima-vara-marksimonson-com](https://proxima-vara.marksimonson.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 079 [kampanjat-hs-fi-climatefont](https://kampanjat.hs.fi/climatefont/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 080 [louisefili-com-montecatini-pro](https://www.louisefili.com/montecatini-pro) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 081 [whirlybirdie-com](https://whirlybirdie.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 082 [cjtype-com-dunbar](https://cjtype.com/dunbar/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 083 [fraunces-undercase-xyz](https://fraunces.undercase.xyz) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 084 [etunni-github-io-arapey-minisite](https://etunni.github.io/Arapey-Minisite/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 085 [djr-com-megazoid](https://djr.com/megazoid) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 086 [nmtype-com-movement](https://www.nmtype.com/movement/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 087 [cnap-fr-sites-faune-en](https://www.cnap.fr/sites/faune/en.html) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 088 [heydon-works-skwar](https://heydon.works/skwar/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 089 [erikdemaine-org-fonts-tetris](http://erikdemaine.org/fonts/tetris/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 090 [universalsans-com](https://universalsans.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 091 [larsenwork-com-monoid](https://larsenwork.com/monoid) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 092 [garet-typeforward-com](https://garet.typeforward.com/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 093 [monolisa-dev](https://www.monolisa.dev) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 094 [jetbrains-com-lp-mono](https://www.jetbrains.com/lp/mono) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 095 [font-subf-dev-en](https://font.subf.dev/en) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 096 [rubjo-github-io-victor-mono](https://rubjo.github.io/victor-mono) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 097 [levien-com-type-myfonts-inconsolata](https://levien.com/type/myfonts/inconsolata.html) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 098 [adelfaure-net-tools-jgs](https://adelfaure.net/tools/jgs) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 099 [madmalik-github-io-mononoki](https://madmalik.github.io/mononoki) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 100 [lexend-com](https://www.lexend.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 101 [departuremono-com](https://departuremono.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 102 [area-font-eu](https://area-font.eu/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 103 [tiktok-com-font](https://www.tiktok.com/font) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 104 [apoc-font-eu](https://apoc-font.eu/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 105 [fictional-typeface-com](https://fictional-typeface.com/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 106 [scenik-frostype-xyz](https://scenik.frostype.xyz) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 107 [calhern-frostype-xyz](https://calhern.frostype.xyz) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 108 [logical-family](https://logical.family) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 109 [biceps-togetherwithyou-co](https://biceps.togetherwithyou.co) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 110 [almnt-github-io-crimsonpro-microsite](https://almnt.github.io/crimsonpro-microsite/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 111 [rt-alias-com](https://www.rt-alias.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 112 [etna-marksimonson-com](https://etna.marksimonson.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 113 [isolation-abc-xyz](https://isolation-abc.xyz) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 114 [rsms-me-inter](https://rsms.me/inter) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 115 [justfont-com-huninn](https://justfont.com/huninn/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 116 [github-com-mona-sans](https://github.com/mona-sans) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 117 [ibm-com-plex](https://www.ibm.com/plex) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 118 [source-typekit-com-source-han-serif](https://source.typekit.com/source-han-serif/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 119 [tokotype-github-io-plusjakarta-sans](https://tokotype.github.io/plusjakarta-sans) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 120 [overpassfont-org](https://overpassfont.org) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 121 [boharat-com-zaatar](https://boharat.com/zaatar/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 122 [brailleinstitute-org-freefont](https://www.brailleinstitute.org/freefont/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 123 [github-rosettatype-com-yrsa-rasa](https://github.rosettatype.com/yrsa-rasa) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 124 [optician-sans-com](https://optician-sans.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 125 [nrse-io](https://www.nrse.io) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 126 [bigshoulders-me](https://bigshoulders.me) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 127 [spectral-prototypo-io](https://spectral.prototypo.io) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 128 [stencil-gothic-com](https://www.stencil-gothic.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 129 [gidole-github-io](https://gidole.github.io) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 130 [leon-kim-com](https://leon-kim.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 131 [pampatype-com-octothorpe-en](https://pampatype.com/octothorpe/en/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 132 [compagnon-eesab-fr](https://compagnon.eesab.fr) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 133 [urbangrotesk-suitcasetype-com](http://urbangrotesk.suitcasetype.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 134 [pleasure-typefaces-pizza](https://pleasure.typefaces.pizza/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 135 [excelsiorama-com](https://excelsiorama.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 136 [kostasbartsokas-com-oi-you-mate](https://kostasbartsokas.com/oi-you-mate) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 137 [redaction-us](https://redaction.us) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 138 [compressa-preusstype-com](https://compressa.preusstype.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 139 [cursorfont-liebermannkiepereddemann-de](https://cursorfont.liebermannkiepereddemann.de) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 140 [arteria-typofonderie-com](https://arteria.typofonderie.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 141 [marbla-de](https://marbla.de) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 142 [cnap-fr-sites-infini-en](https://www.cnap.fr/sites/infini/en/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 143 [erikdkennedy-com-projects-figtree](https://www.erikdkennedy.com/projects/figtree.html) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 144 [seraphs-varfont-com](https://www.seraphs.varfont.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 145 [graphit-type-com](https://www.graphit-type.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 146 [basco-typofonderie-com](https://basco.typofonderie.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 147 [db-pixel-club](https://db-pixel.club) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 148 [monaspace-githubnext-com](https://monaspace.githubnext.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 149 [vercel-com-font](https://vercel.com/font) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 150 [unbounded-polkadot-network](https://unbounded.polkadot.network) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 151 [aspen-ludwigtype-de](http://aspen.ludwigtype.de) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 152 [rt-dromo-com](http://www.rt-dromo.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 153 [wix-com-typeface-madefor](https://www.wix.com/typeface/madefor) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 154 [fridamedrano-com-jabin](https://www.fridamedrano.com/jabin.html) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 155 [lobdell-me-affogato](https://lobdell.me/affogato/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 156 [nabla-typearture-com](https://nabla.typearture.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 157 [nihon-font-com](https://www.nihon-font.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 158 [djr-com-bungee](https://djr.com/bungee) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 159 [plex-korean-demo-vercel-app](https://plex-korean-demo.vercel.app) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 160 [lozanotype-github-io-java-sans](https://lozanotype.github.io/Java_Sans/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 161 [2021-typemedia-org-gajana](https://2021.typemedia.org/gajana.html) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 162 [2020-typefacedesign-org-simon](http://2020.typefacedesign.org/simon.html) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 163 [colab-munken-com-munken-sans](https://colab.munken.com/munken-sans) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 164 [x5-acjs-net](https://x5.acjs.net) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 165 [daifoldes-com-eubiescript-sub](https://www.daifoldes.com/eubiescript-sub/index.html) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 166 [grandgothik-com](https://grandgothik.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 167 [usgraphics-com-products-berkeley-mono](https://usgraphics.com/products/berkeley-mono) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 168 [brailleneue-com](https://brailleneue.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 169 [commitmono-com](https://commitmono.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 170 [dyslexiefont-com](https://dyslexiefont.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 171 [indestructibletype-com-jost](https://indestructibletype.com/Jost.html) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 172 [latofonts-com](https://latofonts.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 173 [luciole-vision-com](https://luciole-vision.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 174 [djr-com-fern](https://djr.com/fern) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 175 [djr-com-job-clarendon](https://djr.com/job-clarendon) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 176 [djr-com-turnip](https://djr.com/turnip) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 177 [nationalparktypeface-com](https://nationalparktypeface.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 178 [sourcefoundry-org-hack](https://sourcefoundry.org/hack/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 179 [timesnewerroman-com](https://timesnewerroman.com) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 180 [typeof-net-iosevka](https://typeof.net/Iosevka/) — archive ✓ · blocks ✓ · extract ☐
+- [ ] 181 [vollkorn-typeface-com](http://vollkorn-typeface.com/) — archive ✓ · blocks ✓ · extract ☐

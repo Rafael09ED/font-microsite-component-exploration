@@ -1,0 +1,1359 @@
+{
+  "slug": "justfont-com-huninn",
+  "url": "https://justfont.com/huninn/",
+  "pageHeight": 10356,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "justfont-com-huninn#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "nav",
+      "selector": "#jf-navbar",
+      "classes": [
+        "navbar",
+        "navbar-expand-md",
+        "navbar-light",
+        "site-navbar"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 67
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "字體教育 jf 精選 store 登入",
+      "fontFamilies": [
+        "genyogothictw"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 4,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(33, 37, 41)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.072,
+        "widthRatio": 1,
+        "text": 2.996,
+        "elements": 3.807,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.011,
+        "singleChar": 1.609,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.609,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.219,
+        "bgLum": 1,
+        "fgLum": 0.018
+      },
+      "crop": "archive/justfont-com-huninn/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/justfont-com-huninn/blocks/00.html"
+    },
+    {
+      "id": "justfont-com-huninn#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": true,
+      "tag": "nav",
+      "selector": "#sub-navbar",
+      "classes": [
+        "navbar",
+        "navbar-expand-md",
+        "navbar-light",
+        "sub-navbar"
+      ],
+      "box": {
+        "x": 0,
+        "y": 67,
+        "w": 1440,
+        "h": 66
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "open 粉圓 免費下載 github instagram facebook 自由樂捐",
+      "fontFamilies": [
+        "genyogothictw",
+        "jf-openhuninn"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(33, 37, 41)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.071,
+        "relY": 0.006,
+        "heightVh": 0.071,
+        "widthRatio": 1,
+        "text": 3.784,
+        "elements": 2.833,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.014,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.099,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.946,
+        "bgLum": 1,
+        "fgLum": 0.018
+      },
+      "crop": "archive/justfont-com-huninn/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/justfont-com-huninn/blocks/01.html"
+    },
+    {
+      "id": "justfont-com-huninn#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(1)",
+      "classes": [
+        "kv",
+        "play"
+      ],
+      "box": {
+        "x": 0,
+        "y": 133,
+        "w": 1440,
+        "h": 810
+      },
+      "headings": [
+        "加粉圓，都免錢"
+      ],
+      "parentHeadings": null,
+      "textPreview": "加粉圓，都免錢 「jf open 粉圓字型」是基於 Kosugi Maru 改作， 由 justfont 設計師針對台灣日常應用加以優化的開源字型。 歡迎大家自由應用、自由優化、自由改作！ 免費下載",
+      "fontFamilies": [
+        "jf-openhuninn",
+        "sourcehansans-tc"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 8,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(238, 239, 233)",
+      "color": "rgb(33, 37, 41)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.143,
+        "relY": 0.013,
+        "heightVh": 0.642,
+        "widthRatio": 1,
+        "text": 4.625,
+        "elements": 3.871,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.033,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 2.197,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.858,
+        "fgLum": 0.018
+      },
+      "crop": "archive/justfont-com-huninn/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/justfont-com-huninn/blocks/02.html"
+    },
+    {
+      "id": "justfont-com-huninn#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(2)",
+      "classes": [
+        "beginning"
+      ],
+      "box": {
+        "x": 0,
+        "y": 943,
+        "w": 1440,
+        "h": 810
+      },
+      "headings": [
+        "食粉圓，拜樹頭"
+      ],
+      "parentHeadings": null,
+      "textPreview": "食粉圓，拜樹頭 金萱字型成功後，為回饋社會，我們承諾為台灣使用者優化一套開源字型作品。 感謝 Motoya 公司釋出 Kosugi Maru， 我們才能基於前人基礎，惠及後人。 歐文與漢字同樣重要，因此也同樣感謝 Joe Prince 與 Avraham Cornfeld 兩位設計師的開源字體 Varela Round， 讓台灣民眾也能享受高品質的歐文字體。 啾啾啾～ 你也可以基於粉圓做出新的字型呦！可以來粉圓計畫的 github 頁面玩玩喔！",
+      "fontFamilies": [
+        "jf-openhuninn"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 9,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(238, 239, 233)",
+      "color": "rgb(33, 37, 41)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.214,
+        "relY": 0.091,
+        "heightVh": 0.642,
+        "widthRatio": 1,
+        "text": 5.425,
+        "elements": 4.344,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.033,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 2.303,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.858,
+        "fgLum": 0.018
+      },
+      "crop": "archive/justfont-com-huninn/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/justfont-com-huninn/blocks/03.html"
+    },
+    {
+      "id": "justfont-com-huninn#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > main > div > section:nth-of-type(1) > div:nth-of-type(1)",
+      "classes": [
+        "feature-intro",
+        "content-block"
+      ],
+      "box": {
+        "x": -90,
+        "y": 1753,
+        "w": 1620,
+        "h": 810
+      },
+      "headings": [
+        "古椎得人疼 ê 台灣口味"
+      ],
+      "parentHeadings": [
+        "古椎得人疼 ê 台灣口味",
+        "設計調整",
+        "排版調整",
+        "增補字符"
+      ],
+      "textPreview": "古椎得人疼 ê 台灣口味 開源的中文圓體字型屈指可數，符合台灣排版需求的更是鳳毛麟角。在原日文字型基礎上，額外設計與調整了近 2,800 個臺灣常用漢字、注音符號與台客原民語羅馬拼音用字，並修訂排版設定，以適應台灣的使用需求。更改進了灰度品質，讓你的排版更美麗！ 在 Kosugi Maru 的基礎上， justfont 設計師針對台灣的排版需要增補字符、 調整設計，而有了新的「jf open 粉圓字型」字型。 大致來說，我們執行的任務有兩大類：",
+      "fontFamilies": [
+        "jf-openhuninn"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(52, 44, 44)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.286,
+        "relY": 0.169,
+        "heightVh": 0.642,
+        "widthRatio": 1.125,
+        "text": 5.425,
+        "elements": 3.296,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.027
+      },
+      "crop": "archive/justfont-com-huninn/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/justfont-com-huninn/blocks/04.html"
+    },
+    {
+      "id": "justfont-com-huninn#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > main > div > section:nth-of-type(1) > div:nth-of-type(2)",
+      "classes": [
+        "feature-optimization",
+        "content-block"
+      ],
+      "box": {
+        "x": -90,
+        "y": 2563,
+        "w": 1620,
+        "h": 810
+      },
+      "headings": [
+        "設計調整"
+      ],
+      "parentHeadings": [
+        "古椎得人疼 ê 台灣口味",
+        "設計調整",
+        "排版調整",
+        "增補字符"
+      ],
+      "textPreview": "設計調整 針對原本字符粗細不均勻或太偏日本寫法的狀況調整、優化。 調整前 調整後 們備到創參啓園圜多宮寰屠度很急恩息戰損既歉療發的祭絡縢總聚聲袞語調迅降雙雪霖顧鱈",
+      "fontFamilies": [
+        "jf-openhuninn",
+        "Kosugi Maru"
+      ],
+      "maxFontSizePx": 50,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 1,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(52, 44, 44)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.357,
+        "relY": 0.247,
+        "heightVh": 0.642,
+        "widthRatio": 1.125,
+        "text": 4.431,
+        "elements": 4.263,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.035,
+        "singleChar": 3.761,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0.693,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.027
+      },
+      "crop": "archive/justfont-com-huninn/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/justfont-com-huninn/blocks/05.html"
+    },
+    {
+      "id": "justfont-com-huninn#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#scene-layout",
+      "classes": [
+        "feature-layout",
+        "content-block"
+      ],
+      "box": {
+        "x": -90,
+        "y": 3373,
+        "w": 1620,
+        "h": 810
+      },
+      "headings": [
+        "排版調整"
+      ],
+      "parentHeadings": [
+        "古椎得人疼 ê 台灣口味",
+        "設計調整",
+        "排版調整",
+        "增補字符"
+      ],
+      "textPreview": "排版調整 「Kosugi Maru」原為日文標點符號設置， 「jf open 粉圓」則改為繁體中文設置， 並將歐文部分替換為開源字型 Varela Round。 調整前 調整後 在 2015 年金萱字型成功募資後，本著回饋社會的精神，我們承諾以既有開源字型為基礎，為台灣使用者優化成一套新的開源作品。感謝日本 Motoya 公司開放旗下 Kosugi Maru 為開源字型，我們才能基於前人基礎，惠及後人。良好的排版中，歐文與漢字同樣重要；因此也同樣感謝美國設計師 Joe Pri",
+      "fontFamilies": [
+        "jf-openhuninn",
+        "Kosugi Maru"
+      ],
+      "maxFontSizePx": 34,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 1,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 4,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(52, 44, 44)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.429,
+        "relY": 0.326,
+        "heightVh": 0.642,
+        "widthRatio": 1.125,
+        "text": 5.746,
+        "elements": 4.382,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.024,
+        "singleChar": 2.398,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0.693,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.609,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.027
+      },
+      "crop": "archive/justfont-com-huninn/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/justfont-com-huninn/blocks/06.html"
+    },
+    {
+      "id": "justfont-com-huninn#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > main > div > section:nth-of-type(1) > div:nth-of-type(4)",
+      "classes": [
+        "feature-font-increase",
+        "content-block"
+      ],
+      "box": {
+        "x": -90,
+        "y": 4183,
+        "w": 1620,
+        "h": 810
+      },
+      "headings": [
+        "增補字符"
+      ],
+      "parentHeadings": [
+        "古椎得人疼 ê 台灣口味",
+        "設計調整",
+        "排版調整",
+        "增補字符"
+      ],
+      "textPreview": "增補字符 補齊日文字型中所缺乏的台灣常用漢字共 1,477 字， 另設計注音符號及台羅拼音符號。 ĂĔĬŎǓăĕĭŏŭㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏ乒乓丟您你吧咦咧咪咱哪哼唉唷啃啟啡啤啥ĂĔĬŎǓăĕĭŏŭㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏ乒乓丟您你吧咦咧咪咱哪哼唉唷啃啟啡啤啥 啦喂喔喲嗆嗑嗨嘟嘻噁噗噹嚕囟囡囤囫囝魟魠魷鯧鯷鱔鱘啊灶炖炷烊烔烯烴烷焊焠焢焰焱煨啦喂喔喲嗆嗑嗨嘟嘻噁噗噹嚕囟囡囤囫囝魟魠魷鯧鯷鱔鱘啊灶炖炷烊烔烯烴烷焊焠焢焰焱煨 煲汩汴汶沅沏沬泫泮泵洨洱涷淄淩渲湄湔湳溉溴漩漪漯漳澐澧灝姬",
+      "fontFamilies": [
+        "jf-openhuninn"
+      ],
+      "maxFontSizePx": 50,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(52, 44, 44)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.404,
+        "heightVh": 0.642,
+        "widthRatio": 1.125,
+        "text": 6.286,
+        "elements": 6.252,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.035,
+        "singleChar": 5.964,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.027
+      },
+      "crop": "archive/justfont-com-huninn/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/justfont-com-huninn/blocks/07.html"
+    },
+    {
+      "id": "justfont-com-huninn#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > main > div > section:nth-of-type(1) > div:nth-of-type(5)",
+      "classes": [
+        "feature-try-it",
+        "content-block"
+      ],
+      "box": {
+        "x": -90,
+        "y": 4993,
+        "w": 1620,
+        "h": 810
+      },
+      "headings": [
+        "來試看看粉圓吧！"
+      ],
+      "parentHeadings": [
+        "古椎得人疼 ê 台灣口味",
+        "設計調整",
+        "排版調整",
+        "增補字符"
+      ],
+      "textPreview": "來試看看粉圓吧！ ​​點擊兩下，嚼一嚼，吃甜甜！",
+      "fontFamilies": [
+        "jf-openhuninn",
+        "jf-openhuninn-1459162808",
+        "-apple-system"
+      ],
+      "maxFontSizePx": 34,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 1,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(52, 44, 44)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.571,
+        "relY": 0.482,
+        "heightVh": 0.642,
+        "widthRatio": 1.125,
+        "text": 3.258,
+        "elements": 3.784,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.024,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.027
+      },
+      "crop": "archive/justfont-com-huninn/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/justfont-com-huninn/blocks/08.html"
+    },
+    {
+      "id": "justfont-com-huninn#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > main > div > section:nth-of-type(2) > div:nth-of-type(1)",
+      "classes": [
+        "license-part-1",
+        "feature-content",
+        "play"
+      ],
+      "box": {
+        "x": 270,
+        "y": 5803,
+        "w": 900,
+        "h": 1032
+      },
+      "headings": [
+        "用都用，放心用"
+      ],
+      "parentHeadings": [
+        "用都用，放心用",
+        "自由商用",
+        "自由傳布",
+        "自由改作為其他字型"
+      ],
+      "textPreview": "用都用，放心用 不必再寫信來問了～「開源」意味您可以自由應用這套字型。 不管是個人文書、商業作品、粉專文宣字幕字卡⋯⋯ 都可以免費安心應用，也可自由傳布、安裝於任何軟硬體中。 若您想要以粉圓改出新字型作品，也完全沒有問題。 但使用的時候，別忘記感謝佛心的原廠商與辛苦的設計師喔！ 「jf open 粉圓」是一個「開源」字型， 從 Kosugi Maru 字型改作而來， 依 SIL Open Font License 釋出。 在這個授權條件底下，您可以：",
+      "fontFamilies": [
+        "jf-openhuninn"
+      ],
+      "maxFontSizePx": 54,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 37, 41)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.643,
+        "relY": 0.56,
+        "heightVh": 0.764,
+        "widthRatio": 0.625,
+        "text": 5.493,
+        "elements": 3.689,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.037,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.018
+      },
+      "crop": "archive/justfont-com-huninn/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/justfont-com-huninn/blocks/09.html"
+    },
+    {
+      "id": "justfont-com-huninn#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > main > div > section:nth-of-type(2) > div:nth-of-type(2)",
+      "classes": [
+        "license-part-2",
+        "feature-content"
+      ],
+      "box": {
+        "x": 120,
+        "y": 6835,
+        "w": 1200,
+        "h": 904
+      },
+      "headings": [
+        "自由商用",
+        "自由傳布",
+        "自由改作為其他字型"
+      ],
+      "parentHeadings": [
+        "用都用，放心用",
+        "自由商用",
+        "自由傳布",
+        "自由改作為其他字型"
+      ],
+      "textPreview": "自由商用 不需付費、知會或標明作者，即可自由使用此字型，亦可做商業應用。 自由傳布 可自由分享檔案、將檔案安裝於任何軟硬體中。 自由改作為其他字型 將字型檔案修改重製為其他字型檔案，改作後的字型檔案須同樣依 SIL Open Font License 釋出。 此授權的詳細規定，請參考：SIL Open Font License(中譯參考版本)",
+      "fontFamilies": [
+        "jf-openhuninn"
+      ],
+      "maxFontSizePx": 23,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 3,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 37, 41)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.714,
+        "relY": 0.66,
+        "heightVh": 0.695,
+        "widthRatio": 0.833,
+        "text": 5.187,
+        "elements": 3.434,
+        "headings": 3,
+        "fontSizes": 2,
+        "maxFontVw": 0.016,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.386,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0.018
+      },
+      "crop": "archive/justfont-com-huninn/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/justfont-com-huninn/blocks/10.html"
+    },
+    {
+      "id": "justfont-com-huninn#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > main > div > section:nth-of-type(2) > div:nth-of-type(3)",
+      "classes": [
+        "license-part-3",
+        "feature-content",
+        "text-center"
+      ],
+      "box": {
+        "x": 320,
+        "y": 7739,
+        "w": 800,
+        "h": 738
+      },
+      "headings": [
+        "與「justfont 通用授權」 有什麼不一樣？"
+      ],
+      "parentHeadings": [
+        "用都用，放心用",
+        "自由商用",
+        "自由傳布",
+        "自由改作為其他字型"
+      ],
+      "textPreview": "與「justfont 通用授權」 有什麼不一樣？ justfont 通用授權為 justfont 制定之商用付費字型授權條款，而非開源字型授權條款。 您不得自由修改、散佈，並需要付費取得字型。 而「jf open 粉圓」依照國際通用開源字型授權 SIL Open Font License 釋出， 您可以自由修改並散佈。 深入暸解 justfont 通用授權",
+      "fontFamilies": [
+        "jf-openhuninn"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 37, 41)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.786,
+        "relY": 0.747,
+        "heightVh": 0.599,
+        "widthRatio": 0.556,
+        "text": 5.204,
+        "elements": 2.303,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0.018
+      },
+      "crop": "archive/justfont-com-huninn/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/justfont-com-huninn/blocks/11.html"
+    },
+    {
+      "id": "justfont-com-huninn#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(3)",
+      "classes": [
+        "story"
+      ],
+      "box": {
+        "x": 0,
+        "y": 8476,
+        "w": 1440,
+        "h": 810
+      },
+      "headings": [
+        "美味秘方能講一下嗎"
+      ],
+      "parentHeadings": null,
+      "textPreview": "美味秘方能講一下嗎 justfont 字型設計團隊前後投入將近一年的時間研究、 改善、優化原本的字體，好多有趣的心得希望與您分享。 字體究竟要怎麼設計呢？請看我們的特寫。 設計師的設計尬聊",
+      "fontFamilies": [
+        "jf-openhuninn",
+        "sourcehansans-tc"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 8,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(238, 239, 233)",
+      "color": "rgb(33, 37, 41)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.857,
+        "relY": 0.818,
+        "heightVh": 0.642,
+        "widthRatio": 1,
+        "text": 4.575,
+        "elements": 3.829,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.033,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 2.197,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.858,
+        "fgLum": 0.018
+      },
+      "crop": "archive/justfont-com-huninn/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/justfont-com-huninn/blocks/12.html"
+    },
+    {
+      "id": "justfont-com-huninn#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(4)",
+      "classes": [
+        "donate"
+      ],
+      "box": {
+        "x": 0,
+        "y": 9286,
+        "w": 1440,
+        "h": 810
+      },
+      "headings": [
+        "泡茶開講，自由樂捐"
+      ],
+      "parentHeadings": null,
+      "textPreview": "泡茶開講，自由樂捐 免費開源，讓社會共享美麗的設計成果。 享受設計成果之餘，也歡迎您自由樂捐拍打餵食，贊助設計師做字時嘴裡嗑的零食；吃零食是為了做更多的字，歡迎您訂閱通知，持續關心 justfont 字體的最新消息。 訂閱通知 自由樂捐",
+      "fontFamilies": [
+        "jf-openhuninn",
+        "sourcehansans-tc"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 8,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(238, 239, 233)",
+      "color": "rgb(33, 37, 41)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.929,
+        "relY": 0.897,
+        "heightVh": 0.642,
+        "widthRatio": 1,
+        "text": 4.796,
+        "elements": 3.951,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.033,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 2.197,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.858,
+        "fgLum": 0.018
+      },
+      "crop": "archive/justfont-com-huninn/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/justfont-com-huninn/blocks/13.html"
+    },
+    {
+      "id": "justfont-com-huninn#14",
+      "nn": "14",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > footer",
+      "classes": [
+        "site-footer"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10096,
+        "w": 1440,
+        "h": 260
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "聯絡我們 就是字股份有限公司 統一編號：42647945 just@justfont.com +886-2-2753-2680 ©justfont 2023 教育資源 教案下載 講座邀請 jf 字體口袋書 jf 7000 字集 關於我們 最新消息 公司理念 成員介紹 里程記事 媒體報導 授權與服務 品牌顧問服務 網頁字型 jf 通用授權 侵權案例 常見問題 社群頻道 字戀 FB justfont FB justfont IG 加入 LINE 好友 即時查看字型優惠時間與字體課",
+      "fontFamilies": [
+        "genyogothictw"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(91, 87, 87)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.975,
+        "heightVh": 0.254,
+        "widthRatio": 1,
+        "text": 5.561,
+        "elements": 4.22,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.012,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.045,
+        "bgLum": 1,
+        "fgLum": 0.097
+      },
+      "crop": "archive/justfont-com-huninn/blocks/14.jpg",
+      "cropTruncated": false,
+      "html": "archive/justfont-com-huninn/blocks/14.html"
+    }
+  ]
+}

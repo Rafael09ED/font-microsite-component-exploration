@@ -1,0 +1,1844 @@
+{
+  "slug": "gt-ultra-com",
+  "url": "https://gt-ultra.com",
+  "pageHeight": 18940,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "gt-ultra-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#intro > div:nth-of-type(2)",
+      "classes": [
+        "grid"
+      ],
+      "box": {
+        "x": 200,
+        "y": 340,
+        "w": 1040,
+        "h": 788
+      },
+      "headings": [
+        "GT Ultra dances between the worlds of sans and serifs, fusing calligraphy and co"
+      ],
+      "parentHeadings": [
+        "GT Ultra dances between the worlds of sans and serifs, fusing calligraphy and co",
+        "Sans",
+        "Serif",
+        "Sans"
+      ],
+      "textPreview": "GT Ultra dances between the worlds of sans and serifs, fusing calligraphy and construction. Achieving a balance between flair and function across a versatile typographic system, the design combines the centuries-old context of serif type wi",
+      "fontFamilies": [
+        "GT Ultra"
+      ],
+      "maxFontSizePx": 44,
+      "variationSettings": [
+        "\"CNTR\" 9.23843, \"slnt\" 0, \"wght\" 340"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.018,
+        "heightVh": 0.629,
+        "widthRatio": 0.722,
+        "text": 5.878,
+        "elements": 0.693,
+        "headings": 1,
+        "fontSizes": 1,
+        "maxFontVw": 0.031,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-ultra-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-ultra-com/blocks/00.html"
+    },
+    {
+      "id": "gt-ultra-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#morph-generic-sans-and-serif-container-wrapper",
+      "classes": [
+        "margin-bottom-l"
+      ],
+      "box": {
+        "x": 200,
+        "y": 1128,
+        "w": 1040,
+        "h": 1228
+      },
+      "headings": [
+        "Sans",
+        "Serif",
+        "Sans",
+        "Serif"
+      ],
+      "parentHeadings": [
+        "GT Ultra dances between the worlds of sans and serifs, fusing calligraphy and co",
+        "Sans",
+        "Serif",
+        "Sans"
+      ],
+      "textPreview": "GENERIC SANS GT ULTRA GENERIC SERIF GT ULTRA Sans Serif",
+      "fontFamilies": [
+        "GT Ultra",
+        "Sans-Serif VAR"
+      ],
+      "maxFontSizePx": 576,
+      "variationSettings": [
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 400",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 300",
+        "\"wght\" 100",
+        "\"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.067,
+        "relY": 0.06,
+        "heightVh": 0.861,
+        "widthRatio": 0.722,
+        "text": 4.025,
+        "elements": 3.219,
+        "headings": 4,
+        "fontSizes": 3,
+        "maxFontVw": 0.4,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-ultra-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-ultra-com/blocks/01.html"
+    },
+    {
+      "id": "gt-ultra-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#anim-designspace",
+      "classes": [
+        "grid",
+        "full-width",
+        "animation",
+        "anim-nearly-full-width",
+        "margin-top-l",
+        "margin-bottom-l"
+      ],
+      "box": {
+        "x": 200,
+        "y": 2459,
+        "w": 1040,
+        "h": 707
+      },
+      "headings": [],
+      "parentHeadings": [
+        "GT Ultra dances between the worlds of sans and serifs, fusing calligraphy and co",
+        "Sans",
+        "Serif",
+        "Sans"
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "GT Ultra"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.133,
+        "relY": 0.13,
+        "heightVh": 0.58,
+        "widthRatio": 0.722,
+        "text": 0,
+        "elements": 3.807,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-ultra-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-ultra-com/blocks/02.html"
+    },
+    {
+      "id": "gt-ultra-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#intro > div:nth-of-type(5)",
+      "classes": [
+        "grid",
+        "full-width",
+        "text-multicol",
+        "margin-bottom-m"
+      ],
+      "box": {
+        "x": 200,
+        "y": 3269,
+        "w": 1040,
+        "h": 236
+      },
+      "headings": [],
+      "parentHeadings": [
+        "GT Ultra dances between the worlds of sans and serifs, fusing calligraphy and co",
+        "Sans",
+        "Serif",
+        "Sans"
+      ],
+      "textPreview": "The world is rife with anonymous sans typefaces, carrying with them the misguided notion that they are contemporary by default. They’re slick, they’re modern, they’re now. Likewise, serifs are often seen as inescapably historical, old-fashi",
+      "fontFamilies": [
+        "GT Ultra"
+      ],
+      "maxFontSizePx": 19,
+      "variationSettings": [
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.2,
+        "relY": 0.173,
+        "heightVh": 0.233,
+        "widthRatio": 0.722,
+        "text": 6.668,
+        "elements": 1.386,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-ultra-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-ultra-com/blocks/03.html"
+    },
+    {
+      "id": "gt-ultra-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#morph-all3axes",
+      "classes": [
+        "grid",
+        "full-width",
+        "morph",
+        "morph-sample-size-xmxl",
+        "margin-bottom-l"
+      ],
+      "box": {
+        "x": 200,
+        "y": 3556,
+        "w": 1040,
+        "h": 583
+      },
+      "headings": [
+        "Welcome to that something"
+      ],
+      "parentHeadings": [
+        "GT Ultra dances between the worlds of sans and serifs, fusing calligraphy and co",
+        "Sans",
+        "Serif",
+        "Sans"
+      ],
+      "textPreview": "WEIGHT CONTRAST ITALIC Welcome to that something",
+      "fontFamilies": [
+        "GT Ultra"
+      ],
+      "maxFontSizePx": 202,
+      "variationSettings": [
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 300",
+        "\"CNTR\" 0.226509, \"slnt\" 11.9728, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.267,
+        "relY": 0.188,
+        "heightVh": 0.499,
+        "widthRatio": 0.722,
+        "text": 3.892,
+        "elements": 2.485,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.14,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-ultra-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-ultra-com/blocks/04.html"
+    },
+    {
+      "id": "gt-ultra-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#story",
+      "classes": [
+        "grid",
+        "section-content",
+        "section-bg-white",
+        "js-animation-paused"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4293,
+        "w": 1440,
+        "h": 1738
+      },
+      "headings": [
+        "Spike",
+        "Raged",
+        "Scarf"
+      ],
+      "parentHeadings": null,
+      "textPreview": "HISTORICAL EXAMPLE GT ULTRA Spike HISTORICAL EXAMPLE GT ULTRA Raged HISTORICAL EXAMPLE GT ULTRA Scarf GT Ultra draws inspiration from the clunky, chunky, and funky flare serif typefaces from the 1970s and ’80s, taking cues from their decora",
+      "fontFamilies": [
+        "GT Ultra",
+        "Spike VAR",
+        "Ragged VAR",
+        "Scarf VAR"
+      ],
+      "maxFontSizePx": 245,
+      "variationSettings": [
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 400",
+        "\"wght\" 21.1079",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.227,
+        "heightVh": 1.075,
+        "widthRatio": 1,
+        "text": 6.498,
+        "elements": 7.209,
+        "headings": 3,
+        "fontSizes": 3,
+        "maxFontVw": 0.17,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-ultra-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-ultra-com/blocks/05.html"
+    },
+    {
+      "id": "gt-ultra-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#process",
+      "classes": [
+        "grid",
+        "section-content",
+        "section-bg-black",
+        "js-animation-paused"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6031,
+        "w": 1440,
+        "h": 2920
+      },
+      "headings": [
+        "Our process, much like the alphabet, begins with the letter a. This single lette",
+        "Calligraphy",
+        "Handcrafted",
+        "Typeface"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Our process, much like the alphabet, begins with the letter a. This single letterform kick-started the journey of GT Ultra’s construction, acting as the genesis behind designer Noël Leu’s initial sketch of an elegant, traditional, and class",
+      "fontFamilies": [
+        "GT Ultra",
+        "Calligraphy VAR"
+      ],
+      "maxFontSizePx": 202,
+      "variationSettings": [
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 400",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 340",
+        "\"wght\" 100",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 3,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.4,
+        "relY": 0.318,
+        "heightVh": 1.446,
+        "widthRatio": 1,
+        "text": 7.177,
+        "elements": 7.423,
+        "headings": 4,
+        "fontSizes": 4,
+        "maxFontVw": 0.14,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.386,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-ultra-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-ultra-com/blocks/06.html"
+    },
+    {
+      "id": "gt-ultra-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#axes > div:nth-of-type(1)",
+      "classes": [
+        "grid",
+        "full-width",
+        "column-with-sidebar",
+        "sidebar-left",
+        "margin-bottom-m"
+      ],
+      "box": {
+        "x": 200,
+        "y": 9001,
+        "w": 1040,
+        "h": 1058
+      },
+      "headings": [
+        "Grand",
+        "Flowing",
+        "Order",
+        "Raison"
+      ],
+      "parentHeadings": [
+        "Grand",
+        "Flowing",
+        "Order",
+        "Raison"
+      ],
+      "textPreview": "The solution to adding contrast without simply re-serifying the typeface lies in the flared terminals. Adding flares to the sans construction went beyond simply adding contrast. This provides a necessary sturdiness to the letterforms. GT Ul",
+      "fontFamilies": [
+        "GT Ultra"
+      ],
+      "maxFontSizePx": 202,
+      "variationSettings": [
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 400",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 300",
+        "\"CNTR\" 50, \"slnt\" 0, \"wght\" 100",
+        "\"CNTR\" 50, \"slnt\" 0, \"wght\" 300",
+        "\"CNTR\" 50, \"slnt\" 0, \"wght\" 400",
+        "\"CNTR\" 50, \"slnt\" 0, \"wght\" 700",
+        "\"CNTR\" 50, \"slnt\" 0, \"wght\" 900"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.467,
+        "relY": 0.475,
+        "heightVh": 0.777,
+        "widthRatio": 0.722,
+        "text": 6.468,
+        "elements": 2.944,
+        "headings": 4,
+        "fontSizes": 3,
+        "maxFontVw": 0.14,
+        "singleChar": 0,
+        "varSettings": 7,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-ultra-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-ultra-com/blocks/07.html"
+    },
+    {
+      "id": "gt-ultra-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#axes > div:nth-of-type(2)",
+      "classes": [
+        "grid",
+        "full-width",
+        "column-with-sidebar",
+        "sidebar-right",
+        "margin-bottom-m"
+      ],
+      "box": {
+        "x": 200,
+        "y": 10131,
+        "w": 1040,
+        "h": 432
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Grand",
+        "Flowing",
+        "Order",
+        "Raison"
+      ],
+      "textPreview": "Noël developed Italic styles equally as charismatic and lively as the upright typeface, having gone through the same process of pragmatization to optimally suit its counterpart. The narrower proportions of the Italic are balanced by its lig",
+      "fontFamilies": [
+        "GT Ultra"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.533,
+        "relY": 0.535,
+        "heightVh": 0.392,
+        "widthRatio": 0.722,
+        "text": 5.976,
+        "elements": 7.903,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-ultra-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-ultra-com/blocks/08.html"
+    },
+    {
+      "id": "gt-ultra-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#axes > div:nth-of-type(3)",
+      "classes": [
+        "grid",
+        "full-width",
+        "column-with-sidebar",
+        "sidebar-left",
+        "margin-bottom-m"
+      ],
+      "box": {
+        "x": 200,
+        "y": 10634,
+        "w": 1040,
+        "h": 1260
+      },
+      "headings": [
+        "Slow",
+        "East",
+        "Age!",
+        "Pup"
+      ],
+      "parentHeadings": [
+        "Grand",
+        "Flowing",
+        "Order",
+        "Raison"
+      ],
+      "textPreview": "Our Ultra cuts push the weight of the design to the absolute max. Each letter of GT Ultra Ultra (hell yeah!) is designed to be as bold as possible, exaggerating the typeface’s distinct quirks to create a playful, jubilant, and notably fun v",
+      "fontFamilies": [
+        "GT Ultra",
+        "GT Ultra Ultra"
+      ],
+      "maxFontSizePx": 288,
+      "variationSettings": [
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 400",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 300",
+        "\"CNTR\" 50"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.6,
+        "relY": 0.561,
+        "heightVh": 0.875,
+        "widthRatio": 0.722,
+        "text": 6.127,
+        "elements": 2.89,
+        "headings": 4,
+        "fontSizes": 3,
+        "maxFontVw": 0.2,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-ultra-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-ultra-com/blocks/09.html"
+    },
+    {
+      "id": "gt-ultra-com#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "h2",
+      "selector": "#overview > h2:nth-of-type(1)",
+      "classes": [
+        "text-4of6-alignright",
+        "margin-top-l",
+        "margin-bottom-l"
+      ],
+      "box": {
+        "x": 553,
+        "y": 12149,
+        "w": 687,
+        "h": 475
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Distinct individual cuts within the Standard, Median, and Fine subfamilies make ",
+        "Thin Light Regular Bold Black Ultra",
+        "Thin Light Regular Bold Black Ultra",
+        "Thin Light Regular Bold Black Ultra"
+      ],
+      "textPreview": "Distinct individual cuts within the Standard, Median, and Fine subfamilies make the breadth of the typeface’s potential indisputable. Any size, any space, and any weight, GT Ultra is made for it. From bubbly, brash, and bold to its sharpest",
+      "fontFamilies": [],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.641,
+        "heightVh": 0.424,
+        "widthRatio": 0.477,
+        "text": 5.602,
+        "elements": 0,
+        "headings": 0,
+        "fontSizes": 0,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-ultra-com/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-ultra-com/blocks/10.html"
+    },
+    {
+      "id": "gt-ultra-com#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#morph-full-family",
+      "classes": [
+        "grid",
+        "full-width",
+        "morph",
+        "morph-sample-size-sl",
+        "margin-bottom-s"
+      ],
+      "box": {
+        "x": 200,
+        "y": 12747,
+        "w": 1040,
+        "h": 566
+      },
+      "headings": [
+        "Thin Light Regular Bold Black Ultra",
+        "Thin Light Regular Bold Black Ultra",
+        "Thin Light Regular Bold Black Ultra"
+      ],
+      "parentHeadings": [
+        "Distinct individual cuts within the Standard, Median, and Fine subfamilies make ",
+        "Thin Light Regular Bold Black Ultra",
+        "Thin Light Regular Bold Black Ultra",
+        "Thin Light Regular Bold Black Ultra"
+      ],
+      "textPreview": "STANDARD ITALIC MEDIAN ITALIC FINE ITALIC Thin Light Regular Bold Black Ultra Thin Light Regular Bold Black Ultra Thin Light Regular Bold Black Ultra",
+      "fontFamilies": [
+        "GT Ultra",
+        "GT Ultra Ultra"
+      ],
+      "maxFontSizePx": 83,
+      "variationSettings": [
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 300",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 400",
+        "\"CNTR\" 0, \"slnt\" 0.0402634, \"wght\" 100",
+        "\"CNTR\" 0, \"slnt\" 0.0402634, \"wght\" 300",
+        "\"CNTR\" 0, \"slnt\" 0.0402634, \"wght\" 400",
+        "\"CNTR\" 0, \"slnt\" 0.0402634, \"wght\" 700",
+        "\"CNTR\" 0, \"slnt\" 0.0402634, \"wght\" 900",
+        "\"CNTR\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.733,
+        "relY": 0.673,
+        "heightVh": 0.488,
+        "widthRatio": 0.722,
+        "text": 5.011,
+        "elements": 3.555,
+        "headings": 3,
+        "fontSizes": 2,
+        "maxFontVw": 0.057,
+        "singleChar": 0,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-ultra-com/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-ultra-com/blocks/11.html"
+    },
+    {
+      "id": "gt-ultra-com#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "h2",
+      "selector": "#overview > h2:nth-of-type(2)",
+      "classes": [
+        "text-4of6-alignright",
+        "margin-top-l",
+        "margin-bottom-l"
+      ],
+      "box": {
+        "x": 553,
+        "y": 13470,
+        "w": 687,
+        "h": 317
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Distinct individual cuts within the Standard, Median, and Fine subfamilies make ",
+        "Thin Light Regular Bold Black Ultra",
+        "Thin Light Regular Bold Black Ultra",
+        "Thin Light Regular Bold Black Ultra"
+      ],
+      "textPreview": "A bit of then and a bit of now, GT Ultra takes what we know and throws a spanner in the works. It’s fierce, friendly, and formidable, disrupting our expectations, and having a total blast while doing it.",
+      "fontFamilies": [],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.8,
+        "relY": 0.711,
+        "heightVh": 0.302,
+        "widthRatio": 0.477,
+        "text": 5.318,
+        "elements": 0,
+        "headings": 0,
+        "fontSizes": 0,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-ultra-com/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-ultra-com/blocks/12.html"
+    },
+    {
+      "id": "gt-ultra-com#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#morph-x-axis-contrast",
+      "classes": [
+        "grid",
+        "full-width",
+        "js-cursor-morph",
+        "morph-sample-size-l",
+        "margin-bottom-l"
+      ],
+      "box": {
+        "x": 200,
+        "y": 13909,
+        "w": 1040,
+        "h": 1948
+      },
+      "headings": [
+        "ULTRA Cat",
+        "46PX STEVE FRY New Footrace Host Venue",
+        "20PX THE PROMINENCE OF A PEAK IS THE MINIMUM HEIGHT OF CLIMB to the summit on an",
+        "No Big Shot"
+      ],
+      "parentHeadings": [
+        "Distinct individual cuts within the Standard, Median, and Fine subfamilies make ",
+        "Thin Light Regular Bold Black Ultra",
+        "Thin Light Regular Bold Black Ultra",
+        "Thin Light Regular Bold Black Ultra"
+      ],
+      "textPreview": "ULTRA Cat 46PX STEVE FRY New Footrace Host Venue 20PX THE PROMINENCE OF A PEAK IS THE MINIMUM HEIGHT OF CLIMB to the summit on any route from a higher peak, or from sea level if there is no higher peak surrounding. GT ULTRA ULTRA VARIABLE 5",
+      "fontFamilies": [
+        "GT Ultra Ultra",
+        "GT Ultra"
+      ],
+      "maxFontSizePx": 184,
+      "variationSettings": [
+        "\"CNTR\" 0",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 300",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 400",
+        "\"CNTR\" 49.9014",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 900",
+        "\"CNTR\" 0, \"slnt\" 12, \"wght\" 900",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 700",
+        "\"CNTR\" 0, \"slnt\" 12, \"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.867,
+        "relY": 0.734,
+        "heightVh": 1.152,
+        "widthRatio": 0.722,
+        "text": 7.325,
+        "elements": 4.407,
+        "headings": 4,
+        "fontSizes": 7,
+        "maxFontVw": 0.128,
+        "singleChar": 1.386,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-ultra-com/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-ultra-com/blocks/13.html"
+    },
+    {
+      "id": "gt-ultra-com#14",
+      "nn": "14",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#credits > div:nth-of-type(4)",
+      "classes": [
+        "full-width",
+        "charset-container"
+      ],
+      "box": {
+        "x": 200,
+        "y": 16635,
+        "w": 1040,
+        "h": 1137
+      },
+      "headings": [
+        "Character Set"
+      ],
+      "parentHeadings": [
+        "Free Trial Fonts",
+        "Purchase Licensing",
+        "Credits",
+        "Character Set"
+      ],
+      "textPreview": "Character Set BASIC LATIN A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z EXTENDED LATIN Á Ă Â Ä Æ Ǽ À Ā Ą Å Ã Ć Č Ç Ĉ Ċ Ď Đ É Ĕ Ě Ê Ë Ė È Ē Ę Ð Ğ Ĝ Ģ Ġ Ħ Ĥ Í Ĭ Î Ï İ Ì Ĳ Ī Į Ĩ Ĵ Ķ Ĺ Ľ",
+      "fontFamilies": [
+        "GT Ultra"
+      ],
+      "maxFontSizePx": 58,
+      "variationSettings": [
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 700",
+        "\"CNTR\" 23.4851, \"slnt\" 0, \"wght\" 400",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 400",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.933,
+        "relY": 0.878,
+        "heightVh": 0.817,
+        "widthRatio": 0.722,
+        "text": 6.775,
+        "elements": 6.006,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.04,
+        "singleChar": 5.966,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-ultra-com/blocks/14.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-ultra-com/blocks/14.html"
+    },
+    {
+      "id": "gt-ultra-com#15",
+      "nn": "15",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#credits > div:nth-of-type(5)",
+      "classes": [
+        "grid",
+        "full-width",
+        "padding-bottom-m"
+      ],
+      "box": {
+        "x": 200,
+        "y": 17792,
+        "w": 1040,
+        "h": 1097
+      },
+      "headings": [
+        "Minisites"
+      ],
+      "parentHeadings": [
+        "Free Trial Fonts",
+        "Purchase Licensing",
+        "Credits",
+        "Character Set"
+      ],
+      "textPreview": "Minisites",
+      "fontFamilies": [
+        "GT Ultra"
+      ],
+      "maxFontSizePx": 58,
+      "variationSettings": [
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 700",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 20,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.939,
+        "heightVh": 0.797,
+        "widthRatio": 0.722,
+        "text": 2.303,
+        "elements": 3.761,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.04,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 3.045,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.398,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/gt-ultra-com/blocks/15.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-ultra-com/blocks/15.html"
+    },
+    {
+      "id": "gt-ultra-com#16",
+      "nn": "16",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "nav",
+      "selector": "body > nav",
+      "classes": [
+        "grid"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 54
+      },
+      "headings": [
+        "GT Ultra"
+      ],
+      "parentHeadings": null,
+      "textPreview": "GT Ultra TRY ↓ BUY ↗",
+      "fontFamilies": [
+        "GT Ultra"
+      ],
+      "maxFontSizePx": 180,
+      "variationSettings": [
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 400",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 879.982",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.067,
+        "relY": 0,
+        "heightVh": 0.058,
+        "widthRatio": 1,
+        "text": 3.045,
+        "elements": 1.946,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.125,
+        "singleChar": 1.099,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-ultra-com/blocks/16.html"
+    },
+    {
+      "id": "gt-ultra-com#17",
+      "nn": "17",
+      "kind": "offscreen",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#loader",
+      "classes": [
+        "exit"
+      ],
+      "box": {
+        "x": 0,
+        "y": -900,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "OH HELLO! I’M LOADING SOME STUFF. GT ULTRA LOADING",
+      "fontFamilies": [
+        "GT Ultra Ultra Loader",
+        "GT Ultra Loader"
+      ],
+      "maxFontSizePx": 151,
+      "variationSettings": [
+        "\"CNTR\" 1.91355",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 400",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.133,
+        "relY": -0.048,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 3.932,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.105,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-ultra-com/blocks/17.html"
+    },
+    {
+      "id": "gt-ultra-com#18",
+      "nn": "18",
+      "kind": "offscreen",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2)",
+      "classes": [
+        "typetester-container"
+      ],
+      "box": {
+        "x": 0,
+        "y": -900,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "WEIGHT CONTRAST ITALIC We speak in italics, featherlight and ever so faintly. We speak in italics, featherlight and ever so faintly. TEST ULTRA ULTRA ANIMATE SAMPLE NEW SAMPLE CLOSE",
+      "fontFamilies": [
+        "GT Ultra",
+        "GT Ultra Ultra"
+      ],
+      "maxFontSizePx": 158,
+      "variationSettings": [
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 400",
+        "\"CNTR\" 0, \"slnt\" 0, \"wght\" 300",
+        "\"ital\" 0, \"wdth\" 170, \"wght\" 500",
+        "\"CNTR\" 100, \"slnt\" 12, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 2,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": true,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.2,
+        "relY": -0.048,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 5.22,
+        "elements": 3.332,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.11,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 1.099,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-ultra-com/blocks/18.html"
+    }
+  ]
+}

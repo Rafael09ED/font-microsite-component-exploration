@@ -1,0 +1,1014 @@
+{
+  "slug": "vercel-com-font",
+  "url": "https://vercel.com/font",
+  "pageHeight": 10031,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "vercel-com-font#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "header",
+      "selector": "body > div:nth-of-type(2) > header",
+      "classes": [
+        "flex",
+        "flex-col",
+        "items-center",
+        "justify-center",
+        "flex-initial",
+        "meZ80W_header"
+      ],
+      "box": {
+        "x": 32,
+        "y": 0,
+        "w": 1361,
+        "h": 120
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Sans Mono Pixel Get It",
+      "fontFamilies": [
+        "Geist",
+        "Geist Mono",
+        "GeistPixelSquare"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.125,
+        "widthRatio": 0.945,
+        "text": 3.135,
+        "elements": 2.944,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0.009
+      },
+      "crop": "archive/vercel-com-font/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/vercel-com-font/blocks/00.html"
+    },
+    {
+      "id": "vercel-com-font#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > main > div > div > section:nth-of-type(1)",
+      "classes": [
+        "AMTIxG_grid",
+        "gVwRya_hero"
+      ],
+      "box": {
+        "x": 26,
+        "y": 121,
+        "w": 1375,
+        "h": 688
+      },
+      "headings": [
+        "Geist."
+      ],
+      "parentHeadings": null,
+      "textPreview": "New Geist Pixel now available Geist. 710 530 0 -150",
+      "fontFamilies": [
+        "Geist",
+        "Geist Mono"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.111,
+        "relY": 0.012,
+        "heightVh": 0.568,
+        "widthRatio": 0.955,
+        "text": 3.989,
+        "elements": 5.991,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.011,
+        "singleChar": 0.693,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.009
+      },
+      "crop": "archive/vercel-com-font/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/vercel-com-font/blocks/01.html"
+    },
+    {
+      "id": "vercel-com-font#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > main > div > div > section:nth-of-type(2)",
+      "classes": [
+        "AMTIxG_grid",
+        "TWcSna_description",
+        "TWcSna_sans"
+      ],
+      "box": {
+        "x": 26,
+        "y": 809,
+        "w": 1375,
+        "h": 474
+      },
+      "headings": [
+        "Description"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Description Weights Glyphs Stylistic sets Languages 9 652 9 32",
+      "fontFamilies": [
+        "Geist"
+      ],
+      "maxFontSizePx": 40,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 8,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.222,
+        "relY": 0.081,
+        "heightVh": 0.423,
+        "widthRatio": 0.955,
+        "text": 4.143,
+        "elements": 4.06,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.028,
+        "singleChar": 1.386,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 2.197,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.009
+      },
+      "crop": "archive/vercel-com-font/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/vercel-com-font/blocks/02.html"
+    },
+    {
+      "id": "vercel-com-font#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > main > div > div > section:nth-of-type(3)",
+      "classes": [
+        "AMTIxG_grid",
+        "TWcSna_description",
+        "TWcSna_sans"
+      ],
+      "box": {
+        "x": 26,
+        "y": 1283,
+        "w": 1375,
+        "h": 951
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Geist Sans Geist Mono Geist Pixel At Vercel, we've developed Geist, a typeface specifically designed for developers and designers. We began by creating a monospace version that prioritized readability and seamlessly integrated into coding e",
+      "fontFamilies": [
+        "Geist",
+        "Geist Mono",
+        "GeistPixelSquare"
+      ],
+      "maxFontSizePx": 40,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 3,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.128,
+        "heightVh": 0.721,
+        "widthRatio": 0.955,
+        "text": 6.671,
+        "elements": 4.654,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.028,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.386,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.009
+      },
+      "crop": "archive/vercel-com-font/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/vercel-com-font/blocks/03.html"
+    },
+    {
+      "id": "vercel-com-font#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > main > div > div > div > section:nth-of-type(1)",
+      "classes": [
+        "AMTIxG_grid",
+        "jNtFlq_grid"
+      ],
+      "box": {
+        "x": 26,
+        "y": 2234,
+        "w": 1375,
+        "h": 2292
+      },
+      "headings": [
+        "Interactive glyph inspector"
+      ],
+      "parentHeadings": [
+        "Interactive glyph inspector",
+        "Interactive font playground",
+        "How to install",
+        "Install via NPM (Recommended)"
+      ],
+      "textPreview": "Interactive glyph inspector Solid Anchors CAP HEIGHT X-HEIGHT BASELINE DESCENDER 710 530 0 -150 Skip to Playground A Á Ă Ǎ Â Ä À Ā Ą Å Ã B C Č Ç Ĉ Ċ D Ð Ď E É Ě Ê Ë Ė È Ē Ę Ẽ F G Ğ Ĝ Ģ Ġ Ḡ H Ħ Ĥ I Í Î Ï İ Ì Ī Į Ĩ J Ĵ K Ķ L Ĺ Ľ Ļ Ł M N Ń Ň Ņ",
+      "fontFamilies": [
+        "Geist",
+        "Geist Mono"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 270,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 3,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.444,
+        "relY": 0.223,
+        "heightVh": 1.266,
+        "widthRatio": 0.955,
+        "text": 6.485,
+        "elements": 8.103,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.025,
+        "singleChar": 5.193,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 5.602,
+        "img": 0,
+        "svg": 1.386,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0.009
+      },
+      "crop": "archive/vercel-com-font/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/vercel-com-font/blocks/04.html"
+    },
+    {
+      "id": "vercel-com-font#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > main > div > div > div > section:nth-of-type(2)",
+      "classes": [
+        "AMTIxG_grid",
+        "mYMuPW_grid"
+      ],
+      "box": {
+        "x": 26,
+        "y": 4525,
+        "w": 1375,
+        "h": 668
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Interactive glyph inspector",
+        "Interactive font playground",
+        "How to install",
+        "Install via NPM (Recommended)"
+      ],
+      "textPreview": "CODING AND DESIGN SPIRIT WITHIN OUR COMMUNITY OF CREATORS CODING AND DESIGN SPIRIT WITHIN OUR COMMUNITY OF CREATORS CODING AND DESIGN SPIRIT WITHIN OUR COMMUNITY OF CREATORS CODING AND DESIGN SPIRIT WITHIN OUR COMMUNITY OF CREATORS",
+      "fontFamilies": [
+        "Geist",
+        "Geist Mono",
+        ""
+      ],
+      "maxFontSizePx": 25,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 2,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.556,
+        "relY": 0.451,
+        "heightVh": 0.555,
+        "widthRatio": 0.955,
+        "text": 5.455,
+        "elements": 2.773,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 1.099,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.009
+      },
+      "crop": "archive/vercel-com-font/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/vercel-com-font/blocks/05.html"
+    },
+    {
+      "id": "vercel-com-font#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > main > div > div > div > section:nth-of-type(4)",
+      "classes": [
+        "AMTIxG_grid",
+        "ifoYdG_grid"
+      ],
+      "box": {
+        "x": 26,
+        "y": 5209,
+        "w": 1375,
+        "h": 1441
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Interactive glyph inspector",
+        "Interactive font playground",
+        "How to install",
+        "Install via NPM (Recommended)"
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "Geist"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 8,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.519,
+        "heightVh": 0.956,
+        "widthRatio": 0.955,
+        "text": 0,
+        "elements": 3.584,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.197,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.009
+      },
+      "crop": "archive/vercel-com-font/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/vercel-com-font/blocks/06.html"
+    },
+    {
+      "id": "vercel-com-font#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > main > div > div > div > section:nth-of-type(5)",
+      "classes": [
+        "AMTIxG_grid"
+      ],
+      "box": {
+        "x": 26,
+        "y": 6650,
+        "w": 1375,
+        "h": 678
+      },
+      "headings": [
+        "Interactive font playground"
+      ],
+      "parentHeadings": [
+        "Interactive glyph inspector",
+        "Interactive font playground",
+        "How to install",
+        "Install via NPM (Recommended)"
+      ],
+      "textPreview": "Interactive font playground Thin Ultra Light Light Regular Medium Semi Bold Bold Black Ultra Black I I Size 160 Spacing -3% .....",
+      "fontFamilies": [
+        "Geist",
+        "Geist Mono",
+        "GeistPixelSquare",
+        "GeistPixelCircle",
+        "GeistPixelTriangle",
+        "GeistPixelGrid",
+        "GeistPixelLine"
+      ],
+      "maxFontSizePx": 160,
+      "variationSettings": [
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 2,
+        "text": 1,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 1,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 6,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.778,
+        "relY": 0.663,
+        "heightVh": 0.562,
+        "widthRatio": 0.955,
+        "text": 4.868,
+        "elements": 4.431,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.111,
+        "singleChar": 2.079,
+        "varSettings": 1,
+        "range": 1.099,
+        "textInput": 0.693,
+        "toggles": 0.693,
+        "buttons": 1.099,
+        "img": 0,
+        "svg": 1.946,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.009
+      },
+      "crop": "archive/vercel-com-font/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/vercel-com-font/blocks/07.html"
+    },
+    {
+      "id": "vercel-com-font#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > main > div > div > div > section:nth-of-type(6)",
+      "classes": [
+        "AMTIxG_grid",
+        "YZUcMW_how-to-install"
+      ],
+      "box": {
+        "x": 26,
+        "y": 7328,
+        "w": 1375,
+        "h": 1809
+      },
+      "headings": [
+        "How to install",
+        "Install via NPM (Recommended)",
+        "Use with Next.js",
+        "Features by installation method"
+      ],
+      "parentHeadings": [
+        "Interactive glyph inspector",
+        "Interactive font playground",
+        "How to install",
+        "Install via NPM (Recommended)"
+      ],
+      "textPreview": "How to install Install via NPM (Recommended) Best for Next.js projects. Includes full glyph set and font-feature-settings support. ▲ ~ npm i geist Get the latest Node.js and npm. Use with Next.js import { GeistSans } from 'geist/font/sans';",
+      "fontFamilies": [
+        "Geist",
+        "GeistSans",
+        "Geist Mono"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 20,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 26,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.889,
+        "relY": 0.731,
+        "heightVh": 1.102,
+        "widthRatio": 0.955,
+        "text": 7.801,
+        "elements": 6.17,
+        "headings": 4,
+        "fontSizes": 7,
+        "maxFontVw": 0.022,
+        "singleChar": 4.263,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 3.045,
+        "img": 0,
+        "svg": 3.296,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.303,
+        "bgLum": -1,
+        "fgLum": 0.009
+      },
+      "crop": "archive/vercel-com-font/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/vercel-com-font/blocks/08.html"
+    },
+    {
+      "id": "vercel-com-font#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2) > div:nth-of-type(2)",
+      "classes": [
+        "w-full"
+      ],
+      "box": {
+        "x": 32,
+        "y": 9185,
+        "w": 1361,
+        "h": 846
+      },
+      "headings": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "Geist",
+        "GeistSans",
+        "Geist Mono"
+      ],
+      "maxFontSizePx": 14,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 5,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.916,
+        "heightVh": 0.663,
+        "widthRatio": 0.945,
+        "text": 0,
+        "elements": 5.517,
+        "headings": 4,
+        "fontSizes": 4,
+        "maxFontVw": 0.01,
+        "singleChar": 1.099,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.099,
+        "img": 1.099,
+        "svg": 1.792,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 4.407,
+        "bgLum": -1,
+        "fgLum": 0.009
+      },
+      "crop": "archive/vercel-com-font/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/vercel-com-font/blocks/09.html"
+    },
+    {
+      "id": "vercel-com-font#10",
+      "nn": "10",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(3)",
+      "classes": [
+        "inset-0",
+        "pointer-events-none",
+        "fixed",
+        "z-[100000]",
+        "h-full",
+        "w-full"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1425,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "Geist"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(23, 23, 23)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.111,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 0.99,
+        "text": 0,
+        "elements": 2.398,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.009
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/vercel-com-font/blocks/10.html"
+    }
+  ]
+}

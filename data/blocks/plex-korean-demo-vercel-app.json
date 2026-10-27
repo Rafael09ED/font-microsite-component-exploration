@@ -1,0 +1,178 @@
+{
+  "slug": "plex-korean-demo-vercel-app",
+  "url": "https://plex-korean-demo.vercel.app",
+  "pageHeight": 2091,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "plex-korean-demo-vercel-app#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "main",
+      "selector": "body > main",
+      "classes": [],
+      "box": {
+        "x": 370,
+        "y": 176,
+        "w": 700,
+        "h": 1589
+      },
+      "headings": [
+        "IBM Plex Sans KR",
+        "Thin (100)",
+        "ExtraLight (200)",
+        "Light (300)"
+      ],
+      "parentHeadings": null,
+      "textPreview": "IBM Plex Sans KR 혁신하다 Thin (100) 소년 여기저기서 단풍잎 같은 슬픈 가을이 뚝뚝 떨어진다. 단풍잎 떨어져 나온 자리마다 봄을 마련해 놓고 나뭇가지 위에 하늘이 펼쳐 있다. 가만히 하늘을 들여다보려면 눈썹에 파란 물감이 든다. 두 손으로 따뜻한 볼을 쓸어 보면 손바닥에도 파란 물감이 묻어난다. 다시 손바닥을 들여다본다. 손금에는 맑은 강물이 흐르고, 맑은 강물이 흐르고, 강물 속에는 사랑처럼 슬픈 얼굴 ",
+      "fontFamilies": [
+        "IBM Plex Sans",
+        "IBM Plex Sans KR"
+      ],
+      "maxFontSizePx": 54,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(22, 22, 22)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.084,
+        "heightVh": 1.017,
+        "widthRatio": 0.486,
+        "text": 7.795,
+        "elements": 3.178,
+        "headings": 4,
+        "fontSizes": 4,
+        "maxFontVw": 0.037,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.008
+      },
+      "crop": "archive/plex-korean-demo-vercel-app/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/plex-korean-demo-vercel-app/blocks/00.html"
+    },
+    {
+      "id": "plex-korean-demo-vercel-app#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > footer",
+      "classes": [],
+      "box": {
+        "x": 370,
+        "y": 1765,
+        "w": 700,
+        "h": 134
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Poem source Code source",
+      "fontFamilies": [
+        "IBM Plex Sans"
+      ],
+      "maxFontSizePx": 14,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(22, 22, 22)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.844,
+        "heightVh": 0.139,
+        "widthRatio": 0.486,
+        "text": 3.178,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.01,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0.008
+      },
+      "crop": "archive/plex-korean-demo-vercel-app/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/plex-korean-demo-vercel-app/blocks/01.html"
+    }
+  ]
+}

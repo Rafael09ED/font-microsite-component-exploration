@@ -1,0 +1,939 @@
+{
+  "slug": "system-mass-driver-com",
+  "url": "https://system.mass-driver.com",
+  "pageHeight": 6777,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "system-mass-driver-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(1)",
+      "classes": [
+        "content_section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 25,
+        "w": 1440,
+        "h": 720
+      },
+      "headings": [
+        "MD System 01",
+        "Introduction",
+        "MD System MD System Narrow MD System Condensed"
+      ],
+      "parentHeadings": null,
+      "textPreview": "MD System 01 Introduction Specimen PDF ↓ Try ↗Buy ↗ MD System MD System Narrow MD System Condensed MD System is a typeface for general practice: a workhorse grotesque, combining a rational family layout with an appearance that embraces the ",
+      "fontFamilies": [
+        "MD System"
+      ],
+      "maxFontSizePx": 100,
+      "variationSettings": [
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 500",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 700",
+        "\"slnt\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 600",
+        "\"slnt\" 0, \"wdth\" 50, \"wght\" 800",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.004,
+        "heightVh": 0.588,
+        "widthRatio": 1,
+        "text": 6.417,
+        "elements": 3.466,
+        "headings": 3,
+        "fontSizes": 3,
+        "maxFontVw": 0.069,
+        "singleChar": 0.693,
+        "varSettings": 6,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/system-mass-driver-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/system-mass-driver-com/blocks/00.html"
+    },
+    {
+      "id": "system-mass-driver-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(2)",
+      "classes": [
+        "content_section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 745,
+        "w": 1440,
+        "h": 914
+      },
+      "headings": [
+        "MD System 02",
+        "Style Overview",
+        "Standard",
+        "Narrow"
+      ],
+      "parentHeadings": null,
+      "textPreview": "MD System 02 Style Overview Standard Narrow Condensed MD System’s standard width is designed for running text and punchy titles alike. Its proportions are geared towards readability and an overall natural balance, rather than the rigid unif",
+      "fontFamilies": [
+        "MD System"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 500",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 700",
+        "\"slnt\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 12,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.125,
+        "relY": 0.11,
+        "heightVh": 0.701,
+        "widthRatio": 1,
+        "text": 6.671,
+        "elements": 3.555,
+        "headings": 4,
+        "fontSizes": 2,
+        "maxFontVw": 0.011,
+        "singleChar": 0.693,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.565,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/system-mass-driver-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/system-mass-driver-com/blocks/01.html"
+    },
+    {
+      "id": "system-mass-driver-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(3)",
+      "classes": [
+        "content_section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1659,
+        "w": 1440,
+        "h": 973
+      },
+      "headings": [
+        "MD System 03",
+        "Design Details"
+      ],
+      "parentHeadings": null,
+      "textPreview": "MD System 03 Design Details Horizontal proportions vary in reference to classical models, rather than the strict uniformity of more ‘mechanical’ neo-grotesques. MD System’s stroke weights are optically balanced across styles, so text doesn’",
+      "fontFamilies": [
+        "MD System"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 500",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 700",
+        "\"slnt\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 4,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.25,
+        "relY": 0.245,
+        "heightVh": 0.733,
+        "widthRatio": 1,
+        "text": 6.319,
+        "elements": 2.944,
+        "headings": 2,
+        "fontSizes": 2,
+        "maxFontVw": 0.011,
+        "singleChar": 0.693,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.609,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/system-mass-driver-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/system-mass-driver-com/blocks/02.html"
+    },
+    {
+      "id": "system-mass-driver-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(4)",
+      "classes": [
+        "content_section",
+        "hide_on_mobile"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2632,
+        "w": 1440,
+        "h": 703
+      },
+      "headings": [
+        "MD System 04",
+        "Designspace Overview"
+      ],
+      "parentHeadings": null,
+      "textPreview": "MD System 04 Designspace Overview WEIGHT (WGHT) 600 WIDTH (WDTH) 75 SLANT (SLNT) -5 SIZE ↔ Metropolis MDSystem-VF.ttf 302 KB (120 KB Compressed) Available with all orders of the complete MD System family. Available in 30 discrete styles — f",
+      "fontFamilies": [
+        "MD System",
+        "Arial",
+        "ui-sans-serif"
+      ],
+      "maxFontSizePx": 200,
+      "variationSettings": [
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 500",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 700",
+        "\"slnt\" 0, \"wdth\" 50, \"wght\" 500",
+        "\"slnt\" 0, \"wdth\" 0, \"wght\" 0",
+        "\"slnt\" -5, \"wdth\" 75, \"wght\" 600",
+        "\"slnt\" 0, \"wdth\" 50, \"wght\" 400",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 400",
+        "\"slnt\" 0, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 5,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.375,
+        "relY": 0.388,
+        "heightVh": 0.577,
+        "widthRatio": 1,
+        "text": 6.418,
+        "elements": 4.654,
+        "headings": 2,
+        "fontSizes": 5,
+        "maxFontVw": 0.139,
+        "singleChar": 3.555,
+        "varSettings": 8,
+        "range": 1.792,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/system-mass-driver-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/system-mass-driver-com/blocks/03.html"
+    },
+    {
+      "id": "system-mass-driver-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#waterfall",
+      "classes": [
+        "content_section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3335,
+        "w": 1440,
+        "h": 1559
+      },
+      "headings": [
+        "MD System 05",
+        "Specimens"
+      ],
+      "parentHeadings": null,
+      "textPreview": "MD System 05 Specimens Width Weight In 1992, Acorn Computers produced the A3010, A3020 and A4000 range of personal computers with the ARM250 System-on-a-Chip. It combined the original Acorn ARM2 processor with a memory controller (MEMC), vi",
+      "fontFamilies": [
+        "MD System",
+        "Arial"
+      ],
+      "maxFontSizePx": 136,
+      "variationSettings": [
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 500",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 700",
+        "\"slnt\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 400",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 600"
+      ],
+      "controls": {
+        "range": 2,
+        "text": 0,
+        "contenteditable": 12,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.492,
+        "heightVh": 1.005,
+        "widthRatio": 1,
+        "text": 8.373,
+        "elements": 3.178,
+        "headings": 2,
+        "fontSizes": 14,
+        "maxFontVw": 0.094,
+        "singleChar": 0.693,
+        "varSettings": 5,
+        "range": 1.099,
+        "textInput": 2.565,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/system-mass-driver-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/system-mass-driver-com/blocks/04.html"
+    },
+    {
+      "id": "system-mass-driver-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(6)",
+      "classes": [
+        "content_section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4895,
+        "w": 1440,
+        "h": 1083
+      },
+      "headings": [
+        "MD System 06",
+        "OpenType Features",
+        "Stylistic Alts",
+        "Single-story a"
+      ],
+      "parentHeadings": null,
+      "textPreview": "MD System 06 OpenType Features Specimen PDF → Single-story a Yucatán Single-story g Images Legible Forms Isolator Double-story a Yucatán Double-story g Images Tabular Figures €10.95 Oldstyle Figures 01.28.49 Tab. Oldstyle Figures €5.81 Slas",
+      "fontFamilies": [
+        "MD System"
+      ],
+      "maxFontSizePx": 50,
+      "variationSettings": [
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 500",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 700",
+        "\"slnt\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"slnt\" 0, \"wdth\" 50, \"wght\" 400",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 400",
+        "\"slnt\" 0, \"wdth\" 100, \"wght\" 600",
+        "\"slnt\" -10, \"wdth\" 100, \"wght\" 600"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": true
+      },
+      "vector": {
+        "order": 0.625,
+        "relY": 0.722,
+        "heightVh": 0.79,
+        "widthRatio": 1,
+        "text": 6.246,
+        "elements": 5.004,
+        "headings": 4,
+        "fontSizes": 3,
+        "maxFontVw": 0.035,
+        "singleChar": 1.099,
+        "varSettings": 7,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/system-mass-driver-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/system-mass-driver-com/blocks/05.html"
+    },
+    {
+      "id": "system-mass-driver-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(7)",
+      "classes": [
+        "content_section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5978,
+        "w": 1440,
+        "h": 172
+      },
+      "headings": [
+        "MD System 07",
+        "Glyph Set"
+      ],
+      "parentHeadings": null,
+      "textPreview": "MD System 07 Glyph Set Specimen PDF →",
+      "fontFamilies": [
+        "MD System"
+      ],
+      "maxFontSizePx": 14,
+      "variationSettings": [
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 500",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 700",
+        "\"slnt\" 0, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.75,
+        "relY": 0.882,
+        "heightVh": 0.175,
+        "widthRatio": 1,
+        "text": 3.638,
+        "elements": 2.303,
+        "headings": 2,
+        "fontSizes": 2,
+        "maxFontVw": 0.01,
+        "singleChar": 0.693,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/system-mass-driver-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/system-mass-driver-com/blocks/06.html"
+    },
+    {
+      "id": "system-mass-driver-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(8)",
+      "classes": [
+        "cta_block"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6150,
+        "w": 1440,
+        "h": 300
+      },
+      "headings": [
+        "Buy MD System ↗ Download Trial Fonts ↓ Read the PDF Specimen →"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Buy MD System ↗ Download Trial Fonts ↓ Read the PDF Specimen →",
+      "fontFamilies": [
+        "MD System"
+      ],
+      "maxFontSizePx": 64,
+      "variationSettings": [
+        "\"slnt\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 800",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 600",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.875,
+        "relY": 0.907,
+        "heightVh": 0.288,
+        "widthRatio": 1,
+        "text": 4.143,
+        "elements": 2.197,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.044,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/system-mass-driver-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/system-mass-driver-com/blocks/07.html"
+    },
+    {
+      "id": "system-mass-driver-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(9)",
+      "classes": [
+        "content_section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6450,
+        "w": 1440,
+        "h": 327
+      },
+      "headings": [
+        "About this Website",
+        "About the Foundry"
+      ],
+      "parentHeadings": null,
+      "textPreview": "About this Website This site was designed and built in-house by Mass-Driver. It does not use cookies. © Mass-Driver 2025 About the Foundry Established in 2020, Mass-Driver is the type design & font production studio of Rutherford Craze, a B",
+      "fontFamilies": [
+        "MD System"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"slnt\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 700",
+        "\"slnt\" 0, \"wdth\" 75, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.952,
+        "heightVh": 0.31,
+        "widthRatio": 1,
+        "text": 5.793,
+        "elements": 2.996,
+        "headings": 2,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/system-mass-driver-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/system-mass-driver-com/blocks/08.html"
+    },
+    {
+      "id": "system-mass-driver-com#09",
+      "nn": "09",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div",
+      "classes": [
+        "grid",
+        "background_grid"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "3 4 5 6",
+      "fontFamilies": [
+        "MD System"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"slnt\" 0, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgba(0, 0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.125,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 2.079,
+        "elements": 1.946,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 1.946,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": -1
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/system-mass-driver-com/blocks/09.html"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "slug": "universalsans-com",
+  "url": "https://universalsans.com",
+  "pageHeight": 900,
+  "segmentation": "screens",
+  "blocks": [
+    {
+      "id": "universalsans-com#00",
+      "nn": "00",
+      "kind": "screen",
+      "sticky": false,
+      "tag": "screen",
+      "selector": null,
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": null,
+      "color": null,
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 0,
+        "headings": 0,
+        "fontSizes": 0,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": -1
+      },
+      "crop": "archive/universalsans-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": null
+    },
+    {
+      "id": "universalsans-com#01",
+      "nn": "01",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(1) > div:nth-of-type(6)",
+      "classes": [
+        "section--tester"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1070,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "INFO UNIVERSAL SANS BuildID v2.0.0.50.25.40.50.1111111111111111111.01.01.450 Hello font friend. Opentype TT 202px A A 3.8 VA -4.1 Text Display Auto It AA Abc Word Sentence Paragraph Glyphs Contextual Alternates Case-Sensitive Forms Denomina",
+      "fontFamilies": [
+        "Universal Sans",
+        "Display"
+      ],
+      "maxFontSizePx": 15,
+      "variationSettings": [
+        "\"prop\" 50, \"rnds\" 50, \"skew\" 25, \"trml\" 0, \"wght\" 450, \"xhgt\" 40"
+      ],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 3,
+        "checkbox": 1,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 7,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 0.743,
+        "text": 5.969,
+        "elements": 7.279,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.01,
+        "singleChar": 3.989,
+        "varSettings": 1,
+        "range": 0.693,
+        "textInput": 1.386,
+        "toggles": 0.693,
+        "buttons": 0,
+        "img": 0,
+        "svg": 2.079,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/universalsans-com/blocks/01.html"
+    },
+    {
+      "id": "universalsans-com#02",
+      "nn": "02",
+      "kind": "offscreen",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(1) > div:nth-of-type(2)",
+      "classes": [
+        "section--information"
+      ],
+      "box": {
+        "x": 1440,
+        "y": 0,
+        "w": 1390,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "ABOUT Universal Sans is an award-winning customisable typeface platform. In 2020 the project was awared the ultimate creative accolade – a rare D&AD Black Pencil – reserved for work that is ground-breaking in its field and fundamentally cha",
+      "fontFamilies": [
+        "Universal Sans",
+        ""
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 1,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 0.965,
+        "text": 11.005,
+        "elements": 6.17,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0.693,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.303,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/universalsans-com/blocks/02.html"
+    }
+  ]
+}

@@ -1,0 +1,600 @@
+{
+  "slug": "daifoldes-com-eubiescript-sub",
+  "url": "https://www.daifoldes.com/eubiescript-sub/index.html",
+  "pageHeight": 8186,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "daifoldes-com-eubiescript-sub#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(1)",
+      "classes": [
+        "introduction"
+      ],
+      "box": {
+        "x": 0,
+        "y": 144,
+        "w": 1440,
+        "h": 825
+      },
+      "headings": [
+        "Eubie Script"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Eubie Script A casual semi-connected script, Eubie Script's letterforms rise and drop to create surprising word shapes, helped by position-specific ligatures and contextual alternates. With tenacious rhythm and dynamic connections, Eubie Sc",
+      "fontFamilies": [
+        "Balto Web",
+        "Eubie Script Web"
+      ],
+      "maxFontSizePx": 192,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.018,
+        "heightVh": 0.651,
+        "widthRatio": 1,
+        "text": 5.989,
+        "elements": 3.135,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.133,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0.016
+      },
+      "crop": "archive/daifoldes-com-eubiescript-sub/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/daifoldes-com-eubiescript-sub/blocks/00.html"
+    },
+    {
+      "id": "daifoldes-com-eubiescript-sub#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2)",
+      "classes": [
+        "callout-specimens"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1113,
+        "w": 1440,
+        "h": 1012
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "Balto Web"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(241, 172, 76)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.167,
+        "relY": 0.136,
+        "heightVh": 0.754,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 4.852,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.487,
+        "fgLum": 0.016
+      },
+      "crop": "archive/daifoldes-com-eubiescript-sub/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/daifoldes-com-eubiescript-sub/blocks/01.html"
+    },
+    {
+      "id": "daifoldes-com-eubiescript-sub#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(3)",
+      "classes": [
+        "features"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2239,
+        "w": 1440,
+        "h": 1646
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "A playful, bouncing baseline gives words set in Eubie Script unique shapes and references traditional hand-lettering. Eubie Script’s bounce, ligatures, and semi-connected structure produce flirtatious letter interactions and exciting negati",
+      "fontFamilies": [
+        "Balto Web"
+      ],
+      "maxFontSizePx": 19,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 4,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.274,
+        "heightVh": 1.04,
+        "widthRatio": 1,
+        "text": 6.236,
+        "elements": 4.796,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.609,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.016
+      },
+      "crop": "archive/daifoldes-com-eubiescript-sub/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/daifoldes-com-eubiescript-sub/blocks/02.html"
+    },
+    {
+      "id": "daifoldes-com-eubiescript-sub#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(4)",
+      "classes": [
+        "foreign-specimen"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4001,
+        "w": 1440,
+        "h": 2151
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "Balto Web"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(34, 34, 34)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.489,
+        "heightVh": 1.221,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 4.277,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.016,
+        "fgLum": 1
+      },
+      "crop": "archive/daifoldes-com-eubiescript-sub/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/daifoldes-com-eubiescript-sub/blocks/03.html"
+    },
+    {
+      "id": "daifoldes-com-eubiescript-sub#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(5)",
+      "classes": [
+        "eubie-description"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6296,
+        "w": 1440,
+        "h": 161
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "To meet its aesthetic goals, Eubie Script draws from the many lettering styles of Harry Knorr, an artist at Globe Poster for over 50 years. The script's contours are drawn (impossible to write with any tool) like the work of Knorr, who occa",
+      "fontFamilies": [
+        "Balto Web"
+      ],
+      "maxFontSizePx": 19,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.769,
+        "heightVh": 0.165,
+        "widthRatio": 1,
+        "text": 5.838,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.016
+      },
+      "crop": "archive/daifoldes-com-eubiescript-sub/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/daifoldes-com-eubiescript-sub/blocks/04.html"
+    },
+    {
+      "id": "daifoldes-com-eubiescript-sub#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(6)",
+      "classes": [
+        "tester-wrapper"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6601,
+        "w": 1440,
+        "h": 339
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Click & Type Here!",
+      "fontFamilies": [
+        "Balto Web",
+        "Eubie Script Web"
+      ],
+      "maxFontSizePx": 96,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": true,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.833,
+        "relY": 0.806,
+        "heightVh": 0.32,
+        "widthRatio": 1,
+        "text": 2.944,
+        "elements": 1.946,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.067,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.016
+      },
+      "crop": "archive/daifoldes-com-eubiescript-sub/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/daifoldes-com-eubiescript-sub/blocks/05.html"
+    },
+    {
+      "id": "daifoldes-com-eubiescript-sub#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(7)",
+      "classes": [
+        "outro"
+      ],
+      "box": {
+        "x": 0,
+        "y": 7228,
+        "w": 1440,
+        "h": 958
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "BUY NOW",
+      "fontFamilies": [
+        "Balto Web"
+      ],
+      "maxFontSizePx": 29,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.883,
+        "heightVh": 0.725,
+        "widthRatio": 1,
+        "text": 2.079,
+        "elements": 3.367,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.02,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0.016
+      },
+      "crop": "archive/daifoldes-com-eubiescript-sub/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/daifoldes-com-eubiescript-sub/blocks/06.html"
+    }
+  ]
+}

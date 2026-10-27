@@ -1,0 +1,187 @@
+{
+  "slug": "djr-com-gimlet-xray",
+  "url": "https://djr.com/gimlet-xray",
+  "pageHeight": 2780,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "djr-com-gimlet-xray#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "main",
+      "selector": "#content",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 33,
+        "w": 1440,
+        "h": 2207
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Gimlet X-Ray showcases the mechanics of what is going on with the guts inside of an OpenType variable font. It exposes the control points and Bézier curves that make up the letterforms. And it also shows off the font’s spacing and kerning i",
+      "fontFamilies": [
+        "OutputSansWeb",
+        "ColorFontCustomizr2",
+        "output sans web",
+        "Output Sans Web",
+        "Arial",
+        "Arial Unicode MS"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [
+        "\"LINE\" 2, \"OFFC\" 36, \"ONCR\" 36, \"PTLN\" 2, \"wdth\" 100, \"wght\" 200"
+      ],
+      "controls": {
+        "range": 6,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 10
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.012,
+        "heightVh": 1.239,
+        "widthRatio": 1,
+        "text": 6.713,
+        "elements": 4.718,
+        "headings": 0,
+        "fontSizes": 8,
+        "maxFontVw": 0.017,
+        "singleChar": 2.485,
+        "varSettings": 1,
+        "range": 1.946,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/djr-com-gimlet-xray/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-gimlet-xray/blocks/00.html"
+    },
+    {
+      "id": "djr-com-gimlet-xray#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > footer",
+      "classes": [
+        "site-footer",
+        "h-card"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2240,
+        "w": 1440,
+        "h": 540
+      },
+      "headings": [
+        "DAVID JONATHAN ROSS",
+        "ELSEWHERE",
+        "FONT OF THE MONTH CLUB",
+        "TYPEFACES"
+      ],
+      "parentHeadings": null,
+      "textPreview": "DAVID JONATHAN ROSS RSS feed: Blog RSS feed: Glyph of the Day Mailing List ELSEWHERE Fonts in Use Mastodon Glyph of the Day Type Network Fontstand Adobe Fonts GitHub Calendly (Type Crit Crew) Instagram (inactive) FONT OF THE MONTH CLUB TYPE",
+      "fontFamilies": [
+        "InputSansNarrowWeb"
+      ],
+      "maxFontSizePx": 15,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.806,
+        "heightVh": 0.47,
+        "widthRatio": 1,
+        "text": 6.452,
+        "elements": 4.787,
+        "headings": 4,
+        "fontSizes": 3,
+        "maxFontVw": 0.01,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.932,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-gimlet-xray/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-gimlet-xray/blocks/01.html"
+    }
+  ]
+}

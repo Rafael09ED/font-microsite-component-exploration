@@ -1,0 +1,1175 @@
+{
+  "slug": "etunni-github-io-arapey-minisite",
+  "url": "https://etunni.github.io/Arapey-Minisite/",
+  "pageHeight": 14877,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "etunni-github-io-arapey-minisite#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(1)",
+      "classes": [
+        "arapey-hero",
+        "am-i-in-view",
+        "in-view"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 810
+      },
+      "headings": [
+        "A r a p e y",
+        "A variable typeface by Eduardo Rodríguez Tunni"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Get Arapey Get Arapey A r a p e y A variable typeface by Eduardo Rodríguez Tunni Scroll down for more Arapey",
+      "fontFamilies": [
+        "Arapey"
+      ],
+      "maxFontSizePx": 360,
+      "variationSettings": [
+        "\"opsz\" 12",
+        "\"opsz\" 128"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 3,
+        "video": 0,
+        "canvas": 1,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.642,
+        "widthRatio": 1,
+        "text": 4.7,
+        "elements": 3.829,
+        "headings": 2,
+        "fontSizes": 6,
+        "maxFontVw": 0.25,
+        "singleChar": 1.946,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.386,
+        "video": 0,
+        "canvas": 0.693,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/etunni-github-io-arapey-minisite/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/etunni-github-io-arapey-minisite/blocks/00.html"
+    },
+    {
+      "id": "etunni-github-io-arapey-minisite#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(2)",
+      "classes": [
+        "about-arapey-container",
+        "interactive-controls"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1066,
+        "w": 1440,
+        "h": 1328
+      },
+      "headings": [
+        "About Arapey"
+      ],
+      "parentHeadings": null,
+      "textPreview": "About Arapey Arapey (Ah-ra-pay) is a contemporary modern typeface with some Bodoni characteristics, but the structures, smooth lines, and finishes leave a feeling of calm and distinction. The first sketches were made during a vacation in Ar",
+      "fontFamilies": [
+        "Arapey",
+        "Arial"
+      ],
+      "maxFontSizePx": 64,
+      "variationSettings": [
+        "\"opsz\" 12",
+        "\"opsz\" 128",
+        "\"wght\" 60"
+      ],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 3,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 12,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.083,
+        "relY": 0.072,
+        "heightVh": 0.906,
+        "widthRatio": 1,
+        "text": 6.304,
+        "elements": 3.932,
+        "headings": 1,
+        "fontSizes": 7,
+        "maxFontVw": 0.044,
+        "singleChar": 0.693,
+        "varSettings": 3,
+        "range": 0.693,
+        "textInput": 1.386,
+        "toggles": 0,
+        "buttons": 2.565,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/etunni-github-io-arapey-minisite/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/etunni-github-io-arapey-minisite/blocks/01.html"
+    },
+    {
+      "id": "etunni-github-io-arapey-minisite#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(3)",
+      "classes": [
+        "toggle-block-container"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2650,
+        "w": 1440,
+        "h": 1002
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Termas del Arapey Display thin Display black Salto Uruguay Display thin Display black Hot Springs Display thin Display black",
+      "fontFamilies": [
+        "Arapey",
+        "Arial"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"opsz\" 12",
+        "\"opsz\" 128"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 3,
+        "checkbox": 3,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.167,
+        "relY": 0.178,
+        "heightVh": 0.748,
+        "widthRatio": 1,
+        "text": 4.868,
+        "elements": 3.091,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.1,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 1.386,
+        "toggles": 1.386,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/etunni-github-io-arapey-minisite/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/etunni-github-io-arapey-minisite/blocks/02.html"
+    },
+    {
+      "id": "etunni-github-io-arapey-minisite#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(4)",
+      "classes": [
+        "character-slide-section",
+        "interactive-controls"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3908,
+        "w": 1440,
+        "h": 665
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Regular lowercase | uppercase | numerals abcdefghijklmnopqrstuvwxyz",
+      "fontFamilies": [
+        "Arapey"
+      ],
+      "maxFontSizePx": 576,
+      "variationSettings": [
+        "\"opsz\" 12"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 15,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.25,
+        "relY": 0.263,
+        "heightVh": 0.553,
+        "widthRatio": 1,
+        "text": 4.248,
+        "elements": 3.85,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.4,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 2.773,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/etunni-github-io-arapey-minisite/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/etunni-github-io-arapey-minisite/blocks/03.html"
+    },
+    {
+      "id": "etunni-github-io-arapey-minisite#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(5)",
+      "classes": [
+        "character-grid-section",
+        "interactive-controls"
+      ],
+      "box": {
+        "x": 120,
+        "y": 4829,
+        "w": 1200,
+        "h": 740
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "! \" # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \\ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~ ¡ ¢ £ ¤ ¥ ¦ § ¨ © ª « ¬ ­ ® ¯ ° ± ² ³ ´ µ ¶ · ¸ ¹ º ",
+      "fontFamilies": [
+        "Arapey"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [
+        "\"opsz\" 12"
+      ],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.325,
+        "heightVh": 0.6,
+        "widthRatio": 0.833,
+        "text": 7.287,
+        "elements": 6.582,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.022,
+        "singleChar": 5.986,
+        "varSettings": 1,
+        "range": 0.693,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/etunni-github-io-arapey-minisite/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/etunni-github-io-arapey-minisite/blocks/04.html"
+    },
+    {
+      "id": "etunni-github-io-arapey-minisite#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(6)",
+      "classes": [
+        "fonts-in-use-container"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5825,
+        "w": 1440,
+        "h": 1344
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "5 Star Hotels Resort del Arapey HOTEL & SPA Eduardo Rodríguez TunniOwner & Founder Salto Department del UruguayCamino al Barceló 850283 Salto hotel • resort • spa • pool Restaurant Pool & Spa kids! menu Restaurant Salto! Termas del Arapey T",
+      "fontFamilies": [
+        "Arapey",
+        "Arapey-Extralight",
+        "Arapey-Bold",
+        "Arapey-Regular",
+        "Arapey-Light",
+        "Arapey_Black-Display",
+        "Arapey-BlackDisplay",
+        "Arapey-Black"
+      ],
+      "maxFontSizePx": 106,
+      "variationSettings": [
+        "\"opsz\" 12",
+        "\"opsz\" 12, \"wght\" 200",
+        "\"opsz\" 12, \"wght\" 700",
+        "\"opsz\" 12, \"wght\" 400",
+        "\"opsz\" 12, \"wght\" 300",
+        "\"opsz\" 128, \"wght\" 900",
+        "\"opsz\" 12, \"wght\" 900",
+        "\"opsz\" 12, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 10,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.417,
+        "relY": 0.392,
+        "heightVh": 0.914,
+        "widthRatio": 1,
+        "text": 8.446,
+        "elements": 6.08,
+        "headings": 0,
+        "fontSizes": 22,
+        "maxFontVw": 0.074,
+        "singleChar": 0,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 2.398,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/etunni-github-io-arapey-minisite/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/etunni-github-io-arapey-minisite/blocks/05.html"
+    },
+    {
+      "id": "etunni-github-io-arapey-minisite#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(7)",
+      "classes": [
+        "weather-section"
+      ],
+      "box": {
+        "x": 120,
+        "y": 7169,
+        "w": 1200,
+        "h": 1900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Arapey Weather 23°C 468 Thin Extralight Light Regular Medium Semibold Bold Extrabold Black Wind N. at 5.66 km/h 38% Humidity 404 Thin Extralight Light Regular Medium Semibold Bold Extrabold Black Local time Tuesday 8:42 367 Thin Extralight ",
+      "fontFamilies": [
+        "Arapey",
+        "Arial"
+      ],
+      "maxFontSizePx": 192,
+      "variationSettings": [
+        "\"opsz\" 12",
+        "\"wght\" 468",
+        "\"wght\" 404",
+        "\"wght\" 367"
+      ],
+      "controls": {
+        "range": 3,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.482,
+        "heightVh": 1.135,
+        "widthRatio": 0.833,
+        "text": 5.673,
+        "elements": 4.407,
+        "headings": 0,
+        "fontSizes": 7,
+        "maxFontVw": 0.133,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 1.386,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/etunni-github-io-arapey-minisite/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/etunni-github-io-arapey-minisite/blocks/06.html"
+    },
+    {
+      "id": "etunni-github-io-arapey-minisite#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(8)",
+      "classes": [
+        "design-features-section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 9197,
+        "w": 1440,
+        "h": 931
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "Arapey"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"opsz\" 12"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 7,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(247, 247, 247, 0.9)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.583,
+        "relY": 0.618,
+        "heightVh": 0.71,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 4.06,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 2.079,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.93,
+        "fgLum": 0
+      },
+      "crop": "archive/etunni-github-io-arapey-minisite/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/etunni-github-io-arapey-minisite/blocks/07.html"
+    },
+    {
+      "id": "etunni-github-io-arapey-minisite#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(9)",
+      "classes": [
+        "about-variable-fonts-section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10256,
+        "w": 1440,
+        "h": 1635
+      },
+      "headings": [
+        "About variable fonts and optical sizes"
+      ],
+      "parentHeadings": null,
+      "textPreview": "About variable fonts and optical sizes A variable font is a collection of master styles, with one central ‘default’ master (usually the Regular font style) and multiple ‘axes’ which tie the central master to the other masters. For example, ",
+      "fontFamilies": [
+        "Arapey",
+        "Arial",
+        "monospace"
+      ],
+      "maxFontSizePx": 432,
+      "variationSettings": [
+        "\"opsz\" 12",
+        "\"opsz\" 128",
+        "\"opsz\" 100",
+        "\"wght\" 500",
+        "\"wght\" 100"
+      ],
+      "controls": {
+        "range": 2,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.689,
+        "heightVh": 1.036,
+        "widthRatio": 1,
+        "text": 6.948,
+        "elements": 4.248,
+        "headings": 1,
+        "fontSizes": 6,
+        "maxFontVw": 0.3,
+        "singleChar": 1.386,
+        "varSettings": 5,
+        "range": 1.099,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/etunni-github-io-arapey-minisite/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/etunni-github-io-arapey-minisite/blocks/08.html"
+    },
+    {
+      "id": "etunni-github-io-arapey-minisite#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(10)",
+      "classes": [
+        "opsz-demo-container"
+      ],
+      "box": {
+        "x": 0,
+        "y": 12148,
+        "w": 1440,
+        "h": 750
+      },
+      "headings": [
+        "Without optical sizing",
+        "With optical sizing"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Without optical sizing Old railway bridge of Termas del Arapey The bridge was manufactured in Germany and its construction and assembly in Uruguay was under the supervision of engineer Juan T. Smith. The North Western system consisted of 18",
+      "fontFamilies": [
+        "Arapey"
+      ],
+      "maxFontSizePx": 80,
+      "variationSettings": [
+        "\"opsz\" 12",
+        "\"opsz\" 80",
+        "\"opsz\" 40",
+        "\"opsz\" 28"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.75,
+        "relY": 0.817,
+        "heightVh": 0.606,
+        "widthRatio": 1,
+        "text": 6.953,
+        "elements": 2.639,
+        "headings": 2,
+        "fontSizes": 5,
+        "maxFontVw": 0.056,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/etunni-github-io-arapey-minisite/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/etunni-github-io-arapey-minisite/blocks/09.html"
+    },
+    {
+      "id": "etunni-github-io-arapey-minisite#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#download-section",
+      "classes": [
+        "arapey-styles-container"
+      ],
+      "box": {
+        "x": 272,
+        "y": 13154,
+        "w": 896,
+        "h": 493
+      },
+      "headings": [
+        "Download Arapey"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Download Arapey Styles Named styles Weights Weight range Optical Sizes Roman (& Italic coming soon) 128 Thin, 128 Black Thin, Extralight, Light, Regular, Medium, Semibold, Bold, Extrabold, Black 100 — 900 12 — 128 Download Arapey",
+      "fontFamilies": [
+        "Arapey"
+      ],
+      "maxFontSizePx": 64,
+      "variationSettings": [
+        "\"opsz\" 128",
+        "\"opsz\" 12"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.833,
+        "relY": 0.884,
+        "heightVh": 0.437,
+        "widthRatio": 0.622,
+        "text": 5.438,
+        "elements": 2.773,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.044,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/etunni-github-io-arapey-minisite/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/etunni-github-io-arapey-minisite/blocks/10.html"
+    },
+    {
+      "id": "etunni-github-io-arapey-minisite#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(12)",
+      "classes": [
+        "arapey-zzzz"
+      ],
+      "box": {
+        "x": 0,
+        "y": 13807,
+        "w": 1440,
+        "h": 630
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "Arapey"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"opsz\" 12"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 1,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.917,
+        "relY": 0.928,
+        "heightVh": 0.531,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0.693,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/etunni-github-io-arapey-minisite/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/etunni-github-io-arapey-minisite/blocks/11.html"
+    },
+    {
+      "id": "etunni-github-io-arapey-minisite#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > main > footer",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 14437,
+        "w": 1440,
+        "h": 440
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Arapey, A typeface by Eduardo Tunni Website by Kabisa, design by Bureaudonald Thanks to the teams at Google Design and Google Fonts for their support. Contribute to this site on GitHub File a bug or make a request View the source code",
+      "fontFamilies": [
+        "Arapey"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [
+        "\"opsz\" 12"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(247, 247, 247, 0.9)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.97,
+        "heightVh": 0.398,
+        "widthRatio": 1,
+        "text": 5.481,
+        "elements": 2.996,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.014,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.792,
+        "bgLum": 0.93,
+        "fgLum": 0
+      },
+      "crop": "archive/etunni-github-io-arapey-minisite/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/etunni-github-io-arapey-minisite/blocks/12.html"
+    }
+  ]
+}

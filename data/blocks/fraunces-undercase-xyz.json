@@ -1,0 +1,1262 @@
+{
+  "slug": "fraunces-undercase-xyz",
+  "url": "https://fraunces.undercase.xyz",
+  "pageHeight": 12382,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "fraunces-undercase-xyz#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "header",
+      "selector": "body > header",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 48
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Fraunces Roman & Italic Download",
+      "fontFamilies": [
+        "Fraunces"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [
+        "\"SOFT\" 100, \"WONK\" 1"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(251, 169, 25)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.052,
+        "widthRatio": 1,
+        "text": 3.497,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.014,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.49,
+        "fgLum": 0
+      },
+      "crop": "archive/fraunces-undercase-xyz/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/fraunces-undercase-xyz/blocks/00.html"
+    },
+    {
+      "id": "fraunces-undercase-xyz#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(3)",
+      "classes": [
+        "sticker-hero"
+      ],
+      "box": {
+        "x": 0,
+        "y": 48,
+        "w": 1440,
+        "h": 804
+      },
+      "headings": [
+        "Fraunces Roman & Italic",
+        "An “Old Style” Typeface Family by Undercase Type"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Fraunces Roman & Italic An “Old Style” Typeface Family by Undercase Type",
+      "fontFamilies": [
+        "Fraunces"
+      ],
+      "maxFontSizePx": 166,
+      "variationSettings": [
+        "\"SOFT\" 100, \"WONK\" 1",
+        "\"SOFT\" 0, \"WONK\" 1"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.077,
+        "relY": 0.004,
+        "heightVh": 0.638,
+        "widthRatio": 1,
+        "text": 4.29,
+        "elements": 2.398,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.115,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0
+      },
+      "crop": "archive/fraunces-undercase-xyz/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/fraunces-undercase-xyz/blocks/01.html"
+    },
+    {
+      "id": "fraunces-undercase-xyz#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(4)",
+      "classes": [
+        "marquee-marq"
+      ],
+      "box": {
+        "x": 0,
+        "y": 852,
+        "w": 1440,
+        "h": 48
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Regular 9pt Sharp Thin Italic 9pt Sharp Thin Regular 9pt Sharp Light Italic 9pt Sharp Light Regular 9pt Sharp Regular Italic 9pt Sharp Regular Regular 9pt Sharp SemiBold Italic 9pt Sharp SemiBold Regular 9pt Sharp Bold Italic 9pt Sharp Bold",
+      "fontFamilies": [
+        "Fraunces"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [
+        "\"SOFT\" 100, \"WONK\" 1",
+        "\"SOFT\" 0, \"WONK\" 1, \"opsz\" 9",
+        "\"SOFT\" 50, \"WONK\" 1, \"opsz\" 9",
+        "\"SOFT\" 100, \"WONK\" 1, \"opsz\" 9",
+        "\"SOFT\" 0, \"WONK\" 1, \"opsz\" 72",
+        "\"SOFT\" 50, \"WONK\" 1, \"opsz\" 72",
+        "\"SOFT\" 100, \"WONK\" 1, \"opsz\" 72",
+        "\"SOFT\" 0, \"WONK\" 1, \"opsz\" 144"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(251, 169, 25)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.154,
+        "relY": 0.069,
+        "heightVh": 0.052,
+        "widthRatio": 1,
+        "text": 8.633,
+        "elements": 5.389,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.49,
+        "fgLum": 0
+      },
+      "crop": "archive/fraunces-undercase-xyz/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/fraunces-undercase-xyz/blocks/02.html"
+    },
+    {
+      "id": "fraunces-undercase-xyz#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(5)",
+      "classes": [
+        "meet-fraunces"
+      ],
+      "box": {
+        "x": 0,
+        "y": 900,
+        "w": 1440,
+        "h": 2725
+      },
+      "headings": [
+        "Meet Fraunces, an “Old Style” typeface"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Meet Fraunces, an “Old Style” typeface In the summer of 2018, Google Fonts approached us with the challenge of designing a display typeface. We spent some time perusing the catalog, and we were struck by a pretty big gap in certain typograp",
+      "fontFamilies": [
+        "Fraunces"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [
+        "\"SOFT\" 100, \"WONK\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 4,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.231,
+        "relY": 0.073,
+        "heightVh": 1.393,
+        "widthRatio": 1,
+        "text": 8.091,
+        "elements": 3.219,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.025,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.609,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/fraunces-undercase-xyz/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/fraunces-undercase-xyz/blocks/03.html"
+    },
+    {
+      "id": "fraunces-undercase-xyz#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(6)",
+      "classes": [
+        "marquee-marq",
+        "reverse"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3625,
+        "w": 1440,
+        "h": 48
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Regular 9pt Sharp Thin Italic 9pt Sharp Thin Regular 9pt Sharp Light Italic 9pt Sharp Light Regular 9pt Sharp Regular Italic 9pt Sharp Regular Regular 9pt Sharp SemiBold Italic 9pt Sharp SemiBold Regular 9pt Sharp Bold Italic 9pt Sharp Bold",
+      "fontFamilies": [
+        "Fraunces"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [
+        "\"SOFT\" 100, \"WONK\" 1",
+        "\"SOFT\" 0, \"WONK\" 1, \"opsz\" 9",
+        "\"SOFT\" 50, \"WONK\" 1, \"opsz\" 9",
+        "\"SOFT\" 100, \"WONK\" 1, \"opsz\" 9",
+        "\"SOFT\" 0, \"WONK\" 1, \"opsz\" 72",
+        "\"SOFT\" 50, \"WONK\" 1, \"opsz\" 72",
+        "\"SOFT\" 100, \"WONK\" 1, \"opsz\" 72",
+        "\"SOFT\" 0, \"WONK\" 1, \"opsz\" 144"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(251, 169, 25)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.308,
+        "relY": 0.293,
+        "heightVh": 0.052,
+        "widthRatio": 1,
+        "text": 8.633,
+        "elements": 5.389,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.49,
+        "fgLum": 0
+      },
+      "crop": "archive/fraunces-undercase-xyz/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/fraunces-undercase-xyz/blocks/04.html"
+    },
+    {
+      "id": "fraunces-undercase-xyz#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(7)",
+      "classes": [
+        "thank-you",
+        "interactive-controls"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3673,
+        "w": 1440,
+        "h": 887
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Honk for Wonky Fonts SOFT (Softness) wght (Weight) WONK (Wonk) opsz (Optical Size)",
+      "fontFamilies": [
+        "Fraunces",
+        "arial"
+      ],
+      "maxFontSizePx": 173,
+      "variationSettings": [
+        "\"SOFT\" 100, \"WONK\" 1",
+        "\"SOFT\" 0, \"WONK\" 1, \"opsz\" 143.999, \"wght\" 900"
+      ],
+      "controls": {
+        "range": 4,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.385,
+        "relY": 0.297,
+        "heightVh": 0.686,
+        "widthRatio": 1,
+        "text": 4.419,
+        "elements": 2.996,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.12,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 1.609,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0
+      },
+      "crop": "archive/fraunces-undercase-xyz/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/fraunces-undercase-xyz/blocks/05.html"
+    },
+    {
+      "id": "fraunces-undercase-xyz#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(8)",
+      "classes": [
+        "anatomy"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4560,
+        "w": 1440,
+        "h": 1015
+      },
+      "headings": [
+        "Your friend, Fraunces"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Your friend, Fraunces Fraunces is not an Old Style typeface, but an “Old Style” typeface. It’s a genre of type that is less concerned with the sober and sensible construction of letterforms, and where personality is always paramount.",
+      "fontFamilies": [
+        "Fraunces"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [
+        "\"SOFT\" 100, \"WONK\" 1",
+        "\"SOFT\" 100, \"WONK\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.462,
+        "relY": 0.368,
+        "heightVh": 0.755,
+        "widthRatio": 1,
+        "text": 5.46,
+        "elements": 2.398,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.025,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/fraunces-undercase-xyz/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/fraunces-undercase-xyz/blocks/06.html"
+    },
+    {
+      "id": "fraunces-undercase-xyz#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(9)",
+      "classes": [
+        "soft-demo",
+        "interactive-controls"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5575,
+        "w": 1440,
+        "h": 1043
+      },
+      "headings": [
+        "A Softie at Heart"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Please Wait to be Seated SOFT A Softie at Heart The Softness axis controls the “wetness” or “inkiness” of the typeface. Although Fraunces is drawn entirely with rounded serifs, it achieves sharpness in the “Sharp” area of the design space w",
+      "fontFamilies": [
+        "Fraunces",
+        "arial"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [
+        "\"SOFT\" 100, \"WONK\" 1",
+        "\"SOFT\" 100, \"WONK\" 0"
+      ],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(251, 169, 25)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.538,
+        "relY": 0.45,
+        "heightVh": 0.77,
+        "widthRatio": 1,
+        "text": 5.598,
+        "elements": 2.398,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.025,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0.693,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.49,
+        "fgLum": 0
+      },
+      "crop": "archive/fraunces-undercase-xyz/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/fraunces-undercase-xyz/blocks/07.html"
+    },
+    {
+      "id": "fraunces-undercase-xyz#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(10)",
+      "classes": [
+        "opsz-demo"
+      ],
+      "box": {
+        "x": 296,
+        "y": 6619,
+        "w": 848,
+        "h": 1050
+      },
+      "headings": [
+        "WITH OPTICAL SIZING",
+        "WITHOUT OPTICAL SIZING"
+      ],
+      "parentHeadings": null,
+      "textPreview": "WITH OPTICAL SIZING The self-hypnosis revolution has arrived. Congratulations on your decision to pursue CB radio. Before you purchase the equipment, ask yourself these questions about the radio and the accessories you plan to use. The book",
+      "fontFamilies": [
+        "Fraunces"
+      ],
+      "maxFontSizePx": 112,
+      "variationSettings": [
+        "\"SOFT\" 100, \"WONK\" 1",
+        "\"SOFT\" 100, \"WONK\" 1, \"opsz\" 143.999"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 4,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.615,
+        "relY": 0.535,
+        "heightVh": 0.773,
+        "widthRatio": 0.589,
+        "text": 7.234,
+        "elements": 2.944,
+        "headings": 2,
+        "fontSizes": 5,
+        "maxFontVw": 0.078,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.609,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/fraunces-undercase-xyz/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/fraunces-undercase-xyz/blocks/08.html"
+    },
+    {
+      "id": "fraunces-undercase-xyz#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(11)",
+      "classes": [
+        "opsz-text"
+      ],
+      "box": {
+        "x": 0,
+        "y": 7669,
+        "w": 1440,
+        "h": 568
+      },
+      "headings": [
+        "Ask Me About My Optical Size Axis"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Ask Me About My Optical Size Axis The Optical Size axis is similar to the Softness axis, in that it controls the overall contrast between thicks and thins. The Optical Size axis goes a step further, however, and factors in additional change",
+      "fontFamilies": [
+        "Fraunces"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [
+        "\"SOFT\" 100, \"WONK\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.692,
+        "relY": 0.619,
+        "heightVh": 0.489,
+        "widthRatio": 1,
+        "text": 6.635,
+        "elements": 1.386,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.025,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/fraunces-undercase-xyz/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/fraunces-undercase-xyz/blocks/09.html"
+    },
+    {
+      "id": "fraunces-undercase-xyz#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(12)",
+      "classes": [
+        "wonk-demo"
+      ],
+      "box": {
+        "x": 0,
+        "y": 8237,
+        "w": 1440,
+        "h": 1150
+      },
+      "headings": [
+        "Extra Wonk Included"
+      ],
+      "parentHeadings": null,
+      "textPreview": "minimum WONK billabong WONK Extra Wonk Included The Wonk axis controls the substitution of “wonky” characters. These substitutions automatically switch at smaller sizes (18 pt and below), but can be toggled manually at larger optical sizes.",
+      "fontFamilies": [
+        "Fraunces",
+        "arial"
+      ],
+      "maxFontSizePx": 202,
+      "variationSettings": [
+        "\"SOFT\" 100, \"WONK\" 1",
+        "\"SOFT\" 50, \"WONK\" 0",
+        "\"SOFT\" 100, \"WONK\" 0"
+      ],
+      "controls": {
+        "range": 2,
+        "text": 0,
+        "contenteditable": 2,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(251, 169, 25)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.769,
+        "relY": 0.665,
+        "heightVh": 0.823,
+        "widthRatio": 1,
+        "text": 6.057,
+        "elements": 2.773,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.14,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 1.099,
+        "textInput": 1.099,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.49
+      },
+      "crop": "archive/fraunces-undercase-xyz/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/fraunces-undercase-xyz/blocks/10.html"
+    },
+    {
+      "id": "fraunces-undercase-xyz#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(13)",
+      "classes": [
+        "flip"
+      ],
+      "box": {
+        "x": 0,
+        "y": 9386,
+        "w": 1440,
+        "h": 1321
+      },
+      "headings": [
+        "Family",
+        "opsz",
+        "SOFT",
+        "WGHT"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Thank You for Shopping With us! Family Fraunces opsz 9 72 144 SOFT Sharp Soft SuperSoft WGHT Thin Light Regular Semibold Bold Black Style Roman Italic Instance gratification With two styles (Roman, Italic), three optical sizes (144pt, 72pt,",
+      "fontFamilies": [
+        "Fraunces"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [
+        "\"SOFT\" 50, \"WONK\" 0.5, \"opsz\" 72, \"wght\" 400",
+        "\"SOFT\" 50, \"WONK\" 0.5",
+        "\"SOFT\" 100, \"WONK\" 1",
+        "\"SOFT\" 100, \"WONK\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 15,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(251, 169, 25)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.846,
+        "relY": 0.758,
+        "heightVh": 0.903,
+        "widthRatio": 1,
+        "text": 6.111,
+        "elements": 3.989,
+        "headings": 4,
+        "fontSizes": 4,
+        "maxFontVw": 0.025,
+        "singleChar": 1.099,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 2.773,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.49,
+        "fgLum": 0
+      },
+      "crop": "archive/fraunces-undercase-xyz/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/fraunces-undercase-xyz/blocks/11.html"
+    },
+    {
+      "id": "fraunces-undercase-xyz#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(14)",
+      "classes": [
+        "charset-checkers"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10708,
+        "w": 1440,
+        "h": 1299
+      },
+      "headings": [
+        "Language Support"
+      ],
+      "parentHeadings": null,
+      "textPreview": "ȁ ć ẹ ģ ȉ ļ ń õ ȓ š ț ừ ẃ ý Ĕ ž Ặ Ć ¤ Ġ Ï Ļ Ñ Ǫ Ŕ Ș Ţ Ứ Ŵ Ỳ Ż Ø Language Support Fraunces supports a wide range of languages for global and local audiences, including: Afrikaans, Albanian, Azerbaijani, Basque, Bosnian, Catalan, Croatian, Cz",
+      "fontFamilies": [
+        "Fraunces"
+      ],
+      "maxFontSizePx": 56,
+      "variationSettings": [
+        "\"SOFT\" 100, \"WONK\" 1",
+        "\"SOFT\" 100, \"WONK\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.923,
+        "relY": 0.865,
+        "heightVh": 0.893,
+        "widthRatio": 1,
+        "text": 6.299,
+        "elements": 5.112,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.039,
+        "singleChar": 3.497,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/fraunces-undercase-xyz/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/fraunces-undercase-xyz/blocks/12.html"
+    },
+    {
+      "id": "fraunces-undercase-xyz#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > footer",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 12006,
+        "w": 1440,
+        "h": 376
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Fraunces © 2020, Undercase Type Fraunces was designed by Phaedra Charles and Flavia Zimbardi, with contributions by Ethan Cohen, and Andy Clymer. Website by Kabisa in collaboration with Undercase Type Font mastering by Alphabet Content edit",
+      "fontFamilies": [
+        "Fraunces"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"SOFT\" 100, \"WONK\" 1"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(251, 169, 25)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.97,
+        "heightVh": 0.349,
+        "widthRatio": 1,
+        "text": 5.986,
+        "elements": 3.332,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.565,
+        "bgLum": 0.49,
+        "fgLum": 0
+      },
+      "crop": "archive/fraunces-undercase-xyz/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/fraunces-undercase-xyz/blocks/13.html"
+    }
+  ]
+}

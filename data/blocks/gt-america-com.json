@@ -1,0 +1,2644 @@
+{
+  "slug": "gt-america-com",
+  "url": "https://www.gt-america.com",
+  "pageHeight": 28704,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "gt-america-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(1) > div:nth-of-type(1)",
+      "classes": [
+        "flex",
+        "overflow-hidden"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 810
+      },
+      "headings": [],
+      "parentHeadings": [
+        "GT America Intl",
+        "Style Overview",
+        "Variable Fonts",
+        ""
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "GT America Intl"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.642,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.072
+      },
+      "crop": "archive/gt-america-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/00.html"
+    },
+    {
+      "id": "gt-america-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(1) > div:nth-of-type(2)",
+      "classes": [
+        "md:ml-[132px]",
+        "px-4",
+        "mb-9",
+        "flex"
+      ],
+      "box": {
+        "x": 132,
+        "y": 810,
+        "w": 1308,
+        "h": 453
+      },
+      "headings": [
+        "GT America Intl"
+      ],
+      "parentHeadings": [
+        "GT America Intl",
+        "Style Overview",
+        "Variable Fonts",
+        ""
+      ],
+      "textPreview": "GT America Intl GT America connects two centuries of typographic genres, combining 19th century American Gothic and 20th century European Grotesk styles. The result is one cohesive typeface family unified under the best design features from",
+      "fontFamilies": [
+        "GT America Intl"
+      ],
+      "maxFontSizePx": 108,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.042,
+        "relY": 0.028,
+        "heightVh": 0.408,
+        "widthRatio": 0.908,
+        "text": 6.052,
+        "elements": 1.386,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.075,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.072
+      },
+      "crop": "archive/gt-america-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/01.html"
+    },
+    {
+      "id": "gt-america-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(1) > div:nth-of-type(3)",
+      "classes": [
+        "md:ml-[132px]",
+        "md:px-4",
+        "mb-5",
+        "md:mb-11",
+        "flex",
+        "flex-col"
+      ],
+      "box": {
+        "x": 132,
+        "y": 1323,
+        "w": 1308,
+        "h": 724
+      },
+      "headings": [
+        "Style Overview"
+      ],
+      "parentHeadings": [
+        "GT America Intl",
+        "Style Overview",
+        "Variable Fonts",
+        ""
+      ],
+      "textPreview": "Style Overview 6 Widths 7 Weights 84 Styles Upright + Italic COMPRESSED CONDENSED STANDARD EXTENDED EXPANDED MONO ULTRA LIGHT Aa Bb Cc Dd Ee Ff THIN Gg Hh Ii Jj Kk Ll LIGHT Mm Nn Oo Pp Qq Rr REGULAR Ss Tt Uu Vv Ww Xx MEDIUM Yy Zz Aa Bb Cc D",
+      "fontFamilies": [
+        "GT America Intl",
+        "GT America Intl Mono"
+      ],
+      "maxFontSizePx": 65,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"wdth\" 100, \"wght\" 400",
+        "\"ital\" 0, \"wdth\" 50, \"wght\" 100",
+        "\"ital\" 0, \"wdth\" 75, \"wght\" 100",
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 100",
+        "\"ital\" 0, \"wdth\" 125, \"wght\" 100",
+        "\"ital\" 0, \"wdth\" 150, \"wght\" 100",
+        "\"ital\" 0, \"wght\" 100"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.083,
+        "relY": 0.046,
+        "heightVh": 0.59,
+        "widthRatio": 0.908,
+        "text": 5.717,
+        "elements": 5.425,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.045,
+        "singleChar": 4.443,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.072
+      },
+      "crop": "archive/gt-america-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/02.html"
+    },
+    {
+      "id": "gt-america-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(1) > div:nth-of-type(4)",
+      "classes": [
+        "md:ml-[132px]",
+        "md:px-4",
+        "my-8",
+        "flex",
+        "flex-col",
+        "md:flex-row"
+      ],
+      "box": {
+        "x": 132,
+        "y": 2191,
+        "w": 1308,
+        "h": 553
+      },
+      "headings": [
+        "Variable Fonts"
+      ],
+      "parentHeadings": [
+        "GT America Intl",
+        "Style Overview",
+        "Variable Fonts",
+        ""
+      ],
+      "textPreview": "Variable Fonts Proportional Width Axis Weight Axis Upright + Italic Mono Weight Axis Upright + Italic GT AMERICA PROPORTIONAL ● WDTH● WGHT○ 0°○ PX America GT AMERICA MONO ● WGHT○ 0°○ PX America",
+      "fontFamilies": [
+        "GT America Intl",
+        "GT America Intl Mono"
+      ],
+      "maxFontSizePx": 287,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"wdth\" 100, \"wght\" 400",
+        "\"ital\" 0, \"wght\" 400",
+        "\"CNTR\" 100, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.125,
+        "relY": 0.076,
+        "heightVh": 0.479,
+        "widthRatio": 0.908,
+        "text": 5.293,
+        "elements": 3.526,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.199,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.072
+      },
+      "crop": "archive/gt-america-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/03.html"
+    },
+    {
+      "id": "gt-america-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(1) > div:nth-of-type(5)",
+      "classes": [
+        "md:ml-[132px]",
+        "md:px-4",
+        "md:pt-8",
+        "my-8",
+        "flex",
+        "flex-col"
+      ],
+      "box": {
+        "x": 132,
+        "y": 2792,
+        "w": 1308,
+        "h": 368
+      },
+      "headings": [
+        ""
+      ],
+      "parentHeadings": [
+        "GT America Intl",
+        "Style Overview",
+        "Variable Fonts",
+        ""
+      ],
+      "textPreview": "The prototypical American Gothic is an early version of the sans serif model. It resembles a serif design without serifs—and less stroke contrast. This results in a dynamic flow and an expressive personality that is most visible in the doub",
+      "fontFamilies": [
+        "GT America Intl"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.167,
+        "relY": 0.097,
+        "heightVh": 0.343,
+        "widthRatio": 0.908,
+        "text": 5.981,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.025,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.072
+      },
+      "crop": "archive/gt-america-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/04.html"
+    },
+    {
+      "id": "gt-america-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(1) > div:nth-of-type(6)",
+      "classes": [
+        "md:ml-[132px]",
+        "px-4",
+        "py-8",
+        "mt-8",
+        "md:mt-10",
+        "relative"
+      ],
+      "box": {
+        "x": 132,
+        "y": 3256,
+        "w": 1308,
+        "h": 903
+      },
+      "headings": [],
+      "parentHeadings": [
+        "GT America Intl",
+        "Style Overview",
+        "Variable Fonts",
+        ""
+      ],
+      "textPreview": "○ GT AMERICA LATIN ● WDTH○ WGHT○ 0°○ PX It’s Good Like That ○ GT AMERICA CYRILLIC ● WDTH○ WGHT○ 0°○ PX Дуже Соковитий ○ GT AMERICA LATIN ● WDTH○ WGHT○ 0°○ PX Little Too Sweet For My Taste But What Do I Know ○ GT AMERICA GREEK ● WDTH○ WGHT○ ",
+      "fontFamilies": [
+        "GT America Intl",
+        "GT America Intl Mono",
+        "GT America Intl Italic"
+      ],
+      "maxFontSizePx": 230,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wght\" 400",
+        "\"CNTR\" 100, \"wdth\" 100, \"wght\" 900",
+        "\"CNTR\" 100, \"wdth\" 100, \"wght\" 700",
+        "\"CNTR\" 100, \"wdth\" 100, \"wght\" 500",
+        "\"CNTR\" 100, \"wdth\" 100, \"wght\" 400",
+        "\"CNTR\" 100, \"wdth\" 100, \"wght\" 300",
+        "\"CNTR\" 100, \"wdth\" 100, \"wght\" 200"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 6,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.208,
+        "relY": 0.113,
+        "heightVh": 0.695,
+        "widthRatio": 0.908,
+        "text": 6.845,
+        "elements": 5.799,
+        "headings": 0,
+        "fontSizes": 9,
+        "maxFontVw": 0.16,
+        "singleChar": 0,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.946,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.072
+      },
+      "crop": "archive/gt-america-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/05.html"
+    },
+    {
+      "id": "gt-america-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(1) > div:nth-of-type(7)",
+      "classes": [
+        "flex",
+        "md:ml-[132px]",
+        "px-4",
+        "py-8",
+        "mb-8",
+        "md:mb-10"
+      ],
+      "box": {
+        "x": 132,
+        "y": 4159,
+        "w": 1308,
+        "h": 881
+      },
+      "headings": [],
+      "parentHeadings": [
+        "GT America Intl",
+        "Style Overview",
+        "Variable Fonts",
+        ""
+      ],
+      "textPreview": "GT AMERICA GREEK GT AMERICA THAI GT AMERICA CYRILLIC GT AMERICA DEVANAGARI GT AMERICA JAPANESE GT AMERICA KOREAN",
+      "fontFamilies": [
+        "GT America Intl",
+        "GT America Intl Mono"
+      ],
+      "maxFontSizePx": 12,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 8,
+        "svg": 3,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.25,
+        "relY": 0.145,
+        "heightVh": 0.683,
+        "widthRatio": 0.908,
+        "text": 4.727,
+        "elements": 6.704,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.008,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.197,
+        "svg": 1.386,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.072
+      },
+      "crop": "archive/gt-america-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/06.html"
+    },
+    {
+      "id": "gt-america-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(1) > div:nth-of-type(8)",
+      "classes": [
+        "md:ml-[132px]",
+        "px-4",
+        "mb-10",
+        "md:mb-9",
+        "relative"
+      ],
+      "box": {
+        "x": 132,
+        "y": 5136,
+        "w": 1308,
+        "h": 539
+      },
+      "headings": [],
+      "parentHeadings": [
+        "GT America Intl",
+        "Style Overview",
+        "Variable Fonts",
+        ""
+      ],
+      "textPreview": "LATIN ● WDTH○ WGHT○ 0°○ PX american candy",
+      "fontFamilies": [
+        "GT America Intl",
+        "GT America Intl Mono"
+      ],
+      "maxFontSizePx": 338,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wght\" 400",
+        "\"CNTR\" 100, \"wdth\" 100, \"wght\" 900"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.292,
+        "relY": 0.179,
+        "heightVh": 0.469,
+        "widthRatio": 0.908,
+        "text": 3.807,
+        "elements": 2.833,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.235,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.386,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.072
+      },
+      "crop": "archive/gt-america-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/07.html"
+    },
+    {
+      "id": "gt-america-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(1) > div:nth-of-type(9)",
+      "classes": [
+        "md:ml-[132px]",
+        "px-4",
+        "mb-10",
+        "relative"
+      ],
+      "box": {
+        "x": 132,
+        "y": 5735,
+        "w": 1308,
+        "h": 850
+      },
+      "headings": [],
+      "parentHeadings": [
+        "GT America Intl",
+        "Style Overview",
+        "Variable Fonts",
+        ""
+      ],
+      "textPreview": "○ ARABIC○ WDTH● WGHT○ 0°○ PX المعمول بالطريقة اللبنانية ○ DEVANAGARI○ WDTH● WGHT○ 0°○ PX गुलाब जामुन एक प्रकार ○ HEBREW○ WDTH● WGHT○ 0°○ PX קראנץ הוא עוגה עשויה ○ KOREAN○ WDTH● WGHT○ 0°○ PX 추억의 달고나 막대사탕은 ○ THAI LOOPED○ WDTH● WGHT○ 0°○ PX ขน",
+      "fontFamilies": [
+        "GT America Intl",
+        "GT America Intl Mono",
+        "GT America Thai Looped"
+      ],
+      "maxFontSizePx": 115,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wght\" 400",
+        "\"CNTR\" 100, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.2,
+        "heightVh": 0.665,
+        "widthRatio": 0.908,
+        "text": 5.602,
+        "elements": 5.455,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.08,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.072
+      },
+      "crop": "archive/gt-america-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/08.html"
+    },
+    {
+      "id": "gt-america-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(1) > div:nth-of-type(10)",
+      "classes": [
+        "flex",
+        "md:ml-[132px]",
+        "px-4",
+        "mt-10",
+        "mb-7",
+        "relative"
+      ],
+      "box": {
+        "x": 132,
+        "y": 6681,
+        "w": 1308,
+        "h": 863
+      },
+      "headings": [],
+      "parentHeadings": [
+        "GT America Intl",
+        "Style Overview",
+        "Variable Fonts",
+        ""
+      ],
+      "textPreview": "GT AMERICA THAI GT AMERICA LATIN GT AMERICA LATIN GT AMERICA HEBREW GT AMERICA KOREAN GT AMERICA LATIN GT AMERICA LATIN GT AMERICA LATIN",
+      "fontFamilies": [
+        "GT America Intl",
+        "GT America Intl Mono"
+      ],
+      "maxFontSizePx": 12,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 13,
+        "svg": 3,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.375,
+        "relY": 0.233,
+        "heightVh": 0.672,
+        "widthRatio": 0.908,
+        "text": 4.92,
+        "elements": 7.141,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.008,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.639,
+        "svg": 1.386,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.072
+      },
+      "crop": "archive/gt-america-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/09.html"
+    },
+    {
+      "id": "gt-america-com#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(2) > section:nth-of-type(1)",
+      "classes": [
+        "flex"
+      ],
+      "box": {
+        "x": 0,
+        "y": 7640,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Going Global",
+        "Available Scripts",
+        "The Original Four",
+        "LATIN"
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "GT America Intl"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.417,
+        "relY": 0.266,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-america-com/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/10.html"
+    },
+    {
+      "id": "gt-america-com#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(2) > section:nth-of-type(2)",
+      "classes": [
+        "md:ml-[132px]",
+        "px-4",
+        "mb-9",
+        "flex"
+      ],
+      "box": {
+        "x": 132,
+        "y": 8540,
+        "w": 1308,
+        "h": 453
+      },
+      "headings": [
+        "Going Global"
+      ],
+      "parentHeadings": [
+        "Going Global",
+        "Available Scripts",
+        "The Original Four",
+        "LATIN"
+      ],
+      "textPreview": "Going Global We collaborated with our partners from around the world to expand the typeface to five new scripts—Arabic عربي, Devanagari देवनागरी, Hebrew עברית, Korean 한글, and Thai ภาษาไทย—to enable GT America’s role as a global typeface. Th",
+      "fontFamilies": [
+        "GT America Intl",
+        "GT America Thai Looped"
+      ],
+      "maxFontSizePx": 108,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.458,
+        "relY": 0.298,
+        "heightVh": 0.408,
+        "widthRatio": 0.908,
+        "text": 5.991,
+        "elements": 1.609,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.075,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-america-com/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/11.html"
+    },
+    {
+      "id": "gt-america-com#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(2) > section:nth-of-type(3)",
+      "classes": [
+        "md:ml-[132px]",
+        "md:px-4",
+        "mb-9",
+        "flex",
+        "flex-col"
+      ],
+      "box": {
+        "x": 132,
+        "y": 9053,
+        "w": 1308,
+        "h": 2185
+      },
+      "headings": [
+        "Available Scripts",
+        "The Original Four",
+        "LATIN",
+        "CYRILLIC"
+      ],
+      "parentHeadings": [
+        "Going Global",
+        "Available Scripts",
+        "The Original Four",
+        "LATIN"
+      ],
+      "textPreview": "Available Scripts The Original Four GT America’s original 84 styles are available in Latin, Cyrillic, Greek, and Vietnamese. This includes five widths and a monospaced version. 6 Widths 7 Weights Proportional Monospaced Variable Fonts LATIN",
+      "fontFamilies": [
+        "GT America Intl",
+        "GT America Intl Mono",
+        "GT America Thai Looped",
+        "GT America Thai Loopless",
+        "GT America SimpChinese",
+        "GT America TradChinese",
+        "GT America Japanese"
+      ],
+      "maxFontSizePx": 108,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"wdth\" 100, \"wght\" 400",
+        "\"ital\" 0, \"wght\" 400",
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.315,
+        "heightVh": 1.232,
+        "widthRatio": 0.908,
+        "text": 7.095,
+        "elements": 4.771,
+        "headings": 4,
+        "fontSizes": 5,
+        "maxFontVw": 0.075,
+        "singleChar": 0.693,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-america-com/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/12.html"
+    },
+    {
+      "id": "gt-america-com#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(2) > section:nth-of-type(4)",
+      "classes": [
+        "ml-[132px]",
+        "px-4",
+        "hidden",
+        "md:flex"
+      ],
+      "box": {
+        "x": 132,
+        "y": 11297,
+        "w": 1308,
+        "h": 997
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Going Global",
+        "Available Scripts",
+        "The Original Four",
+        "LATIN"
+      ],
+      "textPreview": "View Scripts Latin Cyrillic Greek Vietnamese Arabic Devanagari Hebrew Korean Thai ○ LATIN ● WDTH ● WGHT ○ 0° ○ PX Tasty Popcorn ○ LATIN ● WDTH ● WGHT ○ 0° ○ PX No Additional Preservatives Brown Sugar Only Facility ○ LATIN ● WDTH ● WGHT ○ 0°",
+      "fontFamilies": [
+        "GT America Intl",
+        "GT America Intl Mono",
+        "GT America Intl Italic",
+        "GT America Thai Looped",
+        "GT America Thai Loopless"
+      ],
+      "maxFontSizePx": 346,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"ital\" 0, \"wght\" 400",
+        "\"CNTR\" 100, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.542,
+        "relY": 0.394,
+        "heightVh": 0.746,
+        "widthRatio": 0.908,
+        "text": 7.449,
+        "elements": 5.781,
+        "headings": 0,
+        "fontSizes": 5,
+        "maxFontVw": 0.24,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-america-com/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/13.html"
+    },
+    {
+      "id": "gt-america-com#14",
+      "nn": "14",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > section:nth-of-type(2) > div",
+      "classes": [
+        "md:ml-[132px]",
+        "px-4",
+        "mt-10",
+        "relative"
+      ],
+      "box": {
+        "x": 132,
+        "y": 12391,
+        "w": 1308,
+        "h": 3887
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Going Global",
+        "Available Scripts",
+        "The Original Four",
+        "LATIN"
+      ],
+      "textPreview": "swiss american ○ KOREAN● WGHT 한강 ○ ARABIC● WGHT يرجع إنشاء محطة التاسع إلى أواسط مصر عشر عام ○ DEVANAGARI● WGHT छत्रपति शिवाजी महाराज अंतर्राष्ट्रीय विमानक्षेत्र सांता क्रूज़, मुंबई में स्थित है। इसका ICAO कोड है VABB और ○ HEBREW● WGHT הקו ",
+      "fontFamilies": [
+        "GT America Intl",
+        "GT America Intl Mono"
+      ],
+      "maxFontSizePx": 171,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"CNTR\" 100, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 28,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.583,
+        "relY": 0.432,
+        "heightVh": 1.671,
+        "widthRatio": 0.908,
+        "text": 7.11,
+        "elements": 6.977,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.119,
+        "singleChar": 0.693,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 3.367,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-america-com/blocks/14.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/14.html"
+    },
+    {
+      "id": "gt-america-com#15",
+      "nn": "15",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(3) > section:nth-of-type(1)",
+      "classes": [
+        "flex"
+      ],
+      "box": {
+        "x": 0,
+        "y": 16374,
+        "w": 1440,
+        "h": 810
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Design Union",
+        "Design Features",
+        "Weight Development",
+        "Stroke Flow"
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "GT America Intl"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 53, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.625,
+        "relY": 0.57,
+        "heightVh": 0.642,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.238
+      },
+      "crop": "archive/gt-america-com/blocks/15.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/15.html"
+    },
+    {
+      "id": "gt-america-com#16",
+      "nn": "16",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(3) > section:nth-of-type(2)",
+      "classes": [
+        "md:ml-[132px]",
+        "px-4",
+        "mb-9",
+        "flex"
+      ],
+      "box": {
+        "x": 132,
+        "y": 17184,
+        "w": 1308,
+        "h": 413
+      },
+      "headings": [
+        "Design Union"
+      ],
+      "parentHeadings": [
+        "Design Union",
+        "Design Features",
+        "Weight Development",
+        "Stroke Flow"
+      ],
+      "textPreview": "Design Union GT America Intl synthesizes the Gothic model’s strong character with the functional purity that Grotesks have to offer. Noël Leu developed the typeface over a ten year span, using a Swiss Style-lens to refine the design details",
+      "fontFamilies": [
+        "GT America Intl"
+      ],
+      "maxFontSizePx": 108,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 53, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.599,
+        "heightVh": 0.378,
+        "widthRatio": 0.908,
+        "text": 5.869,
+        "elements": 1.386,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.075,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.238
+      },
+      "crop": "archive/gt-america-com/blocks/16.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/16.html"
+    },
+    {
+      "id": "gt-america-com#17",
+      "nn": "17",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(3) > section:nth-of-type(3)",
+      "classes": [
+        "md:ml-[132px]",
+        "md:px-4",
+        "mb-11",
+        "flex",
+        "flex-col",
+        "md:flex-row"
+      ],
+      "box": {
+        "x": 132,
+        "y": 17657,
+        "w": 1308,
+        "h": 4089
+      },
+      "headings": [
+        "Design Features",
+        "Weight Development",
+        "Stroke Flow",
+        "Inktraps"
+      ],
+      "parentHeadings": [
+        "Design Union",
+        "Design Features",
+        "Weight Development",
+        "Stroke Flow"
+      ],
+      "textPreview": "Design Features Width & Weight Stroke Flow Adjustments Details GREEK THAI ARABIC DEVANAGARI CYRILLIC Weight Development The stroke adjusts dynamically in both weight and width to optimize legibility and expression: the bolder the weight the",
+      "fontFamilies": [
+        "GT America Intl",
+        "GT America",
+        "GT America Intl Mono"
+      ],
+      "maxFontSizePx": 21,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"wdth\" 100, \"wght\" 400",
+        "\"ital\" 0, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 4,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 37,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 53, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.708,
+        "relY": 0.615,
+        "heightVh": 1.713,
+        "widthRatio": 0.908,
+        "text": 7.643,
+        "elements": 7.552,
+        "headings": 4,
+        "fontSizes": 4,
+        "maxFontVw": 0.015,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.609,
+        "img": 0,
+        "svg": 3.638,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.238
+      },
+      "crop": "archive/gt-america-com/blocks/17.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/17.html"
+    },
+    {
+      "id": "gt-america-com#18",
+      "nn": "18",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(4) > section:nth-of-type(1)",
+      "classes": [
+        "flex",
+        "overflow-hidden"
+      ],
+      "box": {
+        "x": 0,
+        "y": 21890,
+        "w": 1440,
+        "h": 810
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Universal Typographic Tool",
+        "Detailed Information",
+        "Colophon",
+        "More from Grilli Type"
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "GT America Intl"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.75,
+        "relY": 0.763,
+        "heightVh": 0.642,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-america-com/blocks/18.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/18.html"
+    },
+    {
+      "id": "gt-america-com#19",
+      "nn": "19",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(4) > section:nth-of-type(2)",
+      "classes": [
+        "md:ml-[132px]",
+        "px-4",
+        "mb-9",
+        "md:-mt-[4vh]",
+        "flex"
+      ],
+      "box": {
+        "x": 132,
+        "y": 22664,
+        "w": 1308,
+        "h": 414
+      },
+      "headings": [
+        "Universal Typographic Tool"
+      ],
+      "parentHeadings": [
+        "Universal Typographic Tool",
+        "Detailed Information",
+        "Colophon",
+        "More from Grilli Type"
+      ],
+      "textPreview": "Universal Typographic Tool As original and sound as GT America Intl is in its concept and structure, most of all it’s a useful tool. Consider this your Swiss Army Knife of typographic systems, with a passport to everywhere.",
+      "fontFamilies": [
+        "GT America Intl"
+      ],
+      "maxFontSizePx": 108,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.792,
+        "relY": 0.79,
+        "heightVh": 0.378,
+        "widthRatio": 0.908,
+        "text": 5.416,
+        "elements": 1.386,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.075,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-america-com/blocks/19.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/19.html"
+    },
+    {
+      "id": "gt-america-com#20",
+      "nn": "20",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(4) > section:nth-of-type(3)",
+      "classes": [
+        "hidden",
+        "md:flex",
+        "md:ml-[132px]",
+        "px-4",
+        "mb-9",
+        "pt-8"
+      ],
+      "box": {
+        "x": 132,
+        "y": 23138,
+        "w": 1308,
+        "h": 1036
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Universal Typographic Tool",
+        "Detailed Information",
+        "Colophon",
+        "More from Grilli Type"
+      ],
+      "textPreview": "Character Sets Latin Cyrillic Greek Vietnamese Arabic Devanagari Hebrew Korean Thai Loopless Thai Looped Standard Regular 30vw Basic Alphabet A B C D E F G H I J K L M N N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v ",
+      "fontFamilies": [
+        "GT America Intl"
+      ],
+      "maxFontSizePx": 21,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.833,
+        "relY": 0.806,
+        "heightVh": 0.766,
+        "widthRatio": 0.908,
+        "text": 6.974,
+        "elements": 7.891,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.015,
+        "singleChar": 5.778,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.609,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-america-com/blocks/20.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/20.html"
+    },
+    {
+      "id": "gt-america-com#21",
+      "nn": "21",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(4) > section:nth-of-type(4)",
+      "classes": [
+        "md:ml-[132px]",
+        "px-4",
+        "flex",
+        "mb-8",
+        "md:mb-12"
+      ],
+      "box": {
+        "x": 132,
+        "y": 24234,
+        "w": 1308,
+        "h": 1714
+      },
+      "headings": [
+        "Detailed Information"
+      ],
+      "parentHeadings": [
+        "Universal Typographic Tool",
+        "Detailed Information",
+        "Colophon",
+        "More from Grilli Type"
+      ],
+      "textPreview": "Detailed Information GT American Intl supports 183 languages across its 10 scripts. All script extensions include support for Latin-alphabet languages. Latin Typeface design by Noël Leu, with Seb McLauchlan. Variable Axes Width Weight Propo",
+      "fontFamilies": [
+        "GT America Intl"
+      ],
+      "maxFontSizePx": 21,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.875,
+        "relY": 0.844,
+        "heightVh": 1.066,
+        "widthRatio": 0.908,
+        "text": 8.503,
+        "elements": 5.011,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.015,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-america-com/blocks/21.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/21.html"
+    },
+    {
+      "id": "gt-america-com#22",
+      "nn": "22",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(4) > section:nth-of-type(6)",
+      "classes": [
+        "md:ml-[132px]",
+        "px-4",
+        "flex",
+        "mb-8",
+        "md:mb-12"
+      ],
+      "box": {
+        "x": 132,
+        "y": 26425,
+        "w": 1308,
+        "h": 768
+      },
+      "headings": [
+        "More from Grilli Type"
+      ],
+      "parentHeadings": [
+        "Universal Typographic Tool",
+        "Detailed Information",
+        "Colophon",
+        "More from Grilli Type"
+      ],
+      "textPreview": "More from Grilli Type GT Pressura GT Planar GT Ultra GT Maru GT Flexa GT Alpina GT Zirkon GT Super GT Walsheim GT Eesti GT Cinetype GT Haptik GT Sectra",
+      "fontFamilies": [
+        "GT America Intl"
+      ],
+      "maxFontSizePx": 21,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 13,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.917,
+        "relY": 0.921,
+        "heightVh": 0.617,
+        "widthRatio": 0.908,
+        "text": 5.106,
+        "elements": 3.807,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.015,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.639,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.639,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-america-com/blocks/22.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/22.html"
+    },
+    {
+      "id": "gt-america-com#23",
+      "nn": "23",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(4) > section:nth-of-type(7)",
+      "classes": [
+        "md:ml-[132px]",
+        "px-4",
+        "mb-9",
+        "flex",
+        "flex-col"
+      ],
+      "box": {
+        "x": 132,
+        "y": 27385,
+        "w": 1308,
+        "h": 431
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Universal Typographic Tool",
+        "Detailed Information",
+        "Colophon",
+        "More from Grilli Type"
+      ],
+      "textPreview": "Buy GT America Intl Licensing ↗ Download Free Trial Fonts ↓ Download PDF Specimen ↓",
+      "fontFamilies": [
+        "GT America Intl"
+      ],
+      "maxFontSizePx": 60,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.958,
+        "relY": 0.954,
+        "heightVh": 0.391,
+        "widthRatio": 0.908,
+        "text": 4.431,
+        "elements": 2.398,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.042,
+        "singleChar": 1.386,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-america-com/blocks/23.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/23.html"
+    },
+    {
+      "id": "gt-america-com#24",
+      "nn": "24",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(4) > section:nth-of-type(8)",
+      "classes": [
+        "flex",
+        "self-center",
+        "pointer-events-none",
+        "z-50"
+      ],
+      "box": {
+        "x": 0,
+        "y": 27876,
+        "w": 1440,
+        "h": 828
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Universal Typographic Tool",
+        "Detailed Information",
+        "Colophon",
+        "More from Grilli Type"
+      ],
+      "textPreview": "",
+      "fontFamilies": [
+        "GT America Intl"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.971,
+        "heightVh": 0.652,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-america-com/blocks/24.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-america-com/blocks/24.html"
+    },
+    {
+      "id": "gt-america-com#25",
+      "nn": "25",
+      "kind": "offscreen",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#loader-section",
+      "classes": [
+        "fixed",
+        "top-0",
+        "flex",
+        "w-full",
+        "h-full",
+        "overflow-hidden"
+      ],
+      "box": {
+        "x": 0,
+        "y": -900,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Loading data. Please wait. Thank you.",
+      "fontFamilies": [
+        "GT America Intl",
+        "GT America Intl Latin Subset"
+      ],
+      "maxFontSizePx": 12,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.042,
+        "relY": -0.031,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 3.638,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.008,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.072
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-america-com/blocks/25.html"
+    },
+    {
+      "id": "gt-america-com#26",
+      "nn": "26",
+      "kind": "offscreen",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2)",
+      "classes": [
+        "bg-white",
+        "fixed",
+        "max-w-full",
+        "tt",
+        "z-10",
+        "top-0"
+      ],
+      "box": {
+        "x": 0,
+        "y": -900,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "Type Tester"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Type Tester ↓Close Latin Cyrillic Greek Vietnamese Arabic Devanagari Hebrew Korean Thai Proportional Monospaced Upright Italic Variable Compressed Ultra Light Compressed Thin Compressed Light Compressed Regular Compressed Medium Compressed ",
+      "fontFamilies": [
+        "GT America Intl",
+        "GT America Intl Mono"
+      ],
+      "maxFontSizePx": 346,
+      "variationSettings": [
+        "\"ital\" 0, \"wdth\" 100, \"wght\" 350",
+        "\"wdth\" 100, \"wght\" 400",
+        "\"wdth\" 50, \"wght\" 900",
+        "\"wdth\" 100, \"wght\" 700"
+      ],
+      "controls": {
+        "range": 56,
+        "text": 0,
+        "contenteditable": 28,
+        "checkbox": 0,
+        "select": 196,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": true,
+        "languages": true,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.083,
+        "relY": -0.031,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 9.958,
+        "elements": 8.242,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.24,
+        "singleChar": 0.693,
+        "varSettings": 4,
+        "range": 4.043,
+        "textInput": 3.367,
+        "toggles": 5.283,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 1,
+        "fgLum": 0.072
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/gt-america-com/blocks/26.html"
+    }
+  ]
+}

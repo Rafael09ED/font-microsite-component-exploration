@@ -1,0 +1,981 @@
+{
+  "slug": "azeret-displaay-net",
+  "url": "https://azeret.displaay.net",
+  "pageHeight": 15225,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "azeret-displaay-net#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#wrapper > div:nth-of-type(1) > div:nth-of-type(1)",
+      "classes": [
+        "MainScreen",
+        "slide_1"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "Azeret"
+      ],
+      "parentHeadings": null,
+      "textPreview": "New Sans Serif 3 sub–families 48 styles Azeret",
+      "fontFamilies": [
+        "Azeret"
+      ],
+      "maxFontSizePx": 330,
+      "variationSettings": [
+        "\"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 1,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(223, 221, 225)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 3.892,
+        "elements": 3.332,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.229,
+        "singleChar": 2.565,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0.693,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.728
+      },
+      "crop": "archive/azeret-displaay-net/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/azeret-displaay-net/blocks/00.html"
+    },
+    {
+      "id": "azeret-displaay-net#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#wrapper > div:nth-of-type(1) > div:nth-of-type(2)",
+      "classes": [
+        "NewFont",
+        "marginTop"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1140,
+        "w": 1440,
+        "h": 1623
+      },
+      "headings": [
+        "NewSans-Serif with 3 Sub-Families &total 48 styles"
+      ],
+      "parentHeadings": null,
+      "textPreview": "NewSans-Serif with 3 Sub-Families &total 48 styles",
+      "fontFamilies": [
+        "Azeret"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(223, 221, 225)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.1,
+        "relY": 0.075,
+        "heightVh": 1.031,
+        "widthRatio": 1,
+        "text": 3.97,
+        "elements": 4.159,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.1,
+        "singleChar": 3.784,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.728
+      },
+      "crop": "archive/azeret-displaay-net/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/azeret-displaay-net/blocks/01.html"
+    },
+    {
+      "id": "azeret-displaay-net#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#wrapper > div:nth-of-type(1) > div:nth-of-type(3)",
+      "classes": [
+        "DrivenByStudy",
+        "marginTop"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2982,
+        "w": 1440,
+        "h": 1035
+      },
+      "headings": [
+        "DrivenbystudyofOCRFontsandOperatingSystems."
+      ],
+      "parentHeadings": null,
+      "textPreview": "DrivenbystudyofOCRFontsandOperatingSystems. Optical character recognition Source: Wikipedia Optical character recognition or optical character reader (OCR) is the electronic or mechanical conversion of images of typed, handwritten or printe",
+      "fontFamilies": [
+        "Azeret"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"wght\" 500",
+        "\"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(223, 221, 225)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.2,
+        "relY": 0.196,
+        "heightVh": 0.765,
+        "widthRatio": 1,
+        "text": 6.813,
+        "elements": 4.205,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.1,
+        "singleChar": 3.784,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0.728
+      },
+      "crop": "archive/azeret-displaay-net/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/azeret-displaay-net/blocks/02.html"
+    },
+    {
+      "id": "azeret-displaay-net#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#wrapper > div:nth-of-type(1) > div:nth-of-type(4)",
+      "classes": [
+        "AnatomyWrap",
+        "customFade",
+        "marginTop",
+        "fadeIn"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4257,
+        "w": 1440,
+        "h": 1021
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Construction in detail",
+      "fontFamilies": [
+        "Azeret"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 1,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(223, 221, 225)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.3,
+        "relY": 0.28,
+        "heightVh": 0.758,
+        "widthRatio": 1,
+        "text": 3.135,
+        "elements": 1.946,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0.693,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.728
+      },
+      "crop": "archive/azeret-displaay-net/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/azeret-displaay-net/blocks/03.html"
+    },
+    {
+      "id": "azeret-displaay-net#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#wrapper > div:nth-of-type(1) > div:nth-of-type(5)",
+      "classes": [
+        "FontListChanger"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5278,
+        "w": 1440,
+        "h": 780
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Showcase of selected alternates Programma",
+      "fontFamilies": [
+        "Azeret"
+      ],
+      "maxFontSizePx": 92,
+      "variationSettings": [
+        "\"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 12,
+        "svg": 0,
+        "video": 0,
+        "canvas": 1,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(223, 221, 225)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.4,
+        "relY": 0.347,
+        "heightVh": 0.624,
+        "widthRatio": 1,
+        "text": 3.738,
+        "elements": 3.638,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.064,
+        "singleChar": 2.303,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.565,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0.693,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.728
+      },
+      "crop": "archive/azeret-displaay-net/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/azeret-displaay-net/blocks/04.html"
+    },
+    {
+      "id": "azeret-displaay-net#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#wrapper > div:nth-of-type(1) > div:nth-of-type(6)",
+      "classes": [
+        "StickyText"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6154,
+        "w": 1440,
+        "h": 4165
+      },
+      "headings": [
+        "48 styles",
+        "3 sub-families",
+        "1 for free"
+      ],
+      "parentHeadings": null,
+      "textPreview": "48 styles 3 sub-families 1 for free",
+      "fontFamilies": [
+        "Azeret"
+      ],
+      "maxFontSizePx": 194,
+      "variationSettings": [
+        "\"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(223, 221, 225)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.404,
+        "heightVh": 1.728,
+        "widthRatio": 1,
+        "text": 3.584,
+        "elements": 2.197,
+        "headings": 3,
+        "fontSizes": 2,
+        "maxFontVw": 0.135,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.728
+      },
+      "crop": "archive/azeret-displaay-net/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/azeret-displaay-net/blocks/05.html"
+    },
+    {
+      "id": "azeret-displaay-net#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#wrapper > div:nth-of-type(1) > div:nth-of-type(7)",
+      "classes": [
+        "AnatomyTypography",
+        "customFade",
+        "fadeIn"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10415,
+        "w": 1440,
+        "h": 1041
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "The basic typography anatomy",
+      "fontFamilies": [
+        "Azeret"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(223, 221, 225)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.6,
+        "relY": 0.684,
+        "heightVh": 0.769,
+        "widthRatio": 1,
+        "text": 3.367,
+        "elements": 3.045,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.728
+      },
+      "crop": "archive/azeret-displaay-net/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/azeret-displaay-net/blocks/06.html"
+    },
+    {
+      "id": "azeret-displaay-net#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#wrapper > div:nth-of-type(1) > div:nth-of-type(8)",
+      "classes": [
+        "FontListChanger",
+        "reverse"
+      ],
+      "box": {
+        "x": 0,
+        "y": 11456,
+        "w": 1440,
+        "h": 780
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Showcase of essential characters A",
+      "fontFamilies": [
+        "Azeret"
+      ],
+      "maxFontSizePx": 60,
+      "variationSettings": [
+        "\"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 0,
+        "video": 0,
+        "canvas": 1,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(223, 221, 225)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.7,
+        "relY": 0.752,
+        "heightVh": 0.624,
+        "widthRatio": 1,
+        "text": 3.555,
+        "elements": 3.689,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.042,
+        "singleChar": 2.944,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.386,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0.693,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.728
+      },
+      "crop": "archive/azeret-displaay-net/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/azeret-displaay-net/blocks/07.html"
+    },
+    {
+      "id": "azeret-displaay-net#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#wrapper > div:nth-of-type(1) > div:nth-of-type(9)",
+      "classes": [
+        "FontFamalyList",
+        "marginTop"
+      ],
+      "box": {
+        "x": 0,
+        "y": 12471,
+        "w": 1440,
+        "h": 1523
+      },
+      "headings": [
+        "Proportional Version",
+        "SemiMono Version",
+        "Mono Version"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Proportional Version In 1914, Emanuel Goldberg developed a machine that read characters and converted them into code. Early optical character recognition may be traced to technologies involving telegraphy and creating reading devices for th",
+      "fontFamilies": [
+        "Azeret"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [
+        "\"mono\" 0, \"wght\" 400",
+        "\"mono\" 50, \"wght\" 400",
+        "\"mono\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(223, 221, 225)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.8,
+        "relY": 0.819,
+        "heightVh": 0.99,
+        "widthRatio": 1,
+        "text": 7.2,
+        "elements": 4.625,
+        "headings": 3,
+        "fontSizes": 3,
+        "maxFontVw": 0.033,
+        "singleChar": 3.829,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.386,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 0.728
+      },
+      "crop": "archive/azeret-displaay-net/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/azeret-displaay-net/blocks/08.html"
+    },
+    {
+      "id": "azeret-displaay-net#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#wrapper > div:nth-of-type(1) > div:nth-of-type(10)",
+      "classes": [
+        "FontTesterBunnerWrap",
+        "container",
+        "container_without_padding",
+        "marginTop",
+        "half"
+      ],
+      "box": {
+        "x": 0,
+        "y": 14114,
+        "w": 1440,
+        "h": 342
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Type tester",
+      "fontFamilies": [
+        "Azeret"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(223, 221, 225)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": true,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.9,
+        "relY": 0.927,
+        "heightVh": 0.322,
+        "widthRatio": 1,
+        "text": 2.485,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.1,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.728
+      },
+      "crop": "archive/azeret-displaay-net/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/azeret-displaay-net/blocks/09.html"
+    },
+    {
+      "id": "azeret-displaay-net#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#wrapper > div:nth-of-type(2)",
+      "classes": [
+        "FooterWrap"
+      ],
+      "box": {
+        "x": 0,
+        "y": 14455,
+        "w": 1440,
+        "h": 770
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "The story of the typeface began with a draft that was driven by an exploration of OCR fonts, past and futuristic operating systems, various interfaces and the nineties. The final result is more based on a desire to achieve an appearance of ",
+      "fontFamilies": [
+        "Azeret"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(223, 221, 225)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.949,
+        "heightVh": 0.618,
+        "widthRatio": 1,
+        "text": 6.714,
+        "elements": 3.555,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.792,
+        "bgLum": -1,
+        "fgLum": 0.728
+      },
+      "crop": "archive/azeret-displaay-net/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/azeret-displaay-net/blocks/10.html"
+    }
+  ]
+}

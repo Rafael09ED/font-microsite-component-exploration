@@ -1,0 +1,368 @@
+{
+  "slug": "nmtype-com-movement",
+  "url": "https://www.nmtype.com/movement/",
+  "pageHeight": 7238,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "nmtype-com-movement#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": true,
+      "tag": "nav",
+      "selector": "body > nav",
+      "classes": [
+        "navbar",
+        "ly-main-navbar",
+        "ly-nm",
+        "is-theme-dark"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 80
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "NM type Fonts Custom Articles → Download Movement",
+      "fontFamilies": [
+        "nmtype"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(26, 26, 26)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.085,
+        "widthRatio": 1,
+        "text": 3.912,
+        "elements": 3.091,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.017,
+        "singleChar": 1.946,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.792,
+        "bgLum": 0.01,
+        "fgLum": 1
+      },
+      "crop": "archive/nmtype-com-movement/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/nmtype-com-movement/blocks/00.html"
+    },
+    {
+      "id": "nmtype-com-movement#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div",
+      "classes": [
+        "specimen-cover",
+        "ly-nm",
+        "has-footer"
+      ],
+      "box": {
+        "x": 0,
+        "y": 80,
+        "w": 1440,
+        "h": 392
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Variable font → Trial fonts",
+      "fontFamilies": [
+        "nmtype"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(26, 26, 26)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.011,
+        "heightVh": 0.362,
+        "widthRatio": 1,
+        "text": 3.332,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.01,
+        "fgLum": 0
+      },
+      "crop": "archive/nmtype-com-movement/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/nmtype-com-movement/blocks/01.html"
+    },
+    {
+      "id": "nmtype-com-movement#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "main",
+      "selector": "body > main",
+      "classes": [
+        "specimen",
+        "article",
+        "ly-nm",
+        "is-theme-white"
+      ],
+      "box": {
+        "x": 0,
+        "y": 547,
+        "w": 1440,
+        "h": 6538
+      },
+      "headings": [
+        "Poster",
+        "Uppercase",
+        "Numbers",
+        "Maths & Symbols"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Body in motion Direct Black Size Design Indaba Direct Thin Size The Performer Andile Vellem Indirect Black Size Rudolf Laban was a movement theorist, a choreorapher and a dancer. He is considered a pioner of modern dance. Indirect Thin Size",
+      "fontFamilies": [
+        "nmtype",
+        "movement",
+        "Arial",
+        ""
+      ],
+      "maxFontSizePx": 240,
+      "variationSettings": [
+        "\"SPAC\" 100, \"wght\" 900",
+        "\"SPAC\" 100, \"wght\" 50",
+        "\"SPAC\" 120, \"wght\" 900",
+        "\"SPAC\" 120, \"wght\" 50"
+      ],
+      "controls": {
+        "range": 15,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 1,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 4,
+        "svg": 0,
+        "video": 3,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(26, 26, 26)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.076,
+        "heightVh": 2.112,
+        "widthRatio": 1,
+        "text": 7.915,
+        "elements": 6.418,
+        "headings": 4,
+        "fontSizes": 10,
+        "maxFontVw": 0.167,
+        "singleChar": 3.932,
+        "varSettings": 4,
+        "range": 2.773,
+        "textInput": 0,
+        "toggles": 0.693,
+        "buttons": 0,
+        "img": 1.609,
+        "svg": 0,
+        "video": 1.386,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.303,
+        "bgLum": 1,
+        "fgLum": 0.01
+      },
+      "crop": "archive/nmtype-com-movement/blocks/02.jpg",
+      "cropTruncated": true,
+      "html": "archive/nmtype-com-movement/blocks/02.html"
+    },
+    {
+      "id": "nmtype-com-movement#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > footer",
+      "classes": [
+        "footer",
+        "ly-main-footer",
+        "ly-nm",
+        "is-theme-medium"
+      ],
+      "box": {
+        "x": 0,
+        "y": 7160,
+        "w": 1440,
+        "h": 79
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "About EULA Support Privacy policy Terms & conditions ✉ Newsletter",
+      "fontFamilies": [
+        "nmtype"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(64, 64, 64)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": true,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.989,
+        "heightVh": 0.084,
+        "widthRatio": 1,
+        "text": 4.19,
+        "elements": 2.639,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.946,
+        "bgLum": 0.051,
+        "fgLum": 1
+      },
+      "crop": "archive/nmtype-com-movement/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/nmtype-com-movement/blocks/03.html"
+    }
+  ]
+}

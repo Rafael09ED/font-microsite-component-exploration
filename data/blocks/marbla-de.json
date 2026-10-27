@@ -1,0 +1,728 @@
+{
+  "slug": "marbla-de",
+  "url": "https://marbla.de",
+  "pageHeight": 6114,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "marbla-de#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#body > div:nth-of-type(1)",
+      "classes": [
+        "container-fluid",
+        "d-flex",
+        "flex-column",
+        "pb-5"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 799
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "DE Experimental Variable Font marbla Marbla is an experimental display typeface exploring the possibilities of variable fonts to change the mood and personality of a typeface. Starting with a friendly regular style the letterforms can be mo",
+      "fontFamilies": [
+        "Marbla"
+      ],
+      "maxFontSizePx": 230,
+      "variationSettings": [
+        "\"blln\" 0, \"curv\" 0, \"iktr\" 0",
+        "\"blln\" 18.3434, \"curv\" 18.3434, \"iktr\" 18.3434",
+        "\"blln\" 38.3434, \"curv\" 38.3434, \"iktr\" 38.3434",
+        "\"blln\" 60.0034, \"curv\" 60.0034, \"iktr\" 60.0034"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 37, 41)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.635,
+        "widthRatio": 1,
+        "text": 6.219,
+        "elements": 3.135,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.16,
+        "singleChar": 2.197,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0.018
+      },
+      "crop": "archive/marbla-de/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/marbla-de/blocks/00.html"
+    },
+    {
+      "id": "marbla-de#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#body > div:nth-of-type(2)",
+      "classes": [
+        "container-fluid",
+        "d-flex",
+        "flex-column",
+        "pb-5",
+        "pt-5"
+      ],
+      "box": {
+        "x": 0,
+        "y": 832,
+        "w": 1440,
+        "h": 771
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "Marbla",
+        ""
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"blln\" 0, \"curv\" 0, \"iktr\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 2,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 37, 41)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.143,
+        "relY": 0.136,
+        "heightVh": 0.619,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 2.303,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 1.099,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.018
+      },
+      "crop": "archive/marbla-de/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/marbla-de/blocks/01.html"
+    },
+    {
+      "id": "marbla-de#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#body > div:nth-of-type(3)",
+      "classes": [
+        "container-fluid",
+        "d-flex",
+        "flex-column",
+        "py-4"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1636,
+        "w": 1440,
+        "h": 756
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Inktrap Along the Inktrap axis, rounded inktraps are extended from slightly slanted forms to an extreme - creating new lettershapes. Balloon The Balloon axis »inflates« the letters. In contrast to a typical weight axis, this option not only",
+      "fontFamilies": [
+        "Marbla"
+      ],
+      "maxFontSizePx": 115,
+      "variationSettings": [
+        "\"blln\" 0, \"curv\" 0, \"iktr\" 0",
+        "\"blln\" 0, \"curv\" 0, \"iktr\" 8",
+        "\"blln\" 8, \"curv\" 0, \"iktr\" 0",
+        "\"blln\" 0, \"curv\" 8, \"iktr\" 0"
+      ],
+      "controls": {
+        "range": 3,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 37, 41)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.286,
+        "relY": 0.268,
+        "heightVh": 0.61,
+        "widthRatio": 1,
+        "text": 5.94,
+        "elements": 3.761,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.08,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 1.386,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.018
+      },
+      "crop": "archive/marbla-de/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/marbla-de/blocks/02.html"
+    },
+    {
+      "id": "marbla-de#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#body > div:nth-of-type(4)",
+      "classes": [
+        "container-fluid",
+        "d-flex",
+        "flex-column",
+        "py-auto",
+        "py-sm-5"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2425,
+        "w": 1440,
+        "h": 534
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Inktrap Balloon Curve the quick brown fox jumps over the lazy dog",
+      "fontFamilies": [
+        "Marbla"
+      ],
+      "maxFontSizePx": 65,
+      "variationSettings": [
+        "\"blln\" 0, \"curv\" 0, \"iktr\" 0"
+      ],
+      "controls": {
+        "range": 6,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 37, 41)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.429,
+        "relY": 0.397,
+        "heightVh": 0.466,
+        "widthRatio": 1,
+        "text": 4.234,
+        "elements": 3.584,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.045,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 1.946,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.386,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.018
+      },
+      "crop": "archive/marbla-de/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/marbla-de/blocks/03.html"
+    },
+    {
+      "id": "marbla-de#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#body > div:nth-of-type(5)",
+      "classes": [
+        "container-fluid",
+        "d-flex",
+        "flex-column",
+        "py-auto",
+        "py-sm-5"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2992,
+        "w": 1440,
+        "h": 851
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Previous Next",
+      "fontFamilies": [
+        "Marbla"
+      ],
+      "maxFontSizePx": 17,
+      "variationSettings": [
+        "\"blln\" 0, \"curv\" 0, \"iktr\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 26,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 37, 41)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.571,
+        "relY": 0.489,
+        "heightVh": 0.666,
+        "widthRatio": 1,
+        "text": 2.639,
+        "elements": 4.883,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.012,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.099,
+        "img": 3.296,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0.018
+      },
+      "crop": "archive/marbla-de/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/marbla-de/blocks/04.html"
+    },
+    {
+      "id": "marbla-de#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#body > div:nth-of-type(6)",
+      "classes": [
+        "container-fluid",
+        "min-vh-100",
+        "d-flex",
+        "flex-column",
+        "pt-5"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3876,
+        "w": 1440,
+        "h": 1924
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Regular A B C D E F G H I J K K L M N O P P Q R S T U V W X Y Z a a b c d e f g h i j k l m n o p q r s t u v w x y z 0 0 1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9 Á Ă Â Ä Ạ À Ā Ą Å Ã Æ Ǽ Ć Č Ç Ĉ Ċ Ð Ď Đ É Ĕ Ě Ê Ë Ė Ẹ È Ē Ę Ẽ Ə Ğ Ǧ Ĝ Ģ Ġ Ḡ Ħ Ĥ Ĳ ",
+      "fontFamilies": [
+        "Marbla"
+      ],
+      "maxFontSizePx": 26,
+      "variationSettings": [
+        "\"blln\" 0, \"curv\" 0, \"iktr\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 9,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 37, 41)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.714,
+        "relY": 0.634,
+        "heightVh": 1.144,
+        "widthRatio": 1,
+        "text": 6.772,
+        "elements": 6.842,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.018,
+        "singleChar": 5.182,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 2.303,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.018
+      },
+      "crop": "archive/marbla-de/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/marbla-de/blocks/05.html"
+    },
+    {
+      "id": "marbla-de#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#body > div:nth-of-type(7)",
+      "classes": [
+        "container-fluid",
+        "d-flex",
+        "justify-content-center",
+        "pt-5"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5800,
+        "w": 1440,
+        "h": 144
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "→ Contact",
+      "fontFamilies": [
+        "Marbla"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [
+        "\"blln\" 0, \"curv\" 0, \"iktr\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 37, 41)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.857,
+        "relY": 0.949,
+        "heightVh": 0.148,
+        "widthRatio": 1,
+        "text": 2.303,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.014,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0.018
+      },
+      "crop": "archive/marbla-de/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/marbla-de/blocks/06.html"
+    },
+    {
+      "id": "marbla-de#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "#body > footer",
+      "classes": [
+        "text-lg-start"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5944,
+        "w": 1440,
+        "h": 170
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Imprint © 2026 Katharina Gresch",
+      "fontFamilies": [
+        "Marbla"
+      ],
+      "maxFontSizePx": 17,
+      "variationSettings": [
+        "\"blln\" 0, \"curv\" 0, \"iktr\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(33, 37, 41)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.972,
+        "heightVh": 0.173,
+        "widthRatio": 1,
+        "text": 3.466,
+        "elements": 2.485,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.012,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0.018
+      },
+      "crop": "archive/marbla-de/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/marbla-de/blocks/07.html"
+    }
+  ]
+}

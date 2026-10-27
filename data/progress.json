@@ -1,0 +1,3731 @@
+{
+  "phases": {
+    "archive": {
+      "failuresReviewed": true
+    },
+    "sample": {
+      "status": "done",
+      "note": "250 blocks, 28 sheets labelled (6 by Claude, 22 by agents)",
+      "updatedAt": "2026-10-20T21:18:05.534Z"
+    },
+    "cluster": {
+      "status": "done",
+      "note": "taxonomy.json: 19 types / 84 variants; DOM features predict type 41%",
+      "updatedAt": "2026-10-20T21:18:05.571Z"
+    },
+    "method": {
+      "status": "review",
+      "note": "METHOD.md written — awaiting review of the 4 decisions",
+      "updatedAt": "2026-10-20T21:18:05.608Z"
+    }
+  },
+  "sites": {
+    "gt-walsheim-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 14,
+        "updatedAt": "2026-10-20T20:29:34.842Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 13,
+        "kinds": {
+          "flow": 12,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T20:59:55.507Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gt-america-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 32,
+        "updatedAt": "2026-10-20T20:29:55.310Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 27,
+        "kinds": {
+          "flow": 25,
+          "offscreen": 2
+        },
+        "updatedAt": "2026-10-20T20:59:57.539Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gt-cinetype-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 12,
+        "updatedAt": "2026-10-20T20:30:51.752Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 12,
+        "kinds": {
+          "flow": 12
+        },
+        "updatedAt": "2026-10-20T20:59:58.009Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gt-eesti-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 18,
+        "updatedAt": "2026-10-20T20:30:33.187Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 18,
+        "kinds": {
+          "flow": 18
+        },
+        "updatedAt": "2026-10-20T20:59:58.316Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gt-ultra-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 23,
+        "updatedAt": "2026-10-20T20:30:59.107Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 19,
+        "kinds": {
+          "flow": 16,
+          "fixed": 1,
+          "offscreen": 2
+        },
+        "updatedAt": "2026-10-20T20:59:59.067Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gt-flexa-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 16,
+        "updatedAt": "2026-10-20T20:31:12.358Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 15,
+        "kinds": {
+          "flow": 13,
+          "offscreen": 2
+        },
+        "updatedAt": "2026-10-20T20:59:59.480Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gt-maru-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 17,
+        "updatedAt": "2026-10-20T20:31:10.681Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 16,
+        "kinds": {
+          "flow": 13,
+          "fixed": 2,
+          "offscreen": 1
+        },
+        "updatedAt": "2026-10-20T21:00:00.528Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gt-alpina-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 19,
+        "updatedAt": "2026-10-20T20:31:44.002Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 18,
+        "kinds": {
+          "flow": 16,
+          "fixed": 2
+        },
+        "updatedAt": "2026-10-20T21:00:01.210Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gt-super-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 36,
+        "updatedAt": "2026-10-20T20:31:35.446Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 36,
+        "kinds": {
+          "flow": 36
+        },
+        "updatedAt": "2026-10-20T21:00:02.464Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gt-haptik-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 8,
+        "updatedAt": "2026-10-20T20:31:40.311Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 8,
+        "kinds": {
+          "flow": 8
+        },
+        "updatedAt": "2026-10-20T21:00:02.708Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gt-zirkon-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 5,
+        "updatedAt": "2026-10-20T20:32:00.767Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 5,
+        "kinds": {
+          "flow": 5
+        },
+        "updatedAt": "2026-10-20T21:00:02.911Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gt-pressura-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 14,
+        "updatedAt": "2026-10-20T20:32:43.324Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 12,
+        "kinds": {
+          "flow": 10,
+          "offscreen": 2
+        },
+        "updatedAt": "2026-10-20T21:00:03.904Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gt-planar-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 23,
+        "updatedAt": "2026-10-20T20:32:49.645Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 20,
+        "kinds": {
+          "flow": 17,
+          "fixed": 3
+        },
+        "updatedAt": "2026-10-20T21:00:04.815Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gt-mechanik-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 28,
+        "updatedAt": "2026-10-20T20:32:53.225Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 25,
+        "kinds": {
+          "flow": 23,
+          "fixed": 2
+        },
+        "updatedAt": "2026-10-20T21:00:06.913Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gt-canon-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 12,
+        "updatedAt": "2026-10-20T20:32:36.328Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 11,
+        "kinds": {
+          "flow": 11
+        },
+        "updatedAt": "2026-10-20T21:00:08.179Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gt-flaire-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 8,
+        "updatedAt": "2026-10-20T20:33:31.898Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 8,
+        "kinds": {
+          "flow": 6,
+          "offscreen": 2
+        },
+        "updatedAt": "2026-10-20T21:00:10.144Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gt-pantheon-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 15,
+        "updatedAt": "2026-10-20T20:34:00.944Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 12,
+        "kinds": {
+          "flow": 11,
+          "offscreen": 1
+        },
+        "updatedAt": "2026-10-20T21:00:10.871Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gt-standard-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 12,
+        "updatedAt": "2026-10-20T20:34:12.189Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 12,
+        "kinds": {
+          "flow": 10,
+          "fixed": 2
+        },
+        "updatedAt": "2026-10-20T21:00:11.383Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "pp-fragment-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 14,
+        "updatedAt": "2026-10-20T20:33:38.948Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 13,
+        "kinds": {
+          "flow": 11,
+          "fixed": 1,
+          "offscreen": 1
+        },
+        "updatedAt": "2026-10-20T21:00:11.936Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "editorialnew-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 15,
+        "updatedAt": "2026-10-20T20:34:10.061Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 15,
+        "kinds": {
+          "flow": 13,
+          "fixed": 1,
+          "offscreen": 1
+        },
+        "updatedAt": "2026-10-20T21:00:12.541Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "pp-frama-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 23,
+        "updatedAt": "2026-10-20T20:29:35.970Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 21,
+        "kinds": {
+          "flow": 19,
+          "fixed": 2
+        },
+        "updatedAt": "2026-10-20T21:00:13.638Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "foodissue-commercialtype-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 12,
+        "updatedAt": "2026-10-20T20:33:57.435Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 10,
+        "kinds": {
+          "flow": 10
+        },
+        "updatedAt": "2026-10-20T21:00:13.784Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "tofino-losttype-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 17,
+        "updatedAt": "2026-10-20T20:34:50.244Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 17,
+        "kinds": {
+          "flow": 17
+        },
+        "updatedAt": "2026-10-20T21:00:14.514Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "prospectus-losttype-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 8,
+        "updatedAt": "2026-10-20T20:34:45.613Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 8,
+        "kinds": {
+          "flow": 8
+        },
+        "updatedAt": "2026-10-20T21:00:14.886Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "mort-modern-losttype-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 1,
+        "updatedAt": "2026-10-20T20:34:47.659Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 16,
+        "kinds": {
+          "screen": 16
+        },
+        "updatedAt": "2026-10-20T21:00:15.397Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "faction-losttype-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 10,
+        "updatedAt": "2026-10-20T20:34:38.787Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 8,
+        "kinds": {
+          "flow": 8
+        },
+        "updatedAt": "2026-10-20T21:00:15.616Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "moriston-losttype-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 8,
+        "updatedAt": "2026-10-20T20:35:13.754Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 8,
+        "kinds": {
+          "flow": 8
+        },
+        "updatedAt": "2026-10-20T21:00:15.884Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "escafina-losttype-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 7,
+        "updatedAt": "2026-10-20T20:35:10.943Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 7,
+        "kinds": {
+          "flow": 7
+        },
+        "updatedAt": "2026-10-20T21:00:16.086Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "latest-losttype-com-introducing-dotties": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 4,
+        "updatedAt": "2026-10-20T20:35:11.981Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 4,
+        "kinds": {
+          "flow": 4
+        },
+        "updatedAt": "2026-10-20T21:00:16.179Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "sanssheriff-wtf": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 12,
+        "updatedAt": "2026-10-20T20:35:15.799Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 12,
+        "kinds": {
+          "flow": 12
+        },
+        "updatedAt": "2026-10-20T21:00:16.415Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "infinite-tragedy-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 6,
+        "updatedAt": "2026-10-20T20:35:33.745Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 5,
+        "kinds": {
+          "flow": 4,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:16.482Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "serf-nan-xyz": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 6,
+        "updatedAt": "2026-10-20T20:25:50.628Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 3,
+        "kinds": {
+          "screen": 3
+        },
+        "updatedAt": "2026-10-20T21:00:16.528Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "s-u-c-c-e-s-s-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 20,
+        "updatedAt": "2026-10-20T20:36:11.357Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 20,
+        "kinds": {
+          "flow": 20
+        },
+        "updatedAt": "2026-10-20T21:00:17.531Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "djr-com-forma": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 17,
+        "warning": "mobile: extract_area: bad extract area",
+        "updatedAt": "2026-10-20T20:36:35.998Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 17,
+        "kinds": {
+          "flow": 17
+        },
+        "updatedAt": "2026-10-20T21:00:18.360Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "nichrome-mass-driver-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 10,
+        "updatedAt": "2026-10-20T20:35:44.683Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 9,
+        "kinds": {
+          "flow": 9
+        },
+        "updatedAt": "2026-10-20T21:00:18.670Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "polychrome-mass-driver-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 17,
+        "updatedAt": "2026-10-20T20:35:58.319Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 17,
+        "kinds": {
+          "flow": 17
+        },
+        "updatedAt": "2026-10-20T21:00:18.985Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "djr-com-roslindale": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 18,
+        "warning": "mobile: extract_area: bad extract area",
+        "updatedAt": "2026-10-20T20:37:12.834Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 16,
+        "kinds": {
+          "flow": 16
+        },
+        "updatedAt": "2026-10-20T21:00:19.972Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "system-mass-driver-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 10,
+        "updatedAt": "2026-10-20T20:36:21.179Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 10,
+        "kinds": {
+          "flow": 9,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:20.182Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "recursive-design": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 23,
+        "updatedAt": "2026-10-20T20:29:04.607Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 21,
+        "kinds": {
+          "flow": 20,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:20.847Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "shantellsans-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 8,
+        "updatedAt": "2026-10-20T20:36:39.044Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 7,
+        "kinds": {
+          "flow": 6,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:21.039Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "kermit-font-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 1,
+        "updatedAt": "2026-10-20T20:36:42.224Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 6,
+        "kinds": {
+          "screen": 5,
+          "offscreen": 1
+        },
+        "updatedAt": "2026-10-20T21:00:21.171Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "karrik-phantom-foundry-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 13,
+        "updatedAt": "2026-10-20T20:37:04.790Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 11,
+        "kinds": {
+          "flow": 10,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:21.421Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "surt-font-eu": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 13,
+        "updatedAt": "2026-10-20T20:37:14.827Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 13,
+        "kinds": {
+          "flow": 12,
+          "offscreen": 1
+        },
+        "updatedAt": "2026-10-20T21:00:21.883Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "neuedin-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 58,
+        "updatedAt": "2026-10-20T20:37:26.513Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 57,
+        "kinds": {
+          "flow": 56,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:23.535Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "exat-hottype-co": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 13,
+        "updatedAt": "2026-10-20T20:38:18.675Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 13,
+        "kinds": {
+          "flow": 11,
+          "fixed": 2
+        },
+        "updatedAt": "2026-10-20T21:00:24.596Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "nn-konrad-ch": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 1,
+        "updatedAt": "2026-10-20T20:26:41.872Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 19,
+        "kinds": {
+          "screen": 18,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:25.338Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "colroy-ch": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 1,
+        "updatedAt": "2026-10-20T20:37:51.400Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 15,
+        "kinds": {
+          "screen": 14,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:25.805Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "pivot-grotesk-world": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 3,
+        "updatedAt": "2026-10-20T20:38:08.557Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 25,
+        "kinds": {
+          "screen": 24,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:26.872Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "knitgrotesk-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 1,
+        "updatedAt": "2026-10-20T20:38:05.213Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 18,
+        "kinds": {
+          "screen": 17,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:27.573Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "nn-swinton-world": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 1,
+        "updatedAt": "2026-10-20T20:38:49.528Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 26,
+        "kinds": {
+          "screen": 25,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:28.822Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "abcdestragon-xyz": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 4,
+        "updatedAt": "2026-10-20T20:26:59.119Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 4,
+        "kinds": {
+          "screen": 4
+        },
+        "updatedAt": "2026-10-20T21:00:28.895Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "djr-com-fit": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 21,
+        "updatedAt": "2026-10-20T20:39:11.304Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 21,
+        "kinds": {
+          "flow": 21
+        },
+        "updatedAt": "2026-10-20T21:00:29.850Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "azeret-displaay-net": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 11,
+        "updatedAt": "2026-10-20T20:39:00.193Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 11,
+        "kinds": {
+          "flow": 11
+        },
+        "updatedAt": "2026-10-20T21:00:30.252Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "booton-displaay-net": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 2,
+        "updatedAt": "2026-10-20T20:26:58.848Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 3,
+        "kinds": {
+          "screen": 1,
+          "fixed": 2
+        },
+        "updatedAt": "2026-10-20T21:00:30.269Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "andada-huertatipografica-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 32,
+        "updatedAt": "2026-10-20T20:39:08.613Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 30,
+        "kinds": {
+          "flow": 29,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:32.168Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "piazzolla-huertatipografica-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 11,
+        "updatedAt": "2026-10-20T20:39:16.671Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 11,
+        "kinds": {
+          "flow": 11
+        },
+        "updatedAt": "2026-10-20T21:00:32.489Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "weg-huertatipografica-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 40,
+        "updatedAt": "2026-10-20T20:39:45.470Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 40,
+        "kinds": {
+          "flow": 39,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:34.452Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "betaniapatmos-huertatipografica-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 34,
+        "updatedAt": "2026-10-20T20:39:44.978Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 34,
+        "kinds": {
+          "flow": 33,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:35.979Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "input-djr-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 5,
+        "updatedAt": "2026-10-20T20:39:23.522Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 5,
+        "kinds": {
+          "flow": 5
+        },
+        "updatedAt": "2026-10-20T21:00:36.037Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "djr-com-megabase-stripe": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 2,
+        "updatedAt": "2026-10-20T20:39:31.215Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 2,
+        "kinds": {
+          "flow": 2
+        },
+        "updatedAt": "2026-10-20T21:00:36.206Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "halyard-dardenstudio-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 11,
+        "updatedAt": "2026-10-20T20:39:51.145Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 10,
+        "kinds": {
+          "flow": 9,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:36.469Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "ernestinefont-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 4,
+        "updatedAt": "2026-10-20T20:39:44.359Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 4,
+        "kinds": {
+          "flow": 4
+        },
+        "updatedAt": "2026-10-20T21:00:36.515Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "liebling-fontef-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 4,
+        "updatedAt": "2026-10-20T20:40:12.063Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 4,
+        "kinds": {
+          "flow": 3,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:36.611Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "kachibuwa-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 2,
+        "updatedAt": "2026-10-20T20:39:57.339Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 2,
+        "kinds": {
+          "screen": 2
+        },
+        "updatedAt": "2026-10-20T21:00:36.639Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "pacaembu-naipefoundry-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 16,
+        "updatedAt": "2026-10-20T20:40:34.208Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 16,
+        "kinds": {
+          "flow": 16
+        },
+        "updatedAt": "2026-10-20T21:00:37.434Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "readvisions-com-marvin": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 11,
+        "updatedAt": "2026-10-20T20:41:33.254Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 11,
+        "kinds": {
+          "flow": 11
+        },
+        "updatedAt": "2026-10-20T21:00:37.947Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "raphaelbastide-com-avara": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 3,
+        "updatedAt": "2026-10-20T20:40:09.778Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 1,
+        "kinds": {
+          "screen": 1
+        },
+        "updatedAt": "2026-10-20T21:00:37.962Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "djr-com-gimlet": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 21,
+        "updatedAt": "2026-10-20T20:41:06.944Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 21,
+        "kinds": {
+          "flow": 21
+        },
+        "updatedAt": "2026-10-20T21:00:38.689Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "cinetype-com-fabbrica": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 45,
+        "updatedAt": "2026-10-20T20:40:44.571Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 45,
+        "kinds": {
+          "flow": 44,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:39.754Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "floriankarsten-github-io-space-grotesk": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 13,
+        "updatedAt": "2026-10-20T20:41:03.875Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 13,
+        "kinds": {
+          "flow": 13
+        },
+        "updatedAt": "2026-10-20T21:00:40.086Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "typearture-com-schijn-specimen": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 14,
+        "updatedAt": "2026-10-20T20:41:03.675Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 14,
+        "kinds": {
+          "flow": 11,
+          "fixed": 3
+        },
+        "updatedAt": "2026-10-20T21:00:40.337Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "avantt-displaay-net": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 1,
+        "updatedAt": "2026-10-20T20:41:20.666Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 1,
+        "kinds": {
+          "screen": 1
+        },
+        "updatedAt": "2026-10-20T21:00:40.351Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "indestructibletype-com-gnomon": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 23,
+        "updatedAt": "2026-10-20T20:41:22.718Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 23,
+        "kinds": {
+          "flow": 23
+        },
+        "updatedAt": "2026-10-20T21:00:40.731Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "djr-com-gimlet-xray": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 2,
+        "updatedAt": "2026-10-20T20:41:23.826Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 2,
+        "kinds": {
+          "flow": 2
+        },
+        "updatedAt": "2026-10-20T21:00:41.103Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "finaltype-de-en-projects-monoflow": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 14,
+        "updatedAt": "2026-10-20T20:58:47.994Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 13,
+        "kinds": {
+          "flow": 13
+        },
+        "updatedAt": "2026-10-20T21:00:41.371Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gestures-studiomoniker-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 1,
+        "updatedAt": "2026-10-20T20:27:00.112Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 1,
+        "kinds": {
+          "screen": 1
+        },
+        "updatedAt": "2026-10-20T21:00:41.385Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "rt-rondelle-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 69,
+        "updatedAt": "2026-10-20T20:42:06.814Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 69,
+        "kinds": {
+          "flow": 69
+        },
+        "updatedAt": "2026-10-20T21:00:44.463Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "proxima-vara-marksimonson-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 7,
+        "updatedAt": "2026-10-20T20:41:39.724Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 7,
+        "kinds": {
+          "flow": 7
+        },
+        "updatedAt": "2026-10-20T21:00:44.583Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "kampanjat-hs-fi-climatefont": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 12,
+        "updatedAt": "2026-10-20T20:41:59.054Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 12,
+        "kinds": {
+          "flow": 12
+        },
+        "updatedAt": "2026-10-20T21:00:44.903Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "louisefili-com-montecatini-pro": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 12,
+        "updatedAt": "2026-10-20T20:42:09.091Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 12,
+        "kinds": {
+          "flow": 12
+        },
+        "updatedAt": "2026-10-20T21:00:45.307Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "whirlybirdie-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 6,
+        "updatedAt": "2026-10-20T20:42:24.694Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 11,
+        "kinds": {
+          "screen": 11
+        },
+        "updatedAt": "2026-10-20T21:00:45.584Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "cjtype-com-dunbar": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 22,
+        "updatedAt": "2026-10-20T20:43:00.871Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 21,
+        "kinds": {
+          "flow": 21
+        },
+        "updatedAt": "2026-10-20T21:00:46.749Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "fraunces-undercase-xyz": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 14,
+        "updatedAt": "2026-10-20T20:42:41.817Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 14,
+        "kinds": {
+          "flow": 14
+        },
+        "updatedAt": "2026-10-20T21:00:47.169Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "etunni-github-io-arapey-minisite": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 13,
+        "updatedAt": "2026-10-20T20:42:45.238Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 13,
+        "kinds": {
+          "flow": 13
+        },
+        "updatedAt": "2026-10-20T21:00:47.623Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "djr-com-megazoid": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 21,
+        "updatedAt": "2026-10-20T20:43:30.117Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 20,
+        "kinds": {
+          "flow": 20
+        },
+        "updatedAt": "2026-10-20T21:00:48.870Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "nmtype-com-movement": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 4,
+        "updatedAt": "2026-10-20T20:43:13.151Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 4,
+        "kinds": {
+          "flow": 4
+        },
+        "updatedAt": "2026-10-20T21:00:48.956Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "cnap-fr-sites-faune-en": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 9,
+        "updatedAt": "2026-10-20T20:43:38.166Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 9,
+        "kinds": {
+          "flow": 9
+        },
+        "updatedAt": "2026-10-20T21:00:49.176Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "heydon-works-skwar": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 3,
+        "updatedAt": "2026-10-20T20:43:22.086Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 3,
+        "kinds": {
+          "flow": 3
+        },
+        "updatedAt": "2026-10-20T21:00:49.269Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "erikdemaine-org-fonts-tetris": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 8,
+        "updatedAt": "2026-10-20T20:43:24.444Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 8,
+        "kinds": {
+          "flow": 8
+        },
+        "updatedAt": "2026-10-20T21:00:49.343Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "universalsans-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 2,
+        "updatedAt": "2026-10-20T20:27:29.630Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 3,
+        "kinds": {
+          "screen": 1,
+          "fixed": 1,
+          "offscreen": 1
+        },
+        "updatedAt": "2026-10-20T21:00:49.397Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "larsenwork-com-monoid": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 4,
+        "updatedAt": "2026-10-20T20:43:40.789Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 4,
+        "kinds": {
+          "flow": 3,
+          "offscreen": 1
+        },
+        "updatedAt": "2026-10-20T21:00:49.484Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "garet-typeforward-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 15,
+        "updatedAt": "2026-10-20T20:43:45.928Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 15,
+        "kinds": {
+          "flow": 13,
+          "fixed": 2
+        },
+        "updatedAt": "2026-10-20T21:00:49.739Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "monolisa-dev": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 39,
+        "updatedAt": "2026-10-20T20:44:33.385Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 35,
+        "kinds": {
+          "flow": 34,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:51.208Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "jetbrains-com-lp-mono": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 2,
+        "updatedAt": "2026-10-20T20:44:29.532Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 21,
+        "kinds": {
+          "screen": 20,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:52.040Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "font-subf-dev-en": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 7,
+        "updatedAt": "2026-10-20T20:44:15.015Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 7,
+        "kinds": {
+          "flow": 7
+        },
+        "updatedAt": "2026-10-20T21:00:52.260Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "rubjo-github-io-victor-mono": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 18,
+        "updatedAt": "2026-10-20T20:44:24.078Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 18,
+        "kinds": {
+          "flow": 17,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:52.710Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "levien-com-type-myfonts-inconsolata": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 2,
+        "updatedAt": "2026-10-20T20:44:25.963Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 2,
+        "kinds": {
+          "screen": 2
+        },
+        "updatedAt": "2026-10-20T21:00:52.742Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "adelfaure-net-tools-jgs": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 0,
+        "updatedAt": "2026-10-20T20:44:48.729Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 14,
+        "kinds": {
+          "screen": 14
+        },
+        "updatedAt": "2026-10-20T21:00:53.215Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "madmalik-github-io-mononoki": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 3,
+        "updatedAt": "2026-10-20T20:44:38.242Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 3,
+        "kinds": {
+          "screen": 3
+        },
+        "updatedAt": "2026-10-20T21:00:53.256Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "lexend-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 14,
+        "updatedAt": "2026-10-20T20:45:06.359Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 14,
+        "kinds": {
+          "flow": 13,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:53.730Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "departuremono-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 8,
+        "updatedAt": "2026-10-20T20:45:21.554Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 7,
+        "kinds": {
+          "flow": 7
+        },
+        "updatedAt": "2026-10-20T21:00:54.076Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "area-font-eu": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 7,
+        "updatedAt": "2026-10-20T20:45:08.077Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 7,
+        "kinds": {
+          "flow": 7
+        },
+        "updatedAt": "2026-10-20T21:00:54.307Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "tiktok-com-font": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 12,
+        "updatedAt": "2026-10-20T20:45:42.792Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 11,
+        "kinds": {
+          "flow": 11
+        },
+        "updatedAt": "2026-10-20T21:00:54.587Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "apoc-font-eu": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 15,
+        "updatedAt": "2026-10-20T20:46:02.199Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 15,
+        "kinds": {
+          "flow": 14,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:00:55.021Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "fictional-typeface-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 8,
+        "updatedAt": "2026-10-20T20:45:23.881Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 8,
+        "kinds": {
+          "flow": 7,
+          "offscreen": 1
+        },
+        "updatedAt": "2026-10-20T21:00:55.112Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "scenik-frostype-xyz": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 15,
+        "updatedAt": "2026-10-20T20:27:27.067Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 11,
+        "kinds": {
+          "screen": 1,
+          "fixed": 2,
+          "offscreen": 8
+        },
+        "updatedAt": "2026-10-20T21:00:55.144Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "calhern-frostype-xyz": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 3,
+        "updatedAt": "2026-10-20T20:46:32.776Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 36,
+        "kinds": {
+          "screen": 34,
+          "fixed": 2
+        },
+        "updatedAt": "2026-10-20T21:00:56.784Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "logical-family": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 13,
+        "updatedAt": "2026-10-20T20:46:06.774Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 13,
+        "kinds": {
+          "flow": 13
+        },
+        "updatedAt": "2026-10-20T21:00:57.227Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "biceps-togetherwithyou-co": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 5,
+        "updatedAt": "2026-10-20T20:46:37.794Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 25,
+        "kinds": {
+          "screen": 25
+        },
+        "updatedAt": "2026-10-20T21:00:58.303Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "almnt-github-io-crimsonpro-microsite": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 17,
+        "updatedAt": "2026-10-20T20:46:50.672Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 17,
+        "kinds": {
+          "flow": 17
+        },
+        "updatedAt": "2026-10-20T21:00:58.880Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "rt-alias-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 31,
+        "updatedAt": "2026-10-20T20:46:36.791Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 31,
+        "kinds": {
+          "flow": 31
+        },
+        "updatedAt": "2026-10-20T21:00:59.745Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "etna-marksimonson-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 3,
+        "updatedAt": "2026-10-20T20:46:42.835Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 3,
+        "kinds": {
+          "flow": 3
+        },
+        "updatedAt": "2026-10-20T21:00:59.780Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "isolation-abc-xyz": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 3,
+        "updatedAt": "2026-10-20T20:29:01.003Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 2,
+        "kinds": {
+          "flow": 2
+        },
+        "updatedAt": "2026-10-20T21:00:59.892Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "rsms-me-inter": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 15,
+        "updatedAt": "2026-10-20T20:29:37.259Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 15,
+        "kinds": {
+          "flow": 15
+        },
+        "updatedAt": "2026-10-20T21:01:00.429Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "justfont-com-huninn": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 18,
+        "updatedAt": "2026-10-20T20:47:08.518Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 15,
+        "kinds": {
+          "flow": 15
+        },
+        "updatedAt": "2026-10-20T21:01:00.795Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "github-com-mona-sans": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 16,
+        "updatedAt": "2026-10-20T20:47:17.247Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 14,
+        "kinds": {
+          "flow": 14
+        },
+        "updatedAt": "2026-10-20T21:01:01.206Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "ibm-com-plex": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 7,
+        "updatedAt": "2026-10-20T20:47:27.618Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 7,
+        "kinds": {
+          "flow": 5,
+          "fixed": 2
+        },
+        "updatedAt": "2026-10-20T21:01:01.324Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "source-typekit-com-source-han-serif": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 16,
+        "updatedAt": "2026-10-20T20:47:23.071Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 16,
+        "kinds": {
+          "flow": 16
+        },
+        "updatedAt": "2026-10-20T21:01:01.680Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "tokotype-github-io-plusjakarta-sans": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 7,
+        "updatedAt": "2026-10-20T20:47:23.632Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 7,
+        "kinds": {
+          "flow": 6,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:01.778Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "overpassfont-org": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 5,
+        "updatedAt": "2026-10-20T20:47:30.744Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 5,
+        "kinds": {
+          "flow": 2,
+          "fixed": 3
+        },
+        "updatedAt": "2026-10-20T21:01:01.820Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "boharat-com-zaatar": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 1,
+        "updatedAt": "2026-10-20T20:47:52.508Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 12,
+        "kinds": {
+          "screen": 12
+        },
+        "updatedAt": "2026-10-20T21:01:02.116Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "brailleinstitute-org-freefont": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 6,
+        "updatedAt": "2026-10-20T20:48:35.266Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 6,
+        "kinds": {
+          "flow": 6
+        },
+        "updatedAt": "2026-10-20T21:01:02.330Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "github-rosettatype-com-yrsa-rasa": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 5,
+        "updatedAt": "2026-10-20T20:47:43.532Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 5,
+        "kinds": {
+          "flow": 5
+        },
+        "updatedAt": "2026-10-20T21:01:02.453Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "optician-sans-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 11,
+        "updatedAt": "2026-10-20T20:48:09.769Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 11,
+        "kinds": {
+          "flow": 11
+        },
+        "updatedAt": "2026-10-20T21:01:02.660Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "nrse-io": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 3,
+        "updatedAt": "2026-10-20T20:48:01.426Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 3,
+        "kinds": {
+          "flow": 2,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:02.709Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "bigshoulders-me": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 28,
+        "updatedAt": "2026-10-20T20:48:11.460Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 28,
+        "kinds": {
+          "flow": 28
+        },
+        "updatedAt": "2026-10-20T21:01:03.127Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "spectral-prototypo-io": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 7,
+        "updatedAt": "2026-10-20T20:48:55.672Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 7,
+        "kinds": {
+          "flow": 6,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:03.213Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "stencil-gothic-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 11,
+        "updatedAt": "2026-10-20T20:48:39.227Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 11,
+        "kinds": {
+          "flow": 11
+        },
+        "updatedAt": "2026-10-20T21:01:03.453Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "gidole-github-io": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 15,
+        "updatedAt": "2026-10-20T20:48:25.031Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 13,
+        "kinds": {
+          "screen": 5,
+          "fixed": 8
+        },
+        "updatedAt": "2026-10-20T21:01:03.545Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "leon-kim-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 1,
+        "updatedAt": "2026-10-20T20:48:50.729Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 9,
+        "kinds": {
+          "screen": 9
+        },
+        "updatedAt": "2026-10-20T21:01:03.729Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "pampatype-com-octothorpe-en": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 26,
+        "updatedAt": "2026-10-20T20:49:31.203Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 26,
+        "kinds": {
+          "flow": 25,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:04.884Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "compagnon-eesab-fr": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 0,
+        "updatedAt": "2026-10-20T20:49:06.346Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 10,
+        "kinds": {
+          "screen": 10
+        },
+        "updatedAt": "2026-10-20T21:01:05.115Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "urbangrotesk-suitcasetype-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 12,
+        "updatedAt": "2026-10-20T20:49:22.070Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 12,
+        "kinds": {
+          "flow": 12
+        },
+        "updatedAt": "2026-10-20T21:01:05.357Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "pleasure-typefaces-pizza": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 32,
+        "updatedAt": "2026-10-20T20:49:38.364Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 17,
+        "kinds": {
+          "flow": 14,
+          "fixed": 2,
+          "offscreen": 1
+        },
+        "updatedAt": "2026-10-20T21:01:05.776Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "excelsiorama-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 10,
+        "updatedAt": "2026-10-20T20:49:58.204Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 10,
+        "kinds": {
+          "flow": 10
+        },
+        "updatedAt": "2026-10-20T21:01:06.184Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "kostasbartsokas-com-oi-you-mate": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 16,
+        "updatedAt": "2026-10-20T20:49:55.672Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 16,
+        "kinds": {
+          "flow": 15,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:06.601Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "redaction-us": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 8,
+        "updatedAt": "2026-10-20T20:49:50.901Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 8,
+        "kinds": {
+          "flow": 8
+        },
+        "updatedAt": "2026-10-20T21:01:06.779Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "compressa-preusstype-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 19,
+        "updatedAt": "2026-10-20T20:50:27.692Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 18,
+        "kinds": {
+          "flow": 17,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:07.322Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "cursorfont-liebermannkiepereddemann-de": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 2,
+        "updatedAt": "2026-10-20T20:50:09.440Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 3,
+        "kinds": {
+          "screen": 2,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:07.349Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "arteria-typofonderie-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 9,
+        "updatedAt": "2026-10-20T20:50:39.910Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 9,
+        "kinds": {
+          "flow": 8,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:07.672Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "marbla-de": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 8,
+        "updatedAt": "2026-10-20T20:50:33.919Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 8,
+        "kinds": {
+          "flow": 8
+        },
+        "updatedAt": "2026-10-20T21:01:07.836Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "cnap-fr-sites-infini-en": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 2,
+        "warning": "mobile: Processed image is too large for the JPEG format",
+        "updatedAt": "2026-10-20T20:51:42.532Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 41,
+        "kinds": {
+          "screen": 41
+        },
+        "updatedAt": "2026-10-20T21:01:10.118Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "erikdkennedy-com-projects-figtree": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 8,
+        "updatedAt": "2026-10-20T20:50:54.616Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 7,
+        "kinds": {
+          "flow": 7
+        },
+        "updatedAt": "2026-10-20T21:01:10.308Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "seraphs-varfont-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 21,
+        "updatedAt": "2026-10-20T20:51:02.056Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 21,
+        "kinds": {
+          "flow": 21
+        },
+        "updatedAt": "2026-10-20T21:01:10.835Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "graphit-type-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 19,
+        "updatedAt": "2026-10-20T20:51:27.142Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 19,
+        "kinds": {
+          "flow": 15,
+          "fixed": 2,
+          "offscreen": 2
+        },
+        "updatedAt": "2026-10-20T21:01:11.462Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "basco-typofonderie-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 9,
+        "updatedAt": "2026-10-20T20:51:56.882Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 9,
+        "kinds": {
+          "flow": 8,
+          "offscreen": 1
+        },
+        "updatedAt": "2026-10-20T21:01:11.804Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "db-pixel-club": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 2,
+        "updatedAt": "2026-10-20T20:51:15.500Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 2,
+        "kinds": {
+          "screen": 1,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:11.825Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "monaspace-githubnext-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 21,
+        "updatedAt": "2026-10-20T20:51:55.940Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 21,
+        "kinds": {
+          "flow": 21
+        },
+        "updatedAt": "2026-10-20T21:01:12.550Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "vercel-com-font": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 12,
+        "updatedAt": "2026-10-20T20:51:58.063Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 11,
+        "kinds": {
+          "flow": 10,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:12.833Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "unbounded-polkadot-network": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 13,
+        "updatedAt": "2026-10-20T20:52:12.601Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 12,
+        "kinds": {
+          "flow": 11,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:13.114Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "aspen-ludwigtype-de": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 2,
+        "updatedAt": "2026-10-20T20:52:12.208Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 2,
+        "kinds": {
+          "screen": 2
+        },
+        "updatedAt": "2026-10-20T21:01:13.148Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "rt-dromo-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 68,
+        "updatedAt": "2026-10-20T20:52:55.619Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 67,
+        "kinds": {
+          "flow": 67
+        },
+        "updatedAt": "2026-10-20T21:01:16.646Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "wix-com-typeface-madefor": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 2,
+        "updatedAt": "2026-10-20T20:52:42.914Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 14,
+        "kinds": {
+          "screen": 13,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:17.091Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "fridamedrano-com-jabin": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 12,
+        "updatedAt": "2026-10-20T20:52:38.723Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 12,
+        "kinds": {
+          "flow": 10,
+          "fixed": 2
+        },
+        "updatedAt": "2026-10-20T21:01:17.304Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "lobdell-me-affogato": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 8,
+        "updatedAt": "2026-10-20T20:52:52.982Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 8,
+        "kinds": {
+          "flow": 8
+        },
+        "updatedAt": "2026-10-20T21:01:17.466Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "nabla-typearture-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 12,
+        "updatedAt": "2026-10-20T20:52:58.123Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 12,
+        "kinds": {
+          "flow": 11,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:17.658Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "nihon-font-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 19,
+        "updatedAt": "2026-10-20T20:53:31.264Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 18,
+        "kinds": {
+          "flow": 18
+        },
+        "updatedAt": "2026-10-20T21:01:18.228Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "djr-com-bungee": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 17,
+        "updatedAt": "2026-10-20T20:27:36.084Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 0,
+        "kinds": {},
+        "updatedAt": "2026-10-20T21:01:18.234Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "plex-korean-demo-vercel-app": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 2,
+        "updatedAt": "2026-10-20T20:53:05.670Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 2,
+        "kinds": {
+          "flow": 2
+        },
+        "updatedAt": "2026-10-20T21:01:18.261Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "lozanotype-github-io-java-sans": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 0,
+        "updatedAt": "2026-10-20T20:53:06.428Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 1,
+        "kinds": {
+          "screen": 1
+        },
+        "updatedAt": "2026-10-20T21:01:18.275Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "2021-typemedia-org-gajana": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 18,
+        "updatedAt": "2026-10-20T20:53:26.835Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 18,
+        "kinds": {
+          "flow": 18
+        },
+        "updatedAt": "2026-10-20T21:01:18.754Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "2020-typefacedesign-org-simon": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 16,
+        "updatedAt": "2026-10-20T20:53:43.807Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 16,
+        "kinds": {
+          "flow": 15,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:18.999Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "colab-munken-com-munken-sans": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 20,
+        "updatedAt": "2026-10-20T20:53:55.455Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 20,
+        "kinds": {
+          "flow": 11,
+          "fixed": 1,
+          "offscreen": 8
+        },
+        "updatedAt": "2026-10-20T21:01:19.273Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "x5-acjs-net": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 10,
+        "updatedAt": "2026-10-20T20:53:58.075Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 10,
+        "kinds": {
+          "flow": 9,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:19.549Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "daifoldes-com-eubiescript-sub": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 7,
+        "updatedAt": "2026-10-20T20:53:56.330Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 7,
+        "kinds": {
+          "flow": 7
+        },
+        "updatedAt": "2026-10-20T21:01:19.729Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "grandgothik-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 19,
+        "updatedAt": "2026-10-20T20:54:40.104Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 19,
+        "kinds": {
+          "flow": 18,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:20.619Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "usgraphics-com-products-berkeley-mono": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 20,
+        "updatedAt": "2026-10-20T20:54:27.363Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 20,
+        "kinds": {
+          "flow": 20
+        },
+        "updatedAt": "2026-10-20T21:01:21.160Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "brailleneue-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 11,
+        "updatedAt": "2026-10-20T20:54:20.067Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 10,
+        "kinds": {
+          "flow": 10
+        },
+        "updatedAt": "2026-10-20T21:01:21.376Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "commitmono-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 2,
+        "updatedAt": "2026-10-20T20:27:20.154Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 2,
+        "kinds": {
+          "screen": 1,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:21.410Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "dyslexiefont-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 23,
+        "updatedAt": "2026-10-20T20:55:02.038Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 23,
+        "kinds": {
+          "flow": 21,
+          "fixed": 2
+        },
+        "updatedAt": "2026-10-20T21:01:22.076Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "indestructibletype-com-jost": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 23,
+        "updatedAt": "2026-10-20T20:54:37.827Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 23,
+        "kinds": {
+          "flow": 23
+        },
+        "updatedAt": "2026-10-20T21:01:22.433Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "latofonts-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 6,
+        "updatedAt": "2026-10-20T20:54:54.563Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 6,
+        "kinds": {
+          "flow": 6
+        },
+        "updatedAt": "2026-10-20T21:01:22.549Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "luciole-vision-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 7,
+        "updatedAt": "2026-10-20T20:55:01.457Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 7,
+        "kinds": {
+          "flow": 7
+        },
+        "updatedAt": "2026-10-20T21:01:22.685Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "djr-com-fern": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 16,
+        "updatedAt": "2026-10-20T20:55:17.831Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 14,
+        "kinds": {
+          "flow": 14
+        },
+        "updatedAt": "2026-10-20T21:01:23.142Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "djr-com-job-clarendon": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 31,
+        "warning": "mobile: extract_area: bad extract area",
+        "updatedAt": "2026-10-20T20:56:07.973Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 29,
+        "kinds": {
+          "flow": 29
+        },
+        "updatedAt": "2026-10-20T21:01:24.658Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "djr-com-turnip": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 12,
+        "updatedAt": "2026-10-20T20:55:47.260Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 12,
+        "kinds": {
+          "flow": 12
+        },
+        "updatedAt": "2026-10-20T21:01:25.061Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "nationalparktypeface-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 16,
+        "updatedAt": "2026-10-20T20:55:28.296Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 16,
+        "kinds": {
+          "flow": 15,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:25.497Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "sourcefoundry-org-hack": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 14,
+        "updatedAt": "2026-10-20T20:55:46.580Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 13,
+        "kinds": {
+          "flow": 12,
+          "fixed": 1
+        },
+        "updatedAt": "2026-10-20T21:01:25.799Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "timesnewerroman-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 5,
+        "updatedAt": "2026-10-20T20:55:40.524Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 5,
+        "kinds": {
+          "flow": 5
+        },
+        "updatedAt": "2026-10-20T21:01:25.865Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "typeof-net-iosevka": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 10,
+        "updatedAt": "2026-10-20T20:56:13.333Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 10,
+        "kinds": {
+          "flow": 10
+        },
+        "updatedAt": "2026-10-20T21:01:26.223Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    },
+    "vollkorn-typeface-com": {
+      "archive": {
+        "status": "done",
+        "v": 4,
+        "blocks": 9,
+        "updatedAt": "2026-10-20T20:56:19.896Z"
+      },
+      "blocks": {
+        "status": "done",
+        "v": 3,
+        "blocks": 9,
+        "kinds": {
+          "flow": 9
+        },
+        "updatedAt": "2026-10-20T21:01:26.536Z"
+      },
+      "extract": {
+        "status": "pending"
+      }
+    }
+  }
+}

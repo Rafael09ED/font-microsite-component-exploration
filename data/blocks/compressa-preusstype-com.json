@@ -1,0 +1,1609 @@
+{
+  "slug": "compressa-preusstype-com",
+  "url": "https://compressa.preusstype.com",
+  "pageHeight": 17657,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "compressa-preusstype-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#headerwrap",
+      "classes": [
+        "colorwrap-00"
+      ],
+      "box": {
+        "x": 0,
+        "y": -10,
+        "w": 1440,
+        "h": 1020
+      },
+      "headings": [
+        "A new Typeface. Not just condensed, it’s Compressa!"
+      ],
+      "parentHeadings": null,
+      "textPreview": "A new Typeface. Not just condensed, it’s Compressa!",
+      "fontFamilies": [
+        "compressa"
+      ],
+      "maxFontSizePx": 120,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(52, 152, 219)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": -0.001,
+        "heightVh": 0.758,
+        "widthRatio": 1,
+        "text": 4.025,
+        "elements": 2.708,
+        "headings": 1,
+        "fontSizes": 6,
+        "maxFontVw": 0.083,
+        "singleChar": 1.099,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.283,
+        "fgLum": 0.028
+      },
+      "crop": "archive/compressa-preusstype-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/compressa-preusstype-com/blocks/00.html"
+    },
+    {
+      "id": "compressa-preusstype-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(3)",
+      "classes": [
+        "colorwrap",
+        "colorwrap-01"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1010,
+        "w": 1440,
+        "h": 820
+      },
+      "headings": [
+        "Small Caps"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Small Caps",
+      "fontFamilies": [
+        "compressa"
+      ],
+      "maxFontSizePx": 96,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(152, 219, 52)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.063,
+        "relY": 0.057,
+        "heightVh": 0.648,
+        "widthRatio": 1,
+        "text": 2.398,
+        "elements": 1.946,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.067,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.576,
+        "fgLum": 0.028
+      },
+      "crop": "archive/compressa-preusstype-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/compressa-preusstype-com/blocks/01.html"
+    },
+    {
+      "id": "compressa-preusstype-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(4)",
+      "classes": [
+        "colorwrap",
+        "colorwrap-02"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1830,
+        "w": 1440,
+        "h": 820
+      },
+      "headings": [
+        "geile Type!"
+      ],
+      "parentHeadings": null,
+      "textPreview": "geile Type!",
+      "fontFamilies": [
+        "compressa"
+      ],
+      "maxFontSizePx": 428,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(212, 54, 53)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.125,
+        "relY": 0.104,
+        "heightVh": 0.648,
+        "widthRatio": 1,
+        "text": 2.485,
+        "elements": 1.946,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.297,
+        "singleChar": 0.693,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.169,
+        "fgLum": 0.028
+      },
+      "crop": "archive/compressa-preusstype-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/compressa-preusstype-com/blocks/02.html"
+    },
+    {
+      "id": "compressa-preusstype-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(5)",
+      "classes": [
+        "colorwrap",
+        "colorwrap-03"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2650,
+        "w": 1440,
+        "h": 820
+      },
+      "headings": [
+        "Proportional Figures Lining Figures Tabular Lining Figures Oldstyle Figures Tabu",
+        "Sinferior Superior Numerator Denominators"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Proportional Figures Lining Figures Tabular Lining Figures Oldstyle Figures Tabular Oldstyle Figures Sinferior Superior Numerator Denominators",
+      "fontFamilies": [
+        "compressa"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(248, 249, 172)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.188,
+        "relY": 0.15,
+        "heightVh": 0.648,
+        "widthRatio": 1,
+        "text": 4.963,
+        "elements": 2.773,
+        "headings": 2,
+        "fontSizes": 2,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.907,
+        "fgLum": 0.028
+      },
+      "crop": "archive/compressa-preusstype-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/compressa-preusstype-com/blocks/03.html"
+    },
+    {
+      "id": "compressa-preusstype-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(6)",
+      "classes": [
+        "colorwrap",
+        "colorwrap-04"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3470,
+        "w": 1440,
+        "h": 820
+      },
+      "headings": [
+        "Case-Sensitive Forms"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Case-Sensitive Forms",
+      "fontFamilies": [
+        "compressa"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(141, 244, 219)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.25,
+        "relY": 0.197,
+        "heightVh": 0.648,
+        "widthRatio": 1,
+        "text": 3.045,
+        "elements": 2.079,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.755,
+        "fgLum": 0.028
+      },
+      "crop": "archive/compressa-preusstype-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/compressa-preusstype-com/blocks/04.html"
+    },
+    {
+      "id": "compressa-preusstype-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(7)",
+      "classes": [
+        "colorwrap",
+        "colorwrap-05"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4290,
+        "w": 1440,
+        "h": 640
+      },
+      "headings": [
+        "isso!"
+      ],
+      "parentHeadings": null,
+      "textPreview": "isso!",
+      "fontFamilies": [
+        "compressa"
+      ],
+      "maxFontSizePx": 628,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(146, 101, 184)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.313,
+        "relY": 0.243,
+        "heightVh": 0.537,
+        "widthRatio": 1,
+        "text": 1.792,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.436,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.189,
+        "fgLum": 0.028
+      },
+      "crop": "archive/compressa-preusstype-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/compressa-preusstype-com/blocks/05.html"
+    },
+    {
+      "id": "compressa-preusstype-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(8)",
+      "classes": [
+        "colorwrap",
+        "colorwrap-06"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4930,
+        "w": 1440,
+        "h": 961
+      },
+      "headings": [
+        "Localized Forms"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Localized Forms Languages: Afrikaans, Albanian, Asu, Basque, Bemba, Bena, Bosnian, Chiga, Congo Swahili, Danish, German, English, Esperanto, Estonian, Faroese, Filipino, Finnish, French, Galician, Ganda, Greenlandic, Gusii, Indonesian, Iris",
+      "fontFamilies": [
+        "compressa"
+      ],
+      "maxFontSizePx": 96,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(239, 165, 158)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.375,
+        "relY": 0.279,
+        "heightVh": 0.726,
+        "widthRatio": 1,
+        "text": 6.72,
+        "elements": 3.091,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.067,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.386,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.477,
+        "fgLum": 0.028
+      },
+      "crop": "archive/compressa-preusstype-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/compressa-preusstype-com/blocks/06.html"
+    },
+    {
+      "id": "compressa-preusstype-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(9)",
+      "classes": [
+        "colorwrap",
+        "colorwrap-08"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5891,
+        "w": 1440,
+        "h": 820
+      },
+      "headings": [
+        "6 Stylistic Sets"
+      ],
+      "parentHeadings": null,
+      "textPreview": "6 Stylistic Sets",
+      "fontFamilies": [
+        "compressa"
+      ],
+      "maxFontSizePx": 96,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(198, 205, 115)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.438,
+        "relY": 0.334,
+        "heightVh": 0.648,
+        "widthRatio": 1,
+        "text": 2.833,
+        "elements": 2.079,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.067,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.569,
+        "fgLum": 0.028
+      },
+      "crop": "archive/compressa-preusstype-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/compressa-preusstype-com/blocks/07.html"
+    },
+    {
+      "id": "compressa-preusstype-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(10)",
+      "classes": [
+        "colorwrap",
+        "colorwrap-07"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6711,
+        "w": 1440,
+        "h": 510
+      },
+      "headings": [
+        "Space is limited"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Space is limited",
+      "fontFamilies": [
+        "compressa"
+      ],
+      "maxFontSizePx": 296,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(235, 105, 64)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.38,
+        "heightVh": 0.449,
+        "widthRatio": 1,
+        "text": 2.833,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.206,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.281,
+        "fgLum": 0.028
+      },
+      "crop": "archive/compressa-preusstype-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/compressa-preusstype-com/blocks/08.html"
+    },
+    {
+      "id": "compressa-preusstype-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(11)",
+      "classes": [
+        "colorwrap",
+        "colorwrap-10"
+      ],
+      "box": {
+        "x": 0,
+        "y": 7221,
+        "w": 1440,
+        "h": 820
+      },
+      "headings": [
+        "Ligatures"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Ligatures",
+      "fontFamilies": [
+        "compressa"
+      ],
+      "maxFontSizePx": 96,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(237, 201, 79)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.563,
+        "relY": 0.409,
+        "heightVh": 0.648,
+        "widthRatio": 1,
+        "text": 2.303,
+        "elements": 1.946,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.067,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.603,
+        "fgLum": 0.028
+      },
+      "crop": "archive/compressa-preusstype-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/compressa-preusstype-com/blocks/09.html"
+    },
+    {
+      "id": "compressa-preusstype-com#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(12)",
+      "classes": [
+        "colorwrap",
+        "colorwrap-11"
+      ],
+      "box": {
+        "x": 0,
+        "y": 8041,
+        "w": 1440,
+        "h": 520
+      },
+      "headings": [
+        "Hopfensmoothie"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Hopfensmoothie",
+      "fontFamilies": [
+        "compressa"
+      ],
+      "maxFontSizePx": 286,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 161, 174)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.625,
+        "relY": 0.455,
+        "heightVh": 0.456,
+        "widthRatio": 1,
+        "text": 2.708,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.199,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.285,
+        "fgLum": 0.028
+      },
+      "crop": "archive/compressa-preusstype-com/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/compressa-preusstype-com/blocks/10.html"
+    },
+    {
+      "id": "compressa-preusstype-com#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#characters",
+      "classes": [
+        "colorwrap"
+      ],
+      "box": {
+        "x": 0,
+        "y": 8561,
+        "w": 1440,
+        "h": 1714
+      },
+      "headings": [
+        "Characters",
+        "A B C D E F G H I I J K L M N O P Q R S T U U V W X Y Z Œ Æ a a b c d e f g g h ",
+        "A B C D E F G H I I J K L M N O P Q R S T U U V W X Y Z Œ Æ a a b c d e f g g h "
+      ],
+      "parentHeadings": null,
+      "textPreview": "Characters A B C D E F G H I I J K L M N O P Q R S T U U V W X Y Z Œ Æ a a b c d e f g g h i i j j k l l m n o p q r s t u v w x y z ß ß ẞ a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 á à â ",
+      "fontFamilies": [
+        "compressa",
+        "compressa-it"
+      ],
+      "maxFontSizePx": 96,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.688,
+        "relY": 0.485,
+        "heightVh": 1.066,
+        "widthRatio": 1,
+        "text": 6.583,
+        "elements": 3.638,
+        "headings": 3,
+        "fontSizes": 2,
+        "maxFontVw": 0.067,
+        "singleChar": 2.944,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.028
+      },
+      "crop": "archive/compressa-preusstype-com/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/compressa-preusstype-com/blocks/11.html"
+    },
+    {
+      "id": "compressa-preusstype-com#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(14) > div:nth-of-type(1)",
+      "classes": [
+        "container"
+      ],
+      "box": {
+        "x": 135,
+        "y": 10443,
+        "w": 1170,
+        "h": 1119
+      },
+      "headings": [
+        "Styles",
+        "now available – As single cuts: 80 fonts!",
+        "Extra Condensed",
+        "Condensed"
+      ],
+      "parentHeadings": [
+        "Styles",
+        "now available – As single cuts: 80 fonts!",
+        "Extra Condensed",
+        "Condensed"
+      ],
+      "textPreview": "Styles now available – As single cuts: 80 fonts! Extra Condensed Compressa ExtraCon Thin Compressa ExtraCon Thin It Compressa ExtraCon ExtraLight Compressa ExtraCon ExtraLight It Compressa ExtraCon Light Compressa ExtraCon Light It Compress",
+      "fontFamilies": [
+        "compressa"
+      ],
+      "maxFontSizePx": 96,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.75,
+        "relY": 0.591,
+        "heightVh": 0.808,
+        "widthRatio": 0.813,
+        "text": 7.771,
+        "elements": 5.182,
+        "headings": 4,
+        "fontSizes": 5,
+        "maxFontVw": 0.067,
+        "singleChar": 1.386,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 4.394,
+        "bgLum": -1,
+        "fgLum": 0.028
+      },
+      "crop": "archive/compressa-preusstype-com/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/compressa-preusstype-com/blocks/12.html"
+    },
+    {
+      "id": "compressa-preusstype-com#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(14) > div:nth-of-type(2)",
+      "classes": [
+        "colorwrap",
+        "colorwrap-12"
+      ],
+      "box": {
+        "x": 0,
+        "y": 11562,
+        "w": 1440,
+        "h": 1408
+      },
+      "headings": [
+        "Now available as Variable Font"
+      ],
+      "parentHeadings": [
+        "Styles",
+        "now available – As single cuts: 80 fonts!",
+        "Extra Condensed",
+        "Condensed"
+      ],
+      "textPreview": "Now available as Variable Font current preview available at Axis-Praxis.org. Tnx to Laurence Penney... Test, enjoy and order at PreussType.com.",
+      "fontFamilies": [
+        "compressa"
+      ],
+      "maxFontSizePx": 96,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(112, 75, 198)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": true,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.813,
+        "relY": 0.655,
+        "heightVh": 0.942,
+        "widthRatio": 1,
+        "text": 4.997,
+        "elements": 2.565,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.067,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.126,
+        "fgLum": 0.028
+      },
+      "crop": "archive/compressa-preusstype-com/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/compressa-preusstype-com/blocks/13.html"
+    },
+    {
+      "id": "compressa-preusstype-com#14",
+      "nn": "14",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#perfect",
+      "classes": [
+        "colorwrap"
+      ],
+      "box": {
+        "x": 0,
+        "y": 12971,
+        "w": 1440,
+        "h": 3007
+      },
+      "headings": [
+        "Compressa is the perfect typeface for:",
+        "logos, displays and signage",
+        "editorial design, magazines, newspapers, brochures",
+        "advertising"
+      ],
+      "parentHeadings": [
+        "Styles",
+        "now available – As single cuts: 80 fonts!",
+        "Extra Condensed",
+        "Condensed"
+      ],
+      "textPreview": "Compressa is the perfect typeface for: logos, displays and signage editorial design, magazines, newspapers, brochures advertising web design & apps branding & packaging letterheads greeting cards and promotions prominent headlines & titles ",
+      "fontFamilies": [
+        "compressa",
+        "compressa-it"
+      ],
+      "maxFontSizePx": 515,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.875,
+        "relY": 0.735,
+        "heightVh": 1.468,
+        "widthRatio": 1,
+        "text": 6.12,
+        "elements": 3.989,
+        "headings": 4,
+        "fontSizes": 17,
+        "maxFontVw": 0.358,
+        "singleChar": 0.693,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.028
+      },
+      "crop": "archive/compressa-preusstype-com/blocks/14.jpg",
+      "cropTruncated": false,
+      "html": "archive/compressa-preusstype-com/blocks/14.html"
+    },
+    {
+      "id": "compressa-preusstype-com#15",
+      "nn": "15",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#download",
+      "classes": [
+        "colorwrap",
+        "colorwrap-14"
+      ],
+      "box": {
+        "x": 0,
+        "y": 15977,
+        "w": 1440,
+        "h": 720
+      },
+      "headings": [
+        "Download Compressa",
+        "You can test and purchase Compressa OTF online. Of course also the variable font"
+      ],
+      "parentHeadings": [
+        "Styles",
+        "now available – As single cuts: 80 fonts!",
+        "Extra Condensed",
+        "Condensed"
+      ],
+      "textPreview": "Download Compressa Compressa is a condensed, geometric sans serif typeface inspired by mid 20th century vernacular styles, ideal for typography that makes an impact. PRO font include alternate characters and figures for added versatility. T",
+      "fontFamilies": [
+        "compressa"
+      ],
+      "maxFontSizePx": 60,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(231, 195, 72)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": true,
+        "glyphs": true,
+        "legal": false,
+        "story": true,
+        "features": true,
+        "tester": true,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.938,
+        "relY": 0.905,
+        "heightVh": 0.588,
+        "widthRatio": 1,
+        "text": 6.404,
+        "elements": 3.258,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.042,
+        "singleChar": 1.792,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.946,
+        "bgLum": 0.565,
+        "fgLum": 0.028
+      },
+      "crop": "archive/compressa-preusstype-com/blocks/15.jpg",
+      "cropTruncated": false,
+      "html": "archive/compressa-preusstype-com/blocks/15.html"
+    },
+    {
+      "id": "compressa-preusstype-com#16",
+      "nn": "16",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#contact",
+      "classes": [
+        "colorwrap",
+        "colorwrap-15"
+      ],
+      "box": {
+        "x": 0,
+        "y": 16697,
+        "w": 1440,
+        "h": 820
+      },
+      "headings": [
+        "Contact",
+        "Ingo Preuß"
+      ],
+      "parentHeadings": [
+        "Styles",
+        "now available – As single cuts: 80 fonts!",
+        "Extra Condensed",
+        "Condensed"
+      ],
+      "textPreview": "Contact Impressum Ingo Preuß PreussType Ingo Preuß is a type engenieur and an independent font designer. He supports various design agencies and distributes his own work at PreussType.com — a small foundry dedicated to create unique and con",
+      "fontFamilies": [
+        "compressa",
+        "Glyphicons Halflings"
+      ],
+      "maxFontSizePx": 96,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(14, 17, 86)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.946,
+        "heightVh": 0.648,
+        "widthRatio": 1,
+        "text": 5.935,
+        "elements": 3.434,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.067,
+        "singleChar": 1.609,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.609,
+        "bgLum": 0.012,
+        "fgLum": 0.028
+      },
+      "crop": "archive/compressa-preusstype-com/blocks/16.jpg",
+      "cropTruncated": false,
+      "html": "archive/compressa-preusstype-com/blocks/16.html"
+    },
+    {
+      "id": "compressa-preusstype-com#17",
+      "nn": "17",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(1)",
+      "classes": [
+        "navbar",
+        "navbar-default",
+        "navbar-fixed-top",
+        "colorwrap-00"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 100
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "COMPRESSA by Ingo Preuß Characters Application Download Contact › preusstype.com",
+      "fontFamilies": [
+        "compressa"
+      ],
+      "maxFontSizePx": 28,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(52, 152, 219)",
+      "color": "rgb(47, 47, 47)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.063,
+        "relY": 0,
+        "heightVh": 0.105,
+        "widthRatio": 1,
+        "text": 4.394,
+        "elements": 3.045,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.019,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.946,
+        "bgLum": 0.283,
+        "fgLum": 0.028
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/compressa-preusstype-com/blocks/17.html"
+    }
+  ]
+}

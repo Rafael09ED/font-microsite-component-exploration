@@ -1,0 +1,1064 @@
+{
+  "slug": "gt-canon-com",
+  "url": "https://gt-canon.com",
+  "pageHeight": 19794,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "gt-canon-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#panel-preface",
+      "classes": [
+        "flex",
+        "flex-col",
+        "justify-center",
+        "items-center"
+      ],
+      "box": {
+        "x": 0,
+        "y": 40,
+        "w": 1240,
+        "h": 1581
+      },
+      "headings": [
+        "GT CANON"
+      ],
+      "parentHeadings": null,
+      "textPreview": "L GT CANON L is neither historical nor futuristic. The M TYPEFACE SPECIMEN Preface System Design Platform Specification Colophon Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz PARALLEL READER WHAT IS A CANON? ",
+      "fontFamilies": [
+        "GT Canon",
+        "GT Canon Mono"
+      ],
+      "maxFontSizePx": 198,
+      "variationSettings": [
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 8, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 60, \"wdth\" 100, \"wght\" 300",
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 8, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.002,
+        "heightVh": 1.014,
+        "widthRatio": 0.861,
+        "text": 7.349,
+        "elements": 4.663,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.138,
+        "singleChar": 3.401,
+        "varSettings": 6,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.296,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-canon-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-canon-com/blocks/00.html"
+    },
+    {
+      "id": "gt-canon-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#panel-system",
+      "classes": [
+        "scroll-mt-4"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1701,
+        "w": 1240,
+        "h": 2040
+      },
+      "headings": [
+        "System",
+        "FAMILY OVERVIEW",
+        "OPTICAL SIZE",
+        "RHYTHM"
+      ],
+      "parentHeadings": null,
+      "textPreview": "L System M THE DESIGN OF GT CANON brings a full range of usage to a single universal serif typeface family. The three variable axis – width, weight, and optical size – along with accompanying italic and monospaced variants, push GT Canon in",
+      "fontFamilies": [
+        "GT Canon",
+        "GT Canon Mono"
+      ],
+      "maxFontSizePx": 186,
+      "variationSettings": [
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 8, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 60, \"wdth\" 100, \"wght\" 300",
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.1,
+        "relY": 0.086,
+        "heightVh": 1.184,
+        "widthRatio": 0.861,
+        "text": 7.32,
+        "elements": 7.415,
+        "headings": 4,
+        "fontSizes": 4,
+        "maxFontVw": 0.129,
+        "singleChar": 1.099,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-canon-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-canon-com/blocks/01.html"
+    },
+    {
+      "id": "gt-canon-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#panel-design > div:nth-of-type(1)",
+      "classes": [
+        "panel-grid"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3821,
+        "w": 1240,
+        "h": 590
+      },
+      "headings": [
+        "Design"
+      ],
+      "parentHeadings": [
+        "Design",
+        "Vertical/Horizontal Proportions",
+        "Digital Shaping",
+        "Special Details"
+      ],
+      "textPreview": "L Design M LETTERFORMS, PROPORTION, RHYTHM — we consider GT Canon a new reference point for serif typefaces. While the design is not based on a specific historical archetype, GT Canon marks the defining chapter in our search for a universal",
+      "fontFamilies": [
+        "GT Canon",
+        "GT Canon Mono"
+      ],
+      "maxFontSizePx": 186,
+      "variationSettings": [
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 8, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 60, \"wdth\" 100, \"wght\" 300",
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 8, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.2,
+        "relY": 0.193,
+        "heightVh": 0.504,
+        "widthRatio": 0.861,
+        "text": 6.551,
+        "elements": 3.332,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.129,
+        "singleChar": 1.099,
+        "varSettings": 5,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-canon-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-canon-com/blocks/02.html"
+    },
+    {
+      "id": "gt-canon-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#panel-design > div:nth-of-type(2)",
+      "classes": [
+        "space-y-4"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4492,
+        "w": 1240,
+        "h": 746
+      },
+      "headings": [
+        "Vertical/Horizontal Proportions"
+      ],
+      "parentHeadings": [
+        "Design",
+        "Vertical/Horizontal Proportions",
+        "Digital Shaping",
+        "Special Details"
+      ],
+      "textPreview": "FIG. 1 Vertical/Horizontal Proportions The typeface features a large x-height, emphasizing the lowercase forms and enhancing legibility particularly in small sizes. Its compact structure matches GT Standard directly.",
+      "fontFamilies": [
+        "GT Canon",
+        "GT Canon Mono",
+        "GT Canon Mono v7"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.3,
+        "relY": 0.227,
+        "heightVh": 0.604,
+        "widthRatio": 0.861,
+        "text": 5.384,
+        "elements": 7.685,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-canon-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-canon-com/blocks/03.html"
+    },
+    {
+      "id": "gt-canon-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#panel-design > div:nth-of-type(4)",
+      "classes": [
+        "panel-grid",
+        "hidden!",
+        "lg:grid!"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5318,
+        "w": 1240,
+        "h": 4080
+      },
+      "headings": [
+        "Digital Shaping",
+        "Special Details",
+        "Optical Sizes",
+        "Widths"
+      ],
+      "parentHeadings": [
+        "Design",
+        "Vertical/Horizontal Proportions",
+        "Digital Shaping",
+        "Special Details"
+      ],
+      "textPreview": "FIG. 2 Digital Shaping GT Canon avoids historicizing gestures. Its digital origin is embraced rather than disguised. While it acknowledges the logic of traditional pen construction through a faint diagonal axis, it is not built on calligrap",
+      "fontFamilies": [
+        "GT Canon",
+        "GT Canon Mono"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 4,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.4,
+        "relY": 0.269,
+        "heightVh": 1.711,
+        "widthRatio": 0.861,
+        "text": 6.569,
+        "elements": 8.095,
+        "headings": 4,
+        "fontSizes": 3,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.609,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-canon-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-canon-com/blocks/04.html"
+    },
+    {
+      "id": "gt-canon-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#panel-design > div:nth-of-type(5)",
+      "classes": [
+        "space-y-4"
+      ],
+      "box": {
+        "x": 0,
+        "y": 9478,
+        "w": 1240,
+        "h": 746
+      },
+      "headings": [
+        "Weights"
+      ],
+      "parentHeadings": [
+        "Design",
+        "Vertical/Horizontal Proportions",
+        "Digital Shaping",
+        "Special Details"
+      ],
+      "textPreview": "FIG. 6 Weights The weight range of Light to Black, while consistent in labeling and appearance, is optically adjusted throughout the family, meaning that the Condensed Black is a lot lighter than the Expanded Black.",
+      "fontFamilies": [
+        "GT Canon",
+        "GT Canon Mono"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.479,
+        "heightVh": 0.604,
+        "widthRatio": 0.861,
+        "text": 5.38,
+        "elements": 6.452,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-canon-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-canon-com/blocks/05.html"
+    },
+    {
+      "id": "gt-canon-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#panel-design > div:nth-of-type(7)",
+      "classes": [
+        "panel-grid",
+        "hidden!",
+        "lg:grid!"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10304,
+        "w": 1240,
+        "h": 2020
+      },
+      "headings": [
+        "Slant Angle",
+        "Italic Design"
+      ],
+      "parentHeadings": [
+        "Design",
+        "Vertical/Horizontal Proportions",
+        "Digital Shaping",
+        "Special Details"
+      ],
+      "textPreview": "FIG. 7 Slant Angle GT Canon utilizes a steep italic angle of 20°. The resulting Standard width’s lively texture turns into a very expressive feature in the Condensed, and allows for enough distinction even in the Expanded width. FIG. 8 Ital",
+      "fontFamilies": [
+        "GT Canon",
+        "GT Canon Mono"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.6,
+        "relY": 0.521,
+        "heightVh": 1.177,
+        "widthRatio": 0.861,
+        "text": 6.091,
+        "elements": 5.793,
+        "headings": 2,
+        "fontSizes": 3,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-canon-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-canon-com/blocks/06.html"
+    },
+    {
+      "id": "gt-canon-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#panel-design > div:nth-of-type(8)",
+      "classes": [
+        "space-y-4"
+      ],
+      "box": {
+        "x": 0,
+        "y": 12404,
+        "w": 1240,
+        "h": 731
+      },
+      "headings": [
+        "Vertical/Horizontal Proportions"
+      ],
+      "parentHeadings": [
+        "Design",
+        "Vertical/Horizontal Proportions",
+        "Digital Shaping",
+        "Special Details"
+      ],
+      "textPreview": "FIG. 9 Vertical/Horizontal Proportions GT Canon’s monospaced design is based on the Text size. It embraces and emphasizes the digital structural and aesthetic decisions of its proportional sibling.",
+      "fontFamilies": [
+        "GT Canon",
+        "GT Canon Mono"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.7,
+        "relY": 0.627,
+        "heightVh": 0.595,
+        "widthRatio": 0.861,
+        "text": 5.293,
+        "elements": 4.727,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-canon-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-canon-com/blocks/07.html"
+    },
+    {
+      "id": "gt-canon-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#panel-platform",
+      "classes": [
+        "scroll-mt-4"
+      ],
+      "box": {
+        "x": 0,
+        "y": 13215,
+        "w": 1240,
+        "h": 3629
+      },
+      "headings": [
+        "Platform"
+      ],
+      "parentHeadings": null,
+      "textPreview": "L Platform M DESIGNED AS AN EXPANSIVE DESIGN TOOL in its own right, GT Canon is further extended through the design characteristics it shares with GT Standard. Technically speaking – with complementary spacing, metrics, proportional and mon",
+      "fontFamilies": [
+        "GT Canon",
+        "GT Canon Mono",
+        "GT Standard"
+      ],
+      "maxFontSizePx": 186,
+      "variationSettings": [
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 8, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 60, \"wdth\" 100, \"wght\" 300",
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 60, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 60, \"slnt\" 0, \"wdth\" 37, \"wght\" 300",
+        "\"opsz\" 60, \"wdth\" 37, \"wght\" 300",
+        "\"opsz\" 30, \"slnt\" 0, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 3,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.8,
+        "relY": 0.668,
+        "heightVh": 1.616,
+        "widthRatio": 0.861,
+        "text": 7.942,
+        "elements": 5.313,
+        "headings": 1,
+        "fontSizes": 8,
+        "maxFontVw": 0.129,
+        "singleChar": 1.792,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.386,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-canon-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-canon-com/blocks/08.html"
+    },
+    {
+      "id": "gt-canon-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#panel-specification",
+      "classes": [
+        "panel-grid",
+        "scroll-mt-4"
+      ],
+      "box": {
+        "x": 0,
+        "y": 16925,
+        "w": 1240,
+        "h": 1604
+      },
+      "headings": [
+        "Specs"
+      ],
+      "parentHeadings": null,
+      "textPreview": "L Specs M GT CANON SUPPORTS over 300 Latin-alphabet languages, covering a wide range of languages from around the world and providing a comprehensive inventory of diacritic marks, circled numerals, arrows, and handy numerical tools such as ",
+      "fontFamilies": [
+        "GT Canon",
+        "GT Canon Mono"
+      ],
+      "maxFontSizePx": 186,
+      "variationSettings": [
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 8, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 60, \"wdth\" 100, \"wght\" 300",
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 12, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.9,
+        "relY": 0.855,
+        "heightVh": 1.023,
+        "widthRatio": 0.861,
+        "text": 7.432,
+        "elements": 6.846,
+        "headings": 1,
+        "fontSizes": 8,
+        "maxFontVw": 0.129,
+        "singleChar": 4.927,
+        "varSettings": 5,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-canon-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-canon-com/blocks/09.html"
+    },
+    {
+      "id": "gt-canon-com#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#panel-colophon",
+      "classes": [
+        "panel-grid",
+        "scroll-mt-4"
+      ],
+      "box": {
+        "x": 0,
+        "y": 18608,
+        "w": 1240,
+        "h": 1066
+      },
+      "headings": [
+        "Colophon",
+        "OTHER MINISITES",
+        "CREDITS",
+        "PURCHASE LICENSE"
+      ],
+      "parentHeadings": null,
+      "textPreview": "L Colophon M EDITOR’S NOTE Alongside Grilli Type’s latest release, we have compiled a loose compendium of aesthetic terms, which pose a certain inevitability to every motivated graphic or type designer. Following the optical styles of the t",
+      "fontFamilies": [
+        "GT Canon",
+        "GT Canon Mono"
+      ],
+      "maxFontSizePx": 186,
+      "variationSettings": [
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 8, \"wdth\" 100, \"wght\" 500",
+        "\"opsz\" 60, \"wdth\" 100, \"wght\" 300",
+        "\"opsz\" 18, \"wdth\" 100, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 18,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": true,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.94,
+        "heightVh": 0.781,
+        "widthRatio": 0.861,
+        "text": 7.606,
+        "elements": 4.913,
+        "headings": 4,
+        "fontSizes": 4,
+        "maxFontVw": 0.129,
+        "singleChar": 1.099,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.944,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.135,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/gt-canon-com/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/gt-canon-com/blocks/10.html"
+    }
+  ]
+}

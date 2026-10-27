@@ -1,0 +1,925 @@
+{
+  "slug": "foodissue-commercialtype-com",
+  "url": "https://foodissue.commercialtype.com",
+  "pageHeight": 5544,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "foodissue-commercialtype-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": true,
+      "tag": "header",
+      "selector": "body > div > div > div > header",
+      "classes": [
+        "site-header"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 80
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Toggle Theme",
+      "fontFamilies": [
+        "Frame Text"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.085,
+        "widthRatio": 1,
+        "text": 2.565,
+        "elements": 2.398,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.099,
+        "img": 1.099,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": "archive/foodissue-commercialtype-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/foodissue-commercialtype-com/blocks/00.html"
+    },
+    {
+      "id": "foodissue-commercialtype-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div > div > main > div:nth-of-type(1)",
+      "classes": [
+        "nameplate"
+      ],
+      "box": {
+        "x": 0,
+        "y": 80,
+        "w": 1440,
+        "h": 90
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "Feature Text"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.111,
+        "relY": 0.014,
+        "heightVh": 0.095,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 2.708,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/foodissue-commercialtype-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/foodissue-commercialtype-com/blocks/01.html"
+    },
+    {
+      "id": "foodissue-commercialtype-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "a",
+      "selector": "body > div > div > div > div > main > div:nth-of-type(2) > a:nth-of-type(1)",
+      "classes": [
+        "card"
+      ],
+      "box": {
+        "x": 60,
+        "y": 266,
+        "w": 749,
+        "h": 416
+      },
+      "headings": [
+        "INTERVIEW",
+        "Helen Rosner on the Banal and the Beautiful"
+      ],
+      "parentHeadings": [
+        "INTERVIEW",
+        "Helen Rosner on the Banal and the Beautiful",
+        "ESSAY",
+        "Becoming a Regular"
+      ],
+      "textPreview": "INTERVIEW Helen Rosner on the Banal and the Beautiful The cliff of connoisseurship. By Navneet Alang",
+      "fontFamilies": [
+        "Feature Text",
+        "Feature Display",
+        "Feature Deck"
+      ],
+      "maxFontSizePx": 80,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.222,
+        "relY": 0.048,
+        "heightVh": 0.38,
+        "widthRatio": 0.52,
+        "text": 4.635,
+        "elements": 1.609,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.056,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/foodissue-commercialtype-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/foodissue-commercialtype-com/blocks/02.html"
+    },
+    {
+      "id": "foodissue-commercialtype-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "a",
+      "selector": "body > div > div > div > div > main > div:nth-of-type(2) > a:nth-of-type(2)",
+      "classes": [
+        "card"
+      ],
+      "box": {
+        "x": 631,
+        "y": 762,
+        "w": 749,
+        "h": 240
+      },
+      "headings": [
+        "ESSAY",
+        "Becoming a Regular"
+      ],
+      "parentHeadings": [
+        "INTERVIEW",
+        "Helen Rosner on the Banal and the Beautiful",
+        "ESSAY",
+        "Becoming a Regular"
+      ],
+      "textPreview": "ESSAY Becoming a Regular Converting emotions into geography. By Helena Fitzgerald",
+      "fontFamilies": [
+        "Feature Text",
+        "Feature Display",
+        "Feature Deck"
+      ],
+      "maxFontSizePx": 80,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.137,
+        "heightVh": 0.236,
+        "widthRatio": 0.52,
+        "text": 4.431,
+        "elements": 1.609,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.056,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/foodissue-commercialtype-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/foodissue-commercialtype-com/blocks/03.html"
+    },
+    {
+      "id": "foodissue-commercialtype-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "a",
+      "selector": "body > div > div > div > div > main > div:nth-of-type(2) > a:nth-of-type(3)",
+      "classes": [
+        "card"
+      ],
+      "box": {
+        "x": 60,
+        "y": 1082,
+        "w": 749,
+        "h": 328
+      },
+      "headings": [
+        "FICTION",
+        "Harriet Amber in the Conan Arcade"
+      ],
+      "parentHeadings": [
+        "INTERVIEW",
+        "Helen Rosner on the Banal and the Beautiful",
+        "ESSAY",
+        "Becoming a Regular"
+      ],
+      "textPreview": "FICTION Harriet Amber in the Conan Arcade It was ending, all of it. By Robin Sloan",
+      "fontFamilies": [
+        "Feature Text",
+        "Feature Display",
+        "Feature Deck"
+      ],
+      "maxFontSizePx": 80,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.444,
+        "relY": 0.195,
+        "heightVh": 0.311,
+        "widthRatio": 0.52,
+        "text": 4.443,
+        "elements": 1.609,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.056,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/foodissue-commercialtype-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/foodissue-commercialtype-com/blocks/04.html"
+    },
+    {
+      "id": "foodissue-commercialtype-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "a",
+      "selector": "body > div > div > div > div > main > div:nth-of-type(2) > a:nth-of-type(4)",
+      "classes": [
+        "card"
+      ],
+      "box": {
+        "x": 631,
+        "y": 1491,
+        "w": 749,
+        "h": 416
+      },
+      "headings": [
+        "COOKING",
+        "This Is Love: A Riff on the Jamaican Patty"
+      ],
+      "parentHeadings": [
+        "INTERVIEW",
+        "Helen Rosner on the Banal and the Beautiful",
+        "ESSAY",
+        "Becoming a Regular"
+      ],
+      "textPreview": "COOKING This Is Love: A Riff on the Jamaican Patty Then the internet changed everything. By Diane Chang",
+      "fontFamilies": [
+        "Feature Text",
+        "Feature Display",
+        "Feature Deck"
+      ],
+      "maxFontSizePx": 80,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.556,
+        "relY": 0.269,
+        "heightVh": 0.38,
+        "widthRatio": 0.52,
+        "text": 4.663,
+        "elements": 1.609,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.056,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/foodissue-commercialtype-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/foodissue-commercialtype-com/blocks/05.html"
+    },
+    {
+      "id": "foodissue-commercialtype-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "a",
+      "selector": "body > div > div > div > div > main > div:nth-of-type(2) > a:nth-of-type(5)",
+      "classes": [
+        "card"
+      ],
+      "box": {
+        "x": 60,
+        "y": 1987,
+        "w": 749,
+        "h": 328
+      },
+      "headings": [
+        "NEWS",
+        "Food as Resistance at La Morada"
+      ],
+      "parentHeadings": [
+        "INTERVIEW",
+        "Helen Rosner on the Banal and the Beautiful",
+        "ESSAY",
+        "Becoming a Regular"
+      ],
+      "textPreview": "NEWS Food as Resistance at La Morada Community care in the Bronx. By Daniel Pravit Fethke",
+      "fontFamilies": [
+        "Feature Text",
+        "Feature Display",
+        "Feature Deck"
+      ],
+      "maxFontSizePx": 80,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.358,
+        "heightVh": 0.311,
+        "widthRatio": 0.52,
+        "text": 4.522,
+        "elements": 1.609,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.056,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/foodissue-commercialtype-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/foodissue-commercialtype-com/blocks/06.html"
+    },
+    {
+      "id": "foodissue-commercialtype-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "a",
+      "selector": "body > div > div > div > div > main > div:nth-of-type(2) > a:nth-of-type(6)",
+      "classes": [
+        "card"
+      ],
+      "box": {
+        "x": 631,
+        "y": 2395,
+        "w": 749,
+        "h": 366
+      },
+      "headings": [
+        "EATING",
+        "A Beginner’s Guide to Kuih"
+      ],
+      "parentHeadings": [
+        "INTERVIEW",
+        "Helen Rosner on the Banal and the Beautiful",
+        "ESSAY",
+        "Becoming a Regular"
+      ],
+      "textPreview": "EATING A Beginner’s Guide to Kuih Savory and sweet on Eldridge Street. By Christian Schwartz, with Veronica Gan and Barnny Lim",
+      "fontFamilies": [
+        "Feature Text",
+        "Feature Display",
+        "Feature Deck"
+      ],
+      "maxFontSizePx": 80,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.778,
+        "relY": 0.432,
+        "heightVh": 0.341,
+        "widthRatio": 0.52,
+        "text": 4.86,
+        "elements": 1.609,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.056,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/foodissue-commercialtype-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/foodissue-commercialtype-com/blocks/07.html"
+    },
+    {
+      "id": "foodissue-commercialtype-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div > div > main > div:nth-of-type(3) > div:nth-of-type(2)",
+      "classes": [
+        "editors-note"
+      ],
+      "box": {
+        "x": 60,
+        "y": 2911,
+        "w": 635,
+        "h": 2601
+      },
+      "headings": [
+        "Notes"
+      ],
+      "parentHeadings": [
+        "From the Editor",
+        "Notes",
+        "About",
+        "Illustrations"
+      ],
+      "textPreview": "This is a type specimen. Sort of. Unless you’re a type designer, you likely felt flummoxed the first time you cast your eyes on a conventional type specimen. Your brain probably tried to cull meaning from seemingly endless strings of glyphs",
+      "fontFamilies": [
+        "Feature Text"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.889,
+        "relY": 0.525,
+        "heightVh": 1.358,
+        "widthRatio": 0.441,
+        "text": 8.796,
+        "elements": 4.078,
+        "headings": 1,
+        "fontSizes": 1,
+        "maxFontVw": 0.013,
+        "singleChar": 1.609,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.639,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/foodissue-commercialtype-com/blocks/08.jpg",
+      "cropTruncated": true,
+      "html": "archive/foodissue-commercialtype-com/blocks/08.html"
+    },
+    {
+      "id": "foodissue-commercialtype-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div > div > div > main > div:nth-of-type(3) > div:nth-of-type(3)",
+      "classes": [
+        "credits"
+      ],
+      "box": {
+        "x": 745,
+        "y": 2911,
+        "w": 635,
+        "h": 2601
+      },
+      "headings": [
+        "Illustrations",
+        "Writing",
+        "Thanks to",
+        "Typefaces used on this page:"
+      ],
+      "parentHeadings": [
+        "From the Editor",
+        "Notes",
+        "About",
+        "Illustrations"
+      ],
+      "textPreview": "Art direction and design by Nikhil Misra Development by Daniel Gamage Edited by Caren Litherland Illustrations Derrick Schultz Di-Andre Caprice Davis Writing Navneet Alang Diane Chang Daniel Pravit Fethke Helena Fitzgerald Christian Schwart",
+      "fontFamilies": [
+        "Feature Text"
+      ],
+      "maxFontSizePx": 18,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 4,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.525,
+        "heightVh": 1.358,
+        "widthRatio": 0.441,
+        "text": 6.265,
+        "elements": 4.263,
+        "headings": 4,
+        "fontSizes": 1,
+        "maxFontVw": 0.013,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.609,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.996,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/foodissue-commercialtype-com/blocks/09.jpg",
+      "cropTruncated": true,
+      "html": "archive/foodissue-commercialtype-com/blocks/09.html"
+    }
+  ]
+}

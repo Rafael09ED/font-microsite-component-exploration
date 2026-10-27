@@ -1,0 +1,1541 @@
+{
+  "slug": "almnt-github-io-crimsonpro-microsite",
+  "url": "https://almnt.github.io/crimsonpro-microsite/",
+  "pageHeight": 17245,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "almnt-github-io-crimsonpro-microsite#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div:nth-of-type(1)",
+      "classes": [
+        "container"
+      ],
+      "box": {
+        "x": 120,
+        "y": 0,
+        "w": 1200,
+        "h": 916
+      },
+      "headings": [
+        "Crimson Pro",
+        "is a variable font",
+        "Additional Credits"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Crimson Pro is a variable font for book and digital production in the tradition of beautiful oldstyle typefaces. Contemporary and classic, Crimson Pro comes in eight pre-defined weights from Extra light to Black, in Roman and Italic. Additi",
+      "fontFamilies": [
+        "Crimson Pro Roman"
+      ],
+      "maxFontSizePx": 40,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"wght\" 700"
+      ],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 38, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.702,
+        "widthRatio": 0.833,
+        "text": 5.872,
+        "elements": 3.091,
+        "headings": 3,
+        "fontSizes": 4,
+        "maxFontVw": 0.028,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0.693,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.019
+      },
+      "crop": "archive/almnt-github-io-crimsonpro-microsite/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/almnt-github-io-crimsonpro-microsite/blocks/00.html"
+    },
+    {
+      "id": "almnt-github-io-crimsonpro-microsite#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div:nth-of-type(2)",
+      "classes": [
+        "container--flex"
+      ],
+      "box": {
+        "x": 120,
+        "y": 916,
+        "w": 1200,
+        "h": 1018
+      },
+      "headings": [
+        "The Benefits of Crimson Pro & Variable Fonts"
+      ],
+      "parentHeadings": null,
+      "textPreview": "The Benefits of Crimson Pro & Variable Fonts",
+      "fontFamilies": [
+        "Crimson Pro Roman",
+        "Crimson Pro Italic"
+      ],
+      "maxFontSizePx": 40,
+      "variationSettings": [
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 38, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.063,
+        "relY": 0.053,
+        "heightVh": 0.757,
+        "widthRatio": 0.833,
+        "text": 3.807,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.028,
+        "singleChar": 0.693,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.019
+      },
+      "crop": "archive/almnt-github-io-crimsonpro-microsite/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/almnt-github-io-crimsonpro-microsite/blocks/01.html"
+    },
+    {
+      "id": "almnt-github-io-crimsonpro-microsite#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div:nth-of-type(3)",
+      "classes": [
+        "container--flex"
+      ],
+      "box": {
+        "x": 120,
+        "y": 1934,
+        "w": 1200,
+        "h": 1018
+      },
+      "headings": [
+        "Benefits of Variable Fonts",
+        "Variable fonts are the latest in the evolution of fonts.",
+        "What does this mean?"
+      ],
+      "parentHeadings": null,
+      "textPreview": "1 Benefits of Variable Fonts :c) wght wdth slnt ital opsz Variable fonts are the latest in the evolution of fonts. While Crimson Pro only has a variable Weight (wght) axis currently, a variable font can have other axes like, Width (wdth), S",
+      "fontFamilies": [
+        "Crimson Pro Roman",
+        "Crimson Pro Italic",
+        "Roboto Extremo"
+      ],
+      "maxFontSizePx": 240,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"wght\" 300",
+        "\"wght\" 900",
+        "\"wght\" 100"
+      ],
+      "controls": {
+        "range": 6,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 5,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 38, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.125,
+        "relY": 0.112,
+        "heightVh": 0.757,
+        "widthRatio": 0.833,
+        "text": 6.201,
+        "elements": 3.807,
+        "headings": 3,
+        "fontSizes": 6,
+        "maxFontVw": 0.167,
+        "singleChar": 2.079,
+        "varSettings": 4,
+        "range": 1.946,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.792,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.019
+      },
+      "crop": "archive/almnt-github-io-crimsonpro-microsite/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/almnt-github-io-crimsonpro-microsite/blocks/02.html"
+    },
+    {
+      "id": "almnt-github-io-crimsonpro-microsite#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div:nth-of-type(4)",
+      "classes": [
+        "container--flex"
+      ],
+      "box": {
+        "x": 120,
+        "y": 2952,
+        "w": 1200,
+        "h": 1018
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "3",
+      "fontFamilies": [
+        "Crimson Pro Roman"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 38, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.188,
+        "relY": 0.171,
+        "heightVh": 0.757,
+        "widthRatio": 0.833,
+        "text": 0.693,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.011,
+        "singleChar": 0.693,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.019
+      },
+      "crop": "archive/almnt-github-io-crimsonpro-microsite/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/almnt-github-io-crimsonpro-microsite/blocks/03.html"
+    },
+    {
+      "id": "almnt-github-io-crimsonpro-microsite#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div:nth-of-type(5)",
+      "classes": [
+        "container--flex"
+      ],
+      "box": {
+        "x": 120,
+        "y": 3970,
+        "w": 1200,
+        "h": 1018
+      },
+      "headings": [
+        "Easy on the eyes"
+      ],
+      "parentHeadings": null,
+      "textPreview": "5 Hi, Size XS S M L XL Easy on the eyes Crimson Pro’s cap height gives it better proportions and less visual noise, making it easier to read. design Weight Axis White Rabbit with pink eyes White Rabbit with pink eyes White Rabbit with pink ",
+      "fontFamilies": [
+        "Crimson Pro Roman",
+        "Crimson Pro Italic"
+      ],
+      "maxFontSizePx": 240,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"wght\" 700",
+        "\"wght\" 300",
+        "\"wght\" 100"
+      ],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 5,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 38, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.25,
+        "relY": 0.23,
+        "heightVh": 0.757,
+        "widthRatio": 0.833,
+        "text": 6.213,
+        "elements": 3.434,
+        "headings": 1,
+        "fontSizes": 13,
+        "maxFontVw": 0.167,
+        "singleChar": 1.946,
+        "varSettings": 4,
+        "range": 0.693,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 1.792,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.019
+      },
+      "crop": "archive/almnt-github-io-crimsonpro-microsite/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/almnt-github-io-crimsonpro-microsite/blocks/04.html"
+    },
+    {
+      "id": "almnt-github-io-crimsonpro-microsite#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div:nth-of-type(6)",
+      "classes": [
+        "container--flex"
+      ],
+      "box": {
+        "x": 120,
+        "y": 4988,
+        "w": 1200,
+        "h": 1018
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "7 P With large counters and apertures, readers can easily recognize different characters at smaller sizes. design WGHT 900 a 700 B Đ P 600 ć h 4 O 500 R Q D A 400 P K 8 đ ơ 300 7 # b 6 Ă 0 S 200 m a u e 9 f d",
+      "fontFamilies": [
+        "Crimson Pro Roman"
+      ],
+      "maxFontSizePx": 1000,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"wght\" 900",
+        "\"wght\" 700",
+        "\"wght\" 600",
+        "\"wght\" 500",
+        "\"wght\" 300",
+        "\"wght\" 200"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 4,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 38, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.313,
+        "relY": 0.289,
+        "heightVh": 0.757,
+        "widthRatio": 0.833,
+        "text": 5.352,
+        "elements": 4.234,
+        "headings": 0,
+        "fontSizes": 11,
+        "maxFontVw": 0.694,
+        "singleChar": 3.526,
+        "varSettings": 7,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.609,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.019
+      },
+      "crop": "archive/almnt-github-io-crimsonpro-microsite/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/almnt-github-io-crimsonpro-microsite/blocks/05.html"
+    },
+    {
+      "id": "almnt-github-io-crimsonpro-microsite#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div:nth-of-type(7)",
+      "classes": [
+        "container--flex"
+      ],
+      "box": {
+        "x": 120,
+        "y": 6006,
+        "w": 1200,
+        "h": 1018
+      },
+      "headings": [
+        "Weight axis"
+      ],
+      "parentHeadings": null,
+      "textPreview": "9 Drink me Roman Italic Size XS S M L XL Weight 100 design a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a Weight axis With unlimited options along this axis, designers can twe",
+      "fontFamilies": [
+        "Crimson Pro Roman",
+        "Crimson Pro Italic"
+      ],
+      "maxFontSizePx": 130,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"wght\" 900",
+        "\"wght\" 500",
+        "\"wght\" 100",
+        "\"wght\" 200",
+        "\"wght\" 300",
+        "\"wght\" 600",
+        "\"wght\" 700"
+      ],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 15,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 38, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.375,
+        "relY": 0.348,
+        "heightVh": 0.757,
+        "widthRatio": 0.833,
+        "text": 5.979,
+        "elements": 4.644,
+        "headings": 1,
+        "fontSizes": 6,
+        "maxFontVw": 0.09,
+        "singleChar": 4.143,
+        "varSettings": 8,
+        "range": 0.693,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 2.773,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.019
+      },
+      "crop": "archive/almnt-github-io-crimsonpro-microsite/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/almnt-github-io-crimsonpro-microsite/blocks/06.html"
+    },
+    {
+      "id": "almnt-github-io-crimsonpro-microsite#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div:nth-of-type(8)",
+      "classes": [
+        "container--flex"
+      ],
+      "box": {
+        "x": 120,
+        "y": 7024,
+        "w": 1200,
+        "h": 1018
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "11 Regular Italic A B C D E F G H I J K L M N O P Q R S T U V W X Y Z design EAT ME ₤ & $ € # + ÷ × = * ? % ! < []",
+      "fontFamilies": [
+        "Crimson Pro Roman"
+      ],
+      "maxFontSizePx": 113,
+      "variationSettings": [
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 38, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.438,
+        "relY": 0.407,
+        "heightVh": 0.757,
+        "widthRatio": 0.833,
+        "text": 4.745,
+        "elements": 3.951,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.078,
+        "singleChar": 3.761,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.099,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.019
+      },
+      "crop": "archive/almnt-github-io-crimsonpro-microsite/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/almnt-github-io-crimsonpro-microsite/blocks/07.html"
+    },
+    {
+      "id": "almnt-github-io-crimsonpro-microsite#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div:nth-of-type(9)",
+      "classes": [
+        "container--flex"
+      ],
+      "box": {
+        "x": 120,
+        "y": 8042,
+        "w": 1200,
+        "h": 1018
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "13 Regular Italic a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9 design “So she set to work, and very soon finished off the cake”",
+      "fontFamilies": [
+        "Crimson Pro Roman"
+      ],
+      "maxFontSizePx": 92,
+      "variationSettings": [
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 38, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.466,
+        "heightVh": 0.757,
+        "widthRatio": 0.833,
+        "text": 5.043,
+        "elements": 3.85,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.064,
+        "singleChar": 3.638,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.099,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.019
+      },
+      "crop": "archive/almnt-github-io-crimsonpro-microsite/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/almnt-github-io-crimsonpro-microsite/blocks/08.html"
+    },
+    {
+      "id": "almnt-github-io-crimsonpro-microsite#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div:nth-of-type(10)",
+      "classes": [
+        "container--flex"
+      ],
+      "box": {
+        "x": 120,
+        "y": 9060,
+        "w": 1200,
+        "h": 1018
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "15",
+      "fontFamilies": [
+        "Crimson Pro Roman"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 38, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.563,
+        "relY": 0.525,
+        "heightVh": 0.757,
+        "widthRatio": 0.833,
+        "text": 1.099,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.011,
+        "singleChar": 0.693,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.019
+      },
+      "crop": "archive/almnt-github-io-crimsonpro-microsite/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/almnt-github-io-crimsonpro-microsite/blocks/09.html"
+    },
+    {
+      "id": "almnt-github-io-crimsonpro-microsite#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div:nth-of-type(11)",
+      "classes": [
+        "container--flex"
+      ],
+      "box": {
+        "x": 120,
+        "y": 10078,
+        "w": 1200,
+        "h": 1018
+      },
+      "headings": [
+        "Looking to use Crimson Pro in your language?",
+        "Alice’s Adventures in Wonderland",
+        "Chapter II"
+      ],
+      "parentHeadings": null,
+      "textPreview": "17 Looking to use Crimson Pro in your language? AFRIKAANS ALBANIAN CATALAN CROATIAN CZECH DANISH DUTCH ENGLISH ESTONIAN FINNISH FRENCH GERMAN HUNGARIAN ICELANDIC ITALIAN LATVIAN LITHUANIAN MALTESE NORWEGIAN POLISH PORTUGUESE ROMANIAN SLOVAK",
+      "fontFamilies": [
+        "Crimson Pro Roman",
+        "Crimson Pro Italic"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"wght\" 300",
+        "\"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 1,
+        "buttons": 28,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 38, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.625,
+        "relY": 0.584,
+        "heightVh": 0.757,
+        "widthRatio": 0.833,
+        "text": 7.238,
+        "elements": 4.277,
+        "headings": 3,
+        "fontSizes": 6,
+        "maxFontVw": 0.033,
+        "singleChar": 0.693,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0.693,
+        "buttons": 3.367,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.019
+      },
+      "crop": "archive/almnt-github-io-crimsonpro-microsite/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/almnt-github-io-crimsonpro-microsite/blocks/10.html"
+    },
+    {
+      "id": "almnt-github-io-crimsonpro-microsite#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div:nth-of-type(12)",
+      "classes": [
+        "container"
+      ],
+      "box": {
+        "x": 120,
+        "y": 11096,
+        "w": 1200,
+        "h": 916
+      },
+      "headings": [
+        "write (ˈrīt)"
+      ],
+      "parentHeadings": null,
+      "textPreview": "write (ˈrīt) verb to form (characters, symbols, etc.) on a surface with an instrument (such as a pen). to set down in writing. to make a permanent impression of. to communicate with in writing.",
+      "fontFamilies": [
+        "Crimson Pro Roman",
+        "Crimson Pro Italic"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 38, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.688,
+        "relY": 0.643,
+        "heightVh": 0.702,
+        "widthRatio": 0.833,
+        "text": 5.268,
+        "elements": 2.398,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.033,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.019
+      },
+      "crop": "archive/almnt-github-io-crimsonpro-microsite/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/almnt-github-io-crimsonpro-microsite/blocks/11.html"
+    },
+    {
+      "id": "almnt-github-io-crimsonpro-microsite#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div:nth-of-type(13)",
+      "classes": [
+        "container"
+      ],
+      "box": {
+        "x": 120,
+        "y": 12012,
+        "w": 1200,
+        "h": 1069
+      },
+      "headings": [
+        "THE CRIMSON PRO DAILY"
+      ],
+      "parentHeadings": null,
+      "textPreview": "THE CRIMSON PRO DAILY NO.53210 THURSDAY, JANUARY 18, 2020 $3.00 Genius, Genocide Denier Or Both By ALEX MARSHALL and CHRISTOPHER F. SCHUETZE Peter Handke, the Austrian author who was awarded this year’s Nobel Prize in Literature, has been a",
+      "fontFamilies": [
+        "Crimson Pro Roman",
+        "Crimson Pro Italic"
+      ],
+      "maxFontSizePx": 60,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"wght\" 900",
+        "\"wght\" 600",
+        "\"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 38, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": true
+      },
+      "vector": {
+        "order": 0.75,
+        "relY": 0.697,
+        "heightVh": 0.783,
+        "widthRatio": 0.833,
+        "text": 5.894,
+        "elements": 3.178,
+        "headings": 1,
+        "fontSizes": 6,
+        "maxFontVw": 0.042,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.019
+      },
+      "crop": "archive/almnt-github-io-crimsonpro-microsite/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/almnt-github-io-crimsonpro-microsite/blocks/12.html"
+    },
+    {
+      "id": "almnt-github-io-crimsonpro-microsite#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div:nth-of-type(14)",
+      "classes": [
+        "container"
+      ],
+      "box": {
+        "x": 120,
+        "y": 13081,
+        "w": 1200,
+        "h": 916
+      },
+      "headings": [
+        "Write a book",
+        "Book Title",
+        "Overview",
+        "Characters"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Write a book About a dog and her ball, who get stuck in a mystical vortex full of daemons and panthers. Give Me a New Prompt Book Title Overview This is a book about a dog and her ball, who get stuck in a mystical vortex full of daemons and",
+      "fontFamilies": [
+        "Crimson Pro Roman"
+      ],
+      "maxFontSizePx": 23,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 38, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.813,
+        "relY": 0.759,
+        "heightVh": 0.702,
+        "widthRatio": 0.833,
+        "text": 6.685,
+        "elements": 3.178,
+        "headings": 4,
+        "fontSizes": 2,
+        "maxFontVw": 0.016,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.019
+      },
+      "crop": "archive/almnt-github-io-crimsonpro-microsite/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/almnt-github-io-crimsonpro-microsite/blocks/13.html"
+    },
+    {
+      "id": "almnt-github-io-crimsonpro-microsite#14",
+      "nn": "14",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div:nth-of-type(15)",
+      "classes": [
+        "container"
+      ],
+      "box": {
+        "x": 120,
+        "y": 13997,
+        "w": 1200,
+        "h": 1162
+      },
+      "headings": [
+        "Typography example!"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Typography example! TK",
+      "fontFamilies": [
+        "Crimson Pro Roman"
+      ],
+      "maxFontSizePx": 40,
+      "variationSettings": [
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 38, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.875,
+        "relY": 0.812,
+        "heightVh": 0.829,
+        "widthRatio": 0.833,
+        "text": 3.178,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.028,
+        "singleChar": 0.693,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.019
+      },
+      "crop": "archive/almnt-github-io-crimsonpro-microsite/blocks/14.jpg",
+      "cropTruncated": false,
+      "html": "archive/almnt-github-io-crimsonpro-microsite/blocks/14.html"
+    },
+    {
+      "id": "almnt-github-io-crimsonpro-microsite#15",
+      "nn": "15",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div:nth-of-type(16)",
+      "classes": [
+        "container--flex"
+      ],
+      "box": {
+        "x": 120,
+        "y": 15159,
+        "w": 1200,
+        "h": 1018
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "31",
+      "fontFamilies": [
+        "Crimson Pro Roman"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 38, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.938,
+        "relY": 0.879,
+        "heightVh": 0.757,
+        "widthRatio": 0.833,
+        "text": 1.099,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.011,
+        "singleChar": 0.693,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.019
+      },
+      "crop": "archive/almnt-github-io-crimsonpro-microsite/blocks/15.jpg",
+      "cropTruncated": false,
+      "html": "archive/almnt-github-io-crimsonpro-microsite/blocks/15.html"
+    },
+    {
+      "id": "almnt-github-io-crimsonpro-microsite#16",
+      "nn": "16",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div > div:nth-of-type(17)",
+      "classes": [
+        "container--flex"
+      ],
+      "box": {
+        "x": 120,
+        "y": 16177,
+        "w": 1200,
+        "h": 1018
+      },
+      "headings": [
+        "Jacques Le Bailley",
+        "Sebastian Kosch"
+      ],
+      "parentHeadings": null,
+      "textPreview": "33 shapes go here Jacques Le Bailley Jacques is a senior type designer, living in The Hague. He started his own foundry Baron von Fonthausen in 2009, and has been dedicated to type design ever since. After graduating from the KABK and an ap",
+      "fontFamilies": [
+        "Crimson Pro Roman"
+      ],
+      "maxFontSizePx": 25,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(38, 38, 38)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.938,
+        "heightVh": 0.757,
+        "widthRatio": 0.833,
+        "text": 6.998,
+        "elements": 2.398,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.017,
+        "singleChar": 0.693,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.019
+      },
+      "crop": "archive/almnt-github-io-crimsonpro-microsite/blocks/16.jpg",
+      "cropTruncated": false,
+      "html": "archive/almnt-github-io-crimsonpro-microsite/blocks/16.html"
+    }
+  ]
+}

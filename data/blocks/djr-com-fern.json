@@ -1,0 +1,1342 @@
+{
+  "slug": "djr-com-fern",
+  "url": "https://djr.com/fern",
+  "pageHeight": 13412,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "djr-com-fern#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "header",
+      "selector": "#content > section:nth-of-type(1) > header",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 31,
+        "w": 1440,
+        "h": 729
+      },
+      "headings": [
+        "FERN"
+      ],
+      "parentHeadings": [
+        "FERN",
+        "A SPECIMENS D",
+        "A ORNAMENTS D",
+        "A OPENTYPE FEATURES D"
+      ],
+      "textPreview": "W ITRP IGQTREFP FERN A Venetian oldstyle for screens & other things by David Jonathan Ross ITZGFCRP IGFP X BUY ❖ TRIAL ❖ PDF",
+      "fontFamilies": [
+        "FernVariable-Roman-VF",
+        "FernOrnaments-Regular",
+        "FernTitlingCaps-Regular",
+        "FernVariable-Italic-VF",
+        "InputSansNarrow"
+      ],
+      "maxFontSizePx": 64,
+      "variationSettings": [
+        "\"opsz\" 12, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.002,
+        "heightVh": 0.593,
+        "widthRatio": 1,
+        "text": 4.844,
+        "elements": 3.219,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.044,
+        "singleChar": 1.609,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-fern/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-fern/blocks/00.html"
+    },
+    {
+      "id": "djr-com-fern#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#content > section:nth-of-type(1) > div:nth-of-type(1)",
+      "classes": [
+        "page"
+      ],
+      "box": {
+        "x": 0,
+        "y": 776,
+        "w": 1440,
+        "h": 666
+      },
+      "headings": [],
+      "parentHeadings": [
+        "FERN",
+        "A SPECIMENS D",
+        "A ORNAMENTS D",
+        "A OPENTYPE FEATURES D"
+      ],
+      "textPreview": "From the Renaissance faces of Nicolas Jenson to the great twentieth century revivals like Centaur and Dante, the Venetian Oldstyle represents the typographic Roman letter’s first big break from the calligraphic tradition of the Carolingian ",
+      "fontFamilies": [
+        "FernVariable-Roman-VF"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [
+        "\"opsz\" 12, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.077,
+        "relY": 0.058,
+        "heightVh": 0.554,
+        "widthRatio": 1,
+        "text": 6.939,
+        "elements": 2.485,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.017,
+        "singleChar": 1.609,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-fern/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-fern/blocks/01.html"
+    },
+    {
+      "id": "djr-com-fern#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#specimens",
+      "classes": [
+        "bg-texture-red"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1442,
+        "w": 1440,
+        "h": 315
+      },
+      "headings": [
+        "A SPECIMENS D"
+      ],
+      "parentHeadings": [
+        "FERN",
+        "A SPECIMENS D",
+        "A ORNAMENTS D",
+        "A OPENTYPE FEATURES D"
+      ],
+      "textPreview": "A SPECIMENS D",
+      "fontFamilies": [
+        "FernTitlingCaps-Regular",
+        "FernOrnaments-Regular"
+      ],
+      "maxFontSizePx": 44,
+      "variationSettings": [
+        "\"opsz\" 12, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(161, 35, 20)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.154,
+        "relY": 0.108,
+        "heightVh": 0.3,
+        "widthRatio": 1,
+        "text": 2.639,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 1,
+        "maxFontVw": 0.031,
+        "singleChar": 1.099,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.088,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-fern/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-fern/blocks/02.html"
+    },
+    {
+      "id": "djr-com-fern#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#content > section:nth-of-type(1) > div:nth-of-type(4)",
+      "classes": [
+        "page",
+        "specimen-text-micro"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1886,
+        "w": 1440,
+        "h": 1275
+      },
+      "headings": [],
+      "parentHeadings": [
+        "FERN",
+        "A SPECIMENS D",
+        "A ORNAMENTS D",
+        "A OPENTYPE FEATURES D"
+      ],
+      "textPreview": "CALL ME ISHMAEL. Some years ago — nevermind how long precisely — having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way ",
+      "fontFamilies": [
+        "FernVariable-Roman-VF",
+        "FernVariable-Italic-VF"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [
+        "\"opsz\" 12, \"wght\" 400",
+        "\"opsz\" 10, \"wght\" 400",
+        "\"opsz\" 8, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.231,
+        "relY": 0.141,
+        "heightVh": 0.882,
+        "widthRatio": 1,
+        "text": 7.952,
+        "elements": 3.091,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-fern/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-fern/blocks/03.html"
+    },
+    {
+      "id": "djr-com-fern#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#content > section:nth-of-type(1) > div:nth-of-type(5)",
+      "classes": [
+        "page",
+        "specimen-text-micro"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3161,
+        "w": 1440,
+        "h": 399
+      },
+      "headings": [],
+      "parentHeadings": [
+        "FERN",
+        "A SPECIMENS D",
+        "A ORNAMENTS D",
+        "A OPENTYPE FEATURES D"
+      ],
+      "textPreview": "No, when i go to sea, I go as a simple sailor, right before the mast, plumb down into the forecastle, aloft there to the royal mast-head. True, they rather order me about some, and make me jump from spar to spar, like a grasshopper in a May",
+      "fontFamilies": [
+        "FernVariable-Roman-VF"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [
+        "\"opsz\" 12, \"wght\" 400",
+        "\"opsz\" 12, \"wght\" 700",
+        "\"opsz\" 10, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.308,
+        "relY": 0.236,
+        "heightVh": 0.367,
+        "widthRatio": 1,
+        "text": 5.677,
+        "elements": 1.946,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-fern/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-fern/blocks/04.html"
+    },
+    {
+      "id": "djr-com-fern#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#content > section:nth-of-type(1) > div:nth-of-type(6)",
+      "classes": [
+        "page",
+        "specimen-text-micro"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3561,
+        "w": 1440,
+        "h": 671
+      },
+      "headings": [],
+      "parentHeadings": [
+        "FERN",
+        "A SPECIMENS D",
+        "A ORNAMENTS D",
+        "A OPENTYPE FEATURES D"
+      ],
+      "textPreview": "Though I cannot tell why it was exactly that those stage managers, the Fates, put me down for this shabby part of a whaling voyage, when others were set down for magnificent parts in high tragedies, and short and easy parts in genteel comed",
+      "fontFamilies": [
+        "FernVariable-Roman-VF"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"opsz\" 12, \"wght\" 400",
+        "\"opsz\" 8, \"wght\" 600",
+        "\"opsz\" 10, \"wght\" 400",
+        "\"opsz\" 8, \"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.385,
+        "relY": 0.266,
+        "heightVh": 0.557,
+        "widthRatio": 1,
+        "text": 7.414,
+        "elements": 2.565,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-fern/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-fern/blocks/05.html"
+    },
+    {
+      "id": "djr-com-fern#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#ornaments",
+      "classes": [
+        "bg-texture-red"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4360,
+        "w": 1440,
+        "h": 315
+      },
+      "headings": [
+        "A ORNAMENTS D"
+      ],
+      "parentHeadings": [
+        "FERN",
+        "A SPECIMENS D",
+        "A ORNAMENTS D",
+        "A OPENTYPE FEATURES D"
+      ],
+      "textPreview": "A ORNAMENTS D",
+      "fontFamilies": [
+        "FernTitlingCaps-Regular",
+        "FernOrnaments-Regular"
+      ],
+      "maxFontSizePx": 44,
+      "variationSettings": [
+        "\"opsz\" 12, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(161, 35, 20)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.462,
+        "relY": 0.325,
+        "heightVh": 0.3,
+        "widthRatio": 1,
+        "text": 2.639,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 1,
+        "maxFontVw": 0.031,
+        "singleChar": 1.099,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.088,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-fern/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-fern/blocks/06.html"
+    },
+    {
+      "id": "djr-com-fern#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#content > section:nth-of-type(1) > div:nth-of-type(9)",
+      "classes": [
+        "page",
+        "fern-ornaments"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4675,
+        "w": 1440,
+        "h": 1361
+      },
+      "headings": [],
+      "parentHeadings": [
+        "FERN",
+        "A SPECIMENS D",
+        "A ORNAMENTS D",
+        "A OPENTYPE FEATURES D"
+      ],
+      "textPreview": "Q W E A D Z X C R T F G V B Y U H J I O P L q w e a d z x c r t f g y u h j * Delete Return Space qadadadadade wYuYuYuYuYux xhJhJhJhJhJw wYuYuYuYuYux xhJhJhJhJhJw wYuYuYuYuYux xhJhJhJhJhJw wYuYuYuYuYux xhJhJhJhJhJw wYuYuYuYuYux xhJhJhJhJhJw",
+      "fontFamilies": [
+        "FernVariable-Roman-VF",
+        "FernOrnaments-Regular",
+        "InputSansNarrow",
+        "InputMono-Regular",
+        "InputMono-Bold"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [
+        "\"opsz\" 12, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 1,
+        "contenteditable": 0,
+        "checkbox": 4,
+        "select": 0,
+        "buttons": 55,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.538,
+        "relY": 0.349,
+        "heightVh": 0.921,
+        "widthRatio": 1,
+        "text": 5.956,
+        "elements": 4.949,
+        "headings": 0,
+        "fontSizes": 5,
+        "maxFontVw": 0.017,
+        "singleChar": 4.025,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 1.609,
+        "buttons": 4.025,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-fern/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-fern/blocks/07.html"
+    },
+    {
+      "id": "djr-com-fern#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#opentype-features",
+      "classes": [
+        "opentype-features"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6036,
+        "w": 1440,
+        "h": 863
+      },
+      "headings": [
+        "A OPENTYPE FEATURES D",
+        "Small caps",
+        "All small caps",
+        "Lining figures"
+      ],
+      "parentHeadings": [
+        "FERN",
+        "A SPECIMENS D",
+        "A ORNAMENTS D",
+        "A OPENTYPE FEATURES D"
+      ],
+      "textPreview": "A OPENTYPE FEATURES D With halting steps I paced Small caps font-variant: small-caps; The 24 sailors for Bean & Co. All small caps font-variant-caps: all-small-caps; On October 1, 2018, Bedford Lining figures font-variant-numeric: lining-nu",
+      "fontFamilies": [
+        "FernVariable-Roman-VF",
+        "FernTitlingCaps-Regular",
+        "FernOrnaments-Regular",
+        "InputMono-Regular"
+      ],
+      "maxFontSizePx": 44,
+      "variationSettings": [
+        "\"opsz\" 12, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(17, 17, 17)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.615,
+        "relY": 0.45,
+        "heightVh": 0.672,
+        "widthRatio": 1,
+        "text": 6.522,
+        "elements": 4.094,
+        "headings": 4,
+        "fontSizes": 4,
+        "maxFontVw": 0.031,
+        "singleChar": 2.197,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.006,
+        "fgLum": 1
+      },
+      "crop": "archive/djr-com-fern/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-fern/blocks/08.html"
+    },
+    {
+      "id": "djr-com-fern#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#character-set",
+      "classes": [
+        "page",
+        "character-set"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6899,
+        "w": 1440,
+        "h": 1416
+      },
+      "headings": [
+        "A CHARACTER SET D"
+      ],
+      "parentHeadings": [
+        "FERN",
+        "A SPECIMENS D",
+        "A ORNAMENTS D",
+        "A OPENTYPE FEATURES D"
+      ],
+      "textPreview": "A CHARACTER SET D A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z A À Á Â Ã ",
+      "fontFamilies": [
+        "FernVariable-Roman-VF",
+        "FernTitlingCaps-Regular",
+        "FernOrnaments-Regular",
+        "FernVariable-Italic-VF"
+      ],
+      "maxFontSizePx": 44,
+      "variationSettings": [
+        "\"opsz\" 12, \"wght\" 400",
+        "\"opsz\" 8, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.692,
+        "relY": 0.514,
+        "heightVh": 0.945,
+        "widthRatio": 1,
+        "text": 7.663,
+        "elements": 2.996,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.031,
+        "singleChar": 1.099,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-fern/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-fern/blocks/09.html"
+    },
+    {
+      "id": "djr-com-fern#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#in-use",
+      "classes": [
+        "section",
+        "in-use",
+        "bg-texture-black"
+      ],
+      "box": {
+        "x": 0,
+        "y": 8315,
+        "w": 1440,
+        "h": 1198
+      },
+      "headings": [
+        "A FERN IN USE D"
+      ],
+      "parentHeadings": null,
+      "textPreview": "A FERN IN USE D From Fonts In Use",
+      "fontFamilies": [
+        "InputSansNarrow",
+        "FernTitlingCaps-Regular",
+        "FernOrnaments-Regular",
+        "FernVariable-Italic-VF"
+      ],
+      "maxFontSizePx": 44,
+      "variationSettings": [
+        "\"opsz\" 10, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 8,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.769,
+        "relY": 0.62,
+        "heightVh": 0.846,
+        "widthRatio": 1,
+        "text": 3.555,
+        "elements": 3.892,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.031,
+        "singleChar": 1.099,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.197,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.303,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-fern/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-fern/blocks/10.html"
+    },
+    {
+      "id": "djr-com-fern#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#buy > div:nth-of-type(1)",
+      "classes": [
+        "bg-texture-red"
+      ],
+      "box": {
+        "x": 0,
+        "y": 9513,
+        "w": 1440,
+        "h": 315
+      },
+      "headings": [
+        "A GET FERN D"
+      ],
+      "parentHeadings": [
+        "A GET FERN D",
+        "LICENSE SIZES",
+        "PREVIEW TEXT",
+        "FULL SERIES PACKAGE"
+      ],
+      "textPreview": "A GET FERN D",
+      "fontFamilies": [
+        "FernTitlingCaps-Regular",
+        "FernOrnaments-Regular"
+      ],
+      "maxFontSizePx": 44,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(161, 35, 20)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.846,
+        "relY": 0.709,
+        "heightVh": 0.3,
+        "widthRatio": 1,
+        "text": 2.565,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 1,
+        "maxFontVw": 0.031,
+        "singleChar": 1.099,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.088,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-fern/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-fern/blocks/11.html"
+    },
+    {
+      "id": "djr-com-fern#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#buy > div:nth-of-type(2)",
+      "classes": [
+        "wrapper"
+      ],
+      "box": {
+        "x": 208,
+        "y": 9861,
+        "w": 1024,
+        "h": 2895
+      },
+      "headings": [
+        "LICENSE SIZES",
+        "PREVIEW TEXT",
+        "FULL SERIES PACKAGE",
+        "OTHER PACKAGES"
+      ],
+      "parentHeadings": [
+        "A GET FERN D",
+        "LICENSE SIZES",
+        "PREVIEW TEXT",
+        "FULL SERIES PACKAGE"
+      ],
+      "textPreview": "LICENSE SIZES Mini For use not exceeding: 3 workstations for print/desktop use 15,000 monthly unique web visitors 1 app or e-book More Info Small For use not exceeding: 8 workstations for print/desktop use 100,000 monthly unique web visitor",
+      "fontFamilies": [
+        "InputSansNarrow",
+        "FernVariable-Roman-VF",
+        "FernVariable-Italic-VF",
+        "FernTitlingCaps-Regular",
+        "FernOrnaments-Regular"
+      ],
+      "maxFontSizePx": 64,
+      "variationSettings": [
+        "\"opsz\" 12, \"wght\" 600",
+        "\"opsz\" 12, \"wght\" 400",
+        "\"opsz\" 12, \"wght\" 700",
+        "\"opsz\" 8, \"wght\" 400",
+        "\"opsz\" 8, \"wght\" 700"
+      ],
+      "controls": {
+        "range": 4,
+        "text": 1,
+        "contenteditable": 0,
+        "checkbox": 13,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.923,
+        "relY": 0.735,
+        "heightVh": 1.439,
+        "widthRatio": 0.711,
+        "text": 8.615,
+        "elements": 5.844,
+        "headings": 4,
+        "fontSizes": 10,
+        "maxFontVw": 0.044,
+        "singleChar": 2.565,
+        "varSettings": 5,
+        "range": 1.609,
+        "textInput": 0.693,
+        "toggles": 2.639,
+        "buttons": 1.099,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.398,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-fern/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-fern/blocks/12.html"
+    },
+    {
+      "id": "djr-com-fern#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > footer",
+      "classes": [
+        "site-footer",
+        "h-card",
+        "text-xs",
+        "leading-6",
+        "tracking-wide",
+        "border-b-24"
+      ],
+      "box": {
+        "x": 0,
+        "y": 12772,
+        "w": 1440,
+        "h": 640
+      },
+      "headings": [
+        "DAVID JONATHAN ROSS",
+        "ELSEWHERE",
+        "FONT OF THE MONTH CLUB",
+        "TYPEFACES"
+      ],
+      "parentHeadings": null,
+      "textPreview": "DAVID JONATHAN ROSS RSS feed: Blog RSS feed: Glyph of the Day Mailing List ELSEWHERE Fonts in Use Mastodon Glyph of the Day Type Network Fontstand Adobe Fonts GitHub Calendly (Type Crit Crew) Instagram (inactive) FONT OF THE MONTH CLUB TYPE",
+      "fontFamilies": [
+        "InputSansNarrow"
+      ],
+      "maxFontSizePx": 12,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.952,
+        "heightVh": 0.537,
+        "widthRatio": 1,
+        "text": 6.446,
+        "elements": 4.771,
+        "headings": 4,
+        "fontSizes": 1,
+        "maxFontVw": 0.008,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.932,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-fern/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-fern/blocks/13.html"
+    }
+  ]
+}

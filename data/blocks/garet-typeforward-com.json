@@ -1,0 +1,1358 @@
+{
+  "slug": "garet-typeforward-com",
+  "url": "https://garet.typeforward.com/",
+  "pageHeight": 6427,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "garet-typeforward-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "header",
+      "selector": "body > header",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [
+        "Garet",
+        "Garet",
+        "Garet",
+        "Garet"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Medium 500 276 px #ff3b4e Garet Hairline 50 276 px #ff3b4e Garet Book 300 276 px #ff3b4e Garet Garet Buy Garet Get the complete font family — 23 fonts. Buy↗ Free download Two free weights Get Garet Book & Garet Heavy fonts for free.",
+      "fontFamilies": [
+        "Times New Roman",
+        "GaretVariable"
+      ],
+      "maxFontSizePx": 277,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"wght\" 500",
+        "\"wght\" 50",
+        "\"wght\" 300",
+        "\"wght\" 900",
+        "\"wght\" 700",
+        "\"wght\" 339"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 1,
+        "contenteditable": 0,
+        "checkbox": 1,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 5.46,
+        "elements": 4.111,
+        "headings": 4,
+        "fontSizes": 8,
+        "maxFontVw": 0.192,
+        "singleChar": 0.693,
+        "varSettings": 7,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0.693,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": "archive/garet-typeforward-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/garet-typeforward-com/blocks/00.html"
+    },
+    {
+      "id": "garet-typeforward-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(1)",
+      "classes": [
+        "spacing-body"
+      ],
+      "box": {
+        "x": 0,
+        "y": 900,
+        "w": 1440,
+        "h": 300
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "47,400 px2",
+      "fontFamilies": [
+        "Times New Roman",
+        "GaretVariable"
+      ],
+      "maxFontSizePx": 9,
+      "variationSettings": [
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(238, 238, 238)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.083,
+        "relY": 0.14,
+        "heightVh": 0.288,
+        "widthRatio": 1,
+        "text": 2.398,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.006,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.855,
+        "fgLum": 0
+      },
+      "crop": "archive/garet-typeforward-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/garet-typeforward-com/blocks/01.html"
+    },
+    {
+      "id": "garet-typeforward-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(1)",
+      "classes": [
+        "section-editor"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1200,
+        "w": 1440,
+        "h": 593
+      },
+      "headings": [
+        "Mess with the g",
+        "Garet has an alternative “g”. So you can mess with it.",
+        "Alter the shape by moving the control points and their handles. Select any point"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Mess with the g Garet has an alternative “g”. So you can mess with it. Alter the shape by moving the control points and their handles. Select any point to begin. Ctrl+Z Undo Ctrl+Y Redo Right Click Toggle Shape Outlines Download ↻ Rewind w/",
+      "fontFamilies": [
+        "Times New Roman",
+        "GaretVariable"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [
+        "\"wght\" 500",
+        "\"wght\" 400",
+        "\"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 8,
+        "video": 0,
+        "canvas": 1,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.167,
+        "relY": 0.187,
+        "heightVh": 0.506,
+        "widthRatio": 1,
+        "text": 5.68,
+        "elements": 4.331,
+        "headings": 3,
+        "fontSizes": 4,
+        "maxFontVw": 0.025,
+        "singleChar": 1.099,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 2.197,
+        "video": 0,
+        "canvas": 0.693,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/garet-typeforward-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/garet-typeforward-com/blocks/02.html"
+    },
+    {
+      "id": "garet-typeforward-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2)",
+      "classes": [
+        "spacing-body"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1793,
+        "w": 1440,
+        "h": 300
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "263,400 px2",
+      "fontFamilies": [
+        "Times New Roman",
+        "GaretVariable"
+      ],
+      "maxFontSizePx": 9,
+      "variationSettings": [
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(238, 238, 238)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.25,
+        "relY": 0.279,
+        "heightVh": 0.288,
+        "widthRatio": 1,
+        "text": 2.485,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.006,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.855,
+        "fgLum": 0
+      },
+      "crop": "archive/garet-typeforward-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/garet-typeforward-com/blocks/03.html"
+    },
+    {
+      "id": "garet-typeforward-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#txt-top",
+      "classes": [
+        "text-editor"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2093,
+        "w": 1440,
+        "h": 1043
+      },
+      "headings": [
+        "Experience Garet",
+        "All 22 upright and italic fonts are compactly packed in one variable font. It co",
+        "Garet has lots to offer so hover over a word and use the guide to change its sty",
+        "Discover what Garet has to offer by selecting a word to change it’s style"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Experience Garet All 22 upright and italic fonts are compactly packed in one variable font. It comes with many OpenType features for advanced typographic layout. Garet has lots to offer so hover over a word and use the guide to change its s",
+      "fontFamilies": [
+        "Times New Roman",
+        "GaretVariable"
+      ],
+      "maxFontSizePx": 58,
+      "variationSettings": [
+        "\"wght\" 500",
+        "\"wght\" 400",
+        "\"wght\" 700",
+        "\"wght\" 339",
+        "\"wght\" 200"
+      ],
+      "controls": {
+        "range": 3,
+        "text": 1,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 8,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(229, 230, 231)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.326,
+        "heightVh": 0.77,
+        "widthRatio": 1,
+        "text": 6.415,
+        "elements": 5.602,
+        "headings": 4,
+        "fontSizes": 7,
+        "maxFontVw": 0.04,
+        "singleChar": 3.434,
+        "varSettings": 5,
+        "range": 1.386,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 2.197,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.79,
+        "fgLum": 0
+      },
+      "crop": "archive/garet-typeforward-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/garet-typeforward-com/blocks/04.html"
+    },
+    {
+      "id": "garet-typeforward-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(3)",
+      "classes": [
+        "spacing-body"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3136,
+        "w": 1440,
+        "h": 300
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "99,600 px2",
+      "fontFamilies": [
+        "Times New Roman",
+        "GaretVariable"
+      ],
+      "maxFontSizePx": 9,
+      "variationSettings": [
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(238, 238, 238)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.417,
+        "relY": 0.488,
+        "heightVh": 0.288,
+        "widthRatio": 1,
+        "text": 2.398,
+        "elements": 2.079,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.006,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.855,
+        "fgLum": 0
+      },
+      "crop": "archive/garet-typeforward-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/garet-typeforward-com/blocks/05.html"
+    },
+    {
+      "id": "garet-typeforward-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(3)",
+      "classes": [
+        "voice-section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3436,
+        "w": 1440,
+        "h": 742
+      },
+      "headings": [
+        "Sound=weight",
+        "Start interacting by allowing the use of your microphone. This section reacts to"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Sound=weight Start interacting by allowing the use of your microphone. This section reacts to noise. We are not recording or storing any data. talk",
+      "fontFamilies": [
+        "Times New Roman",
+        "GaretVariable"
+      ],
+      "maxFontSizePx": 360,
+      "variationSettings": [
+        "\"wght\" 500",
+        "\"wght\" 400",
+        "\"wght\" 50"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(229, 230, 231)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.535,
+        "heightVh": 0.601,
+        "widthRatio": 1,
+        "text": 4.997,
+        "elements": 2.773,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.25,
+        "singleChar": 1.609,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.79,
+        "fgLum": 0
+      },
+      "crop": "archive/garet-typeforward-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/garet-typeforward-com/blocks/06.html"
+    },
+    {
+      "id": "garet-typeforward-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(4)",
+      "classes": [
+        "spacing-body"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4178,
+        "w": 1440,
+        "h": 300
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "168,900 px2",
+      "fontFamilies": [
+        "GaretVariable"
+      ],
+      "maxFontSizePx": 9,
+      "variationSettings": [
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(238, 238, 238)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.583,
+        "relY": 0.65,
+        "heightVh": 0.288,
+        "widthRatio": 1,
+        "text": 2.485,
+        "elements": 1.386,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.006,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.855,
+        "fgLum": 0
+      },
+      "crop": "archive/garet-typeforward-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/garet-typeforward-com/blocks/07.html"
+    },
+    {
+      "id": "garet-typeforward-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(4)",
+      "classes": [
+        "glyph-map"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4478,
+        "w": 1440,
+        "h": 682
+      },
+      "headings": [
+        "The alphabet",
+        "Use the 3-step magnifier to examine in detail Garet’s extended Latin A-Z case. U",
+        "Examine Garet’s extended Latin A-Z case. Uprights, 133 of 947 glyphs.",
+        "a á ă â ä à ā ą å ã æ ǽ b c ć č ç ĉ ċ d ð ď đ e é ĕ ě ê ë ė è ē ę f g ğ ĝ ģ ġ h "
+      ],
+      "parentHeadings": null,
+      "textPreview": "The alphabet Use the 3-step magnifier to examine in detail Garet’s extended Latin A-Z case. Uprights, 133 of 947 glyphs. Left Click Zoom In Right Click Zoom Out",
+      "fontFamilies": [
+        "Times New Roman",
+        "GaretVariable"
+      ],
+      "maxFontSizePx": 72,
+      "variationSettings": [
+        "\"wght\" 500",
+        "\"wght\" 400",
+        "\"wght\" 700"
+      ],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(229, 230, 231)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.697,
+        "heightVh": 0.564,
+        "widthRatio": 1,
+        "text": 5.081,
+        "elements": 3.664,
+        "headings": 4,
+        "fontSizes": 4,
+        "maxFontVw": 0.05,
+        "singleChar": 1.099,
+        "varSettings": 3,
+        "range": 0.693,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.099,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.79,
+        "fgLum": 0
+      },
+      "crop": "archive/garet-typeforward-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/garet-typeforward-com/blocks/08.html"
+    },
+    {
+      "id": "garet-typeforward-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(5)",
+      "classes": [
+        "spacing-body",
+        "d-only"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5159,
+        "w": 1440,
+        "h": 300
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "58,200 px2",
+      "fontFamilies": [
+        "Times New Roman",
+        "GaretVariable"
+      ],
+      "maxFontSizePx": 9,
+      "variationSettings": [
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(238, 238, 238)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.75,
+        "relY": 0.803,
+        "heightVh": 0.288,
+        "widthRatio": 1,
+        "text": 2.398,
+        "elements": 1.792,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.006,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.855,
+        "fgLum": 0
+      },
+      "crop": "archive/garet-typeforward-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/garet-typeforward-com/blocks/09.html"
+    },
+    {
+      "id": "garet-typeforward-com#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#subsanc",
+      "classes": [
+        "subscribe-section"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5459,
+        "w": 1440,
+        "h": 478
+      },
+      "headings": [
+        "Let’s keep in touch",
+        "Learn about our next releases, offers and free fonts. We won’t spam."
+      ],
+      "parentHeadings": null,
+      "textPreview": "ä € ½ ç Let’s keep in touch Learn about our next releases, offers and free fonts. We won’t spam. Yes, I would like to receive e-mails from Type Forward. You can unsubscribe at any time by clicking the unsubscribe link from the footer of our",
+      "fontFamilies": [
+        "Times New Roman",
+        "GaretVariable"
+      ],
+      "maxFontSizePx": 150,
+      "variationSettings": [
+        "\"wght\" 300",
+        "\"wght\" 700",
+        "\"wght\" 400",
+        "\"wght\" 500",
+        "\"wght\" 339",
+        "\"wght\" 900"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 1,
+        "contenteditable": 0,
+        "checkbox": 1,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(238, 238, 238)",
+      "color": "rgb(204, 204, 204)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.833,
+        "relY": 0.849,
+        "heightVh": 0.426,
+        "widthRatio": 1,
+        "text": 6.116,
+        "elements": 3.497,
+        "headings": 2,
+        "fontSizes": 8,
+        "maxFontVw": 0.104,
+        "singleChar": 2.197,
+        "varSettings": 6,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0.693,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.855,
+        "fgLum": 0.604
+      },
+      "crop": "archive/garet-typeforward-com/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/garet-typeforward-com/blocks/10.html"
+    },
+    {
+      "id": "garet-typeforward-com#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(6)",
+      "classes": [
+        "spacing-body",
+        "d-only"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5937,
+        "w": 1440,
+        "h": 300
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "199,800 px2",
+      "fontFamilies": [
+        "Times New Roman",
+        "GaretVariable"
+      ],
+      "maxFontSizePx": 9,
+      "variationSettings": [
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(238, 238, 238)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.917,
+        "relY": 0.924,
+        "heightVh": 0.288,
+        "widthRatio": 1,
+        "text": 2.485,
+        "elements": 1.946,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.006,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.855,
+        "fgLum": 0
+      },
+      "crop": "archive/garet-typeforward-com/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/garet-typeforward-com/blocks/11.html"
+    },
+    {
+      "id": "garet-typeforward-com#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > footer",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 6237,
+        "w": 1440,
+        "h": 189
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "© 2026 Type Forward Privacy Policy↗ We did it with Gradientic↗.",
+      "fontFamilies": [
+        "GaretVariable"
+      ],
+      "maxFontSizePx": 12,
+      "variationSettings": [
+        "\"wght\" 400",
+        "\"wght\" 500"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 5,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(229, 230, 231)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.97,
+        "heightVh": 0.191,
+        "widthRatio": 1,
+        "text": 4.159,
+        "elements": 3.584,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.008,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.792,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.079,
+        "bgLum": 0.79,
+        "fgLum": 0
+      },
+      "crop": "archive/garet-typeforward-com/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/garet-typeforward-com/blocks/12.html"
+    },
+    {
+      "id": "garet-typeforward-com#13",
+      "nn": "13",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "nav",
+      "selector": "#nav",
+      "classes": [
+        "unsl"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 64
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "​ Buy Garet↗ Download free fonts About Type Forward Subscribe",
+      "fontFamilies": [
+        "Times New Roman",
+        "GaretVariable"
+      ],
+      "maxFontSizePx": 12,
+      "variationSettings": [
+        "\"wght\" 950",
+        "\"wght\" 700",
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": true,
+        "price": false
+      },
+      "vector": {
+        "order": 1.083,
+        "relY": 0,
+        "heightVh": 0.069,
+        "widthRatio": 1,
+        "text": 4.127,
+        "elements": 2.485,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.008,
+        "singleChar": 0.693,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.099,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/garet-typeforward-com/blocks/13.html"
+    },
+    {
+      "id": "garet-typeforward-com#14",
+      "nn": "14",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "dialog",
+      "selector": "body > dialog",
+      "classes": [
+        "tf-consent-dialog"
+      ],
+      "box": {
+        "x": 384,
+        "y": 243,
+        "w": 672,
+        "h": 414
+      },
+      "headings": [
+        "Your privacy choices",
+        "Necessary cookies"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Your privacy choices We use necessary cookies to make this site work. With your permission, Google Analytics measures visits and Microsoft Clarity records clicks, scrolling and page interactions to help us improve the site. Accept all Rejec",
+      "fontFamilies": [
+        "Garet Variable"
+      ],
+      "maxFontSizePx": 42,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 2,
+        "select": 0,
+        "buttons": 8,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(12, 12, 12)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.167,
+        "relY": 0.038,
+        "heightVh": 0.378,
+        "widthRatio": 0.467,
+        "text": 5.714,
+        "elements": 3.97,
+        "headings": 2,
+        "fontSizes": 5,
+        "maxFontVw": 0.029,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 1.099,
+        "buttons": 2.197,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 1,
+        "fgLum": 0.004
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/garet-typeforward-com/blocks/14.html"
+    }
+  ]
+}

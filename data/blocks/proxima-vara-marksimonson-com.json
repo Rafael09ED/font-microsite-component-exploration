@@ -1,0 +1,619 @@
+{
+  "slug": "proxima-vara-marksimonson-com",
+  "url": "https://proxima-vara.marksimonson.com",
+  "pageHeight": 4107,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "proxima-vara-marksimonson-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "header",
+      "selector": "#top",
+      "classes": [
+        "top-bar"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 310
+      },
+      "headings": [
+        "ProximaVara"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Jump to main content ProximaVara",
+      "fontFamilies": [
+        "Proxima Vara"
+      ],
+      "maxFontSizePx": 238,
+      "variationSettings": [
+        "\"ital\" 125"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.296,
+        "widthRatio": 1,
+        "text": 3.497,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.165,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/proxima-vara-marksimonson-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/proxima-vara-marksimonson-com/blocks/00.html"
+    },
+    {
+      "id": "proxima-vara-marksimonson-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#main_content > section:nth-of-type(1)",
+      "classes": [
+        "intro"
+      ],
+      "box": {
+        "x": 29,
+        "y": 350,
+        "w": 1382,
+        "h": 216
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "LICENSING & PURCHASING INFO Proxima Nova goes variable! Change width, slant, and weight to get any style you can imagine. Try it today! ↓",
+      "fontFamilies": [
+        "Proxima Vara"
+      ],
+      "maxFontSizePx": 29,
+      "variationSettings": [
+        "\"ital\" 125"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": true,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.167,
+        "relY": 0.085,
+        "heightVh": 0.215,
+        "widthRatio": 0.96,
+        "text": 4.942,
+        "elements": 2.833,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.02,
+        "singleChar": 0.693,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/proxima-vara-marksimonson-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/proxima-vara-marksimonson-com/blocks/01.html"
+    },
+    {
+      "id": "proxima-vara-marksimonson-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#main_content > section:nth-of-type(2)",
+      "classes": [
+        "examples"
+      ],
+      "box": {
+        "x": 29,
+        "y": 646,
+        "w": 1382,
+        "h": 1503
+      },
+      "headings": [
+        "Advantages of Proxima Vara",
+        "Licensing and purchasing info..."
+      ],
+      "parentHeadings": null,
+      "textPreview": "3 ON A MATCH Weight Width Slant Advantages of Proxima Vara Have you ever wished for something a little bit bolder than Proxima Nova Regular but not quite as bold as Proxima Nova Medium? How about something not quite as condensed as Condense",
+      "fontFamilies": [
+        "Proxima Vara",
+        "Arial"
+      ],
+      "maxFontSizePx": 360,
+      "variationSettings": [
+        "\"ital\" 0",
+        "\"ital\" 125"
+      ],
+      "controls": {
+        "range": 6,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.157,
+        "heightVh": 0.982,
+        "widthRatio": 0.96,
+        "text": 6.967,
+        "elements": 4.143,
+        "headings": 2,
+        "fontSizes": 10,
+        "maxFontVw": 0.25,
+        "singleChar": 0.693,
+        "varSettings": 2,
+        "range": 1.946,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.099,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/proxima-vara-marksimonson-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/proxima-vara-marksimonson-com/blocks/02.html"
+    },
+    {
+      "id": "proxima-vara-marksimonson-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#main_content > section:nth-of-type(3)",
+      "classes": [
+        "type-tester",
+        "tester"
+      ],
+      "box": {
+        "x": 109,
+        "y": 2229,
+        "w": 1222,
+        "h": 833
+      },
+      "headings": [
+        "The Proxima Vara Story",
+        "By Mark Simonson"
+      ],
+      "parentHeadings": null,
+      "textPreview": "The Proxima Vara Story By Mark Simonson PROXIMA VARA is the variable version of Proxima Nova. It’s a typeface idea I’ve been working on in various forms since 1981. It was no more than rough sketches back then, but the concept for the lower",
+      "fontFamilies": [
+        "Proxima Vara",
+        "Arial"
+      ],
+      "maxFontSizePx": 42,
+      "variationSettings": [
+        "\"ital\" 0",
+        "\"ital\" 125"
+      ],
+      "controls": {
+        "range": 9,
+        "text": 0,
+        "contenteditable": 3,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.543,
+        "heightVh": 0.655,
+        "widthRatio": 0.849,
+        "text": 7.947,
+        "elements": 3.807,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.029,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 2.303,
+        "textInput": 1.386,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/proxima-vara-marksimonson-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/proxima-vara-marksimonson-com/blocks/03.html"
+    },
+    {
+      "id": "proxima-vara-marksimonson-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#main_content > section:nth-of-type(4)",
+      "classes": [
+        "word-testers"
+      ],
+      "box": {
+        "x": 109,
+        "y": 3142,
+        "w": 1222,
+        "h": 565
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Go Ahead & Weight Width Slant CHANGE Weight Width Slant this text! Weight Width Slant",
+      "fontFamilies": [
+        "Proxima Vara",
+        "Arial"
+      ],
+      "maxFontSizePx": 112,
+      "variationSettings": [
+        "\"ital\" 0",
+        "\"ital\" 125"
+      ],
+      "controls": {
+        "range": 9,
+        "text": 0,
+        "contenteditable": 3,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.765,
+        "heightVh": 0.487,
+        "widthRatio": 0.849,
+        "text": 4.511,
+        "elements": 3.85,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.078,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 2.303,
+        "textInput": 1.386,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/proxima-vara-marksimonson-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/proxima-vara-marksimonson-com/blocks/04.html"
+    },
+    {
+      "id": "proxima-vara-marksimonson-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#main_content > section:nth-of-type(5)",
+      "classes": [
+        "cta"
+      ],
+      "box": {
+        "x": 29,
+        "y": 3707,
+        "w": 1382,
+        "h": 216
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "LICENSING & PURCHASING INFO",
+      "fontFamilies": [
+        "Proxima Vara"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.833,
+        "relY": 0.903,
+        "heightVh": 0.215,
+        "widthRatio": 0.96,
+        "text": 3.332,
+        "elements": 2.303,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/proxima-vara-marksimonson-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/proxima-vara-marksimonson-com/blocks/05.html"
+    },
+    {
+      "id": "proxima-vara-marksimonson-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > footer",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 3971,
+        "w": 1440,
+        "h": 136
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "marksimonson.com ©2021 Mark Simonson",
+      "fontFamilies": [
+        "Proxima Vara"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.967,
+        "heightVh": 0.141,
+        "widthRatio": 1,
+        "text": 3.638,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.213,
+        "fgLum": 1
+      },
+      "crop": "archive/proxima-vara-marksimonson-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/proxima-vara-marksimonson-com/blocks/06.html"
+    }
+  ]
+}

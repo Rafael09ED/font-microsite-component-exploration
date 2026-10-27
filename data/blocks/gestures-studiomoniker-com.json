@@ -1,0 +1,88 @@
+{
+  "slug": "gestures-studiomoniker-com",
+  "url": "https://gestures.studiomoniker.com",
+  "pageHeight": 900,
+  "segmentation": "screens",
+  "blocks": [
+    {
+      "id": "gestures-studiomoniker-com#00",
+      "nn": "00",
+      "kind": "screen",
+      "sticky": false,
+      "tag": "screen",
+      "selector": null,
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 900
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "buy info Gestures Dark mode Size Weight Alt characters: INT. IDENITY TRAINING FACILITY–DAY",
+      "fontFamilies": [],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": null,
+      "color": null,
+      "hints": {
+        "commerce": true,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.693,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 0,
+        "headings": 0,
+        "fontSizes": 0,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": -1
+      },
+      "crop": "archive/gestures-studiomoniker-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": null
+    }
+  ]
+}

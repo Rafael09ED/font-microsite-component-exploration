@@ -1,0 +1,962 @@
+{
+  "slug": "stencil-gothic-com",
+  "url": "https://www.stencil-gothic.com",
+  "pageHeight": 9339,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "stencil-gothic-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "header",
+      "selector": "body > header",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 704
+      },
+      "headings": [
+        "Stencil-Gothic"
+      ],
+      "parentHeadings": null,
+      "textPreview": " Stencil-Gothic Oxymoron Aptitude 1885 ↓",
+      "fontFamilies": [
+        "Stencil-Gothic Regular"
+      ],
+      "maxFontSizePx": 160,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.578,
+        "widthRatio": 1,
+        "text": 3.871,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.111,
+        "singleChar": 0.693,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.016
+      },
+      "crop": "archive/stencil-gothic-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/stencil-gothic-com/blocks/00.html"
+    },
+    {
+      "id": "stencil-gothic-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#intro",
+      "classes": [
+        "text"
+      ],
+      "box": {
+        "x": 401,
+        "y": 800,
+        "w": 638,
+        "h": 797
+      },
+      "headings": [
+        "VICTORIAN ECLECTICISM."
+      ],
+      "parentHeadings": null,
+      "textPreview": "Stencil-Gothic — designed and registered at the US-patent office in 1885 by John West of Brooklyn, New York — is the first known typeface that incorporates the stylistic feature of interrupted strokes in order to evoke the impression of ste",
+      "fontFamilies": [
+        "dapifer",
+        "Stencil-Gothic Regular"
+      ],
+      "maxFontSizePx": 21,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 252, 247)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.1,
+        "relY": 0.086,
+        "heightVh": 0.634,
+        "widthRatio": 0.443,
+        "text": 7.044,
+        "elements": 2.079,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.014,
+        "singleChar": 0.693,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.976,
+        "fgLum": 0.016
+      },
+      "crop": "archive/stencil-gothic-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/stencil-gothic-com/blocks/01.html"
+    },
+    {
+      "id": "stencil-gothic-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#research",
+      "classes": [
+        "text"
+      ],
+      "box": {
+        "x": 401,
+        "y": 1791,
+        "w": 638,
+        "h": 407
+      },
+      "headings": [
+        "HISTORICAL RESEARCH"
+      ],
+      "parentHeadings": null,
+      "textPreview": "HISTORICAL RESEARCH Stencil-Gothic appeared for the first time in the “Eleventh Book of Specimens of printing types and every requisite for typographical use and adornment” issued in 1885 by the Philadelphia-based type foundry MacKellar, Sm",
+      "fontFamilies": [
+        "Mercantile",
+        "dapifer"
+      ],
+      "maxFontSizePx": 26,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 252, 247)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.2,
+        "relY": 0.192,
+        "heightVh": 0.373,
+        "widthRatio": 0.443,
+        "text": 6.344,
+        "elements": 1.099,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.018,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.976,
+        "fgLum": 0.016
+      },
+      "crop": "archive/stencil-gothic-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/stencil-gothic-com/blocks/02.html"
+    },
+    {
+      "id": "stencil-gothic-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(3)",
+      "classes": [
+        "slider"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2214,
+        "w": 1440,
+        "h": 894
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "1 2 3 4 5",
+      "fontFamilies": [
+        "dapifer"
+      ],
+      "maxFontSizePx": 10,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 7,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.3,
+        "relY": 0.237,
+        "heightVh": 0.69,
+        "widthRatio": 1,
+        "text": 2.303,
+        "elements": 3.526,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.007,
+        "singleChar": 1.792,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.079,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0.016
+      },
+      "crop": "archive/stencil-gothic-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/stencil-gothic-com/blocks/03.html"
+    },
+    {
+      "id": "stencil-gothic-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#patent",
+      "classes": [
+        "text"
+      ],
+      "box": {
+        "x": 401,
+        "y": 3302,
+        "w": 638,
+        "h": 1088
+      },
+      "headings": [
+        "THE PATENT"
+      ],
+      "parentHeadings": null,
+      "textPreview": "THE PATENT In the high times of American type founding patenting single typeface designs was of an outmost necessity in order to prevent piracy from rivaling foundries. The patent declaration for Stencil-Gothic — US-Patent No. 15,965 dated ",
+      "fontFamilies": [
+        "Mercantile",
+        "dapifer"
+      ],
+      "maxFontSizePx": 26,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 252, 247)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.4,
+        "relY": 0.354,
+        "heightVh": 0.792,
+        "widthRatio": 0.443,
+        "text": 7.081,
+        "elements": 2.639,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.018,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.976,
+        "fgLum": 0.016
+      },
+      "crop": "archive/stencil-gothic-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/stencil-gothic-com/blocks/04.html"
+    },
+    {
+      "id": "stencil-gothic-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(5)",
+      "classes": [
+        "testing_text",
+        "sten_goth"
+      ],
+      "box": {
+        "x": 72,
+        "y": 4583,
+        "w": 1296,
+        "h": 400
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Quizzicality of John West, Hybrid Expert",
+      "fontFamilies": [
+        "Stencil-Gothic Regular"
+      ],
+      "maxFontSizePx": 120,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.491,
+        "heightVh": 0.368,
+        "widthRatio": 0.9,
+        "text": 3.714,
+        "elements": 1.386,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.083,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.016
+      },
+      "crop": "archive/stencil-gothic-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/stencil-gothic-com/blocks/05.html"
+    },
+    {
+      "id": "stencil-gothic-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#resources",
+      "classes": [
+        "text"
+      ],
+      "box": {
+        "x": 401,
+        "y": 5177,
+        "w": 638,
+        "h": 784
+      },
+      "headings": [
+        "RESOURCES",
+        "REFERRED TO AS ‘STENCIL-GOTHIC’",
+        "REFERRED TO AS ‘CLEFT-GOTHIC’",
+        "OTHER REFERENCES"
+      ],
+      "parentHeadings": null,
+      "textPreview": "RESOURCES —US-Patent No. 15,965, dated March 10, 1885 at Google Patents. REFERRED TO AS ‘STENCIL-GOTHIC’ —Eleventh Book of Specimens of Printing Types […] MacKellar, Smith & Jordan Co., Philadelphia, 1885 —Shniedewend & Lee Co’s Specimen Bo",
+      "fontFamilies": [
+        "Mercantile",
+        "dapifer"
+      ],
+      "maxFontSizePx": 26,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 252, 247)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.6,
+        "relY": 0.554,
+        "heightVh": 0.627,
+        "widthRatio": 0.443,
+        "text": 6.835,
+        "elements": 3.367,
+        "headings": 4,
+        "fontSizes": 3,
+        "maxFontVw": 0.018,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.079,
+        "bgLum": 0.976,
+        "fgLum": 0.016
+      },
+      "crop": "archive/stencil-gothic-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/stencil-gothic-com/blocks/06.html"
+    },
+    {
+      "id": "stencil-gothic-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#revival",
+      "classes": [
+        "text"
+      ],
+      "box": {
+        "x": 401,
+        "y": 6155,
+        "w": 638,
+        "h": 666
+      },
+      "headings": [
+        "DIGITAL REVIVAL",
+        "DOWNLOAD A PDF SPECIMEN"
+      ],
+      "parentHeadings": null,
+      "textPreview": "DIGITAL REVIVAL Fascinated by the odd stylistic mixture found in its lettershapes Johannes Lang and Ellmer Stefan set out to digitize Stencil-Gothic in spring 2014. In order to emphasize the polystylistic nature of the design the main strok",
+      "fontFamilies": [
+        "Mercantile",
+        "dapifer"
+      ],
+      "maxFontSizePx": 26,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 252, 247)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.7,
+        "relY": 0.659,
+        "heightVh": 0.554,
+        "widthRatio": 0.443,
+        "text": 6.732,
+        "elements": 1.946,
+        "headings": 2,
+        "fontSizes": 3,
+        "maxFontVw": 0.018,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.976,
+        "fgLum": 0.016
+      },
+      "crop": "archive/stencil-gothic-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/stencil-gothic-com/blocks/07.html"
+    },
+    {
+      "id": "stencil-gothic-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(8)",
+      "classes": [
+        "testing_text",
+        "sten_goth"
+      ],
+      "box": {
+        "x": 72,
+        "y": 7015,
+        "w": 1296,
+        "h": 448
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "South Brooklyn 123 Test Flower Market",
+      "fontFamilies": [
+        "Stencil-Gothic Regular"
+      ],
+      "maxFontSizePx": 160,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": true,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.8,
+        "relY": 0.751,
+        "heightVh": 0.404,
+        "widthRatio": 0.9,
+        "text": 3.638,
+        "elements": 1.386,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.111,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.016
+      },
+      "crop": "archive/stencil-gothic-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/stencil-gothic-com/blocks/08.html"
+    },
+    {
+      "id": "stencil-gothic-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#purchase",
+      "classes": [
+        "text"
+      ],
+      "box": {
+        "x": 401,
+        "y": 7657,
+        "w": 638,
+        "h": 597
+      },
+      "headings": [
+        "PURCHASE",
+        "Checkout via Pay-pal"
+      ],
+      "parentHeadings": null,
+      "textPreview": "PURCHASE Stencil-Gothic is available as a cross-platform compatible OpenType font as well as all common webfont formats for self-hosting. The purchased license covers the use as a desktop font on a specified number of computers (CPUs) and t",
+      "fontFamilies": [
+        "Mercantile",
+        "dapifer",
+        "Arial"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 1,
+        "select": 1,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 252, 247)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.9,
+        "relY": 0.82,
+        "heightVh": 0.509,
+        "widthRatio": 0.443,
+        "text": 6.256,
+        "elements": 2.773,
+        "headings": 2,
+        "fontSizes": 5,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 1.099,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.976,
+        "fgLum": 0.016
+      },
+      "crop": "archive/stencil-gothic-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/stencil-gothic-com/blocks/09.html"
+    },
+    {
+      "id": "stencil-gothic-com#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "#colophon",
+      "classes": [
+        "text"
+      ],
+      "box": {
+        "x": 401,
+        "y": 8448,
+        "w": 638,
+        "h": 827
+      },
+      "headings": [
+        "COLOPHON"
+      ],
+      "parentHeadings": null,
+      "textPreview": "COLOPHON Thanks to Eric Kindel, associate professor at the University of Reading, for the initial pointer, inspirational research and a pleasant encounter. Thanks to Frode Bo Helland of Monokrom Type Foundry for technical assistance regardi",
+      "fontFamilies": [
+        "Mercantile",
+        "dapifer",
+        "Stencil-Gothic Regular"
+      ],
+      "maxFontSizePx": 80,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 252, 247)",
+      "color": "rgb(34, 34, 34)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.905,
+        "heightVh": 0.652,
+        "widthRatio": 0.443,
+        "text": 6.426,
+        "elements": 2.833,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.056,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.079,
+        "bgLum": 0.976,
+        "fgLum": 0.016
+      },
+      "crop": "archive/stencil-gothic-com/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/stencil-gothic-com/blocks/10.html"
+    }
+  ]
+}

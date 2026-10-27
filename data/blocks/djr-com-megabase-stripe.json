@@ -1,0 +1,187 @@
+{
+  "slug": "djr-com-megabase-stripe",
+  "url": "https://djr.com/megabase-stripe",
+  "pageHeight": 2613,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "djr-com-megabase-stripe#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "main",
+      "selector": "#content",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 33,
+        "w": 1440,
+        "h": 2065
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Megabase Stripe is a variable color font that divides each glyph into a series of diagonal stripes. You can simulate the effect of a gradient by assigning each stripe a subtly different color, something otherwise impossible with the current",
+      "fontFamilies": [
+        "GimletTextNarrowWeb",
+        "ColorFontCustomizr1",
+        "output sans web",
+        "Output Sans Web",
+        "Arial",
+        "Arial Unicode MS"
+      ],
+      "maxFontSizePx": 225,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 1,
+        "select": 0,
+        "buttons": 1,
+        "color": 13
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.013,
+        "heightVh": 1.192,
+        "widthRatio": 1,
+        "text": 6.925,
+        "elements": 4.575,
+        "headings": 0,
+        "fontSizes": 8,
+        "maxFontVw": 0.156,
+        "singleChar": 2.708,
+        "varSettings": 1,
+        "range": 0.693,
+        "textInput": 0.693,
+        "toggles": 0.693,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.609,
+        "bgLum": -1,
+        "fgLum": 0.006
+      },
+      "crop": "archive/djr-com-megabase-stripe/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megabase-stripe/blocks/00.html"
+    },
+    {
+      "id": "djr-com-megabase-stripe#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > footer",
+      "classes": [
+        "site-footer",
+        "h-card"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2098,
+        "w": 1440,
+        "h": 515
+      },
+      "headings": [
+        "DAVID JONATHAN ROSS",
+        "ELSEWHERE",
+        "FONT OF THE MONTH CLUB",
+        "TYPEFACES"
+      ],
+      "parentHeadings": null,
+      "textPreview": "DAVID JONATHAN ROSS RSS feed: Blog RSS feed: Glyph of the Day Mailing List ELSEWHERE Fonts in Use Mastodon Glyph of the Day Type Network Fontstand Adobe Fonts GitHub Calendly (Type Crit Crew) Instagram (inactive) FONT OF THE MONTH CLUB TYPE",
+      "fontFamilies": [
+        "InputSansNarrowWeb"
+      ],
+      "maxFontSizePx": 15,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(119, 119, 119)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.803,
+        "heightVh": 0.452,
+        "widthRatio": 1,
+        "text": 6.452,
+        "elements": 4.787,
+        "headings": 4,
+        "fontSizes": 3,
+        "maxFontVw": 0.01,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.932,
+        "bgLum": 1,
+        "fgLum": 0.184
+      },
+      "crop": "archive/djr-com-megabase-stripe/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-megabase-stripe/blocks/01.html"
+    }
+  ]
+}

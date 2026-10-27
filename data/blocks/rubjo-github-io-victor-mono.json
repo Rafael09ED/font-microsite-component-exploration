@@ -1,0 +1,1559 @@
+{
+  "slug": "rubjo-github-io-victor-mono",
+  "url": "https://rubjo.github.io/victor-mono",
+  "pageHeight": 12634,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "rubjo-github-io-victor-mono#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(2)",
+      "classes": [
+        "header"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 535
+      },
+      "headings": [
+        "Victor Mono",
+        "The \"#%§§##/| programming font"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Victor Mono The \"#%§§##/| programming font Download Share",
+      "fontFamilies": [
+        "VictorMono",
+        "",
+        "element-icons"
+      ],
+      "maxFontSizePx": 141,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 4,
+        "video": 1,
+        "canvas": 1,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.467,
+        "widthRatio": 1,
+        "text": 4.127,
+        "elements": 3.689,
+        "headings": 2,
+        "fontSizes": 5,
+        "maxFontVw": 0.098,
+        "singleChar": 0.693,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.099,
+        "img": 0,
+        "svg": 1.609,
+        "video": 0.693,
+        "canvas": 0.693,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.855
+      },
+      "crop": "archive/rubjo-github-io-victor-mono/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/00.html"
+    },
+    {
+      "id": "rubjo-github-io-victor-mono#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(3)",
+      "classes": [
+        "initial",
+        "content"
+      ],
+      "box": {
+        "x": 0,
+        "y": 535,
+        "w": 1440,
+        "h": 513
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Victor Mono is an open-source monospaced font with optional semi-connected cursive italics and programming symbol ligatures. The typeface is slender, crisp and narrow, with a large x-height and clear punctuation, making it legible and ideal",
+      "fontFamilies": [
+        "VictorMono",
+        "VictorMono-Oblique"
+      ],
+      "maxFontSizePx": 22,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.063,
+        "relY": 0.042,
+        "heightVh": 0.451,
+        "widthRatio": 1,
+        "text": 5.756,
+        "elements": 2.398,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.015,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0.855
+      },
+      "crop": "archive/rubjo-github-io-victor-mono/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/01.html"
+    },
+    {
+      "id": "rubjo-github-io-victor-mono#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(4)",
+      "classes": [
+        "content",
+        "code-segment"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1048,
+        "w": 1440,
+        "h": 868
+      },
+      "headings": [
+        "Try it"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Try it // Ask for a user name until API returns a valid user async function getUser () { let user while (true) { let name = prompt('Enter a user name', 'rubjo') try { user = await loadJson(`https://my.api.com/users/${name}`) break // No err",
+      "fontFamilies": [
+        "VictorMono",
+        "monospace"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 2,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(48, 65, 72)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": true,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.125,
+        "relY": 0.083,
+        "heightVh": 0.675,
+        "widthRatio": 1,
+        "text": 6.431,
+        "elements": 4.836,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.022,
+        "singleChar": 2.398,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 1.099,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": 0.049,
+        "fgLum": 0.855
+      },
+      "crop": "archive/rubjo-github-io-victor-mono/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/02.html"
+    },
+    {
+      "id": "rubjo-github-io-victor-mono#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(5)",
+      "classes": [
+        "content",
+        "alternate-bg"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1916,
+        "w": 1440,
+        "h": 518
+      },
+      "headings": [
+        "Ligatures enabled",
+        "</ </> /> ~- -~ ~@ <~ <~> <~~ ~> ~~ ~~> >= <= <!-- ## ### #### |- -| |-> <-| >-|",
+        "</ </> /> ~- -~ ~@ <~ <~> <~~ ~> ~~ ~~> >= <= <!-- ## ### #### |- -| |-> <-| >-|"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Ligatures enabled </ </> /> ~- -~ ~@ <~ <~> <~~ ~> ~~ ~~> >= <= <!-- ## ### #### |- -| |-> <-| >-| |-< |= |=> >- <- <-- --> -> -< >-> >>- <<- <-> ->> -<< <-< ==> => =/= !== != <== >>= =>> >=> <=> <=< =<= =>= <<= =<< .- .= =:= =!= == === :: ",
+      "fontFamilies": [
+        "VictorMono"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(51, 51, 51)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.188,
+        "relY": 0.152,
+        "heightVh": 0.455,
+        "widthRatio": 1,
+        "text": 6.465,
+        "elements": 2.639,
+        "headings": 3,
+        "fontSizes": 2,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.033,
+        "fgLum": 0.855
+      },
+      "crop": "archive/rubjo-github-io-victor-mono/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/03.html"
+    },
+    {
+      "id": "rubjo-github-io-victor-mono#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(6)",
+      "classes": [
+        "alternate-bg"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2434,
+        "w": 1440,
+        "h": 378
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Configure and buy the official Victor Mono Nightshade Keyboard from the fabulous folks at YUZU Custom Keycaps",
+      "fontFamilies": [
+        "VictorMono"
+      ],
+      "maxFontSizePx": 13,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(51, 51, 51)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.25,
+        "relY": 0.193,
+        "heightVh": 0.351,
+        "widthRatio": 1,
+        "text": 4.7,
+        "elements": 2.079,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.009,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.033,
+        "fgLum": 0.855
+      },
+      "crop": "archive/rubjo-github-io-victor-mono/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/04.html"
+    },
+    {
+      "id": "rubjo-github-io-victor-mono#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(7)",
+      "classes": [
+        "content",
+        "alternate-bg"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2812,
+        "w": 1440,
+        "h": 962
+      },
+      "headings": [
+        "Why"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Why When it comes to programming fonts, I prefer something thin and relatively condensed, but with a more informal, flowing and human style for standouts like comments and certain keywords. In the past, I always ended up looking for somethi",
+      "fontFamilies": [
+        "VictorMono"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(51, 51, 51)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.313,
+        "relY": 0.223,
+        "heightVh": 0.727,
+        "widthRatio": 1,
+        "text": 6.805,
+        "elements": 2.996,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.033,
+        "fgLum": 0.855
+      },
+      "crop": "archive/rubjo-github-io-victor-mono/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/05.html"
+    },
+    {
+      "id": "rubjo-github-io-victor-mono#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(8)",
+      "classes": [
+        "content"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3774,
+        "w": 1440,
+        "h": 1045
+      },
+      "headings": [
+        "Compare it to Anonymous Pro Cartograph Cascadia Code Consolas Dank Mono Droid Sa"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Compare it to Anonymous Pro Cartograph Cascadia Code Consolas Dank Mono Droid Sans Fantasque Sans Mono Fira Code Hack Hasklig Inconsolata Input Iosevka JetBrains Mono Meslo Monoid MonoLisa Operator Mono Plex Mono Roboto Mono Source Code Pro",
+      "fontFamilies": [
+        "VictorMono"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 1,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.375,
+        "relY": 0.299,
+        "heightVh": 0.771,
+        "widthRatio": 1,
+        "text": 5.79,
+        "elements": 3.829,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0.693,
+        "buttons": 0,
+        "img": 1.099,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0.855
+      },
+      "crop": "archive/rubjo-github-io-victor-mono/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/06.html"
+    },
+    {
+      "id": "rubjo-github-io-victor-mono#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(9)",
+      "classes": [
+        "horizontal-large-image"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4819,
+        "w": 1440,
+        "h": 350
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "VictorMono"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.438,
+        "relY": 0.381,
+        "heightVh": 0.329,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.855
+      },
+      "crop": "archive/rubjo-github-io-victor-mono/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/07.html"
+    },
+    {
+      "id": "rubjo-github-io-victor-mono#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(10)",
+      "classes": [
+        "content",
+        "alternate-bg"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5169,
+        "w": 1440,
+        "h": 598
+      },
+      "headings": [
+        "Get it"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Get it If you try it out and like it, I would be very grateful for any donations. It means I can cover some costs for software and time spent - and keep refining and extending the font. Donate via PayPal Support via Patreon Download ~9MB ZI",
+      "fontFamilies": [
+        "VictorMono",
+        "element-icons"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 3,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(51, 51, 51)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": true,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.409,
+        "heightVh": 0.509,
+        "widthRatio": 1,
+        "text": 6.103,
+        "elements": 3.784,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.386,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.033,
+        "fgLum": 0.855
+      },
+      "crop": "archive/rubjo-github-io-victor-mono/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/08.html"
+    },
+    {
+      "id": "rubjo-github-io-victor-mono#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(11)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 5768,
+        "w": 1440,
+        "h": 378
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Buy cool merch at Victor Mono Merch Store: North America / Europe",
+      "fontFamilies": [
+        "VictorMono"
+      ],
+      "maxFontSizePx": 13,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.563,
+        "relY": 0.457,
+        "heightVh": 0.351,
+        "widthRatio": 1,
+        "text": 4.19,
+        "elements": 2.197,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.009,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 0.855
+      },
+      "crop": "archive/rubjo-github-io-victor-mono/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/09.html"
+    },
+    {
+      "id": "rubjo-github-io-victor-mono#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(13)",
+      "classes": [
+        "content"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6146,
+        "w": 1440,
+        "h": 662
+      },
+      "headings": [
+        "How to use"
+      ],
+      "parentHeadings": null,
+      "textPreview": "How to use 1) Download the font 2) Unpack the ZIP 3) Install the font (all styles or the ones you want) 4) Change the font settings in your code editor / IDE of choice to \"Victor Mono\" 5) Optional · Set the code theme to one you like. Check",
+      "fontFamilies": [
+        "VictorMono"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.625,
+        "relY": 0.486,
+        "heightVh": 0.551,
+        "widthRatio": 1,
+        "text": 6.122,
+        "elements": 3.045,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.946,
+        "bgLum": -1,
+        "fgLum": 0.855
+      },
+      "crop": "archive/rubjo-github-io-victor-mono/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/10.html"
+    },
+    {
+      "id": "rubjo-github-io-victor-mono#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(14)",
+      "classes": [
+        "content",
+        "alternate-bg"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6808,
+        "w": 1440,
+        "h": 1603
+      },
+      "headings": [
+        "Supporters",
+        "Bronze Fan",
+        "Silver Supporter",
+        "Gold Patron"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Supporters Bronze Fan $1/month or - $9.99 in total Thank you to everyone contributing! ❤️ Silver Supporter $2/month or $10-24.99 in total Thank you to everyone contributing! ❤️ Gold Patron $5/month or $25-45 in total Thank you to: Dieter Au",
+      "fontFamilies": [
+        "VictorMono"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 4,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(51, 51, 51)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": true
+      },
+      "vector": {
+        "order": 0.688,
+        "relY": 0.539,
+        "heightVh": 1.023,
+        "widthRatio": 1,
+        "text": 6.962,
+        "elements": 4.673,
+        "headings": 4,
+        "fontSizes": 5,
+        "maxFontVw": 0.022,
+        "singleChar": 0.693,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.609,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.033,
+        "fgLum": 0.855
+      },
+      "crop": "archive/rubjo-github-io-victor-mono/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/11.html"
+    },
+    {
+      "id": "rubjo-github-io-victor-mono#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(15)",
+      "classes": [
+        "content"
+      ],
+      "box": {
+        "x": 0,
+        "y": 8410,
+        "w": 1440,
+        "h": 249
+      },
+      "headings": [
+        "What people are saying"
+      ],
+      "parentHeadings": null,
+      "textPreview": "What people are saying",
+      "fontFamilies": [
+        "VictorMono"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 4
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.75,
+        "relY": 0.666,
+        "heightVh": 0.244,
+        "widthRatio": 1,
+        "text": 3.135,
+        "elements": 3.135,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 1.609,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.855
+      },
+      "crop": "archive/rubjo-github-io-victor-mono/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/12.html"
+    },
+    {
+      "id": "rubjo-github-io-victor-mono#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(16)",
+      "classes": [
+        "horizontal-large-image"
+      ],
+      "box": {
+        "x": 0,
+        "y": 8659,
+        "w": 1440,
+        "h": 350
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "VictorMono"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.813,
+        "relY": 0.685,
+        "heightVh": 0.329,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.855
+      },
+      "crop": "archive/rubjo-github-io-victor-mono/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/13.html"
+    },
+    {
+      "id": "rubjo-github-io-victor-mono#14",
+      "nn": "14",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(17)",
+      "classes": [
+        "content"
+      ],
+      "box": {
+        "x": 0,
+        "y": 9009,
+        "w": 1440,
+        "h": 1081
+      },
+      "headings": [
+        "FAQ*"
+      ],
+      "parentHeadings": null,
+      "textPreview": "FAQ* Design & features Usage Other There’s a feature of the font that I don’t like. Could you change it? Will you add some stylistic variations, like a slashed zero, sharper brackets etc.? Will you make a custom style generator, where one c",
+      "fontFamilies": [
+        "VictorMono"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 6,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.875,
+        "relY": 0.713,
+        "heightVh": 0.789,
+        "widthRatio": 1,
+        "text": 6.625,
+        "elements": 3.714,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.946,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.855
+      },
+      "crop": "archive/rubjo-github-io-victor-mono/blocks/14.jpg",
+      "cropTruncated": false,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/14.html"
+    },
+    {
+      "id": "rubjo-github-io-victor-mono#15",
+      "nn": "15",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(18)",
+      "classes": [
+        "horizontal-large-image"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10090,
+        "w": 1440,
+        "h": 350
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "VictorMono"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.938,
+        "relY": 0.799,
+        "heightVh": 0.329,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.855
+      },
+      "crop": "archive/rubjo-github-io-victor-mono/blocks/15.jpg",
+      "cropTruncated": false,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/15.html"
+    },
+    {
+      "id": "rubjo-github-io-victor-mono#16",
+      "nn": "16",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(19)",
+      "classes": [
+        "content",
+        "alternate-bg"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10440,
+        "w": 1440,
+        "h": 2193
+      },
+      "headings": [
+        "Credits"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Credits A number of frameworks/packages have been used to make this web site. Big thanks to the following: Lovely gradients Granim.js by Benjamin Blonde Cool animated typing Typed.js by Matt Boldt Code editor Vue-Codemirror by Surmon and co",
+      "fontFamilies": [
+        "VictorMono"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(51, 51, 51)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.826,
+        "heightVh": 1.235,
+        "widthRatio": 1,
+        "text": 7.098,
+        "elements": 4.812,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.526,
+        "bgLum": 0.033,
+        "fgLum": 0.855
+      },
+      "crop": "archive/rubjo-github-io-victor-mono/blocks/16.jpg",
+      "cropTruncated": false,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/16.html"
+    },
+    {
+      "id": "rubjo-github-io-victor-mono#17",
+      "nn": "17",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#app > div:nth-of-type(1)",
+      "classes": [
+        "navbar"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 86
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Try Why Get How FAQ Credits",
+      "fontFamilies": [
+        "VictorMono",
+        "element-icons"
+      ],
+      "maxFontSizePx": 30,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 2,
+        "video": 0,
+        "canvas": 1,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(238, 238, 238)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.063,
+        "relY": 0,
+        "heightVh": 0.091,
+        "widthRatio": 1,
+        "text": 3.332,
+        "elements": 3.178,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.021,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0.693,
+        "iframe": 0,
+        "links": 2.303,
+        "bgLum": -1,
+        "fgLum": 0.855
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/rubjo-github-io-victor-mono/blocks/17.html"
+    }
+  ]
+}

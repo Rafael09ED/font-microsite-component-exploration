@@ -1,0 +1,1546 @@
+{
+  "slug": "djr-com-roslindale",
+  "url": "https://djr.com/roslindale",
+  "pageHeight": 33221,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "djr-com-roslindale#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#hero",
+      "classes": [
+        "hero"
+      ],
+      "box": {
+        "x": 0,
+        "y": 33,
+        "w": 1440,
+        "h": 819
+      },
+      "headings": [
+        "When in Doubt, Use Roslindale"
+      ],
+      "parentHeadings": [
+        "When in Doubt, Use Roslindale",
+        "History.",
+        "Family.",
+        "Optical Sizes"
+      ],
+      "textPreview": "R When in Doubt, Use Roslindale",
+      "fontFamilies": [
+        "RoslindaleWeb"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [
+        "\"opsz\" 15",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 100, \"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(237, 225, 208)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.001,
+        "heightVh": 0.647,
+        "widthRatio": 1,
+        "text": 3.466,
+        "elements": 2.833,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.033,
+        "singleChar": 0.693,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.764
+      },
+      "crop": "archive/djr-com-roslindale/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-roslindale/blocks/00.html"
+    },
+    {
+      "id": "djr-com-roslindale#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#intro",
+      "classes": [
+        "intro"
+      ],
+      "box": {
+        "x": 0,
+        "y": 852,
+        "w": 1440,
+        "h": 720
+      },
+      "headings": [],
+      "parentHeadings": [
+        "When in Doubt, Use Roslindale",
+        "History.",
+        "Family.",
+        "Optical Sizes"
+      ],
+      "textPreview": "Roslindale is a balancing act of style, service, and sentiment. It’s a serif that is chunky in text and slick in display, pitting sharp, stubby serifs against round, bulbous terminals. It tries to be an old-style serif with hints of diagona",
+      "fontFamilies": [
+        "RoslindaleWeb"
+      ],
+      "maxFontSizePx": 34,
+      "variationSettings": [
+        "\"opsz\" 15",
+        "\"opsz\" 30"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(17, 78, 96)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.067,
+        "relY": 0.026,
+        "heightVh": 0.588,
+        "widthRatio": 1,
+        "text": 6.629,
+        "elements": 2.079,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.023,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": 0.064,
+        "fgLum": 1
+      },
+      "crop": "archive/djr-com-roslindale/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-roslindale/blocks/01.html"
+    },
+    {
+      "id": "djr-com-roslindale#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#specimen",
+      "classes": [
+        "specimen"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1572,
+        "w": 1440,
+        "h": 1813
+      },
+      "headings": [],
+      "parentHeadings": [
+        "When in Doubt, Use Roslindale",
+        "History.",
+        "Family.",
+        "Optical Sizes"
+      ],
+      "textPreview": "HARDPRESSED Unapproachable AMBASSADORS Symptomatically DISPLAY CONDENSED ULTRA APPROPRIATION Administratively UNDERGROWTH Communication DISPLAY CONDENSED BLACK INTRANSIGENCE Comprehension UNATTENUATED Anthropometric DISPLAY CONDENSED BOLD S",
+      "fontFamilies": [
+        "RoslindaleWeb",
+        "InputSansNarrowWeb"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"opsz\" 14.25",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 75, \"wght\" 900",
+        "\"opsz\" 48, \"slnt\" -8, \"wdth\" 75, \"wght\" 900",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 75, \"wght\" 800",
+        "\"opsz\" 48, \"slnt\" -8, \"wdth\" 75, \"wght\" 800",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 75, \"wght\" 700",
+        "\"opsz\" 48, \"slnt\" -8, \"wdth\" 75, \"wght\" 700",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 75, \"wght\" 600"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 8,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.133,
+        "relY": 0.047,
+        "heightVh": 1.103,
+        "widthRatio": 1,
+        "text": 6.531,
+        "elements": 4.06,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.1,
+        "singleChar": 0,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 2.197,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": "archive/djr-com-roslindale/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-roslindale/blocks/02.html"
+    },
+    {
+      "id": "djr-com-roslindale#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#history",
+      "classes": [
+        "history",
+        "versatility"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3385,
+        "w": 1440,
+        "h": 5285
+      },
+      "headings": [
+        "History."
+      ],
+      "parentHeadings": [
+        "When in Doubt, Use Roslindale",
+        "History.",
+        "Family.",
+        "Optical Sizes"
+      ],
+      "textPreview": "History. Theodore Low De Vinne. Toward the end of the 19th century, Theodore Low De Vinne was a man in need. Not of work, for he was one of the most prolific printers in America, producing books for institutions, publishers, and bibliophile",
+      "fontFamilies": [
+        "RoslindaleWeb",
+        "InputSansNarrowWeb"
+      ],
+      "maxFontSizePx": 360,
+      "variationSettings": [
+        "\"opsz\" 48",
+        "\"opsz\" 15",
+        "\"slnt\" -8"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 7,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(252, 221, 154)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.2,
+        "relY": 0.102,
+        "heightVh": 1.927,
+        "widthRatio": 1,
+        "text": 8.29,
+        "elements": 4.078,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.25,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.079,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.135,
+        "bgLum": 0.747,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-roslindale/blocks/03.jpg",
+      "cropTruncated": true,
+      "html": "archive/djr-com-roslindale/blocks/03.html"
+    },
+    {
+      "id": "djr-com-roslindale#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#specimen",
+      "classes": [
+        "specimen"
+      ],
+      "box": {
+        "x": 0,
+        "y": 8670,
+        "w": 1440,
+        "h": 1813
+      },
+      "headings": [],
+      "parentHeadings": [
+        "When in Doubt, Use Roslindale",
+        "History.",
+        "Family.",
+        "Optical Sizes"
+      ],
+      "textPreview": "ACQUAINTING Commendable LETTERHEAD Reconciliation DISPLAY NARROW ULTRA REFERENDUM Oceanographic CAMPAIGNING Retrospectively DISPLAY NARROW BLACK SYMMETRICAL Entrepreneurial RESTRUCTURE Quintessentially DISPLAY NARROW BOLD CHESSBOARDS Electr",
+      "fontFamilies": [
+        "RoslindaleWeb",
+        "InputSansNarrowWeb"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"opsz\" 14.25",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 87.5, \"wght\" 900",
+        "\"opsz\" 48, \"slnt\" -8, \"wdth\" 87.5, \"wght\" 900",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 87.5, \"wght\" 800",
+        "\"opsz\" 48, \"slnt\" -8, \"wdth\" 87.5, \"wght\" 800",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 87.5, \"wght\" 700",
+        "\"opsz\" 48, \"slnt\" -8, \"wdth\" 87.5, \"wght\" 700",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 87.5, \"wght\" 600"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 8,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.267,
+        "relY": 0.261,
+        "heightVh": 1.103,
+        "widthRatio": 1,
+        "text": 6.463,
+        "elements": 4.06,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.1,
+        "singleChar": 0,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 2.197,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": "archive/djr-com-roslindale/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-roslindale/blocks/04.html"
+    },
+    {
+      "id": "djr-com-roslindale#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#family",
+      "classes": [
+        "family"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10483,
+        "w": 1440,
+        "h": 1316
+      },
+      "headings": [
+        "Family."
+      ],
+      "parentHeadings": [
+        "When in Doubt, Use Roslindale",
+        "History.",
+        "Family.",
+        "Optical Sizes"
+      ],
+      "textPreview": "Family. Roslindale Roslindale started as a single Condensed Bold weight sent out to my Font of the Month Club in 2017. Since then, it has grown organically over the years, with Text, Italic, Ultra, Deck, and Display styles joining the ranks",
+      "fontFamilies": [
+        "RoslindaleWeb"
+      ],
+      "maxFontSizePx": 360,
+      "variationSettings": [
+        "\"opsz\" 48",
+        "\"opsz\" 15",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 100, \"wght\" 700"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 74, 148)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.316,
+        "heightVh": 0.901,
+        "widthRatio": 1,
+        "text": 6.026,
+        "elements": 4.263,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.25,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.079,
+        "bgLum": 0.07,
+        "fgLum": 1
+      },
+      "crop": "archive/djr-com-roslindale/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-roslindale/blocks/05.html"
+    },
+    {
+      "id": "djr-com-roslindale#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#opsz-section",
+      "classes": [
+        "family",
+        "subsection"
+      ],
+      "box": {
+        "x": 0,
+        "y": 11799,
+        "w": 1440,
+        "h": 866
+      },
+      "headings": [
+        "Optical Sizes"
+      ],
+      "parentHeadings": [
+        "When in Doubt, Use Roslindale",
+        "History.",
+        "Family.",
+        "Optical Sizes"
+      ],
+      "textPreview": "Optical Sizes In a vibes-centric typeface like Roslindale, a range of optical sizes makes it possible to strike the right chord in sizes both big and small. In text, Roslindale sets dense paragraphs with low-contrast forms and loose, rhythm",
+      "fontFamilies": [
+        "RoslindaleWeb"
+      ],
+      "maxFontSizePx": 58,
+      "variationSettings": [
+        "\"opsz\" 15",
+        "\"opsz\" 31.8335",
+        "\"opsz\" 10, \"slnt\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 10, \"slnt\" -8, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 16, \"slnt\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"opsz\" 16, \"slnt\" -8, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(22, 59, 118)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.4,
+        "relY": 0.355,
+        "heightVh": 0.674,
+        "widthRatio": 1,
+        "text": 11.04,
+        "elements": 6.23,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.041,
+        "singleChar": 0,
+        "varSettings": 6,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.046,
+        "fgLum": 1
+      },
+      "crop": "archive/djr-com-roslindale/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-roslindale/blocks/06.html"
+    },
+    {
+      "id": "djr-com-roslindale#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#italics-section",
+      "classes": [
+        "family",
+        "subsection"
+      ],
+      "box": {
+        "x": 0,
+        "y": 12666,
+        "w": 1440,
+        "h": 564
+      },
+      "headings": [
+        "Italics"
+      ],
+      "parentHeadings": [
+        "When in Doubt, Use Roslindale",
+        "History.",
+        "Family.",
+        "Optical Sizes"
+      ],
+      "textPreview": "Italics Variable Fonts give us the opportunity to rethink the role that Italics play in a type family, and ask questions like, “What should the space between Roman and Italic look like?” As Roslindale’s slant angle steepens, its lowercase s",
+      "fontFamilies": [
+        "RoslindaleWeb",
+        "InputSansNarrowWeb"
+      ],
+      "maxFontSizePx": 576,
+      "variationSettings": [
+        "\"opsz\" 15",
+        "\"slnt\" 105.156",
+        "\"opsz\" 48, \"slnt\" -8, \"wght\" 700",
+        "\"slnt\" -8",
+        "\"opsz\" 48, \"slnt\" 0",
+        "\"opsz\" 48, \"slnt\" -2",
+        "\"opsz\" 48, \"slnt\" -5",
+        "\"opsz\" 48, \"slnt\" -8"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 5,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 74, 148)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.467,
+        "relY": 0.381,
+        "heightVh": 0.487,
+        "widthRatio": 1,
+        "text": 6.449,
+        "elements": 3.332,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.4,
+        "singleChar": 1.609,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 1.792,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.07,
+        "fgLum": 1
+      },
+      "crop": "archive/djr-com-roslindale/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-roslindale/blocks/07.html"
+    },
+    {
+      "id": "djr-com-roslindale#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#weight-section",
+      "classes": [
+        "family",
+        "subsection"
+      ],
+      "box": {
+        "x": 0,
+        "y": 13230,
+        "w": 1440,
+        "h": 749
+      },
+      "headings": [
+        "Widths"
+      ],
+      "parentHeadings": [
+        "When in Doubt, Use Roslindale",
+        "History.",
+        "Family.",
+        "Optical Sizes"
+      ],
+      "textPreview": "Widths Roslindale’s width axis was born of necessity, a way of uniting the original Display Condensed weights with the wider, textier weights that followed. It was important to me that the family not lose hold of its unique characteristics ",
+      "fontFamilies": [
+        "RoslindaleWeb",
+        "InputSansNarrowWeb"
+      ],
+      "maxFontSizePx": 86,
+      "variationSettings": [
+        "\"opsz\" 15",
+        "\"opsz\" 31.8335",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 75, \"wght\" 600",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 100, \"wght\" 600",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 87.5, \"wght\" 600"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(22, 59, 118)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.533,
+        "relY": 0.398,
+        "heightVh": 0.606,
+        "widthRatio": 1,
+        "text": 6.25,
+        "elements": 2.89,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.059,
+        "singleChar": 0,
+        "varSettings": 5,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.046,
+        "fgLum": 1
+      },
+      "crop": "archive/djr-com-roslindale/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-roslindale/blocks/08.html"
+    },
+    {
+      "id": "djr-com-roslindale#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#weight-section",
+      "classes": [
+        "family",
+        "subsection"
+      ],
+      "box": {
+        "x": 0,
+        "y": 13979,
+        "w": 1440,
+        "h": 483
+      },
+      "headings": [
+        "Weights"
+      ],
+      "parentHeadings": [
+        "When in Doubt, Use Roslindale",
+        "History.",
+        "Family.",
+        "Optical Sizes"
+      ],
+      "textPreview": "Weights Roslindale’s bold is funky; it’s probably why you’re here. Its Extra Light is downright ethereal; perhaps it’s why you stay. The family’s ability to shift in tone, from elegant to quirky, from spindly to self-confident, is one of it",
+      "fontFamilies": [
+        "RoslindaleWeb"
+      ],
+      "maxFontSizePx": 387,
+      "variationSettings": [
+        "\"opsz\" 15",
+        "\"opsz\" 31.8335",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 75"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 74, 148)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.6,
+        "relY": 0.421,
+        "heightVh": 0.43,
+        "widthRatio": 1,
+        "text": 5.835,
+        "elements": 2.833,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.269,
+        "singleChar": 2.303,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.07,
+        "fgLum": 1
+      },
+      "crop": "archive/djr-com-roslindale/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-roslindale/blocks/09.html"
+    },
+    {
+      "id": "djr-com-roslindale#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#specimen",
+      "classes": [
+        "specimen"
+      ],
+      "box": {
+        "x": 0,
+        "y": 14462,
+        "w": 1440,
+        "h": 1813
+      },
+      "headings": [],
+      "parentHeadings": [
+        "When in Doubt, Use Roslindale",
+        "History.",
+        "Family.",
+        "Optical Sizes"
+      ],
+      "textPreview": "SECONDARIES Semiconductors CALORIMETRY Unaccompanied DISPLAY ULTRA DELINQUENTS Argumentatively INSENSITIVITY Palaeontological DISPLAY BLACK SECONDMENT Impoverishment PROTECTIONS Nanotechnology DISPLAY BOLD GRANULATION Choreographers BLASPHE",
+      "fontFamilies": [
+        "RoslindaleWeb",
+        "InputSansNarrowWeb"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"opsz\" 14.25",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 100, \"wght\" 900",
+        "\"opsz\" 48, \"slnt\" -8, \"wdth\" 100, \"wght\" 900",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 100, \"wght\" 800",
+        "\"opsz\" 48, \"slnt\" -8, \"wdth\" 100, \"wght\" 800",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 100, \"wght\" 700",
+        "\"opsz\" 48, \"slnt\" -8, \"wdth\" 100, \"wght\" 700",
+        "\"opsz\" 48, \"slnt\" 0, \"wdth\" 100, \"wght\" 600"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 8,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.435,
+        "heightVh": 1.103,
+        "widthRatio": 1,
+        "text": 6.361,
+        "elements": 4.06,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.1,
+        "singleChar": 0,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 2.197,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": "archive/djr-com-roslindale/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-roslindale/blocks/10.html"
+    },
+    {
+      "id": "djr-com-roslindale#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#utility",
+      "classes": [
+        "versatility"
+      ],
+      "box": {
+        "x": 0,
+        "y": 16275,
+        "w": 1440,
+        "h": 5561
+      },
+      "headings": [
+        "Utility."
+      ],
+      "parentHeadings": [
+        "When in Doubt, Use Roslindale",
+        "History.",
+        "Family.",
+        "Optical Sizes"
+      ],
+      "textPreview": "Utility. Roslindale is a typeface with personality to spare. But its secret power is that, structurally-speaking, it’s not so different from serif mainstays like Times, which makes it surprisingly versatile. The family has been used in iden",
+      "fontFamilies": [
+        "RoslindaleWeb",
+        "InputSansNarrowWeb"
+      ],
+      "maxFontSizePx": 360,
+      "variationSettings": [
+        "\"opsz\" 48",
+        "\"opsz\" 15"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 16,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(252, 221, 154)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.733,
+        "relY": 0.49,
+        "heightVh": 1.971,
+        "widthRatio": 1,
+        "text": 6.469,
+        "elements": 4.007,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.25,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.833,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.89,
+        "bgLum": 0.747,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-roslindale/blocks/11.jpg",
+      "cropTruncated": true,
+      "html": "archive/djr-com-roslindale/blocks/11.html"
+    },
+    {
+      "id": "djr-com-roslindale#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#credits",
+      "classes": [
+        "credits"
+      ],
+      "box": {
+        "x": 0,
+        "y": 21836,
+        "w": 1440,
+        "h": 1181
+      },
+      "headings": [
+        "ROSLINDALE was designed by David Jonathan Ross, with additional drawing by Jovan",
+        "This webpage was designed and developed by Typetura.",
+        "Florence Fu and André Mora contributed writing and research to the writing on th"
+      ],
+      "parentHeadings": [
+        "When in Doubt, Use Roslindale",
+        "History.",
+        "Family.",
+        "Optical Sizes"
+      ],
+      "textPreview": "ROSLINDALE was designed by David Jonathan Ross, with additional drawing by Jovana Jocić and Jaimey Shapey. This webpage was designed and developed by Typetura. They have also generously included three complimentary templates with any purcha",
+      "fontFamilies": [
+        "RoslindaleWeb"
+      ],
+      "maxFontSizePx": 75,
+      "variationSettings": [
+        "\"opsz\" 48, \"wdth\" 75, \"wght\" 600",
+        "\"opsz\" 15"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 219, 188)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.8,
+        "relY": 0.657,
+        "heightVh": 0.838,
+        "widthRatio": 1,
+        "text": 6.066,
+        "elements": 2.639,
+        "headings": 3,
+        "fontSizes": 2,
+        "maxFontVw": 0.052,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.946,
+        "bgLum": 0,
+        "fgLum": 0.756
+      },
+      "crop": "archive/djr-com-roslindale/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-roslindale/blocks/12.html"
+    },
+    {
+      "id": "djr-com-roslindale#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "h1",
+      "selector": "#buy > h1",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 23065,
+        "w": 1440,
+        "h": 230
+      },
+      "headings": [],
+      "parentHeadings": [
+        "Get Roslindale",
+        "LICENSE SIZES",
+        "PREVIEW TEXT",
+        "FULL SERIES PACKAGE"
+      ],
+      "textPreview": "Get Roslindale",
+      "fontFamilies": [],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.867,
+        "relY": 0.694,
+        "heightVh": 0.228,
+        "widthRatio": 1,
+        "text": 2.708,
+        "elements": 0,
+        "headings": 0,
+        "fontSizes": 0,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-roslindale/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/djr-com-roslindale/blocks/13.html"
+    },
+    {
+      "id": "djr-com-roslindale#14",
+      "nn": "14",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#buy > div",
+      "classes": [
+        "wrapper"
+      ],
+      "box": {
+        "x": 200,
+        "y": 23329,
+        "w": 1040,
+        "h": 9276
+      },
+      "headings": [
+        "LICENSE SIZES",
+        "PREVIEW TEXT",
+        "FULL SERIES PACKAGE",
+        "OTHER PACKAGES"
+      ],
+      "parentHeadings": [
+        "Get Roslindale",
+        "LICENSE SIZES",
+        "PREVIEW TEXT",
+        "FULL SERIES PACKAGE"
+      ],
+      "textPreview": "LICENSE SIZES Mini For use not exceeding: 3 workstations for print/desktop use 15,000 monthly unique web visitors 1 app or e-book More Info Small For use not exceeding: 8 workstations for print/desktop use 100,000 monthly unique web visitor",
+      "fontFamilies": [
+        "RoslindaleWeb",
+        "Arial",
+        "InputSansNarrowWeb",
+        "RoslindaleVariableopsz",
+        "RoslindaleDispCnd-ExLight",
+        "RoslindaleDispCnd-ExLightI",
+        "RoslindaleDispCnd-Light",
+        "RoslindaleDispCnd-LightI"
+      ],
+      "maxFontSizePx": 64,
+      "variationSettings": [],
+      "controls": {
+        "range": 18,
+        "text": 1,
+        "contenteditable": 0,
+        "checkbox": 72,
+        "select": 0,
+        "buttons": 8,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.933,
+        "relY": 0.702,
+        "heightVh": 2.425,
+        "widthRatio": 0.722,
+        "text": 10.646,
+        "elements": 7.248,
+        "headings": 4,
+        "fontSizes": 11,
+        "maxFontVw": 0.044,
+        "singleChar": 2.485,
+        "varSettings": 0,
+        "range": 2.944,
+        "textInput": 0.693,
+        "toggles": 4.29,
+        "buttons": 2.197,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.485,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/djr-com-roslindale/blocks/14.jpg",
+      "cropTruncated": true,
+      "html": "archive/djr-com-roslindale/blocks/14.html"
+    },
+    {
+      "id": "djr-com-roslindale#15",
+      "nn": "15",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > footer",
+      "classes": [
+        "site-footer",
+        "h-card"
+      ],
+      "box": {
+        "x": 0,
+        "y": 32681,
+        "w": 1440,
+        "h": 540
+      },
+      "headings": [
+        "DAVID JONATHAN ROSS",
+        "ELSEWHERE",
+        "FONT OF THE MONTH CLUB",
+        "TYPEFACES"
+      ],
+      "parentHeadings": null,
+      "textPreview": "DAVID JONATHAN ROSS RSS feed: Blog RSS feed: Glyph of the Day Mailing List ELSEWHERE Fonts in Use Mastodon Glyph of the Day Type Network Fontstand Adobe Fonts GitHub Calendly (Type Crit Crew) Instagram (inactive) FONT OF THE MONTH CLUB TYPE",
+      "fontFamilies": [
+        "InputSansNarrowWeb"
+      ],
+      "maxFontSizePx": 15,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(252, 221, 154)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.984,
+        "heightVh": 0.47,
+        "widthRatio": 1,
+        "text": 6.452,
+        "elements": 4.787,
+        "headings": 4,
+        "fontSizes": 3,
+        "maxFontVw": 0.01,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.932,
+        "bgLum": 0.747,
+        "fgLum": 1
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/djr-com-roslindale/blocks/15.html"
+    }
+  ]
+}

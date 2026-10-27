@@ -1,0 +1,785 @@
+{
+  "slug": "vollkorn-typeface-com",
+  "url": "http://vollkorn-typeface.com/",
+  "pageHeight": 10879,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "vollkorn-typeface-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#oben",
+      "classes": [
+        "kiste"
+      ],
+      "box": {
+        "x": 310,
+        "y": 0,
+        "w": 820,
+        "h": 1212
+      },
+      "headings": [
+        "Vollkorn"
+      ],
+      "parentHeadings": null,
+      "textPreview": "S Vollkorn The free and healthy typeface for bread and butter use ELAKB Version 4.1 provides more weights than ever! free as always Latin • Кириллица • Ελληνικά → pay what you want ← 0123456789 Designed by Friedrich Althausen",
+      "fontFamilies": [
+        "icons",
+        "vollkorn"
+      ],
+      "maxFontSizePx": 320,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(228, 223, 205)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.853,
+        "widthRatio": 0.569,
+        "text": 5.46,
+        "elements": 2.708,
+        "headings": 1,
+        "fontSizes": 10,
+        "maxFontVw": 0.222,
+        "singleChar": 0.693,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.609,
+        "bgLum": 0.737,
+        "fgLum": 0
+      },
+      "crop": "archive/vollkorn-typeface-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/vollkorn-typeface-com/blocks/00.html"
+    },
+    {
+      "id": "vollkorn-typeface-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#features",
+      "classes": [
+        "kiste"
+      ],
+      "box": {
+        "x": 310,
+        "y": 1212,
+        "w": 820,
+        "h": 6754
+      },
+      "headings": [
+        "Features",
+        "Twelve Grainy Styles info",
+        "Small Caps info",
+        "Cyrillic info"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Twelve Grainy Styles info new Vollkorn Regular Italic Vollkorn Medium Italic Vollkorn SemiBold Italic Vollkorn Bold Italic Vollkorn ExtraBold Italic Vollkorn Black Italic Small Caps info For all łäṇǧųãgḝs, including Кириллица & numbers 256/",
+      "fontFamilies": [
+        "vollkorn"
+      ],
+      "maxFontSizePx": 52,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 15,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(228, 223, 205)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.125,
+        "relY": 0.111,
+        "heightVh": 2.141,
+        "widthRatio": 0.569,
+        "text": 8.743,
+        "elements": 5.864,
+        "headings": 4,
+        "fontSizes": 7,
+        "maxFontVw": 0.036,
+        "singleChar": 4.554,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.773,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.091,
+        "bgLum": 0.737,
+        "fgLum": 0
+      },
+      "crop": "archive/vollkorn-typeface-com/blocks/01.jpg",
+      "cropTruncated": true,
+      "html": "archive/vollkorn-typeface-com/blocks/01.html"
+    },
+    {
+      "id": "vollkorn-typeface-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#download",
+      "classes": [
+        "kiste"
+      ],
+      "box": {
+        "x": 310,
+        "y": 7982,
+        "w": 820,
+        "h": 190
+      },
+      "headings": [
+        "Download"
+      ],
+      "parentHeadings": null,
+      "textPreview": "D Download Vollkorn Version 4.105 | 2018_05_09 | zip | 11 mb",
+      "fontFamilies": [
+        "vollkorn",
+        "icons"
+      ],
+      "maxFontSizePx": 130,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(228, 223, 205)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.25,
+        "relY": 0.734,
+        "heightVh": 0.192,
+        "widthRatio": 0.569,
+        "text": 4.111,
+        "elements": 2.485,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.09,
+        "singleChar": 1.099,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.737,
+        "fgLum": 0
+      },
+      "crop": "archive/vollkorn-typeface-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/vollkorn-typeface-com/blocks/02.html"
+    },
+    {
+      "id": "vollkorn-typeface-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#donate",
+      "classes": [
+        "kiste"
+      ],
+      "box": {
+        "x": 310,
+        "y": 8192,
+        "w": 820,
+        "h": 190
+      },
+      "headings": [
+        "Donate — Pay what You want!",
+        "Share"
+      ],
+      "parentHeadings": null,
+      "textPreview": "M Pay what you want!",
+      "fontFamilies": [
+        "vollkorn",
+        "icons"
+      ],
+      "maxFontSizePx": 130,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(228, 223, 205)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.375,
+        "relY": 0.753,
+        "heightVh": 0.192,
+        "widthRatio": 0.569,
+        "text": 3.135,
+        "elements": 2.565,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.09,
+        "singleChar": 0.693,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.737,
+        "fgLum": 0
+      },
+      "crop": "archive/vollkorn-typeface-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/vollkorn-typeface-com/blocks/03.html"
+    },
+    {
+      "id": "vollkorn-typeface-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#inuse",
+      "classes": [
+        "kiste"
+      ],
+      "box": {
+        "x": 310,
+        "y": 8402,
+        "w": 820,
+        "h": 659
+      },
+      "headings": [
+        "In use",
+        "In The Wild"
+      ],
+      "parentHeadings": null,
+      "textPreview": "In The Wild Die Vollwert-Fibel (2017) Chornfeld Jazz Choir Leipzig Yaotaos Zeichen, Kunstanstifter (2017) Latermark for Pocket (2017) Tress Pasta Wholemeal (2017) Website Gästehaus »zum Jäger« (2017) Der große Glander (2016) Initiative Cook",
+      "fontFamilies": [
+        "vollkorn"
+      ],
+      "maxFontSizePx": 30,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 22,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(228, 223, 205)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.772,
+        "heightVh": 0.549,
+        "widthRatio": 0.569,
+        "text": 6.542,
+        "elements": 4.248,
+        "headings": 2,
+        "fontSizes": 4,
+        "maxFontVw": 0.021,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 3.135,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.135,
+        "bgLum": 0.737,
+        "fgLum": 0
+      },
+      "crop": "archive/vollkorn-typeface-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/vollkorn-typeface-com/blocks/04.html"
+    },
+    {
+      "id": "vollkorn-typeface-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#faq",
+      "classes": [
+        "kiste"
+      ],
+      "box": {
+        "x": 310,
+        "y": 9076,
+        "w": 820,
+        "h": 807
+      },
+      "headings": [
+        "FAQ"
+      ],
+      "parentHeadings": null,
+      "textPreview": "? Frequently Asked Questions Am I allowed to use Vollkorn for commercial purposes? What does the license allow, and what is forbidden? What does Vollkorn cost? How much should I donate? How can I donate aside from Paypal? What is the differ",
+      "fontFamilies": [
+        "vollkorn"
+      ],
+      "maxFontSizePx": 114,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(228, 223, 205)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.625,
+        "relY": 0.834,
+        "heightVh": 0.64,
+        "widthRatio": 0.569,
+        "text": 6.378,
+        "elements": 4.489,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.079,
+        "singleChar": 0.693,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.584,
+        "bgLum": 0.737,
+        "fgLum": 0
+      },
+      "crop": "archive/vollkorn-typeface-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/vollkorn-typeface-com/blocks/05.html"
+    },
+    {
+      "id": "vollkorn-typeface-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#comments",
+      "classes": [
+        "kiste"
+      ],
+      "box": {
+        "x": 310,
+        "y": 9893,
+        "w": 820,
+        "h": 669
+      },
+      "headings": [
+        "Comments",
+        "Thanks, Bugs, Feature Requests"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Thanks, Bugs, Feature Requests Discuss here or on Github Most wanted features Be the first person to leave a comment Your name:* Email: Comment:* Powered by EasyComment Submit",
+      "fontFamilies": [
+        "vollkorn"
+      ],
+      "maxFontSizePx": 30,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 2,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(228, 223, 205)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": true,
+        "price": false
+      },
+      "vector": {
+        "order": 0.75,
+        "relY": 0.909,
+        "heightVh": 0.556,
+        "widthRatio": 0.569,
+        "text": 5.198,
+        "elements": 3.912,
+        "headings": 2,
+        "fontSizes": 6,
+        "maxFontVw": 0.021,
+        "singleChar": 1.099,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 1.099,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": 0.737,
+        "fgLum": 0
+      },
+      "crop": "archive/vollkorn-typeface-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/vollkorn-typeface-com/blocks/06.html"
+    },
+    {
+      "id": "vollkorn-typeface-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "p",
+      "selector": "body > p",
+      "classes": [
+        "iconsline"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10571,
+        "w": 1440,
+        "h": 126
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "ELAKB",
+      "fontFamilies": [],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(179, 159, 128)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.875,
+        "relY": 0.972,
+        "heightVh": 0.131,
+        "widthRatio": 1,
+        "text": 1.792,
+        "elements": 0,
+        "headings": 0,
+        "fontSizes": 0,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.359
+      },
+      "crop": "archive/vollkorn-typeface-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/vollkorn-typeface-com/blocks/07.html"
+    },
+    {
+      "id": "vollkorn-typeface-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(9)",
+      "classes": [
+        "seitenfuss"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10697,
+        "w": 1440,
+        "h": 182
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "© 2006—2019 Friedrich Althausen Ziegelstraße 23 · 14548 Caputh · Germany · friedrichalthausen.de twitter.com/VollkornFont · newsletter subscription Updated 2019_06_07",
+      "fontFamilies": [
+        "vollkorn"
+      ],
+      "maxFontSizePx": 17,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(126, 127, 129)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": true,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.983,
+        "heightVh": 0.184,
+        "widthRatio": 1,
+        "text": 5.118,
+        "elements": 1.946,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.012,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 0.212
+      },
+      "crop": "archive/vollkorn-typeface-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/vollkorn-typeface-com/blocks/08.html"
+    }
+  ]
+}

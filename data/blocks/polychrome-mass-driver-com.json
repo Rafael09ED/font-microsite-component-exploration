@@ -1,0 +1,1494 @@
+{
+  "slug": "polychrome-mass-driver-com",
+  "url": "https://polychrome.mass-driver.com",
+  "pageHeight": 7327,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "polychrome-mass-driver-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#splash",
+      "classes": [
+        "splash"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 605
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "MD System",
+        ""
+      ],
+      "maxFontSizePx": null,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 1,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.514,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": null,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0.693,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.402
+      },
+      "crop": "archive/polychrome-mass-driver-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/polychrome-mass-driver-com/blocks/00.html"
+    },
+    {
+      "id": "polychrome-mass-driver-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(1)",
+      "classes": [
+        "grid",
+        "intro"
+      ],
+      "box": {
+        "x": 0,
+        "y": 605,
+        "w": 1440,
+        "h": 270
+      },
+      "headings": [
+        "MD Polychrome is a typeface based on the unique aesthetic of Magnetic Ink Charac"
+      ],
+      "parentHeadings": null,
+      "textPreview": "MD Polychrome is a typeface based on the unique aesthetic of Magnetic Ink Character Recognition (MICR), and the pre-digital typefaces it inspired. Available in four styles, the design both refines and expands on the traditional MICR aesthet",
+      "fontFamilies": [
+        "MD Polychrome",
+        "MD System"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.063,
+        "relY": 0.083,
+        "heightVh": 0.262,
+        "widthRatio": 1,
+        "text": 6.031,
+        "elements": 1.386,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.033,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.402
+      },
+      "crop": "archive/polychrome-mass-driver-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/polychrome-mass-driver-com/blocks/01.html"
+    },
+    {
+      "id": "polychrome-mass-driver-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": true,
+      "tag": "nav",
+      "selector": "#nav-bar",
+      "classes": [
+        "grid",
+        "nav_bar",
+        "glyphs"
+      ],
+      "box": {
+        "x": 0,
+        "y": 875,
+        "w": 1440,
+        "h": 62
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Overview Design Specimens OpenType Glyphs Try / Buy ↗",
+      "fontFamilies": [
+        "MD Polychrome"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "hints": {
+        "commerce": true,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.125,
+        "relY": 0.119,
+        "heightVh": 0.067,
+        "widthRatio": 1,
+        "text": 4.078,
+        "elements": 2.565,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.946,
+        "bgLum": 0,
+        "fgLum": 0.402
+      },
+      "crop": "archive/polychrome-mass-driver-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/polychrome-mass-driver-com/blocks/02.html"
+    },
+    {
+      "id": "polychrome-mass-driver-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(2)",
+      "classes": [
+        "grid",
+        "overview__weights"
+      ],
+      "box": {
+        "x": 0,
+        "y": 937,
+        "w": 1440,
+        "h": 473
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Rather than the more conventional weight axis, MD Polychrome expresses its design through size. With four discrete options — Nano, Kilo, Mega and Giga — which maintain the same weight in their thick strokes while modulating the thins.",
+      "fontFamilies": [
+        "MD System",
+        ""
+      ],
+      "maxFontSizePx": null,
+      "variationSettings": [
+        "\"slnt\" -10"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 1,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.188,
+        "relY": 0.128,
+        "heightVh": 0.422,
+        "widthRatio": 1,
+        "text": 5.46,
+        "elements": 2.079,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": null,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0.693,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.402
+      },
+      "crop": "archive/polychrome-mass-driver-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/polychrome-mass-driver-com/blocks/03.html"
+    },
+    {
+      "id": "polychrome-mass-driver-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#variable",
+      "classes": [
+        "grid",
+        "overview__variable"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1409,
+        "w": 1440,
+        "h": 324
+      },
+      "headings": [
+        "VARIABLE"
+      ],
+      "parentHeadings": null,
+      "textPreview": "VARIABLE For finer control than the static sizes, MD Polychrome Variable unifies the optical size axis into a variable font. This single font file contains not just all four discrete styles, but also the near-infinite size options between t",
+      "fontFamilies": [
+        "MD Polychrome Subset",
+        "MD System"
+      ],
+      "maxFontSizePx": 144,
+      "variationSettings": [
+        "\"opsz\" 24",
+        "\"slnt\" -10"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.25,
+        "relY": 0.192,
+        "heightVh": 0.307,
+        "widthRatio": 1,
+        "text": 5.513,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.1,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.402
+      },
+      "crop": "archive/polychrome-mass-driver-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/polychrome-mass-driver-com/blocks/04.html"
+    },
+    {
+      "id": "polychrome-mass-driver-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "header",
+      "selector": "body > header:nth-of-type(1)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 1733,
+        "w": 1440,
+        "h": 142
+      },
+      "headings": [
+        "About the Design"
+      ],
+      "parentHeadings": null,
+      "textPreview": "About the Design",
+      "fontFamilies": [
+        "MD System",
+        "MD Polychrome"
+      ],
+      "maxFontSizePx": 64,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.313,
+        "relY": 0.237,
+        "heightVh": 0.147,
+        "widthRatio": 1,
+        "text": 2.833,
+        "elements": 1.099,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.044,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.402
+      },
+      "crop": "archive/polychrome-mass-driver-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/polychrome-mass-driver-com/blocks/05.html"
+    },
+    {
+      "id": "polychrome-mass-driver-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(4)",
+      "classes": [
+        "grid",
+        "design__micr"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1875,
+        "w": 1440,
+        "h": 517
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "MD Polychrome’s design stems from MICR, or Magnetic Ink Character Recognition. Invented in the late 1950s, MICR allows human-readable characters to also be recognised by a magnetic scanner, on account of each character producing a different",
+      "fontFamilies": [
+        "MD System"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"slnt\" -10"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.375,
+        "relY": 0.256,
+        "heightVh": 0.454,
+        "widthRatio": 1,
+        "text": 6.17,
+        "elements": 2.708,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.402
+      },
+      "crop": "archive/polychrome-mass-driver-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/polychrome-mass-driver-com/blocks/06.html"
+    },
+    {
+      "id": "polychrome-mass-driver-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(5)",
+      "classes": [
+        "grid",
+        "design__digitisation"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2392,
+        "w": 1440,
+        "h": 541
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Rounded corners made from sections of circles may be quicker to draw, but the ‘bump’ where they start and end is easily visible. MD Polychrome’s curves are carefully drawn to blend with its straight sections, unifying the letterform into a ",
+      "fontFamilies": [
+        "MD System"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.438,
+        "relY": 0.326,
+        "heightVh": 0.471,
+        "widthRatio": 1,
+        "text": 6.582,
+        "elements": 3.258,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.402
+      },
+      "crop": "archive/polychrome-mass-driver-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/polychrome-mass-driver-com/blocks/07.html"
+    },
+    {
+      "id": "polychrome-mass-driver-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(6)",
+      "classes": [
+        "grid",
+        "design__currency"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2933,
+        "w": 1440,
+        "h": 387
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "While all of our typefaces support a wide range of Latin-based languages, MD Polychrome’s character set is our largest to date. It covers over 400 languages, and includes a suite of currency symbols to match — some of which have never been ",
+      "fontFamilies": [
+        "MD System"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.4,
+        "heightVh": 0.358,
+        "widthRatio": 1,
+        "text": 5.656,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.402
+      },
+      "crop": "archive/polychrome-mass-driver-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/polychrome-mass-driver-com/blocks/08.html"
+    },
+    {
+      "id": "polychrome-mass-driver-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "header",
+      "selector": "body > header:nth-of-type(2)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 3320,
+        "w": 1440,
+        "h": 142
+      },
+      "headings": [
+        "Usage Specimens"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Usage Specimens",
+      "fontFamilies": [
+        "MD System",
+        "MD Polychrome"
+      ],
+      "maxFontSizePx": 64,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.563,
+        "relY": 0.453,
+        "heightVh": 0.147,
+        "widthRatio": 1,
+        "text": 2.773,
+        "elements": 1.099,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.044,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.402
+      },
+      "crop": "archive/polychrome-mass-driver-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/polychrome-mass-driver-com/blocks/09.html"
+    },
+    {
+      "id": "polychrome-mass-driver-com#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#testers",
+      "classes": [
+        "grid",
+        "specimens"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3462,
+        "w": 1440,
+        "h": 1844
+      },
+      "headings": [
+        "MD Polychrome Giga",
+        "MD Polychrome Mega",
+        "MD Polychrome Kilo",
+        "MD Polychrome Nano"
+      ],
+      "parentHeadings": null,
+      "textPreview": "MD Polychrome Giga JUPITER-2 M74 Galaxy MD Polychrome Mega LIQUID MERCURY Monolith Dreaming MD Polychrome Kilo SUPER-CONDUCTIVE MATERIALS June 3, 1965: First U.S. Spacewalk MD Polychrome Nano “THE LEFT HAND OF DARKNESS”, URSULA K. LE GUIN’S",
+      "fontFamilies": [
+        "MD System",
+        "MD Polychrome"
+      ],
+      "maxFontSizePx": 305,
+      "variationSettings": [
+        "\"opsz\" 196",
+        "\"opsz\" 72",
+        "\"opsz\" 34",
+        "\"opsz\" 24"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 8,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.625,
+        "relY": 0.472,
+        "heightVh": 1.115,
+        "widthRatio": 1,
+        "text": 5.72,
+        "elements": 3.611,
+        "headings": 4,
+        "fontSizes": 9,
+        "maxFontVw": 0.212,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 0,
+        "textInput": 2.197,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.402
+      },
+      "crop": "archive/polychrome-mass-driver-com/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/polychrome-mass-driver-com/blocks/10.html"
+    },
+    {
+      "id": "polychrome-mass-driver-com#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "header",
+      "selector": "body > header:nth-of-type(3)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 5306,
+        "w": 1440,
+        "h": 142
+      },
+      "headings": [
+        "OpenType Features"
+      ],
+      "parentHeadings": null,
+      "textPreview": "OpenType Features",
+      "fontFamilies": [
+        "MD System",
+        "MD Polychrome"
+      ],
+      "maxFontSizePx": 64,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.688,
+        "relY": 0.724,
+        "heightVh": 0.147,
+        "widthRatio": 1,
+        "text": 2.89,
+        "elements": 1.099,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.044,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.402
+      },
+      "crop": "archive/polychrome-mass-driver-com/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/polychrome-mass-driver-com/blocks/11.html"
+    },
+    {
+      "id": "polychrome-mass-driver-com#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(8)",
+      "classes": [
+        "grid",
+        "opentype"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5448,
+        "w": 1440,
+        "h": 809
+      },
+      "headings": [
+        "Android",
+        "Northern",
+        "More →",
+        "HEAVEN"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Android ss01 Square A Northern ss02 Diagonal N More → ss03 Chonky Arrows HEAVEN ss04 Interlocking Pairs 123/456 frac Arbitrary Fractions Şţ L·L íj locl Localised Forms* 1a 1o ordn Ordinals 01.28.49 tnum Tabular Numbers AVARICE calt Contextu",
+      "fontFamilies": [
+        "MD System",
+        "MD Polychrome"
+      ],
+      "maxFontSizePx": 64,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.75,
+        "relY": 0.744,
+        "heightVh": 0.641,
+        "widthRatio": 1,
+        "text": 5.908,
+        "elements": 4.078,
+        "headings": 4,
+        "fontSizes": 2,
+        "maxFontVw": 0.044,
+        "singleChar": 1.099,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.402
+      },
+      "crop": "archive/polychrome-mass-driver-com/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/polychrome-mass-driver-com/blocks/12.html"
+    },
+    {
+      "id": "polychrome-mass-driver-com#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "header",
+      "selector": "body > header:nth-of-type(4)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 6257,
+        "w": 1440,
+        "h": 142
+      },
+      "headings": [
+        "List of Glyphs"
+      ],
+      "parentHeadings": null,
+      "textPreview": "List of Glyphs",
+      "fontFamilies": [
+        "MD System",
+        "MD Polychrome"
+      ],
+      "maxFontSizePx": 64,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.813,
+        "relY": 0.854,
+        "heightVh": 0.147,
+        "widthRatio": 1,
+        "text": 2.708,
+        "elements": 1.099,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.044,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.402
+      },
+      "crop": "archive/polychrome-mass-driver-com/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/polychrome-mass-driver-com/blocks/13.html"
+    },
+    {
+      "id": "polychrome-mass-driver-com#14",
+      "nn": "14",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#glyphset",
+      "classes": [
+        "grid",
+        "glyphset"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6399,
+        "w": 1440,
+        "h": 129
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "MD System"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.875,
+        "relY": 0.873,
+        "heightVh": 0.134,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 0.402
+      },
+      "crop": "archive/polychrome-mass-driver-com/blocks/14.jpg",
+      "cropTruncated": false,
+      "html": "archive/polychrome-mass-driver-com/blocks/14.html"
+    },
+    {
+      "id": "polychrome-mass-driver-com#15",
+      "nn": "15",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(10)",
+      "classes": [
+        "ctas"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6528,
+        "w": 1440,
+        "h": 481
+      },
+      "headings": [
+        "Buy MD Polychrome ↗",
+        "Download Trial Fonts ↓",
+        "Read the PDF Specimen →"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Buy MD Polychrome ↗ Download Trial Fonts ↓ Read the PDF Specimen →",
+      "fontFamilies": [
+        "MD Polychrome"
+      ],
+      "maxFontSizePx": 80,
+      "variationSettings": [
+        "\"opsz\" 55"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.938,
+        "relY": 0.891,
+        "heightVh": 0.428,
+        "widthRatio": 1,
+        "text": 4.205,
+        "elements": 1.946,
+        "headings": 3,
+        "fontSizes": 1,
+        "maxFontVw": 0.056,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": 0,
+        "fgLum": 0.402
+      },
+      "crop": "archive/polychrome-mass-driver-com/blocks/15.jpg",
+      "cropTruncated": false,
+      "html": "archive/polychrome-mass-driver-com/blocks/15.html"
+    },
+    {
+      "id": "polychrome-mass-driver-com#16",
+      "nn": "16",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(11)",
+      "classes": [
+        "grid",
+        "footer"
+      ],
+      "box": {
+        "x": 0,
+        "y": 7009,
+        "w": 1440,
+        "h": 318
+      },
+      "headings": [
+        "About this Website",
+        "About the Foundry"
+      ],
+      "parentHeadings": null,
+      "textPreview": "About this Website Supporting text on this microsite is set in MD System. This site was designed and built in-house by Mass-Driver. It does not use cookies. © Mass-Driver 2022 About the Foundry Established in 2020, Mass-Driver is the type d",
+      "fontFamilies": [
+        "MD System",
+        "MD Polychrome"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(170, 170, 170)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.957,
+        "heightVh": 0.303,
+        "widthRatio": 1,
+        "text": 5.981,
+        "elements": 2.833,
+        "headings": 2,
+        "fontSizes": 2,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.609,
+        "bgLum": 0,
+        "fgLum": 0.402
+      },
+      "crop": "archive/polychrome-mass-driver-com/blocks/16.jpg",
+      "cropTruncated": false,
+      "html": "archive/polychrome-mass-driver-com/blocks/16.html"
+    }
+  ]
+}

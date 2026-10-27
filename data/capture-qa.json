@@ -1,0 +1,2542 @@
+[
+  {
+    "n": 1,
+    "slug": "gt-walsheim-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 12,
+      "fixed": 1
+    },
+    "pageHeight": 27789,
+    "title": "GT Walsheim Font Family • Supports Latin and Cyrillic Langua",
+    "flags": []
+  },
+  {
+    "n": 2,
+    "slug": "gt-america-com",
+    "mode": "vertical",
+    "scroll": "body.bg-white text-blue antialiased selection:bg-red selection:te",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 25,
+      "offscreen": 2
+    },
+    "pageHeight": 28704,
+    "title": "GT America Intl typeface exclusively at Grilli Type — Downlo",
+    "flags": []
+  },
+  {
+    "n": 3,
+    "slug": "gt-cinetype-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 12
+    },
+    "pageHeight": 13817,
+    "title": "GT Cinetype Font Family / Grilli Type / Mechanical Poetry",
+    "flags": []
+  },
+  {
+    "n": 4,
+    "slug": "gt-eesti-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 18
+    },
+    "pageHeight": 6221,
+    "title": "GT Eesti Typeface by Grilli Type – Story Page – Swiss Font w",
+    "flags": []
+  },
+  {
+    "n": 5,
+    "slug": "gt-ultra-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 16,
+      "fixed": 1,
+      "offscreen": 2
+    },
+    "pageHeight": 18940,
+    "title": "GT Ultra typeface family exclusively at Grilli Type — Downlo",
+    "flags": []
+  },
+  {
+    "n": 6,
+    "slug": "gt-flexa-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 13,
+      "offscreen": 2
+    },
+    "pageHeight": 15876,
+    "title": "GT Flexa exclusively at Grilli Type — Download Free Trial Fo",
+    "flags": []
+  },
+  {
+    "n": 7,
+    "slug": "gt-maru-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 13,
+      "fixed": 2,
+      "offscreen": 1
+    },
+    "pageHeight": 26863,
+    "title": "GT Maru exclusively at Grilli Type — Download Free Trial Fon",
+    "flags": []
+  },
+  {
+    "n": 8,
+    "slug": "gt-alpina-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 16,
+      "fixed": 2
+    },
+    "pageHeight": 19787,
+    "title": "GT Alpina by Grilli Type — Download Free Trial Fonts",
+    "flags": []
+  },
+  {
+    "n": 9,
+    "slug": "gt-super-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 36
+    },
+    "pageHeight": 15701,
+    "title": "GT Super — Download Free Trial Fonts",
+    "flags": []
+  },
+  {
+    "n": 10,
+    "slug": "gt-haptik-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 8
+    },
+    "pageHeight": 13437,
+    "title": "GT Haptik Font | Form Follows Touch | A Swiss monolinear geo",
+    "flags": []
+  },
+  {
+    "n": 11,
+    "slug": "gt-zirkon-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 5
+    },
+    "pageHeight": 14152,
+    "title": "GT Zirkon — Download Free Trial Fonts",
+    "flags": []
+  },
+  {
+    "n": 12,
+    "slug": "gt-pressura-com",
+    "mode": "vertical",
+    "scroll": "body.bg-white text-black antialiased selection:bg-red selection:t",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 10,
+      "offscreen": 2
+    },
+    "pageHeight": 23767,
+    "title": "GT Pressura typeface exclusively at Grilli Type — Download F",
+    "flags": []
+  },
+  {
+    "n": 13,
+    "slug": "gt-planar-com",
+    "mode": "vertical",
+    "scroll": "body.bg-black text-white antialiased selection:bg-green selection",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 17,
+      "fixed": 3
+    },
+    "pageHeight": 24435,
+    "title": "GT Planar typeface exclusively at Grilli Type — Download Fre",
+    "flags": []
+  },
+  {
+    "n": 14,
+    "slug": "gt-mechanik-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 23,
+      "fixed": 2
+    },
+    "pageHeight": 30000,
+    "title": "GT Mechanik",
+    "flags": [
+      "clipped"
+    ]
+  },
+  {
+    "n": 15,
+    "slug": "gt-canon-com",
+    "mode": "vertical",
+    "scroll": "div#panel-scroll-container.bg-black absolute inset-0 h-full text-white pt-12 lg:pt-10 p",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 11
+    },
+    "pageHeight": 19794,
+    "title": "GT Canon",
+    "flags": []
+  },
+  {
+    "n": 16,
+    "slug": "gt-flaire-com",
+    "mode": "vertical",
+    "scroll": "body.overflow-x-hidden intro-step-1 page-ready",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 6,
+      "offscreen": 2
+    },
+    "pageHeight": 18996,
+    "title": "GT Flaire typeface exclusively at Grilli Type — Download Fre",
+    "flags": []
+  },
+  {
+    "n": 17,
+    "slug": "gt-pantheon-com",
+    "mode": "vertical",
+    "scroll": "body.overflow-x-hidden",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 11,
+      "offscreen": 1
+    },
+    "pageHeight": 30000,
+    "title": "GT Pantheon typeface exclusively at Grilli Type — Download F",
+    "flags": [
+      "clipped"
+    ]
+  },
+  {
+    "n": 18,
+    "slug": "gt-standard-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 10,
+      "fixed": 2
+    },
+    "pageHeight": 30000,
+    "title": "GT Standard",
+    "flags": [
+      "clipped"
+    ]
+  },
+  {
+    "n": 19,
+    "slug": "pp-fragment-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 11,
+      "fixed": 1,
+      "offscreen": 1
+    },
+    "pageHeight": 20132,
+    "title": "Fragment | Pangram Pangram® Foundry + Locomotive®",
+    "flags": []
+  },
+  {
+    "n": 20,
+    "slug": "editorialnew-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 13,
+      "fixed": 1,
+      "offscreen": 1
+    },
+    "pageHeight": 19749,
+    "title": "Eďiţořiäl Ñeẅ | Pangram Pangram® Foundry + Locomotive®",
+    "flags": []
+  },
+  {
+    "n": 21,
+    "slug": "pp-frama-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 19,
+      "fixed": 2
+    },
+    "pageHeight": 25094,
+    "title": "Frama by Pangram Pangram — A Precise Geometric Typeface",
+    "flags": []
+  },
+  {
+    "n": 22,
+    "slug": "foodissue-commercialtype-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 10
+    },
+    "pageHeight": 5544,
+    "title": "The Food Issue | Commercial Type",
+    "flags": []
+  },
+  {
+    "n": 23,
+    "slug": "tofino-losttype-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 17
+    },
+    "pageHeight": 22624,
+    "title": "Tofino Typeface, by Alanna Munro",
+    "flags": []
+  },
+  {
+    "n": 24,
+    "slug": "prospectus-losttype-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 8
+    },
+    "pageHeight": 17254,
+    "title": "Prospectus, a new typeface from Lost Type",
+    "flags": []
+  },
+  {
+    "n": 25,
+    "slug": "mort-modern-losttype-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 16
+    },
+    "pageHeight": 14231,
+    "title": "Mort Modern, a typeface in 56 styles",
+    "flags": []
+  },
+  {
+    "n": 26,
+    "slug": "faction-losttype-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 8
+    },
+    "pageHeight": 11593,
+    "title": "Faction typeface",
+    "flags": []
+  },
+  {
+    "n": 27,
+    "slug": "moriston-losttype-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 8
+    },
+    "pageHeight": 14982,
+    "title": "Moriston – The Lost Type Co-op",
+    "flags": []
+  },
+  {
+    "n": 28,
+    "slug": "escafina-losttype-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 7
+    },
+    "pageHeight": 9454,
+    "title": "Escafina",
+    "flags": []
+  },
+  {
+    "n": 29,
+    "slug": "latest-losttype-com-introducing-dotties",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 4
+    },
+    "pageHeight": 8136,
+    "title": "Dotties · Lost Type",
+    "flags": []
+  },
+  {
+    "n": 30,
+    "slug": "sanssheriff-wtf",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 12
+    },
+    "pageHeight": 6530,
+    "title": "NaN Jaune — See the fonts 👀 Play the game 🎮",
+    "flags": []
+  },
+  {
+    "n": 31,
+    "slug": "infinite-tragedy-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 4,
+      "fixed": 1
+    },
+    "pageHeight": 3713,
+    "title": "NaN Tragedy",
+    "flags": []
+  },
+  {
+    "n": 32,
+    "slug": "serf-nan-xyz",
+    "mode": "wheel",
+    "scroll": null,
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 3
+    },
+    "pageHeight": 2700,
+    "title": "NaN Serf",
+    "flags": []
+  },
+  {
+    "n": 33,
+    "slug": "s-u-c-c-e-s-s-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 20
+    },
+    "pageHeight": 19954,
+    "title": "NaN Success",
+    "flags": []
+  },
+  {
+    "n": 34,
+    "slug": "djr-com-forma",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 17
+    },
+    "pageHeight": 30000,
+    "title": "Forma DJR | David Jonathan Ross",
+    "flags": [
+      "clipped",
+      "mobile-error"
+    ]
+  },
+  {
+    "n": 35,
+    "slug": "nichrome-mass-driver-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 9
+    },
+    "pageHeight": 10147,
+    "title": "MD Nichrome by Mass-Driver",
+    "flags": []
+  },
+  {
+    "n": 36,
+    "slug": "polychrome-mass-driver-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 17
+    },
+    "pageHeight": 7327,
+    "title": "MD Polychrome by Mass-Driver",
+    "flags": []
+  },
+  {
+    "n": 37,
+    "slug": "djr-com-roslindale",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 16
+    },
+    "pageHeight": 30000,
+    "title": "Roslindale | David Jonathan Ross",
+    "flags": [
+      "clipped",
+      "mobile-error"
+    ]
+  },
+  {
+    "n": 38,
+    "slug": "system-mass-driver-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 9,
+      "fixed": 1
+    },
+    "pageHeight": 6777,
+    "title": "MD System by Mass-Driver",
+    "flags": []
+  },
+  {
+    "n": 39,
+    "slug": "recursive-design",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 20,
+      "fixed": 1
+    },
+    "pageHeight": 13191,
+    "title": "Recursive Sans & Mono",
+    "flags": []
+  },
+  {
+    "n": 40,
+    "slug": "shantellsans-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 6,
+      "fixed": 1
+    },
+    "pageHeight": 10575,
+    "title": "Shantell Sans",
+    "flags": []
+  },
+  {
+    "n": 41,
+    "slug": "kermit-font-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 5,
+      "offscreen": 1
+    },
+    "pageHeight": 4500,
+    "title": "Kermit Font By Underware",
+    "flags": []
+  },
+  {
+    "n": 42,
+    "slug": "karrik-phantom-foundry-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 10,
+      "fixed": 1
+    },
+    "pageHeight": 8940,
+    "title": "Karrik",
+    "flags": []
+  },
+  {
+    "n": 43,
+    "slug": "surt-font-eu",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 12,
+      "offscreen": 1
+    },
+    "pageHeight": 9413,
+    "title": "Surt - Blaze Type",
+    "flags": []
+  },
+  {
+    "n": 44,
+    "slug": "neuedin-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 56,
+      "fixed": 1
+    },
+    "pageHeight": 12767,
+    "title": "Neue DIN by Fontwerk",
+    "flags": []
+  },
+  {
+    "n": 45,
+    "slug": "exat-hottype-co",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 11,
+      "fixed": 2
+    },
+    "pageHeight": 30000,
+    "title": "Exat - Hot Type",
+    "flags": [
+      "clipped"
+    ]
+  },
+  {
+    "n": 46,
+    "slug": "nn-konrad-ch",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 18,
+      "fixed": 1
+    },
+    "pageHeight": 15828,
+    "title": "NN Konrad - A contemporary take on the first printed roman t",
+    "flags": []
+  },
+  {
+    "n": 47,
+    "slug": "colroy-ch",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 14,
+      "fixed": 1
+    },
+    "pageHeight": 11834,
+    "title": "NN Colroy Swiss Slab Serif",
+    "flags": []
+  },
+  {
+    "n": 48,
+    "slug": "pivot-grotesk-world",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 24,
+      "fixed": 1
+    },
+    "pageHeight": 20905,
+    "title": "Pivot Grotesk",
+    "flags": []
+  },
+  {
+    "n": 49,
+    "slug": "knitgrotesk-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 17,
+      "fixed": 1
+    },
+    "pageHeight": 14891,
+    "title": "NN Knit Grotesk",
+    "flags": []
+  },
+  {
+    "n": 50,
+    "slug": "nn-swinton-world",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 25,
+      "fixed": 1
+    },
+    "pageHeight": 22014,
+    "title": "NN Swinton type family",
+    "flags": []
+  },
+  {
+    "n": 51,
+    "slug": "abcdestragon-xyz",
+    "mode": "wheel",
+    "scroll": null,
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 4
+    },
+    "pageHeight": 3600,
+    "title": "Estragon Vision",
+    "flags": []
+  },
+  {
+    "n": 52,
+    "slug": "djr-com-fit",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 21
+    },
+    "pageHeight": 30000,
+    "title": "Fit | David Jonathan Ross",
+    "flags": [
+      "clipped"
+    ]
+  },
+  {
+    "n": 53,
+    "slug": "azeret-displaay-net",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 11
+    },
+    "pageHeight": 15225,
+    "title": "Azeret typeface by DISPLAAY Type Foundry",
+    "flags": [
+      "via-wayback"
+    ]
+  },
+  {
+    "n": 54,
+    "slug": "booton-displaay-net",
+    "mode": "single",
+    "scroll": null,
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 1,
+      "fixed": 2
+    },
+    "pageHeight": 900,
+    "title": "Booton Typeface – Displaay Type Foundry",
+    "flags": [
+      "few-blocks(1)",
+      "single-screen"
+    ]
+  },
+  {
+    "n": 55,
+    "slug": "andada-huertatipografica-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 29,
+      "fixed": 1
+    },
+    "pageHeight": 30000,
+    "title": "Andada — Free serif typeface by HT Fonts",
+    "flags": [
+      "clipped"
+    ]
+  },
+  {
+    "n": 56,
+    "slug": "piazzolla-huertatipografica-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 11
+    },
+    "pageHeight": 9127,
+    "title": "Piazzolla — Free variable serif by HT Fonts",
+    "flags": []
+  },
+  {
+    "n": 57,
+    "slug": "weg-huertatipografica-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 39,
+      "fixed": 1
+    },
+    "pageHeight": 24180,
+    "title": "WEG — Experimental display typeface by HT Fonts",
+    "flags": []
+  },
+  {
+    "n": 58,
+    "slug": "betaniapatmos-huertatipografica-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 33,
+      "fixed": 1
+    },
+    "pageHeight": 21330,
+    "title": "Betània Patmos — Free handwriting font by HT Fonts",
+    "flags": []
+  },
+  {
+    "n": 59,
+    "slug": "input-djr-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 5
+    },
+    "pageHeight": 1248,
+    "title": "Input: Fonts for Code",
+    "flags": []
+  },
+  {
+    "n": 60,
+    "slug": "djr-com-megabase-stripe",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 2
+    },
+    "pageHeight": 2613,
+    "title": "Megabase Stripe | David Jonathan Ross",
+    "flags": [
+      "few-blocks(2)"
+    ]
+  },
+  {
+    "n": 61,
+    "slug": "halyard-dardenstudio-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 9,
+      "fixed": 1
+    },
+    "pageHeight": 6726,
+    "title": "Halyard® — Branding Font, Sans Serif — Darden Studio",
+    "flags": []
+  },
+  {
+    "n": 62,
+    "slug": "ernestinefont-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 4
+    },
+    "pageHeight": 1624,
+    "title": "FF Ernestine",
+    "flags": []
+  },
+  {
+    "n": 63,
+    "slug": "liebling-fontef-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 3,
+      "fixed": 1
+    },
+    "pageHeight": 6426,
+    "title": "Liebling ליבלינג by Fontef",
+    "flags": []
+  },
+  {
+    "n": 64,
+    "slug": "kachibuwa-com",
+    "mode": "wheel",
+    "scroll": null,
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 2
+    },
+    "pageHeight": 1800,
+    "title": "Kachi Buwa",
+    "flags": [
+      "few-blocks(2)"
+    ]
+  },
+  {
+    "n": 65,
+    "slug": "pacaembu-naipefoundry-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 16
+    },
+    "pageHeight": 16003,
+    "title": "Pacaembu ⚽ Tropical art deco sans serif",
+    "flags": []
+  },
+  {
+    "n": 66,
+    "slug": "readvisions-com-marvin",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 11
+    },
+    "pageHeight": 30000,
+    "title": "Marvin Visions — An Expressive Variable Font",
+    "flags": [
+      "clipped"
+    ]
+  },
+  {
+    "n": 67,
+    "slug": "raphaelbastide-com-avara",
+    "mode": "single",
+    "scroll": null,
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 1
+    },
+    "pageHeight": 900,
+    "title": "Avara",
+    "flags": [
+      "few-blocks(1)",
+      "single-screen"
+    ]
+  },
+  {
+    "n": 68,
+    "slug": "djr-com-gimlet",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 21
+    },
+    "pageHeight": 20570,
+    "title": "Gimlet | David Jonathan Ross",
+    "flags": []
+  },
+  {
+    "n": 69,
+    "slug": "cinetype-com-fabbrica",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 44,
+      "fixed": 1
+    },
+    "pageHeight": 11922,
+    "title": "Fabbrica",
+    "flags": []
+  },
+  {
+    "n": 70,
+    "slug": "floriankarsten-github-io-space-grotesk",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 13
+    },
+    "pageHeight": 11385,
+    "title": "Space Grotesk",
+    "flags": []
+  },
+  {
+    "n": 71,
+    "slug": "typearture-com-schijn-specimen",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 11,
+      "fixed": 3
+    },
+    "pageHeight": 6000,
+    "title": "Schijn, the specimen of a glittering multifaceted gemstone f",
+    "flags": []
+  },
+  {
+    "n": 72,
+    "slug": "avantt-displaay-net",
+    "mode": "single",
+    "scroll": null,
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 1
+    },
+    "pageHeight": 900,
+    "title": "Avantt Typeface",
+    "flags": [
+      "few-blocks(1)",
+      "single-screen",
+      "via-wayback"
+    ]
+  },
+  {
+    "n": 73,
+    "slug": "indestructibletype-com-gnomon",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 23
+    },
+    "pageHeight": 7288,
+    "title": "Gnomon*",
+    "flags": []
+  },
+  {
+    "n": 74,
+    "slug": "djr-com-gimlet-xray",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 2
+    },
+    "pageHeight": 2780,
+    "title": "Gimlet X-Ray | David Jonathan Ross",
+    "flags": [
+      "few-blocks(2)"
+    ]
+  },
+  {
+    "n": 75,
+    "slug": "finaltype-de-en-projects-monoflow",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 13
+    },
+    "pageHeight": 8162,
+    "title": "Monoflow – Coding Font by Finaltype",
+    "flags": []
+  },
+  {
+    "n": 76,
+    "slug": "gestures-studiomoniker-com",
+    "mode": "single",
+    "scroll": null,
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 1
+    },
+    "pageHeight": 900,
+    "title": "Gestures by Moniker",
+    "flags": [
+      "few-blocks(1)",
+      "single-screen"
+    ]
+  },
+  {
+    "n": 77,
+    "slug": "rt-rondelle-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 69
+    },
+    "pageHeight": 20344,
+    "title": "",
+    "flags": []
+  },
+  {
+    "n": 78,
+    "slug": "proxima-vara-marksimonson-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 7
+    },
+    "pageHeight": 4107,
+    "title": "Proxima Vara by Mark Simonson",
+    "flags": []
+  },
+  {
+    "n": 79,
+    "slug": "kampanjat-hs-fi-climatefont",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 12
+    },
+    "pageHeight": 8788,
+    "title": "Climate crisis font | Helsingin Sanomat",
+    "flags": []
+  },
+  {
+    "n": 80,
+    "slug": "louisefili-com-montecatini-pro",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 12
+    },
+    "pageHeight": 10683,
+    "title": "Montecatini Pro — Louise Fili Ltd",
+    "flags": []
+  },
+  {
+    "n": 81,
+    "slug": "whirlybirdie-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 11
+    },
+    "pageHeight": 9763,
+    "title": "Whirly Birdie - Variable Font",
+    "flags": []
+  },
+  {
+    "n": 82,
+    "slug": "cjtype-com-dunbar",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 21
+    },
+    "pageHeight": 23408,
+    "title": "Dunbar — CJ Type",
+    "flags": []
+  },
+  {
+    "n": 83,
+    "slug": "fraunces-undercase-xyz",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 14
+    },
+    "pageHeight": 12382,
+    "title": "Fraunces by Undercase Type",
+    "flags": []
+  },
+  {
+    "n": 84,
+    "slug": "etunni-github-io-arapey-minisite",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 13
+    },
+    "pageHeight": 14877,
+    "title": "Arapey",
+    "flags": []
+  },
+  {
+    "n": 85,
+    "slug": "djr-com-megazoid",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 20
+    },
+    "pageHeight": 28504,
+    "title": "Megazoid | David Jonathan Ross",
+    "flags": []
+  },
+  {
+    "n": 86,
+    "slug": "nmtype-com-movement",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 4
+    },
+    "pageHeight": 7238,
+    "title": "Movement - NM type",
+    "flags": []
+  },
+  {
+    "n": 87,
+    "slug": "cnap-fr-sites-faune-en",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 9
+    },
+    "pageHeight": 8839,
+    "title": "Faune, Alice Savoie / Cnap",
+    "flags": [
+      "via-wayback"
+    ]
+  },
+  {
+    "n": 88,
+    "slug": "heydon-works-skwar",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 3
+    },
+    "pageHeight": 6300,
+    "title": "SKWAR",
+    "flags": []
+  },
+  {
+    "n": 89,
+    "slug": "erikdemaine-org-fonts-tetris",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 8
+    },
+    "pageHeight": 1403,
+    "title": "Tetris Font",
+    "flags": [
+      "no-webfonts"
+    ]
+  },
+  {
+    "n": 90,
+    "slug": "universalsans-com",
+    "mode": "single",
+    "scroll": null,
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 1,
+      "fixed": 1,
+      "offscreen": 1
+    },
+    "pageHeight": 900,
+    "title": "Universal Sans",
+    "flags": [
+      "few-blocks(1)",
+      "single-screen"
+    ]
+  },
+  {
+    "n": 91,
+    "slug": "larsenwork-com-monoid",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 3,
+      "offscreen": 1
+    },
+    "pageHeight": 4730,
+    "title": "Monoid",
+    "flags": []
+  },
+  {
+    "n": 92,
+    "slug": "garet-typeforward-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 13,
+      "fixed": 2
+    },
+    "pageHeight": 6427,
+    "title": "Garet Font",
+    "flags": []
+  },
+  {
+    "n": 93,
+    "slug": "monolisa-dev",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 34,
+      "fixed": 1
+    },
+    "pageHeight": 20977,
+    "title": "MonoLisa - font follows function",
+    "flags": []
+  },
+  {
+    "n": 94,
+    "slug": "jetbrains-com-lp-mono",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 20,
+      "fixed": 1
+    },
+    "pageHeight": 17215,
+    "title": "JetBrains Mono: A free and open source typeface for develope",
+    "flags": []
+  },
+  {
+    "n": 95,
+    "slug": "font-subf-dev-en",
+    "mode": "vertical",
+    "scroll": "main.h-screen w-full of-x-hidden of-y-scroll scroll-smooth",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 7
+    },
+    "pageHeight": 10140,
+    "title": "Maple Mono: Open source monospace font",
+    "flags": []
+  },
+  {
+    "n": 96,
+    "slug": "rubjo-github-io-victor-mono",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 17,
+      "fixed": 1
+    },
+    "pageHeight": 12634,
+    "title": "Victor Mono",
+    "flags": []
+  },
+  {
+    "n": 97,
+    "slug": "levien-com-type-myfonts-inconsolata",
+    "mode": "wheel",
+    "scroll": null,
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 2
+    },
+    "pageHeight": 1800,
+    "title": "Inconsolata",
+    "flags": [
+      "few-blocks(2)",
+      "no-webfonts"
+    ]
+  },
+  {
+    "n": 98,
+    "slug": "adelfaure-net-tools-jgs",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 14
+    },
+    "pageHeight": 12264,
+    "title": "Adel Faure ‒ Games, music, tools, fonts, ASCII art",
+    "flags": []
+  },
+  {
+    "n": 99,
+    "slug": "madmalik-github-io-mononoki",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 3
+    },
+    "pageHeight": 2461,
+    "title": "mononoki",
+    "flags": []
+  },
+  {
+    "n": 100,
+    "slug": "lexend-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 13,
+      "fixed": 1
+    },
+    "pageHeight": 12702,
+    "title": "Lexend — Change the way the world reads.",
+    "flags": []
+  },
+  {
+    "n": 101,
+    "slug": "departuremono-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 7
+    },
+    "pageHeight": 17621,
+    "title": "Departure Mono",
+    "flags": []
+  },
+  {
+    "n": 102,
+    "slug": "area-font-eu",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 7
+    },
+    "pageHeight": 8856,
+    "title": "Area - Blaze Type",
+    "flags": []
+  },
+  {
+    "n": 103,
+    "slug": "tiktok-com-font",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 11
+    },
+    "pageHeight": 11506,
+    "title": "TikTok Sans || Open Source Font",
+    "flags": []
+  },
+  {
+    "n": 104,
+    "slug": "apoc-font-eu",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 14,
+      "fixed": 1
+    },
+    "pageHeight": 10439,
+    "title": "Apoc - Blaze Type",
+    "flags": []
+  },
+  {
+    "n": 105,
+    "slug": "fictional-typeface-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 7,
+      "offscreen": 1
+    },
+    "pageHeight": 2670,
+    "title": "Fictional – A friendly & quirky typeface with a cartoonesque",
+    "flags": []
+  },
+  {
+    "n": 106,
+    "slug": "scenik-frostype-xyz",
+    "mode": "single",
+    "scroll": null,
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 1,
+      "fixed": 2,
+      "offscreen": 8
+    },
+    "pageHeight": 900,
+    "title": "FT Scenik",
+    "flags": [
+      "few-blocks(1)",
+      "single-screen",
+      "offscreen(8)"
+    ]
+  },
+  {
+    "n": 107,
+    "slug": "calhern-frostype-xyz",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 34,
+      "fixed": 2
+    },
+    "pageHeight": 30000,
+    "title": "Calhern",
+    "flags": [
+      "clipped"
+    ]
+  },
+  {
+    "n": 108,
+    "slug": "logical-family",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 13
+    },
+    "pageHeight": 12679,
+    "title": "Logical",
+    "flags": []
+  },
+  {
+    "n": 109,
+    "slug": "biceps-togetherwithyou-co",
+    "mode": "vertical",
+    "scroll": "div.content-scroll-wrapper has-vertical-scroll accelerated-scrol",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 25
+    },
+    "pageHeight": 21760,
+    "title": "BICEPS GROTESK",
+    "flags": []
+  },
+  {
+    "n": 110,
+    "slug": "almnt-github-io-crimsonpro-microsite",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 17
+    },
+    "pageHeight": 17245,
+    "title": "Crimson Pro from Google Fonts",
+    "flags": []
+  },
+  {
+    "n": 111,
+    "slug": "rt-alias-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 31
+    },
+    "pageHeight": 12247,
+    "title": "RT Alias",
+    "flags": []
+  },
+  {
+    "n": 112,
+    "slug": "etna-marksimonson-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 3
+    },
+    "pageHeight": 1569,
+    "title": "Etna – A classic American type style revisited",
+    "flags": []
+  },
+  {
+    "n": 113,
+    "slug": "isolation-abc-xyz",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 2
+    },
+    "pageHeight": 10060,
+    "title": "Isolation Grotesque",
+    "flags": [
+      "few-blocks(2)"
+    ]
+  },
+  {
+    "n": 114,
+    "slug": "rsms-me-inter",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 15
+    },
+    "pageHeight": 30000,
+    "title": "Inter font family",
+    "flags": [
+      "clipped"
+    ]
+  },
+  {
+    "n": 115,
+    "slug": "justfont-com-huninn",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 15
+    },
+    "pageHeight": 10356,
+    "title": "open 粉圓 - justfont",
+    "flags": []
+  },
+  {
+    "n": 116,
+    "slug": "github-com-mona-sans",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 14
+    },
+    "pageHeight": 15160,
+    "title": "Mona Sans & Hubot Sans · GitHub",
+    "flags": []
+  },
+  {
+    "n": 117,
+    "slug": "ibm-com-plex",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 5,
+      "fixed": 2
+    },
+    "pageHeight": 5450,
+    "title": "Introduction | IBM Plex",
+    "flags": []
+  },
+  {
+    "n": 118,
+    "slug": "source-typekit-com-source-han-serif",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 16
+    },
+    "pageHeight": 7980,
+    "title": "Source Han Serif",
+    "flags": []
+  },
+  {
+    "n": 119,
+    "slug": "tokotype-github-io-plusjakarta-sans",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 6,
+      "fixed": 1
+    },
+    "pageHeight": 4183,
+    "title": "+Jakarta Sans Typeface - Open-source fonts for Jakarta City ",
+    "flags": []
+  },
+  {
+    "n": 120,
+    "slug": "overpassfont-org",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 2,
+      "fixed": 3
+    },
+    "pageHeight": 2200,
+    "title": "Overpass Font",
+    "flags": [
+      "few-blocks(2)"
+    ]
+  },
+  {
+    "n": 121,
+    "slug": "boharat-com-zaatar",
+    "mode": "vertical",
+    "scroll": "div.content-scroll-wrapper has-vertical-scroll accelerated-scrol",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 12
+    },
+    "pageHeight": 9949,
+    "title": "zaatar typeface",
+    "flags": []
+  },
+  {
+    "n": 122,
+    "slug": "brailleinstitute-org-freefont",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 6
+    },
+    "pageHeight": 15961,
+    "title": "Atkinson Hyperlegible Font - Braille Institute",
+    "flags": []
+  },
+  {
+    "n": 123,
+    "slug": "github-rosettatype-com-yrsa-rasa",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 5
+    },
+    "pageHeight": 5963,
+    "title": "Yrsa & Rasa – open-source fonts for Latin + Gujarati",
+    "flags": [
+      "no-webfonts"
+    ]
+  },
+  {
+    "n": 124,
+    "slug": "optician-sans-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 11
+    },
+    "pageHeight": 7077,
+    "title": "Optician Sans – Free font based on historical optotypes",
+    "flags": [
+      "via-wayback"
+    ]
+  },
+  {
+    "n": 125,
+    "slug": "nrse-io",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 2,
+      "fixed": 1
+    },
+    "pageHeight": 3797,
+    "title": "Norse Sans",
+    "flags": [
+      "few-blocks(2)"
+    ]
+  },
+  {
+    "n": 126,
+    "slug": "bigshoulders-me",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 28
+    },
+    "pageHeight": 7802,
+    "title": "Big Shoulders",
+    "flags": []
+  },
+  {
+    "n": 127,
+    "slug": "spectral-prototypo-io",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 6,
+      "fixed": 1
+    },
+    "pageHeight": 4456,
+    "title": "Spectral, the first parametric Google font by Prototypo.",
+    "flags": []
+  },
+  {
+    "n": 128,
+    "slug": "stencil-gothic-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 11
+    },
+    "pageHeight": 9339,
+    "title": "Stencil Gothic, Patented 10. Mar. 1885.",
+    "flags": []
+  },
+  {
+    "n": 129,
+    "slug": "gidole-github-io",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 5,
+      "fixed": 8
+    },
+    "pageHeight": 4200,
+    "title": "Gidole Open Source Modern DIN",
+    "flags": []
+  },
+  {
+    "n": 130,
+    "slug": "leon-kim-com",
+    "mode": "wheel",
+    "scroll": null,
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 9
+    },
+    "pageHeight": 8100,
+    "title": "Leon Sans",
+    "flags": [
+      "no-webfonts"
+    ]
+  },
+  {
+    "n": 131,
+    "slug": "pampatype-com-octothorpe-en",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 25,
+      "fixed": 1
+    },
+    "pageHeight": 21935,
+    "title": "Octothorpe",
+    "flags": [
+      "via-wayback"
+    ]
+  },
+  {
+    "n": 132,
+    "slug": "compagnon-eesab-fr",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 10
+    },
+    "pageHeight": 8396,
+    "title": "Compagnon",
+    "flags": []
+  },
+  {
+    "n": 133,
+    "slug": "urbangrotesk-suitcasetype-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 12
+    },
+    "pageHeight": 7267,
+    "title": "Suitcase Type Foundry / Urban Grotesk™",
+    "flags": [
+      "via-wayback"
+    ]
+  },
+  {
+    "n": 134,
+    "slug": "pleasure-typefaces-pizza",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 14,
+      "fixed": 2,
+      "offscreen": 1
+    },
+    "pageHeight": 13622,
+    "title": "Pleasure",
+    "flags": []
+  },
+  {
+    "n": 135,
+    "slug": "excelsiorama-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 10
+    },
+    "pageHeight": 12787,
+    "title": "EXCELSIORAMA - The Upstate New York Type Collaboration",
+    "flags": []
+  },
+  {
+    "n": 136,
+    "slug": "kostasbartsokas-com-oi-you-mate",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 15,
+      "fixed": 1
+    },
+    "pageHeight": 13344,
+    "title": "Oi! You! Mate!",
+    "flags": []
+  },
+  {
+    "n": 137,
+    "slug": "redaction-us",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 8
+    },
+    "pageHeight": 8243,
+    "title": "Redaction | Typeface from Titus Kaphar / Reginald Dwayne Bet",
+    "flags": []
+  },
+  {
+    "n": 138,
+    "slug": "compressa-preusstype-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 17,
+      "fixed": 1
+    },
+    "pageHeight": 17647,
+    "title": "Compressa Typeface by Ingo Preuss",
+    "flags": []
+  },
+  {
+    "n": 139,
+    "slug": "cursorfont-liebermannkiepereddemann-de",
+    "mode": "vertical",
+    "scroll": "body.preview",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 2,
+      "fixed": 1
+    },
+    "pageHeight": 1572,
+    "title": "Cursor.otf beta",
+    "flags": [
+      "few-blocks(2)"
+    ]
+  },
+  {
+    "n": 140,
+    "slug": "arteria-typofonderie-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 8,
+      "fixed": 1
+    },
+    "pageHeight": 17026,
+    "title": "Typofonderie | Arteria",
+    "flags": []
+  },
+  {
+    "n": 141,
+    "slug": "marbla-de",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 8
+    },
+    "pageHeight": 6114,
+    "title": "Marbla",
+    "flags": []
+  },
+  {
+    "n": 142,
+    "slug": "cnap-fr-sites-infini-en",
+    "mode": "wheel",
+    "scroll": null,
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 41
+    },
+    "pageHeight": 36900,
+    "title": "Infini typeface by Sandrine Nugue | CNAP",
+    "flags": [
+      "mobile-error",
+      "via-wayback"
+    ]
+  },
+  {
+    "n": 143,
+    "slug": "erikdkennedy-com-projects-figtree",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 7
+    },
+    "pageHeight": 7722,
+    "title": "Figtree – Erik D. Kennedy",
+    "flags": []
+  },
+  {
+    "n": 144,
+    "slug": "seraphs-varfont-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 21
+    },
+    "pageHeight": 13116,
+    "title": "Seraphs Variable Font — Bernd Volmer",
+    "flags": []
+  },
+  {
+    "n": 145,
+    "slug": "graphit-type-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 15,
+      "fixed": 2,
+      "offscreen": 2
+    },
+    "pageHeight": 19191,
+    "title": "Graphit by LIT",
+    "flags": []
+  },
+  {
+    "n": 146,
+    "slug": "basco-typofonderie-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 8,
+      "offscreen": 1
+    },
+    "pageHeight": 14243,
+    "title": "Typofonderie | Basco",
+    "flags": []
+  },
+  {
+    "n": 147,
+    "slug": "db-pixel-club",
+    "mode": "single",
+    "scroll": null,
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 1,
+      "fixed": 1
+    },
+    "pageHeight": 900,
+    "title": "db-pixel.club",
+    "flags": [
+      "few-blocks(1)",
+      "single-screen"
+    ]
+  },
+  {
+    "n": 148,
+    "slug": "monaspace-githubnext-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 21
+    },
+    "pageHeight": 14202,
+    "title": "Monaspace",
+    "flags": []
+  },
+  {
+    "n": 149,
+    "slug": "vercel-com-font",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 10,
+      "fixed": 1
+    },
+    "pageHeight": 10031,
+    "title": "Geist Font",
+    "flags": []
+  },
+  {
+    "n": 150,
+    "slug": "unbounded-polkadot-network",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 11,
+      "fixed": 1
+    },
+    "pageHeight": 11495,
+    "title": "Unbounded | Polkadot",
+    "flags": []
+  },
+  {
+    "n": 151,
+    "slug": "aspen-ludwigtype-de",
+    "mode": "wheel",
+    "scroll": null,
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 2
+    },
+    "pageHeight": 1800,
+    "title": "Aspen – A refreshing and resilient sans serif from Ludwig Ty",
+    "flags": [
+      "few-blocks(2)"
+    ]
+  },
+  {
+    "n": 152,
+    "slug": "rt-dromo-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 67
+    },
+    "pageHeight": 24323,
+    "title": "RT DROMO",
+    "flags": []
+  },
+  {
+    "n": 153,
+    "slug": "wix-com-typeface-madefor",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 13,
+      "fixed": 1
+    },
+    "pageHeight": 10969,
+    "title": "Madefor Font | Wix Custom Typeface",
+    "flags": []
+  },
+  {
+    "n": 154,
+    "slug": "fridamedrano-com-jabin",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 10,
+      "fixed": 2
+    },
+    "pageHeight": 8305,
+    "title": "Jabin",
+    "flags": []
+  },
+  {
+    "n": 155,
+    "slug": "lobdell-me-affogato",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 8
+    },
+    "pageHeight": 6804,
+    "title": "Affogato, A Friendly Sans-Serif Typeface",
+    "flags": []
+  },
+  {
+    "n": 156,
+    "slug": "nabla-typearture-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 11,
+      "fixed": 1
+    },
+    "pageHeight": 5568,
+    "title": "Nabla — the isometric color font by Arthur Reinders Folmer &",
+    "flags": []
+  },
+  {
+    "n": 157,
+    "slug": "nihon-font-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 18
+    },
+    "pageHeight": 17482,
+    "title": "Nihon Typeface",
+    "flags": []
+  },
+  {
+    "n": 158,
+    "slug": "djr-com-bungee",
+    "mode": "horizontal",
+    "scroll": "article.",
+    "segmentation": "dom",
+    "blocks": {},
+    "pageHeight": 900,
+    "title": "Bungee – Fonts for multi-color and vertical typography | Dav",
+    "flags": [
+      "few-blocks(0)"
+    ]
+  },
+  {
+    "n": 159,
+    "slug": "plex-korean-demo-vercel-app",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 2
+    },
+    "pageHeight": 2091,
+    "title": "IBM Plex Sans KR",
+    "flags": [
+      "few-blocks(2)"
+    ]
+  },
+  {
+    "n": 160,
+    "slug": "lozanotype-github-io-java-sans",
+    "mode": "single",
+    "scroll": null,
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 1
+    },
+    "pageHeight": 900,
+    "title": "",
+    "flags": [
+      "few-blocks(1)",
+      "single-screen"
+    ]
+  },
+  {
+    "n": 161,
+    "slug": "2021-typemedia-org-gajana",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 18
+    },
+    "pageHeight": 11910,
+    "title": "TypeMedia 20/21 –– Gajana Aslanjan: Anguilla",
+    "flags": []
+  },
+  {
+    "n": 162,
+    "slug": "2020-typefacedesign-org-simon",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 15,
+      "fixed": 1
+    },
+    "pageHeight": 8240,
+    "title": "chunky – Simon Thiefes",
+    "flags": []
+  },
+  {
+    "n": 163,
+    "slug": "colab-munken-com-munken-sans",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 11,
+      "fixed": 1,
+      "offscreen": 8
+    },
+    "pageHeight": 9486,
+    "title": "Munken Sans | Munken CoLab",
+    "flags": [
+      "offscreen(8)"
+    ]
+  },
+  {
+    "n": 164,
+    "slug": "x5-acjs-net",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 9,
+      "fixed": 1
+    },
+    "pageHeight": 7027,
+    "title": "×5",
+    "flags": [
+      "no-webfonts"
+    ]
+  },
+  {
+    "n": 165,
+    "slug": "daifoldes-com-eubiescript-sub",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 7
+    },
+    "pageHeight": 8186,
+    "title": "Eubie Script by Dai Foldes",
+    "flags": [
+      "via-wayback"
+    ]
+  },
+  {
+    "n": 166,
+    "slug": "grandgothik-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 18,
+      "fixed": 1
+    },
+    "pageHeight": 25227,
+    "title": "PF Grand Gothik",
+    "flags": []
+  },
+  {
+    "n": 167,
+    "slug": "usgraphics-com-products-berkeley-mono",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 20
+    },
+    "pageHeight": 11887,
+    "title": "U.S. Graphics Company - TX-02 Berkeley Mono™ Typeface",
+    "flags": []
+  },
+  {
+    "n": 168,
+    "slug": "brailleneue-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 10
+    },
+    "pageHeight": 7170,
+    "title": "Braille Neue | Character with Braille",
+    "flags": []
+  },
+  {
+    "n": 169,
+    "slug": "commitmono-com",
+    "mode": "single",
+    "scroll": null,
+    "segmentation": "screens",
+    "blocks": {
+      "screen": 1,
+      "fixed": 1
+    },
+    "pageHeight": 900,
+    "title": "Commit Mono. Neutral programming typeface.",
+    "flags": [
+      "few-blocks(1)",
+      "single-screen"
+    ]
+  },
+  {
+    "n": 170,
+    "slug": "dyslexiefont-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 21,
+      "fixed": 2
+    },
+    "pageHeight": 14816,
+    "title": "Dyslexie Font: The Accessible Reading for Dyslexia",
+    "flags": []
+  },
+  {
+    "n": 171,
+    "slug": "indestructibletype-com-jost",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 23
+    },
+    "pageHeight": 7250,
+    "title": "Jost*",
+    "flags": []
+  },
+  {
+    "n": 172,
+    "slug": "latofonts-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 6
+    },
+    "pageHeight": 5199,
+    "title": "Lato Fonts - Official Free Font Family by Łukasz Dziedzic | ",
+    "flags": []
+  },
+  {
+    "n": 173,
+    "slug": "luciole-vision-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 7
+    },
+    "pageHeight": 5596,
+    "title": "Luciole – Typeface",
+    "flags": []
+  },
+  {
+    "n": 174,
+    "slug": "djr-com-fern",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 14
+    },
+    "pageHeight": 13412,
+    "title": "Fern | David Jonathan Ross",
+    "flags": []
+  },
+  {
+    "n": 175,
+    "slug": "djr-com-job-clarendon",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 29
+    },
+    "pageHeight": 30000,
+    "title": "Job Clarendon | David Jonathan Ross",
+    "flags": [
+      "clipped",
+      "mobile-error"
+    ]
+  },
+  {
+    "n": 176,
+    "slug": "djr-com-turnip",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 12
+    },
+    "pageHeight": 12262,
+    "title": "Turnip | David Jonathan Ross",
+    "flags": []
+  },
+  {
+    "n": 177,
+    "slug": "nationalparktypeface-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 15,
+      "fixed": 1
+    },
+    "pageHeight": 9331,
+    "title": "National Park Typeface",
+    "flags": []
+  },
+  {
+    "n": 178,
+    "slug": "sourcefoundry-org-hack",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 12,
+      "fixed": 1
+    },
+    "pageHeight": 8281,
+    "title": "Hack | A typeface designed for source code",
+    "flags": []
+  },
+  {
+    "n": 179,
+    "slug": "timesnewerroman-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 5
+    },
+    "pageHeight": 2655,
+    "title": "Times Newer Roman",
+    "flags": []
+  },
+  {
+    "n": 180,
+    "slug": "typeof-net-iosevka",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 10
+    },
+    "pageHeight": 11533,
+    "title": "Iosevka",
+    "flags": []
+  },
+  {
+    "n": 181,
+    "slug": "vollkorn-typeface-com",
+    "mode": "vertical",
+    "scroll": "window",
+    "segmentation": "dom",
+    "blocks": {
+      "flow": 9
+    },
+    "pageHeight": 10879,
+    "title": "Vollkorn Typeface",
+    "flags": []
+  }
+]

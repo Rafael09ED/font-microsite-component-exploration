@@ -1,0 +1,1149 @@
+{
+  "slug": "surt-font-eu",
+  "url": "https://surt-font.eu",
+  "pageHeight": 9413,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "surt-font-eu#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section",
+      "classes": [
+        "section-poster"
+      ],
+      "box": {
+        "x": 10,
+        "y": 40,
+        "w": 1420,
+        "h": 785
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "Surt"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.004,
+        "heightVh": 0.627,
+        "widthRatio": 0.986,
+        "text": 0,
+        "elements": 2.079,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/surt-font-eu/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/surt-font-eu/blocks/00.html"
+    },
+    {
+      "id": "surt-font-eu#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(1)",
+      "classes": [
+        "section-introduction"
+      ],
+      "box": {
+        "x": 40,
+        "y": 865,
+        "w": 893,
+        "h": 184
+      },
+      "headings": [
+        "INTRODUCTION"
+      ],
+      "parentHeadings": null,
+      "textPreview": "INTRODUCTION This typeface family, inspired by Norse mythology and Scandinavian Architecture, draws a bridge between a geometric sans and a human process in the whole shape design. The character set will allow text layouts to have this unus",
+      "fontFamilies": [
+        "Surt"
+      ],
+      "maxFontSizePx": 22,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.091,
+        "relY": 0.092,
+        "heightVh": 0.186,
+        "widthRatio": 0.62,
+        "text": 6.043,
+        "elements": 1.386,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.015,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/surt-font-eu/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/surt-font-eu/blocks/01.html"
+    },
+    {
+      "id": "surt-font-eu#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(3)",
+      "classes": [
+        "section-specs",
+        "paragraph-tester"
+      ],
+      "box": {
+        "x": 40,
+        "y": 1094,
+        "w": 893,
+        "h": 182
+      },
+      "headings": [
+        "SPECS"
+      ],
+      "parentHeadings": null,
+      "textPreview": "SPECS WIDTH WEIGHT SLANT Surt is a huge family of 60 fonts, including Expanded and Extended, ranging from Thin to Black and matching italics. The variable font is thus a powerful tool that will cover all your design needs. Surt works like a",
+      "fontFamilies": [
+        "Surt"
+      ],
+      "maxFontSizePx": 22,
+      "variationSettings": [
+        "\"slnt\" -3.5, \"wdth\" 100, \"wght\" 324"
+      ],
+      "controls": {
+        "range": 3,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.182,
+        "relY": 0.116,
+        "heightVh": 0.184,
+        "widthRatio": 0.62,
+        "text": 6.082,
+        "elements": 2.944,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.015,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 1.386,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/surt-font-eu/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/surt-font-eu/blocks/02.html"
+    },
+    {
+      "id": "surt-font-eu#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(4)",
+      "classes": [
+        "section-family"
+      ],
+      "box": {
+        "x": 40,
+        "y": 1321,
+        "w": 1360,
+        "h": 326
+      },
+      "headings": [
+        "STANDARD",
+        "EXPANDED",
+        "EXTENDED"
+      ],
+      "parentHeadings": null,
+      "textPreview": "STANDARD Thin Thin Extralight Extralight Light Light Regular Regular Medium Medium Semibold Semibold Bold Bold Ultrabold Ultrabold Extrabold Extrabold Black Black EXPANDED Thin Thin Extralight Extralight Light Light Regular Regular Medium M",
+      "fontFamilies": [
+        "Surt"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [
+        "\"slnt\" 0, \"wdth\" 100, \"wght\" 100",
+        "\"slnt\" -10, \"wdth\" 100, \"wght\" 100",
+        "\"slnt\" 0, \"wdth\" 100, \"wght\" 200",
+        "\"slnt\" -10, \"wdth\" 100, \"wght\" 200",
+        "\"slnt\" 0, \"wdth\" 100, \"wght\" 300",
+        "\"slnt\" -10, \"wdth\" 100, \"wght\" 300",
+        "\"slnt\" 0, \"wdth\" 100, \"wght\" 400",
+        "\"slnt\" -10, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.273,
+        "relY": 0.14,
+        "heightVh": 0.309,
+        "widthRatio": 0.944,
+        "text": 6.192,
+        "elements": 4.248,
+        "headings": 3,
+        "fontSizes": 3,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/surt-font-eu/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/surt-font-eu/blocks/03.html"
+    },
+    {
+      "id": "surt-font-eu#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(5)",
+      "classes": [
+        "section-variable",
+        "variable-tester"
+      ],
+      "box": {
+        "x": 40,
+        "y": 1692,
+        "w": 1360,
+        "h": 755
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "This typeface family, inspired by Norse mythology and… Scandinavian Architecture …will allow text layouts to have this unusual corkiness.",
+      "fontFamilies": [
+        "Surt"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"slnt\" -10, \"wdth\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.364,
+        "relY": 0.18,
+        "heightVh": 0.609,
+        "widthRatio": 0.944,
+        "text": 4.927,
+        "elements": 2.079,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/surt-font-eu/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/surt-font-eu/blocks/04.html"
+    },
+    {
+      "id": "surt-font-eu#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(6)",
+      "classes": [
+        "section-marquee"
+      ],
+      "box": {
+        "x": 40,
+        "y": 2492,
+        "w": 1360,
+        "h": 448
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "This typeface family, inspired by Norse mythology and Scandinavian Architecture, draws a bridge between a geometric sans and a human process in the whole shape design. This typeface family, inspired by Norse mythology and Scandinavian Archi",
+      "fontFamilies": [
+        "Surt"
+      ],
+      "maxFontSizePx": 37,
+      "variationSettings": [
+        "\"slnt\" 0, \"wdth\" 100"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.455,
+        "relY": 0.265,
+        "heightVh": 0.404,
+        "widthRatio": 0.944,
+        "text": 8.525,
+        "elements": 3.714,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.026,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/surt-font-eu/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/surt-font-eu/blocks/05.html"
+    },
+    {
+      "id": "surt-font-eu#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > main > div",
+      "classes": [
+        "alternates-grid"
+      ],
+      "box": {
+        "x": 40,
+        "y": 2985,
+        "w": 1360,
+        "h": 1010
+      },
+      "headings": [
+        "ALTERNATES",
+        "WEIGHTS",
+        "WIDTHS"
+      ],
+      "parentHeadings": null,
+      "textPreview": "ALTERNATES STYLISTIC SET abcdefghijklmnopqrstuvwxyz 0123456789 ABCDEFGHIJKLMNOPQRSTUVWXYZ WEIGHTS Bold WIDTHS Standard",
+      "fontFamilies": [
+        "Surt"
+      ],
+      "maxFontSizePx": 58,
+      "variationSettings": [
+        "\"slnt\" -3, \"wght\" 692",
+        "\"slnt\" -3, \"wdth\" 114"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.545,
+        "relY": 0.317,
+        "heightVh": 0.752,
+        "widthRatio": 0.944,
+        "text": 4.82,
+        "elements": 3.97,
+        "headings": 3,
+        "fontSizes": 2,
+        "maxFontVw": 0.04,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/surt-font-eu/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/surt-font-eu/blocks/06.html"
+    },
+    {
+      "id": "surt-font-eu#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(8)",
+      "classes": [
+        "section-pairing",
+        "pairing-tester"
+      ],
+      "box": {
+        "x": 40,
+        "y": 4040,
+        "w": 1360,
+        "h": 506
+      },
+      "headings": [
+        "Font Pairing"
+      ],
+      "parentHeadings": null,
+      "textPreview": "WEIGHT SLANT Armag Apoc Oroban Joly Font Pairing Being able to provide great tools for designers to work with is one of the foundry’s core of action. It was a pretty straightforward decision to answer what seemed to be their users demands f",
+      "fontFamilies": [
+        "Surt",
+        "Armag",
+        "Apoc",
+        "Oroban",
+        "Joly"
+      ],
+      "maxFontSizePx": 60,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 2,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.636,
+        "relY": 0.429,
+        "heightVh": 0.446,
+        "widthRatio": 0.944,
+        "text": 7.388,
+        "elements": 3.555,
+        "headings": 1,
+        "fontSizes": 8,
+        "maxFontVw": 0.042,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 1.099,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/surt-font-eu/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/surt-font-eu/blocks/07.html"
+    },
+    {
+      "id": "surt-font-eu#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(9)",
+      "classes": [
+        "section-in-use01"
+      ],
+      "box": {
+        "x": 40,
+        "y": 4591,
+        "w": 1360,
+        "h": 926
+      },
+      "headings": [
+        "IN USE"
+      ],
+      "parentHeadings": null,
+      "textPreview": "IN USE VRTIŠKA & ŽÁK WEBSITE — VRTISKAZAK.COM",
+      "fontFamilies": [
+        "Surt"
+      ],
+      "maxFontSizePx": 13,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 18,
+        "color": 0
+      },
+      "media": {
+        "img": 20,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.727,
+        "relY": 0.488,
+        "heightVh": 0.707,
+        "widthRatio": 0.944,
+        "text": 3.892,
+        "elements": 4.477,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.009,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 2.944,
+        "img": 3.045,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/surt-font-eu/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/surt-font-eu/blocks/08.html"
+    },
+    {
+      "id": "surt-font-eu#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(10)",
+      "classes": [
+        "section-in-use02",
+        "grid"
+      ],
+      "box": {
+        "x": 40,
+        "y": 5561,
+        "w": 1360,
+        "h": 2920
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "LES RENCONTRES PHOTOGRAPHIQUES DU 10ÈME TIRANA ART LAB ENZO CARNIEL AT LA PETITE HALLE STUDIO FUTURA LILY PARIS WEST WEBSITE MILID APP SNEAKERS GENERATOR WEBSITE HIAS WEBSITE HINKILINK IDENTITY",
+      "fontFamilies": [
+        "Surt"
+      ],
+      "maxFontSizePx": 13,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 35,
+        "color": 0
+      },
+      "media": {
+        "img": 71,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.818,
+        "relY": 0.591,
+        "heightVh": 1.446,
+        "widthRatio": 0.944,
+        "text": 5.273,
+        "elements": 5.598,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.009,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 3.584,
+        "img": 4.277,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/surt-font-eu/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/surt-font-eu/blocks/09.html"
+    },
+    {
+      "id": "surt-font-eu#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(11)",
+      "classes": [
+        "section-link"
+      ],
+      "box": {
+        "x": 40,
+        "y": 8526,
+        "w": 1360,
+        "h": 80
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "See Surt on Blaze Type’s website",
+      "fontFamilies": [
+        "Surt"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.909,
+        "relY": 0.906,
+        "heightVh": 0.085,
+        "widthRatio": 0.944,
+        "text": 3.526,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/surt-font-eu/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/surt-font-eu/blocks/10.html"
+    },
+    {
+      "id": "surt-font-eu#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > main > section:nth-of-type(12)",
+      "classes": [
+        "section-discover"
+      ],
+      "box": {
+        "x": 40,
+        "y": 8651,
+        "w": 1360,
+        "h": 704
+      },
+      "headings": [
+        "Discover other Blaze fonts :"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Discover other Blaze fonts :",
+      "fontFamilies": [
+        "Surt"
+      ],
+      "maxFontSizePx": 22,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 4,
+        "svg": 0,
+        "video": 4,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.919,
+        "heightVh": 0.578,
+        "widthRatio": 0.944,
+        "text": 3.367,
+        "elements": 2.833,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.015,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.609,
+        "svg": 0,
+        "video": 1.609,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.609,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/surt-font-eu/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/surt-font-eu/blocks/11.html"
+    },
+    {
+      "id": "surt-font-eu#12",
+      "nn": "12",
+      "kind": "offscreen",
+      "sticky": false,
+      "tag": "header",
+      "selector": "body > header:nth-of-type(2)",
+      "classes": [
+        "site-header-sticky",
+        "hide"
+      ],
+      "box": {
+        "x": 0,
+        "y": -45,
+        "w": 1440,
+        "h": 40
+      },
+      "headings": [
+        "BLAZE TYPE"
+      ],
+      "parentHeadings": null,
+      "textPreview": "BLAZE TYPE BUY SURT DOWNLOAD TRIAL",
+      "fontFamilies": [
+        "Surt"
+      ],
+      "maxFontSizePx": 12,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.091,
+        "relY": -0.005,
+        "heightVh": 0.043,
+        "widthRatio": 1,
+        "text": 3.555,
+        "elements": 1.792,
+        "headings": 1,
+        "fontSizes": 1,
+        "maxFontVw": 0.008,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/surt-font-eu/blocks/12.html"
+    }
+  ]
+}

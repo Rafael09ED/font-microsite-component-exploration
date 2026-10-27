@@ -1,0 +1,1325 @@
+{
+  "slug": "apoc-font-eu",
+  "url": "https://apoc-font.eu/",
+  "pageHeight": 10439,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "apoc-font-eu#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#intro",
+      "classes": [],
+      "box": {
+        "x": 40,
+        "y": 40,
+        "w": 1360,
+        "h": 2067
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Apoc(alypse) character set & alternates was released in 2018 and updated in 2020 & 2022 by Matthieu Salvaggio. Cyrillic languages was designed by Ilya Ruderman (Tomorrow Type). Defined by designers as the most popular typeface of contempora",
+      "fontFamilies": [
+        "Apoc Revelations",
+        "Arial"
+      ],
+      "maxFontSizePx": 400,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 5,
+        "video": 2,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": true,
+        "features": true,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.004,
+        "heightVh": 1.193,
+        "widthRatio": 0.944,
+        "text": 6.765,
+        "elements": 3.761,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.278,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0.693,
+        "svg": 1.792,
+        "video": 1.099,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/apoc-font-eu/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/apoc-font-eu/blocks/00.html"
+    },
+    {
+      "id": "apoc-font-eu#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "figure",
+      "selector": "body > figure:nth-of-type(1)",
+      "classes": [
+        "margin-b"
+      ],
+      "box": {
+        "x": 40,
+        "y": 2147,
+        "w": 1360,
+        "h": 686
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Apoc Normal Apoc Revelations Apoc Sans Apoc is a typeface family revolving around 26 fonts + Variable.",
+      "fontFamilies": [
+        "Apoc Revelations",
+        "Apoc Normal",
+        "Apoc Sans"
+      ],
+      "maxFontSizePx": 122,
+      "variationSettings": [
+        "\"slnt\" 0",
+        "\"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.077,
+        "relY": 0.206,
+        "heightVh": 0.567,
+        "widthRatio": 0.944,
+        "text": 4.635,
+        "elements": 2.303,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.085,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/apoc-font-eu/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/apoc-font-eu/blocks/01.html"
+    },
+    {
+      "id": "apoc-font-eu#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(1)",
+      "classes": [
+        "paragraph-tester"
+      ],
+      "box": {
+        "x": 40,
+        "y": 2873,
+        "w": 1360,
+        "h": 382
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Weight The design process started with the finding of a lettrage (APOCALYPSE; uppercases only) made for a book about the Book of Revelations. Something refreshingly new in the way the counter-forms were displayed made us want to dig deeper.",
+      "fontFamilies": [
+        "Apoc Sans",
+        "Arial",
+        "Apoc Revelations"
+      ],
+      "maxFontSizePx": 39,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.154,
+        "relY": 0.275,
+        "heightVh": 0.354,
+        "widthRatio": 0.944,
+        "text": 5.903,
+        "elements": 3.219,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.027,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0.693,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/apoc-font-eu/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/apoc-font-eu/blocks/02.html"
+    },
+    {
+      "id": "apoc-font-eu#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2)",
+      "classes": [
+        "marquee",
+        "text-xxl",
+        "no-margin",
+        "t-revelations"
+      ],
+      "box": {
+        "x": 0,
+        "y": 3256,
+        "w": 1440,
+        "h": 450
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "With agressive serifs, sharp as if there were cut by a knife. With agressive serifs, sharp as if there were cut by a knife. With agressive serifs, sharp as if there were cut by a knife.",
+      "fontFamilies": [
+        "Apoc Revelations"
+      ],
+      "maxFontSizePx": 400,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(240, 240, 240)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.231,
+        "relY": 0.312,
+        "heightVh": 0.405,
+        "widthRatio": 1,
+        "text": 5.226,
+        "elements": 1.386,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.278,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.871
+      },
+      "crop": "archive/apoc-font-eu/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/apoc-font-eu/blocks/03.html"
+    },
+    {
+      "id": "apoc-font-eu#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "figure",
+      "selector": "body > figure:nth-of-type(2)",
+      "classes": [],
+      "box": {
+        "x": 40,
+        "y": 3706,
+        "w": 1360,
+        "h": 804
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Apoc Sans & Apoc Revelations",
+      "fontFamilies": [
+        "Apoc Revelations"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.308,
+        "relY": 0.355,
+        "heightVh": 0.638,
+        "widthRatio": 0.944,
+        "text": 3.367,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/apoc-font-eu/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/apoc-font-eu/blocks/04.html"
+    },
+    {
+      "id": "apoc-font-eu#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "figure",
+      "selector": "body > figure:nth-of-type(3)",
+      "classes": [],
+      "box": {
+        "x": 40,
+        "y": 4510,
+        "w": 1360,
+        "h": 804
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Lots of Alternate Glyphs",
+      "fontFamilies": [
+        "Apoc Revelations"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.385,
+        "relY": 0.432,
+        "heightVh": 0.638,
+        "widthRatio": 0.944,
+        "text": 3.219,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/apoc-font-eu/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/apoc-font-eu/blocks/05.html"
+    },
+    {
+      "id": "apoc-font-eu#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(3)",
+      "classes": [
+        "margin-b"
+      ],
+      "box": {
+        "x": 40,
+        "y": 5313,
+        "w": 1360,
+        "h": 640
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Apoc, the battle between Light & Dark. “As I stood upon the sand of the sea…” Normal Revelations Sans",
+      "fontFamilies": [
+        "Apoc Revelations",
+        "Apoc Sans",
+        "Apoc Normal"
+      ],
+      "maxFontSizePx": 35,
+      "variationSettings": [
+        "\"slnt\" 0",
+        "\"wght\" 100"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.462,
+        "relY": 0.509,
+        "heightVh": 0.537,
+        "widthRatio": 0.944,
+        "text": 4.663,
+        "elements": 2.833,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.024,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/apoc-font-eu/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/apoc-font-eu/blocks/06.html"
+    },
+    {
+      "id": "apoc-font-eu#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(4)",
+      "classes": [
+        "paragraph-tester",
+        "margin-b"
+      ],
+      "box": {
+        "x": 40,
+        "y": 5993,
+        "w": 1360,
+        "h": 338
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Weight While proofing the font - originally meant for a display usage - we became intriqued by the optical gray obtained when it was used on plain text. Apoc strangely brings up the page’s lightness forward. Enlightening layouts, letting th",
+      "fontFamilies": [
+        "Apoc Sans",
+        "Arial",
+        "Apoc Normal"
+      ],
+      "maxFontSizePx": 39,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.538,
+        "relY": 0.574,
+        "heightVh": 0.319,
+        "widthRatio": 0.944,
+        "text": 5.889,
+        "elements": 3.219,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.027,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0.693,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/apoc-font-eu/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/apoc-font-eu/blocks/07.html"
+    },
+    {
+      "id": "apoc-font-eu#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "figure",
+      "selector": "body > figure:nth-of-type(4)",
+      "classes": [
+        "gallery",
+        "margin-b-sm"
+      ],
+      "box": {
+        "x": 40,
+        "y": 6371,
+        "w": 1360,
+        "h": 686
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "1/6Mary Universe’s website — mary-universe.com",
+      "fontFamilies": [
+        "Apoc Revelations",
+        "Arial"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 10,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.615,
+        "relY": 0.61,
+        "heightVh": 0.567,
+        "widthRatio": 0.944,
+        "text": 3.85,
+        "elements": 3.526,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.099,
+        "img": 2.398,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/apoc-font-eu/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/apoc-font-eu/blocks/08.html"
+    },
+    {
+      "id": "apoc-font-eu#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(5)",
+      "classes": [
+        "pairing-tester",
+        "margin-b-lg"
+      ],
+      "box": {
+        "x": 40,
+        "y": 7077,
+        "w": 1360,
+        "h": 576
+      },
+      "headings": [
+        "Font Pairing"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Weight Area Apoc Oroban Joly Font Pairing Being able to provide great tools for designers to work with is one of the foundry’s core of action. It was a pretty straightforward decision to answer what seemed to be their users demands for a sa",
+      "fontFamilies": [
+        "Apoc Sans",
+        "Arial",
+        "Area",
+        "Apoc Normal",
+        "Oroban",
+        "Joly",
+        "Apoc Revelations"
+      ],
+      "maxFontSizePx": 87,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.692,
+        "relY": 0.678,
+        "heightVh": 0.495,
+        "widthRatio": 0.944,
+        "text": 7.376,
+        "elements": 3.807,
+        "headings": 1,
+        "fontSizes": 8,
+        "maxFontVw": 0.06,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0.693,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/apoc-font-eu/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/apoc-font-eu/blocks/09.html"
+    },
+    {
+      "id": "apoc-font-eu#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(6)",
+      "classes": [
+        "cols",
+        "margin-b"
+      ],
+      "box": {
+        "x": 40,
+        "y": 7725,
+        "w": 1360,
+        "h": 970
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Apoc and Neue Helvetica in use by Pénélope Delaur for Mauella Apoc and Clarkson in use by Angela Milosevic, Pei Liew & Ignasi Monreal for Squarespace Apoc, Kraft and Surt in use by Álvaro Donquiles for Mutek festival",
+      "fontFamilies": [
+        "Apoc Revelations"
+      ],
+      "maxFontSizePx": 24,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 5,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.769,
+        "relY": 0.74,
+        "heightVh": 0.731,
+        "widthRatio": 0.944,
+        "text": 5.38,
+        "elements": 2.485,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.017,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.792,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/apoc-font-eu/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/apoc-font-eu/blocks/10.html"
+    },
+    {
+      "id": "apoc-font-eu#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(7)",
+      "classes": [
+        "paragraph-tester",
+        "margin-b"
+      ],
+      "box": {
+        "x": 40,
+        "y": 8735,
+        "w": 1360,
+        "h": 293
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Apoc does wonders when displayed in headlines and brings the lightness of your layouts up when used in plain text in smaller sizes. This font-family will work greatly with covers and text layouts. whether they be books, magazines, music alb",
+      "fontFamilies": [
+        "Apoc Sans"
+      ],
+      "maxFontSizePx": 39,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.846,
+        "relY": 0.837,
+        "heightVh": 0.282,
+        "widthRatio": 0.944,
+        "text": 6.031,
+        "elements": 2.89,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.027,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/apoc-font-eu/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/apoc-font-eu/blocks/11.html"
+    },
+    {
+      "id": "apoc-font-eu#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(8)",
+      "classes": [
+        "marquee",
+        "t-sans",
+        "margin-b",
+        "no-margin",
+        "text-xxl"
+      ],
+      "box": {
+        "x": 0,
+        "y": 9068,
+        "w": 1440,
+        "h": 450
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "It will do marvels if you want to balance your layout's optical gray and play with the light and dark side of your work. It will do marvels if you want to balance your layout's optical gray and play with the light and dark side of your work",
+      "fontFamilies": [
+        "Apoc Sans"
+      ],
+      "maxFontSizePx": 400,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(240, 240, 240)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.923,
+        "relY": 0.869,
+        "heightVh": 0.405,
+        "widthRatio": 1,
+        "text": 5.894,
+        "elements": 1.386,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.278,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0.871
+      },
+      "crop": "archive/apoc-font-eu/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/apoc-font-eu/blocks/12.html"
+    },
+    {
+      "id": "apoc-font-eu#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#links",
+      "classes": [],
+      "box": {
+        "x": 40,
+        "y": 9558,
+        "w": 1360,
+        "h": 822
+      },
+      "headings": [
+        "Discover other fonts:"
+      ],
+      "parentHeadings": null,
+      "textPreview": "See Apoc on Blaze Type’s website now ! Discover other fonts: f",
+      "fontFamilies": [
+        "Apoc Revelations",
+        "Apoc Sans"
+      ],
+      "maxFontSizePx": 39,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 4,
+        "svg": 0,
+        "video": 3,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.916,
+        "heightVh": 0.649,
+        "widthRatio": 0.944,
+        "text": 4.159,
+        "elements": 2.833,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.027,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.609,
+        "svg": 0,
+        "video": 1.386,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.609,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/apoc-font-eu/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/apoc-font-eu/blocks/13.html"
+    },
+    {
+      "id": "apoc-font-eu#14",
+      "nn": "14",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "header",
+      "selector": "body > header",
+      "classes": [
+        "site-header"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 54
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Buy Apoc APOC Download Trial",
+      "fontFamilies": [
+        "Apoc Revelations"
+      ],
+      "maxFontSizePx": 36,
+      "variationSettings": [
+        "\"slnt\" 0"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.077,
+        "relY": 0,
+        "heightVh": 0.058,
+        "widthRatio": 1,
+        "text": 3.367,
+        "elements": 1.609,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.025,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": 1,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/apoc-font-eu/blocks/14.html"
+    }
+  ]
+}

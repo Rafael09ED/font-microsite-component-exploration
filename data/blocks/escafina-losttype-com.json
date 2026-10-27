@@ -1,0 +1,640 @@
+{
+  "slug": "escafina-losttype-com",
+  "url": "http://escafina.losttype.com",
+  "pageHeight": 9454,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "escafina-losttype-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#root > div:nth-of-type(1)",
+      "classes": [
+        "clearfix",
+        "mt2",
+        "md-mt3"
+      ],
+      "box": {
+        "x": 0,
+        "y": 32,
+        "w": 1440,
+        "h": 1206
+      },
+      "headings": [
+        "Escafina",
+        "Personal License",
+        "Commercial License"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Escafina Escafina E scafina A balanced upright script with style & moxie! A balanced upright script with style & moxie! by Riley Cran from Lost Type Get Escafina Personal License Pay-What-You-Want for a Personal Use License of Escafina. Com",
+      "fontFamilies": [
+        "Moriston",
+        "Escafina"
+      ],
+      "maxFontSizePx": 120,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 2,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.003,
+        "heightVh": 0.85,
+        "widthRatio": 1,
+        "text": 5.897,
+        "elements": 4.205,
+        "headings": 3,
+        "fontSizes": 7,
+        "maxFontVw": 0.083,
+        "singleChar": 1.386,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 1.099,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.099,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.386,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/escafina-losttype-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/escafina-losttype-com/blocks/00.html"
+    },
+    {
+      "id": "escafina-losttype-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#root > div:nth-of-type(2)",
+      "classes": [
+        "clearfix",
+        "bg-white",
+        "py4",
+        "p1",
+        "md-p2"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1238,
+        "w": 1440,
+        "h": 307
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Atomize Bowlful Chemists Dairymen Edition Fanfare Galaxies History Indexes Jigsaws Kashmir Leisure Magnetic Norfolk Overdrive Petition Quartets Reflects Symphony Theremin Unified Volcano Western Xylephone Yodeling Zephyr Atomize Bowlful Che",
+      "fontFamilies": [
+        "Escafina"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 243, 225)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.167,
+        "relY": 0.131,
+        "heightVh": 0.293,
+        "widthRatio": 1,
+        "text": 6.091,
+        "elements": 3.611,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.908,
+        "fgLum": 0
+      },
+      "crop": "archive/escafina-losttype-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/escafina-losttype-com/blocks/01.html"
+    },
+    {
+      "id": "escafina-losttype-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#root > div:nth-of-type(3)",
+      "classes": [
+        "bg-orange",
+        "bg-pattern-sparkle",
+        "white",
+        "clearfix",
+        "pt4"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1545,
+        "w": 1440,
+        "h": 2463
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "In the summer of 2014, I started compiling samples of ‘upright script’ lettering. I had been doing a lot of research about the aesthetics of vintage signage and mid century advertising, and I found a ton of great uses of this style of lette",
+      "fontFamilies": [
+        "Moriston",
+        "Escafina"
+      ],
+      "maxFontSizePx": 120,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 3,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 6,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(246, 141, 59)",
+      "color": "rgb(255, 243, 225)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.163,
+        "heightVh": 1.318,
+        "widthRatio": 1,
+        "text": 7.579,
+        "elements": 4.844,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.083,
+        "singleChar": 0.693,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 1.386,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.946,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.39,
+        "fgLum": 0.908
+      },
+      "crop": "archive/escafina-losttype-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/escafina-losttype-com/blocks/02.html"
+    },
+    {
+      "id": "escafina-losttype-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#root > div:nth-of-type(4)",
+      "classes": [
+        "bg-brown",
+        "white",
+        "clearfix",
+        "py4"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4008,
+        "w": 1440,
+        "h": 1174
+      },
+      "headings": [
+        "Multiplexing"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Multiplexing I also wrote custom software which ‘multiplexed’ the various styles of Escafina so that they can be swapped effortlessly without re-flow, or varying word-length. Edit them below to see for yourself! A typeface in 3 styles! Esca",
+      "fontFamilies": [
+        "Moriston",
+        "Escafina"
+      ],
+      "maxFontSizePx": 120,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(55, 51, 49)",
+      "color": "rgb(255, 243, 225)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.5,
+        "relY": 0.424,
+        "heightVh": 0.835,
+        "widthRatio": 1,
+        "text": 5.866,
+        "elements": 4.673,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.083,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.034,
+        "fgLum": 0.908
+      },
+      "crop": "archive/escafina-losttype-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/escafina-losttype-com/blocks/03.html"
+    },
+    {
+      "id": "escafina-losttype-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#root > div:nth-of-type(5)",
+      "classes": [
+        "bg-brown",
+        "bg-cover",
+        "clearfix",
+        "p1"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5182,
+        "w": 1440,
+        "h": 611
+      },
+      "headings": [
+        "The Print"
+      ],
+      "parentHeadings": null,
+      "textPreview": "The Print Every Commercial License of Escafina includes this exclusive risograph print! Get Escafina",
+      "fontFamilies": [
+        "Moriston",
+        "Escafina"
+      ],
+      "maxFontSizePx": 80,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(55, 51, 49)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.548,
+        "heightVh": 0.518,
+        "widthRatio": 1,
+        "text": 4.635,
+        "elements": 1.946,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.056,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.034,
+        "fgLum": 0
+      },
+      "crop": "archive/escafina-losttype-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/escafina-losttype-com/blocks/04.html"
+    },
+    {
+      "id": "escafina-losttype-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#root > div:nth-of-type(6)",
+      "classes": [
+        "bg-creamcicle",
+        "clearfix",
+        "p1",
+        "lg-px2",
+        "lg-py4"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5793,
+        "w": 1440,
+        "h": 2164
+      },
+      "headings": [
+        "HAPPY HOUR HAPPY HOUR"
+      ],
+      "parentHeadings": null,
+      "textPreview": "HAPPY HOUR HAPPY HOUR Whiskey Sour · $12 Whiskey Sour · $12 Whiskey, Lemon Juice, Sugar, Egg White Whiskey, Lemon Juice, Sugar, Egg White Old Fashioned · $9 Old Fashioned · $9 Rye Whiskey, Bitters, Sugar Cube Rye Whiskey, Bitters, Sugar Cub",
+      "fontFamilies": [
+        "Moriston",
+        "Escafina"
+      ],
+      "maxFontSizePx": 40,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 25,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 187, 129)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": true
+      },
+      "vector": {
+        "order": 0.833,
+        "relY": 0.613,
+        "heightVh": 1.225,
+        "widthRatio": 1,
+        "text": 7.056,
+        "elements": 5.781,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.028,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 3.258,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.584,
+        "fgLum": 0
+      },
+      "crop": "archive/escafina-losttype-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/escafina-losttype-com/blocks/05.html"
+    },
+    {
+      "id": "escafina-losttype-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#root > div:nth-of-type(7)",
+      "classes": [
+        "clearfix",
+        "bg-teal",
+        "p2",
+        "md-py4"
+      ],
+      "box": {
+        "x": 0,
+        "y": 7957,
+        "w": 1440,
+        "h": 1496
+      },
+      "headings": [
+        "Personal License",
+        "Commercial License",
+        "Subscribe to the Lost Type Newsletter",
+        "Special thanks to…"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Get Escafina Personal License Pay-What-You-Want for a Personal Use License of Escafina. Commercial License Buy a Commercial Use License for only $55, and receive this lively risograph print at no extra charge! Subscribe to the Lost Type New",
+      "fontFamilies": [
+        "Moriston",
+        "Escafina"
+      ],
+      "maxFontSizePx": 40,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(20, 180, 181)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": true,
+        "price": true
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.842,
+        "heightVh": 0.979,
+        "widthRatio": 1,
+        "text": 6.892,
+        "elements": 4.078,
+        "headings": 4,
+        "fontSizes": 3,
+        "maxFontVw": 0.028,
+        "singleChar": 0.693,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0.693,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.946,
+        "bgLum": 0.361,
+        "fgLum": 0
+      },
+      "crop": "archive/escafina-losttype-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/escafina-losttype-com/blocks/06.html"
+    }
+  ]
+}

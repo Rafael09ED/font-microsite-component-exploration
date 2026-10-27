@@ -1,0 +1,627 @@
+{
+  "slug": "shantellsans-com",
+  "url": "https://shantellsans.com",
+  "pageHeight": 10575,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "shantellsans-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#svelte > main > div:nth-of-type(1)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 720
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "CLICK ANYWHERE",
+      "fontFamilies": [
+        "ShantellSans"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [
+        "\"BNCE\" -100, \"INFM\" 0, \"wght\" 800"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.588,
+        "widthRatio": 1,
+        "text": 2.708,
+        "elements": 1.386,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/shantellsans-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/shantellsans-com/blocks/00.html"
+    },
+    {
+      "id": "shantellsans-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#svelte > main > div:nth-of-type(2)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 728,
+        "w": 1440,
+        "h": 1142
+      },
+      "headings": [
+        "WORDS ARE MADE UP OF LINES"
+      ],
+      "parentHeadings": null,
+      "textPreview": "WORDS ARE MADE UP OF LINES Shantell Sans, from Shantell Martin, is a marker-style font built for creative expression, typographic play, and animation. It is available as a 5-axis variable font as well as a collection of static fonts. One of",
+      "fontFamilies": [
+        "ShantellSans"
+      ],
+      "maxFontSizePx": 20,
+      "variationSettings": [
+        "\"BNCE\" -50",
+        "\"opsz\" 12",
+        "\"ital\" 1"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.2,
+        "relY": 0.069,
+        "heightVh": 0.819,
+        "widthRatio": 1,
+        "text": 7.267,
+        "elements": 3.434,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.014,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.079,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/shantellsans-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/shantellsans-com/blocks/01.html"
+    },
+    {
+      "id": "shantellsans-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#svelte > main > section:nth-of-type(1)",
+      "classes": [
+        "svelte-jdpudf"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1878,
+        "w": 1440,
+        "h": 770
+      },
+      "headings": [
+        "Try Me!"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Try Me! Font Size Weight Italic Informality Bounce Spacing",
+      "fontFamilies": [
+        "ShantellSans",
+        "Arial"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [
+        "\"BNCE\" 0, \"INFM\" 0, \"SPAC\" 0, \"ital\" 0"
+      ],
+      "controls": {
+        "range": 6,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.4,
+        "relY": 0.178,
+        "heightVh": 0.618,
+        "widthRatio": 1,
+        "text": 4.078,
+        "elements": 3.584,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 1.946,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/shantellsans-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/shantellsans-com/blocks/02.html"
+    },
+    {
+      "id": "shantellsans-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "#svelte > main > div:nth-of-type(3)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 2648,
+        "w": 1440,
+        "h": 1110
+      },
+      "headings": [
+        "VARIABLE AXES",
+        "WEIGHT (300 TO 800) wght",
+        "ITALIC (0 TO 1) ital",
+        "INFORMALITY (0 TO 100) INFM"
+      ],
+      "parentHeadings": null,
+      "textPreview": "VARIABLE AXES HHH → HHH WEIGHT (300 TO 800) wght You know it and love it, and now it’s variable! Weight adjusts the overall thickness of the strokes in letterforms. Useful for establishing typographic hierarchy and much more. HHH → HHH ITAL",
+      "fontFamilies": [
+        "ShantellSans",
+        "Courier"
+      ],
+      "maxFontSizePx": 64,
+      "variationSettings": [
+        "\"BNCE\" -50",
+        "\"wght\" 300",
+        "\"wght\" 800",
+        "\"ital\" 1",
+        "\"ital\" 0, \"wght\" 550",
+        "\"ital\" 1, \"wght\" 550",
+        "\"INFM\" 0, \"wght\" 550",
+        "\"INFM\" 100, \"wght\" 550"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.6,
+        "relY": 0.25,
+        "heightVh": 0.803,
+        "widthRatio": 1,
+        "text": 6.983,
+        "elements": 3.932,
+        "headings": 4,
+        "fontSizes": 4,
+        "maxFontVw": 0.044,
+        "singleChar": 1.792,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": "archive/shantellsans-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/shantellsans-com/blocks/03.html"
+    },
+    {
+      "id": "shantellsans-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#svelte > main > section:nth-of-type(2)",
+      "classes": [
+        "charset",
+        "svelte-bknvdb"
+      ],
+      "box": {
+        "x": 8,
+        "y": 3790,
+        "w": 1424,
+        "h": 6330
+      },
+      "headings": [
+        "CHARACTERS"
+      ],
+      "parentHeadings": null,
+      "textPreview": "CHARACTERS A À Á Â Ã Ä Å Ā Ă Ą Ǎ Ǻ Ȁ Ȃ Ạ Ả Ấ Ầ Ẩ Ẫ Ậ Ắ Ằ Ẳ Ẵ Ặ B C Ç Ć Ĉ Ċ Č D Ď E È É Ê Ë Ē Ĕ Ė Ę Ě Ȅ Ȇ Ẹ Ẻ Ẽ Ế Ề Ể Ễ Ệ F G Ĝ Ğ Ġ Ģ Ǧ H Ĥ I Ì Í Î Ï Ĩ Ī Ĭ Į İ Ȉ Ȋ Ỉ Ị J Ĵ K Ķ L Ĺ Ļ Ľ M N Ñ Ń Ņ Ň O Ò Ó Ô Õ Ö Ō Ŏ Ő Ơ Ǫ Ȍ Ȏ Ȫ Ȭ Ȱ Ọ Ỏ Ố Ồ Ổ Ỗ Ộ",
+      "fontFamilies": [
+        "ShantellSans"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [
+        "\"INFM\" 100"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": true,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.8,
+        "relY": 0.358,
+        "heightVh": 2.084,
+        "widthRatio": 0.989,
+        "text": 7.421,
+        "elements": 7.416,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.033,
+        "singleChar": 5.298,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0,
+        "fgLum": 1
+      },
+      "crop": "archive/shantellsans-com/blocks/04.jpg",
+      "cropTruncated": true,
+      "html": "archive/shantellsans-com/blocks/04.html"
+    },
+    {
+      "id": "shantellsans-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "#svelte > footer",
+      "classes": [
+        "svelte-14tj539"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10136,
+        "w": 1440,
+        "h": 439
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "“May you...” words by Shantell Martin. Website by ArrowType. ------------ Shantell Sans on GitHub View this website’s source ------------",
+      "fontFamilies": [
+        "ShantellSans"
+      ],
+      "maxFontSizePx": 16,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(230, 230, 230)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.958,
+        "heightVh": 0.397,
+        "widthRatio": 1,
+        "text": 4.963,
+        "elements": 3.664,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.011,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.609,
+        "bgLum": 0.791,
+        "fgLum": 0
+      },
+      "crop": "archive/shantellsans-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/shantellsans-com/blocks/05.html"
+    },
+    {
+      "id": "shantellsans-com#06",
+      "nn": "06",
+      "kind": "fixed",
+      "sticky": false,
+      "tag": "nav",
+      "selector": "#header",
+      "classes": [
+        "svelte-1dvw1fk"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 56
+      },
+      "headings": [
+        "SHANTELL SANS®"
+      ],
+      "parentHeadings": null,
+      "textPreview": "SHANTELL SANS® DESIGN PROCESS DOWNLOAD",
+      "fontFamilies": [
+        "ShantellSans"
+      ],
+      "maxFontSizePx": 17,
+      "variationSettings": [
+        "\"BNCE\" -50"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1.2,
+        "relY": 0,
+        "heightVh": 0.06,
+        "widthRatio": 1,
+        "text": 3.664,
+        "elements": 3.219,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.012,
+        "singleChar": 1.609,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.946,
+        "bgLum": -1,
+        "fgLum": 0
+      },
+      "crop": null,
+      "cropTruncated": null,
+      "html": "archive/shantellsans-com/blocks/06.html"
+    }
+  ]
+}

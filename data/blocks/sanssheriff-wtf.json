@@ -1,0 +1,1077 @@
+{
+  "slug": "sanssheriff-wtf",
+  "url": "https://www.sanssheriff.wtf",
+  "pageHeight": 6530,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "sanssheriff-wtf#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "header",
+      "selector": "body > header",
+      "classes": [
+        "center"
+      ],
+      "box": {
+        "x": 0,
+        "y": 38,
+        "w": 1440,
+        "h": 186
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "A typeface in three optical sizes",
+      "fontFamilies": [
+        "Jaune Variable"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"dspl\" 100, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(50, 198, 63)",
+      "color": "rgb(0, 255, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0.006,
+        "heightVh": 0.188,
+        "widthRatio": 1,
+        "text": 3.689,
+        "elements": 1.386,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.414,
+        "fgLum": 0.715
+      },
+      "crop": "archive/sanssheriff-wtf/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/sanssheriff-wtf/blocks/00.html"
+    },
+    {
+      "id": "sanssheriff-wtf#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#play",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 224,
+        "w": 1440,
+        "h": 672
+      },
+      "headings": [
+        "Leaderboard"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Leaderboard 420 BLAZE IT 420690 Yaquoi 176940 Florian Fecher 164710 Louuuu 123930 Papyrus 120670 Louuuuuu 107010 meh 102100 Florian Fecher 99500 Florian Fecher 98810 BorisPasDoué 94380 Augustooo 90560 Mspo 87820 BorisResteDansLescalier 8292",
+      "fontFamilies": [
+        "Jaune Variable"
+      ],
+      "maxFontSizePx": 29,
+      "variationSettings": [
+        "\"dspl\" 100, \"wght\" 400",
+        "\"dspl\" 1000",
+        "\"dspl\" 100, \"wght\" 700",
+        "\"dspl\" 100, \"wght\" 550",
+        "\"dspl\" 550, \"wght\" 900"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 1,
+        "contenteditable": 0,
+        "checkbox": 1,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 1,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(253, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.091,
+        "relY": 0.034,
+        "heightVh": 0.558,
+        "widthRatio": 1,
+        "text": 7.375,
+        "elements": 5.231,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.02,
+        "singleChar": 2.708,
+        "varSettings": 5,
+        "range": 0,
+        "textInput": 0.693,
+        "toggles": 0.693,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0.693,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": -1,
+        "fgLum": 0.209
+      },
+      "crop": "archive/sanssheriff-wtf/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/sanssheriff-wtf/blocks/01.html"
+    },
+    {
+      "id": "sanssheriff-wtf#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section:nth-of-type(2)",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 896,
+        "w": 1440,
+        "h": 578
+      },
+      "headings": [
+        "About NaN Jaune"
+      ],
+      "parentHeadings": null,
+      "textPreview": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 WEIGHT OPTICAL SIZE About NaN Jaune Closed apertures, display for text and text for display, Jaune follows this NaN motto: take a bad idea and do it well, or at least die trying",
+      "fontFamilies": [
+        "Jaune Variable",
+        "NaNJauneGX",
+        "Arial"
+      ],
+      "maxFontSizePx": 65,
+      "variationSettings": [
+        "\"dspl\" 100, \"wght\" 400",
+        "\"dspl\" 100, \"wght\" 550",
+        "\"dspl\" 1000",
+        "\"dspl\" 100, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 2,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(253, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.182,
+        "relY": 0.137,
+        "heightVh": 0.496,
+        "widthRatio": 1,
+        "text": 6.797,
+        "elements": 3.401,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.045,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 1.099,
+        "textInput": 0.693,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": -1,
+        "fgLum": 0.209
+      },
+      "crop": "archive/sanssheriff-wtf/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/sanssheriff-wtf/blocks/02.html"
+    },
+    {
+      "id": "sanssheriff-wtf#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#sizes",
+      "classes": [
+        "center"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1475,
+        "w": 1440,
+        "h": 604
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "NaN Jaune Maxi Howdy! I'm the sheriff of type NaN Jaune Midi Howdy! I'm the sheriff of type NaN Jaune Mini Howdy! I'm the sheriff of type WEIGHT",
+      "fontFamilies": [
+        "Jaune Variable",
+        "NaNJauneGX",
+        "Arial"
+      ],
+      "maxFontSizePx": 65,
+      "variationSettings": [
+        "\"dspl\" 100, \"wght\" 400",
+        "\"dspl\" 100, \"wght\" 550",
+        "\"dspl\" 1000, \"wght\" 400",
+        "\"dspl\" 550, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 6,
+        "text": 0,
+        "contenteditable": 3,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(254, 176, 147)",
+      "color": "rgb(253, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.273,
+        "relY": 0.226,
+        "heightVh": 0.513,
+        "widthRatio": 1,
+        "text": 4.977,
+        "elements": 4.263,
+        "headings": 0,
+        "fontSizes": 3,
+        "maxFontVw": 0.045,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 1.946,
+        "textInput": 1.386,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.542,
+        "fgLum": 0.209
+      },
+      "crop": "archive/sanssheriff-wtf/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/sanssheriff-wtf/blocks/03.html"
+    },
+    {
+      "id": "sanssheriff-wtf#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#links",
+      "classes": [
+        "center"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2079,
+        "w": 1440,
+        "h": 210
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Download Trial Fonts Download PDF Specimen",
+      "fontFamilies": [
+        "Jaune Variable"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [
+        "\"dspl\" 100, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(253, 0, 0)",
+      "color": "rgb(254, 198, 63)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": true,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.364,
+        "relY": 0.318,
+        "heightVh": 0.21,
+        "widthRatio": 1,
+        "text": 3.761,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.209,
+        "fgLum": 0.618
+      },
+      "crop": "archive/sanssheriff-wtf/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/sanssheriff-wtf/blocks/04.html"
+    },
+    {
+      "id": "sanssheriff-wtf#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#animate",
+      "classes": [
+        "center",
+        "no-translate"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2289,
+        "w": 1440,
+        "h": 452
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Variablicious Edit me :-)",
+      "fontFamilies": [
+        "Jaune Variable"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [
+        "\"dspl\" 216.088, \"wght\" 203.189"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 255)",
+      "color": "rgb(0, 255, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.455,
+        "relY": 0.351,
+        "heightVh": 0.407,
+        "widthRatio": 1,
+        "text": 3.258,
+        "elements": 0.693,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.072,
+        "fgLum": 0.715
+      },
+      "crop": "archive/sanssheriff-wtf/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/sanssheriff-wtf/blocks/05.html"
+    },
+    {
+      "id": "sanssheriff-wtf#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#paragraphs",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 2741,
+        "w": 1440,
+        "h": 796
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "NaN Jaune Maxi Socialism, Communism, or whatever one chooses to call it, by converting private property into public wealth, and substituting co-operation for competition, will restore society to its proper condition of a thoroughly healthy ",
+      "fontFamilies": [
+        "Jaune Variable",
+        "NaNJauneGX",
+        "Arial"
+      ],
+      "maxFontSizePx": 40,
+      "variationSettings": [
+        "\"dspl\" 100, \"wght\" 400",
+        "\"dspl\" 100, \"wght\" 550",
+        "\"dspl\" 1000, \"wght\" 400",
+        "\"dspl\" 550, \"wght\" 400"
+      ],
+      "controls": {
+        "range": 6,
+        "text": 0,
+        "contenteditable": 6,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(50, 198, 63)",
+      "color": "rgb(0, 0, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.545,
+        "relY": 0.42,
+        "heightVh": 0.634,
+        "widthRatio": 1,
+        "text": 7.497,
+        "elements": 4.263,
+        "headings": 0,
+        "fontSizes": 5,
+        "maxFontVw": 0.028,
+        "singleChar": 0,
+        "varSettings": 4,
+        "range": 1.946,
+        "textInput": 1.946,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.414,
+        "fgLum": 0.072
+      },
+      "crop": "archive/sanssheriff-wtf/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/sanssheriff-wtf/blocks/06.html"
+    },
+    {
+      "id": "sanssheriff-wtf#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#comparison",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 3537,
+        "w": 1440,
+        "h": 698
+      },
+      "headings": [
+        "3 optical sizes, 3 independent sub-families"
+      ],
+      "parentHeadings": null,
+      "textPreview": "3 optical sizes, 3 independent sub-families Maxi Midi Mini Hover to preview each sub-family",
+      "fontFamilies": [
+        "Jaune Variable",
+        "Jaune Maxi",
+        "Arial",
+        "Jaune Midi",
+        "Jaune Mini"
+      ],
+      "maxFontSizePx": 65,
+      "variationSettings": [
+        "\"dspl\" 1000",
+        "\"dspl\" 100, \"wght\" 400",
+        "\"dspl\" 550, \"wght\" 400",
+        "\"dspl\" 550",
+        "\"dspl\" 100"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(184, 254, 147)",
+      "color": "rgb(64, 64, 65)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.636,
+        "relY": 0.542,
+        "heightVh": 0.574,
+        "widthRatio": 1,
+        "text": 4.533,
+        "elements": 3.951,
+        "headings": 1,
+        "fontSizes": 4,
+        "maxFontVw": 0.045,
+        "singleChar": 0,
+        "varSettings": 5,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.832,
+        "fgLum": 0.051
+      },
+      "crop": "archive/sanssheriff-wtf/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/sanssheriff-wtf/blocks/07.html"
+    },
+    {
+      "id": "sanssheriff-wtf#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#in-use",
+      "classes": [
+        "center"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4235,
+        "w": 1440,
+        "h": 844
+      },
+      "headings": [
+        "→ Jaune In The Wild ←"
+      ],
+      "parentHeadings": null,
+      "textPreview": "→ Jaune In The Wild ← Joon Maganzine Design by Fisk Maison Tangible Design by Aurélien Jeanney Shed Editors Design by Studio Akakir More to come on FontsInUse",
+      "fontFamilies": [
+        "Jaune Variable"
+      ],
+      "maxFontSizePx": 65,
+      "variationSettings": [
+        "\"dspl\" 1000",
+        "\"dspl\" 100, \"wght\" 400",
+        "\"dspl\" 100, \"wght\" 900"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 3,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(253, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.727,
+        "relY": 0.649,
+        "heightVh": 0.662,
+        "widthRatio": 1,
+        "text": 5.075,
+        "elements": 2.996,
+        "headings": 1,
+        "fontSizes": 2,
+        "maxFontVw": 0.045,
+        "singleChar": 0,
+        "varSettings": 3,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.386,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.609,
+        "bgLum": -1,
+        "fgLum": 0.209
+      },
+      "crop": "archive/sanssheriff-wtf/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/sanssheriff-wtf/blocks/08.html"
+    },
+    {
+      "id": "sanssheriff-wtf#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#wordlists",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 5079,
+        "w": 1440,
+        "h": 780
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "slide 3 to 5 of 3 Cardiologist Competitors Associatively Haemorrhage Premeditation Retentiveness Uncrushable Covenanters Proportioned Preposterous Ambassadors Warmhearted Caterpillars Soughtafter Questionably Cheerfulness Unwaveringly Trans",
+      "fontFamilies": [
+        "Jaune Variable"
+      ],
+      "maxFontSizePx": 80,
+      "variationSettings": [
+        "\"dspl\" 100, \"wght\" 400",
+        "\"dspl\" 550, \"wght\" 900",
+        "\"dspl\" 550, \"wght\" 760",
+        "\"dspl\" 550, \"wght\" 496",
+        "\"dspl\" 550, \"wght\" 340",
+        "\"dspl\" 550, \"wght\" 223",
+        "\"dspl\" 550, \"wght\" 163",
+        "\"dspl\" 100, \"wght\" 900"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 5,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(253, 0, 0)",
+      "color": "rgb(254, 198, 63)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.818,
+        "relY": 0.778,
+        "heightVh": 0.624,
+        "widthRatio": 1,
+        "text": 6.495,
+        "elements": 4.357,
+        "headings": 0,
+        "fontSizes": 4,
+        "maxFontVw": 0.056,
+        "singleChar": 1.099,
+        "varSettings": 8,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.792,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.209,
+        "fgLum": 0.618
+      },
+      "crop": "archive/sanssheriff-wtf/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/sanssheriff-wtf/blocks/09.html"
+    },
+    {
+      "id": "sanssheriff-wtf#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#cta",
+      "classes": [
+        "center"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5859,
+        "w": 1440,
+        "h": 158
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "License NaN Jaune from 40€ / style",
+      "fontFamilies": [
+        "Jaune Variable"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [
+        "\"dspl\" 100, \"wght\" 300"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 0, 255)",
+      "color": "rgb(253, 0, 0)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.909,
+        "relY": 0.897,
+        "heightVh": 0.162,
+        "widthRatio": 1,
+        "text": 3.555,
+        "elements": 1.099,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0.022,
+        "singleChar": 0,
+        "varSettings": 1,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.072,
+        "fgLum": 0.209
+      },
+      "crop": "archive/sanssheriff-wtf/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/sanssheriff-wtf/blocks/10.html"
+    },
+    {
+      "id": "sanssheriff-wtf#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#imprint",
+      "classes": [],
+      "box": {
+        "x": 0,
+        "y": 6017,
+        "w": 1440,
+        "h": 475
+      },
+      "headings": [
+        "Thanks!",
+        "Credits"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Thanks! To you, dear visitor, for having read and enjoyed this page with us; to David Jonathan Ross for his support and wise recommendations at an early stage of the project; to Future Fonts for having allowed this project to grow and to fi",
+      "fontFamilies": [
+        "Jaune Variable"
+      ],
+      "maxFontSizePx": 65,
+      "variationSettings": [
+        "\"dspl\" 100, \"wght\" 400",
+        "\"dspl\" 1000"
+      ],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(253, 0, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.921,
+        "heightVh": 0.424,
+        "widthRatio": 1,
+        "text": 6.8,
+        "elements": 3.555,
+        "headings": 2,
+        "fontSizes": 2,
+        "maxFontVw": 0.045,
+        "singleChar": 0,
+        "varSettings": 2,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 3.045,
+        "bgLum": -1,
+        "fgLum": 0.209
+      },
+      "crop": "archive/sanssheriff-wtf/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/sanssheriff-wtf/blocks/11.html"
+    }
+  ]
+}

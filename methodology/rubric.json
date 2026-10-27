@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "note": "Attributes recorded for every component instance in Phase 3. 'auto' attributes are computed from the block features; the rest are judged from the crop, HTML and video. Values marked [] are multi-select.",
+  "crossCutting": {
+    "colorMode": { "values": ["light", "dark", "color-field", "photo", "mixed"], "how": "dominant background of the block" },
+    "motion": { "values": ["none", "ambient", "scroll-driven", "on-interaction", "video"], "how": "check the scroll video for the block's region" },
+    "interactivity": { "values": ["none", "links", "controls", "editable", "game-like"], "how": "the deepest level the visitor can reach" },
+    "density": { "values": ["sparse", "balanced", "dense"], "how": "amount of content per screen" },
+    "typeScale": { "auto": "maxFontVsViewport", "how": "largest font size as a fraction of the viewport width" },
+    "realism": { "values": ["abstract", "pangram", "themed", "real-content"], "how": "what the sample text is: pangrams vs invented themed copy vs genuine content" },
+    "tone": { "values": "free text, 2–4 words", "how": "e.g. 'witty, retro, print-like'" },
+    "mobile": { "values": ["adapts", "shrinks", "breaks", "hidden", "unknown"], "how": "compare with full-mobile.jpg" }
+  },
+  "perType": {
+    "hero": {
+      "carrier": { "values": ["name", "sentence", "glyph", "photo", "illustration", "props", "motion", "controls"], "how": "what carries the first impression" },
+      "cta": { "values": ["none", "buy", "try", "download", "scroll", "multiple"] },
+      "rangeShown": { "values": ["one-style", "several", "whole-family"] },
+      "navVisible": { "values": [true, false] }
+    },
+    "story": {
+      "voice": { "values": ["first-person", "third-person", "institutional", "none"] },
+      "media": { "values": [], "multi": ["archival", "process", "photo", "diagram", "none"] },
+      "length": { "values": ["short", "medium", "long"] }
+    },
+    "glyph-table": {
+      "coverage": { "values": ["full", "partial", "by-category"] },
+      "interaction": { "values": ["static", "hover", "select", "tabs", "filter"] },
+      "metricsShown": { "values": [true, false] },
+      "namesOrUnicode": { "values": [true, false] }
+    },
+    "type-tester": {
+      "controls": { "multi": ["text", "size", "leading", "tracking", "weight", "axes", "features", "style-select", "color", "alignment", "presets", "language"] },
+      "scope": { "values": ["single", "per-row", "global", "in-layout"] },
+      "defaultText": { "values": ["pangram", "meaningful", "prompt", "code", "user-empty"] },
+      "export": { "values": [true, false], "how": "share, download image or copy CSS" }
+    },
+    "specimen-showcase": {
+      "medium": { "values": ["type-only", "photo-mockup", "illustration", "video", "generative", "ui"] },
+      "sequence": { "values": ["single", "series", "grid", "carousel"] }
+    },
+    "family-overview": {
+      "structure": { "values": ["list", "grid", "matrix", "map", "stats"] },
+      "samples": { "values": ["word", "paragraph", "glyph", "name-only"] },
+      "interactive": { "values": [true, false] }
+    },
+    "design-details": {
+      "subject": { "multi": ["features", "alternates", "axes", "spacing", "construction", "optical-size", "italics", "scripts", "history-of-revision"] },
+      "presentation": { "values": ["pairs", "overlay", "toggle", "animation", "diagram", "annotation", "catalogue"] },
+      "explanation": { "values": ["none", "caption", "prose"] }
+    },
+    "language-support": {
+      "method": { "values": ["samples", "word-wall", "statement", "list", "map"] },
+      "nonLatin": { "values": [true, false] }
+    },
+    "checkout": {
+      "destination": { "values": ["on-page", "foundry-shop", "distributor", "repository", "app-store"] },
+      "pricesOnPage": { "values": [true, false] },
+      "licenceOptions": { "values": [true, false] },
+      "trial": { "values": [true, false] },
+      "free": { "values": [true, false] }
+    },
+    "footer": {
+      "contains": { "multi": ["credits", "legal", "contact", "socials", "newsletter", "other-fonts", "sign-off"] }
+    }
+  }
+}

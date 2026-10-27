@@ -1,0 +1,1396 @@
+{
+  "slug": "pacaembu-naipefoundry-com",
+  "url": "https://pacaembu.naipefoundry.com/",
+  "pageHeight": 16003,
+  "segmentation": "dom",
+  "blocks": [
+    {
+      "id": "pacaembu-naipefoundry-com#00",
+      "nn": "00",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > section",
+      "classes": [
+        "Hero-module__xtoOEG__heroContainer"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 852
+      },
+      "headings": [
+        "Privacy statement",
+        "Trial font submission"
+      ],
+      "parentHeadings": null,
+      "textPreview": "A Naipe Foundry project, by Álvaro Franca and Felipe Casaprima WEIGHT SIZE ITALIC i i ALTERNATES a a 1 1 ? ? Pacaembu Tropical Art Deco Sans This site uses cookies to track visits and user actions anonymously. Click the button to close this",
+      "fontFamilies": [
+        "Pacaembu VF",
+        "Arial"
+      ],
+      "maxFontSizePx": 187,
+      "variationSettings": [],
+      "controls": {
+        "range": 2,
+        "text": 0,
+        "contenteditable": 1,
+        "checkbox": 4,
+        "select": 0,
+        "buttons": 4,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 2,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(51, 51, 51)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": true,
+        "story": false,
+        "features": true,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0,
+        "relY": 0,
+        "heightVh": 0.666,
+        "widthRatio": 1,
+        "text": 5.796,
+        "elements": 4.331,
+        "headings": 2,
+        "fontSizes": 8,
+        "maxFontVw": 0.13,
+        "singleChar": 2.303,
+        "varSettings": 0,
+        "range": 1.099,
+        "textInput": 0.693,
+        "toggles": 1.609,
+        "buttons": 1.609,
+        "img": 0,
+        "svg": 1.099,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.033,
+        "fgLum": 1
+      },
+      "crop": "archive/pacaembu-naipefoundry-com/blocks/00.jpg",
+      "cropTruncated": false,
+      "html": "archive/pacaembu-naipefoundry-com/blocks/00.html"
+    },
+    {
+      "id": "pacaembu-naipefoundry-com#01",
+      "nn": "01",
+      "kind": "flow",
+      "sticky": true,
+      "tag": "nav",
+      "selector": "body > div:nth-of-type(2) > nav",
+      "classes": [
+        "Menu-module__88cxuq__headerNav"
+      ],
+      "box": {
+        "x": 0,
+        "y": 852,
+        "w": 1440,
+        "h": 48
+      },
+      "headings": [
+        "Pacaembu"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Pacaembu Fonts Story Uses 🏆 Buy now",
+      "fontFamilies": [
+        "Pacaembu VF",
+        "Arial"
+      ],
+      "maxFontSizePx": 32,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 5,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 1,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 204, 173)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.067,
+        "relY": 0.053,
+        "heightVh": 0.052,
+        "widthRatio": 1,
+        "text": 3.611,
+        "elements": 2.996,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.022,
+        "singleChar": 0.693,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.792,
+        "img": 0,
+        "svg": 0.693,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.462,
+        "fgLum": 1
+      },
+      "crop": "archive/pacaembu-naipefoundry-com/blocks/01.jpg",
+      "cropTruncated": false,
+      "html": "archive/pacaembu-naipefoundry-com/blocks/01.html"
+    },
+    {
+      "id": "pacaembu-naipefoundry-com#02",
+      "nn": "02",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > section:nth-of-type(1)",
+      "classes": [
+        "Intro-module__f8ahcq__introContainer"
+      ],
+      "box": {
+        "x": 0,
+        "y": 900,
+        "w": 1440,
+        "h": 723
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Pacaembu is a sans serif typeface that finds its roots in Brazilian football. This seven weight family began as a study of the stone lettering found in the Paulo Machado de Carvalho Municipal Stadium, affectionately known as the Estádio Pac",
+      "fontFamilies": [
+        "Pacaembu VF"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 4,
+        "color": 0
+      },
+      "media": {
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(51, 85, 68)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.133,
+        "relY": 0.056,
+        "heightVh": 0.59,
+        "widthRatio": 1,
+        "text": 6.631,
+        "elements": 4.248,
+        "headings": 0,
+        "fontSizes": 6,
+        "maxFontVw": 0.033,
+        "singleChar": 1.386,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.609,
+        "img": 0,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.792,
+        "bgLum": 0.076,
+        "fgLum": 1
+      },
+      "crop": "archive/pacaembu-naipefoundry-com/blocks/02.jpg",
+      "cropTruncated": false,
+      "html": "archive/pacaembu-naipefoundry-com/blocks/02.html"
+    },
+    {
+      "id": "pacaembu-naipefoundry-com#03",
+      "nn": "03",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > section:nth-of-type(2)",
+      "classes": [
+        "Features-module__JKdlOW__featuresContainer"
+      ],
+      "box": {
+        "x": 0,
+        "y": 1623,
+        "w": 1440,
+        "h": 537
+      },
+      "headings": [
+        "Seven weights",
+        "Going for the tittle",
+        "Counter attack",
+        "Build up play"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Seven weights Pacaembu has a lot of range in a manageable 7 weight family going from Thin to Extrabold. Get the fonts Trial fonts AaBbCcDdEeFf GgHhIiJjKkLlMm NnOoPpQqRrSs TtUuVvWwXxYy Zz1234567890 Going for the tittle In the heavier weights",
+      "fontFamilies": [
+        "Pacaembu VF",
+        "Arial",
+        "Pacaembu",
+        "Pacaembu Grotesk VF",
+        ""
+      ],
+      "maxFontSizePx": 180,
+      "variationSettings": [],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 7,
+        "color": 0
+      },
+      "media": {
+        "img": 4,
+        "svg": 5,
+        "video": 3,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(34, 34, 34)",
+      "color": "rgb(255, 221, 0)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": true,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.2,
+        "relY": 0.101,
+        "heightVh": 0.468,
+        "widthRatio": 1,
+        "text": 7.722,
+        "elements": 5.852,
+        "headings": 4,
+        "fontSizes": 11,
+        "maxFontVw": 0.125,
+        "singleChar": 3.178,
+        "varSettings": 0,
+        "range": 0.693,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 2.079,
+        "img": 1.609,
+        "svg": 1.792,
+        "video": 1.386,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.016,
+        "fgLum": 0.73
+      },
+      "crop": "archive/pacaembu-naipefoundry-com/blocks/03.jpg",
+      "cropTruncated": false,
+      "html": "archive/pacaembu-naipefoundry-com/blocks/03.html"
+    },
+    {
+      "id": "pacaembu-naipefoundry-com#04",
+      "nn": "04",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > section:nth-of-type(3)",
+      "classes": [
+        "History-module__JUdxTa__historySection"
+      ],
+      "box": {
+        "x": 0,
+        "y": 2160,
+        "w": 1440,
+        "h": 1847
+      },
+      "headings": [
+        "Art-Deco World Cup: From Europe to the Tropics",
+        "Naipe gets the call"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Art-Deco World Cup: From Europe to the Tropics Pacaembu stadium was designed at the Technical Office of Ramos de Azevedo Severo & Villares, in a long process that started as early as 1933. During construction, a lot of great lettering piece",
+      "fontFamilies": [
+        "Pacaembu VF",
+        ""
+      ],
+      "maxFontSizePx": 45,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 0,
+        "video": 1,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(51, 51, 51)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.267,
+        "relY": 0.135,
+        "heightVh": 1.116,
+        "widthRatio": 1,
+        "text": 7.657,
+        "elements": 3.332,
+        "headings": 2,
+        "fontSizes": 5,
+        "maxFontVw": 0.031,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.099,
+        "svg": 0,
+        "video": 0.693,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 1.099,
+        "bgLum": 0.033,
+        "fgLum": 1
+      },
+      "crop": "archive/pacaembu-naipefoundry-com/blocks/04.jpg",
+      "cropTruncated": false,
+      "html": "archive/pacaembu-naipefoundry-com/blocks/04.html"
+    },
+    {
+      "id": "pacaembu-naipefoundry-com#05",
+      "nn": "05",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "div",
+      "selector": "body > div:nth-of-type(2) > div",
+      "classes": [
+        "Comparison-module__cur_Eq__comparisonSection"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4007,
+        "w": 1440,
+        "h": 898
+      },
+      "headings": [
+        "Extra-time winner"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Extra-time winner In 2019 Felipe Casaprima joined the foundry and decided to give Pacaembu another shot at glory. This time, the font would divorce from the source material. What we had before was a bit old-school, so if it was going to be ",
+      "fontFamilies": [
+        "Pacaembu VF",
+        "Arial"
+      ],
+      "maxFontSizePx": 45,
+      "variationSettings": [],
+      "controls": {
+        "range": 1,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(51, 85, 68)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.333,
+        "relY": 0.25,
+        "heightVh": 0.692,
+        "widthRatio": 1,
+        "text": 6.812,
+        "elements": 3.045,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.031,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0.693,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.099,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.076,
+        "fgLum": 1
+      },
+      "crop": "archive/pacaembu-naipefoundry-com/blocks/05.jpg",
+      "cropTruncated": false,
+      "html": "archive/pacaembu-naipefoundry-com/blocks/05.html"
+    },
+    {
+      "id": "pacaembu-naipefoundry-com#06",
+      "nn": "06",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > section:nth-of-type(4)",
+      "classes": [
+        "Stadium-module__SeYjfa__stadiumSection"
+      ],
+      "box": {
+        "x": 0,
+        "y": 4904,
+        "w": 1440,
+        "h": 750
+      },
+      "headings": [
+        "The Stadium"
+      ],
+      "parentHeadings": null,
+      "textPreview": "The Stadium Once the biggest in Latin America, with over 70.000 seats, Pacaembu Stadium was conceived as a meeting place for Paulista society and brought together sport and entertainment, helping foster the urban development of the surround",
+      "fontFamilies": [
+        "Pacaembu VF"
+      ],
+      "maxFontSizePx": 58,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(51, 51, 51)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.4,
+        "relY": 0.306,
+        "heightVh": 0.606,
+        "widthRatio": 1,
+        "text": 5.778,
+        "elements": 2.485,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.04,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.099,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.033,
+        "fgLum": 1
+      },
+      "crop": "archive/pacaembu-naipefoundry-com/blocks/06.jpg",
+      "cropTruncated": false,
+      "html": "archive/pacaembu-naipefoundry-com/blocks/06.html"
+    },
+    {
+      "id": "pacaembu-naipefoundry-com#07",
+      "nn": "07",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > section:nth-of-type(5)",
+      "classes": [
+        "Landmark-module__9SIU3q__landmarkSection"
+      ],
+      "box": {
+        "x": 0,
+        "y": 5655,
+        "w": 1440,
+        "h": 839
+      },
+      "headings": [
+        "Landmark Moments"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Landmark Moments Pacaembu is such a cornerstone of Brazilian Football it’s incredibly hard to tell the story of this 5-time World Cup winners without it. The inaugural match between Palestra Itália and Corityba F.C. was the first one ever t",
+      "fontFamilies": [
+        "Pacaembu VF"
+      ],
+      "maxFontSizePx": 45,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 2,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(51, 51, 51)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": true,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.467,
+        "relY": 0.353,
+        "heightVh": 0.659,
+        "widthRatio": 1,
+        "text": 7.138,
+        "elements": 3.045,
+        "headings": 1,
+        "fontSizes": 3,
+        "maxFontVw": 0.031,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.099,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.033,
+        "fgLum": 1
+      },
+      "crop": "archive/pacaembu-naipefoundry-com/blocks/07.jpg",
+      "cropTruncated": false,
+      "html": "archive/pacaembu-naipefoundry-com/blocks/07.html"
+    },
+    {
+      "id": "pacaembu-naipefoundry-com#08",
+      "nn": "08",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > section:nth-of-type(6)",
+      "classes": [
+        "Moments-module__LSrhsW__momentsContainer"
+      ],
+      "box": {
+        "x": 0,
+        "y": 6494,
+        "w": 1440,
+        "h": 521
+      },
+      "headings": [
+        "Palestra Italia 06 × 02 Curityba F.C.",
+        "São Paulo F.C. 03 × 03 Corinthians",
+        "Brazil 10 × 01 Bolívia",
+        "Brazil 02 × 02 Switzerland"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Palestra Italia 06 × 02 Curityba F.C. The first ever match held at the Pacaembu. Date:27/04/1940 Attendance:≈60.000 Referee:Heitor Marcelino Domingues Goals:⚽Zequinha1’⚽⚽⚽Danilo6’36’67’⚽Luizinho56’⚽Elyseo63’⚽Sandro81’⚽Branco87’ 🏆 Palestra ",
+      "fontFamilies": [
+        "Pacaembu VF"
+      ],
+      "maxFontSizePx": 64,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 2,
+        "color": 0
+      },
+      "media": {
+        "img": 10,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(34, 34, 34)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.533,
+        "relY": 0.406,
+        "heightVh": 0.457,
+        "widthRatio": 1,
+        "text": 7.976,
+        "elements": 5.996,
+        "headings": 4,
+        "fontSizes": 5,
+        "maxFontVw": 0.044,
+        "singleChar": 4.078,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.099,
+        "img": 2.398,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.016,
+        "fgLum": 0.033
+      },
+      "crop": "archive/pacaembu-naipefoundry-com/blocks/08.jpg",
+      "cropTruncated": false,
+      "html": "archive/pacaembu-naipefoundry-com/blocks/08.html"
+    },
+    {
+      "id": "pacaembu-naipefoundry-com#09",
+      "nn": "09",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > section:nth-of-type(7)",
+      "classes": [
+        "Tiles-module__7fK6iq__tilesSection"
+      ],
+      "box": {
+        "x": 0,
+        "y": 7015,
+        "w": 1440,
+        "h": 923
+      },
+      "headings": [
+        "Legends",
+        "Leônidas da Silva"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Legends Because of its widespread use by teams São Paulo, it’s no surprise to learn that the green grass of Pacaembu stadium has been stepped on by some of the best players ever to grace the sport. From Pelé to Neymar by way of Zico, Rivell",
+      "fontFamilies": [
+        "Pacaembu VF",
+        "Arial"
+      ],
+      "maxFontSizePx": 48,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 22,
+        "color": 0
+      },
+      "media": {
+        "img": 21,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(51, 51, 51)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.6,
+        "relY": 0.438,
+        "heightVh": 0.706,
+        "widthRatio": 1,
+        "text": 6.82,
+        "elements": 4.477,
+        "headings": 2,
+        "fontSizes": 6,
+        "maxFontVw": 0.033,
+        "singleChar": 1.792,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 3.135,
+        "img": 3.091,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.033,
+        "fgLum": 1
+      },
+      "crop": "archive/pacaembu-naipefoundry-com/blocks/09.jpg",
+      "cropTruncated": false,
+      "html": "archive/pacaembu-naipefoundry-com/blocks/09.html"
+    },
+    {
+      "id": "pacaembu-naipefoundry-com#10",
+      "nn": "10",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > section:nth-of-type(8)",
+      "classes": [
+        "Tickets-module__k0IZga__ticketsGrid"
+      ],
+      "box": {
+        "x": 0,
+        "y": 7688,
+        "w": 1440,
+        "h": 840
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "",
+      "fontFamilies": [
+        "Pacaembu VF"
+      ],
+      "maxFontSizePx": 0,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 12,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.667,
+        "relY": 0.48,
+        "heightVh": 0.659,
+        "widthRatio": 1,
+        "text": 0,
+        "elements": 4.111,
+        "headings": 0,
+        "fontSizes": 1,
+        "maxFontVw": 0,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 2.565,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/pacaembu-naipefoundry-com/blocks/10.jpg",
+      "cropTruncated": false,
+      "html": "archive/pacaembu-naipefoundry-com/blocks/10.html"
+    },
+    {
+      "id": "pacaembu-naipefoundry-com#11",
+      "nn": "11",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > section:nth-of-type(9)",
+      "classes": [
+        "LineUp-module__-u2csq__lineUpContainer"
+      ],
+      "box": {
+        "x": 0,
+        "y": 8278,
+        "w": 1440,
+        "h": 1188
+      },
+      "headings": [
+        "Classic line-ups"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Classic line-ups 1946 1958 1962 1963 1970 1972 1982 1983 1994 2002 1470 11 Teixeirinha Forward 🇧🇷 São Paulo F.C. 10 Remo Forward 🇧🇷 São Paulo F.C. 9 Leônidas da Silva 👟 Forward 🇧🇷 São Paulo F.C. 8 Antônio Sastre Forward 🇧🇷 São Paul",
+      "fontFamilies": [
+        "Pacaembu VF"
+      ],
+      "maxFontSizePx": 64,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 11,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 11,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 221, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.733,
+        "relY": 0.517,
+        "heightVh": 0.842,
+        "widthRatio": 1,
+        "text": 6.399,
+        "elements": 5.198,
+        "headings": 1,
+        "fontSizes": 6,
+        "maxFontVw": 0.044,
+        "singleChar": 3.332,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 2.485,
+        "img": 0.693,
+        "svg": 2.485,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": 0.73,
+        "fgLum": 1
+      },
+      "crop": "archive/pacaembu-naipefoundry-com/blocks/11.jpg",
+      "cropTruncated": false,
+      "html": "archive/pacaembu-naipefoundry-com/blocks/11.html"
+    },
+    {
+      "id": "pacaembu-naipefoundry-com#12",
+      "nn": "12",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > section:nth-of-type(10)",
+      "classes": [
+        "Standings-module__GXVx_a__section",
+        "no-webp"
+      ],
+      "box": {
+        "x": 0,
+        "y": 9466,
+        "w": 1440,
+        "h": 1028
+      },
+      "headings": [
+        "Championship standings"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Championship standings 🇧🇷 BRASILEIRÃO 🇬🇧 PREMIER LEAGUE 🇪🇸 LA LIGA 🇩🇪 BUNDESLIGA R P M W D L GF GA GD 1 CR Flamengo 67 31 20 7 4 61 25 36 2 SE Palmeiras 66 31 19 9 3 54 22 32 3 CA Paranaense 53 31 15 8 8 49 37 12 4 Cruzeiro EC 51 31",
+      "fontFamilies": [
+        "Pacaembu VF"
+      ],
+      "maxFontSizePx": 64,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 4,
+        "color": 0
+      },
+      "media": {
+        "img": 20,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(0, 179, 152)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.8,
+        "relY": 0.592,
+        "heightVh": 0.762,
+        "widthRatio": 1,
+        "text": 6.82,
+        "elements": 5.743,
+        "headings": 1,
+        "fontSizes": 5,
+        "maxFontVw": 0.044,
+        "singleChar": 5.193,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 1.609,
+        "img": 3.045,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0.693,
+        "bgLum": 0.345,
+        "fgLum": 1
+      },
+      "crop": "archive/pacaembu-naipefoundry-com/blocks/12.jpg",
+      "cropTruncated": false,
+      "html": "archive/pacaembu-naipefoundry-com/blocks/12.html"
+    },
+    {
+      "id": "pacaembu-naipefoundry-com#13",
+      "nn": "13",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "body > div:nth-of-type(2) > section:nth-of-type(11)",
+      "classes": [
+        "Specimens-module__kStYba__specimensContainer"
+      ],
+      "box": {
+        "x": 0,
+        "y": 10494,
+        "w": 1440,
+        "h": 3840
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "A Pacaembu paã·nga·he·nb·bu Tupinologist Eduardo de Almeida Navarro says “Pacaembu” comes from the Old-Tupi, a native-brazilian language, meaning “creek of the pacas”, a comination of paka (paca) and yemby (creek). Incidentally, Paca is a s",
+      "fontFamilies": [
+        "Pacaembu VF"
+      ],
+      "maxFontSizePx": 2400,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 4,
+        "svg": 5,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": true,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.867,
+        "relY": 0.656,
+        "heightVh": 1.661,
+        "widthRatio": 1,
+        "text": 6.786,
+        "elements": 4.263,
+        "headings": 0,
+        "fontSizes": 7,
+        "maxFontVw": 1.667,
+        "singleChar": 2.773,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.609,
+        "svg": 1.792,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 0,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/pacaembu-naipefoundry-com/blocks/13.jpg",
+      "cropTruncated": false,
+      "html": "archive/pacaembu-naipefoundry-com/blocks/13.html"
+    },
+    {
+      "id": "pacaembu-naipefoundry-com#14",
+      "nn": "14",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "section",
+      "selector": "#about-us",
+      "classes": [
+        "Colophon-module__q2T2Sq__colophonContainer"
+      ],
+      "box": {
+        "x": 0,
+        "y": 14334,
+        "w": 1440,
+        "h": 1448
+      },
+      "headings": [
+        "Naipe F.C.",
+        "Thank you!"
+      ],
+      "parentHeadings": null,
+      "textPreview": "Naipe F.C. Under the name of Naipe Foundry, the carioca duo of Álvaro Franca and Felipe Casaprima tell Brazilian stories by designing fonts ﬁt for your next design project. The two support rival clubs in Rio de Janeiro, but their combined l",
+      "fontFamilies": [
+        "Pacaembu VF"
+      ],
+      "maxFontSizePx": 45,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 0,
+        "color": 0
+      },
+      "media": {
+        "img": 4,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "hints": {
+        "commerce": false,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 0.933,
+        "relY": 0.896,
+        "heightVh": 0.959,
+        "widthRatio": 1,
+        "text": 7.299,
+        "elements": 4.025,
+        "headings": 2,
+        "fontSizes": 3,
+        "maxFontVw": 0.031,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0,
+        "img": 1.609,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.708,
+        "bgLum": -1,
+        "fgLum": 1
+      },
+      "crop": "archive/pacaembu-naipefoundry-com/blocks/14.jpg",
+      "cropTruncated": false,
+      "html": "archive/pacaembu-naipefoundry-com/blocks/14.html"
+    },
+    {
+      "id": "pacaembu-naipefoundry-com#15",
+      "nn": "15",
+      "kind": "flow",
+      "sticky": false,
+      "tag": "footer",
+      "selector": "body > div:nth-of-type(2) > footer",
+      "classes": [
+        "Footer-module__7u7mQa__footerContainer"
+      ],
+      "box": {
+        "x": 0,
+        "y": 15783,
+        "w": 1440,
+        "h": 220
+      },
+      "headings": [],
+      "parentHeadings": null,
+      "textPreview": "Buy Pacaembu Get Trial fonts Sync with Adobe Fonts Visit Uai Instagram Future Fonts License abc@naipefoundry.com",
+      "fontFamilies": [
+        "Pacaembu VF"
+      ],
+      "maxFontSizePx": 22,
+      "variationSettings": [],
+      "controls": {
+        "range": 0,
+        "text": 0,
+        "contenteditable": 0,
+        "checkbox": 0,
+        "select": 0,
+        "buttons": 1,
+        "color": 0
+      },
+      "media": {
+        "img": 1,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0
+      },
+      "background": "rgb(255, 221, 0)",
+      "color": "rgb(51, 51, 51)",
+      "hints": {
+        "commerce": true,
+        "glyphs": false,
+        "legal": false,
+        "story": false,
+        "features": false,
+        "tester": false,
+        "languages": false,
+        "freeOpen": false,
+        "family": false,
+        "newsletter": false,
+        "price": false
+      },
+      "vector": {
+        "order": 1,
+        "relY": 0.986,
+        "heightVh": 0.219,
+        "widthRatio": 1,
+        "text": 4.727,
+        "elements": 3.135,
+        "headings": 0,
+        "fontSizes": 2,
+        "maxFontVw": 0.016,
+        "singleChar": 0,
+        "varSettings": 0,
+        "range": 0,
+        "textInput": 0,
+        "toggles": 0,
+        "buttons": 0.693,
+        "img": 0.693,
+        "svg": 0,
+        "video": 0,
+        "canvas": 0,
+        "iframe": 0,
+        "links": 2.197,
+        "bgLum": 0.73,
+        "fgLum": 0.033
+      },
+      "crop": "archive/pacaembu-naipefoundry-com/blocks/15.jpg",
+      "cropTruncated": false,
+      "html": "archive/pacaembu-naipefoundry-com/blocks/15.html"
+    }
+  ]
+}
