@@ -14,6 +14,7 @@ Sample: 36 blocks from 29 sites.
 | [annotated-specimen](#annotated-specimen) | 4 | Letterforms with technical annotations or numbered figures (measurements, ink traps, angles), one decision per row. | callouts, dimension lines, 'Fig. 1' |
 | [system-diagrams](#system-diagrams) | 2 | The family's logic (weight curve, optical sizes, widths) explained with charts, like a design-system manual. | graphs, axes, curves |
 | [design-notes](#design-notes) | 2 | A sequence of design decisions, each with a visual and a short caption, as a carousel or video tiles. | slides or looping tiles per topic |
+| [highlighted-in-context](#highlighted-in-context) | 0 | Ligatures, alternates or special glyphs set inside a display sentence and picked out in an accent colour, discovered in context rather than in a catalogue. | accent-coloured glyphs inside a headline |
 
 ## Rubric
 
@@ -124,3 +125,11 @@ A sequence of design decisions, each with a visual and a short caption, as a car
 |---|---|---|---|---|
 | [pacaembu-naipefoundry-com#03](../../archive/pacaembu-naipefoundry-com/blocks/03.jpg) | Yellow alphabet panel left, dark panel right with teal heading 'Seven weights', red and teal buttons; cookie notice and sticky nav overlap | Sporty, cheeky, warm | Prev/next through slides ('Going for the tittle', 'Counter attack'); weight slider on the first slide | Title each design note with a football phrase: a running theme makes glyph trivia memorable |
 | [rt-dromo-com#58](../../archive/rt-dromo-com/blocks/58.jpg) | Three lavender squares on yellow, white outlined 'Tw', 'Q?', 'Ęę' (still frames of looping videos) | Calm, systematic, explanatory | Autoplay muted looping videos; static otherwise | One micro-animation per topic (kerning, diacritics) lets a visitor grasp each decision in a few seconds |
+
+## highlighted-in-context
+
+Ligatures, alternates or special glyphs set inside a display sentence and picked out in an accent colour, discovered in context rather than in a catalogue.
+
+**Recognise by:** accent-coloured glyphs inside a headline
+
+_No instance in the sample yet._

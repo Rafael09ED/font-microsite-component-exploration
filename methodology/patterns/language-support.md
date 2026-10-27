@@ -11,6 +11,8 @@ Sample: 3 blocks from 3 sites.
 | [multiscript-specimen](#multiscript-specimen) | 1 | Sample lines in several scripts, each tagged with script and settings. | LATIN / ARABIC / THAI labels |
 | [diacritic-word-wall](#diacritic-word-wall) | 1 | Real words from many languages chosen for their diacritics, at display size. | accent-heavy words |
 | [coverage-statement](#coverage-statement) | 1 | A big-type sentence stating the coverage instead of showing it. | 'Supports 200+ languages' |
+| [script-catalogue](#script-catalogue) | 0 | Each supported script named in its own script at display size, in a grid, with style counts and notes on how it was made. | Кирилиця, Ελληνικά, عربي as headings |
+| [language-name-list](#language-name-list) | 0 | The supported languages listed by name, as small running text, columns, or a per-script table with credits and style counts; the list is the proof. | long alphabetical list of language names |
 
 ## Rubric
 
@@ -54,3 +56,19 @@ A big-type sentence stating the coverage instead of showing it.
 | example | look | feel | ux | learn |
 |---|---|---|---|---|
 | [calhern-frostype-xyz#32](../../archive/calhern-frostype-xyz/blocks/32.jpg) | White, black condensed italic caps 'SUPPORTING LATIN / GREEK AND CYRILLIC / IN 150 LANGUAGES' staggered left and right | Confident, punchy | static | State coverage as a headline set in the font: the claim and the specimen are the same line |
+
+## script-catalogue
+
+Each supported script named in its own script at display size, in a grid, with style counts and notes on how it was made.
+
+**Recognise by:** Кирилиця, Ελληνικά, عربي as headings
+
+_No instance in the sample yet._
+
+## language-name-list
+
+The supported languages listed by name, as small running text, columns, or a per-script table with credits and style counts; the list is the proof.
+
+**Recognise by:** long alphabetical list of language names
+
+_No instance in the sample yet._

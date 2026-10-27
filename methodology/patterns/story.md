@@ -17,13 +17,14 @@ Sample: 24 blocks from 24 sites.
 | [scroll-narrative](#scroll-narrative) | 1 | A pinned, scroll-driven sequence telling a concept metaphor through animated type and diagrams. | sticky stage, scroll scrubbing |
 | [self-test-evidence](#self-test-evidence) | 1 | The design rationale backed by a small test the visitor runs on themselves (reading speed, legibility). | a quiz or timer next to research prose |
 | [designer-bio](#designer-bio) | 1 | A short, informal bio of the designer with contact links. | portrait or name, 'about me' |
+| [info-popover](#info-popover) | 0 | Section copy hidden behind a small info button and shown as a popover beside the specimen; the page shows type first, text on demand. | (i) Info buttons |
 
 ## Rubric
 
 Recorded for every instance in Phase 3, in addition to the cross-cutting attributes in `rubric.json`:
 
 - **voice**: first-person | third-person | institutional | none
-- **media**: any of archival, process, photo, diagram, none
+- **media**: any of archival, process, photo, illustration, diagram, none
 - **length**: short | medium | long
 
 ## origin-reference
@@ -148,3 +149,11 @@ A short, informal bio of the designer with contact links.
 | example | look | feel | ux | learn |
 |---|---|---|---|---|
 | [2020-typefacedesign-org-simon#12](../../archive/2020-typefacedesign-org-simon/blocks/12.jpg) | White, bold sans name heading, one paragraph of jokey bio, plain Website/Twitter links | Personal, humorous, approachable | Email, website and social links | A self-deprecating bio with a direct email invites conversation more than a formal CV |
+
+## info-popover
+
+Section copy hidden behind a small info button and shown as a popover beside the specimen; the page shows type first, text on demand.
+
+**Recognise by:** (i) Info buttons
+
+_No instance in the sample yet._

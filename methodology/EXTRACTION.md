@@ -28,7 +28,8 @@ Prepare the pack with `node scripts/extract.mjs prepare --only <slug>` if `archi
 
 ## Classification rules
 - Use the most specific existing variant. Propose a new one (`newVariant: true` plus `variantDefinition`) only if the block works differently from every variant of its type. Name variants by mechanism, never by site. Propose a new type only if no type fits (`newType: true`, `typeDefinition`, `section`).
-- One instance may span several consecutive blocks: list them all in `blocks`. A block may belong to at most two instances, e.g. a tester with a glyph grid underneath.
+- One instance may span several blocks (e.g. a component interrupted by an image): list them all in `blocks`. A block may belong to several instances. Usually that's two (a tester with a glyph grid underneath), but segmentation sometimes merges a whole page tail (overview, glyphs, checkout, credits) into one block; record every component in it.
+- Components that were never cut as blocks (a fixed bar, a final link row) are attached to the nearest block. Say so in `look`.
 - Cookie banners and loaders covering a capture: classify what is underneath if you can tell, mention the overlay in `look`, and lower the confidence.
 - `exemplar: true` marks an instance that would be a strong reference for rebuilding its variant: clear, well executed, representative. At most ~2 per site.
 

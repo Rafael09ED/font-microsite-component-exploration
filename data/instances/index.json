@@ -1,11 +1,101 @@
 {
-  "generatedAt": "2026-10-27T21:54:56.440Z",
-  "sites": 1,
+  "generatedAt": "2026-10-27T22:28:15.414Z",
+  "sites": 31,
   "sections": {
     "hero": {
       "title": "Hero",
       "types": {
         "hero": {
+          "sentence-as-specimen": [
+            {
+              "id": "gt-walsheim-com#00",
+              "slug": "gt-walsheim-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-walsheim-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-haptik-com#00",
+              "slug": "gt-haptik-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-haptik-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pressura-com#00",
+              "slug": "gt-pressura-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-pressura-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "faction-losttype-com#00",
+              "slug": "faction-losttype-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/faction-losttype-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "moriston-losttype-com#00",
+              "slug": "moriston-losttype-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/moriston-losttype-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "escafina-losttype-com#00",
+              "slug": "escafina-losttype-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/escafina-losttype-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "sanssheriff-wtf#00",
+              "slug": "sanssheriff-wtf",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/sanssheriff-wtf/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "infinite-tragedy-com#00",
+              "slug": "infinite-tragedy-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/infinite-tragedy-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
           "prop-collage": [
             {
               "id": "gt-america-com#00",
@@ -18,15 +108,493 @@
               "confidence": "high",
               "proposed": false
             }
+          ],
+          "kinetic-type": [
+            {
+              "id": "gt-cinetype-com#00",
+              "slug": "gt-cinetype-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-cinetype-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-zirkon-com#00",
+              "slug": "gt-zirkon-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-zirkon-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-planar-com#00",
+              "slug": "gt-planar-com",
+              "blocks": [
+                "00",
+                "19"
+              ],
+              "crop": "archive/gt-planar-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "illustration-scene": [
+            {
+              "id": "gt-eesti-com#00",
+              "slug": "gt-eesti-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-eesti-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-maru-com#00",
+              "slug": "gt-maru-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-maru-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "mort-modern-losttype-com#00",
+              "slug": "mort-modern-losttype-com",
+              "blocks": [
+                "00",
+                "01",
+                "02"
+              ],
+              "crop": "archive/mort-modern-losttype-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "latest-losttype-com-introducing-dotties#02",
+              "slug": "latest-losttype-com-introducing-dotties",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/latest-losttype-com-introducing-dotties/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "giant-wordmark": [
+            {
+              "id": "gt-ultra-com#16",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "16",
+                "00"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-alpina-com#00",
+              "slug": "gt-alpina-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-alpina-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-super-com#01",
+              "slug": "gt-super-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-super-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#00",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-standard-com#01",
+              "slug": "gt-standard-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-standard-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pp-fragment-com#00",
+              "slug": "pp-fragment-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/pp-fragment-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "mini-game": [
+            {
+              "id": "gt-flexa-com#00",
+              "slug": "gt-flexa-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-flexa-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "typeset-page": [
+            {
+              "id": "gt-canon-com#00",
+              "slug": "gt-canon-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-canon-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pantheon-com#00",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-pantheon-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "editorialnew-com#00",
+              "slug": "editorialnew-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/editorialnew-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "prospectus-losttype-com#00",
+              "slug": "prospectus-losttype-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/prospectus-losttype-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "name-over-photo": [
+            {
+              "id": "pp-frama-com#00",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/pp-frama-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "tofino-losttype-com#00",
+              "slug": "tofino-losttype-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/tofino-losttype-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
           ]
         },
-        "intro-animation": {}
+        "intro-animation": {
+          "title-sequence": [
+            {
+              "id": "gt-flaire-com#00",
+              "slug": "gt-flaire-com",
+              "blocks": [
+                "00",
+                "01"
+              ],
+              "crop": "archive/gt-flaire-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#19",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "19"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "low",
+              "proposed": false
+            }
+          ]
+        }
       }
     },
     "story": {
       "title": "Story",
       "types": {
         "story": {
+          "origin-reference": [
+            {
+              "id": "gt-walsheim-com#00",
+              "slug": "gt-walsheim-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-walsheim-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-walsheim-com#03",
+              "slug": "gt-walsheim-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/gt-walsheim-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-walsheim-com#05",
+              "slug": "gt-walsheim-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/gt-walsheim-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-walsheim-com#07",
+              "slug": "gt-walsheim-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/gt-walsheim-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-cinetype-com#01",
+              "slug": "gt-cinetype-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-cinetype-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-eesti-com#02",
+              "slug": "gt-eesti-com",
+              "blocks": [
+                "02",
+                "03",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14"
+              ],
+              "crop": "archive/gt-eesti-com/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-maru-com#01",
+              "slug": "gt-maru-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-maru-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-super-com#03",
+              "slug": "gt-super-com",
+              "blocks": [
+                "03",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08",
+                "09",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16"
+              ],
+              "crop": "archive/gt-super-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-zirkon-com#02",
+              "slug": "gt-zirkon-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/gt-zirkon-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pressura-com#01",
+              "slug": "gt-pressura-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-pressura-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pantheon-com#02",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/gt-pantheon-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "mort-modern-losttype-com#03",
+              "slug": "mort-modern-losttype-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/mort-modern-losttype-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "making-of": [
+            {
+              "id": "gt-walsheim-com#04",
+              "slug": "gt-walsheim-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/gt-walsheim-com/blocks/04.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-walsheim-com#06",
+              "slug": "gt-walsheim-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/gt-walsheim-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-ultra-com#06",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-zirkon-com#02",
+              "slug": "gt-zirkon-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/gt-zirkon-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-pressura-com#06",
+              "slug": "gt-pressura-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/gt-pressura-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
           "large-text-intro": [
             {
               "id": "gt-america-com#01",
@@ -82,6 +650,390 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "gt-ultra-com#00",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-ultra-com#10",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "10"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/10.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-ultra-com#12",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "12"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/12.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-flexa-com#01",
+              "slug": "gt-flexa-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-flexa-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-alpina-com#01",
+              "slug": "gt-alpina-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-alpina-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-super-com#02",
+              "slug": "gt-super-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/gt-super-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-haptik-com#04",
+              "slug": "gt-haptik-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/gt-haptik-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-zirkon-com#01",
+              "slug": "gt-zirkon-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-zirkon-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-planar-com#01",
+              "slug": "gt-planar-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-planar-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-canon-com#02",
+              "slug": "gt-canon-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/gt-canon-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-flaire-com#02",
+              "slug": "gt-flaire-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/gt-flaire-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-flaire-com#05",
+              "slug": "gt-flaire-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/gt-flaire-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-standard-com#01",
+              "slug": "gt-standard-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-standard-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pp-fragment-com#01",
+              "slug": "pp-fragment-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/pp-fragment-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "design-brief": [
+            {
+              "id": "gt-ultra-com#03",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#13",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "13"
+              ],
+              "crop": "archive/pp-frama-com/blocks/13.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "sanssheriff-wtf#02",
+              "slug": "sanssheriff-wtf",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/sanssheriff-wtf/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "scroll-narrative": [
+            {
+              "id": "gt-maru-com#00",
+              "slug": "gt-maru-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-maru-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-planar-com#05",
+              "slug": "gt-planar-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/gt-planar-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-planar-com#12",
+              "slug": "gt-planar-com",
+              "blocks": [
+                "12"
+              ],
+              "crop": "archive/gt-planar-com/blocks/12.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#01",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "info-popover": [
+            {
+              "id": "gt-mechanik-com#02",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#08",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#13",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "13"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/13.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "essay": [
+            {
+              "id": "gt-canon-com#00",
+              "slug": "gt-canon-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-canon-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "editorialnew-com#00",
+              "slug": "editorialnew-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/editorialnew-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "foodissue-commercialtype-com#08",
+              "slug": "foodissue-commercialtype-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/foodissue-commercialtype-com/blocks/08.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "tofino-losttype-com#13",
+              "slug": "tofino-losttype-com",
+              "blocks": [
+                "13"
+              ],
+              "crop": "archive/tofino-losttype-com/blocks/13.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "prospectus-losttype-com#05",
+              "slug": "prospectus-losttype-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/prospectus-losttype-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "faction-losttype-com#05",
+              "slug": "faction-losttype-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/faction-losttype-com/blocks/05.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "moriston-losttype-com#06",
+              "slug": "moriston-losttype-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/moriston-losttype-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "escafina-losttype-com#02",
+              "slug": "escafina-losttype-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/escafina-losttype-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "designer-bio": [
+            {
+              "id": "faction-losttype-com#07",
+              "slug": "faction-losttype-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/faction-losttype-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "moriston-losttype-com#06",
+              "slug": "moriston-losttype-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/moriston-losttype-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ]
         }
@@ -91,6 +1043,85 @@
       "title": "Glyph table",
       "types": {
         "glyph-table": {
+          "full-grid": [
+            {
+              "id": "gt-walsheim-com#11",
+              "slug": "gt-walsheim-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/gt-walsheim-com/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-ultra-com#14",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "14"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/14.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-flexa-com#12",
+              "slug": "gt-flexa-com",
+              "blocks": [
+                "12"
+              ],
+              "crop": "archive/gt-flexa-com/blocks/12.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-maru-com#06",
+              "slug": "gt-maru-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/gt-maru-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-maru-com#10",
+              "slug": "gt-maru-com",
+              "blocks": [
+                "10"
+              ],
+              "crop": "archive/gt-maru-com/blocks/10.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-alpina-com#11",
+              "slug": "gt-alpina-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/gt-alpina-com/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-zirkon-com#04",
+              "slug": "gt-zirkon-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/gt-zirkon-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
           "glyph-inspector": [
             {
               "id": "gt-america-com#20",
@@ -101,6 +1132,162 @@
               "crop": "archive/gt-america-com/blocks/20.jpg",
               "exemplar": true,
               "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-maru-com#03",
+              "slug": "gt-maru-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/gt-maru-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-pressura-com#08",
+              "slug": "gt-pressura-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/gt-pressura-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-planar-com#15",
+              "slug": "gt-planar-com",
+              "blocks": [
+                "15"
+              ],
+              "crop": "archive/gt-planar-com/blocks/15.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#19",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "19"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/19.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-canon-com#09",
+              "slug": "gt-canon-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/gt-canon-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-flaire-com#05",
+              "slug": "gt-flaire-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/gt-flaire-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-pantheon-com#10",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "10"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-standard-com#07",
+              "slug": "gt-standard-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pp-fragment-com#04",
+              "slug": "pp-fragment-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/pp-fragment-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "editorialnew-com#03",
+              "slug": "editorialnew-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/editorialnew-com/blocks/03.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#06",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/pp-frama-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "category-lines": [
+            {
+              "id": "gt-standard-com#03",
+              "slug": "gt-standard-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/gt-standard-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#05",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/pp-frama-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "escafina-losttype-com#01",
+              "slug": "escafina-losttype-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/escafina-losttype-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
               "proposed": false
             }
           ]
@@ -130,6 +1317,28 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "gt-pressura-com#07",
+              "slug": "gt-pressura-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/gt-pressura-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "tofino-losttype-com#11",
+              "slug": "tofino-losttype-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/tofino-losttype-com/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "script-catalogue": [
@@ -142,10 +1351,21 @@
               "crop": "archive/gt-america-com/blocks/12.jpg",
               "exemplar": true,
               "confidence": "high",
-              "proposed": true
+              "proposed": false
+            },
+            {
+              "id": "gt-pressura-com#07",
+              "slug": "gt-pressura-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/gt-pressura-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
-          "coverage-table": [
+          "language-name-list": [
             {
               "id": "gt-america-com#21",
               "slug": "gt-america-com",
@@ -155,7 +1375,67 @@
               "crop": "archive/gt-america-com/blocks/21.jpg",
               "exemplar": false,
               "confidence": "medium",
-              "proposed": true
+              "proposed": false,
+              "rawType": "language-support",
+              "rawVariant": "coverage-table"
+            },
+            {
+              "id": "pp-fragment-com#07",
+              "slug": "pp-fragment-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/pp-fragment-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "editorialnew-com#08",
+              "slug": "editorialnew-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/editorialnew-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "moriston-losttype-com#05",
+              "slug": "moriston-losttype-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/moriston-losttype-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "diacritic-word-wall": [
+            {
+              "id": "pp-frama-com#11",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "11",
+                "12"
+              ],
+              "crop": "archive/pp-frama-com/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "mort-modern-losttype-com#04",
+              "slug": "mort-modern-losttype-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/mort-modern-losttype-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ]
         }
@@ -176,11 +1456,438 @@
               "exemplar": true,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "sanssheriff-wtf#03",
+              "slug": "sanssheriff-wtf",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/sanssheriff-wtf/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "sanssheriff-wtf#06",
+              "slug": "sanssheriff-wtf",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/sanssheriff-wtf/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "slider-sandbox": [
+            {
+              "id": "gt-ultra-com#18",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "18"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-flexa-com#14",
+              "slug": "gt-flexa-com",
+              "blocks": [
+                "14"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-maru-com#03",
+              "slug": "gt-maru-com",
+              "blocks": [
+                "03",
+                "04",
+                "05"
+              ],
+              "crop": "archive/gt-maru-com/blocks/03.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pressura-com#11",
+              "slug": "gt-pressura-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": null,
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-planar-com#17",
+              "slug": "gt-planar-com",
+              "blocks": [
+                "17"
+              ],
+              "crop": null,
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-canon-com#01",
+              "slug": "gt-canon-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-canon-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-flaire-com#06",
+              "slug": "gt-flaire-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": null,
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pantheon-com#11",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pp-fragment-com#05",
+              "slug": "pp-fragment-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/pp-fragment-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "editorialnew-com#05",
+              "slug": "editorialnew-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/editorialnew-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "tofino-losttype-com#02",
+              "slug": "tofino-losttype-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/tofino-losttype-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "prospectus-losttype-com#01",
+              "slug": "prospectus-losttype-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/prospectus-losttype-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "sanssheriff-wtf#02",
+              "slug": "sanssheriff-wtf",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/sanssheriff-wtf/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "global-toolbar": [
+            {
+              "id": "gt-maru-com#14",
+              "slug": "gt-maru-com",
+              "blocks": [
+                "14",
+                "15"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-super-com#01",
+              "slug": "gt-super-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-super-com/blocks/01.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-standard-com#10",
+              "slug": "gt-standard-com",
+              "blocks": [
+                "10"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "foodissue-commercialtype-com#00",
+              "slug": "foodissue-commercialtype-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/foodissue-commercialtype-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "labelled-editable-lines": [
+            {
+              "id": "gt-alpina-com#13",
+              "slug": "gt-alpina-com",
+              "blocks": [
+                "13"
+              ],
+              "crop": "archive/gt-alpina-com/blocks/13.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-zirkon-com#04",
+              "slug": "gt-zirkon-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/gt-zirkon-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#09",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/pp-frama-com/blocks/09.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "escafina-losttype-com#03",
+              "slug": "escafina-losttype-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/escafina-losttype-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "pointer-xy-axes": [
+            {
+              "id": "gt-alpina-com#17",
+              "slug": "gt-alpina-com",
+              "blocks": [
+                "17"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-planar-com#02",
+              "slug": "gt-planar-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/gt-planar-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pantheon-com#10",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "10"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "creative-toy": [
+            {
+              "id": "gt-mechanik-com#22",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "22"
+              ],
+              "crop": null,
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pp-fragment-com#03",
+              "slug": "pp-fragment-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/pp-fragment-com/blocks/03.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "editorialnew-com#02",
+              "slug": "editorialnew-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/editorialnew-com/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "editorialnew-com#06",
+              "slug": "editorialnew-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/editorialnew-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "in-context-editable": [
+            {
+              "id": "prospectus-losttype-com#03",
+              "slug": "prospectus-losttype-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/prospectus-losttype-com/blocks/03.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "escafina-losttype-com#02",
+              "slug": "escafina-losttype-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/escafina-losttype-com/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "escafina-losttype-com#05",
+              "slug": "escafina-losttype-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/escafina-losttype-com/blocks/05.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "auto-fit-editable-lines": [
+            {
+              "id": "faction-losttype-com#02",
+              "slug": "faction-losttype-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/faction-losttype-com/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "faction-losttype-com#04",
+              "slug": "faction-losttype-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/faction-losttype-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "moriston-losttype-com#03",
+              "slug": "moriston-losttype-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/moriston-losttype-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ]
         },
         "playground-app": {},
-        "game": {}
+        "game": {
+          "arcade-leaderboard": [
+            {
+              "id": "sanssheriff-wtf#01",
+              "slug": "sanssheriff-wtf",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/sanssheriff-wtf/blocks/01.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ]
+        }
       }
     },
     "specimen-showcase": {
@@ -243,11 +1950,482 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "gt-maru-com#04",
+              "slug": "gt-maru-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/gt-maru-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-pressura-com#03",
+              "slug": "gt-pressura-com",
+              "blocks": [
+                "03",
+                "04"
+              ],
+              "crop": "archive/gt-pressura-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#00",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#03",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#05",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "05",
+                "06"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#07",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#12",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "12"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/12.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#14",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "14"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/14.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#17",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "17",
+                "18"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/17.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "escafina-losttype-com#03",
+              "slug": "escafina-losttype-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/escafina-losttype-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "latest-losttype-com-introducing-dotties#02",
+              "slug": "latest-losttype-com-introducing-dotties",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/latest-losttype-com-introducing-dotties/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "latest-losttype-com-introducing-dotties#02",
+              "slug": "latest-losttype-com-introducing-dotties",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/latest-losttype-com-introducing-dotties/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "poster-series": [
+            {
+              "id": "gt-cinetype-com#02",
+              "slug": "gt-cinetype-com",
+              "blocks": [
+                "02",
+                "04",
+                "06",
+                "08"
+              ],
+              "crop": "archive/gt-cinetype-com/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-flaire-com#03",
+              "slug": "gt-flaire-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/gt-flaire-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#17",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "17"
+              ],
+              "crop": "archive/pp-frama-com/blocks/17.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "tofino-losttype-com#06",
+              "slug": "tofino-losttype-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/tofino-losttype-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "in-use-mockups": [
+            {
+              "id": "gt-cinetype-com#03",
+              "slug": "gt-cinetype-com",
+              "blocks": [
+                "03",
+                "05",
+                "07"
+              ],
+              "crop": "archive/gt-cinetype-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pp-fragment-com#06",
+              "slug": "pp-fragment-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/pp-fragment-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "editorialnew-com#07",
+              "slug": "editorialnew-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/editorialnew-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#08",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/pp-frama-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#13",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "13"
+              ],
+              "crop": "archive/pp-frama-com/blocks/13.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#15",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "15"
+              ],
+              "crop": "archive/pp-frama-com/blocks/15.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "tofino-losttype-com#07",
+              "slug": "tofino-losttype-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/tofino-losttype-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "tofino-losttype-com#08",
+              "slug": "tofino-losttype-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/tofino-losttype-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "faction-losttype-com#03",
+              "slug": "faction-losttype-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/faction-losttype-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "moriston-losttype-com#04",
+              "slug": "moriston-losttype-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/moriston-losttype-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "sanssheriff-wtf#08",
+              "slug": "sanssheriff-wtf",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/sanssheriff-wtf/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "kinetic-scenes": [
+            {
+              "id": "gt-flexa-com#06",
+              "slug": "gt-flexa-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/gt-flexa-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-flexa-com#11",
+              "slug": "gt-flexa-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/gt-flexa-com/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#10",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "10"
+              ],
+              "crop": "archive/pp-frama-com/blocks/10.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "slider-morph-mockups": [
+            {
+              "id": "gt-flaire-com#04",
+              "slug": "gt-flaire-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/gt-flaire-com/blocks/04.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "modular-grid": [
+            {
+              "id": "gt-pantheon-com#03",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/gt-pantheon-com/blocks/03.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pantheon-com#07",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/gt-pantheon-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "moriston-losttype-com#01",
+              "slug": "moriston-losttype-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/moriston-losttype-com/blocks/01.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "editorial-in-use": [
+            {
+              "id": "foodissue-commercialtype-com#02",
+              "slug": "foodissue-commercialtype-com",
+              "blocks": [
+                "02",
+                "03",
+                "04",
+                "05",
+                "06",
+                "07"
+              ],
+              "crop": "archive/foodissue-commercialtype-com/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "themed-infographic": [
+            {
+              "id": "tofino-losttype-com#07",
+              "slug": "tofino-losttype-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/tofino-losttype-com/blocks/07.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "word-stack": [
+            {
+              "id": "moriston-losttype-com#02",
+              "slug": "moriston-losttype-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/moriston-losttype-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "latest-losttype-com-introducing-dotties#02",
+              "slug": "latest-losttype-com-introducing-dotties",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/latest-losttype-com-introducing-dotties/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "low",
+              "proposed": false
+            }
+          ],
+          "generative-layout-stream": [
+            {
+              "id": "infinite-tragedy-com#03",
+              "slug": "infinite-tragedy-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/infinite-tragedy-com/blocks/03.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
             }
           ]
         },
         "family-overview": {
           "designspace-map": [
+            {
+              "id": "gt-walsheim-com#07",
+              "slug": "gt-walsheim-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/gt-walsheim-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
             {
               "id": "gt-america-com#02",
               "slug": "gt-america-com",
@@ -258,16 +2436,766 @@
               "exemplar": true,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "gt-ultra-com#02",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-ultra-com#11",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-flexa-com#12",
+              "slug": "gt-flexa-com",
+              "blocks": [
+                "12"
+              ],
+              "crop": "archive/gt-flexa-com/blocks/12.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-alpina-com#10",
+              "slug": "gt-alpina-com",
+              "blocks": [
+                "10"
+              ],
+              "crop": "archive/gt-alpina-com/blocks/10.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-haptik-com#01",
+              "slug": "gt-haptik-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-haptik-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-pressura-com#00",
+              "slug": "gt-pressura-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-pressura-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-pressura-com#08",
+              "slug": "gt-pressura-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/gt-pressura-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-planar-com#04",
+              "slug": "gt-planar-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/gt-planar-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-planar-com#13",
+              "slug": "gt-planar-com",
+              "blocks": [
+                "13"
+              ],
+              "crop": "archive/gt-planar-com/blocks/13.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-flaire-com#02",
+              "slug": "gt-flaire-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/gt-flaire-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "sanssheriff-wtf#09",
+              "slug": "sanssheriff-wtf",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/sanssheriff-wtf/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "style-word-grid": [
+            {
+              "id": "gt-walsheim-com#11",
+              "slug": "gt-walsheim-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/gt-walsheim-com/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-ultra-com#13",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "13"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/13.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-maru-com#07",
+              "slug": "gt-maru-com",
+              "blocks": [
+                "07",
+                "08",
+                "09"
+              ],
+              "crop": "archive/gt-maru-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-super-com#28",
+              "slug": "gt-super-com",
+              "blocks": [
+                "28",
+                "29"
+              ],
+              "crop": "archive/gt-super-com/blocks/28.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-haptik-com#02",
+              "slug": "gt-haptik-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/gt-haptik-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#01",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#20",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "20"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/20.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-canon-com#01",
+              "slug": "gt-canon-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-canon-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-pantheon-com#00",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-pantheon-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "editorialnew-com#04",
+              "slug": "editorialnew-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/editorialnew-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#02",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/pp-frama-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#03",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/pp-frama-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#07",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/pp-frama-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "tofino-losttype-com#05",
+              "slug": "tofino-losttype-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/tofino-losttype-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "mort-modern-losttype-com#12",
+              "slug": "mort-modern-losttype-com",
+              "blocks": [
+                "12",
+                "13",
+                "14"
+              ],
+              "crop": "archive/mort-modern-losttype-com/blocks/12.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "faction-losttype-com#01",
+              "slug": "faction-losttype-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/faction-losttype-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "latest-losttype-com-introducing-dotties#02",
+              "slug": "latest-losttype-com-introducing-dotties",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/latest-losttype-com-introducing-dotties/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "big-number-stats": [
+            {
+              "id": "pp-fragment-com#02",
+              "slug": "pp-fragment-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/pp-fragment-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "editorialnew-com#01",
+              "slug": "editorialnew-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/editorialnew-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#16",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "16"
+              ],
+              "crop": "archive/pp-frama-com/blocks/16.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "tofino-losttype-com#01",
+              "slug": "tofino-losttype-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/tofino-losttype-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ]
         },
-        "interlude": {}
+        "interlude": {
+          "full-bleed-image": [
+            {
+              "id": "gt-walsheim-com#02",
+              "slug": "gt-walsheim-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/gt-walsheim-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-haptik-com#06",
+              "slug": "gt-haptik-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/gt-haptik-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "chapter-title-overlay": [
+            {
+              "id": "gt-mechanik-com#23",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "23"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "scroll-scrubbed-sequence": [
+            {
+              "id": "gt-pantheon-com#01",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-pantheon-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pantheon-com#05",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/gt-pantheon-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pantheon-com#09",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/gt-pantheon-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#01",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/pp-frama-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#04",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/pp-frama-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#14",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "14"
+              ],
+              "crop": "archive/pp-frama-com/blocks/14.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ]
+        }
       }
     },
     "design-details": {
       "title": "Design details",
       "types": {
         "design-details": {
+          "annotated-specimen": [
+            {
+              "id": "gt-walsheim-com#04",
+              "slug": "gt-walsheim-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/gt-walsheim-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-america-com#17",
+              "slug": "gt-america-com",
+              "blocks": [
+                "17"
+              ],
+              "crop": "archive/gt-america-com/blocks/17.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-ultra-com#08",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-haptik-com#03",
+              "slug": "gt-haptik-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/gt-haptik-com/blocks/03.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-zirkon-com#03",
+              "slug": "gt-zirkon-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/gt-zirkon-com/blocks/03.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-planar-com#06",
+              "slug": "gt-planar-com",
+              "blocks": [
+                "06",
+                "07",
+                "08",
+                "09",
+                "10",
+                "11"
+              ],
+              "crop": "archive/gt-planar-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-canon-com#03",
+              "slug": "gt-canon-com",
+              "blocks": [
+                "03",
+                "04",
+                "05",
+                "06",
+                "07"
+              ],
+              "crop": "archive/gt-canon-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-flaire-com#03",
+              "slug": "gt-flaire-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/gt-flaire-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pantheon-com#02",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/gt-pantheon-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pantheon-com#04",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/gt-pantheon-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pantheon-com#06",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/gt-pantheon-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-pantheon-com#08",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/gt-pantheon-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "feature-before-after": [
+            {
+              "id": "gt-walsheim-com#08",
+              "slug": "gt-walsheim-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/gt-walsheim-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-walsheim-com#09",
+              "slug": "gt-walsheim-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/gt-walsheim-com/blocks/09.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-walsheim-com#10",
+              "slug": "gt-walsheim-com",
+              "blocks": [
+                "10"
+              ],
+              "crop": "archive/gt-walsheim-com/blocks/10.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-america-com#17",
+              "slug": "gt-america-com",
+              "blocks": [
+                "17"
+              ],
+              "crop": "archive/gt-america-com/blocks/17.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-alpina-com#06",
+              "slug": "gt-alpina-com",
+              "blocks": [
+                "06",
+                "07"
+              ],
+              "crop": "archive/gt-alpina-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-haptik-com#05",
+              "slug": "gt-haptik-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/gt-haptik-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#07",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-standard-com#07",
+              "slug": "gt-standard-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "editorialnew-com#10",
+              "slug": "editorialnew-com",
+              "blocks": [
+                "10"
+              ],
+              "crop": "archive/editorialnew-com/blocks/10.jpg",
+              "exemplar": false,
+              "confidence": "low",
+              "proposed": false
+            },
+            {
+              "id": "tofino-losttype-com#12",
+              "slug": "tofino-losttype-com",
+              "blocks": [
+                "12"
+              ],
+              "crop": "archive/tofino-losttype-com/blocks/12.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "mort-modern-losttype-com#03",
+              "slug": "mort-modern-losttype-com",
+              "blocks": [
+                "03",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08"
+              ],
+              "crop": "archive/mort-modern-losttype-com/blocks/03.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "sanssheriff-wtf#07",
+              "slug": "sanssheriff-wtf",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/sanssheriff-wtf/blocks/07.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
           "axis-explainer": [
             {
               "id": "gt-america-com#03",
@@ -279,36 +3207,457 @@
               "exemplar": true,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "gt-ultra-com#04",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-ultra-com#07",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-ultra-com#09",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-flexa-com#07",
+              "slug": "gt-flexa-com",
+              "blocks": [
+                "07",
+                "08",
+                "09",
+                "10"
+              ],
+              "crop": "archive/gt-flexa-com/blocks/07.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-maru-com#05",
+              "slug": "gt-maru-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/gt-maru-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-alpina-com#02",
+              "slug": "gt-alpina-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/gt-alpina-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-alpina-com#03",
+              "slug": "gt-alpina-com",
+              "blocks": [
+                "03",
+                "04",
+                "05"
+              ],
+              "crop": "archive/gt-alpina-com/blocks/03.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-alpina-com#08",
+              "slug": "gt-alpina-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/gt-alpina-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-alpina-com#09",
+              "slug": "gt-alpina-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/gt-alpina-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pressura-com#02",
+              "slug": "gt-pressura-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/gt-pressura-com/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pressura-com#05",
+              "slug": "gt-pressura-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/gt-pressura-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-planar-com#03",
+              "slug": "gt-planar-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/gt-planar-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#09",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/09.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pantheon-com#06",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/gt-pantheon-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "prospectus-losttype-com#04",
+              "slug": "prospectus-losttype-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/prospectus-losttype-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "mort-modern-losttype-com#10",
+              "slug": "mort-modern-losttype-com",
+              "blocks": [
+                "10",
+                "11"
+              ],
+              "crop": "archive/mort-modern-losttype-com/blocks/10.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "sanssheriff-wtf#05",
+              "slug": "sanssheriff-wtf",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/sanssheriff-wtf/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
-          "annotated-specimen": [
+          "design-notes": [
             {
-              "id": "gt-america-com#17",
-              "slug": "gt-america-com",
+              "id": "gt-flexa-com#02",
+              "slug": "gt-flexa-com",
               "blocks": [
-                "17"
+                "02",
+                "03",
+                "04",
+                "05"
               ],
-              "crop": "archive/gt-america-com/blocks/17.jpg",
+              "crop": "archive/gt-flexa-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-maru-com#02",
+              "slug": "gt-maru-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/gt-maru-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-super-com#17",
+              "slug": "gt-super-com",
+              "blocks": [
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27"
+              ],
+              "crop": "archive/gt-super-com/blocks/17.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-super-com#30",
+              "slug": "gt-super-com",
+              "blocks": [
+                "30",
+                "31"
+              ],
+              "crop": "archive/gt-super-com/blocks/30.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-haptik-com#07",
+              "slug": "gt-haptik-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/gt-haptik-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-pressura-com#06",
+              "slug": "gt-pressura-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/gt-pressura-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#04",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#10",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "10",
+                "11"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/10.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#15",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "15",
+                "16"
+              ],
+              "crop": "archive/gt-mechanik-com/blocks/15.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-standard-com#03",
+              "slug": "gt-standard-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/gt-standard-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-standard-com#05",
+              "slug": "gt-standard-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/gt-standard-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "low",
+              "proposed": false
+            }
+          ],
+          "system-diagrams": [
+            {
+              "id": "gt-zirkon-com#03",
+              "slug": "gt-zirkon-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/gt-zirkon-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "low",
+              "proposed": false
+            },
+            {
+              "id": "gt-standard-com#05",
+              "slug": "gt-standard-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/gt-standard-com/blocks/05.jpg",
               "exemplar": true,
               "confidence": "high",
               "proposed": false
             }
           ],
-          "feature-before-after": [
+          "highlighted-in-context": [
             {
-              "id": "gt-america-com#17",
-              "slug": "gt-america-com",
+              "id": "gt-planar-com#14",
+              "slug": "gt-planar-com",
               "blocks": [
-                "17"
+                "14"
               ],
-              "crop": "archive/gt-america-com/blocks/17.jpg",
+              "crop": "archive/gt-planar-com/blocks/14.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pp-fragment-com#07",
+              "slug": "pp-fragment-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/pp-fragment-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "editorialnew-com#09",
+              "slug": "editorialnew-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/editorialnew-com/blocks/09.jpg",
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
             }
           ]
         },
-        "comparison": {}
+        "comparison": {
+          "reference-morph": [
+            {
+              "id": "gt-ultra-com#01",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-ultra-com#05",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/05.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "source-reset": [
+            {
+              "id": "gt-super-com#05",
+              "slug": "gt-super-com",
+              "blocks": [
+                "05",
+                "06",
+                "09",
+                "10",
+                "14",
+                "15"
+              ],
+              "crop": "archive/gt-super-com/blocks/05.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "pointer-wipe": [
+            {
+              "id": "gt-canon-com#08",
+              "slug": "gt-canon-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/gt-canon-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ]
+        }
       }
     },
     "checkout": {
@@ -316,6 +3665,17 @@
       "types": {
         "checkout": {
           "link-out-cta": [
+            {
+              "id": "gt-walsheim-com#11",
+              "slug": "gt-walsheim-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/gt-walsheim-com/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
             {
               "id": "gt-america-com#23",
               "slug": "gt-america-com",
@@ -326,17 +3686,623 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "gt-cinetype-com#09",
+              "slug": "gt-cinetype-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/gt-cinetype-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-ultra-com#14",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "14"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/14.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-flexa-com#12",
+              "slug": "gt-flexa-com",
+              "blocks": [
+                "12"
+              ],
+              "crop": "archive/gt-flexa-com/blocks/12.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-maru-com#09",
+              "slug": "gt-maru-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/gt-maru-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-alpina-com#12",
+              "slug": "gt-alpina-com",
+              "blocks": [
+                "12"
+              ],
+              "crop": "archive/gt-alpina-com/blocks/12.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-super-com#00",
+              "slug": "gt-super-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/gt-super-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-super-com#33",
+              "slug": "gt-super-com",
+              "blocks": [
+                "33"
+              ],
+              "crop": "archive/gt-super-com/blocks/33.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pressura-com#09",
+              "slug": "gt-pressura-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/gt-pressura-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-planar-com#13",
+              "slug": "gt-planar-com",
+              "blocks": [
+                "13"
+              ],
+              "crop": "archive/gt-planar-com/blocks/13.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#21",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "21"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "low",
+              "proposed": false
+            },
+            {
+              "id": "gt-canon-com#10",
+              "slug": "gt-canon-com",
+              "blocks": [
+                "10"
+              ],
+              "crop": "archive/gt-canon-com/blocks/10.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-flaire-com#05",
+              "slug": "gt-flaire-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/gt-flaire-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pantheon-com#10",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "10"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pp-fragment-com#08",
+              "slug": "pp-fragment-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/pp-fragment-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "editorialnew-com#11",
+              "slug": "editorialnew-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/editorialnew-com/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#18",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "18"
+              ],
+              "crop": "archive/pp-frama-com/blocks/18.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "foodissue-commercialtype-com#09",
+              "slug": "foodissue-commercialtype-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/foodissue-commercialtype-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "low",
+              "proposed": false
+            },
+            {
+              "id": "tofino-losttype-com#03",
+              "slug": "tofino-losttype-com",
+              "blocks": [
+                "03",
+                "04"
+              ],
+              "crop": "archive/tofino-losttype-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "tofino-losttype-com#09",
+              "slug": "tofino-losttype-com",
+              "blocks": [
+                "09",
+                "10"
+              ],
+              "crop": "archive/tofino-losttype-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "tofino-losttype-com#14",
+              "slug": "tofino-losttype-com",
+              "blocks": [
+                "14"
+              ],
+              "crop": "archive/tofino-losttype-com/blocks/14.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "prospectus-losttype-com#02",
+              "slug": "prospectus-losttype-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/prospectus-losttype-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "prospectus-losttype-com#06",
+              "slug": "prospectus-losttype-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/prospectus-losttype-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "mort-modern-losttype-com#08",
+              "slug": "mort-modern-losttype-com",
+              "blocks": [
+                "08",
+                "09",
+                "10"
+              ],
+              "crop": "archive/mort-modern-losttype-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "faction-losttype-com#06",
+              "slug": "faction-losttype-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/faction-losttype-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "moriston-losttype-com#00",
+              "slug": "moriston-losttype-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/moriston-losttype-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "escafina-losttype-com#00",
+              "slug": "escafina-losttype-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/escafina-losttype-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "escafina-losttype-com#04",
+              "slug": "escafina-losttype-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/escafina-losttype-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "latest-losttype-com-introducing-dotties#02",
+              "slug": "latest-losttype-com-introducing-dotties",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/latest-losttype-com-introducing-dotties/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "sanssheriff-wtf#04",
+              "slug": "sanssheriff-wtf",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/sanssheriff-wtf/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "sanssheriff-wtf#10",
+              "slug": "sanssheriff-wtf",
+              "blocks": [
+                "10"
+              ],
+              "crop": "archive/sanssheriff-wtf/blocks/10.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "package-price-sheet": [
+            {
+              "id": "gt-standard-com#11",
+              "slug": "gt-standard-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": null,
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
             }
           ]
         },
         "testimonials": {},
-        "newsletter": {}
+        "newsletter": {
+          "email-signup": [
+            {
+              "id": "tofino-losttype-com#15",
+              "slug": "tofino-losttype-com",
+              "blocks": [
+                "15"
+              ],
+              "crop": "archive/tofino-losttype-com/blocks/15.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "moriston-losttype-com#07",
+              "slug": "moriston-losttype-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/moriston-losttype-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "escafina-losttype-com#06",
+              "slug": "escafina-losttype-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/escafina-losttype-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ]
+        }
       }
     },
     "footer": {
       "title": "Footer",
       "types": {
         "footer": {
+          "credits-colophon": [
+            {
+              "id": "gt-walsheim-com#12",
+              "slug": "gt-walsheim-com",
+              "blocks": [
+                "12"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-cinetype-com#11",
+              "slug": "gt-cinetype-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/gt-cinetype-com/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-eesti-com#15",
+              "slug": "gt-eesti-com",
+              "blocks": [
+                "15",
+                "16"
+              ],
+              "crop": "archive/gt-eesti-com/blocks/15.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-ultra-com#15",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "15"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/15.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-flexa-com#12",
+              "slug": "gt-flexa-com",
+              "blocks": [
+                "12"
+              ],
+              "crop": "archive/gt-flexa-com/blocks/12.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-maru-com#11",
+              "slug": "gt-maru-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/gt-maru-com/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-alpina-com#15",
+              "slug": "gt-alpina-com",
+              "blocks": [
+                "15"
+              ],
+              "crop": "archive/gt-alpina-com/blocks/15.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-super-com#34",
+              "slug": "gt-super-com",
+              "blocks": [
+                "34"
+              ],
+              "crop": "archive/gt-super-com/blocks/34.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-pressura-com#09",
+              "slug": "gt-pressura-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/gt-pressura-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#21",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "21"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "low",
+              "proposed": false
+            },
+            {
+              "id": "gt-canon-com#10",
+              "slug": "gt-canon-com",
+              "blocks": [
+                "10"
+              ],
+              "crop": "archive/gt-canon-com/blocks/10.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-flaire-com#05",
+              "slug": "gt-flaire-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/gt-flaire-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-standard-com#09",
+              "slug": "gt-standard-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "editorialnew-com#11",
+              "slug": "editorialnew-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/editorialnew-com/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "foodissue-commercialtype-com#09",
+              "slug": "foodissue-commercialtype-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/foodissue-commercialtype-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "prospectus-losttype-com#07",
+              "slug": "prospectus-losttype-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/prospectus-losttype-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "mort-modern-losttype-com#15",
+              "slug": "mort-modern-losttype-com",
+              "blocks": [
+                "15"
+              ],
+              "crop": "archive/mort-modern-losttype-com/blocks/15.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "moriston-losttype-com#07",
+              "slug": "moriston-losttype-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/moriston-losttype-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "escafina-losttype-com#06",
+              "slug": "escafina-losttype-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/escafina-losttype-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "sanssheriff-wtf#11",
+              "slug": "sanssheriff-wtf",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/sanssheriff-wtf/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
           "big-sign-off": [
             {
               "id": "gt-america-com#24",
@@ -347,6 +4313,99 @@
               "crop": "archive/gt-america-com/blocks/24.jpg",
               "exemplar": false,
               "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-super-com#32",
+              "slug": "gt-super-com",
+              "blocks": [
+                "32"
+              ],
+              "crop": "archive/gt-super-com/blocks/32.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-pantheon-com#10",
+              "slug": "gt-pantheon-com",
+              "blocks": [
+                "10"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pp-fragment-com#09",
+              "slug": "pp-fragment-com",
+              "blocks": [
+                "09",
+                "10"
+              ],
+              "crop": "archive/pp-fragment-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "editorialnew-com#12",
+              "slug": "editorialnew-com",
+              "blocks": [
+                "12"
+              ],
+              "crop": "archive/editorialnew-com/blocks/12.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pp-frama-com#18",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "18"
+              ],
+              "crop": "archive/pp-frama-com/blocks/18.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "personal-sign-off": [
+            {
+              "id": "tofino-losttype-com#16",
+              "slug": "tofino-losttype-com",
+              "blocks": [
+                "16"
+              ],
+              "crop": "archive/tofino-losttype-com/blocks/16.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "sanssheriff-wtf#11",
+              "slug": "sanssheriff-wtf",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/sanssheriff-wtf/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "slim-legal-bar": [
+            {
+              "id": "latest-losttype-com-introducing-dotties#03",
+              "slug": "latest-losttype-com-introducing-dotties",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/latest-losttype-com-introducing-dotties/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
               "proposed": false
             }
           ]
@@ -363,10 +4422,318 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "gt-cinetype-com#10",
+              "slug": "gt-cinetype-com",
+              "blocks": [
+                "10"
+              ],
+              "crop": "archive/gt-cinetype-com/blocks/10.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-ultra-com#15",
+              "slug": "gt-ultra-com",
+              "blocks": [
+                "15"
+              ],
+              "crop": "archive/gt-ultra-com/blocks/15.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-maru-com#12",
+              "slug": "gt-maru-com",
+              "blocks": [
+                "12"
+              ],
+              "crop": "archive/gt-maru-com/blocks/12.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-alpina-com#14",
+              "slug": "gt-alpina-com",
+              "blocks": [
+                "14"
+              ],
+              "crop": "archive/gt-alpina-com/blocks/14.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-super-com#35",
+              "slug": "gt-super-com",
+              "blocks": [
+                "35"
+              ],
+              "crop": "archive/gt-super-com/blocks/35.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-planar-com#16",
+              "slug": "gt-planar-com",
+              "blocks": [
+                "16"
+              ],
+              "crop": "archive/gt-planar-com/blocks/16.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "faction-losttype-com#07",
+              "slug": "faction-losttype-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/faction-losttype-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "scroll-spy-nav": [
+            {
+              "id": "gt-maru-com#13",
+              "slug": "gt-maru-com",
+              "blocks": [
+                "13"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-mechanik-com#24",
+              "slug": "gt-mechanik-com",
+              "blocks": [
+                "24"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gt-flaire-com#07",
+              "slug": "gt-flaire-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gt-standard-com#00",
+              "slug": "gt-standard-com",
+              "blocks": [
+                "00",
+                "02",
+                "04",
+                "06",
+                "08"
+              ],
+              "crop": "archive/gt-standard-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "toc-drawer": [
+            {
+              "id": "pp-fragment-com#12",
+              "slug": "pp-fragment-com",
+              "blocks": [
+                "12"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "editorialnew-com#14",
+              "slug": "editorialnew-com",
+              "blocks": [
+                "14"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ]
         },
-        "chrome": {}
+        "chrome": {
+          "nav-bar": [
+            {
+              "id": "gt-eesti-com#01",
+              "slug": "gt-eesti-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/gt-eesti-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false,
+              "rawType": "chrome",
+              "rawVariant": "site-nav-bar"
+            },
+            {
+              "id": "gt-eesti-com#17",
+              "slug": "gt-eesti-com",
+              "blocks": [
+                "17"
+              ],
+              "crop": "archive/gt-eesti-com/blocks/17.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false,
+              "rawType": "chrome",
+              "rawVariant": "site-nav-bar"
+            },
+            {
+              "id": "gt-pressura-com#11",
+              "slug": "gt-pressura-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false,
+              "rawType": "chrome",
+              "rawVariant": "fixed-header-bar"
+            },
+            {
+              "id": "gt-planar-com#18",
+              "slug": "gt-planar-com",
+              "blocks": [
+                "18"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false,
+              "rawType": "chrome",
+              "rawVariant": "fixed-header-bar"
+            },
+            {
+              "id": "pp-fragment-com#11",
+              "slug": "pp-fragment-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "editorialnew-com#13",
+              "slug": "editorialnew-com",
+              "blocks": [
+                "13"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false,
+              "rawType": "chrome",
+              "rawVariant": "fixed-header-bar"
+            },
+            {
+              "id": "pp-frama-com#20",
+              "slug": "pp-frama-com",
+              "blocks": [
+                "20"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false,
+              "rawType": "chrome",
+              "rawVariant": "fixed-header-bar"
+            },
+            {
+              "id": "foodissue-commercialtype-com#00",
+              "slug": "foodissue-commercialtype-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/foodissue-commercialtype-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false,
+              "rawType": "chrome",
+              "rawVariant": "fixed-header-bar"
+            },
+            {
+              "id": "latest-losttype-com-introducing-dotties#01",
+              "slug": "latest-losttype-com-introducing-dotties",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/latest-losttype-com-introducing-dotties/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false,
+              "rawType": "chrome",
+              "rawVariant": "site-nav-bar"
+            },
+            {
+              "id": "infinite-tragedy-com#04",
+              "slug": "infinite-tragedy-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false,
+              "rawType": "chrome",
+              "rawVariant": "site-nav-bar"
+            }
+          ],
+          "masthead-nav": [
+            {
+              "id": "foodissue-commercialtype-com#01",
+              "slug": "foodissue-commercialtype-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/foodissue-commercialtype-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "announcement-banner": [
+            {
+              "id": "latest-losttype-com-introducing-dotties#00",
+              "slug": "latest-losttype-com-introducing-dotties",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/latest-losttype-com-introducing-dotties/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            }
+          ]
+        }
       }
     }
   }

@@ -1,0 +1,311 @@
+{
+  "slug": "latest-losttype-com-introducing-dotties",
+  "extractedBy": "agent",
+  "summary": "An 'Introducing' article on Lost Type's own Craft CMS site for Dotties Vanilla (sans) and Dotties Chocolate (slab), told entirely through an ice-cream-parlour world: illustrated characters, pint tubs and glyph-shaped popsicles. Almost every specimen is a pre-rendered SVG/PNG served per breakpoint; only the section headings and paragraphs are live text, and there is no tester or buy flow on the page, just 'Try Dotties' links to the font page. Capture note: the whole article came out as one 7748px block (02), so all content instances below share that block.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "announcement-banner",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Thin light-grey status bar: 'Welcome to Lost Type! You're previewing the latest version of our site. For technical questions and feedback, please contact us.'"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "chrome",
+      "variant": "site-nav-bar",
+      "newVariant": true,
+      "variantDefinition": "A persistent site navigation bar (name or logo plus links or view tabs, sometimes utility toggles such as colour themes), top or bottom, fixed or static; it navigates rather than introducing the font.",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "The foundry's standard header (not specimen-specific): white bar, navy Lost Type badge logo at left, 'Fonts Store Blog Contact About' small links at right"
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "hero",
+      "variant": "illustration-scene",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "sweet, playful, inclusive",
+        "mobile": "adapts",
+        "carrier": "illustration",
+        "cta": "none",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "On white, 'Dotties Vanilla &' in teal over 'Dotties Chocolate' in pink, both heavy and wide; below, 'Introducing Dotties: A type family designed to swirl together.' in navy slab at left and three illustrated friends strolling with ice-cream cones at right",
+      "feel": "Sunny, friendly, summery",
+      "ux": "static; foundry nav above",
+      "learn": "Give each subfamily a flavour and a colour (Vanilla = teal, Chocolate = pink) and keep that code for the whole page",
+      "reconstruction": {
+        "layout": "Title SVG spanning the max-width-8 container (~1200px wide, ~200px tall, two lines); then a two-column figure: caption col-6 left (max-width-2 text, ~380px) and illustration col-6 right (~640×380px), vertically centred",
+        "typography": "Title lettering in Dotties Chocolate Black, wide, ~100px cap-to-cap lines, teal then pink (pre-rendered SVG); intro heading ~36px 'LT Introducing Headline' (Dotties Chocolate Black) navy, line-height ~1.1; credit lines ~16px 'LT Introducing Text' (Dotties Vanilla Regular) with bold names",
+        "palette": [
+          "#fbfbfc",
+          "#67c2cd",
+          "#e8578f",
+          "#44468e"
+        ],
+        "behaviour": "none; <picture> swaps Landscape/Mobile SVG versions of the title per breakpoint",
+        "content": "Family pair name; 'Designed by Kyle Letendre. Now Serving exclusively at Lost Type.'",
+        "assets": "Title SVG (LT_Dotties-01_Title-Landscape/Mobile.svg); friends illustration PNG (LT_Dotties-02_Friends.png)",
+        "html": "article > .introducing-font-family-text > figure > picture > source[media] ×4 + img; figure.sm-flex > .sm-col-6.order-last img + .sm-col-6 figcaption > h3.introducing-font-family-headline"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "retro packaging, candy-bright",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "grid"
+      },
+      "look": "On a deep indigo band, three shelves of illustrated ice-cream pints, 18 tubs each with an invented flavour label in a different Dotties style ('UMAMI OOHPAPI', 'Lawful Waffle', 'Marvelous Mr. Meringue', 'Milkiest Magician', 'Velvety Smooth', 'Thoroughly THIQUE'…)",
+      "feel": "Freezer-aisle abundance, witty",
+      "ux": "static",
+      "learn": "Packaging pastiche lets every tub test a different weight, width and pairing while the puns keep it fun",
+      "reconstruction": {
+        "layout": "Full-bleed band (#44468e), image max-width-9 (~1360px), ~720px tall; 6×3 grid of tubs on a lit shelf",
+        "typography": "Labels in Dotties Vanilla and Chocolate across weights and italics, mixed with patterned label designs (pre-rendered)",
+        "palette": [
+          "#44468e",
+          "#2e2f5f",
+          "#f3e14c",
+          "#e8578f",
+          "#67c2cd"
+        ],
+        "behaviour": "none",
+        "content": "Invented flavour names with taglines ('Savory and Saucy', 'Silky & Serene', 'Quench Queen')",
+        "assets": "One large illustration PNG (Dotties_Pints-Web.png, srcset up to 3110w)",
+        "html": "div[style=background-color:#44468e] > .max-width-9 > figure > img[srcset]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "cheerful, orderly",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "Repeated for each subfamily: a navy heading and short description beside 'a b c' set on three line-drawn hands holding cones; then a giant teal (or pink) 'a' with an illustrated woman leaning in its counter, beside a list of 20 style names each set in itself (Thin → Ultra, then Ultra Italic → Thin Italic) and an orange 'TRY DOTTIES' button; a sprinkles divider separates Vanilla from Chocolate",
+      "feel": "Playful but complete",
+      "ux": "static images; 'Try Dotties' links to the font page",
+      "learn": "Run the style list down and back up (romans getting heavier, italics getting lighter) so the column swells and thins like a scoop",
+      "reconstruction": {
+        "layout": "Per subfamily ~1500px: two-column figure (text col-6 left ~380px measure, cones SVG col-6 right ~520×340px); full-width 'hero' SVG (~1200×600px): giant letter + character left half, style list right half; centred CTA; sprinkle divider image (~1200×20px) between subfamilies",
+        "typography": "Headings ~36px Dotties Chocolate Black navy; descriptions ~16px Dotties Vanilla Regular navy, leading ~1.6; style list ~22px per line, each line in its own weight/italic, light grey for Thin up to navy for Ultra (image); cones 'a b c' ~130px Vanilla Black teal / Chocolate Black pink; button ~13px caps white on orange-red, ~150×40px, small radius",
+        "palette": [
+          "#fbfbfc",
+          "#67c2cd",
+          "#e8578f",
+          "#44468e",
+          "#e0502b"
+        ],
+        "behaviour": "none",
+        "content": "Real subfamily descriptions ('a humanist sans serif with a twist… hand-painted signs'; 'a humanist slab serif: a ganache with panache') and the full style names",
+        "assets": "Cone SVGs (LT_Dotties-04_VanillaCones.svg, -06_ChocolateCones.svg), hero SVGs with character illustration (-05_VanillaHero, -07_ChocolateHero, each with a -Mobile version), sprinkles divider PNG",
+        "html": "figure.sm-flex > .order-last img + figcaption > h3 + div; figure > picture; a.btn.btn-primary[href=/fonts/dotties]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "ice-cream truck menu, glossy",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "grid"
+      },
+      "look": "On dark indigo, a 5×3 menu board of glossy popsicles shaped like glyphs and objects (a sun, '@', '&', lips, 'g', a rainbow, a heart, sunglasses), each tile topped with a product name in Dotties ('Bright Future', 'the Tangy Tammie', 'AmpedUp', 'TRICOUNTY tricolor', 'SHARI'S SHADES') and a starburst price sticker",
+      "feel": "Retro ice-cream-truck poster, saturated",
+      "ux": "static",
+      "learn": "A menu-board grid gives each style its own 'product' and price sticker: the specimen becomes something you want to order",
+      "reconstruction": {
+        "layout": "Full-bleed band #2e2f5f; image ~1270×960px centred; 5 columns × 3 rows of square tiles with thin gutters",
+        "typography": "Product names in many Dotties weights, widths and italics, mixing Vanilla and Chocolate, white/pink/teal/yellow (pre-rendered)",
+        "palette": [
+          "#2e2f5f",
+          "#44468e",
+          "#f3e14c",
+          "#e8578f",
+          "#4ec3d3"
+        ],
+        "behaviour": "none",
+        "content": "Invented popsicle names with prices ($1–$5, '4 for $9')",
+        "assets": "One large rendered illustration PNG (Dotties_Popsiscles-Web_4000.png)"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "affectionate, punny",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "'Designed to Swirl Together' heading and paragraph beside a cat licking a dropped cone; then a justified wall of famous pairs ('We go together like … Cup & Cone · Sonny & Cher · Lock & Key · Salt & Pepper … Vanilla & Chocolate'), each word switching between Vanilla and Chocolate, roman and italic, light and black, with an illustrated couple sharing ice cream",
+      "feel": "Romantic, cheeky",
+      "ux": "static",
+      "learn": "Demonstrate a pairing family with a list of famous pairs, alternating the two subfamilies word by word, so the theme and the pairing are the same idea",
+      "reconstruction": {
+        "layout": "Two-column figure (text left ~380px, cat illustration right ~400px); then a full-width SVG (~1180×560px): 12 justified lines of pairs at left with the couple illustration bottom-right",
+        "typography": "Heading ~36px Dotties Chocolate Black navy; paragraph ~16px Dotties Vanilla; pairs ~34px, each word a different Dotties style (Vanilla/Chocolate, Thin–Ultra, roman/italic), navy with teal/pink accents for 'We go together like' and 'Vanilla & Chocolate' (pre-rendered)",
+        "palette": [
+          "#fbfbfc",
+          "#44468e",
+          "#67c2cd",
+          "#e8578f"
+        ],
+        "behaviour": "none",
+        "content": "Famous pairs (Cup & Cone, Sonny & Cher, Jay & Beyoncé, Peanut Butter & Jelly, Thunder & Lightning…), ending on Vanilla & Chocolate",
+        "assets": "Kitty illustration PNG (LT_Dotties-09_Kitty.png); 'We go together' SVG with couple illustration (-10_WeGoTogether, plus -Mobile)"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "inviting, sweet",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "After a sprinkles divider, a big navy 'GET A TASTE OF / Dotties' (wide caps over a huge lowercase name) and a small orange-red 'TRY DOTTIES' button",
+      "feel": "Upbeat, ad-like close",
+      "ux": "The button links to the Dotties font page on the foundry site (tester and buying live there); the same button appears after each subfamily",
+      "learn": "Close with a single themed imperative ('Get a taste of…') and one small button: the page's job is to send you to the font page",
+      "reconstruction": {
+        "layout": "Centred SVG ~1150×270px, ~120px whitespace above and below; button centred ~150×40px under it",
+        "typography": "'GET A TASTE OF' ~70px wide caps (Dotties Chocolate Black, extended) and 'Dotties' ~200px, navy (pre-rendered SVG); button ~13px caps white on orange-red",
+        "palette": [
+          "#fbfbfc",
+          "#44468e",
+          "#e0502b"
+        ],
+        "behaviour": "none",
+        "content": "Themed CTA copy",
+        "assets": "SVG (LT_Dotties-11_GetATaste.svg)",
+        "html": "a.btn.btn-primary[href='https://latest.losttype.com/fonts/dotties']"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "clean, foundry-standard",
+        "mobile": "adapts",
+        "contains": [
+          "legal",
+          "credits"
+        ]
+      },
+      "look": "White, small navy Lost Type badge left, 'Fonts Store Blog Contact About' right, and two small lines: 'Copyright © 2026 Lost Type. Brought to you by Riley Cran and friends.'",
+      "feel": "Tidy, standard",
+      "ux": "Site-wide links",
+      "learn": "A 'brought to you by X and friends' credit keeps a corporate footer personal",
+      "reconstruction": {
+        "layout": "max-width-8 container (~1280px), ~180px tall; nav row (logo col-2, links right) then the copyright lines below-left",
+        "typography": "Links ~16px Truly Sans Small Regular navy; copyright ~12px",
+        "palette": [
+          "#ffffff",
+          "#44468e"
+        ],
+        "behaviour": "none",
+        "content": "Global links, copyright",
+        "assets": "Lost Type badge SVG",
+        "html": "footer > nav.md-flex > .col-2 a > svg + ul > li > a; small.h6"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/illustration-scene",
+    "specimen-showcase/prop-collage",
+    "family-overview/style-word-grid",
+    "specimen-showcase/prop-collage",
+    "specimen-showcase/word-stack",
+    "checkout/link-out-cta",
+    "footer/slim-legal-bar"
+  ]
+}

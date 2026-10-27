@@ -1,0 +1,1015 @@
+{
+  "slug": "gt-mechanik-com",
+  "extractedBy": "agent",
+  "summary": "A radio-broadcast themed single page: a fixed bottom 'tuner' bar maps scroll progress onto five frequencies (MCNK 87.8, MONO 91.2, SEMI 95.6, POLY 97.7, INFO 99.2), each chapter announced by a giant blended frequency overlay. Chapters are bento panels of Lottie-animated electro-mechanical props (printers, consoles, QSL cards, transmission logs) with section copy hidden behind '(i) Info!' popovers; the type tester is an off-canvas postcard maker that mails a real printed card.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "technical, playful, electro-mechanical",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "Abbreviated name 'MCNK' in magenta filling the full width, above a dashboard of instrument tiles: a tone cone diagram (MONO → SEMI → POLY spheres), an outlined Poly 'm', yellow dots spelling MECHANIK, two spoked wheels, a colophon address in mono, then an 'an' on a pink grid with TONE/WGHT readouts and a ring dial, then pictogram tiles (plug socket, 'k', 'i', smiley)",
+      "feel": "Lab equipment manual, cheerful and precise",
+      "ux": "TV test-card loader ('PLEASE STAND BY') for ~2s; wheels rotate with scroll; the 'an' tile steps through tone (Mono/Semi/Poly) and weight (Thin–Black), highlighting the active label in magenta while a ring dial marks the weight; fixed tuner nav at the bottom with Type Tester / Try / Buy",
+      "learn": "Abbreviate the name to its consonants (MCNK) to get a compact, machine-like wordmark that can fill the width, then let a dashboard of diagram tiles explain the family system before any copy",
+      "reconstruction": {
+        "layout": "Full width 1360px between 40px margins. Row 1: 'MCNK' edge to edge, ~440px cap height, small 'GT' diamond badge left. Row 2 (y≈560): three tiles ~450×300px (mint cone diagram, outlined 'm' tagged POLY, yellow circles). Row 3: colophon text left, two 440px spoked wheels centre. Row 4 (y≈1420): 'an' at ~400px x-height on a pink 20px grid (~1100px wide) with TONE and WGHT label columns at right and a 167px ring dial in a mint rounded tile. Row 5: four pictogram tiles (~330×240px, rounded). Mobile: 'MC/NK' on two lines, tiles stacked",
+        "typography": "Wordmark GT Mechanik VF, TONE 1 (Mono) heavy, ~885px font-size, uppercase, magenta. Labels and colophon GT Mechanik Mono ~14px uppercase, olive, hyphen-joined ('GRILLI-TYPE-INC.'). 'an' ~500px, olive; active TONE/WGHT label switches to magenta",
+        "palette": [
+          "#f6f3f1",
+          "#ff4ab0",
+          "#8e9719",
+          "#cee4da",
+          "#e7f80a",
+          "#0b6c00"
+        ],
+        "behaviour": "Loader test card ~2s; data-wheel SVGs rotate ±deg tied to scroll; 'an' tile cycles TONE 1/33/100 × wght 100–900 (data-an-tone, data-an-wght, data-an-ring) in a loop; tiles fade/slide in",
+        "content": "Name, subfamily names, foundry address as a machine label",
+        "assets": "Line-drawn SVG diagrams (cone, wheels, ring dial), pictogram SVGs",
+        "html": "data-wheel svg (rotate on scroll); data-an-tone / data-an-wght / data-an-letter / data-an-ring / data-an-spinner for the cycling 'an' tile"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "retro office machine, witty",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "series"
+      },
+      "look": "A mint 'GRILLI TYPE Technology GT3000' printer with LOAD / RESET / PRINT keys feeds out tractor-feed paper sheets (pink, then yellow) printed with specimen forms: 'Mechanik' in Poly blue, 'Broadcast / Node 03 / Calibrated', 'ID: MK-01', three text columns, then a Mono form 'form-Na5Mi / first middle last? / STREET / APT, BUILDING / ZIP CODE', then 'PROGRAM / NETWORK' in Poly",
+      "feel": "Mechanical, deadpan, data-entry",
+      "ux": "Printer and paper are Lottie animations that run as they enter view; each field on the paper is labelled with the subfamily used (GT MECHANIK POLY / SEMI / MONO)",
+      "learn": "Make the specimen sheets come out of a machine: continuous-feed forms are a natural frame for labelled style samples",
+      "reconstruction": {
+        "layout": "~2600px tall run starting y≈2860; printer body full width (1360px, rounded mint panels, wave display, round keys); paper sheets ~1240px wide with punched tractor holes on both edges, overlapping the printer; each sheet a grid of boxed fields with 10px labels",
+        "typography": "Field labels GT Mechanik Mono 10px uppercase; specimens: 'Mechanik' Poly bold ~170px, 'Broadcast' Semi bold ~70px, 'form-Na5Mi' Mono ~110px in white boxed cells (one letter per cell), body text ~14px in three columns",
+        "palette": [
+          "#f6f3f1",
+          "#cee4da",
+          "#faeff8",
+          "#e7f80a",
+          "#6995ed",
+          "#0b6c00"
+        ],
+        "behaviour": "Lottie printer animations (printer-2/3/4.json) play on scroll into view; ping/pong tiles slide in horizontally (translate3d ±448px) tied to scroll",
+        "content": "Machine-system jargon: 'Initialization complete. Core temp is stable…', form fields (first/middle/last, street, zip)",
+        "assets": "Lottie printer and paper animations, SVG keys and tractor-feed edges",
+        "html": "div[data-lottie=/animations/printer-N.json]; div[data-ping] / div[data-pong] translated on scroll"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "scroll-narrative",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "scroll-driven",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "radio transmission, cryptic",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "diagram"
+        ],
+        "length": "short"
+      },
+      "look": "After the '87.8 — MCNK' channel flash and letters converging into a crosshair, a pinned olive monitor (rounded, magenta border) shows white text 'Hel5o. Is anybody there?' with glitched characters, a MONO 1 — SEMI 33 — POLY 100 tone strip on top, 'Incoming broadcast from' and 'Signal clarity' marquees in side boxes; then '#!' with a cone diagram and a MONO→SEMI→POLY cycle diagram and the '(i) Info!' button holding the intro paragraph",
+      "feel": "Mysterious, playful sci-fi",
+      "ux": "The monitor pins while you scroll ~1450px: the message scrolls up, the tone indicator moves along the strip and corrupted characters ('Sign9l detect9d', 'connecti>%') resolve; the intro copy appears only when '(i) Info!' is clicked",
+      "learn": "Tell the family concept as a signal coming into focus: corrupted characters that resolve while the tone axis moves make 'tuning in' literal",
+      "reconstruction": {
+        "layout": "Monitor 1360×740px (100svh − 10rem), rounded 2rem, pinned (pin-spacer 2185px); tone strip 32px from top with a white dot indicator; text centred, lines 10vh apart; 120px square side boxes for broadcast source and signal clarity. Below: 900×600px bordered diagram (cone + '#!' ~300px in blue) and a cycle of five circles at right; '(i) Info!' pill bottom-right",
+        "typography": "Message ~72px (5vw) GT Mechanik Poly-tone regular, white, centred, some lines blue; strip and marquees GT Mechanik Mono 10–12px uppercase; '#!' ~300px Poly blue",
+        "palette": [
+          "#8e9719",
+          "#ffffff",
+          "#6995ed",
+          "#ff4ab0",
+          "#f6f3f1"
+        ],
+        "behaviour": "GSAP-style pin; data-monitor-text translates up with scroll; data-monitor-indicator left 0→100% along the TONE strip; glitched glyph substitutions decrease with progress; marquees loop; channel overlay flashes '87.8 — MCNK' with small letters animating into a crosshair",
+        "content": "Radio monologue: 'Hel5o. Is anybody there? The channel is open, stable, and receiving. Signal detected…'; info popover: 'GT Mechanik dials in the appeal of electromechanical text systems…'",
+        "assets": "SVG diagrams; Lottie circle-cycle",
+        "html": "[data-monitor-wrap] > [data-monitor-tone] [data-monitor-indicator], [data-monitor-text], [data-monitor-marquee], [data-monitor-signal-clarity]; [data-channel=87.8][data-small-text-animation=crosshair]"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "spec sheet, calm",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "Left column of mono facts ('STATIC STYLES MONO • SEMI • POLY / 3 FAMILIES 7 WEIGHTS + OBLIQUES / VARIABLE FONT AXES TONE: 1–100 WEIGHT: 100–900 SLANT: 0–6'), right a large mint card 'Light' in Poly and two smaller cards 'Light' in Mono and Semi, then a sine wave on ruled lines",
+      "feel": "Orderly, factual",
+      "ux": "Each card is a Lottie waterfall that cycles the word through the weights",
+      "learn": "Pair a terse fact list (families, weights, axes ranges) with the same word in each subfamily: the numbers and the shapes explain each other",
+      "reconstruction": {
+        "layout": "12-col grid; facts in cols 1–3; cards in cols 5–12: Poly card 900×385px, below it Mono 440×190px and Semi 440×190px side by side, rounded 12px, mint fill, 10px labels above each card; sine-wave diagram ~1360×300px after",
+        "typography": "Facts GT Mechanik Mono 12px uppercase, headings magenta, values green; card word 'Light' ~150px (Poly) and ~70px (Mono/Semi), dark green",
+        "palette": [
+          "#f6f3f1",
+          "#cee4da",
+          "#0b6c00",
+          "#ff4ab0",
+          "#8e9719"
+        ],
+        "behaviour": "Lottie waterfall-mono/semi/poly.json loop through weights, synced (data-lottie-sync)",
+        "content": "Family facts plus one word",
+        "assets": "Three Lottie animations"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "info-popover",
+      "newVariant": true,
+      "variantDefinition": "Section copy hidden behind a small '(i) Info' button and shown as a popover next to the specimen; the page shows only type and diagrams until the visitor asks for the text.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "concise, technical",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "diagram"
+        ],
+        "length": "short"
+      },
+      "look": "MONO chapter header: the '91.2 — MONO' frequency overlay, a yellow tile with the tone cone (MONO sphere highlighted), and a pink device plate with screws showing 'sent*' in Mono cells, 'UNIT ID: RC-P73/NYC SERIAL: 004981-AX'; small '(i) INFO!' pill with a magenta indicator",
+      "feel": "Laconic, gadget-like",
+      "ux": "Clicking '(i) Info!' opens a yellow popover with the MONO description; the button label flips to '(x) Close'",
+      "learn": "Hide the prose behind an info toggle so each chapter opens on pure specimen, while the explanation is one click away",
+      "reconstruction": {
+        "layout": "Row: 450×300px yellow cone tile left, 900×600px pink plate right with corner screws and a row of letter cells; info pill (~150×28px) under the left tile; popover ~320px wide positioned absolutely next to the button",
+        "typography": "'sent*' GT Mechanik Mono bold ~200px, one glyph per bordered cell; plate labels Mono 10px uppercase; popover text ~13px Mono on yellow",
+        "palette": [
+          "#e7f80a",
+          "#faeff8",
+          "#0b6c00",
+          "#6995ed",
+          "#ff4ab0"
+        ],
+        "behaviour": "Button toggles .hidden on [data-info-popup]; popover placed with inline left/top; Lottie signal.json on the plate",
+        "content": "'Using the MONO style as the basis for the design, the constraints of fixed width type setting become guiding principles…'",
+        "assets": "Lottie signal animation, SVG cone diagram",
+        "html": "[data-info-wrapper] > button[data-info-button].info-button (.info-button-label, .info-button-indicator, .info-button-dot) + div[data-info-popup].hidden"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "synth hardware, loud",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "single"
+      },
+      "look": "Yellow synth front panel with orange dots: 'P-INKU / Range Sync Point' in dark green Mono, 'STEREO OUT', 'MODULE IN', toggles 'TRANSMIT / loopback / WAVEFORM', footer 'Systematic Modular Technologies Universal Console' (the giant '91.2' overlay sits on top in the capture)",
+      "feel": "Noisy, gear-head",
+      "ux": "Lottie mixer animation (knobs and switches move)",
+      "learn": "Monospaced labels on a fake hardware panel show the Mono style doing its native job",
+      "reconstruction": {
+        "layout": "Full content width 1360×830px, rounded panel, labels in a centred stack with switch rows",
+        "typography": "GT Mechanik Mono: 'P-INKU' ~110px bold, 'Range Sync Point' ~70px, labels ~50px, footer ~12px",
+        "palette": [
+          "#e9f80a",
+          "#eb4a08",
+          "#086802",
+          "#f5f6ef"
+        ],
+        "behaviour": "Lottie mono-mixer.json loop",
+        "content": "Synth panel labels",
+        "assets": "Lottie animation"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, diagrammatic",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "'Inktraps' topic: a mint tile with 'MW' drawn as a skeleton of lettered points (A–Q) joined by pink lines, a magnifier circle on one joint, and a pink side tile with a stretched oval and dimension ticks",
+      "feel": "Engineering drawing",
+      "ux": "Looping Lottie animation of the skeleton; '(i) Info!' popover explains that inktraps exist in MONO and vanish towards POLY",
+      "learn": "Draw the letter as a labelled point skeleton and zoom on the joint: a single looping tile can carry one design decision",
+      "reconstruction": {
+        "layout": "1360×630px row: 1080px mint tile left, ~300px pink tile right, info pill bottom-right",
+        "typography": "Point labels GT Mechanik Mono 10px; caption in popover ~13px",
+        "palette": [
+          "#cce3d9",
+          "#f94baa",
+          "#f7f1f2",
+          "#8e9719"
+        ],
+        "behaviour": "Lottie ink-traps.json loop; info popover toggle",
+        "content": "'These elements are present in the MONO styles but vanish as the design progresses to the POLY tone…'",
+        "assets": "Lottie animation of the skeleton"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "schematic, deadpan",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "series"
+      },
+      "look": "A circuit schematic in olive line work ('Audio → −90° → Balanced Modulator → Send', 'C19 CIRCUIT OPENING RELAY', nodes H/J/F), then a yellow paper 'TRANSMISSION REPORT / Unit ID: TRX-88.4 / Timestamp… / Operator: SYS_AUTONOMOUS' with an ASCII face, and a battery 'ABC' gauge",
+      "feel": "Dry humour, technical",
+      "ux": "Schematic labels type themselves (typewriter) and arrows draw step by step; the report paper and battery are Lottie animations",
+      "learn": "Use the mono at small sizes in diagrams and printouts, where fixed-width text is expected",
+      "reconstruction": {
+        "layout": "Two rows of 1360×675px: schematic split into two bordered panels; report as a 900px yellow sheet on a green roller bar",
+        "typography": "GT Mechanik Mono 12–22px; report ~22px Mono dark green",
+        "palette": [
+          "#f6f7f3",
+          "#8e9719",
+          "#e7f80a",
+          "#0b6c00",
+          "#ff4ab0"
+        ],
+        "behaviour": "data-circuit-step / data-circuit-typewriter reveal in sequence on scroll; Lottie battery.json; transmission paper slides",
+        "content": "Fake radio circuit labels, system report",
+        "assets": "SVG schematic, Lottie battery",
+        "html": "[data-circuit-step], [data-circuit-arrow], [data-circuit-typewriter]; [data-transmission-wrap] > [data-transmission-paper]"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "experimental, precise",
+        "mobile": "adapts",
+        "subject": [
+          "axes",
+          "spacing"
+        ],
+        "presentation": "overlay",
+        "explanation": "caption"
+      },
+      "look": "SEMI chapter: 'mix' in dark green on mint letter cells inside a pink frame (showing semi-monospaced widths), then a grid panel where 'calibrating' is set three times (Mono, Semi, Poly) overprinted with multiply blend over magenta bars, with a readout 'TONE 1: 1 / TONE 2: 33 / TONE 3: 100 · POSITION 1: X0 Y0…'",
+      "feel": "Instrument calibration, lively",
+      "ux": "The cursor becomes a magenta dot over the grid; moving it offsets the three tone layers and updates the X/Y readouts, so their differences separate and realign",
+      "learn": "Overprint the same word at three axis stops and let the pointer pull them apart: the differences become visible exactly where they diverge",
+      "reconstruction": {
+        "layout": "'mix' tile 900×520px with each glyph in its own cell; calibrating panel full width at 20:9 (1360×612px), rounded 2rem, 20px grid background, three words centred absolutely; readout box centred near the bottom (hidden below lg)",
+        "typography": "'calibrating' 14vw (~200px) in mono-medium, semi and poly-medium, dark green / green / olive with mix-blend-multiply; readout Mono 10px",
+        "palette": [
+          "#f6f5f3",
+          "#f551ac",
+          "#0b6c00",
+          "#889013",
+          "#cee4da"
+        ],
+        "behaviour": "mousemove: each layer translates by a different factor (data-calibrating-x/y readouts update), cursor hidden (cursor-none) with a 16px magenta dot follower; 'mix' is a Lottie (mix.json)",
+        "content": "Single words: 'mix', 'calibrating'",
+        "assets": "Lottie mix animation",
+        "html": "div[data-calibrating].cursor-none > span[data-calibrating-cursor], span[data-calibrating-one|three] (absolute, centred, mix-blend-multiply), readout spans data-calibrating-tone / -x / -y"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "vintage radio manual",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "series"
+      },
+      "look": "A wireless manual page in Semi ('I. HOW TO BEGIN WIRELESS / Kinds of Wireless Systems / II. PUTTING UP YOUR AERIAL') between striped yellow and green panels with TONE SELECTOR, TOWER SIGNAL ON, OFF/ON switches, then two analogue meters 'OCULUS DEXTER / OCULUS SINISTER' whose scales are the alphabet A–M and N–Z",
+      "feel": "Nostalgic, tinkering",
+      "ux": "Needles and waves are Lottie loops (wave.json, dots.json)",
+      "learn": "Turn the alphabet into an instrument scale (A–Z on two meters): a glyph showing that reads as a prop first",
+      "reconstruction": {
+        "layout": "Three-column composition ~1360×900px (striped side panels, pink manual page centre), then two meter tiles 680×320px each with yellow frames",
+        "typography": "Manual headings GT Mechanik Semi ~32px uppercase, subheads ~40px; meter letters ~22px magenta",
+        "palette": [
+          "#f6f5f3",
+          "#e7f80a",
+          "#0b6c00",
+          "#f551ac",
+          "#889013"
+        ],
+        "behaviour": "Lottie loops; channel overlay '95.6 — SEMI' when entering the chapter",
+        "content": "Vintage wireless handbook headings",
+        "assets": "Lottie meters and waves, SVG panels"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "story",
+      "variant": "info-popover",
+      "newVariant": true,
+      "variantDefinition": "Section copy hidden behind a small '(i) Info' button and shown as a popover next to the specimen; the page shows only type and diagrams until the visitor asks for the text.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "concise, geometric",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "diagram"
+        ],
+        "length": "short"
+      },
+      "look": "POLY chapter header: yellow cone tile (POLY sphere highlighted), '(i) INFO!' pill, and a big blue panel with 'gna' cut out in white Poly over curved construction lines; letters 'POLY' scatter in a circle as the chapter starts",
+      "feel": "Open, round, confident",
+      "ux": "Info button opens the POLY description; channel overlay '97.7 — POLY' flashes on entry",
+      "learn": "Repeat the same header kit per chapter (cone diagram with the current subfamily highlighted + one big specimen + info button) so chapters read as stations on one dial",
+      "reconstruction": {
+        "layout": "Same as MONO header: 450×300px cone tile left, 900×600px specimen panel right; popover next to the pill",
+        "typography": "'gna' GT Mechanik Poly ~520px white on blue, cropped; labels Mono 10px",
+        "palette": [
+          "#f9f9f5",
+          "#6995ed",
+          "#e7f80a",
+          "#8e9719"
+        ],
+        "behaviour": "Lottie signal-2.json; info popover toggle",
+        "content": "'The POLY subfamily is a geometric sans, contrasting wide circular shapes with narrow characters…'",
+        "assets": "Lottie, SVG cone"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "witty, direct",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "Mint 16:9 panel with seven thin blue column lines and a bottom label strip THIN · LIGHT · REGULAR · MEDIUM · BOLD · HEAVY · BLACK; centred 'MEDIUM / IS THE / MESSAGE' in Poly caps",
+      "feel": "Clever, immediate",
+      "ux": "The cursor (a magenta dot) picks a column; the text jumps to that weight and the first word changes to the weight's name ('BOLD IS THE MESSAGE')",
+      "learn": "Let the sample sentence name its own weight: the word changes with the axis, so the label and the specimen are the same thing",
+      "reconstruction": {
+        "layout": "Panel 1360×765px (16:9; 9:16 on mobile), rounded 2rem, 1px green border; 7 equal columns each with a centred 1px blue line; label strip 32px from the bottom on a mint band; text centred absolutely",
+        "typography": "GT Mechanik Poly uppercase, 12vw (~173px), leading 0.87, dark green; labels Mono 10px uppercase",
+        "palette": [
+          "#cee4da",
+          "#0b6c00",
+          "#6995ed",
+          "#ff4ab0",
+          "#8e9719"
+        ],
+        "behaviour": "mousemove → column index 0–6 → wght 100/300/400/500/700/800/900 on the text and span[data-weight-message] text = weight name; native cursor hidden, 16px magenta dot follows",
+        "content": "'Medium is the message' (McLuhan pun) with the weight word swapped",
+        "assets": "none",
+        "html": "div[data-message].cursor-none > span[data-message-cursor] + div.poly > span[data-weight-message]; label strip of 7 flex-1 divs"
+      }
+    },
+    {
+      "blocks": [
+        "10",
+        "11"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "playful, diagrammatic",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "spacing"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "'Contrast' topic as a bento of rounded tiles (A/B face, 'me / you' morphing, 'ABCDEFGHIJKLMN…' alphabet, a wire globe, a grid of circles), then 'Route' in olive Poly with metric lines labelled 0 / 480 / 705 and sidebearing values (53–55) above a ruler",
+      "feel": "Busy, toy-like but technical",
+      "ux": "Each tile is a looping Lottie; '(i) Info!' popover: 'While MONO and SEMI add texture through increased contrast, POLY has minimal contrast…'",
+      "learn": "Show metrics as actual numbers on the guidelines (x-height 480, cap 705, sidebearings) to make spacing tangible",
+      "reconstruction": {
+        "layout": "Contrast: 3×2 bento ~1360×600px, tiles 440×280px with 12px radius; Route: full-width 1360×590px with horizontal guide lines and a bottom ruler",
+        "typography": "'me/you' ~120px; alphabet ~60px olive/magenta; 'Route' Poly ~300px olive; metric numbers Mono 10px magenta",
+        "palette": [
+          "#f6f4f2",
+          "#0b6702",
+          "#f849ad",
+          "#c7dad0",
+          "#8e9719"
+        ],
+        "behaviour": "Lottie youme / abcd / globe / ab-face / route.json loops; info popover",
+        "content": "Short words and the alphabet; real metric values",
+        "assets": "Five Lottie animations"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "broadcast branding",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "grid"
+      },
+      "look": "Left card 'CoreCast International Best News Broadcasting Network' in mixed Poly weights; right a yellow-digit clock '13 32 60 00' over a blue card scrolling the NATO alphabet 'CHARLIE DELTA ECHO FOXTROT GOLF' in dark green",
+      "feel": "Newsroom, upbeat",
+      "ux": "The clock shows the visitor's current time (data-clock-hh / -mm); the NATO list scrolls (Lottie)",
+      "learn": "A live clock is a free tabular-figure demo that is different on every visit",
+      "reconstruction": {
+        "layout": "Two columns: 700×470px rounded card left; right column a 700×80px clock strip above a 700×470px blue card",
+        "typography": "Poly 68px mixing Light and Bold lines, olive and dark green; NATO words Poly bold ~70px uppercase; clock ~40px yellow/olive",
+        "palette": [
+          "#f7f8f4",
+          "#6b96ef",
+          "#0e6d0d",
+          "#c8cc90",
+          "#e7f80a"
+        ],
+        "behaviour": "Clock updates from Date(); Lottie corecast.json and alpha-bravo.json",
+        "content": "Fake broadcaster, NATO phonetic alphabet",
+        "assets": "Two Lottie animations"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "story",
+      "variant": "info-popover",
+      "newVariant": true,
+      "variantDefinition": "Section copy hidden behind a small '(i) Info' button and shown as a popover next to the specimen; the page shows only type and diagrams until the visitor asks for the text.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "concise",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "diagram"
+        ],
+        "length": "short"
+      },
+      "look": "INFO chapter header 'Family': an empty bordered tile with a progress-bar animation, the yellow cone tile (all three spheres magenta) and the info pill; '99.2 — INFO' overlay on entry",
+      "feel": "Quiet transition",
+      "ux": "Info popover: 'Across the three subfamilies, consistent concepts are expressed in varying intensity…'",
+      "learn": "The last chapter header highlights all three subfamilies at once in the same diagram used before",
+      "reconstruction": {
+        "layout": "900×300px tile left, 450×300px cone tile right, info pill below",
+        "typography": "Labels GT Mechanik Mono 10px; popover ~13px",
+        "palette": [
+          "#f9f9f7",
+          "#e7f80a",
+          "#ff4ab0",
+          "#8e9719"
+        ],
+        "behaviour": "Lottie progress-bar.json; popover toggle",
+        "content": "Family rationale in one paragraph",
+        "assets": "Lottie"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "retro computer UI",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "single"
+      },
+      "look": "Mint window 'TRANSMISSION LOG: A signal was detected on an unregistered…' in olive Mono, overlaid by a white dialog 'Confirm?' with an olive 'Yes' button; 'Informationssysteme' logo strip below",
+      "feel": "Old OS, tongue-in-cheek",
+      "ux": "The dialog pops up as you scroll (data-confirm); not clickable in a meaningful way",
+      "learn": "A system dialog is the shortest possible UI specimen: one question, one button",
+      "reconstruction": {
+        "layout": "1360×830px pink frame, mint window inset ~40px, dialog ~860×460px centred",
+        "typography": "Log text Mono ~44px olive; 'Confirm?' Poly bold ~136px; 'Yes' Poly bold ~110px white on olive",
+        "palette": [
+          "#f6f4f2",
+          "#cde4d9",
+          "#8f9818",
+          "#faeff8",
+          "#6995ed"
+        ],
+        "behaviour": "Dialog appears on scroll",
+        "content": "Transmission log text",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "15",
+        "16"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "characterful, light",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "alternates"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "'Iconic Characters': three columns labelled BLACK: 900 / MEDIUM: 500 / THIN: 100 showing 'P', 'R', '&' at the given weights; then 'Oversized Dots': a dot-matrix pattern and 'ciao?' in an olive rounded frame with the popover open ('OVERSIZED DOTS: Oversized dots create visual accents…')",
+      "feel": "Charming, specific",
+      "ux": "Lottie tiles animate the glyphs (bpr.json, ciao.json); captions live in '(i) Info!' popovers that toggle to '(x) Close'",
+      "learn": "One topic per tile, named in caps with the caption one click away: a scannable list of the font's quirks",
+      "reconstruction": {
+        "layout": "Iconic characters: three equal bordered columns 453×600px with 10px labels top-left; Oversized dots: dot-matrix tile 300px left, 1000×480px rounded frame right; popover ~360px yellow",
+        "typography": "Glyphs ~450px olive at wght 900/500/100; 'ciao?' Mono ~150px olive; labels Mono 10px magenta",
+        "palette": [
+          "#f7f5f5",
+          "#e2f00d",
+          "#8c9511",
+          "#ff4ab0"
+        ],
+        "behaviour": "Lottie loops; info popover",
+        "content": "Real design notes per topic",
+        "assets": "Lottie animations"
+      }
+    },
+    {
+      "blocks": [
+        "17",
+        "18"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "ham radio, friendly",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "series"
+      },
+      "look": "Chat scene: two pictogram faces (plug socket, hexagon) with user labels 'User ID: DOUG_THE_PLUG-97 Location: /not-found/', speech bubbles 'is this Lulu? :-)' and '#/=y{(/)y{(/)'; then an angled stack of QSL cards, the top one yellow with 'RBSP' huge and a table (Longitude 36° 00′ West, date, MHz 21.3, RST 5/9, mode SSB, VHF/UHF, 'OLD CALL: WBOYJQ 1976–1984')",
+      "feel": "Warm, nerdy",
+      "ux": "Chat bubbles and faces animate (Lottie); QSL cards fan out on scroll",
+      "learn": "Amateur-radio QSL cards are a ready-made specimen format: a huge call sign plus a dense data table",
+      "reconstruction": {
+        "layout": "Chat: three bordered panels (300 / 700 / 300px); QSL: ~1000×600px card rotated ~−3° over two offset cards (pink, white)",
+        "typography": "Bubbles Mono bold ~32px; 'RBSP' Poly black ~250px olive; table labels Mono 10–14px; 'SSB', '5/9' ~40px",
+        "palette": [
+          "#f9f9f7",
+          "#e7f80a",
+          "#91991c",
+          "#ff4ab0",
+          "#0b6c00"
+        ],
+        "behaviour": "Lottie chatface-1/2, chat-thinsymbols; data-qsl cards animate in",
+        "content": "Radio call signs, QSL card fields",
+        "assets": "Lottie chat animations, card graphics",
+        "html": "[data-qsl-wrapper] > [data-qsl] ×6"
+      }
+    },
+    {
+      "blocks": [
+        "19"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "clean, tabular",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "hover",
+        "metricsShown": true,
+        "namesOrUnicode": false
+      },
+      "look": "Left: radio buttons ● MONO ○ SEMI ○ POLY and a sticky 'A' ~500px in dark green on four metric lines; right: a bordered cell grid in sections BASIC LATIN, EXTENDED, NUMBERS AND PUNCTUATION, ALTERNATES",
+      "feel": "Systematic, quiet",
+      "ux": "Hover a cell to zoom it on the left; the tone radio switches the whole table between Mono, Semi and Poly via a --TONE custom property",
+      "learn": "Drive the whole glyph table with one CSS variable (--TONE) so a three-way radio switches subfamily instantly",
+      "reconstruction": {
+        "layout": "Two columns (min-height 100vh): left 680px with radio row and a sticky square zoom (top 16px) with four 1px guide lines at 8.75%, 24.75%, 77.25% and 92% height; right 680px grid of ~48px square cells, 1px green borders, category headings 10px",
+        "typography": "Zoom glyph 80cqw of its container, leading 1.35; cells ~16px GT Mechanik; headings Mono 10px uppercase",
+        "palette": [
+          "#f3f5ef",
+          "#0a6905",
+          "#8e9719"
+        ],
+        "behaviour": "mouseover cell → data-char-zoom text; radio change → style --TONE: 1/33/100 on [data-char-spec]; on mobile the zoom becomes a fixed 192px box",
+        "content": "Full Latin character set and alternates",
+        "assets": "none",
+        "html": "[data-char-spec style=--TONE] > fieldset[data-tone-control] input[type=radio name=tone value=1|33|100]; [data-char-zoom]; [data-char-set=basic-latin|extended|numbers|alternates]"
+      }
+    },
+    {
+      "blocks": [
+        "20"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "file-system, tidy",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "Four quadrants GT MECHANIK MONO / SEMI / POLY / VARIABLE, each holding dog-eared font-file icons with 'Aa' in each weight (light to heavy) plus one file with a mini waterfall; Variable shows a single big file with an 'aaaaaa AAAAAA' waterfall",
+      "feel": "Literal, desktop-like",
+      "ux": "static",
+      "learn": "Draw each style as a file icon: the overview doubles as 'what you get in the package'",
+      "reconstruction": {
+        "layout": "2×2 bordered quadrants 680×420px; inside, 4-column grid of 100×130px file icons (outlined, folded corner)",
+        "typography": "'Aa' ~32px in each weight and tone; quadrant labels Mono 10px uppercase olive",
+        "palette": [
+          "#f6f6f2",
+          "#8e9719",
+          "#ff4ab0"
+        ],
+        "behaviour": "none",
+        "content": "Style samples only",
+        "assets": "SVG file-icon outline"
+      }
+    },
+    {
+      "blocks": [
+        "21"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, helpful",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Beyond the captured height (DOM only): 'Try / Buy / Manual' links, then short paragraphs Free Trials, License ('single styles and subfamily and complete family packages') and Customize ('Let's work together')",
+      "feel": "Practical",
+      "ux": "Buy → grillitype.com/shops/gt-mechanik; trials → grillitype.com/free-trial-fonts; Try/Buy also live permanently in the fixed tuner bar",
+      "learn": "Keep Try and Buy in the fixed nav so the page never needs a dedicated sales section",
+      "reconstruction": {
+        "layout": "Not captured; from DOM: link row followed by a multi-column text grid",
+        "typography": "Not captured; site UI uses GT Mechanik Mono ~14px uppercase",
+        "palette": [
+          "#f6f6f2",
+          "#929b1a"
+        ],
+        "behaviour": "none",
+        "content": "Trial, licence and custom-work copy",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "21"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "foundry house style",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "contact",
+          "other-fonts"
+        ]
+      },
+      "look": "Not captured (DOM only): credits (design by Shiva Nallaperumal, Reto Moser, Noël Leu; site and copy credits), contact email, then 'Other Minisites' with 19 GT family links, each with a small shield icon",
+      "feel": "Collegial",
+      "ux": "Links to sibling microsites",
+      "learn": "End with the sibling-site list so each microsite feeds the others",
+      "reconstruction": {
+        "layout": "Text columns then a list of family names with 47px shield SVG icons",
+        "typography": "~14px GT Mechanik, olive",
+        "palette": [
+          "#f6f6f2",
+          "#90991a"
+        ],
+        "behaviour": "none",
+        "content": "Credits and family list",
+        "assets": "Shield icons per family"
+      }
+    },
+    {
+      "blocks": [
+        "22"
+      ],
+      "type": "type-tester",
+      "variant": "creative-toy",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "generous, playful",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "weight",
+          "axes",
+          "presets",
+          "color"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": true
+      },
+      "look": "Off-canvas powder-pink 'postcard generator' (HTML only): a control column with TONE, WGHT, SLNT and SIZE sliders each above preset buttons (Mono/Semi/Poly; Thin…Black; Uprt/Oblq), Shape / Color / Reset buttons, and a postcard preview with editable 'Coming in loud & clear' and the Grilli Type Brooklyn address",
+      "feel": "Delightful, tangible",
+      "ux": "Opened from 'Type Tester' in the tuner bar. Style the message, click 'Create Postcard', slide (stepped 8-frame transition) to an address form, accept terms and 'Send Postcard': Grilli Type mails the printed card",
+      "learn": "Give the tester a real-world payoff: turning a typed sample into a physical postcard makes testing a gift and a lead",
+      "reconstruction": {
+        "layout": "Full-viewport overlay; 300vw slider of three panels (generator, address form, confirmation) moved with transition steps(8,end) 700ms; generator: 3-col controls left, postcard preview right",
+        "typography": "Controls GT Mechanik Mono ~12px uppercase green; preview text GT Mechanik VF size 3–80 (default 24) with TONE 0–100, wght 100–900, slnt 0–6",
+        "palette": [
+          "#faeff8",
+          "#0b6c00",
+          "#ff4ab0",
+          "#e7f80a"
+        ],
+        "behaviour": "input[type=range][data-slider=TONE|wght|slnt|size] → font-variation-settings and font-size, value bubble follows thumb; preset buttons data-action=TONE-33 / wght-700 / slnt-6 set sliders; 'shape' and 'color' cycle card shape and colour scheme; 'send' reveals the address form (name, address, city, state, postcode, country select, terms checkbox) and submits",
+        "content": "'Coming in loud & clear' editable message; real return address",
+        "assets": "Postcard shapes (SVG)",
+        "html": "#postcard-overlay > #postcard-slider.w-[300vw] > #postcard-generator (#postcard-controls .input-axis .input-slider input[type=range][data-slider], button[data-action]) + span[contenteditable] + form inputs .send-overlay-input"
+      }
+    },
+    {
+      "blocks": [
+        "23"
+      ],
+      "type": "interlude",
+      "variant": "chapter-title-overlay",
+      "newVariant": true,
+      "variantDefinition": "A fixed full-screen overlay that flashes the chapter's number or name in giant type over the content (blended, with small letters animating into a shape) each time a new chapter scrolls in, then fades.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "broadcast, punchy",
+        "mobile": "adapts"
+      },
+      "look": "Fixed overlay (multiply blend) with a giant frequency '91.2', '95.6', '97.7' or '99.2' (~620px) in the chapter colour, a repeating '91.2 — MONO' typewriter column and small letters of the chapter name scattering into a crosshair, circle or line; it shows on top of every chapter start in the capture",
+      "feel": "Like tuning to a new station",
+      "ux": "Triggered when a [data-channel] section enters; fades in and out over the content; pointer-events none",
+      "learn": "Announce each chapter with one oversized number that the nav also uses: the frequency becomes the wayfinding system",
+      "reconstruction": {
+        "layout": "position fixed inset 0, z-index 99, 100svh, mix-blend-multiply, opacity 0 → 1 → 0; number centred and overflowing; small letters absolutely positioned on a 64px rhythm",
+        "typography": "Number GT Mechanik VF TONE 1 ~620px; small text Mono 16px uppercase",
+        "palette": [
+          "#0b6c00",
+          "#6995ed",
+          "#ff4ab0",
+          "#e7f80a"
+        ],
+        "behaviour": "Per section data-channel, data-title, data-title-color, data-small-text, data-small-text-animation (crosshair | circle | lines); letters animate opacity/position into the named figure",
+        "content": "Frequencies and chapter names",
+        "assets": "none",
+        "html": "aside#chapter-overlay.fixed.mix-blend-multiply > #chapter-small-text spans; sections carry data-channel=\"95.6\" data-title=\"Semi\""
+      }
+    },
+    {
+      "blocks": [
+        "24"
+      ],
+      "type": "navigation",
+      "variant": "scroll-spy-nav",
+      "newVariant": true,
+      "variantDefinition": "A fixed bar or tab strip listing the page's chapters that marks the current one as you scroll (highlighted tab, or a needle moving along a dial or scale); click or drag to jump.",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed bottom bar (inset 40px, 60px tall, white, olive border) styled as a radio tuner: magenta knob 'GT-MCNK' whose indicator rotates with scroll, a tick scale with MCNK 87.8 · MONO 91.2 · SEMI 95.6 · POLY 97.7 · INFO 99.2 and a needle, then pill buttons TYPE TESTER / TRY / BUY"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "specimen-showcase/prop-collage",
+    "story/scroll-narrative",
+    "family-overview/style-word-grid",
+    "story/info-popover",
+    "specimen-showcase/prop-collage",
+    "design-details/design-notes",
+    "specimen-showcase/prop-collage",
+    "design-details/feature-before-after",
+    "specimen-showcase/prop-collage",
+    "story/info-popover",
+    "design-details/axis-explainer",
+    "design-details/design-notes",
+    "specimen-showcase/prop-collage",
+    "story/info-popover",
+    "specimen-showcase/prop-collage",
+    "design-details/design-notes",
+    "specimen-showcase/prop-collage",
+    "glyph-table/glyph-inspector",
+    "family-overview/style-word-grid",
+    "checkout/link-out-cta",
+    "footer/credits-colophon",
+    "type-tester/creative-toy",
+    "interlude/chapter-title-overlay"
+  ]
+}

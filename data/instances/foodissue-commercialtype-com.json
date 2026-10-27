@@ -1,0 +1,237 @@
+{
+  "slug": "foodissue-commercialtype-com",
+  "extractedBy": "agent",
+  "summary": "Commercial Type's specimen disguised as a one-off food magazine: the home page is the issue's table of contents, six commissioned articles (interview, essay, fiction, recipe, news, listicle) that each open as a subpage. An editor's note explains the idea. A sticky header button randomizes the type pairing across the whole page, and the colophon names whichever families are currently in use, with catalogue links.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "fixed-header-bar",
+      "newVariant": true,
+      "variantDefinition": "A slim bar fixed to the top of the viewport for the whole page: name, foundry link and a buy/get button, sometimes site toggles (invert colours)",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Sticky white 80px header: small blue 'Commercial' logo left, two tiny icon buttons right (● theme toggle, ↻ 'Randomize type pairing')"
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "type-tester",
+      "variant": "global-toolbar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "minimal, editorial",
+        "mobile": "adapts",
+        "controls": [
+          "presets",
+          "color"
+        ],
+        "scope": "global",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Two 19px icon buttons in the sticky header: a filled dot (theme toggle) and a circular arrow (randomize type pairing)",
+      "feel": "Discreet, playful once found",
+      "ux": "The ↻ button picks a new display/text family pairing from Commercial Type's catalogue (Feature, Action Condensed, Frame, Algebra, Review…) and re-sets the whole issue in it, rotating the icon each time; the dot flips light/dark. Per the editor's note, the article subpages add leading and point-size controls",
+      "learn": "One 'shuffle the pairing' button turns a static magazine into a pairing explorer: every click shows the same real content in another headline/text combination",
+      "reconstruction": {
+        "layout": "Icons ~19×16px, 16px apart, right-aligned in the 80px sticky header",
+        "typography": "No visible labels (aria-label only)",
+        "palette": [
+          "#ffffff",
+          "#312e2e"
+        ],
+        "behaviour": "Click → random pairing applied to headline (display), deck and text roles site-wide; CSS --rotation increments to spin the icon; theme toggle swaps to a dark theme; colophon family names re-resolve to the active pairing",
+        "content": "Applies to the real articles",
+        "assets": "Two SVG icons",
+        "html": "header.site-header > .container > button.theme-toggle + button.random-button[aria-label='Randomize type pairing'][style='--rotation:N']"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "chrome",
+      "variant": "masthead-nav",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Centred nameplate 'The Food Issue' in a black-outlined box (SVG, ~214×45px) on white, standing in for a hero above the contents"
+    },
+    {
+      "blocks": [
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07"
+      ],
+      "type": "specimen-showcase",
+      "variant": "editorial-in-use",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "magazine, literate, warm",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Six article teasers zig-zagging left and right down a white page, each a small caps section label (INTERVIEW, ESSAY, FICTION, COOKING, NEWS, EATING), a big black serif headline ('Helen Rosner on the Banal and the Beautiful', 'Becoming a Regular', 'A Beginner's Guide to Kuih'…), an italic dek and a byline",
+      "feel": "Serious, generous, like a real magazine cover list",
+      "ux": "Each teaser is a link card to the full article subpage; there is no image, so the type carries the page",
+      "learn": "Commission real writing in several genres and present it as a contents page: the hierarchy of label, headline, dek and byline is the specimen, and people actually read it",
+      "reconstruction": {
+        "layout": "Container ~1320px; cards 749px wide alternating x=60 and x=631 (overlapping centre column), ~80px vertical gaps; card heights 240–416px depending on headline lines",
+        "typography": "Label ~13px Feature Text Bold caps; headline ~80px Feature Display (Bold), leading ~1.0, tight tracking, sentence case with non-breaking spaces to control breaks; dek ~24px Feature Deck Italic; byline ~24px Feature Text Regular",
+        "palette": [
+          "#fefefe",
+          "#050505",
+          "#929292"
+        ],
+        "behaviour": "Static; whole card is an anchor; small black dots at card edges (likely the abstract illustrations, not rendered in capture); fonts swap with the pairing randomizer",
+        "content": "Six real, commissioned pieces about food and New York: interview (Navneet Alang), essay (Helena Fitzgerald), fiction (Robin Sloan), cooking (Diane Chang), news (Daniel Pravit Fethke), listicle (Christian Schwartz with Veronica Gan and Barnny Lim)",
+        "assets": "Abstract illustrations by Derrick Schultz and Di-Andre Caprice Davis (on the article pages)",
+        "html": "a.card[href=/<slug>] > h3.category + h2.title + p.excerpt + p.byline"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "scholarly, wry",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "long"
+      },
+      "look": "'From the Editor': a long single-column essay in text-size serif ('This is a type specimen. Sort of.'), with underlined links to past Commercial Type specimens, superscript note numbers and a 'Notes' list at the end, signed '—Caren Litherland'",
+      "feel": "Thoughtful, self-aware",
+      "ux": "Reading only; links out to earlier specimens (Graphik dry-transfer sheet, newspaper specimen, Marian storefront, wheat-paste, subway ads) and to sources",
+      "learn": "Explain the concept in an editor's letter that also traces the history of specimens: the brief, the context and the long-form text sample in one",
+      "reconstruction": {
+        "layout": "Left column 635px at x=60, ~2600px tall, beside the 'About' column; paragraphs with ~18px spacing; notes as a numbered list with hanging numbers",
+        "typography": "~18px Feature Text Regular, leading ~1.45, italic for titles, superscript note numbers (sups feature), heading ~24px Bold",
+        "palette": [
+          "#f3f3f2",
+          "#050505",
+          "#d0d0d0"
+        ],
+        "behaviour": "none (fonts follow the pairing randomizer)",
+        "content": "The case for a readable specimen: specimen history (Johnston, Griffin), Commercial Type's past experiments, the 1958 Linotype-Schriftenreigen as model, the six commissioned pieces, an invitation to 'play with the type'",
+        "assets": "none",
+        "html": "div.editors-note > p… with sup > a[href=#johnston-01]"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "editorial masthead",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal",
+          "other-fonts"
+        ]
+      },
+      "look": "'About' column: bold role labels with underlined linked names (Art direction and design by Nikhil Misra, Development by Daniel Gamage, Edited by Caren Litherland; Illustrations, Writing, Thanks to lists), a copyright and reuse note, and 'Typefaces used on this page: Review ↗ Feature Display ↗ Feature Deck ↗ Feature Text ↗'",
+      "feel": "Generous, publication-like",
+      "ux": "Every name links to the person's site; the typeface list links to Commercial Type catalogue pages and updates to the current pairing",
+      "learn": "A colophon that lists the fonts currently on screen (and changes when you shuffle) closes the loop from reading to buying",
+      "reconstruction": {
+        "layout": "Right column 635px at x=745, top-aligned with the editor's note; groups separated by ~18px; typeface list at the bottom",
+        "typography": "~16px Feature Text; role labels Bold, names Regular underlined; ↗ after family links",
+        "palette": [
+          "#ffffff",
+          "#050505"
+        ],
+        "behaviour": "LinkedFamilyName elements resolve to the active pairing",
+        "content": "Real masthead credits and thanks; © 2022 Commercial Type",
+        "assets": "none",
+        "html": "div.credits + div.typefaces-used > a.LinkedFamilyName.isResolved > .LinkedFamilyName__external"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "understated",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "No buy button anywhere: the only acquisition path is the 'Typefaces used on this page' list with ↗ links at the foot of the About column",
+      "feel": "Soft-sell",
+      "ux": "Links go to each family's page on commercialtype.com, where licences are sold",
+      "learn": "For a content-led specimen, a dynamic 'fonts on this page' list is a soft sell that never interrupts the reading",
+      "reconstruction": {
+        "layout": "4 lines at the bottom of the About column",
+        "typography": "~16px Feature Text, underlined, ↗ arrow",
+        "palette": [
+          "#ffffff",
+          "#050505"
+        ],
+        "behaviour": "Names follow the randomized pairing",
+        "content": "Family names (Review, Feature Display, Feature Deck, Feature Text by default)",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "type-tester/global-toolbar",
+    "specimen-showcase/editorial-in-use",
+    "story/essay",
+    "footer/credits-colophon",
+    "checkout/link-out-cta"
+  ]
+}

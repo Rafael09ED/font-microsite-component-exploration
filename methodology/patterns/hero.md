@@ -19,6 +19,7 @@ Sample: 48 blocks from 47 sites.
 | [material-photo](#material-photo) | 2 | A photograph of physical material (paper, textile, objects) carrying or framing the type. | tactile still life, the type printed or knitted on the material |
 | [illustration-scene](#illustration-scene) | 2 | An illustrated scene or mascot staged with the type; the illustration sets the tone. | characters, faces, drawn objects |
 | [prop-collage](#prop-collage) | 2 | A collage of designed artefacts (documents, tickets, packaging, diagrams) set in the font, implying a fictional world. | many small designed objects, all set in the font |
+| [mini-game](#mini-game) | 0 | The hero is a small playable game built from the page's own elements (e.g. Pong); collisions or score change the name's axes, CTAs can be game pieces. | ball, paddles, score in the first screen |
 
 ## Rubric
 
@@ -197,3 +198,11 @@ A collage of designed artefacts (documents, tickets, packaging, diagrams) set in
 |---|---|---|---|---|
 | [departuremono-com#00](../../archive/departuremono-com/blocks/00.jpg) | Letters, boarding passes, receipts, departure boards; monochrome with a pale green accent | Retro-futurist sci-fi, storytelling | static; scroll reveals more props | Invent a fictional world (here, a space agency) and design its paperwork; every prop is a specimen |
 | [gt-mechanik-com#00](../../archive/gt-mechanik-com/blocks/00.jpg) | Giant pink MCNK, then technical-diagram collage: mono/semi/poly schematics, circles of letters | Engineered, schematic | static; scroll into diagrams | Engineering diagrams explain the mono/semi/poly widths visually before any text |
+
+## mini-game
+
+The hero is a small playable game built from the page's own elements (e.g. Pong); collisions or score change the name's axes, CTAs can be game pieces.
+
+**Recognise by:** ball, paddles, score in the first screen
+
+_No instance in the sample yet._

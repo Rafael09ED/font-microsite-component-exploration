@@ -165,6 +165,13 @@ async function prepare(site) {
 
 // ---------- sync ----------
 
+// Raw type/variant names as written by extractors, resolved through taxonomy.json aliases.
+// `curated` is true when the result exists in the taxonomy (so it is no longer a proposal).
+function canonical(taxonomy, inst) {
+  const [type, variant] = (taxonomy.aliases[`${inst.type}/${inst.variant}`]?.to ?? `${inst.type}/${inst.variant}`).split('/');
+  return { type, variant, curated: !!taxonomy.types[type]?.variants[variant] };
+}
+
 function validate(slug, doc, taxonomy, rubric, cut) {
   const errors = [], warnings = [];
   const nns = new Set(cut.blocks.map((b) => b.nn));
@@ -175,17 +182,18 @@ function validate(slug, doc, taxonomy, rubric, cut) {
     const where = `instance ${i} (${inst.type}/${inst.variant})`;
     if (!Array.isArray(inst.blocks) || !inst.blocks.length) errors.push(`${where}: no blocks`);
     for (const nn of inst.blocks ?? []) { if (!nns.has(nn)) errors.push(`${where}: unknown block ${nn}`); covered.add(nn); }
-    const t = taxonomy.types[inst.type];
+    const c = canonical(taxonomy, inst);
+    const t = taxonomy.types[c.type];
     if (!t && !inst.newType) errors.push(`${where}: unknown type (set newType + typeDefinition + section to propose one)`);
     if (inst.newType && (!inst.typeDefinition || !taxonomy.sections[inst.section])) errors.push(`${where}: newType needs typeDefinition and a valid section`);
-    if (t && !t.variants[inst.variant] && !inst.newVariant) errors.push(`${where}: unknown variant (set newVariant + variantDefinition to propose one)`);
-    if ((inst.newVariant || inst.newType) && !inst.variantDefinition) errors.push(`${where}: newVariant needs variantDefinition`);
+    if (t && !c.curated && !inst.newVariant) errors.push(`${where}: unknown variant (set newVariant + variantDefinition to propose one)`);
+    if ((inst.newVariant || inst.newType) && !c.curated && !inst.variantDefinition) errors.push(`${where}: newVariant needs variantDefinition`);
     const tiny = inst.blocks?.every((nn) => cut.blocks.find((b) => b.nn === nn)?.box.h < 150);
     const minimal = ['chrome', 'navigation', 'fragment'].includes(inst.type) || tiny;
     for (const f of ['look', 'feel', 'ux', 'learn']) if (!minimal && !inst[f]) errors.push(`${where}: missing ${f}`);
     if (!minimal && inst.type !== 'fragment') {
       if (!inst.reconstruction?.layout || !inst.reconstruction?.typography) errors.push(`${where}: reconstruction.layout and .typography are required`);
-      for (const [k, spec] of Object.entries({ ...rubric.crossCutting, ...(rubric.perType[inst.type] ?? {}) })) {
+      for (const [k, spec] of Object.entries({ ...rubric.crossCutting, ...(rubric.perType[c.type] ?? {}) })) {
         if (spec.auto) continue; // measured from block features, not judged
         const v = inst.rubric?.[k];
         if (v === undefined) { warnings.push(`${where}: rubric.${k} missing`); continue; }
@@ -226,12 +234,14 @@ function sync() {
     if (warnings.length) report.push(`⚠ ${site.slug}: ${warnings.length} rubric warning(s), e.g. ${warnings[0]}`);
     const sequence = [];
     for (const inst of real) {
-      const sec = inst.newType ? inst.section : sectionOf[inst.type];
+      const c = canonical(taxonomy, inst);
+      const sec = sectionOf[c.type] ?? inst.section;
       const ref = { id: `${site.slug}#${inst.blocks[0]}`, slug: site.slug, blocks: inst.blocks, crop: cut.blocks.find((b) => b.nn === inst.blocks[0])?.crop ?? null,
-        exemplar: !!inst.exemplar, confidence: inst.confidence, proposed: !!(inst.newVariant || inst.newType) };
-      ((index[sec].types[inst.type] ??= {})[inst.variant] ??= []).push(ref);
-      if (inst.newVariant || inst.newType) proposals.push(`- **${inst.type}/${inst.variant}**${inst.newType ? ' (new type)' : ''} — ${inst.variantDefinition} _(${ref.id})_`);
-      if (!['chrome', 'navigation'].includes(inst.type) && sequence.at(-1) !== `${inst.type}/${inst.variant}`) sequence.push(`${inst.type}/${inst.variant}`);
+        exemplar: !!inst.exemplar, confidence: inst.confidence, proposed: !c.curated,
+        ...((c.type !== inst.type || c.variant !== inst.variant) && { rawType: inst.type, rawVariant: inst.variant }) };
+      ((index[sec].types[c.type] ??= {})[c.variant] ??= []).push(ref);
+      if (!c.curated) proposals.push(`- **${c.type}/${c.variant}**${inst.newType ? ' (new type)' : ''} — ${inst.variantDefinition} _(${ref.id})_`);
+      if (!['chrome', 'navigation'].includes(c.type) && sequence.at(-1) !== `${c.type}/${c.variant}`) sequence.push(`${c.type}/${c.variant}`);
     }
     if (JSON.stringify(doc.sequence) !== JSON.stringify(sequence)) writeJsonAtomic(file, { ...doc, sequence });
   }

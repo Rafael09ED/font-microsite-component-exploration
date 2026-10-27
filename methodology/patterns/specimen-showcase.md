@@ -17,6 +17,8 @@ Sample: 32 blocks from 25 sites.
 | [use-case-samples](#use-case-samples) | 1 | Tabs or panels with realistic content samples per use case (code, data tables, UI). | tabs: SQL | finance | … |
 | [modular-grid](#modular-grid) | 1 | A uniform grid of cells mixing large glyphs, sentences and notes, like a specimen sheet. | equal cells, mixed content |
 | [themed-infographic](#themed-infographic) | 1 | An interactive infographic on the font's theme, set in the font so the numerals and labels do real work. | data, line-ups, timetables |
+| [generative-layout-stream](#generative-layout-stream) | 0 | An endless scroll appending randomly composed layout modules (columns, captions, lists, display words) with themed, often editable copy. | infinite scroll, varied modules |
+| [slider-morph-mockups](#slider-morph-mockups) | 0 | Realistic layouts (ads, tickets, flyers) each with an axis slider that morphs the whole design between the axis extremes. | mockup plus slider underneath |
 
 ## Rubric
 
@@ -155,3 +157,19 @@ An interactive infographic on the font's theme, set in the font so the numerals 
 | example | look | feel | ux | learn |
 |---|---|---|---|---|
 | [pacaembu-naipefoundry-com#11](../../archive/pacaembu-naipefoundry-com/blocks/11.jpg) | Yellow field, teal 'Classic line-ups', year crests, player list, green pitch with numbered pins, player card with stats; cookie banner partly over it | Sporty, nostalgic, playful | Pick a year to load that team's line-up; players and stats update | Build a small data toy around the font's subject: numerals, tables and labels get shown in real UI without a 'feature' section |
+
+## generative-layout-stream
+
+An endless scroll appending randomly composed layout modules (columns, captions, lists, display words) with themed, often editable copy.
+
+**Recognise by:** infinite scroll, varied modules
+
+_No instance in the sample yet._
+
+## slider-morph-mockups
+
+Realistic layouts (ads, tickets, flyers) each with an axis slider that morphs the whole design between the axis extremes.
+
+**Recognise by:** mockup plus slider underneath
+
+_No instance in the sample yet._

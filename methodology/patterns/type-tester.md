@@ -16,6 +16,8 @@ Sample: 24 blocks from 24 sites.
 | [in-context-editable](#in-context-editable) | 2 | A realistic layout (classifieds, menu, poster) whose text is editable. | editable text inside a designed artefact |
 | [code-playground](#code-playground) | 2 | A mock code editor with language tabs and themes, set in the (coding) font, with font controls. | syntax highlighting, editor chrome |
 | [feature-toggle-board](#feature-toggle-board) | 1 | One big sample line plus a panel of OpenType feature toggles labelled with their tags. | ss01, dlig, case toggles |
+| [auto-fit-editable-lines](#auto-fit-editable-lines) | 0 | Editable display lines that rescale to fill the column width as you type; no size or axis controls, at most a style switch for the stack. | full-width editable lines, no sliders |
+| [pointer-xy-axes](#pointer-xy-axes) | 0 | The pointer's x and y position (or device tilt) each drive one variable axis, with edge tracks or labels showing live values; no sliders to grab. | axis labels at the edges, moves with the cursor |
 
 ## Rubric
 
@@ -137,3 +139,19 @@ One big sample line plus a panel of OpenType feature toggles labelled with their
 | example | look | feel | ux | learn |
 |---|---|---|---|---|
 | [kostasbartsokas-com-oi-you-mate#04](../../archive/kostasbartsokas-com-oi-you-mate/blocks/04.jpg) | Magenta field, mint 3D-extruded 'TRY ME', black-and-white toggle switches with feature tags | Cheeky, loud, hands-on | Toggle MATE, CAPS, DLIG, SS01, SS02; slider; editable text | Label toggles with the real feature tags (DLIG, SS01): teaches OpenType vocabulary while playing |
+
+## auto-fit-editable-lines
+
+Editable display lines that rescale to fill the column width as you type; no size or axis controls, at most a style switch for the stack.
+
+**Recognise by:** full-width editable lines, no sliders
+
+_No instance in the sample yet._
+
+## pointer-xy-axes
+
+The pointer's x and y position (or device tilt) each drive one variable axis, with edge tracks or labels showing live values; no sliders to grab.
+
+**Recognise by:** axis labels at the edges, moves with the cursor
+
+_No instance in the sample yet._

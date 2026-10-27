@@ -1,0 +1,633 @@
+{
+  "slug": "gt-pressura-com",
+  "extractedBy": "agent",
+  "summary": "A 2022 relaunch page on the newer Grilli Type template (Tailwind, sticky full-width sections that stack over each other in red, white and black): 'GT Pressura Refreshed' hero with clickable style lists, live metric boxes showing Mono vs Standard vs Extended widths, invented Constructivist/industrial artefacts per subfamily, Lottie animations of ink pressure, script specimen cards and CJK matching, an animated glyph inspector, and a full-screen auto-fit type tester opened from a fixed top bar.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "bold, industrial, upbeat",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "multiple",
+        "rangeShown": "whole-family",
+        "navVisible": true
+      },
+      "look": "Signal-red field: hairline, then 'GT Pressura' in black and 'Refreshed' in white (~140px Bold), then a 7-line intro at ~45px",
+      "feel": "Loud, poster-like, confident",
+      "ux": "Fixed 62px top bar ('GT PRESSURA' left, outlined 'TYPETESTER' and 'PURCHASE' buttons right) over every section; the red section is sticky and the next white section slides over it",
+      "learn": "Announce the update in the headline itself ('Refreshed', in a second colour): a relaunch page needs the news before the name",
+      "reconstruction": {
+        "layout": "Full-bleed red section, content column x≈225–1215 (990px, 12-col grid); hairline at y≈50, heading at y≈160 (two lines), intro paragraph 0.5 column wide (~810px) below; section sticky with negative --sticky-top so it stays while the next card covers it",
+        "typography": "Heading ~140px GT Pressura Proportional Bold (wdth 100), line 2 white; intro ~45px GT Pressura Extended Medium (wdth 150, wght 500), leading 1.1–1.2; nav ~12px GT Pressura Mono caps",
+        "palette": [
+          "#fd4337",
+          "#000000",
+          "#ffffff"
+        ],
+        "behaviour": "Black loader with a Lottie of a red stamp being pressed ('LOADING DATA. PLEASE WAIT. THANK YOU.', ~3s); sticky stacking of sections on scroll",
+        "content": "Real positioning copy: 'uses the visual gesture of ink spreading under pressure as a stylistic device… now with extended weights and a refreshed design'",
+        "assets": "Lottie loader (loader.json)",
+        "html": "section[data-component=section].bg-red[style=--sticky-top] > .content.grid > hr + h1.h2 + div.font-ext-medium"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "systematic",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "glyph",
+        "interactive": true
+      },
+      "look": "Three columns (Mono, Standard, Extended), each a giant black 'M' (~430px) above a ruled list of its 12 styles set in themselves ('Light Italic', 'Text Italic' … 'Black Italic')",
+      "feel": "Compact, spec-sheet",
+      "ux": "Hovering/clicking a style name sets that column's M to its wght and ital (data-wght, data-ital), pointer cursor on the list",
+      "learn": "One letter per subfamily plus a clickable style list is a whole-family picker in three columns",
+      "reconstruction": {
+        "layout": "3 equal columns (~330px) across the 990px column, M sample on top, column title with underline, 6-row list; repeated M row below on scroll",
+        "typography": "M ~430px GT Pressura Mono/Proportional/Extended Black; list ~37px (2.55vw), each row in its weight, italic word in the italic",
+        "palette": [
+          "#fd4337",
+          "#000000"
+        ],
+        "behaviour": "pointer on intro-style-overview__style → set font-variation-settings (wght, ital, wdth per column) on intro-style-overview__sample",
+        "content": "Style names",
+        "assets": "none",
+        "html": "[data-component=intro-style-overview] > div > [data-component=intro-style-overview__sample] + ul > li > span[data-component=intro-style-overview__style][data-wght][data-ital]"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "art-historical, concise",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "diagram"
+        ],
+        "length": "short"
+      },
+      "look": "'Constructing History' (black/red, ~170px, overflowing the column) with a lead sentence, then two short paragraphs beside a beige panel with a Suprematist composition (black square, tilted red square)",
+      "feel": "Avant-garde homage, tidy",
+      "ux": "static",
+      "learn": "Quote the source movement with a minimal pastiche drawing rather than archival photos",
+      "reconstruction": {
+        "layout": "990px column; heading 2 lines, lead ~45px; below a 2-column split: text ~400px left, beige illustration ~490×640px right with a thin frame",
+        "typography": "Heading ~170px GT Pressura Bold, 'History' red; lead ~45px Extended Medium; body ~22px GT Pressura Text, leading ~1.4",
+        "palette": [
+          "#f9f8f5",
+          "#030303",
+          "#fc4439",
+          "#eee7dc"
+        ],
+        "behaviour": "none",
+        "content": "Real history: Moiré's Marc Kappeler and Dominik Huber, 2008 book on Soviet conceptual art, 2012 release, 2017 Cyrillic, 2022 update",
+        "assets": "Suprematist SVG illustration (squares)"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "technical, mechanical",
+        "mobile": "hidden",
+        "subject": [
+          "spacing",
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "'Mono', 'Standard', 'Extended' set huge with every letter in a ruled box, an x-height line across, and each box labelled with its advance width ('←550→', '←394→', '←635→')",
+      "feel": "Engineering, metronomic",
+      "ux": "The weight animates 300↔900 while boxes resize and the width readouts count live; Mono boxes stay at 550, Standard and Extended grow; the x-height rule slides slightly (39.1% → 37.7%)",
+      "learn": "Box each letter and print its advance width as it animates: the difference between monospaced and proportional becomes a number you can watch",
+      "reconstruction": {
+        "layout": "3 rows, left-aligned, each row a run of inline-flex letter boxes 11.35vw tall with a readout strip underneath; ~640px total",
+        "typography": "Letters 14vw (~202px) GT Pressura Mono / Standard / Extended at wght animated 300–900; readouts ~11px GT Pressura Mono with ← → arrows",
+        "palette": [
+          "#f8f8f8",
+          "#060606",
+          "#d1d1d1"
+        ],
+        "behaviour": "JS-driven loop on --font-variation-wght; each letter box width interpolates between data-min-width and data-max-width and writes the value into animated-width__current-val; hr --top interpolates data-from→data-to; hidden below md breakpoint",
+        "content": "The three subfamily names",
+        "assets": "none",
+        "html": "[data-component=animated-width] > [data-component=animated-width__sample][style=--font-variation-wdth] > hr[data-component=animated-width__hr][data-from][data-to] + div[data-component=animated-width__letter][data-min-width][data-max-width] > div + div > span[data-component=animated-width__current-val]"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "industrial, constructivist",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "series"
+      },
+      "look": "Per subfamily, an invented artefact beside its description: a shipping-box label ('BOX ↑↑', '5001-8014', 'FRAGILE CONTENT', 'QUANTITY: 316.716', 'KEEP IT DRY!', umbrella pictogram) for 'Setting the Standard', and a wood-type style poster ('INK FORCED CONSTRUCTION / BEAUTY CARVED INTO METAL') for 'Mono Mechanics'",
+      "feel": "Warehouse ephemera, tactile",
+      "ux": "static; the quantity figure in the label varies between captures (likely animated counter)",
+      "learn": "Give each subfamily an artefact from its stated use (shipping labels for the condensed Standard, a typewriter-era poster for Mono)",
+      "reconstruction": {
+        "layout": "Two-column rows in the 990px column: beige artefact panel ~490px wide on one side, heading + body ~400px on the other (sides alternate), sticky text column",
+        "typography": "Headings ~60px GT Pressura Bold (Mono Mechanics in Mono Bold); body ~20px Text (Mono body in Mono); artefacts in Standard/Mono Black/Bold/Italic with red accents",
+        "palette": [
+          "#f8f8f7",
+          "#000000",
+          "#fd4337",
+          "#f2ece0"
+        ],
+        "behaviour": "none observed",
+        "content": "Themed logistics copy (SKU, PACK, FRAGILE) and constructivist slogans",
+        "assets": "Vector shipping label and poster compositions (SVG)"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "logistics, rhythmic",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "'Extended Efforts': a beige panel stacking 'Warehouse / Evergiven / Freighting / Containers / Shipping / Intermodal' in alternating black and red, each a heavier weight, above a mock slider 'STANDARD ■ EXTENDED'",
+      "feel": "Smooth, breathing",
+      "ux": "The words animate along the width axis (wdth 100→150) while the slider knob travels with them; the text column stays sticky beside it",
+      "learn": "A fake slider that moves by itself labels an axis animation without inviting a click",
+      "reconstruction": {
+        "layout": "Panel ~490px wide (6 of 12 columns) left, sticky at top 80px; text column 5 columns right; caption '↓ The extended width adds more rhythm to the typeface'",
+        "typography": "Stack 7.5vw (~108px) GT Pressura Extended Anim, weights Light→Black per line, red on alternate lines; slider labels ~10px Mono caps; heading ~60px Bold",
+        "palette": [
+          "#f8f6f2",
+          "#000000",
+          "#fd4337",
+          "#f1e6da"
+        ],
+        "behaviour": "CSS keyframes anim-story-std-ext drive --font-variation-wdth and --slider-translate in sync",
+        "content": "Shipping vocabulary (Evergiven, Intermodal)",
+        "assets": "none",
+        "html": "[data-component=extended-subfamily][style=--font-variation-wdth;--slider-translate] > [data-component=extended-subfamily__text].anim-story-std-ext + [data-component=extended-subfamily__slider]"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "story",
+      "variant": "making-of",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "explanatory, material",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "process",
+          "diagram"
+        ],
+        "length": "short"
+      },
+      "look": "Black section 'Digitizing Analog' (white/red heading) with three 'n's in a row: a grey 3D metal sort ('HEAVY METAL'), a ragged inked print ('PAPER PRESSURE') and a vector outline with point coordinates ('ON SCREEN')",
+      "feel": "Didactic, crafted",
+      "ux": "static",
+      "learn": "Show the concept as three states of one letter (metal → print → vector): the font's idea is a process, so draw the process",
+      "reconstruction": {
+        "layout": "Heading 2 lines; three equal columns (~330px) each with an image ~170px tall, a mono label with underline, and a 3-line mono caption",
+        "typography": "Heading ~140px GT Pressura Bold ('Analog' red); labels ~14px GT Pressura Mono caps; captions ~16px Mono",
+        "palette": [
+          "#030303",
+          "#ffffff",
+          "#fd4439",
+          "#7a7a7a"
+        ],
+        "behaviour": "none",
+        "content": "Real process captions: 'Sharp type from lead-carved printing blocks…', 'The stamp is pressed into paper, causing the ink to spread…', 'The printed type gets digitally reconstructed and vectorized'",
+        "assets": "3D render of a metal sort, scan of an inked n, vector outline diagram"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "precise, playful",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "Four sticky text/visual pairs on black: 'Design Principle' (white S with red dots in a frame, readout 'PRESSURE: 041%'), 'Shape Shifting' (red d assembled from quarter circles), 'Weights & Families' (red rounded blocks with circle markers), 'Refreshed Design' ('Press Rigid' in red with Weight / Width / Italic mock sliders)",
+      "feel": "Calm motion graphics",
+      "ux": "Lottie animations loop (pressure rising as ink spreads, pieces arranging into a d, corners rounding); 'Press Rigid' cycles weight, width and italic while the mock slider knobs move; text column sticky",
+      "learn": "Animate the metaphor with a numeric gauge (PRESSURE 0–100%) so the ink-spread idea reads as a parameter of the design",
+      "reconstruction": {
+        "layout": "Each pair: 5-column text (heading + body) and 6-column visual in a corner-bracket frame (~490×490px), sides alternate, text sticky at top 80px",
+        "typography": "Headings ~60px GT Pressura Bold white; body ~20px Text white with inline weight samples; 'Press Rigid' ~150px red animated; slider labels ~12px Mono caps; readout ~12px Mono",
+        "palette": [
+          "#030303",
+          "#ffffff",
+          "#fd4439",
+          "#272727"
+        ],
+        "behaviour": "lottie-player pressure_04.json, arranging_09.json, corners_04.json; CSS anim-design-wght/wdth/ital/var-slider keyframes drive the sample and slider knobs",
+        "content": "Real design notes: ink transfer, half-arc construction, Text weight countering ink gain, shortened descenders, re-spacing; link to re-download updated fonts",
+        "assets": "Three Lottie JSON animations",
+        "html": "lottie-player[data-component=lottie-player][data-src]; div.anim-design-*-slider"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "language-support",
+      "variant": "multiscript-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "print-shop, multilingual",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": true
+      },
+      "look": "Red 'Language Support' section: a large coverage statement, then for Latin+ & Vietnamese, Cyrillic and Greek a beige specimen card of ruled, numbered cells ('INK! Initiate', 'CARGO Force', 'NHƯỢNG?', 'GÆST'; 'ГЛАЗА', 'ДОМОЧАДЦЫ'; 'δέλτα!', 'Φρεσκάρω') beside a short note naming the consultant",
+      "feel": "Letterpress proof sheets",
+      "ux": "static; cards alternate sides",
+      "learn": "Set each script as a proof sheet of numbered cells mixing widths, weights and italics: one card shows coverage and range together",
+      "reconstruction": {
+        "layout": "Heading + statement (~810px) on red; then rows: card ~490px (6 cols) + text 5 cols, alternating; cards are grids of rows separated by red rules with tiny cell numbers",
+        "typography": "Heading ~140px Bold ('Support' white); statement ~45px Extended Medium; card samples 20–110px across Mono/Standard/Extended, Bold/Black/Italic; notes ~16px",
+        "palette": [
+          "#fd4337",
+          "#000000",
+          "#f6efe2",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Themed print-shop words per script; credits to Donny Trương (Vietnamese), Anya Danilova (Cyrillic), Vassilis Georgiou (Greek)",
+        "assets": "none (cards are live text)"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "language-support",
+      "variant": "script-catalogue",
+      "newVariant": true,
+      "variantDefinition": "Each supported script named in its own script at display size, in a grid, with style counts and short notes on how it was made",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "collaborative, global",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": true
+      },
+      "look": "'Chinese, Japanese, and Korean Typeface Matching': isometric red packaging illustrations (Grilli chocolate, Snake fireworks, Fruit Candy), then three beige columns headed 'SIMPLIFIED CHINESE AR JINGXIRUNHEI', 'JAPANESE TP SKY ROUND', 'KOREAN (HANGEUL) SANDOLL GOTHICNEOROUND', each with the script's name in itself (漢語, 日本語, 한국어), a mixed Latin/CJK headline ('Shibuya 渋谷 TOKYO 東京') and a partner note",
+      "feel": "Friendly cross-cultural pairing",
+      "ux": "static; packaging illustration likely animated (Lottie in section)",
+      "learn": "When a script is covered by partner fonts, show the pairing in mixed headlines (Latin + CJK on one line) and name the matched font",
+      "reconstruction": {
+        "layout": "Heading + paragraph left, illustration right; then a full-width beige band with 3 equal columns, ruled headers, script name ~100px, mixed headline ~40px, body ~14px",
+        "typography": "Column headers ~12px Mono caps; script names in the partner fonts ~100px; mixed headlines GT Pressura Bold + CJK partner fonts; notes ~14px Mono",
+        "palette": [
+          "#fd4337",
+          "#f6efe2",
+          "#000000"
+        ],
+        "behaviour": "latin_03.json Lottie in the section (likely the packaging illustration)",
+        "content": "City and product copy (JIANGSU 江苏 WUXI 无锡, WATER 물 SOJU 소주); partners Arphic, Type Project, Sandoll",
+        "assets": "Isometric packaging illustration; CJK partner webfonts"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "orderly",
+        "mobile": "adapts",
+        "structure": "matrix",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "'GT Pressura Overview' (black/red) with a summary paragraph, then a ruled matrix: rows Mono, Standard, Extended (labels rotated 90°) × columns Light, Text, Regular, Medium, Bold, Black, cells 'Aa' … 'Rr'",
+      "feel": "Clean, tabular",
+      "ux": "static",
+      "learn": "Rotate the row labels to keep the matrix cells square and large",
+      "reconstruction": {
+        "layout": "990px table, header row ~40px, 3 body rows ~140px, label column ~50px with vertical text, 6 equal columns, 1px black rules",
+        "typography": "Pairs ~85px in each style; headers ~10px Mono caps; intro ~45px Extended Medium",
+        "palette": [
+          "#fbfbfb",
+          "#000000",
+          "#fd4337"
+        ],
+        "behaviour": "none",
+        "content": "Letter pairs through the alphabet",
+        "assets": "none",
+        "html": "[data-component=family-overview-table]"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "technical",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "hover",
+        "metricsShown": true,
+        "namesOrUnicode": false
+      },
+      "look": "A sticky framed preview at left showing a red glyph (ķ) on labelled metric lines (CAPS HEIGHT, X-HEIGHT, BASELINE, DESCENDER HEIGHT) beside bordered grids headed BASIC LATIN, EXTENDED LATIN, VIETNAMESE, CYRILLIC, GREEK, NUMBERS – PUNCTUATION – SYMBOLS",
+      "feel": "Precise, inspector-like",
+      "ux": "Hovering a cell shows it in the preview; when idle the preview cycles through glyphs (animation-charset-glyph) and the metric lines animate per glyph; the preview stays sticky while the grids scroll",
+      "learn": "Keep the inspector sticky beside a long grid so the big preview is always next to the cell you point at",
+      "reconstruction": {
+        "layout": "Preview box ~400×300px sticky at left (x≈225), grids ~490px wide at right (x≈730), ~17 cells per row, ~29px cells, category labels ~10px Mono caps",
+        "typography": "Preview glyph ~200px red; grid glyphs ~22px GT Pressura Charset; labels ~9px Mono caps",
+        "palette": [
+          "#fbfbfb",
+          "#000000",
+          "#fd4337",
+          "#d1d1d1"
+        ],
+        "behaviour": "char-set__char hover → char-set__zoom; idle keyframes animation-charset-glyph; anim-vmetric-caps/xheight/baseline/descender move the rules",
+        "content": "~870 glyphs across Latin, Vietnamese, Cyrillic, Greek and symbols",
+        "assets": "none",
+        "html": "[data-component=char-set] > [data-component=char-set__zoom] + [data-component=char-set__set-container] > [data-component=char-set__char]"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, direct",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "On red, three outlined rectangular buttons in a row: 'DOWNLOAD TRIAL FONTS', 'PURCHASE LICENSING', 'DOWNLOAD PDF SPECIMEN'",
+      "feel": "Utilitarian",
+      "ux": "Links to grillitype.com trials and typeface page and to a PDF; hover fills black (as the nav buttons)",
+      "learn": "Three equal outlined buttons give trial, purchase and specimen equal weight",
+      "reconstruction": {
+        "layout": "Three equal buttons (~316×75px) across the 990px column, ~16px gaps, ~150px top padding",
+        "typography": "~12px GT Pressura Mono Bold caps, centred",
+        "palette": [
+          "#fb4337",
+          "#000000"
+        ],
+        "behaviour": "hover:bg-black hover:text-white",
+        "content": "Three CTAs",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "factual, collegial",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "other-fonts"
+        ]
+      },
+      "look": "Three mono credit columns (TYPEFACE CREDITS, WEBSITE CREDITS, CJK CREDITS) with ↗ links, then a 3×4 ruled table of GT family names (Planar, Ultra, Maru, Flexa, Alpina, Zirkon, Super, Walsheim, America, Eesti, Cinetype, Haptik)",
+      "feel": "Tidy, collegial",
+      "ux": "Credit names link out; each family name links to its minisite",
+      "learn": "A ruled name table is a lighter cross-link block than logo cards",
+      "reconstruction": {
+        "layout": "Credits in 3 columns (~316px) under the buttons; family table ~980px wide, 3 columns × 4 rows of ~70px, 1px black rules; section sticky (last card)",
+        "typography": "Credits ~16px GT Pressura Mono, headings caps; family names ~36px GT Pressura Regular centred",
+        "palette": [
+          "#fb4337",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Designers Dominik Huber and Marc Kappeler (Moiré), consultants, Jack Wild (website), Arphic, Type Project, Sandoll",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "bold, immersive",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes",
+          "style-select",
+          "presets"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A full-screen black overlay (HTML only) where one editable sample ('Intermodal Container') is auto-fitted to fill the screen in white, with a top bar ('NEW SAMPLE TEXT', 'ANIMATION ON/OFF', 'TYPE PROPORTIONAL/MONOSPACE', 'CLOSE') and a bottom bar of Width, Weight and Italic sliders plus 'Purchase Licensing' and 'Download Trials'",
+      "feel": "Immersive, poster-making",
+      "ux": "Opened from 'TYPETESTER' in the fixed top bar; type to replace the text (it refits to the viewport); drag wdth 100–150, wght 300–900, ital 0–1 (step 0.01); 'New Sample Text' swaps in another phrase; Animation On runs an autopilot sweep of the axes; Proportional/Monospace swaps between two sample layers",
+      "learn": "Let the tester take over the whole screen and auto-fit the text: every slider move becomes a full-bleed poster, and an autopilot keeps it alive when idle",
+      "reconstruction": {
+        "layout": "Fixed overlay 100vw×100vh, z-50; sample fills the area between a top bar (32px padding) and a bottom control bar; pill-shaped bordered control groups ~39px tall",
+        "typography": "Sample GT Pressura Proportional or Mono, font-size computed by a text-fit routine (textFitted span); control labels ~12px Mono caps",
+        "palette": [
+          "#000000",
+          "#ffffff"
+        ],
+        "behaviour": "Range input → CSS vars --user-wght-proportional, --user-wdth-proportional, --user-ital-proportional; autopilot keyframes animation-tt-autopilot-prop / -mono; textFit recalculates size on input and resize; randomize replaces the text",
+        "content": "Themed logistics phrases ('Intermodal Container')",
+        "assets": "none",
+        "html": "[data-component=tt][data-setup] > [data-component=tt__sample][data-setup=proportional|mono][contenteditable] + [data-component=tt__randomize] + [data-component=tt__autopilot] + [data-component=tt__setup]×2 + [data-component=tt__control-area] > input#typetesterWdthRange|WghtRange|ItalRange; nav [data-component=tt__toggle]"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "chrome",
+      "variant": "fixed-header-bar",
+      "newVariant": true,
+      "variantDefinition": "A slim bar fixed to the top of the viewport for the whole page: name, foundry link and a buy/get button, sometimes site toggles (invert colours)",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed 62px top bar with a bottom rule: 'GT PRESSURA' in small mono caps at left, outlined rounded buttons 'TYPETESTER' and 'PURCHASE' at right; it sits over every coloured section (repeated across the stitched captures)"
+    }
+  ],
+  "skipped": [
+    {
+      "block": "10",
+      "reason": "loader overlay: black screen with a Lottie stamp animation and 'LOADING DATA. PLEASE WAIT. THANK YOU.'"
+    }
+  ],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "family-overview/designspace-map",
+    "story/origin-reference",
+    "design-details/axis-explainer",
+    "specimen-showcase/prop-collage",
+    "design-details/axis-explainer",
+    "story/making-of",
+    "design-details/design-notes",
+    "language-support/multiscript-specimen",
+    "language-support/script-catalogue",
+    "family-overview/designspace-map",
+    "glyph-table/glyph-inspector",
+    "checkout/link-out-cta",
+    "footer/credits-colophon",
+    "type-tester/slider-sandbox"
+  ]
+}

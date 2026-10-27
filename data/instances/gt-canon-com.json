@@ -1,0 +1,425 @@
+{
+  "slug": "gt-canon-com",
+  "extractedBy": "agent",
+  "summary": "An editorial microsite built as 'A canon. A typeface. An alphabet.': the home page is a grey A–Z glossary of 26 design terms (Anatomy … Zone), each opening an essay subpage with readings set in GT Canon; the actual specimen (System, Design, Platform, Specs, Colophon) lives in a black 'Information' panel that slides in from the right, and a 'Typewriter' toolbar turns the screen into a full-page tester. The capture scrolled the closed panel, so every crop shows the glossary page; panel components are read from HTML only.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "typeset-page",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "literary, restrained",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "White page, tiny centred title 'A CANON. A TYPEFACE. AN ALPHABET.', then two centred columns of 13 grey uppercase serif words each (ANATOMY, BALANCE, CONTRAST … ZONE), closing line 'FROM A, AS IN Anatomy TO Z, AS IN Zone.' with italics; a black A–Z letter rail on the left edge, black pills '● GT CANON' top-left and 'TRY/BUY | INFORMATION' top-right, 'Aa| TYPEWRITER' tab bottom-left",
+      "feel": "Quiet, bookish, like a table of contents",
+      "ux": "Each word (and each rail letter) links to an essay subpage /articles/<term>; an Editor's Note fades in before the word list; 'Information' slides in the specimen panel; 'Typewriter' opens the tester",
+      "learn": "Make the home page a glossary: 26 terms from A to Z set as a typeset index give the typeface an alphabet-shaped table of contents and a reason to come back",
+      "reconstruction": {
+        "layout": "Full viewport, white; two word columns centred at ~26% and ~74% of the width, 13 rows each at ~47px pitch, vertically centred; title 12px at top centre (y≈10px), sign-off 14px at bottom centre; 32px black left rail with A–Z at ~3.3svh spacing; nav pills 32px tall at the corners",
+        "typography": "Words GT Canon Display (opsz 60, wght 300) ~46px uppercase, leading 1.0, grey #7b7b7b; title and sign-off GT Canon ~12–14px uppercase with italic term names; rail letters 12px white; UI pills GT Canon Mono 14px uppercase white on black",
+        "palette": [
+          "#f9f9f9",
+          "#7b7b7b",
+          "#dadada",
+          "#000000"
+        ],
+        "behaviour": "Short loader (spinning dot) then the Editor's Note paragraph, then the word index; hover greys links (text-secondary); rail collapses/expands on click (aria 'Toggle article list')",
+        "content": "26 design terms; Editor's Note by Patrick Savolainen explaining the L/M/S (term / aesthetics / type design) structure",
+        "assets": "none",
+        "html": "aside[aria-label='Article navigation'] > nav (A–Z links to /articles/*); nav top with a[aria-label='Try or buy…'] and button[data-id=infoBtn]"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "philosophical, editorial",
+        "mobile": "unknown",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "Panel 'Preface' (HTML only): 'GT CANON' at ~198px, '…is neither historical nor futuristic. The' at ~124px, then body text wrapping around a floated mono column with a 'Typeface Specimen' contents list (I Preface … VI Colophon) and a ring of 'Aa Bb … Zz' links labelled 'Parallel Reader', followed by 'What is a canon? On Terminology by Patrick Savolainen'",
+      "feel": "Essayistic, confident",
+      "ux": "Every block of the panel sits in a frame tagged L, M or S (the optical size used); the Aa–Zz ring rotates with scroll (--scroll-rot) and links to the 26 essays; contents items jump to panel sections",
+      "learn": "Tag each text frame with the optical size it is set in (L / M / S): the layout teaches the opsz axis while you read",
+      "reconstruction": {
+        "layout": "Panel 1240px wide (100vw − 200px), 8-col panel-grid; frames with a small corner indicator letter; float-left mono column 33cqw with shape-outside so the M paragraph wraps around it; circle of 26 links laid out by --i around a square",
+        "typography": "Headline GT Canon opsz 60 wght 300 at 16cqw (~198px) uppercase, leading 0.8, cap-trimmed; second line 10cqw (~124px) grey; body GT Canon opsz 18 ~18px leading 1.25; lead-ins in GT Canon Mono uppercase wght 500; indicators Mono 11px",
+        "palette": [
+          "#000000",
+          "#ffffff",
+          "#7b7b7b"
+        ],
+        "behaviour": "Ring rotation bound to panel scroll; panel slides in over 500ms (ease-snap) when 'Information' is clicked",
+        "content": "Preface copy and an essay on the idea of a canon",
+        "assets": "none",
+        "html": "#panel-scroll-container > #panel-preface .panel-grid > .ui-border-frame (.ui-border-frame--indicator L|M|S); .circle[style=--scroll-rot] span[style=--i:n] > a[href=/articles/*]"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "systematic, aphoristic",
+        "mobile": "unknown",
+        "structure": "grid",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "Panel 'System' (HTML only): heading, an M paragraph about three axes plus italic and mono, a diagram of the axes (opsz 8/18/60 Micro/Text/Display, wght 300–900, wdth 37–150, Proportional/Monospace, Roman/Italic), then 'Family Overview': rows Optical Size, Rhythm, Width, Weight, Italic, each with a one-line motto and 'Aa' samples under hairline-topped labels",
+      "feel": "Calm, catalogue-like",
+      "ux": "static",
+      "learn": "Give each axis a one-line motto ('Attention to scale made visible', 'The measure of pace and mood') before its row of samples",
+      "reconstruction": {
+        "layout": "8-col grid inside the 1240px panel; first column holds the row heading + motto (11px), remaining columns hold one sample each with a 1px top rule and label; rows separated by 48px",
+        "typography": "'Aa' GT Canon at 4cqw (~50px), opsz/wdth/wght per cell (e.g. opsz 8/18/60; wdth 37/75/100/125/150; wght 300–900); labels GT Canon Mono 11px uppercase, tracking −0.02em; section heading Mono 24px uppercase",
+        "palette": [
+          "#000000",
+          "#ffffff",
+          "#7b7b7b"
+        ],
+        "behaviour": "none",
+        "content": "Axis names, style names, mottos",
+        "assets": "Axis diagram SVG"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "typewriter, focused",
+        "mobile": "unknown",
+        "controls": [
+          "text",
+          "size",
+          "leading",
+          "tracking",
+          "weight",
+          "axes",
+          "features",
+          "style-select"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "'Aa| Typewriter' tab (visible bottom-left in this crop) opens a black bottom toolbar of 7 columns (Subfamily Small/Medium/Large/Mono radios, Style Regular/Italic, draggable Optical Size, Width and Weight tracks with value + name, Metrics sliders for size px / leading % / tracking em, Features toggles Small Caps / Tabular Fig. / Oldstyle Fig.) over a full-screen white page with one editable line 'The letter hardens into ideology.' at 150px",
+      "feel": "Focused, like a blank sheet in a typewriter",
+      "ux": "Type anywhere on the white page; toolbar values update the line live; not tied to a block, attached here because the launcher shows in the crop",
+      "learn": "A full-screen blank page with a single quote from the essays turns the tester into a writing surface rather than a widget",
+      "reconstruction": {
+        "layout": "Fixed overlay inset 0, white; contenteditable centred text full width; toolbar fixed at the bottom-left under a tab (w-28 button), grid of 7 control columns, black, 8px padding",
+        "typography": "Sample GT Canon 150px, leading 100%, grey #7b7b7b, opsz 60 wdth 100 wght 400 by default; controls GT Canon Mono 11px uppercase, value labels 9px",
+        "palette": [
+          "#ffffff",
+          "#7b7b7b",
+          "#000000"
+        ],
+        "behaviour": "Radios swap subfamily (opsz preset or Mono) and italic; custom drag tracks set opsz, wdth (shows 'Normal'), wght (shows 'Regular'); ranges: size 8–200px, leading 100–200%, tracking −0.05–0.05em; toggles set font-variant-caps small-caps, tnum, onum",
+        "content": "'The letter hardens into ideology.' (a line from the essays)",
+        "assets": "none",
+        "html": "fieldset radios name=ui-radio-v-0-0 (small|medium|large|mono), ui-radio-v-0-1 (regular|italic); input[type=range]#ui-range-v-0-2/3/4; input[type=checkbox].toggle-input ×3; div[contenteditable].textbox style font-variation-settings"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "assured, literary",
+        "mobile": "unknown",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Panel 'Design' (HTML only): heading at ~186px, an M-frame paragraph 'LETTERFORMS, PROPORTION, RHYTHM — we consider GT Canon a new reference point for serif typefaces…', then a Display-size quote from Pascal's Pensées tagged '(D) Display · Section I, Fragment 32'",
+      "feel": "Elevated, classical",
+      "ux": "static",
+      "learn": "Pair the design rationale with a canonical literary quote set at display size: the quote proves the claim of a 'canon'",
+      "reconstruction": {
+        "layout": "Heading frame full panel width; paragraph in a 4-of-8-column frame; quote in its own frame with a small mono source label",
+        "typography": "Heading GT Canon opsz 60 wght 300 ~186px; paragraph opsz 18 18px with a Mono uppercase lead-in; quote GT Canon Display ~60px",
+        "palette": [
+          "#000000",
+          "#ffffff",
+          "#7b7b7b"
+        ],
+        "behaviour": "none",
+        "content": "Design positioning and a quote: 'There is a certain standard of grace and beauty…' (Pascal)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04",
+        "05",
+        "06",
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "technical, manual-like",
+        "mobile": "unknown",
+        "subject": [
+          "construction",
+          "optical-size",
+          "axes",
+          "italics",
+          "spacing"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "Numbered figures (HTML only): pill tags 'FIG. 1' … 'FIG. 9', each with a serif title (Vertical/Horizontal Proportions, Digital Shaping, Special Details, Optical Sizes, Widths, Weights, Slant Angle, Italic Design, Mono proportions) and a short mono caption beside a large Lottie line drawing of glyphs with guides",
+      "feel": "Precise, like a type-design manual",
+      "ux": "For Figs 2–5 and 7–8 a sticky caption list on the left dims inactive figures to 50% while the matching sticky Lottie drawing plays in a 110svh scroll section on the right",
+      "learn": "Number the design decisions as figures and pin their captions in a list that tracks scroll: the visitor always knows which figure they are on",
+      "reconstruction": {
+        "layout": "Panel-grid: captions col-span-3 (sticky top 0), figures col-span-5; each figure in a min-height 110svh wrapper with a sticky Lottie (viewBox 1312×650); Figs 1, 6, 9 are single rows (~746px) with caption left and drawing below",
+        "typography": "Fig tag GT Canon Mono 11px uppercase in a rounded 20px pill; title GT Canon opsz 18 16px; caption Mono 12px leading 1.25, max 55ch",
+        "palette": [
+          "#000000",
+          "#ffffff",
+          "#7a7a7a"
+        ],
+        "behaviour": "Scroll position selects the active figure (opacity 1 vs 0.5) and plays its Lottie; drawings animate guides and outlines",
+        "content": "Real design notes: large x-height matching GT Standard, faint diagonal axis, 20° italic angle, optically adjusted weights (Condensed Black lighter than Expanded Black), mono based on Text size",
+        "assets": "Nine Lottie line-drawing animations",
+        "html": ".panel-grid > .col-span-3.sticky.top-0 (figure list, inactive .opacity-50) + .col-span-5 > .min-h-[110svh] > .lottie-player.sticky.top-0"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "comparison",
+      "variant": "pointer-wipe",
+      "newVariant": true,
+      "variantDefinition": "Two typefaces (or versions) set on the same sample and compared by a divider that follows the pointer (clip-path wipe), or side by side under one pointer-driven pad that sets both at once.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "harmonious, technical",
+        "mobile": "unknown"
+      },
+      "look": "Panel 'Platform' (HTML only): the GT Standard pairing shown three ways: an overlaid drawing split by a vertical line that follows the cursor; a 2D field with GT Standard on the left and GT Canon on the right setting the same 5-line quote, axis labels LIGHT/HEAVY (vertical) and CONDENSED/EXPANDED (horizontal) and crosshair lines; then a sticky row of L / M / S frames with the same essay paragraph in serif and sans at matching optical sizes",
+      "feel": "Systematic, reassuring",
+      "ux": "Move the pointer: horizontally it wipes between the two drawings (cursor ew-resize); in the 2D field x sets wdth 37→150 and y sets wght 300→900 on both texts at once",
+      "learn": "Drive both families from one pointer so the visitor sees they share widths, weights and metrics: the pairing argument becomes a gesture",
+      "reconstruction": {
+        "layout": "Wipe: full panel width, aspect 1.804:1, two absolutely stacked SVGs clipped by polygon at --mouse-x, 1px divider. Field: aspect 1200:501, two equal columns, labels at 5cqw insets, 1px crosshair lines at --mouse-x / --mouse-y. Then a 200svh section with a sticky 3-col grid of L (3.25cqw text), M (~0.875cqw) and S frames",
+        "typography": "Quote at 2.25cqw (~28px) leading 1.25, GT Standard (font-sans) vs GT Canon (font-serif) at opsz 60, starting wdth 37 wght 300; labels Mono 11px uppercase; L/M/S samples at opsz 60/18/small",
+        "palette": [
+          "#000000",
+          "#ffffff",
+          "#7b7b7b"
+        ],
+        "behaviour": "pointermove updates --mouse-x/--mouse-y; clip-path polygon uses --mouse-x; field maps x→--font-wdth, y→--font-wght on both columns",
+        "content": "'Display is about the charge of presence, the weight of saying: this is what matters, at least for now.'; 'To speak of a canon in typography is to invoke a double tension…'",
+        "assets": "Two SVG glyph drawings for the wipe",
+        "html": "div.cursor-ew-resize[style=--mouse-x] > div.absolute[style=clip-path: polygon(0 0, var(--mouse-x) 0 …)] ×2 + divider; .grid-cols-2 children with style --font-wdth / --font-wght"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "reference, exact",
+        "mobile": "unknown",
+        "coverage": "by-category",
+        "interaction": "hover",
+        "metricsShown": true,
+        "namesOrUnicode": false
+      },
+      "look": "Panel 'Specs' (HTML only): M paragraph 'GT Canon supports over 300 Latin-alphabet languages…' with a 'GT Canon Typeface Specimen ↓ Download PDF (4.3MB)' link, then a sticky square glyph zoom on five metric lines beside category lists with counts: Basic Latin 52, Extended Latin 200, Small Caps 26, Numbers 43, Punctuation 75",
+      "feel": "Complete, orderly",
+      "ux": "Radios Small / Medium / Large / Mono switch the set; hovering a glyph shows it in the zoom; on mobile a loupe with a ruler follows the finger",
+      "learn": "Give the touch version its own loupe (a magnifier with a ruler that follows the finger) instead of the desktop side panel",
+      "reconstruction": {
+        "layout": "Left col-span-5 sticky: radio row then a square zoom with 1px lines at 7.25%, 23%, and 63.75% / 28.25% / 15.5% from the bottom; right col-span-3: category headings with counts and glyph rows",
+        "typography": "Zoom glyph GT Canon opsz 12 at 40cqw; list glyphs 16px; labels Mono 11px uppercase",
+        "palette": [
+          "#000000",
+          "#ffffff",
+          "#7b7b7b"
+        ],
+        "behaviour": "hover/touch sets the zoom glyph; radio changes opsz preset or Mono; mobile loupe translates with the pointer (300ms ease-snap)",
+        "content": "Full Latin set incl. circled numerals and arrows",
+        "assets": "Specimen PDF (link only)",
+        "html": "fieldset radios name=ui-radio-v-0-8 (small|medium|large|mono); zoom div.text-[40cqw].aspect-square with absolute guide spans"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "editorial, collegial",
+        "mobile": "unknown",
+        "contains": [
+          "credits",
+          "other-fonts",
+          "contact"
+        ]
+      },
+      "look": "Panel 'Colophon' (HTML only): the Editor's Note signed Patrick Savolainen, 'Other Minisites' list with small shield images, a credits paragraph (type design, production, graphic concept, programming, Project Gutenberg sources) and 'Grilli Type · Luzern • Brooklyn · 2025'",
+      "feel": "Generous, transparent",
+      "ux": "Links to sibling microsites and grillitype.com",
+      "learn": "Credit the texts' sources (Project Gutenberg) as carefully as the designers when the site is built on readings",
+      "reconstruction": {
+        "layout": "Colophon heading frame, then multi-column text blocks in the 8-col panel grid; centred foundry sign-off at the bottom",
+        "typography": "Heading GT Canon ~186px; body GT Canon opsz 18 ~16px; sign-off Mono 12px uppercase centred",
+        "palette": [
+          "#000000",
+          "#ffffff",
+          "#7b7b7b"
+        ],
+        "behaviour": "none",
+        "content": "Credits and editor's note",
+        "assets": "Shield images per family"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "matter-of-fact",
+        "mobile": "unknown",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Three short text blocks with arrow links: Purchase License '→ Shop GT Canon', Free Trials 'Get all 224 trial fonts… → Download trial fonts', Customize '→ Contact us…'; plus the permanent 'TRY/BUY' pill in the top nav",
+      "feel": "Low-key",
+      "ux": "Links to grillitype.com/typeface/gt-canon and /free-trial-fonts",
+      "learn": "State the trial count (224 fonts) to make the free trial feel substantial",
+      "reconstruction": {
+        "layout": "Three columns of short paragraphs, each ending with an underlined → link",
+        "typography": "GT Canon ~16px; links underlined, offset 3px",
+        "palette": [
+          "#000000",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Licence, trial and custom copy",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/typeset-page",
+    "story/essay",
+    "family-overview/style-word-grid",
+    "type-tester/slider-sandbox",
+    "story/large-text-intro",
+    "design-details/annotated-specimen",
+    "comparison/pointer-wipe",
+    "glyph-table/glyph-inspector",
+    "footer/credits-colophon",
+    "checkout/link-out-cta"
+  ]
+}

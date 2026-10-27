@@ -1,0 +1,337 @@
+{
+  "slug": "gt-zirkon-com",
+  "extractedBy": "agent",
+  "summary": "A white, editorial page with a fixed left index (Intro, Story, Design, More). Generative 'crystal growth' line drawings sprout over the hairline-ruled section heads and can be stopped with a 'Stop Growth' link. The story mixes a mock retro paint-app window with scans of 1880–1918 American and British gothic specimens. Design details are animated measurement diagrams; the end is a labelled editable specimen, a hover-zoom character grid, credits and minisite icons. Segmentation merged the last ~6000px (specimen → family list → character set → credits → minisites) into one truncated block.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "kinetic-type",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "mineral, generative, delicate",
+        "mobile": "adapts",
+        "carrier": "motion",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "'GT Zirkon' in hairline Ultra Light at ~288px, overgrown by dense clusters of grey tube-like strands and a small faceted crystal, like mineral fibres growing out of the letters",
+      "feel": "Organic and scientific at once, hypnotic",
+      "ux": "The strands grow continuously (generative SVG); a top-right text nav 'Stop Growth · Free Trial Fonts · PDF Specimen · Buy GT Zirkon' lets you freeze it; a fixed left sidenav (Intro, Story, Design, More) highlights the current section; loader shows an outline gem GIF and 'Loading…'",
+      "learn": "Pair a hairline weight with a generative drawing that grows over it, and offer a 'stop' link: the motion is the mood, the control is the courtesy",
+      "reconstruction": {
+        "layout": "Content column from x=165 (left 165px reserved for the fixed sidenav) to the right edge; hero band 1215×365 at y=85; name baseline near the bottom of the band, left-aligned, ~1000px wide; strands spill above and below into neighbouring sections; small nav right-aligned above (y≈20–80)",
+        "typography": "Name ~288px GT-Zirkon Ultra Light, black; nav and sidenav ~12px GT-Zirkon caps/small type",
+        "palette": [
+          "#fbfbfb",
+          "#000000",
+          "#b0b0b0",
+          "#545454"
+        ],
+        "behaviour": "Inline SVG paths (≈190 KB) drawn by a generative script (credited to Prolog) keep extending as double-stroked tubes; onclick='stop()' halts growth; the same growth sits over every section head (section-head-* svg-wrappers)",
+        "content": "Family name only",
+        "assets": "Generative SVG growth script; outline crystal and gem drawings; loader.gif",
+        "html": "#sidenav > a.section-links-all#section-link-intro|story|design|look > h6; #container > nav.small-type > ul > a(onclick=stop()) + links; section#section-head-introduction > .svg-wrapper > svg"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "measured, witty",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "A 7-line left-aligned paragraph at ~38px in black, a few growth strands crossing it",
+      "feel": "Clear, matter-of-fact",
+      "ux": "static (strands keep growing around it)",
+      "learn": "Puncture the gemstone metaphor in the intro ('may sparkle like a gem stone — but we think of it more like a heavy-duty tool') to set expectations",
+      "reconstruction": {
+        "layout": "Left-aligned text 1071px wide from x=165, ~443px tall, top margin ~40px",
+        "typography": "~38px GT-Zirkon Regular, leading ~1.4, black",
+        "palette": [
+          "#fbfbfb",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "'GT Zirkon freely mixes historical and contemporary ideas in this new sans serif design. Created by Tobias Rechsteiner over a nine year period…'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "making-of",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "nostalgic, nerdy",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "process"
+        ],
+        "length": "short"
+      },
+      "look": "'Design process' head; two rows, each a short text column beside a mock 1980s paint-program window ('GT Zirkon Regular' title bar, × − + buttons, tool palette of pencils, brushes and shapes) showing 'Eggs' being typed and a glyph grid with a huge 'a'",
+      "feel": "Playful retro computing",
+      "ux": "Looping videos inside the fake windows",
+      "learn": "Frame process footage in a pastiche of an old drawing app: the window chrome says 'work in progress' without showing real sketches",
+      "reconstruction": {
+        "layout": "Section head: growth SVG, 38px title, full-width hairline; rows split 1/3 text (≈360px) and 2/3 window (≈760×390px), hairline between rows",
+        "typography": "Title ~38px GT-Zirkon Medium; body ~17px GT-Zirkon Regular, leading ~1.5; window title ~14px",
+        "palette": [
+          "#f9f9f9",
+          "#000000",
+          "#d2d2d2"
+        ],
+        "behaviour": "story1.mp4 (typing 'Eggs' with a text cursor) and story2.mp4 (glyph grid with the a selected) autoplay, muted, loop",
+        "content": "Real notes: 'The design started with an idea, not with a drawing… Like a sculptor, Tobias had to chisel away'; nine years of balancing characters",
+        "assets": "Two MP4s rendered in a retro paint-app frame",
+        "html": "video[autoplay][muted][loop][playsinline] > source[src=animations/story1.mp4|story2.mp4]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "archival, specific",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "archival"
+        ],
+        "length": "short"
+      },
+      "look": "'Historical references' head, one paragraph, then a two-column grid of six scanned specimen pages (Inland Gothic No. 6 1898, Grotesque #8 1880 Stephenson Blake, Grotesque No. 10 1918 Miller & Richard, Poster Latin Antique 1897, Lining Gothic Condensed and Condensed Italic 1906 ATF), each with an uppercase caption",
+      "feel": "Type-nerd archive, credible",
+      "ux": "static",
+      "learn": "Caption each historical scan with name, year and foundry in one line: the citation is the content",
+      "reconstruction": {
+        "layout": "Paragraph ~600px wide at left, then 2-column grid (≈590px each, ~30px gutter), scans ~590×440px, caption above each",
+        "typography": "Captions ~12px GT-Zirkon uppercase; paragraph ~17px Regular with superscript ordinals (19th, 20th)",
+        "palette": [
+          "#f9f9f9",
+          "#000000",
+          "#d2d2d2"
+        ],
+        "behaviour": "none",
+        "content": "Real 19th/early-20th-century gothic specimen scans ('TOURISTS RESTED Questions Dictionaries', 'Port Useful Experiment')",
+        "assets": "Six specimen scans (shared by Production Type)",
+        "html": "img[src=images/samples/inland-gothic.jpg|grotesque-8.jpg|grotesque-10.jpg|latin-antique.jpg|lining-gothic.jpg|lining-goth-524.jpg]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "system-diagrams",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "diagrammatic",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "diagram",
+        "explanation": "prose"
+      },
+      "look": "'Family structure': four short paragraphs on the three weight groups (contrasted lights, restrained Book/Regular, extravagant heavy end) beside a looping animation of thin concentric circles",
+      "feel": "Quiet, abstract",
+      "ux": "Video loops; the circles presumably thicken/thin to illustrate the weight progression",
+      "learn": "An abstract ring diagram can stand in for a weight chart when the copy carries the detail",
+      "reconstruction": {
+        "layout": "1/3 text column (≈360px) left, 2/3 right with a ~330px circle animation centred; hairlines above and below",
+        "typography": "Body ~17px GT-Zirkon Regular with italic style names (Book, Regular, Black)",
+        "palette": [
+          "#fafafa",
+          "#000000",
+          "#b2b2b2"
+        ],
+        "behaviour": "kreis.mp4 autoplay loop (concentric circles)",
+        "content": "Real notes on the eight weights in three sections",
+        "assets": "kreis.mp4"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "technical, precise",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "spacing",
+          "italics"
+        ],
+        "presentation": "annotation",
+        "explanation": "prose"
+      },
+      "look": "'Design concept': six ruled rows, each a short text column beside an animated measured diagram: 'Heat' with a weight scale (U-Light…Black) and readouts 'Caps Stems [47|30] Lowercase [45|28] Aperture [125|160] Curves [50]'; 'MAX' Contrasted vs Linear with stroke values; 'Raw' ink traps; 'Quag?J2' with boxed terminal close-ups; 'Refitment' advance widths vs a traditional design (628 519 396…); 'Safe' italic on a protractor showing 13°",
+      "feel": "Lab report, elegant",
+      "ux": "Each diagram is a looping video; no interaction",
+      "learn": "Animate the measurement itself (a slider sweeping weights while stem values tick, a protractor swinging to 13°): numbers in motion explain more than a static figure",
+      "reconstruction": {
+        "layout": "Rows separated by full-width hairlines; 1/3 text (≈360px) left, 2/3 diagram (≈760px) right, row heights 400–700px; ~2600px total",
+        "typography": "Diagram words ~250–350px GT-Zirkon (Thin to Black, italic for Safe); readout labels ~12px in thin boxes; body ~17px Regular, italic for the italic row; small labels 'Contrasted Linear', 'GT Zirkon Linear'",
+        "palette": [
+          "#fafafa",
+          "#060606",
+          "#b2b2b2"
+        ],
+        "behaviour": "Videos heat.mp4 (weight slider + changing stem values), max.mp4 (contrasted ↔ linear strokes), raw.mp4 (ink traps), zoom.mp4 (terminal details zoomed into boxes), spacing.mp4 (narrow/wide widths vs traditional), safe.mp4 (13° italic angle with protractor and ruler); autoplay muted loop",
+        "content": "Real metrics and claims: stem widths, 13° italic angle, ink traps in R, K, 8, g, uniform character widths",
+        "assets": "Six MP4 diagram animations (animated by Josh Schaub)",
+        "html": "video > source[src=animations/heat.mp4|max.mp4|raw.mp4|zoom.mp4|spacing.mp4|safe.mp4]"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "type-tester",
+      "variant": "labelled-editable-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "mineralogical, crisp",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "'Typeface specimen': mineral-themed words in every style, each with a tiny label of style and size ('GT Zirkon Ultra Light — 21vw'): 'Bronzite' and 'Hardness' full-width at 21vw, pairs like '28 Surfaces / Pleochroism', 'Mariposites / Transparency' at 7.5vw, two paragraphs on X-ray diffraction at 38–48px, then 'Pattern 5' and 'Colorless' at 21vw in Black; followed by a two-column ruled 'Family overview' list (Ultra Light Italic … Black Italic)",
+      "feel": "Museum label, confident",
+      "ux": "Each sample (18) is contenteditable; no controls",
+      "learn": "Label every sample with its size in vw as well as its style: the specimen documents the responsive scale it is built on",
+      "reconstruction": {
+        "layout": "Full content width (1215px); 21vw samples one per row, 7.5vw samples in two columns (~600px each), labels directly under each sample; paragraph pair in two columns; family overview two columns with ~80px rows and hairlines",
+        "typography": "Samples GT-Zirkon at 21vw (~302px) and 7.5vw (~108px), Ultra Light → Black with italics, features dlig, ss01, ss02, smcp ('XRD'), onum; labels ~10px Regular; paragraphs 38px/48px; family list ~60px",
+        "palette": [
+          "#f9f9f9",
+          "#060606",
+          "#cececd"
+        ],
+        "behaviour": "Editable text only; some samples carry feature classes (type-dlig, type-ss01, type-ss02, type-feature-off)",
+        "content": "Mineralogy words (Bronzite, Pleochroism, Mariposites, Quartzites, Arenaceum, Fluorescent) and a real-sounding XRD paragraph",
+        "assets": "none",
+        "html": "div.text-column.text-sample(-large)[contenteditable] + label 'GT Zirkon <Style> — <size>'"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "complete, plain",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'Character set': one continuous bordered grid of ~350 glyphs (accented caps, lowercase, figures, circled numerals, arrows with their ss01 alternates side by side), followed by 4-column credits (Typeface, Website, Visuals, Samples) and a row of six outline minisite icons (C, face, YO flag, &, star flag, G) linking to sibling GT sites",
+      "feel": "Orderly, reference",
+      "ux": "Hovering a cell shows it enlarged in a floating zoom box (#gt-character-zoomed), as on other GT sites; the credits and minisite icons close the page (seen in the HTML, mobile and video; beyond the truncated crop)",
+      "learn": "Place each alternate right next to its default in the grid (→ then ss01 →) so alternates are found without a separate section",
+      "reconstruction": {
+        "layout": "Grid ~600px wide on desktop (≈20 cells per row, ~30px cells, 1px borders) under a hairline-ruled heading; credits in 4 equal columns; minisite icons in 6 columns (~150px icons + 12px names)",
+        "typography": "Glyphs ~20px GT-Zirkon Regular; heading ~38px Medium; credits ~14px",
+        "palette": [
+          "#f9f9f9",
+          "#060606",
+          "#cececd"
+        ],
+        "behaviour": "Hover → zoomed glyph box; no categories or tabs",
+        "content": "Full character set in one sequence; credits (Tobias Rechsteiner 2009–2018, Informal Inquiry, Prolog, Josh Schaub, Production Type)",
+        "assets": "Minisite outline icon PNGs",
+        "html": "#gt-character-zoomed + #america-character-set > .character-set-category > div.single-item.character-set-box.js-gt-character(.type-ss01); section.text-4column (credits); section.text-6column > a.image-column > img + p.small-type"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/kinetic-type",
+    "story/large-text-intro",
+    "story/making-of",
+    "story/origin-reference",
+    "design-details/system-diagrams",
+    "design-details/annotated-specimen",
+    "type-tester/labelled-editable-lines",
+    "glyph-table/full-grid"
+  ]
+}

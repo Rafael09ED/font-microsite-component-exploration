@@ -1,0 +1,653 @@
+{
+  "slug": "tofino-losttype-com",
+  "extractedBy": "agent",
+  "summary": "Alanna Munro's Lost Type microsite for a 'West Coast Swiss' sans, built on a surf-town theme in coral, sea-blue and cream. Every demo uses that theme: weight puns ('Just A Thin Wetsuit'), a live surf report with tide charts, OpenType toggles on surf heights and seawater formulas, a Magic 8-ball phone, and a language switcher. A long first-person making-of essay follows. Buy blocks recur three times, promoting pay-what-you-want personal licences and posters mailed with commercial licences.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "name-over-photo",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "laid-back, Swiss, coastal",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "Split screen: a coral panel (two thirds) with 'A TYPEFACE ♡ ALANNA MUNRO' in tracked caps, a huge cream 'Tofino', 'West Coast Swiss' under it and a three-line tagline; a black-and-white photo of a surfer carrying a board into the waves fills the right third",
+      "feel": "Relaxed, sunny, confident",
+      "ux": "static; no nav or buy button in the first screen (the photo is hidden on small screens)",
+      "learn": "Pair a heavy display name with a mood photo of the place it is named after: the subtitle ('West Coast Swiss') and the image explain the concept together",
+      "reconstruction": {
+        "layout": "1440×770; coral column ~960px (md-col-8/9) with ~64px padding, content left-aligned; photo column ~480px full-height, object-fit cover",
+        "typography": "Kicker ~20px Tofino Wide caps, letter-spacing ~0.3em; name ~190px Tofino Black (SVG); subtitle ~44px Tofino Semibold right-aligned under the name; tagline ~32px Tofino Narrow Regular",
+        "palette": [
+          "#ee7c72",
+          "#fefaf3",
+          "#b1b1b1",
+          "#c8c7c7"
+        ],
+        "behaviour": "Fades in after a ~1s white load",
+        "content": "'All the things you love about Swiss style typography but with more hang loose attitude.'",
+        "assets": "Black-and-white surfer photo; name as SVG",
+        "html": "div.bg-red.white-text > .md-flex > .md-col-9 (h1.hide + svg wordmark + p.font-family-tofino-narrow) + .md-col-3 photo"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "family-overview",
+      "variant": "big-number-stats",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "cheeky, upbeat",
+        "mobile": "adapts",
+        "structure": "stats",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "A blue '74' straddling a cream/blue colour split, 'Styles' in heavy narrow grey beside it with 'the versatility to make some pretty ace typography' in Wide; below, two cream lines 'DAILY' / 'Driver' tagged with arrow labels 'Medium →' and '← Black Narrow'",
+      "feel": "Breezy, bragging with a wink",
+      "ux": "The two big lines fade and cycle through other word pairs and styles ('Tidal …', 'Noodle Arms' on mobile), the arrow labels updating to the style shown",
+      "learn": "After the style count, prove it by cycling a two-word pair through styles with an arrow label naming each: the number becomes tangible",
+      "reconstruction": {
+        "layout": "~1120px; top band cream ~390px with the numeral centred-left (~420px wide) crossing into the blue band; 'Styles' block to its right; word pair centred in the blue band, labels absolutely positioned left of line 1 and right of line 2",
+        "typography": "'74' ~300px Tofino Black blue; 'Styles' ~80px Tofino Narrow 800 grey-brown; sub ~30px Tofino Wide 400; 'DAILY' ~160px Medium caps cream; 'Driver' ~197px Black Narrow; labels ~26px Condensed with arrows",
+        "palette": [
+          "#9dc5ca",
+          "#fbf4ee",
+          "#7a6e66",
+          "#aacbcf"
+        ],
+        "behaviour": "Draft.js tester lines with public-TypeTester-animate / -fadein classes: word pair and style rotate on a timer; labels follow",
+        "content": "Surf-and-van word pairs (Daily Driver, Tidal …, Noodle Arms)",
+        "assets": "none",
+        "html": ".bg-blue-main > h2 (74 + Styles) + .public-TypeTester > .DraftEditor-root .tester-line.js-line.public-TypeTester-animate + .SeventyFourLabel-left/right"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "breezy, surf-van",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "On coral, one short slider with a thin 'T' and a black 'T' at its ends above four centred cream lines, each in another width: 'Slightly Squared' (Condensed), 'Fresh And Relaxed' (Narrow), 'Made For The Screen' (Regular), 'Full Of Features' (Wide); a row of five line-drawn VW vans along the bottom",
+      "feel": "Playful, easy-going",
+      "ux": "Dragging the slider steps all four lines through weights 100–900; each line is editable; the vans say 'Beep!' when poked",
+      "learn": "Make each tester line a selling point in a different width, driven by one weight slider: the four widths and nine weights are explored with a single control",
+      "reconstruction": {
+        "layout": "~770px; slider ~380px wide centred at top with end labels; four lines centred, ~110px pitch; van icons ~140px wide spaced evenly at the bottom edge",
+        "typography": "Lines ~72px in Tofino Condensed, Narrow, Regular, Wide at the slider weight (default 500), title case; end labels 'T' ~20px at wght 100 and 900",
+        "palette": [
+          "#ee7b72",
+          "#fff6f0",
+          "#ed938a",
+          "#f1b4ac"
+        ],
+        "behaviour": "input[type=range] min 100 max 900 step 100 value 500 sets font-weight on all lines; contenteditable lines; van SVG hover/click shows 'Beep' / 'Beep!' / 'Beep Beep!' text",
+        "content": "Four marketing phrases describing the face",
+        "assets": "Line-drawn VW camper van SVG",
+        "html": "input.Slider_input[type=range][step=100] + .public-TypeTester[contenteditable] ×4 (font-family-tofino-condensed / -narrow / default / -wide) + svg vans with title 'Van icon'"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "friendly, generous",
+        "mobile": "adapts",
+        "destination": "distributor",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": false,
+        "free": true
+      },
+      "look": "First a split panel: a photo of two printed 'WEST COAST SWISS' poster specimens on wooden boards beside 'Put it on your computer, get it in the mail' and a coral 'GET TOFINO' pill; then on sea-blue with a giant faint Lost Type swash, '↓ Find it at Lost Type' and two package columns 'Tofino' (18 styles) and 'Tofino Pro' (74 styles) with prices and coral pills",
+      "feel": "Warm, low-pressure",
+      "ux": "Buttons link to the Lost Type product pages; copy explains pay-what-you-want personal licences and $80 / $160 commercial licences with posters shipped",
+      "learn": "Sell the physical bonus (a mailed poster specimen) with a photo of it right before the price: the licence feels like a gift",
+      "reconstruction": {
+        "layout": "Promo ~700px: photo ~940px left, cream text column ~500px right, centred; packages ~570px: heading centred, two columns ~380px each, pills ~320×50px",
+        "typography": "Promo heading ~36px Tofino Light; package names ~56px Tofino Light; body ~16px Regular; pills ~13px Tofino Wide Bold caps tracked",
+        "palette": [
+          "#f6f4f1",
+          "#955628",
+          "#9dc5ca",
+          "#abccd0",
+          "#ef7a6f"
+        ],
+        "behaviour": "none",
+        "content": "'18 styles of Tofino. Pay what you want for a Personal Licence. The Commercial Licence is $80 and includes a rad poster specimen shipped to your door.' / Pro: 74 styles, $160, two posters",
+        "assets": "Photo of printed poster specimens; Lost Type swash watermark",
+        "html": "a[href*='losttype.com/font/?name=tofino'] and ?name=tofinopro buttons"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "punny, surfy",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "word",
+        "interactive": true
+      },
+      "look": "On cream, 'Tofino': nine right-aligned roman style names (Thin … Ultra) each beside an italic surf pun in that weight ('Just A Thin Wetsuit', 'The Waves At First Light', 'Can't Learn It From A Book', 'I'll Surf The Ultra Waves'); then 'Tofino Pro': four columns of Condensed, Narrow, Regular and Wide style names set in themselves, notes on the optically adjusted Text styles, and a 'GET' pill per package",
+      "feel": "Witty, tidy, catalogue",
+      "ux": "Every sample line is editable (33 contenteditable fields); Get buttons link to the store",
+      "learn": "Write a pun for each weight that uses the weight's name ('Bold Is Gold'): visitors read the whole list for the jokes and see every italic",
+      "reconstruction": {
+        "layout": "~2190px; centred container ~1000px; two-column table for the nine weights (names right-aligned ~260px, italics left ~600px), ~60px row pitch; Pro grid 4 columns ~300px; text-style notes in 2 columns; package description left + pill right; grey rule between packages",
+        "typography": "Rows ~48px Tofino Thin → Ultra, names roman, puns italic; Pro grid ~30px in each width and weight, italics; notes ~16px Text Book/Medium with italic emphasis",
+        "palette": [
+          "#fdf7ef",
+          "#7a6e66",
+          "#ef7a6f",
+          "#d9d2ca"
+        ],
+        "behaviour": "contenteditable samples; no controls",
+        "content": "Surf puns per weight; plain style names for Pro widths",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "road-trip, badge-like",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "grid"
+      },
+      "look": "'WEST COAST TRIPPING / Illustrations by Kendrick Kidd' in outlined slab caps, then a 2×2 grid of grey square posters in coral, blue and white line art: a Pacific Coast route map, a trip-essentials checklist, a Trestles destination badge, a 'Transportation & Lodging' 4×4 truck, all labelled in Tofino",
+      "feel": "Adventurous, outdoorsy, merch-like",
+      "ux": "static",
+      "learn": "Commission an illustrator to make infographic posters for the theme (route, checklist, destination): the font gets shown doing small labels and big headings at once",
+      "reconstruction": {
+        "layout": "~1260px; heading left-aligned at ~240px; posters ~460×460px in a 2-column grid with ~36px gaps, centred",
+        "typography": "Heading ~44px outlined slab caps (illustration lettering); poster labels Tofino Wide/Condensed caps 8–40px",
+        "palette": [
+          "#b0c6ca",
+          "#d1d3d4",
+          "#e6e5e5",
+          "#ee7c72"
+        ],
+        "behaviour": "none",
+        "content": "Road-trip travel graphics (Highway 101 route, gear checklist, Trestles surf spot)",
+        "assets": "Four commissioned vector posters"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "specimen-showcase",
+      "variant": "themed-infographic",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "useful, calm, coastal",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "grid"
+      },
+      "look": "A pale-blue board of cream cards making a 'Surf Report, Cox Bay, Tofino': framed title card with surfboard icons, a calendar on today's date ('20 October 2026'), a 'Currently' card with wind, sun and wave icons, a 'Live tide predictions' area chart, a green map with a compass rose, and a High/Low tide table",
+      "feel": "Practical, friendly, app-like",
+      "ux": "Calendar, weather and tide data are fetched live for the visitor's date; the weather API had failed in the capture (0.0 MPH, NaN°C); no inputs",
+      "learn": "Build a small real dashboard on the theme (tides, weather, dates): numerals, tables and chart labels in the face prove it works as UI",
+      "reconstruction": {
+        "layout": "~1500px of the block; cards on a pale-blue board, staggered: title card ~860×480px centred; calendar ~470px + 'Currently' ~1200px row; chart ~860px centred; map ~640px + tide table ~670px row; ~32px gaps",
+        "typography": "Title ~40px Tofino Light; date '20' ~72px Wide Thin; calendar ~14px tabular; card headings ~24px Medium; tide table ~16px with tnum, italic High/Low; chart labels ~10px",
+        "palette": [
+          "#f7f4ed",
+          "#dceaeb",
+          "#cadcda",
+          "#98cb9b",
+          "#ee7c72"
+        ],
+        "behaviour": "react-day-picker calendar highlighting today; Chartist line/area chart of tide predictions; weather fetched on load",
+        "content": "Live tide heights and times for Cox Bay, current weather, today's date",
+        "assets": "Surfboard and weather line icons; map illustration with compass",
+        "html": ".DayPicker (DayPicker-Day), .ct-grid/.ct-label (Chartist), table.tnum"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "helpful, product-minded",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "single"
+      },
+      "look": "At the end of the surf board, a cream card of UI components set in Tofino (coral 'Do an Action' button, 'Make a choice' selects and open dropdown, green on/off switches, search field, coral-knob slider) titled 'The Tofino UI Kit' with a 'DOWNLOAD THE UI KIT →' link",
+      "feel": "Generous, practical",
+      "ux": "Download link to a free Illustrator/Sketch UI kit on Dropbox",
+      "learn": "Give designers a free UI kit in the font: the specimen leaves them with a working file, not just a picture",
+      "reconstruction": {
+        "layout": "Card ~860px centred, ~500px tall; 3-column component grid then centred title, paragraph and outlined link",
+        "typography": "Component labels ~14px Tofino Regular; title ~24px Medium; paragraph ~16px; link ~13px Wide Bold caps coral",
+        "palette": [
+          "#fdf7ef",
+          "#ee7c72",
+          "#98cb9b",
+          "#d9d2ca"
+        ],
+        "behaviour": "Static mock components",
+        "content": "'This UI kit is free to download and use in your personal web projects. A licence for Tofino is still required for any commercial use.'",
+        "assets": "UI kit image; downloadable .ai/.sketch files"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "game-like",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "goofy, self-aware",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "single"
+      },
+      "look": "Sea-blue panel: thin 'Ready for the Future' at display size and a short paragraph left with a teal 'TELL ME THE FUTURE' pill and the footnote '*Doesn't actually predict the future'; right, a flat coral iPhone whose screen is a Magic 8 Ball triangle reading 'The future is clear with Tofino'",
+      "feel": "Jokey, charming",
+      "ux": "Pressing the button animates the 8-ball and shows a new answer set in Tofino on the phone screen",
+      "learn": "Demonstrate 'designed for screens' with a tiny toy that runs on a phone mockup: the joke carries a real claim about small UI text",
+      "reconstruction": {
+        "layout": "~820px; two equal columns: text ~560px left, phone illustration ~300×600px centred right",
+        "typography": "Headline ~117px Tofino Thin (wght 200), leading ~1.1; paragraph ~18px; button ~13px Wide Bold caps; 8-ball text ~16px centred in the triangle",
+        "palette": [
+          "#9ec5ca",
+          "#292928",
+          "#ee7c72",
+          "#aacbcf"
+        ],
+        "behaviour": "Button click → shake animation (.animate) and random answer swap in the triangle",
+        "content": "Magic 8-ball answers about Tofino",
+        "assets": "Flat iPhone SVG with 8-ball screen"
+      }
+    },
+    {
+      "blocks": [
+        "09",
+        "10"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "helpful, repeating",
+        "mobile": "adapts",
+        "destination": "distributor",
+        "pricesOnPage": false,
+        "licenceOptions": true,
+        "trial": false,
+        "free": false
+      },
+      "look": "A teal strip 'Licensing For Digital Projects' pointing web and app users to Alanna Munro Type Foundry, then the mailed-specimen promo again with a different photo (folded 'WEST COAST SWISS' prints on burlap) and a 'GET TOFINO' pill",
+      "feel": "Practical, reassuring",
+      "ux": "The strip links to the designer's own foundry for digital licences; the pill to Lost Type",
+      "learn": "Right after the 'made for screens' pitch, answer 'how do I licence it for web?' in one line",
+      "reconstruction": {
+        "layout": "Strip ~210px full width, centred two lines; promo ~670px: photo ~600px left on cream, text column right",
+        "typography": "Strip title ~24px Tofino Bold white; body ~16px; promo as in the first promo (~36px Light heading, coral pill)",
+        "palette": [
+          "#6aa7ab",
+          "#fef7f0",
+          "#574e48",
+          "#ee7c72"
+        ],
+        "behaviour": "none",
+        "content": "Licensing pointer; poster promo",
+        "assets": "Photo of folded poster specimens"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "language-support",
+      "variant": "multiscript-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "welcoming, simple",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": false
+      },
+      "look": "On coral, one thin question at display size, '¿Qué idioma hablas?', over a row of six language names (English, Finnish, Polish, Spanish, Vietnamese, Czech) with the active one marked ↑ Spanish ↑, and 'Support for over 200 Latin-based languages' in bold below",
+      "feel": "Friendly, conversational",
+      "ux": "Clicking a language translates the question ('What language do you speak?', 'Mitä kieltä puhut?'…) into it; the row likely also auto-cycles",
+      "learn": "Ask 'what language do you speak?' in the visitor's language: one translated question proves diacritic coverage more personally than a list",
+      "reconstruction": {
+        "layout": "~700px; question centred at ~40%; tabs evenly spaced across ~860px; statement centred below",
+        "typography": "Question ~72px Tofino Thin/Light; tabs ~16px Regular at 70% opacity, active Bold with ↑ arrows; statement ~24px Bold",
+        "palette": [
+          "#ee7c72",
+          "#ffffff",
+          "#ed9289"
+        ],
+        "behaviour": "Buttons swap the question text; hidden spans (speak-none) hold the other translations",
+        "content": "'What language do you speak?' in six languages",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "calm, coastal, light-hearted",
+        "mobile": "adapts",
+        "subject": [
+          "features"
+        ],
+        "presentation": "toggle",
+        "explanation": "caption"
+      },
+      "look": "'An Ocean of Features': a tall gradient of sea blues descending in layered wave bands, each band one OpenType demo under a pill toggle: FRACTIONS ON → 'SURF HEIGHT 13 5/16\"', TABULAR NUMBERS OFF → a tide table, SUPERSCRIPTS ON + CASE-SENSITIVE FORMS ON → 'SEAWATER COMPOSITION (SALINITY ≈ 3.5%)¹', SUBSCRIPTS ON → 'H₂O + NaCl + SO₄', OLD-STYLE NUMBERS ON → latitude sentence; line-drawn fish swim at the sides",
+      "feel": "Serene, educational, playful",
+      "ux": "Each pill is a hidden checkbox that flips its feature on the sample below and relabels itself ON/OFF (coral when off)",
+      "learn": "Give every feature a themed real-world sample (surf height, tide table, salinity) and let the depth of the colour bands carry you down the list",
+      "reconstruction": {
+        "layout": "~3720px; full-bleed bands ~600px each, darker blue with depth; SVG wave dividers between bands; pill ~270×50px centred; sample centred under it; fish illustrations at left or right edges",
+        "typography": "Title ~56px Tofino Thin; pills ~11px Wide Bold caps tracked; 'SURF HEIGHT' ~28px tracked caps + '13 5/16\"' ~175px Black Wide; tide table ~36px Light; salinity line ~48px Light tracked caps; formula ~52px; old-style sentence ~36px",
+        "palette": [
+          "#6da8ae",
+          "#86b7bc",
+          "#90bec1",
+          "#5c9ba2",
+          "#ee7c72",
+          "#ffffff"
+        ],
+        "behaviour": "label > input[type=checkbox].hide value=frac|tnum|sups|case|subs|onum toggles a class on the sample (frac / tnum-off / sups / case / subs / onum)",
+        "content": "Surf height, tide times, seawater salinity, chemical formula, latitude of the inlet",
+        "assets": "Line-drawn fish (silver surfperch, coho salmon, sturgeon), SVG waves",
+        "html": "label.inline-block > input[type=checkbox].hide[value=frac] + pill; sample div.frac / .tnum-off / .sups.case / .subs"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "personal, candid, moody",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "photo",
+          "archival"
+        ],
+        "length": "long"
+      },
+      "look": "'MAKE WAVES / HOW TOFINO CAME TO BE' in thin wide caps, then a magazine-style essay: large thin pull quotes with vertical rules, desaturated West Coast photos (surfer, van in the forest, misty bay, hiker) with thin offset frames, narrow text columns, and a 'ROME' comparison set in the 1922 Grotesca Ideal against Tofino",
+      "feel": "Reflective, cinematic, honest",
+      "ux": "static long read",
+      "learn": "Tell the making-of as a personal story (a trip, a 1922 specimen, a newborn, one-handed drawing) and show the source letterform next to the result",
+      "reconstruction": {
+        "layout": "~4760px; centred container ~1000px; alternating text column (~470px) and photos (~500–960px) that bleed to one edge; pull quotes ~520px with a 1px vertical rule; offset 1px white frames over photos; ROME comparison ~460px left of a text column",
+        "typography": "Title ~100px Tofino Wide Thin caps teal + ~16px tracked subtitle; pull quotes ~40px Tofino Light/Thin grey; body ~16px Tofino Text Book, leading ~1.5; 'ROME' ~150px in Grotesca Ideal (black, textured) then Tofino (teal)",
+        "palette": [
+          "#fbf5ed",
+          "#4d5554",
+          "#6d6f6e",
+          "#6da8ae"
+        ],
+        "behaviour": "none",
+        "content": "First-person history: a week in Tofino in 2014, the 1922 Richard Gans Grotesca Ideal specimen as source, Tofino 1.0 (2016), 2.0 with italics (2017), expansion to 74 styles",
+        "assets": "Photos by Mackenzie Duncan; scan-like rendering of Grotesca Ideal"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "friendly, closing",
+        "mobile": "adapts",
+        "destination": "distributor",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": false,
+        "free": true
+      },
+      "look": "The 'Find it at Lost Type' package panel repeated after the essay: Tofino and Tofino Pro columns with prices and coral GET pills on sea-blue with the Lost Type swash",
+      "feel": "Consistent, low-key",
+      "ux": "Same links as the first panel; it catches readers who finished the story",
+      "learn": "Repeat the identical buy panel after the long read so readers don't have to scroll back up",
+      "reconstruction": {
+        "layout": "Identical to the first package panel (~570px)",
+        "typography": "As the first panel",
+        "palette": [
+          "#9dc5ca",
+          "#abccd0",
+          "#ef7a6e",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Package descriptions and prices",
+        "assets": "Lost Type swash watermark"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "newsletter",
+      "variant": "email-signup",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "personal, polite",
+        "mobile": "adapts"
+      },
+      "look": "Pale blue-grey band: thin 'Stay Up To Date', a line about Alanna Munro's lettering and type projects, a white email field, a coral 'SUBSCRIBE' pill, '…and you can follow @alannamun here.' and a privacy note",
+      "feel": "Quiet, personal",
+      "ux": "MailerLite form posts in a new tab; Twitter link",
+      "learn": "Make the newsletter about the designer, not the font: the specimen becomes the entry point to a person's work",
+      "reconstruction": {
+        "layout": "~510px; centred column ~450px; input ~450×55px, pill ~240×55px below",
+        "typography": "Heading ~44px Tofino Thin; text ~18px Regular; button ~13px Wide Bold caps; note ~11px",
+        "palette": [
+          "#d9e1e9",
+          "#7a6e66",
+          "#ee796e",
+          "#fafafa"
+        ],
+        "behaviour": "form[action=app.mailerlite.com…] target=_blank",
+        "content": "Sign-up copy",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "footer",
+      "variant": "personal-sign-off",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "warm, grateful",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "sign-off"
+        ]
+      },
+      "look": "Thin 'Thank you' heading and three short paragraphs thanking family, reviewers, the illustrator, UI-kit helper, photographer and web developer, signed '—Alanna Munro', over a misty photo of a woman on a boardwalk through marsh",
+      "feel": "Heartfelt, homely",
+      "ux": "Names link to each contributor's site and to losttype.com and alannamunro.com",
+      "learn": "Close with a thank-you letter that credits family and collaborators by name: credits become a human ending",
+      "reconstruction": {
+        "layout": "~800px; text column ~700px centred in the top half; full-width landscape photo fading in from the background colour in the bottom half",
+        "typography": "Heading ~40px Tofino Thin; body ~16px Tofino Text Book with underlined links; signature indented",
+        "palette": [
+          "#d9e1e8",
+          "#c7cdd2",
+          "#49362c",
+          "#e3e7e8"
+        ],
+        "behaviour": "none",
+        "content": "Personal thanks and credits (Kendrick Kidd, Cody Jones, Mackenzie Duncan, Kenneth Ormandy)",
+        "assets": "Landscape photo by Mackenzie Duncan"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/name-over-photo",
+    "family-overview/big-number-stats",
+    "type-tester/slider-sandbox",
+    "checkout/link-out-cta",
+    "family-overview/style-word-grid",
+    "specimen-showcase/poster-series",
+    "specimen-showcase/themed-infographic",
+    "specimen-showcase/in-use-mockups",
+    "checkout/link-out-cta",
+    "language-support/multiscript-specimen",
+    "design-details/feature-before-after",
+    "story/essay",
+    "checkout/link-out-cta",
+    "newsletter/email-signup",
+    "footer/personal-sign-off"
+  ]
+}

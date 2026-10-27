@@ -1,0 +1,289 @@
+{
+  "slug": "gt-cinetype-com",
+  "extractedBy": "agent",
+  "summary": "A black-and-white cinema page for a typeface descended from a laser film-subtitling machine: a wall of 20 looping title-sequence videos, then one movie-themed specimen page per weight (Pulp Fiction, Schwarzenegger, Star Wars/Trek, technical film specs in Mono), each followed by a grid of film clips subtitled in GT Cinetype, ending with credits that roll like a film's.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "kinetic-type",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "cinematic, sci-fi, grainy",
+        "mobile": "adapts",
+        "carrier": "motion",
+        "cta": "none",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "A 4×5 wall of square greyscale video loops: chemical-element tiles ('Au 79', 'Mo 42', 'Pb 82', 'Cr 24'), timecode counters ('81 00:00:03:09'), spinning and laser-drawn 'CINETYPE' logos, 'TELEPATH', 'HEADACHE', 'EVOL', a spiralling burst, all over grainy landscape footage",
+      "feel": "Retro sci-fi opening titles, analogue film grain",
+      "ux": "Nothing to click; all tiles autoplay muted. A tiny speaker button at the left edge (fixed) plays a looping soundtrack. Before the page, a loader video shows an old TV in a dark room reading 'PLEASE WAIT'",
+      "learn": "A mosaic of short title-sequence loops shows a font across many moods at once: each tile is a tiny film title card",
+      "reconstruction": {
+        "layout": "Full-bleed grid, 4 columns × 5 rows of 360×360px tiles (1440×1800, two viewports), no gaps; each tile a video with object-fit cover",
+        "typography": "Inside the videos: GT Cinetype Regular/Light/Italic at ~60–120px in tile scale, outline and laser-line renderings, small timecodes ~20px",
+        "palette": [
+          "#151515",
+          "#303030",
+          "#4f4f4f",
+          "#6d6d6d",
+          "#909090"
+        ],
+        "behaviour": "20 <video autoplay muted loop playsinline> tiles; loaded only on non-touch devices (lazysizes conditional include 'animation-grid.html (desktop), gifs.html' swaps in GIFs on touch); loader video #yopleasewait ~4s; #pButton toggles an <audio loop> soundtrack",
+        "content": "Sci-fi words, element symbols with atomic numbers, film timecodes, the family name",
+        "assets": "20 square 400px H.264 loops (grain, nature footage, laser-line type), loader video, MP3 soundtrack",
+        "html": "#animation-grid > .animation-grid-item > .animation-grid-item-info + video; header nav > audio#music + button#pButton.play"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "concise, factual",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "A white band with three short columns of small dark text: the Cinetype company, the interpretation, the obsolescence of laser subtitling",
+      "feel": "Quiet pause after the video wall, like a film programme note",
+      "ux": "static",
+      "learn": "After a loud hero, a white strip of three small columns is enough to tell the origin; the contrast makes it read like a printed note",
+      "reconstruction": {
+        "layout": "Full-width white band ~246px tall; three columns at x≈50, 520, 990, each ~420px wide, top-aligned",
+        "typography": "~18px GT Cinetype Regular, leading ~1.4, dark grey on white",
+        "palette": [
+          "#fbfbfb",
+          "#2b2b2b",
+          "#afafaf"
+        ],
+        "behaviour": "none",
+        "content": "Real history: Swiss company Cinetype, laser that erased the film's coloured layer to set subtitles; designers Mauro Paolozzi and Rafael Koch",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "04",
+        "06",
+        "08"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "pop-culture, cheeky, cinematic",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Four black specimen pages, one per style pair, each labelled at top-left ('GT Cinetype Light / Italic — Pulp Fiction', 'Regular / Italic — Arnold Schwarzenegger', 'Bold / Italic — Star Wars / Star Trek', 'Mono — Technical specifications and statistics'): a giant quote ('BRING OUT THE GIMP', 'Right? Wrong!', 'MAY THE FORCE BE WITH YOU', 'CinemaScope'), a subtitled film clip beside a second size, then a paragraph and small text; the Mono page swaps the clip for a top-10 box-office table and film-format specs",
+      "feel": "Fan-made, funny, loud",
+      "ux": "Read-only; the clips loop silently",
+      "learn": "Give each weight its own film genre and quote it at five fixed sizes: the series doubles as a family overview and a size waterfall, and the Mono page proves itself with tabular numbers",
+      "reconstruction": {
+        "layout": "Each page ~1600–2000px tall: 10px label at x=24,y=24; size0 line(s) full width from x=24; then a two-column row: square video ~690px at x=24 and text column from x≈740 (size1 or size3 list); then size2 paragraph full width; Mono page: size0 then size1 left + size2 right, table left + numbered spec list right",
+        "typography": "size0 234–360px (Light 'BRING OUT', Regular 'Right?' 360px, Bold 'MAY THE FORCE…' 243px uppercase, Mono 'CinemaScope' 189px); size1 ~120px; size2 ~64px; size3 dialogue ~28px; size4 Mono specs ~14px; italics mixed in mid-line ('THE GIMP', 'Wrong!', 'you drink beer', 'the final frontier'); label 10px Regular",
+        "palette": [
+          "#0a0a0a",
+          "#ffffff",
+          "#2c2c2c",
+          "#6d6d6d"
+        ],
+        "behaviour": "One <video autoplay muted loop> per page (GIF fallback on touch); no scroll effects",
+        "content": "Famous film quotes per weight, a Pulp Fiction dialogue transcript, a box-office top 10 (Avatar $2,787,965,087…), CinemaScope and Zeiss ƒ/1:3 specs with circled numbers",
+        "assets": "Greyscale subtitled film clips (MP4 + GIF) for each page",
+        "html": ".specimen.specimen-light|regular|bold|mono.specimen-w-on-b > span.weight-info + .specimen-block.specimen-block-size0…size4 (+ .specimen-block-full-width); italic via span.light-italic"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "05",
+        "07"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "cinematic, nostalgic",
+        "mobile": "adapts",
+        "medium": "video",
+        "sequence": "grid"
+      },
+      "look": "After each specimen page, a 2×2 grid of greyscale film clips with white subtitles set in GT Cinetype ('They call it a Royale with cheese.', 'I'll be back', 'No. I am your father.', 'Oh, how careless of your wife…')",
+      "feel": "Late-night cinema, familiar lines",
+      "ux": "Autoplaying muted loops, nothing to click",
+      "learn": "Show the font doing the job it was born for (film subtitles) on clips everyone recognises",
+      "reconstruction": {
+        "layout": "1200px-tall band; 2×2 grid of ~600×600 videos centred (x=120–1320), black margins",
+        "typography": "Subtitles ~28px GT Cinetype Regular, white, centred near the bottom of each clip, as in real subtitles",
+        "palette": [
+          "#111111",
+          "#2f2f2f",
+          "#6f6f6f",
+          "#b0b0b0"
+        ],
+        "behaviour": "Four <video autoplay muted loop> per band, GIF fallback",
+        "content": "Iconic lines from Pulp Fiction, Terminator, Star Wars and Star Trek",
+        "assets": "12 short greyscale film clips with burnt-in subtitles",
+        "html": ".video-intermission > video×4"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Two thin-outlined boxes on black, far apart: 'Download free trial fonts' and 'Buy GT Cinetype'",
+      "feel": "Minimal, almost an afterthought",
+      "ux": "Both open Grilli Type in a new tab",
+      "learn": "After a loud page, two quiet boxes keep the sales step out of the show",
+      "reconstruction": {
+        "layout": "400px band; two boxes ~360×76px at x=180 and x=900",
+        "typography": "~18px GT Cinetype Regular, white, centred",
+        "palette": [
+          "#010101",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Trial and buy",
+        "assets": "none",
+        "html": "#outside-links > .outside-links-box > a[target=_blank]"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "brand family",
+        "mobile": "adapts"
+      },
+      "look": "13 outlined boxes in two columns plus one centred below: 'GT Haptik Minisite', 'GT Eesti Minisite' … 'GT Planar Minisite'",
+      "feel": "Index-like",
+      "ux": "Each box links to a sibling microsite",
+      "learn": "Re-use the CTA box style for cross-links so the end of the page reads as one control panel",
+      "reconstruction": {
+        "layout": "Two stacks of ~360×76px boxes sharing borders at x=180 and x=900, Planar box centred below",
+        "typography": "~18px GT Cinetype Regular, white",
+        "palette": [
+          "#030303",
+          "#ffffff",
+          "#2b2b2b"
+        ],
+        "behaviour": "none",
+        "content": "List of Grilli Type minisites",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "film end-credits",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "A greyscale Spock clip centred on black with credits rolling upward over it: 'Character Design: Mauro Paolozzi … Rich Producer: Noël Leu'",
+      "feel": "Witty, end-of-movie",
+      "ux": "Credits scroll up continuously; names link to personal sites",
+      "learn": "Write the colophon as film credits with film roles ('Script Supervisor', 'Rich Producer') and roll them over footage",
+      "reconstruction": {
+        "layout": "~555px band; ~600px-wide video centred; credit list centred over its lower half",
+        "typography": "~18px GT Cinetype Regular, white, centred, one credit per line",
+        "palette": [
+          "#0f0f0f",
+          "#6e6e6e",
+          "#888888",
+          "#ffffff"
+        ],
+        "behaviour": "<marquee direction=up scrollamount=3> rolls the list; background video loops",
+        "content": "Real credits rewritten as movie roles",
+        "assets": "Greyscale Star Trek clip",
+        "html": "#credits > marquee[behavior=scroll][direction=up] > ul > li"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/kinetic-type",
+    "story/origin-reference",
+    "specimen-showcase/poster-series",
+    "specimen-showcase/in-use-mockups",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

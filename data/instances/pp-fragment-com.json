@@ -1,0 +1,475 @@
+{
+  "slug": "pp-fragment-com",
+  "extractedBy": "agent",
+  "summary": "Pangram Pangram × Locomotive microsite for a four-cut family (Sans, Glare, Serif, Text), black and monochrome. 3D renders of glass letter shards float and rotate as you scroll, and letters 'roll' through the four cuts like a slot machine. Three Randomize buttons do the specimen work: re-styling a sentence across cuts, shuffling posters over architecture photos, and so on. The rest is a standard sequence: glyph set, sampler, language list, then buy / try / wallpaper cards.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "luxurious, mysterious",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "buy",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "Black screen, centred 'PP / FRAGMENT' in white high-contrast caps flanked by circled numerals ⓶⓪ ⓶⓶, the four cut names SANS · GLARE · SERIF · TEXT spaced under the name, floating 3D glass shards around it; bottom-left 'A New 【Free to Try】 Font by Francesca Bolognini & Mathieu Desjardins', bottom-right 'Available exclusively at pangrampangram.com'",
+      "feel": "Elegant, cinematic",
+      "ux": "Long black loader (~8s, small spinner) before the hero; each letter rolls vertically through the four cuts at its own speed (1.3–2.3s); shards drift; fixed top bar with 'GET THE FONT'; 'Table of Contents' tab on the left edge",
+      "learn": "Let every letter of the name cycle through the cuts at a different speed: the wordmark itself shows that the four styles share one skeleton",
+      "reconstruction": {
+        "layout": "Full viewport 1440×900; name centred, two lines ('PP' ~140px, 'FRAGMENT' ~144px); cut labels spread across the name's width 10px below; circled year left/right of 'PP'; credit lines 13px at bottom corners (40px inset); 60px left rail with rotated 'Table of Contents' and a hamburger",
+        "typography": "Name PP Fragment (Serif/Glare cycling) ~144px caps, wght 300–400, tight leading; labels 10px caps; UI PP Fragment Sans 11px caps",
+        "palette": [
+          "#020202",
+          "#f9f9f9",
+          "#747474",
+          "#2d2d2d"
+        ],
+        "behaviour": "o-rolling-text: each glyph is a vertical strip of the same character in Sans / Glare / Serif / Text that translates in a loop (per-letter --rolling-text-duration); glass shard PNGs (c-overlap) float with translate/rotate; text lines fade in by character (o-at)",
+        "content": "Name, year, cut names, credits",
+        "assets": "Rendered 3D glass shard PNGs",
+        "html": "span.o-rolling-text > .o-rolling-text_item[style=--rolling-text-duration] > .o-rolling-text_inner > span.o-rolling-text_letter[style=font-family: var(--font-family-sans|glare|serif|text)] ×4"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "refined, promotional",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "Two large light paragraphs in staggered columns ('PP Fragment is born from vintage lettering and signs… ✳ Pangram Pangram's 35th release…' left, 'Gracefully oscillating between an elegant, highly contrasted Serif…' right and lower), a 3D render of a crouching glass figure holding an 'A', a hairline spec table (Styles 4 Cuts × 9 Styles with 581 Glyphs each; Designers; Release Date June 2022; Version 1.00; Available Formats) and two small text columns, with a 'READ THE INTERVIEW ON PP® FOUNDRY' outlined button",
+      "feel": "Calm, premium",
+      "ux": "Text reveals character by character in view; the button links to the foundry journal article",
+      "learn": "Pair the intro with a compact spec table (styles, designers, date, version, formats) so facts don't clutter the prose",
+      "reconstruction": {
+        "layout": "Content from x=62 (left rail) to 1440; paragraph 1 cols 1–5 (~500px), paragraph 2 cols 7–11 starting ~500px lower; render ~500×560px bottom-left; spec table 520px wide with 1px rules, 2 columns (label 260px / value); small text 2 columns of ~260px right",
+        "typography": "Paragraphs PP Fragment Glare/Serif wght 200 ~48px, leading 1.05, white; table and small text PP Fragment Sans/Text ~14px",
+        "palette": [
+          "#050505",
+          "#f9f9f9",
+          "#282828"
+        ],
+        "behaviour": "Character-stagger fade-in (o-at); shards drift",
+        "content": "Positioning copy, release facts",
+        "assets": "3D render of a glass figure (PNG)",
+        "html": "#introduction .s-intro; dl.o-dl rows; a[href*=blogs/journal/fragment].c-button"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "big-number-stats",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bold, cinematic",
+        "mobile": "adapts",
+        "structure": "stats",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "'4 CUTS / 9 STYLES / 581 GLYPHS' in huge thin white caps on three staggered lines, while a large glass 3D 'a' rotates in behind them",
+      "feel": "Dramatic, airy",
+      "ux": "The section is pinned (~3600px of scroll): glass letter renders swing in (translate + rotate) behind the stats; the figures and words roll through the four cuts",
+      "learn": "Keep the stats ultra-thin and huge and put a slowly turning 3D letter behind them: the numbers read as a title card",
+      "reconstruction": {
+        "layout": "Sticky full-viewport stage; lines left-aligned at x≈80, right-aligned to ~1420, and centred ~250px; ~180px line pitch; glass render ~700px centred behind",
+        "typography": "PP Fragment wght 200 ~173px caps, rolling-text through Sans/Glare/Serif/Text",
+        "palette": [
+          "#050505",
+          "#f9f9f9",
+          "#4d4d4d"
+        ],
+        "behaviour": "c-overlap items: opacity 0 → 1 with transforms like translate(50%,−25%) rotate(20deg) → 0 as scroll progresses; rolling text per character",
+        "content": "Family numbers",
+        "assets": "Three rendered glass 'a' PNGs (a-1/2/3.png)",
+        "html": ".s-info.o-sticky-section > .c-overlap .c-overlap_item ×3 + .s-info_inner p.s-info_item > .o-rolling-text"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "type-tester",
+      "variant": "creative-toy",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "playful, editorial",
+        "mobile": "adapts",
+        "controls": [
+          "presets"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "'From Sans to Serif': a white rounded card on black with a marquee 'UNLIMITED COMBINATIONS ● AND SO MANY POSSIBILITIES ✳', a RANDOMIZE button, and a sentence broken into numbered phrases '① SO MANY THINGS ②〖ARE POSSIBLE〗 AS LONG AS ③ YOU DON'T KNOW ④ THEY ARE IMPOSSIBLE', each phrase in a different cut and weight, staggered across the card",
+      "feel": "Witty, magazine-like",
+      "ux": "Each click on RANDOMIZE re-assigns cut (Sans/Glare/Serif/Text) and weight to every phrase; the marquee scrolls with the page",
+      "learn": "A fixed sentence plus a Randomize button proves the cuts mix well without asking the visitor to configure anything",
+      "reconstruction": {
+        "layout": "Sticky card ~1360×800px, 20px radius, white; marquee strip 24px at the top; button 340×22px centred below; phrases absolutely staggered on 4–6 lines, alternating left and right indents",
+        "typography": "Phrases ~74px caps, mixed PP Fragment cuts at wght 400/700/900; circled numerals ①–④ and 【】 brackets from the font; marquee 24px caps mixing Text and Sans",
+        "palette": [
+          "#fcfcfc",
+          "#050505",
+          "#535353"
+        ],
+        "behaviour": "Button click → random font-family and wght per phrase (character reveal animation); marquee (o-rail) translates with scroll",
+        "content": "Aphorism about possibility, split into numbered phrases",
+        "assets": "none",
+        "html": "#from-sans-to-serif.s-random > .o-rail (o-rail_content ×5) + button.c-button.s-random_button"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "clean, complete",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "select",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Left: a style dropdown 'Sans Regular ↓' (31 styles across Sans, Glare, Serif, Text), the sentence 'Pangram Pangram® Foundry offers you an elegant & retro contemporary new font — Fragment' at ~48px, then the full set in a 13-column white grid; right: a huge sticky preview of the selected glyph ('F')",
+      "feel": "Spacious, precise",
+      "ux": "Hover or click a glyph to show it large on the right (underline marks the active cell); the dropdown switches the whole set to another cut/weight",
+      "learn": "Put every cut and weight in one dropdown so the same grid serves a 31-style family",
+      "reconstruction": {
+        "layout": "Two columns: left ~680px (dropdown 680×30px, sentence, grid of ~50px cells without borders), right ~700px sticky preview with the glyph ~600px tall",
+        "typography": "Grid glyphs ~20px white; preview ~800px font-size; sentence wght 200 ~48px",
+        "palette": [
+          "#060606",
+          "#f9f9f9"
+        ],
+        "behaviour": "o-dropdown with 31 options sets font-family/wght; glyph buttons (s-glyph) update the preview",
+        "content": "Full 581-glyph set",
+        "assets": "none",
+        "html": "#glyph-set .o-dropdown (31 options) + .s-glyph button ×~460 + preview"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "pangram",
+        "tone": "minimal, tool-like",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "weight",
+          "tracking",
+          "leading",
+          "style-select"
+        ],
+        "scope": "single",
+        "defaultText": "pangram",
+        "export": false
+      },
+      "look": "'Font Sampler': four outlined tabs SANS · GLARE · SERIF · TEXT, a row of four sliders with values (Size 225pt, Weight 400, Letter Spacing 0%, Line Height 281pt), and a big white editable textarea 'Sphinx of Black Quartz, Judge My Vow'",
+      "feel": "Straightforward",
+      "ux": "Pick a cut, drag sliders, type in the textarea ('Type in some text' placeholder)",
+      "learn": "Keep the controls in one thin row above the sample so the sample can fill the screen",
+      "reconstruction": {
+        "layout": "Tabs row: 4 equal outlined buttons across 1360px; slider row: 4 equal columns each with label left, value right, 1px track and circular thumb; textarea full width, centred text",
+        "typography": "Sample PP Fragment 225pt (range 10–450), wght 100–900, tracking −10–10%, leading 225–450pt; UI 11px",
+        "palette": [
+          "#030303",
+          "#f9f9f9",
+          "#6f6f6f"
+        ],
+        "behaviour": "Ranges set font-size, wght, letter-spacing, line-height on the textarea; tabs switch font-family",
+        "content": "Pangram 'Sphinx of Black Quartz, Judge My Vow'",
+        "assets": "none",
+        "html": "#font-sampler.s-playground > tabs button ×4; input#playground-size/-weight/-spacing/-height[type=range]; textarea#playground-textarea"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "architectural, moody",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "carousel"
+      },
+      "look": "'Fragment in Use': a rounded frame filled with a B/W architecture photo (curved facades), a black poster in the centre with outlined 'FRAG / GM / ENT' and 'PangramPangram® Foundry', and a small black RANDOMIZE button",
+      "feel": "Gallery-like, cool",
+      "ux": "RANDOMIZE swaps the poster (one of several) and the background photo (one of 8) independently",
+      "learn": "Separate poster and backdrop and randomise both: a few assets give many combinations",
+      "reconstruction": {
+        "layout": "Sticky section; frame ~1360×800px with 20px radius, background image cover; poster ~400×570px centred (aspect 1441:2038); button below the poster",
+        "typography": "Posters are images; button 11px caps",
+        "palette": [
+          "#0d0d0d",
+          "#333333",
+          "#919191"
+        ],
+        "behaviour": "Click toggles .is-visible on one random .s-posters_bg and one random .s-posters_poster (crossfade)",
+        "content": "Poster compositions using the font",
+        "assets": "8 B/W architecture photos, ~6 poster PNGs",
+        "html": "#fragment-in-use.s-posters > .s-posters_bg ×8 + .s-posters_poster ×n (.is-visible) + RANDOMIZE button"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "quiet, elegant",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": false
+      },
+      "look": "Four centred columns of language names (Afrikaans … Turkish, '(And more)') over dim glass 3D letters",
+      "feel": "Understated",
+      "ux": "static; glass letters drift",
+      "learn": "A plain four-column list is enough when the script is Latin only; let the background do the atmosphere",
+      "reconstruction": {
+        "layout": "4 equal columns across ~1100px, centred, ~9 rows each, ~30px row height",
+        "typography": "PP Fragment Glare/Serif ~16px white, centred",
+        "palette": [
+          "#040404",
+          "#f9f9f9",
+          "#4d4d4d"
+        ],
+        "behaviour": "Glass overlap renders move with scroll",
+        "content": "~33 language names",
+        "assets": "Glass letter renders"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "highlighted-in-context",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "poetic",
+        "mobile": "adapts",
+        "subject": [
+          "features"
+        ],
+        "presentation": "animation",
+        "explanation": "none"
+      },
+      "look": "'Special Characters': a centred caps quote 'WHAT STICKS TO MEMORY, OFTEN, ARE THOSE ODD 【LITTLE FRAGMENTS】 THAT HAVE NO BEGINNING AND NO END. †', lines going from thin Serif at the top to bold at the bottom, with the font's lenticular brackets, a dotted 'i' and a dagger",
+      "feel": "Literary, dramatic",
+      "ux": "The weight steps up line by line as the quote scrolls through (s-variable)",
+      "learn": "Show special characters (brackets, dagger) inside a line worth reading instead of in a glyph catalogue",
+      "reconstruction": {
+        "layout": "Quote centred, ~520px column, 10 lines of ~40px; glass letters huge behind",
+        "typography": "PP Fragment Serif/Glare caps ~74px, wght 100 → 900 across lines",
+        "palette": [
+          "#040404",
+          "#f9f9f9"
+        ],
+        "behaviour": "Line weights interpolate with scroll (s-variable)",
+        "content": "Quote about fragments",
+        "assets": "Glass letter renders"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "elegant, inviting",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Three white cards staggered diagonally over a huge rotating glass 'A': '① BUY — BUY PP® FRAGMENT', '② TRY FOR FREE — TRY PP® FRAGMENT FOR FREE', '③ PP® WALLPAPERS — ENJOY PP® FRAGMENT WALLPAPERS', each with a small arrow",
+      "feel": "Polished, generous",
+      "ux": "Buy and Try link to pangrampangram.com/products/fragment; Wallpapers downloads a zip; cards slide in on scroll",
+      "learn": "Add a free goodie (wallpapers) as the third card: visitors who won't buy still leave with the font on their screen",
+      "reconstruction": {
+        "layout": "Pinned stage ~3600px of scroll; cards ~330×280px at offsets (x≈200,y≈280), (x≈550,y≈650), (x≈900,y≈1000); glass 'A' ~900px centred behind",
+        "typography": "Card titles PP Fragment Serif ~34px caps centred, black; card labels 10px caps with circled numerals",
+        "palette": [
+          "#030303",
+          "#f9f9f9",
+          "#d3d3d3"
+        ],
+        "behaviour": "Cards fade/slide in sequentially; glass letter renders rotate with scroll",
+        "content": "Buy / try / wallpapers",
+        "assets": "Glass 'A' renders, wallpaper zip",
+        "html": ".s-push > a[href*=products/fragment] ×2 + a[href=/assets/downloads/fragment-wallpapers.zip][download]"
+      }
+    },
+    {
+      "blocks": [
+        "09",
+        "10"
+      ],
+      "type": "footer",
+      "variant": "big-sign-off",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "elegant close",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal",
+          "sign-off"
+        ]
+      },
+      "look": "'Credits' heading with Typeface (three columns of text) and Visuals ('This (awesome) website — courtesy of Locomotive… Visual Artist @barthur') under hairlines, then a giant white outlined-looking 'Ω' filling the screen with 'Copyright © 2022 Pangram Pangram Foundry / Website by Locomotive' centred inside its counter",
+      "feel": "Final, graceful",
+      "ux": "Links to Locomotive and Pangram Pangram",
+      "learn": "End on the last letter of the Greek alphabet (Ω) and put the legal line inside its counter",
+      "reconstruction": {
+        "layout": "Credits: heading ~34px, then 4 columns (3 typeface text columns ~260px, visuals ~260px) under 1px rules; footer: Ω ~1400px wide occupying ~1500px height, copyright 14px centred in the counter",
+        "typography": "PP Fragment Glare/Serif bold for Ω (~950px font-size); credits text ~14px Sans",
+        "palette": [
+          "#020202",
+          "#f9f9f9",
+          "#353535"
+        ],
+        "behaviour": "none",
+        "content": "Credits and copyright",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed 62px black top bar with a hairline: 'PANGRAM PANGRAM® FOUNDRY + LOCOMOTIVE®' left, 'PP® FRAGMENT' centre (back to top), white 'GET THE FONT' button right"
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "navigation",
+      "variant": "toc-drawer",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Off-canvas left drawer (~510px) opened from the vertical 'Table of Contents' tab: 'Fragment' title, links Introduction · From Sans to Serif · Glyph Set · Font Sampler · Fragment in Use · Special Characters, 'Get 〖the font〗', and Pangram Pangram / Locomotive / Terms / FAQ / Contact"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/large-text-intro",
+    "family-overview/big-number-stats",
+    "type-tester/creative-toy",
+    "glyph-table/glyph-inspector",
+    "type-tester/slider-sandbox",
+    "specimen-showcase/in-use-mockups",
+    "language-support/language-name-list",
+    "design-details/highlighted-in-context",
+    "checkout/link-out-cta",
+    "footer/big-sign-off"
+  ]
+}

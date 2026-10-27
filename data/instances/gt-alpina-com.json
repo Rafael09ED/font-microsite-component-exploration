@@ -1,0 +1,574 @@
+{
+  "slug": "gt-alpina-com",
+  "extractedBy": "agent",
+  "summary": "A cream, centred single page told in colour-coded chapters (purple story, red roman, blue italic, green typewriter, pink family): every chapter heading is a looping morph animation between two labelled states (Thin–Bold, Condensed–Extended, Bland–GT Alpina, Proportional–Typewriter…) with a matching morphing emoji icon. Every paragraph on the page is editable and opens a pointer-driven axis overlay; the page ends with a long labelled specimen of Swiss-Alps copy.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "witty, bookish, playful",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "'GT Alpina' in red at ~230px on cream, each letter a different style (italic G T, bold A, typewriter-italic l, roman p i, italic n, bold a), under a thin three-cell top bar",
+      "feel": "Cheeky, confident, literary",
+      "ux": "Fixed top bar split in three by hairlines: '☁ Download Trial Fonts ↗' left, 'GT Alpina' (back to top) centre, '🛒 Purchase Licensing ↗' right; the bar stays over every section",
+      "learn": "Set each letter of the name in another subfamily (and let them morph) so the wordmark itself previews the seven subfamilies",
+      "reconstruction": {
+        "layout": "Full-width band 1440×450 on cream; name centred horizontally at y≈260 (baseline), spanning x≈210–1250; fixed top bar 28px tall, three equal cells divided by 1px black hairlines, bottom hairline",
+        "typography": "Name ~230px, one <span> per letter, each letter on a different Alpina font/variation (e.g. 'disp 1, wdth 400, wght 1000' bold; Alpina Italic; Alpina Typewriter Italic; Alpina Morph Proportional to Typewriter with mrph ≈ 320–670); top bar links ~11px Alpina Typewriter with emoji glyphs ☁ 🛒 and ↗",
+        "palette": [
+          "#fefcf9",
+          "#ff4040",
+          "#000000"
+        ],
+        "behaviour": "Red full-screen loader with a morphing hourglass emoji ('Loading…', ~1s) before the page; the per-letter morph values in the capture (mrph 319/671) suggest the letters loop through their morph axes; top bar fixed",
+        "content": "Family name only",
+        "assets": "none (emoji icons are glyphs of custom 'Alpina Emoji' fonts)",
+        "html": "header > h1 > span per letter; nav > a×3 (trial, #top link, purchase); #loader with h3.anim-loader-emoji"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "self-aware, warm",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "A centred 9-line paragraph in black at ~40px, then a red party-popper emoji and a second short paragraph about variable fonts",
+      "feel": "Book-like, friendly",
+      "ux": "The paragraph is contenteditable; clicking it opens the axis overlay (default axes Weight × Contrast)",
+      "learn": "Put a playful animated emoji between the 'about' text and the tech note: one tiny drawing breaks a wall of large text",
+      "reconstruction": {
+        "layout": "Centred column 936px wide (x=252), text centred, ~837px tall; emoji ~100px centred between two paragraphs with ~60px gaps",
+        "typography": "~40px Alpina Regular (disp 1000, wdth 500, wght 500), leading ~1.2, centred, black; emoji ~100px from 'Alpina Emoji 1' (mrph-animated, red)",
+        "palette": [
+          "#faf8f6",
+          "#000000",
+          "#ff4040"
+        ],
+        "behaviour": "Emoji party popper morphs fast (anim-emoji-fast); text editable",
+        "content": "Real description: 'GT Alpina by Reto Moser proudly calls itself a workhorse serif, but delights in playing with the very meaning of that concept…' plus 'This typeface showcase exclusively uses the new variable fonts format for all of its features and animations.'",
+        "assets": "Emoji glyph font (Alpina Emoji 1)",
+        "html": "div.copy.copy-intro[contenteditable][data-axis-color=black][data-default-axes='1,3']"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "historical, light-hearted",
+        "mobile": "adapts",
+        "subject": [
+          "history-of-revision",
+          "italics"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "Purple chapter: 'The Design's Story ⌛' and '🕛 Lean Into It' (italic) at 144px, each under a tiny '1st DRAFT ● RELEASE' scale, each followed by a centred origin paragraph",
+      "feel": "Story-telling with a wink",
+      "ux": "The headline loops between the 2011 first-draft drawing and the released design on a custom morph axis; the dot between the two labels tracks the state; paragraphs are editable",
+      "learn": "Build a demo-only variable font whose axis runs from the first draft to the release: the revision history becomes an animation instead of a before/after image",
+      "reconstruction": {
+        "layout": "Two stacked samples, each centred: endpoint labels at x≈400 and x≈1020 with a dot midway, headline 144px below, paragraph column ~880px wide; ~1040px total",
+        "typography": "Endpoint labels ~13px uppercase Alpina with superscript 'st' (ot-sups); headlines 144px in 'Alpina Morph Roman Development' and 'Alpina Morph Italic Development' (mrph axis), purple; paragraph ~27px Alpina Regular black (italic for the second), leading ~1.4, centred",
+        "palette": [
+          "#fcfaf8",
+          "#8140ff",
+          "#000000"
+        ],
+        "behaviour": "CSS keyframes (anim-roman-development / anim-italic-development) loop mrph 0→1000 while in view (js-animation-paused toggled off); emoji icon (hourglass, clock) morphs with it",
+        "content": "Real origin story: the 2011 one-off for the Swiss Foundation for Alpine Research's 75th-anniversary book; the italics' 'perky details and sharp angle'",
+        "assets": "Two demo variable fonts interpolating draft→release (roman, italic); emoji glyph font",
+        "html": "section.color-purple > div.sample.sample-anim > div.indicator-axes (2 spans) + h2.anim-…[data-anim-axes=mrph] > span.indicator-dot + span.sample-content + div.copy[contenteditable][data-default-axes]"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04",
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "punny, explanatory",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "Red roman chapter: three punning headlines at 144px ('Pumping & Posing' with a bicycle pump, 'Flexing & Stretching' with a bow and arrow, 'Business and Pleasure' with a coffee cup), each under 'THIN ● BOLD', 'CONDENSED ● EXTENDED', 'NORMAL ● FINE'",
+      "feel": "Witty, gym-like, then elegant",
+      "ux": "Each headline loops along one axis (weight, width, contrast) while the matching emoji icon acts it out (pump pumps, bow draws); the dot slides between the endpoint labels",
+      "learn": "Pair each axis with a pun and an icon that performs the same motion, so the axis is explained by wordplay before the prose",
+      "reconstruction": {
+        "layout": "Three identical ~600px sections, ~690px apart; each: endpoint labels ~560px apart centred, 12px dot between, headline 144px centred on 1–2 lines, paragraph column ~880px centred",
+        "typography": "Headlines 144px Alpina, red; animated axes per section: mrph+wght (Thin–Bold), mrph+wdth (Condensed–Extended), disp+mrph (Normal–Fine contrast); labels ~13px uppercase serif; paragraph ~27px Alpina Regular black, leading ~1.4, centred; ss03 on the ampersand",
+        "palette": [
+          "#fcfaf8",
+          "#ff4040",
+          "#000000"
+        ],
+        "behaviour": "Looping CSS keyframes anim-roman-weights / anim-roman-widths / anim-roman-contrast on font-variation-settings, paused until in view; emoji glyphs morph in sync (morph-emoji); paragraphs editable with default overlay axes (1,0), (2,0), (3,1)",
+        "content": "Punning themed headlines plus real explanation of the subfamilies ('The Standard width subfamily is the main summit of GT Alpina, flanked by the Condensed and Extended widths')",
+        "assets": "Custom emoji glyph font with morphing icons (pump, bow, cup)",
+        "html": "h2.anim-roman-weights[data-anim-axes='mrph,wght'] etc.; .indicator-axes span×2; .indicator-dot"
+      }
+    },
+    {
+      "blocks": [
+        "06",
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "cheeky, expert",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "Two red sections 'Zany 🕹 Details' and 'Have Some ♥ Balls' under 'BLAND ● GT ALPINA', each with a long centred paragraph on contrast axis, ball terminals and ink traps",
+      "feel": "Irreverent but informed",
+      "ux": "The headline morphs between a deliberately bland generic serif and GT Alpina, so the ball terminals, angled contrast and ink traps appear and disappear in a loop",
+      "learn": "Draw a 'bland' version of your own font and morph to it: removing the personality is the clearest way to point at it",
+      "reconstruction": {
+        "layout": "Two ~600px sections like the axis chapters: labels + dot, 144px headline on one line, ~880px paragraph of ~8 lines",
+        "typography": "Headlines 144px in 'Alpina Morph Bland Serif' (mrph axis), red; paragraph ~27px Alpina Regular black, centred, leading ~1.4",
+        "palette": [
+          "#fbf9f6",
+          "#ff4040",
+          "#000000"
+        ],
+        "behaviour": "anim-bland-serif and anim-bland-serif-2 keyframes loop mrph; joystick and heart emoji morph",
+        "content": "Real design notes: 'the angled axis of thick and thin parts', 'Q and Z invert the contrast', ball terminals constant across weights, carved ink traps in S, overhanging terminals on a and f",
+        "assets": "Demo variable font morphing bland serif → GT Alpina; emoji glyph font",
+        "html": "h2.anim-bland-serif[data-anim-axes=mrph]"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "calligraphic, lively",
+        "mobile": "adapts",
+        "subject": [
+          "italics",
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "Blue italic chapter: '☺ Renounce Boring' under 'FINE ● FINE ITALIC' and 'Variety ⟿ the Spice of Life' under 'CONDENSED ● EXTENDED', italic paragraphs below",
+      "feel": "Flowing, upbeat",
+      "ux": "The first headline morphs roman → italic (slant and letter shapes), the second loops the italic through its widths with a stretching spring icon",
+      "learn": "Animate roman-to-italic on one word so visitors see the italic is a separate design, not a slanted roman",
+      "reconstruction": {
+        "layout": "Two stacked samples, ~1076px total, same centred template (labels, dot, 144px headline, ~880px paragraph)",
+        "typography": "Headline 1: 'Alpina Morph Roman to Italic' (disp, mrph), 144px blue; headline 2: Alpina Italic wdth 130→… wght 600; paragraphs ~27px Alpina Italic black",
+        "palette": [
+          "#fcfaf8",
+          "#0068ff",
+          "#000000"
+        ],
+        "behaviour": "anim-roman-to-italic (disp, mrph) and anim-italic-widths (mrph, wdth) loop while in view; smiley and spring emoji morph",
+        "content": "Themed headlines plus real notes on the italic's variable angle, soft pathing and ball terminals",
+        "assets": "Demo roman→italic variable font; emoji glyph font",
+        "html": "h2.anim-roman-to-italic[data-anim-axes='disp,mrph'], h2.anim-italic-widths[data-anim-axes='mrph,wdth']"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "mechanical, nostalgic",
+        "mobile": "adapts",
+        "subject": [
+          "spacing",
+          "axes",
+          "italics"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "Green typewriter chapter: 'EASY COME Easy Go' with a typewriter icon under 'PROPORTIONAL ● TYPEWRITER', then 'Time & Again 🎈' and 'Nothing is Permanent Except Change 👋' under 'THIN ● BOLD', all paragraphs set in the monospace",
+      "feel": "Letter-from-an-explorer, tactile",
+      "ux": "The first headline morphs letters from proportional widths into the monospace grid; the next two loop the Typewriter and Typewriter Italic through their weights",
+      "learn": "Morph proportional → monospaced on the same words to show how each letter is forced into one width",
+      "reconstruction": {
+        "layout": "~2180px tall, three samples stacked, each labels + dot + 144px headline (2–3 lines) + ~880px paragraph",
+        "typography": "Headlines 144px in 'Alpina Morph Proportional to Typewriter' (mrph), Alpina Typewriter (mrph, wght), Typewriter Italic; green; paragraphs ~24px Alpina Typewriter (Italic for the last), black, centred, superscript ordinals (18th, 19th)",
+        "palette": [
+          "#fbfaf7",
+          "#00bf3a",
+          "#000000"
+        ],
+        "behaviour": "anim-proportional-to-typewriter, anim-typewriter-weights, anim-typewriter-italic-weights loop while in view; typewriter, balloon, waving-hand emoji morph",
+        "content": "Real notes: inspired by explorers' letters of the late 18th/early 19th century, rounded corners as if pressed into paper, 'rollercoaster i and the r without a base serif'",
+        "assets": "Demo proportional→typewriter variable font; emoji glyph font"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "orderly, colourful",
+        "mobile": "shrinks",
+        "structure": "matrix",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "Pink 'We are family ☯' (italic, animating all axes) and a short paragraph, then a ruled table: 7 subfamily rows (Typewriter, Condensed, Condensed Fine, Standard, Standard Fine, Extended, Extended Fine) × 5 weight columns (Thin–Bold), cells 'Aa', 'Bb'… coloured by subfamily",
+      "feel": "Tidy, catalogue-like",
+      "ux": "static table; the headline loops through weight, width and contrast together",
+      "learn": "Colour each row by its chapter colour so the overview table doubles as a legend for the whole page",
+      "reconstruction": {
+        "layout": "Headline + paragraph as in the chapters; table ~1150px wide centred (x≈145), 6 columns ~192px, header row 50px, body rows ~100px, 1px black rules; top-left cell black with white 'GT Alpina'",
+        "typography": "Row and column headers ~11px Alpina Typewriter; cell pairs ~52px in each style (wght 20/240/400/630/1000 for Thin…Bold), rows in green (Typewriter), blue (Condensed), red (Standard), purple (Extended); headline 144px italic pink",
+        "palette": [
+          "#f9f7f5",
+          "#ff80d5",
+          "#00bf3a",
+          "#0068ff",
+          "#ff4040",
+          "#8140ff",
+          "#000000"
+        ],
+        "behaviour": "Headline anim-roman-weight-and-width-and-contrast (mrph, wght, wdth, disp) loops; table static",
+        "content": "Letter pairs running through the alphabet across cells (Aa…Ii, wrapping)",
+        "assets": "none",
+        "html": "table.family-overview > tr.color-<chapter>.ov__<subfamily> > th + td×5"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "exhaustive, cheerful",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Bordered cell grids in a different colour per category: Basic Latin (purple), Extended Latin (red), Ligatures and Alternates (blue), Punctuation/Numerals/Currencies/Circular Numerals (green), Small Caps (yellow), Arrows/Blocks/Shapes/Flowers/Stars (teal), Icons and Emojis (pink)",
+      "feel": "Toy-box, complete",
+      "ux": "Hovering a cell shows it enlarged in a floating zoom box (#gt-character-zoomed); feature glyphs are rendered via ot-* classes (smcp, dlig, onum, case, ss01–ss04)",
+      "learn": "Give every glyph category its own colour and include the dingbats and emoji: the non-alphabetic extras become a selling point",
+      "reconstruction": {
+        "layout": "Grid ~930px wide centred (x≈254), 27 cells per row, cells ~34×34px with 1px coloured borders; category heading centred above each group with ~60px gaps; ~1870px tall",
+        "typography": "Glyphs ~22px Alpina Regular in the category colour; category headings ~14px Alpina Typewriter black",
+        "palette": [
+          "#f7f7f3",
+          "#8140ff",
+          "#ff4040",
+          "#0068ff",
+          "#00bf3a",
+          "#fcc804",
+          "#18e7a9",
+          "#ff80d5"
+        ],
+        "behaviour": "Hover → enlarged glyph in a zoom box; no selection state",
+        "content": "~1,050 glyphs: Latin, extended Latin, ligatures (ff fb ffb…), punctuation, circled numerals, small caps, arrows, box-drawing blocks, geometric shapes, icons and emoji",
+        "assets": "none",
+        "html": "#gt-character-zoomed.character-set-box.zoomed + .character-set-container > h5 + .character-set-category.color-* > div.single-item.character-set-box.js-gt-character[.ot-smcp|.ot-dlig…]"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, simple",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "'Get GT Alpina' label and two blue icon links side by side: a smiling cloud over 'Download Trial Fonts' and a shopping cart over 'Purchase Licensing'",
+      "feel": "Cute, low-pressure",
+      "ux": "Both link out to grillitype.com (free trials page and the typeface shop page)",
+      "learn": "Use the family's own icon glyphs as button pictograms: the CTA stays on-brand without UI chrome",
+      "reconstruction": {
+        "layout": "Band ~212px tall; small heading centred on top; a centred pair of links with centres at x≈490 and x≈950, each an icon ~120px above a ~40px label, no button chrome",
+        "typography": "Heading ~13px Alpina Typewriter blue; icons 120px emoji glyphs; labels ~38px Alpina Regular blue",
+        "palette": [
+          "#fefcf9",
+          "#0068ff"
+        ],
+        "behaviour": "none observed",
+        "content": "Two CTAs: trial and purchase",
+        "assets": "Icon glyphs (cloud, cart) from the emoji font",
+        "html": "section.download-purchase-links-section > h5 + .download-purchase-links > a×2 with span icon"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "type-tester",
+      "variant": "labelled-editable-lines",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "alpine, jolly, postcard",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "axes",
+          "style-select"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A ~5300px centred stack of 20 multicolour samples about Switzerland ('Panoramic View & Binoculars', 'Lake Geneva', 'PUMP IT', Jass card game, 'Mount Pilatus 2093 Rigibahn 50km/h', 'Glacier', 'MOUNTAIN FLIGHT', typewriter history), each labelled with its style ('GT Alpina Fine Condensed Thin') and studded with the family's icons",
+      "feel": "Souvenir-shop, exuberant",
+      "ux": "Every sample is contenteditable (and opens the axis overlay); labels name the style; samples step through all subfamilies and weights in order",
+      "learn": "Write each style's sample around one theme and mix in small caps, italics, figures and dingbats inside the lines: a style list becomes a travel poster",
+      "reconstruction": {
+        "layout": "Single centred column, samples full width with ~40–60px gaps; style label (tiny) above each sample; sizes alternate between xxl/xxxl display lines (~120–240px) and m-size 3-line groups (~40px)",
+        "typography": "Labels ~11px Alpina Typewriter in the sample colour; samples cover Fine Condensed, Condensed, Fine Standard, Standard, Fine Extended, Extended and Typewriter in Thin–Bold with italic, smcp and uppercase spans; max 241px",
+        "palette": [
+          "#fcf8f6",
+          "#0068ff",
+          "#ff4040",
+          "#00bf3a",
+          "#8140ff",
+          "#fcc804",
+          "#18e7a9",
+          "#ff80d5"
+        ],
+        "behaviour": "Text editable; focusing opens the pointer axis overlay (one sample has data-default-axes 1,3); no other motion",
+        "content": "Swiss-Alps themed copy with real figures (Alps cover 65% of Switzerland, 41,285 km², Weisshorn 4,506 m, Remington & Sons 1816–1896, Olivetti), arrows and emoji glyphs inline",
+        "assets": "none (icons are font glyphs)",
+        "html": "#typeface-specimen > .sample-container > div.copy.sample-size-(m|xxl|xxxl).sample-<subfamily>-<weight>[contenteditable] + div.sample-font-style"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "brand family",
+        "mobile": "adapts"
+      },
+      "look": "'Grilli Type Minisites': 7 blue pictograms (starburst, face, YO! flag, S, striped flag, winking face, faceted gem) above GT Cinetype, Eesti, Haptik, Super, America, Walsheim, Zirkon in a centred 3-column grid",
+      "feel": "Collectible, badge-like",
+      "ux": "Each name links to that family's minisite",
+      "learn": "Ship the sibling-site icons as glyphs of an icon font (mapped to CJK code points) so the cross-links are pure text",
+      "reconstruction": {
+        "layout": "3 columns ~300px wide centred, rows ~255px: icon ~120px over a ~40px name; last item centred alone",
+        "typography": "Names ~40px Alpina (disp 1, wdth 350, wght 1000) blue; heading ~13px Typewriter; icons from 'Alpina Minisite Icons' (永 我 警 然 国 意 今)",
+        "palette": [
+          "#fdfbf8",
+          "#0068ff"
+        ],
+        "behaviour": "none",
+        "content": "Seven Grilli Type minisites",
+        "assets": "Icon font for the sibling sites"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "'Credits' then one centred red run-in paragraph (typeface, website, icons, copywriting) with tiny blue superscript role labels"
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "type-tester",
+      "variant": "pointer-xy-axes",
+      "newVariant": true,
+      "variantDefinition": "The pointer's x and y position over the sample or the whole viewport (or device tilt on touch) each drive one variable axis, with edge tracks or labels showing the axis and its live value; no sliders to grab",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "playful, hands-on",
+        "mobile": "unknown",
+        "controls": [
+          "text",
+          "size",
+          "weight",
+          "axes",
+          "style-select"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A hidden overlay (HTML only): an x-axis bar and a y-axis bar along the viewport edges, each labelled None/Size/Weight/Width/Contrast with a position dot, plus round buttons ✕, ▶, I, M, ↺ and 'Select Style ↑' opening a 7-column picker (Condensed, Standard, Extended, Fine Condensed, Fine Standard, Fine Extended, Typewriter × Thin–Bold Italic)",
+      "feel": "Instrument-like, exploratory",
+      "ux": "Focus a paragraph → overlay appears with that paragraph's default axes (data-default-axes, e.g. '2,1' = Width on x, Weight on y); moving the pointer sweeps the two axes; click an edge label to change its axis; I and M toggle italic and Typewriter; ▶ plays an automatic 'disco' sweep; ↺ resets; ✕ closes",
+      "learn": "Turn the whole viewport into a 2-axis pad for whatever text the visitor is reading: no sliders to find, and every paragraph is a tester",
+      "reconstruction": {
+        "layout": "Fixed overlay over the page: horizontal bar for the x axis and vertical bar for the y axis at the screen edges, each with a label and a dot; corner buttons; style picker panel ~1160×290px (7 lists of 11 items) anchored above the 'Select Style' button",
+        "typography": "Overlay labels ~16px Alpina Typewriter; style picker items ~13px Alpina with the list title in Typewriter",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#ff4040"
+        ],
+        "behaviour": "Pointer x/y → font-variation-settings of the focused .copy (axes indexed -1 none, 0 size, 1 weight, 2 width, 3 contrast); the edited paragraph keeps its new style; per-section data-axis-color tints the overlay",
+        "content": "Uses the page's own paragraphs as test text",
+        "assets": "none",
+        "html": ".overlay-container.js-stylepicker-visible > .overlay-item(#overlay-axis-x, #overlay-axis-y with span[data-axis-index] and .overlay-axis-dot, #overlay-button-close/-disco/-italic/-typewriter/-stylepicker/-reset) + #overlay-stylepicker-container > ul.stylepicker-list×7; targets div.copy[contenteditable][data-axis-color][data-default-axes]"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "16",
+      "reason": "loader overlay: red screen with a morphing hourglass emoji and 'Loading…' for ~1s before the page"
+    }
+  ],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/large-text-intro",
+    "design-details/axis-explainer",
+    "design-details/feature-before-after",
+    "design-details/axis-explainer",
+    "family-overview/designspace-map",
+    "glyph-table/full-grid",
+    "checkout/link-out-cta",
+    "type-tester/labelled-editable-lines",
+    "footer/credits-colophon",
+    "type-tester/pointer-xy-axes"
+  ]
+}

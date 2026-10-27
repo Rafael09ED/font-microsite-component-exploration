@@ -1,0 +1,571 @@
+{
+  "slug": "sanssheriff-wtf",
+  "extractedBy": "agent",
+  "summary": "NaN's launch site for Jaune, a variable sans in three optical sizes (Maxi, Midi, Mini, on a 'dspl' axis plus wght), built as a stack of saturated colour bands that opens with a playable p5.js platform game ('I Shot the Serif') with a font-prize leaderboard. Below it, Fontsampler.js testers, an animated 'Variablicious' line, a hover overlay comparing the three optical sizes and a word-list carousel all teach the optical-size idea; a scrolling ticker on top and a fixed 'See More & Download Trial Fonts' bar at the bottom frame the page (neither was cut as a block).",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "goofy, loud, web-weird",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "A green band with the line 'A typeface in three 👀 optical sizes' in neon green, barely contrasting with the background, a pair of googly eyes in place of the word; under a blue scrolling ticker",
+      "feel": "Cheeky, deliberately clashing",
+      "ux": "No nav; a marquee ticker above repeats the site description with links to NaN.xyz; the game sits directly below in the first screen",
+      "learn": "Replace one word of the tagline with a drawn object (googly eyes): the tagline becomes a joke and a mascot at once",
+      "reconstruction": {
+        "layout": "Full-width band 1440×186px, text centred on one line; ticker strip 38px above it (#ticker, overflow hidden, linear translate3d marquee over ~37s)",
+        "typography": "~60px Jaune Variable, dspl 100, wght ~700, neon green on mid green; ticker ~14px",
+        "palette": [
+          "#33c441",
+          "#10f114",
+          "#0504f9"
+        ],
+        "behaviour": "Ticker text scrolls continuously (Smarquee: --time 36.58s, --distance -1841px); googly eyes are two stacked spans (#whites, #pupils), their pupils probably move (unverified in the capture)",
+        "content": "'A typeface in three optical sizes'",
+        "assets": "Googly-eye graphics (CSS/background images)",
+        "html": "aside#ticker.Smarquee > div.animate[data-smarquee-scroll-wrapper]; header.center > span#goggly > span#whites + span#pupils"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "game",
+      "variant": "arcade-leaderboard",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "game-like",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "arcade, irreverent, competitive",
+        "mobile": "adapts"
+      },
+      "look": "Three coloured panels side by side: a red/salmon 'Leaderboard' with each heading letter in a dark round badge and 14 ranked names and scores; a coral game canvas with green heavy 'Click to Start', an emoji and '« Go Left (Space) Jump Go Right »'; a yellow column of chat bubbles ('I Shot the Serif', 'Win Fonts You Say?', 'How To Play')",
+      "feel": "Arcade cabinet meets group chat",
+      "ux": "Click to start a vertical jump-platformer drawn in p5.js (arrows/space, jump through side walls, avoid the devil); save your high score with name and e-mail; top 3 win the full family, places 4–10 a single weight; chat bubbles appear one after another",
+      "learn": "Turn the launch into a contest: a leaderboard with font prizes gives people a reason to come back and share the specimen",
+      "reconstruction": {
+        "layout": "Full-width row 1440×672px: leaderboard column ~470px, canvas 460×658px in a coral frame, chat column ~470px; leaderboard ends with a red prize notice; form (name, email, checkbox, 'Save your Highscore') revealed after a game",
+        "typography": "Leaderboard title letters ~22px in dark circles; list ~14px Jaune with tabular figures (tnum), weights 550–700; 'Click to Start' ~36px dspl 1000 green; bubble headings ~16px bold white on green pills; bubble text ~11px in outlined rounded bubbles",
+        "palette": [
+          "#fe6465",
+          "#fa0303",
+          "#fdc63e",
+          "#10f114",
+          "#3a2b2b"
+        ],
+        "behaviour": "p5.js sketch on canvas#defaultCanvas0 (keyboard-controlled platformer with sound effects); chat <p> items gain class 'show' in sequence; leaderboard <ol> loaded from the server; submit form posts the score",
+        "content": "Real leaderboard entries ('420 BLAZE IT 420690', 'Florian Fecher'), contest rules, game instructions in a jokey voice",
+        "assets": "Game sprites and sounds (credited to StudioCopsey, Jofae and others), emoji",
+        "html": "section#play > #leaderboard (h1 > span per letter, ol > li > .name + .score, #game-footer > form#submit-form) + #game > #gamecontainer > canvas.p5Canvas + #chat > p.left|p.right.show + a.bigger"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "bold, direct",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes"
+        ],
+        "scope": "single",
+        "defaultText": "pangram",
+        "export": false
+      },
+      "look": "On the yellow left half, the alphabet and figures 'ABCDEFGHIJKL… 0123456789' in red at ~65px, with two thin red sliders below: WEIGHT and OPTICAL SIZE",
+      "feel": "Straightforward, poster-like",
+      "ux": "Type over the sample; drag weight (100–900) and optical size (dspl 100–1000) to see the letters change between Mini and Maxi drawing",
+      "learn": "Expose the optical-size axis as a plain slider next to weight, so visitors feel the design change, not just the size",
+      "reconstruction": {
+        "layout": "Left half 720px of a 1440×578px band; sample block ~650px wide, 5 lines; two full-width sliders (label above, 1px track, 14px round handle) at the bottom",
+        "typography": "Sample ~65px Jaune Variable (NaNJauneGX) wght 400, dspl 100, red; slider labels ~10px caps",
+        "palette": [
+          "#fdc63e",
+          "#fa0303"
+        ],
+        "behaviour": "Fontsampler.js: hidden input[type=range] mirrored by rangeSlider UI; input sets font-variation-settings 'wght' n, 'dspl' n on the contenteditable",
+        "content": "Alphabet and figures",
+        "assets": "none",
+        "html": "#tester.fontsamplerjs > .fsjs-block-tester [contenteditable][data-fsjs=tester] + .fsjs-block-wght input[type=range][min=100][max=900] + .fsjs-block-dspl input[type=range][min=100][max=1000] + .rangeSlider"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "irreverent, confident",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "On the electric-blue right half, peach heading 'About NaN Jaune', a paragraph on the NaN motto ('take a bad idea and do it well'), three ▹ bullets explaining Maxi, Midi and Mini, and an outlined pill 'More at NaN.xyz »'",
+      "feel": "Punchy, self-aware",
+      "ux": "One link to the foundry page",
+      "learn": "State each optical size's job in one bullet (Maxi for headlines, Midi all-terrain, Mini for small text): the brief is the buying guide",
+      "reconstruction": {
+        "layout": "Right half 720px, padding ~40px; heading, paragraph, bullet list, pill button ~240×40px",
+        "typography": "Heading ~50px Jaune (dspl 1000) peach; text ~14px Jaune Mini peach, leading ~1.3; pill text ~16px",
+        "palette": [
+          "#0504f9",
+          "#fcb094"
+        ],
+        "behaviour": "none",
+        "content": "Real description of the concept and the three sub-families",
+        "assets": "none",
+        "html": "#about > h1 + p + a.button"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "type-tester",
+      "variant": "per-row-controls",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "western pun, friendly",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "On salmon, 'Howdy! I'm the sheriff of type' three times in red, each under a tiny label (NaN Jaune Maxi, Midi, Mini), with one thin WEIGHT slider below",
+      "feel": "Playful, comparative",
+      "ux": "Each line is its own Fontsampler with its optical size locked (dspl 1000 / 550 / 100) and its own weight slider; only one slider shows at a time on desktop, all of them on mobile",
+      "learn": "Set the same sentence in each optical size at the same point size: the differences in spacing and apertures become the lesson",
+      "reconstruction": {
+        "layout": "Band 1440×604px, centred; three rows ~110px apart, each label ~10px above its line; slider ~480px wide centred under the stack",
+        "typography": "Lines ~45px Jaune Variable wght 400 at dspl 1000 (Maxi), 550 (Midi), 100 (Mini), red; labels ~10px salmon-red",
+        "palette": [
+          "#fcb094",
+          "#f55648",
+          "#f56a57"
+        ],
+        "behaviour": "Fontsampler.js per row: wght slider 100–900 visible, dspl slider present but hidden at the row's fixed value",
+        "content": "'Howdy! I'm the sheriff of type' (the site's sheriff pun)",
+        "assets": "none",
+        "html": "section#sizes > #size-maxi|#size-midi|#size-mini > label + .tester-weight.fontsamplerjs (tester + wght + dspl blocks)"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, helpful",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Red strip with two yellow outlined pills: 'Download Trial Fonts' and 'Download PDF Specimen'",
+      "feel": "Low-key, generous",
+      "ux": "Trial fonts page on nan.xyz; PDF specimen opens in a new tab",
+      "learn": "Offer the trial and the PDF right after the first tester, before the long scroll",
+      "reconstruction": {
+        "layout": "Band 1440×210px; two pills side by side centred, ~320×56px each, 16px gap, 1px border, full radius",
+        "typography": "~32px Jaune wght 300, yellow",
+        "palette": [
+          "#fa0203",
+          "#fdc63e"
+        ],
+        "behaviour": "none",
+        "content": "Two CTAs",
+        "assets": "none",
+        "html": "section#links > a.button.button-large ×2"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "fun, wobbly",
+        "mobile": "adapts",
+        "subject": [
+          "axes",
+          "optical-size"
+        ],
+        "presentation": "animation",
+        "explanation": "none"
+      },
+      "look": "Neon green 'Variablicious / Edit me :-)' centred on electric blue, caught mid-animation",
+      "feel": "Bouncy, candy-like",
+      "ux": "The two lines loop through weight and optical size continuously; the whole section is contenteditable so you can type your own animated words",
+      "learn": "Let an axis animation run on editable text: visitors watch the range and test it on their own words without any controls",
+      "reconstruction": {
+        "layout": "Band 1440×452px, two centred lines ~150px apart",
+        "typography": "~110px Jaune Variable, neon green; animation sweeps 'dspl' and 'wght' (captured at dspl 216, wght 203)",
+        "palette": [
+          "#0202fa",
+          "#07fa07"
+        ],
+        "behaviour": "CSS @keyframes 'variablicious' animating font-variation-settings ('dspl', 'wght') in an infinite loop",
+        "content": "'Variablicious', 'Edit me :-)'",
+        "assets": "none",
+        "html": "section#animate.center[contenteditable=true]"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "type-tester",
+      "variant": "per-row-controls",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "political, bookish, loud",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "On green, three blue editable columns from Oscar Wilde's 'The Soul of Man under Socialism', each labelled in red (Maxi, Midi, Mini) and set at a smaller size from left to right, with a WEIGHT slider under the middle column",
+      "feel": "Manifesto-like, dense",
+      "ux": "Each column is a Fontsampler with its optical size locked and its own weight slider (one visible at a time on desktop, all on mobile)",
+      "learn": "Use one long real text cut into three columns, each optical size at the size it was drawn for",
+      "reconstruction": {
+        "layout": "Band 1440×796px; three equal columns (~380px) with ~60px gutters; labels above, slider ~480px under the middle column",
+        "typography": "Maxi ~40px, Midi ~22px, Mini ~13px, Jaune Variable wght 400, dspl 1000/550/100, blue; labels ~10px red",
+        "palette": [
+          "#33c541",
+          "#0504f9",
+          "#f40407"
+        ],
+        "behaviour": "Fontsampler wght slider per column (100–900); emoji (😎) appears over the text, probably a cursor decoration",
+        "content": "Oscar Wilde's essay on socialism and individualism",
+        "assets": "none",
+        "html": "section#paragraphs > #paragraph-maxi|#paragraph-midi|#paragraph-mini > label + .fontsamplerjs"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, graphic",
+        "mobile": "adapts",
+        "subject": [
+          "optical-size"
+        ],
+        "presentation": "overlay",
+        "explanation": "caption"
+      },
+      "look": "On lime, a giant 'bá': the selected sub-family filled red with the other two optical sizes drawn as thin blue and grey outlines on top, inside red metric lines; at right '3 optical sizes, 3 independent sub-families' and a list Maxi ● / Midi ○ / Mini ○",
+      "feel": "Precise, diagrammatic",
+      "ux": "Hover a name in the list to fill that sub-family and outline the others ('Hover to preview each sub-family')",
+      "learn": "Overlay all optical sizes at one size and fill only the chosen one: the differences in x-height, apertures and stroke read instantly",
+      "reconstruction": {
+        "layout": "Band 1440×698px; SVG (viewBox 776×445) ~830px wide on the left with a metric box (cap height, x-height, baseline) in red hairlines; right column ~380px with heading, three list rows (~70px each) with radio dots at the far right, caption",
+        "typography": "Glyphs ~440px tall (SVG outlines); list names ~44px: active one filled red, others outlined (blue Midi, grey Mini); heading ~16px; caption ~10px",
+        "palette": [
+          "#b8fb92",
+          "#f40407",
+          "#2a3ad0",
+          "#7a7a7a"
+        ],
+        "behaviour": "Hover on a list item sets a class (maxi|midi|mini) on #comparison-sample, which shows the matching <g id> group (display none/inline); no transition",
+        "content": "'bá' (shows bowl, aperture and accent)",
+        "assets": "Exported SVG outlines of 'bá' in each sub-family with the other two as outline overlays",
+        "html": "section#comparison > #comparison-sample.maxi > svg > g#Maxi|#Midi|#Mini[display]"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "proud, communal",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "grid"
+      },
+      "look": "On salmon, '» Jaune In The Wild «' and three framed square photos (Joon Magazine spread, Maison Tangible shop window, a Shed Editors book), each with a red caption 'Design by …' and a dot",
+      "feel": "Gallery wall, trustworthy",
+      "ux": "Designer names link out; 'More to come on FontsInUse'",
+      "learn": "Three real uses with credits beat any mock-up; point to Fonts In Use for the rest",
+      "reconstruction": {
+        "layout": "Band 1440×844px; heading centred; 3 cards ~380×380px with ~80px gaps; each photo inside a thick bevelled frame (coral/dark edges); caption two lines below",
+        "typography": "Heading ~50px Jaune (dspl 1000) red with chevron glyphs; captions ~14px bold red, credit line regular with underlined link",
+        "palette": [
+          "#fcaf93",
+          "#f40407",
+          "#3c3c3c"
+        ],
+        "behaviour": "none",
+        "content": "Real projects: Joon Magazine (Fisk), Maison Tangible (Aurélien Jeanney), Shed Editors (Studio Akakir)",
+        "assets": "3 photographs",
+        "html": "section#in-use > h1 + 3 × figure (img + figcaption) + p > a[FontsInUse]"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "rhythmic, systematic",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "word",
+        "interactive": true
+      },
+      "look": "On red, a centred column of yellow words of equal length stepping from Black to Thin ('Cardiologist', 'Competitors', 'Associatively', 'Haemorrhage', 'Premeditation', 'Retentiveness'), chevron arrows either side and a three-stop rail Maxi · Midi · Mini below",
+      "feel": "Clean, musical",
+      "ux": "Carousel (tiny-slider): arrows or the Maxi/Midi/Mini stops switch to that sub-family's word list; each list is a weight ramp",
+      "learn": "Pick words that land at the same width in each weight so the ramp forms a clean block; let the optical size be the carousel axis",
+      "reconstruction": {
+        "layout": "Band 1440×780px; slide content ~420px wide centred, 6–8 lines; arrows ~40px at ±300px from centre; stop rail ~260px with three dots and labels at the bottom",
+        "typography": "Words ~44px Jaune Variable, wght 900, 760, 496, 340, 223, 163 (top to bottom), dspl 1000/550/100 per slide, yellow; stop labels ~10px",
+        "palette": [
+          "#fc0203",
+          "#fdc63e"
+        ],
+        "behaviour": "tiny-slider 2.9.2 horizontal carousel (translate3d), looped; nav dots labelled by sub-family",
+        "content": "Long words chosen per sub-family (Caterpillars, Questionably… / Cardiologist, Competitors… / Uncrushable, Covenanters…)",
+        "assets": "none",
+        "html": "section#wordlists > .tns-outer > .slides.tns-slider > .tns-item > ul.slide-dspl-maxi|midi|mini > li"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, transparent",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": true,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "Blue strip with one neon-green outlined pill 'License NaN Jaune from 40€ / style', the price in italic",
+      "feel": "Upfront",
+      "ux": "Links to the NaN shop page",
+      "learn": "Put the entry price in the button label itself",
+      "reconstruction": {
+        "layout": "Band 1440×158px; one pill ~700×50px centred",
+        "typography": "~32px Jaune wght 300 green, price in <em>",
+        "palette": [
+          "#0202f8",
+          "#07fa07"
+        ],
+        "behaviour": "none",
+        "content": "Price from 40€ per style",
+        "assets": "none",
+        "html": "section#cta > a.button > em"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "footer",
+      "variant": "personal-sign-off",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "warm, grateful",
+        "mobile": "adapts",
+        "contains": [
+          "sign-off"
+        ]
+      },
+      "look": "Green left half: red 'Thanks!' and a paragraph thanking the visitor, DJR, Future Fonts, early users and Grilli Type, signed '— Jérémy Landes'",
+      "feel": "Personal, sincere",
+      "ux": "Inline links to each person or company thanked",
+      "learn": "Thank the visitor first, then the people who helped: the page ends on a human note",
+      "reconstruction": {
+        "layout": "Left half 720×475px, padding ~40px",
+        "typography": "Heading ~50px Jaune (dspl 1000) red; text ~14px red, underlined links",
+        "palette": [
+          "#33c540",
+          "#f40407"
+        ],
+        "behaviour": "none",
+        "content": "Designer's thank-you note",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "factual",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "socials"
+        ]
+      },
+      "look": "Yellow right half: blue 'Credits' and a short list (type, spacing and kerning by Igino Marini, site design, web development, videogame and sound credits), 'Follow us on Twitter or Instagram'",
+      "feel": "Tidy",
+      "ux": "Credit links and social links; a fixed green bar 'See More & Download Trial Fonts at NaN.xyz' sits at the very bottom of the viewport throughout",
+      "learn": "Credit the game makers and sound sources too when the specimen includes a game",
+      "reconstruction": {
+        "layout": "Right half 720×475px; heading then one line per credit",
+        "typography": "Heading ~50px Jaune (dspl 1000) blue; credits ~14px blue",
+        "palette": [
+          "#fdc73d",
+          "#0504f9"
+        ],
+        "behaviour": "none",
+        "content": "Credits for type, spacing, site, development, game and sounds",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "game/arcade-leaderboard",
+    "type-tester/slider-sandbox",
+    "story/design-brief",
+    "type-tester/per-row-controls",
+    "checkout/link-out-cta",
+    "design-details/axis-explainer",
+    "type-tester/per-row-controls",
+    "design-details/feature-before-after",
+    "specimen-showcase/in-use-mockups",
+    "family-overview/designspace-map",
+    "checkout/link-out-cta",
+    "footer/personal-sign-off",
+    "footer/credits-colophon"
+  ]
+}

@@ -1,0 +1,695 @@
+{
+  "slug": "gt-walsheim-com",
+  "extractedBy": "agent",
+  "summary": "A black, chaptered long-read about Otto Baumberger's 1920s–30s poster lettering, the source of GT Walsheim. Every chapter is a stacked full-screen 'slide' that peels away to uncover the next, and almost everything responds to pointer position: posters swap to their sketches or 2017 animations, and display samples step through the eight weights or flip alternates on and off as the pointer crosses invisible hover zones.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "warm, historical, understated",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "A centred four-line quote from Baumberger, “I never properly learned typography, I just draw letters for my posters.”, set huge in white GT Walsheim Medium on black, tiny attribution below; 'TRY BUY PDF' in tiny caps at the top-left",
+      "feel": "Modest, charming, confident",
+      "ux": "Moving the pointer left to right across the quote steps it through the 8 weights (Ultra Light → Ultra Bold); a small dot and a style-name label ('GT Walsheim Medium') show the current stop. Fixed TRY / BUY / PDF links stay in the top-left corner on every screen",
+      "learn": "Let the source speak first: the designer's quote set in the font is both the pitch and the specimen, and pointer position turns it into a weight scrubber with no visible UI",
+      "reconstruction": {
+        "layout": "Full-viewport black slide; quote centred, ~1130px wide, 4 lines, starting ~170px from the top; attribution centred ~40px below; the large-text intro follows after ~150px. Fixed nav at x=20, y=20: three 10px links",
+        "typography": "Quote ~110px GT Walsheim Medium (font-feature-settings kern, liga, ss01 0), leading ~1.15, sentence case, centred, curly quotes; attribution ~12px Medium; nav 10px Medium uppercase, tracked",
+        "palette": [
+          "#040404",
+          "#f6f7f2",
+          "#2e2e2f"
+        ],
+        "behaviour": "Loader first: white, then black screen with a spinning G-shaped icon and 'Loading all the things. Thank you for your patience.' (~5s). On the quote, 8 invisible absolutely positioned hover zones (12.5% wide each) map to 8 font-family swaps (gt-walsheim-ultra-light … ultra-bold); an index ball slides to the zone and the descriptor label updates; leaving restores the default (Medium)",
+        "content": "A real quote from Otto Baumberger with attribution 'Swiss poster artist Otto Baumberger'",
+        "assets": "none for the hero itself; loader icon (rotating G)",
+        "html": ".type-sample-item[data-gt-switch-default-css][data-gt-switch-css='[{label, css:{font-family, font-feature-settings}}…]'] > .js-gt-switch-css-hover[data-gt-switch-position=0..7] (style width:12.5%; left:n×12.5%) + .index-ball-area > .index-ball + .index-descriptor"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "historical, candid",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "archival"
+        ],
+        "length": "medium"
+      },
+      "look": "Large white paragraphs on black about Baumberger, alternating with a three-up and a four-up row of his posters (Zürich, Walsheim Weisse, Zürichsee; Forster, Balatum, Brak), each with a two-line caption and a hairline rule",
+      "feel": "Museum-catalogue calm",
+      "ux": "Hovering the right half of a poster crossfades it to a looping 2017 animation of that poster and swaps the caption ('1929 • 100×64cm' → '2017 • 00:07'); the four-up row starts on the animations and reveals the originals. On mobile: tap images to reveal",
+      "learn": "Caption every archival image with year and physical size, and give it a hidden second state (animation, sketch) so browsing the history feels like discovery",
+      "reconstruction": {
+        "layout": "Text column x=240–1200 (960px); galleries x=144–1296: three-up cells ~370px wide, four-up ~280px; posters at natural ratio; captions under each, hairline rule below; ~150px between text and galleries",
+        "typography": "Paragraphs ~32px GT Walsheim Medium, leading ~1.3, white; captions ~12px Medium, two lines (title / year • dimensions)",
+        "palette": [
+          "#040404",
+          "#f6f7f2",
+          "#2e2e2f"
+        ],
+        "behaviour": "Each figure has 2 invisible hover halves (.js-gt-switch-hover, 50% wide); position 1 sets opacity 1 on the second layer (a <video autoplay loop muted> of the 2017 animation with a GIF fallback) and shows the matching second figcaption",
+        "content": "Real biography (painter, lithographer, 200+ posters, Swiss Style), including a note that racist and sexist posters are deliberately not reproduced",
+        "assets": "Scans of ~7 Baumberger posters; 2017 animated reinterpretations (MP4 + GIF) by the illustration animator",
+        "html": "section.image-gallery.image-gallery-threeup.js-gt-switch-wrapper > figure.js-gt-switch > .js-gt-switch-hover×2 + .image-container.js-gt-switch-group (img, .video > video) + figcaption×2"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "interlude",
+      "variant": "full-bleed-image",
+      "newVariant": true,
+      "variantDefinition": "A full-viewport image with no text (often a close-up of the source artefact or of the letters) used as a pause between chapters",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "textured, archival",
+        "mobile": "adapts"
+      },
+      "look": "Full-screen close-up of the 'Internationales Flugmeeting Zürich 22.–31. Juli' poster: pale grey-green geometric capitals on dark navy, cropped at both edges, print grain visible",
+      "feel": "Tactile, like leaning into the paper",
+      "ux": "static; a cover slide between the intro and the 'Baumberger's Lettering' chapter",
+      "learn": "Show the source lettering at a scale where the texture of the print reads: it makes the leap to a digital typeface visible before any text explains it",
+      "reconstruction": {
+        "layout": "1440×900 (100vh) cover slide, image object-fit cover, lettering cropped on the left and right",
+        "typography": "No live text; the image shows Baumberger's hand-lettered capitals (the 'Baumberger G' in 'FLUGMEETING')",
+        "palette": [
+          "#101517",
+          "#8c9473",
+          "#6a7459",
+          "#29302a"
+        ],
+        "behaviour": "Part of the slide stack (#slide-walsheimg.slide-cover); the image is injected into #walsheim-g-block by script",
+        "content": "None",
+        "assets": "High-resolution scan detail of a 1932 poster"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "admiring, analytical",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "archival"
+        ],
+        "length": "short"
+      },
+      "look": "'BAUMBERGER'S LETTERING' heading in bold caps, two short large-text paragraphs and two three-up rows of posters (Brandmeldung, Das Alpenbuch, Höll-Grotten; Gotthard, Brünig, Thunersee)",
+      "feel": "Orderly, gallery-like",
+      "ux": "The first row has hover-swap states like the intro; the second row is plain (normal cursor)",
+      "learn": "Name the signature letter ('the Baumberger G') in the prose and then show posters where it appears, so readers go looking for it",
+      "reconstruction": {
+        "layout": "Heading and paragraphs in the 960px column at x=240; three-up galleries x=144–1296, cells ~370px; ~120px gaps",
+        "typography": "Heading ~64px GT Walsheim Bold uppercase; paragraphs ~32px Medium, leading ~1.3; captions ~12px",
+        "palette": [
+          "#040404",
+          "#f6f7f2",
+          "#2e2e2f",
+          "#94918d"
+        ],
+        "behaviour": "Same hover-half image switch as the intro on the first gallery",
+        "content": "Real analysis: few lettering styles, the unorthodox G, spacious R, narrow A and L, large tittles",
+        "assets": "Six poster scans"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "story",
+      "variant": "making-of",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "methodical, warm",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "archival",
+          "process",
+          "diagram"
+        ],
+        "length": "long"
+      },
+      "look": "'CREATING THE TYPEFACE': two posters, a wide crop of 'DAS ALPENBUCH' lettering, a black strip of numerals collected from various posters ('ZURICH 1932', '4e MEETING', '22.–31. JULI 1932'), the 'Ro9a' construction figure and a 173px 'Baumberger' sample",
+      "feel": "A designer's notebook",
+      "ux": "Pointer across the Alpenbuch crop flips through 8 frames alternating 'Baumberger's lettering' and 'GT Walsheim' overlays; pointer across 'Baumberger' steps it through the 8 weights with a style-name label",
+      "learn": "Overlay the finished font on the source lettering frame by frame: the visitor sees exactly where the type designer followed and where he departed",
+      "reconstruction": {
+        "layout": "~4750px chapter: 960px text column at x=240 alternating with full-width figures x=200–1010: 2-up posters (~310px each), one wide crop ~810×360, numeral strip ~810×450, Ro9a figure full width with dashed metric lines, then a centred 173px word",
+        "typography": "Heading ~64px Bold uppercase; paragraphs ~32px Medium; captions ~12px; 'Baumberger' 173px Medium (switchable to any of 8 weights)",
+        "palette": [
+          "#030303",
+          "#f6f7f2",
+          "#505251",
+          "#91908d"
+        ],
+        "behaviour": "Alpenbuch figure: 8 hover zones → 8 stacked images (typeoverlay1–8) with alternating captions; posters: hover half → 2017 animation; word sample: 8 hover zones → font-family swap per weight",
+        "content": "Real process: 2009 student project at the University of the Arts Bern, collecting capitals, drawing numerals then freer ones, lowercase invented with its own logic",
+        "assets": "Poster scans, 8 lettering/font overlay images, numeral collage, construction diagram PNGs",
+        "html": "figure.js-gt-switch with 8 .js-gt-switch-hover (12.5% each) over .js-gt-switch-group img×8 and figcaption×8"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "constructive, clear",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "overlay",
+        "explanation": "caption"
+      },
+      "look": "'Ro9a' in huge white letters between dashed horizontal metric lines (baseline, x-height, cap height), captioned 'The typeface's x-height is derived from the counter of the R'",
+      "feel": "Geometric, explanatory",
+      "ux": "Hovering the right half swaps in an overlay image that draws the construction circles over the letters",
+      "learn": "One four-character word plus an on-hover construction overlay explains a whole system rule (x-height = counter of R)",
+      "reconstruction": {
+        "layout": "Full-width figure ~1440×260, letters ~400px tall centred, dashed rules running edge to edge at the metric heights; caption centred below",
+        "typography": "Letters ~420px GT Walsheim Medium (rendered as image); caption ~12px Medium",
+        "palette": [
+          "#030303",
+          "#f6f7f2",
+          "#6e6f6d"
+        ],
+        "behaviour": "Two-layer image switch: circles-explainer-narrow.png ↔ circles-explainer-overlay-narrow.png on hover halves",
+        "content": "'Ro9a': R and o carry the counter, 9 and a show the circular lowercase logic",
+        "assets": "Two PNGs: the word with metric lines, and the same with construction circles"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "explanatory, illustrated",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "diagram"
+        ],
+        "length": "short"
+      },
+      "look": "'LITHOGRAPHY POSTERS': three flat isometric illustrations (a gridded sketch scaled up to a poster with dashed projection lines; colours separated onto stones; stones printed one after another), with a narrow sticky text column on the left",
+      "feel": "Clear, instructional, charming",
+      "ux": "The sidebar text stays fixed while the three figures scroll past (it repeats in the stitched capture)",
+      "learn": "Explain the source's production technology with simple isometric drawings: it tells you why the letters look the way they do",
+      "reconstruction": {
+        "layout": "Heading centred at top; sticky sidebar x=20–250 (~230px, two short paragraphs); figures x=360–1080 (~720px), one per screen, captions centred below",
+        "typography": "Heading ~64px Bold uppercase; sidebar ~14px Medium, leading ~1.35; captions ~12px",
+        "palette": [
+          "#040404",
+          "#f6f7f2",
+          "#cfcbc8",
+          "#b4b1ad"
+        ],
+        "behaviour": ".sidebar-text.fixed-on-slide is pinned while its slide is on screen",
+        "content": "How stone lithography worked: gouache sketch, grid transfer, one stone per colour",
+        "assets": "Three isometric vector illustrations (lithography-poster-process-1..3.png) in grey, black, yellow and red"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "story",
+      "variant": "making-of",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "archival, intimate",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "archival",
+          "process"
+        ],
+        "length": "short"
+      },
+      "look": "'FROM SKETCH TO POSTER': a 2×2 grid of small gridded gouache sketches (Turnfest Altstetten, Davos, Interlaken, Simplon) with captions giving their tiny sizes ('1932 • 20.2×13.2cm'), sticky note on the left",
+      "feel": "Behind the scenes in a museum archive",
+      "ux": "Moving the pointer across each sketch steps through 3–5 states (sketch → poster without type → final poster → 2017 animation) and the caption follows",
+      "learn": "A hover scrub across N equal zones is a cheap, satisfying way to show a sequence of stages without a slider",
+      "reconstruction": {
+        "layout": "Heading centred; sticky sidebar x=20–250; two-up rows x=340–1100, cells ~370px wide, posters ~580px tall; captions and hairline below each",
+        "typography": "Heading ~64px Bold uppercase; sidebar ~14px Medium; captions ~12px Medium (title / year • size)",
+        "palette": [
+          "#020202",
+          "#f6f7f2",
+          "#6f6e6e"
+        ],
+        "behaviour": "Per figure, N hover zones (33.3% or 20% wide) set the visible layer of N stacked images/videos and the matching figcaption",
+        "content": "Real sketches seen at the Museum of Design, Zürich",
+        "assets": "Sketch scans, final-poster scans, a 'no type' state, one animation"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "practical, poster-minded",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "archival"
+        ],
+        "length": "short"
+      },
+      "look": "'THE NEW CONDENSED': paragraph, a four-up row of condensed-lettered posters (Fundbüro, Hier Telephonieren, Orell Füssli, Neue Zürcher Zeitung) shown as 2017 animations, a second paragraph",
+      "feel": "Bold, graphic",
+      "ux": "The poster row starts on the animations; hovering the right half shows the original",
+      "learn": "Justify a new width with source material that already used it",
+      "reconstruction": {
+        "layout": "960px column at x=240; four-up gallery x=144–1296, cells ~280px",
+        "typography": "Heading ~64px Bold uppercase; paragraphs ~32px Medium",
+        "palette": [
+          "#040404",
+          "#f6f7f2",
+          "#2e2e2f",
+          "#8f908f"
+        ],
+        "behaviour": "Hover halves swap animation ↔ original scan",
+        "content": "Why condensed letters suit posters; the Condensed follows the R-counter logic",
+        "assets": "Four poster scans and their animations (MP4/GIF)"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "quiet, tactile",
+        "mobile": "adapts",
+        "structure": "map",
+        "samples": "word",
+        "interactive": true
+      },
+      "look": "'Otto Baumberger' in white GT Walsheim Condensed Medium at 173px across the full width, nothing else until hovered",
+      "feel": "Simple, surprising",
+      "ux": "The pointer's horizontal position picks one of 8 Condensed weights; a dot and the label 'GT Walsheim Condensed …' show the current stop",
+      "learn": "Map the weight range onto horizontal pointer position over the sample itself: the specimen becomes its own invisible weight slider",
+      "reconstruction": {
+        "layout": "Full-width row ~250px tall, word centred (~1150px wide); 8 equal invisible hover columns over it; dot and label above the word",
+        "typography": "173px GT Walsheim Condensed, Ultra Light → Ultra Bold (8 static fonts), default Medium",
+        "palette": [
+          "#040404",
+          "#f6f7f2"
+        ],
+        "behaviour": "mouseenter on zone n → apply css[n] (font-family) from data-gt-switch-css; index ball moves to n; mouseleave restores data-gt-switch-default-css",
+        "content": "The inspiration's name",
+        "assets": "none",
+        "html": ".type-sample-container.type-sample-regularwidth > .type-sample-item[data-gt-switch-css] > .js-gt-switch-css-hover×8 + .index-ball-area + .index-descriptor.type-sample-condensedwidth + p"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "respectful, scholarly",
+        "mobile": "adapts",
+        "subject": [
+          "scripts",
+          "alternates"
+        ],
+        "presentation": "toggle",
+        "explanation": "prose"
+      },
+      "look": "'SUPPORTING CYRILLIC': an English paragraph, the word 'Довиждане' at 173px, then the same paragraph translated into Russian",
+      "feel": "Considerate, bilingual",
+      "ux": "Hovering the right half of 'Довиждане' switches it to the Bulgarian alternate forms (a separate font file), the label shows 'Standard' or 'Bulgarian Alternates'",
+      "learn": "Repeat the explanation in the script it describes: the translated paragraph is a Cyrillic text specimen for free",
+      "reconstruction": {
+        "layout": "960px column x=240: paragraph, centred word row ~250px, Russian paragraph",
+        "typography": "Paragraphs ~32px Medium (Latin, then Cyrillic); word 173px Medium",
+        "palette": [
+          "#030303",
+          "#f6f7f2",
+          "#2f2f2f"
+        ],
+        "behaviour": "2 hover halves: font-family gt-walsheim-medium ↔ gt-walsheim-medium-bulg-special",
+        "content": "Why Cyrillic К and И were drawn on their own terms; Bulgarian alternates",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "cheerful, precise",
+        "mobile": "adapts",
+        "subject": [
+          "alternates",
+          "features"
+        ],
+        "presentation": "toggle",
+        "explanation": "prose"
+      },
+      "look": "'STYLISTIC ALTERNATES': 'Yay!' at 432px (the alternate Y, a and y in one word), three posters with tall umlauts, then 'ZÜRICH HÖLL WÄHLT' showing the alternate umlauts",
+      "feel": "Joyful, clear",
+      "ux": "Pointer on the left half shows 'Alternate', right half 'Standard'; a small label and dot show the state. The posters sit between the two samples as evidence for the umlauts",
+      "learn": "Pick one word that contains every alternate ('Yay!') and set it as big as the screen allows; put the source posters next to the feature they inspired",
+      "reconstruction": {
+        "layout": "Paragraph in 960px column; 'Yay!' centred ~800px wide; three-up poster row x=144–1296; 'ZÜRICH HÖLL WÄHLT' centred ~970px wide",
+        "typography": "'Yay!' 432px GT Walsheim Medium (ss01 on by default); umlaut line ~96px Medium (ss05); paragraphs ~32px",
+        "palette": [
+          "#030303",
+          "#f6f7f2",
+          "#2f302d"
+        ],
+        "behaviour": "2 hover halves toggle font-feature-settings: 'ss01' 1/0 (Y a y) and 'ss05' 1/0 (umlauts)",
+        "content": "Real feature notes: alternates came from custom versions; umlauts from Baumberger's posters",
+        "assets": "Three poster scans",
+        "html": ".type-sample-item.type-sample-item-big / -small with data-gt-switch-css [{label:'Alternate', css:{font-feature-settings:'ss01' 1}}, {label:'Standard', …}]"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "transparent, technical",
+        "mobile": "adapts",
+        "subject": [
+          "history-of-revision"
+        ],
+        "presentation": "toggle",
+        "explanation": "prose"
+      },
+      "look": "'OLD VERSUS NEW': a full-width image of test lines ('Tiger (103'52\")', 'ÁáĂăÂâÄäÅåÃã', 'ДдЛлЙйЧчФфФф') captioned 'Old GT Walsheim'",
+      "feel": "Honest, versioned",
+      "ux": "Hovering the right half swaps to the redrawn 'New GT Walsheim' image; the capture caught both layers mid-swap",
+      "learn": "When releasing a revision, show old and new in exactly the same position so the changes jump out on toggle",
+      "reconstruction": {
+        "layout": "Paragraph in 960px column; image x=140–1300, ~300px tall; caption centred; closing paragraph",
+        "typography": "Test lines ~110px Bold (as image); paragraphs ~32px Medium; caption ~12px",
+        "palette": [
+          "#050505",
+          "#f6f7f2",
+          "#8e8e8e"
+        ],
+        "behaviour": "Two stacked images walsheim-old.png / walsheim-new.png, opacity swap on hover halves; captions swap",
+        "content": "Accents, Cyrillic and numerals where metrics changed; note that old files stay available on request",
+        "assets": "Two PNGs of the same lines in the old and new versions"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "orderly",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "'FAMILY OVERVIEW': two ruled columns, 'GT Walsheim Ultra Light … U-Bold' and 'Condensed Ultra Light … Ultra Bold', each name set in its weight with the style word in the matching oblique",
+      "feel": "Neat, complete",
+      "ux": "static",
+      "learn": "Set the family name in the roman and the style word in its oblique on the same line: one list shows weights, widths and italics at once",
+      "reconstruction": {
+        "layout": "Two columns x=144–708 and x=732–1296, 8 rows each ~76px, hairline rule under each row",
+        "typography": "~48px; each row in its own weight (Ultra Light → Ultra Bold), style word in the oblique",
+        "palette": [
+          "#0e0e0e",
+          "#f6f7f2",
+          "#292929"
+        ],
+        "behaviour": "none",
+        "content": "Style names only",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "complete, tidy",
+        "mobile": "shrinks",
+        "coverage": "partial",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "White bordered grid of ~670 characters: Latin caps and lowercase with accents, figures, currency, arrows, circled numbers, a smiley, then Cyrillic",
+      "feel": "Clean reference sheet",
+      "ux": "Hovering a cell opens a large zoomed character box (#gt-character-zoomed, ~605px square); the intro text says 'most' characters and links to the PDF for the rest",
+      "learn": "Say honestly that the grid shows most characters and point to the PDF for the full set",
+      "reconstruction": {
+        "layout": "Grid x=144–1296, 22 columns of ~52px square cells with 1px white borders, ~31 rows",
+        "typography": "Glyphs ~30px GT Walsheim Medium, centred",
+        "palette": [
+          "#0e0e0e",
+          "#f6f7f2"
+        ],
+        "behaviour": "mouseover .js-gt-character → fills and shows the zoomed box; cells for features carry classes (ot-alts, ot-tnum, ot-slash) so alternates render with their feature",
+        "content": "Character set in encoding-like order, alternates and tabular figures included",
+        "assets": "none",
+        "html": "#walsheim-character-set > .character-set-category > .single-item.character-set-box.js-gt-character.border[.ot-alts|.ot-tnum|.ot-slash]; #gt-character-zoomed.character-set-box.zoomed"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "A row of three equal outlined boxes: 'Free trial fonts', 'Buy GT Walsheim', 'PDF specimen'",
+      "feel": "Understated",
+      "ux": "Links to Grilli Type trials and shop and to the PDF; the same three actions sit as tiny fixed 'TRY BUY PDF' links in the top-left corner throughout",
+      "learn": "Keep tiny buy/try links fixed on every screen and repeat them as a calm button row at the end",
+      "reconstruction": {
+        "layout": "Row x=144–1296, three cells ~384×92px sharing 1px white borders, text centred",
+        "typography": "~28px GT Walsheim Medium, white",
+        "palette": [
+          "#0e0e0e",
+          "#f6f7f2"
+        ],
+        "behaviour": "none observed",
+        "content": "Three CTAs: trial, buy, PDF specimen",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "collegial",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "other-fonts"
+        ]
+      },
+      "look": "'CREDITS' heading, two columns of roles (Inspiration, Type design, Website, Illustration, Illustration animation, Development help) and names (Otto Baumberger, Noël Leu, Informal Inquiry, Grilli Type, Josh Schaub, XXIX), then four sibling microsites with animated GIF icons",
+      "feel": "Generous, closing credits",
+      "ux": "The last slide sits fixed underneath the stack and is uncovered as the character-set slide scrolls away; sibling names link to gt-haptik, gt-cinetype, gt-eesti and gt-america",
+      "learn": "Make the final layer of a stacked-slide page the credits: it is revealed rather than scrolled to, like a film's end titles",
+      "reconstruction": {
+        "layout": "Fixed full-viewport slide (~1374px of content); two ruled columns like the family overview; a row of four icon + name links below",
+        "typography": "Heading ~64px Bold uppercase; credits ~48px Medium; sibling names ~32px",
+        "palette": [
+          "#040404",
+          "#f6f7f2"
+        ],
+        "behaviour": "#slide-credits.slide-cover is positioned fixed beneath the stack (z-index 1); sibling icons are looping GIFs",
+        "content": "Real credits and sibling microsites",
+        "assets": "Animated GIF icons per sibling family"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "01",
+      "reason": "the empty zoomed-glyph box (#gt-character-zoomed) of the character grid, captured at the top-left over the hero; its crop just shows magnified hero text"
+    }
+  ],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "story/origin-reference",
+    "interlude/full-bleed-image",
+    "story/origin-reference",
+    "story/making-of",
+    "design-details/annotated-specimen",
+    "story/origin-reference",
+    "story/making-of",
+    "story/origin-reference",
+    "family-overview/designspace-map",
+    "design-details/feature-before-after",
+    "family-overview/style-word-grid",
+    "glyph-table/full-grid",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

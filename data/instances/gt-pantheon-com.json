@@ -1,0 +1,735 @@
+{
+  "slug": "gt-pantheon-com",
+  "extractedBy": "agent",
+  "summary": "'A Typeface Story in Three Acts': a black-and-gold theatre programme for a serif with optical sizes. A playbill title page opens Acts I–III (Flow & Chisel, Micro to Display, The Epilogue), each split into 'Scenes' of annotated glyph drawings. Between acts, mirrored geometric Lottie 'doors' open on scroll, and two 3D 'building block' walls of Latin inscriptions assemble in perspective while the pointer drives weight or optical size. Page clipped at 30,000px: the Epilogue (2D axis pad, glyph set, CTAs, credits) is read from HTML only.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "typeset-page",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "theatrical, classical",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "Black playbill: '·MMXXIV· GRILLI TYPE PRESENTS·', tiny italic 'A Typeface Story in Three Acts', 'GT Pantheon' huge in silver, three act titles '·I· Flow and Chisel  ·II· Micro to Display  ·III· The Epilogue' in italics, 'A Saga of Modern ANTIQUITY' mixing italic and caps, then a flat geometric illustration (purple squares with orange suns, an arch) and a centred intro paragraph",
+      "feel": "Grand, witty, ceremonial",
+      "ux": "Act titles link to the acts; 'Buy ↗ Try ↓' at the top right ('Try' opens the tester overlay); the illustration loops (Lottie)",
+      "learn": "Frame the specimen as a theatre programme: a playbill title page sets the voice and doubles as the table of contents",
+      "reconstruction": {
+        "layout": "Centred in a 12-col grid inside 60px margins (content 1320px); stack: kicker 18px, small italic note, name ~210px, three act links in a 3-col row, tagline ~80px, illustration full content width ~350px tall, paragraph ~10 cols wide, centred; first screen ends after the tagline",
+        "typography": "GT Pantheon Display (opsz 30, wght 300) for the name, silver #dcdcdc; kicker small caps tracked with '·' separators and Roman numerals (ⅯⅯⅩⅩⅣ); act titles italic ~22px; tagline mixes italic lowercase and all-caps; intro paragraph GT Pantheon Text ~48px in which the words Display / Text / Micro are each set in their own opsz",
+        "palette": [
+          "#040404",
+          "#dcdcdc",
+          "#c8a268",
+          "#5903e9",
+          "#fb4929"
+        ],
+        "behaviour": "Lottie 'vibe' illustrations loop; fade-in on load",
+        "content": "Playbill copy, Roman-numeral year, act titles, positioning paragraph",
+        "assets": "Lottie geometric architecture illustrations (vibe-1/2.json) in purple, gold, orange",
+        "html": "lottie-player[data-src=vibe-1.json]; paragraph spans with [--font-opsz:--opsz-display|text|micro]"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "stately",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "Below a second illustration (arches and a stepped pyramid) and a small caption ('five weights with respective italics in each of its three optically adjusted families… 30 styles'), three station labels GT PANTHEON MICRO · TEXT · DISPLAY and two gold columns of weight names, roman right-aligned and italic left-aligned: Light, Regular, Medium, Bold, Black",
+      "feel": "Ceremonial roll call",
+      "ux": "The words loop through the optical sizes while the matching station label lights up (CSS keyframes)",
+      "learn": "Animate the style list along the optical-size axis and light the station label as it passes: one list shows weights, italics and opsz at once",
+      "reconstruction": {
+        "layout": "Station row of three labels at 30% width each across the content; below, two columns meeting at the centre (roman text-right, italic text-left), 5 rows ~180px apart",
+        "typography": "Weight names ~140px gold, wght 300/400/500/700/900; labels Micro all-caps ~12px gold; caption GT Pantheon Micro ~14px centred, 4 cols wide",
+        "palette": [
+          "#040404",
+          "#c8a268",
+          "#5903e9"
+        ],
+        "behaviour": "@keyframes animation-design-family-overview sweeps --font-opsz 10 → 32 → 10; .morph-station labels highlight in sync",
+        "content": "Style names only",
+        "assets": "Lottie illustration (vibe-2)",
+        "html": ".morph-station > div ×3; div.anim-design-family-overview[--font-wght:--wght-light…black] in roman and .italic-font columns"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "interlude",
+      "variant": "scroll-scrubbed-sequence",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "art deco, theatrical",
+        "mobile": "hidden"
+      },
+      "look": "A full-width band of flat geometric architecture (gold diamonds, orange half-suns, purple-and-black checkered domes, white stripes) mirrored left/right and top/bottom like a kaleidoscopic stage curtain",
+      "feel": "Curtain between acts",
+      "ux": "Pinned while you scroll 1500px; the mirrored drawing opens outward like doors to reveal the next act",
+      "learn": "Mirror one Lottie four ways and scrub it with scroll: a cheap, symmetric 'curtain' that marks act changes",
+      "reconstruction": {
+        "layout": "Sticky band 550px tall (top −270px), 100vw; inner 2×2 grid of square canvases 720px each, flipped with scale-x/y(−1) to make a symmetric pattern; margin-bottom ~1230px to give scroll length",
+        "typography": "none",
+        "palette": [
+          "#c8a268",
+          "#fb4929",
+          "#fcfcfc",
+          "#5903e9",
+          "#040404"
+        ],
+        "behaviour": "Lottie frame = scroll progress over data-scroll-length-px=1500; hidden below md",
+        "content": "none",
+        "assets": "Lottie (GT_P_1Blau_reduziert_006.json) rendered to canvas",
+        "html": "div[data-component=section-door][data-scroll-length-px=1500].sticky > 4× div[data-component=section-door__player] > canvas"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "narrative, warm",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "diagram"
+        ],
+        "length": "short"
+      },
+      "look": "Act title '·I· Flow & CHISEL / OR, THE / DESIGN Details / OF GT PANTHEON' centred in silver, a paragraph about Tobias visiting the Pantheon in Rome and Noël joining him, then purple arches and a 3D checker cube, and a gold ornamental rule (squares, diamonds, a checkered lozenge)",
+      "feel": "Storybook, architectural",
+      "ux": "static; the illustration loops",
+      "learn": "Title each act like a chapter of an old book ('or, the Design Details of…') to give the technical sections a narrative frame",
+      "reconstruction": {
+        "layout": "Centred column ~650px for the paragraph; title stack full content width; illustration row ~1320×450px; ornament rule full width with 30px square terminals",
+        "typography": "Title GT Pantheon Display ~150px mixing italic, caps and small caps ('OR, THE' ~24px tracked); paragraph GT Pantheon Text ~28px leading 1.25 silver",
+        "palette": [
+          "#040404",
+          "#dcdcdc",
+          "#5904e9",
+          "#c8a268",
+          "#fb4929"
+        ],
+        "behaviour": "Lottie illustration loops",
+        "content": "Origin story: a visit to the Pantheon and Roman inscriptions",
+        "assets": "Lottie architecture illustration, SVG ornament rule"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "sculptural, precise",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "prose"
+      },
+      "look": "'Scene One: Sculpted Elegance': glyph pairs in silver with captions alternating sides: 'P·S' shaded like chiselled stone (Chiseled Shapes), 'RA' over construction circles and a tick grid (Sculpting Architecture), 'sac' cropped at the edge (Crisp Appearance)",
+      "feel": "Museum-like, refined",
+      "ux": "Each figure is a Lottie that draws or shades in as it scrolls into view",
+      "learn": "Shade the letters like carved stone to make 'chiselled' visible rather than claimed",
+      "reconstruction": {
+        "layout": "Scene heading centred (small-caps kicker + italic title ~44px), intro paragraph 650px; then rows: glyph drawing ~800px wide on one side, caption block ~430px on the other, alternating; rows ~600px",
+        "typography": "Captions: title GT Pantheon ~26px, body ~15px silver; glyphs as drawings ~450px tall",
+        "palette": [
+          "#040404",
+          "#dcdcdc",
+          "#8a8a8a"
+        ],
+        "behaviour": "Lottie drawings triggered on scroll",
+        "content": "Real design notes: high-contrast Display, brutalist diagonals, wedge serifs, crisp vector anatomy",
+        "assets": "Lottie glyph drawings (shaded P·S, RA with construction, sac)"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "specimen-showcase",
+      "variant": "modular-grid",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "monumental, Latin",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "A wall of black stone blocks with gold 3D extrusions, each block a specimen cell of Latin inscriptions: 'MOLIOR' across the top, 'QUALIS experior!', 'MARTIUS (1732) Divide & Impera* Per ardua @ astra', 'FAC SIMILE? Gratia Agere №/Numerus DE FUTURO', two small text blocks; caption 'Fig. 1. Weight Axis of GT Pantheon · Current Weight: 715'",
+      "feel": "Architectural, weighty, playful",
+      "ux": "Pinned for 300vh: the blocks fly in from depth with rotation and stack into a wall as you scroll; moving the pointer left–right sets the weight of all blocks (300–900, quantised) and the caption prints the current value",
+      "learn": "Build the specimen sheet as masonry that assembles in 3D, then hand the weight axis to the pointer: architecture metaphor and axis demo in one",
+      "reconstruction": {
+        "layout": "Sticky stage (viewport height, perspective 2000px) inside a 300vh container, content 10 of 12 cols (~1000px); rows: 1 block (1008×218px), 2 blocks (504×218px), 3 blocks (336×~170px); each block black with 2px gold outline, 50px top and left gold faces (skewed) for depth",
+        "typography": "GT Pantheon at opsz 17–32 per block: 'MOLIOR' ~15vw caps; italics and small caps mixed; small Latin paragraphs ~16px; caption small caps ~12px centred",
+        "palette": [
+          "#070605",
+          "#c8a268",
+          "#2e2a24"
+        ],
+        "behaviour": "Per block data-offset-x/y-pc, data-offset-z-px (up to 2000px) and data-rotate-x/y-deg animate to 0 with scroll; pointer x → font-wght 300–900 (data-quantize 5); readout updates; cursor ew-resize",
+        "content": "Faux Latin inscriptions and mottos with numerals, symbols (№, @, *), dates",
+        "assets": "none",
+        "html": "div[data-component=bb][data-x-axes=font-wght][data-x-axes-min=300][data-x-axes-max=900][data-quantize=5] > div[data-component=bb__block][data-offset-z-px][data-rotate-y-deg][data-row-index][data-column-index]"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "calligraphic, elegant",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "italics"
+        ],
+        "presentation": "annotation",
+        "explanation": "prose"
+      },
+      "look": "Ornament rule, 'Scene Two: Flowing Rhythm' and a paragraph on broad-nib strokes, then gold glyph groups that draw in stroke by stroke: 'stg?' (Stroke Flow), italic 'pzk' (Expressive Italics), '1978' (Calligraphic Numerals), each with a titled caption",
+      "feel": "Fluid, crafted",
+      "ux": "Glyphs are revealed stroke by stroke as you scroll (Lottie)",
+      "learn": "Reveal the letter stroke by stroke in the order a pen would draw it: the calligraphic logic explains itself",
+      "reconstruction": {
+        "layout": "Scene header centred; rows of a ~800px glyph group cropped by the left edge and a 430px caption column, alternating sides",
+        "typography": "Glyphs ~400px gold; caption title ~26px silver, body ~15px",
+        "palette": [
+          "#040404",
+          "#c8a268",
+          "#dcdcdc"
+        ],
+        "behaviour": "Lottie draw-on per figure",
+        "content": "Design notes: broad-nib stroke flow, independent italics, calligraphic figures",
+        "assets": "Lottie stroke animations"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "interlude",
+      "variant": "scroll-scrubbed-sequence",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "art deco",
+        "mobile": "hidden"
+      },
+      "look": "Second door: mirrored white/orange/gold/grey geometry with orange suns and gold panels",
+      "feel": "Act change",
+      "ux": "Pinned and scrubbed on scroll like the first door",
+      "learn": "Vary the colourway per door so each act opens differently with the same mechanism",
+      "reconstruction": {
+        "layout": "Sticky 700px band, 2×2 mirrored canvases",
+        "typography": "none",
+        "palette": [
+          "#fb4a29",
+          "#f5f6f6",
+          "#c9a269",
+          "#c6c6c7"
+        ],
+        "behaviour": "Scroll-scrubbed Lottie",
+        "content": "none",
+        "assets": "Lottie door animation"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "didactic, elegant",
+        "mobile": "adapts",
+        "subject": [
+          "optical-size"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "Act II title 'Micro & Text & Display / OR, THE OPTICAL Sizes' with a small gold robot-like column illustration, an explanatory paragraph, then three columns DISPLAY · TEXT · MICRO each with an 'a' and a paragraph, labelled with live pixel sizes ('Display · 403px / Text · 202px / Micro · 101px', then 403 / 383 / 372px, paragraphs 47/22/15px → 22/22/22px)",
+      "feel": "Clear, demonstrative",
+      "ux": "Scrolling first shows each optical size at its intended size, then scales them to the same size so the differences in contrast, aperture and spacing become comparable; labels update with the current px",
+      "learn": "Animate optical sizes from 'as intended' to 'same size': the scaling makes the drawing differences visible without a word",
+      "reconstruction": {
+        "layout": "Title stack centred; paragraph ~650px centred; comparison: 3 equal flex columns (flex-basis animated), 'a' glyph above a paragraph in each, small-caps labels 'Optical Size · Pixel Size'",
+        "typography": "'a' from ~400px to ~100px depending on column/state, gold; paragraphs GT Pantheon at opsz 30 / 18 / 10, sizes 47/22/15 → 22px; labels small caps ~11px gold",
+        "palette": [
+          "#050505",
+          "#c8a268",
+          "#dcdcdc",
+          "#fb4929"
+        ],
+        "behaviour": "Scroll progress drives aaa__font-size, aaa__height and aaa__flex-basis per column; aaa__opsz-text readouts update",
+        "content": "The same paragraph about Display, Text and Micro set in each size",
+        "assets": "Lottie title illustration",
+        "html": "[data-component=aaa] > [data-component='aaa__flex-basis aaa__a'] ×3, [data-component=aaa__font-size], [data-component=aaa__opsz-text]"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "precise",
+        "mobile": "adapts",
+        "subject": [
+          "optical-size",
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "prose"
+      },
+      "look": "After a purple/gold door fragment, 'Scene One: To Be Clear' on x-height in small sizes, then gold glyph studies (beyond the crop; seen on mobile and in HTML): 'sea' (Apertures & Counters), 'ni' with an orange marker on the shape-shifting dot (Finish), 'we' (Contrast)",
+      "feel": "Close reading",
+      "ux": "Drawings animate (Lottie); captions explain Display vs Micro differences",
+      "learn": "Point at one tiny detail (the i-dot changing from diamond to octagon to square across sizes) to prove the care in optical sizing",
+      "reconstruction": {
+        "layout": "Same scene format: centred header, then glyph + caption rows alternating sides",
+        "typography": "Glyphs ~400px gold; captions ~15px silver with 26px titles",
+        "palette": [
+          "#050505",
+          "#c8a268",
+          "#fb4929",
+          "#dcdcdc"
+        ],
+        "behaviour": "Lottie per figure",
+        "content": "Real notes: x-heights aligned for comparison, flatter thicker serifs in Micro, i-dot shape-shift",
+        "assets": "Lottie glyph drawings"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "specimen-showcase",
+      "variant": "modular-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "monumental, scholarly",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "Second 3D block wall: 'ERUDIO SINE IRA & Studio', '\"Quid Pro Quos\" DOCTRINA Ⅶ', 'Res, Non Verba? Id Est (i.e.) [ei] id vident: DRAMATIS & auditorium!', coordinates '41.8986° N, 12.4769°', a Latin paragraph with '(fig. 1)' and bibliographic references; caption 'Fig. 2. Optical Size Axis of GT Pantheon · Current Optical Size'",
+      "feel": "Erudite, playful",
+      "ux": "Same 3D assembly on scroll; here the pointer drives optical size (10–32) instead of weight",
+      "learn": "Reuse a striking mechanism for a second axis: the visitor already knows the gesture, so the new axis is the only thing to learn",
+      "reconstruction": {
+        "layout": "As the first wall: sticky 3D stage in a 300vh container, 6 blocks in rows of 1/2/3 with gold extruded faces",
+        "typography": "GT Pantheon opsz 10–32 (pointer), weights 300–900 across blocks, italics, small caps, figures; up to ~94px",
+        "palette": [
+          "#080705",
+          "#c8a268",
+          "#2e2a24"
+        ],
+        "behaviour": "data-x-axes=font-opsz, min 10, max 32; bb__variable-value readout; blocks animate from depth",
+        "content": "Latin mottos, coordinates of the Pantheon, invented bibliography",
+        "assets": "none",
+        "html": "div[data-component=bb][data-x-axes=font-opsz][data-x-axes-min=10][data-x-axes-max=32] > bb__block ×6 + bb__variable-value"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "considered",
+        "mobile": "adapts",
+        "subject": [
+          "spacing",
+          "italics",
+          "optical-size"
+        ],
+        "presentation": "annotation",
+        "explanation": "prose"
+      },
+      "look": "Ornament rule, 'Scene Two: I Read Therefore I Am' on negative space, then figures for Spacing (Display tight vs Micro loose), Italic Angle (slant increasing towards Micro) and Horizontal Focus (flattened diagonals in Micro), each a gold drawing with a caption",
+      "feel": "Scholarly",
+      "ux": "Lottie drawings animate between Display and Micro forms",
+      "learn": "Show each optical-size adjustment (spacing, slant, diagonals) as its own before/after figure inside the scene",
+      "reconstruction": {
+        "layout": "Scene format: centred header + paragraph, then three glyph/caption rows",
+        "typography": "Captions ~15px silver, titles ~26px; glyphs gold",
+        "palette": [
+          "#050404",
+          "#c8a268",
+          "#dcdcdc"
+        ],
+        "behaviour": "Lottie per figure",
+        "content": "Real design notes on spacing, italic angle and horizontal focus across optical sizes",
+        "assets": "Lottie glyph comparisons"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "interlude",
+      "variant": "scroll-scrubbed-sequence",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "art deco",
+        "mobile": "hidden"
+      },
+      "look": "Third door (gold, white, orange): the curtain before Act III",
+      "feel": "Last curtain",
+      "ux": "Scroll-scrubbed",
+      "learn": "Three doors for three acts make the structure felt, not just read",
+      "reconstruction": {
+        "layout": "Sticky ~400px band, 2×2 mirrored canvases",
+        "typography": "none",
+        "palette": [
+          "#c9a268",
+          "#fbfcfb",
+          "#fc4a29",
+          "#040404"
+        ],
+        "behaviour": "Scroll-scrubbed Lottie",
+        "content": "none",
+        "assets": "Lottie door animation"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "type-tester",
+      "variant": "pointer-xy-axes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "epigraphic, grand",
+        "mobile": "adapts",
+        "controls": [
+          "axes",
+          "weight"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Beyond the capture (HTML only): Act III 'The Epilogue or, the Family Affairs' with a paragraph, then an inscription composition ('BC Roma', '{ritus} quantus', 'NON BENE PRO Alis Grave Nil ❺ Venditur Auro!', 'OCULUS SINISTER (O.S.)', '· M · AGRIPPA · L · F · COS · TERTIUM · FECIT ·') framed by a gold horizontal slider on top and a vertical rule at the left; caption 'Fig. 3. Optical & Weight Axes of GT Pantheon · Optical Size: • Weight:'",
+      "feel": "Epigraphic, hands-on",
+      "ux": "A 2D pad with no handles to grab: pointer x sets optical size 10–32, y sets weight 300–900 (cursor nesw-resize); the gold edge tracks and the Fig. 3 readouts follow",
+      "learn": "Use a real inscription (the Pantheon's own 'M·AGRIPPA…FECIT') as the sample for the final 2D axis pad: the story closes on its origin",
+      "reconstruction": {
+        "layout": "12-col grid: top gold slider bar with 7.5vw end caps; left 2px gold rule; composition 10 cols: 'Roma' at 22vw, then rows of 2–3 text groups at 8.5vw, 3.2vw and 1.3vw",
+        "typography": "GT Pantheon with --font-opsz and --font-wght from the pad (default opsz 25, wght 500); all-caps, italics, dlig and circled numerals in the composition; caption small caps",
+        "palette": [
+          "#040404",
+          "#c8a268"
+        ],
+        "behaviour": "pointermove → range values (data-axis x for opsz, y for wght) → CSS variables; axes-specimen__variable-value readouts",
+        "content": "Pantheon inscription and Latin proverbs",
+        "assets": "none",
+        "html": "div[data-component=axes-specimen].cursor-nesw-resize[style=--font-opsz;--font-wght] > input[data-component=axes-specimen__range][data-variable=--font-opsz][data-axis=x], input[...--font-wght][data-axis=y]"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "formal",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "HTML only: two gold all-caps buttons 'Download Free Trial Fonts' and 'Purchase GT Pantheon Licensing' after the axis pad; plus 'Buy ↗' and the tester's 'Get Trials / Buy License'",
+      "feel": "Plain",
+      "ux": "Hover turns the button silver; links to grillitype.com",
+      "learn": "Repeat the trial/buy pair inside the tester toolbar so the decision can happen where testing happens",
+      "reconstruction": {
+        "layout": "Two buttons side by side, full gold fill, 1px gold border",
+        "typography": "GT Pantheon Micro medium all-caps ~14px, black on gold",
+        "palette": [
+          "#c8a268",
+          "#040404",
+          "#d1d7d5"
+        ],
+        "behaviour": "hover bg silver",
+        "content": "Trial and licence CTAs",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "orderly",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "HTML only (seen in the storyboard at t≈16s): gold-outlined cell grids per category: Basic, Extended, Small Caps, Ligatures (ff fb ffb … ct st), Numerals and Currencies (incl. Roman numerals and circled figures), Punctuation and Arrows, with a zoom element",
+      "feel": "Thorough",
+      "ux": "Hover a cell to zoom the glyph; glyphs animate (animation-charset-glyph keyframes)",
+      "learn": "Include Roman numerals and historic ligatures (ct, st) in their own category: the set reinforces the antiquity theme",
+      "reconstruction": {
+        "layout": "Full content width; category label then a grid of ~40px square cells with 1px gold borders",
+        "typography": "Glyphs GT Pantheon ~20px silver/gold; category labels italic ~16px centred",
+        "palette": [
+          "#040404",
+          "#c8a268",
+          "#dcdcdc"
+        ],
+        "behaviour": "char-set__zoom on hover; glyph keyframe animation",
+        "content": "Full character set, 572 cells",
+        "assets": "none",
+        "html": "[data-component=char-set] > [data-component=char-set__zoom], [data-component=char-set__set-container] ×6 > [data-component=char-set__char]"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "footer",
+      "variant": "big-sign-off",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "theatrical close",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "other-fonts",
+          "sign-off"
+        ]
+      },
+      "look": "HTML only: credits (Tobias Rechsteiner & Noël Leu; production with Antonio D'Elisiis; site with Jack Wild; animation Josh Schaub; story by Ferdinand Ulrich), a two-column gold list of other GT families, and the closing stage direction 'Exeunt omnes. Finis.'",
+      "feel": "Curtain call",
+      "ux": "Family names link to their microsites",
+      "learn": "End with a stage direction ('Exeunt omnes. Finis.'): the last line keeps the theatre conceit to the end",
+      "reconstruction": {
+        "layout": "Credits centred; family list in 2-col grid with large row gaps; sign-off centred at the very end",
+        "typography": "Credits ~16px with italic names; family names ~40px gold, hover silver; sign-off italic display size",
+        "palette": [
+          "#040404",
+          "#c8a268",
+          "#dcdcdc"
+        ],
+        "behaviour": "hover colour",
+        "content": "Credits, family list, Latin sign-off",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "pangram",
+        "tone": "clean, focused",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "axes",
+          "weight",
+          "features",
+          "style-select",
+          "presets"
+        ],
+        "scope": "single",
+        "defaultText": "pangram",
+        "export": false
+      },
+      "look": "Full-screen purple-blue overlay (offscreen in the capture) with 'Lorem Ipsum Dolor Sit Amet' auto-fitted (~257px) in silver inside a thin silver frame, and a bottom toolbar of bordered cells: Optical Size slider, Weight slider, toggles Italic / Oldstyle Figures / All Caps / Small Caps (diamond indicators), New Sample, Get Trials, Buy License, Close",
+      "feel": "Calm, gallery-like",
+      "ux": "Opened from 'Try ↓'; type to replace the text (it refits); sliders set opsz 10–32 and wght 300–900; 'New Sample' cycles prepared samples",
+      "learn": "Use the brand's accent colour as the tester background and auto-fit the text: the tester feels like a poster you are composing",
+      "reconstruction": {
+        "layout": "Fixed overlay 100vw×100vh; 20px inset silver frame; sample text fitted in the frame above an 88px toolbar of equal bordered cells across the bottom",
+        "typography": "Sample GT Pantheon opsz 32 wght 400 default, textFit; toolbar small caps ~12px silver",
+        "palette": [
+          "#5903e9",
+          "#d1d7d5",
+          "#ffffff"
+        ],
+        "behaviour": "Ranges set --font-opsz / --font-wght; toggles add classes italic-font, ot-osf, all-caps, small-caps (data-active); new-sample swaps text; textFit on input",
+        "content": "'Lorem Ipsum Dolor Sit Amet' plus prepared samples",
+        "assets": "none",
+        "html": "[data-component=typetester].bg-blue > [data-component=tt__sample] > [data-component=tt__sample-text][contenteditable] span.textFitted; [data-component=tt__opsz] (10–32), [data-component=tt__wght] (300–900); button[data-component=tt__settings-btn][data-name=italic-font|ot-osf|all-caps|small-caps]"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/typeset-page",
+    "family-overview/style-word-grid",
+    "interlude/scroll-scrubbed-sequence",
+    "story/origin-reference",
+    "design-details/annotated-specimen",
+    "specimen-showcase/modular-grid",
+    "design-details/annotated-specimen",
+    "interlude/scroll-scrubbed-sequence",
+    "design-details/axis-explainer",
+    "design-details/annotated-specimen",
+    "specimen-showcase/modular-grid",
+    "design-details/annotated-specimen",
+    "interlude/scroll-scrubbed-sequence",
+    "type-tester/pointer-xy-axes",
+    "checkout/link-out-cta",
+    "glyph-table/glyph-inspector",
+    "footer/big-sign-off",
+    "type-tester/slider-sandbox"
+  ]
+}

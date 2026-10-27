@@ -1,0 +1,480 @@
+{
+  "slug": "gt-flexa-com",
+  "extractedBy": "agent",
+  "summary": "A bright, playful variable-font site for a three-axis grotesk (weight, width, italic plus a Mono). It opens with a Pong game in which the CTA buttons are the paddles and every hit re-flexes the name. Short design-aspect tiles with looping videos follow, then giant collapsible axis headers that open onto words animated to act out their meaning ('Squat', 'Rattle', 'Dip', 'Slouch'). A colour-coded appendix closes the page, and the tester lives in a side drawer behind a vertical 'TYPETESTER' tab.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "mini-game",
+      "newVariant": true,
+      "variantDefinition": "The hero is a small playable game (e.g. Pong) built from the page's own elements: collisions or score change the name's axes or style, and CTA buttons can double as game pieces",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "game-like",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "playful, witty, retro-arcade",
+        "mobile": "adapts",
+        "carrier": "motion",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "White screen, 'GT Flexa' in black at the centre (captured wide, bold and italic), an outlined '↗ FREE TRIAL FONTS' box on the top edge, an outlined '↗ BUY LICENSING' box on the bottom edge, and a small yellow ball",
+      "feel": "Cheeky, arcade-like, surprising",
+      "ux": "The two CTA buttons are Pong paddles sliding along the top and bottom edges; the yellow ball bounces between them, and each hit on the name changes its width, weight and italic (frames show it condensed upright, wide roman, wide italic). The paddles stay clickable links",
+      "learn": "Turn the obligatory buy/trial buttons into game pieces: the CTA is the first thing visitors play with, and every bounce shows a new point in the design space",
+      "reconstruction": {
+        "layout": "Header ~1303×753 within 69px side margins; paddles ~400×50px outlined boxes at the top and bottom edges, positioned by 'left' in px; name centred; ball ~20px circle positioned by left/top; whole contents can slide via translateX (1s ease-out)",
+        "typography": "Name 158px GT Flexa, font-variation-settings wdth 50–150, wght 100–900, ital 0–100 (captured at wdth 140.8, wght 652, ital 100); paddle labels ~16px uppercase Medium",
+        "palette": [
+          "#fefefe",
+          "#060606",
+          "#fee70d",
+          "#d1d1d1"
+        ],
+        "behaviour": "JS game loop: ball position updated per frame, reflects off paddles and edges; on collision with #pong_flexa it sets new random wdth/wght/ital values (interpolated). Loader first: black screen, 'GT Flexa' in yellow at ~587px filling the screen and 'Loading...' with animated dots (~4s)",
+        "content": "Family name and the two CTAs",
+        "assets": "none",
+        "html": "header#pong > #pong_contents > a#pong_topPaddle.button.button-free-trial + h1#pong_flexa[style=font-variation-settings] + a#pong_bottomPaddle.button.button-buy-licensing + div#pong_ball.pong-ball"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "proud, joyful",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "A narrow uppercase meta column on the left ('DESIGNED BY DOMINIK HUBER WITH MARC KAPPELER 2015–2020 / PUBLISHED BY GRILLI TYPE IN JULY 2020 / FAMILY OF 112 STYLES ACROSS 8 FAMILIES AND 2 VARIABLE FONTS') beside a large black paragraph",
+      "feel": "Clear, warm",
+      "ux": "static",
+      "learn": "Pull the facts (designers, date, style count) into a small meta column so the big paragraph can stay a pure statement",
+      "reconstruction": {
+        "layout": "12-col grid inside 69px margins: meta column ~270px at left, paragraph from x≈620 to the right margin (~750px), ~875px tall",
+        "typography": "Paragraph 45px GT Flexa Standard Regular (wdth 100, wght 400), leading ~1.25; meta ~11px uppercase, wdth 75",
+        "palette": [
+          "#fbfbfb",
+          "#060606",
+          "#afafaf"
+        ],
+        "behaviour": "none",
+        "content": "Real positioning: a fluid design space instead of static styles; six years of work; 'a grotesk can still be fun'",
+        "assets": "none",
+        "html": "section.intro > p.meta-info.col-intro-sidebar + p.copy-body.copy-intro.col-intro-main"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "03",
+        "04",
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "graphic, upbeat",
+        "mobile": "adapts",
+        "subject": [
+          "axes",
+          "construction"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "Four design-aspect tiles, each a compressed bold heading in its own colour ('FONT FITS FORMAT' turquoise, 'RAW POWER' coral, 'DETAILS MATTER' blue, 'FLEXIBLE FLUIDITY' purple), a short paragraph and a looping video: 'RISE' letters stretching to fill black rounded boxes, two coral 'o' rings with arrows, a blue 'at' with Bézier points and inktrap arrows, a pendulum ball labelled 'WEIGHT' in a framed designspace",
+      "feel": "Fresh, poster-like, explanatory",
+      "ux": "Videos play when in the viewport; the 'Font Fits Format' paragraph sets each keyword in the style it names (thin in Lazer, thick in Black, narrow in X Compressed, wide in X Expanded, italic)",
+      "learn": "Typeset descriptive words in the styles they describe ('narrow' in X Compressed): the paragraph explains the axes and demonstrates them at once",
+      "reconstruction": {
+        "layout": "Tiles ~1303px wide, 660–1040px tall, alternating 2×1 (heading + text top, wide video below) and side-by-side (video half, text half) layouts; hairline rule between tiles",
+        "typography": "Headings 158px GT Flexa, wdth 50, wght 700, uppercase, leading ~0.85, coloured; paragraphs ~28px Standard Regular; inline keywords in Lazer / Black / X Compressed / X Expanded / Italic",
+        "palette": [
+          "#fefefe",
+          "#060606",
+          "#fee70d",
+          "#fd5949",
+          "#036ef6",
+          "#aa4ffa",
+          "#ff9689"
+        ],
+        "behaviour": "<video class=js-playInViewport autoplay loop muted> per tile (portrait/landscape variants for Font Fits Format)",
+        "content": "Real design principles: responsive type, simple shapes with low contrast, carved inktraps and looped terminals, three axes plus Mono",
+        "assets": "Four short looping MP4 animations (responsive-type, 89, at/inktraps, designspace)",
+        "html": "section.design-aspect.design-aspect-2x1 | .design-aspect-info-right > h2.color-* + p.copy-body (span.copy-lazer/.copy-black/.copy-x-comp/.copy-x-exp/.copy-italic) + .animation > video.js-playInViewport"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "kinetic-scenes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bauhaus, joyful",
+        "mobile": "adapts",
+        "medium": "video",
+        "sequence": "single"
+      },
+      "look": "A full-width black 'interrupter': big flat shapes (yellow quarter-discs, white parallelograms, a green block, a coral stroke) assembling into letters, with 'FINALLY, A FUN GROTESK' in purple compressed caps at the bottom",
+      "feel": "Toy blocks, celebratory",
+      "ux": "The video loops when in view; the headline animates its axes ('h3-jump')",
+      "learn": "Break the letters into their primitive shapes and let them reassemble: it shows the 'simple shapes' construction as a pause between chapters",
+      "reconstruction": {
+        "layout": "Full-bleed black section ~1402×1807, video ~1300px wide, headline centred near the bottom",
+        "typography": "Headline ~116px GT Flexa, wdth ~70, wght ~640 (animated), uppercase, purple",
+        "palette": [
+          "#020201",
+          "#ffe30d",
+          "#00ca56",
+          "#fdfdfd",
+          "#f9dd0d"
+        ],
+        "behaviour": "video.js-playInViewport loop; keyframes h3-jump on the headline",
+        "content": "Tagline 'Finally, a fun grotesk'",
+        "assets": "Looping MP4 of flat geometric shapes forming glyphs (fun-grotesk.mp4)",
+        "html": "section.interrupter.interrupter-design-aspect > .animation > video + .interrupter-text > h3"
+      }
+    },
+    {
+      "blocks": [
+        "07",
+        "08",
+        "09",
+        "10"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "playful, kinetic",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "Four collapsible axis sections, each headed by its name set so wide and tall it fills the page ('WEIGHT' purple, 'WIDTH AXIS' yellow, 'ITALIC AXIS' green, 'MONO' blue); open, they show animated samples: 'GT Flexa' pairs flexing between Standard and X Compressed … X Expanded, 'DIP' leaning in and out of italic, and words in each weight or the Mono acting out their meaning",
+      "feel": "Animated, funny, generous",
+      "ux": "Clicking a header opens or closes its section (Width and Italic were open in the capture; Weight and Mono showed only the top of the giant label). Inside, every sample loops its own keyframe animation: 'Space' (Lazer) spreads, 'Rattle' (Thin) shakes, 'Squat', 'Pinch', 'Dance', 'Bend', 'Push'; italics 'Dip', 'Drift', 'Plunge', 'Slouch' (letter by letter), 'Settle', 'Tilt'; Mono 'ZAG', 'WICKED', 'WILLY-NILLY? MUMBO-JUMBO!'",
+      "learn": "Pick a verb for each style and animate the axis so the word does what it says: the motion explains the axis better than a slider",
+      "reconstruction": {
+        "layout": "Each section full width inside 69px margins; header ~370px tall when closed (label clipped), label left and intro paragraph right when open; Width: 7 rows of mirrored 'GT Flexa' pairs (small left / big right, then reversed) with style labels at both ends; Italic: 4 slides of 1–3 words, 'DIP' ~1000px across",
+        "typography": "Axis labels up to 832px GT Flexa, letters given individual widths (span.letter-1 … letter-5) to fill the line, uppercase; samples 60–1008px across the axis ranges; style labels ~11px uppercase",
+        "palette": [
+          "#fefefd",
+          "#8902fd",
+          "#fced91",
+          "#fc5a49",
+          "#3ea1fe",
+          "#d1d1d1"
+        ],
+        "behaviour": ".wrap-collapsible toggled via .section-toggle (class js-axis-section-active when open); ~60 @keyframes on font-variation-settings (sample-space, sample-rattle, sample-width-xcompressed…, sample-dip, sample-slouch-1..6, sample-kicks-1..15, h2-breathe); sections start animating in view (js-animation-paused removed)",
+        "content": "Verbs and exclamations matched to each axis motion; style names (Lazer → Black, X Compressed → X Expanded)",
+        "assets": "none",
+        "html": "section.axis-explainer > .wrap-collapsible > .section-toggle.color-* > .axis-title > h2.axis-label + span.axis-text; .collapsible-content > .width-axis-sample-container > .width-axis-sample > .width-axis-sample-widths (span.width-axis-sample-width-varied, -std) + .width-axis-sample-big; .italic-axis-slide > .italic-axis-sample.italic-axis-sample-dip"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "specimen-showcase",
+      "variant": "kinetic-scenes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bold, cut-out",
+        "mobile": "adapts",
+        "medium": "video",
+        "sequence": "single"
+      },
+      "look": "Second black interrupter: huge pink 'G' and 'U', a green 'W' and an orange-dotted 'i' made of flat shapes, with 'MIX AND MATCH', each word in a different width and weight, at the bottom",
+      "feel": "Collage, energetic",
+      "ux": "Looping video; each headline word animates its own axes (h3-mix, h3-and, h3-match)",
+      "learn": "Close the axes chapter with a mixed-width headline that literally mixes and matches styles",
+      "reconstruction": {
+        "layout": "Full-bleed black section ~1402×1807, video fills the width, headline centred at the bottom",
+        "typography": "Headline ~101px, three spans at different wdth/wght (e.g. Lazer extended 'AND', Black compressed 'MATCH'), pink",
+        "palette": [
+          "#020302",
+          "#fdc6f0",
+          "#00c634",
+          "#02b330"
+        ],
+        "behaviour": "video.js-playInViewport loop; per-word keyframes on font-variation-settings",
+        "content": "'Mix and Match'",
+        "assets": "Looping MP4 of shape-built glyphs (mix-and-match.mp4)",
+        "html": "section.interrupter.interrupter-axes-explainer > .interrupter-text > h3 > span.interrupter-h3-mix|-and|-match"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "systematic",
+        "mobile": "shrinks",
+        "structure": "matrix",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "'GT Flexa Family' table: 8 rows of widths (X Compressed → X Expanded, plus Mono) × 7 weight columns (Lazer → Black), each cell a letter pair (Aa, Bb… continuing through the alphabet) in that style; the corner cell 'GT FLEXA' in white on red",
+      "feel": "Reference chart",
+      "ux": "static; 'BUY LICENSING' button beside the heading",
+      "learn": "Continue the alphabet across a width × weight table so every cell is different but the whole still reads as one set",
+      "reconstruction": {
+        "layout": "Table ~1300px wide, 8 columns (first ~230px for row labels), 9 rows of ~83px, 2px black borders; heading + paragraph + button row above",
+        "typography": "Letter pairs ~28px in each style; headers ~13px uppercase Medium; heading 45px Standard Regular",
+        "palette": [
+          "#f7f6f6",
+          "#060606",
+          "#d4d4d3",
+          "#fd5949"
+        ],
+        "behaviour": "none",
+        "content": "Letter pairs Aa–Zz across 56 styles",
+        "assets": "none",
+        "html": "table.family-overview-table > tr.ov__super-compressed … th.table-title-main + th.table-header"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, clear",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Outlined rectangular buttons in the appendix rows: 'BUY LICENSING' (next to the family table), 'GET FREE TRIAL FONTS', 'DOWNLOAD PDF MANUAL', each beside a heading and a one-line explanation",
+      "feel": "Calm, helpful",
+      "ux": "Buttons link to the shop, the trials page and a PDF manual; the same trial/buy links appear as the hero's Pong paddles and inside the tester drawer",
+      "learn": "Pair each button with one plain sentence (e.g. 'As a student you can even use them for your projects!')",
+      "reconstruction": {
+        "layout": "Rows of heading (left ~430px) / paragraph (~430px) / button (~430×50px) across the 1300px grid",
+        "typography": "Headings 45px Standard Regular; paragraphs ~16px; button labels ~14px uppercase Medium",
+        "palette": [
+          "#f7f6f6",
+          "#060606"
+        ],
+        "behaviour": "none",
+        "content": "Licensing for whole family, 8 subfamilies or 112 styles; variable fonts by email; trials; PDF manual",
+        "assets": "PDF manual",
+        "html": ".about-section > h4 + .about-columns > p + a.button.button-huge"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "colourful, tidy",
+        "mobile": "shrinks",
+        "coverage": "by-category",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Character grid with each category in its own colour: Basic Latin coral, Extended Latin purple, numerals and circled numerals green, arrows and punctuation gold, OpenType feature alternates blue",
+      "feel": "Cheerful, systematic",
+      "ux": "Hovering a cell animates the glyph (keyframes 'charset-hover' on its axes)",
+      "learn": "Colour-code the glyph categories with the site's accent colours so a long grid stays readable",
+      "reconstruction": {
+        "layout": "Cells ~38px square with 1px coloured borders, 34 per row across ~1300px; small category headings above",
+        "typography": "Glyphs ~22px GT Flexa Standard Regular in the category colour; headings ~16px",
+        "palette": [
+          "#f7f6f6",
+          "#e7d8f1",
+          "#daeaec",
+          "#efe9da",
+          "#d4d4d3"
+        ],
+        "behaviour": "CSS :hover → animation charset-hover (font-variation-settings)",
+        "content": "~540 characters incl. alternates; 'supports over 100 languages'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "friendly",
+        "mobile": "adapts",
+        "contains": [
+          "other-fonts",
+          "credits",
+          "contact",
+          "socials"
+        ]
+      },
+      "look": "'Other Minisites': GT Alpina, Zirkon, Super, Walsheim, America, Eesti, Cinetype, Haptik in heavy compressed type, each with a coloured icon (triangle, hexagon, crescent, oval, star, diamond, octagon, heart); then 'Credits' and 'Contact' rows of small text",
+      "feel": "Toy-box finish",
+      "ux": "Sibling names link to their sites; contact row links to the website, Instagram and Twitter",
+      "learn": "Give each sibling a simple coloured shape, echoing the page's geometric illustrations",
+      "reconstruction": {
+        "layout": "Minisites as a wrapping row of icon + name pairs (~70px tall); credits and contact as heading left + two text columns",
+        "typography": "Names ~70px GT Flexa Compressed Bold; credits ~14px with bold names",
+        "palette": [
+          "#f7f6f6",
+          "#060606",
+          "#d4d4d3"
+        ],
+        "behaviour": "none",
+        "content": "Real credits (Dominik Huber, Marc Kappeler, Informal Inquiry, Josh Schaub, Sensor Station)",
+        "assets": "Eight coloured shape icons"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "playful, practical",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes",
+          "presets"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": true
+      },
+      "look": "A side drawer (off-canvas to the right, captured in HTML only) opened from a vertical 'TYPETESTER' tab fixed at the right edge: two nav rows (New Sample, Share This Sample, Download Free Trial Fonts, Buy Licensing; Mono toggle, Sample, and Width / Weight / Italic sliders each with a play button) above one editable line 'Imagination is more important than knowledge'",
+      "feel": "Compact, toy-like",
+      "ux": "Drag a slider or press its play button to animate that axis; toggle Mono; cycle preset samples; 'Share This Sample' copies a link with the current settings ('Copied Link!')",
+      "learn": "Give every axis slider a play button and add a share-link button: testing becomes making something you can send",
+      "reconstruction": {
+        "layout": "Full-viewport panel sliding in from the right; two nav rows at the top (items spread across the width); large sample below; 'Close' tab replaces the vertical opener",
+        "typography": "Sample ~150px GT Flexa (default wdth 100, wght 500); nav ~14px uppercase",
+        "palette": [
+          "#ffffff",
+          "#060606"
+        ],
+        "behaviour": "Custom range spans with two stops each; play buttons loop the axis; #tt_monoToggle switches to Flexa Mono; .js-tt_newSample cycles texts; #tt_shareSample writes settings to a URL and copies it",
+        "content": "Quote-like preset sentences ('Imagination is more important than knowledge')",
+        "assets": "none",
+        "html": ".typetester-container > #js-typetester-open.typetester-button-open + .typetester-nav > .typetester-nav-row > #tt_width|#tt_weight|#tt_italic > .typetester-nav-playbutton + .typetester-range-input > .typetester-range-slider + .typetester-range-stop×2; #tt_sampleContainer > p#tt_sampleText[contenteditable]"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "13",
+      "reason": "loader overlay ('GT Flexa Loading...'), described in the hero"
+    }
+  ],
+  "sequence": [
+    "hero/mini-game",
+    "story/large-text-intro",
+    "design-details/design-notes",
+    "specimen-showcase/kinetic-scenes",
+    "design-details/axis-explainer",
+    "specimen-showcase/kinetic-scenes",
+    "family-overview/designspace-map",
+    "checkout/link-out-cta",
+    "glyph-table/full-grid",
+    "footer/credits-colophon",
+    "type-tester/slider-sandbox"
+  ]
+}

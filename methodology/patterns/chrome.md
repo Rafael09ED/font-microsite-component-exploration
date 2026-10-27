@@ -10,6 +10,7 @@ Sample: 2 blocks from 2 sites.
 |---|---|---|---|
 | [announcement-banner](#announcement-banner) | 1 | A thin site-wide banner (donation, launch, sale). | strip above everything |
 | [masthead-nav](#masthead-nav) | 1 | A slim header with name, tagline and section tabs, standing in for a hero. | header only |
+| [nav-bar](#nav-bar) | 0 | A persistent site bar (top or bottom, fixed or static): name or logo, section links or view tabs, a buy/get button, sometimes toggles such as colour themes. | thin bar, repeated across stitched screens when fixed |
 
 ## announcement-banner
 
@@ -30,3 +31,11 @@ A slim header with name, tagline and section tabs, standing in for a hero.
 | example | look | feel | ux | learn |
 |---|---|---|---|---|
 | [input-djr-com#00](../../archive/input-djr-com/blocks/00.jpg) | Pale mint, bold green slab 'INPUT™', mono tagline, tabs Intro / Preview / Info / Download, small logo glyphs right | Utilitarian, code-editor-like | Tabs switch or jump between the site's sections | For a tool-like font, a compact masthead with tabs gets visitors to the preview faster than a splash |
+
+## nav-bar
+
+A persistent site bar (top or bottom, fixed or static): name or logo, section links or view tabs, a buy/get button, sometimes toggles such as colour themes.
+
+**Recognise by:** thin bar, repeated across stitched screens when fixed
+
+_No instance in the sample yet._

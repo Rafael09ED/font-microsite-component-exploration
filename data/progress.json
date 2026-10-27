@@ -14,9 +14,14 @@
       "updatedAt": "2026-10-20T21:18:05.571Z"
     },
     "method": {
-      "status": "review",
-      "note": "METHOD.md written — awaiting review of the 4 decisions",
-      "updatedAt": "2026-10-20T21:18:05.608Z"
+      "status": "done",
+      "note": "reviewed 2026-10-27: sections→types→variants, look at every block, reconstruction notes",
+      "updatedAt": "2026-10-27T22:07:47.994Z"
+    },
+    "gallery": {
+      "status": "running",
+      "note": "browser built (npm run app → localhost:5178); playground rebuilds after Phase 3",
+      "updatedAt": "2026-10-27T22:07:48.040Z"
     }
   },
   "sites": {
@@ -38,8 +43,12 @@
         "updatedAt": "2026-10-20T20:59:55.507Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 17,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.161Z"
+      },
+      "note": "recut: block 11 merges overview, glyphs, checkout, credits"
     },
     "gt-america-com": {
       "archive": {
@@ -82,7 +91,10 @@
         "updatedAt": "2026-10-20T20:59:58.009Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 7,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.167Z"
       }
     },
     "gt-eesti-com": {
@@ -102,7 +114,10 @@
         "updatedAt": "2026-10-20T20:59:58.316Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 5,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.169Z"
       }
     },
     "gt-ultra-com": {
@@ -124,7 +139,10 @@
         "updatedAt": "2026-10-20T20:59:59.067Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 20,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.171Z"
       }
     },
     "gt-flexa-com": {
@@ -145,8 +163,12 @@
         "updatedAt": "2026-10-20T20:59:59.480Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 11,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.174Z"
+      },
+      "note": "recut: block 12 merges overview, glyphs, checkout, credits"
     },
     "gt-maru-com": {
       "archive": {
@@ -167,7 +189,10 @@
         "updatedAt": "2026-10-20T21:00:00.528Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 16,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.177Z"
       }
     },
     "gt-alpina-com": {
@@ -188,7 +213,10 @@
         "updatedAt": "2026-10-20T21:00:01.210Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 14,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.179Z"
       }
     },
     "gt-super-com": {
@@ -208,7 +236,10 @@
         "updatedAt": "2026-10-20T21:00:02.464Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 13,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.182Z"
       }
     },
     "gt-haptik-com": {
@@ -228,8 +259,12 @@
         "updatedAt": "2026-10-20T21:00:02.708Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 8,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.184Z"
+      },
+      "note": "recut: final links slide not segmented"
     },
     "gt-zirkon-com": {
       "archive": {
@@ -248,8 +283,12 @@
         "updatedAt": "2026-10-20T21:00:02.911Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 8,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.186Z"
+      },
+      "note": "recut: last ~6000px is one truncated block"
     },
     "gt-pressura-com": {
       "archive": {
@@ -269,7 +308,10 @@
         "updatedAt": "2026-10-20T21:00:03.904Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 16,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.188Z"
       }
     },
     "gt-planar-com": {
@@ -290,8 +332,12 @@
         "updatedAt": "2026-10-20T21:00:04.815Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 15,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.190Z"
+      },
+      "note": "recut: credits row not segmented"
     },
     "gt-mechanik-com": {
       "archive": {
@@ -311,8 +357,12 @@
         "updatedAt": "2026-10-20T21:00:06.913Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 25,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.191Z"
+      },
+      "note": "recapture: page tail beyond 30k clip (tester, glyphs, CTAs) HTML-only"
     },
     "gt-canon-com": {
       "archive": {
@@ -331,8 +381,12 @@
         "updatedAt": "2026-10-20T21:00:08.179Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 10,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.194Z"
+      },
+      "note": "recapture: info panel closed during capture; content HTML-only"
     },
     "gt-flaire-com": {
       "archive": {
@@ -352,7 +406,10 @@
         "updatedAt": "2026-10-20T21:00:10.144Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 12,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.196Z"
       }
     },
     "gt-pantheon-com": {
@@ -373,8 +430,12 @@
         "updatedAt": "2026-10-20T21:00:10.871Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 18,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.198Z"
+      },
+      "note": "recapture: page tail beyond 30k clip HTML-only"
     },
     "gt-standard-com": {
       "archive": {
@@ -394,8 +455,12 @@
         "updatedAt": "2026-10-20T21:00:11.383Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 12,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:25:04.159Z"
+      },
+      "note": "recapture: page tail beyond 30k clip HTML-only"
     },
     "pp-fragment-com": {
       "archive": {
@@ -416,7 +481,10 @@
         "updatedAt": "2026-10-20T21:00:11.936Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 13,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:28:15.403Z"
       }
     },
     "editorialnew-com": {
@@ -438,7 +506,10 @@
         "updatedAt": "2026-10-20T21:00:12.541Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 17,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.200Z"
       }
     },
     "pp-frama-com": {
@@ -459,7 +530,10 @@
         "updatedAt": "2026-10-20T21:00:13.638Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 22,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.203Z"
       }
     },
     "foodissue-commercialtype-com": {
@@ -479,7 +553,10 @@
         "updatedAt": "2026-10-20T21:00:13.784Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 7,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.204Z"
       }
     },
     "tofino-losttype-com": {
@@ -499,7 +576,10 @@
         "updatedAt": "2026-10-20T21:00:14.514Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 16,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.206Z"
       }
     },
     "prospectus-losttype-com": {
@@ -519,7 +599,10 @@
         "updatedAt": "2026-10-20T21:00:14.886Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 8,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.208Z"
       }
     },
     "mort-modern-losttype-com": {
@@ -539,7 +622,10 @@
         "updatedAt": "2026-10-20T21:00:15.397Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 8,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.210Z"
       }
     },
     "faction-losttype-com": {
@@ -559,7 +645,10 @@
         "updatedAt": "2026-10-20T21:00:15.616Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 9,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.211Z"
       }
     },
     "moriston-losttype-com": {
@@ -579,7 +668,10 @@
         "updatedAt": "2026-10-20T21:00:15.884Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 11,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.213Z"
       }
     },
     "escafina-losttype-com": {
@@ -599,7 +691,10 @@
         "updatedAt": "2026-10-20T21:00:16.086Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 11,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.214Z"
       }
     },
     "latest-losttype-com-introducing-dotties": {
@@ -619,8 +714,12 @@
         "updatedAt": "2026-10-20T21:00:16.179Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 9,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.216Z"
+      },
+      "note": "recut: whole article is one 7748px block"
     },
     "sanssheriff-wtf": {
       "archive": {
@@ -639,8 +738,12 @@
         "updatedAt": "2026-10-20T21:00:16.415Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 14,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.218Z"
+      },
+      "note": "recut: top ticker and fixed trial bar not cut as blocks"
     },
     "infinite-tragedy-com": {
       "archive": {
@@ -660,8 +763,12 @@
         "updatedAt": "2026-10-20T21:00:16.482Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 3,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:24:01.219Z"
+      },
+      "note": "recapture: only the first random module captured; About tab hidden"
     },
     "serf-nan-xyz": {
       "archive": {

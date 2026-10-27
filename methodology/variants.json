@@ -146,6 +146,13 @@
         "daifoldes-com-eubiescript-sub#00"
       ],
       "mergedFrom": []
+    },
+    "mini-game": {
+      "definition": "The hero is a small playable game built from the page's own elements (e.g. Pong); collisions or score change the name's axes, CTAs can be game pieces.",
+      "cues": "ball, paddles, score in the first screen",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
     }
   },
   "intro-animation": {
@@ -267,6 +274,13 @@
       "examples": [
         "2020-typefacedesign-org-simon#12"
       ],
+      "mergedFrom": []
+    },
+    "info-popover": {
+      "definition": "Section copy hidden behind a small info button and shown as a popover beside the specimen; the page shows type first, text on demand.",
+      "cues": "(i) Info buttons",
+      "count": 0,
+      "examples": [],
       "mergedFrom": []
     }
   },
@@ -442,6 +456,20 @@
         "type-tester/shareable-composer",
         "type-tester/pairing-preview"
       ]
+    },
+    "auto-fit-editable-lines": {
+      "definition": "Editable display lines that rescale to fill the column width as you type; no size or axis controls, at most a style switch for the stack.",
+      "cues": "full-width editable lines, no sliders",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
+    },
+    "pointer-xy-axes": {
+      "definition": "The pointer's x and y position (or device tilt) each drive one variable axis, with edge tracks or labels showing live values; no sliders to grab.",
+      "cues": "axis labels at the edges, moves with the cursor",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
     }
   },
   "specimen-showcase": {
@@ -558,6 +586,20 @@
       "examples": [
         "pacaembu-naipefoundry-com#11"
       ],
+      "mergedFrom": []
+    },
+    "generative-layout-stream": {
+      "definition": "An endless scroll appending randomly composed layout modules (columns, captions, lists, display words) with themed, often editable copy.",
+      "cues": "infinite scroll, varied modules",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
+    },
+    "slider-morph-mockups": {
+      "definition": "Realistic layouts (ads, tickets, flyers) each with an axis slider that morphs the whole design between the axis extremes.",
+      "cues": "mockup plus slider underneath",
+      "count": 0,
+      "examples": [],
       "mergedFrom": []
     }
   },
@@ -701,6 +743,13 @@
         "design-details/design-notes-carousel",
         "design-details/topic-video-tiles"
       ]
+    },
+    "highlighted-in-context": {
+      "definition": "Ligatures, alternates or special glyphs set inside a display sentence and picked out in an accent colour, discovered in context rather than in a catalogue.",
+      "cues": "accent-coloured glyphs inside a headline",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
     }
   },
   "language-support": {
@@ -732,6 +781,20 @@
         "calhern-frostype-xyz#32"
       ],
       "mergedFrom": []
+    },
+    "script-catalogue": {
+      "definition": "Each supported script named in its own script at display size, in a grid, with style counts and notes on how it was made.",
+      "cues": "Кирилиця, Ελληνικά, عربي as headings",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
+    },
+    "language-name-list": {
+      "definition": "The supported languages listed by name, as small running text, columns, or a per-script table with credits and style counts; the list is the proof.",
+      "cues": "long alphabetical list of language names",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
     }
   },
   "comparison": {
@@ -742,6 +805,27 @@
       "examples": [
         "font-subf-dev-en#03"
       ],
+      "mergedFrom": []
+    },
+    "pointer-wipe": {
+      "definition": "Two typefaces or versions on the same sample, compared by a divider that follows the pointer (clip-path wipe) or by one pointer pad driving both.",
+      "cues": "draggable split line",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
+    },
+    "reference-morph": {
+      "definition": "A custom variable font interpolates a reference typeface (generic or historical model) into this one; scroll or a loop scrubs the morph between two labelled ends.",
+      "cues": "two labels at the ends, shapes morphing",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
+    },
+    "source-reset": {
+      "definition": "A scan of a historical source (ad, specimen, cover) followed by the same text reset in the new typeface at the same scale.",
+      "cues": "scan, then the same layout set fresh",
+      "count": 0,
+      "examples": [],
       "mergedFrom": []
     }
   },
@@ -901,6 +985,20 @@
         "fridamedrano-com-jabin#08"
       ],
       "mergedFrom": []
+    },
+    "scroll-spy-nav": {
+      "definition": "A fixed bar or tab strip of the page's chapters that marks the current one while scrolling (highlight, needle on a dial); click to jump.",
+      "cues": "chapter list with active state",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
+    },
+    "toc-drawer": {
+      "definition": "An off-canvas panel of section links opened from a fixed edge tab or menu icon.",
+      "cues": "edge tab, slide-out list",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
     }
   },
   "playground-app": {
@@ -935,9 +1033,23 @@
     }
   },
   "interlude": {
-    "scroll-door-animation": {
-      "definition": "A pinned, scroll-scrubbed illustration opening like doors.",
-      "cues": "symmetry, scrubbing",
+    "chapter-title-overlay": {
+      "definition": "A fixed full-screen overlay flashing the chapter number or name in giant type each time a chapter scrolls in, then fading.",
+      "cues": "giant blended numerals over content",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
+    },
+    "full-bleed-image": {
+      "definition": "A full-viewport image without text (close-up of the source or of the letters) as a pause between chapters.",
+      "cues": "one photo, no text",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
+    },
+    "scroll-scrubbed-sequence": {
+      "definition": "A pinned, scroll-scrubbed animation (pre-rendered frame sequence or illustration, e.g. doors opening, an object turning or releasing letters) between sections, with little or no text.",
+      "cues": "sticky stage, image changes with scroll",
       "count": 1,
       "examples": [
         "gt-pantheon-com#01"
@@ -964,6 +1076,13 @@
       "examples": [
         "input-djr-com#00"
       ],
+      "mergedFrom": []
+    },
+    "nav-bar": {
+      "definition": "A persistent site bar (top or bottom, fixed or static): name or logo, section links or view tabs, a buy/get button, sometimes toggles such as colour themes.",
+      "cues": "thin bar, repeated across stitched screens when fixed",
+      "count": 0,
+      "examples": [],
       "mergedFrom": []
     }
   },

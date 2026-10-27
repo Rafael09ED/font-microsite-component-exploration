@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "note": "Curated taxonomy derived from the 250-block sample (Phase 2). Raw labels in methodology/labels/ are left as observed; aliases map raw names to canonical ones. Edit this file to change the taxonomy, then run `npm run labels`.",
   "sections": {
     "hero": {
@@ -117,6 +117,10 @@
         "product-landing": {
           "definition": "The software-product landing pattern: headline, tagline, paragraph, primary and secondary buttons.",
           "cues": "SaaS layout, 'Try it now' and 'GitHub' buttons, common for coding fonts"
+        },
+        "mini-game": {
+          "definition": "The hero is a small playable game built from the page's own elements (e.g. Pong); collisions or score change the name's axes, CTAs can be game pieces.",
+          "cues": "ball, paddles, score in the first screen"
         }
       }
     },
@@ -167,6 +171,10 @@
         "designer-bio": {
           "definition": "A short, informal bio of the designer with contact links.",
           "cues": "portrait or name, 'about me'"
+        },
+        "info-popover": {
+          "definition": "Section copy hidden behind a small info button and shown as a popover beside the specimen; the page shows type first, text on demand.",
+          "cues": "(i) Info buttons"
         }
       }
     },
@@ -233,6 +241,14 @@
         "creative-toy": {
           "definition": "A playful maker that turns the font into a composition: patterns, shareable images, style pairings, word-by-word styling.",
           "cues": "share or download buttons, presets, unusual gestures"
+        },
+        "auto-fit-editable-lines": {
+          "definition": "Editable display lines that rescale to fill the column width as you type; no size or axis controls, at most a style switch for the stack.",
+          "cues": "full-width editable lines, no sliders"
+        },
+        "pointer-xy-axes": {
+          "definition": "The pointer's x and y position (or device tilt) each drive one variable axis, with edge tracks or labels showing live values; no sliders to grab.",
+          "cues": "axis labels at the edges, moves with the cursor"
         }
       }
     },
@@ -274,6 +290,14 @@
         "themed-infographic": {
           "definition": "An interactive infographic on the font's theme, set in the font so the numerals and labels do real work.",
           "cues": "data, line-ups, timetables"
+        },
+        "generative-layout-stream": {
+          "definition": "An endless scroll appending randomly composed layout modules (columns, captions, lists, display words) with themed, often editable copy.",
+          "cues": "infinite scroll, varied modules"
+        },
+        "slider-morph-mockups": {
+          "definition": "Realistic layouts (ads, tickets, flyers) each with an axis slider that morphs the whole design between the axis extremes.",
+          "cues": "mockup plus slider underneath"
         }
       }
     },
@@ -320,6 +344,10 @@
         "design-notes": {
           "definition": "A sequence of design decisions, each with a visual and a short caption, as a carousel or video tiles.",
           "cues": "slides or looping tiles per topic"
+        },
+        "highlighted-in-context": {
+          "definition": "Ligatures, alternates or special glyphs set inside a display sentence and picked out in an accent colour, discovered in context rather than in a catalogue.",
+          "cues": "accent-coloured glyphs inside a headline"
         }
       }
     },
@@ -337,6 +365,14 @@
         "coverage-statement": {
           "definition": "A big-type sentence stating the coverage instead of showing it.",
           "cues": "'Supports 200+ languages'"
+        },
+        "script-catalogue": {
+          "definition": "Each supported script named in its own script at display size, in a grid, with style counts and notes on how it was made.",
+          "cues": "Кирилиця, Ελληνικά, عربي as headings"
+        },
+        "language-name-list": {
+          "definition": "The supported languages listed by name, as small running text, columns, or a per-script table with credits and style counts; the list is the proof.",
+          "cues": "long alphabetical list of language names"
         }
       }
     },
@@ -346,6 +382,18 @@
         "versus-tabs": {
           "definition": "Tabs pick a rival typeface; the same text is set in both, stacked.",
           "cues": "rival names as tabs"
+        },
+        "pointer-wipe": {
+          "definition": "Two typefaces or versions on the same sample, compared by a divider that follows the pointer (clip-path wipe) or by one pointer pad driving both.",
+          "cues": "draggable split line"
+        },
+        "reference-morph": {
+          "definition": "A custom variable font interpolates a reference typeface (generic or historical model) into this one; scroll or a loop scrubs the morph between two labelled ends.",
+          "cues": "two labels at the ends, shapes morphing"
+        },
+        "source-reset": {
+          "definition": "A scan of a historical source (ad, specimen, cover) followed by the same text reset in the new typeface at the same scale.",
+          "cues": "scan, then the same layout set fresh"
         }
       }
     },
@@ -380,6 +428,10 @@
         "build-configurator": {
           "definition": "Options (alternates, spacing, ligatures) select which pre-built files you download.",
           "cues": "option toggles plus a download button"
+        },
+        "package-price-sheet": {
+          "definition": "The licence packages (family, subfamily, single style) laid out with contents and ‘from’ prices, illustrated with style samples; the purchase itself happens in an external shop.",
+          "cues": "package cards with prices, buy links out"
         }
       }
     },
@@ -423,6 +475,14 @@
         "related-projects": {
           "definition": "Cards linking to the designer's or foundry's other fonts.",
           "cues": "'More from…'"
+        },
+        "scroll-spy-nav": {
+          "definition": "A fixed bar or tab strip of the page's chapters that marks the current one while scrolling (highlight, needle on a dial); click to jump.",
+          "cues": "chapter list with active state"
+        },
+        "toc-drawer": {
+          "definition": "An off-canvas panel of section links opened from a fixed edge tab or menu icon.",
+          "cues": "edge tab, slide-out list"
         }
       }
     },
@@ -451,9 +511,17 @@
     "interlude": {
       "definition": "Pure transition between sections; no information.",
       "variants": {
-        "scroll-door-animation": {
-          "definition": "A pinned, scroll-scrubbed illustration opening like doors.",
-          "cues": "symmetry, scrubbing"
+        "chapter-title-overlay": {
+          "definition": "A fixed full-screen overlay flashing the chapter number or name in giant type each time a chapter scrolls in, then fading.",
+          "cues": "giant blended numerals over content"
+        },
+        "full-bleed-image": {
+          "definition": "A full-viewport image without text (close-up of the source or of the letters) as a pause between chapters.",
+          "cues": "one photo, no text"
+        },
+        "scroll-scrubbed-sequence": {
+          "definition": "A pinned, scroll-scrubbed animation (pre-rendered frame sequence or illustration, e.g. doors opening, an object turning or releasing letters) between sections, with little or no text.",
+          "cues": "sticky stage, image changes with scroll"
         }
       }
     },
@@ -467,6 +535,10 @@
         "masthead-nav": {
           "definition": "A slim header with name, tagline and section tabs, standing in for a hero.",
           "cues": "header only"
+        },
+        "nav-bar": {
+          "definition": "A persistent site bar (top or bottom, fixed or static): name or logo, section links or view tabs, a buy/get button, sometimes toggles such as colour themes.",
+          "cues": "thin bar, repeated across stitched screens when fixed"
         }
       }
     },
@@ -678,8 +750,24 @@
       "why": "free fonts' checkout"
     },
     "section-divider/scroll-door-animation": {
-      "to": "interlude/scroll-door-animation",
-      "why": "type renamed"
+      "to": "interlude/scroll-scrubbed-sequence",
+      "why": "type renamed; variant generalised in Phase 3"
+    },
+    "chrome/site-nav-bar": {
+      "to": "chrome/nav-bar",
+      "why": "Phase 3: merged with fixed-header-bar"
+    },
+    "chrome/fixed-header-bar": {
+      "to": "chrome/nav-bar",
+      "why": "Phase 3: merged with site-nav-bar"
+    },
+    "interlude/scroll-door-animation": {
+      "to": "interlude/scroll-scrubbed-sequence",
+      "why": "Phase 3: generalised"
+    },
+    "language-support/coverage-table": {
+      "to": "language-support/language-name-list",
+      "why": "Phase 3: a tabular form of the language list"
     }
   }
 }

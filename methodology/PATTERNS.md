@@ -8,7 +8,7 @@ The above-the-fold impression: a large specimen of the family, the tagline, and 
 
 | type | sample blocks | variants | |
 |---|---|---|---|
-| [hero](patterns/hero.md) | 48 | 11 | The above-the-fold first impression: what the visitor sees before scrolling. |
+| [hero](patterns/hero.md) | 48 | 12 | The above-the-fold first impression: what the visitor sees before scrolling. |
 | [intro-animation](patterns/intro-animation.md) | 2 | 1 | A timed or pinned full-screen sequence played before the page proper, like film opening titles. |
 
 ## Story
@@ -17,7 +17,7 @@ Where the family came from and where it is going: the brief, the references, the
 
 | type | sample blocks | variants | |
 |---|---|---|---|
-| [story](patterns/story.md) | 24 | 9 | Where the family comes from and why: brief, references, process, people. |
+| [story](patterns/story.md) | 24 | 10 | Where the family comes from and why: brief, references, process, people. |
 
 ## Glyph table
 
@@ -26,7 +26,7 @@ Every glyph in the font, rendered from the font file, and the scripts and langua
 | type | sample blocks | variants | |
 |---|---|---|---|
 | [glyph-table](patterns/glyph-table.md) | 21 | 6 | The character set itself, all or by category. |
-| [language-support](patterns/language-support.md) | 3 | 3 | Script and language coverage. |
+| [language-support](patterns/language-support.md) | 3 | 5 | Script and language coverage. |
 
 ## Type tester
 
@@ -34,7 +34,7 @@ Interactive controls a visitor can drive: axis sliders, an editable text field, 
 
 | type | sample blocks | variants | |
 |---|---|---|---|
-| [type-tester](patterns/type-tester.md) | 24 | 8 | Interactive: the visitor types and/or drives size, axes and features. |
+| [type-tester](patterns/type-tester.md) | 24 | 10 | Interactive: the visitor types and/or drives size, axes and features. |
 | [playground-app](patterns/playground-app.md) | 2 | 2 | The whole site is an application rather than a scrolling page. |
 | [game](patterns/game.md) | 1 | 1 | A playable game made with the font. |
 
@@ -44,9 +44,9 @@ The family shown in real use and in display compositions, from waterfalls to pro
 
 | type | sample blocks | variants | |
 |---|---|---|---|
-| [specimen-showcase](patterns/specimen-showcase.md) | 32 | 9 | The family shown in use or in display compositions. |
+| [specimen-showcase](patterns/specimen-showcase.md) | 32 | 11 | The family shown in use or in display compositions. |
 | [family-overview](patterns/family-overview.md) | 10 | 3 | The family's styles and structure at a glance. |
-| [interlude](patterns/interlude.md) | 1 | 1 | Pure transition between sections; no information. |
+| [interlude](patterns/interlude.md) | 1 | 3 | Pure transition between sections; no information. |
 
 ## Design details
 
@@ -54,8 +54,8 @@ The micro-decisions behind the drawing: spacing, alternates, OpenType features, 
 
 | type | sample blocks | variants | |
 |---|---|---|---|
-| [design-details](patterns/design-details.md) | 36 | 6 | The micro-decisions: features, alternates, axes, spacing, construction. |
-| [comparison](patterns/comparison.md) | 1 | 1 | This font set against others or against previous versions. |
+| [design-details](patterns/design-details.md) | 36 | 7 | The micro-decisions: features, alternates, axes, spacing, construction. |
+| [comparison](patterns/comparison.md) | 1 | 4 | This font set against others or against previous versions. |
 
 ## Checkout
 
@@ -74,5 +74,5 @@ Colophon, contact and legal: the credibility line and the last thing visitors re
 | type | sample blocks | variants | |
 |---|---|---|---|
 | [footer](patterns/footer.md) | 18 | 5 | The end of the page: colophon, contact, legal. |
-| [navigation](patterns/navigation.md) | 1 | 1 | Wayfinding and cross-promotion beyond the global nav. |
-| [chrome](patterns/chrome.md) | 2 | 2 | Site furniture that is not specimen content (banners, nav). |
+| [navigation](patterns/navigation.md) | 1 | 3 | Wayfinding and cross-promotion beyond the global nav. |
+| [chrome](patterns/chrome.md) | 2 | 3 | Site furniture that is not specimen content (banners, nav). |

@@ -1,0 +1,616 @@
+{
+  "slug": "gt-planar-com",
+  "extractedBy": "agent",
+  "summary": "A black sci-fi 'spaceship' page for a family whose slant runs from −45° Retalic to +45° Italic: the hero is a cockpit HUD (gauges, pilot, 'Buckle in' ticker) around a canvas hyperspace warp with flying slanted titles, then pointer- or tilt-driven axis demos, two scroll-driven 3D wireframe tunnels, Lottie diagrams of construction details, colour-coded slant matrices, and a full-screen cockpit-console type tester with animated presets. A fixed bar with a context 'message centre' changes its prompt per section.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "19"
+      ],
+      "type": "hero",
+      "variant": "kinetic-type",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "retro sci-fi, playful, cinematic",
+        "mobile": "adapts",
+        "carrier": "motion",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "A cockpit HUD frames the screen (top status 'GT PLANAR ENG PXS VEC SNR NFO', red 'BUCKLE IN TO ENSURE PILOT SAFETY' ticker, red EXIT button, side gauges ENG, BAT, VEC, TLT, bottom PXS dial, MOD waveform, pilot portrait with FOCUS/OXYGEN/AWAKE bars, SNR radar) around a black starfield warp where 'TYPE THE FINAL FRONTIER' and 'GT PLANAR −45° +45°' fly at the viewer with every letter at a different slant",
+      "feel": "Arcade cockpit, exhilarating, nerdy",
+      "ux": "Stars accelerate into hyperspace on load; title planes zoom forward in sequence; HUD gauges read live values (scroll distance in px, tilt %, battery, pointer vector puck); 'EXIT' or the 'HUD' toggle hides the cockpit and reveals the page; the HUD can be re-opened from the fixed bar anywhere",
+      "learn": "Turn the scroll position and pointer into instrument readouts: a themed HUD makes ordinary browsing feel like piloting",
+      "reconstruction": {
+        "layout": "Full viewport 1440×900; HUD fixed: top bar 70px (status block ~300px, ticker, EXIT ~60px red square), left and right gauge columns ~100px, bottom console ~150px with dials and pilot panel; canvas fills the rest; title centred, 3 lines (~146px)",
+        "typography": "Title GT Planar wght 500, uppercase, per-letter slnt stepping −25…+25 across each word (e.g. T −25, Y −8.33, P 8.33, E 25), white; HUD labels ~12px GT Planar caps; 'GT Planar' 40px Medium",
+        "palette": [
+          "#000000",
+          "#ffffff",
+          "#fe003c",
+          "#00ff85",
+          "#fcff76"
+        ],
+        "behaviour": "Canvas starfield with radial streaks (warp); intro planes (intro__plane--first) scale/translate in Z with an intro--enter class; HUD widgets hud__battery, hud__speedo, hud__tilt, hud__vec-puck, hud__distance-text, hud__tape-counter update from scroll and pointer; ticker scrolls; site loads from white → HUD boot (~2s)",
+        "content": "Star Trek pastiche ('Type: the final frontier', 'Buckle in to ensure pilot safety')",
+        "assets": "Pilot portrait image, HUD SVG gauges",
+        "html": "section[data-component=intro] > canvas[data-component=intro__canvas] + .intro__plane > span per letter with font-variation-settings; div[data-component=hud] with hud__* components"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "cosmic, witty",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'LIFTOFF' label at left and a 6-line white paragraph at right on black ('Welcome to a galaxy of Uprights and Italics built as one…'), with a few slanted letters mixed in",
+      "feel": "Calm after the spectacle",
+      "ux": "static",
+      "learn": "Keep the space metaphor in the copy ('Swiss Futurism', 'galaxy of Uprights and Italics') so the prose matches the theatrics",
+      "reconstruction": {
+        "layout": "Content column x=250–1190; label in the first third, paragraph spanning the right two thirds (~620px), ~320px tall",
+        "typography": "~24px GT Planar Light (wght 300), white, leading ~1.3; label ~14px caps; individual letters at slnt 39 inside the text",
+        "palette": [
+          "#030303",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Real description: seamless Thin–Black and −45° Retalic to +45° Italic, Dominik Huber, 'welcome to Swiss Futurism'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "pointer-xy-axes",
+      "newVariant": true,
+      "variantDefinition": "The pointer's x and y position over the sample or the whole viewport (or device tilt on touch) each drive one variable axis, with edge tracks or labels showing the axis and its live value; no sliders to grab",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "physical, playful",
+        "mobile": "adapts",
+        "controls": [
+          "weight",
+          "axes"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "'Bending / the laws / of nature' huge in white inside a frame with corner crosses, an 'ANGLE: 0°' puck on a top track and a vertical 'WEIGHT: 0' puck on the left track",
+      "feel": "Direct, gravity-defying",
+      "ux": "Moving the pointer left–right bends the text from −45° to +45° and up–down changes weight, the pucks sliding along their tracks with live values; on touch devices a red 'Pilot needs to activate tilt mode' button requests device-motion permission so tilting the phone drives the axes; the fixed bar says 'move mouse'",
+      "learn": "Map slant to horizontal pointer movement: the gesture literally leans the text, so the axis is understood by the body",
+      "reconstruction": {
+        "layout": "Framed area 940×705 in the content column; text centred, 3 lines; top track along the frame's top edge with a small bordered puck; left track along the left edge with a rotated puck; 16px plus-sign images at the corners",
+        "typography": "Text 19vw mobile / ~187px desktop, GT Planar slnt −45…45, wght 100–900, white, leading 0.9; puck labels ~11px caps",
+        "palette": [
+          "#030303",
+          "#f2f2f2",
+          "#fe003c"
+        ],
+        "behaviour": "pointermove → slnt from x, wght from y (or DeviceOrientation after request-motion permission); puck translate follows; values written into the puck labels",
+        "content": "A claim about the font ('Bending the laws of nature')",
+        "assets": "Corner cross PNG",
+        "html": "section[data-component=axes-overview][data-message-centre=move-mouse] > button[data-component=request-motion] + .axes-overview__type > span×3 + .axes-overview__track--top > .axes-overview__puck--top + left track > .axes-overview__puck--left"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "spectral, technical",
+        "mobile": "adapts",
+        "subject": [
+          "axes",
+          "italics"
+        ],
+        "presentation": "overlay",
+        "explanation": "prose"
+      },
+      "look": "A large outline 'a' drawn as a fan of stacked contours sweeping from red (Retalic) through yellow to green (Italic), then 'BEYOND DIVISIONS' and two text columns",
+      "feel": "Like a long-exposure photo of a letter",
+      "ux": "Lottie animation draws the stepped contours; static text",
+      "learn": "Overlay every slant step of one letter in a colour ramp: the continuous axis becomes one image",
+      "reconstruction": {
+        "layout": "Lottie full content width (~940×300) on top, then a 3-column row: caps label, two ~300px text columns",
+        "typography": "Outline 'a' ~400px drawn at slnt −45…+45; body ~17px GT Planar Light white; label ~14px caps",
+        "palette": [
+          "#050504",
+          "#fe003c",
+          "#fcff76",
+          "#00ff85",
+          "#ffffff"
+        ],
+        "behaviour": "lottie-player aa_web.json / aa_mobile.json (draws the contour fan)",
+        "content": "Real note: Retalic to Upright to Italic as one continuous design space",
+        "assets": "Lottie JSON of the slant fan"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "spectral, systematic",
+        "mobile": "adapts",
+        "structure": "map",
+        "samples": "name-only",
+        "interactive": true
+      },
+      "look": "A top row of seven angle labels (RETALIC 45/30/15 in red, orange, yellow, UPRIGHT in green, ITALIC 15/30/45) above two columns of weight names 'Thin … Black' in pale green, each in its weight",
+      "feel": "Instrument panel, colour-coded",
+      "ux": "The pointer's horizontal position selects one of the seven angles: the weight names slant to it and take that angle's colour; on touch, tilt mode drives it",
+      "learn": "Colour-code the angle steps (red at the extremes, green upright) so slant reads as a temperature scale",
+      "reconstruction": {
+        "layout": "Label row across the 940px column; 6 rows of two right/centre-aligned words, ~120px rows; hidden indicator spans track the pointer",
+        "typography": "Words ~115px GT Planar wght 100/250/400/550/750/900; labels ~11px caps in #fe003c, #ff8a00, #fcff76, #00ff85",
+        "palette": [
+          "#030303",
+          "#87f485",
+          "#fe003c",
+          "#ff8a00",
+          "#fcff76",
+          "#00ff85"
+        ],
+        "behaviour": "pointermove x → slnt step (−45, −30, −15, 0, 15, 30, 45) and colour on all rows",
+        "content": "Weight names",
+        "assets": "none",
+        "html": "section[data-component=family-style-overview] > label row + .family-style-overview__inner > [data-component=family-style-overview__row] > span.family-style-overview__column×2"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "story",
+      "variant": "scroll-narrative",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "synthwave, immersive",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "diagram"
+        ],
+        "length": "short"
+      },
+      "look": "A purple wireframe tunnel in one-point perspective with red slanted words 'A NEW' and 'SYSTEM' on its ceiling, floor and walls; at the end the 'DESIGN' paragraph",
+      "feel": "Flying through a vector grid, 80s sci-fi",
+      "ux": "Pinned for 450vh: scrolling moves the camera down the tunnel (translateZ), word planes pass by, and the DESIGN text arrives from the vanishing point; message centre reads 'Traverse infinity'",
+      "learn": "Use scroll as forward motion through a CSS 3D tunnel and place the copy at its end: the reader 'arrives' at the statement",
+      "reconstruction": {
+        "layout": "Sticky inner 200% wide (-50% margin), height 100vh, scroll height 450vh; planes at --offset −1350, −900, −450px along Z (--tunnel-length 1350px); grid lines drawn as borders",
+        "typography": "Wall words text-4xl/8xl GT Planar caps, red, letters at slnt 25 → −25, vertical writing-mode on the walls; DESIGN paragraph ~24px Light white",
+        "palette": [
+          "#06030a",
+          "#6a04f6",
+          "#f9033b",
+          "#ffffff"
+        ],
+        "behaviour": "scroll progress → --tunnel-translate translateZ on .ss__tunnel; perspective on .ss__inner",
+        "content": "'A NEW SYSTEM' and the real design paragraph ('GT Planar provides a program pushed and not constrained by its exceptions…')",
+        "assets": "none (CSS 3D)",
+        "html": "section.ss.ss--first[data-component=ss][style=--tunnel-length;--scroll-height;--tunnel-translate] > .ss__inner.sticky > .ss__tunnel > [data-component=ss__tunnel-plane][style=--offset]"
+      }
+    },
+    {
+      "blocks": [
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "technical, neon",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "italics",
+          "spacing"
+        ],
+        "presentation": "annotation",
+        "explanation": "prose"
+      },
+      "look": "Six Lottie diagrams on black, each with a caps heading and short text: a zoom with a scrambling 'SCALE 36565%' counter into an outline 'Straight' with red hatched joints (STRAIGHT CURVES), purple 'ET' with point markers and angle labels (FLEXIBLE PERSISTENCE), outline 'run' with green spur markers (CALCULATED SURPRISES), solid purple slanted 'ace' (EXPRESSIVE CONTROL), outline 'ECONOMIC' filling letter by letter (DYNAMIC PACE), outline 'SPACE' with hatched counters and area labels (BALANCING ACT)",
+      "feel": "Blueprints in neon, meticulous",
+      "ux": "Animations play as they enter; message centre says 'Stay focused'; the scale counter and scrambled text decode on scroll",
+      "learn": "Draw letters as outlines and hatch only the detail under discussion (joint, spur, counter): the eye goes straight to the decision",
+      "reconstruction": {
+        "layout": "Mostly 8+4 grid: Lottie 8 columns (~620px) beside heading + text 4 columns, alternating; full-width diagrams (ECONOMIC, SPACE) above a 3-column text row; ~3100px total",
+        "typography": "Diagram letters ~200–300px GT Planar in outline or solid purple; annotation labels ~10px in red boxes; headings ~14px caps white; body ~17px Light",
+        "palette": [
+          "#020203",
+          "#6301fc",
+          "#fe003c",
+          "#00ff85",
+          "#ffffff"
+        ],
+        "behaviour": "lottie-player straight_web, kreis_web (zoom), et_web, run, ace, economic_web, space_web (and _mobile versions); scramble-text component counts SCALE up and scrambles a word",
+        "content": "Real design notes: horizontal terminals stay horizontal at any angle, spurs stay vertical, hand-drawn italics narrow at extreme angles, steady capitals, counters shifted to top and bottom",
+        "assets": "Lottie JSON per diagram (web + mobile)",
+        "html": "section[data-component=scramble-text] > span[data-component=scramble-text__pc] + [data-component=scramble-text__text]; lottie-player[data-component=lottie-player][data-src]"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "story",
+      "variant": "scroll-narrative",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "visionary, synthwave",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "diagram"
+        ],
+        "length": "short"
+      },
+      "look": "A second, longer tunnel in red wireframe with purple 3D blocks lettered 'THE', 'FUTURE', 'ROOTED', 'IN' sliding past, ending on 'FUTURE CLASSIC — Expressive rationalism. Vivid discipline. Playful determination.'",
+      "feel": "Grand finale of the story",
+      "ux": "Pinned for 750vh; scrolling flies through the tunnel, blocks pass on the floor and walls; text revealed at the end",
+      "learn": "Reuse the same scroll mechanism with a new colour and longer length for the closing statement: repetition becomes a chapter marker",
+      "reconstruction": {
+        "layout": "Same structure as the first tunnel with --tunnel-length 2250px and --scroll-height 750vh; blocks are purple panels with caps words on the tunnel faces",
+        "typography": "Block words ~60–100px GT Planar wght 500 caps; closing paragraph ~24px Light white with caps heading",
+        "palette": [
+          "#0c0305",
+          "#f9033b",
+          "#7100fe",
+          "#ffffff"
+        ],
+        "behaviour": "scroll → translateZ; ss__tunnel-block elements with font-variation-settings",
+        "content": "'The future rooted in…' and the Future Classic paragraph",
+        "assets": "none (CSS 3D)",
+        "html": "section.ss.ss--second[data-component=ss] > .ss__tunnel-plane > .ss__tunnel-block"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "orderly, colourful",
+        "mobile": "adapts",
+        "structure": "matrix",
+        "samples": "glyph",
+        "interactive": true
+      },
+      "look": "A ruled white-on-black matrix: columns −45° … +45° (labels red, orange, yellow, green, yellow, orange, red) × rows THIN … BLACK (rotated labels), each cell a letter pair ('Aa', 'Bb' …) at that slant and weight",
+      "feel": "Complete, chart-like",
+      "ux": "Hovering a cell tints it with its angle colour (data-color); message centre reads 'Explore quadrants'",
+      "learn": "Lay out a slant axis left-to-right with upright in the middle: the table itself looks like the letters are leaning",
+      "reconstruction": {
+        "layout": "Table ~940px wide, header row 23px, 6 rows ~100px, 23px label column with vertical text, 1px grey rules",
+        "typography": "Pairs ~58px GT Planar at slnt −45…45, wght 100…900; headers ~10px caps in angle colours",
+        "palette": [
+          "#090909",
+          "#ffffff",
+          "#fe003c",
+          "#ff8a00",
+          "#fcff76",
+          "#00ff85"
+        ],
+        "behaviour": "td[data-font-variation-settings][data-color] → colour on hover",
+        "content": "Alphabet letter pairs",
+        "assets": "none",
+        "html": "table[data-component=family-overview-table] > tr.ov-<weight> > th + td[data-font-variation-settings][data-color]"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, helpful",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "'FAMILY OVERVIEW' intro: 'Download all 42 trial font files…' beside a solid neon-green 'DOWNLOAD FREE TRIAL FONTS' button; an outlined green 'DOWNLOAD PDF SPECIMEN' button sits in the character-set intro; 'Buy' lives in the fixed bar",
+      "feel": "Low-key, practical",
+      "ux": "Trial button links to grillitype.com free trials; PDF links to the GT Planar manual; Buy links to the shop",
+      "learn": "Attach the trial CTA to the family overview, where visitors have just seen all 42 styles",
+      "reconstruction": {
+        "layout": "3-column intro row: caps heading, ~300px text, button right-aligned (~300×40px)",
+        "typography": "Button ~14px GT Planar caps, black on #00ff85; text ~17px Light white",
+        "palette": [
+          "#090909",
+          "#00ff85",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Trial, PDF specimen, buy",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "design-details",
+      "variant": "highlighted-in-context",
+      "newVariant": true,
+      "variantDefinition": "Ligatures, alternates or special glyphs set inside a display sentence or lockup and picked out in an accent colour, so they are discovered in context rather than in a catalogue",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "astronomical, exuberant",
+        "mobile": "adapts",
+        "subject": [
+          "alternates"
+        ],
+        "presentation": "toggle",
+        "explanation": "caption"
+      },
+      "look": "'STYLISTIC ALTERNATES': a run of space-themed specimen items in neon green and purple ('SPACE GEEKS', 'Celestial Coordinates? Galactic & Ecliptic…', 'galactic guardian', 'Pulsar is a magnetized rotating neutron star…', three columns on Kepler and Newton, '2.6907 1,3514?'), letters with alternates picked out in the other colour, each item tagged 'WEIGHT 900 · ANGLE +00' and 'STRAIGHT / SINGLE STORY / CURVED ALTERNATES ON'",
+      "feel": "Space-nerd poster wall",
+      "ux": "Each item's On/Off indicator flips (hover or loop) to swap the highlighted letters between default and alternate forms; message centre reads 'Galaxy of alternates'",
+      "learn": "Colour only the letters that have alternates and label the set and its state above the sample: the reader sees exactly what the feature changes",
+      "reconstruction": {
+        "layout": "~3500px stack of specimen items, each with a small bordered readout row (weight/angle at left, feature + On/Off at right) above a centred sample from 19vw down to ~25px three-column text",
+        "typography": "Samples GT Planar wght 100–900, slnt 0; 'SPACE GEEKS' ~274px Black; readouts ~10px caps grey with green values; alternate letters in #04fd87 vs #6301fd",
+        "palette": [
+          "#030304",
+          "#04fd87",
+          "#6301fd",
+          "#8a8a8a"
+        ],
+        "behaviour": "span.letter-with-alt get the alternate (ss01–ss04) when the item's indicator is On; specimen-ot-alt-indicator-active/inactive swap",
+        "content": "Astronomy copy with real facts (Kepler 1609–1619, Newton 1642–1726, orbit definitions)",
+        "assets": "none",
+        "html": "section[data-message-centre=alternates] > .specimen-item > readout row (.specimen-ot-alt-indicator-active|inactive) + div > span.letter-with-alt"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "playful, technical",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A sticky isometric wireframe cube whose three visible faces show the current glyph ('W') at −30° in red, 0° in green and +30° in purple, beside pale-yellow bordered grids labelled BASIC LATIN, EXTENDED LATIN, ALTERNATE CHARACTERS, NUMBERS – PUNCTUATION – SYMBOLS",
+      "feel": "Toy-like, 3D, inspectable",
+      "ux": "Hovering a grid cell puts that character on all three cube faces at three slants; message centre reads 'Zoom zoom zoom'",
+      "learn": "Show the inspected glyph on the faces of a cube at three angles: the inspector demonstrates the slant axis at the same time",
+      "reconstruction": {
+        "layout": "Cube ~300px at left (sticky), grid ~620px at right (x≈570–1190), ~16 cells per row, ~44px cells with 1px borders, category tags in small bordered boxes; ~1550px",
+        "typography": "Cube glyphs ~90px GT Planar wght 500 at slnt −30/0/+30; grid glyphs ~22px pale yellow (#fcff76); tags ~10px caps",
+        "palette": [
+          "#0a0a09",
+          "#fcff76",
+          "#fe003c",
+          "#00ff85",
+          "#5b07f8"
+        ],
+        "behaviour": "char-set__char hover → char-set__cube-span ×3 update (CSS 3D cube); char-set__zoom loupe present but unused",
+        "content": "~440 glyphs, 187+ Latin languages",
+        "assets": "none (CSS 3D)",
+        "html": "section[data-message-centre=charset] > [data-component=char-set] > [data-component=char-set__cube-span]×3 + [data-component=char-set__set-container]×4 > [data-component=char-set__char]"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "brand family",
+        "mobile": "adapts"
+      },
+      "look": "'MINISITES' label and eleven GT family names in white at ~32px in a 3-column grid; a 'CREDITS' row (Dominik Huber, Patrick Savolainen, Josh Schaub, Jack Wild) sits just above but was not segmented",
+      "feel": "Quiet ending",
+      "ux": "Names link to the sibling minisites",
+      "learn": "End a spectacular page with plain text links: the calm is part of the landing",
+      "reconstruction": {
+        "layout": "4+8 grid: label left, names in 3 columns on the right, ~45px rows",
+        "typography": "~32px GT Planar Light white; label ~14px caps",
+        "palette": [
+          "#030303",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "GT Ultra, Maru, Flexa, Alpina, Zirkon, Super, Walsheim, America, Eesti, Cinetype, Haptik",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "cockpit console, playful",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes",
+          "features",
+          "presets"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A full-screen blue-on-black cockpit console (HTML only): one auto-fitted editable line ('MAY THE FORCE BE WITH YOU'); top bar with AUTO PILOT play/stop, PRESETS DEF · STA · DOM · BOU · IMP · ENE · R_0, a message centre and HUD / TEST / BUY switches plus EXIT; bottom bar with POWER STEERING, FEATURES toggles (Flat Shapes Alts ss04, Curved Numbers ss03, Single Story Alts ss01+ss02), an ANGLE speedometer with readout (+27) and buttons 0°, ±15°, ±30°, ±45°, and a WEIGHT selector (Thin…Black) with readout (423) and notched slider",
+      "feel": "Flight deck, gamified",
+      "ux": "Opened from 'TYPETESTER' in the fixed bar; type to replace the text (auto-fit); presets apply choreographed per-letter animations of slant and weight (e.g. bounce, domino, impulse); Auto Pilot loops through settings; Power Steering likely hands the axes to pointer/tilt; on mobile a vertical weight slider and a slant slider",
+      "learn": "Give a tester named presets that animate letter by letter: one click shows what the axes can do in motion, then the visitor takes the controls",
+      "reconstruction": {
+        "layout": "Fixed overlay 100vw×100vh; top bar 70–110px, bottom control bar ~135px of bordered blue modules; sample centred between them with padding 120px top/bottom; mobile: left vertical weight slider",
+        "typography": "Sample GT Planar caps in the theme blue (Tailwind text-blue; hex approximate, overlay not captured as an image), text-fitted (50/100/200px base); controls ~12–16px caps; readouts tabular figures (ot-lnum-tnum) in orange (angle) and blue (weight)",
+        "palette": [
+          "#000000",
+          "#2f6bff",
+          "#ff8a00",
+          "#ffffff"
+        ],
+        "behaviour": "tt__preset-btn[data-preset] → per-letter keyframes (anim-tt-dom-line-*, anim-tt-bou-line-*, anim-tt-r_0-line-*, anim-tt-ene-*, tt-imp-line-*-letter*); tt__autopilot → autopilot-def keyframes; tt__features-btn[data-settings=ss0x] toggles features; tt__slnt-btn / tt__wght-btn set values, tt__slnt-display / tt__wght-display show them; range inputs typetesterMobileWeightRange 100–900, typetesterMobileSlantRange −45–45",
+        "content": "Star Wars pastiche ('May the force be with you'), preset sample lines",
+        "assets": "SVG icons (play/stop, speedometer)",
+        "html": "[data-component=tt__sample]#sample-container[contenteditable] > span.textFitted; [data-component=tt__presets-wrapper] > button[data-component=tt__preset-btn][data-preset]; [data-component=tt__features-btn][data-settings]; [data-component=tt__slnt-btn][data-value]; [data-component=tt__wght-btn][data-value]"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "chrome",
+      "variant": "fixed-header-bar",
+      "newVariant": true,
+      "variantDefinition": "A slim bar fixed to the top of the viewport for the whole page: name, foundry link and a buy/get button, sometimes site toggles (invert colours)",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed top bar of four grey hairlines with a yellow-outlined 'GT PLANAR' tag at left, a red-outlined 'message centre' box in the middle that changes per section ('Buckle in to ensure pilot safety', 'Traverse infinity', 'Stay focused', 'Galaxy of alternates', 'Zoom zoom zoom'), and HUD / TYPETESTER / BUY buttons at right"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/kinetic-type",
+    "story/large-text-intro",
+    "type-tester/pointer-xy-axes",
+    "design-details/axis-explainer",
+    "family-overview/designspace-map",
+    "story/scroll-narrative",
+    "design-details/annotated-specimen",
+    "story/scroll-narrative",
+    "family-overview/designspace-map",
+    "checkout/link-out-cta",
+    "design-details/highlighted-in-context",
+    "glyph-table/glyph-inspector",
+    "type-tester/slider-sandbox"
+  ]
+}

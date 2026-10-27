@@ -1,0 +1,457 @@
+{
+  "slug": "escafina-losttype-com",
+  "extractedBy": "agent",
+  "summary": "A warm mid-century page for an upright script in three contrast styles (High, Medium, Low), built with Lost Type's React/Draft.js tester: almost every sample is editable, and the editable text lives inside designed objects (cards held by illustrated hands, a cocktail menu). Teal, orange, brown and cream colour bands and a bonus risograph print give it a vintage-signage feel.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "vintage, cheerful, moxie",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "buy",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "On teal, a small handwritten 'Edit Me' scribble above the cream script name 'Escafina', the tagline 'A balanced upright script with style & moxie!' in pale teal script, then 'by Riley Cran from Lost Type'",
+      "feel": "Friendly, retro sign-shop",
+      "ux": "Name and tagline are Draft.js editors; the 'Edit Me' scribble is an annotation image pinned to the letters 'scafin', so it travels with the text",
+      "learn": "Pin a hand-drawn 'Edit Me' note to a range of the headline's own text: the invitation to type looks like a proofreader's mark, not UI",
+      "reconstruction": {
+        "layout": "Full-width teal band starting y≈32, ~600px for the title group, centred; name, two-line tagline, byline stacked with ~20px gaps; promo card (see checkout) below in the same band",
+        "typography": "Name ~120px Escafina weight 200 (the High-contrast style), cream; tagline ~64px Escafina 400 (Medium), muted pale teal, two lines; byline ~20px Moriston 400 'by'/'from' with names in Escafina at 115%",
+        "palette": [
+          "#14b4b7",
+          "#fef5e4",
+          "#4fc7c6",
+          "#3a332f"
+        ],
+        "behaviour": "Editable; a transparent 'tester-preformatted' layer mirrors the text above the Draft editor; annotation PNG (edit-me.png) absolutely positioned over its anchored text range",
+        "content": "Family name and tagline; designer and foundry credit",
+        "assets": "Handwritten 'Edit Me' annotation PNG",
+        "html": "div.font-family-script.font-weight-200 > .tester-preformatted + DraftEditor-root.DraftEditor-alignCenter; span.annotation.annotation-scafin[data-position=both] > img.annotation-img"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "generous, indie",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": false,
+        "free": false
+      },
+      "look": "A lighter-teal rounded card: photo of the 'Escafina!' riso print on a wooden table with a darker 'Get Escafina' bar under it, and at right the script headings 'Personal License' (pay what you want) and 'Commercial License' ($55 plus the print)",
+      "feel": "Generous, crafty",
+      "ux": "The whole card links to the Lost Type shop; the identical card closes the page above the newsletter",
+      "learn": "Attach the button to the bottom of the bonus-print photo: the print is visually the thing you get when you click",
+      "reconstruction": {
+        "layout": "Card max-width 1024px (~990px), rounded, bg white at ~30% over teal; two equal columns: photo ~400×270px with full-width button bar (~56px) flush under it; text column with two heading+paragraph pairs",
+        "typography": "Headings ~32px Escafina 400 dark brown; paragraphs ~14px Moriston; '$55' with lnum; button ~18px Moriston white",
+        "palette": [
+          "#4fc7c6",
+          "#14b4b7",
+          "#3a332f",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "PWYW personal licence; $55 commercial licence with a free risograph print",
+        "assets": "Photo of the riso print (escafina-print-1.jpg)",
+        "html": "a.bg-lighten-3.rounded.md-flex > .md-col-6 > img + div.btn.bg-darken-3.rounded-bottom + .md-col-6 > h3.font-family-script + p (×2)"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "quaint, alphabetical",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "On cream, a small centred block of orange script words in alphabetical order, one initial capital per word: 'Atomize Bowlful Chemists / Dairymen Edition Fanfare Galaxies / … / Xylephone Yodeling Zephyr'",
+      "feel": "Quiet interlude, like a sign-painter's practice sheet",
+      "ux": "The block is editable (Draft.js); otherwise static",
+      "learn": "Show the swash capitals as the initials of an A–Z word list: every cap appears once, in context with its lowercase",
+      "reconstruction": {
+        "layout": "Full-width cream band ~310px tall; 7 centred lines, ~170px block height",
+        "typography": "~16px Escafina (rendered small in the capture), orange, centred, line-height ~1.3",
+        "palette": [
+          "#fef5e4",
+          "#f68d39"
+        ],
+        "behaviour": "none (editable)",
+        "content": "26 words, A to Z, one per initial capital",
+        "assets": "none",
+        "html": "div.bg-white > div.center.font-family-script.orange > .tester-preformatted + DraftEditor (7 blocks)"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "nostalgic, personal",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "Orange field with tiny white sparkles; first-person text in slightly lighter rounded boxes that zigzag left and right, opening with a black script 'In' drop cap on a cream square",
+      "feel": "Sunny, chatty, mid-century ad",
+      "ux": "Reading column alternates sides with the illustrated cards (see the tester instance on the same block)",
+      "learn": "Zigzag short paragraphs against illustrations so a medium-length essay reads like a sequence of ad panels",
+      "reconstruction": {
+        "layout": "Full-bleed orange band ~2460px tall; four text boxes ~600px wide, rounded, alternating left/right with illustrations opposite; drop-cap square ~200×180px floated left in the first box",
+        "typography": "Body ~18px Moriston 400 cream, leading ~1.6; drop cap 'In' ~90px Escafina black on cream",
+        "palette": [
+          "#f68d39",
+          "#f4984c",
+          "#fff7e6",
+          "#1a1512"
+        ],
+        "behaviour": "none",
+        "content": "Designer's story: collecting 'upright script' lettering from vintage signs and ads, making it systematic, the 1960s–70s swash caps, three contrast styles, 100+ languages, automatic fractions",
+        "assets": "Sparkle pattern background (bg-pattern-sparkle)",
+        "html": "div.bg-orange.bg-pattern-sparkle > rows of text boxes and illustrated cards"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "in-context-editable",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "playful, hand-drawn",
+        "mobile": "breaks",
+        "controls": [
+          "text"
+        ],
+        "scope": "in-layout",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "Three cream index cards held up by line-drawn hands with painted nails, tilted a few degrees: 'Go ahead, try me…', 'Appropriate / Believable / Compatible / Dealing / Editing…', and stacked fractions '2/3 5/8 5/24'",
+      "feel": "Hand-made, flirtatious, tactile",
+      "ux": "The text on each card is editable; the hand's fingers overlap the card edge so the card looks gripped",
+      "learn": "Sandwich an editable card between a back and a front layer of a hand illustration: the sample feels like a physical object being offered to you",
+      "reconstruction": {
+        "layout": "Cards ~500×300–400px, rotated 1.5°, −3°, 5° and offset with translate(); hand PNG behind and a 'front' PNG (fingers) above the card; cards alternate sides with the text boxes",
+        "typography": "'Go ahead, try me…' ~20px Escafina; word list ~40px Escafina 400 centred, leading 1.2; fractions ~32px with automatic fraction glyphs; all near-black",
+        "palette": [
+          "#f68d39",
+          "#fff7e6",
+          "#1a1512",
+          "#cd7633"
+        ],
+        "behaviour": "Draft.js editors inside the cards; transform: translate(-15%,-200px) rotate(1.5deg) etc.; no animation",
+        "content": "An invitation to type, words starting A–E with swash caps, arbitrary fractions",
+        "assets": "Three hand illustrations, each in two layers (escafina-hand-N.png and escafina-hand-N-front.png), by Dan Gneiding",
+        "html": "card div[style=transform:… rotate(…)] > DraftEditor; img.escafina-hand-N + img.escafina-hand-N-front stacked around it"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "type-tester",
+      "variant": "labelled-editable-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "technical but warm",
+        "mobile": "breaks",
+        "controls": [
+          "text"
+        ],
+        "scope": "global",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "On dark brown, script heading 'Multiplexing', a short paragraph, then a small orange label 'Escafina High' over a huge cream line 'A typeface in 3 styles!'",
+      "feel": "Proud engineering note",
+      "ux": "One Draft.js editor feeds three overlaid output rows labelled Escafina High, Medium and Low (font-weight 200/400/600); because the styles are multiplexed (same advance widths), the rows stay identical in length as you type",
+      "learn": "Prove that styles share metrics by mirroring one input into each style: the visitor sees no reflow when the contrast changes",
+      "reconstruction": {
+        "layout": "Brown band ~1170px tall; heading + paragraph in a centred 8/12 column (~640px); sample row full width with label top-left (top:-2rem); in the desktop capture only the High row is visible (the three rows share one position); on mobile they stack and overflow sideways",
+        "typography": "Heading ~60px Escafina 600 cream; paragraph ~20px Moriston cream; labels ~14px Moriston orange-cream; sample ~120px Escafina at weights 200 (High), 400 (Medium), 600 (Low)",
+        "palette": [
+          "#37322f",
+          "#fef9e8",
+          "#f8a868"
+        ],
+        "behaviour": "Editor content rendered into each .tester-preformatted layer (DraftEditor-multilineOutput, white-space:nowrap, absolute top:0) with different font-weight; no reflow because widths match",
+        "content": "'A typeface in 3 styles!'",
+        "assets": "none",
+        "html": ".DraftEditor-multilineOutput > .font-weight-200|400|600 > .relative > .tester-preformatted + .absolute.creamcicle (label); single DraftEditor-root.alignCenter underneath"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "vintage gas station",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "grid"
+      },
+      "look": "Three vintage signage badges in a row: a round 'ETHYL Gasoline' badge with an orange sunburst, a teal rectangle 'Pennsylvania Motor Oil / GUARANTEED QUALITY', and an orange 'UNION 72' highway shield",
+      "feel": "Americana, roadside",
+      "ux": "static",
+      "learn": "Pastiche the very source genre (oil and gas signage) the script was drawn from, pairing it with a plain sans for the secondary lines",
+      "reconstruction": {
+        "layout": "One inline SVG (viewBox 850×300) spanning ~1300px; three badges ~360px tall, evenly spaced",
+        "typography": "Script words in Escafina (outlined to paths), secondary words in a bold geometric sans caps (paths), numerals '72' in Escafina",
+        "palette": [
+          "#37322f",
+          "#14b4b7",
+          "#f68d39",
+          "#fef9e8",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Invented brands: Ethyl Gasoline, Pennsylvania Motor Oil, Union 72",
+        "assets": "Badge SVG (designed by Danelle Cheney per the credits)",
+        "html": "svg[viewBox='0 0 850 300'] > g#'Road Sign' paths with fill-teal / fill-white classes"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "tactile, collectible",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "Full-bleed close-up photo of the riso print (orange, teal and grey overprinted bars behind cream script letters, shot at an angle), with a dark-brown card at right: 'The Print', one line of copy and a teal 'Get Escafina' button",
+      "feel": "Physical, desirable",
+      "ux": "The card is one link to the shop; on mobile the photo moves inside the card",
+      "learn": "Sell the bonus object with a macro photograph of its paper and ink: texture makes the licence feel like a purchase of something real",
+      "reconstruction": {
+        "layout": "Band ~610px tall, background-image cover centred; card 1/3 width (~330px) floated right inside a 1024px container, ~60px from the right, padding 32px",
+        "typography": "'The Print' ~64px Escafina 600 cream, two lines; copy ~14px Moriston cream; button ~14px white on teal, full card width",
+        "palette": [
+          "#352f2d",
+          "#faf3ea",
+          "#14b4b7",
+          "#fa986b"
+        ],
+        "behaviour": "none",
+        "content": "'Every Commercial License of Escafina includes this exclusive risograph print!'",
+        "assets": "Macro photo of the riso print (escafina-print-4.jpg)",
+        "html": "div.bg-cover[style=background-image:url(/media/escafina-print-4.jpg)] > a.md-col-4.right.bg-brown > img.md-hide + h2 + p + div.btn.bg-teal"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "type-tester",
+      "variant": "in-context-editable",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "cocktail bar, vintage",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A tall cream bar menu on peach: inline-shaded 'Gin & Ginger's' logo, 'HAPPY HOUR' in small sans caps, then two columns of twelve cocktails 'Whiskey Sour · $12' in script with ingredient lines in sans, separated by short hairlines",
+      "feel": "Classy, warm, mid-century lounge",
+      "ux": "Every drink name, price and ingredient line is editable (25 editors); the logo is an image",
+      "learn": "A menu is the ideal in-context tester for a script: short names, prices and figures, and a sans for the small print show the pairing at once",
+      "reconstruction": {
+        "layout": "Peach band ~2160px; centred cream card ~1020×2040px with a thin inset border (~16px in); logo ~640px wide centred at top; 'HAPPY HOUR' below; two columns ~400px each, six items per column, ~200px rhythm, 100px hairline between items",
+        "typography": "Item names and prices ~36–40px Escafina 400 near-black with ' · ' separator and lining figures; ingredients ~13px Moriston; 'HAPPY HOUR' ~18px Moriston caps",
+        "palette": [
+          "#ffbb82",
+          "#fef5e4",
+          "#2b2422"
+        ],
+        "behaviour": "Each line is its own Draft.js editor; static otherwise",
+        "content": "Twelve real cocktails with ingredients and prices ($7–$12)",
+        "assets": "Menu logo SVG (escafina-menulogo.svg, inline-shaded lettering)",
+        "html": "img[src=escafina-menulogo.svg] + 2 columns of items, each item = editor (name · price) + editor (ingredients)"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "newsletter",
+      "variant": "email-signup",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, explanatory",
+        "mobile": "adapts"
+      },
+      "look": "On teal, below a repeat of the riso-print buy card: script heading 'Subscribe to the Lost Type Newsletter', a short reason, a white email field joined to a darker teal 'Subscribe' button, and 'Or, follow @losttypecoop here.'",
+      "feel": "Community, low-pressure",
+      "ux": "Mailchimp form in a new tab; Twitter alternative",
+      "learn": "Explain the cadence ('typefaces take a long time to make') so the signup promises rare, worthwhile email",
+      "reconstruction": {
+        "layout": "Teal band ~1500px with the repeated card (~990px) on top; form ~900px wide: input 2/3 + button 1/3, ~64px tall, rounded ends",
+        "typography": "Heading ~40px Escafina 600 dark brown, two lines centred; copy ~16px Moriston; input placeholder ~16px",
+        "palette": [
+          "#15b2b5",
+          "#159898",
+          "#ffffff",
+          "#2b2422"
+        ],
+        "behaviour": "Form submit to Mailchimp",
+        "content": "Newsletter prompt",
+        "assets": "none",
+        "html": "form#newsletter > label > h3 + span + .sm-flex > input[type=email].rounded-left + input[type=submit].rounded-right.bg-darken-3"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "grateful, small-team",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "'Special thanks to…' in script, two paragraphs crediting family, the illustrator, the menu/badge designer, the site builder and the tool makers, and a small engraved-style 'LT' monogram at the bottom",
+      "feel": "Personal, modest",
+      "ux": "Name links; the monogram links to the shop page",
+      "learn": "Credit each collaborator with the exact thing they made (hand illustrations, menu and badge design, this website)",
+      "reconstruction": {
+        "layout": "Centred column ~640px; heading, two paragraphs, monogram (~60px, 1/12 column) centred at the end",
+        "typography": "Heading ~28px Escafina 600; paragraphs ~16px Moriston, underlined links; PSY/OPS in caps",
+        "palette": [
+          "#15b2b5",
+          "#2b2422"
+        ],
+        "behaviour": "none",
+        "content": "Acknowledgements with roles",
+        "assets": "LT monogram SVG"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "checkout/link-out-cta",
+    "glyph-table/category-lines",
+    "story/essay",
+    "type-tester/in-context-editable",
+    "type-tester/labelled-editable-lines",
+    "specimen-showcase/prop-collage",
+    "checkout/link-out-cta",
+    "type-tester/in-context-editable",
+    "newsletter/email-signup",
+    "footer/credits-colophon"
+  ]
+}

@@ -16,7 +16,7 @@ export const PHASES = [
   { id: 'sample', perSite: false, title: 'Phase 2.2 — Sample ~250 blocks across sites, contact sheets, label each sheet', detail: sheetProgress },
   { id: 'cluster', perSite: false, title: 'Phase 2.3 — Cluster instances by component similarity' },
   { id: 'method', perSite: false, title: 'Phase 2.4 — Write METHOD.md + patterns/*.md, review together' },
-  { id: 'extract', perSite: true, title: 'Phase 3 — Extract: type + variant + rubric + note per block', cmd: 'npm run extract' },
+  { id: 'extract', perSite: true, title: 'Phase 3 — Extract: type + variant + rubric + reconstruction per block', cmd: 'node scripts/extract.mjs next' },
   { id: 'gallery', perSite: false, title: 'Phase 4 — Gallery & playground' },
 ];
 
@@ -99,7 +99,7 @@ function nextAction(progress, sites) {
     if (p.perSite) {
       const c = counts(progress, sites, p.id);
       const open = c.pending + c.running + c.stale;
-      if (open) return `Run \`${p.cmd}\` — ${open} site(s) pending for **${p.id}**${c.failed ? `, ${c.failed} failed` : ''}.`;
+      if (open) return `Run \`${p.cmd}\`${p.id === 'extract' ? ' and extract those sites per methodology/EXTRACTION.md (agents), then `node scripts/extract.mjs sync`' : ''} — ${open} site(s) pending for **${p.id}**${c.failed ? `, ${c.failed} failed` : ''}.`;
       if (c.failed && !progress.phases[p.id]?.failuresReviewed)
         return `Review the ${c.failed} **${p.id}** failure(s) below: retry with \`${p.cmd} -- --retry-failed\`, or mark them skipped with a note, then \`node scripts/progress.mjs set ${p.id}.failuresReviewed\`.`;
     } else if (!DONE.has(progress.phases[p.id]?.status)) {

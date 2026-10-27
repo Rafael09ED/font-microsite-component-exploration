@@ -2,7 +2,7 @@
 
 _Generated from `data/progress.json` by `scripts/lib/progress.mjs` — edit via the scripts, not by hand._
 
-**Next action:** Phase 2.4 — Write METHOD.md + patterns/*.md, review together. When finished: `node scripts/progress.mjs set method done`.
+**Next action:** Run `node scripts/extract.mjs next` and extract those sites per methodology/EXTRACTION.md (agents), then `node scripts/extract.mjs sync` — 150 site(s) pending for **extract**.
 
 ## Phases
 
@@ -10,45 +10,45 @@ _Generated from `data/progress.json` by `scripts/lib/progress.mjs` — edit via 
 - [x] Phase 2.1 — Rough-cut every site into unlabelled blocks — 181/181 done
 - [x] Phase 2.2 — Sample ~250 blocks across sites, contact sheets, label each sheet — 28/28 sheets labelled — 250 blocks, 28 sheets labelled (6 by Claude, 22 by agents)
 - [x] Phase 2.3 — Cluster instances by component similarity — taxonomy.json: 19 types / 84 variants; DOM features predict type 41%
-- [ ] Phase 2.4 — Write METHOD.md + patterns/*.md, review together — METHOD.md written — awaiting review of the 4 decisions
-- [ ] Phase 3 — Extract: type + variant + rubric + note per block — 1/181 done
-- [ ] Phase 4 — Gallery & playground
+- [x] Phase 2.4 — Write METHOD.md + patterns/*.md, review together — reviewed 2026-10-27: sections→types→variants, look at every block, reconstruction notes
+- [ ] Phase 3 — Extract: type + variant + rubric + reconstruction per block — 31/181 done
+- [ ] Phase 4 — Gallery & playground — browser built (npm run app → localhost:5178); playground rebuilds after Phase 3
 
 ## Sites
 
 Legend: ✓ done · ✗ failed · … interrupted · ↻ stale (older method, will redo) · – skipped · ☐ pending
 
-- [ ] 001 [gt-walsheim-com](https://gt-walsheim.com) — archive ✓ · blocks ✓ · extract ☐
+- [x] 001 [gt-walsheim-com](https://gt-walsheim.com) — archive ✓ · blocks ✓ · extract ✓ — _recut: block 11 merges overview, glyphs, checkout, credits_
 - [x] 002 [gt-america-com](https://www.gt-america.com) — archive ✓ · blocks ✓ · extract ✓
-- [ ] 003 [gt-cinetype-com](https://gt-cinetype.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 004 [gt-eesti-com](https://gt-eesti.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 005 [gt-ultra-com](https://gt-ultra.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 006 [gt-flexa-com](https://www.gt-flexa.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 007 [gt-maru-com](https://gt-maru.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 008 [gt-alpina-com](https://gt-alpina.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 009 [gt-super-com](https://www.gt-super.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 010 [gt-haptik-com](https://www.gt-haptik.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 011 [gt-zirkon-com](https://gt-zirkon.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 012 [gt-pressura-com](https://www.gt-pressura.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 013 [gt-planar-com](https://gt-planar.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 014 [gt-mechanik-com](https://gt-mechanik.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 015 [gt-canon-com](https://gt-canon.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 016 [gt-flaire-com](https://gt-flaire.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 017 [gt-pantheon-com](https://gt-pantheon.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 018 [gt-standard-com](https://gt-standard.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 019 [pp-fragment-com](https://pp-fragment.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 020 [editorialnew-com](https://editorialnew.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 021 [pp-frama-com](https://pp-frama.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 022 [foodissue-commercialtype-com](https://foodissue.commercialtype.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 023 [tofino-losttype-com](https://tofino.losttype.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 024 [prospectus-losttype-com](http://prospectus.losttype.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 025 [mort-modern-losttype-com](https://mort-modern.losttype.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 026 [faction-losttype-com](http://faction.losttype.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 027 [moriston-losttype-com](http://moriston.losttype.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 028 [escafina-losttype-com](http://escafina.losttype.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 029 [latest-losttype-com-introducing-dotties](https://latest.losttype.com/introducing/dotties) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 030 [sanssheriff-wtf](https://www.sanssheriff.wtf) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 031 [infinite-tragedy-com](https://www.infinite-tragedy.com) — archive ✓ · blocks ✓ · extract ☐
+- [x] 003 [gt-cinetype-com](https://gt-cinetype.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 004 [gt-eesti-com](https://gt-eesti.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 005 [gt-ultra-com](https://gt-ultra.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 006 [gt-flexa-com](https://www.gt-flexa.com) — archive ✓ · blocks ✓ · extract ✓ — _recut: block 12 merges overview, glyphs, checkout, credits_
+- [x] 007 [gt-maru-com](https://gt-maru.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 008 [gt-alpina-com](https://gt-alpina.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 009 [gt-super-com](https://www.gt-super.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 010 [gt-haptik-com](https://www.gt-haptik.com) — archive ✓ · blocks ✓ · extract ✓ — _recut: final links slide not segmented_
+- [x] 011 [gt-zirkon-com](https://gt-zirkon.com) — archive ✓ · blocks ✓ · extract ✓ — _recut: last ~6000px is one truncated block_
+- [x] 012 [gt-pressura-com](https://www.gt-pressura.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 013 [gt-planar-com](https://gt-planar.com) — archive ✓ · blocks ✓ · extract ✓ — _recut: credits row not segmented_
+- [x] 014 [gt-mechanik-com](https://gt-mechanik.com) — archive ✓ · blocks ✓ · extract ✓ — _recapture: page tail beyond 30k clip (tester, glyphs, CTAs) HTML-only_
+- [x] 015 [gt-canon-com](https://gt-canon.com) — archive ✓ · blocks ✓ · extract ✓ — _recapture: info panel closed during capture; content HTML-only_
+- [x] 016 [gt-flaire-com](https://gt-flaire.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 017 [gt-pantheon-com](https://gt-pantheon.com) — archive ✓ · blocks ✓ · extract ✓ — _recapture: page tail beyond 30k clip HTML-only_
+- [x] 018 [gt-standard-com](https://gt-standard.com) — archive ✓ · blocks ✓ · extract ✓ — _recapture: page tail beyond 30k clip HTML-only_
+- [x] 019 [pp-fragment-com](https://pp-fragment.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 020 [editorialnew-com](https://editorialnew.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 021 [pp-frama-com](https://pp-frama.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 022 [foodissue-commercialtype-com](https://foodissue.commercialtype.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 023 [tofino-losttype-com](https://tofino.losttype.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 024 [prospectus-losttype-com](http://prospectus.losttype.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 025 [mort-modern-losttype-com](https://mort-modern.losttype.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 026 [faction-losttype-com](http://faction.losttype.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 027 [moriston-losttype-com](http://moriston.losttype.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 028 [escafina-losttype-com](http://escafina.losttype.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 029 [latest-losttype-com-introducing-dotties](https://latest.losttype.com/introducing/dotties) — archive ✓ · blocks ✓ · extract ✓ — _recut: whole article is one 7748px block_
+- [x] 030 [sanssheriff-wtf](https://www.sanssheriff.wtf) — archive ✓ · blocks ✓ · extract ✓ — _recut: top ticker and fixed trial bar not cut as blocks_
+- [x] 031 [infinite-tragedy-com](https://www.infinite-tragedy.com) — archive ✓ · blocks ✓ · extract ✓ — _recapture: only the first random module captured; About tab hidden_
 - [ ] 032 [serf-nan-xyz](https://serf.nan.xyz) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 033 [s-u-c-c-e-s-s-com](https://www.s-u-c-c-e-s-s.com) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 034 [djr-com-forma](https://djr.com/forma) — archive ✓ · blocks ✓ · extract ☐
