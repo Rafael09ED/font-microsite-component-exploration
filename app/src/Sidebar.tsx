@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { Index, Taxonomy } from './data';
 import { href, type Route } from './App';
+import { rebuildFor } from './rebuilds/registry';
 
 const count = (index: Index, section: string, type: string, variant?: string) => {
   const t = index.sections[section]?.types[type] ?? {};
@@ -37,7 +38,7 @@ export function Sidebar({ taxonomy, index, route }: { taxonomy: Taxonomy; index:
                         return (
                           <li key={v}>
                             <a className={`${route.variant === v && active ? 'active' : ''} ${c ? '' : 'none'}`} href={href({ section: s, type: t, variant: v, i: 0 })}>
-                              {v}<span className="count">{c || ''}</span>
+                              <span>{v}{rebuildFor(t, v) && <span className="rb" title="has a rebuild">◆</span>}</span><span className="count">{c || ''}</span>
                             </a>
                           </li>
                         );

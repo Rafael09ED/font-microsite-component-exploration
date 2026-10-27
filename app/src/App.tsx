@@ -4,13 +4,13 @@ import { Sidebar } from './Sidebar';
 import { VariantStage } from './VariantStage';
 import { TypeOverview, Home } from './Overviews';
 
-// Route: #/<section>/<type>/<variant>/<example index>, so every view is linkable.
-export type Route = { section?: string; type?: string; variant?: string; i: number };
+// Route: #/<section>/<type>/<variant>/<example index | 'rebuild'>, so every view is linkable.
+export type Route = { section?: string; type?: string; variant?: string; i: number; rebuild?: boolean };
 const parse = (): Route => {
   const [section, type, variant, i] = location.hash.replace(/^#\/?/, '').split('/').map(decodeURIComponent);
-  return { section: section || undefined, type: type || undefined, variant: variant || undefined, i: Number(i) || 0 };
+  return { section: section || undefined, type: type || undefined, variant: variant || undefined, i: Number(i) || 0, rebuild: i === 'rebuild' };
 };
-export const href = (r: Route) => '#/' + [r.section, r.type, r.variant, r.variant ? String(r.i) : undefined].filter((x) => x !== undefined).map((x) => encodeURIComponent(x!)).join('/');
+export const href = (r: Route) => '#/' + [r.section, r.type, r.variant, r.variant ? (r.rebuild ? 'rebuild' : String(r.i)) : undefined].filter((x) => x !== undefined).map((x) => encodeURIComponent(x!)).join('/');
 
 export function App() {
   const [taxonomy, setTaxonomy] = useState<Taxonomy>();

@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { fileUrl, loadInstance, type Instance, type Ref, type Site, type SiteDoc, type Taxonomy } from './data';
 import { href, type Route } from './App';
+import { Playground } from './Playground';
+import { rebuildFor } from './rebuilds/registry';
 
 type Props = {
   taxonomy: Taxonomy; route: Required<Route>; refs: Ref[]; sites: Map<string, Site>;
@@ -13,11 +15,13 @@ export function VariantStage({ taxonomy, route, refs, refsOf, sites }: Props) {
   const { section, type, variant } = route;
   const i = Math.min(route.i, Math.max(0, refs.length - 1));
   const ref = refs[i];
-  const go = (n: number) => { location.hash = href({ ...route, i: (n + refs.length) % refs.length }); };
+  const go = (n: number) => { location.hash = href({ ...route, rebuild: false, i: (n + refs.length) % refs.length }); };
+  const rebuild = rebuildFor(type, variant);
+  const showRebuild = route.rebuild && !!rebuild;
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.target instanceof HTMLInputElement || !refs.length) return;
+      if (e.target instanceof HTMLElement && e.target.closest('input, textarea, select, [contenteditable="true"], .playground') || !refs.length || showRebuild) return;
       if (e.key === 'ArrowRight') go(i + 1);
       if (e.key === 'ArrowLeft') go(i - 1);
     };
@@ -37,9 +41,17 @@ export function VariantStage({ taxonomy, route, refs, refsOf, sites }: Props) {
             return <a key={name} className={`tab ${name === variant ? 'active' : ''} ${n ? '' : 'none'}`} href={href({ section, type, variant: name, i: 0 })}>{name}<span>{n}</span></a>;
           })}
         </div>
+        {rebuild && (
+          <div className="modes">
+            <a className={showRebuild ? '' : 'active'} href={href({ ...route, rebuild: false })}>Captured examples <span>{refs.length}</span></a>
+            <a className={showRebuild ? 'active' : ''} href={href({ ...route, rebuild: true })}>Rebuild playground</a>
+          </div>
+        )}
         <p className="definition"><strong>{variant}</strong>: {v?.definition ?? 'proposed variant (not yet in the taxonomy)'}{v?.cues && <em> Recognise by: {v.cues}.</em>}</p>
       </header>
-      {ref ? (
+      {showRebuild ? (
+        <Playground rebuild={rebuild!} onExample={(id) => { const k = refs.findIndex((r) => r.id === id); location.hash = href({ ...route, rebuild: false, i: Math.max(0, k) }); }} />
+      ) : ref ? (
         <>
           <Example key={ref.id} refItem={ref} type={type} variant={variant} site={sites.get(ref.slug)} position={`${i + 1} / ${refs.length}`} onPrev={() => go(i - 1)} onNext={() => go(i + 1)} />
           <div className="filmstrip">
