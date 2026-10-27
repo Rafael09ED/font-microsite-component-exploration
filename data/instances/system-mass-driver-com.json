@@ -1,0 +1,380 @@
+{
+  "slug": "system-mass-driver-com",
+  "extractedBy": "agent",
+  "summary": "Mass-Driver's microsite for MD System, a 30-style grotesque superfamily (three widths × five weights + italics, plus a variable font), laid out as a light-grey Swiss document: a fixed dashed column grid, numbered sections each with its own sticky running header, orange-red accents. Annotated animated SVG design details, an interactive 3D CSS designspace cube driving a 'Metropolis' sample, a slider-controlled waterfall of 'system'-themed sentences and a hover OpenType card grid. Unlike its Nichrome and Polychrome siblings it is neutral, grid-led and almost colourless.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "Swiss, rational",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "On light grey with dashed column guides, the Mass-Driver logo and three orange-red lines 'MD System / MD System Narrow / MD System Condensed', each in its own width and a heavier weight, above three columns of small intro text (purpose, 2020/2022 history, credits)",
+      "feel": "Calm, orderly, technical",
+      "ux": "Running header row with PDF, Try and Buy links; nothing animates",
+      "learn": "Set the family name once per width, stepping the weight up as it narrows: the hero is already the style overview",
+      "reconstruction": {
+        "layout": "Section 1440×720 under a 25px running header; logo row ~40px; name lines left-aligned at x≈32, ~100px each; dashed rule, then a 4-column text row (~344px columns, 32px outer margin) at y≈450",
+        "typography": "Name ~100px MD System: line 1 wdth 100 wght 400, line 2 Narrow wght ~500, line 3 Condensed wght 700, orange-red; intro ~14px MD System Regular, leading 1.35, near-black",
+        "palette": [
+          "#f5f5f5",
+          "#f78a75",
+          "#cdcdcd",
+          "#111111"
+        ],
+        "behaviour": "none; the fixed background grid (6 numbered divs, some hidden by breakpoint) draws the column guides behind every section",
+        "content": "Names of the three widths; real intro copy",
+        "assets": "Mass-Driver logo SVG",
+        "html": "section.content_section > header.grid (h2.header__title + span.header__section_number, h1.header__section_title, div.header__pdf, div.header__ctas > a.cta.accent) + div.grid.subhead > svg.md_logo + h1.splash > span.splash__standard|__narrow|__condensed; div.grid.background_grid (fixed)"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "document-like",
+        "mobile": "adapts"
+      },
+      "look": "A slim running header per section (never cut separately): 'MD System' with the section number in orange ('01'), the section title ('Introduction', 'Style Overview' …), a grey 'Specimen PDF ↓' link and two small orange-red 'Try ↗' 'Buy ↗' boxes; each section's header sticks to the top while that section scrolls",
+      "feel": "Like page headers in a printed manual",
+      "ux": "Sticky per section, so the top bar always names the current chapter; links to PDF, trial and shop",
+      "learn": "Give every section its own sticky running head instead of one global nav: wayfinding and the manual aesthetic come together",
+      "reconstruction": {
+        "layout": "25px row on the 4-column grid: col 1 name + number, col 2 section title, col 3 PDF link right-aligned, col 4 CTA boxes flush right; dashed bottom border; position sticky top 0 within each section",
+        "typography": "~10px MD System, name and title semibold, number orange-red, PDF link grey; CTA boxes ~10px white on orange-red",
+        "palette": [
+          "#f5f5f5",
+          "#f78a75",
+          "#111111"
+        ],
+        "behaviour": "position: sticky inside each section.content_section (the stitched crops show the header repeated mid-block)",
+        "content": "Section numbering 01–07",
+        "assets": "none",
+        "html": "section.content_section > header.grid > h2.header__title.compact > span.header__section_number; h1.header__section_title; div.header__pdf|header__link; div.header__ctas.flush"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "systematic, neutral",
+        "mobile": "adapts",
+        "structure": "matrix",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "Three columns headed Standard, Narrow and Condensed, each listing Regular → Black then Italic → Black Italic as style names set in themselves, with a short paragraph per width underneath",
+      "feel": "Tidy, catalogue-like",
+      "ux": "static",
+      "learn": "A width × weight matrix of style names, with one paragraph per width explaining its job, covers 30 styles in one screen",
+      "reconstruction": {
+        "layout": "Columns 1–3 of the 4-column grid (~344px each), subhead row with width names, romans block, dashed rule, italics block, dashed rule, captions; column 4 empty",
+        "typography": "Style names ~40px MD System at each weight (400–800) and width (100 / Narrow / Condensed), leading ~1.25; captions ~14px Regular",
+        "palette": [
+          "#f4f4f4",
+          "#111111",
+          "#d0d0d0"
+        ],
+        "behaviour": "none",
+        "content": "Style names and width descriptions",
+        "assets": "SVG lists per width and slope (desktop and mobile variants)",
+        "html": "div.grid.subhead > h3.styles_std|styles_nar|styles_cnd; div.grid.styles_overview > div.styles > img[src='styles/std_romans.svg'] + img.show_on_mobile"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "technical, precise",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "spacing"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "Four animated SVG figures on the grid, black letters with thin orange-red guides: 'ROME' with width boxes per letter (proportions), a big 'n' with stem markers and a '148' readout (stroke weights across widths), grey 'Thoug' with a tilted contrast axis through the 'o', and a 'c' with angled terminal markers; each with a two-line caption",
+      "feel": "Engineered, explanatory",
+      "ux": "Self-running SVG animations (anim_*.svg); no interaction",
+      "learn": "Annotate one decision per figure with a single accent colour and let the SVG animate the measurement: readers see the rule being applied",
+      "reconstruction": {
+        "layout": "Section ~973px; figures sized to grid spans (proportions and contrast span 2 columns, stems and terminals 1), each with a caption cell below; dashed rules between rows",
+        "typography": "Figure letters ~250–300px MD System (black, grey for context letters); measurement labels ~10px mono-style; captions ~14px Regular",
+        "palette": [
+          "#f4f4f4",
+          "#080808",
+          "#b0b0b0",
+          "#f78a75"
+        ],
+        "behaviour": "Each figure is an animated SVG image (SMIL/CSS inside the file) looping its guide lines and values",
+        "content": "Real design notes: varied proportions, optically balanced stems, oblique contrast axis, angled stroke endings",
+        "assets": "anim/anim_proportions.svg, anim_stems.svg, anim_contrast.svg, anim_terminals.svg",
+        "html": "div.grid > div.svg_anim[.double].anim_proportions|anim_stems|anim_contrast|anim_terminals > img + p.normal"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "instrument-like, playful",
+        "mobile": "hidden",
+        "structure": "map",
+        "samples": "word",
+        "interactive": true
+      },
+      "look": "Left: a readout panel (WEIGHT (WGHT) 600, WIDTH (WDTH) 75, SLANT (SLNT) −5), Size and tracking (↔) sliders, and a wireframe 3D cube with orange-red nodes on its edges; right: 'Metropolis' at 200px in Semibold Condensed oblique; below, file facts for the variable TTF (302 KB) and the static OTFs",
+      "feel": "Like a lab instrument",
+      "ux": "Drag the nodes/sliders on the cube's edges (width 50–100, slant −10–0, weight 400–800) and the sample and readouts update; Size slider 25–250px and tracking −0.05–0.05em; 'Aa' instance chips jump to named styles; the sample is editable",
+      "learn": "Put the axis sliders on the edges of a 3D cube: the designspace becomes something you can hold, and the readouts teach the axis tags",
+      "reconstruction": {
+        "layout": "Section ~703px; column 1 (~344px): axis table (name, tag, value), two slider rows, CSS 3D cube ~240px; columns 2–4: sample line vertically centred; bottom row of 4 info cells (VF file, styles, variable description, OTF file)",
+        "typography": "Readouts ~11px MD System semibold caps with tags in parentheses; sample 200px MD System (wght 600, wdth 75, slnt −5); info ~14px, file names semibold, notes italic",
+        "palette": [
+          "#f5f5f5",
+          "#0b0b0b",
+          "#cfcfcf",
+          "#f78a75"
+        ],
+        "behaviour": "Vue app: input[type=range] on cube sides (front: wdth, side_r: slnt, side_x: wght) set --wght/--wdth/--slnt on .designspace and on the sample; plane markers move inside the cube ('smooth' class transitions); ds_instance links set preset values",
+        "content": "Sample word 'Metropolis'; real file sizes and availability",
+        "assets": "none (cube built from CSS 3D-transformed divs)",
+        "html": "div#designspace[data-v-app] > div.ds_panel > ul.ds_axes > li.subgrid > p.ds_axes__name + p.ds_axes__label + p.ds_axes__value; ul.ds_sliders > input[type=range]; div.designspace_wrapper > div.designspace > div.designspace__plane.slnt|wght|wdth + div.designspace__side.front|side_r|side_x > input[type=range]; div.ds_viewer > div.ds__viewer__input[contenteditable]; div.ds_instances > a.ds_instance"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "type-tester",
+      "variant": "global-toolbar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "nerdy, systematic",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes"
+        ],
+        "scope": "global",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Under a control row with Width and Weight sliders (dashed tracks with orange-red dots), a waterfall of 12 editable single lines growing from ~14px to ~136px, each a factual sentence containing 'system' (Acorn System-on-a-Chip, NASA subsystems, International System of Units, System/3, LCD Soundsystem, ecosystems, the Space Launch System), clipped at the right edge",
+      "feel": "Dense, encyclopedic, witty",
+      "ux": "Two sliders restyle every line at once (wdth 50–100, wght 400–800); click any line to edit",
+      "learn": "Fill a waterfall with true sentences that all contain the family's name word: the sample text becomes a running joke and still reads as real copy",
+      "reconstruction": {
+        "layout": "Section ~1559px; control row ~40px split across columns 1–2 (Width) and 3–4 (Weight); list of 12 lines, each one line high (nowrap, overflow hidden), dashed rules between",
+        "typography": "MD System at --wght 600, --wdth 75 by default; sizes stepping ~14, 18, 22, 26, 30, 36, 44, 54, 66, 80, 100, 136px; labels ~10px",
+        "palette": [
+          "#f3f3f3",
+          "#111111",
+          "#d3d3d3",
+          "#f78a75"
+        ],
+        "behaviour": "Range inputs set --wght and --wdth on ul.waterfall; li[contenteditable]",
+        "content": "Twelve 'system' facts from computing, spaceflight, biology and music",
+        "assets": "none",
+        "html": "div.grid.waterfall__controls > p + input[type=range][min=50][max=100] + p + input[type=range][min=400][max=800]; ul.waterfall[style=--wght;--wdth] > li.waterfall__1…12[contenteditable]"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "methodical",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "toggle",
+        "explanation": "caption"
+      },
+      "look": "A 4-column grid of borderless cards separated by dashed rules, each with a small feature label and 'On' at the top and a ~50px sample beneath: Single-story a 'Yucatán', Legible Forms 'Isolator', Tabular Figures '€10.95', Oldstyle '01.28.49', Slashed Zero 'Web 1.0', Small Caps 'DESIGN', Caps to Sm. Caps 'NASA', case forms, Romanian 'Șș Țț', Catalan 'CEL·LA', Dutch 'Altĳd', fractions, sups/subs '5m³ CO₂', ordinals",
+      "feel": "Thorough, reference-grade",
+      "ux": "Hovering a card toggles its feature (state label shows 'On'); header row links to the PDF",
+      "learn": "One word per feature, chosen so the feature has something to do (Yucatán for single-storey a, NASA for c2sc), turns a features list into a vocabulary",
+      "reconstruction": {
+        "layout": "Section ~1083px; ul.opentype_section as a 4-column grid; cards ~344×150px: upper row (label left, state right) with dashed underline, sample below; category cards ('Stylistic Alts') span a column",
+        "typography": "Labels ~10px MD System; state 'On' ~10px; samples ~50px MD System Regular (italic where the feature is italic-only)",
+        "palette": [
+          "#f4f4f4",
+          "#111111",
+          "#d3d3d3"
+        ],
+        "behaviour": "Feature class on .card__lower (ss01, ss02, ss03, ss11, ss12, tnum, onum, zero, smcp, c2sc, case, locl, frac, numr/dnom, sups/subs, ordn) toggled on hover; .card__upper__state shows On/Off",
+        "content": "Feature-specific words",
+        "assets": "none",
+        "html": "ul.opentype_section.grid > li.card > div.card__upper.subgrid > p.card__upper__tag + p.card__upper__state; div.card__lower.ss01"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "direct, graded",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Three black lines stepping down in weight and up in width: 'Buy MD System ↗' (Condensed Bold), 'Download Trial Fonts ↓' (Narrow Semibold), 'Read the PDF Specimen →' (Regular)",
+      "feel": "Plain, confident",
+      "ux": "Links to shop, trials and PDF",
+      "learn": "Grade the CTAs across the family's own widths and weights, so even the closing links demonstrate the system",
+      "reconstruction": {
+        "layout": "Block ~300px; three lines left-aligned at x≈32, ~80px line pitch, spanning columns 1–2",
+        "typography": "~64px MD System, black: line 1 wdth 75 wght 800, line 2 Narrow wght ~600, line 3 wdth 100 wght 400; arrows ↗ ↓ → from the font",
+        "palette": [
+          "#f6f6f6",
+          "#111111"
+        ],
+        "behaviour": "none observed",
+        "content": "Buy, trial, PDF",
+        "assets": "none",
+        "html": "section.cta_block > div.grid > h1.normal > a.cta_block__buy + a.cta_block__try + a.cta_block__pdf"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, honest",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal",
+          "socials"
+        ]
+      },
+      "look": "Two grid columns of small text: 'About this Website' (built in-house, no cookies, © Mass-Driver 2025) and 'About the Foundry' with grey Instagram and Bluesky links; MD logo badge at the far right",
+      "feel": "Quiet, transparent",
+      "ux": "Plain links",
+      "learn": "Keep the footer on the same column grid as the page, so it reads as the last row of the document",
+      "reconstruction": {
+        "layout": "Footer ~327px; text in columns 1 and 2, logo top-right in column 4",
+        "typography": "~14px MD System; headings semibold; links grey with ↗",
+        "palette": [
+          "#f5f5f5",
+          "#111111",
+          "#afafaf"
+        ],
+        "behaviour": "none",
+        "content": "Colophon and foundry blurb",
+        "assets": "Mass-Driver logo SVG"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "06",
+      "reason": "Glyph Set section: only its running header captured; the Vue glyph set (glyphset__track / glyphset__follower) rendered empty"
+    }
+  ],
+  "sequence": [
+    "hero/giant-wordmark",
+    "family-overview/style-word-grid",
+    "design-details/annotated-specimen",
+    "family-overview/designspace-map",
+    "type-tester/global-toolbar",
+    "design-details/feature-index",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

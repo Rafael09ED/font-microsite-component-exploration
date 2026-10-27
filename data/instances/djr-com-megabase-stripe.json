@@ -1,0 +1,148 @@
+{
+  "slug": "djr-com-megabase-stripe",
+  "extractedBy": "agent",
+  "summary": "A one-component demo page on djr.com for a striped variable colour font (COLR/CPAL): the font's own description, set editable at ~225px, fills the screen, and a small floating palette panel recolours the outline, fill and every stripe of the gradient live, with a slant slider and a randomise button. Below are only a short note on the Font of the Month Club release and DJR's standard site footer.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "look": "DJR's 33px white site header above the demo (never cut as a block, attached to 00): 'DAVID JONATHAN ROSS' left, 'FONTS ▾ CLUB TYPESET GLYPHS NOTES ABOUT Sign in Cart' right in small spaced mono caps; collapses to 'MENU' on mobile"
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "type-tester",
+      "variant": "palette-editor",
+      "newVariant": true,
+      "variantDefinition": "One editable sample in a colour font with a floating panel of colour pickers, one per palette layer (outline, fill, gradient stops, often auto-interpolated, plus a randomise button), that rewrites the font's colour palette live; any axis slider is secondary",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "playful, experimental, neon",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "color",
+          "axes"
+        ],
+        "scope": "global",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "The first screen is the tester: eight lines of 'Megabase Stripe is a variable color font that divides each glyph into a series of diagonal stripes…' in tall, narrow, black-outlined capsule letters filled with lime-to-cyan diagonal stripes, running off the right edge; a narrow floating panel at the right edge holds swatches labelled Outline, Fill and Gradient (ten stops), a vertical SLANT slider, an 'Auto gradient' checkbox, a ↺ button, and a separate background swatch below",
+      "feel": "Electric, toy-like, slightly psychedelic",
+      "ux": "Click into the text to type; pick any swatch to recolour that layer across the whole text; with Auto gradient on only the two end stops are editable and the eight between interpolate; ↺ randomises all colours; the slider slants the letters (slnt -15 to 15); the panel stays fixed while you scroll",
+      "learn": "Give each colour layer of a COLR font its own swatch and interpolate the stops between two ends: visitors understand a 'fake gradient made of flat stripes' by making one",
+      "reconstruction": {
+        "layout": "Full-width editable block from y=33 to ~1820 (lines ~234px apart), text starts at x≈20 and overflows the right edge inside a horizontal scroll wrapper; fixed panel ~70×370px at right ≈50px from the edge, vertically centred, white with a 1px grey border and rounded corners; background swatch ~30×20px under it",
+        "typography": "Sample ~225px Megabase Stripe (COLR/CPAL, served as a regenerated 'ColorFontCustomizr' font), leading ~1.04, default slnt 0; panel labels ~9px sans, 'SLANT' rotated 90°, swatch rows ~18px",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#75fc6e",
+          "#d4ff00",
+          "#00faf8"
+        ],
+        "behaviour": "Spectrum colour pickers (input[type=color] replaced by .sp-replacer) per palette index; on change the page rebuilds the font's CPAL palette client-side and swaps the font-family to the new blob (ColorFontCustomizr1, 2…); Auto gradient interpolates indices 3–10 linearly between the first and last gradient colours and disables their pickers; ↺ picks random colours; range #axis-slnt (-15…15) writes font-variation-settings 'slnt'; the background picker sets the page colour",
+        "content": "The font's own description as sample text (what COLR stripes are and why)",
+        "assets": "Megabase Gradient colour font (COLR/CPAL); Spectrum colour-picker plugin",
+        "html": "main#content > .scroll-wrapper > .big-text.preview[contenteditable][style=font-variation-settings, font-family]; #ui > ul.floatbox.color-choices > li.not-a-color (label + input#axis-slnt[type=range min=-15 max=15] + input#auto-gradient[type=checkbox]) + li.color[aria-label=Outline|Fill|Gradient] > input[type=color] + .sp-replacer ×12 + li.button > button.randomize-colors; .background-color-container > input.background-color"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "article-teaser",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "casual, nerdy",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Under the demo, a pale grey rounded box with one small paragraph: an experimental version of 'my Megabase', bands of colour to simulate gradients in COLR/CPAL '(for now)', released with OpenType-SVG and monochrome versions as the October 2020 Font of the Month Club, demo made with Chris Lewis",
+      "feel": "Modest, behind-the-scenes",
+      "ux": "Links to the Megabase page, the OpenFontFormat GitHub issue, the Font of the Month notes post and Chris Lewis",
+      "learn": "Put the context (why stripes, which formats, which release) below the demo in one boxed paragraph so the toy comes first",
+      "reconstruction": {
+        "layout": "Box ~980px wide centred, ~130px tall, padding ~16px, 1px grey border, radius ~4px; ~60px below the sample",
+        "typography": "~15px Output Sans, leading ~1.5, bold for 'Megabase', the club edition and 'Chris Lewis'",
+        "palette": [
+          "#ffffff",
+          "#f5f4f5",
+          "#222222"
+        ],
+        "behaviour": "none",
+        "content": "Real release note",
+        "assets": "none",
+        "html": "section > .wrapper > p"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "quiet, archival",
+        "mobile": "adapts",
+        "contains": [
+          "other-fonts",
+          "socials",
+          "newsletter",
+          "legal"
+        ]
+      },
+      "look": "DJR's standard white footer in small mono: three columns (David Jonathan Ross RSS feeds and mailing list + Elsewhere links; Font of the Month Club + Typefaces list from Bungee to Warbler; Typeset, Glyph Navigator, Notes, About, Contact, Licensing, Press, Privacy, Tools incl. 'Color Font Customizer'); the demo's floating palette panel is stamped over its right edge",
+      "feel": "Orderly, like an index card",
+      "ux": "Links to every DJR family, licences and tools",
+      "learn": "A footer listing every family plus the tools used to build the demo turns a one-off experiment into an entry point to the catalogue",
+      "reconstruction": {
+        "layout": "515px band; three columns at x≈250, 640 and 1040, headings then 16px rows",
+        "typography": "~11px Input Sans Narrow, headings bold tracked caps, links grey #555",
+        "palette": [
+          "#fdfdfd",
+          "#555555",
+          "#222222"
+        ],
+        "behaviour": "none",
+        "content": "Real site links",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "type-tester/palette-editor",
+    "story/article-teaser",
+    "footer/link-columns"
+  ]
+}

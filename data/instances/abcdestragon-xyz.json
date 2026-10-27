@@ -1,0 +1,210 @@
+{
+  "slug": "abcdestragon-xyz",
+  "extractedBy": "agent",
+  "summary": "'Estragon Vision', a one-screen web app by Dinamo with Stink Studios and RITA (render-in-the-air): after a typewriter intro ('Hi, I'm Estragon!' → 'What's new?'), the visitor types up to 22 characters, picks a style and colour, and presses Generate; the text then appears in a wall of rendered retro scenes (Tamagotchi, highway billboard, cassette, MacPaint, typewriter, skull). Story, glyph grid and credits sit in collapsible 'Specifications' and 'About' panels.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "intro-animation",
+      "variant": "title-sequence",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "chatty, playful",
+        "mobile": "unknown"
+      },
+      "look": "A blank white screen where a line is typed and deleted letter by letter in the centre: 'Hi, I'm Estragon!' then 'What's new?' (the crop is captured before typing starts)",
+      "feel": "Conversational, like a chatbot greeting",
+      "ux": "Plays automatically (~5s), then the panel shrinks to the left half and the app appears",
+      "learn": "Introduce a display face with a typed greeting in its own letters: the first words are the font speaking",
+      "reconstruction": {
+        "layout": "Full viewport white; one centred line ~60px tall; afterwards the white area becomes the top-left panel (720×450) of the app",
+        "typography": "~64px Estragon Regular black, centred",
+        "palette": [
+          "#ffffff",
+          "#0f0f0f"
+        ],
+        "behaviour": "Typewriter effect: characters added ~80ms apart, held, deleted, next phrase typed; ends on the input placeholder 'What's new?'",
+        "content": "'Hi, I'm Estragon!', 'What's new?'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "02",
+        "03"
+      ],
+      "type": "type-tester",
+      "variant": "mockup-generator",
+      "newVariant": true,
+      "variantDefinition": "A short text field (with style and colour pickers) whose input is rendered, often server-side as video or 3D, into a wall of realistic scenes and objects (billboards, gadgets, screens, signage), so the visitor sees their own words in use rather than in a plain sample line",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "video",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "retro-tech, ironic, Y2K",
+        "mobile": "unknown",
+        "controls": [
+          "text",
+          "style-select",
+          "color"
+        ],
+        "scope": "global",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "Split screen: on the left a white panel with the editable line 'What's new?' over three grey pill buttons (Aa · Generate · colour), above a black-gradient panel; on the right a grey-gradient wall where tilted, irregular frames fly in and settle into six looping clips that each show the same words: a Tamagotchi screen, a 'NEXT EXIT' highway billboard, a cassette label, a MacPaint window, a typewriter page and a chrome skull",
+      "feel": "Nostalgic, uncanny, gift-like",
+      "ux": "Type up to 22 characters, cycle the style (Aa: stylistic sets Wildstyle / Arrow / Bubble) and colour, press Generate; the frames re-render with your text; a round handle on the split lets you resize the panels",
+      "learn": "Render the visitor's own words into many familiar objects at once: a 22-character input becomes a whole in-use campaign",
+      "reconstruction": {
+        "layout": "1440×900 app, no scroll: left column 648px (white form panel 0–450px, dark specifications panel below); right 792px wall of six tilted quadrilateral frames in a 2×3 grid (~330×230px each, polygon clip-paths); round resize handle (24px, #c1c1c1) on the divider at y≈450",
+        "typography": "Input ~64px Estragon Regular centred; buttons ~13px Favorit in grey pills (~60–140×24px); 'ABOUT' / 'SPECIFICATIONS' 12px underlined caps Favorit",
+        "palette": [
+          "#ffffff",
+          "#0f0f0f",
+          "#4d4d4d",
+          "#c1c1c1"
+        ],
+        "behaviour": "On load, empty frames fly in (spin, scale) and fill with video clips; Generate (disabled until text changes) sends the text to the RITA renderer and swaps in personalised clips; style button cycles stylistic sets; colour button cycles text colour",
+        "content": "Default prompt 'What's new?'; scenes chosen for retro tech nostalgia",
+        "assets": "Six pre-rendered/personalised video scenes (gadgets, signage, software), tilted frame masks",
+        "html": "input.rita-text-input[maxlength=22][name=text] + Form buttons style-button / generate-button[type=submit] / color-button; button.resizable-track on the split"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "gothic, quirky",
+        "mobile": "unknown",
+        "coverage": "full",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Collapsed 'SPECIFICATIONS' panel shows 'Estragon is a new typeface from Dinamo.' and three white sample lines on black ('Shiny ⁂ Dragon Scales / Ă Broadsword ✕ Shield / [Atyn:] Frog Princess!'); expanded (HTML only) it holds a grid of ~105 characters: A–Z, a–z, figures, punctuation, brackets, currency, arrows, ligatures",
+      "feel": "Compact, curious",
+      "ux": "Click 'SPECIFICATIONS' to open the panel; each cell swaps to its alternate on hover (stylistic sets Wildstyle, Arrow, Bubble)",
+      "learn": "Give every grid cell a hover twin showing its stylistic alternate, so the set and its variations live in one grid",
+      "reconstruction": {
+        "layout": "Panel in the left column below the form (y≈450–900 collapsed, slides up when opened); grid of square cells ~6–8 per row inside the 648px column",
+        "typography": "Sample lines ~40px Estragon Regular white, centred; grid glyphs ~40px; caption 'Characters including variable stylistic sets: Wildstyle, Arrow, Bubble.' ~13px Favorit",
+        "palette": [
+          "#0f0f0f",
+          "#ffffff",
+          "#4d4d4d"
+        ],
+        "behaviour": "Hover a cell → .character-hover layer shows the alternate glyph",
+        "content": "Full basic set plus dingbats (⁒, ⬤), arrows and fi/fl ligatures",
+        "assets": "specifications-image.svg (sample lines), specifications-footer-icon.svg",
+        "html": ".characters-grid > .character-container > .character-inner + .character-hover"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "factual, brief",
+        "mobile": "unknown",
+        "voice": "institutional",
+        "media": [
+          "archival"
+        ],
+        "length": "short"
+      },
+      "look": "Inside the Specifications panel (HTML only): one paragraph on the source, a few characters from 'Harrild and Sons' New and Abridged Specimens' (c. 1890) found via the Type Founders Archive, plus an image of the original specimen credited to Nick Sherman / Letterform Archive",
+      "feel": "Matter-of-fact",
+      "ux": "Hidden until the panel is opened; links to Dinamo Dark Room",
+      "learn": "One paragraph and one scan of the source are enough when the site is a toy: keep the history one click away",
+      "reconstruction": {
+        "layout": "Text block then specimen image, inside the 648px left panel",
+        "typography": "~14px Favorit Regular white on black",
+        "palette": [
+          "#0f0f0f",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "'Estragon is inspired by a few characters posted on Instagram by the Type Founders Archive… created using the Dinamo Dark Room and its type transformation possibilities…'",
+        "assets": "original-specimen.png (1890 specimen scan)"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "collaborative",
+        "mobile": "unknown",
+        "contains": [
+          "credits",
+          "socials"
+        ]
+      },
+      "look": "Not visible in the capture: an 'ABOUT' drawer describing the four partners (Dinamo, Dinamo Dark Room, Stink Studios, RITA) and a credit line 'Typeface by Dinamo @abcdinamo · Site by Stink Studios @stinkstudios'",
+      "feel": "Agency-style partner credit",
+      "ux": "'ABOUT' button at the top of the left panel opens a grey drawer",
+      "learn": "When a microsite is a collaboration, an About drawer naming each partner and its role replaces a footer",
+      "reconstruction": {
+        "layout": "Grey overlay in the left panel with four short paragraphs, each starting with the partner name",
+        "typography": "~14px Favorit, partner names in bold",
+        "palette": [
+          "#c1c1c1",
+          "#0f0f0f"
+        ],
+        "behaviour": "Drawer slides in on click",
+        "content": "Partner descriptions and Instagram handles",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "intro-animation/title-sequence",
+    "type-tester/mockup-generator",
+    "glyph-table/full-grid",
+    "story/origin-reference",
+    "footer/credits-colophon"
+  ]
+}

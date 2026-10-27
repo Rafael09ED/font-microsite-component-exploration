@@ -1,0 +1,75 @@
+{
+  "slug": "booton-displaay-net",
+  "extractedBy": "agent",
+  "summary": "Displaay's Next.js site for Booton, a uniwidth sans: the home page is a one-screen physics game in which glossy button-shaped tags lettered in Booton ('10%' … '100%') fall onto a graph-paper field; the visitor moves and rotates them to stack a pile to the top and unlock 15% off. Showcase and Tester live on separate pages (not captured), reached from a small fixed nav with a dark-theme toggle.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "mini-game",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "game-like",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "toy-like, glossy, playful",
+        "mobile": "adapts",
+        "carrier": "controls",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "A white graph-paper field inside a thin dark viewport frame with rounded inner corners; a tiny grey centred line 'Presenting new sans-serif uniwidth typeface Booton by Displaay Type Foundry'; glossy 3D-looking UI buttons and tags (black trapezoid '10%', black key '⌘ 20%', grey squircle '30%', yellow hexagon '40%', blue pill '50%', yellow oval '60%', emoji chip '70%', red bar '90%', pink pill '100%') falling and piling up at the bottom",
+      "feel": "Tactile, gamified, sale-sticker humour",
+      "ux": "Tetris-like: pieces drop one by one; move them with the mouse or ←/→ keys, rotate with a click or the spacebar; fill the screen to the top to reveal a 15% discount; idle, the pile collapses and restarts",
+      "learn": "Turn the font's natural use (UI buttons, price tags) into the game pieces, and make the reward a real discount: playing becomes buying",
+      "reconstruction": {
+        "layout": "Single 1440×900 screen, no scroll; 12px dark frame (#14151f) with 9px corner SVGs; canvas 1416×876 fills the frame; light grid ~24px cells; caption centred at y≈440; fixed nav strip at the top",
+        "typography": "Labels on pieces ~30–40px Booton Bold/Black (uniwidth figures), rotated with the piece; caption ~13px Booton Regular grey #959596",
+        "palette": [
+          "#fcfcfd",
+          "#14151f",
+          "#ffee33",
+          "#1f78ff",
+          "#e8191f",
+          "#f59bd8"
+        ],
+        "behaviour": "2D physics on a canvas: pieces spawn above the viewport, fall with gravity, collide and stack; player input moves/rotates the active piece; win condition = pile reaches the top → '15 % OFF' message; How-to-play overlay explains controls",
+        "content": "Percentages 10%–100% as sale/progress labels, ⌘ and emoji icons on some pieces; instructions 'Build your scene by moving the buttons… Rotate the buttons by clicking… Fill the screen to the top and discover 15 % OFF'",
+        "assets": "Rendered glossy button sprites (squircle, pill, hexagon, trapezoid, ribbon) with soft shadows",
+        "html": "single <canvas width=1416 height=876>; div.border with corner SVGs (fixed); hidden 'How to play' / 'The goal' text"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Small fixed header (not visible in the crop): 'Booton game' (active), 'Showcase', 'Tester', 'Trial ↗', 'Buy ↗' and a 'Dark theme' toggle with an icon",
+      "feel": "Minimal app chrome",
+      "ux": "Switches between the game, the showcase and tester pages; Trial and Buy link to displaay.net; theme toggle flips the site to dark",
+      "learn": "Treat the specimen as an app with tabs (game / showcase / tester) rather than one long page",
+      "reconstruction": {
+        "layout": "Fixed top bar ~88px, links left, actions right",
+        "typography": "~12px Booton, letters split into spans (split-char) for hover animation",
+        "palette": [
+          "#14151f",
+          "#fcfcfd"
+        ],
+        "behaviour": "Per-letter hover animation on links; theme toggle"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/mini-game"
+  ]
+}

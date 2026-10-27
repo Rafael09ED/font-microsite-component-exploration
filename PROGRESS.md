@@ -2,7 +2,7 @@
 
 _Generated from `data/progress.json` by `scripts/lib/progress.mjs` — edit via the scripts, not by hand._
 
-**Next action:** Run `node scripts/extract.mjs next` and extract those sites per methodology/EXTRACTION.md (agents), then `node scripts/extract.mjs sync` — 150 site(s) pending for **extract**.
+**Next action:** Run `node scripts/extract.mjs next` and extract those sites per methodology/EXTRACTION.md (agents), then `node scripts/extract.mjs sync` — 110 site(s) pending for **extract**.
 
 ## Phases
 
@@ -11,7 +11,7 @@ _Generated from `data/progress.json` by `scripts/lib/progress.mjs` — edit via 
 - [x] Phase 2.2 — Sample ~250 blocks across sites, contact sheets, label each sheet — 28/28 sheets labelled — 250 blocks, 28 sheets labelled (6 by Claude, 22 by agents)
 - [x] Phase 2.3 — Cluster instances by component similarity — taxonomy.json: 19 types / 84 variants; DOM features predict type 41%
 - [x] Phase 2.4 — Write METHOD.md + patterns/*.md, review together — reviewed 2026-10-27: sections→types→variants, look at every block, reconstruction notes
-- [ ] Phase 3 — Extract: type + variant + rubric + reconstruction per block — 31/181 done
+- [ ] Phase 3 — Extract: type + variant + rubric + reconstruction per block — 71/181 done
 - [ ] Phase 4 — Gallery & playground — browser built (npm run app → localhost:5178); playground rebuilds after Phase 3
 
 ## Sites
@@ -49,46 +49,46 @@ Legend: ✓ done · ✗ failed · … interrupted · ↻ stale (older method, wi
 - [x] 029 [latest-losttype-com-introducing-dotties](https://latest.losttype.com/introducing/dotties) — archive ✓ · blocks ✓ · extract ✓ — _recut: whole article is one 7748px block_
 - [x] 030 [sanssheriff-wtf](https://www.sanssheriff.wtf) — archive ✓ · blocks ✓ · extract ✓ — _recut: top ticker and fixed trial bar not cut as blocks_
 - [x] 031 [infinite-tragedy-com](https://www.infinite-tragedy.com) — archive ✓ · blocks ✓ · extract ✓ — _recapture: only the first random module captured; About tab hidden_
-- [ ] 032 [serf-nan-xyz](https://serf.nan.xyz) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 033 [s-u-c-c-e-s-s-com](https://www.s-u-c-c-e-s-s.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 034 [djr-com-forma](https://djr.com/forma) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 035 [nichrome-mass-driver-com](https://nichrome.mass-driver.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 036 [polychrome-mass-driver-com](https://polychrome.mass-driver.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 037 [djr-com-roslindale](https://djr.com/roslindale) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 038 [system-mass-driver-com](https://system.mass-driver.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 039 [recursive-design](https://www.recursive.design) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 040 [shantellsans-com](https://shantellsans.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 041 [kermit-font-com](https://kermit-font.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 042 [karrik-phantom-foundry-com](http://karrik.phantom-foundry.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 043 [surt-font-eu](https://surt-font.eu) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 044 [neuedin-com](https://neuedin.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 045 [exat-hottype-co](https://exat.hottype.co) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 046 [nn-konrad-ch](https://www.nn-konrad.ch) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 047 [colroy-ch](https://www.colroy.ch) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 048 [pivot-grotesk-world](http://pivot-grotesk.world) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 049 [knitgrotesk-com](https://www.knitgrotesk.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 050 [nn-swinton-world](https://nn-swinton.world) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 051 [abcdestragon-xyz](https://abcdestragon.xyz) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 052 [djr-com-fit](https://djr.com/fit) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 053 [azeret-displaay-net](https://azeret.displaay.net) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 054 [booton-displaay-net](https://booton.displaay.net) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 055 [andada-huertatipografica-com](https://andada.huertatipografica.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 056 [piazzolla-huertatipografica-com](https://piazzolla.huertatipografica.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 057 [weg-huertatipografica-com](https://weg.huertatipografica.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 058 [betaniapatmos-huertatipografica-com](https://betaniapatmos.huertatipografica.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 059 [input-djr-com](https://input.djr.com/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 060 [djr-com-megabase-stripe](https://djr.com/megabase-stripe) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 061 [halyard-dardenstudio-com](https://halyard.dardenstudio.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 062 [ernestinefont-com](http://ernestinefont.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 063 [liebling-fontef-com](https://liebling.fontef.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 064 [kachibuwa-com](https://kachibuwa.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 065 [pacaembu-naipefoundry-com](https://pacaembu.naipefoundry.com/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 066 [readvisions-com-marvin](https://www.readvisions.com/marvin) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 067 [raphaelbastide-com-avara](https://raphaelbastide.com/avara/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 068 [djr-com-gimlet](https://djr.com/gimlet) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 069 [cinetype-com-fabbrica](https://www.cinetype.com/fabbrica) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 070 [floriankarsten-github-io-space-grotesk](https://floriankarsten.github.io/space-grotesk/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 071 [typearture-com-schijn-specimen](https://www.typearture.com/schijn/specimen/) — archive ✓ · blocks ✓ · extract ☐
+- [x] 032 [serf-nan-xyz](https://serf.nan.xyz) — archive ✓ · blocks ✓ · extract ✓
+- [x] 033 [s-u-c-c-e-s-s-com](https://www.s-u-c-c-e-s-s.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 034 [djr-com-forma](https://djr.com/forma) — archive ✓ · blocks ✓ · extract ✓
+- [x] 035 [nichrome-mass-driver-com](https://nichrome.mass-driver.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 036 [polychrome-mass-driver-com](https://polychrome.mass-driver.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 037 [djr-com-roslindale](https://djr.com/roslindale) — archive ✓ · blocks ✓ · extract ✓
+- [x] 038 [system-mass-driver-com](https://system.mass-driver.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 039 [recursive-design](https://www.recursive.design) — archive ✓ · blocks ✓ · extract ✓
+- [x] 040 [shantellsans-com](https://shantellsans.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 041 [kermit-font-com](https://kermit-font.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 042 [karrik-phantom-foundry-com](http://karrik.phantom-foundry.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 043 [surt-font-eu](https://surt-font.eu) — archive ✓ · blocks ✓ · extract ✓
+- [x] 044 [neuedin-com](https://neuedin.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 045 [exat-hottype-co](https://exat.hottype.co) — archive ✓ · blocks ✓ · extract ✓
+- [x] 046 [nn-konrad-ch](https://www.nn-konrad.ch) — archive ✓ · blocks ✓ · extract ✓
+- [x] 047 [colroy-ch](https://www.colroy.ch) — archive ✓ · blocks ✓ · extract ✓
+- [x] 048 [pivot-grotesk-world](http://pivot-grotesk.world) — archive ✓ · blocks ✓ · extract ✓
+- [x] 049 [knitgrotesk-com](https://www.knitgrotesk.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 050 [nn-swinton-world](https://nn-swinton.world) — archive ✓ · blocks ✓ · extract ✓
+- [x] 051 [abcdestragon-xyz](https://abcdestragon.xyz) — archive ✓ · blocks ✓ · extract ✓
+- [x] 052 [djr-com-fit](https://djr.com/fit) — archive ✓ · blocks ✓ · extract ✓
+- [x] 053 [azeret-displaay-net](https://azeret.displaay.net) — archive ✓ · blocks ✓ · extract ✓
+- [x] 054 [booton-displaay-net](https://booton.displaay.net) — archive ✓ · blocks ✓ · extract ✓
+- [x] 055 [andada-huertatipografica-com](https://andada.huertatipografica.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 056 [piazzolla-huertatipografica-com](https://piazzolla.huertatipografica.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 057 [weg-huertatipografica-com](https://weg.huertatipografica.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 058 [betaniapatmos-huertatipografica-com](https://betaniapatmos.huertatipografica.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 059 [input-djr-com](https://input.djr.com/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 060 [djr-com-megabase-stripe](https://djr.com/megabase-stripe) — archive ✓ · blocks ✓ · extract ✓
+- [x] 061 [halyard-dardenstudio-com](https://halyard.dardenstudio.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 062 [ernestinefont-com](http://ernestinefont.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 063 [liebling-fontef-com](https://liebling.fontef.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 064 [kachibuwa-com](https://kachibuwa.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 065 [pacaembu-naipefoundry-com](https://pacaembu.naipefoundry.com/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 066 [readvisions-com-marvin](https://www.readvisions.com/marvin) — archive ✓ · blocks ✓ · extract ✓
+- [x] 067 [raphaelbastide-com-avara](https://raphaelbastide.com/avara/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 068 [djr-com-gimlet](https://djr.com/gimlet) — archive ✓ · blocks ✓ · extract ✓
+- [x] 069 [cinetype-com-fabbrica](https://www.cinetype.com/fabbrica) — archive ✓ · blocks ✓ · extract ✓
+- [x] 070 [floriankarsten-github-io-space-grotesk](https://floriankarsten.github.io/space-grotesk/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 071 [typearture-com-schijn-specimen](https://www.typearture.com/schijn/specimen/) — archive ✓ · blocks ✓ · extract ✓
 - [ ] 072 [avantt-displaay-net](https://avantt.displaay.net) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 073 [indestructibletype-com-gnomon](https://indestructibletype.com/Gnomon.html) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 074 [djr-com-gimlet-xray](https://djr.com/gimlet-xray) — archive ✓ · blocks ✓ · extract ☐

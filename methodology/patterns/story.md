@@ -18,6 +18,7 @@ Sample: 24 blocks from 24 sites.
 | [self-test-evidence](#self-test-evidence) | 1 | The design rationale backed by a small test the visitor runs on themselves (reading speed, legibility). | a quiz or timer next to research prose |
 | [designer-bio](#designer-bio) | 1 | A short, informal bio of the designer with contact links. | portrait or name, 'about me' |
 | [info-popover](#info-popover) | 0 | Section copy hidden behind a small info button and shown as a popover beside the specimen; the page shows type first, text on demand. | (i) Info buttons |
+| [expandable-timeline](#expandable-timeline) | 0 | A dated timeline of rows that expand into text cards on hover or click, with the year and title switching from light to heavy weight. | years in a column, accordion rows |
 
 ## Rubric
 
@@ -155,5 +156,13 @@ A short, informal bio of the designer with contact links.
 Section copy hidden behind a small info button and shown as a popover beside the specimen; the page shows type first, text on demand.
 
 **Recognise by:** (i) Info buttons
+
+_No instance in the sample yet._
+
+## expandable-timeline
+
+A dated timeline of rows that expand into text cards on hover or click, with the year and title switching from light to heavy weight.
+
+**Recognise by:** years in a column, accordion rows
 
 _No instance in the sample yet._

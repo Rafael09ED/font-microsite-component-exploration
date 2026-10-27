@@ -1,0 +1,794 @@
+{
+  "slug": "pacaembu-naipefoundry-com",
+  "extractedBy": "agent",
+  "summary": "A long football-themed single page for an art-deco sans drawn from the lettering of São Paulo's Pacaembu stadium: an editable hero with weight, size, italic and alternate controls, a story told in chapters over halftone archival photos, then a run of genuine football infographics (match carousel, legends picker, classic line-ups on a pitch, live league standings) that make the numerals and labels do real work. Teal, yellow and red throughout; every style is named after a Brazilian footballer.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "interactive-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "sporty, retro, sunny",
+        "mobile": "adapts",
+        "carrier": "controls",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "Duotone teal halftone photo of two 1940s footballers, 'Pacaembu Tropical Art Deco Sans' in yellow at ~187px over three lines; NAIPE logo and credit top-left, a compact control panel top-right (WEIGHT and SIZE sliders with yellow knobs, ITALIC i/𝑖 toggle, ALTERNATES a/ɑ, 1/1, ?/? toggles). A yellow cookie banner covers the bottom-right corner",
+      "feel": "Warm, nostalgic, confident",
+      "ux": "The headline is contenteditable; the sliders set font-weight 100–900 and font-size 1–30vw (default 13vw), and each two-state toggle flips italic, ss01 (single-storey a), proportional numerals or ss02 (alternate ?); the toggles preview their two states as tiny glyph chips",
+      "learn": "Make the tagline the tester: a small control cluster in the corner turns the hero into a playground without leaving the first screen, and glyph chips ('a | ɑ') show what each toggle does before you press it",
+      "reconstruction": {
+        "layout": "Full-bleed ~852px (95vh) panel; logo + 3-line credit at top-left (logo ~100px wide, 12px from edges); control list top-right ~220px wide, right-aligned labels then controls, 4 rows ~24px; headline left-aligned from x≈24, starting y≈200, three lines at 13.975vw leading",
+        "typography": "Headline Pacaembu VF Regular (wght 400) at 13vw ≈ 187px, yellow, sentence case, tight tracking; control labels ~10px Pacaembu Extrabold uppercase white; toggle chips ~12px in small rounded teal squares",
+        "palette": [
+          "#04796a",
+          "#048573",
+          "#07544a",
+          "#fedd02",
+          "#ffffff"
+        ],
+        "behaviour": "input[type=range]#heroControlWeight (100–900) → font-weight; #heroControlSize (1–30, step 0.1) → font-size in vw with matching line-height; checkbox togglers set font-style italic, font-feature-settings ss01 / ss02 and font-variant-numeric proportional-nums on the display; no motion until touched",
+        "content": "Name plus genre tagline: 'Pacaembu Tropical Art Deco Sans'",
+        "assets": "Duotone (teal/black) halftone archival photo of two footballers; NAIPE logo SVG",
+        "html": "section.Hero-module__heroContainer > header (heroAuthorContainer, ul.heroHandlers > li.heroHandler with label + input[type=range] or label.heroHandlerToggler > input[type=checkbox] + span.leftOption/.rightOption) + p.heroDisplay[contenteditable] with inline style"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Sticky teal bar (~48px): 'Pacaembu' wordmark left; 'Fonts', 'Story', 'Uses', a 🏆 trophy icon and a red 'Buy now' pill right; it appears on every stitched screen, and a fixed yellow cookie banner sits bottom-right throughout the capture"
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "proud, informative",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "Over a dark teal duotone photo of the stadium, a ~48px paragraph in white and yellow ('Pacaembu is a sans serif typeface that finds its roots in Brazilian football…'), key phrases switching colour; three small style buttons 'a ɑ 𝑖' under it",
+      "feel": "Bright, welcoming",
+      "ux": "The three square buttons restyle the paragraph (default, alternate a, italic); the CTA pills sit below the text",
+      "learn": "Let the intro paragraph be toggled through the family's alternates and italic, so the 'about' text doubles as a text-size tester",
+      "reconstruction": {
+        "layout": "Two columns over a full-bleed photo: paragraph column x≈20–900 (≈60%), 9 lines; buttons row below (CTA pills left, style toggles at x≈770); right column x≈940–1420 holds the style list",
+        "typography": "Paragraph ~44px Pacaembu Regular, leading ~1.25, white with yellow phrases; toggle buttons ~32px squares with one glyph each",
+        "palette": [
+          "#055347",
+          "#05322c",
+          "#021a18",
+          "#01cdaf",
+          "#fedd02",
+          "#ffffff"
+        ],
+        "behaviour": "Intro-module introControlsButton (3) switch the paragraph style; selected state outlined",
+        "content": "Real description of the origin: stone lettering of the Paulo Machado de Carvalho Municipal Stadium, inaugurated 1940",
+        "assets": "Duotone stadium photo"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "playful, footballing",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "Two columns of 7 footballer names, each set in one style with a tiny style label: Pelé (Thin), Garrincha (Extralight), Jairzinho (Light), Sócrates (Regular), Rivellino (Semibold), Ronaldo (Bold), Neymar (Extrabold); italics named after women players: Pretinha, Cristiane, Sissi, Formiga, Marta, Tamires, Debinha",
+      "feel": "Witty, celebratory",
+      "ux": "static",
+      "learn": "Use themed proper names as the sample words for each style: the overview becomes a team sheet, and the italics column tells a second story (the women's team)",
+      "reconstruction": {
+        "layout": "Right column ~480px, two sub-columns (roman | italic), 7 rows ~84px each, name over label",
+        "typography": "Names ~36px in their own weight (Thin → Extrabold), yellow on the first rows and white; labels ~10px 'Pacaembu Thin', 'Pacaembu Thin Italic' white",
+        "palette": [
+          "#055347",
+          "#05322c",
+          "#fedd02",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Seven men's and seven women's Brazilian football legends, one per style",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, direct",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": true,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "A row of four coloured pills under the intro: red 'Buy fonts', green 'Sync with Adobe Fonts', teal 'Get trial fonts', yellow 'PDF specimen'; the same set returns as 'Get the fonts / Trial fonts' in the feature carousel (whose last slide says 'The whole family costs 400€') and in the footer",
+      "feel": "Cheerful, low-pressure",
+      "ux": "Buy opens the Naipe store; Adobe link out; 'Get trial fonts' opens an in-page 'Trial font submission' dialog (name, e-mail, EULA checkbox, newsletter opt-in); the PDF downloads directly",
+      "learn": "Colour-code each acquisition route (buy, subscribe, trial, PDF) as its own pill so visitors find their path at a glance",
+      "reconstruction": {
+        "layout": "Inline row of pills ~36px tall, 8px gaps, under the paragraph",
+        "typography": "~13px Pacaembu Bold, white or dark on the pill colour",
+        "palette": [
+          "#e5194b",
+          "#2bd46a",
+          "#01cdaf",
+          "#fedd02"
+        ],
+        "behaviour": "Trial button opens a modal form; others are links (data-color danger/success/primary/secondary)",
+        "content": "Buy fonts · Sync with Adobe Fonts · Get trial fonts · PDF specimen",
+        "assets": "PDF specimen file",
+        "html": "ul.Intro-module__introButtons > a.Button-module__button[data-color=danger|success|secondary] + button[data-color=primary]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "video",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "punny, footballing",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates",
+          "construction"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "A split panel: left half yellow with the alphabet and numerals 'AaBbCcDdEeFf…Zz1234567890' in black at ~90px; right half charcoal with 'Seven weights' in teal, a short yellow caption, red 'Get the fonts' and teal 'Trial fonts' pills and a weight slider; round red manicule buttons 👈 👉 at the edges page through 9 slides (only the first is in the crop)",
+      "feel": "Playful, explanatory",
+      "ux": "Prev/next manicule buttons step through slides: Seven weights (slider 100–999 sets the alphabet's weight), Going for the tittle, Counter attack (TOO GROT / TOO DECO), Build up play, Hand ball (20 manicules), Subbing in (alternate a and ?), World Cup icons, Half-time (fractions and arrows), Try it on (price 400€)",
+      "learn": "Write each design-detail caption as a football pun (tittle, counter attack, subbing in) so a dry feature list becomes a themed carousel",
+      "reconstruction": {
+        "layout": "Full-width ~537px slide, 50/50 split: visual left (yellow), text right (dark) with heading, 2–3 line caption, buttons, and for slide 1 a 500px slider; circular 80px red prev/next buttons half off-screen at both edges",
+        "typography": "Alphabet ~90px Pacaembu at the slider weight, black; heading ~28px Pacaembu Extrabold teal; caption ~16px Bold yellow",
+        "palette": [
+          "#232323",
+          "#fbd116",
+          "#02cbac",
+          "#e5194b"
+        ],
+        "behaviour": "Slide carousel; slide 1 input[type=range] 100–999 → font-weight of the alphabet; other slides use autoplay looping videos and a GIF (arrows) for the feature demos",
+        "content": "Feature notes as football metaphors; ends with price and trial CTA",
+        "assets": "3 looping MP4s (features), PNGs (manicules, alternates, football icons), animated GIF of arrows",
+        "html": "Features-module__featuresList > featuresItem (featuresVisual + featuresText) ×9; featuresAction prev/next; featuresRange input"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "historical, lively",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "archival",
+          "illustration",
+          "diagram"
+        ],
+        "length": "medium"
+      },
+      "look": "Over a dark halftone archival crowd photo: 'Art-Deco World Cup: From Europe to the Tropics' in yellow Extrabold, a white text column with a yellow pull quote, beside a looping illustrated postcard ('Greetings from sunny São Paulo', HEN lettering, ship); below, a coloured stadium-complex map next to 'Naipe gets the call' about the wayfinding commission",
+      "feel": "Storytelling, vivid",
+      "ux": "static reading; the postcard is an autoplay loop",
+      "learn": "Alternate text column and visual sides per chapter, and set the pull quote in the display weight so the story column is also a specimen",
+      "reconstruction": {
+        "layout": "~1850px; zig-zag two-column layout ~1000px wide centred: text column ~500px at x≈200 with illustration ~370px at the right, then map ~480px left with text right",
+        "typography": "Headings ~45px Pacaembu Extrabold yellow, leading 1.0; body ~16px Regular white with bold phrases; pull quote ~24px Extrabold yellow; linked names highlighted yellow",
+        "palette": [
+          "#2e2d2d",
+          "#101010",
+          "#505050",
+          "#04d5b8",
+          "#fedd02"
+        ],
+        "behaviour": "Postcard illustration is an autoplay looping MP4; static otherwise",
+        "content": "Real history: the stadium lettering by Ramos de Azevedo office, PhD research by José Roberto D'Elboux, the 2016 wayfinding commission by Fábio Salmoni",
+        "assets": "Halftone archival background photo, animated postcard illustration (MP4), coloured stadium map illustration"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "candid, process",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "photo"
+        ],
+        "length": "medium"
+      },
+      "look": "'Extra-time winner' chapter: yellow heading, white text column with a yellow pull quote ('What we had before was a bit old-school…') about the 2019 re-work, over a teal duotone stadium photo",
+      "feel": "Honest, upbeat",
+      "ux": "static",
+      "learn": "Tell the redesign as a comeback story (benched project, extra time) and quote the designer's reasoning in the display weight",
+      "reconstruction": {
+        "layout": "Text column ~500px at x≈200, ~900px tall panel, image comparison to the right",
+        "typography": "Heading ~45px Extrabold yellow; pull quote ~24px Extrabold yellow; body ~16px Regular white",
+        "palette": [
+          "#043029",
+          "#30504b",
+          "#fedd02",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Real process copy: rounder caps, re-worked lowercase, icons, arrows, fractions",
+        "assets": "Duotone background photo"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "comparison",
+      "variant": "pointer-wipe",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "evidential",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ]
+      },
+      "look": "Photo of the stadium's engraved signs (HOMENS, FRISAS, SENHORAS, PISCINA, VESTIARIO) with the same words in yellow outline Pacaembu laid over them; a yellow knob at the bottom edge marks the divider",
+      "feel": "Evidential, satisfying",
+      "ux": "A range slider moves a vertical split: one side shows the original engraved letters, the other the font set at the same scale over them (the font layer is positioned with right: 50% by default)",
+      "learn": "Overlay the new font on the photographed source at identical scale and give it a wipe: the visitor checks the revival against the original themselves",
+      "reconstruction": {
+        "layout": "Image box ~470×740px on the right of the chapter (x≈740–1210); two stacked image layers, the font layer clipped from the right by the slider; slider knob ~20px at the bottom",
+        "typography": "Font layer is an image of Pacaembu caps in yellow outline matching the sign letters (~70px caps)",
+        "palette": [
+          "#72726e",
+          "#8e8d8a",
+          "#fedd02",
+          "#043029"
+        ],
+        "behaviour": "input[type=range] → style.right on the overlay (0–100%), revealing more or less of the font layer",
+        "content": "Real signage words from the stadium (toilets, pool, changing rooms)",
+        "assets": "Photo of the engraved signage (comparacao-original.png) and a matching transparent PNG of the font letters (comparacao-fonte.png)",
+        "html": "div.Comparison-module__comparisonImageComparison > comparisonImageComparisonOriginal img + comparisonImageComparisonFont[style=right:50%] img + input[type=range]"
+      }
+    },
+    {
+      "blocks": [
+        "06",
+        "07"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "nostalgic, celebratory",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "archival",
+          "illustration"
+        ],
+        "length": "medium"
+      },
+      "look": "Two chapters on teal: 'The Stadium' over a line drawing of the stadium and city with a vintage inauguration poster ('SÃO PAULO INAUGURA SEU ESTÁDIO 27 DE ABRIL'); 'Landmark Moments' with the 1950 World Cup poster (orange ball, boot, flags) beside a lead paragraph and body text",
+      "feel": "Archival, colourful",
+      "ux": "Posters swap to a second image on hover (…-hover.jpg); otherwise static",
+      "learn": "Pair each history chapter with one period poster of the place, so the story always has a visual anchor from the era",
+      "reconstruction": {
+        "layout": "Each chapter ~800px; text column ~500px plus a poster ~330×500px, sides alternating (text left/poster right, then poster left/text right); background line illustration or halftone photo full-bleed",
+        "typography": "Headings ~45–58px Extrabold yellow; lead paragraph ~24px Extrabold white; body ~14–16px white with bold runs",
+        "palette": [
+          "#037664",
+          "#076a59",
+          "#0b564a",
+          "#02c9ab",
+          "#fedd02",
+          "#ffffff"
+        ],
+        "behaviour": "Hover image swap on the posters",
+        "content": "Real history: 70,000 seats, 1940 inauguration, first radio broadcast, six matches of the 1950 World Cup",
+        "assets": "Two posters, each with a hover variant; teal line-art stadium illustration; halftone match photo"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "specimen-showcase",
+      "variant": "themed-infographic",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "archival, sporty",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "carousel"
+      },
+      "look": "Match card: on yellow, 'Palestra Italia 06 × 02 Curityba F.C.' (team names Bold, score Light), a description, date, attendance, referee, goal list with ⚽ minutes and the winner line; on the dark right half a yellow ticket graphic ('ESTÁDIO MUNICIPAL DE SÃO PAULO', CAMPO / ENTRADA / CAMPO stubs) set entirely in the font",
+      "feel": "Collectible, matchday",
+      "ux": "Red manicule buttons at both edges step through 10 landmark matches; each has its own ticket artwork",
+      "learn": "Reset a real ticket in the font for every match: the data card and the prop together show text, numerals and caps at once",
+      "reconstruction": {
+        "layout": "~520px band: left 40% yellow text card (padding 80px), right 60% charcoal with a ticket ~760×300px; round prev/next buttons ~90px half off-screen",
+        "typography": "Teams ~32px Bold, score ~32px Light; body ~14px Bold/Regular; ticket labels 12px caps and 24px Bold team names",
+        "palette": [
+          "#fdd10e",
+          "#232322",
+          "#f7c722",
+          "#d6ac25"
+        ],
+        "behaviour": "Carousel of 10 Moments items with prev/next buttons",
+        "content": "Real matches (1940 inaugural game, São Paulo × Corinthians, Brazil 10 × 1 Bolivia…) with dates, crowd, referee, scorers",
+        "assets": "10 ticket illustrations set in the font",
+        "html": "Moments-module__momentsItem ×10 (momentsText: title, score, description, list info, goals; momentsPhoto); momentsAction.prev/.next"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "specimen-showcase",
+      "variant": "themed-infographic",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "fan-like, playful",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "grid"
+      },
+      "look": "'Legends': left half a teal halftone photo with heading and large white intro ('From Pelé to Neymar…'); right half yellow with a grid of 20 illustrated club shirts (name and number lettered in the font) and a player card for the selected one (Leônidas da Silva, Career 1930–1950, appearances, goals, honours)",
+      "feel": "Collector's album",
+      "ux": "Click a shirt to load that player's card; selected shirt gets a red tile; two buttons scroll the shirt grid",
+      "learn": "Letter each item of a picker (shirt names and numbers) in the font, so browsing the data is browsing numerals and caps",
+      "reconstruction": {
+        "layout": "50/50 split ~920px tall: text column left; right: shirt grid (2 rows × 10, ~100px tiles, scrollable) above a player card (shirt illustration ~200px + info list)",
+        "typography": "Heading ~45px Extrabold yellow; intro ~28px Bold white; player name ~20px Bold, career ~24px Light; shirt lettering in the font",
+        "palette": [
+          "#fbda03",
+          "#08332d",
+          "#0a5346",
+          "#04c9aa",
+          "#e85a5a"
+        ],
+        "behaviour": "Tiles-module tilesGridRowItem buttons set the active player; card content swaps",
+        "content": "Real players and stats (appearances, goals, honours)",
+        "assets": "20 shirt illustrations with lettering; halftone background photo",
+        "html": "Tiles-module__tilesGridRow > button.tilesGridRowItem(.active) ×20; tilesPlayerShirt + tilesPlayerInfo (Career, InfoList)"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "retro, ephemeral",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "single"
+      },
+      "look": "A pile of pastel stadium tickets ('ARQUIBANCADA', seat numbers 85, 48, 70, 15, 60, 90 huge in different colours, 'Palmeiras × Flamengo 28 — Novembro — 79') overlapping at angles on yellow, bridging the Legends and Line-ups sections",
+      "feel": "Nostalgic, tactile",
+      "ux": "static",
+      "learn": "A band of overlapping props between two data sections gives a breather while still showing big numerals",
+      "reconstruction": {
+        "layout": "Full-bleed band ~840px (overlapping the sections above and below), ~12 tickets ~400×220px rotated ±8°",
+        "typography": "Ticket numerals ~150px in mixed weights and colours; 'ARQUIBANCADA' ~50px Bold; small print 10px caps",
+        "palette": [
+          "#fedc02",
+          "#eecacd",
+          "#cfb2b4",
+          "#d395a5",
+          "#01ccae"
+        ],
+        "behaviour": "none",
+        "content": "Invented tickets for real fixtures (Palmeiras × Flamengo, Santos × Fluminense, Corinthians × Botafogo)",
+        "assets": "Ticket illustrations (12 images)"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "specimen-showcase",
+      "variant": "themed-infographic",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "playful, data-rich",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "single"
+      },
+      "look": "'Classic line-ups' in teal on yellow; a row of 11 crest icons with years (1946 … 2002, 1470); below, a numbered player list (11 Teixeirinha Forward 🇧🇷 São Paulo F.C. …), a green pitch with numbered red-ringed player discs in formation, and an MVP card (illustrated Leônidas portrait with Speed 85, Shot 90, Dribble 86, Pass 76)",
+      "feel": "Game-like, fan culture",
+      "ux": "Click a year to load that team's line-up: the list, the formation on the pitch and the MVP card all change",
+      "learn": "A tabular figures-heavy UI (numbers, positions, stats) is the best stress test for a sans: build a real mini-app on the font's theme",
+      "reconstruction": {
+        "layout": "Heading at x≈20; year tabs in a full-width row (11 × ~110px); 3 columns: list ~450px (11 rows ~48px), pitch ~450×660px, MVP card ~370px with rounded teal frame",
+        "typography": "Heading ~64px Light teal; year tabs ~12px; list numbers ~16px Bold, names ~14px, positions ~12px teal; stats ~24px Bold yellow on black",
+        "palette": [
+          "#fedc02",
+          "#038a76",
+          "#f9faf2",
+          "#080b09",
+          "#e5194b"
+        ],
+        "behaviour": "LineUp-module lineUpSelectButton ×11 (year) → swaps list, pitch formation and MVP",
+        "content": "Real historic São Paulo / Brazil line-ups with coach, positions and invented player ratings",
+        "assets": "Crest icons per year (SVG), pitch drawing, illustrated MVP portrait",
+        "html": "LineUp-module__lineUpSelect > lineUpSelectButton ×11; lineUpListPlayer (Number, DataName, DataPosition) ×11; lineUpFieldFormationPlayer ×11; lineUpMVP"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "specimen-showcase",
+      "variant": "themed-infographic",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "live, functional",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "single"
+      },
+      "look": "'Championship standings' in yellow on teal; tabs 🇧🇷 BRASILEIRÃO · 🇬🇧 PREMIER LEAGUE · 🇪🇸 LA LIGA · 🇩🇪 BUNDESLIGA; a 20-row league table with crests and columns P M W D L GF GA GD; 'Data provided by football-data.org'",
+      "feel": "Useful, live",
+      "ux": "Tabs switch league; the table is filled from live data",
+      "learn": "Pull a live data feed into the specimen: a real table of figures proves tabular numerals better than any static sample",
+      "reconstruction": {
+        "layout": "Centred table ~740px wide (x≈350–1090); tab row above; rows ~36px with white cells on teal and 2px gaps",
+        "typography": "Heading ~64px Light yellow; tabs ~12px Bold caps; team names ~14px Bold; figures ~14px tabular",
+        "palette": [
+          "#02b199",
+          "#e8f7f4",
+          "#d6efeb",
+          "#fedd02"
+        ],
+        "behaviour": "League tabs (4 buttons) reload the table; data from the football-data.org API",
+        "content": "Live league standings",
+        "assets": "Club crest images (20 per league)",
+        "html": "Standings-module rows with teamPosition, teamCrest, teamName, teamPoints, teamPlayedGames, teamWonGames, teamDrawGames, teamLostGames, teamGoalsFor, teamGoalsAgainst, teamGoalDifference"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "loud, celebratory",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "A ~3800px run of full-width compositions: a giant golden 'a' over a teal stamp-like texture with the Tupi etymology of 'Pacaembu' (paã·nga·he·nb·bu); a wall of football club names in 7 lines going Thin → Extrabold; yellow numerals 1–0 at ~170px over photos of the stadium's painted seat numbers; a field of outlined O's spelling 'GOOOO…OOOOL!'; a yellow poster with '1932' in giant white and a halftone Leônidas bicycle kick, with nicknames 'DIAMANTE NEGRO', 'HOMEM-BORRACHA' on curves",
+      "feel": "Stadium chant, maximal",
+      "ux": "The GOOOL O's ripple in a wave (CSS keyframes waveText); otherwise static",
+      "learn": "Pair each poster with a source photo (seat numbers, stone letters) so the display set reads as a revival of the place",
+      "reconstruction": {
+        "layout": "Stacked full-bleed panels of 400–900px each; team wall 7 centred justified lines; numerals in two rows of 5 over a photo with a photo inset at the right; GOOOL panel a 30×6 grid of O's; 1932 panel with numerals ~600px tall overlapping a cut-out photo",
+        "typography": "Etymology ~36px Light yellow; club names ~45px, one weight per line Thin to Extrabold, yellow/white; numerals ~170px Light yellow; O's ~45px outline; '1932' ~600px Regular white; curved labels ~22px Extrabold",
+        "palette": [
+          "#070505",
+          "#0fad92",
+          "#fedc02",
+          "#aeaead",
+          "#ffffff"
+        ],
+        "behaviour": "SVG text 'GOL' letters animated in a wave via @keyframes waveText (staggered translateY); static elsewhere",
+        "content": "Etymology from a Tupinologist, real club names worldwide, the 1932 bicycle kick, chant",
+        "assets": "Stamp texture, seat-number photos, halftone cut-out of Leônidas, stadium photo backgrounds",
+        "html": "Specimens-module specimenPaca (SVG background text), specimenTeams (SVG), specimenPool (SVG over photo), specimenGol (specimenGolSVGText ×7), specimenLeonidas (SVG text on paths + img)"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "polished, editorial",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "series"
+      },
+      "look": "Three full-width mockup images inside the poster run: a sticker sheet (GOOOL, DIAMANTE NEGRO, footballs, diamonds in teal/yellow/black), three 'Côte d'Azur' magazine covers (orange, lilac, ochre) on black, and 'BEASAL — Everything about Beach Football' books on deep blue",
+      "feel": "Product-ready",
+      "ux": "static",
+      "learn": "Drop a short triptych of realistic applications into a themed specimen run so buyers can picture neutral uses too",
+      "reconstruction": {
+        "layout": "Three stacked full-bleed images ~1440×480px each",
+        "typography": "Pacaembu on stickers (Extrabold), magazine covers (Regular small caps labels) and book covers (Light display)",
+        "palette": [
+          "#000000",
+          "#2d2a8c",
+          "#e45a1e",
+          "#9c8de0",
+          "#fedc02"
+        ],
+        "behaviour": "none",
+        "content": "Fictional publications and merchandise",
+        "assets": "Three rendered mockups (specimen-triptych-1/2/3, webp + jpg)"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "story",
+      "variant": "designer-bio",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "warm, humorous",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "illustration"
+        ],
+        "length": "short"
+      },
+      "look": "A banner of the two designers drawn as footballers in rival-club shirts flanking an 'NFC' crest, then 'Naipe F.C.' with a large white/yellow paragraph and a black-and-yellow 'Naipe' pennant; the banner is sticky and repeats twice in the stitched crop (capture artefact)",
+      "feel": "Friendly, club-like",
+      "ux": "Linked names to the designers' profiles",
+      "learn": "Present the foundry as a team (crest, pennant, player portraits) to carry the theme into the 'about us'",
+      "reconstruction": {
+        "layout": "Illustrated banner ~350px (portraits ~250px each side of a ~200px crest) on a teal/black band; text column ~650px at x≈280 with a pennant ~170×350px to its right",
+        "typography": "Heading ~45px Extrabold yellow; paragraph ~28px Bold white with yellow names",
+        "palette": [
+          "#042f28",
+          "#020605",
+          "#03b198",
+          "#fedd02"
+        ],
+        "behaviour": "Banner sticks while the text scrolls (sticky)",
+        "content": "Bio: the carioca duo Álvaro Franca and Felipe Casaprima, supporters of rival clubs",
+        "assets": "Two illustrated portraits, crest, pennant illustration"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "grateful",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "'Thank you!' and two columns of credits with yellow names (researcher, Mowe Studios for animations, Paula Cruz for portraits, specimen artists, Future Fonts, Wikimedia and Hemeroteca Digital Brasileira for images)",
+      "feel": "Generous",
+      "ux": "Names link out",
+      "learn": "Credit image archives and illustrators by name; it doubles as a small-size text specimen",
+      "reconstruction": {
+        "layout": "Two columns ~330px each at x≈280 and x≈730, 13px paragraphs with 16px gaps",
+        "typography": "~13px Pacaembu Bold white, names yellow",
+        "palette": [
+          "#042f28",
+          "#fedd02",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Real credits",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "tidy, bright",
+        "mobile": "adapts",
+        "contains": [
+          "contact",
+          "socials",
+          "other-fonts",
+          "legal"
+        ]
+      },
+      "look": "Yellow strip: black NAIPE swoosh logo, then two link columns ('Buy Pacaembu / Get Trial fonts / Sync with Adobe Fonts / Visit Uai' and 'Instagram / Future Fonts / License / abc@naipefoundry.com'), first letters of the key words highlighted with a teal marker",
+      "feel": "Neat, cheerful",
+      "ux": "Plain links; 'Visit Uai' cross-promotes another family",
+      "learn": "Repeat the acquisition links in the footer with a marker highlight on the action word",
+      "reconstruction": {
+        "layout": "~220px band; logo ~120px at x≈280; columns at x≈500 and x≈870, 4 rows each ~22px",
+        "typography": "~18px Pacaembu Regular/Bold, black",
+        "palette": [
+          "#fedd02",
+          "#000000",
+          "#01cbad"
+        ],
+        "behaviour": "none",
+        "content": "Buy, trial, Adobe, sister font, socials, licence, e-mail",
+        "assets": "NAIPE logo"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/interactive-specimen",
+    "story/large-text-intro",
+    "family-overview/style-word-grid",
+    "checkout/link-out-cta",
+    "design-details/design-notes",
+    "story/origin-reference",
+    "story/essay",
+    "comparison/pointer-wipe",
+    "story/origin-reference",
+    "specimen-showcase/themed-infographic",
+    "specimen-showcase/prop-collage",
+    "specimen-showcase/themed-infographic",
+    "specimen-showcase/poster-series",
+    "specimen-showcase/in-use-mockups",
+    "story/designer-bio",
+    "footer/credits-colophon",
+    "footer/link-columns"
+  ]
+}

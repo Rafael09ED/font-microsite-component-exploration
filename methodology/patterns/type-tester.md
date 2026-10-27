@@ -18,6 +18,10 @@ Sample: 24 blocks from 24 sites.
 | [feature-toggle-board](#feature-toggle-board) | 1 | One big sample line plus a panel of OpenType feature toggles labelled with their tags. | ss01, dlig, case toggles |
 | [auto-fit-editable-lines](#auto-fit-editable-lines) | 0 | Editable display lines that rescale to fill the column width as you type; no size or axis controls, at most a style switch for the stack. | full-width editable lines, no sliders |
 | [pointer-xy-axes](#pointer-xy-axes) | 0 | The pointer's x and y position (or device tilt) each drive one variable axis, with edge tracks or labels showing live values; no sliders to grab. | axis labels at the edges, moves with the cursor |
+| [mockup-generator](#mockup-generator) | 0 | A short text field (with style and colour pickers) whose input is rendered into a wall of realistic scenes (billboards, gadgets, screens), so visitors see their words in use. | input field above a grid of mockups |
+| [palette-editor](#palette-editor) | 0 | One editable sample in a colour font with a colour picker per palette layer (outline, fill, gradient stops, randomise) that rewrites the palette live. | colour swatches beside a colour-font sample |
+| [write-on-playback](#write-on-playback) | 0 | Editable samples in a font with a time (write-on) axis: a play button draws the text stroke by stroke and a timeline slider scrubs it. | play button, timeline scrubber |
+| [xy-pad](#xy-pad) | 0 | One editable sample beside a 2D pad: dragging one handle sets two axes at once (e.g. weight × optical size). | square pad with a crosshair handle |
 
 ## Rubric
 
@@ -153,5 +157,37 @@ _No instance in the sample yet._
 The pointer's x and y position (or device tilt) each drive one variable axis, with edge tracks or labels showing live values; no sliders to grab.
 
 **Recognise by:** axis labels at the edges, moves with the cursor
+
+_No instance in the sample yet._
+
+## mockup-generator
+
+A short text field (with style and colour pickers) whose input is rendered into a wall of realistic scenes (billboards, gadgets, screens), so visitors see their words in use.
+
+**Recognise by:** input field above a grid of mockups
+
+_No instance in the sample yet._
+
+## palette-editor
+
+One editable sample in a colour font with a colour picker per palette layer (outline, fill, gradient stops, randomise) that rewrites the palette live.
+
+**Recognise by:** colour swatches beside a colour-font sample
+
+_No instance in the sample yet._
+
+## write-on-playback
+
+Editable samples in a font with a time (write-on) axis: a play button draws the text stroke by stroke and a timeline slider scrubs it.
+
+**Recognise by:** play button, timeline scrubber
+
+_No instance in the sample yet._
+
+## xy-pad
+
+One editable sample beside a 2D pad: dragging one handle sets two axes at once (e.g. weight × optical size).
+
+**Recognise by:** square pad with a crosshair handle
 
 _No instance in the sample yet._

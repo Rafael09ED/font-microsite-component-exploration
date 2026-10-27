@@ -1,0 +1,560 @@
+{
+  "slug": "piazzolla-huertatipografica-com",
+  "extractedBy": "agent",
+  "summary": "A book-like, warm-grey single page for a free variable text serif, built as a tribute to its namesake Astor Piazzolla: glyph-mosaic portrait, bilingual quote, Spotify tracklist, clickable life timeline and a marquee of his statistics whose weight a slider drives. Specimen sections (flip-card highlights, optical-size toggle on a 1937 Harry Carter essay, Greek/Latin/Cyrillic columns) sit between, and a hidden hover inspector shows the CSS of any sample.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "typeset-page",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "bookish, refined, warm",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "download",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "Title-page stack 'Piazzolla' (Bold) / 'type' / 'system' (ExtraLight), right-aligned and tightly leaded, beside a colophon list (DESIGNED BY / FOR / RELEASED IN / DISTRIBUTED BY in grey tracked small caps, italic values on teal underlines) and a white 'Get the font →' bar; pale teal lowercase letters scattered behind",
+      "feel": "Quiet, literary, like the title page of a well-set book",
+      "ux": "No nav in the first screen (the sticky toolbar appears only after the next section); one link out to htfonts.com",
+      "learn": "Turn the release facts into a colophon (small-caps labels, italic values on hairlines): the hero shows small caps, italics and two weight extremes before any copy",
+      "reconstruction": {
+        "layout": "Warm grey field, first ~580px of a 1786px block; 12-col grid with 160px margins; name stack in cols 1–8 (x≈190–960), right-aligned, line-height 0.83, 'Piazzolla' pulled right by -0.36em and 'system' indented 0.36em; colophon in cols 9–12 (x≈930–1280) starting ~210px down, four label/value rows ~44px apart, then a 36px white button bar; background SVG (1470×650, top centred) of ~20 scattered teal lowercase letters (h s g y b a k e x, j r z u, p ñ i, v q w, f m) at ~40px",
+        "typography": "Name 192px (8.727rem at a 22px root): 'Piazzolla' wght 700, 'type system' wght 200; labels 16px all-small-caps tracked 0.1em #999593; values ~22px italic wght 200 with a 1px #01e0a7 underline that grows to fill the row; button 16px",
+        "palette": [
+          "#eeede9",
+          "#151525",
+          "#01e0a7",
+          "#999593",
+          "#ffffff"
+        ],
+        "behaviour": "Static; underlined values have a 0.2s transition (hover); every text element carries the hover CSS inspector (see separate instance)",
+        "content": "Real facts: designed by Juan Pablo del Peral, for HT Fonts, released in 2020, distributed by Google Fonts",
+        "assets": "bg.svg: scattered teal letters",
+        "html": "section#splash > .splashTitle h1 > span.is-1/.is-2/.is-3; .technicalDetails p > span.sc + span.value; a 'Get the font →'"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "measured, editorial",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Five-line grey paragraph set large in ExtraLight under the hero: 'Intended for optimizing the available space in press media…', with 'PIAZZOLLA' in small caps and 'solid lines' / 'robust paragraphs' in italic",
+      "feel": "Soft-spoken, confident",
+      "ux": "static",
+      "learn": "Use the purpose statement as a display-size text specimen, with small caps and italics doing the emphasis instead of bold",
+      "reconstruction": {
+        "layout": "Cols 2–12 (x≈256–1260), ~280px tall, starts ~90px below the name stack",
+        "typography": "~44px wght 200, leading ~1.25, #999593 grey; family name in small caps; two italic phrases",
+        "palette": [
+          "#eeede9",
+          "#999593"
+        ],
+        "behaviour": "none",
+        "content": "Positioning copy about compact, tight-leaded press typography",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "bookish, precise",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Four numbered paragraphs (teal light drop cap 'P', then roman numerals ii–iv hung in the margin) listing voice, range, OpenType features and the two variable axes, with footnote sidenotes and a 'FIG 2 · Variable fonts' figure: bold '2' beside a light 'x'",
+      "feel": "Scholarly, like a book's front matter",
+      "ux": "static; superscript footnote numbers match the sidenotes",
+      "learn": "Present the feature list as numbered book paragraphs with sidenotes and a figure: the spec becomes a demo of drop caps, old-style roman numerals and footnotes",
+      "reconstruction": {
+        "layout": "Lower ~1000px of block 00; main column cols 6–12 (x≈640–1280) for the drop-cap paragraph, then cols 2–8 for ii–iv with numerals hung ~3em left; sidenote column x≈256–490 with footnote 1 and the 'FIG 2' figure (~120px '2x')",
+        "typography": "Body ~22px wght 300, leading ~1.45; drop cap 160px wght 100 #01e0a7 floated; roman numerals grey small caps; sidenotes ~13px grey; figure '2' wght 900 ~120px + 'x' wght 200; caption 'FIG 2 VARIABLE FONTS' tracked small caps",
+        "palette": [
+          "#eeede9",
+          "#151525",
+          "#01e0a7",
+          "#999593"
+        ],
+        "behaviour": "none",
+        "content": "Real facts: 2300+ characters, 210+ languages, polytonic Greek and expert Cyrillic, small caps, ligatures, fractions, four figure sets, locl variants (Catalan, Guaraní, Dutch, Turkish…), axes Weight and Optical Size",
+        "assets": "none",
+        "html": ".text p > span.dropCap; span.roman; p.small.is-small-col sidenotes; .small.fig"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "design-details",
+      "variant": "hover-css-inspector",
+      "newVariant": true,
+      "variantDefinition": "A page-wide inspector: hovering any sample swaps the cursor for a crosshair and shows a tooltip with that text's CSS (size, leading, weight, features), so every block doubles as a settings reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, helpful",
+        "mobile": "hidden",
+        "subject": [
+          "features",
+          "spacing"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "Not visible in the capture (fixed overlay, display:none until hover): a 32px '+' crosshair cursor and a white shadowed card headed 'CSS style' listing property/value pairs in grey/dark",
+      "feel": "Like a browser dev-tool for typographers",
+      "ux": "Hover any element with class .inspectable (hero, quote, timeline rows, opsz article, highlights…) to read the CSS that styles it; attached here to block 00 because the overlay was never cut as a block",
+      "learn": "Expose the exact CSS of each sample on hover so designers can copy the settings they like straight from the specimen",
+      "reconstruction": {
+        "layout": "Absolutely positioned container following the pointer: 32×32 cursor graphic, card max-width 250px, padding 16px 24px 24px, offset from the cursor",
+        "typography": "Card heading ~22px ('css' in small caps + 'style'); rows ~15px (0.7rem), leading 1.4, property names #999593 with 0.4em gap, values dark",
+        "palette": [
+          "#ffffff",
+          "#151525",
+          "#999593"
+        ],
+        "behaviour": "On mouseover of .inspectable (or .inspectableX rows) show the container and fill it with computed font-size, line-height, weight, style and feature settings; follow the pointer; hide on mouseout (JS stripped, inferred from markup and CSS)",
+        "content": "Live computed CSS values",
+        "assets": "cursor+.svg crosshair",
+        "html": "#app > .inspectorContainer[style=display:none] > #inspectorCursor + #inspectorDetails > h4 'css style' + p > span(label) value; targets .inspectable / .inspectableX"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "homage, nocturnal",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "illustration"
+        ],
+        "length": "short"
+      },
+      "look": "Night-blue band with a portrait of Astor Piazzolla playing the bandoneon drawn as a mosaic of 'n' and 'u' glyphs in greys and whites, and a small caption top-left with 'PIAZZOLLA' in teal small caps",
+      "feel": "Moody, smoky tango-club",
+      "ux": "static",
+      "learn": "Render the namesake's portrait from the font's own letters: a tribute and a texture specimen in one image",
+      "reconstruction": {
+        "layout": "Full-width 641px band; caption ~260px wide at x≈160, y≈50; SVG portrait ~1100px wide filling the right two-thirds from top to bottom, cropped by the band",
+        "typography": "Caption ~16px wght 200 grey, leading ~1.4, 'Piazzolla' in teal small caps, 'Astor Piazzolla' and 'Nuevo Tango' italic; mosaic cells 'n'/'u' ~14px in 4–5 grey levels",
+        "palette": [
+          "#171626",
+          "#282736",
+          "#494956",
+          "#ffffff",
+          "#01e0a7"
+        ],
+        "behaviour": "none",
+        "content": "'This project was named Piazzolla as a tribute to Astor Piazzolla, an Argentine musician, composer and the central figure of the style called Nuevo Tango.'",
+        "assets": "piazzollaMatrix.svg: glyph-mosaic portrait (photo converted to a grid of n/u letters by brightness)",
+        "html": "section#matrix > p.inspectable + img[src=images/piazzollaMatrix.svg]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "look": "Sticky 42px night-blue toolbar: small square logo + 'PIAZZOLLA Type System' in small caps, then grey links Download · Use in Google Fonts · Contribute (teal fill on hover); it overlaps several later crops"
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "specimen-showcase",
+      "variant": "editorial-in-use",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "lyrical, bilingual",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "Piazzolla's quote 'En mi país cambian los presidentes… pero el tango, no.' set huge in light roman with the italic clause, and the English translation threaded between the lines in pale grey, widely tracked small caps",
+      "feel": "Elegant, musical, like a pull quote in a printed programme",
+      "ux": "static",
+      "learn": "Run the translation as interlinear tracked small caps in the line gaps: a display size and a caption style shown together, and the bilingual reading becomes the layout",
+      "reconstruction": {
+        "layout": "~1100px tall; quote column x≈160–1280, 7 lines at 121px leading; translation lines absolutely positioned in the gaps, indented 20% (x≈390)",
+        "typography": "Quote 97px (4.409rem) wght 200, leading 121px, tracking -0.005em, italic for 'pero el tango, no.'; translation 28px all-small-caps, tracking 0.28em, #999593, same 121px leading offset half a line",
+        "palette": [
+          "#eeede9",
+          "#151525",
+          "#999593",
+          "#cfcfce"
+        ],
+        "behaviour": "none (both lines carry the hover inspector)",
+        "content": "Genuine Astor Piazzolla quote in Spanish with English translation",
+        "assets": "none",
+        "html": "section#quote > p.allSc (translation, position:absolute) + h3 (quote)"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "warm, musical",
+        "mobile": "adapts",
+        "voice": "none",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'This is Astor Piazzolla': a five-track list on white, each row a tiny grey number, track title in widely tracked small caps and the album in light italic ('Milonga del Ángel · Tango: Zero Hour', 'Adiós Nonino · Central Park Concert'…)",
+      "feel": "Intimate, like liner notes",
+      "ux": "Each row links to the track on Spotify in a new tab (a ▶ glyph shows on hover)",
+      "learn": "A tracklist is a natural small-caps-plus-italic setting; linking it to the music makes the tribute something you can hear",
+      "reconstruction": {
+        "layout": "White band ~480px; heading at x≈160; five rows ~45px apart, numbers in a 30px gutter, title then album inline",
+        "typography": "Heading ~40px wght 300; numbers ~10px grey; titles ~22px small caps tracked ~0.15em #999593; albums ~20px italic wght 200 lighter grey",
+        "palette": [
+          "#ffffff",
+          "#0a0819",
+          "#999593",
+          "#b0afb5"
+        ],
+        "behaviour": "Row hover reveals the ▶ play glyph and darkens the text (inferred)",
+        "content": "Real recordings: Milonga del Ángel, Invierno Porteño, Adiós Nonino, Muerte del Ángel, 3 min. con la realidad",
+        "assets": "none",
+        "html": "section#player > div > p > a[href^=open.spotify.com] > span.play + span.number + span.title.sc + em"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "story",
+      "variant": "expandable-timeline",
+      "newVariant": true,
+      "variantDefinition": "A dated timeline of the story as stacked rows; hovering or clicking a row expands it into a text card while its year and title switch from a light to a heavy weight, so the chronology doubles as a weight demonstration",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "biographical, elegant",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "long"
+      },
+      "look": "Eleven hairline-ruled rows of Piazzolla's life (1921 MDQ Birth, 1924 NYC Move to the US, 1934 Gardel … 1992 BUE Death): years as huge pale Thin old-style figures, a tiny place code, a light title; the active row turns the year Black and dark, the title italic, and opens a white card with the story",
+      "feel": "Calm, archival, quietly interactive",
+      "ux": "Hover previews a row (year to wght 900, dark); click makes it active and slides in its card; the first row is open by default",
+      "learn": "Let the interaction itself show the type: the year jumping from Thin to Black on hover demonstrates the weight range while the visitor browses the story",
+      "reconstruction": {
+        "layout": "~1354px tall; each row ~94px with a 1px rule (teal #01e0a7 when active); 12-col grid: year cols 1–3 (x≈190–390, centred), place cols 4–5, title + card cols 6–12 (x≈640–1280); card white, padding 2em, slides from translateX(-2em) and opacity 0 when its row opens",
+        "typography": "Years 92px (4.2rem) tnum+onum, wght 100 rgba(153,149,147,.5) → wght 900 #151525; place codes 16px all-small-caps tracked 0.1em; titles ~44px wght 200 grey → dark, italic and larger when active; card heading 16px bold, body ~14px",
+        "palette": [
+          "#efeeeb",
+          "#151525",
+          "#01e0a7",
+          "#999593",
+          "#ffffff"
+        ],
+        "behaviour": "transition: all 0.4s on every child; :hover and .active set year wght 900 + colour; click toggles .active; card height 0 → auto with opacity and translateX",
+        "content": "Real biography in 11 dated episodes with city codes (mdq, nyc, bue, par, arg)",
+        "assets": "none",
+        "html": "section#timeline > .moment(.active) > .is-row.inspectableX > h2.year + p.place + .text > h3 + .card > h4 + p"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "glyph-table",
+      "variant": "bento-cards",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "curated, crisp",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "select",
+        "metricsShown": false,
+        "namesOrUnicode": true
+      },
+      "look": "'Highlights': a 4-row grid of white tiles on pale grey, some double-width, each holding one glyph or feature in Thin (ñ, H₂O, ↕, fft, @, ₿, ₪, ẫġ, ₹, Ԯб, ⅜, Дв, m², Ψπ, &, Ⅵ, 36→36, ẞß, jíj, [o-n] [O-N], √∂, ▶, Ωü)",
+      "feel": "Tidy, collectible, like a cabinet of curiosities",
+      "ux": "Click a tile and it flips in 3D (0.4s) to show its Unicode code point or OpenType tag and a name ('sinf Scientific Inferiors', 'ss02 Dynamic arrows', 'U+20BF Bitcoin symbol')",
+      "learn": "Mix glyphs and features in one curated card grid and hide the technical label on the back: the front stays a clean specimen, the back teaches the tag",
+      "reconstruction": {
+        "layout": "Grid ~1120px wide from x≈160, 7 units per row × 4 rows, cells ~160×160px with 1px #d8d8d8 gaps; a few tiles span 2–3 units (H₂O, 36→36, [o-n] [O-N]); heading 'Highlights' ~36px above",
+        "typography": "Front glyphs ~80px wght 100 centred; back: code in monospace (~16px) + italic or roman description ~16px",
+        "palette": [
+          "#f8f8f7",
+          "#ffffff",
+          "#d8d8d8",
+          "#151424"
+        ],
+        "behaviour": ".flippingCard toggles .isFlipped on click: transform rotateY(180deg), transition 0.4s, preserve-3d, backface hidden; features applied inline (font-feature-settings: sinf, frac, sups, onum/pnum, case, ss02, liga)",
+        "content": "~23 curated highlights: currencies, extended Latin/Cyrillic, Greek, fractions, inferiors/superiors, figure styles, case-sensitive brackets, roman numerals, ligatures, arrows",
+        "assets": "none",
+        "html": "section#highlights .scene.highlight(.is-2) > .flippingCard > .face.front > .flex > p + .face.back > .flex > p > code + text"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "scholarly, typographic",
+        "mobile": "adapts",
+        "subject": [
+          "optical-size"
+        ],
+        "presentation": "toggle",
+        "explanation": "prose"
+      },
+      "look": "An excerpt of Harry Carter's 1937 essay 'Optical scale in type founding' set as a book page (bold-italic + roman heading, small-caps byline and lead-in, indented small-print quote), beside a white card 'Auto optical sizing' with a teal switch and a tiny table of historical point-size names (Diamond 4.5pt … Great Primer 18pt)",
+      "feel": "Erudite, self-referential",
+      "ux": "The switch is on by default; turning it off disables automatic optical sizing and pins opsz to wrong values so the heading and text visibly degrade",
+      "learn": "Demonstrate optical size on a text about optical size, at several real sizes (heading, body, small print, 11px table), with a single on/off switch",
+      "reconstruction": {
+        "layout": "~880px; article in cols 1–7 (x≈160–800) with rules above and below the title; right cols 9–12 (x≈930–1280): white control card (padding 0 16px 16px) with heading + switch and an italic explanation, then the point-size table (3 columns: Name, Point size, Millimeters)",
+        "typography": "Title ~44px ('Optical scale' bold italic, rest roman wght 300); byline small caps tracked 0.1em + italic source; body ~22px leading ~1.45; indented small paragraph ~16px; table 11px (0.5rem) with bold small-caps caption",
+        "palette": [
+          "#efeeeb",
+          "#151524",
+          "#ffffff",
+          "#01e0a7",
+          "#d8d8d6"
+        ],
+        "behaviour": "Checkbox toggles class .roto on the sample: font-optical-sizing:none with font-variation-settings 'opsz' 30 for text and 'opsz' 10 for the heading (the deliberately wrong sizes); on = browser auto opsz",
+        "content": "Genuine excerpt: Harry Carter, Typography 4, autumn 1937, plus the traditional English point-size names with mm equivalents",
+        "assets": "none",
+        "html": "section#opsz > .sample(.roto) …; .controls > h4 + input[type=checkbox].switch + p.explanation; .tiny table"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "language-support",
+      "variant": "multiscript-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "encyclopedic, even",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": true
+      },
+      "look": "'A multiscript family': three equal columns, Greek / Latin / Cyrillic, each the same encyclopedia article on harmony in music (Αρμονία (μουσική), Harmony (music), Гармония (музыка)) with small caps and italics, and an italic credit line for the script's collaborator",
+      "feel": "Balanced, scholarly",
+      "ux": "static",
+      "learn": "Set one article in each script side by side at text size so the colour and rhythm of the scripts can be compared directly, and credit each script's helper underneath",
+      "reconstruction": {
+        "layout": "White band ~820px; heading at x≈160; three columns ~370px wide at x≈160, 545, 930 with ~40px gutters; per column: tracked label, ruled h3, body, credit with a top rule",
+        "typography": "Labels ~12px small caps tracked 0.15em grey wght 200; titles ~28px with the parenthetical in grey italic wght 100; body ~14.5px leading ~1.5 with small caps and italics; credits ~12px italic grey",
+        "palette": [
+          "#ffffff",
+          "#151525",
+          "#999593",
+          "#dadada"
+        ],
+        "behaviour": "none",
+        "content": "Wikipedia-style article on musical harmony in Greek, English and Russian (on theme with tango); credits Panagiotis Haratzopoulos and Sol Matas (Greek), Krassen Krestev (Cyrillic)",
+        "assets": "none",
+        "html": "#multiscript .is-row > .is-col > p.top + h3 > em + p + p.credits"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "rhythmic, playful",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "none"
+      },
+      "look": "Three marquee rows of huge numbers from Piazzolla's life ('11/mar Birthday', '71 years lifetime', '1977 Libertango album released', '750+ works', '40 film scores') with small tracked legends, and a white 'Variable weight' card at the right edge: 'a' at 100 and a ghosted 'a' at 900, a teal-thumb slider, readout '200'",
+      "feel": "Musical, ticker-like",
+      "ux": "The rows scroll sideways continuously; dragging the slider (100–900) sets the weight of every number in all three rows at once",
+      "learn": "Apply a single weight slider to a moving wall of figures: the visitor sees the axis on large numerals in motion rather than on one static word",
+      "reconstruction": {
+        "layout": "~735px; three marquee rows ~200px apart, each a 100000px-wide strip of number + unit + legend groups repeated twice; control card ~240px wide, absolutely positioned top-right, overflowing the right edge",
+        "typography": "Numbers ~176px, default wght 200 (inline style updated by the slider); units ('years', '+') light; legends ~16px small caps tracked ~0.15em grey; card heading 'Variable weight' ~16px, end labels 0.7em grey, 'a' samples ~60px at wght 100 and 900",
+        "palette": [
+          "#f1f0ec",
+          "#191928",
+          "#ffffff",
+          "#01e0a7",
+          "#b0afb1"
+        ],
+        "behaviour": "CSS keyframes translateX(0 → -50%) over 38s linear infinite per row; input[type=range] 100–900 writes font-weight into every .number span; the readout below the slider shows the value",
+        "content": "Statistics of Piazzolla's life and career (birthday, lifetime, albums, first tango age, Libertango year, works, film scores, Adiós Nonino 1959)",
+        "assets": "none",
+        "html": "section#marquee > .controlSlider > h4 + p.extremes (span.a.w100, span.a.w900) + .flex > label + input[type=range min=100 max=900] + label + p.actual; .marquee > .content > .text > p > span > span.number[style=font-weight] + span.unit + span.legend"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "grateful, modest",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "contact"
+        ]
+      },
+      "look": "Night-blue footer: 'PIAZZOLLA' credits (designed with love by Juan Pablo del Peral for HT Fonts, with helpers) and 'PIAZZOLLA'S WEB-SPECIMEN' credits (Lucía Domenech, editors), plus a link list with teal ▸ bullets (Download, Use in Google Fonts, Contribute, HT Fonts, Contact us)",
+      "feel": "Warm, open-source",
+      "ux": "Links to htfonts.com, Google Fonts, GitHub and contact",
+      "learn": "Credit the specimen site's makers alongside the type designers",
+      "reconstruction": {
+        "layout": "302px band; four columns from x≈160 (two credit texts ~300px each, an empty column, link list at x≈1020)",
+        "typography": "Headings ~15px small caps tracked white; text ~15px wght 200 #999593 leading 1.5 with white links; link list ~15px with teal triangle bullets",
+        "palette": [
+          "#161525",
+          "#999593",
+          "#ffffff",
+          "#01e0a7"
+        ],
+        "behaviour": "none",
+        "content": "Real credits and links",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/typeset-page",
+    "story/large-text-intro",
+    "story/design-brief",
+    "design-details/hover-css-inspector",
+    "story/origin-reference",
+    "specimen-showcase/editorial-in-use",
+    "story/origin-reference",
+    "story/expandable-timeline",
+    "glyph-table/bento-cards",
+    "design-details/feature-before-after",
+    "language-support/multiscript-specimen",
+    "design-details/axis-explainer",
+    "footer/credits-colophon"
+  ]
+}

@@ -20,6 +20,7 @@ Sample: 48 blocks from 47 sites.
 | [illustration-scene](#illustration-scene) | 2 | An illustrated scene or mascot staged with the type; the illustration sets the tone. | characters, faces, drawn objects |
 | [prop-collage](#prop-collage) | 2 | A collage of designed artefacts (documents, tickets, packaging, diagrams) set in the font, implying a fictional world. | many small designed objects, all set in the font |
 | [mini-game](#mini-game) | 0 | The hero is a small playable game built from the page's own elements (e.g. Pong); collisions or score change the name's axes, CTAs can be game pieces. | ball, paddles, score in the first screen |
+| [click-to-stamp](#click-to-stamp) | 0 | An almost empty first screen; each click drops a word or phrase in the font at the pointer with randomised style or axis values, so the visitor composes the hero. | “click anywhere” prompt, scattered stamped words |
 
 ## Rubric
 
@@ -204,5 +205,13 @@ A collage of designed artefacts (documents, tickets, packaging, diagrams) set in
 The hero is a small playable game built from the page's own elements (e.g. Pong); collisions or score change the name's axes, CTAs can be game pieces.
 
 **Recognise by:** ball, paddles, score in the first screen
+
+_No instance in the sample yet._
+
+## click-to-stamp
+
+An almost empty first screen; each click drops a word or phrase in the font at the pointer with randomised style or axis values, so the visitor composes the hero.
+
+**Recognise by:** “click anywhere” prompt, scattered stamped words
 
 _No instance in the sample yet._

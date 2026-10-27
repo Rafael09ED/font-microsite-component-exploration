@@ -1,0 +1,444 @@
+{
+  "slug": "readvisions-com-marvin",
+  "extractedBy": "agent",
+  "summary": "A dark, sci-fi-flavoured page for the revival and variable extension of Marvin (1969), made for Visions magazine: a scroll-driven hero where the headline grows heavier and smaller as it reveals more words, a weight-contrast word stack, a 2D-pad tester for weight × optical size, a full on-page Stripe checkout (Pro / Trial / Personal licences, per-weight pricing), commissioned postcards and posters, and two long designer essays on reviving and extending the face.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "kinetic-type",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "retro sci-fi, dramatic",
+        "mobile": "adapts",
+        "carrier": "motion",
+        "cta": "scroll",
+        "rangeShown": "whole-family",
+        "navVisible": false
+      },
+      "look": "On near-black, an all-caps headline in a red → pink → orange → yellow → cream gradient (one colour step per line). The first screen shows 'MARVIN / VISIONS / EXPANDS' as hairline caps filling the width; the stitched crop shows it getting bolder and smaller with each scroll step until the whole sentence 'MARVIN VISIONS EXPANDS & BECOMES A VARIABLE FONT WITH 2 OPTICAL SIZES & A RANGE OF WEIGHTS' fits, centred, in a heavy weight",
+      "feel": "Cinematic, like an opening title crawl",
+      "ux": "Scroll scrubs the headline: font-weight rises from ~20 to bold while font-size shrinks from 100% so further lines of the announcement come into view; the stage is pinned for ~5 viewports",
+      "learn": "Couple weight up with size down on scroll so the announcement literally 'expands' into its full sentence: the headline demonstrates the claim it makes",
+      "reconstruction": {
+        "layout": "Section ~4470px tall (≈5 × 100vh) with a sticky full-viewport wrapper; h1 centred, 10 spans separated by <br>; initial state: 3 lines fill 1440px width; final state: all 10 lines stacked in ~650px width",
+        "typography": "Marvin Visions Variable, opsz 99 (Big), all caps; font-size from 100% of the scaled base (~389px at start, ~70px at end), font-weight from 20 (hairline) to ~700; leading ~0.95; per-line colours #e8452c, #e84a6f, #ec5a3a, #f08a24, #f6b21a, #f9c609, #f3e7c9",
+        "palette": [
+          "#131415",
+          "#e8452c",
+          "#e84a6f",
+          "#f08a24",
+          "#f9c609",
+          "#f3e7c9"
+        ],
+        "behaviour": "On scroll, JS maps progress through the 4473px section to inline style font-size (100% → ~18%) and font-weight (20 → bold) on the h1; no ambient animation; white flash then black for ~1s on load",
+        "content": "The release announcement itself as the specimen sentence",
+        "assets": "none",
+        "html": "section.header[style=height:4473px] > div.header-wrapper > h1[style='font-size:100%;font-weight:20;font-variation-settings:\"opsz\" 99'] > span×10 + br"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Static yellow bar, 1080px wide and centred: 'SPECIMEN · DOWNLOAD · NOTES' in black Marvin Visions Bold caps (~27px), anchors to the tester, the checkout and the essays"
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "clear, appreciative",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "archival"
+        ],
+        "length": "short"
+      },
+      "look": "Three paragraphs in white on near-black (text face Bricolage Grotesque, coral underlined links) beside a scan of the 'Alfred Hitchcock Presents: Stories to be Read with the Lights On' paperback cover set in the original Marvin, with a credit caption",
+      "feel": "Informed, low-key",
+      "ux": "Links to the original typeface, foundry, designer, magazine and image source",
+      "learn": "Show one period artefact set in the original type next to the intro, so readers see what is being revived before any claims",
+      "reconstruction": {
+        "layout": "1080px wrapper centred (x=180); text column ~580px left, book cover ~270×410px right with caption beneath",
+        "typography": "Body ~22px Bricolage Grotesque Regular, white, leading ~1.5; links coral underlined; caption ~12px grey",
+        "palette": [
+          "#161616",
+          "#2e2d2e",
+          "#ffffff",
+          "#e8554a"
+        ],
+        "behaviour": "none",
+        "content": "Real background: Marvin by Michael Chave, 1969, Face Photosetting; revived by Mathieu Triay for Visions magazine; 10 weights over Big and Small; Cyrillic, arrows, '@'",
+        "assets": "Scan of a vintage paperback cover set in Marvin"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "poetic, retro-futurist",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "A centred stack of all-caps lines: most in hairline dark grey ('TIGHT SCIENCE / NOT TOUCHING / FICTION NOT / NEUTRAL … 1984 / UPPERCASE DECO / ONLY TO 2001 / EFFORTLESSLY / MYSTERIOUS / GEOMETRIC / BUT NOT …'), with a few phrases jumping out in heavy pink or orange ('ART NOUVEAU', 'REALLY STRONG & STABLE', Cyrillic 'СЪНУВАТ ЛИ АНДРОИДИТЕ ЕЛЕКТРИЧЕСКИ ОВЦЕ?'), and small-size caption lines between ('NOW AVAILABLE IN SMALL SIZES AND IN A RANGE OF WEIGHTS')",
+      "feel": "Moody, witty, sci-fi",
+      "ux": "static",
+      "learn": "Set the stack in a near-invisible hairline and pop selected words in the heaviest weight and a bright colour: the weight range reads as a highlight pen",
+      "reconstruction": {
+        "layout": "~2690px, column 1260px wide centred; ~20 lines of display caps justified to the column, with small caption lines centred between groups",
+        "typography": "Display lines ~140px Marvin Visions opsz 99, weight ~20 in #3a3a3a; highlighted phrases ~140px Bold in pink #e84a6f or orange #f08a24; caption lines ~22px Marvin Visions Small (opsz 80) grey caps",
+        "palette": [
+          "#171718",
+          "#3a3a3a",
+          "#e84a6f",
+          "#f08a24"
+        ],
+        "behaviour": "none",
+        "content": "Self-describing adjectives and sci-fi references (1984, 2001, Philip K. Dick title in Bulgarian), a feature note and a language list",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "matter-of-fact",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": true
+      },
+      "look": "Inside the word stack, a centred six-line paragraph of small grey caps 'SUPPORTS ALBANIAN, BELARUSIAN, BOSNIAN, CROATIAN, CZECH … ZULU, AND MORE…', followed by German 'DIE FLUẞWELT DER ZEIT' and a Bulgarian sentence in heavy pink",
+      "feel": "Quiet, complete",
+      "ux": "static",
+      "learn": "Tuck the language list into the display stack as a small-size line: it doubles as a sample of the Small optical size",
+      "reconstruction": {
+        "layout": "Centred paragraph ~1000px wide, 6 lines, between two display lines",
+        "typography": "~22px Marvin Visions Small (opsz 80) caps, grey, leading ~1.3",
+        "palette": [
+          "#171718",
+          "#5a5a5a",
+          "#e84a6f"
+        ],
+        "behaviour": "none",
+        "content": "List of supported languages; then German with ẞ and Cyrillic samples",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "type-tester",
+      "variant": "xy-pad",
+      "newVariant": true,
+      "variantDefinition": "One editable sample beside a single two-dimensional pad: dragging one handle sets two axes at once (e.g. weight on one axis, optical size on the other), drawn as a crosshair in a square; unlike pointer-xy-axes, only the handle moves the type",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "minimal, technical",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes",
+          "size"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "On off-white, three lines of editable caps 'TYPE YOUR OWN TEXT AND USE THE SLIDER TO CHANGE WEIGHTS & OPTICAL SIZES' at left, and at right a black ~300px square with thin white crosshair lines meeting at a white dot",
+      "feel": "Clean, instrument-like",
+      "ux": "Click the text to type; drag the dot inside the square: one direction changes font-weight, the other changes optical size (opsz 80–99), and the text size scales along with it",
+      "learn": "When two axes are coupled in practice (weight and optical size), give them one 2D handle instead of two sliders",
+      "reconstruction": {
+        "layout": "Full-width ~480px band; editable text block x≈90–900, vertically centred; canvas pad 300×300px (600×600 canvas at 2×) at x≈1050",
+        "typography": "Marvin Visions Variable caps; default inline style font-weight ~83, opsz ~83.3, font-size ~42% of the base (~71px); black",
+        "palette": [
+          "#f7f7f7",
+          "#131415",
+          "#ffffff"
+        ],
+        "behaviour": "Pointer drag on canvas#weight-picker-canvas redraws the crosshair at the pointer and writes font-weight, font-variation-settings 'opsz' and font-size to #type-tester",
+        "content": "Instruction prompt as default text",
+        "assets": "none",
+        "html": "section#try-font > div#type-tester.editable[contenteditable] + div.weight-picker > canvas#weight-picker-canvas[width=600][height=600]"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "checkout",
+      "variant": "on-page-cart",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "plain, fair",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": true,
+        "free": true
+      },
+      "look": "Yellow field: 'PRO, TRIAL, FREE: TAKE YOUR PICK' in huge black Marvin Bold, then 'LICENCE TYPE' with a 'Read the licence (390 words)' link and three radio options (PRO – commercial use, desktop and web; TRIAL – full family, limited character set; PERSONAL – full set, Big Bold only). The rest of the form is collapsed in the capture",
+      "feel": "Straightforward, generous",
+      "ux": "Pick a licence and the next steps unfold (from the HTML): 'Weight selection' checkboxes per style for Big (Bold → Extra Light) and Small (Bold → Light) with family shortcuts (Big & Small £95 50% off, Big £76, Small £38; £19 per weight), 'Your details' (email, cardholder name, Stripe card field, country), currency radios £/$/€, two newsletter opt-ins, and a Download button; links are e-mailed",
+      "learn": "One form for paid, trial and free: the licence choice drives which steps appear, and the word count of the licence ('390 words') invites people to read it",
+      "reconstruction": {
+        "layout": "Full-width yellow section; heading ~2 lines at x≈180 width ~1080; three licence options in a 3-column row (~360px each) with custom round radios; subsequent steps stack below in the same 1080px column",
+        "typography": "Heading ~160px Marvin Visions Bold opsz 99, black, leading 0.9; step headings ~36px Marvin Bold caps; option labels ~18px Marvin Bold caps; descriptions ~14px Bricolage Grotesque; price lines IBM Plex Mono",
+        "palette": [
+          "#fec502",
+          "#edb808",
+          "#0c1021",
+          "#ffffff"
+        ],
+        "behaviour": "radio[name=licence-type] pro|trial|personal reveals weight selection; checkbox family toggles select their member weights; total recalculated; Stripe Elements card iframe; button#checkout disabled until valid",
+        "content": "Real prices and licence summaries",
+        "assets": "none",
+        "html": "input#licence-pro/-trial/-personal[name=licence-type]; input#weight-all, #weight-big-family, #weight-big-bold … #weight-small-light (checkbox + label.box + label.text); input#email, [name=cardholder-name], Stripe iframe, [name=country]; radio[name=licence-currency] gbp|usd|eur; #visions-newsletter, #type-newsletter; button#checkout.checkout-button"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "retro sci-fi, graphic",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "grid"
+      },
+      "look": "'EXAMPLES IN USE' in heavy black caps, a 4 × 2 grid of colourful commissioned postcards (Marvin Visions vertical, The Shadow Out of Time, Future Days, The Man Whose Head Expanded, Science Friction, a numeral pile, a concentric M, the planets list with PLUTO struck through), credits line, then a row of four posters of film quotes ('THIS IS RIPLEY…', 'I NEED YOUR CLOTHES…', 'YOU TAKE THE RED PILL…', 'YOU MANIACS!') photographed on paper",
+      "feel": "Curated, fun, collectible",
+      "ux": "Designer names in the credit lines link out",
+      "learn": "Commission a handful of designers for postcards on the font's theme: varied voices prove range better than in-house mockups",
+      "reconstruction": {
+        "layout": "Off-white section ~1660px; heading centred ~1080px wide; grid 4 columns × ~250px cards (gap ~24px), postcard ratio 2:3; centred credit line; second row of 4 posters ~250×380px; credit line",
+        "typography": "Heading ~110px Marvin Visions Bold opsz 99 black; credits ~13px Bricolage Grotesque with underlined names",
+        "palette": [
+          "#f6f6f6",
+          "#0a0c0c",
+          "#d2d1cf",
+          "#e84a6f",
+          "#f9c609"
+        ],
+        "behaviour": "none",
+        "content": "Sci-fi titles (Lovecraft, Future Days, planets) and quotes from Alien, Terminator 2, The Matrix, Planet of the Apes",
+        "assets": "8 postcard images and 4 poster photos"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "story",
+      "variant": "article-teaser",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "inviting, editorial",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Two columns on near-black: 'PART 1: NOTES ON REVIVING MARVIN' and 'PART 2: NOTES ON EXTENDING MARVIN' in white heavy caps (~115px), each with a two-line summary and a small white 'READ' button",
+      "feel": "Magazine contents page",
+      "ux": "READ buttons jump to the full essays further down the same page",
+      "learn": "Tease long essays with a two-part contents block, so the specimen stays scannable and the deep text is opt-in",
+      "reconstruction": {
+        "layout": "1080px wrapper, two columns ~500px; heading 4 lines, paragraph, button ~60×32px",
+        "typography": "Headings ~115px Marvin Visions Bold caps white, leading 0.9; summary ~16px Bricolage Grotesque; button label ~14px Marvin caps on white",
+        "palette": [
+          "#141414",
+          "#ffffff",
+          "#cfcfcf"
+        ],
+        "behaviour": "Anchor links #making-marvin-part-1 / -part-2",
+        "content": "Summaries of the two essays",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "candid, nerdy, witty",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "archival",
+          "process"
+        ],
+        "length": "long"
+      },
+      "look": "White article: 'NOTES ON REVIVING MARVIN' huge in pink Bold, byline 'BY MATHIEU TRIAY', the full alphabet and figures in black Bold, then text sections with section heads in a colour progression pink → red → orange ('ANALYSING MARVIN', 'REDESIGNING MARVIN', 'THE A TEAM', 'THE COG IN THE NIGHT-TIME', 'THE PRYKX IS RIGHT', '26 SAILORS, 33 SOLDIERS'…), with margin figures (sci-fi paperback covers, a textured O and R from the original, Marvin vs Marvin Visions overlays) and grey captions",
+      "feel": "Thorough, personal, fun to read",
+      "ux": "Long scroll; inline links to references; crop truncated at ~2400px of a 12,600px essay",
+      "learn": "Give each design problem its own punny display head and a single margin figure: a long process essay stays skimmable and shows the type at the same time",
+      "reconstruction": {
+        "layout": "~12,600px; text column ~580px at x≈180, figure column ~230px at x≈940 aligned to the paragraph it illustrates; section heads span ~900px",
+        "typography": "Title ~200px Marvin Visions Bold pink #e84a6f; section heads ~100px (h3) and ~50px (h4) Bold, colour shifting pink → #e75530 → orange; byline ~22px Marvin caps; alphabet ~44px Bold; body ~16px Bricolage Grotesque, leading 1.55; captions ~11px grey",
+        "palette": [
+          "#fbfbfb",
+          "#dadada",
+          "#e84a6f",
+          "#e75530",
+          "#131415"
+        ],
+        "behaviour": "none",
+        "content": "Designer essay: research (Kabel, Serif Gothic, Avant Garde), analysis of Marvin's quirks, redesign letter by letter, internationalisation, spacing ('Spacing Oddity'), launch ('Bang')",
+        "assets": "Book cover scans, texture scans of original letters, overlay comparison graphics (~13 images)"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "reflective, conversational",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "process",
+          "archival"
+        ],
+        "length": "long"
+      },
+      "look": "Second white article: 'NOTES ON EXTENDING MARVIN' in pink, byline, the alphabet in hairline Thin, then chapters 'MARVIN GOES ON A DIET', 'MARVIN GOES UNDER THE MICROSCOPE', 'MARVIN & THE SHAPE-CHANGERS FROM OUTER SPACE', 'MARVIN MEETS HIS MAKER', 'MARVIN GOES ON HOLIDAY', with margin proofs ('SHOPLIFTED PUBLISHED SOLITUDE', 'MARVIN REGULAR DECEMBER', 'MARVIN THIN V1'), animated GIFs, a looping video, and monospace boxes quoting e-mails with the original designer Michael Chave",
+      "feel": "Generous, behind-the-scenes",
+      "ux": "Long scroll; GIFs and a muted autoplay video loop in the margin; crop truncated at ~2400px of ~17,000px",
+      "learn": "Quote the original designer's feedback verbatim in a distinct (monospace) box: the revival gains authority and warmth",
+      "reconstruction": {
+        "layout": "~17,000px; same 580px text column + 230px figure column as part 1; e-mail quotes as dark boxes ~500px wide inside the text column",
+        "typography": "Title ~200px Bold pink; chapter heads ~100px Bold red-orange; alphabet ~90px weight 20; body ~16px Bricolage Grotesque; e-mail quotes ~13px monospace white on #1a1a1a; captions ~11px grey",
+        "palette": [
+          "#fbfbfb",
+          "#dbdbda",
+          "#e85732",
+          "#e84a6f",
+          "#131415"
+        ],
+        "behaviour": "Autoplay muted looping video (extending-marvin.mp4) and GIFs comparing thin/bold and small/big proportions",
+        "content": "Essay on drawing the Thin master, optical sizes Big vs Small, lowercase discussion, meeting Michael Chave, finding Marvin in the wild (Ukraine, Letraset)",
+        "assets": "Proof artboards (PNG), comparison GIFs, one MP4, photos of Marvin in use (Matra, Cupid, Letraset)",
+        "html": "figure > img + figcaption in the margin; video.extending-video[muted][autoplay][loop]"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Thin white bar with a single 'Privacy Policy' link (no crop)"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/kinetic-type",
+    "story/origin-reference",
+    "specimen-showcase/word-stack",
+    "language-support/language-name-list",
+    "type-tester/xy-pad",
+    "checkout/on-page-cart",
+    "specimen-showcase/in-use-mockups",
+    "story/article-teaser",
+    "story/essay",
+    "footer/slim-legal-bar"
+  ]
+}

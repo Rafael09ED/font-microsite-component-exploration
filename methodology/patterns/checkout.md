@@ -12,6 +12,7 @@ Sample: 17 blocks from 17 sites.
 | [link-out-cta](#link-out-cta) | 5 | Prominent buy, trial or download buttons linking to an external shop or repository. | 1–2 big buttons, no prices |
 | [free-download](#free-download) | 2 | A free download with a plain-language licence summary and/or developer install instructions. | OFL, npm or brew commands, press kit |
 | [build-configurator](#build-configurator) | 1 | Options (alternates, spacing, ligatures) select which pre-built files you download. | option toggles plus a download button |
+| [package-price-sheet](#package-price-sheet) | 0 | The licence packages (family, subfamily, single style) laid out with contents and ‘from’ prices, illustrated with style samples; the purchase itself happens in an external shop. | package cards with prices, buy links out |
 
 ## Rubric
 
@@ -83,3 +84,11 @@ Options (alternates, spacing, ligatures) select which pre-built files you downlo
 | example | look | feel | ux | learn |
 |---|---|---|---|---|
 | [larsenwork-com-monoid#01](../../archive/larsenwork-com-monoid/blocks/01.jpg) | White, monospace README-style grid of labelled paragraphs (Concept, Features, Support, Readme) above 'v0.61' option rows and blue buttons | Developer-plain, open-source, utilitarian | Pick alternates, line height, tracking and ligatures on/off, then Download; GitHub and readme links | Let people choose spacing and alternates before download, so they get a ready build instead of tweaking editor settings |
+
+## package-price-sheet
+
+The licence packages (family, subfamily, single style) laid out with contents and ‘from’ prices, illustrated with style samples; the purchase itself happens in an external shop.
+
+**Recognise by:** package cards with prices, buy links out
+
+_No instance in the sample yet._

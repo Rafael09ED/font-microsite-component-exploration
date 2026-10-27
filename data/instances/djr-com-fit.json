@@ -1,0 +1,587 @@
+{
+  "slug": "djr-com-fit",
+  "extractedBy": "agent",
+  "summary": "David Jonathan Ross's product page for Fit, an ultra-condensed-to-ultra-wide variable font (wdth 100–3600): almost every line on the page is fitted to the column width by a JavaScript 'var-to-width' routine, so the page itself is the demo. Trash-talk slogans, red/black/white statement walls, script extensions by guest designers, a language word wall, resizable 'TRY ME!' tester, Fonts In Use grid and DJR's standard on-page licence cart.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "cheeky, aggressive, funny",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "none",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "Ten full-width lines on a charcoal gradient, alternating white and light grey, each a two-word insult to a classic typeface ('Dump Didot', 'Cut Caslon', 'Trash Times', 'Reject Rotis', 'Abandon Arial', 'Hurl Helvetica', 'Forsake Futura', 'Chuck Clarendon', 'Give up Garamond', 'Renounce Rockwell'), every line justified edge to edge by its own width value",
+      "feel": "Brash, punk, laugh-out-loud",
+      "ux": "Lines refit live when the window is resized (each line's wdth is recomputed); DJR site nav bar above",
+      "learn": "Write lines of different lengths and let the width axis justify each one to the same measure: the variable range becomes visible as rhythm",
+      "reconstruction": {
+        "layout": "~3.9 screens; full-width column (1440 minus ~40px margins); 10 lines stacked with ~10px gaps, each ~330px tall; background linear gradient #2d2d2d → #141414",
+        "typography": "Fit Variable at ~432px, per-line 'wdth' between ~368 and ~557 (computed), 'hght' 0; mixed case with a small-cap 'p' in 'Dump' (ss13 elsewhere); colours alternate #ffffff / #dfdfdf",
+        "palette": [
+          "#141414",
+          "#ffffff",
+          "#dfdfdf",
+          "#2d2c2c"
+        ],
+        "behaviour": "var-to-width script: on load/resize each figure.var-to-width binary-searches the wdth value so the span fills its container (data-width-readout stores the value)",
+        "content": "'Dump Didot / Cut Caslon / Trash Times …' — verbs of rejection + famous typeface names",
+        "assets": "none",
+        "html": "section#trash-talk > figure.var-to-width[data-width-readout] > span.vtwInnerSpan (white-space:nowrap) + div.resize"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Thin black DJR site bar above the hero (not cut as a block): 'DAVID JONATHAN ROSS' left; FONTS, CLUB, TYPESET, GLYPHS, NOTES, ABOUT, Sign in, Cart right",
+      "feel": "Foundry-site furniture",
+      "ux": "Static site navigation; mobile collapses to MENU",
+      "learn": "A foundry-wide bar keeps the product page part of the catalogue",
+      "reconstruction": {
+        "layout": "Full-width bar ~33px tall at the top of the page",
+        "typography": "~11px Input Sans Narrow caps, tracked, white on black",
+        "palette": [
+          "#000000",
+          "#ffffff"
+        ],
+        "behaviour": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "bold, interactive",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "toggle",
+        "explanation": "none"
+      },
+      "look": "Title lockup inside a thin red frame on white: 'FIT' in huge black at a very wide setting over 'IS ALL YOU NEED!' in red condensed caps, with small red TRY · BUY · TYPESET · PDF buttons centred below",
+      "feel": "Poster-like, inviting a poke",
+      "ux": "Drag the frame's left or right handle and both lines refit their width live; TRY adds a free testing licence to the cart, BUY jumps to the cart section, TYPESET opens typeset.djr.com, PDF downloads the specimen",
+      "learn": "Give the visitor the container, not the slider: resizing a frame shows what a width axis is for",
+      "reconstruction": {
+        "layout": "Frame ~1420×1060px with 1px red border and square handles on the east/west edges; 'FIT' fills ~65% of the height, the red line the rest; buttons row ~50px below",
+        "typography": "'FIT' ~864px Fit Variable wdth ~1009 with ss13; second line uppercase wdth ~401, red #cc090a; buttons ~11px Input Sans caps white on red",
+        "palette": [
+          "#ffffff",
+          "#020202",
+          "#cc090a"
+        ],
+        "behaviour": "Pointer drag on .handle-e / .handle-w changes .resize-box width → var-to-width recomputes wdth for each figure",
+        "content": "Slogan 'Fit is all you need!'",
+        "assets": "none",
+        "html": "div.resize-box > figure.var-to-width.big.no-resize + figure.var-to-width.red-hilite + .handle.handle-e/.handle-w; .try-buy-pdf form posting a Testing licence to commerce/cart/update-cart"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "12",
+        "16"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "loud, self-aware",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Three statement walls, every line justified by width: on red, 'Fit is designed to fit / Just about any text / Into just about any space' in white; on red, 'Difficult to read / BUT / Impossible to miss!' with a huge wide 'BUT'; on white, 'FIT IS THE SHIT!' in red caps over 'Grab a license now' in black",
+      "feel": "Shouty, funny, honest",
+      "ux": "Lines refit when the window resizes",
+      "learn": "Admit the font's weakness in display size ('Difficult to read BUT impossible to miss'): honesty set at full width is the strongest pitch",
+      "reconstruction": {
+        "layout": "Each wall ~1.3 screens, lines full width with ~10px gaps; red sections use a vertical gradient #c90202 → #9b0101",
+        "typography": "Fit Variable ~432px, per-line wdth 230–1646 (wide 'BUT'), stylistic sets ss03/ss06 on some lines; white on red, red/black on white",
+        "palette": [
+          "#c90202",
+          "#ffffff",
+          "#050505",
+          "#9b0101"
+        ],
+        "behaviour": "var-to-width refit on resize",
+        "content": "Pitch statements and a buy nudge",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "architectural, explanatory",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "A staircase of the word 'Fit' in the ten named widths, from a hairline-thin Skyline at the top to an ultra-wide slab at the bottom, in light grey on charcoal, beside a short first-person text column about the design (variable widths, constant white shapes, script extensions)",
+      "feel": "Calm, diagrammatic after the noise",
+      "ux": "Text links to the variable-font notes and to the script designers",
+      "learn": "Stack one word in every width, left-aligned, so the family reads as a staircase: the widths become a silhouette",
+      "reconstruction": {
+        "layout": "~1.65 screens; word stack left-aligned at x≈230, rows ~120px tall growing from ~20px to ~970px wide; text column x≈775–1180",
+        "typography": "'Fit' at a constant ~120px height in Skyline, Compressed, Extra Condensed, Condensed, Normal, Wide, Extra Wide, Extended, Extra Extended, Ultra Extended; body ~15px Output Sans, links in pink",
+        "palette": [
+          "#151515",
+          "#e4e4e4",
+          "#d0d0d0",
+          "#e8a0a0"
+        ],
+        "behaviour": "none",
+        "content": "'FIT is a hyper-stylized typeface designed with one thing in mind: filling up space with maximum impact…'; credits Hebrew (Oded Ezer), Armenian (Gor Jihanian), Devanagari (Kimya Gandhi), Tamil (Aadarsh Rajan)",
+        "assets": "image of the staircase (img)"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "kinetic, blunt",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "none"
+      },
+      "look": "A looping GIF on white of a black word ('dynamic!') stretching and squeezing through the widths; the capture froze on a wide 'DY'",
+      "feel": "Punchy pause",
+      "ux": "Autoplaying GIF, no controls",
+      "learn": "A plain looping GIF is enough to show a width axis in motion and works everywhere",
+      "reconstruction": {
+        "layout": "Centred image ~960×450px in a ~600px white band",
+        "typography": "Fit animating wdth on one word, black",
+        "palette": [
+          "#ffffff",
+          "#010101"
+        ],
+        "behaviour": "GIF loop interpolating width",
+        "content": "'dynamic!'",
+        "assets": "/assets/fit/assets/dynamic.gif"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10"
+      ],
+      "type": "language-support",
+      "variant": "script-catalogue",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "respectful, collaborative",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": true
+      },
+      "look": "Six screens on charcoal, one per script extension (Kannada, Arabic, Tamil, Devanagari, Armenian, Hebrew): a small credit ('Fit Kannada, designed by Taresh Vohra') and a three-line note top-left, then the script's own name set huge in white across the full width",
+      "feel": "Monumental, generous to collaborators",
+      "ux": "'Read the full story here »' links to each designer's write-up",
+      "learn": "Give each guest designer a full screen: their name and note, then the script's name in itself at poster size",
+      "reconstruction": {
+        "layout": "Each ~950px: text block x≈40, y≈70, ~560px wide; display word ~1340px wide × ~650px tall below",
+        "typography": "Credit and note ~15px Output Sans white (name Bold); display names as SVG in Fit Kannada/Arabic/Tamil/Devanagari/Armenian/Hebrew",
+        "palette": [
+          "#141414",
+          "#ffffff",
+          "#262626"
+        ],
+        "behaviour": "none",
+        "content": "Real credits: Taresh Vohra, Sahar Afshar, Aadarsh Rajan, Kimya Gandhi, Gor Jihanian, Oded Ezer; notes on how Fit's grammar was adapted (Square Kufi, conjuncts, gravestones)",
+        "assets": "SVG of each script name"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "language-support",
+      "variant": "diacritic-word-wall",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "bold, multilingual",
+        "mobile": "adapts",
+        "method": "word-wall",
+        "nonLatin": true
+      },
+      "look": "Two columns of square tiles on white, alternating black and red, each a word in another language set in two lines and squeezed to fill the square (ГРАФИЧЕН ДИЗАЙН, THUYẾT ĐỘNG LỰC, STÓRUM STÆRÐUM, WIELE JĘZYKÓW, DIAGRAMAÇÃO, JÄNNITTÄVÄ, ΠΑΡΆΞΕΝΟΣ…), with the language name in tiny mono caps above",
+      "feel": "Graphic, checkerboard, global",
+      "ux": "Tiles refit on resize",
+      "learn": "Fit each language sample into an identical square so accents and scripts are compared at the same footprint",
+      "reconstruction": {
+        "layout": "~3.3 screens; 2 columns ~480px wide from x≈235, rows ~350px; each tile two lines; labels 9px above",
+        "typography": "Fit Variable ~432px with per-line wdth ~117–165; labels ~9px Input Sans Narrow caps, black or red",
+        "palette": [
+          "#fefefe",
+          "#333333",
+          "#d33334"
+        ],
+        "behaviour": "var-to-width per line",
+        "content": "Real words (Bulgarian, Vietnamese, Icelandic, Polish, Portuguese, Russian, Finnish, Greek, Belarusian, Spanish, Swedish, German, French, English)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "monumental",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "The character set as full-width lines of nine to thirteen letters, alternating white and light grey on charcoal: A–Z, a–z, Greek capitals and lowercase, Cyrillic capitals and lowercase, figures, currency and punctuation (the crop is truncated by the 30,000px capture limit)",
+      "feel": "Dense, wall-like",
+      "ux": "Static; lines refit on resize",
+      "learn": "Break the alphabet into equal-count lines and let each fill the width: the glyph table becomes another display wall",
+      "reconstruction": {
+        "layout": "~7.5 screens; 18 lines, ~330px tall, full width; extra gap between case groups",
+        "typography": "Fit Variable ~432px, per-line wdth ~400–570, alternating #ffffff / #e4e4e4",
+        "palette": [
+          "#111111",
+          "#ffffff",
+          "#cfcfcf"
+        ],
+        "behaviour": "var-to-width refit",
+        "content": "Latin, Greek, Cyrillic, figures, currency, punctuation '([‘¿¡‹@#&§¶›!?’])'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "type-tester",
+      "variant": "auto-fit-editable-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "playful, direct",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "axes"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "On red, a small white input 'Type your text here...' above a thin-framed box holding 'TRY ME!' in white Fit, filling the box edge to edge",
+      "feel": "Toy-like, immediate",
+      "ux": "Type in the input and the box text updates and refits; drag the frame's handles (n/s/e/w) to change the box and watch the width change",
+      "learn": "Pair an input with a resizable box: the visitor tests both their text and the space it has to fill",
+      "reconstruction": {
+        "layout": "Input ~300×22px at top-left (x≈30); box ~1360×660px with 1px pale border and handles on all four sides",
+        "typography": "Sample ~864px Fit Variable, wdth ~387 computed, uppercase white; input 11px Input Sans Narrow",
+        "palette": [
+          "#c80202",
+          "#ffffff",
+          "#9b0505",
+          "#eccdcd"
+        ],
+        "behaviour": "input → sample text; resize-box drag → var-to-width recompute",
+        "content": "Default 'TRY ME!'",
+        "assets": "none",
+        "html": "input.tester[name=try-me] + div.resize-box > figure.var-to-width + .handle-n/-s/-e/-w"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "proof, eclectic",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "grid"
+      },
+      "look": "'Fit in use — FROM FONTS IN USE': a 3-column grid of 20 square photos of real work set in Fit (posters, beer labels, tote bags, book covers, a crop-field installation)",
+      "feel": "Credible, varied",
+      "ux": "Each tile links to its Fonts In Use entry",
+      "learn": "Pull real uses from Fonts In Use into a square grid: proof that a wild display face gets used",
+      "reconstruction": {
+        "layout": "Column ~980px centred (x≈230); 3 columns of ~315px squares with ~16px gaps, 7 rows",
+        "typography": "Heading ~30px Output Sans; source label 9px caps Input Sans",
+        "palette": [
+          "#eff1f1",
+          "#141113"
+        ],
+        "behaviour": "none",
+        "content": "Real projects from fontsinuse.com",
+        "assets": "20 in-use photos"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "checkout",
+      "variant": "on-page-cart",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "plain, fair",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": true,
+        "free": false
+      },
+      "look": "Black-ruled sections on white: 'LICENSE SIZES' as 8 cards (Mini, Small, Medium, Large, Extra Large, Discounted Mini, Educational, Testing) with workstation/visitor/app limits; 'PREVIEW TEXT' input; 'FULL SERIES PACKAGE' card with a checkbox, '10 Styles + 1 Variable Font', '$50 Mini License', BUY NOW, a full-width sample line and a Width slider; 'Buy selected packages and styles' button",
+      "feel": "Transparent, utilitarian",
+      "ux": "Pick a licence card (radio; price × multiplier 0–8), type preview text, tick packages or click BUY NOW; the variable sample has a wdth slider 100–3600",
+      "learn": "Show licence limits as numbers on cards and multiply one base price: the buyer sees exactly what each tier allows",
+      "reconstruction": {
+        "layout": "Column ~980px (x≈230); section headers as 24px black bars with white mono caps; licence cards 4×2 grid ~235×260px, selected card grey with '←'; package card ~980×250px",
+        "typography": "Input Sans / Output Sans 11–15px; numbers ~16px bold; price red; sample ~60px Fit Variable",
+        "palette": [
+          "#f8f8f8",
+          "#090909",
+          "#d6d6d6",
+          "#cc090a"
+        ],
+        "behaviour": "input.license-tier-option[type=radio][data-multiplier] updates prices; #tester-input sets all style samples; range#axis-fit-series-fit-variable-wdth min 100 max 3600 drives the variable sample",
+        "content": "Real licence terms, $50 Mini for the full series",
+        "assets": "none",
+        "html": "form → commerce/cart/update-cart with fields[license] and purchasables[id]"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "informative, personal",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "Beyond the capture (HTML only): notes headed FIT VARIABLE FONT, THIS WEBPAGE ('uses Fit to responsively fit the content… Drag your window and see for yourself! Chris Lewis wrote the fancy Javascript'), PDF SPECIMEN and SPECIAL THANKS",
+      "feel": "Candid, maker's notes",
+      "ux": "Links to the PDF specimen and OpenType variable-font resources",
+      "learn": "Tell visitors that resizing the window is part of the demo, and credit the developer who made it possible",
+      "reconstruction": {
+        "layout": "Same ~980px column, headed sections with short paragraphs and small images",
+        "typography": "~15px Output Sans; headers in black-bar style",
+        "palette": [
+          "#ffffff",
+          "#141414"
+        ],
+        "behaviour": "none",
+        "content": "Variable-font explanation, page credits, specimen link, thanks",
+        "assets": "5 small images"
+      }
+    },
+    {
+      "blocks": [
+        "19"
+      ],
+      "type": "footer",
+      "variant": "big-sign-off",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "jokey, internet",
+        "mobile": "adapts",
+        "contains": [
+          "sign-off"
+        ]
+      },
+      "look": "Beyond the capture (HTML only): 'KTHXBAI' fitted full width in Fit on a red-orange (#d81e00) band",
+      "feel": "Cheeky goodbye",
+      "ux": "static; refits on resize",
+      "learn": "End a loud page with one fitted slang line in the brand colour",
+      "reconstruction": {
+        "layout": "Band ~790px tall, one line full width",
+        "typography": "Fit Variable ~864px, wdth ~369 computed",
+        "palette": [
+          "#d81e00",
+          "#ffffff"
+        ],
+        "behaviour": "var-to-width",
+        "content": "'KTHXBAI'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "20"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "foundry-standard",
+        "mobile": "adapts",
+        "contains": [
+          "other-fonts",
+          "legal",
+          "contact",
+          "socials",
+          "newsletter"
+        ]
+      },
+      "look": "Beyond the capture (HTML only): black DJR footer with columns DAVID JONATHAN ROSS (RSS, mailing list), ELSEWHERE (Fonts in Use, Mastodon, Type Network…), FONT OF THE MONTH CLUB, TYPEFACES (Bungee … Warbler), licensing and tools links",
+      "feel": "Comprehensive site footer",
+      "ux": "Plain link lists",
+      "learn": "A catalogue footer turns every product page into a door to the other families",
+      "reconstruction": {
+        "layout": "~540px black band, 4–6 link columns",
+        "typography": "~11px Input Sans Narrow, headings in caps",
+        "palette": [
+          "#000000",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Foundry links, typeface list, licence pages, contact",
+        "assets": "logo image"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "design-details/axis-explainer",
+    "specimen-showcase/word-stack",
+    "family-overview/style-word-grid",
+    "design-details/axis-explainer",
+    "language-support/script-catalogue",
+    "language-support/diacritic-word-wall",
+    "glyph-table/category-lines",
+    "type-tester/auto-fit-editable-lines",
+    "specimen-showcase/in-use-mockups",
+    "checkout/on-page-cart",
+    "footer/credits-colophon",
+    "footer/big-sign-off",
+    "footer/link-columns"
+  ]
+}

@@ -135,6 +135,23 @@ function siteFacts(site, cut, signals, meta) {
   };
 }
 
+// Tall blocks: their crop shows only the top ~4800 CSS px, so cut the rest of the block from the
+// stitched screenshot into continuation crops (pack/tall/NN-2.jpg, NN-3.jpg …), same scale as the crop.
+async function continuationCrops(shot, meta, b, dir) {
+  const SEG = 4800, parts = [];
+  if (!b.crop || !b.cropTruncated) return parts;
+  fs.mkdirSync(dir, { recursive: true });
+  for (let k = 1, top = b.box.y + SEG; top < b.box.y + b.box.h && top < meta.height && k <= 8; k++, top += SEG) {
+    const height = Math.min(SEG, b.box.y + b.box.h - top, meta.height - top);
+    const left = Math.max(0, Math.min(b.box.x, meta.width - 1)), width = Math.min(b.box.w, meta.width - left);
+    if (height < 40 || width < 20) break;
+    const file = path.join(dir, `${b.nn}-${k + 1}.jpg`);
+    await sharp(shot, { limitInputPixels: false }).extract({ left, top, width, height }).resize({ width: Math.min(720, width) }).jpeg({ quality: 70 }).toFile(file);
+    parts.push(path.relative(ROOT, file));
+  }
+  return parts;
+}
+
 async function prepare(site) {
   const dir = path.join(ROOT, 'archive', site.slug);
   const pack = path.join(dir, 'pack');
@@ -145,13 +162,15 @@ async function prepare(site) {
   const signals = readJson(path.join(dir, 'signals.json'), null);
   const meta = readJson(path.join(dir, 'meta.json'), null);
   const blocks = [];
+  const shot = path.join(dir, 'full-desktop.jpg');
+  const shotMeta = fs.existsSync(shot) ? await sharp(shot, { limitInputPixels: false }).metadata() : null;
   for (const b of cut.blocks) {
     const htmlFile = b.html && path.join(ROOT, b.html);
     blocks.push({ nn: b.nn, kind: b.kind, sticky: b.sticky, box: b.box, heightVh: +(b.box.h / 900).toFixed(2), tiny: b.box.h < 150,
       headings: b.headings, parentHeadings: b.parentHeadings, textPreview: b.textPreview, fontFamilies: b.fontFamilies,
       maxFontSizePx: b.maxFontSizePx, variationSettings: b.variationSettings, controls: b.controls, media: b.media,
       background: b.background, color: b.color, palette: b.crop ? await palette(path.join(ROOT, b.crop)) : null,
-      crop: b.crop, cropTruncated: b.cropTruncated, html: b.html, htmlBytes: htmlFile && fs.existsSync(htmlFile) ? fs.statSync(htmlFile).size : 0 });
+      crop: b.crop, cropTruncated: b.cropTruncated, cropParts: shotMeta ? await continuationCrops(shot, shotMeta, b, path.join(pack, 'tall')) : [], html: b.html, htmlBytes: htmlFile && fs.existsSync(htmlFile) ? fs.statSync(htmlFile).size : 0 });
   }
   const facts = {
     slug: site.slug, site: siteFacts(site, cut, signals, meta), blocks,

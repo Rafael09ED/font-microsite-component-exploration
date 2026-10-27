@@ -1,0 +1,305 @@
+{
+  "slug": "shantellsans-com",
+  "extractedBy": "agent",
+  "summary": "A short, black-and-white Svelte page for Shantell Martin's open-source marker font: an empty 'Click anywhere' screen the visitor fills with words, a first-person story with free-download links, a six-slider 'Try Me!' sandbox, an axis glossary and an 830-cell character grid. Every surface is a rounded white or black card, like sheets of paper on a desk.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "click-to-stamp",
+      "newVariant": true,
+      "variantDefinition": "An almost empty first screen invites the visitor to click or tap anywhere; each click drops a word or phrase in the font at the pointer, with randomised style or axis values and a small entry animation, so the visitor composes the hero.",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "game-like",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "playful, inviting, hand-drawn",
+        "mobile": "adapts",
+        "carrier": "controls",
+        "cta": "try",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "A blank white screen (~80vh) with only 'CLICK ANYWHERE' in small bold bouncy caps at the centre and the fixed pill nav in the corners",
+      "feel": "Open, a blank sheet waiting for marks",
+      "ux": "Clicking (or tapping: the hint switches to 'TAP ANYWHERE' on touch) places one of Shantell Martin's 'May you…' phrases at the pointer, in varying weight, italic, informality and bounce, with a wobble animation; the hint disappears once the wall fills",
+      "learn": "Let the first interaction be a single click on empty space: the visitor makes the specimen, which suits a font born from an artist drawing on walls",
+      "reconstruction": {
+        "layout": "Full-width white field 1440×720 (80vh); hint centred at ~y=300; fixed nav pills top-left and top-right; the field is the click target (#wall)",
+        "typography": "Hint ~32px ShantellSans wght 800, BNCE -100, INFM 0, uppercase, tracked ~0.1em; stamped phrases presumably at random sizes and axis values (wght 300–800, ital 0–1, INFM 0–100, BNCE -100–100)",
+        "palette": [
+          "#ffffff",
+          "#000000"
+        ],
+        "behaviour": "click/tap → append an absolutely positioned span at pointer coords with a random phrase and random axis values; CSS keyframes 'wobble' / 'wobbleBounce' animate BNCE; animations are paused via a --animationState custom property (respecting reduced motion or a pause toggle); separate mouse and touch hints",
+        "content": "Shantell Martin's 'May you…' affirmations (credited in the footer: '\"May you…\" words by Shantell Martin')",
+        "assets": "none",
+        "html": "div#wall[style=--animationState] > span.hint.mouse + span.hint.touch"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "personal, warm, candid",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Black rounded card with the headline 'WORDS ARE MADE UP OF LINES' in big white marker caps, then two columns of white text: intro and an italic, rule-indented quote from Shantell Martin on the left, licence, credits and download links on the right",
+      "feel": "Personal and frank: a dyslexic artist explaining why she made a font",
+      "ux": "static text with inline links (Shantell Martin, ArrowType, Anya Danilova, OFL licence)",
+      "learn": "Let the artist's own story (spelling tests, dyslexia, Comic Sans) carry the 'why' in her voice, set off as an italic quote with a left rule",
+      "reconstruction": {
+        "layout": "Card inset ~8px from the viewport, radius ~16px, black, ~1140px tall; headline centred, two lines; two text columns ~580px wide from x≈120 and x≈750, 60px gutter; quote indented with a 1px grey left rule",
+        "typography": "Headline ~100px ShantellSans wght ~800, BNCE -50, uppercase, centred, leading ~1.0; body ~20px/1.5 opsz 12, white; quote italic (ital 1); credits ~12px uppercase tracked; signature '— Shantell Martin' italic",
+        "palette": [
+          "#070707",
+          "#ffffff",
+          "#8e8e8d"
+        ],
+        "behaviour": "none",
+        "content": "Real copy: what the font is (marker-style, 5-axis variable + statics), Shantell Martin's first-person origin story, licence (SIL OFL 1.1), script coverage (Latin, Cyrillic), credits (ArrowType, Anya Danilova, Google Fonts)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "generous, open-source",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "At the foot of the story card's right column: a white pill 'DOWNLOAD LATEST RELEASE ↓' and two underlined links 'SEE THE PROJECT ON GITHUB ↗' and 'GET IT ON GOOGLE FONTS ↗', under a plain-language OFL paragraph",
+      "feel": "Frictionless",
+      "ux": "Pill downloads the release zip from GitHub directly; links open GitHub and Google Fonts; the fixed nav 'Download' button opens a dropdown with the same three links",
+      "learn": "For an open-source font, put the licence in one friendly sentence ('use it in almost any way you can imagine!') right above the download button",
+      "reconstruction": {
+        "layout": "Stack in the right column: pill ~300×28px with 2px radius-full white fill, then two text links ~24px apart, each with a thin underline",
+        "typography": "~12px ShantellSans uppercase, tracked ~0.08em; pill text black on white, links white",
+        "palette": [
+          "#070707",
+          "#ffffff"
+        ],
+        "behaviour": "none (direct zip link)",
+        "content": "Download latest release ↓ / See the project on GitHub ↗ / Get it on Google Fonts ↗",
+        "assets": "none",
+        "html": "a.cta + a.cta.cta-secondary ×2"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "friendly, hands-on",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "weight",
+          "axes"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "A white rounded card with 'Try Me!' huge and centred, and below a hairline-ruled panel of six thin slider rows (Font Size 146, Weight 700, Italic 0, Informality 0, Bounce 0, Spacing 0), each a label, a number and a black dot on a long line",
+      "feel": "Minimal, playful, inviting",
+      "ux": "Type directly into the headline (blinking custom cursor); drag any dot or type a number to set size 4–288, wght 300–800, ital 0–1, INFM 0–100, BNCE -100–100, SPAC 0–100; changes apply live",
+      "learn": "Give every axis the same minimal row (label, number field, dot on a hairline): six controls read as one calm panel under one big word",
+      "reconstruction": {
+        "layout": "Card full width minus ~8px, radius ~16px, ~770px tall; editable sample centred in the top ~540px; control panel bottom ~210px with a hairline top border, 6 rows ~30px each: label column ~120px, number field ~40px, slider track spanning the rest",
+        "typography": "Sample 146px ShantellSans wght 700, line-height ~1.03, centred; labels ~11px bold; numbers ~11px",
+        "palette": [
+          "#fefefe",
+          "#000000",
+          "#d4d4d3"
+        ],
+        "behaviour": "input[type=range] and paired input[type=number] write CSS custom properties (--size, --wght, --ital, --infm, --bnce, --spac) on #type-area, which drive font-variation-settings and letter-spacing; text alignment centred; custom blinking cursor span",
+        "content": "'Try Me!' as an imperative prompt",
+        "assets": "none",
+        "html": "#type-area[style=--wght…] > h2.type-tester[contenteditable] + #control-container .slider-box > label + input[type=number] + .slider-container > input[type=range]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "clear, didactic",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "'VARIABLE AXES' heading top-left and a 2-column grid of five axis cards, each showing 'HHH → HHH' (min → max), the axis name in caps, its range in brackets, a grey code-style tag (wght, ital, INFM, BNCE, SPAC) and a short paragraph",
+      "feel": "Like a friendly glossary",
+      "ux": "static (animation hooks exist but are paused)",
+      "learn": "Use the same three letters 'HHH' at both ends of each axis so the only thing that changes is the axis itself; add the 4-letter tag for developers",
+      "reconstruction": {
+        "layout": "~1110px tall; heading in the left column, five axis entries in a 2-col grid (~560px each), rows ~280px; each entry: diagram line, name line, paragraph max ~480px",
+        "typography": "Heading ~64px ShantellSans wght 800 caps; diagram 'HHH' ~48px at min and max settings with grey '→'; axis name ~13px bold caps, range ~13px, tag ~11px Courier on light-grey #d4d4d3 chip; body ~13px/1.5",
+        "palette": [
+          "#fbfbfb",
+          "#000000",
+          "#d4d4d3"
+        ],
+        "behaviour": "none visible; spans carry variation settings (wght 300/800, ital 0/1 at wght 550, INFM 0/100, BNCE, SPAC); --animationState paused on the section",
+        "content": "Real explanations per axis, e.g. 'You know it and love it, and now it's variable!'",
+        "assets": "none",
+        "html": "section.definitions > .axis#wght > .axis-diagram > span.min + span.between + span.max; h3.axis-name > span.axis-range + span.axis-tag"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "exhaustive, calm",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Black rounded card headed 'CHARACTERS': 830 white glyphs in a 13-column borderless grid, from Latin caps with all accents through lowercase, Cyrillic, figures, fractions, punctuation, arrows and geometric shapes",
+      "feel": "Long, even, chalkboard-like",
+      "ux": "Scroll through; a scoped 'trackInOut' keyframe suggests glyph cells animate on hover (not captured)",
+      "learn": "A borderless grid on black with generous cells keeps 830 glyphs readable without lines or labels",
+      "reconstruction": {
+        "layout": "Card inset 8px, radius ~16px, ~6330px tall; 13 equal columns ~105px, rows ~75px, no cell borders; heading centred at top",
+        "typography": "Glyphs ~48px ShantellSans Regular, white, centred; heading ~22px wght 800 caps",
+        "palette": [
+          "#050505",
+          "#ffffff"
+        ],
+        "behaviour": "Probable hover animation per cell (svelte-bknvdb-trackInOut keyframes); tnum used for figures",
+        "content": "Full character set in encoding order (Latin, Vietnamese, Cyrillic, figures, symbols)",
+        "assets": "none",
+        "html": "section.charset > h2 + #grid.grid > div > span (one per glyph)"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "modest, open",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "other-fonts"
+        ]
+      },
+      "look": "Light-grey band with centred small lines: '\"May you…\" words by Shantell Martin.', 'Website by ArrowType.', a short rule, 'Shantell Sans on GitHub', 'View this website's source', another rule, and a black 'Made by friends of Google Fonts' badge",
+      "feel": "Quiet, credit-giving",
+      "ux": "links to GitHub repos and the Google Fonts badge",
+      "learn": "Credit the source of the hero's words and link the site's own source code: open-source down to the website",
+      "reconstruction": {
+        "layout": "Full-width band ~440px, #e6e6e6; centred column, lines ~20px apart; two ~100px rules as separators; badge ~160×70px",
+        "typography": "~16px ShantellSans Regular, underlined links",
+        "palette": [
+          "#e7e7e7",
+          "#070707",
+          "#afafaf"
+        ],
+        "behaviour": "none",
+        "content": "Credits and source links",
+        "assets": "Google Fonts badge SVG"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "No bar: fixed rounded pills on top of everything, 'SHANTELL SANS®' left, 'DESIGN PROCESS' and '› DOWNLOAD' right; Download opens a dropdown (Google Fonts, GitHub, latest release); on mobile it becomes '› MENU'"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/click-to-stamp",
+    "story/essay",
+    "checkout/free-download",
+    "type-tester/slider-sandbox",
+    "design-details/axis-explainer",
+    "glyph-table/full-grid",
+    "footer/credits-colophon"
+  ]
+}

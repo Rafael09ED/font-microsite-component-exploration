@@ -1,0 +1,724 @@
+{
+  "slug": "neuedin-com",
+  "extractedBy": "agent",
+  "summary": "Fontwerk's black-and-white page for Neue DIN, a 243-style variable reboot of DIN (wdth 50–200, wght 100–900, slnt -10–10 with a backslanted 'Retalic'). Grainy macro footage of cast letter surfaces alternates with hover-reactive specimens: a pointer-driven hero with a live axis readout, a 9×9 design-space GIF, script tabs, condensed charset marquees, a width×weight matrix, a fact list, a cycling OpenType-feature glyph and a three-slider tester. Fixed rotated corner links (PDF Specimen, Buy, Fontwerk, Try) frame every screen.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "56"
+      ],
+      "type": "hero",
+      "variant": "interactive-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "industrial, tactile, precise",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Full-screen grainy black-and-white macro footage of a cast letter's surface, 'Neue DIN' in white at ~200px in the centre, a tiny condensed readout 'WIDTH: 088, WEIGHT: 500, SLANT: 0.00' top-centre and rotated corner links FONTWERK, TRY, PDF SPECIMEN, BUY",
+      "feel": "Engineered, material, a little cinematic",
+      "ux": "Moving the mouse anywhere on the page changes the name's width, weight and slant and updates the readout; the name is editable; on phones a 'Request orientation permission' overlay lets device tilt drive the axes",
+      "learn": "Echo the live axis values in a small readout above the name: a pointer-driven hero then explains itself without sliders",
+      "reconstruction": {
+        "layout": "100vh full-bleed background video; name centred; readout 12px top-centre at 15px; corner links rotated 90° at the four edges, ~16px from the edges",
+        "typography": "Name ~200px Neue DIN, default wdth 88 wght 500 slnt 0, white; readout ~12px condensed caps, zero-padded values ('088'); corner links ~10px XXCondensed caps",
+        "palette": [
+          "#313131",
+          "#111111",
+          "#ffffff",
+          "#4e4e4e"
+        ],
+        "behaviour": "body onmousemove → showCoords maps pointer x/y to wdth/wght (and slnt) on #txt_title_ID and writes 'Width: 088, Weight: 500, Slant: 0.00' into #txt_subheadline_ID; DeviceOrientation on mobile after a permission button (#permission_ID); background video loops; corner link colours flip on scroll (changeNavColor)",
+        "content": "The name only, editable",
+        "assets": "Macro video loop of grainy cast metal letter surfaces (Fontwerk_Neue-DIN_Typeface_Video_HD_Loop)",
+        "html": "div.container_100vh > div#txt_title_ID.txt_title[contenteditable]; div#txt_subheadline_ID.txt_subheadline.corner_btn; div#permission_ID > button.big_button"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "No bar: fixed rotated corner links in XXCondensed caps (FONTWERK top-left, TRY top-right, PDF SPECIMEN bottom-left, BUY bottom-right) plus the live axis readout top-centre; their colour inverts over black or white sections"
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "testimonials",
+      "variant": "award-logo-strip",
+      "newVariant": true,
+      "variantDefinition": "A single row of award, prize or press logos as social proof, with no quotes or names; often directly under the hero.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "credentialed, sober",
+        "mobile": "adapts"
+      },
+      "look": "A thin white strip right after the hero with six small black award logos evenly spaced: ADC, ADC*E, Communication Arts, German Design Award 2024, iF Design Award, Hiiibrand",
+      "feel": "Quietly authoritative",
+      "ux": "static",
+      "learn": "Put the award logos straight under the hero as a one-line credential before any copy",
+      "reconstruction": {
+        "layout": "Full-width row ~82px tall, 6 logos each max 10vw × 10vh, evenly distributed, centred vertically",
+        "typography": "none (logos)",
+        "palette": [
+          "#fbfbfb",
+          "#111111"
+        ],
+        "behaviour": "none",
+        "content": "Award logos",
+        "assets": "Six monochrome award logos (PNG)",
+        "html": "div.container_decriptions > div.copy_text_new[style=max-width:10vw] > img.fit-picture#awards_*"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "story",
+      "variant": "article-teaser",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "bold, persuasive",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "On white: 'RETHINK DIN' as a small tracked kicker, the question 'IS IT POSSIBLE TO RETHINK THE GERMAN DESIGN ICON?' in heavy XXWide caps, a bold answer line, a short paragraph and an outlined pill 'Read the Neue DIN story'",
+      "feel": "Confident, manifesto-like",
+      "ux": "The pill opens the long story subpage",
+      "learn": "Ask the brand's big question in the widest weight and answer it in one paragraph; the full essay is one click away",
+      "reconstruction": {
+        "layout": "Centred column ~1000px from x≈220; kicker, 4-line headline (~180px block), paragraph ~20px, pill ~260×60px centred; ~810px tall",
+        "typography": "Kicker ~20px wide caps tracked 0.3em; headline ~70px Neue DIN XXWide Black caps, leading 0.95; lead line ~20px Bold; paragraph ~20px Regular, leading 1.4",
+        "palette": [
+          "#f7f7f7",
+          "#111111",
+          "#b2b2b2"
+        ],
+        "behaviour": "none",
+        "content": "'For the sake of its timelessness and longevity, we are convinced that you have to!'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "10",
+        "11"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "scientific, textured",
+        "mobile": "adapts",
+        "structure": "matrix",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "A split panel: grainy macro photo on the left, a black square on the right with a 9×9 grid of white 'a' glyphs in every width and weight, the cells shuffling (animated GIF '9 Weights × 9 Widths')",
+      "feel": "Laboratory-like, restless",
+      "ux": "static image, animated GIF loop",
+      "learn": "A single letter in a 9×9 grid is enough to show 81 instances; animate it to hint at continuity",
+      "reconstruction": {
+        "layout": "Image up to 80vw × 80vh centred (~1150×650px), half photo, half grid; black band under it",
+        "typography": "'a' ~30px, widths XXCondensed→XXWide across, Thin→Black down (shuffled)",
+        "palette": [
+          "#090909",
+          "#ffffff",
+          "#4a4a4a"
+        ],
+        "behaviour": "GIF loop; container_width_animation may scale it in on scroll",
+        "content": "Lowercase 'a' only",
+        "assets": "Fontwerk_NeueDIN_Typeface_04_9WeightsX9Widths.gif"
+      }
+    },
+    {
+      "blocks": [
+        "14",
+        "15"
+      ],
+      "type": "glyph-table",
+      "variant": "category-tabs",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "bold, technical",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "tabs",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Four outlined pill tabs 'Latin Cyrillic Greek Thai' over a centred block of the basic set in white XXWide on black (caps, lowercase, figures), with alternates Q, a, i, j, l, 6, 7, 9 inserted beside their defaults",
+      "feel": "Wide, confident, poster-like",
+      "ux": "Tabs swap the alphabet to another script; hovering the block squeezes it from width 200 to 50 and back; the block animates between retalic and italic",
+      "learn": "Insert each alternate right after its default inside the alphabet: alternates are discovered without a separate section",
+      "reconstruction": {
+        "layout": "Tab row ~62px centred (4 pills ~65px wide); alphabet block ~1200px wide, 5 lines centred, ~550px tall",
+        "typography": "~70px Neue DIN wdth 200 wght 600, leading 1.0; alternates via font-feature-settings ss01, ss10, ss11 on single spans; tabs ~11px",
+        "palette": [
+          "#0f0f0f",
+          "#ffffff",
+          "#707070"
+        ],
+        "behaviour": "button onclick change_overview_abc_inner('Cyrillic'…); onmouseover → change_width(50) / onmouseout → change_width(200); keyframes animation_re_to_italic on slnt",
+        "content": "A–Z, a–z with alternates, 0–9 with alternates",
+        "assets": "none",
+        "html": "button.big_button[onclick=change_overview_abc_inner('Latin')]; div.container_black[onmouseover=change_width…] > #overview_abc > #overview_abc_inner.animation_re_to_italic > p > span[style=font-feature-settings:'ss10']"
+      }
+    },
+    {
+      "blocks": [
+        "21"
+      ],
+      "type": "interlude",
+      "variant": "full-bleed-image",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "tactile, moody",
+        "mobile": "adapts"
+      },
+      "look": "A large grainy macro photograph of a curved glittering stroke (cast or printed letter surface) on black, inset to 80vw",
+      "feel": "Close, material, quiet",
+      "ux": "static pause",
+      "learn": "Macro shots of a letter's surface make an industrial font feel physical between dense specimens",
+      "reconstruction": {
+        "layout": "Image max 80vw × 80vh centred on #111 (~900×720px), black spacer strips above and below",
+        "typography": "none",
+        "palette": [
+          "#303030",
+          "#101010",
+          "#4e4e4e"
+        ],
+        "behaviour": "container_width_animation (likely scales in on scroll)",
+        "content": "none",
+        "assets": "Macro photograph (Family_Page_Grid_07.jpg)"
+      }
+    },
+    {
+      "blocks": [
+        "27",
+        "28",
+        "29"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "kinetic, condensed",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Three full-bleed marquee lines of the whole basic set (Latin with umlauts, figures, Cyrillic, Greek, Thai) in XXCondensed at ~200px, Thin, then Regular, then Black, white on near-black",
+      "feel": "Tall, fast, signage-like",
+      "ux": "Lines scroll sideways; hovering switches a line to italic or retalic; lines are editable",
+      "learn": "Run the character set of every script as one endless condensed line per weight: coverage and rhythm at once",
+      "reconstruction": {
+        "layout": "Three rows of 235px, full width, overflow hidden; text duplicated for a seamless loop",
+        "typography": "~200px Neue DIN wdth 50, wght 100 / 400 / 900, leading 1",
+        "palette": [
+          "#101010",
+          "#f9f9f9",
+          "#303030"
+        ],
+        "behaviour": "CSS marquee translateX; .hover_effect_italic / .hover_effect_retalic set slnt on hover; contenteditable",
+        "content": "ABC…ÜÖÄ0123456789& abc… АБВ… ΑΒΓ… กขฃ… ๐๑๒…",
+        "assets": "none",
+        "html": "div.container_marquee_cond > div.marquee_text.hover_effect_retalic[contenteditable][style=font-weight:100] > span ×2"
+      }
+    },
+    {
+      "blocks": [
+        "32"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "systematic, complete",
+        "mobile": "shrinks",
+        "structure": "matrix",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "A dark-brown table: nine width columns with rotated headers (XXCondensed … Normal Width … XXWide) and nine weight rows (Thin … Black), each cell holding 'Aa Aa Aa' in upright, italic and retalic",
+      "feel": "Exhaustive, like an engineering chart",
+      "ux": "static image",
+      "learn": "Add a third sample per cell (upright, italic, retalic) to fit three slant styles into the width × weight table",
+      "reconstruction": {
+        "layout": "Image ~1150×690px centred on black; header row ~180px with vertical labels; 9 rows ~22px; hairline rules",
+        "typography": "Labels ~10px Neue DIN Wide Light; 'Aa' samples ~14px in each instance",
+        "palette": [
+          "#1a1513",
+          "#2f2a29",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "243 style samples",
+        "assets": "Design-space table image (neuedin-designspace-overview.png)"
+      }
+    },
+    {
+      "blocks": [
+        "39",
+        "40"
+      ],
+      "type": "interlude",
+      "variant": "full-bleed-image",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "tactile, cinematic",
+        "mobile": "adapts"
+      },
+      "look": "A looping macro video of a letter's stroke junction in grainy cast metal, inset to 80vw, half over black and half over the white section that follows",
+      "feel": "Close-up, physical",
+      "ux": "autoplay, muted, loop",
+      "learn": "Let the interlude straddle the colour change between sections to stitch dark and light chapters",
+      "reconstruction": {
+        "layout": "Video max 80vw × 80vh (~1150×650px) centred; the section background switches from #111 to white behind its lower half",
+        "typography": "none",
+        "palette": [
+          "#303030",
+          "#111111",
+          "#fbfbfb"
+        ],
+        "behaviour": "video autoplay loop muted playsinline",
+        "content": "none",
+        "assets": "251218_FONTWERK_NEUE_DIN_SCENES_02_small.mp4 (macro footage)"
+      }
+    },
+    {
+      "blocks": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "punchy, factual",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "Nine white rows, each a heavy condensed caps headline on the left (VARIABLE FIRST, MADE IN BERLIN, MADE FOR TODAY, EXTREME WIDTHS, ITALIC & RETALIC, ELEGANCE, 504 LANGUAGES, AWARDS, FEATURES) and a 3–4-line paragraph on the right; some headlines are cropped at the left edge mid-animation",
+      "feel": "Fact-sheet with swagger",
+      "ux": "Headlines animate (slide or width change) as they enter; static text",
+      "learn": "One claim per row, headline left and proof right: nine selling points scan in seconds",
+      "reconstruction": {
+        "layout": "Rows 210–246px tall; left div ~50% with headline from x≈20, right div ~40% paragraph from x≈820, max ~330px wide",
+        "typography": "Headlines ~70px (max 140) Neue DIN Condensed Black caps, tight; paragraphs ~16px Regular, leading 1.5",
+        "palette": [
+          "#fbfbfb",
+          "#0b0b0b"
+        ],
+        "behaviour": ".headline_animation keyframes (width/slide-in) on scroll into view",
+        "content": "Real claims: 81 static upright + 81 oblique + 81 retalic fonts, CSS-compatible, XXCondensed to XXWide, 504 languages incl. Thai, awards, alternates and figure sets",
+        "assets": "none",
+        "html": "div.container_short_info > div.div_left > div.headline.headline_animation + div.div_right > div.copy_text"
+      }
+    },
+    {
+      "blocks": [
+        "50"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "graphic, bold",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "One giant white glyph centred on black (a circled '7' here, an 'r' on mobile) under a tiny caption 'OpenType Features: 'ss07''",
+      "feel": "Slideshow of single characters, iconic",
+      "ux": "The glyph and caption cycle through the stylistic sets automatically (ss03 'r', ss07 circled figures …), one feature at a time",
+      "learn": "Show one glyph per feature at full-screen size with its tag: a looping slideshow that needs no controls",
+      "reconstruction": {
+        "layout": "Section ~770px tall; caption 12px centred at the top; glyph centred, ~540px",
+        "typography": "Glyph ~540px Neue DIN Regular; caption 12px",
+        "palette": [
+          "#101010",
+          "#fbfbfb"
+        ],
+        "behaviour": "Timer swaps #OpenType_Feature_character_ID and font-feature-settings on #big_text_ID and the caption text",
+        "content": "Single characters showing ss01–ss11, zero, onum, case features",
+        "assets": "none",
+        "html": "#OpenType_Feature_ID (caption) + #big_text_ID[style=font-feature-settings] > #OpenType_Feature_character_ID"
+      }
+    },
+    {
+      "blocks": [
+        "51"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "wide, elegant",
+        "mobile": "shrinks",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": true
+      },
+      "look": "A centred waterfall of nine lines on black, 'Retalic Thin Italic' … 'Retalic Black Italic', each line in its weight at XXWide, with 'Retalic' leaning backwards and 'Italic' leaning forwards",
+      "feel": "Elegant, symmetrical",
+      "ux": "Hovering a line changes the width of the whole list (200 → 150 → 125 …); each line is editable; slant animates between retalic and italic",
+      "learn": "Put the backslanted and forward-slanted words on one line so the new 'retalic' is read against the familiar italic",
+      "reconstruction": {
+        "layout": "Centred list ~1300px wide, 9 lines ~46px pitch, ~860px section",
+        "typography": "~69px Neue DIN wdth 200 (font-stretch 200%), font-weight 100…900 per line; span.retalic slnt +10, span.italic slnt -10",
+        "palette": [
+          "#101010",
+          "#ffffff",
+          "#6e6e6e"
+        ],
+        "behaviour": "p onmouseover → change_width('wrapper_styles', N); contenteditable; animation_retalic_to_italic keyframes",
+        "content": "Style names",
+        "assets": "none",
+        "html": "#wrapper_styles.container_styles > .listed_styles > p[contenteditable][style=font-weight:N] > span.retalic + text + span.italic"
+      }
+    },
+    {
+      "blocks": [
+        "52"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "minimal, direct",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "'Type here' in black at ~270px, weight 850, centred on white, above three unlabelled hairline sliders with black dot thumbs",
+      "feel": "Bare, Swiss, functional",
+      "ux": "Type over the prompt; sliders set weight (100–900), width (50–200) and slant (-10 to 10, i.e. italic to retalic); a bubble output shows the value",
+      "learn": "A slant slider that runs both ways (-10 to +10) exposes the retalic without a separate control",
+      "reconstruction": {
+        "layout": "Section 710px; sample centred; three sliders ~860px wide centred, 35px apart, under the sample",
+        "typography": "~270px Neue DIN wght 850, font-stretch 100%; slider labels (Weight/Width/Slant Axis) ~10px, visually hidden",
+        "palette": [
+          "#f9f9f9",
+          "#0a0a0a",
+          "#2f2f2f"
+        ],
+        "behaviour": "input[type=range] oninput → change_wght / change_width / change_slant on #type_slider; output.bubble shows the value",
+        "content": "'Type here' prompt",
+        "assets": "none",
+        "html": "#variable > .main_text_slider > #type_slider[contenteditable] + .range-wrap > output.bubble + .slider_wrapper > input.range + p.slider_info"
+      }
+    },
+    {
+      "blocks": [
+        "53",
+        "18",
+        "35"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, direct",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Closing white section 'LEARN MORE, TRY OR BUY' with a short paragraph and a wide outlined pill 'Go to fontwerk.com'; earlier, outlined pills 'Download PDF Specimen' and 'Get Neue DIN' sit on black spacer bands between specimens",
+      "feel": "Calm, no pressure",
+      "ux": "All buttons open fontwerk.com (specimen page, family page with shop and free trials); the fixed corner BUY and TRY links do the same from every screen",
+      "learn": "Spread small CTA pills between specimens and end with one wide button and a sentence saying what's on the other side",
+      "reconstruction": {
+        "layout": "Centred column ~500px; heading ~35px condensed caps; paragraph ~14px; pill ~500×60px outlined, radius 30px; mid-page pills ~170×36px white outline on black",
+        "typography": "Heading ~35px Neue DIN Condensed Bold caps; paragraph ~14px Regular; buttons ~14px",
+        "palette": [
+          "#f7f7f7",
+          "#111111",
+          "#d3d3d3"
+        ],
+        "behaviour": "button onclick location.href / window.open to fontwerk.com",
+        "content": "'Best of all, you can download free trial fonts there. Reason enough to click the big button now:'",
+        "assets": "none",
+        "html": "button.big_button[onclick=window.open('https://fontwerk.com/fonts/neue-din')]"
+      }
+    },
+    {
+      "blocks": [
+        "54",
+        "55"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "thorough, corporate",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal",
+          "contact",
+          "socials"
+        ]
+      },
+      "look": "Five columns of small text (Imprint with address, Design, Design Contributions per script, Mastering/Production, Marketing with ▶ bullets), then a centred Fontwerk wordmark, copyright line, privacy link and Instagram / LinkedIn / Mastodon",
+      "feel": "Orderly, German-thorough",
+      "ux": "Imprint 'Mandatory information' and 'Dispute settlement' expand (details); links out",
+      "learn": "Credit the script consultants by name and script (Cyrillic, Greek, Thai, Vietnamese) in the footer",
+      "reconstruction": {
+        "layout": "5 equal columns from x=40, ~390px tall; then centred logo and two lines ~174px",
+        "typography": "~14px Neue DIN Regular, column heads Medium; logo ~22px Fontwerk Logo font",
+        "palette": [
+          "#fafafa",
+          "#111111",
+          "#b8b8b8"
+        ],
+        "behaviour": "details toggles in the imprint",
+        "content": "Imprint, designers, contributors, marketing team, legal",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "02",
+      "reason": "empty spacer (div.container_spacer)"
+    },
+    {
+      "block": "03",
+      "reason": "empty spacer"
+    },
+    {
+      "block": "05",
+      "reason": "empty spacer"
+    },
+    {
+      "block": "06",
+      "reason": "empty spacer"
+    },
+    {
+      "block": "08",
+      "reason": "empty spacer"
+    },
+    {
+      "block": "09",
+      "reason": "empty spacer"
+    },
+    {
+      "block": "12",
+      "reason": "empty black spacer"
+    },
+    {
+      "block": "13",
+      "reason": "empty black spacer"
+    },
+    {
+      "block": "16",
+      "reason": "empty black spacer"
+    },
+    {
+      "block": "17",
+      "reason": "empty black spacer"
+    },
+    {
+      "block": "19",
+      "reason": "empty black spacer"
+    },
+    {
+      "block": "20",
+      "reason": "empty black spacer"
+    },
+    {
+      "block": "22",
+      "reason": "black spacer strip overlapped by the edge of the image above"
+    },
+    {
+      "block": "23",
+      "reason": "black spacer strip overlapped by the edge of the image above"
+    },
+    {
+      "block": "24",
+      "reason": "black spacer strip overlapped by the edge of the image above"
+    },
+    {
+      "block": "25",
+      "reason": "black spacer strip overlapped by the edge of the image above"
+    },
+    {
+      "block": "26",
+      "reason": "empty black spacer"
+    },
+    {
+      "block": "30",
+      "reason": "empty black spacer"
+    },
+    {
+      "block": "31",
+      "reason": "empty black spacer"
+    },
+    {
+      "block": "33",
+      "reason": "empty black spacer"
+    },
+    {
+      "block": "34",
+      "reason": "empty black spacer"
+    },
+    {
+      "block": "36",
+      "reason": "empty black spacer"
+    },
+    {
+      "block": "37",
+      "reason": "empty black spacer"
+    },
+    {
+      "block": "38",
+      "reason": "empty black spacer"
+    }
+  ],
+  "sequence": [
+    "hero/interactive-specimen",
+    "testimonials/award-logo-strip",
+    "story/article-teaser",
+    "family-overview/designspace-map",
+    "glyph-table/category-tabs",
+    "interlude/full-bleed-image",
+    "glyph-table/category-lines",
+    "family-overview/designspace-map",
+    "interlude/full-bleed-image",
+    "story/design-brief",
+    "design-details/feature-before-after",
+    "family-overview/style-word-grid",
+    "type-tester/slider-sandbox",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

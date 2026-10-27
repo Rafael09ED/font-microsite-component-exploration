@@ -13,6 +13,7 @@ Sample: 3 blocks from 3 sites.
 | [coverage-statement](#coverage-statement) | 1 | A big-type sentence stating the coverage instead of showing it. | 'Supports 200+ languages' |
 | [script-catalogue](#script-catalogue) | 0 | Each supported script named in its own script at display size, in a grid, with style counts and notes on how it was made. | Кирилиця, Ελληνικά, عربي as headings |
 | [language-name-list](#language-name-list) | 0 | The supported languages listed by name, as small running text, columns, or a per-script table with credits and style counts; the list is the proof. | long alphabetical list of language names |
+| [language-profile](#language-profile) | 0 | A deep dive into the one language the family was designed for: special characters with Unicode and keyboard notes, a map, the alphabet and a sample text. | map, alphabet, single-language focus |
 
 ## Rubric
 
@@ -70,5 +71,13 @@ _No instance in the sample yet._
 The supported languages listed by name, as small running text, columns, or a per-script table with credits and style counts; the list is the proof.
 
 **Recognise by:** long alphabetical list of language names
+
+_No instance in the sample yet._
+
+## language-profile
+
+A deep dive into the one language the family was designed for: special characters with Unicode and keyboard notes, a map, the alphabet and a sample text.
+
+**Recognise by:** map, alphabet, single-language focus
 
 _No instance in the sample yet._

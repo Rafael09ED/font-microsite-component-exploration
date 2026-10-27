@@ -1,0 +1,317 @@
+{
+  "slug": "nichrome-mass-driver-com",
+  "extractedBy": "agent",
+  "summary": "Mass-Driver's microsite for MD Nichrome, a display family inspired by 1970s–80s paperback science-fiction covers. The page is one continuous computed gradient from space-black through sunset orange and magenta to cobalt, carrying a weight/oblique list, a grid of Coldtype-animated design-note videos, auto-fitting editable sci-fi book titles with stylistic-set toggles, an OpenType feature index and three weight-graded CTA lines, under a sticky scroll-spy bar.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "retro sci-fi, cinematic",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "A full-screen gradient from black through deep navy to pale sage, like a horizon at dawn, with 'MD NICHROME' across the top (MD in Infra hairline, NICHROME in Ultra) and a small MD logo badge under it",
+      "feel": "Spacious, cinematic, like a paperback cover",
+      "ux": "A blue 'LOADING' label on black shows first (~1s), then the name rises from the bottom of the screen to the top (seen at t≈0.9–1.6s); scroll on to reach the nav",
+      "learn": "Pair the lightest and heaviest weights in the logotype and let a dark-to-light gradient do the scene-setting",
+      "reconstruction": {
+        "layout": "Section 100vh (1440×900); name SVG full width with ~100px side margins, ~96px cap height, top at y≈80; logo badge 72×32px centred at y≈320; mobile uses a separate two-line SVG",
+        "typography": "SVG outlines: 'MD' in MD Nichrome Infra (wght ~100), 'NICHROME' in Ultra (wght 1000), caps, cream #cfd1c6",
+        "palette": [
+          "#000000",
+          "#112233",
+          "#12233c",
+          "#cccec3"
+        ],
+        "behaviour": "Loader (div.loading_indicator, 'LOADING' in blue) fades out; the name translates from the bottom to the top once; background is a linear-gradient generated in JS from data-stops (#000, #000, #112233, #12233C, #CCCEC3, #CCCEC3) sampled 17 times in rgb",
+        "content": "Name only",
+        "assets": "Name SVG (desktop and mobile variants), MD logo SVG",
+        "html": "section#splash.fullheight.gradient[data-stops][data-samples=17][data-space=rgb] > svg.fullwidth.hide_on_mobile + svg.show_on_mobile + svg.splash__md_logo"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "navigation",
+      "variant": "scroll-spy-nav",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Sticky 50px sage bar: Overview, Design, Specimens, OpenType, Glyphs in small mono spread across, the current chapter set bold, plus dark navy 'Try ↗' and 'Buy ↗' boxes at the right"
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "orderly, warm",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "Three short mono intro paragraphs across the top (the 70s/80s paperback inspiration, the Future Fonts history, credits), then two columns of style names, 'MD Nichrome Infra … Ultra' in navy on the left and '& Infra Oblique … & Ultra Oblique' in cream on the right, over a sage-to-orange gradient",
+      "feel": "Calm, sunset-like",
+      "ux": "static",
+      "learn": "Pair each upright with '& … Oblique' in a second colour: the 16 styles read as 8 weights × 2 without a table",
+      "reconstruction": {
+        "layout": "Section ~1048px; intro in a 3-column grid (columns ~380px at x≈100, 520, 940); style lists start ~y=360: uprights at x≈100, obliques at x≈730, 8 rows ~78px",
+        "typography": "Intro ~14px MD IO (mono), leading ~1.45; names ~56–65px MD Nichrome, wght 100→1000 down the list (Infra, Thin, Light, Regular, Dark, Bold, Black, Ultra), obliques slnt −10; uprights navy, obliques cream",
+        "palette": [
+          "#cccec3",
+          "#fa935e",
+          "#142635",
+          "#f5ede0"
+        ],
+        "behaviour": "none; gradient computed from data-stops (#CCCEC3 → #FA935E, hsl, 9 samples)",
+        "content": "Real intro copy; style names; mobile merges both lists into one ('Infra & Infra Oblique')",
+        "assets": "none",
+        "html": "section#overview.nav_section.gradient > p.text × 3 + ul.style_list.upright > li.infra… + ul.style_list.oblique"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "technical, retro",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "spacing",
+          "alternates"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "Six bordered pink video tiles on an orange-to-pink gradient, each a looping animation with guide lines (Aerogel x-height, OH proportions, 'a' weights fanning out as outlines, NEON tight spacing, a K ink trap with an arrow, 'Rain tyre' alternates switching), captioned in mono underneath",
+      "feel": "Precise, engineered, gently animated",
+      "ux": "Autoplaying muted looping videos; no controls",
+      "learn": "Render each design note as a short looping animation made with code (Coldtype): the point is demonstrated, not just stated",
+      "reconstruction": {
+        "layout": "6-column grid ~1240px wide from x≈100; rows pair spans 4+2, 3+3, 2+4; tiles ~260px tall with 1px dark border; ~12px caption under each tile, ~40px between rows",
+        "typography": "Video type MD Nichrome in cream on pink with dark guide lines; captions ~13px MD IO, dark navy",
+        "palette": [
+          "#f39064",
+          "#d5697a",
+          "#f5ede0",
+          "#142635"
+        ],
+        "behaviour": "<video autoplay muted loop playsinline> per tile (xheight.mp4, proportions.mp4, weights.mp4, spacing.mp4, inktraps.mp4, alternates); background gradient #FA935E → #D46379",
+        "content": "Six real design points: large x-height, varying proportions, 8 weights + obliques + variable, super-tight spacing, ink traps, stylistic alternates",
+        "assets": "Six Coldtype-rendered MP4 loops",
+        "html": "section#design > ul.design_features > li.span_4|span_2|span_3.image_container > video + p.text"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "type-tester",
+      "variant": "auto-fit-editable-lines",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "nostalgic sci-fi",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "features"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Eight full-width cream lines on a pink → magenta → violet → cobalt gradient, each a sci-fi title ('ROCKET SHIP GALILEO', 'The Rings of Saturn', 'FOUNDATION', 'Have Space Suit – Will Travel', 'Fahrenheit 451', 'THE LEFT HAND OF DARKNESS', 'Roadside Picnic', 'EQUATOR') in another weight/oblique, with a mono style label at left and a Geometric | Rounded | Gothic toggle group at right",
+      "feel": "Evocative, bookshelf-like",
+      "ux": "Click a line to type; the font size recomputes so the line always spans the column; the three toggles switch stylistic sets SS01–SS03 for that row (one highlighted dark when on)",
+      "learn": "Use real titles from the genre the font comes from: each line reads like a paperback cover, and fit-to-width keeps every edit looking composed",
+      "reconstruction": {
+        "layout": "Section ~2760px; rows ~300px each; top row of each specimen: label left (x≈100), button group right (3 bordered buttons ~50×16px); editable line below spanning ~1240px",
+        "typography": "Lines fitted 144–395px in MD Nichrome (Ultra wght 1000, Black Oblique 850/slnt −10, Bold 700, Dark Oblique, Regular, Light Oblique, Thin, Infra Oblique); labels and buttons ~11px MD IO; active button navy fill, cream text",
+        "palette": [
+          "#d152d6",
+          "#9448f1",
+          "#3050ff",
+          "#f5ede0",
+          "#142635"
+        ],
+        "behaviour": "Vue app; on input the size is recomputed to fit the width (opentype.js measuring); buttons toggle font-feature-settings 'ss01'/'ss02'/'ss03' (one row starts with ss07); hidden on mobile where static copies show",
+        "content": "Classic science-fiction titles",
+        "assets": "none",
+        "html": "section#specimens > div.specimen > div.specimen__toprow (div.specimen__label + ul.specimen__opentype > li > button) + div.specimen__input[contenteditable][style=font-size;font-variation-settings;font-feature-settings]"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "technical, bold",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "On flat cobalt, ten rows: left the feature tag (SS01…SS05, frac, tnum, calt, ordn, case) and the affected glyphs in cream at ~96px; right the feature name and a dark navy sample sentence that fades out at the edge ('Retake the Deeping-Wall!', 'File → Resize', '1¾ tsp granulated', '€130.00 Per Unit', '»HAMBURG«')",
+      "feel": "Systematic, punchy",
+      "ux": "Rows carry onclick handlers (hover-enabling on touch); the sample likely switches the feature on hover/tap",
+      "learn": "Show the raw glyphs on one side and the feature in a themed sentence on the other: the catalogue explains and sells each feature",
+      "reconstruction": {
+        "layout": "Section ~2420px; 6-column grid, left 3 columns = tag + glyphs, right 3 = name + sentence; rows ~210px; sentences overflow right with a fade mask",
+        "typography": "Labels ~11px MD IO; glyphs and sentences ~96px MD Nichrome Bold (wght 700), glyphs cream, sentences navy",
+        "palette": [
+          "#3353fb",
+          "#f5ede0",
+          "#142635"
+        ],
+        "behaviour": "Feature classes on each preview (ss01…case) set font-feature-settings; fade via mask gradient on the right column",
+        "content": "Sci-fi phrases per feature ('Armour and Weaponry', 'Make Each Night', '20/20 Vision', 'La 1ª Luz del Quinto')",
+        "assets": "none",
+        "html": "section#opentype.cobalt > ul.features_list > li > label.feature_preview__grid > span × 2 + div.feature_preview.ss01[onclick] > h1.span_3 + h1.span_3.feature_preview__right"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "direct, graded",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Three big navy lines on sage stepping down in weight: 'Buy MD Nichrome ↗' in Ultra, 'Download Trial Fonts ↓' in Regular, 'Read the PDF Specimen →' in Infra",
+      "feel": "Confident, typographic",
+      "ux": "Links to the Mass-Driver shop, the trial page and the PDF",
+      "learn": "Rank the CTAs by weight: the primary action literally weighs most",
+      "reconstruction": {
+        "layout": "Section ~540px; three left-aligned lines at x≈100, ~96px tall each, stacked tightly",
+        "typography": "~96px MD Nichrome: wght 1000 / 400 / 100, navy, with arrow glyphs ↗ ↓ →",
+        "palette": [
+          "#cfd0c5",
+          "#142635"
+        ],
+        "behaviour": "none observed",
+        "content": "Buy, trial, PDF",
+        "assets": "none",
+        "html": "section#ctas.sage > h2.cta.ultra|regular|infra > a"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "plain, honest",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal",
+          "socials"
+        ]
+      },
+      "look": "Dark navy footer in three mono columns: 'About the Website' (set in MD IO, animations made with Coldtype, built in-house, no cookies, © 2021–24), 'About the Foundry' with social links, and 'Links' (buy, trial, PDF), orange links, logo badge at right",
+      "feel": "Transparent, low-key",
+      "ux": "Plain links",
+      "learn": "Tell visitors which tool made the animations and that there are no cookies: a colophon that builds trust",
+      "reconstruction": {
+        "layout": "Footer ~346px; three columns ~380px at x≈100, 520, 940; logo top-right",
+        "typography": "~13px MD IO; headings bold cream; links orange with ↗",
+        "palette": [
+          "#142635",
+          "#cfd0c5",
+          "#fa935e"
+        ],
+        "behaviour": "none",
+        "content": "Colophon, foundry blurb, links",
+        "assets": "MD logo SVG"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "06",
+      "reason": "Glyphs section (Vue glyphset__track / glyphset__follower, hidden on mobile) rendered empty in both captures: a blank 900px sage screen; component cannot be classified"
+    }
+  ],
+  "sequence": [
+    "hero/giant-wordmark",
+    "family-overview/style-word-grid",
+    "design-details/design-notes",
+    "type-tester/auto-fit-editable-lines",
+    "design-details/feature-index",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

@@ -787,7 +787,10 @@
         "updatedAt": "2026-10-20T21:00:16.528Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 3,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.614Z"
       }
     },
     "s-u-c-c-e-s-s-com": {
@@ -807,7 +810,10 @@
         "updatedAt": "2026-10-20T21:00:17.531Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 16,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.619Z"
       }
     },
     "djr-com-forma": {
@@ -828,7 +834,10 @@
         "updatedAt": "2026-10-20T21:00:18.360Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 20,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.625Z"
       }
     },
     "nichrome-mass-driver-com": {
@@ -848,7 +857,10 @@
         "updatedAt": "2026-10-20T21:00:18.670Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 8,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.628Z"
       }
     },
     "polychrome-mass-driver-com": {
@@ -868,7 +880,10 @@
         "updatedAt": "2026-10-20T21:00:18.985Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 12,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.630Z"
       }
     },
     "djr-com-roslindale": {
@@ -889,7 +904,10 @@
         "updatedAt": "2026-10-20T21:00:19.972Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 11,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.632Z"
       }
     },
     "system-mass-driver-com": {
@@ -910,7 +928,10 @@
         "updatedAt": "2026-10-20T21:00:20.182Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 9,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.634Z"
       }
     },
     "recursive-design": {
@@ -931,7 +952,10 @@
         "updatedAt": "2026-10-20T21:00:20.847Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 18,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.637Z"
       }
     },
     "shantellsans-com": {
@@ -952,7 +976,10 @@
         "updatedAt": "2026-10-20T21:00:21.039Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 8,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.639Z"
       }
     },
     "kermit-font-com": {
@@ -973,7 +1000,10 @@
         "updatedAt": "2026-10-20T21:00:21.171Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 7,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.641Z"
       }
     },
     "karrik-phantom-foundry-com": {
@@ -994,7 +1024,10 @@
         "updatedAt": "2026-10-20T21:00:21.421Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 10,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.644Z"
       }
     },
     "surt-font-eu": {
@@ -1015,7 +1048,10 @@
         "updatedAt": "2026-10-20T21:00:21.883Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 14,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.645Z"
       }
     },
     "neuedin-com": {
@@ -1036,7 +1072,10 @@
         "updatedAt": "2026-10-20T21:00:23.535Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 16,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.648Z"
       }
     },
     "exat-hottype-co": {
@@ -1057,7 +1096,10 @@
         "updatedAt": "2026-10-20T21:00:24.596Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 20,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.650Z"
       }
     },
     "nn-konrad-ch": {
@@ -1078,7 +1120,10 @@
         "updatedAt": "2026-10-20T21:00:25.338Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 12,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.652Z"
       }
     },
     "colroy-ch": {
@@ -1099,7 +1144,10 @@
         "updatedAt": "2026-10-20T21:00:25.805Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 11,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.653Z"
       }
     },
     "pivot-grotesk-world": {
@@ -1120,7 +1168,10 @@
         "updatedAt": "2026-10-20T21:00:26.872Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 12,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.655Z"
       }
     },
     "knitgrotesk-com": {
@@ -1141,7 +1192,10 @@
         "updatedAt": "2026-10-20T21:00:27.573Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 12,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.658Z"
       }
     },
     "nn-swinton-world": {
@@ -1162,7 +1216,10 @@
         "updatedAt": "2026-10-20T21:00:28.822Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 13,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.661Z"
       }
     },
     "abcdestragon-xyz": {
@@ -1182,7 +1239,10 @@
         "updatedAt": "2026-10-20T21:00:28.895Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 5,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.663Z"
       }
     },
     "djr-com-fit": {
@@ -1202,7 +1262,10 @@
         "updatedAt": "2026-10-20T21:00:29.850Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 15,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.665Z"
       }
     },
     "azeret-displaay-net": {
@@ -1222,7 +1285,10 @@
         "updatedAt": "2026-10-20T21:00:30.252Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 11,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.666Z"
       }
     },
     "booton-displaay-net": {
@@ -1243,7 +1309,10 @@
         "updatedAt": "2026-10-20T21:00:30.269Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 2,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.668Z"
       }
     },
     "andada-huertatipografica-com": {
@@ -1264,7 +1333,10 @@
         "updatedAt": "2026-10-20T21:00:32.168Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 14,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.670Z"
       }
     },
     "piazzolla-huertatipografica-com": {
@@ -1284,7 +1356,10 @@
         "updatedAt": "2026-10-20T21:00:32.489Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 14,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.672Z"
       }
     },
     "weg-huertatipografica-com": {
@@ -1305,7 +1380,10 @@
         "updatedAt": "2026-10-20T21:00:34.452Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 11,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.673Z"
       }
     },
     "betaniapatmos-huertatipografica-com": {
@@ -1326,7 +1404,10 @@
         "updatedAt": "2026-10-20T21:00:35.979Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 16,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.676Z"
       }
     },
     "input-djr-com": {
@@ -1346,7 +1427,10 @@
         "updatedAt": "2026-10-20T21:00:36.037Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 5,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.678Z"
       }
     },
     "djr-com-megabase-stripe": {
@@ -1366,7 +1450,10 @@
         "updatedAt": "2026-10-20T21:00:36.206Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 4,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.679Z"
       }
     },
     "halyard-dardenstudio-com": {
@@ -1387,7 +1474,10 @@
         "updatedAt": "2026-10-20T21:00:36.469Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 11,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.681Z"
       }
     },
     "ernestinefont-com": {
@@ -1407,7 +1497,10 @@
         "updatedAt": "2026-10-20T21:00:36.515Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 4,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.682Z"
       }
     },
     "liebling-fontef-com": {
@@ -1428,7 +1521,10 @@
         "updatedAt": "2026-10-20T21:00:36.611Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 4,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.684Z"
       }
     },
     "kachibuwa-com": {
@@ -1448,7 +1544,10 @@
         "updatedAt": "2026-10-20T21:00:36.639Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 2,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.686Z"
       }
     },
     "pacaembu-naipefoundry-com": {
@@ -1468,7 +1567,10 @@
         "updatedAt": "2026-10-20T21:00:37.434Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 20,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.688Z"
       }
     },
     "readvisions-com-marvin": {
@@ -1488,7 +1590,10 @@
         "updatedAt": "2026-10-20T21:00:37.947Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 12,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.689Z"
       }
     },
     "raphaelbastide-com-avara": {
@@ -1508,7 +1613,10 @@
         "updatedAt": "2026-10-20T21:00:37.962Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 3,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.691Z"
       }
     },
     "djr-com-gimlet": {
@@ -1528,7 +1636,10 @@
         "updatedAt": "2026-10-20T21:00:38.689Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 15,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.694Z"
       }
     },
     "cinetype-com-fabbrica": {
@@ -1549,7 +1660,10 @@
         "updatedAt": "2026-10-20T21:00:39.754Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 14,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.697Z"
       }
     },
     "floriankarsten-github-io-space-grotesk": {
@@ -1569,7 +1683,10 @@
         "updatedAt": "2026-10-20T21:00:40.086Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 11,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.699Z"
       }
     },
     "typearture-com-schijn-specimen": {
@@ -1590,7 +1707,10 @@
         "updatedAt": "2026-10-20T21:00:40.337Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 7,
+        "warnings": 0,
+        "updatedAt": "2026-10-27T22:51:11.701Z"
       }
     },
     "avantt-displaay-net": {

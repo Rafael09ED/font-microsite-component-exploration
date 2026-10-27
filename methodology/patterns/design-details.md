@@ -15,6 +15,7 @@ Sample: 36 blocks from 29 sites.
 | [system-diagrams](#system-diagrams) | 2 | The family's logic (weight curve, optical sizes, widths) explained with charts, like a design-system manual. | graphs, axes, curves |
 | [design-notes](#design-notes) | 2 | A sequence of design decisions, each with a visual and a short caption, as a carousel or video tiles. | slides or looping tiles per topic |
 | [highlighted-in-context](#highlighted-in-context) | 0 | Ligatures, alternates or special glyphs set inside a display sentence and picked out in an accent colour, discovered in context rather than in a catalogue. | accent-coloured glyphs inside a headline |
+| [hover-css-inspector](#hover-css-inspector) | 0 | A page-wide inspector: hovering any sample shows a crosshair and a tooltip with that text's CSS (size, leading, weight, features). | crosshair cursor, CSS tooltip |
 
 ## Rubric
 
@@ -131,5 +132,13 @@ A sequence of design decisions, each with a visual and a short caption, as a car
 Ligatures, alternates or special glyphs set inside a display sentence and picked out in an accent colour, discovered in context rather than in a catalogue.
 
 **Recognise by:** accent-coloured glyphs inside a headline
+
+_No instance in the sample yet._
+
+## hover-css-inspector
+
+A page-wide inspector: hovering any sample shows a crosshair and a tooltip with that text's CSS (size, leading, weight, features).
+
+**Recognise by:** crosshair cursor, CSS tooltip
 
 _No instance in the sample yet._

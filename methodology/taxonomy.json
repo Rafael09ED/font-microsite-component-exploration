@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "note": "Curated taxonomy derived from the 250-block sample (Phase 2). Raw labels in methodology/labels/ are left as observed; aliases map raw names to canonical ones. Edit this file to change the taxonomy, then run `npm run labels`.",
   "sections": {
     "hero": {
@@ -121,6 +121,10 @@
         "mini-game": {
           "definition": "The hero is a small playable game built from the page's own elements (e.g. Pong); collisions or score change the name's axes, CTAs can be game pieces.",
           "cues": "ball, paddles, score in the first screen"
+        },
+        "click-to-stamp": {
+          "definition": "An almost empty first screen; each click drops a word or phrase in the font at the pointer with randomised style or axis values, so the visitor composes the hero.",
+          "cues": "“click anywhere” prompt, scattered stamped words"
         }
       }
     },
@@ -175,6 +179,10 @@
         "info-popover": {
           "definition": "Section copy hidden behind a small info button and shown as a popover beside the specimen; the page shows type first, text on demand.",
           "cues": "(i) Info buttons"
+        },
+        "expandable-timeline": {
+          "definition": "A dated timeline of rows that expand into text cards on hover or click, with the year and title switching from light to heavy weight.",
+          "cues": "years in a column, accordion rows"
         }
       }
     },
@@ -249,6 +257,22 @@
         "pointer-xy-axes": {
           "definition": "The pointer's x and y position (or device tilt) each drive one variable axis, with edge tracks or labels showing live values; no sliders to grab.",
           "cues": "axis labels at the edges, moves with the cursor"
+        },
+        "mockup-generator": {
+          "definition": "A short text field (with style and colour pickers) whose input is rendered into a wall of realistic scenes (billboards, gadgets, screens), so visitors see their words in use.",
+          "cues": "input field above a grid of mockups"
+        },
+        "palette-editor": {
+          "definition": "One editable sample in a colour font with a colour picker per palette layer (outline, fill, gradient stops, randomise) that rewrites the palette live.",
+          "cues": "colour swatches beside a colour-font sample"
+        },
+        "write-on-playback": {
+          "definition": "Editable samples in a font with a time (write-on) axis: a play button draws the text stroke by stroke and a timeline slider scrubs it.",
+          "cues": "play button, timeline scrubber"
+        },
+        "xy-pad": {
+          "definition": "One editable sample beside a 2D pad: dragging one handle sets two axes at once (e.g. weight × optical size).",
+          "cues": "square pad with a crosshair handle"
         }
       }
     },
@@ -298,6 +322,10 @@
         "slider-morph-mockups": {
           "definition": "Realistic layouts (ads, tickets, flyers) each with an axis slider that morphs the whole design between the axis extremes.",
           "cues": "mockup plus slider underneath"
+        },
+        "size-waterfall": {
+          "definition": "The same running text at a descending series of labelled sizes, from display to caption, often in several weights side by side; sometimes a light/dark switch.",
+          "cues": "px labels, shrinking repeated text"
         }
       }
     },
@@ -348,6 +376,10 @@
         "highlighted-in-context": {
           "definition": "Ligatures, alternates or special glyphs set inside a display sentence and picked out in an accent colour, discovered in context rather than in a catalogue.",
           "cues": "accent-coloured glyphs inside a headline"
+        },
+        "hover-css-inspector": {
+          "definition": "A page-wide inspector: hovering any sample shows a crosshair and a tooltip with that text's CSS (size, leading, weight, features).",
+          "cues": "crosshair cursor, CSS tooltip"
         }
       }
     },
@@ -373,6 +405,10 @@
         "language-name-list": {
           "definition": "The supported languages listed by name, as small running text, columns, or a per-script table with credits and style counts; the list is the proof.",
           "cues": "long alphabetical list of language names"
+        },
+        "language-profile": {
+          "definition": "A deep dive into the one language the family was designed for: special characters with Unicode and keyboard notes, a map, the alphabet and a sample text.",
+          "cues": "map, alphabet, single-language focus"
         }
       }
     },
@@ -394,6 +430,10 @@
         "source-reset": {
           "definition": "A scan of a historical source (ad, specimen, cover) followed by the same text reset in the new typeface at the same scale.",
           "cues": "scan, then the same layout set fresh"
+        },
+        "lineage-lineup": {
+          "definition": "One letter from each historical model leading to the new typeface, lined up on a timeline with source, date and role: a typographic family tree.",
+          "cues": "row of the same letter across eras"
         }
       }
     },
@@ -407,6 +447,10 @@
         "embedded-social-posts": {
           "definition": "Embedded posts from users, with avatars and handles.",
           "cues": "tweet or toot cards"
+        },
+        "award-logo-strip": {
+          "definition": "A single row of award, prize or press logos as social proof, no quotes.",
+          "cues": "logo row, often under the hero"
         }
       }
     },

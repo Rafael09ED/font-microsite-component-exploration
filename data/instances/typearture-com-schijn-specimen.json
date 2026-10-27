@@ -1,0 +1,277 @@
+{
+  "slug": "typearture-com-schijn-specimen",
+  "extractedBy": "agent",
+  "summary": "A short WordPress specimen for Schijn, a faceted 'gemstone' display family with layerable cut and rough styles: a run of full-width poster images in saturated coral, yellow, pink and cyan (feature list in mixed styles, 'gemstone' in many languages, symbols and alphabets, two annotated callout posters, a dingbat wall), separated by short navy text interludes, ending with a Try or Buy line. All specimens are flat PNG images; fixed bars and a cookie dialog overlay the capture.",
+  "instances": [
+    {
+      "blocks": [
+        "11",
+        "12"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Two fixed bars (HTML only, repeated over the stitched crops): a white 'View all Typearture typefaces ▾' dropdown bar with a navy 'About | Contact | Legal | FAQ' strip, and a yellow bar with the T/a logo, 'Buy | Try | Specimen' at the left, 'Schijn: a multifaceted family' in pink in the centre and an Instagram icon at the right"
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "glamorous, loud, playful",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "multiple",
+        "rangeShown": "whole-family",
+        "navVisible": true
+      },
+      "look": "On coral, five centred lines 'Four different styles / multilingual support / opentype alternates / SMALL CAPS/oldstyle / and ☞ dingbats' in cream and yellow, each word in a different faceted style (outlined cut, filled, rough, small caps), with dingbat glyphs inline; a cookie dialog covers the bottom-right corner",
+      "feel": "Sparkly, exuberant",
+      "ux": "static image; Buy and Try sit in the fixed yellow bar above",
+      "learn": "Write the feature list as the hero sentence and set each word in a different style: the list proves itself as you read it",
+      "reconstruction": {
+        "layout": "Full-width image 1440×662px under the 88px of fixed bars; 5 centred lines, ~115px line pitch, text block ~1140px wide",
+        "typography": "Schijn styles (Cut Deep, Cut Middle, Cut Shallow, Rough, with their Inner layers) at ~100px, cream #f5e1a0 / yellow #f4f06a on coral; small caps line; inline dingbats (pointing hand, gem)",
+        "palette": [
+          "#fd4f6a",
+          "#f8706a",
+          "#f4b16b",
+          "#f5cb6b",
+          "#fdf965"
+        ],
+        "behaviour": "none",
+        "content": "The family's feature list",
+        "assets": "One PNG poster (01-1.png)"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "05",
+        "08"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "poetic, concise",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Three short navy interludes between the posters, each a bold white heading and one or two small paragraphs: 'A multifaceted gemstone font' (gemstone cutting and raw stones as inspiration), 'The perfect cut' (character set beyond A–Z, dingbats of toil and glamour), 'A cut between' (Rough dingbats for mining's danger, Cut for luxury: 'limo to dump-truck and champagne to water')",
+      "feel": "Thoughtful pause between loud panels",
+      "ux": "static",
+      "learn": "Use a dark, quiet text band between loud poster images: the rhythm gives each poster its own entrance",
+      "reconstruction": {
+        "layout": "Full-width navy bands 230–365px tall; one text column ~750px wide starting at x≈340, vertically centred",
+        "typography": "Heading ~16px Degular Bold white; body ~16px Degular Regular white, leading ~1.5 (the specimen font itself is not used for live text)",
+        "palette": [
+          "#1a1965",
+          "#16155b",
+          "#f9f9f9"
+        ],
+        "behaviour": "none",
+        "content": "Concept copy: gemstone cutting, toil vs glamour",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "language-support",
+      "variant": "diacritic-word-wall",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "festive, multilingual",
+        "mobile": "adapts",
+        "method": "word-wall",
+        "nonLatin": false
+      },
+      "look": "On lemon yellow, five lines of the word 'gemstone' translated: 'GEMSTONE – Đá quý, Dārgakmens, PÄRL, Drágakő, KŌHATU, KLENOT, Edelstein, Juweel, edelsteen', in coral and pink faceted styles with small caps and inline dingbats",
+      "feel": "Jewel-box, cheerful",
+      "ux": "static image",
+      "learn": "Translate the font's theme word into many languages to get a word wall full of diacritics that still stays on concept",
+      "reconstruction": {
+        "layout": "Full-width image 1440×662px, five left-aligned lines from x≈110, ~115px line pitch, words separated by commas",
+        "typography": "Schijn Cut and Rough styles ~100px, coral #f77168 and pink on yellow, mixed caps/small caps",
+        "palette": [
+          "#fdf965",
+          "#f6d06a",
+          "#f77168",
+          "#f68d67"
+        ],
+        "behaviour": "none",
+        "content": "'Gemstone' in Vietnamese, Latvian, Swedish, Hungarian, Maori, Czech, German, Dutch…",
+        "assets": "One PNG poster (02-1.png)"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04",
+        "07"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "candy-coloured, bold",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Three poster panels: on hot pink, white outlined symbols and figures composed as bracketed formulas '{#72*—8÷61†} <≤56+34=90≥> [1×AB⟹YZ÷3] <¥24.081.720>'; on cyan, the accented uppercase 'ĂBĈDĚFGĦIJKŁMN…' and lowercase 'abĉdĕfğhijklmnö / opqrşţuvwxÿƶ' in pink faceted styles; on yellow, a wall of ~30 dingbats (pointing hands, champagne glasses, rings, trucks, gems, bottles) in coral line art",
+      "feel": "Playful, inventory-like",
+      "ux": "static images",
+      "learn": "Compose symbols into mock formulas and brackets rather than listing them: the character set reads as a graphic line",
+      "reconstruction": {
+        "layout": "Three full-width 1440×662px images; symbols in 4 centred lines; alphabets in 4 lines (2 caps, 2 lowercase); dingbats in 3 rows of ~11",
+        "typography": "Glyphs ~100–120px in Schijn Cut (outlined with Inner fill layers), white on #fe70e6, pink on #03eefe, coral on #fdfa66",
+        "palette": [
+          "#fe70e6",
+          "#03eefe",
+          "#fdfa66",
+          "#fbf5f8",
+          "#fd4f6b"
+        ],
+        "behaviour": "none",
+        "content": "Math symbols, tabular and oldstyle figures, arrows, punctuation, accented A–Z, dingbats",
+        "assets": "Three PNG posters (03-1, 04-1, 06-1)"
+      }
+    },
+    {
+      "blocks": [
+        "06",
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "technical-meets-bling",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "features",
+          "alternates"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "Two callout posters: on coral, 'Glitteringer / Facet&Facet' in yellow faceted caps on a faint construction grid, with leader lines to small labels ('Capital height below ascender', 'Alternate shapes for various characters', 'Small capitals blend seamlessly with lower and uppercase', 'Optimal angles for maximum light reflection', 'Windows in the gemstones without losing brilliance', 'Choice of capital and small capital ampersand'); on navy, 'Gloss / Facet' with a pointing-hand dingbat in multicolour layered styles (pink, cyan, yellow facets) and labels ('Weights add detail to dingbats', 'Different weight combinations create depth', 'Five facet styles allow endless chromatic possibilities'…)",
+      "feel": "Expert, glitzy",
+      "ux": "static images",
+      "learn": "Annotate a display face like an engineering drawing (grid, dotted baselines, leader lines) to make its decorative logic look rigorous",
+      "reconstruction": {
+        "layout": "Two 1440×662px images; two words stacked centrally at ~250px cap height; 5–6 labels above and below connected by thin vertical leader lines ending in dots; dotted baselines across",
+        "typography": "Display words in Schijn Cut/Rough layered (CutDeep + CutDeepInner etc.) ~250px; labels ~14px heavy rounded sans (Degular Bold-like), lowercase, white or yellow",
+        "palette": [
+          "#fd4f6b",
+          "#fbf367",
+          "#1a1965",
+          "#fe70e6",
+          "#03eefe",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Design rationale as callouts",
+        "assets": "Two PNG posters (05-1, 09-1); the layered colour effect comes from stacking Cut and Inner fonts in different colours"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "brief, upbeat",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Navy closing band: 'Schijn, two families, endless facets.' and 'Get the full package and receive the Variable and SVG-color fonts as an extra!' centred in white, then two small yellow buttons 'TRY' or 'BUY'",
+      "feel": "Modest close",
+      "ux": "Buttons link to the Typearture product page (trial and purchase)",
+      "learn": "Name the bonus (variable and SVG-colour fonts with the full package) right next to the buttons",
+      "reconstruction": {
+        "layout": "~300px navy band, two centred text lines, buttons ~30×20px with 'or' between",
+        "typography": "~14–21px Degular Regular/Bold white; buttons ~11px Bold caps navy on yellow",
+        "palette": [
+          "#1a1965",
+          "#13125a",
+          "#fdf965",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Package pitch and Try/Buy",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "13",
+      "reason": "fixed cookie consent dialog (Termly), no crop; it covers the bottom-right of most crops"
+    }
+  ],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "story/origin-reference",
+    "language-support/diacritic-word-wall",
+    "glyph-table/category-lines",
+    "design-details/annotated-specimen",
+    "checkout/link-out-cta"
+  ]
+}

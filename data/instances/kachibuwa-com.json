@@ -1,0 +1,88 @@
+{
+  "slug": "kachibuwa-com",
+  "extractedBy": "agent",
+  "summary": "A one-screen variable-font concept site: the katakana word 'カチカチ' fills a black screen and the pointer position drives two custom axes (KIKI↔BOUBA stroke shape on x, CONTRAST on y), with the live percentages printed at the four screen edges. There is no scrolling content; an ABOUT page and a light/dark invert button sit in a thin top bar.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "minimal, technical",
+        "mobile": "adapts"
+      },
+      "look": "Thin top bar (never cut as its own block, attached to screen 00): underlined 'KACHI-BUWA' + '• A Katakana Variable Font Concept' at the left, 'ABOUT' and a small white circle button at the right, a white hairline rule below",
+      "feel": "Quiet, lab-like",
+      "ux": "Name links home, ABOUT opens a separate page, the circle button toggles the page between black-on-white and white-on-black (html.invert)",
+      "learn": "A single round button as the whole theme switch keeps the chrome down to one line",
+      "reconstruction": {
+        "layout": "Full-width bar ~40px tall, 12px side padding, 1px white rule at the bottom; circle button ~16px at the far right",
+        "typography": "~12px MS Gothic (monospaced Japanese system font, served as a webfont), mixed case, name underlined",
+        "palette": [
+          "#020202",
+          "#fcfcfc"
+        ],
+        "behaviour": "button.btn-invert toggles the 'invert' class on <html>, swapping background and text colours",
+        "content": "Name and one-line description",
+        "assets": "none",
+        "html": "div.info > div#in > p (name link + tagline), div#toplink a[href=about.html], button.btn.btn-invert"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "type-tester",
+      "variant": "pointer-xy-axes",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "conceptual, playful, minimal",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "axes"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "The whole site and its hero: 'カチカチ' (kachi-kachi, 'click-clack') in white, ~250px tall, centred on black, with four small edge labels: 'NO CONTRAST 50%' top centre, 'CONTRAST 50%' bottom centre, 'KIKI 0%' left middle, 'BOUBA 0%' right middle. Screen 01 shows a second state (KIKI/BOUBA 50%) where the strokes turn sharp and the horizontal strokes thin into long hairlines that run past the letters",
+      "feel": "Experimental, tactile, witty (the kiki/bouba sound-shape effect as a font axis)",
+      "ux": "No handles to grab: moving the pointer left↔right blends the stroke ends from spiky 'kiki' to round 'bouba' (axis KIKI), up↔down blends from no contrast to high contrast (axis CONT); the edge labels count the percentages live. The heading carries data-reset and a 'contenteditable' class, so the word can apparently be retyped and reset. The capture is a wheel capture: the second screen is the same component in another axis state",
+      "learn": "Name the four edges of the screen after the extremes of two axes and print their live percentages there: the viewport itself becomes the 2D slider and its legend",
+      "reconstruction": {
+        "layout": "Single 100vh black screen, no scroll; word centred horizontally and vertically, ~1080px wide (x≈190–1270) and ~250px tall; edge labels absolutely positioned: top centre (y≈52px), bottom centre (y≈886px), left middle (x≈14px), right middle (right≈14px); empty #left and #right divs split the screen in halves",
+        "typography": "Word: Kachi6GX variable (custom axes KIKI 0–100 and CONT 0–100) at ~280px, white; labels ~12px MS Gothic uppercase, tracked slightly, white",
+        "palette": [
+          "#020202",
+          "#fcfcfc",
+          "#2e2e2e"
+        ],
+        "behaviour": "mousemove → x maps to KIKI 0–100% (BOUBA label shows the complement), y maps to CONT 0–100% (top label NO CONTRAST, bottom CONTRAST); font-variation-settings updated on h1#hl and the label spans #backcount, #slantcount, #contrast_onecount, #contrast_twocount updated; white flash for ~0.5s on load before the invert class applies",
+        "content": "One onomatopoeic katakana word, カチカチ, the same sound game as the kiki/bouba experiment",
+        "assets": "Custom variable katakana font (Kachi6GX.ttf); MS Gothic for UI",
+        "html": "div.contrast_one/#contrast_onecount, div.contrast_two/#contrast_twocount, div.backslant/#backcount (KIKI), div.slant/#slantcount (BOUBA); section.cover h1#hl.mainheading.contenteditable[data-reset=カチカチ]; credits in an HTML comment: inspired by Times New Arial (Liebermann Kiepe Reddemann, Elias Hanzer) and Jonas Pelzer"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "type-tester/pointer-xy-axes"
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "slug": "cinetype-com-fabbrica",
+  "extractedBy": "agent",
+  "summary": "A Webflow page on the Cinetype foundry site that reads as an illustrated essay: a narrow white text column about Fabbrica's architectural proportions, technical shapes and technical-drawing warmth, interleaved with dark full-width figure images (annotated letters, archival and product photos, a DIN comparison slider, Default vs Sharp corners, stylistic-set slides, feature catalogue). Every specimen is a static image or video; there is no tester, and buying links out to the distributor.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "White foundry header: 'CINETYPE' in widely tracked caps at the left, small links 'Typefaces · Custom ▾ · Writing · About · Licensing' at the right; a fixed slate cookie banner ('This website uses cookies… Got it!') covers the bottom of every screen in the capture"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "discreet",
+        "mobile": "adapts",
+        "destination": "distributor",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Small heading 'Fabbrica' and a three-line description, with a thin outlined box button 'Buy Fabbrica / or Get Trial fonts' on the right; the same button returns after 'Why Fabbrica?' near the end (seen on mobile, not cut as a desktop block)",
+      "feel": "Understated, editorial",
+      "ux": "Links to the distributor C-A-S-T, where purchase and trials happen",
+      "learn": "One two-line outlined button near the title and again after the conclusion is enough for an essay-style page",
+      "reconstruction": {
+        "layout": "Column 960px at x=240: description ~620px left, button ~170×50px right",
+        "typography": "Description ~20px Fabbrica Book dark slate; button ~11px Fabbrica, two lines centred, 1px border",
+        "palette": [
+          "#fbfcfc",
+          "#3c3e4c",
+          "#1b1c21"
+        ],
+        "behaviour": "none",
+        "content": "'Buy Fabbrica or Get Trial fonts'",
+        "assets": "none",
+        "html": "a.linktwocolumns[href=c-a-s-t.com/typefaces/fabbrica]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "sober, engineered",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "buy",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Below the intro text, an image of 'Fabbrica' in large near-black Medium on white with the tagline 'A typeface with a technical, utilitarian aesthetic' in a light weight underneath; the cookie banner covers the tagline's second line",
+      "feel": "Calm, industrial",
+      "ux": "static image; it arrives after the intro and the buy button rather than first",
+      "learn": "A plain name-plus-tagline plate inside the text column keeps an essay-first page modest while still showing the face big",
+      "reconstruction": {
+        "layout": "Image 752×320px in the column at x=250, y≈560; name centred ~600px wide; tagline two lines centred below",
+        "typography": "'Fabbrica' ~160px Fabbrica Medium, tight tracking, #1b1c21; tagline ~26px Fabbrica Light",
+        "palette": [
+          "#fdfdfd",
+          "#0f0f12",
+          "#3c3d4b"
+        ],
+        "behaviour": "none",
+        "content": "Name and positioning line",
+        "assets": "One JPG (fabbrica_01intro.jpg)"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "04",
+        "06",
+        "09",
+        "12",
+        "15",
+        "18",
+        "21",
+        "24",
+        "28",
+        "32",
+        "35"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "considered, design-theory",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "archival",
+          "photo",
+          "diagram"
+        ],
+        "length": "long"
+      },
+      "look": "A single white text column of short sections with bold small headings ('Architectural proportions', 'Technical shapes', 'Warmth and rationality', 'The font family', 'Why Fabbrica?'), letters under discussion bolded inline (C, G and S; A, V and W), each section followed by a dark figure image with a monospace caption",
+      "feel": "Thoughtful, like a design journal",
+      "ux": "Linear reading; inline links to sources (Signs of Italy, Tecnostyl)",
+      "learn": "Set the essay itself in the typeface at text size, bold the exact letters being discussed, and caption every figure in the mono companion: the page is a text specimen of three styles",
+      "reconstruction": {
+        "layout": "Column 752px at x=250; sections 150–260px tall separated by ~25px; figures 846px wide break slightly out of the column to the right",
+        "typography": "Headings ~16–20px Fabbrica Bold; body ~16px Fabbrica Book, leading ~1.6, dark slate #3c3e4c; inline glyph names in Bold",
+        "palette": [
+          "#f8f9f9",
+          "#3c3e4c",
+          "#ced0cf",
+          "#1b1c21"
+        ],
+        "behaviour": "none",
+        "content": "Real design rationale: anti-geometric geometric sans, shifted barycentre after Art Deco and Hoffmann, technical lettering (DIN), tube-steel and Rapidograph warmth, lettering guides, 8 weights + Sharp, alternates",
+        "assets": "none (text)"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "10",
+        "11"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "analytical, architectural",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "Two figures: on near-black, 'CAWEGES' in white with hatched bars and short rules marking where each letter's mass sits (high or low barycentre), above 'CONCRETE ARCHITECTURAL QUALITY OF THE ALPHABET' in thin caps; then on white, 'B K N' in black with their counters filled light blue and white arrows showing the direction of the 'forces' inside each letter (top of the figure hidden by the cookie banner)",
+      "feel": "Diagrammatic, precise",
+      "ux": "static images with a mono caption ('The masses of white within the letters (marked in Blue…) act like forces…')",
+      "learn": "Shade the counters and draw force arrows inside them: the abstract idea of 'internal dynamism' becomes visible in three letters",
+      "reconstruction": {
+        "layout": "Figure 1: 846×457px dark panel, word ~600px wide centred, two caption lines below; figure 2: 752×204px white, three letters ~170px tall spaced evenly",
+        "typography": "'CAWEGES' ~120px Fabbrica Regular white, hatching as thin diagonal lines; sub-line ~42px Fabbrica Thin caps; 'BKN' ~170px Fabbrica Bold black with #8ec5d9 counters; captions ~13px Fabbrica Mono grey",
+        "palette": [
+          "#16171c",
+          "#f4f5f4",
+          "#8ec5d9",
+          "#141619",
+          "#3c3e4c"
+        ],
+        "behaviour": "none",
+        "content": "Barycentre and counter-force analysis",
+        "assets": "Two annotated JPG figures"
+      }
+    },
+    {
+      "blocks": [
+        "07",
+        "08",
+        "16",
+        "17",
+        "19",
+        "20",
+        "22",
+        "23",
+        "26",
+        "27"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "material, historical",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "archival",
+          "photo",
+          "diagram"
+        ],
+        "length": "medium"
+      },
+      "look": "The essay's reference figures, each with a monospace caption: Josef Hoffmann's 1903 Purkersdorf Sanatorium rendering with its lettering; a Gilbert Rohde tubular-steel beverage cart on black beside 'tubular steel design' with a magnifier circle on the l; a technical drawing with Rapidograph pens; an AutoCAD 2021 screenshot of a dimensioned rounded slot ('22,79'); a 4-slide slider of photos of orange Standardgraph lettering guides",
+      "feel": "Tactile, nostalgic for the drafting table",
+      "ux": "Static images, except the lettering-guide slider (Webflow slider, arrows and dots, 4 slides)",
+      "learn": "Trace each design detail back to a physical tool or object (steel tube, technical pen, stencil guide) and show the object: the 'warmth' claim becomes concrete",
+      "reconstruction": {
+        "layout": "Figures 846px wide (x=250), 400–560px tall; a few split 50/50 (photo | type on dark); caption below each in the 752px column",
+        "typography": "In-figure type in Fabbrica (e.g. 'tubular steel design' ~95px Regular white with a circular zoom of the l); captions ~13px Fabbrica Mono, grey, underlined links",
+        "palette": [
+          "#b9b2a8",
+          "#16171a",
+          "#dae4ec",
+          "#ac7351",
+          "#fbfcfc"
+        ],
+        "behaviour": "Slider: w-slider with arrows and round dots, manual",
+        "content": "Real references: Hoffmann (1903), Rohde (CC BY 3.0, Brooklyn Museum), Rapidograph, AutoCAD, Standardgraph/Leroy lettering sets",
+        "assets": "Archival rendering, product photo, desk photo, CAD screenshot, 4 lettering-guide photos",
+        "html": "div.w-slider > div.w-slider-mask > div.w-slide ×4 + w-slider-arrow-left/right + w-slider-nav.w-round"
+      }
+    },
+    {
+      "blocks": [
+        "13",
+        "14"
+      ],
+      "type": "comparison",
+      "variant": "versus-tabs",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "pangram",
+        "tone": "neutral, comparative",
+        "mobile": "adapts"
+      },
+      "look": "A dark slider panel: 'Technical lettershapes / abcdefghijklmnopqrstuvwxyz' set in white with the typeface name under it ('DIN 2014' in the capture); three dots switch between DIN 1451, DIN 2014 and Fabbrica; mono caption 'Fabbrica has more generous proportions, looser spacing and higher contrast than DIN…'",
+      "feel": "Fair, matter-of-fact",
+      "ux": "Dots or arrows change the slide; the same text and position are kept so the shapes can be compared by flipping",
+      "learn": "Set the rival and your font on identical slides and let visitors flip between them: differences in spacing and contrast jump out in the flicker",
+      "reconstruction": {
+        "layout": "846×288px dark slide; two centred text lines and a small typeface label; dots ~8px centred at the bottom",
+        "typography": "Sample ~40px in each typeface, white; label ~14px caps",
+        "palette": [
+          "#19181e",
+          "#ffffff",
+          "#8d8d90"
+        ],
+        "behaviour": "Webflow w-slider, 3 slides (fabbrica_04DIN_FabbricaA/B/C.jpg), manual",
+        "content": "'Technical lettershapes' + lowercase alphabet",
+        "assets": "Three slide images"
+      }
+    },
+    {
+      "blocks": [
+        "25"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "experimental",
+        "mobile": "adapts",
+        "subject": [
+          "italics"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "Black looping video of 'Hill dinamo / material dream' in white italic, captioned 'A concept set for Fabbrica Slanted and Backslanted'",
+      "feel": "Sketch-like, forward-looking",
+      "ux": "Autoplay loop (the caption implies it alternates slanted and backslanted forms; only one frame is in the capture)",
+      "learn": "Animate one phrase between slant directions to float a concept style without a full specimen",
+      "reconstruction": {
+        "layout": "846×300px black video box, two centred lines",
+        "typography": "~70px Fabbrica Slanted Regular white",
+        "palette": [
+          "#020202",
+          "#f4f4f4"
+        ],
+        "behaviour": "<video autoplay loop> (FabbricaSlanted-transcode.mp4/webm)",
+        "content": "Nonsense phrase 'Hill dinamo material dream'",
+        "assets": "Looping MP4/WebM"
+      }
+    },
+    {
+      "blocks": [
+        "29",
+        "30",
+        "31"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, evidential",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "optical-size"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "'corners' in white on dark, split by a thin diagonal line: the left half labelled 'Default' (rounded corners), the right 'Sharp' (vertical side labels); then two circular magnifications of a 10 pt laser-printed n stem ('0.35 mm') labelled Default and Sharp",
+      "feel": "Forensic, convincing",
+      "ux": "static; mono caption explains that sharp corners compensate for print rounding at small sizes",
+      "learn": "Prove a subtle variant with a microscope: magnify printed output of both versions so the reason for the variant is visible",
+      "reconstruction": {
+        "layout": "Figure 1: 846×229px, word ~760px wide, diagonal divider through the middle, rotated side labels; figure 2: 846×457px, two 330px circles side by side with labels below",
+        "typography": "'corners' ~150px Fabbrica Regular white; labels ~16px Fabbrica, rotated 90°; magnifier annotations ~14px",
+        "palette": [
+          "#17181d",
+          "#fbfcfc",
+          "#959597",
+          "#18191e"
+        ],
+        "behaviour": "none",
+        "content": "Default vs Sharp versions of the family",
+        "assets": "Split-word figure and two microscope photos"
+      }
+    },
+    {
+      "blocks": [
+        "33",
+        "34"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "clear, didactic",
+        "mobile": "adapts",
+        "subject": [
+          "alternates",
+          "features"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "Dark slider: 'VERNACULAR' on top, a down arrow through a white circle tagged 'ss02' with the label 'Streamlined Uppercases', and 'VERNACULAR' again below with the alternate forms; dots switch to the other sets (e.g. 'ARCHETYPE' → 'Constructed Style' on mobile)",
+      "feel": "Diagrammatic, tidy",
+      "ux": "Three slides, one stylistic set each, flipped with dots",
+      "learn": "Draw the feature as a flow (word → tag bubble → word) so the OpenType tag reads as the operation that transforms the text",
+      "reconstruction": {
+        "layout": "846×457px slide; two words ~760px wide stacked with ~120px between; arrow with 30px tag circle and label at its right",
+        "typography": "Words ~75px Fabbrica Regular white caps, tracked; tag ~10px in a white circle; label ~16px",
+        "palette": [
+          "#16171c",
+          "#ffffff",
+          "#b0b1b3"
+        ],
+        "behaviour": "Webflow w-slider, 3 slides (stylisticSetA/B/C), manual",
+        "content": "Words chosen for E, K, N, Q, R, A, V, W alternates",
+        "assets": "Three slide images"
+      }
+    },
+    {
+      "blocks": [
+        "37"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "industrial, product-like",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "single"
+      },
+      "look": "A product data sheet for a switch plate 'Light Up' (© Officine Morelli): title in Light, 'SPECIFICATIONS' list (Horizontal Assembly, Finishing: Burnished Steel, UNI 503, Toggle Switch), a dimensioned front drawing (120 × 80 mm) and side view, and a tilted white plate",
+      "feel": "Catalogue, engineered",
+      "ux": "static",
+      "learn": "Show the face in its natural habitat, a technical product sheet with dimensions and numbered specs",
+      "reconstruction": {
+        "layout": "846×457px dark panel; text and drawing on the left half, object at right, vertical credit at the right edge",
+        "typography": "Title ~40px Fabbrica Light; spec heading ~14px Bold caps; list ~16px Regular; dimensions ~12px",
+        "palette": [
+          "#18191e",
+          "#fcfefd",
+          "#2c2d32"
+        ],
+        "behaviour": "none",
+        "content": "Fictional product specification",
+        "assets": "One composed image (fabbrica_10designA.jpg)"
+      }
+    },
+    {
+      "blocks": [
+        "38",
+        "39"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "plain, confident",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Two dark panels with the alphabet in upper/lower pairs at display size: 'Aa Bb Cc Dd / Ee Ff Gg Hh Ii / Jj Kk Ll Mm' and 'Nn Oo Pp Qq / Rr Ss Tt Uu Vv / Ww Xx Yy Zz' in white, centred",
+      "feel": "Clean, specimen-sheet",
+      "ux": "static images",
+      "learn": "Case pairs in centred rows give a full A–Z at display size in two screens",
+      "reconstruction": {
+        "layout": "Two 846×457px panels, 3 centred rows each, ~130px row pitch",
+        "typography": "~100px Fabbrica Medium white, wide word spaces between pairs",
+        "palette": [
+          "#16171c",
+          "#ffffff",
+          "#1b1c21"
+        ],
+        "behaviour": "none",
+        "content": "A–Z case pairs",
+        "assets": "Two images (designC, designD)"
+      }
+    },
+    {
+      "blocks": [
+        "40",
+        "41",
+        "42"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "systematic",
+        "mobile": "adapts",
+        "subject": [
+          "features"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "Dark feature catalogue: circled figures ⓪–⑨ and indices figures (white discs) around the default '0123456789', each linked by an arrow to a white tag bubble (ss04-like, 'ss05') with its name; then rows 'Stacking Fractions' (8 1/2 → 8½, 'frac'), 'Horizontal Fractions' (5 1/10 → 5⅒, 'frac + ss20'), 'Subscripts' (CO₂ H₂SO₄, 'subs'), 'Superscripts' (2⁵ 10² 38⁴, 'sups') separated by hairlines",
+      "feel": "Orderly, reference-like",
+      "ux": "static; mono caption lists the extra figure sets",
+      "learn": "Pair each input → output with its feature tag in a round badge: the catalogue doubles as usage instructions",
+      "reconstruction": {
+        "layout": "Two 846×457px panels; panel 1 three centred rows of figures with tag bubbles between; panel 2 four rows: sample left (~400px), tag badge + label right, 1px rules",
+        "typography": "Figures ~45px Fabbrica Regular white; tags ~9px in 26px white circles; labels ~16px Fabbrica",
+        "palette": [
+          "#16171b",
+          "#ffffff",
+          "#3b3d4b",
+          "#4b4c53"
+        ],
+        "behaviour": "none",
+        "content": "OpenType figure sets and fraction/sub/sup features",
+        "assets": "Two images (11OTfeaturesA/B)"
+      }
+    },
+    {
+      "blocks": [
+        "43"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "minimal, corporate",
+        "mobile": "adapts",
+        "contains": [
+          "socials",
+          "contact",
+          "legal"
+        ]
+      },
+      "look": "Dark slate footer with three small columns 'Explore' (Custom, Typefaces, About, Licensing, Privacy), 'Social Media' (Twitter, Instagram), 'Contacts' (email) and a copyright line; the green 'Got it!' cookie banner sits over its bottom",
+      "feel": "Quiet",
+      "ux": "Plain links",
+      "learn": "A three-column foundry footer is enough when the page itself is an essay",
+      "reconstruction": {
+        "layout": "Full-width ~240px band; columns ~90px wide from x≈250, 20px rows",
+        "typography": "~11px DM Sans; headings Bold white, links grey",
+        "palette": [
+          "#191a1f",
+          "#3d3f4d",
+          "#ffffff",
+          "#8be04e"
+        ],
+        "behaviour": "none",
+        "content": "Foundry links and copyright © 2020 Cinetype Limited",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "36",
+      "reason": "empty white spacer div (40px)"
+    },
+    {
+      "block": "44",
+      "reason": "fixed cookie banner overlay (no crop), covers part of many crops"
+    }
+  ],
+  "sequence": [
+    "checkout/link-out-cta",
+    "hero/giant-wordmark",
+    "story/essay",
+    "design-details/annotated-specimen",
+    "story/origin-reference",
+    "comparison/versus-tabs",
+    "design-details/axis-explainer",
+    "design-details/feature-before-after",
+    "specimen-showcase/in-use-mockups",
+    "glyph-table/category-lines",
+    "design-details/feature-index",
+    "footer/link-columns"
+  ]
+}

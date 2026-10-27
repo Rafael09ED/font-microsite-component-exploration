@@ -10,6 +10,7 @@ Sample: 2 blocks from 2 sites.
 |---|---|---|---|
 | [quote-columns](#quote-columns) | 1 | User quotes set in the font, in plain columns. | quotes with names |
 | [embedded-social-posts](#embedded-social-posts) | 1 | Embedded posts from users, with avatars and handles. | tweet or toot cards |
+| [award-logo-strip](#award-logo-strip) | 0 | A single row of award, prize or press logos as social proof, no quotes. | logo row, often under the hero |
 
 ## quote-columns
 
@@ -34,3 +35,11 @@ Embedded posts from users, with avatars and handles.
 | example | look | feel | ux | learn |
 |---|---|---|---|---|
 | [rubjo-github-io-victor-mono#12](../../archive/rubjo-github-io-victor-mono/blocks/12.jpg) | Dark charcoal, italic cursive heading 'What people are saying', row of embedded X/Twitter cards | Community-driven, informal | Embedded posts link to the originals | For a free developer font, real public posts by known devs are the strongest proof of adoption |
+
+## award-logo-strip
+
+A single row of award, prize or press logos as social proof, no quotes.
+
+**Recognise by:** logo row, often under the hero
+
+_No instance in the sample yet._

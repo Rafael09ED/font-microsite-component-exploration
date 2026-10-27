@@ -1,0 +1,351 @@
+{
+  "slug": "karrik-phantom-foundry-com",
+  "extractedBy": "agent",
+  "summary": "A small bilingual (French roman / English italic) one-pager on black for Phantom Foundry's open-source grotesque, commissioned by Cercle magazine's ghost issue. Each chapter gets its own text colour (orange myth, violet sources, pink specimen, teal glyphs, yellow download), and the story ties the name to the Breton Ankou's cart and to vernacular 19th-century sans specimens.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "stark, nocturnal",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "Black screen, 'Karrik / regular, italic' in two centred white lines anchored to the bottom third, 'italic' set in the italic; tiny grey nav top-left",
+      "feel": "Quiet and dark, a title card",
+      "ux": "static; the name first renders in a serif fallback and swaps to Karrik after ~2s",
+      "learn": "Make the hero line list the styles in their own style ('regular, italic'): the name and the family overview in one phrase",
+      "reconstruction": {
+        "layout": "Full screen 1440×900 black; two centred lines, baseline of the second at ~y=820; nav at 20px insets",
+        "typography": "~200px Karrik Regular and Italic, leading ~0.85, tight tracking, white #f0f0f0",
+        "palette": [
+          "#020202",
+          "#f0f0f0",
+          "#707070"
+        ],
+        "behaviour": "none",
+        "content": "Name plus the two style names",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "matter-of-fact, bilingual",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "A ~30px orange paragraph on black: French in roman, then the English translation running on in italic",
+      "feel": "Direct, slightly eerie in orange on black",
+      "ux": "static",
+      "learn": "Run the translation on in italic in the same paragraph: bilingual copy becomes a roman/italic specimen",
+      "reconstruction": {
+        "layout": "Column x=195–1245 (1050px), ~264px tall, starts 100px below the hero",
+        "typography": "~30px Karrik Regular, French roman then English Italic, leading ~1.2, orange",
+        "palette": [
+          "#060307",
+          "#f96d01"
+        ],
+        "behaviour": "none",
+        "content": "Commission facts: Cercle magazine's ghost issue, March–October 2019, designers Jean-Baptiste Morizot and Lucas Le Bihan",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "03"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "folkloric, macabre",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "photo"
+        ],
+        "length": "medium"
+      },
+      "look": "Two side-by-side duotone photos in burnt orange and black of Ankou statues (a skeleton relief at Ploudiry's ossuary, a cloaked figure at Noyal-Pontivy), small orange captions, then a long violet bilingual paragraph on the Breton myth (the paragraph sits in a gap between blocks and was never cut; seen in the storyboard)",
+      "feel": "Gothic, local, folkloric",
+      "ux": "static",
+      "learn": "Tie the font's name to a folk legend (the Ankou's cart 'Karrik') and show the legend with duotone photos in the chapter colour",
+      "reconstruction": {
+        "layout": "Two equal figures 690×520px at x=20 and x=730 with 20px gutter; captions under each; then the paragraph in the same 1050px column as the intro (~690px tall region, never cut)",
+        "typography": "Captions ~20px Karrik Regular orange; paragraph ~30px Regular + Italic, violet",
+        "palette": [
+          "#060307",
+          "#ee6908",
+          "#712d0a",
+          "#7b5bd6"
+        ],
+        "behaviour": "none",
+        "content": "Ankou mythology: the servant of death collecting souls in his creaking cart called Karrik; the Monts d'Arrée and the Yeun Elez gates of hell",
+        "assets": "Two photos of Ankou statues, treated as orange/black duotones"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "05"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "scholarly, vernacular",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "archival"
+        ],
+        "length": "medium"
+      },
+      "look": "Two scans of old type specimens recoloured violet on white ('Demon BRIGS / Loch Gair IVANHOE / Inch Garvie MARMION' from Miller & Richard 1912; 'La Course de Vitesse… Eure LYON Tarn' from Turlot ca. 1896), captioned with '[Source]' links, then a violet bilingual paragraph about vernacular sans serifs and the SS01 chaotic caps",
+      "feel": "Archival but punchy",
+      "ux": "'[Source]' links to the digitised specimens",
+      "learn": "Recolour the archival specimens in the page's accent colour so the sources sit in the same visual system as the new font",
+      "reconstruction": {
+        "layout": "Tall scan ~710×1280px left from x=20, wide scan ~710×580px right, top-aligned, 20px gutter; captions ~20px under each; paragraph in the 1050px centred column (~528px tall)",
+        "typography": "Captions ~16px Karrik, violet with a lighter '[Source]' link; paragraph ~30px Regular + Italic violet",
+        "palette": [
+          "#020202",
+          "#f8f7fa",
+          "#ab91cd",
+          "#7b5bd6"
+        ],
+        "behaviour": "none",
+        "content": "Real sources (Miller & Richard Sans-Serif No. 5, Turlot Antiques No. 5) and the design rationale: weight disadjustments, no optical corrections, SS01 'chaotic uppercase'",
+        "assets": "Two scanned specimen pages, tinted violet"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "spooky, playful",
+        "mobile": "adapts",
+        "subject": [
+          "alternates"
+        ],
+        "presentation": "toggle",
+        "explanation": "none"
+      },
+      "look": "Three Breton town names in huge pink caps (GUIPAVAS, PLEYBEN, LESNEVEN), each with a tiny caption row of three text buttons 'Poltergeist  Alpha  Beta'",
+      "feel": "Bold, poster-like, with a hidden trick",
+      "ux": "The three buttons under each word switch its rendering, presumably between the chaotic SS01 'poltergeist' caps and alternate sets (state not captured)",
+      "learn": "Name the alternate sets with the font's theme ('Poltergeist') and toggle them on real place names",
+      "reconstruction": {
+        "layout": "Centred stack; each word ~170px tall then a 12px caption row with three links; ~240px per row",
+        "typography": "Words ~200px Karrik Regular caps, tight, pink; buttons ~12px pink",
+        "palette": [
+          "#030405",
+          "#ff73b9"
+        ],
+        "behaviour": "Click .polt-btn / .alpha-btn / .beta-btn → swap the word's stylistic set or alternate glyphs",
+        "content": "Breton town names (Guipavas, Pleyben, Lesneven), linking back to the Ankou story",
+        "assets": "none",
+        "html": "article#third.rose > div.test > h1 + div.caption > div.polt-btn.link / div.alpha-btn.link / div.beta-btn.link"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "technical, cool",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "tabs",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Teal bilingual note ('Take a look at Karrik's letters…'), page tabs '0-99 100-199 … 700-729', and an 8-column grid of hairline teal cells with glyphs drawn on canvas, starting at A after empty cells for unencoded glyphs",
+      "feel": "Font-editor-like",
+      "ux": "Page tabs load the next 100 glyphs into the 100 canvases (opentype.js parses the font file and draws each glyph by index)",
+      "learn": "Draw the grid from the font file with opentype.js and paginate by glyph index: even glyphs without Unicode (FI, FL ligatures) appear",
+      "reconstruction": {
+        "layout": "Grid ~485px wide centred (x≈235), 8 columns of 60px square cells (canvas 120px at 2×), 1px teal-grey borders; pagination row above",
+        "typography": "Glyphs ~36px cap height teal; tabs ~10px Karrik, selected tab highlighted",
+        "palette": [
+          "#030405",
+          "#2a9bb0",
+          "#0e2a2f"
+        ],
+        "behaviour": "Tab click → redraw canvases g0–g99 with glyphs [page*100 … page*100+99]",
+        "content": "730 glyphs by glyph index",
+        "assets": "none",
+        "html": "div.container.opentypejs > #pagination > span#pN + div.characters > canvas.item#gN (×100, 120×120)"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "generous, plain",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Full black screen with a huge dark-yellow '100%', a short yellow bilingual paragraph ('Karrik is an open source typeface…') and two small links 'Téléchargement  Gitlab →'",
+      "feel": "Generous, punchy",
+      "ux": "'Téléchargement' downloads the GitLab zip directly; 'Gitlab →' opens the repository",
+      "learn": "State 'free' as a single huge figure ('100%') instead of a price",
+      "reconstruction": {
+        "layout": "Full screen 1440×900, content vertically centred; figure ~200px, paragraph column ~640px, links centred below",
+        "typography": "'100%' ~200px Karrik Regular yellow; paragraph ~16px Regular + Italic; links ~11px",
+        "palette": [
+          "#020201",
+          "#c9a527"
+        ],
+        "behaviour": "none",
+        "content": "Open-source statement and GitLab links",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "story",
+      "variant": "article-teaser",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "mysterious, inviting",
+        "mobile": "adapts",
+        "voice": "none",
+        "media": [
+          "illustration"
+        ],
+        "length": "short"
+      },
+      "look": "'KARRIK / THE GAME' in big white caps, an engraved incense burner (censer) illustration and 'Play an interactive fiction based on a typeface →'",
+      "feel": "Curious, a door to another world",
+      "ux": "The whole caption links to an external interactive fiction (karrik-game.velvetyne.fr)",
+      "learn": "Extend a themed font into a companion game hosted elsewhere and give it a full-screen teaser at the end",
+      "reconstruction": {
+        "layout": "Full screen, centred stack: title ~200px, engraving ~150×160px, caption link ~11px",
+        "typography": "Title ~100px Karrik Regular caps white, leading 0.9; link ~11px",
+        "palette": [
+          "#030303",
+          "#f0f0f0",
+          "#8f8f8f"
+        ],
+        "behaviour": "none",
+        "content": "Teaser for an interactive-fiction game",
+        "assets": "Engraved censer illustration (PNG)"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "One grey line at the very bottom: 'Code, textes et typographies / coding, texts and typedesign: Jean-Baptiste Morizot  Lucas Le Bihan'"
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "navigation",
+      "variant": "scroll-spy-nav",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Fixed tiny grey links top-left 'Informations  Specimen  Download  Game'; the current chapter turns white (Specimen, Download, Game in the stitched screens); 'Menu' toggle on mobile"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/large-text-intro",
+    "story/origin-reference",
+    "design-details/feature-before-after",
+    "glyph-table/full-grid",
+    "checkout/free-download",
+    "story/article-teaser",
+    "footer/slim-legal-bar"
+  ]
+}

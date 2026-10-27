@@ -1,0 +1,476 @@
+{
+  "slug": "knitgrotesk-com",
+  "extractedBy": "agent",
+  "summary": "A Readymag one-pager for NN Knit Grotesk, a type family designed for hand knitting: the whole site is set in its dotted and striped styles in a strict orange / ultramarine / white scheme, with photos of knitted letter swatches, ticker-like section bands ('MADE FOR KNITTING', 'WEIGHTS', 'CHARACTER SET', 'STORY'), and a story that walks from Futura to a pixel grid to the knitted 'A'.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "crafty, graphic, bright",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "try",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "'KNIT / GROTESK' in white dotted capitals (Dot 1) filling the top 60% of a flat orange field, with an ultramarine-framed photo of knitted letter swatches starting below",
+      "feel": "Handmade but systematic, cheerful",
+      "ux": "Fixed orange header with the repeated name and a white 'FREE TRIAL PACKAGE' button; the photo under the name is an autoplaying slideshow",
+      "learn": "Set the wordmark in the dotted style so it already reads like stitches before the knitted photos confirm it",
+      "reconstruction": {
+        "layout": "Full-bleed orange #fe4604; two lines 'KNIT' / 'GROTESK' from x≈30 to x≈1400, y≈60–530 (cap height ~210px); ultramarine frame from y≈540 with an inset photo (24px border)",
+        "typography": "Name ~290px Knit Grotesk Dot 1 (light dotted outline) uppercase white, tight leading ~0.95",
+        "palette": [
+          "#fe4604",
+          "#151ca1",
+          "#ffffff"
+        ],
+        "behaviour": "White screen ~2s while Readymag loads; photo slideshow below autoplays (4 slides)",
+        "content": "Family name only",
+        "assets": "none for the wordmark",
+        "html": "Readymag widget-text-v3 (zoom 1.40625)"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "tactile, handmade",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "carousel"
+      },
+      "look": "A wide photo of red-and-white knitted swatches, each carrying a knitted capital (B, R, …) with loose yarn ends, framed by a thick ultramarine border",
+      "feel": "Warm, tactile, proof of concept",
+      "ux": "Readymag slideshow (4 slides, '2 / 4') cycling knitted pieces, including a blue/white diagonal knit close-up",
+      "learn": "Show the font's actual medium (knitted wool), not a screen mockup: the photo proves the purpose in one glance",
+      "reconstruction": {
+        "layout": "Ultramarine band ~900px tall; photo inset ~1380×460px with ~24px border; sits directly under the hero wordmark",
+        "typography": "Type appears only inside the photographed knits",
+        "palette": [
+          "#151ca1",
+          "#ece9ee",
+          "#fa6731"
+        ],
+        "behaviour": "Autoplay slideshow cross-fading between photos",
+        "content": "Photos by Linda Suter of knitted letter swatches",
+        "assets": "4 product photos of knitted swatches on white"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "02",
+        "03"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "rhythmic, textile",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "'→ KNIT ←' then 'GROTESK' repeated full width six times, each line in another style (Stripe, Dot, Stripe in a blue band, Dot in blue, …) in blue/white on orange, so the stack looks like a knitted colourwork band",
+      "feel": "Patterned, loud, woven",
+      "ux": "static",
+      "learn": "Repeat one word in every style and alternate the colour of each band: the stack becomes a textile pattern and a style overview at once",
+      "reconstruction": {
+        "layout": "Orange field ~1.5 screens; lines full width (x≈30–1410), ~210px each with no gaps; one line on a full-width ultramarine band",
+        "typography": "~270px uppercase in Knit Grotesk Dot 1–3 and Stripe 1–3, two-colour (white and #151ca1) fills",
+        "palette": [
+          "#fb4707",
+          "#151ca1",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "The name, repeated",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "proud, plain",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "Under a 'MADE FOR KNITTING' ticker band, a big knitted blanket photo left and, right, a dotted-capitals paragraph 'KNIT GROTESK IS THE FIRST TYPE FAMILY MADE ESPECIALLY FOR HAND KNITTING…' in blue on white, ending at a small slideshow of the designer's books",
+      "feel": "Earnest, handmade",
+      "ux": "Static text; the book covers are a 2-slide slideshow",
+      "learn": "Set the intro paragraph in the display style at a large size: even the 'about' copy demonstrates the dotted letters",
+      "reconstruction": {
+        "layout": "Ticker band (two thin rows of repeated 'MADE FOR KNITTING') full width at the top; photo ~620×700px at x≈30; text column x≈720–1410; book slideshow ~260px at the bottom right",
+        "typography": "Paragraph ~48px Knit Grotesk Dot uppercase, blue #151ca1, leading ~1.0; ticker ~22px Dot white on lilac/blue",
+        "palette": [
+          "#f6f6f8",
+          "#151ca1",
+          "#fe4604"
+        ],
+        "behaviour": "Book-cover slideshow (1 / 2)",
+        "content": "'Knit Grotesk is the first type family made especially for hand knitting. It was designed by Rüdiger Schlömer, graphic designer, typeknitter and author of…' his books 'Typographic Knitting' and 'Pixel, Patch und Pattern'",
+        "assets": "Photo of a knitted blanket with letters; book covers"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "05"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "systematic, textile",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "Under a 'WEIGHTS' ticker band, a 2×3 grid on ultramarine: 'DOT 1 / DOT 2 / DOT 3' left and 'STRIPE 1 / STRIPE 2 / STRIPE 3' right, each set in itself in white; then 'ABC… / 123456' huge, white Dot pixels laid over red Stripe lines",
+      "feel": "Clear, graphic",
+      "ux": "static",
+      "learn": "Name a non-weight style system by its stitch (Dot, Stripe) and number its density 1–3; then layer two styles in two colours to show they register",
+      "reconstruction": {
+        "layout": "Two columns (x≈40 and x≈670), three rows ~170px; layered display line ~1.0 screen below, full width, letters ~300px",
+        "typography": "Style names ~200px uppercase Knit Grotesk Dot 1–3 (outline dots get denser) and Stripe 1–3 (more horizontal lines), white; layered sample: Stripe in #e5544a with Dot in white on top",
+        "palette": [
+          "#151ca1",
+          "#ffffff",
+          "#e5544a"
+        ],
+        "behaviour": "none",
+        "content": "Style names; A–Z and figures in the layered sample",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "quiet, technical",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Under a 'CHARACTER SET' ticker band, a big pixel 'A' made of white squares stays pinned on the left while the right column lists the set in thin dotted lines: A–Z, accented capitals, figures, currency, maths, punctuation, brackets, symbols, arrows",
+      "feel": "Calm, chart-like",
+      "ux": "The pixel 'A' stays sticky while the character lines scroll past",
+      "learn": "Pin one oversized glyph in its stitch-grid form beside the scrolling set so the visitor always sees the underlying pixel logic",
+      "reconstruction": {
+        "layout": "Ultramarine ~3 screens; sticky 'A' ~440px tall at x≈150, vertically centred; right column from x≈720, lines ~100px apart, groups separated by an empty line",
+        "typography": "Pinned A: 15px white squares on a grid; set lines ~60px Knit Grotesk Dot 1 uppercase white, tracked",
+        "palette": [
+          "#151ca1",
+          "#ffffff",
+          "#9093ca"
+        ],
+        "behaviour": "position: sticky for the big A",
+        "content": "Basic Latin character set grouped by kind (letters, accents, figures, currency, punctuation, arrows)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "08",
+        "09",
+        "10"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "methodical, craft",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "diagram"
+        ],
+        "length": "medium"
+      },
+      "look": "Under a 'STORY' ticker band, a dotted-capitals text column set as a hard character grid (words break anywhere: 'INSPI / RED', 'PATT / ERN') beside three diagrams of the letter A: Futura, the Futur X pixel A on a square grid, and the striped Knit Grotesk A",
+      "feel": "Logical, transparent",
+      "ux": "Scroll the text past the three A diagrams; 'Futur X by Laucke Siebein ↗' links out",
+      "learn": "Tell the origin as three versions of one letter (source → pixel grid → knitted) placed beside the text that explains each step",
+      "reconstruction": {
+        "layout": "White ~2.5 screens; text column x≈30–700 with fixed character count per line; diagrams ~460–520px wide at x≈800–1270, each in a thin-ruled frame labelled 'FUTURA', 'FUTUR X', 'KNIT GROTESK' (10px)",
+        "typography": "Body ~44px Knit Grotesk Dot uppercase, blue #141ba0, forced line breaks mid-word; diagram labels ~10px Graphik",
+        "palette": [
+          "#fafafb",
+          "#141ba0",
+          "#f44a0d"
+        ],
+        "behaviour": "none",
+        "content": "'Knit Grotesk's first letters were inspired by a low-res hommage to Paul Renner's Futura, Futur X by Laucke Siebein. While translating it into a hand knitting pattern… the vertical line grid derives from the alternating double rows used in slipstitch knitting.'",
+        "assets": "Three A diagrams: Futura outline, pixel grid (~20×20 cells), striped knit A"
+      }
+    },
+    {
+      "blocks": [
+        "10",
+        "11",
+        "12"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "process, rhythmic",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Orange wall of 'VECTOR → PIXEL → WOOL → VECTOR → PIXEL…' running across line ends in Stripe and Dot styles, with some words knocked out in white boxes, ending '→ → REPEAT'",
+      "feel": "Looping, energetic",
+      "ux": "static",
+      "learn": "Turn the production pipeline (vector → pixel → wool) into the specimen text and break words across lines like a repeat pattern",
+      "reconstruction": {
+        "layout": "Orange field ~1.8 screens; full-width lines ~200px, words break across lines ('VECT / OR'); random words on white rectangles",
+        "typography": "~270px uppercase Knit Grotesk Stripe and Dot, white on orange or orange on white",
+        "palette": [
+          "#fd4909",
+          "#ffffff",
+          "#f7ae91"
+        ],
+        "behaviour": "none",
+        "content": "The three-word process loop and 'REPEAT'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "12",
+        "13"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "repetitive, direct",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Under an 'AVAILABLE AT' ticker band, 'WWW.NOUVELLENOIRE.CH' repeated in dotted white capitals for ~16 lines on ultramarine, with a white rounded bar 'AVAILABLE AT NOUVELLENOIRE.CH' floating over it",
+      "feel": "Insistent, playful",
+      "ux": "The white bar links to nouvellenoire.ch; the free trial package is in the fixed header",
+      "learn": "Repeat the shop URL as a texture so the CTA area is still a specimen of the dotted style",
+      "reconstruction": {
+        "layout": "~1.6 screens; URL lines full width, ~90px pitch; button ~1000×70px centred, white, 6px radius",
+        "typography": "URL ~110px Knit Grotesk Dot uppercase white; button label ~28px Dot in lilac #aeb0d7",
+        "palette": [
+          "#282da6",
+          "#ffffff",
+          "#aeb0d7"
+        ],
+        "behaviour": "none",
+        "content": "Shop URL",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "13",
+        "14",
+        "15"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "tidy, craft",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "other-fonts"
+        ]
+      },
+      "look": "Two columns of label/value pairs in dotted capitals on ultramarine: type family, design (Rüdiger Schlömer), release 2023, microsite design, photography, wool suppliers on the left; weights (Dot 1–3, Stripe 1–3 set in themselves), formats .OTF .WOFF (1+2), character set BASIC, 'Fonts are available at NOUVELLENOIRE ↗' on the right",
+      "feel": "Orderly, generous with credit",
+      "ux": "Photographer, wool brands and the shop link out with small orange ↗ arrows",
+      "learn": "Credit the material suppliers (wool brands) alongside the people: for a craft font they are part of the colophon",
+      "reconstruction": {
+        "layout": "Columns at x≈30 and x≈735; label (~25px) above value (~49px), ~90px per pair",
+        "typography": "Labels ~25px Knit Grotesk Dot lilac; values ~49px Dot/Stripe white; arrows ↗ orange",
+        "palette": [
+          "#151ca1",
+          "#ffffff",
+          "#9093ca",
+          "#f64b0f"
+        ],
+        "behaviour": "none",
+        "content": "Real credits and technical facts",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "15",
+        "16"
+      ],
+      "type": "footer",
+      "variant": "big-sign-off",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "inviting",
+        "mobile": "adapts",
+        "contains": [
+          "sign-off",
+          "other-fonts"
+        ]
+      },
+      "look": "Centred dotted 'KNIT THIS / TYPE.' and '#KNITGROTESK' on ultramarine, then two small white buttons 'TYPEKNITTING.NET' and 'NOUVELLENOIRE.CH'",
+      "feel": "Friendly call to make something",
+      "ux": "Two link buttons; the hashtag invites sharing knitted results",
+      "learn": "End with an invitation to use the font in its medium plus a hashtag, turning buyers into contributors",
+      "reconstruction": {
+        "layout": "Centred stack, ~1 screen: two lines ~120px apart, hashtag ~170px lower, buttons ~425×70px side by side",
+        "typography": "~84px Knit Grotesk Dot uppercase white; buttons ~28px Dot lilac on white",
+        "palette": [
+          "#151ca1",
+          "#ffffff",
+          "#aeb0d7"
+        ],
+        "behaviour": "none",
+        "content": "'Knit this type.', '#knitgrotesk'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed thin orange strip across the top with 'KNIT GROTESK' repeated in white dotted caps and a white 'FREE TRIAL PACKAGE' button at the right (fixed overlay, no crop; it is stitched twice into block 15)",
+      "feel": "Ticker-like",
+      "ux": "Visible on every screen; the button downloads the free trial zip",
+      "learn": "A fixed band of the repeated name doubles as branding and a trial CTA",
+      "reconstruction": {
+        "layout": "Fixed top bar ~32px tall, full width; button ~250×32px flush right",
+        "typography": "~22px Knit Grotesk Dot uppercase",
+        "palette": [
+          "#fe4604",
+          "#ffffff",
+          "#aeb0d7"
+        ],
+        "behaviour": "Fade-in after load"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "specimen-showcase/in-use-mockups",
+    "specimen-showcase/word-stack",
+    "story/large-text-intro",
+    "family-overview/style-word-grid",
+    "glyph-table/category-lines",
+    "story/origin-reference",
+    "specimen-showcase/word-stack",
+    "checkout/link-out-cta",
+    "footer/credits-colophon",
+    "footer/big-sign-off"
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "slug": "s-u-c-c-e-s-s-com",
+  "extractedBy": "agent",
+  "summary": "NaN's launch page for Success, an 18-style Art-Nouveau-goo titling family (Titling widths, Sans weights, Text), in toxic neon green, hot pink and near-black. Spaced-out chapter titles (C O N C E P T, S T O R Y, T E S T E R, F A M I L Y) separate a giant lettered hero, a first-person essay, two grids of specimen-poster pages, a Fontsampler.js variable line and six per-row testers, a style list framed by animated text-on-a-path, an in-use carousel and links to NaN's other microsites.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "psychedelic, loud, Art Nouveau",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "'CHASING SUCCESS' in near-black Success Titling, two lines cropped at both edges, filling the whole first screen over a vertical gradient from neon green to pale pink; the fixed nav bar sits on top",
+      "feel": "Overwhelming, hallucinatory, funny",
+      "ux": "Nothing to do but scroll; nav and 'Download Trials' pill are fixed (the stitched capture repeats the bar mid-crop)",
+      "learn": "Turn the family name into a two-word slogan and let it overflow the viewport: the cropped letters show the wiggly details at a scale no specimen line would reach",
+      "reconstruction": {
+        "layout": "Full-bleed block ~1440×1266 (~1.4 screens); one SVG (img.fit, width 100%) holding two lines, each ~540px tall, overflowing left and right edges; background linear-gradient top #06fa06 → ~40% → #fbcccf",
+        "typography": "Lettering is an SVG of NaN Success Titling (narrow widths with ligatures and wobbly alternates), caps, tight leading (~1.0), colour #010f01",
+        "palette": [
+          "#06fa06",
+          "#fbcccf",
+          "#010f01"
+        ],
+        "behaviour": "Static (the storyboard shows no motion); fixed header stays above",
+        "content": "Slogan 'Chasing Success' built on the family name",
+        "assets": "img/chasing-success.svg (outlined lettering)",
+        "html": "h1#title > img.fit[src='img/chasing-success.svg'][alt='Chasing success']"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "navigation",
+      "variant": "scroll-spy-nav",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "utilitarian, neon",
+        "mobile": "adapts"
+      },
+      "look": "Fixed 32px near-black bar: 'NaN Success' in neon green left, Concept / Testing / Styles in grey centre (the current chapter turns green), 'Purchase' right, and a neon-green 'Download Trials' pill hanging below it on the right; never cut as a block, attached here",
+      "feel": "Discreet, like a system bar",
+      "ux": "Anchor links to #concept, #testing, #styles; the active chapter's link lights up green as you scroll; on mobile it collapses to a 'Menu' button",
+      "learn": "A one-colour change on the current chapter link is enough scroll-spy feedback when the bar is otherwise grey",
+      "reconstruction": {
+        "layout": "position fixed top, 100vw × ~32px; name left (24px margin), three section links centred ~180px apart, 'Purchase' right; separate pill ~184×36px fixed 12px below the bar's right end",
+        "typography": "~13px grotesk UI (Helvetica-like, NaN Holo), name and 'Purchase' bold green, section links regular grey; pill text ~14px dark on green with 1px dark border",
+        "palette": [
+          "#011b01",
+          "#06fa06",
+          "#6b6b6b"
+        ],
+        "behaviour": "Scroll position sets an active class on the matching link (green); menu-toggle button for small screens",
+        "content": "Section names and two sales links",
+        "assets": "none",
+        "html": "header > nav > a[href='#top'|'#concept'|'#testing'|'#styles'|shop]; a#download-trials; button#menu-toggle"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "self-mocking, wry",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "A centred four-line question 'What is \"Success\"? Jérémy Landes was asking himself, in a warm bath with a bottle of 4° champagne. Can I reproduce Success?' in condensed Success Sans Light at ~130px, then two 18px paragraphs on pale pink",
+      "feel": "Ironic, intimate",
+      "ux": "static",
+      "learn": "Open with an anecdote set at display size: the joke and the condensed Light weight are introduced in the same breath",
+      "reconstruction": {
+        "layout": "Headline centred across ~1300px; paragraphs in a centred ~925px column below, ~60px gap; a row of small registration-mark squares (gridmarks) at the top edge",
+        "typography": "Headline ~130px NaN Success Sans Light (wght 225), leading ~1.0, centred, near-black; paragraphs ~18px NaN Success Text Light (wght 250), leading ~1.4",
+        "palette": [
+          "#f9c9cc",
+          "#0e1a0e"
+        ],
+        "behaviour": "none",
+        "content": "Real intro copy: the bath-and-champagne anecdote, 18 styles, 'a titling war machine'",
+        "assets": "none",
+        "html": "article > h1.success-sans-light.size-headline-l.centered + p.size-text-m × 2"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "specimen-showcase",
+      "variant": "kinetic-scenes",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "infomercial parody",
+        "mobile": "adapts",
+        "medium": "video",
+        "sequence": "single"
+      },
+      "look": "A square video (pale pink first frame) centred on a near-black band, native controls showing 0:00 / 0:51 and a magenta subtitle 'Do you feel that your life lacks' in heavy Success",
+      "feel": "Teasing, tongue-in-cheek",
+      "ux": "Native video controls; loops once played; not autoplaying in the capture",
+      "learn": "A sub-one-minute launch film with burnt-in display subtitles doubles as a motion specimen",
+      "reconstruction": {
+        "layout": "Full-width near-black section 900px tall; square video wrapper max-width 100vh (~900px) centred",
+        "typography": "Subtitles in the video, heavy Success Text/Sans ~40px magenta with dark outline",
+        "palette": [
+          "#011b01",
+          "#fbd5e4",
+          "#fe0485"
+        ],
+        "behaviour": "<video loop controls> with mp4 source; plays on click",
+        "content": "Launch video by Julia Grüßing (credited in the footer), parody-advert tone",
+        "assets": "/video/nan-success-intro.mp4 (51 s)",
+        "html": "section.bg-black > div[style=max-width:100vh] > div.video-wrapper-square > video[loop][controls]"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "rebellious, poster-like",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "grid"
+      },
+      "look": "Under the spaced chapter title 'C O N C E P T' (magenta letters spread edge to edge with a small outlined 'CONCEPT' pill in the middle), a bento of seven specimen-page SVGs on black, pink, green and white: a word wall, the 'One expression, 3 different genres' Titling/Sans/Text 'Aa' diagram, a Cyrillic text page, '18 styles' with the style list, 'USE IT BIG TOO', 'A titling machine – 280 ligatures and alternates', 'Infinite possibilities' over a grainy photo",
+      "feel": "Zine-like, saturated, maximal",
+      "ux": "static",
+      "learn": "Reuse the PDF specimen's pages as SVG tiles in a bento grid: each tile is a finished poster and the mixed tile widths keep the rhythm lively",
+      "reconstruction": {
+        "layout": "Chapter title band 230px: letters justified across 1400px (20px margins) with the pill centred over them; grid below ~2300px tall with ~8px gutters: row 1 = 1/3 + 2/3, row 2 = three 1/3 cells, row 3 = 1/2 + 1/2; every cell is an image scaled to fit (img.fit), background colour per cell",
+        "typography": "Chapter title ~144px NaN Success Titling wdth 800, magenta, each letter in its own <i>; pill ~13px grotesk inside a 1px magenta rounded outline; inside the SVGs: Titling widths with ligatures, Sans Black, Text, Cyrillic",
+        "palette": [
+          "#031a02",
+          "#fd0286",
+          "#0ad10b",
+          "#f9c9cc",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Specimen-page slogans: 'Inside Outside Energetic Delicate Frivolous Branding Fast', 'One expression, 3 different genres', 'Use it big too', 'A titling machine', 'Infinite possibilities combinations numeros', Cyrillic 'Безконечна можливість'",
+        "assets": "img/NaN_Success_Specimen_13…23.svg (outlined specimen pages), one grainy photo inside page 23",
+        "html": "h1[data-heading='Concept'] > i × 7; section.row.wrap.grid > div.grid-1-3-m|grid-2-3-m|grid-1-2-l.bg-*.clip.img > img.fit"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "playful, technical",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "axes",
+          "style-select",
+          "features",
+          "alignment"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "One huge magenta word 'VARIABLE' centred on pink; below, a thin control row: style dropdown left, one axis slider centre labelled 'Weight 983' (or 'Width 998'), Alternates and Ligatures outline buttons right, and round play/pause buttons under the slider",
+      "feel": "Toy-like, hypnotic when playing",
+      "ux": "Type over the word; pick any of the 18 styles; the slider drives wdth (Titling, 100–1000) or wght (Sans/Text, 100–1100) depending on the style; Play animates the axis back and forth; Alternates/Ligatures toggle OpenType features",
+      "learn": "Give a variable tester a Play button: the axis sweep becomes an animation the visitor can stop at any point",
+      "reconstruction": {
+        "layout": "Section ~743px tall with large padding; sample centred at 15vw; controls in one row at the bottom: dropdown ~325px at x=40, slider ~600px centred with its label above, two outline buttons ~95px at the right, play/pause 24px circles below the slider",
+        "typography": "Sample 216px (15vw) NaN Success Titling Variable (wdth 998, wght 400) or the selected style, magenta; labels ~10px NaN Holo Mono; buttons ~11px",
+        "palette": [
+          "#fac9cc",
+          "#fb0a85",
+          "#011b01"
+        ],
+        "behaviour": "Fontsampler.js: contenteditable sample; select swaps family; wdth range 100–1000 or wght 100–1100 shown per family; font-size range 1–25vw (step 0.01, hidden here); alignment buttons; #variable-play steps the axis value in a loop, #variable-pause stops it; #variable-alternates and #variable-ligatures toggle features",
+        "content": "The word 'VARIABLE'",
+        "assets": "play.svg and pause.svg icons",
+        "html": "div#variable.tester.fontsamplerjs[data-size=15] > [contenteditable][data-fsjs=tester] + .fsjs-wrapper (select[data-fsjs=fontfamily], input[type=range][data-fsjs=wdth|wght|fontsize], button#variable-alternates, button#variable-ligatures); #variable-playback > button#variable-play, #variable-pause"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "activist, poster-like",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "grid"
+      },
+      "look": "A uniform 3×2 grid of portrait specimen pages: '+450%¥' width scale with oval labels (Compressed → ExtraWide), an outlined T construction drawing, 'FOREVER GROWTH KILLING PLANET', 'Chaotic evil energy… duo widths', 'Кириллица (Cyrillic) at heart / АЗБУКА', 'Maked to fit as tight as lean stockings'",
+      "feel": "Punchy, political, funny",
+      "ux": "static",
+      "learn": "A second poster grid after the tester picks up the technical points (width scale, mixed-width ligatures, Cyrillic) in poster form rather than in a diagram",
+      "reconstruction": {
+        "layout": "Pink section; 3 columns × 2 rows of equal portrait cells ~464×670px with ~8px gutters and 20px outer margin; each cell one SVG scaled to fit",
+        "typography": "Inside the SVGs: Titling Compressed → ExtraWide, Sans Black, Text captions ~16px; Cyrillic headline in neon green",
+        "palette": [
+          "#011b01",
+          "#fe0486",
+          "#06fa06",
+          "#f9c9cc"
+        ],
+        "behaviour": "none",
+        "content": "Climate/growth slogans and short captions about widths and Cyrillic",
+        "assets": "img/NaN_Success_Specimen_24…28.svg",
+        "html": "section > div.row.wrap.grid > div.grid-1-3-m.clip.img > img.fit"
+      }
+    },
+    {
+      "blocks": [
+        "09",
+        "10"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "confessional, political",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "long"
+      },
+      "look": "After the spaced 'S T O R Y' title, a centred single-column essay on pale pink in three parts (Ego Trip, Plasticity, Sharing success) with condensed bold headings, two large magenta pull quotes and a 'NaN Success × ClientEarth' logo panel",
+      "feel": "Personal, earnest under the jokes",
+      "ux": "Reading; links to ClientEarth and info@nan.xyz",
+      "learn": "Use the Text cut for the essay and the Text Bold in magenta for pull quotes: the reading experience is itself the text-weight specimen",
+      "reconstruction": {
+        "layout": "Column ~930px centred (x≈254–1184); section headings centred with ~120px space above; pull quotes centred, ~660px wide; partner logo in a lighter pink box ~930×270px",
+        "typography": "Headings ~60px NaN Success Sans Bold (wght 700-850), condensed; body ~18px NaN Success Text Light (wght 250), leading ~1.45; pull quotes ~44px NaN Success Text Bold, magenta, leading ~1.1; chapter title ~144px Titling wdth 800 spaced edge to edge",
+        "palette": [
+          "#facacd",
+          "#0e1a0e",
+          "#fe0485"
+        ],
+        "behaviour": "none",
+        "content": "Designer essay: success and precarity, Art Nouveau influences, the three sub-families, 15% of revenue donated to ClientEarth and free licences for environmental projects",
+        "assets": "ClientEarth co-branding logo PNG; one image tag with an empty src (missing in the capture)",
+        "html": "article#story > h2.success-sans-bold.size-headline-m.centered + p…; img[src='/img/ClientEarth.png']"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "type-tester",
+      "variant": "per-row-controls",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "bold, practical",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "leading",
+          "alignment",
+          "style-select"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Hot-pink section under the spaced 'T E S T E R' title: six testers alternating display lines and two-column paragraphs in white ('CALL TO ACTION' Titling Narrow 288px, 'CHASING' Sans Black 360px, '«Romantisme»' Text Black 144px, fermentation paragraphs in Text Light/Regular, one in Ukrainian), each with a hairline neon-green control row above",
+      "feel": "Generous, workshop-like",
+      "ux": "Per row: Fontsize slider with px readout, Leading slider, three alignment buttons, a font dropdown of all 18 styles and a small cat button; click the sample to type",
+      "learn": "Alternate display rows and paragraph rows in one tester stack, so the family's titling and reading cuts are tested at their natural sizes",
+      "reconstruction": {
+        "layout": "Section ~3250px; each tester = control row (Fontsize slider x≈20–440, Leading slider x≈460–880, alignment icons ~3×24px, font select ~400px, cat icon 24px at the right) then the sample; display samples centred single line, paragraph samples in two ~690px columns; ~120px between testers",
+        "typography": "Samples white: 288px Titling Narrow, 21px Text Light, 360px Sans Black (wght 1100), 144px Text Black, 21px Text Light, 21px Text Regular (wght 100–1100 variable); control labels ~10px NaN Holo Mono, neon green",
+        "palette": [
+          "#fd0485",
+          "#ffffff",
+          "#06fa06"
+        ],
+        "behaviour": "Fontsampler.js per tester: fontsize range in vw (data-size 10/20/30 initial), leading range, alignment buttongroup, family dropdown; contenteditable with data-replace-text; data-cat='1' on display testers drives the cat button (exact function not captured)",
+        "content": "Themed display words ('Call to action', 'Chasing', '«Romantisme»') and a real Wikipedia-style text on fermentation in English and Ukrainian",
+        "assets": "Cat icon",
+        "html": "h1[data-heading='Tester']; div.tester.fontsamplerjs[data-size][data-align][data-cat] and div.tester.paragraph-tester × 6, each .fsjs-block-fontsize/-lineheight/-alignment/-fontfamily + [contenteditable][data-fsjs=tester]"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "showy, catalogue",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "On near-black with a neon-green glow in the top-right corner, the spaced 'F A M I L Y' title, then three centred lists of every style name set in itself (6 Titling widths, 7 Sans weights, 5 Text weights) in magenta, each under a small green sub-family label",
+      "feel": "Glamorous, like a theatre bill",
+      "ux": "static list; the CTA pill and moving captions sit on top",
+      "learn": "Grouping the style list by sub-family, with each group stepping one axis (width, then weight), makes 18 styles read as three clear progressions",
+      "reconstruction": {
+        "layout": "Section ~1924px; centred lists, ~60px between groups; sub-family label above each group",
+        "typography": "Titling and Sans names 5vw (72px), line-height 1.0; Text names 3.5vw (50px), line-height 1.1; labels ~13px grotesk green; chapter title ~144px Titling wdth 800 magenta",
+        "palette": [
+          "#031b02",
+          "#fe0485",
+          "#06fa06"
+        ],
+        "behaviour": "Background glow is a static radial gradient; see the coverage text paths for motion",
+        "content": "Style names only ('NaN Success Titling Compressed' … 'NaN Success Text Black')",
+        "assets": "none",
+        "html": "section#styles > h2.label + ul.plain-list.centered[style=font-size:5vw] > li.success-titling-compressed …"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "language-support",
+      "variant": "coverage-statement",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "whimsical",
+        "mobile": "adapts",
+        "method": "statement",
+        "nonLatin": true
+      },
+      "look": "Small neon-green letter-spaced text crawling along wavy SVG paths in both side margins of the style list: 'All styles support 156 Latin-bsed languages and 5 Cyrillic based languages' on the left, '( T h i s i s t h e p r i c e o f S u c c e s s )' on the right, pointing at the price pill",
+      "feel": "Playful margin note",
+      "ux": "Text loops along the path continuously",
+      "learn": "Put the coverage claim on a moving text path in the margin: it is noticed without taking any layout space",
+      "reconstruction": {
+        "layout": "Two absolutely positioned asides: left path viewBox 250×2000 down the left margin (~250px wide), right path 450×750 near the bottom right curving towards the CTA",
+        "typography": "~24px mono-like caps and lowercase, letter-spaced, neon green",
+        "palette": [
+          "#031b02",
+          "#06fa06"
+        ],
+        "behaviour": "SVG <animate attributeName='startOffset'> from -150% to 150% in 10s (left) and 100% to -150% in 7.5s (right), repeatCount indefinite",
+        "content": "Coverage numbers (156 Latin + 5 Cyrillic languages) and a pun on the price",
+        "assets": "Two hand-drawn wavy SVG paths",
+        "html": "aside#textpath-left|#textpath-right > svg.textpath > path#…-actual + text > textPath[href] > animate[attributeName=startOffset]"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "direct, upbeat",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": true,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "A neon-green rounded pill at the foot of the style list: 'Single style from 60€ / Whole family (15 styles) from 400€ / Exclusively from NaN'",
+      "feel": "Cheerful, salesy",
+      "ux": "Links to nan.xyz/fonts/nan-success; the pill bounces (class button-bounce)",
+      "learn": "Put the two 'from' prices inside the button itself, right under the style list that justifies them",
+      "reconstruction": {
+        "layout": "Centred pill ~390×72px, ~40px below the last style",
+        "typography": "~14px grotesk, three centred lines, last line bold (NaN Holo Bold)",
+        "palette": [
+          "#06fa06",
+          "#011b01"
+        ],
+        "behaviour": "Looping bounce animation (CSS class button-bounce)",
+        "content": "Two starting prices and the exclusivity note",
+        "assets": "none",
+        "html": "a#cta.button.button-bounce[href='https://nan.xyz/fonts/nan-success']"
+      }
+    },
+    {
+      "blocks": [
+        "15",
+        "16"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "proud, cultural",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "carousel"
+      },
+      "look": "Under the spaced 'IN USE' title, a two-up carousel of product shots on white and black panels (a vinyl record sleeve 'Helmut, My Interstellar Love Life', the book 'Archives des Luttes des Femmes en Algérie'), each with a bold title and 'Design: <studio>' credit link",
+      "feel": "Credible, curated",
+      "ux": "Tiny-slider carousel, two slides per view, looping (cloned slides); 4 projects",
+      "learn": "Credit the design studio under each in-use photo: the carousel becomes a showcase for clients too",
+      "reconstruction": {
+        "layout": "Title band 230px; carousel two slides per view, each ~690px wide with ~20px gap; image panels ~690×520px; caption below in two lines",
+        "typography": "Captions ~11px grotesk: title bold, 'Design:' line regular with underlined link",
+        "palette": [
+          "#fac9cc",
+          "#fbf9f8",
+          "#070907",
+          "#eb7354"
+        ],
+        "behaviour": "tiny-slider (tns-carousel) horizontal slides with clones for looping; navigation by drag or arrow (controls not captured)",
+        "content": "Four real projects: Helmut record, Archives des Luttes des Femmes en Algérie (Studio Akakir), Joao Mglhs (Studio Triple), MNGLT Pure (AAAAA Atelier)",
+        "assets": "Product photographs",
+        "html": "h1#in-use[data-heading='In use']; div.carousel.tns-slider > div.slide.tns-item > img + strong + 'Design: ' a"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "warm, matter-of-fact",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "'Credits' in condensed Sans Light at the left, a list of → arrowed credit lines on the right, on a band that fades from pale pink to hot magenta",
+      "feel": "Simple, grateful",
+      "ux": "Names link to the contributors' sites",
+      "learn": "A gradient from the page colour into the closing colour turns the colophon into a transition to the footer",
+      "reconstruction": {
+        "layout": "Two-column row: heading col-2 (~400px) left, list col-4 (~900px) right, block ~530px with the gradient in the top half",
+        "typography": "Heading ~130px NaN Success Sans Light, near-black; list ~16px NaN Success Text Light with bold names, '→' prefix",
+        "palette": [
+          "#fe0285",
+          "#fac8cb",
+          "#0e1a0e"
+        ],
+        "behaviour": "none",
+        "content": "Designer, production, spacing/kerning (Igino Marini), animations, launch video, web development (Johannes Neumeier)",
+        "assets": "none",
+        "html": "section#credits > div.row > h1.col-2 + p.col-4"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "label family, loud",
+        "mobile": "adapts"
+      },
+      "look": "'Visit the other NaN Microsites' in Sans Black at 10vw on magenta, then three screenshot cards (sans-sheriff, infinite-tragedy, generativefonts) with URL captions",
+      "feel": "Club-like, cross-promotional",
+      "ux": "Each card opens the sibling microsite in a new tab",
+      "learn": "Cross-link microsites with screenshots rather than names: the visitor sees each site's personality before clicking",
+      "reconstruction": {
+        "layout": "Heading centred, one line ~144px; row of 3 equal cards ~460px wide (screenshot ~460×320) with 20px gutters, URL caption below",
+        "typography": "Heading 10vw NaN Success Sans Black (wght 1100), near-black; captions ~14px NaN Success Text",
+        "palette": [
+          "#fe0085",
+          "#050804"
+        ],
+        "behaviour": "none",
+        "content": "Three sibling NaN sites",
+        "assets": "Three site screenshots",
+        "html": "h1.success-sans-black[style=font-size:10vw] + div.row#screenshots > a.col-6 > img + span"
+      }
+    },
+    {
+      "blocks": [
+        "19"
+      ],
+      "type": "footer",
+      "variant": "big-sign-off",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "signature, scribbly",
+        "mobile": "adapts",
+        "contains": [
+          "sign-off"
+        ]
+      },
+      "look": "A wide scribbled NaN logo in thin brown-grey line, like a signature with zigzags on both sides, centred on flat magenta; no legal text",
+      "feel": "Hand-signed, casual",
+      "ux": "Logo links to nan.xyz",
+      "learn": "End with the foundry's signature-style logo at 75% width instead of a link footer",
+      "reconstruction": {
+        "layout": "Footer ~400px; logo image 75% width, margin 100px auto 50px",
+        "typography": "none (logo is an SVG drawing)",
+        "palette": [
+          "#fe0084",
+          "#8a6a5a"
+        ],
+        "behaviour": "none",
+        "content": "Foundry logo only",
+        "assets": "/img/nan-footer.svg",
+        "html": "footer.bg-pink > a[href='https://nan.xyz'] > img.centered.fit[style=width:75%]"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "01",
+      "reason": "tiny decorative divider: a row of six small registration-mark squares (div.gridmarks)"
+    },
+    {
+      "block": "03",
+      "reason": "tiny decorative divider (gridmarks), same as #01"
+    },
+    {
+      "block": "12",
+      "reason": "tiny decorative divider (gridmarks) between tester and family"
+    },
+    {
+      "block": "14",
+      "reason": "tiny decorative divider (gridmarks) on the dark band"
+    }
+  ],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/large-text-intro",
+    "specimen-showcase/kinetic-scenes",
+    "specimen-showcase/poster-series",
+    "type-tester/slider-sandbox",
+    "specimen-showcase/poster-series",
+    "story/essay",
+    "type-tester/per-row-controls",
+    "family-overview/style-word-grid",
+    "language-support/coverage-statement",
+    "checkout/link-out-cta",
+    "specimen-showcase/in-use-mockups",
+    "footer/credits-colophon",
+    "footer/big-sign-off"
+  ]
+}

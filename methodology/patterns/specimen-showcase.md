@@ -19,6 +19,7 @@ Sample: 32 blocks from 25 sites.
 | [themed-infographic](#themed-infographic) | 1 | An interactive infographic on the font's theme, set in the font so the numerals and labels do real work. | data, line-ups, timetables |
 | [generative-layout-stream](#generative-layout-stream) | 0 | An endless scroll appending randomly composed layout modules (columns, captions, lists, display words) with themed, often editable copy. | infinite scroll, varied modules |
 | [slider-morph-mockups](#slider-morph-mockups) | 0 | Realistic layouts (ads, tickets, flyers) each with an axis slider that morphs the whole design between the axis extremes. | mockup plus slider underneath |
+| [size-waterfall](#size-waterfall) | 0 | The same running text at a descending series of labelled sizes, from display to caption, often in several weights side by side; sometimes a light/dark switch. | px labels, shrinking repeated text |
 
 ## Rubric
 
@@ -171,5 +172,13 @@ _No instance in the sample yet._
 Realistic layouts (ads, tickets, flyers) each with an axis slider that morphs the whole design between the axis extremes.
 
 **Recognise by:** mockup plus slider underneath
+
+_No instance in the sample yet._
+
+## size-waterfall
+
+The same running text at a descending series of labelled sizes, from display to caption, often in several weights side by side; sometimes a light/dark switch.
+
+**Recognise by:** px labels, shrinking repeated text
 
 _No instance in the sample yet._

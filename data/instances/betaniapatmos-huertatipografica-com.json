@@ -1,0 +1,660 @@
+{
+  "slug": "betaniapatmos-huertatipografica-com",
+  "extractedBy": "agent",
+  "summary": "A free school handwriting font for teaching literacy, shown on the same HT Fonts image-feed template as Weg but in a pastel classroom palette: a bilingual design brief, the six 'fonts' of the family (Regular, super-connected, Montessori guideline overlays) on fruit-mascot samples, letter anatomy and contextual-connection diagrams, worksheet exercises per language and glyph patterns. All specimens are raster images (only Alegreya Sans is live), so the page reads as a teacher's handbook rather than a tool.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "typeset-page",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, schoolroom, gentle",
+        "mobile": "shrinks",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "On pale pink, 'Betània Patmos' in the dark-blue connected school script across the width, framed by two rows of alternating red and blue asterisks, with the tagline 'A CONTEMPORARY FONT MODEL FOR HANDWRITING TRAINING' in the font's salmon print capitals between them; byline 'By Carolina Giovagnoli — Dic. 2024.'",
+      "feel": "Cheerful, orderly, like the cover of an exercise book",
+      "ux": "Fixed two-row white nav above (Letters / Overview / Patterns + download links); no CTA in the hero itself",
+      "learn": "Pair the cursive and the print capitals of a school font in one title page, with rows of a glyph as rules, so both models appear in the first screen",
+      "reconstruction": {
+        "layout": "Image 1000×508 centred (x=220–1220) under an 84px fixed nav; name ~900px wide, ~130px tall; asterisk rows ~30px tall full width of the image above and below the 2-line tagline; byline bottom-left",
+        "typography": "Name in Betània Patmos Regular (connected cursive) ~150px, #1c4a7a blue; tagline print caps ~45px salmon #e9776d, tracked; asterisks ~25px alternating red/blue; byline ~16px Alegreya Sans",
+        "palette": [
+          "#fce9ec",
+          "#1c4a7a",
+          "#e9776d",
+          "#f4d2d3"
+        ],
+        "behaviour": "none",
+        "content": "Name, purpose tagline, designer and date",
+        "assets": "bp_socialmedia_descripcion.png (hero raster)",
+        "html": "header > h1.visually-hidden + figure > img + p"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "02"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "pedagogical, purposeful",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "illustration"
+        ],
+        "length": "medium"
+      },
+      "look": "Italic lead 'BP has an austere morphology… it is a tool for teaching literacy.' at left; four numbered principles (Austere design, Simplified functionality, Interdisciplinary team, Performance), a reference list with red links (Rosalie Wagner, Ana Ronchi, Scrivere a Mano nell'Era Digitale), then a white 'SHORT BRIEF:' box in monospace (Licence, Users, Readers, Purpose, Guidelines, Compatibility, OpenType Features); repeated in Spanish under a row of little figures and 'Español ↓'",
+      "feel": "Clear, responsible, written for teachers",
+      "ux": "static text; reference links open sources",
+      "learn": "State the brief as a spec sheet (users, readers, purpose, compatibility, OpenType approach) in mono: for a functional font the brief is the selling point",
+      "reconstruction": {
+        "layout": "1000px content width: lead in cols 1–3 (~230px), principles in cols 4–12 (~740px); 'Short brief' panel full 1000px, white, padding ~16px; Spanish copy follows with a 1000×~90 decorative heading image",
+        "typography": "Lead ~26px Alegreya Sans Italic #1c4a7a, leading 1.2; body ~15px Alegreya Sans with bold numbered heads; links #e9776d; brief ~13px Roboto Mono, leading 1.4",
+        "palette": [
+          "#f8eff1",
+          "#1c4a7a",
+          "#e9776d",
+          "#ffffff",
+          "#4a4a4a"
+        ],
+        "behaviour": "none",
+        "content": "Real brief: SIL OFL, preschool and first-grade readers, worksheets in LibreOffice/Notepad/Office, contextual alternates (calt) following Rosalie Wagner, no loops or decorative elements",
+        "assets": "bp_socialmedia_descripcion-esp.png (row of glyph-built children + 'Español ↓')",
+        "html": "article > .margins > .row > .col-3 > .bajada > p + .col-9 > p×n; blockquote-like mono box"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "20"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "classroom, practical",
+        "mobile": "shrinks",
+        "medium": "photo-mockup",
+        "sequence": "series"
+      },
+      "look": "A red sticky note on light blue ('Liebe Kinder, you can find your homework en el aula virtual: · DEU-Arbeitsblatt 1 Ü/2 · English book page 57…') beside the claim that it is a connected script for worksheets made in LibreOffice or Notepad; later an open spiral notebook clipped with brass binder clips, a diary entry in green cursive on the left and a 'repeat the difficult words' exercise (excursión / EXCURSIÓN…) on the right",
+      "feel": "Real-school, hands-on",
+      "ux": "static images; captions under the notebook give the layout specs",
+      "learn": "Show a teaching font in the documents teachers actually make (homework note, diary page, repetition exercise) and caption the real setting (12/14 pt, A5, 45 characters × 35 lines)",
+      "reconstruction": {
+        "layout": "Images 1000px wide centred on full-bleed light-blue or white bands (624px and 781px tall); notebook spread centred, captions below in 2–3 centred lines",
+        "typography": "All samples raster (cursive and print modes of Betània Patmos at ~20–30px); captions ~13px Alegreya Sans Italic blue with a bold 'Layout:' label",
+        "palette": [
+          "#a2def9",
+          "#ea635a",
+          "#ffffff",
+          "#1c4a7a",
+          "#3a9a5a"
+        ],
+        "behaviour": "none",
+        "content": "Multilingual homework note (German, English, Spanish); Spanish diary entry, '*478 Characters' count",
+        "assets": "bp_notepad.png, bp_cuaderno.png (notebook mockup)",
+        "html": "article.color8 > figure > img; article#usos.color4 > figure > img + figcaption"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "cute, didactic",
+        "mobile": "unknown",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "'Betània Patmos font family's tables of contents:' six cream strips, each a fruit word with a grinning fruit mascot and a caption naming the font: 1 Regular ('The red apple'), 2 Regular with Montessori guideline overlaid ('2 Zitronen'), 3 Super ligada with entry strokes ('Mandarina'), 4 Super ligada + guideline ('La taronja'), 5 the guideline alone (fruits standing on the lines), 6 guideline with start and end caps ('només ratlles')",
+      "feel": "Playful, kindergarten-friendly",
+      "ux": "static images",
+      "learn": "When the 'styles' are functional variants (guideline overlays, connected forms), show each on one word with a one-line caption that says what it adds",
+      "reconstruction": {
+        "layout": "Six bands ~330–400px tall, full-bleed cream (one white), each a 1000px image centred: one word ~110px tall plus a mascot at one end, writing lines across 1000px where the font includes them; caption centred under each",
+        "typography": "Samples raster Betània Patmos (~150px), dark blue or light blue; guideline lines blue/grey ~1px; captions ~13px Alegreya Sans Italic 'Font N → Name'",
+        "palette": [
+          "#fff7d8",
+          "#1c4a7a",
+          "#5ab0d8",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Fruit words in English, German, Spanish and Catalan; style names in Spanish ('Regular con pauta Montessori superpuesta', 'Super ligada')",
+        "assets": "bp_font1–6.png; fruit mascot illustrations (Freepik)",
+        "html": "article.color2 > figure > img + p caption ('Font 1 → Regular')"
+      }
+    },
+    {
+      "blocks": [
+        "10",
+        "11",
+        "12"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "pangram",
+        "tone": "bright, schoolbook",
+        "mobile": "unknown",
+        "coverage": "by-category",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Character set as running lines on colour bands: on red, caps 'ÀBÇDẼFGHÍJKLMNÕPQRSTÜV WXYZ' DIJOUS & DIUMENGE', cursive lowercase, punctuation and a Catalan pangram; on yellow, figures 1234567890, fractions in a sentence ('½ ES UNA FRACCIÓN # ¼ KG DE HELADO— ES UNA PORCIÓN :-D'), stacked alternative fractions, a worked sum '[(3×4)+6−3]÷5=… 15÷5= 3' and asterisks; on green, 'Arrows → fletxes ← flechas' over a grid of arrows",
+      "feel": "Lively, like classroom wall charts",
+      "ux": "static images; the 'Letters' nav anchor jumps here",
+      "learn": "Typeset the figures as a solved maths exercise and the fractions inside a sentence: the glyph set proves itself in the task it was made for",
+      "reconstruction": {
+        "layout": "Three full-bleed bands (657, 1757 and 1016px) with 1000px images centred; lines centred, ~6 lines per band, generous leading",
+        "typography": "Raster Betània Patmos: caps print ~50px, cursive lowercase ~50px white on red; figures ~100px dark blue; fraction sentences in salmon print caps ~55px; arrows ~30px salmon on green",
+        "palette": [
+          "#e86158",
+          "#ffe256",
+          "#b7da9b",
+          "#ffffff",
+          "#1c4a7a",
+          "#e9776d"
+        ],
+        "behaviour": "none",
+        "content": "Catalan pangram 'Jove xef, porta vaixells amb quinze guies d'ànec folsc.'; Spanish fraction jokes; arithmetic; trilingual arrows heading",
+        "assets": "bp_setdecaracteres.png, bp_figuras-1/2.png, bp_flechas.png",
+        "html": "article#setdecaracteres.color1 > figure > img"
+      }
+    },
+    {
+      "blocks": [
+        "13",
+        "14"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "didactic, textbook",
+        "mobile": "shrinks",
+        "subject": [
+          "construction",
+          "features"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "Two labelled diagrams: 'Tipografía' and 'Betània' on shaded zones (ascender, x-height, baseline, descender) with callouts in Spanish (travesaño, diacrítico, bastón, conexión, bucles, contraforma cerrada, trazo de entrada, trazo de salida, espaciado); then 'grabador' in white on navy inside a cassette-recorder outline, each joining labelled baja / alta / media / sobre la línea base",
+      "feel": "Clear, like a well-made school textbook",
+      "ux": "static images; the 'Overview' nav anchor jumps here",
+      "learn": "Teach the vocabulary of letter anatomy with the font itself, then label where each connection leaves the letter: the diagrams serve teachers as much as type buyers",
+      "reconstruction": {
+        "layout": "White band 698px with a 1000px diagram image (two rows of a word over horizontal zone bands with leader-line callouts); navy band 481px with a word ~600px wide inside a rounded outline, labels above and below",
+        "typography": "Words in raster Betània Patmos ~120px; callouts ~10px print caps tracked, red dots and dashed red baseline; caption ~13px Alegreya Sans Italic",
+        "palette": [
+          "#ffffff",
+          "#f5e9d5",
+          "#f3d7cb",
+          "#1c4a7a",
+          "#034a78",
+          "#ffe256"
+        ],
+        "behaviour": "none",
+        "content": "Spanish typographic glossary; connection heights in contextual alternates",
+        "assets": "bp_anatomia.png, bp_grabador.png (cassette-recorder illustration)",
+        "html": "article#overview.color4 > figure > img + p"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "tidy, illustrative",
+        "mobile": "shrinks",
+        "subject": [
+          "alternates"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "An open notebook held by brass clips: left page a blue 'd' without entry stroke heading 'durazno' with fruit words, right page an orange 'd' with entry stroke heading 'damasco'; caption 'Signos con / sin trazo de entrada.'",
+      "feel": "Neat, hand-made",
+      "ux": "static image",
+      "learn": "Put the two forms of a letter on facing pages of a notebook, each heading a short word list, so the difference is seen in use",
+      "reconstruction": {
+        "layout": "White band 731px; notebook spread ~600px wide centred; each page: giant 'd' (~200px), a headword, two lines of four words alternating colours",
+        "typography": "Raster Betània Patmos Regular (blue) vs Super ligada (orange); caption ~13px italic",
+        "palette": [
+          "#f3f4f4",
+          "#1c4a7a",
+          "#ea6a3a",
+          "#2c5e3a"
+        ],
+        "behaviour": "none",
+        "content": "Spanish fruit names (durazno, damasco, ananá, arándano, granada, guinda…)",
+        "assets": "bp_durazno-damasco-con-fondo.png (notebook mockup with peach)"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "pangram",
+        "tone": "whimsical, explanatory",
+        "mobile": "unknown",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "On sky blue, three paper planes trail looping lines over 'Había muchos aviones dibujando rulos, bucles y firuletes en el cielo.' in white cursive and a staggered trilingual claim 'DUCTUS OPTIMIZED FOR BETTER RECOGNITION OF THE SIGNS'; below, the pangram 'El veloz murciélago juega en el paraíso.' with five italic notes (a and g lack the extra stroke, entry strokes reach the baseline in p m n v u y t j i, no decorative loop in b v w k r, similar arcs in m and n, z has a descender)",
+      "feel": "Light-hearted but precise",
+      "ux": "static images; notes are live text",
+      "learn": "Let an illustration carry the joke (loops belong to the planes, not the letters) and list each simplification as one short line under a pangram",
+      "reconstruction": {
+        "layout": "Full-bleed sky-blue band 1474px: illustration image 1000×~620 then pangram image ~260px, then five centred italic note lines",
+        "typography": "Raster cursive ~60px white and ~75px dark blue; claim in print caps ~22px dark blue, indented in three steps; notes ~13px Alegreya Sans Italic with bold letters",
+        "palette": [
+          "#a3ddf9",
+          "#ffffff",
+          "#1c4a7a",
+          "#e8466e",
+          "#f07a2a"
+        ],
+        "behaviour": "none",
+        "content": "Spanish sentence about loops, trilingual claim (Catalan, Spanish, English), Spanish pangram, English design notes",
+        "assets": "bp_sinrulos.png (paper planes with loop trails), bp_sinrulos2.png",
+        "html": "article.color8 > figure > img ×2 + p notes with <strong> letters"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "design-details",
+      "variant": "highlighted-in-context",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "storybook, colourful",
+        "mobile": "unknown",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "Notebook spread: left page a frog playing guitar by a pond, right page 'Glyphs according to their position in the word.' over 'Había una canción a la luna de…' with every letter coloured by its contextual form, keyed below (● Inicial blue, ● Media orange, ● Final green, ● Aislada purple)",
+      "feel": "Storybook, joyful",
+      "ux": "static image",
+      "learn": "Colour each letter by its contextual form (initial, medial, final, isolated) inside a real sentence and add a four-dot key: the calt logic becomes visible at a glance",
+      "reconstruction": {
+        "layout": "Cream band 731px; notebook spread ~800px wide centred; right page: small title, 3–4 lines of ~45px cursive, legend in two columns at the bottom",
+        "typography": "Raster Betània Patmos ~45px, letters coloured per contextual form; legend ~16px cursive with coloured dots; caption ~13px italic",
+        "palette": [
+          "#fff7d8",
+          "#1c4a7a",
+          "#f07a2a",
+          "#2e9a5a",
+          "#8a3fa0"
+        ],
+        "behaviour": "none",
+        "content": "Spanish children's sentence; legend Inicial / Media / Final / Aislada",
+        "assets": "bp_cantemosalaluna.png (notebook + frog illustration, Freepik)"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "design-details",
+      "variant": "system-diagrams",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "methodical, cute",
+        "mobile": "unknown",
+        "subject": [
+          "construction",
+          "spacing"
+        ],
+        "presentation": "diagram",
+        "explanation": "prose"
+      },
+      "look": "A white note box in monospace 'Pauta Montessori — The vertical proportion guideline is 1 : 1…' (English and Spanish), then the Catalan proverb 'Val més ser cap d'arengada que cua de lluç' in dark-blue cursive on four-line Montessori ruling, with cat mascots perched on the lines",
+      "feel": "Methodical yet sweet",
+      "ux": "static; note is live text, sample is an image",
+      "learn": "Explain the vertical system (x-height = ascender = descender zone) in one sentence and show it on the actual ruling children write on",
+      "reconstruction": {
+        "layout": "Cream band 683px; mono note box ~1000px wide, ~90px tall at top; sample image 1000px wide with 3 lines of cursive on blue/red guide lines",
+        "typography": "Note ~13px Roboto Mono, bold title; sample raster Betània Patmos with Montessori overlay, ~80px x-height zone",
+        "palette": [
+          "#fff7d8",
+          "#ffffff",
+          "#1c4a7a",
+          "#7298a7",
+          "#f2b84b"
+        ],
+        "behaviour": "none",
+        "content": "Real explanation of the 1:1:1 proportion and the alternative uppercase and /t/ for editorial use; Catalan proverb",
+        "assets": "bp_licuadoveraniego.png; cat illustrations (Freepik)"
+      }
+    },
+    {
+      "blocks": [
+        "19"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "open, inviting",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Italic lead 'Collaborative. Open Source. Free. Work in progress' beside four paragraphs (SIL OFL, request of the Betània Patmos school, supported languages Catalan/Spanish/English/Guaraní/German, invitation to teachers), repeated in Spanish under the 'Español ↓' figures heading, ending with 'Escribinos / Contact us info@htfonts.com', 'Colaborar → Repositorio de GitHub' and 'Download the font → [ C L I C K H E R E ]'",
+      "feel": "Generous, community-minded",
+      "ux": "Download link to htfonts.com; GitHub and email for contributors; the nav also offers HT Fonts and Google Fonts downloads",
+      "learn": "Frame a free font as an open, collaborative project and ask its users (teachers) for feedback right where they download",
+      "reconstruction": {
+        "layout": "Pink band 1053px; lead cols 1–3, text cols 4–12 (~740px); figures heading image ~440×50 inside the text column; link lines at the end separated by a '//////' rule",
+        "typography": "Lead ~26px Alegreya Sans Italic blue; body ~15px Alegreya Sans; links salmon; 'CLICK HERE' tracked caps in brackets",
+        "palette": [
+          "#fde8ec",
+          "#1c4a7a",
+          "#e9776d",
+          "#4a4a4a"
+        ],
+        "behaviour": "none",
+        "content": "Licence, languages, call for collaboration; contact info@htfonts.com",
+        "assets": "bp_socialmedia_descripcion-esp.png (figures heading)",
+        "html": "article.color7#feedback > .row > .col-3 .bajada + .col-9 > p×n + a"
+      }
+    },
+    {
+      "blocks": [
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
+      ],
+      "type": "language-support",
+      "variant": "multiscript-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "worksheet, cheerful",
+        "mobile": "shrinks",
+        "method": "samples",
+        "nonLatin": false
+      },
+      "look": "Five short colour bands, one per supported language, each tagged '→ Català / Castellano / English / Guaraní / Deutsch' and showing a worksheet exercise in that language: 'Traç de la lletra A — Acompanyar' (the A solid, the rest faded for tracing), 'Escribe palabras con B — Búho, botón', 'Underline the letter M — AMAZING', 'Completa: e - ẽ — ma ↔ ña'' with blank boxes, 'Die Lücken füllen — Schla_zeug'",
+      "feel": "Practical, multilingual classroom",
+      "ux": "static images",
+      "learn": "Prove language support with a typical exercise in each language (trace, fill the gap, underline) instead of a pangram: buyers see the font doing the job in their language",
+      "reconstruction": {
+        "layout": "Five full-bleed bands 411px each alternating red, pink, green, red, yellow; 1000px images centred: tag at top-left (~13px), instruction line ~60px, exercise word ~90px on guideline ruling, highlight boxes for gaps",
+        "typography": "Raster Betània Patmos cursive and print; faded tracing letters at ~30% opacity; tags ~13px Alegreya Sans",
+        "palette": [
+          "#e86158",
+          "#fde8ec",
+          "#b7da9b",
+          "#ffe256",
+          "#ffffff",
+          "#1c4a7a"
+        ],
+        "behaviour": "none",
+        "content": "Catalan, Spanish, English, Guaraní and German worksheet prompts",
+        "assets": "bp_catalan.png, bp_espanol.png, bp_english.png, bp_guarani.png, bp_deu.png"
+      }
+    },
+    {
+      "blocks": [
+        "26"
+      ],
+      "type": "specimen-showcase",
+      "variant": "editorial-in-use",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "storybook, warm",
+        "mobile": "unknown",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "On red, a Catalan children's story in white cursive ('Hi havia una vegada una escola que es va quedar sense lletres…') with dialogue dashes, beside big print/cursive letter pairs 'Bb', 'Rr', 'X' in red, cream and navy",
+      "feel": "Fairy-tale, affectionate",
+      "ux": "static image",
+      "learn": "Set a short children's story in the cursive next to print/cursive letter pairs: a reading text and a letter chart in one panel",
+      "reconstruction": {
+        "layout": "Red band 624px; 1000px image: text column ~460px left (10 lines), letter pairs stacked on the right ~200px tall each",
+        "typography": "Raster cursive ~28px white, leading ~1.3; letter pairs ~180px",
+        "palette": [
+          "#e86158",
+          "#ffffff",
+          "#c8312a",
+          "#fbe6a0",
+          "#1c4a7a"
+        ],
+        "behaviour": "none",
+        "content": "Original Catalan story about a school that lost its letters",
+        "assets": "bp_silabas.png"
+      }
+    },
+    {
+      "blocks": [
+        "27",
+        "28",
+        "29",
+        "30",
+        "31"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "witty, decorative",
+        "mobile": "unknown",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "'Patterns' chapter: all-over textiles built from the font's symbols: yellow ↔ and red ↕ arrows on navy with the pun 'UNIVERSO TRAMAS // O // LAS TRAMAS DEL UNIVERSO … PLOTS & PATTERNS AREN'T HOMOPHONES. IN ENGLISH IT DOESN'T WORK.', a circle-and-cross lattice in blues, asterisk-and-dash rows, a diagonal '50' repeat in red, and maths signs (= < > + × ÷) on pink",
+      "feel": "Decorative, punny, gift-wrap",
+      "ux": "static images; the 'Patterns' nav anchor jumps here",
+      "learn": "Turn arrows, maths signs and figures into repeat patterns: the symbol set becomes classroom decoration, and a pun keeps it human",
+      "reconstruction": {
+        "layout": "Five bands (1040, 480, 457, 417, 417px) on navy or pink; 1000px pattern images centred, edge-to-edge repeats",
+        "typography": "Raster glyphs ~40px arranged on a grid; pun in print caps ~16px light blue",
+        "palette": [
+          "#014b7a",
+          "#ffe256",
+          "#e86158",
+          "#72aecf",
+          "#fde8ec"
+        ],
+        "behaviour": "none",
+        "content": "Bilingual Spanish/English pun on 'tramas' (plots/patterns)",
+        "assets": "bp_flechas2.png, bp_pattern2–5.png",
+        "html": "article#patterns.color6 > figure > img"
+      }
+    },
+    {
+      "blocks": [
+        "32"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "foundry-standard",
+        "mobile": "adapts",
+        "contains": [
+          "contact",
+          "socials",
+          "legal"
+        ]
+      },
+      "look": "Pink footer: HT FONTS logo and three ruled link columns (Letters / Overview / Patterns; Download from HT Fonts, Download from Google Fonts, PDF Specimen, Github repository; Contact us, Instagram, Facebook), '© 2026 HT Fonts' below",
+      "feel": "Tidy, utilitarian",
+      "ux": "Same template as the other HT microsites; downloads and PDF specimen repeated",
+      "learn": "Offer both the foundry and Google Fonts as download routes for an open-source font",
+      "reconstruction": {
+        "layout": "362px band; logo at x≈220; three ~180px columns with 1px left rules, bullet lists",
+        "typography": "~12px Alegreya Sans, links salmon, contact entries blue; copyright ~11px",
+        "palette": [
+          "#fde9eb",
+          "#e9776d",
+          "#1c4a7a",
+          "#111111"
+        ],
+        "behaviour": "none",
+        "content": "Real links",
+        "assets": "htfonts-b.png logo"
+      }
+    },
+    {
+      "blocks": [
+        "33"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "look": "Fixed white two-row nav (84px): HT logo + 'BETÀNIA PATMOS' with anchors LETTERS / OVERVIEW / PATTERNS, then external links (Download from HT Fonts, Download from Google Fonts, PDF Specimen, Github repository, Contact us); stamped across many stitched crops"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/typeset-page",
+    "story/design-brief",
+    "specimen-showcase/in-use-mockups",
+    "family-overview/style-word-grid",
+    "glyph-table/category-lines",
+    "design-details/annotated-specimen",
+    "design-details/feature-before-after",
+    "design-details/annotated-specimen",
+    "design-details/highlighted-in-context",
+    "design-details/system-diagrams",
+    "checkout/free-download",
+    "language-support/multiscript-specimen",
+    "specimen-showcase/editorial-in-use",
+    "specimen-showcase/poster-series",
+    "footer/link-columns"
+  ]
+}
