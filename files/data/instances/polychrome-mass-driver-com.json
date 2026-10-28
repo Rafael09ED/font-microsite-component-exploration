@@ -1,0 +1,481 @@
+{
+  "slug": "polychrome-mass-driver-com",
+  "extractedBy": "agent",
+  "summary": "Mass-Driver's black, almost monochrome microsite for MD Polychrome, a MICR-inspired 'retro high-tech' display face whose four styles (Nano, Kilo, Mega, Giga) vary optical size instead of weight. A chrome light-speed intro video opens the page; below, a sticky nav set in the font, short design notes with an animated MICR scanner diagram, auto-fitting editable specimen lines per size, a hover-to-toggle OpenType tile grid and three CTA lines. Unlike its sibling MD Nichrome, colour comes only from rendered chrome images and pink link accents.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "kinetic-type",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "retro-futurist, chrome",
+        "mobile": "adapts",
+        "carrier": "motion",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "A wide intro film: 'POLYCHROME' in 3D chrome lettering at the centre of a light-speed burst of cyan, magenta and white streaks on black",
+      "feel": "Spectacular, 70s sci-fi title card",
+      "ux": "A small 'Mass-Driver™' wordmark shows on black first; the video then plays in a small centred window (t≈0.9–2.2s) before filling the page width; no controls",
+      "learn": "Render the font as a chrome object in a hyperspace tunnel: one short film sets the 'retro high-tech' mood before any text appears",
+      "reconstruction": {
+        "layout": "Splash 1440×605 (video 1920 wide scaled to 100vw, cropped to ~42vw tall); intro state: black screen with a centred ~200×80px video window and the wordmark below it",
+        "typography": "Lettering inside the video: MD Polychrome Giga rendered in chrome; loader wordmark ~11px MD System, white",
+        "palette": [
+          "#020304",
+          "#102a33",
+          "#2f354c",
+          "#ffffff"
+        ],
+        "behaviour": "<video muted playsinline preload poster> started by script (class 'play' on #video-container), plays once and holds the last frame (as seen at the end of the recording)",
+        "content": "Name only",
+        "assets": "MD_Polychrome-Intro-6-compressed.mp4 (3D chrome title animation), poster JPG",
+        "html": "div#splash.splash > div.video__content.play#video-container > video#video-element[muted][playsinline][poster] > source"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "precise, technical",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Four lines in white MD Polychrome on black: 'MD Polychrome is a typeface based on the unique aesthetic of Magnetic Ink Character Recognition (MICR), and the pre-digital typefaces it inspired.' with a small grey paragraph in a right column",
+      "feel": "Straightforward, futuristic",
+      "ux": "static",
+      "learn": "Set the one-sentence definition in the display face itself; leave the detail to a small grey column",
+      "reconstruction": {
+        "layout": "12-column grid; headline cols 1–7 from x≈130 (~740px wide); paragraph cols 9–12 from x≈950 (~300px), top-aligned; block ~270px",
+        "typography": "Headline ~48px MD Polychrome (Kilo-like size), white, name in bold, leading ~1.1; paragraph ~14px MD System, grey #afafaf",
+        "palette": [
+          "#040404",
+          "#ffffff",
+          "#afafaf"
+        ],
+        "behaviour": "none",
+        "content": "Real definition and positioning",
+        "assets": "none",
+        "html": "section.grid.intro > h2 > strong + p"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "navigation",
+      "variant": "scroll-spy-nav",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Sticky 62px black bar with the chapter links Overview, Design, Specimens, OpenType, Glyphs set in MD Polychrome (~24px), the current chapter white and the others grey, and a pink 'Try / Buy ↗' at the right"
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "minimal, glossy",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "A short grey paragraph explaining that the four styles (Nano, Kilo, Mega, Giga) vary by size, not weight, beside a looping video in which the style names appear one after another in iridescent chrome ('KILO', 'MEGA')",
+      "feel": "Sleek, mysterious",
+      "ux": "Autoplaying looping video; no controls",
+      "learn": "When a family varies along an unusual axis, cycle the style names in their own styles in place, so the reader sees the four variants in the same spot",
+      "reconstruction": {
+        "layout": "Block ~473px; paragraph cols 1–3 at x≈130 (~360px); video centred in the remaining columns, ~600×300px area",
+        "typography": "Paragraph ~14px MD System grey, style names italic; video lettering MD Polychrome in chrome",
+        "palette": [
+          "#020202",
+          "#282c33",
+          "#afafaf"
+        ],
+        "behaviour": "<video muted playsinline autoplay loop> MD_Polychrome-Weights-4-compressed.mp4",
+        "content": "Explanation of the size-based styles; video of the four names",
+        "assets": "Chrome-rendered style-name video",
+        "html": "section.grid.overview__weights > p + div.video_element > video[autoplay][loop][muted]"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, minimal",
+        "mobile": "adapts",
+        "subject": [
+          "optical-size"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "The word 'VARIABLE' in grey MD Polychrome inside a thin bordered box, with a short paragraph on the variable optical-size font to its right",
+      "feel": "Quiet, instrument-like",
+      "ux": "The word is a small Vue component (variable-tester-box) whose opsz is set by script (opsz 24 in the capture); its trigger (pointer or loop) was not visible in the recording",
+      "learn": "A single word in a frame, reacting along the one axis the family has, is enough to explain a variable font with only an opsz axis",
+      "reconstruction": {
+        "layout": "Block ~324px; bordered box ~480×120px at x≈130 (1px #4c4c4c); paragraph cols 9–12",
+        "typography": "'VARIABLE' MD Polychrome Subset variable, opsz 24 (range up to 196), ~64px cap height, grey #afafaf; paragraph ~14px MD System",
+        "palette": [
+          "#020202",
+          "#afafaf",
+          "#4c4c4c"
+        ],
+        "behaviour": "Script writes font-variation-settings 'opsz' on h2#variable-tester-box (trigger not captured)",
+        "content": "The word 'VARIABLE'",
+        "assets": "none",
+        "html": "section.grid.overview__variable#variable[data-v-app] > h2.variable_tester#variable-tester-box[style=font-variation-settings] + p"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "06"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "nerdy, explanatory",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "diagram"
+        ],
+        "length": "short"
+      },
+      "look": "After the 'About the Design' heading in the font, two short grey paragraphs explaining MICR beside a framed diagram: chrome digits '01234' above a divider line, under which a black mask slides away left to right, uncovering the magnetic-signature waveform as if scanned",
+      "feel": "Clever, illuminating",
+      "ux": "Animation loops every 8s; no interaction",
+      "learn": "Animate the original technology (a magnetic scanner reading the digits) instead of describing it: the reason for the odd shapes becomes obvious",
+      "reconstruction": {
+        "layout": "Heading block 142px (h1 ~64px); section ~517px: paragraph cols 1–3 (~360px at x≈130), SVG 800×400 viewBox (~770px wide at x≈540) with a 1px grey frame; digits image in the top 230 units, divider at y=240, waveform area below",
+        "typography": "Heading ~64px MD Polychrome white; body ~16px MD System grey, 'Magnetic Ink Character Recognition' italic",
+        "palette": [
+          "#030303",
+          "#aaaaaa",
+          "#555555",
+          "#ffffff"
+        ],
+        "behaviour": "SMIL: rect (black) animates x 0→800 over 8s, repeatCount indefinite, revealing the waveform; waveform stroke animates #AAAAAA→#000000 at the end of each cycle (keyTimes 0;0.95;1)",
+        "content": "Real history of MICR (late 1950s, magnetic signatures, 1960s 'MICR look' typefaces)",
+        "assets": "md_polychrome-micr_tnum-half.png (chrome digits), waveform path",
+        "html": "header > a.nav_anchor#design + h1; section.grid.design__micr > p + svg[viewBox='0 0 800 400'] > image + line + rect > animate[attributeName=x]"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "craft, corrective",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "Two framed close-ups of the same grey letter corner side by side, the left with circle-arc corners and small arrows marking the visible 'bump', the right with drawn curves that blend smoothly; captions beneath and a paragraph on careless MICR digitisations at the right",
+      "feel": "Expert, quietly proud",
+      "ux": "static",
+      "learn": "Show the shortcut and the crafted version of the same corner side by side: the quality argument needs no adjectives",
+      "reconstruction": {
+        "layout": "Block ~541px; two SVG panels 387×326 at x≈130 and x≈540 with 1px grey border; captions ~16px below; paragraph cols 9–12",
+        "typography": "Captions and paragraph ~16px MD System grey",
+        "palette": [
+          "#030303",
+          "#acacac",
+          "#545454"
+        ],
+        "behaviour": "none",
+        "content": "Construction comparison: circle-section corners vs blended curves",
+        "assets": "Two inline SVG glyph details with arrow markers",
+        "html": "section.grid.design__digitisation > div > svg + p (× 2) + p"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "language-support",
+      "variant": "coverage-statement",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "proud, matter-of-fact",
+        "mobile": "adapts",
+        "method": "statement",
+        "nonLatin": false
+      },
+      "look": "A short grey paragraph ('covers over 400 languages, and includes a suite of currency symbols') beside two rows of chrome-rendered currency symbols (₱ ₿ ₵ ¢ ₡ $ € ₲ ₴ ₸ …) with pink and teal reflections",
+      "feel": "Shiny, collectable",
+      "ux": "static",
+      "learn": "Back the coverage claim with the rarest glyphs (currency signs never drawn in this genre) rendered as precious objects",
+      "reconstruction": {
+        "layout": "Block ~387px; paragraph cols 1–3; PNG ~720×220px to the right",
+        "typography": "Paragraph ~16px MD System grey; symbols in the image MD Polychrome Giga",
+        "palette": [
+          "#030303",
+          "#132830",
+          "#334853",
+          "#afafaf"
+        ],
+        "behaviour": "none",
+        "content": "Coverage statement: 400+ languages, extended currency set",
+        "assets": "md_polychrome-currency-half.png (chrome currency glyphs)",
+        "html": "section.grid.design__currency > p + img"
+      }
+    },
+    {
+      "blocks": [
+        "09",
+        "10"
+      ],
+      "type": "type-tester",
+      "variant": "auto-fit-editable-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "space-age, cinematic",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Under 'Usage Specimens', four groups each introduced by a small grey style label on a hairline (MD Polychrome Giga, Mega, Kilo, Nano), with two grey editable lines filling the column: 'JUPITER-2 / M74 Galaxy', 'LIQUID MERCURY / Monolith Dreaming', 'SUPER-CONDUCTIVE MATERIALS / June 3, 1965: First U.S. Spacewalk', a Le Guin quote and 'MICR Technology Demo'",
+      "feel": "Retro space-program, dramatic",
+      "ux": "Click any line to type; the size recalculates to fill the width; text selection uses a pink or blue highlight per size",
+      "learn": "Group fitted lines by optical size so the visitor sees the thin strokes thicken as the sizes shrink",
+      "reconstruction": {
+        "layout": "Heading block 142px; specimens ~1844px; divider rows (label + 1px line) between groups; lines span ~1180px from x≈130",
+        "typography": "MD Polychrome variable: Giga opsz 196 at ~305/293px, Mega opsz 72 at ~189/183px, Kilo opsz 34 at ~80px, Nano opsz 24 at ~45px, grey #a0a0a0; labels ~11px MD System",
+        "palette": [
+          "#060606",
+          "#8f8f8f",
+          "#4e4e4e"
+        ],
+        "behaviour": "Vue: contenteditable lines; font-size recomputed on input to fit the column (opentype.js metrics); --highlight custom property sets ::selection colour per group",
+        "content": "Space-race themed phrases and dates, a Le Guin title",
+        "assets": "none",
+        "html": "section#testers.grid.specimens[data-v-app] > h3.specimens__divider > span + div; div.specimen > div.specimen__input[contenteditable][style=--highlight;font-size;font-variation-settings]"
+      }
+    },
+    {
+      "blocks": [
+        "11",
+        "12"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "tidy, technical",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "toggle",
+        "explanation": "caption"
+      },
+      "look": "Under 'OpenType Features', a 3-column grid of thin-bordered black tiles, each with one sample word in grey ('Android', 'Northern', 'More →', 'HEAVEN', '123/456', 'Şţ L·L íj', '1ª 1º', '01.28.49', 'AVARICE', case forms) and a caption row: tag in small caps, bold feature name, and a dim 'On' at the right",
+      "feel": "Neat, interface-like",
+      "ux": "Hovering (or touching, via ontouchstart) a tile switches its feature, with the 'On' label marking the state; footnotes mark features on by default",
+      "learn": "Pick one sample word per feature that contains the affected glyphs and let hover flip it: a feature catalogue with no extra controls",
+      "reconstruction": {
+        "layout": "Heading block 142px; grid 3 columns at x≈130, 540, 950, tiles ~364×110px, 1px #4d4d4d border, ~60px between rows; caption row 12px below each tile; the case tile spans 2 columns; footnotes in column 3",
+        "typography": "Samples ~64px MD Polychrome grey; captions ~12px MD System: tag small caps grey, name bold white, 'On' blue-grey",
+        "palette": [
+          "#040404",
+          "#afafaf",
+          "#4d4d4d",
+          "#ffffff"
+        ],
+        "behaviour": "li:hover toggles the h2's feature class (ss01, ss02, ss03, ss04, frac, locl, ordn, tnum, calt, case); ontouchstart='' enables hover on touch",
+        "content": "Words chosen per feature (Square A, Diagonal N, Chonky Arrows, Interlocking Pairs …)",
+        "assets": "none",
+        "html": "section.grid.opentype > ul.opentype__features > li[ontouchstart] > h2.ss01 + p > span.feature__name + b"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "direct, retro",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Three grey lines in MD Polychrome on black, all one size: 'Buy MD Polychrome ↗', 'Download Trial Fonts ↓', 'Read the PDF Specimen →' with the font's chonky arrows",
+      "feel": "Plain, confident",
+      "ux": "Links to the shop, trial page and PDF",
+      "learn": "End-of-page CTAs set in the display face show off its arrows (ss03) at the moment of action",
+      "reconstruction": {
+        "layout": "Block ~481px; three left-aligned lines at x≈130, ~90px line pitch",
+        "typography": "~80px MD Polychrome (opsz 55), grey #afafaf",
+        "palette": [
+          "#020202",
+          "#afafaf"
+        ],
+        "behaviour": "Hover state not captured",
+        "content": "Buy, trial, PDF",
+        "assets": "none",
+        "html": "section.ctas > h1 > a.cta_buy|cta_try|cta_pdf"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, honest",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal",
+          "socials"
+        ]
+      },
+      "look": "Black footer in three columns: a grey bar logo with 'Mass–Driver™', 'About this Website' (set in MD System, built in-house, no cookies, © 2022) and 'About the Foundry' with Instagram/Twitter links in pink; headings in MD Polychrome",
+      "feel": "Minimal, transparent",
+      "ux": "Plain links",
+      "learn": "Set the footer headings in the display face so even the colophon stays on-brand",
+      "reconstruction": {
+        "layout": "Footer ~318px; columns at x≈130, 540, 950",
+        "typography": "Headings ~32px MD Polychrome white; body ~14px MD System grey; links pink",
+        "palette": [
+          "#030303",
+          "#afafaf",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Colophon and foundry blurb",
+        "assets": "Mass-Driver logo SVG"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "13",
+      "reason": "tiny section heading 'List of Glyphs' for the glyph set below, which rendered empty"
+    },
+    {
+      "block": "14",
+      "reason": "Glyph set (Vue glyphset__track / glyphset__follower) rendered empty in the capture: a 129px black strip; component cannot be classified"
+    }
+  ],
+  "sequence": [
+    "hero/kinetic-type",
+    "story/large-text-intro",
+    "family-overview/style-word-grid",
+    "design-details/axis-explainer",
+    "story/origin-reference",
+    "design-details/annotated-specimen",
+    "language-support/coverage-statement",
+    "type-tester/auto-fit-editable-lines",
+    "design-details/feature-index",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

@@ -1,0 +1,583 @@
+{
+  "slug": "etunni-github-io-arapey-minisite",
+  "extractedBy": "agent",
+  "summary": "A Google Fonts minisite (same Kabisa template family as Fraunces) for Arapey, a Bodoni-flavoured variable serif (wght 100–900, opsz 12–128) named after a spa town in northern Uruguay. Red, black and green sections give each control its own small demo (style dropdown + size slider, thin/black toggles, sliding glyph strips, a zoomable grid, a live weather widget), and a hotel-branding collage, floating annotated letters, an opsz explainer with CSS and a with/without-opsz wipe teach the design.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "elegant, calm",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "'Arapey' in deep red across the middle, 'Ara' in Black Display and 'pey' in Thin Display, over a faint canvas texture of tiny repeated 'A's; small byline 'A variable typeface by Eduardo Rodríguez Tunni', a red 'Scroll down for more Arapey ↓' and a green round 'Get Arapey ↓' badge above the name",
+      "feel": "Refined, quiet, Latin American modern",
+      "ux": "A 'Loading' screen precedes it; the green badge becomes a fixed button that follows the page; scroll prompt",
+      "learn": "Split the name across the two weight extremes at display opsz: one word shows the whole wght range with no slider",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×810; canvas background of small grey A's in diagonal rows, fading toward the bottom; name centred, spanning x≈190–1275 at y≈330–620; badge ~110px circle centred above; byline and prompt centred below",
+        "typography": "Name ~360px Arapey (opsz 128) wght 900 for 'Ara', wght 100 for 'pey', red #b00703; byline ~14px Arapey Regular black; prompt ~12px red",
+        "palette": [
+          "#f8f8f8",
+          "#b00703",
+          "#1f6650",
+          "#d0d0d0"
+        ],
+        "behaviour": "Canvas pattern (arapey-hero-canvas) draws the A texture, probably animated or pointer-reactive; section gets .in-view on entry",
+        "content": "Name, byline, scroll prompt",
+        "assets": "SVG 'Get Arapey' badge; canvas-generated letter texture",
+        "html": "section.arapey-hero.am-i-in-view > canvas.arapey-hero-canvas + .arapey-hero-text > h1.arapey-hero-title"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "serene, personal",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'About Arapey' in red, then one paragraph giving the pronunciation '(Ah-ra-pay)' in red and the origin: sketches made on holiday in Arapey, a small town in northern Uruguay where 'time seems to stop'",
+      "feel": "Calm, reflective",
+      "ux": "Heading and paragraph are contenteditable like the samples",
+      "learn": "Give the pronunciation of an unfamiliar name inline in an accent colour, right in the first sentence",
+      "reconstruction": {
+        "layout": "Centred heading; paragraph column ~900px (x≈270–1170), top of a ~1330px section",
+        "typography": "Heading ~56px Arapey Semibold (opsz 128) red; paragraph ~17px Arapey Regular (opsz 12), leading ~1.6",
+        "palette": [
+          "#fdfdfd",
+          "#b00703",
+          "#111111"
+        ],
+        "behaviour": "none",
+        "content": "Real description and origin of the name",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "inviting, minimal",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "style-select"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "A small grey style dropdown ('Regular ⌄'), the red editable prompt 'Say hello to Arapey / Write something', and a 'Size' tick slider with a value badge (60)",
+      "feel": "Gentle, uncluttered",
+      "ux": "Pick one of 11 named styles (Thin … Black plus Thin Display and Black Display, each with its opsz) from the dropdown, drag size 20–100, type",
+      "learn": "Let the style menu carry opsz too (data-opsz on each option): 'Thin Display' and 'Black Display' are just presets with opsz 128",
+      "reconstruction": {
+        "layout": "Dropdown ~190×30px centred; sample centred ~300px below; slider ~840px wide (x≈270–1170) near the section bottom, label 'Size' on its left, badge floating over the thumb",
+        "typography": "Sample 60px default Arapey Regular red, two lines; dropdown and label ~12px Arapey Bold",
+        "palette": [
+          "#fdfdfd",
+          "#b00703",
+          "#dbdcdc",
+          "#111111"
+        ],
+        "behaviour": "button.interactive-controls-option[data-opsz][data-wght] set font-variation-settings; input[type=range] 20–100 step any sets --font-size; output badge follows the thumb",
+        "content": "Prompt copy",
+        "assets": "Dropdown chevron SVG",
+        "html": "section.about-arapey-content-interactive > .interactive-controls-select-group (button#interactive-controls-select + ul.interactive-controls-options-list > button.interactive-controls-option[data-opsz][data-wght]) + .about-arapey-interactive-paragraph[contenteditable][style=--font-size] + .interactive-controls-tick-slider-container > output + input.font-size"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "bold, place-proud",
+        "mobile": "adapts",
+        "subject": [
+          "axes",
+          "optical-size"
+        ],
+        "presentation": "toggle",
+        "explanation": "none"
+      },
+      "look": "Three stacked full-width bands (black, red, light grey), each one editable place name ('Termas del Arapey', 'Salto Uruguay', 'Hot Springs') with a small iOS-style switch between 'Display thin' and 'Display black'",
+      "feel": "Striking, poster-like",
+      "ux": "Flip a band's switch to morph its line between Thin Display and Black Display; click to type",
+      "learn": "A two-state switch between the weight extremes, with an animated morph, is a simpler axis demo than a slider for display use",
+      "reconstruction": {
+        "layout": "Three bands ~330px each, full bleed; phrase centred; switch row (label · toggle · label) centred under it",
+        "typography": "Phrases ~144px Arapey opsz 128, wght 900 (black state) or 100 (thin), white on black and red, red on grey; labels ~10px Arapey Bold",
+        "palette": [
+          "#030303",
+          "#b30d02",
+          "#eaeaea",
+          "#ffffff"
+        ],
+        "behaviour": "input[type=checkbox] toggles a class that transitions font-variation-settings wght 100 ↔ 900 (morphing text)",
+        "content": "Place names of the town and region",
+        "assets": "none",
+        "html": "section.toggle-block-container > section.toggle-block.toggle-block-black|red|gray > .toggle-block-morphing-text[contenteditable] + .toggle-content > span.toggle-label + input#switch-N.interactive-controls-checkbox + span.toggle-label"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "glyph-table",
+      "variant": "category-tabs",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bold, immersive",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "tabs",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A style dropdown and three text tabs (lowercase | uppercase | numerals) above a single giant black line of the alphabet cropped by both edges ('bcdefgh…')",
+      "feel": "Monumental, close-up",
+      "ux": "Tabs switch the strip between categories; the dropdown restyles it; the strip slides horizontally",
+      "learn": "Show one category at 500px+ and let it slide past: the reader studies letter details one by one instead of scanning a grid",
+      "reconstruction": {
+        "layout": "Controls centred at the top (dropdown ~190px, tabs ~12px text); strip ~576px font-size spanning beyond both edges; section ~665px tall",
+        "typography": "Strip ~576px Arapey Regular (opsz 12 by default) black; active tab in green, others black, separated by |",
+        "palette": [
+          "#fefefe",
+          "#050505",
+          "#1f6650"
+        ],
+        "behaviour": "Tab buttons swap .character-slide-list.active; lists translate horizontally (marquee-like slide); style options set wght/opsz",
+        "content": "a–z, A–Z, 0–9",
+        "assets": "none",
+        "html": "section.character-slide-section > .character-slide-section-controls (select group + .slider-selector > button[value=lowercase|uppercase|numerals]) + .character-slide-lists > .character-slide-list(.active)"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "clean, tool-like",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "select",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Left: a scrolling 7-column grid of all 693 characters with the selected 'A' circled in red; right: the selected glyph huge; below, a weight tick slider (Thin … Black) with a red badge at 600",
+      "feel": "Precise, calm",
+      "ux": "Click a cell to zoom it; drag the weight slider to restyle grid and zoom together",
+      "learn": "One weight slider under a grid + zoom pair lets visitors watch a single glyph's weight change in detail",
+      "reconstruction": {
+        "layout": "1200px container (x=120); grid ~450px wide, ~7 columns of ~54px cells, scrollable ~430px tall; zoom area to the right ~500px; tick slider ~900px wide below with 9 labelled ticks",
+        "typography": "Grid ~22px Arapey (opsz 12); zoom ~300px; tick labels ~10px Arapey Bold; badge red",
+        "palette": [
+          "#fdfdfd",
+          "#111111",
+          "#b00703",
+          "#d0d0d0"
+        ],
+        "behaviour": "Click li.character-grid-item → .active + .character-grid-zoom updates; input weight-grid-slider 100–900 step any sets wght on the whole section",
+        "content": "Full character set (693 glyphs)",
+        "assets": "none",
+        "html": "section.character-grid-section > .character-grid-inner-container > ol.character-grid > li.character-grid-item(.active) + .character-grid-zoom ; .interactive-controls-tick-slider-container > output + input.weight-grid-slider + .ticks"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "hospitality, upmarket",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "grid"
+      },
+      "look": "A scattered collage of flat branding props for an invented 'Resort del Arapey Hotel & Spa': a red Travelers' Choice brochure ('Welcome to Arapey'), black Pool & Spa / Restaurant signs, a 'Reserved' table tent, an 'organic Soap!' wrapper, a five-star rating, a red 'kids! menu', business cards, a napkin, an open magazine",
+      "feel": "Polished, touristy",
+      "ux": "Props are separate SVG layers that appear to move at different speeds while scrolling (some appear doubled in the stitched capture)",
+      "learn": "Brand a fictional local business top to bottom (signage, stationery, menus, soap): the range of weights finds a job in each artefact",
+      "reconstruction": {
+        "layout": "Full-width ~1344px; ~10 SVG props absolutely positioned at slight angles, from ~150px (rating) to ~500px (magazine) wide, overlapping",
+        "typography": "Arapey across the range: Black Display for 'Arapey', 'Soap!', 'kids! menu'; Extralight to Medium for taglines and body text in the magazine",
+        "palette": [
+          "#fbfbfb",
+          "#b10b03",
+          "#0a0909",
+          "#d6d6d5"
+        ],
+        "behaviour": "Probable scroll parallax per prop (duplicated layers in the stitched crop)",
+        "content": "Invented resort branding: Hotel & Spa, Thermal Resort Hotels, Family friendly, All-Inclusive",
+        "assets": "Ten flat SVG prop illustrations (soap, signs, reserved, napkin, magazine, kids-menu, five-star-rating, card, card-2, book)",
+        "html": "section.fonts-in-use > .fonts-in-use-container > .svg-container.soap|signs|reserved|napkin|magazine|kids-menu|five-star-rating|card|card-2|book"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "themed-infographic",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "local, informative",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "series"
+      },
+      "look": "'Arapey Weather': three big green readouts stacked (23°C; Wind N. at 5.66 km/h / 38% Humidity; Local time Tuesday 8:42), each with its own weight tick slider (Thin … Black) and a numeric badge (468, 404, 367)",
+      "feel": "Useful, friendly",
+      "ux": "Each slider sets the weight of its readout; the readouts appear to show the town's live weather and local time",
+      "learn": "Use live local data (weather, clock) as sample text: figures and units are the hardest test for a display serif and change every visit",
+      "reconstruction": {
+        "layout": "1200px container, ~1900px tall; three articles stacked ~600px apart: label, readout centred, tick slider ~900px wide below",
+        "typography": "Temperature ~192px Arapey (opsz auto) green; wind/humidity and time ~56px; labels ~12px Bold; badges ~11px",
+        "palette": [
+          "#fdfdfd",
+          "#1f6650",
+          "#cfd9d7",
+          "#111111"
+        ],
+        "behaviour": "temperature-slider, humidity-slider, time-slider (100–900, step any) set wght on their readout; content likely fetched from a weather API and the clock (not verified)",
+        "content": "Weather and time for Termas del Arapey",
+        "assets": "none",
+        "html": "section.weather-section > article.weather-content-container.interactive-controls ×3 > .weather-content-label + .temperature|.time.interactive-controls-text + .interactive-controls-tick-slider-container > output + input.*-slider + .ticks"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "airy, expert",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "Seven grey letters (a, g, m, d, u, r, v) floating at different sizes on pale grey, each with a highlighted detail (black fill on the feature, soft circle behind it) and a tiny green leader caption: ball terminal, soft ear, smooth stem-to-arc transition, concave top serifs, ink traps (on the large 'u'), asymmetrical compensated serif, diagonal termination",
+      "feel": "Light, gallery-like",
+      "ux": "Letters drift with the scroll; the active letter's feature is filled black (hover or in-view highlight)",
+      "learn": "Fill only the region a design note refers to in black on an otherwise grey glyph: the eye lands exactly on the detail",
+      "reconstruction": {
+        "layout": "Full-width ~930px pale-grey section; letters absolutely placed in a loose ring, ~90–200px glyphs (u ~260px in the centre); captions ~9px with 1px leaders",
+        "typography": "Letters Arapey Bold/Black grey #555; highlight black; captions ~9px Arapey green",
+        "palette": [
+          "#f8f8f8",
+          "#555555",
+          "#111111",
+          "#1f6650",
+          "#d1d1d1"
+        ],
+        "behaviour": "span.floating-letter(.active) parallax on scroll; active class toggles the black feature fill",
+        "content": "Seven named design features",
+        "assets": "SVG letter drawings with separate feature shapes",
+        "html": "section.design-features-section > .floating-letter-container > span.floating-letter.a|g|m|d|u|r|v(.active)"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "educational, developer-friendly",
+        "mobile": "adapts",
+        "subject": [
+          "axes",
+          "optical-size"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "'About variable fonts and optical sizes' in navy, two explanatory paragraphs, then a big black 'a' flanked by ghosted Thin and Black 'a's, a weight tick slider (500) and an Optical Size slider (100), and a grey code block '.arapey { font-family; font-weight: 500; font-size: 320px; font-optical-sizing: auto; }' with comments",
+      "feel": "Didactic, clear",
+      "ux": "Drag weight or optical size; the 'a' and the numbers inside the CSS snippet update together",
+      "learn": "Pair the slider with the live CSS it produces: designers see the shape change, developers see the property to copy",
+      "reconstruction": {
+        "layout": "Text column ~900px (x≈270–1170); glyph row: ghosts at the left and right edges (~200px, light grey), centre 'a' ~200px; sliders ~900px wide stacked; code box ~900×260px light grey",
+        "typography": "Heading ~48px Arapey Semibold navy #1d4f7a; body ~17px Arapey; key terms bold navy; code ~14px monospace with coloured strings (green), numbers (red), comments (grey)",
+        "palette": [
+          "#fafafa",
+          "#111111",
+          "#1d4f7a",
+          "#d8d9da",
+          "#b00703"
+        ],
+        "behaviour": "wght slider 100–900 and opsz slider 12–128 set the centre glyph; span.int-value.wght-slider in the code block mirrors the value",
+        "content": "Real explanation of masters, axes, instances and optical size; CSS usage",
+        "assets": "none",
+        "html": "section.about-variable-fonts-section > p + section.character-slider-container > .character-slider + inputs ; pre-like block with span.property / span.string-value / span.int-value / span.comment"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "historical, precise",
+        "mobile": "adapts",
+        "subject": [
+          "optical-size"
+        ],
+        "presentation": "overlay",
+        "explanation": "caption"
+      },
+      "look": "A text about the 'Old railway bridge of Termas del Arapey' at three sizes, split by a thin vertical divider: left labelled 'Without optical sizing', right 'With optical sizing'",
+      "feel": "Calm, convincing",
+      "ux": "Drag the divider to wipe between the opsz-off and opsz-on renderings",
+      "learn": "Use the same wipe as the Fraunces site but with real local history as text: content and demo reinforce each other",
+      "reconstruction": {
+        "layout": "Demo ~1200px wide; labels at top-left and top-right in navy; heading ~56px, paragraph ~22px, small paragraph ~14px; 1px divider with drag control",
+        "typography": "Arapey Regular at opsz 80/40/28 (with) versus opsz 12 (without); labels ~11px Bold navy",
+        "palette": [
+          "#fafafa",
+          "#111111",
+          "#1d4f7a",
+          "#d0d0d0"
+        ],
+        "behaviour": ".opsz-slider-window clips the with-opsz layer; .opsz-demo-control drag sets its width",
+        "content": "Real history: German-made railway bridge, engineer Juan T. Smith, North Western railway of Uruguay",
+        "assets": "none",
+        "html": ".opsz-demo-container > .opsz-demo > .with-opsz (p.opsz-large-with…) + .opsz-slider-window > .without-opsz + .opsz-demo-control"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "10"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, factual",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "'Download Arapey' in red, a two-column spec table (Styles: Roman (& Italic coming soon); Named styles: 128 Thin, 128 Black; Weights: Thin … Black; Weight range 100 — 900; Optical Sizes 12 — 128) and a red rectangular 'Download Arapey' button; a fixed green round 'Get Arapey ↓' badge on every screen jumps here",
+      "feel": "Straightforward",
+      "ux": "The fixed badge scrolls to this section; the button downloads the font (href '#', handled by script)",
+      "learn": "A persistent round badge that follows the reader replaces a nav bar when the only action is 'get it'",
+      "reconstruction": {
+        "layout": "896px block centred; heading, then label column ~170px and value column; button ~310×64px; badge ~110px circle fixed at left ~60px from the edge",
+        "typography": "Heading ~64px Arapey Semibold red; table ~15px (labels Regular, values Bold); button ~22px white on red; badge 'Get Arapey' ~16px white with ↓",
+        "palette": [
+          "#fefefe",
+          "#b00703",
+          "#1f6650",
+          "#111111"
+        ],
+        "behaviour": "Badge position fixed; anchor scroll",
+        "content": "Family specs and download",
+        "assets": "Badge SVG",
+        "html": "section.arapey-styles-container > h2.arapey-title-red + .arapey-styles-list-container + a.download-link"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "interlude",
+      "variant": "full-bleed-image",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "quiet, textural",
+        "mobile": "adapts"
+      },
+      "look": "A pale full-width band of the canvas letter texture (tiny grey letters in diagonal rows) fading out, echoing the hero, before the footer",
+      "feel": "Soft fade-out",
+      "ux": "static in the capture",
+      "learn": "Reuse the hero's texture as the closing band so the page ends where it began",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×630 canvas with a shadow gradient overlay",
+        "typography": "Tiny Arapey glyphs (~12px) drawn on canvas, light grey",
+        "palette": [
+          "#fefefe",
+          "#e0e0e0"
+        ],
+        "behaviour": "Canvas drawing (class arapey-zzzz-canvas), possibly animated",
+        "content": "Letter texture only",
+        "assets": "none (canvas)",
+        "html": "section.arapey-zzzz > canvas.arapey-zzzz-canvas + .arapey-zzzz-shadow"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "collegial",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "other-fonts"
+        ]
+      },
+      "look": "Light grey footer in three columns: 'Made by friends of Google Fonts', credits (Arapey by Eduardo Tunni; website by Kabisa, design by Bureaudonald; thanks to Google Design and Google Fonts), and GitHub links (contribute, file a bug, view source)",
+      "feel": "Open, tidy",
+      "ux": "Underlined links to collaborators and the GitHub repo",
+      "learn": "Invite contributions (file a bug, view source) in the footer of an open-source specimen",
+      "reconstruction": {
+        "layout": "Full-bleed ~440px light grey; three columns starting x≈180",
+        "typography": "~11px Arapey Regular, names bold, links underlined",
+        "palette": [
+          "#f8f8f8",
+          "#111111"
+        ],
+        "behaviour": "none",
+        "content": "Credits and repository links",
+        "assets": "Google Fonts logo SVG"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/origin-reference",
+    "type-tester/slider-sandbox",
+    "design-details/axis-explainer",
+    "glyph-table/category-tabs",
+    "glyph-table/glyph-inspector",
+    "specimen-showcase/prop-collage",
+    "specimen-showcase/themed-infographic",
+    "design-details/annotated-specimen",
+    "design-details/axis-explainer",
+    "design-details/feature-before-after",
+    "checkout/link-out-cta",
+    "interlude/full-bleed-image",
+    "footer/credits-colophon"
+  ]
+}

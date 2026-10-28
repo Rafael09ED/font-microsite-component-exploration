@@ -1,0 +1,708 @@
+{
+  "slug": "apoc-font-eu",
+  "extractedBy": "agent",
+  "summary": "Blaze Type's template microsite for Apoc, a three-subfamily display serif (Normal, Revelations, Sans; wght 100–900): a cinematic 3D video hero of chrome letters, story paragraphs that double as testers with red pill toolbars and woodcut marginalia, pointer-driven weight panels on an engraved dark texture, faint giant marquees between sections, a pairing tester and in-use galleries.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "kinetic-type",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "video",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "cinematic, dark, apocalyptic",
+        "mobile": "adapts",
+        "carrier": "motion",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "Full-width video of chrome, mirror-polished 3D serif letters ('Apoc Revelations', 'New Styles Available', 'Gehenna') flying through a dark voxel city lit by red glows, inset 40px on white, with a white mute icon bottom-right and the slim 'Buy Apoc · APOC · Download Trial' bar on top",
+      "feel": "Cinematic, ominous, luxurious",
+      "ux": "Autoplay muted loop; the mute button toggles sound; clicking the video smooth-scrolls one viewport down; Buy and Trial links in the fixed bar",
+      "learn": "Render the family's words as reflective 3D objects in a film-like scene: a display serif gets drama a flat specimen can't give",
+      "reconstruction": {
+        "layout": "Video box x=40, y=40, 1360×870 (~95vh), object-fit cover; mute icon 36px at bottom-right with 16px inset; fixed white bar 54px above",
+        "typography": "No live display type; letters are rendered in the video (Apoc Revelations, italics included); bar labels ~16px Apoc, centre logo 'APOC' ~36px caps",
+        "palette": [
+          "#f9f8f8",
+          "#2d2c30",
+          "#47484d",
+          "#161517",
+          "#f70307"
+        ],
+        "behaviour": "Looping 3D render video; .intro-btn-mute swaps icon-sound-off / icon-sound-on and toggles muted; onclick → window.scrollTo(innerHeight − header height); white page for ~2s while loading",
+        "content": "Words from the theme: 'Apoc Revelations', 'New Styles Available', 'Gehenna', 'Great…'",
+        "assets": "3D-rendered video loop (videos/apoc_home.mp4) of chrome letters in a dark cityscape with red lights",
+        "html": "section#intro > div.intro-poster > video.intro-poster-bg[autoplay muted loop] + div.intro-btn-mute > svg.icon-sound-off + svg.icon-sound-on"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "confident, promotional",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Under the video, a four-line paragraph in black Apoc Revelations at ~39px across the full width, with 'Apoc(alypse)' and 'the most popular typeface of contemporary independant design' picked out in red",
+      "feel": "Assured, editorial",
+      "ux": "Red phrases are links or emphasis; static otherwise",
+      "learn": "Colour a few phrases of the intro red: the paragraph reads as a specimen and the accent colour becomes the site's highlight system",
+      "reconstruction": {
+        "layout": "Full content width 1360px from x=40, starts right under the video, ~4 lines (~190px)",
+        "typography": "~39px Apoc Revelations Regular (wght 400), leading ~1.15, sentence case; highlighted phrases red #f70307, first word italic",
+        "palette": [
+          "#f9f8f8",
+          "#161517",
+          "#f70307"
+        ],
+        "behaviour": "none",
+        "content": "Release facts: 'Apoc(alypse) character set & alternates was released in 2018 and updated in 2020 & 2022 by Matthieu Salvaggio. Cyrillic … by Ilya Ruderman (Tomorrow Type)…'",
+        "assets": "none",
+        "html": "div.intro-description.text-lg > em"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "03",
+        "12"
+      ],
+      "type": "interlude",
+      "variant": "ghost-marquee",
+      "newVariant": true,
+      "variantDefinition": "A single sentence from the surrounding copy set near viewport height in a very pale tint and scrolled sideways as an endless full-bleed band between sections: a quiet, textural pause rather than information.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "quiet, atmospheric",
+        "mobile": "adapts"
+      },
+      "look": "Three full-bleed bands of one huge sentence in near-white grey (#f0f0f0) on white, cropped at both edges: 'Apoc is an elegant, expressive font family…' (Revelations), 'With agressive serifs, sharp as if there were cut by a knife.' (Revelations) and 'It will do marvels if you want to balance your layout's optical gray…' (Sans)",
+      "feel": "Ghostly, slow, airy",
+      "ux": "The line drifts horizontally in a loop (different crop in each frame of the video); no interaction",
+      "learn": "Echo a phrase from the paragraph above as a pale giant marquee: it adds display-size letterforms and pacing without competing with the content",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×450 band, one line, overflow hidden; three copies of the sentence in a row (before, main, after) so the loop is seamless",
+        "typography": "~400px Apoc Revelations (or Apoc Sans Thin for the last), wght 400 / 100, colour #f0f0f0, no wrapping",
+        "palette": [
+          "#ffffff",
+          "#f0f0f0"
+        ],
+        "behaviour": "CSS keyframe translateX on .marquee-inner over three copies (likely 30–60s linear infinite)",
+        "content": "Sentences lifted from the nearby copy",
+        "assets": "none",
+        "html": "div.marquee.text-xxl > div.marquee-inner > span.marquee-copy-before + text + span.marquee-copy-after"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "factual",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "Not cut as a block: at the bottom of block 00, a teaser video (black slabs falling through mist, caption 'Excerpt from Blaze Type's home video' with a play/pause icon) on the left and a ruled fact table on the right (Designed by · Released in 2018 · Updated in 2020, 2021, 2022 · Export .OTF .WOFF .WOFF2 .TTF (Variable) · Developed for Latin European and Cyrillic ▾ with a pointing-hand woodcut)",
+      "feel": "Spec-sheet, tidy",
+      "ux": "Video play/pause button; the 'Developed for' row is a details accordion that opens the language list",
+      "learn": "Put the colophon facts at the top beside a moving image, as a spec table rather than an end credit",
+      "reconstruction": {
+        "layout": "Two columns: video ~700×440px left; table ~700px right, 5 rows ~46px with hairline rules, label column ~280px, value column ~420px",
+        "typography": "~16px Apoc Sans Regular black; caption 14px",
+        "palette": [
+          "#f9f8f8",
+          "#161517",
+          "#d8dada"
+        ],
+        "behaviour": "details.accordion summary toggles the language list; button.video-play-btn toggles play/pause",
+        "content": "Designer (Matthieu Salvaggio, Tomorrow Type), release and update years, export formats, script coverage",
+        "assets": "Teaser video loop (videos/apoc_teaser.mp4); manicule woodcut PNG",
+        "html": "div.intro-info.cols > figure.intro-video-container + dl.intro-details > dt/dd ×5"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "reference",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": true
+      },
+      "look": "Hidden in the fact table: the 'Latin European and Cyrillic ▾' value opens into a long comma-separated run of language names (Abaza, Abkhaz, Adyghe, Afar, Afrikaans, Aghul, Albanian…)",
+      "feel": "Exhaustive, tucked away",
+      "ux": "Click the chevron row to expand the list (details/summary); collapsed by default",
+      "learn": "Keep the full language list one click away inside the spec table, so it proves coverage without taking space",
+      "reconstruction": {
+        "layout": "Accordion content under the 'Developed for' row, full width of the value column (~420px)",
+        "typography": "~14px Apoc Sans Regular, running text",
+        "palette": [
+          "#f9f8f8",
+          "#161517"
+        ],
+        "behaviour": "details.accordion > summary with a 14×8px chevron; native open/close",
+        "content": "Alphabetical list of Latin and Cyrillic languages",
+        "assets": "none",
+        "html": "details.accordion > summary + div.accordion-content"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "type-tester",
+      "variant": "pointer-xy-axes",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "gothic, ceremonial",
+        "mobile": "adapts",
+        "controls": [
+          "weight"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A dark charcoal panel textured with a faint engraved apocalypse woodcut, the three subfamily names 'Apoc Normal / Apoc Revelations / Apoc Sans' centred in white at ~122px, each in its own subfamily; caption below 'Apoc is a typeface family revolving around 26 fonts + Variable.'",
+      "feel": "Solemn, rich, engraved",
+      "ux": "Moving the pointer horizontally across the panel drives the weight of all three lines (wght 100–900, default 400); no visible slider",
+      "learn": "A pointer-driven weight panel needs no UI: the three subfamily names set in themselves become both overview and tester",
+      "reconstruction": {
+        "layout": "Panel 1360×620 at x=40; background image cover; three centred lines, leading ~1.0; caption 16px centred below the panel",
+        "typography": "~122px, Apoc Normal / Apoc Revelations / Apoc Sans, wght 400 default, white; caption ~16px Apoc Sans",
+        "palette": [
+          "#303030",
+          "#4f4f4f",
+          "#f3f3f3",
+          "#6f6f6f"
+        ],
+        "behaviour": "pointermove → map x between data-h-min 100 and data-h-max 900 → font-variation-settings 'wght' on .tester-sample; returns to data-h-default 400 (likely on leave)",
+        "content": "The three subfamily names",
+        "assets": "Dark engraved woodcut texture (images/fond-1800.jpg)",
+        "html": "div.variable-tester[data-h-axis=wght][data-h-default=400][data-h-min=100][data-h-max=900] > img.tester-background + div.tester-sample > span.t-normal / span.t-revelations / span.t-sans"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "07"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "anecdotal, literary",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "archival",
+          "illustration"
+        ],
+        "length": "short"
+      },
+      "look": "Two large paragraphs at ~39px with red highlighted phrases ('agressive serifs', 'cut by a knife'; 'display usage', 'brings up the page's lightness forward'), each with a black-and-white woodcut marginalia at the right (a scribe at his desk with hand-lettered 'Design', 'Process'; a sun chariot with 'Enlightening lay out')",
+      "feel": "Bookish, medieval, witty",
+      "ux": "Each paragraph has its own red tester toolbar above (see type-tester instance)",
+      "learn": "Pair each story paragraph with a period woodcut annotated by hand, like marginalia in a manuscript: the source era illustrates the text",
+      "reconstruction": {
+        "layout": "Text column ~1050px from x=40; woodcut ~260px wide floated at the right edge, top-aligned with the paragraph; ~380px tall per block",
+        "typography": "~39px Apoc Revelations Regular (first) and Apoc Normal Italic (second), leading ~1.15; highlights red #f70307",
+        "palette": [
+          "#fafafa",
+          "#111111",
+          "#f70307",
+          "#b1b1b1"
+        ],
+        "behaviour": "none apart from the tester controls",
+        "content": "Origin: a lettering (APOCALYPSE, uppercase only) found in a book about the Book of Revelations; proofing revealed its light optical grey in text, so a sans was added",
+        "assets": "Two woodcut engravings with hand-lettered annotations (images/marginalia01.jpg, marginalia02.jpg)"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "07",
+        "11"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "compact, gadget-like",
+        "mobile": "adapts",
+        "controls": [
+          "weight",
+          "style-select"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Three story paragraphs, each topped by bright red pills: a style dropdown ('Apoc Revelations ⌄', 'Apoc Normal Italic ⌄', 'Apoc Sans ⌄') and, for the first two, a 'Weight' pill holding a thin white slider with a black knob",
+      "feel": "Playful, compact",
+      "ux": "Pick a subfamily from the dropdown and drag weight 100–900: the paragraph below restyles live; the last tester only switches the subfamily (set at wght 100)",
+      "learn": "Turn the story paragraphs themselves into testers with a two-pill toolbar: reading and testing become the same act",
+      "reconstruction": {
+        "layout": "Toolbar row above each paragraph: dropdown pill ~290×44px and weight pill ~390×44px, 6px gap, radius 22px; paragraph below with 16px gap",
+        "typography": "Pill labels ~16px Apoc Sans white on red; paragraphs ~39px in the selected subfamily",
+        "palette": [
+          "#fafafa",
+          "#f70307",
+          "#ffffff",
+          "#111111"
+        ],
+        "behaviour": "details.input-select with radio inputs (data-value = family) → font-family on .paragraph-tester-content; input[type=range] wght 100–900 → font-weight",
+        "content": "The page's story copy (origin, proofing, usage pitch 'Apoc does wonders when displayed in headlines…')",
+        "assets": "none",
+        "html": "div.paragraph-tester > .paragraph-tester-controls (details.input-select > summary.input-select-radios > input[type=radio] + ul.input-select-list; div.input-slider > input#wght[type=range]) + .paragraph-tester-content"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "graphic, rhythmic",
+        "mobile": "shrinks",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "A static poster image on mid-grey: a justified 3×13 grid of long uppercase words (MONOTHEISTS OVERTHROWS IMPROVEMENT…) in light Apoc Sans caps, with the centre column's middle rows (CULTIVATION, BIVOUACKED, PREDICTIONS…) in red Apoc Revelations bold and italic; caption 'Apoc Sans & Apoc Revelations'",
+      "feel": "Dense, typographic, poster-like",
+      "ux": "static",
+      "learn": "A word-grid poster with a red block of the second subfamily in its centre shows how the two subfamilies combine",
+      "reconstruction": {
+        "layout": "Image 1360×765 at x=40; three columns of 13 rows, words fitted to equal column width; caption 16px centred below",
+        "typography": "Words ~44px Apoc Sans Light caps, tight leading (~0.95); red words Apoc Revelations Bold / Bold Italic",
+        "palette": [
+          "#cbcbcb",
+          "#b2b2b2",
+          "#1a1a1a",
+          "#f70307"
+        ],
+        "behaviour": "none",
+        "content": "Long, mostly 11–13-letter English words chosen to fill equal widths",
+        "assets": "Pre-rendered poster image (images/exemple02-*.jpg)"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "technical, drafting",
+        "mobile": "shrinks",
+        "subject": [
+          "alternates",
+          "features"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "A grey image on red metric guide lines: 'GREYS ➤ GREYS' (default vs alternate Y and S), '{A(pO[Ca]lyP)Se}' (case-sensitive brackets) and two 'rewins rewins' rows in heavy weights, each labelled vertically at the left (Apoc Revelation, Apoc Normal Hairline + Bold, Apoc Normal Dark) with small captions ('Case sensitive parenthesis, brackets & braces', 'Ideal for capitals', 'Alternative capitals', 'Floating shapes'); caption 'Lots of Alternate Glyphs'",
+      "feel": "Drafting-table, precise",
+      "ux": "static image",
+      "learn": "Set default and alternate side by side on drawn metric lines, with a short purpose note above each half",
+      "reconstruction": {
+        "layout": "Image 1360×765; three to four rows ~170px each, each split into two halves; vertical style labels in a ~40px left gutter; thin red horizontal guide lines across",
+        "typography": "Samples ~120px Apoc (Revelation, Normal Hairline and Bold, Normal Dark); captions ~10px sans",
+        "palette": [
+          "#d1cfcf",
+          "#b1b0b0",
+          "#111111",
+          "#e04040"
+        ],
+        "behaviour": "none",
+        "content": "Words chosen for their alternates: GREYS, APOCALYPSE with brackets, rewins",
+        "assets": "Pre-rendered image (images/exemple01-*.jpg)"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "type-tester",
+      "variant": "pointer-xy-axes",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "biblical, dramatic",
+        "mobile": "adapts",
+        "controls": [
+          "weight",
+          "style-select"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "The same dark engraved panel with a small italic title 'Apoc, the battle between Light & Dark.' and a two-line italic quote '“As I stood upon the sand of the sea…”' in white at ~110px, over three square radio buttons 'Normal / Revelations / Sans'",
+      "feel": "Biblical, theatrical",
+      "ux": "Pointer x drives weight 100–900 (starts at Thin 100, the 'light'); radio squares switch the subfamily",
+      "learn": "Starting the pointer tester at the thinnest weight under the line 'battle between Light & Dark' makes the gesture itself the metaphor",
+      "reconstruction": {
+        "layout": "Panel 1360×640 at x=40; title ~26px centred at top; quote centred ~240px tall; three stacked radio rows centred at the bottom, 20px squares",
+        "typography": "Title ~26px Apoc Sans Italic; quote ~110px Apoc Revelations Italic wght 100 default; radio labels ~24px in their own subfamily",
+        "palette": [
+          "#2f2f2f",
+          "#4f4f4f",
+          "#fcfcfc",
+          "#6e6e6e"
+        ],
+        "behaviour": "pointermove x → wght (data-h-min 100 … data-h-max 900, default 100); input[name=style] radios set font-family on .tester-sample",
+        "content": "Quote from Revelation 13:1 ('As I stood upon the sand of the sea…')",
+        "assets": "Dark engraved woodcut texture",
+        "html": "div.variable-tester[data-h-axis=wght][data-h-default=100] > p.tester-title + div.tester-sample + div.tester-controls > div.radio > input[type=radio][name=style]"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "portfolio, contemporary",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "carousel"
+      },
+      "look": "A one-up carousel of website screenshots on light grey (Mary Universe's site with a project grid, Women in the forest, Acla Essentials…), thin chevron arrows at both edges, caption '1/6 Mary Universe's website — mary-universe.com'",
+      "feel": "Clean, gallery-like",
+      "ux": "Arrows or drag change slide; loops; the counter and caption update",
+      "learn": "Show the font in real websites by real clients, one at a time with a counter and URL credit",
+      "reconstruction": {
+        "layout": "Slide 1360×640 (image ~1000px wide centred on grey), arrows 57px at x≈20 and x≈1380 vertically centred; caption row 16px centred below",
+        "typography": "Caption ~16px Apoc Sans; screenshots carry their own type",
+        "palette": [
+          "#f6f6f6",
+          "#d3d4d3",
+          "#0d090a"
+        ],
+        "behaviour": "Splide carousel, loop, draggable",
+        "content": "6 real client websites with URLs",
+        "assets": "Website screenshots (images/galerie01–06)",
+        "html": "figure.gallery > div.splide#splide01 (splide__arrows + splide__track > ul.splide__list > li.splide__slide > img)"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "type-tester",
+      "variant": "creative-toy",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "editorial, practical",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "style-select"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A red pill toolbar (style dropdown 'Apoc Normal ⌄', Weight slider, a black circular swap icon, then companion chips: red 'Area' selected, grey 'Apoc', 'Oroban', 'Joly', each label in its own font) over an editable 'Font Pairing' headline and paragraphs alternating Apoc and the companion in a 2-up then 3-up grid",
+      "feel": "Editorial, a layout preview",
+      "ux": "Choose the Apoc subfamily and weight (100–900); pick a companion Blaze font; the swap button exchanges roles; the headline is contenteditable",
+      "learn": "Normalise the companion fonts' size and baseline (per-font size factor and top offset) so the pairing compares fairly",
+      "reconstruction": {
+        "layout": "Toolbar row 44px; headline ~87px; 2-col row of ~22px paragraphs; 3-col row of ~16px paragraphs, alternating primary/secondary",
+        "typography": "Headline Apoc Normal wght 100 ~87px; primary paragraphs Apoc ~22px; secondary in Area/Oroban/Joly with data-font-size 0.9–1.08 and data-offset-top −0.1em",
+        "palette": [
+          "#f7f8f7",
+          "#f40207",
+          "#d6d6d6",
+          "#111111"
+        ],
+        "behaviour": "radio name=font → font-family + font-size factor + top offset on .pairing-secondary; style radios and wght slider → .pairing-primary; button.input-switch swaps (likely the two fonts' roles)",
+        "content": "Real foundry copy on making tools for designers and a sans for pairing",
+        "assets": "Companion webfonts (Area, Oroban, Joly)",
+        "html": "div.pairing-tester > .pairing-tester-controls (details.input-select, div.input-slider, button.input-switch, ul.font-list > li.font-list-item.btn > input[name=font][data-font-size][data-offset-top]) + h2.pairing-title[contenteditable] + .cols > p.pairing-primary / p.pairing-secondary"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "portfolio, credited",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "grid"
+      },
+      "look": "Three columns of client work: Mauella's still-life photo and 'MAUELLA' sign, a stack of three Squarespace 'Browser History' campaign screens with clouds and doves, and a Mutek festival poster; captions credit fonts and designers ('Apoc and Clarkson in use by Angela Milosevic…')",
+      "feel": "Credible, varied",
+      "ux": "static",
+      "learn": "Caption each in-use image with the pairing used and the designers: the gallery doubles as pairing advice",
+      "reconstruction": {
+        "layout": "Three equal columns ~440px with 20px gaps; the middle column stacks three images; captions 16px under each column",
+        "typography": "Captions ~16px Apoc Sans; images carry their own type",
+        "palette": [
+          "#f8f8f8",
+          "#141310",
+          "#312f2e",
+          "#d4d4d2"
+        ],
+        "behaviour": "none",
+        "content": "Real projects: Mauella, Squarespace, Mutek festival",
+        "assets": "Five client-work images (images/inuse01–05)"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "video",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "cinematic, otherworldly",
+        "mobile": "adapts"
+      },
+      "look": "'Discover other fonts:' over a row of three tall rounded video cards (Sigurd in fire, Oroban with a rock arch and pink blossoms, Area on a hovering concrete house), each name in white in its own font",
+      "feel": "Moody, collectible",
+      "ux": "Each card links to the foundry page of that family; draggable carousel",
+      "learn": "Give each sibling family its own 3D-rendered world as a looping card: cross-selling becomes a trailer reel",
+      "reconstruction": {
+        "layout": "Heading 39px; three cards ~460×680px with ~20px radius and 20px gaps; carousel overflows on smaller screens",
+        "typography": "Heading ~39px Apoc Sans Light; names as SVG wordmarks ~70px white",
+        "palette": [
+          "#f9f9f9",
+          "#302d30",
+          "#d1d0d0",
+          "#b7b3ae"
+        ],
+        "behaviour": "Autoplay muted video loops per card; Splide drag",
+        "content": "Sigurd, Oroban, Area",
+        "assets": "Three 3D-rendered video loops and SVG names"
+      }
+    },
+    {
+      "blocks": [
+        "13",
+        "14"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "direct, quaint",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "An underlined centred link 'See Apoc on Blaze Type's website now!' with a woodcut pointing-hand manicule, plus the fixed bar's 'Buy Apoc' and 'Download Trial' links",
+      "feel": "Understated, old-print charm",
+      "ux": "All links open the Blaze Type shop or trials page in a new tab",
+      "learn": "A woodcut manicule next to the shop link keeps the period voice even in the CTA",
+      "reconstruction": {
+        "layout": "Centred link ~39px above the related-fonts carousel; manicule ~70px to its right; bar links at the far left and right of the 54px header",
+        "typography": "~39px Apoc Revelations, underlined; bar links ~16px",
+        "palette": [
+          "#f9f9f9",
+          "#111111"
+        ],
+        "behaviour": "none",
+        "content": "'See Apoc on Blaze Type's website now!', 'Buy Apoc', 'Download Trial'",
+        "assets": "Manicule woodcut PNG (images/main02.png)"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "minimal",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal"
+        ]
+      },
+      "look": "Not in the crop (seen in the video and mobile): one small line under the cards, '© Blaze Type 2022  Design: Alexis Cros  Development: Max Esnée' with underlined names",
+      "feel": "Discreet",
+      "ux": "Name links",
+      "learn": "Credit the site's designer and developer in the legal line",
+      "reconstruction": {
+        "layout": "One line ~14px at x=40, ~40px below the carousel",
+        "typography": "~12px Apoc Sans",
+        "palette": [
+          "#f9f9f9",
+          "#111111"
+        ],
+        "behaviour": "none",
+        "content": "Copyright and site credits",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed white 54px top bar: 'Buy Apoc' left, 'APOC' logo centred in Revelations caps, 'Download Trial' right; it shows in every stitched screen"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/kinetic-type",
+    "story/large-text-intro",
+    "interlude/ghost-marquee",
+    "footer/credits-colophon",
+    "language-support/language-name-list",
+    "type-tester/pointer-xy-axes",
+    "story/origin-reference",
+    "type-tester/slider-sandbox",
+    "specimen-showcase/poster-series",
+    "design-details/feature-before-after",
+    "type-tester/pointer-xy-axes",
+    "specimen-showcase/in-use-mockups",
+    "type-tester/creative-toy",
+    "specimen-showcase/in-use-mockups",
+    "checkout/link-out-cta",
+    "footer/slim-legal-bar"
+  ]
+}

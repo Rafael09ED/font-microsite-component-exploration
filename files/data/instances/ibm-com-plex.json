@@ -1,0 +1,245 @@
+{
+  "slug": "ibm-com-plex",
+  "extractedBy": "agent",
+  "summary": "IBM's corporate brand-font site, split into six numbered pages (Intro, Concept, Plexness, Languages, Gallery, Specs); only the Intro page was captured. It is pure brand-system communication: a giant light statement on IBM blue, a video of the 8-bar logo, three cropped logo letters annotated with the details Plex borrowed, a next-chapter link and IBM's legal footer, with a Carbon-component type tester in a global overlay. Compared with foundry microsites there is no buying, no designer voice and no story beyond the logo; IBM's cookie banner covers every crop.",
+  "instances": [
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed 64px IBM-red top bar (HTML only, its red rule shows in the crops): numbered page tabs '01 Intro · 02 Concept · 03 Plexness · 04 Languages · 05 Gallery · 06 Specs' with the current one marked, and '↗ Get Plex®' at the right linking to GitHub releases; on mobile a dropdown '01 Intro ▾' with extra links (Google Fonts, YouTube, IBM Design Language)"
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "corporate, confident, minimal",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "try",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Full IBM-blue screen with one enormous white sentence in IBM Plex Sans Light, left-aligned over ~8 lines: 'IBM Plex® is our new typeface. It's global, it's versatile and it's distinctly IBM.'; an 'Open Typetester' link (white circle) at the right; IBM's cookie banner covers the lower part in the capture",
+      "feel": "Calm, assured, institutional",
+      "ux": "Intro: horizontal blue-and-white bars (the IBM 8-bar motif) wipe across the screen before the page settles; 'Open Typetester' opens a global tester overlay",
+      "learn": "A brand typeface can introduce itself with a single possessive sentence ('our new typeface… distinctly IBM') set huge in the lightest weight: the statement is the specimen",
+      "reconstruction": {
+        "layout": "Full-bleed 1440 × ~1640 (two screens); text block from x≈36, ~700px wide (2–3 words per line), 8 lines; circular tester link (~90px) at the right edge mid-height",
+        "typography": "~150px IBM Plex Sans Light, white, leading ~1.1, tracking slightly negative; ® as superscript; nav labels 12px Plex Sans",
+        "palette": [
+          "#084bdb",
+          "#ffffff",
+          "#3168dd",
+          "#da1e28"
+        ],
+        "behaviour": "Load sequence: striped 8-bar wipe (~2s); static afterwards; the link a.cta-link.global-typetester-link toggles .global-typetester",
+        "content": "Brand statement: global, versatile, distinctly IBM",
+        "assets": "none",
+        "html": "h2 + a.cta-link.global-typetester-link ('Open Typetester')"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "corporate tool, wry",
+        "mobile": "unknown",
+        "controls": [
+          "text",
+          "size",
+          "style-select",
+          "weight"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Never cut as a block (global overlay in the HTML, opened from the hero's 'Open Typetester'): a black full-screen section with two Carbon dropdowns (family: Plex Sans / Sans Italic / Mono / Mono Italic / Serif / Serif Italic / Sans Condensed / Condensed Italic; weight: Thin … Bold incl. 'Text'), a size slider 12–400 with a numeric box, and the editable word 'Eyeeeeeee' at 180px",
+      "feel": "Utilitarian, design-system native",
+      "ux": "Pick a family and weight from selects, drag or type the size, edit the sample; the default 'Eyeeeeeee' nods to the Eye-Bee-M rebus",
+      "learn": "Build the tester from your own design-system components (Carbon select and slider) so it looks native to the brand's tools",
+      "reconstruction": {
+        "layout": "Full-viewport black overlay; control row at the top (two ~250px selects, a ~300px slider with min/max labels and a 60px number input); sample below, left-aligned, single line",
+        "typography": "Sample 180px default, IBM Plex Mono Italic Bold (random/initial class 'ibm-plex-mono-italic weight-bold'), white; controls 14px Plex Sans",
+        "palette": [
+          "#000000",
+          "#ffffff",
+          "#393939",
+          "#0f62fe"
+        ],
+        "behaviour": "select#select-id-font-select and #select-id-weight-select swap classes on the section; input[type=range] 12–400 (step 1, value 180) + number input set the sample's font-size",
+        "content": "'Eyeeeeeee'",
+        "assets": "none",
+        "html": ".global-typetester > .page-section--typetester.bg-black > .typetester (.bx--select-input × 2, .bx--slider__input#font-size-slider-overlay-…, .bx--text-input size box) + .typetester-output[contenteditable]"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "brand heritage",
+        "mobile": "adapts",
+        "voice": "none",
+        "media": [
+          "illustration"
+        ],
+        "length": "short"
+      },
+      "look": "A full-width black panel with the IBM 8-bar logo in white at the centre: a looping video in which the striped logo resolves into solid letterforms",
+      "feel": "Iconic, quiet",
+      "ux": "Muted looping video, separate mobile cut",
+      "learn": "When a typeface descends from a logo, show the logo first, alone, so the next section's details have a referent",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×~900 black; logo ~620px wide centred",
+        "typography": "No live text; the logo itself (IBM 8-bar, Paul Rand)",
+        "palette": [
+          "#010101",
+          "#f6f6f6",
+          "#2a2a2a"
+        ],
+        "behaviour": "video.main-media (desktop) / video.mobile-media, muted, playsinline, loop, poster still",
+        "content": "The IBM logo transforming",
+        "assets": "IBM_Plex_Introduction.mp4 and mobile version, poster stills"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "precise, editorial",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "On light grey, three huge cropped black-and-white letter squares in a zig-zag (I left, B right, M left), each with a thin pale-blue circle drawn around one detail (the slab serif of I, the right-angled inner counter of B, the point where M's strokes meet) and a small monospace caption '[↑] The first (and most obvious) detail borrowed was the slab serif.'",
+      "feel": "Focused, gallery-like",
+      "ux": "static; read top to bottom",
+      "learn": "Crop each letter so tight the detail fills the frame, circle it with a hairline, and caption it in mono with an arrow pointing up: three details, three screens",
+      "reconstruction": {
+        "layout": "~2400px; squares ~670×560px alternating x=32 and x=736, each followed by a caption block (~280px wide) under it; ~120px vertical gap",
+        "typography": "Captions ~12px IBM Plex Mono Regular, leading ~1.5, prefixed '[↑]'; letters are graphic crops (IBM logo / Plex Bold forms), white on black squares or black on white",
+        "palette": [
+          "#f5f5f5",
+          "#050405",
+          "#ffffff",
+          "#a6c8ff"
+        ],
+        "behaviour": "none",
+        "content": "Three borrowed logo details: slab serif, vertical stroke and right-angled interior counters, the point at the M's intersection",
+        "assets": "Three cropped letter SVGs with circle highlights"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "navigation",
+      "variant": "next-chapter-link",
+      "newVariant": true,
+      "variantDefinition": "A full-width band at the bottom of one page of a multi-page specimen that links to the next page by number and title ('↓ 02 Concept'), so the site reads like chapters in order.",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Full-width IBM-blue band with '↓' and '02 Concept' in white (~24px Plex Sans) linking to /plex/concept/"
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "corporate, legal",
+        "mobile": "adapts",
+        "contains": [
+          "legal",
+          "contact",
+          "other-fonts"
+        ]
+      },
+      "look": "Black footer (half covered by the cookie banner): a column of resource links (IBM Plex Github, Google Fonts, Share Plex, IBM Design Language), a column of IBM legal links (Contact IBM, Privacy, Terms of use, Accessibility, Cookie preferences), and at the right 'Have questions? Email us or open an issue in GitHub.' and 'Last updated August 6, 2025'",
+      "feel": "Corporate, maintained",
+      "ux": "Links out to distribution channels and IBM legal pages; issues go to the Carbon website repo",
+      "learn": "A corporate type site shows maintenance signals (last-updated date, issue tracker) instead of a designer colophon",
+      "reconstruction": {
+        "layout": "Full width, ~340px; columns at x≈384 and x≈560 (~160px each), right column at x≈1088",
+        "typography": "~14px IBM Plex Sans Regular white, leading ~1.5",
+        "palette": [
+          "#010101",
+          "#f2f2f2",
+          "#cfcfcf"
+        ],
+        "behaviour": "none",
+        "content": "Distribution links, IBM legal links, contact note, last-updated date",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "06",
+      "reason": "IBM cookie consent banner (fixed overlay, no crop); it covers part of every crop"
+    }
+  ],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "type-tester/slider-sandbox",
+    "story/origin-reference",
+    "design-details/annotated-specimen",
+    "footer/link-columns"
+  ]
+}

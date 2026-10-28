@@ -1,0 +1,418 @@
+{
+  "slug": "halyard-dardenstudio-com",
+  "extractedBy": "agent",
+  "summary": "Darden Studio's product page for Halyard, a three-optical-size grotesque (Micro, Text, Display), built as a buying tool: an illustrated cargo-plane hero whose 'Halyard Display' livery is editable, a black strip of every style name set in itself, a masonry of tester cards with per-card controls, an About spec sheet, an auto-scrolling In Use carousel and an on-page cart (style matrix plus licence calculator). A cookie banner and the sticky nav are stamped over most crops; the Features & Glyphs and Languages drawers were not captured.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "look": "Darden Studio's 64px white site bar: 'Darden Studio' wordmark left, 'MENU' right"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "look": "Sticky 64px Halyard bar: black block with the d logo and 'Halyard®', grey anchors TESTER · ABOUT · IN USE, a purple block with FEATURES & GLYPHS · LANGUAGES (drawer toggles), green Fontstand and orange Adobe Fonts icon squares, and a yellow 'Buy' block"
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "hero",
+      "variant": "illustration-scene",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "wayfinding, bold, cheerful",
+        "mobile": "adapts",
+        "carrier": "illustration",
+        "cta": "buy",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Flat vector scene of a white cargo jet with a purple tail on a motorway overpass, 'Halyard Display' in yellow Black across its fuselage, two purple German autobahn signs (Hannover, Kassel, Dortmund… / Köln, Wiesbaden, München) set in Halyard, giant cyan and purple outlined letter shapes behind",
+      "feel": "Industrial, transport-signage, optimistic",
+      "ux": "The fuselage title is editable (type to repaint the livery); a 'Play with the type' corner button opens a panel; Buy sits in the sticky bar above",
+      "learn": "Make the hero's brand name an editable text field inside the illustration, so the first thing a visitor can do is see their own word on the plane",
+      "reconstruction": {
+        "layout": "Full-width SVG, aspect 1370:435 (≈1440×457) under two 64px bars; the editable title sits in a foreignObject at x=250, y=260, 1100×180 (viewBox units) over the fuselage; signs lower right ~220×120 each",
+        "typography": "Fuselage title ~75px Halyard Display Black, yellow #fcd306; sign text ~11px Halyard Text white on purple with arrow pictograms",
+        "palette": [
+          "#dae5e9",
+          "#54407b",
+          "#fcd306",
+          "#040303",
+          "#5bc8f0",
+          "#f5f6f5"
+        ],
+        "behaviour": "contenteditable='plaintext-only' span with placeholder 'Halyard Display' inside the SVG; heroPanel toggle ('Play with the type', data-open) reveals an extra control panel (not captured)",
+        "content": "Aviation and autobahn signage theme; real German place names",
+        "assets": "Inline SVG illustration (plane, overpass, signs, big outlined letter shapes)",
+        "html": "#Hero svg[data-hero-svg] > foreignObject#editableText[data-hero-fo] > .editableTitle_wrap > span.editableTitle_title[contenteditable=plaintext-only][data-placeholder]; .heroPanel_root[data-open] > button.heroPanel_trigger[aria-label='Play with the type']"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "systematic, crisp",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": true
+      },
+      "look": "A black band under the hero with three rows labelled MICRO / TEXT / DISPLAY, each a single line of the style names in their own style: 'Extralight Light Book Regular Medium Semibold Bold Black — Extralight Light Book… (italics)', running off the right edge",
+      "feel": "Compact, catalogue-like",
+      "ux": "Each row scrolls sideways; every style name is contenteditable, so visitors can retype any name and compare the three optical sizes",
+      "learn": "Stack the optical sizes as three lines of the same weight names: the difference between Micro, Text and Display shows at a glance without a table",
+      "reconstruction": {
+        "layout": "Black band ~190px; label column ~80px at x≈60 (10px caps grey); three rows ~40px apart, each a horizontal scroll container of 16 inline spans",
+        "typography": "~22px white Halyard Micro VF / Text VF / Display VF with font-variation-settings 'wght' 100–900 per span; italics via the VF Italic files; labels ~10px caps tracked, grey",
+        "palette": [
+          "#040303",
+          "#ffffff",
+          "#6e6e6e"
+        ],
+        "behaviour": "Horizontal overflow scroll per row; contenteditable span per style (data-original-name keeps the default)",
+        "content": "Style names only",
+        "assets": "none",
+        "html": "#DesignSpace > .designSpace_designSpace > .labelContainer > h6 ×3 + .scrollContainer > .sortedAxis[data-label=Micro|Text|Display] > span.designSpaceFont[style=font-family, font-variation-settings] > span.design-space-font[contenteditable][data-original-name]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "type-tester",
+      "variant": "per-row-controls",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "colourful, practical",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "leading",
+          "tracking",
+          "style-select",
+          "presets"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A masonry of five white tester cards on light grey, each in its own colour: 'Black' at 260px in green Display Black, 'No. 24' in orange Micro Black Italic, the sentence 'Whenever the black fox jumped the squirrel gazed suspiciously.' in purple Text, a pink paragraph on legibility vs readability, a green italic paragraph on visual relationships; small dropdowns (optical size, style) top-left of each card, reset and add-to-cart icons at the bottom",
+      "feel": "Lively, hands-on, like swatch cards",
+      "ux": "Per card: pick Micro/Text/Display and one of 16 styles, switch the sample between Word / Sentence / Pangram / Paragraph, drag size (12–260px), tracking (-0.1–0.3em) and leading (0.8–2); type over the text; ↻ resets and the cart icon adds that style to the cart",
+      "learn": "Give each tester card a content-length preset (word → paragraph) and an add-to-cart button: the tester becomes the first step of buying the style you just tried",
+      "reconstruction": {
+        "layout": "Grid ~1440×1261, cards in 2–3 columns of varying height with ~16px light-grey gutters; text auto-fits each card (height checker); controls in a thin strip at the card top and icons bottom-right",
+        "typography": "Card 1: 260px Halyard Display VF wght 900; card 2: ~150px Halyard Micro VF Italic wght 900; card 3: ~36px Halyard Text Book; paragraphs ~22px Text Light / Light Italic, leading 1.2–1.4; controls ~12px Halyard Text",
+        "palette": [
+          "#fafaf9",
+          "#e8e8e8",
+          "#58a618",
+          "#f64402",
+          "#54407b",
+          "#f6507c"
+        ],
+        "behaviour": "MUI selects (subfamily, style, content preset) and three MUI sliders per card (size 12–260 step 0.1, tracking -0.1–0.3 step 0.01, leading 0.8–2 step 0.1) set inline font-size, letter-spacing, line-height and font-variation-settings 'wght'; contenteditable span per card; heightChecker keeps the sample inside the card",
+        "content": "Style names, 'No. 24', a pangram ('Whenever the black fox jumped the squirrel gazed suspiciously.') and paragraphs about legibility and readability",
+        "assets": "none",
+        "html": "#Tester .typefaceShowcase_* card > select(Micro|Text|Display) + select(16 styles) + select(Word|Sentence|Pangram|Paragraph) + input[type=range] ×3 + span.typeContainer.styleTarget[contenteditable]"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "informative, confident",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "About section: a grey left column of facts (Released 2017, Styles 48, Classification Grotesque Sans, Avg. WOFF2 Size 47kb, Version 1.0.1, then Origin, Designers Joshua Darden, Eben Sorkin, Lucas Sharp, assistants, management, media) beside 'Halyard — Surprising & Useful' in Gamay and a short paragraph on its 19th-century sources (Schelter+Giesecke, Miller and Richard, Morris Fuller Benton) with a pink 'Show More'; a purple bar below with 'Features & Glyphs' and 'Languages' buttons; yellow blob and outlined letter shapes in the background",
+      "feel": "Reference-card, friendly",
+      "ux": "'Show More' expands the text; the two purple buttons open the Features & Glyphs and Languages drawers (not captured)",
+      "learn": "Put the spec facts a buyer checks (styles, classification, file size, version, credits) in a fixed sidebar next to a one-paragraph origin story with 'Show More'",
+      "reconstruction": {
+        "layout": "~490px tall: grey column 490px wide (x 0–490) with the fact list at x≈66; white panel to the right with heading at x≈676 and text ~730px wide; purple bar ~100px with two centred drawer buttons",
+        "typography": "Facts ~12px Halyard Micro, bold labels; heading ~36px Gamay (Darden's display face) black; paragraph ~18px Halyard Text; Show More ~11px pink; drawer buttons ~24px Gamay white/cyan",
+        "palette": [
+          "#f5f5f5",
+          "#d1d1d1",
+          "#0f0c07",
+          "#fcd306",
+          "#54407b",
+          "#f6507c"
+        ],
+        "behaviour": "Show More toggles the full text; drawer buttons slide in panels",
+        "content": "Real facts and credits",
+        "assets": "Background blob and outlined letter shapes",
+        "html": "#About … a.aboutTypeface_drawerButton > h4 'Features & Glyphs' / 'Languages'"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "05"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "credible, editorial",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "carousel"
+      },
+      "look": "Two slow-moving strips of real uses: the 'Wander Lust' fall launch photo with a compass-frame logo, an orange shipping container, Antonio Cavedoni's map of Italy, the Future Now USA poster, African American Design Nexus, each captioned in small caps ('FUTURE NOW USA, 2017')",
+      "feel": "Proof of use, gallery-like",
+      "ux": "The carousels drift continuously (free-mode swiper, right-to-left, 20s transitions); each item has an 'Enlarge this example' button",
+      "learn": "Let real-world uses drift past on their own and offer enlarge on click: social proof without demanding attention",
+      "reconstruction": {
+        "layout": "Strip of images ~450px tall with ~30px gaps starting under the About section, then a second ~200px strip with captions; images keep their aspect (max-aspect ~2:1)",
+        "typography": "Captions ~11px Halyard Text caps tracked",
+        "palette": [
+          "#534c39",
+          "#f5f5f5",
+          "#e86b2a",
+          "#040303"
+        ],
+        "behaviour": "Swiper free mode, dir=rtl, transition-duration 20000ms for continuous drift; enlarge buttons open a lightbox",
+        "content": "Real client uses with year",
+        "assets": "In-use photographs and screenshots",
+        "html": "#InUse .swiper.swiper-free-mode.swiper-rtl.inUse_imgCarousel > .swiper-wrapper > slides with button[aria-label='Enlarge this example']"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "checkout",
+      "variant": "on-page-cart",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "clear, transactional",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": false,
+        "free": false
+      },
+      "look": "'① Select Styles': a matrix with purple weight labels (Extralight → Black) down the left, colour-coded column headers MICRO (cyan) / TEXT (yellow) / DISPLAY (pink), each with roman and italic columns, every cell the word 'Halyard' in that style on grey; an 'All + VAR' toggle top-left. '② Choose License': four licence columns (Basic License: CPUs + Perpetual; Web Embedding: AMPVs + term; App Embedding: AMAUs; Fluid Interface: AMRUs) with dropdowns; a black bar 'Please select a style/license' in yellow at the bottom",
+      "feel": "Methodical, transparent",
+      "ux": "Click cells (or whole rows/columns, or 'All + VAR' for the variable fonts) to add styles; set usage tiers per licence type; the black bar shows the total or the prompt",
+      "learn": "Let the buyer pick styles from a matrix that is also the family overview, then size the licence by usage metrics; the price bar updates in place",
+      "reconstruction": {
+        "layout": "~1410px tall; step headings with a yellow number disc; matrix 1440 wide: 120px label column + 6 columns ~220px, header row ~36px, 8 rows ~72px, white 2px borders; licence row 4 columns ~330px with selects ~150×28; black total bar ~70px full width",
+        "typography": "Step headings ~30px Gamay purple; cells ~22px Halyard in each style; labels ~11px Halyard Text white on purple; total bar text ~22px Gamay yellow right-aligned",
+        "palette": [
+          "#ffffff",
+          "#f3f3f3",
+          "#54407b",
+          "#5bc8f0",
+          "#fcd306",
+          "#f6507c",
+          "#040504"
+        ],
+        "behaviour": "Cell click toggles selection (highlight); selects for user tiers (0 CPUs, 0 AMPVs, 0 AMAUs, 0 AMRUs) and term (Perpetual, 1 year…); total recalculates",
+        "content": "Style names and licence metrics",
+        "assets": "none",
+        "html": "#Buy: h2 '1 Select Styles' + 'All + VAR' toggle + style matrix; h2 '2 Choose License' + 4 × select pairs; total bar"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "systematic",
+        "mobile": "adapts",
+        "structure": "matrix",
+        "samples": "word",
+        "interactive": true
+      },
+      "look": "The cart's style picker doubles as the family map: weight rows × optical size (Micro/Text/Display) × roman/italic columns, the word 'Halyard' in each of the 48 styles",
+      "feel": "Complete, tabular",
+      "ux": "Same cells are selectable for purchase",
+      "learn": "One matrix can be both the overview of 48 styles and the style picker",
+      "reconstruction": {
+        "layout": "8 rows × 6 columns as in the cart; mobile turns it into three stacked colour-headed lists",
+        "typography": "'Halyard' ~22px per cell in its own style",
+        "palette": [
+          "#e8e8e8",
+          "#54407b",
+          "#5bc8f0",
+          "#fcd306",
+          "#f6507c"
+        ],
+        "behaviour": "Selectable cells",
+        "content": "Family name only",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "playful, merch",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": true,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "Black banner 'IN THE SHOP / Halyard Merch / Off the screen and onto something you can hold.' with a photo of 'Font Scrubby' sponge packs lettered in Halyard and a yellow '$5' price burst",
+      "feel": "Cheeky, collectible",
+      "ux": "Links to the studio's merch page for Halyard sponges",
+      "learn": "Sell a cheap physical object lettered in the font next to the licences: a low-cost way to take the type home",
+      "reconstruction": {
+        "layout": "Black band ~530px; text block left at x≈66, vertically centred; product image right (~400px) with an outlined letter shape behind",
+        "typography": "Kicker ~11px caps tracked white; title ~48px Gamay yellow; line ~16px Halyard Text white; '$5' ~40px Gamay on a yellow starburst",
+        "palette": [
+          "#020202",
+          "#fcd306",
+          "#ffffff",
+          "#f6507c"
+        ],
+        "behaviour": "none",
+        "content": "Merch promo",
+        "assets": "Product photo of sponge packaging",
+        "html": "a[href=/merch/halyard-sponges]"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "colourful, brand",
+        "mobile": "adapts",
+        "contains": [
+          "other-fonts",
+          "socials",
+          "newsletter",
+          "legal",
+          "contact"
+        ]
+      },
+      "look": "Light grey footer with big overlapping pink, yellow and orange outlined letter shapes: d logo with '© Darden Studio 2026 v. 1.0.221', a CATALOG list (Omnes, Daith, Gamay, Kit, Halyard, Jubilat, Birra, Corundum, Dapifer), social icons and site links (About, FAQ, Contact, Merch, Licensing, Privacy, In Use ↗), and a full-width purple 'SUBSCRIBE TO OUR NEWSLETTER' bar",
+      "feel": "Branded, energetic",
+      "ux": "Newsletter bar expands to an email field (1 text input); catalogue links to sister families",
+      "learn": "Keep the foundry catalogue and newsletter in every product page footer, with the brand shapes making it feel like part of the specimen",
+      "reconstruction": {
+        "layout": "376px band; logo column at x≈66, catalogue in two columns at x≈545, links at x≈1025; newsletter bar ~60px full width at the bottom",
+        "typography": "~11px Halyard Text caps for headings, ~12px links; newsletter label ~12px caps white",
+        "palette": [
+          "#e8e8e8",
+          "#f64402",
+          "#54407b",
+          "#fcd306",
+          "#f6507c"
+        ],
+        "behaviour": "none",
+        "content": "Real links",
+        "assets": "Decorative letter-shape SVGs"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "09",
+      "reason": "fixed cookie banner ('We use cookies… CONFIRM', pink button, bottom-right); it covers the bottom-right of most crops"
+    }
+  ],
+  "sequence": [
+    "hero/illustration-scene",
+    "family-overview/style-word-grid",
+    "type-tester/per-row-controls",
+    "story/origin-reference",
+    "specimen-showcase/in-use-mockups",
+    "checkout/on-page-cart",
+    "family-overview/designspace-map",
+    "checkout/link-out-cta",
+    "footer/link-columns"
+  ]
+}

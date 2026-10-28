@@ -1,0 +1,824 @@
+{
+  "slug": "djr-com-forma",
+  "extractedBy": "agent",
+  "summary": "DJR's page for Forma DJR, a revival of Nebiolo's 1968 neo-grotesque, styled as a CMYK print proof: yellow, magenta and cyan panels, registration marks in every section corner and blurred halftone letters behind the prose. History chapters alternate with full-bleed colour panels of looping variable-axis word stacks (slant, width, opsz, case flips in the Mono), a misregistered 'GRaj' alternates overlay and an opsz waterfall, ending in DJR's long on-page cart with licence tiers, package previews with axis sliders and per-style checkboxes.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "print-proof, pop modernist",
+        "mobile": "unknown",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "On yellow, two overlapping flat rectangles, magenta (top-left) and cyan (bottom-right) with a purple overprint where they meet, carrying the hyphenated name 'for- / ma' in white hairline at ~440px and a small boxed 'DJR'; a row of four small magenta buttons (TRY, BUY, TYPESET, PDF) underneath",
+      "feel": "Bright, modernist, like a 1960s specimen cover",
+      "ux": "TRY posts a form that adds the free Testing licence to the cart; BUY jumps to #buy; TYPESET opens typeset.djr.com with the font; PDF downloads the specimen",
+      "learn": "Overprint two process-colour rectangles behind a hairline name: the CMYK overlap introduces the print theme of the whole page in one image",
+      "reconstruction": {
+        "layout": "Block 1440×735 below a 33px site header; magenta rect ~610×380 at (210,40), cyan rect ~655×350 at (574,326), overlap rendered purple (multiply); 'for-' sits in the magenta rect, 'ma' in the cyan rect, 'DJR' in a white-outlined box at the cyan rect's top-right; buttons centred at the bottom, ~56×24px each, 12px gaps",
+        "typography": "Name ~436px Forma DJR Variable, Hairline (wght ~1), opsz 72, white, lowercase, hyphen hanging; 'DJR' ~20px Bold in a box; buttons ~10px uppercase bold white on magenta",
+        "palette": [
+          "#fef003",
+          "#ed028b",
+          "#02acf1",
+          "#5251d1",
+          "#ffffff"
+        ],
+        "behaviour": "js-animated-specimen with data-slnt='0,-13' and data-wdth='100,90', data-startonload: the name slants and narrows in a loop once the page loads",
+        "content": "Name only",
+        "assets": "title.11.svg (the coloured rectangles)",
+        "html": "section#title > div.headline-wrap.js-animated-specimen[data-slnt][data-wdth][data-startonload] > img + h1.headline > span.for + span.ma > span.djr; div.try-buy-pdf > form(commerce/cart/update-cart, fields[license]=Testing) + a.button × 3"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "foundry house style",
+        "mobile": "unknown"
+      },
+      "look": "DJR's 33px site header above the hero (never cut as a block, attached here): 'David Jonathan Ross' left, Fonts (dropdown listing every DJR family), Typeset, Glyphs, Notes, account and cart on the right, small cyan/grey text",
+      "feel": "Quiet foundry chrome",
+      "ux": "Fonts opens a multi-column dropdown of all typefaces (seen at t≈2s in the video); cart reflects added licences",
+      "learn": "Keep the foundry chrome tiny and neutral so each family page can own its colour scheme",
+      "reconstruction": {
+        "layout": "Static bar 1440×33px at the top of the page; name left, links right; dropdown opens as a full-width panel with 3 columns of family names",
+        "typography": "~11px Input Sans Narrow, uppercase-ish small links",
+        "palette": [
+          "#ffffff",
+          "#02acf1",
+          "#717171"
+        ],
+        "behaviour": "Click 'Fonts' toggles the sub-list (js-nav-sub-list js-closed)",
+        "content": "Foundry navigation",
+        "assets": "none",
+        "html": "header.site-header > nav > li.js-nav-sub-list.site-nav-fonts > span.js-nav-sub-list-toggle + ul; a.site-nav; li.account; li.cart"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "clean, confident",
+        "mobile": "unknown",
+        "controls": [
+          "text",
+          "weight",
+          "axes"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "White panel with print crop marks in the corners: 'A revival of / the classic / Italian sans' in black Bold at ~180px, centred, above four thin magenta sliders in a 2×2 grid (Weight: 700, Width: 100, Optical Size: 72, Slant: 0) with mono labels",
+      "feel": "Crisp, inviting",
+      "ux": "Click the sentence to type; each slider sets one axis live (wght 1–900, wdth 50–100, opsz 8–72, slnt −13–0) and its label shows the value",
+      "learn": "Put the four-axis tester straight after the logo, with the tagline as its default text: the pitch is something you can drag",
+      "reconstruction": {
+        "layout": "Section 1440×934; sample centred, 3 lines, ~1000px wide; sliders in two columns ~470px wide each starting x≈230 and x≈735, two rows ~80px apart; registration marks (short hairlines) at the four corners, a small CMYK dot icon top-right and a registration target bottom-left",
+        "typography": "Sample ~180px Forma DJR Variable wght 700, wdth 100, opsz 72, slnt 0, leading ~0.95, tight tracking; labels ~12px Forma DJR Mono, magenta, 'Weight: 700'",
+        "palette": [
+          "#fdfcfd",
+          "#0e0e0e",
+          "#ed028b"
+        ],
+        "behaviour": "input[type=range] → CSS custom properties --wght/--wdth/--opsz/--slnt on the contenteditable paragraph; label data-val updates",
+        "content": "The tagline 'A revival of the classic Italian sans'",
+        "assets": "none",
+        "html": "section#new-weights.js-interactive-specimen-container > p.js-interactive-specimen[contenteditable][style=--wght…] + form > ul.interactive-specimen-axes > li > label[data-val] + input[type=range][name=wght|wdth|opsz|slnt] + output"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "airy, elegant",
+        "mobile": "unknown",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A cyan panel with a rounded corner holding the lowercase alphabet in four white Light lines (abcdef / ghijklmn / opqrst / uvwxyz) at ~350px, each line breathing between weights",
+      "feel": "Calm, luxurious",
+      "ux": "Decorative (aria-hidden); no interaction",
+      "learn": "Setting only the lowercase at poster size, gently pulsing in weight, shows the family's shapes without a grid",
+      "reconstruction": {
+        "layout": "Full-width cyan panel ~1440×1346 with rounded top-right corner; four left-aligned lines starting x≈230, leading ~0.9",
+        "typography": "~350px Forma DJR Variable, wght oscillating 150–300, opsz 72, white",
+        "palette": [
+          "#02adf1",
+          "#ffffff"
+        ],
+        "behaviour": "Each line is a js-animated-specimen with data-wght='150,300', looping independently (current values differ per line)",
+        "content": "a–z",
+        "assets": "none",
+        "html": "section#alphabet > div.wrapper > div.js-animated-specimen[data-wght='150,300'] > span × 4"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "witty, historical",
+        "mobile": "unknown",
+        "voice": "first-person",
+        "media": [
+          "illustration"
+        ],
+        "length": "medium"
+      },
+      "look": "Headline 'Kinda like Helvetica, except for absolutely everything about it.' in black Medium at ~98px, three paragraphs on Nebiolo, Novarese and Roger Black; a giant blurred yellow halftone 'e' bleeds off the right edge behind the text",
+      "feel": "Knowing, conversational",
+      "ux": "Reading; inline magenta links (Nebiolo article, Roger Black)",
+      "learn": "A huge halftone-dot letter behind the prose evokes print reproduction without a single photograph",
+      "reconstruction": {
+        "layout": "Text column ~970px from x≈230; headline 3 lines, ~40px gap, then ~17px paragraphs; background PNG letter ~700px tall at the right edge, partly cropped; crop marks in the corners",
+        "typography": "Headline ~98px Forma DJR Variable (opsz 72, wght ~500), leading ~0.95, tight tracking; body ~17px Forma DJR Text, leading ~1.5; links magenta bold",
+        "palette": [
+          "#f9f9f8",
+          "#0e0e0e",
+          "#faf9c9",
+          "#ed028b"
+        ],
+        "behaviour": "none",
+        "content": "History: Forma (1968) as Nebiolo's answer to Helvetica, revived for Roger Black's Hong Kong Tatler",
+        "assets": "e-blur.png (yellow halftone letter)",
+        "html": "section#intro > div.bg-letter.right > img + div.registration-nw|ne|sw|se + div.wrapper > h2 + p × 3"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "bilingual, lively",
+        "mobile": "unknown",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "A magenta panel with nine long Italian/French/English words of similar length stacked from Hairline to Black ('Internazionalizzazioni', 'Révérencieusement' … 'Reflectiveness'), alternating white and yellow, each rocking between upright and italic",
+      "feel": "Rhythmic, Mediterranean",
+      "ux": "Decorative, no interaction",
+      "learn": "Pick words of equal visual length per weight so the stack forms a clean block, then animate the slant so the italics are shown without a second list",
+      "reconstruction": {
+        "layout": "Magenta panel ~1440×1556; nine centred lines ~136px each, leading ~1.1",
+        "typography": "~136px Forma DJR Variable, wght 1, 100, 200, 300, 400, 500, 700, 800, 900 top to bottom, opsz 72; colours alternate white / yellow",
+        "palette": [
+          "#ed038c",
+          "#ffffff",
+          "#fef003"
+        ],
+        "behaviour": "js-animated-specimen data-slnt='0,-13' with data-delay: each word slants back and forth on its own phase",
+        "content": "Long multilingual words (Italian, French, English)",
+        "assets": "none",
+        "html": "section#ulc-specimen > div.js-animated-specimen[.yellow][style=--wght][data-slnt='0,-13'][data-delay]"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "thoughtful, craft",
+        "mobile": "unknown",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "'Seeking the warmth of the printed page.' headline and four paragraphs on reviving Forma from fresh proofs of the metal type, with a blurred halftone 's' at the left",
+      "feel": "Craft-minded, generous with credit",
+      "ux": "Links to the research article on Type Network, contributors and the Mono page",
+      "learn": "Explain the revival's source (new proofs from original metal) so visitors know why the rounded corners and swelling stems are there",
+      "reconstruction": {
+        "layout": "Same column as the intro (x≈230, ~970px); bg-letter left",
+        "typography": "Headline ~98px Forma DJR opsz 72 Medium; body ~17px with magenta bold names",
+        "palette": [
+          "#fcfcfc",
+          "#0e0e0e",
+          "#faf9c9",
+          "#ed028b"
+        ],
+        "behaviour": "none",
+        "content": "Real process notes: Indra Kupferschmid's metal casting and proofs, Ruggero Magrì's Condensed and Mono",
+        "assets": "s-blur.png halftone letter"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "language-support",
+      "variant": "script-catalogue",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "proud, collaborative",
+        "mobile": "unknown",
+        "method": "samples",
+        "nonLatin": true
+      },
+      "look": "A centred column of 'Forma + script name' set in five scripts in black Bold (Форма Кирилиця, فورما عربي, ฟอร์มา ไทย, Φορμα Ελληνικά, פורמה עברית), each captioned in magenta 'Cyrillic, designed by Jovana Jocić'",
+      "feel": "Inclusive, credited",
+      "ux": "Each sample links to that script's page; designer names link out",
+      "learn": "Set 'Forma' plus the script's own name in each script and credit the designer underneath: coverage and authorship in one line",
+      "reconstruction": {
+        "layout": "Centred stack, each sample ~100px tall PNG + caption, ~60px between items, ~900px tall overall",
+        "typography": "Samples ~100px Bold (images); captions ~15px Forma DJR, script name bold magenta, 'designed by' black, designer bold magenta",
+        "palette": [
+          "#fcfcfc",
+          "#0e0e0e",
+          "#ed028b"
+        ],
+        "behaviour": "none",
+        "content": "Script names in Cyrillic, Arabic, Thai, Greek, Hebrew with designer credits; text says these are available on request",
+        "assets": "forma-cyrillic.png, forma-arabic.png, forma-thai.png, forma-greek.png, forma-hebrew.png",
+        "html": "div.scripts > a[href='/forma-cyrillic'] > img + p caption"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "misregistered print, bold",
+        "mobile": "unknown",
+        "subject": [
+          "alternates",
+          "optical-size"
+        ],
+        "presentation": "overlay",
+        "explanation": "none"
+      },
+      "look": "On yellow, 'GRaj' at ~750px cropped on the right, printed three times on top of itself: default letters in dark navy, Swiss alternates (bearded G, curved-leg R, two-storey a, j) in magenta and cyan, slightly offset like a misregistered print",
+      "feel": "Graphic, punchy",
+      "ux": "Decorative; the alternate layers pulse in optical size so the offsets keep shifting",
+      "learn": "Overlay default and alternate glyphs in different process colours: the differences jump out as coloured fringes, no labels needed",
+      "reconstruction": {
+        "layout": "Yellow panel ~1440×938; three absolutely stacked layers of the same 4 letters starting x≈20, baseline ~y=640, overflowing the right edge",
+        "typography": "~749px Forma DJR Variable wght 500; layer 1 alternates (ss01 G, ss02 R, ss03 a, j alternate) with opsz animating 21↔72; layer 2 defaults; layer 3 alternates again; colours navy #040385, magenta, cyan",
+        "palette": [
+          "#fef002",
+          "#040385",
+          "#f1038c",
+          "#02aef6"
+        ],
+        "behaviour": "js-animated-specimen data-opsz='21,72' on the two alternate layers → their widths and spacing change in a loop against the static default layer; mix-blend multiply look",
+        "content": "Four letters chosen for their alternates: G R a j",
+        "assets": "none",
+        "html": "section#alternates-specimen > div.specimen.alt-bg.js-animated-specimen[data-opsz] + div.specimen.default + div.specimen.alt.js-animated-specimen > span.alt-g|alt-r|alt-a|alt-j"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "explanatory, tidy",
+        "mobile": "unknown",
+        "subject": [
+          "alternates",
+          "features",
+          "optical-size"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "Two text chapters ('Swiss alternates, Italian style.' and 'And extra clarity when you need it most.') each followed by grey-bordered tiles of cyan glyph pairs, default then alternate, captioned in magenta mono (ss01, ss02, ss03, ss06, zero, or the px size at which a legibility form switches in: Q 20px/15px, a 20/15/9px, 123 15/9px)",
+      "feel": "Clear, didactic",
+      "ux": "static",
+      "learn": "Caption each alternate with the size at which it kicks in automatically: optical-size-dependent alternates become visible",
+      "reconstruction": {
+        "layout": "Column x≈230, ~970px; tiles ~114×150px in groups of 2–3 with 1px light-grey borders and ~12px gaps between groups, wrapping",
+        "typography": "Glyphs ~90px Forma DJR in cyan, centred; captions ~10px Forma DJR Mono magenta; headlines ~98px; body ~17px",
+        "palette": [
+          "#fcfcfc",
+          "#02acf1",
+          "#ed028b",
+          "#d5d5d4"
+        ],
+        "behaviour": "none",
+        "content": "G R a alternates (ss01–ss03), Q a j y l 1 2 3 I legibility forms by size, ss06 I with serifs, zero with slash",
+        "assets": "a-blur.png halftone letter",
+        "html": "div.opsz-alts > figure.opsz-alt > p[style=font-feature-settings:'ss01'] + figcaption"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "type-tester",
+      "variant": "labelled-editable-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "pangram",
+        "tone": "systematic, gradient",
+        "mobile": "unknown",
+        "controls": [
+          "text"
+        ],
+        "scope": "per-row",
+        "defaultText": "pangram",
+        "export": false
+      },
+      "look": "Six full-width bands shading from cyan to magenta, each one editable line of 'Interdisciplinary Qualifying Project. Call 1 (800) 435 8293. The quick brown fox…' in white at 72, 48, 36, 24, 15 and 8px, the size in small yellow figures at the left",
+      "feel": "Smooth, technical",
+      "ux": "Click any line to type; each line runs off the right edge",
+      "learn": "Colour-step the bands with the size so the optical-size waterfall reads as one continuous scale",
+      "reconstruction": {
+        "layout": "Six rows, heights proportional to size (~120px for 72 down to ~70px for 8), 1px white rules between; label column ~40px at x≈40; text starts x≈80, nowrap",
+        "typography": "Forma DJR Regular at 72/48/36/24/15/8px with matching opsz; labels ~10px Forma DJR Mono yellow",
+        "palette": [
+          "#02acf1",
+          "#888ef4",
+          "#b06de3",
+          "#d446bb",
+          "#ec058d",
+          "#ffffff"
+        ],
+        "behaviour": "contenteditable lines; static colours",
+        "content": "Mixed pangram text with numerals and a phone number",
+        "assets": "none",
+        "html": "div.opsz-specimens > figure.opsz-N > div.wrapper > figcaption + p[contenteditable].opsz-specimen-regular-72…8"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "system-diagrams",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "precise, explanatory",
+        "mobile": "unknown",
+        "subject": [
+          "optical-size",
+          "spacing"
+        ],
+        "presentation": "diagram",
+        "explanation": "prose"
+      },
+      "look": "'Tight but not touching, no matter the size.' then prose on spacing, a bullet list of the five optical sizes with point and pixel ranges (Banner 72pt+, Display 36–72pt, Deck 14–36pt, Text 11–14pt, Micro 8–11pt) and a gradient strip 'HiHiHiHiHi' from cyan Banner to magenta Micro",
+      "feel": "Expert, measured",
+      "ux": "static",
+      "learn": "Show all optical sizes scaled to the same height side by side: spacing and stroke changes become comparable at a glance",
+      "reconstruction": {
+        "layout": "Column x≈230, ~970px; list after the paragraphs; SVG strip ~980×160px; caption below",
+        "typography": "Headline ~98px; body ~17px; list items bold style name + ranges; caption ~11px Forma DJR Mono magenta",
+        "palette": [
+          "#fcfcfc",
+          "#0e0e0e",
+          "#02acf1",
+          "#e80b8f"
+        ],
+        "behaviour": "none",
+        "content": "Real size ranges for each optical size; the UI cut abandons tight spacing",
+        "assets": "optical-sizes.svg; o-blur.png halftone letter",
+        "html": "section > div.wrapper > h2 + p + ul > li × 5 + figure > img[src='/assets/forma/optical-sizes.svg'] + figcaption"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "elastic, playful",
+        "mobile": "unknown",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "A cyan panel with two columns of words meeting at the centre line: mixed-case words right-aligned on the left (Black → Hairline), caps words left-aligned on the right (Hairline → Black), alternating white and yellow, each stretching and squeezing in width so some overflow the page edge",
+      "feel": "Bouncy, accordion-like",
+      "ux": "Decorative",
+      "learn": "Mirror two weight ramps around a centre axis and animate width: the Condensed range is shown in a single animated figure",
+      "reconstruction": {
+        "layout": "Panel ~1440×1573; two-column grid split at x=720, left column text-align right, right column left; 9 rows ~140px; caption under the left column",
+        "typography": "~140px Forma DJR Variable; left column wght 800→1 top to bottom, right column wght 1→900; wdth animating 100↔50; caption ~11px Mono 'Forma DJR Condensed, drawn by Ruggero Magrì'",
+        "palette": [
+          "#05aef0",
+          "#ffffff",
+          "#fef003"
+        ],
+        "behaviour": "js-animated-specimen data-wdth='100,50' on every word, each at its own phase",
+        "content": "Long English words, mixed-case left, all-caps right",
+        "assets": "none",
+        "html": "section#condensed.cyan-color > figure > div.grid > div.col-1|col-2 > div.js-animated-specimen[data-wdth='100,50']"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "story",
+      "variant": "article-teaser",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "grateful, scholarly",
+        "mobile": "unknown",
+        "voice": "first-person",
+        "media": [
+          "archival"
+        ],
+        "length": "short"
+      },
+      "look": "'A celebrated foundry, a legendary designer, and a rich history.' over a black-and-white photo of Aldo Novarese drawing letters, links to the Type Network article series and a further reading tip, then a 'Mille grazie' thank-you paragraph beside a PDF specimen cover thumbnail",
+      "feel": "Warm, respectful",
+      "ux": "Photo and links open the Type Network articles; the thumbnail downloads the PDF specimen",
+      "learn": "Link out to long-form history rather than reproducing it, and put the acknowledgements next to the PDF download",
+      "reconstruction": {
+        "layout": "Column x≈230, ~970px; photo centred ~750×450px; thanks paragraph to the right of a ~180×240px PDF cover with a mono 'PDF SPECIMEN' label",
+        "typography": "Headline ~98px; body ~17px; links magenta; label ~10px Input Sans Narrow / Forma Mono caps",
+        "palette": [
+          "#fcfcfc",
+          "#0e0e0e",
+          "#ed028b",
+          "#fef003"
+        ],
+        "behaviour": "none",
+        "content": "Real article links (Type Network, Alessandro Colizzi), acknowledgements to Roger Black, Indra Kupferschmid, Font Bureau",
+        "assets": "aldo-novarese-drawing.jpg (archival), pdf-preview.png",
+        "html": "a.brochure > img; div.pdf-preview > a[href='/forma/forma-djr-specimen.pdf'] > img"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "typewriter, playful",
+        "mobile": "unknown",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "A yellow panel of nine 11-letter words in Forma DJR Mono from Black to Hairline, alternating cyan roman and magenta italic, with letters flipping between upper and lower case ('BizarrENESS', 'OuTSTANDING', 'EtymolOGIST')",
+      "feel": "Quirky, mechanical",
+      "ux": "Decorative",
+      "learn": "Flip letter case in a monospace: the word length never changes, which proves the fixed widths better than any caption",
+      "reconstruction": {
+        "layout": "Panel ~1440×1651; nine left-aligned lines from x≈230, ~147px each, all the same length; caption under the stack",
+        "typography": "~147px Forma DJR Mono Variable wght 800→1, slnt alternating 0 / −13; caption ~11px Mono magenta",
+        "palette": [
+          "#fcee04",
+          "#05aef0",
+          "#ec058d"
+        ],
+        "behaviour": "Each line holds a fading copy (span.js-text-fade) and the target (span.js-text); letters change case progressively (data-case='lower', data-progress) in a loop",
+        "content": "11-letter English words so all lines align in the mono",
+        "assets": "none",
+        "html": "section#mono.yellow-color > div.js-animated-specimen[style=--wght;--slnt][data-case][data-progress] > span.js-text-fade.animate + span.js-text"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "credible, varied",
+        "mobile": "unknown",
+        "medium": "photo-mockup",
+        "sequence": "grid"
+      },
+      "look": "'Forma DJR In Use' with a small 'FROM FONTS IN USE' credit, then a 3-column grid of 24 square thumbnails (Severance props, book covers, posters, magazines, an app screen)",
+      "feel": "Busy, credible",
+      "ux": "Each tile links to its Fonts In Use entry",
+      "learn": "Pull in-use examples from Fonts In Use thumbnails: an always-current proof wall with no curation cost",
+      "reconstruction": {
+        "layout": "Column x≈230, ~970px; grid 3 × 8 of ~314px squares with ~16px gaps",
+        "typography": "Headline ~98px; credit ~10px mono caps with magenta link",
+        "palette": [
+          "#fcfcfb",
+          "#0e0e0e",
+          "#ed028b"
+        ],
+        "behaviour": "none (no hover captions captured)",
+        "content": "24 real uses from fontsinuse.com",
+        "assets": "Fonts In Use thumbnails (hotlinked)",
+        "html": "div.use-grid > a.use-case > img + span.use-name"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "graphic, bold",
+        "mobile": "unknown",
+        "structure": "matrix",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "A magenta panel with a 4-row matrix of the single-storey 'a': two rows of four heavy a's (roman, then italic) and two rows of five lighter a's thinning to hairline, alternating white and yellow",
+      "feel": "Emblematic",
+      "ux": "static image",
+      "learn": "One signature glyph repeated across weights and slants works as a logo of the family's range",
+      "reconstruction": {
+        "layout": "Magenta panel ~1440×1251; SVG ~940×980px centred-left from x≈230",
+        "typography": "Single-storey 'a' at ~200px in Black/Bold (rows 1–2) and Regular→Hairline (rows 3–4), roman and italic",
+        "palette": [
+          "#ed028c",
+          "#ffffff",
+          "#fef703"
+        ],
+        "behaviour": "none",
+        "content": "The trademark single-storey a",
+        "assets": "aaa.svg",
+        "html": "section#aaa-specimen > div.wrapper > img[src='/assets/forma/aaa.svg']"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "checkout",
+      "variant": "on-page-cart",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "pangram",
+        "tone": "thorough, transparent",
+        "mobile": "unknown",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": true,
+        "free": false
+      },
+      "look": "'Get Forma DJR, the interesting boring sans.' then magenta section bars: LICENSE SIZES (8 cards: Mini, Small, Medium, Large, Extra Large, Discounted Mini, Educational, Testing, with workstation/visitor/app limits), PREVIEW TEXT (one input), FULL SERIES PACKAGE and OTHER PACKAGES (cards with checkbox, price $350/$275/$150, BUY NOW, a big sample line and inline axis sliders), INDIVIDUAL WEIGHTS ($50/style, a checkbox per weight with samples at Deck/Display/Banner or Micro→Banner sizes)",
+      "feel": "Generous, catalogue-like, very complete",
+      "ux": "Pick a licence size card; type preview text that replaces every sample; tick packages or single weights; package cards expand (▼) and their sliders vary Weight, Width, Optical Size, Slant; add to cart without leaving the page",
+      "learn": "Make the price list itself the specimen: every purchasable style shows its own sample at its optical sizes, driven by one preview-text field",
+      "reconstruction": {
+        "layout": "Column x≈230, ~970px, ~21,700px tall; magenta full-width section bars ~20px tall; licence cards in a 4 × 2 grid (~230×140px, 1px magenta border, selected card outlined); package cards ~970px with checkbox + name + style count top-left and price + BUY NOW button top-right, a ~60px sample line, slider rows (label, value, range); individual weights as a long checkbox list, 3–5 sample lines per weight",
+        "typography": "Headline ~98px with 'interesting' in Bold; UI ~10px Input Sans Narrow caps magenta; prices ~16px magenta; samples Forma DJR at 16/22/30/48/64pt for Micro/Text/Deck/Display/Banner",
+        "palette": [
+          "#faf9fa",
+          "#ed028b",
+          "#0e0e0e",
+          "#d2d2d2"
+        ],
+        "behaviour": "Radio-like licence tier labels (label.license-tier for #license-mini …); input#tester-input mirrors into all .style-sample spans; checkboxes name purchasables[id]; range inputs per package axis (wght 1–900, wdth 50–100, opsz 8–72, slnt −13–0) set the sample's variation; button.button-more ▼ expands a card; Craft Commerce cart form",
+        "content": "Real licence terms and prices; Italian pangram 'In quel campo si trovan funghi in abbondanza. Ma la volpe, col suo balzo, ha raggiunto il quieto Fido.'",
+        "assets": "none",
+        "html": "section#buy > div.license-grid > label.license-tier[for=license-*] > div.license-tier-details; input#tester-input; #buy-packages > li > label.buy-checkbox > input[type=checkbox][name='purchasables[ID][id]'] + label > span.style-sample; #buy-individual-styles"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "thorough, collegial",
+        "mobile": "unknown",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "At the end of the buy section (below the truncated crop, read from the DOM): 'Design credits' listing 15 people with roles (principal design, art direction, copywriter/historian, each script designer, project manager, QA) and social links, then 'Additional information' with the PDF specimen",
+      "feel": "Collegial, complete",
+      "ux": "Name links to Instagram/Twitter",
+      "learn": "Credit every script designer and QA tester by role on the buying page, where licensees will look",
+      "reconstruction": {
+        "layout": "Same column; definition-list style rows: name + role + social links",
+        "typography": "~14px Forma DJR / Input Sans Narrow, names bold",
+        "palette": [
+          "#faf9fa",
+          "#0e0e0e",
+          "#ed028b"
+        ],
+        "behaviour": "none",
+        "content": "Real credits (David Jonathan Ross, Roger Black, Indra Kupferschmid, Ruggero Magrì, Jovana Jocić, Wael Morcos …)",
+        "assets": "none",
+        "html": "h3.license-size-label#credits + list"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "foundry house style",
+        "mobile": "unknown",
+        "contains": [
+          "contact",
+          "socials",
+          "newsletter",
+          "other-fonts"
+        ]
+      },
+      "look": "DJR's site footer (no crop; read from HTML): columns 'David Jonathan Ross' (RSS feeds, mailing list), 'Elsewhere' (Fonts in Use, Mastodon, Type Network, Fontstand, Adobe Fonts, GitHub, Type Crit Crew), 'Font of the Month Club' and 'Typefaces' (all families)",
+      "feel": "Functional, personal",
+      "ux": "Plain links",
+      "learn": "A shared foundry footer that lists every family turns each microsite into an entry point to the catalogue",
+      "reconstruction": {
+        "layout": "~540px tall, four columns of link lists",
+        "typography": "~15px Input Sans Narrow; column headings uppercase",
+        "palette": [
+          "#ffffff",
+          "#0e0e0e",
+          "#02acf1"
+        ],
+        "behaviour": "none",
+        "content": "Foundry links",
+        "assets": "small logo image",
+        "html": "footer > h3#footer-name, h3#footer-elsewhere, h3 > a[href=font-of-the-month-club], h3 'Typefaces' + ul"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "type-tester/slider-sandbox",
+    "glyph-table/category-lines",
+    "story/origin-reference",
+    "family-overview/style-word-grid",
+    "story/essay",
+    "language-support/script-catalogue",
+    "design-details/feature-before-after",
+    "type-tester/labelled-editable-lines",
+    "design-details/system-diagrams",
+    "family-overview/style-word-grid",
+    "story/article-teaser",
+    "family-overview/style-word-grid",
+    "specimen-showcase/in-use-mockups",
+    "family-overview/designspace-map",
+    "checkout/on-page-cart",
+    "footer/credits-colophon",
+    "footer/link-columns"
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "slug": "rt-alias-com",
+  "extractedBy": "agent",
+  "summary": "RazziaType's one-column specimen for RT Alias, a pixel type system (Grotesk, Fine, Medium, Rough × Light/Regular/Bold + obliques), all in phosphor green on black like a CRT. The pages are mostly pre-rendered diagram images (the grids, pixel sizes, stem widths, how a shoulder curve turns into steps), plus live style lists and retro-console names in each subfamily. Static, with three pill CTAs at the end.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "construction-drawing",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "technical, retro-digital",
+        "mobile": "shrinks",
+        "carrier": "glyph",
+        "cta": "none",
+        "rangeShown": "whole-family",
+        "navVisible": false
+      },
+      "look": "A green-on-green specimen sheet in four quadrants (GROTESK, FINE, MEDIUM, ROUGH): each a huge bright-green 'A' on metric guide lines, a vertical 'RT ALIAS' label, an outlined 'A' showing its pixel grid, a 3×2 key of small A's (Light/Regular/Bold, roman/oblique) and checkerboard swatches of the pixel size",
+      "feel": "Technical, CRT-like, systematic",
+      "ux": "static image",
+      "learn": "Introduce a pixel system by putting the same letter in every subfamily side by side, each with its own grid: the range and the logic in one frame",
+      "reconstruction": {
+        "layout": "Image ~1190×893px centred on black (4:3 placeholder), 2×2 quadrants; each: label row, big A ~300px, side column with outlined A ~120px and 3×2 key of ~35px A's",
+        "typography": "RT Alias Grotesk / Fine / Medium / Rough Bold for the big A's; labels ~30px RT Alias Grotesk Regular caps",
+        "palette": [
+          "#026903",
+          "#03f903",
+          "#058f05",
+          "#015b02",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Letter 'A' and subfamily names",
+        "assets": "Pre-rendered specimen image (wp-content/uploads)"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "11",
+        "13"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "precise, technical",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "diagram"
+        ],
+        "length": "short"
+      },
+      "look": "Three short centred paragraphs in bright green on black, each introducing the diagram below it: the system (four subfamilies with three weights each, a changing grid, a sans sibling), the Grotesk subfamily (a conventional sans built constructionally), and Fine/Medium/Rough (squares on a fixed grid, related in size)",
+      "feel": "Spec-sheet terse",
+      "ux": "static",
+      "learn": "Explain a type system in three sentences, each placed right above the diagram that proves it",
+      "reconstruction": {
+        "layout": "Column 8/12 wide (~950px) centred, ~5 lines each, ~118px blocks",
+        "typography": "~21px RT Alias Grotesk Regular, green #00ff00, leading ~1.25",
+        "palette": [
+          "#000000",
+          "#00ff00"
+        ],
+        "behaviour": "none",
+        "content": "Real system description",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "03",
+        "04",
+        "05"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "systematic, labelled",
+        "mobile": "shrinks",
+        "structure": "matrix",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "Four green panels, one per subfamily: a label column ('TYPEFACE: RT ALIAS / SUBFAMILY: GROTESK|FINE|MEDIUM|ROUGH' and a key of boxed L R B / O O O) beside a 3×2 grid of 'Ss' in Light, Regular and Bold, roman over oblique",
+      "feel": "Catalogue-like, rigorous",
+      "ux": "static images",
+      "learn": "Use an identical card per subfamily with a boxed weight key (L R B, O for oblique): comparing the four becomes a matter of scrolling",
+      "reconstruction": {
+        "layout": "Each image 1190×446px centred on black; label column ~190px, then 3 columns × 2 rows of cells with hairline green borders",
+        "typography": "'Ss' ~110px in each style; labels ~14px caps; key letters in 24px boxes",
+        "palette": [
+          "#026603",
+          "#07f608",
+          "#045b04",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "'Ss' pairs",
+        "assets": "Four pre-rendered images"
+      }
+    },
+    {
+      "blocks": [
+        "06",
+        "07",
+        "08",
+        "09"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "clean, retro",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "Four centred stacks in live green text on black, each under a small 'RT ALIAS': 'Grotesk Light Oblique / Grotesk Regular Oblique / Grotesk Bold Oblique', then the same for Fine, Medium and Rough, the word 'Oblique' set in the oblique",
+      "feel": "Neat, glowing",
+      "ux": "static",
+      "learn": "Set each style name in itself with the oblique appended in the oblique: twelve styles read as four tidy blocks",
+      "reconstruction": {
+        "layout": "Each block 280px tall, centred; label line then three lines, leading 1.0",
+        "typography": "Label ~40px RT Alias Grotesk Regular; lines ~60px in each subfamily's Light, Regular, Bold (+ Oblique), letter-spacing 0.02em, #00ff00",
+        "palette": [
+          "#000000",
+          "#00ff00",
+          "#126e13"
+        ],
+        "behaviour": "none",
+        "content": "Style names",
+        "assets": "none",
+        "html": "p[style=line-height:1;text-align:center] > span[style=font-family:RTAliasGrotesk-Light…]"
+      }
+    },
+    {
+      "blocks": [
+        "10",
+        "12",
+        "14"
+      ],
+      "type": "design-details",
+      "variant": "system-diagrams",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "diagrammatic, precise",
+        "mobile": "shrinks",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "diagram",
+        "explanation": "caption"
+      },
+      "look": "Three diagram images: the same 'n' in Grotesk, Fine, Medium and Rough on grid boxes with a magnified shoulder curve below each, stepping from smooth to coarse pixels; a 'GROTESK / FINE GRID / MEDIUM GRID / ROUGH GRID' comparison of grid densities above callouts for FINE PIXEL, MEDIUM PIXEL and ROUGH PIXEL squares; and a barcode-like strip of stem widths labelled L R B for each subfamily",
+      "feel": "Engineering manual, CRT",
+      "ux": "static images",
+      "learn": "Show one curve at four grid resolutions side by side: the system's logic (same shape, coarser pixel) is understood at a glance",
+      "reconstruction": {
+        "layout": "Images 1190px wide centred on black: n-diagram ~714px tall (2 rows × 4 cells), grid chart ~893px (4 grid columns over a pixel-size chart), stem strip ~298px",
+        "typography": "Labels ~14px RT Alias Grotesk caps on green tags; glyphs ~150px",
+        "palette": [
+          "#03670c",
+          "#03fb03",
+          "#035c0d",
+          "#040b04"
+        ],
+        "behaviour": "none",
+        "content": "Grid, pixel and stem-width comparisons",
+        "assets": "Pre-rendered diagram images"
+      }
+    },
+    {
+      "blocks": [
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "retro gaming, nostalgic",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Four blocks of three centred words at 180px in glowing green, Light → Regular → Bold, each under a small heading 'RT ALIAS GROTESK L R B' (L R B set in the three weights): 'Atari Pong / Commodore / Vectrex', 'Magnavox / Odyssey / Intellivision', 'Genesis / Astrocade / Zodiac', 'Microvision / Arcadia / Laseractive'",
+      "feel": "Arcade, nostalgic, punchy",
+      "ux": "static",
+      "learn": "Pick sample words from the pixel font's own world (vintage game consoles) and step the weight down the stack",
+      "reconstruction": {
+        "layout": "Heading row 42px; stack 580px tall, three lines centred, leading 1.0",
+        "typography": "Words 180px RT Alias Grotesk / Fine / Medium / Rough in Light, Regular, Bold, #00ff00; heading 30px, letter-spacing 0.04em",
+        "palette": [
+          "#000000",
+          "#00ff00",
+          "#07af08"
+        ],
+        "behaviour": "none",
+        "content": "Names of 1970s–90s game consoles",
+        "assets": "none",
+        "html": "p[style=line-height:1] > span[style=font-size:180px;font-family:RTAliasGrotesk-Light]"
+      }
+    },
+    {
+      "blocks": [
+        "23"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "terminal-like",
+        "mobile": "shrinks",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A square image of the glyph set in small green characters on black, letter-spaced rows grouped by category: A–Z, a–z, accented capitals and lowercase, figures and fractions, punctuation, symbols, currency, maths",
+      "feel": "Like a terminal character map",
+      "ux": "static image",
+      "learn": "Wide letter-spacing and category gaps make a small pixel set read like a character ROM table",
+      "reconstruction": {
+        "layout": "Image 1190×1190 centred; rows of ~24 glyphs, ~30px cells, category gaps ~40px",
+        "typography": "~20px RT Alias (Grotesk) Regular, green",
+        "palette": [
+          "#030903",
+          "#072808",
+          "#00ff00"
+        ],
+        "behaviour": "none",
+        "content": "Full character set",
+        "assets": "Pre-rendered image"
+      }
+    },
+    {
+      "blocks": [
+        "24",
+        "25",
+        "26"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, direct",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Three stacked green pill buttons centred on black: 'LICENSE RT ALIAS', 'GET FREE TRIAL FONTS', 'SEE PDF SPECIMEN'",
+      "feel": "Simple, tidy",
+      "ux": "Links to the RazziaType shop, trial page and PDF",
+      "learn": "Offer licence, trial and PDF as three equal pills: every level of commitment gets a button",
+      "reconstruction": {
+        "layout": "Pills ~140×44px, radius 22px, 40px apart, centred",
+        "typography": "~14px RT Alias Grotesk Regular caps, light green on dark green (#036703) with a green outline",
+        "palette": [
+          "#000000",
+          "#036703",
+          "#2fa92f"
+        ],
+        "behaviour": "Hover likely brightens",
+        "content": "Three CTAs",
+        "assets": "none",
+        "html": "a.laybutton3.laybutton"
+      }
+    },
+    {
+      "blocks": [
+        "27",
+        "28",
+        "29"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "'Check out other Razzia typefaces:' over three outlined white boxes 'RT Dromo', 'RT Rondelle', 'RT Vitrine', each linking to its own microsite"
+    },
+    {
+      "blocks": [
+        "30"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "A green rule and two small caption columns: 'Typeface: Designed by Mirco Schiavone, RazziaType' and 'Website: Design, copywriting and documentation by Mirco Schiavone'"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/construction-drawing",
+    "story/design-brief",
+    "family-overview/style-word-grid",
+    "design-details/system-diagrams",
+    "specimen-showcase/word-stack",
+    "glyph-table/category-lines",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

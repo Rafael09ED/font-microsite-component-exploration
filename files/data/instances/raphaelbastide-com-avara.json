@@ -1,0 +1,129 @@
+{
+  "slug": "raphaelbastide-com-avara",
+  "extractedBy": "agent",
+  "summary": "A one-screen page for Avara, an open-source curveless serif: the name is drawn as an SVG outline with every on-curve point marked by a small purple-stroked handle, framed by a talking headline ('Hello, I am') and a sentence whose emoji are the actions (print the specimen, download, view source). The page prints itself as a specimen sheet through print-only elements.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "construction-drawing",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "friendly, nerdy, open-source",
+        "mobile": "adapts",
+        "carrier": "glyph",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "Black screen: 'Hello, I am' in small white serif, then 'Avara' as a huge white SVG outline (~1290px wide) with a small white square handle stroked in violet at every point, showing that the font has only straight segments; a violet outlined circle 'Buy the book!' badge in the top-right corner",
+      "feel": "Charming, transparent, hacker-craft",
+      "ux": "The headline talks in the first person; the letterforms are an inline SVG of the glyph paths built with Snap.svg, so the points are scriptable (probably draggable, not confirmed in the capture); a white screen shows for ~1.5s before the page appears",
+      "learn": "For a font whose idea is its construction (no curves), draw the name as its outline with point handles: the concept is understood before reading a word",
+      "reconstruction": {
+        "layout": "Single 100vh screen, centred column: 'Hello, I am' at y≈205; SVG (viewBox -50 -40 900 350) ~1290px wide from x≈76, glyph baseline at y≈620, caps ~390px tall; two-line sentence centred at y≈800–850; 100px circular badge at top-right (≈40px from the edges)",
+        "typography": "'Hello, I am' ~36px Avara Bold white; name as SVG paths (fill white, 1px black stroke); sentence ~22px Avara white with inline emoji; badge text ~14px Avara violet, three short lines centred in the circle",
+        "palette": [
+          "#020202",
+          "#f9f9fa",
+          "#6e32ff"
+        ],
+        "behaviour": "Static in the capture; <use href=#point-handle> squares (6×6, white fill, stroke rgb(110,50,255)) placed at every path vertex by Snap.svg (js/snap.svg-min.js + pathseg.js polyfill)",
+        "content": "First-person greeting from the font: 'Hello, I am Avara'",
+        "assets": "SVG paths of the five glyphs A v a r a",
+        "html": "div#head.screen; div#svg-container > svg#avara > path ×5 + use[href=#point-handle] per vertex; a.book (badge)"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "playful, minimal",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "One centred sentence under the name: 'you can either 🖨 my specimen, ↓ me, or take a closer 👁.' with the emoji as the links",
+      "feel": "Witty, unpretentious",
+      "ux": "🖨 calls window.print() (the page prints as a specimen), ↓ downloads the GitLab master zip, 👁 opens the repository; the word 'specimen' is contenteditable, so the sentence can be retyped",
+      "learn": "Let the emoji be the verbs in a single sentence: three calls to action with no buttons at all",
+      "reconstruction": {
+        "layout": "Centred two-line sentence ~520px wide near the bottom of the screen (y≈800)",
+        "typography": "~22px Avara Bold white; emoji at text size",
+        "palette": [
+          "#020202",
+          "#f9f9fa"
+        ],
+        "behaviour": "a.print-button onclick=window.print(); href to gitlab.com/velvetyne/Avara archive zip and repository; span.editable[contenteditable]",
+        "content": "you can either 🖨 my specimen, ↓ me, or take a closer 👁.",
+        "assets": "none",
+        "html": "div#comandes.screen > a.print-button ×3 + span.editable[contenteditable]"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "plain, printable",
+        "mobile": "unknown",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Print-only (HTML only, hidden on screen): when printed, the page adds an alphabet block 'abcdefghijklm / nopqrstuvwxyz / ABCDEFGHIJKLMNOPQRSTUVWXYZ / 1234567890', a block of accents, ligatures (ﬀ ﬁ ﬂ ﬃ ﬄ) and symbols (€ £ Ƀ & ¢ ® © ¶ ½ † ‡), the credit 'Avara Open Source Typeface' and the URL",
+      "feel": "Utilitarian, zine-like",
+      "ux": "Appears only through the 🖨 print action (elements with class .print, shown by a print stylesheet)",
+      "learn": "Hide a character-set sheet in print CSS: the one-screen site becomes a printable specimen with a single window.print()",
+      "reconstruction": {
+        "layout": "Two blocks on the printed page: #specimenright (alphabets and figures as four lines) and #specimenleft (accents, punctuation, ligatures, emoji); credits and URL lines",
+        "typography": "Avara Bold at print display size (exact sizes in main.css, not captured)",
+        "palette": [
+          "#ffffff",
+          "#000000"
+        ],
+        "behaviour": "@media print shows .print and hides .screen",
+        "content": "Alphabet, figures, accented letters, ligatures, symbols",
+        "assets": "none",
+        "html": "div#specimenright.print, div#specimenleft.print, div#credits.print, div#web.print"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/construction-drawing",
+    "checkout/link-out-cta",
+    "glyph-table/category-lines"
+  ]
+}

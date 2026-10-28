@@ -1,0 +1,584 @@
+{
+  "slug": "scenik-frostype-xyz",
+  "extractedBy": "agent",
+  "summary": "FROST's long Lenis-scrolled specimen for FT Scenik, a 142-style geometric sans inspired by Margate (wdth, wght, slnt, a 'scenders' set): a Lottie wordmark, a burger drawer with progress, per-row editable testers with tracking/leading/colour/style-set controls, archival Margate photos, axes explained by cartoon characters, and a fixed black 'Trial | Buy' pill. The desktop capture froze on the loader (smooth-scroll container), so the content was read from the HTML, the video and the mobile capture.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "modernist, seaside, crisp",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "buy",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "Off-white page; after a loader the black wordmark 'SCENIK' fills the full width at the bottom of the first screen, its letters in different weights and widths (light geometric S C E, then blocky black N I K); below a ruled line, a four-line intro paragraph ('FT Scenik is a typeface inspired by the modernist typography of Margate…') with 'FROST' underlined",
+      "feel": "Bold, graphic, seaside-modernist",
+      "ux": "Loader: 'FROST presents Scenik' and 'Influenced by Margate' in tiny type; 'F ROS T' collapses to 'FT' and becomes the nav title; the wordmark draws itself in (Lottie); the whole header links to the shop; a green dot cursor follows the pointer",
+      "learn": "Let the loader's credit line shrink into the nav title ('FROST presents' → 'FT'): the intro and the persistent header become one continuous piece of typography",
+      "reconstruction": {
+        "layout": "First screen 100vh: tiny title row at y≈372 during loading; wordmark 1920×459 Lottie scaled to the container width (~1380px wide, ~330px tall) anchored to the bottom of the viewport with ~30px margins; then a hairline rule and the paragraph full width (~1380px)",
+        "typography": "Wordmark: FT Scenik mixed (Thin Regular width to Super Condensed), caps; intro ~30px FT Scenik Text Medium, leading ~1.15; loader/nav 14px FT Scenik Text Regular (wdth 500, wght 350)",
+        "palette": [
+          "#f7f0ea",
+          "#fbf9f6",
+          "#000000",
+          "#b6f6b1"
+        ],
+        "behaviour": "~4.5s intro: .title_ros width animates to 0 (CSS var --ROS 27.6px) and 'presents' fades (--pres), background .site_intro_background fades; Lottie SVG animation of the wordmark plays once; Lenis smooth scroll; custom .cursor 20px #b6f6b1 circle that grows with a label on hover",
+        "content": "Real intro copy about Margate's modernist typography",
+        "assets": "Lottie JSON of the wordmark animation",
+        "html": "section#foreword > a.foreword_header_container > div.foreword_header > div.foreword_header_motion > div.lottie-animation-container > svg"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "02"
+      ],
+      "type": "navigation",
+      "variant": "toc-drawer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "quiet, editorial",
+        "mobile": "adapts"
+      },
+      "look": "Never captured open: a two-line burger icon at the top-right of the fixed header opens a panel with a progress bar, the nine chapter links (Foreword, Family, Styles, Origins, Variables, Features, Mood, Glyphs, Support) and a long repeated sentence 'FT Scenik builds a bridge between the American Gothic and European Grotesque…'",
+      "feel": "Calm, magazine-like",
+      "ux": "Burger toggles the drawer; a progress bar shows how far down the page you are; links jump to section anchors",
+      "learn": "Put a reading-progress bar inside the chapter drawer: the menu doubles as a sense of where you are in a long specimen",
+      "reconstruction": {
+        "layout": "Fixed panel (likely full-width, from the top) with a thin progress bar, a vertical list of 9 links and a large text block on the 12-column grid",
+        "typography": "Links ~14–16px FT Scenik Text; sentence ~30px",
+        "palette": [
+          "#fbf9f6",
+          "#000000"
+        ],
+        "behaviour": ".burger (burger_top / burger_bottom lines) toggles .burger_nav; .burger_nav_progress_bar width follows scroll progress",
+        "content": "Chapter names and a positioning sentence",
+        "assets": "none",
+        "html": "div.burger_nav > div.burger_nav_progress_bar + div.burger_nav_progress > p > a[href=#…] ×9 + div.grid > h3; div.burger > div.burger_top + div.burger_bottom"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed slim header with a hairline rule: 'FT Scenik' left (born from the loader's 'FROST presents Scenik'), the current chapter name centred ('Influenced by Margate', 'Family', 'Styles', 'Variables'…) and the burger icon right; the bottom of each mobile screen repeats 'FT Scenik · <chapter>'"
+    },
+    {
+      "blocks": [
+        "00",
+        "10"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "compact, persistent",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Not cut as a block: a small black pill 'Trial | Buy' fixed at the bottom centre of every screen, with 'Exclusively at FROST'; at the end, a pre-footer with the FROST mascot and 'STUDENTS GET 75% OFF — Use the code STUDENTXYZ to get 75% off your purchase at frostype.xyz'",
+      "feel": "Ever-present but unobtrusive",
+      "ux": "The pill links to the FROST collection page from anywhere; the student code is a plain incentive",
+      "learn": "A single fixed two-word pill (Trial | Buy) keeps the CTA one tap away without a header bar",
+      "reconstruction": {
+        "layout": "Pill ~100×36px, radius 18px, fixed bottom-centre ~20px from the edge; pre-footer centred mascot ~200px with a headline and one line",
+        "typography": "Pill ~14px FT Scenik Text Medium white with a thin '|' divider; promo headline ~30px caps, line ~14px",
+        "palette": [
+          "#000000",
+          "#ffffff",
+          "#fbf9f6"
+        ],
+        "behaviour": "none",
+        "content": "'Trial | Buy', 'Exclusively at FROST', student discount code",
+        "assets": "FROST mascot illustration (FROST_Mascot.png)",
+        "html": "div.buy > div.buy_pill > a + p; div.pre_footer > img + h1 + h3"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "witty, systematic",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": true
+      },
+      "look": "'Family' heading and a short note (142 styles, 13 weights, 3 families), a black-and-white cartoon of a family (parents, kids, grandparents in 1930s seaside clothes, green ties), then tabs 'Standard · Condensed · Text · Text Condensed · Mono' with an underline, over a list of every weight set in itself: 'Super Retalic Italic', 'Extrablack Retalic Italic' … 'Thin Retalic Italic'",
+      "feel": "Playful pun, then rigorous",
+      "ux": "Tabs switch the list between the five sub-families; the underline slides to the active tab",
+      "learn": "Illustrate 'type family' literally with a drawn family, then show each weight's upright (Retalic, backslanted) and Italic on one line",
+      "reconstruction": {
+        "layout": "Title row: h2 left, description right on a 12-col grid; illustration centred ~600px; tab row; list of 13 lines, each 'Weight Retalic Italic' left-aligned",
+        "typography": "Heading ~30px FT Scenik Text Medium; list lines ~60px FT Scenik in their weight, Retalic (backslant) then Italic; tabs ~14px",
+        "palette": [
+          "#fbf9f6",
+          "#000000",
+          "#b6f6b1"
+        ],
+        "behaviour": "Tab click swaps .family_styles_* list and moves .family_styles_nav_underline",
+        "content": "Weight names from Super to Thin with Retalic and Italic",
+        "assets": "Two cartoon illustrations (Scenik-06.png, Scenik-07.png)",
+        "html": "section#family > div.family_styles > div.family_styles_nav > p ×5 + div.family_styles_nav_underline; div.family_styles_families > h1.family_styles_weight > span ×3"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "type-tester",
+      "variant": "per-row-controls",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "editorial, local",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "tracking",
+          "leading",
+          "color",
+          "features"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "'Styles' chapter: eight editable specimens from display to mono, each labelled with its style ('FT Scenik Condensed Super' → 'SCOOP' fitted to the full width; 'Condensed Heavy' → 'NEW AT TURNER CONTEMPORARY'; 'Medium' → 'Dreamland ® A one stop ↘ of local culture…'; Text Bold, Regular, Medium paragraphs about Margate's Old Town; 'Mono Light' paragraph), each with a tool row",
+      "feel": "Editorial, confident, local",
+      "ux": "Per row: Tracking and Leading sliders, a colour picker (#000000), style-set toggles (Alt a, Internal Dots, Square Dots, Scenders) and Reset; display lines are contenteditable and auto-fit to the width",
+      "learn": "Give every row its own typographic controls (tracking, leading, colour, sets) with tuned defaults per size: big rows start tight, text rows loose",
+      "reconstruction": {
+        "layout": "Full-width rows on a 12-col grid; tool row above each specimen (label left, ranges and toggles inline, Reset right); display lines nowrap and scaled to the container (333px, 198px, 118px); text rows in 2 columns",
+        "typography": "Display: Condensed Super ~333px, Condensed Heavy ~198px, Medium ~118px; text rows ~30px FT Scenik Text Bold/Regular/Medium and ~16px Mono Light; tool labels ~12px; default tracking −0.06 to 0em, leading 0.725 to 1.1",
+        "palette": [
+          "#fbf9f6",
+          "#000000",
+          "#b6f6b1"
+        ],
+        "behaviour": "input[type=range] tracking (−0.09…0.06em) and leading (0.725…1.2) write CSS vars --trackN/--leadN; input[type=color] sets colour; .style_specimen_tools_set toggles ssXX (ss01–ss05); .reset restores; font-size computed to fit width on input",
+        "content": "Margate copy: 'SCOOP', 'NEW AT TURNER CONTEMPORARY', 'Dreamland ® A one stop ↘ of local culture, food, festivals & vintage rides', Old Town and Turner Contemporary paragraphs",
+        "assets": "none",
+        "html": "section#styles > div.styles[style=--track1…--lead8] > div.style_N.style > div.style_specimen_tools (input[type=range] ×2, input[type=color], p.style_specimen_tools_set ×4, p.reset) + div.style_specimen > p#style_N[contenteditable]"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "nostalgic, documentary",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "archival",
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "'Origins': one paragraph on Margate (Dreamland's facade, shops and venues) over a staggered four-column grid of greyscale photos (Dreamland cinema tower, ballroom and cinema programmes, Ziggy's rooftop bar mural, Margate Retro shopfront, Ramsay & Williams ice-cream board), each group tagged ↑❶❷ and a numbered credit list below",
+      "feel": "Documentary, seaside nostalgia",
+      "ux": "Image columns drift at different speeds while scrolling (parallax)",
+      "learn": "Caption a photo grid with circled numerals keyed to a credit list: the font's own ❶❷❸ glyphs do the captioning",
+      "reconstruction": {
+        "layout": "Title row (h2 left, h3 right); 4 staggered columns of images with fixed aspect ratios (412–708px wide sources), vertical offsets between columns; credits list in a column below",
+        "typography": "h3 ~30px FT Scenik Text; credits ~14px with circled numerals ❶–❼",
+        "palette": [
+          "#fbf9f6",
+          "#000000",
+          "#8a8a8a"
+        ],
+        "behaviour": "Scroll-linked translate on .origins_images_block (GSAP-style transform)",
+        "content": "Real Margate places and programmes",
+        "assets": "7 greyscale photos and scans of Margate signage and programmes",
+        "html": "section#origins > div.origins_images > div.origins_images_block > div.origins_image_container[padding-bottom=aspect] > img + p.numbers"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, bold",
+        "mobile": "adapts",
+        "controls": [
+          "axes",
+          "weight",
+          "features"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "The word 'Variables' fitted to the column at ~188px (starting at max width, weight and back-slant) above four controls: Width, Weight and Slant bars and a 'Scenders Off / On' toggle",
+      "feel": "Graphic, hands-on",
+      "ux": "Drag Width (100–500), Weight (100–1000), Slant (−100…100) and flip Scenders; on mobile a green 'Play' button animates the axes",
+      "learn": "Re-fit the sample word to the column on every slider change so width changes never overflow",
+      "reconstruction": {
+        "layout": "Sample row full width; controls in a 4-col inner grid underneath, each a thick black bar with a label",
+        "typography": "'Variables' ~188px FT Scenik (wdth 500 / wght 1000 / slnt −100 defaults); labels ~14px",
+        "palette": [
+          "#fbf9f6",
+          "#000000",
+          "#b6f6b1"
+        ],
+        "behaviour": "Ranges write CSS vars --width/--weight/--slant on .axes; toggle sets --scenders (style set); p#variable font-size recomputed to fit; mobile Play runs an axis animation",
+        "content": "One word: 'Variables'",
+        "assets": "none",
+        "html": "div.axes[style=--width;--weight;--slant;--scenders] > div.variables_animation > p#variable + div.variables_animation_axes > div.variables_animation_axis > input[type=range] ×3 + div.variables_animation_axis_toggle"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "witty, illustrative",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "diagram",
+        "explanation": "prose"
+      },
+      "look": "'Four Axes': four columns (Width, Weight, Slant, Scenders) separated by rules, each with a cartoon character acting out the axis (two waiters stretched sideways, a man lifting a heavy weight, a skateboarder leaning, a family next to a 'TOO TALL / TOO SMALL — you must be this tall to ride' sign) and a short paragraph",
+      "feel": "Charming, explanatory",
+      "ux": "static; illustrations drift slightly with scroll",
+      "learn": "Explain each axis with a character performing it (stretching, lifting, leaning, measuring height): the metaphor sticks better than a slider",
+      "reconstruction": {
+        "layout": "4 equal columns with vertical rules (axes_lines); each: h2, illustration ~300px, paragraph ~14px",
+        "typography": "Axis names ~30px FT Scenik Text Medium; paragraphs ~14px Text Regular",
+        "palette": [
+          "#fbf9f6",
+          "#000000",
+          "#b6f6b1"
+        ],
+        "behaviour": "Scroll-linked translate on illustration containers",
+        "content": "Real axis facts: 2 widths, 13 weights Thin→Super, slant −12°…12° (Italic and Retalic), scenders via a style set",
+        "assets": "Four black-and-white cartoon illustrations with green accents (Scenik-03/04/08 etc.)",
+        "html": "div.axes_columns > div.axis_width|axis_weight|axis_slant|axis_scenders > div.axis > h2 + div.axis_illustration + div.axis_text > h3"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "expert, explanatory",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "alternates",
+          "features"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "'Features' chapter: a large paragraph on tapered intersections and flaring stems, a huge black 'Üü' with dots carved inside the stems, then 'Key Features' (Geometric Sans, Internal Dots) each with a looping 'Ë' animation and a long essay column, and an 'Other Features' carousel of black cards with outlined glyphs captioned '↑ Stylistic alternate dots', '↑ Circled numbers', '↑ Case-sensitive forms', '↑ Black lenticular brackets'",
+      "feel": "Expert, crisp",
+      "ux": "Lottie animations loop (dots moving into the letter); the Other Features carousel scrolls sideways",
+      "learn": "Animate the signature detail (accents moving inside the stem) next to an essay explaining why: the motion makes the idea instant, the text gives it depth",
+      "reconstruction": {
+        "layout": "Foreword paragraph full width; display glyph row ~285px tall; key features in 3–4 columns (title, square Lottie ~300px, text); carousel of cards ~460×300px",
+        "typography": "Foreword ~30px FT Scenik Text Medium; feature titles ~30px; essays ~14px; display 'Üü' ~285px FT Scenik Super",
+        "palette": [
+          "#fbf9f6",
+          "#000000",
+          "#ffffff"
+        ],
+        "behaviour": "Lottie SVG loops per feature; horizontal carousel of SVG cards",
+        "content": "Real design rationale: Futura lineage, internal dots for tight leading, alternate square dots",
+        "assets": "Lottie animations of 'Ë'; SVG feature cards (Feature 1–4.svg)",
+        "html": "section#features > div.features_foreword + div.features_animation + div.key_features > div.key_features_container > h2 + div.lottie-animation-container + div.feature_text; div.other_features_carousel > div.other_features_carousel_card"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "contemporary, branding",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "grid"
+      },
+      "look": "'Mood': test-run applications on black frames in a staggered grid (a green 'Rinko Gimoto' card, 'Dudley's' shopfront, a 'Recess' book, a 'Run Club' bag, a 'Climb Agency' website, a 'Sunley Gallery' guide), tagged ↑❶–❻ with a credit list naming the styles used",
+      "feel": "Fresh, branding-studio",
+      "ux": "Images drift at different speeds with scroll",
+      "learn": "List the exact style combination used in each mockup: the gallery teaches pairings inside the family",
+      "reconstruction": {
+        "layout": "Title row; 6 image blocks in staggered columns with natural aspect ratios; numbered credits list below",
+        "typography": "Credits ~14px FT Scenik Text with circled numerals",
+        "palette": [
+          "#fbf9f6",
+          "#000000",
+          "#3f8f5f"
+        ],
+        "behaviour": "Scroll-linked translate per .mood_images_block",
+        "content": "Fictional brands: Rinko Gimoto, Dudley's, Recess, Run Club, Climb Agency, Sunley Gallery",
+        "assets": "Six photographed or rendered mockups"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "glyph-table",
+      "variant": "category-tabs",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "orderly, reference",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "tabs",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'Glyphs' chapter: an accordion of ruled rows 'Uppercase Latin 26 · Open', 'Lowercase Latin', 'Extended Uppercase Latin', 'Extended Lowercase Latin', 'Numerals', 'Punctuation & Symbols', 'Arrows', each opening into a grid of glyph cells (540 in total)",
+      "feel": "Clean, catalogue-like",
+      "ux": "Click 'Open' on a row to expand its grid to a preset height; one category at a time",
+      "learn": "Collapse a big glyph set into category rows with counts: the page stays short and visitors open only what they need",
+      "reconstruction": {
+        "layout": "Rows ~58px with hairline rules, title left, count, 'Open' right; expanded grids with heights from CSS vars (--UCL 260px, --LCL 305px, --EUCL 485px, --ELCL 575px, --NUM 350px, --PUNC 395px, --ARR 170px)",
+        "typography": "Row titles ~30px FT Scenik Text Medium; glyph cells ~40px FT Scenik",
+        "palette": [
+          "#fbf9f6",
+          "#000000"
+        ],
+        "behaviour": "Click toggles .glyphs_set open → height animates to its CSS var",
+        "content": "Extended Latin set, circled numbers, arrows",
+        "assets": "none",
+        "html": "section#glyphs > div.glyphs[style=--UCL…] > div.glyphs_set (glyphs_ucl…glyphs_arr) > h2 + h2(count) + div.glyphs_grid > div.glyph > h3"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "catalogue, foundry",
+        "mobile": "adapts"
+      },
+      "look": "A black band with a carousel of white specimen cards for other FROST families (FT Calhern Condensed, Calhern, Calhern Wide, Bureau, Polar, Polar Mono, Meyer, Lambert, System Grotesk, System Mono, System Blank), each a mini type sheet with alphabet and numerals and a '↗' link label",
+      "feel": "Systematic, collectible",
+      "ux": "Horizontal carousel; each label links to the family page",
+      "learn": "Use miniature specimen sheets (alphabet + figures) as cross-sell cards: each card already sells its font",
+      "reconstruction": {
+        "layout": "Black band, two cards per inner grid, cards ~320×300px white with SVG specimen, labels ~14px below in white",
+        "typography": "Labels ~14px FT Scenik Text white with ↗",
+        "palette": [
+          "#000000",
+          "#ffffff"
+        ],
+        "behaviour": "Horizontal scroll/drag carousel",
+        "content": "11 FROST families",
+        "assets": "SVG specimen cards per family",
+        "html": "div.typefaces_carousel > div.inner_grid > div.typefaces_carousel_card > div.typefaces_carousel_card_image > img + a"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "reference, tidy",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": false
+      },
+      "look": "'Language Support': an A–Z index with the initial letter in a narrow column and language names beside it (Afrikaans, Albanian, Asu … Zulu), two index columns side by side, ending with a cartoon of a waiter carrying a dog",
+      "feel": "Orderly, dictionary-like",
+      "ux": "static",
+      "learn": "Index the language list by initial letter like a dictionary so a buyer finds their language at a glance",
+      "reconstruction": {
+        "layout": "Title row; two index columns each with a ~40px letter column and a ~250px names column, line breaks keeping letters aligned with the first name",
+        "typography": "~14px FT Scenik Text Regular; letters same size",
+        "palette": [
+          "#fbf9f6",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "~190 Latin-script languages",
+        "assets": "Cartoon illustration",
+        "html": "div.support > div.languages > h3 (letters with <br>) + h3 (names)"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "minimal",
+        "mobile": "adapts",
+        "contains": [
+          "socials",
+          "sign-off"
+        ]
+      },
+      "look": "After the student-discount pre-footer: a list of the nine chapter anchors (Foreword … Support) and underlined socials (Instagram, Threads, X)",
+      "feel": "Plain, tidy",
+      "ux": "Anchor links back into the page; socials open in new tabs",
+      "learn": "Repeat the chapter list in the footer so a long page can be re-entered from the bottom",
+      "reconstruction": {
+        "layout": "Stacked link list ~14px lines, then a social row; generous whitespace",
+        "typography": "~14px FT Scenik Text Regular; socials underlined",
+        "palette": [
+          "#fbf9f6",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Chapter anchors and socials",
+        "assets": "none",
+        "html": "div.footer_container > div.footer > a ×n"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "01",
+      "reason": "invisible fixed 12-column magenta layout-grid overlay (opacity 0), a developer tool"
+    }
+  ],
+  "sequence": [
+    "hero/giant-wordmark",
+    "checkout/link-out-cta",
+    "family-overview/style-word-grid",
+    "type-tester/per-row-controls",
+    "story/origin-reference",
+    "type-tester/slider-sandbox",
+    "design-details/axis-explainer",
+    "design-details/design-notes",
+    "specimen-showcase/in-use-mockups",
+    "glyph-table/category-tabs",
+    "language-support/language-name-list",
+    "footer/link-columns"
+  ]
+}

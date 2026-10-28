@@ -1,0 +1,487 @@
+{
+  "slug": "gt-standard-com",
+  "extractedBy": "agent",
+  "summary": "A Swiss-modernist design-system manual for a 4-axis sans, in three numbered chapters (① design, ② system, ③ platform) plus an outro, each with its own colour. A top bar collects a tab for each chapter as you reach it. The system chapter is a set of charts (weight curve, a stacked 'onion' of weights, an automatic optical-size waterfall); 'try' and 'buy' open bottom drawers holding a 4-slider waterfall tester and a priced package sheet. Page clipped at 30,000px: the platform chapter (icons, features, encoding) and the outro come from HTML only.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "02",
+        "04",
+        "06",
+        "08"
+      ],
+      "type": "navigation",
+      "variant": "scroll-spy-nav",
+      "newVariant": true,
+      "variantDefinition": "A fixed bar or tab strip listing the page's chapters that marks the current one as you scroll (highlighted tab, or a needle moving along a dial or scale); click or drag to jump.",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Slim light-grey top bar with a red 'standard' tab left and grey 'try' / 'buy' tabs right; each chapter starts with a 40px sticky label (design, system, platform, outro) that docks into the bar as a new tab coloured like its chapter (black, yellow, blue…), so the bar grows into a breadcrumb of chapters"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "Swiss, bold, systematic",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Red-orange field, lowercase 'gt standard' ~200px in black at top-left, then three chapter links '① design ② system ③ platform', each above a black 'a' drawing: one with Bézier nodes, one layered in offset copies, one enclosed in an @-like circle",
+      "feel": "Confident, graphic, clean",
+      "ux": "Yellow 'loading…' screen first (the word animates through widths under a compressed → expanded ruler); the three 'a' are Lottie loops; chapter links jump down",
+      "learn": "Give each chapter its own animated emblem made from the same letter ('a' as nodes, layers, enclosure): the table of contents becomes a specimen",
+      "reconstruction": {
+        "layout": "Full width, 40px margins, 12-col grid; wordmark row ~260px; chapter row: 3 columns at cols 1, 5, 9 with ~45px labels and ~350px 'a' animations below; ~900px total",
+        "typography": "GT Standard L bold, lowercase, ~200px, tight tracking, black; chapter labels ~45px with circled numerals ①②③",
+        "palette": [
+          "#fc3502",
+          "#060202",
+          "#ebeaea"
+        ],
+        "behaviour": "Preloader keyframes animate 'loading…' width on a yellow screen; three Lottie loops (intro-design, intro-system, intro-platform)",
+        "content": "Name and chapter names",
+        "assets": "Three Lottie 'a' emblems",
+        "html": "[data-chapter=standard] … [data-lottie=intro-design|intro-system|intro-platform]"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "manifesto, precise",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "On the same red field: 'about' label in the left column and a lowercase paragraph 'gt standard is a contemporary response to the pursuit of typographic standardization…' at ~50px across the right two-thirds, then two small 14px columns of detail",
+      "feel": "Assured, modernist",
+      "ux": "static",
+      "learn": "Use one lowercase display paragraph plus two small columns: a two-level text hierarchy that already demonstrates the optical sizes",
+      "reconstruction": {
+        "layout": "Label in cols 1–4, paragraph cols 5–12 (~920px), 2 small columns of ~330px below starting col 5",
+        "typography": "Label and paragraph GT Standard L bold ~50px lowercase, leading 1.0; small text GT Standard S ~14px leading 1.3",
+        "palette": [
+          "#fc3502",
+          "#060202"
+        ],
+        "behaviour": "none",
+        "content": "Positioning: Swiss modernism, standardization, 3 optical sizes, 6 proportional + 6 mono widths",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "technical, bold",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": true,
+        "namesOrUnicode": false
+      },
+      "look": "Black 'design' chapter: a short 'Concept' text, 'design' huge in white at the right, then Weight and Optical sliders and the alphabet A–Z a–z 0–9 in white bold running in lines, each glyph with a thin left rule and its advance width printed above (746, 659, 772…)",
+      "feel": "Engineered, transparent",
+      "ux": "Drag Weight (300–900) or Optical (10–30): the lines reflow and every advance-width label updates",
+      "learn": "Print each glyph's advance width above it and let the sliders change them: spacing becomes a visible, live number",
+      "reconstruction": {
+        "layout": "Black section; heading 'design' right-aligned ~290px; sliders 2 × ~220px at top-left; glyph lines full width (~1360px), ~120px line height with 10px number row above each line, 1px vertical rules at glyph origins",
+        "typography": "Glyphs GT Standard bold ~110px white; width labels 10px; heading GT Standard L bold ~288px lowercase",
+        "palette": [
+          "#020202",
+          "#fcfcfc",
+          "#b0b0b0"
+        ],
+        "behaviour": "input#weight (300–900, step 0.001) and input#optical (10–30) set CSS variables on [data-design-specimen]; numbers recomputed per glyph",
+        "content": "Basic Latin alphabet and figures",
+        "assets": "none",
+        "html": "[data-chapter=design] > [data-axis-sliders] input#weight, input#optical; [data-design=characters] [data-design-specimen-text]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "didactic, geometric",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "spacing"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "A run of topics, each a lowercase label left and a big paragraph right, then a large animation: 'anatomy' (a square, circle and triangle that become 'HOA' as you scroll), 'efficiency' (x-height and descender diagram on a grid), 'minimalism' (green panel, 'Qy'), 'dynamic' (blue/green/red tiles with 'J' and 'i'), and 'modern' (a size waterfall 'modern / Km Dpi / Pica Rem / Sq Ft Block' labelled 'GT Standard L 380px … S 14px')",
+      "feel": "Clear, Bauhaus-like",
+      "ux": "The 'anatomy' Lottie is scrubbed by scroll (square → H, circle → O, triangle → A over three screens); the others play in view",
+      "learn": "Morph the three primitive shapes into H, O and A as you scroll: the geometric premise is shown, not stated",
+      "reconstruction": {
+        "layout": "Topic header: label cols 1–4, paragraph cols 5–12 at ~50px; animation full width (~1360×450px), the HOA morph pinned over ~3 viewports; coloured panels (green, blue) inset 40px with rounded 0 corners; 'modern' waterfall left-aligned with 10px size labels above each line",
+        "typography": "Paragraphs GT Standard L bold ~50px lowercase; HOA glyphs ~450px black; waterfall 380 / 276 / 210 / 164px then a 14px paragraph",
+        "palette": [
+          "#fcfcfc",
+          "#020202",
+          "#0b6e49",
+          "#2f6bf5",
+          "#fc3502"
+        ],
+        "behaviour": "data-lottie-scroller='harmonic' scrubs the HOA Lottie; data-font-sizer prints the live px size of each waterfall line",
+        "content": "Real design rationale (geometry, tall x-height, short descenders, minimalism, horizontal/circular interplay) and measurement units as sample words (Km, Dpi, Pica, Rem, Sq Ft)",
+        "assets": "Lottie animations (harmonic, design-efficient, design-minimal, design-dynamic)",
+        "html": "[data-lottie=harmonic][data-lottie-scroller=harmonic]; [data-font-sizer] > [data-font-sizer-size] + [data-font-sizer-element]"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "system-diagrams",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "scroll-driven",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "design-system manual",
+        "mobile": "adapts",
+        "subject": [
+          "axes",
+          "optical-size"
+        ],
+        "presentation": "diagram",
+        "explanation": "prose"
+      },
+      "look": "Yellow 'system' opener with 'STANDARD' built from letters of different widths and weights on a red grid; then 'weight axis': a grey/black 'Aa' against a ruler of weight lines (300 Light … 900 Black), seven coloured outline numerals 1–7 under weight names, a chart of stem thickness against weight with coloured points over an 'a', and an 'onion' of seven stacked coloured discs; then 'optical axis': S/M/L 'a', an 'automatic optical size' toggle beside a 'standard' waterfall 10–120px, and L/M/S sample lines; beyond the crop (mobile): width axis bars, distinction",
+      "feel": "Rigorous, colourful, nerdy in a good way",
+      "ux": "The weight 'Aa' sweeps along the ruler with scroll; hovering a weight on the graph shows it on the 'a' and highlights its disc; the toggle switches the waterfall between automatic and fixed optical size so you see the difference",
+      "learn": "Draw the weight axis as a curve and as a stack: two diagrams of the same seven weights explain the interpolation better than any slider",
+      "reconstruction": {
+        "layout": "Opener: yellow full-bleed, heading right ~288px, lettering composition ~1360×700px on a 30px red grid. Weight axis: label cols 1–4 + paragraph cols 5–12; ruler panel ~820×430px left with 'Aa' right; numerals grid 4 cols × 2 rows (~110px cells); graph ~560×500px left and onion ~430px right. Optical axis: three 'a' columns, toggle + waterfall in cols 7–12",
+        "typography": "GT Standard L bold lowercase for headings (~288px) and paragraphs (~50px); numerals ~100px outline in red, blue, purple, green, yellow, pink, blue; ruler labels 8px; waterfall 'standard' 10/20/30/40/48/64/96/120px bold",
+        "palette": [
+          "#ffc800",
+          "#fbfbfb",
+          "#020202",
+          "#fc3502",
+          "#2f6bf5",
+          "#d0d0cd"
+        ],
+        "behaviour": "System Lottie scrubbed by scroll; data-weight-graph-setter=light…black on hover sets data-weight-graph-state and the preview; data-weight-onion highlights; checkbox data-optical-scroll-toggle switches opsz auto/fixed on data-optical-scroll-standard-* lines",
+        "content": "Real system data: 7 weights 300–900, opsz 10–30, 126 upright + 126 oblique styles, 84 mono",
+        "assets": "Lottie (system, system-distinction), SVG graph and onion",
+        "html": "[data-weight-graph-state] > [data-weight-graph-setter=light|…|black] + [data-weight-graph-preview]; [data-weight-onion]; [data-optical-scroll] input[type=checkbox][data-optical-scroll-toggle]"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "explanatory, colourful",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "Mostly beyond the crop (seen on mobile): topic panels in the system chapter: 'distinction' (beige panel, e/a/c/o apertures with a ruler), 'reading' (blue panel, 'Cafe Show' word shapes), 'color' (pink panel, an 'M' skeleton showing ink traps), 'width axis' (Aa from compressed to expanded with coloured O's and a bar chart), 'compact' (orange 'S')",
+      "feel": "Varied, lively",
+      "ux": "Lottie animations per topic",
+      "learn": "Give each legibility topic its own background colour so a long manual stays scannable",
+      "reconstruction": {
+        "layout": "Each topic: full-width coloured panel inset by the margins, label + paragraph left, animation right or below",
+        "typography": "Labels ~45px bold lowercase; body ~15px; glyphs large",
+        "palette": [
+          "#e9e7dc",
+          "#2f6bf5",
+          "#f5a3d6",
+          "#fc6a0a",
+          "#020202"
+        ],
+        "behaviour": "Lottie loops",
+        "content": "Real legibility notes",
+        "assets": "Lottie animations"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "UI kit, practical",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": true
+      },
+      "look": "Platform chapter (HTML only; storyboard t≈17s): 'Designed to Expand' intro, then Icons, Pictograms (eye, sliders, speech bubble, cart, user, smiley, clock, envelope… in bordered square cells) and Enclosed Letters (circled and squared Ⓐ ❶ 🅖), each labelled with its Unicode, then Encoding: Basic Latin, Extended Latin, Numbers and Punctuations, Alternate Characters with a zoom and Unicode readout",
+      "feel": "Toolkit-like, generous",
+      "ux": "Hover a cell to see it in the large zoom with its code point; a coin-flip animation; GT Canon is teased at the end as the coming serif companion",
+      "learn": "Show pictograms in the same inspector as letters, with code points, so designers see them as part of the font, not as an icon pack",
+      "reconstruction": {
+        "layout": "Sticky headings in the left 4 cols (top 60px); sets in cols 5–12 as wrapped flex grids; pictogram cells ~170px square with 1px borders and tiny Unicode labels; zoom panel sticky",
+        "typography": "Pictograms GT Standard Icons; letters GT Standard ~40px in cells; labels ~10px",
+        "palette": [
+          "#ffffff",
+          "#020202",
+          "#fc3502",
+          "#0b6e49"
+        ],
+        "behaviour": "char-set__zoom__char and __unicode update on hover; icon set items animate (anim-icon-set-item keyframes)",
+        "content": "680 cells: icons, pictograms, enclosed letters, full Latin",
+        "assets": "none",
+        "html": "[data-char-set=enclosed|encoding] [data-component=char-set__zoom] > __zoom__char + __zoom__unicode; [data-component=char-set__set-container] > [data-component=char-set__char]"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "practical, witty",
+        "mobile": "adapts",
+        "subject": [
+          "alternates",
+          "features"
+        ],
+        "presentation": "toggle",
+        "explanation": "prose"
+      },
+      "look": "HTML only: 'Features' with a sticky column of toggles (alternate a, alternate g, alternate Q, alternate y, square dots, account spoofing) beside a stack of big bold words chosen for those letters ('Range', 'Variant', 'Quality!', 'Doppelgänger', 'My alter ego', 'Inspiration'), then a 'compressed alternates' set ('Juxtapose', 'Juxtaposition', 'replicant', 'format')",
+      "feel": "Hands-on",
+      "ux": "Each toggle switches its stylistic set (ss01–ss07) on the word stack live",
+      "learn": "Pick sample words whose meaning matches the feature ('Doppelgänger' for alternates, 'account spoofing' for distinguishable forms)",
+      "reconstruction": {
+        "layout": "Toggles sticky in cols 1–4 (2-col grid on mobile); words in cols 5–12, one per line, leading 0.9",
+        "typography": "Words GT Standard L bold ~120px; toggle labels ~12px lowercase with pill switches",
+        "palette": [
+          "#ffffff",
+          "#020202",
+          "#fc3502"
+        ],
+        "behaviour": "input[type=checkbox][data-ot-toggle=ss01…ss07] add font-feature-settings on the word stack",
+        "content": "Feature-themed words",
+        "assets": "none",
+        "html": "[data-features-alternates] label.toggle > input[data-ot-toggle] + .toggle-slider + .toggle-label; [data-features-condensed]"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "orderly, friendly",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "other-fonts",
+          "contact"
+        ]
+      },
+      "look": "Outro (HTML only; storyboard t≈21s): 'Summary' paragraph, then a grid of short sections: Free Trials ('Download all 336 trial fonts'), Purchase License, Customization, Typeface Credits, Website Credits, PDF Manual (an 'AaBb' tile) and Other Minisites as square tiles of pictogram emblems (pyramid, star, nested squares, faces)",
+      "feel": "Tidy wrap-up",
+      "ux": "Links to trials, shop, PDF manual and sibling sites",
+      "learn": "Draw each sibling site as a pictogram tile made with the font's own icons: the footer stays on-system",
+      "reconstruction": {
+        "layout": "12-col grid; section labels ~45px bold lowercase with 15px text below in 3–4 columns; minisite tiles ~150px squares with 1px borders",
+        "typography": "GT Standard L bold lowercase labels; GT Standard S body ~15px",
+        "palette": [
+          "#ffffff",
+          "#020202",
+          "#fc3502"
+        ],
+        "behaviour": "Emblem tiles animate on hover (likely)",
+        "content": "Credits (Noël Leu, Reto Moser, Katja Schimmel, Lorenzo Poderini…), trial and licence copy",
+        "assets": "Pictogram emblems per sibling site, PDF manual"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "type-tester",
+      "variant": "global-toolbar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "neutral, precise",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes",
+          "style-select"
+        ],
+        "scope": "global",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Bottom drawer opened by 'try' (fixed, white): a control column with weight 700, width 100, optical 30 and slant 0 sliders with live values and a proportional / monospace toggle, beside a waterfall of five editable rows labelled 200px, 100px, 50px, 25px and 18px ('simple geometry', 'simple geometry is the backbone of typography', paragraphs)",
+      "feel": "Calm, utility",
+      "ux": "Every slider restyles all five rows at once; type into any row; sizes are fixed per row and labelled in red",
+      "learn": "Label each row with its pixel size in the brand red so the waterfall reads as a size scale",
+      "reconstruction": {
+        "layout": "Fixed drawer from the bottom (~860px tall), 400ms transition; controls absolute in the left column (2-col grid on mobile); preview in cols 5–12, rows with 72px gaps",
+        "typography": "Samples GT Standard with --font-wght 300–900, --font-wdth 0–150, --font-optc 10–30, --font-slnt 0–10; sizes 200/100/50/25/18px (19/12/8/4vw on mobile); labels 10px red",
+        "palette": [
+          "#ffffff",
+          "#020202",
+          "#fc3502"
+        ],
+        "behaviour": "Range input → CSS variable on [data-typetester-preview]; value labels update; checkbox swaps to GT Standard Mono",
+        "content": "'simple geometry is the backbone of typography' and a paragraph on geometry",
+        "assets": "none",
+        "html": "[data-typetester] input#try-wght / #try-wdth / #try-opsz / #try-slnt + [data-wght-value]…; input#try-proportional; [data-typetester-preview] div[contenteditable] ×5"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "checkout",
+      "variant": "package-price-sheet",
+      "newVariant": true,
+      "variantDefinition": "A buy panel that lays out the licence packages (full family, subfamily, single style) with what each contains and 'from' prices, illustrated with style samples, and sends the purchase itself to an external shop.",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "clear, transparent",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": false,
+        "free": false
+      },
+      "look": "Forest-green bottom drawer opened by 'buy': 'GT Standard fonts licensing is exclusively available through Grilli Type. Buy now.', then three tiers: Full Family (336 styles, 12 subfamilies, 3 optical sizes, from $1008) with a grid of 12 'Aa'/'Mo' squares for every width in proportional and mono; Subfamily (42 styles, from $280 / $560) with 7 weight squares marked S M L; Single Styles (6 fonts, from $50 / $100) with S/M/L and oblique squares",
+      "feel": "Honest, easy to compare",
+      "ux": "Read and compare; 'Buy now' links to grillitype.com/typeface/gt-standard",
+      "learn": "Show what each licence tier contains as a grid of sample squares next to its price: buyers see the scope before the shop",
+      "reconstruction": {
+        "layout": "Fixed drawer, scrollable, 12-col grid; each tier a row: text cols 1–2 (name ~45px, facts list, explanation 15px), sample grid cols 5–12 of square cells (6 per row) with 1px white borders and a 10px label bottom-left",
+        "typography": "GT Standard lowercase; tier names ~45px; 'Aa' in each square at its width (compressed … expanded, mono); labels 10px white",
+        "palette": [
+          "#0b6e49",
+          "#ffffff"
+        ],
+        "behaviour": "Drawer slides up (400ms)",
+        "content": "Real prices and package contents",
+        "assets": "none",
+        "html": "[data-buy].bg-forest.fixed > grid rows; squares div.aspect-square[--font-wdth:var(--wdth-*)]"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/large-text-intro",
+    "glyph-table/category-lines",
+    "design-details/design-notes",
+    "design-details/system-diagrams",
+    "design-details/design-notes",
+    "glyph-table/glyph-inspector",
+    "design-details/feature-before-after",
+    "footer/credits-colophon",
+    "type-tester/global-toolbar",
+    "checkout/package-price-sheet"
+  ]
+}

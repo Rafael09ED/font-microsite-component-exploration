@@ -1,0 +1,391 @@
+{
+  "slug": "tiktok-com-font",
+  "extractedBy": "agent",
+  "summary": "TikTok's launch page for its free, open-source variable font: almost everything is on black and in motion, built like a feed. A hover-reactive italic wordmark, a statement revealed word by word over phone-format clips, an inflated 3D glyph ball beside the style list, a glyph line sliding across metric lines, bursts of real TikTok clips with the font as text overlay, a neon-yellow slider tester, a language picker that swaps one giant word, and a footer with Google Fonts/GitHub links and contributor logos.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Thin top bar on black: TikTok note logo top-left (links #home) and a white rounded 'Free Font ↘' pill top-right linking to Google Fonts; round '↘' scroll buttons and a single changing letter (A, C, G, T, V, Z…) at the right edge recur through the page"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "cool, understated, brand",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "download",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Full black screen with 'TikTok Sans' centred in white Light italic at ~173px; tiny italic corner labels 'Exceptional vibes [ • ]' bottom-left and 'Variable Font—No. 1' bottom-right; a large 'A' at the bottom-right edge",
+      "feel": "Minimal, confident, a little playful",
+      "ux": "On load the name fades in from grey and condensed to white; each letter is its own focusable span whose wght/wdth respond to the pointer",
+      "learn": "Make each letter of the wordmark individually reactive: the hero is calm until the pointer touches it",
+      "reconstruction": {
+        "layout": "1440×900 black; name centred at y≈360; corner labels 12px from the bottom edges; nav pill top-right",
+        "typography": "Name ~173px TikTok Sans wght 300, wdth 100, skewed -10° per letter; labels ~10px italic",
+        "palette": [
+          "#020202",
+          "#ffffff",
+          "#515151"
+        ],
+        "behaviour": "Intro fade/grey→white over ~1.5s; per-letter hover changes font-variation-settings (wght, wdth) with easing",
+        "content": "Name and two slogan labels",
+        "assets": "none",
+        "html": "div.header-layout > span.header-letter[tabindex=0][style=font-variation-settings:'wght' 300,'wdth' 100; transform: skew(-10deg)] per letter"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "announcement, upbeat",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "The sentence 'The font you've seen all / over the app is now / free for everyone!' centred over a portrait phone-format video (a hand with a ring); words already passed are white, the rest grey and partly overlapping the clip; followed by 'Great for ® Web—App—TV—Brand'",
+      "feel": "Social, energetic",
+      "ux": "Scrolling lights up the sentence word by word while short vertical clips appear behind it",
+      "learn": "Scrub the announcement word by word on scroll over phone-shaped clips: the platform's own format carries the message",
+      "reconstruction": {
+        "layout": "Pinned 1440×~1200 section; clip ~380×580px centred; sentence centred over it, 3 lines; round ↘ buttons at the right edge",
+        "typography": "~40px TikTok Sans Regular; inactive words #6e6e6e, active white",
+        "palette": [
+          "#020101",
+          "#ffffff",
+          "#6e6e6e",
+          "#6e3318"
+        ],
+        "behaviour": "Scroll progress → per-word colour change; videos swap with progress",
+        "content": "Launch statement and use list (Web, App, TV, Brand)",
+        "assets": "Short vertical lifestyle video clips"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "tactile, playful",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "'A raw and expressive variable font by TikTok' top-left; an inflated black 3D ball printed with white glyphs (a, #, ¢) turning on the left; on the right four style names each set in itself: 'Regular', 'Italic', 'Expanded' (bold extended), 'Condensed', framed by L-shaped corner marks; floating glyphs (¢, *) around; '14 Styles & 1000+ Glyphs' follows",
+      "feel": "Soft, toy-like, premium",
+      "ux": "Videos loop (eyes, balloon ball); the style list may step on scroll",
+      "learn": "Four words, each in the style it names, cover the axes (weight, slant, width) faster than a full style grid",
+      "reconstruction": {
+        "layout": "1440×1200; ball ~560px at x≈200–780; style list at x≈975, 4 lines ~75px apart inside corner brackets; tiny floating glyphs",
+        "typography": "Intro ~28px Regular; style names ~44px: Regular wght 400; Italic wght 300 slnt; Expanded wght 900 wdth 125; Condensed wght 300 wdth 70",
+        "palette": [
+          "#020202",
+          "#ffffff",
+          "#2d2d2d",
+          "#4e4e4e"
+        ],
+        "behaviour": "Looping 3D-render videos (balloonPoster, eyesPoster)",
+        "content": "Style names and a count",
+        "assets": "3D render video of an inflated glyph ball; L-shape corner SVGs"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bold, streetwise",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": true,
+        "namesOrUnicode": false
+      },
+      "look": "One huge bold line 'Aby33 — X#p!ufvou349p8tuøyeet1000%' on thin grey metric lines (ascender, cap, x-height, baseline, descender), only 'Aby33' visible in the frame",
+      "feel": "Loud, kinetic",
+      "ux": "The line slides horizontally as you scroll, so the glyph mix passes through the frame on its metric guides",
+      "learn": "Run one long mixed string (letters, figures, symbols, slang) across metric lines: it shows character and vertical metrics in one gesture",
+      "reconstruction": {
+        "layout": "Band 1440×~420px; five 1px #2d2d2d horizontal guides; text ~3000px long translated on x by scroll",
+        "typography": "~200px TikTok Sans Bold, white, tight tracking",
+        "palette": [
+          "#020202",
+          "#fcfcfc",
+          "#2d2d2d",
+          "#b1b1b1"
+        ],
+        "behaviour": "Scroll-linked translateX of the line (marquee)",
+        "content": "'Aby33 — X#p!ufvou349p8tuøyeet1000%' (internet slang plus glyph sampler)",
+        "assets": "none (rendered as an image in this capture)"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "07",
+        "09"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "creator culture, lively",
+        "mobile": "adapts",
+        "medium": "video",
+        "sequence": "series"
+      },
+      "look": "Bursts of overlapping TikTok clips on black where the font appears as the on-video text: 'PARIS AU PRINTEMPS' in yellow over the Eiffel Tower, a boot clip, a muralist painting, a kid running with 'RUN *RUN' and 'STOMP the stomp', a coffee poster, nails, a sweater; floating giant glyphs (®, outlined ©, 3D keycaps '@' '&'), a vertical '19—98' and a ticker 'The official TikTok font now released * Instant read ‡ Sun drenched views º Raw font pleasure for you ® Real curiosity ^ Exceptional vibes'",
+      "feel": "Busy, authentic, feed-like",
+      "ux": "Clips autoplay muted and shift with scroll; the ticker scrolls continuously; ↘ buttons jump to the next section",
+      "learn": "For a platform font, the best in-use proof is the platform's own content: show creators' clips with the font as their captions",
+      "reconstruction": {
+        "layout": "Each burst ~1440×1300: 2–4 clips (portrait ~280×420, landscape ~720×400) offset and overlapping; glyphs ~180–400px floating; ticker a single line at the top of block 09",
+        "typography": "Floating glyphs TikTok Sans Bold/outline at 180–400px; ticker ~24px Regular with glyph separators (* ‡ º ® ^ ˜); on-video captions in TikTok Sans Bold",
+        "palette": [
+          "#020202",
+          "#ffffff",
+          "#f5e83a",
+          "#b09574",
+          "#706c70"
+        ],
+        "behaviour": "Autoplay looping videos with posters; parallax offsets on scroll; CSS marquee ticker",
+        "content": "Real creator-style clips captioned in the font",
+        "assets": "~8 short video clips (haircut, film, sign, nails, sweater, painting, running), 3D keycap renders",
+        "html": "video.video-content-portrait-video / -landscape-video; video.ticker-feed-video"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "bright, casual",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "tracking",
+          "style-select",
+          "alignment",
+          "color"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Full-screen neon yellow-green panel: an outlined alignment button top-left, the current style name 'Light Italic' top-centre, a colour (droplet) button top-right, three hairline sliders with black pill thumbs, and a huge editable sample 'doing my thing—making stuff happen' in black Light Italic",
+      "feel": "Fresh, inviting",
+      "ux": "Slider 1 (0–35) scrubs through the styles and updates the label; slider 2 (-12–10) sets tracking; slider 3 (88–250) sets size; buttons cycle alignment and background colour; click the text to type; selection highlights in TikTok red",
+      "learn": "Draw the sliders as hairlines with pill thumbs and drop all numeric labels: a tester can feel like part of the brand, not a form",
+      "reconstruction": {
+        "layout": "1440×900 colour panel; top control row ~45px (pill buttons ~60×24px); three full-width hairline sliders at y≈130, 190, 245 with ~140×14px pill thumbs; sample from y≈330, left-aligned, 3 lines",
+        "typography": "Label ~13px Bold; sample 164px TikTok Sans wght 300, slnt -10, letter-spacing -2.5px, line-height 124%, black",
+        "palette": [
+          "#d7f631",
+          "#000000",
+          "#fe2c55",
+          "#ffffff"
+        ],
+        "behaviour": "input[type=range] 0–35 step .01 → interpolated style (wght/wdth/slnt) and name label; -12–10 step .1 → letter-spacing px; 88–250 → font-size px; colour button cycles data-bg-color presets; alignment button cycles left/centre/right",
+        "content": "Casual creator phrase 'doing my thing—making stuff happen'",
+        "assets": "none",
+        "html": "div.try-on > .try-on-top-controls (buttons) + .try-on-controls (3 × input.try-on-range-input) + .try-on-text-container[data-bg-color] > div.try-on-sample-text[contenteditable]"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "language-support",
+      "variant": "translated-word-picker",
+      "newVariant": true,
+      "variantDefinition": "A wheel or list of language names beside one giant word; choosing a language (or letting it auto-cycle) swaps the word for its translation, so a single display line demonstrates coverage one language at a time.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "global, minimal",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": true
+      },
+      "look": "'460+ languages' label top-right; a vertical drum of language names on the left (Spanish, French, Portuguese, Russian, Indonesian, English, Greek, Turkish, German, Italian, Romanian, Dutch, Malay, Vietnamese) fading toward the ends with the active one bold white; the translation of 'create' ('Crear', 'Erstellen') huge in white, bleeding off the right edge",
+      "feel": "Clean, confident",
+      "ux": "Click a language (or let it cycle) to swap the giant word; the list scrolls to centre the active item",
+      "learn": "Translate one meaningful verb ('create') instead of a pangram: each language shows its own diacritics and word shape at display size",
+      "reconstruction": {
+        "layout": "1440×~1270 black; language list centred at x≈230, items ~41px apart with opacity falling off from the centre; word baseline at y≈680, starting x≈350, overflowing right",
+        "typography": "List ~16px Regular, active Bold white, others grey; word ~475px TikTok Sans Regular white",
+        "palette": [
+          "#020202",
+          "#ffffff",
+          "#d6d6d6",
+          "#303030"
+        ],
+        "behaviour": "button.carousel-language-list-item (selected/unselected) → word text and lang swap with a slide/clip transition",
+        "content": "The word 'create' in 14 languages incl. Russian, Greek, Vietnamese",
+        "assets": "none",
+        "html": "button.carousel-language-list-item-selected / -unselected × 14"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "casual, generous",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "'Get the font': 'TikTok Sans is 1000% free. View the specimen' with two dark rounded buttons 'Google Fonts ↘' and 'GitHub ↘', beside an outlined 'Aa' with a 3D pointing-hand cursor",
+      "feel": "Low-key, friendly",
+      "ux": "Buttons open Google Fonts and the GitHub repo; licence link (SIL OFL 1.1) in the footer row",
+      "learn": "Point to the two places developers already get fonts (Google Fonts, GitHub) rather than hosting a download",
+      "reconstruction": {
+        "layout": "Middle column from x≈545: heading, line, two stacked pills (~200×60px and ~140×60px, ~20px apart); 'Aa' outline ~440px tall at the right edge",
+        "typography": "Heading ~24px Regular; text ~18px grey with 'specimen' in white; buttons ~16px",
+        "palette": [
+          "#030303",
+          "#ffffff",
+          "#2b2b2b"
+        ],
+        "behaviour": "none",
+        "content": "Free-font message and two links",
+        "assets": "Outline 'Aa' artwork with a 3D hand cursor"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "collaborative",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal"
+        ]
+      },
+      "look": "'Contributors' with five foundry/studio logos (a pixel 'TTT', Grilli Type, a yellow blackletter 'Channel', outlined 'CoFo', 'TN'); bottom row 'SIL Open Font License 1.1', '© — 2025 //////////////…' and 'Created by TikTok'",
+      "feel": "Credible, generous to collaborators",
+      "ux": "Logos and licence link out",
+      "learn": "Show the contributing type studios as logos: it lends a corporate font craft credibility",
+      "reconstruction": {
+        "layout": "Left column ~450px with logo grid 3+2 (~100px wide each); full-width bottom row with three items at left, centre and right",
+        "typography": "Heading ~24px; bottom row ~12px; slash run as a texture line",
+        "palette": [
+          "#030303",
+          "#ffffff",
+          "#d6e04a",
+          "#2b2b2b"
+        ],
+        "behaviour": "none",
+        "content": "Contributors, licence, year, creator",
+        "assets": "Five contributor logos"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/large-text-intro",
+    "family-overview/style-word-grid",
+    "glyph-table/category-lines",
+    "specimen-showcase/in-use-mockups",
+    "type-tester/slider-sandbox",
+    "language-support/translated-word-picker",
+    "checkout/free-download",
+    "footer/credits-colophon"
+  ]
+}

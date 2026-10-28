@@ -1,0 +1,460 @@
+{
+  "slug": "djr-com-roslindale",
+  "extractedBy": "agent",
+  "summary": "DJR's page for Roslindale, a De Vinne-descended Victorian serif with weight, width, slant and optical-size axes, built with Typetura. A 3D wireframe 'horn' (the family's conical designspace) recurs from the hero to the Family chapter; huge editable chapter words ('History.', 'Family.', 'Utility.') and black interludes of editable word rows that slide sideways with scroll punctuate cream history and in-use collages and a blue run of per-axis explainers, ending in big-type credits and DJR's on-page cart in dark teal.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "witty, Victorian swagger",
+        "mobile": "unknown",
+        "carrier": "sentence",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "On black, 'When in Doubt, / Use Roslindale' centred in white Display Bold at ~150px over a thin tan wireframe of a tapering box (the designspace 'horn') with a small 'R' marking a corner; four small peach buttons TRIAL, BUY, TYPESET, PDF at the bottom left",
+      "feel": "Confident, theatrical, a little cheeky",
+      "ux": "The slogan is editable; TRIAL adds the testing licence to the cart, BUY jumps to the cart section, TYPESET opens DJR's typesetting app, PDF downloads the specimen; on load the hero slides up over a teal band (t≈1.6s)",
+      "learn": "Draw the family's designspace as a quiet wireframe behind the slogan: the diagram becomes the brand graphic before it is explained later",
+      "reconstruction": {
+        "layout": "Section 1440×819 below a 33px site header; headline 2 lines centred ~1250px wide around y≈410; wireframe SVG (viewBox 600×700) ~470×520px centred behind; buttons ~56×24px at x≈10, bottom 10px",
+        "typography": "Headline ~150px Roslindale Display (opsz 48, wdth 100, wght 700), leading ~0.95, white; 'R' ~20px tan; buttons ~9px Input Sans Narrow caps on peach",
+        "palette": [
+          "#040404",
+          "#f7f7f7",
+          "#6f6f6f",
+          "#124f61"
+        ],
+        "behaviour": "Typetura binds --opsz to the viewport width (clamp 10–48); the section translates on load/scroll (transform: translateY); h1 contenteditable",
+        "content": "Slogan 'When in Doubt, Use Roslindale'",
+        "assets": "Inline SVG wireframe horn",
+        "html": "section.hero#hero[style=--tt-bind;--opsz] > div.hero-horn.typetura > svg.horn-svg + div.horn-axis-plane > div.horn-axis-plane-x > div.horn-axis-plane-y > div.horn-axis-plane-location('R'); h1.hero-text[contenteditable]; a.nav-cta[href*='try=1']"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "foundry house style",
+        "mobile": "unknown"
+      },
+      "look": "DJR's 33px site header (not cut as a block, attached here), here in dark teal with white small caps: 'DAVID JONATHAN ROSS' left; FONTS (dropdown), CLUB, TYPESET, GLYPHS, NOTES, ABOUT, Sign in, Cart right",
+      "feel": "Quiet foundry chrome tinted to match the page",
+      "ux": "Fonts opens a dropdown list of all DJR families",
+      "learn": "Tint the shared foundry header with the page's own colour so it doesn't break the first screen",
+      "reconstruction": {
+        "layout": "Static bar 1440×33px; name left, links right",
+        "typography": "~10px Input Sans Narrow uppercase, tracked, white",
+        "palette": [
+          "#124f61",
+          "#ffffff"
+        ],
+        "behaviour": "Dropdown toggle on Fonts",
+        "content": "Foundry navigation",
+        "assets": "none",
+        "html": "header.site-header > nav (js-nav-sub-list.site-nav-fonts …)"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "warm, funny",
+        "mobile": "unknown",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Two white paragraphs at ~34px on dark teal: 'Roslindale is a balancing act of style, service, and sentiment…' ending '…more like a creamy brie than a stinky bleu', with underlined links to De Vinne and Central Type Foundry",
+      "feel": "Charming, self-aware",
+      "ux": "Reading; links to Fonts In Use and Wikipedia",
+      "learn": "Set the intro at a comfortable reading-display size in the Text cut and let one good metaphor (brie vs bleu) carry the positioning",
+      "reconstruction": {
+        "layout": "Section ~720px; column ~960px from x≈240, two paragraphs, ~30px gap",
+        "typography": "~34px Roslindale Text (opsz 30), leading ~1.3, white; name bold; links underlined",
+        "palette": [
+          "#124f61",
+          "#ffffff"
+        ],
+        "behaviour": "none (start/end attributes place it on a Typetura grid)",
+        "content": "Real description and lineage (De Vinne, 1890s, 1970s revival)",
+        "assets": "none",
+        "html": "section.intro#intro > div.text[start=2][end=7] > p × 2"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "04",
+        "10"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "rhythmic, bold",
+        "mobile": "unknown",
+        "structure": "list",
+        "samples": "word",
+        "interactive": true
+      },
+      "look": "Three black interludes (Display Condensed, Display Narrow, Display) of eight white rows each, from Ultra down to Extra Light, every row a run of long words alternating Title-case and CAPS ('Unapproachable HARDPRESSED…') bleeding off the right edge, with a tiny grey label under it ('DISPLAY CONDENSED ULTRA')",
+      "feel": "Kinetic, luxurious, like a moving type wall",
+      "ux": "Rows shift sideways as the page scrolls (momentumcss with each row's --top/--height); slant is a CSS variable (--slnt) that the script drives, probably from scroll speed; each row is editable",
+      "learn": "Turn the weight list into scroll-driven ticker rows: the styles parade past instead of sitting in a table, and three repeats (one per width) pace the long page",
+      "reconstruction": {
+        "layout": "Each block 1440×1813; 8 rows ~220px pitch, text starts x≈40 and overflows right (no wrap); label 12px under each row at x≈40",
+        "typography": "~144px Roslindale variable: opsz 48, wdth 75 (Condensed) / 87.5 (Narrow) / 100 (Display), wght 900→200 top to bottom, 'slnt' var(--slnt); labels ~9px Input Sans Narrow caps, tracked, grey",
+        "palette": [
+          "#050505",
+          "#ffffff",
+          "#8e8e8e"
+        ],
+        "behaviour": "Script translates each .display-styles-text horizontally from its scroll position (data in --top/--height) and sets --slnt; contenteditable rows",
+        "content": "Long English words of similar length (Unapproachable, Administratively, Characterisations, Mispronunciation, Troublesomeness)",
+        "assets": "none",
+        "html": "section.specimen > ul.display-styles.typetura > li > div.display-styles-text.momentumcss[contenteditable][style=--top;--height] > span.display-style[style=font-variation-settings 'opsz' 48,'wdth' 75,'wght' 900,'slnt' var(--slnt)] × 4 + p.style-label"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "scholarly, affectionate",
+        "mobile": "unknown",
+        "voice": "first-person",
+        "media": [
+          "archival",
+          "photo"
+        ],
+        "length": "long"
+      },
+      "look": "On warm cream, an enormous black 'History.' (~360px), a column of prose with a portrait of Theodore Low De Vinne, then overlapping archival images (an 1896 'Butler' bicycle ad, a Glascock's Racer ad, De Vinne wood type, a 1970s Pentel ad, a Chef Boyardee 'Ravioli Smile' ad) with small mono image credits, ending with the designer's blurry photo of a De Vinne specimen",
+      "feel": "Rich, nostalgic, well-researched",
+      "ux": "Reading; the giant heading is editable and drifts sideways with scroll (overflow-headline momentumcss)",
+      "learn": "Show the model's whole life cycle (1890s ads, 1970s revival) with real artefacts so the revival reads as the next chapter",
+      "reconstruction": {
+        "layout": "Section ~5285px; heading full width, scaled ×2; text column ~540px from x≈440 with a ~180×280 figure in the left margin; image clusters in an irregular grid that bleeds to the edges, some overlapping, captions as small tabs on the image corners",
+        "typography": "Heading ~360px Roslindale Display Bold (opsz 48); subheads; body ~17px Roslindale Text (opsz 15), leading ~1.45; captions ~9px Input Sans Narrow caps",
+        "palette": [
+          "#f9da98",
+          "#040404",
+          "#edd4b0",
+          "#493730"
+        ],
+        "behaviour": "Heading translates horizontally with scroll (--scale 2, --top, --height); everything else static",
+        "content": "Real history: De Vinne, Central Type Foundry (1890), ATF, the 1960s–70s revival, the designer's 2015 visit to Patrick Goossens' workshop",
+        "assets": "Archival scans and photos (de-vinne.jpg, hist-bicycle.jpg, hist-schroeder.png, roslindale-wood-letters.jpeg, boyardee.jpeg, pentel.jpeg, blurry-devinne)",
+        "html": "section.history.versatility > h2.overflow-headline.momentumcss[contenteditable] + div.figure-group > img + figcaption; div.text > h2 + p; div.Use-grid > div.Use > img + p.Use-name"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "diagrammatic, elegant",
+        "mobile": "unknown",
+        "structure": "map",
+        "samples": "word",
+        "interactive": true
+      },
+      "look": "On royal blue, 'Family.' at ~360px, then the 3D horn in cyan hairlines: a tapering box whose edges are labelled WEIGHT (Extra Light → Ultra), WIDTH (Condensed, Narrow, Normal) and OPTICAL SIZE (Display → Deck → Text), dotted with instance points, with a translucent plane carrying the word 'Roslindale' set at that location; a short history paragraph below left",
+      "feel": "Clear, architectural",
+      "ux": "The plane and the word 'Roslindale' move through the horn (x/y plane wrappers + Typetura --opsz), so the sample changes weight, width and size as it moves; exact trigger (scroll or pointer) not visible in the capture",
+      "learn": "Draw the designspace as the conical shape it really is (wide range at display sizes, narrow at text sizes) and put a live word at a point inside it",
+      "reconstruction": {
+        "layout": "Section ~1316px; heading top; SVG horn (viewBox 600×600) ~600×620px right of centre (x≈620–1220); plane as an absolutely positioned div skewed in perspective; paragraph ~560px at x≈240 bottom",
+        "typography": "Heading ~360px Roslindale Display Bold white; axis labels ~9px Input Sans Narrow caps cyan; plane word ~40px Roslindale (opsz bound), white with shadow; paragraph ~17px Text white",
+        "palette": [
+          "#034b95",
+          "#fbfcfd",
+          "#2e6ba7",
+          "#5ec8f8"
+        ],
+        "behaviour": "horn-axis-plane-x / -y transforms place the location label; Typetura sets --opsz (clamp 9–48) from its binding; dots (circle r=4) mark named instances",
+        "content": "Axis and instance labels; history of the family (Font of the Month Club 2017 → Text, Italic, Ultra, Deck, Display) with links",
+        "assets": "Inline SVG horn with instance dots and labels",
+        "html": "section.family#family > h2.overflow-headline.momentumcss + div.horn.typetura > svg.horn-svg (g.horn-horn, g.horn-instances > circle, g.horn-labels) + div.horn-axis-plane > -x > -y > div.horn-axis-plane-location"
+      }
+    },
+    {
+      "blocks": [
+        "06",
+        "07",
+        "08",
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "explanatory, warm",
+        "mobile": "unknown",
+        "subject": [
+          "optical-size",
+          "italics",
+          "axes"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "Four blue sub-sections, each an editable heading and a short paragraph on the left with a demonstration on the right: Optical Sizes (three panels of the same De Vinne biography at small, medium and large sizes on teal-to-blue fields), Italics ('Refrigerator' ×4 at slnt 0, −2, −5, −8, labelled), Widths ('PRESTIGE / Longitudes' at Normal, Narrow, Condensed), Weights (a huge R with a paler R ghosted behind it)",
+      "feel": "Patient, teacherly",
+      "ux": "Headings and sample words are editable; the italic heading has an animated background copy; the weight R appears to animate between weights",
+      "learn": "Give each axis its own mini-chapter with the same layout (text left, labelled steps right): the reader learns the system one dimension at a time",
+      "reconstruction": {
+        "layout": "Each sub-section full width (~480–870px tall): text column x≈240, ~540px; demo column x≈820–1300; Optical Sizes adds a full-width row of three ~480px panels below",
+        "typography": "Headings ~58px Roslindale Display Bold (Italics heading italic); body ~20px Roslindale Text opsz 15; samples 58–86px; giant R ~387px; step labels ~9px Input Sans Narrow caps light blue ('SLNT −5', 'NARROW')",
+        "palette": [
+          "#044b94",
+          "#173b77",
+          "#2a7477",
+          "#ffffff",
+          "#91afcb"
+        ],
+        "behaviour": "Typetura scales the figures to their container; contenteditable headings and samples; italics heading has a momentumcss background echo; R ghost likely a looping weight animation (one of the page's CSS keyframes)",
+        "content": "Real explanations per axis; the opsz panels reuse De Vinne's biography as running text",
+        "assets": "none",
+        "html": "section.family.subsection#opsz-section|#italics-section|#weight-section > div.text > div.tester-headline-container > h3.section-headline.tester-headline[contenteditable]; figure.italic-showcase > div.s0|s2|s5|s8[contenteditable] + p.style-label; figure.fig-widths > div.fig-widths-text.fig-widths-normal|narrow|condensed"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "lively, commercial",
+        "mobile": "unknown",
+        "medium": "photo-mockup",
+        "sequence": "grid"
+      },
+      "look": "On cream, 'Utility.' at ~360px, a short paragraph, then a staggered collage of 16 in-use images that bleed off both edges (La Rústica pizza menu and box, The Politician poster, Felt, Omelet logo and mugs, Haus, Trucks and Taps, Hellas Banknotes, Styx, Pillar, Peter Demulsant, Shopify), each with a tiny mono caption tab",
+      "feel": "Abundant, proof-of-versatility",
+      "ux": "Static gallery; heading editable and drifting with scroll",
+      "learn": "Let the in-use collage break the column and the page edges: it signals real-world range more than a tidy grid",
+      "reconstruction": {
+        "layout": "Section ~5560px; heading full width; paragraph ~560px at x≈440; images in an offset two-column masonry (~600–820px wide) shifting left/right and overlapping the page edges, 8px cream gaps",
+        "typography": "Heading ~360px Roslindale Display Bold; paragraph ~17px Text; captions ~9px Input Sans Narrow caps",
+        "palette": [
+          "#fcdd9a",
+          "#040404",
+          "#fdfd31",
+          "#54bab5"
+        ],
+        "behaviour": "Heading translates with scroll (momentumcss); images static",
+        "content": "Real uses sourced from Fonts In Use",
+        "assets": "16 in-use photos and screenshots",
+        "html": "h2.overflow-headline.momentumcss + p + div.Use-grid > div.Use > img + p.Use-name"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "grateful, grand",
+        "mobile": "unknown",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "On black, three large statements in cream Display Condensed: 'ROSLINDALE was designed by David Jonathan Ross, with additional drawing by Jovana Jocić and Jaimey Shapey.', 'This webpage was designed and developed by Typetura.' (with a small note about free Typetura templates) and 'Florence Fu and André Mora contributed writing and research…', names in peach and Typetura in teal",
+      "feel": "Generous, celebratory",
+      "ux": "Names link to the contributors",
+      "learn": "Set credits at headline size in the display face: the colophon becomes one last specimen",
+      "reconstruction": {
+        "layout": "Section ~1180px; column ~900px from x≈220; three statements with ~80px gaps; small note under the second",
+        "typography": "~75px Roslindale Display (opsz 48, wdth 75, wght 600), leading ~1.0, cream; links peach (#f6b67a-like) or teal (#2BC5AC); note ~14px Text",
+        "palette": [
+          "#040403",
+          "#f7ead8",
+          "#887668",
+          "#2bc5ac"
+        ],
+        "behaviour": "none",
+        "content": "Type design, web design (Typetura) and writing credits",
+        "assets": "none",
+        "html": "section.credits#credits > h2[start][end] > a × n + p"
+      }
+    },
+    {
+      "blocks": [
+        "13",
+        "14"
+      ],
+      "type": "checkout",
+      "variant": "on-page-cart",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "pangram",
+        "tone": "thorough, transparent",
+        "mobile": "unknown",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": true,
+        "free": false
+      },
+      "look": "'Get Roslindale' in heavy black Display Condensed (block 13), then on white with dark-teal section bars: LICENSE SIZES (8 cards: Mini … Testing), PREVIEW TEXT (one input), FULL SERIES PACKAGE ($200, 64 styles + variable, with Optical Size/Width/Weight/Slant sliders), OTHER PACKAGES (Starter Pack $100, Display Series $150, Text, Deck…), INDIVIDUAL STYLES ($50), then 'Roslindale Elsewhere' (Fontstand rentals) and 'Additional information' (formats, language support)",
+      "feel": "Complete, shop-like but typographic",
+      "ux": "Choose a licence size; preview text replaces every sample; tick packages or styles; package cards expand (▼) and their sliders drive the variable preview; BUY NOW adds to cart; Fontstand offered for rentals",
+      "learn": "The same cart template as other DJR pages, recoloured to the family's palette and introduced by a display-size 'Get …' heading",
+      "reconstruction": {
+        "layout": "Heading block 1440×230 (centred one line); cart column 1040px wide at x=200, ~9,300px tall; section bars ~22px tall, dark teal; licence cards 4 × 2 (~250×190px); package cards full width with checkbox, name, style count, price + BUY NOW top-right, sample lines, slider rows",
+        "typography": "Heading ~120px Roslindale Display Condensed Ultra, black; UI ~10px Input Sans Narrow caps; prices ~16px Roslindale; samples Roslindale at 24–64px",
+        "palette": [
+          "#f6f6f6",
+          "#1d4a5e",
+          "#040404",
+          "#d0d0d0"
+        ],
+        "behaviour": "label.license-tier radio cards; input#tester-input mirrors into samples; checkboxes purchasables[ID][id]; ranges per package axis (opsz 10–48, wdth 75–100, wght 200–900, slnt −8–0); button.button-more expands",
+        "content": "Real prices and licence terms; 'The quick brown fox jumps over the lazy dog. Pack my box…' samples",
+        "assets": "none",
+        "html": "h1[start=1][end=8] 'Get Roslindale'; section#buy > h3.license-size-label + div.license-grid > label.license-tier; h3.packages-label; label[for^=axis-roslindale-…] + input[type=range]; h3#buy-individual-styles"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "foundry house style",
+        "mobile": "unknown",
+        "contains": [
+          "contact",
+          "socials",
+          "newsletter",
+          "other-fonts"
+        ]
+      },
+      "look": "DJR's shared site footer (no crop; read from HTML): columns for David Jonathan Ross (feeds, mailing list), Elsewhere (Fonts in Use, Mastodon, Type Network, Fontstand, Adobe Fonts, GitHub), Font of the Month Club and Typefaces",
+      "feel": "Functional",
+      "ux": "Plain links",
+      "learn": "A catalogue footer turns every family page into a doorway to the rest of the foundry",
+      "reconstruction": {
+        "layout": "~540px, four link columns",
+        "typography": "~15px Input Sans Narrow; uppercase column headings",
+        "palette": [
+          "#ffffff",
+          "#040404"
+        ],
+        "behaviour": "none",
+        "content": "Foundry links",
+        "assets": "small logo image",
+        "html": "footer > h3#footer-name, h3#footer-elsewhere, h3 'Typefaces' + ul"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "story/large-text-intro",
+    "family-overview/style-word-grid",
+    "story/origin-reference",
+    "family-overview/designspace-map",
+    "design-details/axis-explainer",
+    "specimen-showcase/in-use-mockups",
+    "footer/credits-colophon",
+    "checkout/on-page-cart",
+    "footer/link-columns"
+  ]
+}

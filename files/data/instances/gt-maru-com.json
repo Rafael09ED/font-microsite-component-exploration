@@ -1,0 +1,647 @@
+{
+  "slug": "gt-maru-com",
+  "extractedBy": "agent",
+  "summary": "A cartoon world of smiling characters for a rounded family inspired by Japanese signage. A sleepy sun wakes up as you scroll through the intro, then colour-coded chapters (Story, Design, Typeface, Mono, Mega, Emoji, Overview) each bring Lottie characters, sticky speech-bubble text and an inline tester card that opens a full food-themed tester. A progress-bar nav fills with each chapter's colour.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "illustration-scene",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "cute, cheerful, kawaii",
+        "mobile": "adapts",
+        "carrier": "illustration",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Electric-blue sky, 'GT MARU' top-left in yellow with a black offset outline, a big pink round sun face with red cheeks on the right, white outlined clouds, and an orange 'SCROLL' between two down arrows at the bottom; a thin white progress-bar nav with 'Try' and 'Buy' pills at the top",
+      "feel": "Sunny, toy-like, welcoming",
+      "ux": "While the page loads, the sun sleeps (yawns, 'zz') and the nav tabs fill like a loading bar; once loaded it wakes and smiles. Scrolling snaps through steps in which clouds drift past and the sun reacts (surprised, curious) to the intro text",
+      "learn": "Use the loader as part of the hero story (the mascot sleeps while loading and wakes up when ready), so waiting feels like the opening scene",
+      "reconstruction": {
+        "layout": "Pinned 1440×900 stage inside a 5400px intro (3 scroll-snap steps); title at x=20,y=60; sun ~240px circle at x≈780,y≈260; SCROLL hint centred at y≈690 with arrows at the left and right edges; clouds absolutely positioned and layered",
+        "typography": "Title 187px GT Maru (wght 550), uppercase, yellow with a duplicated black outline offset as a drop shadow (data-outline-duplicate-text); SCROLL ~30px, letters in different colours; nav pills ~25px",
+        "palette": [
+          "#0269fe",
+          "#d3d34d",
+          "#fafbfa",
+          "#2d77e5"
+        ],
+        "behaviour": "lottie-player maru-intro.json scrubbed by scroll position across .scrollsnap steps (sleep → wake → surprise); 20 cloud SVGs move at different speeds; text boxes toggle .textbox-intro-hidden per step; nav #progress-bar width = scroll % and colour = current section's data-nav-color",
+        "content": "Family name; 'SCROLL' hint",
+        "assets": "Lottie of the sun face, 10 cloud SVGs",
+        "html": "section#intro[data-nav-color] > h1#intro-title[data-outline-duplicate-text] + #intro-wrapper > .scrollsnap×3 + #intro-container > .textbox-intro-wrapper + .intro-sequence-container > lottie-player#intro_sequence + .cloud-container > img.cloud"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "scroll-narrative",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, conversational",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Two yellow rounded speech-bubble boxes appearing one per scroll step beside the sun: 'We're proud to present GT Maru, an ode to rounded English characters found on signage across Japan…' and 'The typeface is a result of Thierry Blancpain's trips to Japan…'",
+      "feel": "Like the mascot is being told the story",
+      "ux": "Each scroll-snap step reveals the next bubble while the sun's expression changes",
+      "learn": "Split the intro into two short bubbles tied to scroll steps, and give the mascot a reaction to each: the text gets read because something responds to it",
+      "reconstruction": {
+        "layout": "Bubbles ~490px wide at x≈20 on the left of the pinned stage, about mid-height; one visible per step",
+        "typography": "~25px GT Maru Regular, black on yellow, leading ~1.35; boxes with 2px black border and ~20px radius",
+        "palette": [
+          "#0269fe",
+          "#d3d34d",
+          "#fafbfa"
+        ],
+        "behaviour": "Bubble visibility switched per scroll-snap step; sun Lottie frame tied to the same step",
+        "content": "Real introduction copy",
+        "assets": "none beyond the hero's Lottie",
+        "html": ".textbox.textbox-intro.textbox-yellow-light > p#intro-text-1, p#intro-text-2"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "curious, affectionate",
+        "mobile": "unknown",
+        "voice": "third-person",
+        "media": [
+          "diagram"
+        ],
+        "length": "medium"
+      },
+      "look": "Light-blue chapter headed 'NI' (blue) and 'HON' (pink outline) with small animated characters; white sticky text boxes alternate sides beside an isometric cityscape of construction barriers and signs, smiling panda, pizza and avocado, dancing paintbrushes, and a black 'Luzern' set in a plain Swiss sans with a thinking emoji face",
+      "feel": "Travel-diary, warm comparison",
+      "ux": "Text boxes stick while illustrations scroll past; the isometric city assembles piece by piece as it enters view; Lottie characters loop",
+      "learn": "Contrast the two sign cultures (friendly Japanese construction signage vs stark Swiss signs and sans serifs) in illustrations, then show the Swiss counterexample as real type ('Luzern')",
+      "reconstruction": {
+        "layout": "Two-column chapter (col2-halfwidth) inside side paddings; heading words split across both halves at ~158px; sticky .textbox ~520px wide alternating left/right; illustrations ~650px; wave divider from dark blue to light blue at the top",
+        "typography": "Headings 158px GT Maru, uppercase, one in solid blue, one as pink outline; text boxes ~25px GT Maru Regular; 'Luzern' ~300px in a neutral grotesk (as an SVG/image)",
+        "palette": [
+          "#b3d9fd",
+          "#f2f2f2",
+          "#d1d1d1",
+          "#cdd9e5"
+        ],
+        "behaviour": "lottie-player ni.json and pon.json loop; inline SVG cityscape with classes build2-sec1..3 animated in by scroll (js-scroll-anim-intro-waiting); .textbox.scroll-sticky",
+        "content": "Real story: Thierry Blancpain admiring casual Japanese wayfinding and construction signs, brush-painted signs with rounded terminals, Swiss signage in austere sans serifs",
+        "assets": "Isometric cityscape SVG, several Lottie characters, food and brush illustrations",
+        "html": "section#story[data-nav-color] > .divider-wave + .area-container-outside > .area-container-inside.col2-halfwidth > h2[data-outline-duplicate-text] + .animation > lottie-player; .textbox.scroll-sticky; svg.cityscape"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "explanatory, cheerful",
+        "mobile": "unknown",
+        "subject": [
+          "construction",
+          "scripts",
+          "alternates"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "Black 'DESIGN' chapter: yellow sticky text boxes beside looping animations: 'GT MA RU' letters bouncing over smiling red, yellow and blue shapes; a huge blue '東京Tokyo' showing how Latin and Japanese share vertical proportions; a surprised face; two brush characters ('human hand and machine'); and a blue 'ga' morphing between double- and single-storey forms",
+      "feel": "Lively lecture with puppets",
+      "ux": "Hovering '東京Tokyo' swaps in an x-ray version with metric lines; animations loop as you scroll",
+      "learn": "Set Japanese and Latin side by side in one word ('東京Tokyo') to explain borrowed vertical metrics, with a hover x-ray showing the lines",
+      "reconstruction": {
+        "layout": "Full-width heading; rows alternating a ~520px sticky yellow text box and a half-width animation; one full-width SVG row for 東京Tokyo (~1300px wide)",
+        "typography": "Heading 158px GT Maru white; text boxes ~25px GT Maru Regular on yellow; 東京Tokyo ~230px blue; 'ga' ~330px",
+        "palette": [
+          "#020202",
+          "#fccb03",
+          "#0354ce",
+          "#ebb806"
+        ],
+        "behaviour": "Lotties gtmaru-karaoke.json, maru-talking.json, as-morph.json, ag-morph.json (loop); .col1-svg-show-and-hide swaps tokyo-vmetrics-normal.svg ↔ tokyo-vmetrics-xray.svg on hover; one text box uses ot-ss01",
+        "content": "Real design notes: four years of rounded drafts, short ascenders/descenders matching Japanese, monolinear strokes with brush-like terminals, single-storey a and g alternates",
+        "assets": "Five Lottie animations, two metric SVGs (normal and x-ray, plus square mobile versions)",
+        "html": "section#design > .textbox.textbox-yellow.scroll-sticky + .animation > lottie-player[data-src]; .col1-svg-show-and-hide > img.svg-show-by-default + img.svg-show-on-hover"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "picture-book, playful",
+        "mobile": "unknown",
+        "coverage": "partial",
+        "interaction": "select",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'TYPEFACE' chapter on blue: an illustrated alphabet, 26 letter pairs ('Aa' with a tomato, 'Bb' with a ghost, 'Ff' with a frog…) in white with black outline on the right, and the active letter's big illustration with its word on the left ('Hamburger' under a smiling burger)",
+      "feel": "Children's ABC book",
+      "ux": "Selecting or hovering a letter pair (the active one turns orange) swaps the large illustration and word on the left",
+      "learn": "Pair every letter with an illustrated word and show it big when picked: the alphabet becomes something to explore",
+      "reconstruction": {
+        "layout": "Two halves: large illustration ~600px square on the left with the word below; 6×5 grid of letter-pair tiles (~110px) on the right; heading centred above",
+        "typography": "Heading 158px GT Maru white with black outline; pairs ~50px white with black outline and offset shadow; active pair orange; word ~70px orange-red",
+        "palette": [
+          "#0368fc",
+          "#faf9f9",
+          "#fc9401",
+          "#3273d3"
+        ],
+        "behaviour": ".illustration-grid-item[data-letter] → .illustration-grid-item-active and #alphabet-large src = images/words-and-letters/<letter>-large.svg",
+        "content": "A–Z illustrated words (Hamburger for H)",
+        "assets": "26 small and 26 large letter/word illustrations (SVG)",
+        "html": ".illustration-grid > .illustration-grid-item[data-letter] > img + .illustration-grid-item-text[data-outline-duplicate-text]; img#alphabet-large.illu-large"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04",
+        "05"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "neat, friendly",
+        "mobile": "unknown",
+        "controls": [
+          "text",
+          "weight",
+          "axes",
+          "features"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "At the end of the Typeface, Mono and Mega chapters, a white rounded card with a coloured header strip ('GT MARU SUBFAMILY', 'GT MARU MONO SUBFAMILY', 'GT MARU MEGA SUBFAMILY') and a 'TYPE TESTER ↗' tab, one big editable sample (Tokyo place names 'Setagaya', 'Nakameguro'; 'Megalomania Gargantuan Enourmously' for Mega) and a footer row of controls",
+      "feel": "Tidy widget, like a sticker",
+      "ux": "Type over the sample; drag the round knobs for Weight and Oblique (Mega: Optical Size plus Outline / Shaded / Glow style toggles); 'TYPE TESTER ↗' opens the full tester",
+      "learn": "Put a small tester card at the end of each subfamily chapter with only that subfamily's controls, and link it to the full tester",
+      "reconstruction": {
+        "layout": "Card ~1320px wide inside side paddings, 2px black border, ~20px radius; header strip ~32px (coloured label cell + 'TYPE TESTER ↗' cell); sample area ~260px; footer with labelled custom sliders (label + line + 24px coloured knob) and checkbox circles",
+        "typography": "Sample ~230px GT Maru (Mono / Mega for the other cards), default wght 550, slnt 0, Mega opsz 175; header and control labels ~20px uppercase",
+        "palette": [
+          "#faf9f9",
+          "#000000",
+          "#fc9401",
+          "#026bf9"
+        ],
+        "behaviour": ".typetester-range-input[data-axis=wght|slnt|opsz][data-initial-value] dragging → font-variation-settings on .typetester-inline-sample; Mega checkboxes (outline / shaded / glow) switch the Mega style; .typetester-button-open opens the full tester",
+        "content": "Tokyo neighbourhood names; giant-themed words for Mega",
+        "assets": "none",
+        "html": "#typetester-inline-proportional|-mono|-mega.typetester-inline-container > .typetester-inline-header > span.typetester-button-open; .typetester-inline-sample[contenteditable]; .typetester-inline-settings-area > span.typetester-range-input[data-axis] > .typetester-range-container > .typetester-range-slider; input[type=checkbox]#mega-feature-outline|shaded|glow"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "nerdy, retro-office",
+        "mobile": "unknown",
+        "medium": "illustration",
+        "sequence": "single"
+      },
+      "look": "'MONO' chapter on light blue: a text box set in the Mono, a pink nerd face with glasses, pipe and bow tie, and a green illustrated typewriter whose sheet of paper is typeset in GT Maru Mono at falling sizes ('Super', 'TYPEWRITER Mono Style', red 'Letters & Characters have the same amount of horizontal space.', small paragraphs)",
+      "feel": "Cosy, old-school",
+      "ux": "The character animates; the paper is live text",
+      "learn": "Put a live-text waterfall on an illustrated object that belongs to the style (a typewriter for a mono)",
+      "reconstruction": {
+        "layout": "Two halves: text box + Lottie character on the left, typewriter ~620px wide on the right with the paper sheet between the two keyboard halves",
+        "typography": "Paper: 'Super' ~173px, 'TYPEWRITER Mono Style' ~60px, red line ~34px, paragraphs ~14px, all GT Maru Mono; text box ~25px Mono",
+        "palette": [
+          "#b3d9fc",
+          "#f4f3f3",
+          "#d1d2d2",
+          "#cad8e7"
+        ],
+        "behaviour": "Lottie maru-nerd.json loops",
+        "content": "Facts about monospaced type and typewriters (first commercial typewriters in 1874)",
+        "assets": "Typewriter SVG, Lottie character",
+        "html": ".typewriter-paper-container > .typewriter-paper > p.typewriter-type.typewriter-type-xxl|xl|l|m|s + .typewriter-machine > svg"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "bubbly, loud",
+        "mobile": "unknown",
+        "subject": [
+          "optical-size",
+          "features"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "Black 'MEGA' chapter: four blob characters (blue, yellow, red, green) bouncing, a white text box, 'Go Big' in blue Mega inflating and deflating, and 'OR GO HOME' in yellow outlined-and-shaded Mega",
+      "feel": "Puffy, 70s, exuberant",
+      "ux": "The display words loop their animation as you scroll; the inline Mega tester follows",
+      "learn": "Let the words describe the axis they animate ('Go Big' swelling through the optical-size range)",
+      "reconstruction": {
+        "layout": "Full-width Lottie row of characters; then two-column rows: text box left / big words right, mirrored for 'OR GO HOME'",
+        "typography": "'Go Big' ~288px GT Maru Mega blue, opsz animated; 'OR GO HOME' ~150px Mega Outline Shaded in yellow; text boxes ~25px GT Maru",
+        "palette": [
+          "#040404",
+          "#026bf9",
+          "#f3f3f3",
+          "#d2d2d2"
+        ],
+        "behaviour": "Keyframes big-letter-lc / big-letter-uc on font-variation-settings (opsz); Lottie mega.json loops",
+        "content": "Real copy about Mega's inflating strokes and 70s rubdown outline/shaded/glow variants",
+        "assets": "Lottie of blob characters",
+        "html": ".big-letter-container > .big-letter.big-letter-lc | .big-letter-uc"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "fun, encyclopedic",
+        "mobile": "unknown",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'EMOJI' chapter on blue: a text box, a roaring tiger character, an animated phone showing a sticker app ('450 emojis'), then two white grids of all emoji, 'GT MARU EMOJI COLOR ENCODING' and 'BLACK & WHITE ENCODING'",
+      "feel": "Sticker book",
+      "ux": "Text links to the free iOS sticker app; the phone animation plays when loaded",
+      "learn": "Show the colour and the black-and-white emoji fonts as two complete grids, one above the other, so buyers compare them cell by cell",
+      "reconstruction": {
+        "layout": "Two-column intro (text box + tiger left, phone ~370px right); then two full-width grids of 30 columns × 15 rows of ~44px cells with blue borders",
+        "typography": "Heading 158px GT Maru red with outline; grid titles ~20px uppercase; emoji glyphs ~32px in GT Maru Emoji (colour) and Emoji BW",
+        "palette": [
+          "#0369fd",
+          "#ffffff",
+          "#a9b9ce",
+          "#b4c5d6"
+        ],
+        "behaviour": "Lottie tiger.json; phone.json loaded on visibility (data-load-on-visible)",
+        "content": "450 emoji; link 'for free download' to the App Store sticker set",
+        "assets": "Lotties (tiger, phone)",
+        "html": ".character-set-container > .character-set-category.character-set-category-color | -bw.js-gt-character-set-category"
+      }
+    },
+    {
+      "blocks": [
+        "07",
+        "08",
+        "09"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "neat, product-like",
+        "mobile": "unknown",
+        "structure": "grid",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "Turquoise 'OVERVIEW' chapter (yellow outlined heading), a bunny character beside a white text box, then 'GT MARU FULL FAMILY / 25 Styles, 3 Variable fonts, 2 Emoji fonts' and four groups of little file-icon tiles, each showing 'Aa' in one style with its name (Light … Black Oblique; Mono; Mega Mini/Midi/Maxi × Outline/Shaded/Glow/Combo; Emoji Color and B&W), plus a 'Variable Font' tile per subfamily",
+      "feel": "Like opening the font folder",
+      "ux": "Static tiles; a 'Download Free Trial Fonts' button sits in the family intro",
+      "learn": "Draw each style as a document icon: the overview reads as exactly what you get in the download",
+      "reconstruction": {
+        "layout": "Two columns of subfamily groups (~660px each); tiles ~90×100px with a folded corner, 5 per row, 2–3 rows per group",
+        "typography": "'Aa' ~45px in each style; labels ~11px; group titles ~25px; heading 158px GT Maru yellow outlined",
+        "palette": [
+          "#02f4b4",
+          "#f3ebee",
+          "#d2d3d3",
+          "#fcfb56"
+        ],
+        "behaviour": "Lottie bunny character loops",
+        "content": "All 25 styles plus variable and emoji fonts",
+        "assets": "Lottie bunny",
+        "html": ".family-overview > .family-overview-intro + .family-overview-subfamily > h6 + tiles"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "light-touch",
+        "mobile": "unknown",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "No checkout section: a 'Download Free Trial Fonts' pill in the family-overview intro, white 'Try' and 'Buy' pills in the fixed nav on every screen, and 'Download Trial Fonts ↗ / Buy Licensing ↗' in the tester header",
+      "feel": "Ever-present but unobtrusive",
+      "ux": "'Buy' and the trial links open Grilli Type; 'Try' opens the tester overlay",
+      "learn": "Put 'Try' (opens the tester) right next to 'Buy' in a persistent nav so testing is always the first step to buying",
+      "reconstruction": {
+        "layout": "Nav pills ~60×30px at the right end of the progress bar; trial pill in the overview intro",
+        "typography": "~20px GT Maru, black on white pills with 2px black border",
+        "palette": [
+          "#02f4b4",
+          "#f3ebee",
+          "#d2d3d3"
+        ],
+        "behaviour": "none",
+        "content": "Try, Buy, Download Free Trial Fonts",
+        "assets": "none",
+        "html": "nav > #try-buy-area > span.typetester-button-open.nav-item + a.nav-item; a.family-overview-trialfonts"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "tidy, reference",
+        "mobile": "unknown",
+        "coverage": "by-category",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "On turquoise, white bordered cells grouped under BASIC LATIN, EXTENDED LATIN, NUMERALS, CURRENCIES, CIRCULAR NUMERALS, ARROWS, PUNCTUATION and OPENTYPE FEATURE ALTERNATES",
+      "feel": "Clean reference",
+      "ux": "Hovering a cell animates the glyph (keyframes 'charset-hover')",
+      "learn": "White cells on a saturated field keep a dense grid light and in the site's colour world",
+      "reconstruction": {
+        "layout": "Grid ~1320px wide, ~32 cells per row (~40px), centred category headings",
+        "typography": "Glyphs ~27px GT Maru Regular; headings ~20px uppercase",
+        "palette": [
+          "#02f4b3",
+          "#ffffff",
+          "#b4e7da"
+        ],
+        "behaviour": "CSS hover animation charset-hover on font-variation-settings",
+        "content": "~450 characters incl. ss alternates",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "grateful, warm",
+        "mobile": "unknown",
+        "contains": [
+          "credits",
+          "socials"
+        ]
+      },
+      "look": "Two white rounded text boxes on turquoise (credits: Thierry Blancpain 2017–2021, emoji with Anya Danilova, Mega production, QA, animations, development; thanks to Akira Yoshino, Hisashi Iwai, Cento-san, Émilie Rigaud, Midori.so…) beside a party-blower emoji face; then (not cut as a block) a row of big links 'Instagram', 'Stickerset', 'Twitter' with emoji",
+      "feel": "Thankful, personal",
+      "ux": "Names link to their sites",
+      "learn": "Add a separate 'thank you' box for the people who helped, not just a credits list",
+      "reconstruction": {
+        "layout": "Half-width column of two text boxes (~620px); animation in the other half; social links in three columns below",
+        "typography": "~25px GT Maru Regular, links in blue; social headings ~100px outlined",
+        "palette": [
+          "#01f3b3",
+          "#f9f9f9",
+          "#d0d0d0",
+          "#fafb34"
+        ],
+        "behaviour": "Lottie party face loops",
+        "content": "Real credits and thanks",
+        "assets": "Lottie character"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "brand family, illustrated",
+        "mobile": "unknown"
+      },
+      "look": "A 4-column grid of sibling families, each an illustrated icon in the site's cartoon style above its name: a sun-and-mountain for GT Alpina, crossed flags for America, a trophy for Cinetype, a boy's face for Eesti, a pink triangle for Flexa, waving hands for Haptik, a toadstool for Super, a clown for Walsheim, a gem for Zirkon",
+      "feel": "Sticker sheet",
+      "ux": "Each tile links to the sibling microsite",
+      "learn": "Draw each sibling as a character in your site's own style: cross-promotion that feels like part of the world",
+      "reconstruction": {
+        "layout": "4 columns of ~330px, icons ~140px, names below, ~220px rows",
+        "typography": "Names ~25px GT Maru Medium uppercase",
+        "palette": [
+          "#01f4b4",
+          "#09d8a5",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Nine sibling families",
+        "assets": "Nine illustrated icons",
+        "html": ".links-minisites > a.col4-fourthwidth > img + h4"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "navigation",
+      "variant": "scroll-spy-nav",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed top bar: a long rounded progress bar that fills with the current chapter's colour as you scroll, colour-coded chapter tabs (Story, Design, Typeface, Mono, Mega, Emoji, Overview) that jump to each chapter (shown while loading or at the top), 'Loading…' then white 'Try' / 'Buy' pills",
+      "newVariant": true,
+      "variantDefinition": "A fixed bar or tab strip listing the page's chapters that marks the current one as you scroll (highlighted tab, or a needle moving along a dial or scale); click or drag to jump."
+    },
+    {
+      "blocks": [
+        "14",
+        "15"
+      ],
+      "type": "type-tester",
+      "variant": "global-toolbar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "foodie, playful",
+        "mobile": "unknown",
+        "controls": [
+          "text",
+          "size",
+          "weight",
+          "axes",
+          "features",
+          "style-select"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A full-screen overlay (captured in HTML only) titled 'TYPE TESTER' with 'Download Trial Fonts ↗ / Buy Licensing ↗' at the top and ~18 editable rows grouped by subfamily and style, each with meta labels (subfamily, style, px size): 'Futomaki 😃', 'THICK SUSHI ROLL with colorful fillings', 'Omurice 🥚', 'Takoyaki 🐙', 'Hambāgu 🍔', 'Kanpai 🍻', Mega 'Hassaku 🍋', 'MADE IN JAPAN Buy Worldwide'; a fixed toolbar at the bottom with '↑ SELECT STYLE' picker, font-size slider, family radios (GT Maru / Mono / Mega), Weight and Oblique sliders, or Optical Size plus Outline / Shaded / Glow checkboxes for Mega",
+      "feel": "A Japanese menu you can rewrite",
+      "ux": "Opened from 'Try' or any 'TYPE TESTER ↗'; click a row to select it, then the shared toolbar restyles that row (family, style, size, axes, Mega styles); every row is editable and includes emoji",
+      "learn": "Use one shared toolbar that edits whichever row is selected: many rows stay clean, and every row can still be tuned",
+      "reconstruction": {
+        "layout": "Overlay 1440×900 scrolling inside; rows full width, each with a small meta column (subfamily / style / size) and a sample at l/m/s/xl size; toolbar fixed at the bottom (~1320×294) with a style-picker tab above it",
+        "typography": "Samples: l = 187px (GT Maru Black 'Futomaki'), m = 108px caps lines, s ≈ 25px Mono paragraphs, Mega xl ~266px; meta ~20px uppercase",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#0368fc"
+        ],
+        "behaviour": "p[contenteditable][data-font-family][data-wght][data-slnt|data-opsz] per row; selecting a row binds the toolbar: .typetester-range-input[data-axis=fontSize|wght|slnt|opsz], input[type=radio][name=family], input[type=checkbox][name=features] (outline/shaded/glow); style picker lists GT Maru, Mono and Mega styles with Oblique variants",
+        "content": "Japanese food names with emoji and short descriptions (Futomaki, Omurice, Takoyaki, Hambāgu, Kanpai, Hassaku)",
+        "assets": "none",
+        "html": ".typetester-container > .typetester-nav + h2 + .typetester-sample-grouping > .typetester-sample-container > .typetester-meta-info (subfamily/style/size) + p.typetester-size-l|m|s|xl[contenteditable]; .typetester-settings-area > .typetester-stylepicker + .typetester-settings"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/illustration-scene",
+    "story/scroll-narrative",
+    "story/origin-reference",
+    "design-details/design-notes",
+    "glyph-table/glyph-inspector",
+    "type-tester/slider-sandbox",
+    "specimen-showcase/prop-collage",
+    "design-details/axis-explainer",
+    "glyph-table/full-grid",
+    "family-overview/style-word-grid",
+    "checkout/link-out-cta",
+    "glyph-table/full-grid",
+    "footer/credits-colophon",
+    "type-tester/global-toolbar"
+  ]
+}

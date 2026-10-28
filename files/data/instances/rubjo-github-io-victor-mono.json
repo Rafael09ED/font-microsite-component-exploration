@@ -1,0 +1,649 @@
+{
+  "slug": "rubjo-github-io-victor-mono",
+  "extractedBy": "agent",
+  "summary": "A one-person, open-source programming-font site built as a dark Vue single page: a gradient hero with a typed tagline, an editable code editor, a ligature on/off board, a wipe comparison against 23 other coding fonts, then donation, install, supporter, tweet, FAQ and credits sections under a fixed gradient nav. Everything is set in Victor Mono, and the cursive italic is used for headings and keywords.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "product-landing",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "friendly, developer, upbeat",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "download",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "Name 'Victor Mono' at ~141px centred over a slowly shifting diagonal gradient (orange → magenta → violet, later teal → green) with a faint video of code being typed behind it; tagline 'The ___| programming font' and two outlined buttons 'Download' and 'Share'",
+      "feel": "Warm, techy, a bit playful",
+      "ux": "The adjective in the tagline is typed and deleted in a loop in the cursive italic ('dashing', 'definite', 'delicate', '\"#%§§##/'); Share opens a row of social icons; the fixed nav appears only after the hero",
+      "learn": "Type the swapping word of the tagline in the italic: the typing animation shows the special style before any specimen",
+      "reconstruction": {
+        "layout": "Full-width 1440×535 (≈60vh) header; name centred at y≈120–230, tagline centred ~70px below, button row centred ~60px under the tagline (two ~150×44px outlined buttons with 16px gap)",
+        "typography": "Name ~141px Victor Mono Regular, light grey #eeeeee, normal tracking; tagline ~32px Regular with the changing word in Victor Mono Italic (cursive) followed by a blinking '|' cursor; buttons ~13px Regular with icon",
+        "palette": [
+          "#ae4669",
+          "#a63a73",
+          "#b54d5a",
+          "#a13580",
+          "#eeeeee"
+        ],
+        "behaviour": "Granim.js canvas gradient (mix-blend-mode: screen) animates through colour states every few seconds; a muted looping MP4 of code being typed sits underneath at 50% opacity; Typed.js types and backspaces the tagline word in a loop",
+        "content": "Name, a one-line positioning tagline whose adjective rotates, Download (ZIP) and Share",
+        "assets": "Short looping video of code being typed (headerbg.mp4/webm); gradient stops for Granim",
+        "html": "div.header > video.video-bg + canvas.header-gradients + div.text > h1 + h2 (em.property + span.typed-cursor) + buttons; span.share hidden with Twitter/Facebook/Reddit/Weibo icons"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, informative",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "illustration"
+        ],
+        "length": "short"
+      },
+      "look": "Two short paragraphs in light grey on charcoal with the words 'semi-connected cursive italics' and 'Italic' set in the cursive italic; a small thumbnail of a three-column style specimen on the right",
+      "feel": "Quiet, matter-of-fact",
+      "ux": "static",
+      "learn": "Switch to the special italic inside the intro sentence exactly where the sentence names it",
+      "reconstruction": {
+        "layout": "Text column ~800px from x≈185 with ~45px line pitch; specimen thumbnail ~170×270px at x≈1080; ~500px tall section",
+        "typography": "Paragraphs ~22px Victor Mono Regular, leading ~2 (very open), #eeeeee; inline Victor Mono Italic for the feature words",
+        "palette": [
+          "#2c2c2c",
+          "#eeeeee",
+          "#4f4f4f"
+        ],
+        "behaviour": "none",
+        "content": "'Victor Mono is an open-source monospaced font with optional semi-connected cursive italics and programming symbol ligatures. The typeface is slender, crisp and narrow, with a large x-height and clear punctuation… seven weights and Roman, Italic and Oblique styles.'",
+        "assets": "Thumbnail PNG of the styles specimen (styles-dark-thumb.png, dark and light versions)"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "code-playground",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "practical, developer",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "single",
+        "defaultText": "code",
+        "export": false
+      },
+      "look": "'Try it' heading in cursive italic above a slate-teal CodeMirror editor showing a ~20-line async JavaScript function with Oceanic Next syntax colours; comments and keywords like 'true' render in the cursive italic",
+      "feel": "Like opening your own editor",
+      "ux": "Click into the code and type: a real CodeMirror instance with highlighting, active-line background and ligatures live; no font controls; a caption links to the matching VS Code/Sublime theme",
+      "learn": "For a coding font the most convincing tester is a real editor with a real theme, where the syntax highlighter decides where the italic appears",
+      "reconstruction": {
+        "layout": "Section ~870px tall on #304148; heading centred; editor ~1080px wide centred (x≈180–1260), no visible window chrome, ~20 lines at ~32px line pitch; caption line below",
+        "typography": "Heading ~32px Victor Mono Italic; code ~18px Victor Mono Regular with Italic for comments and certain keywords (cm-comment, cm-keyword italic), line height ~1.75",
+        "palette": [
+          "#32434a",
+          "#2d3e45",
+          "#eeeeee",
+          "#92486f",
+          "#894a8c"
+        ],
+        "behaviour": "Editable CodeMirror (theme oceanic-next); typing reflows normally; calt ligatures (=== → ≡ style) render in the editor",
+        "content": "Real code: async getUser() loop with prompt, fetch, try/catch and comments; mobile shows a Vue single-file component starting '<!-- Go ahead and edit me -->'",
+        "assets": "none",
+        "html": "div.code-segment > div.window > div.vue-codemirror > .CodeMirror.cm-s-oceanic-next"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "technical, neat",
+        "mobile": "adapts",
+        "subject": [
+          "features"
+        ],
+        "presentation": "toggle",
+        "explanation": "none"
+      },
+      "look": "'Ligatures' heading with a small outlined 'enabled' pill; below, every ligature sequence (</ </> ~> -> => === != <=> |> ++ +++ …) centred in six lines of arrows and symbols",
+      "feel": "Clean, catalogue-like",
+      "ux": "Clicking the 'enabled' pill crossfades the block to an identical copy with ligatures off, so every sequence flips between symbol and raw characters at once",
+      "learn": "Stack two copies of the full ligature list (one with liga/calt off) and crossfade them: the whole catalogue becomes a single before/after",
+      "reconstruction": {
+        "layout": "Section ~520px; heading centred; ligature lines centred in a ~1080px column, ~45px line pitch, generous word spacing",
+        "typography": "Heading ~32px Victor Mono Italic; toggle pill ~12px italic in a 1px outlined rounded box; ligatures ~28px Victor Mono Regular",
+        "palette": [
+          "#343434",
+          "#eeeeee",
+          "#4d4d4d"
+        ],
+        "behaviour": "Two absolutely stacked h1 copies (.crossfade.visible / .crossfade.hidden.no-ligatures); the button swaps classes for an opacity crossfade",
+        "content": "Every programming ligature in the font, space-separated",
+        "assets": "none",
+        "html": "div.ligature-samples > h1.crossfade.visible + h1.crossfade.hidden.no-ligatures; button.el-button 'enabled'"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "fan merch, product",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "single"
+      },
+      "look": "Full-width dark photo strip of a mechanical keyboard whose keycap legends are set in Victor Mono, with a small italic caption 'Configure and buy the official Victor Mono Nightshade Keyboard…' under it",
+      "feel": "Tactile, nerdy pride",
+      "ux": "Photo and caption link (affiliate) to the keycap maker",
+      "learn": "A physical product made with the font (keycaps) is the strongest in-use proof for a coding font",
+      "reconstruction": {
+        "layout": "Image strip full width, ~340px tall, cropped from a larger photo; right-aligned caption line ~12px below",
+        "typography": "Caption ~13px Victor Mono Italic, underlined link",
+        "palette": [
+          "#323232",
+          "#504f50",
+          "#696969",
+          "#794b72"
+        ],
+        "behaviour": "none",
+        "content": "Real product: YUZU 'Victor Mono Nightshade' keycap set",
+        "assets": "Desaturated photo of the keyboard (keyboard-dark.jpg)"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "personal, candid",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'Why' heading in cursive italic, then two text columns: the designer's reasons in first person, with a bulleted list of what the font had to be (friendly italics, strict geometric regular, ligatures, slender, narrow, wide enough to scan, consistent)",
+      "feel": "Honest, relaxed ('You might not. That's also fine')",
+      "ux": "static",
+      "learn": "A short bullet list of the designer's own requirements explains the font better than a feature list",
+      "reconstruction": {
+        "layout": "Two columns ~500px each from x≈185 and x≈755, ~960px tall section; heading centred above",
+        "typography": "Heading ~32px Victor Mono Italic; body ~18px Victor Mono Regular, leading ~2.5; key phrases ('informal, flowing and human style') in Italic; round bullets",
+        "palette": [
+          "#353535",
+          "#eeeeee",
+          "#4a494a"
+        ],
+        "behaviour": "none",
+        "content": "First-person rationale: 'When it comes to programming fonts, I prefer something thin and relatively condensed, but with a more informal, flowing and human style for standouts like comments…'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "comparison",
+      "variant": "pointer-wipe",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "confident, comparative",
+        "mobile": "adapts"
+      },
+      "look": "'Compare it to [JetBrains Mono ▾]' with a select of 23 coding fonts; below, a code screenshot split by a white vertical line with a round ◂▸ handle: Victor Mono on the left, the chosen rival on the right",
+      "feel": "Fair, direct",
+      "ux": "Drag the handle to wipe between the two renderings of the same 25-line snippet; the select swaps the rival screenshot; caption links to programmingfonts.org",
+      "learn": "Use one code snippet and a wipe handle: differences in width, italics and ligatures line up character by character",
+      "reconstruction": {
+        "layout": "Section ~1045px; heading with inline select centred; image ~1100×735px centred; 2px white divider with ~36px circular handle; caption below",
+        "typography": "Heading ~32px Victor Mono Italic; select ~12px; code in the screenshots ~18px; caption ~13px Italic",
+        "palette": [
+          "#33444b",
+          "#2c2c2c",
+          "#485055",
+          "#eeeeee"
+        ],
+        "behaviour": "vue-twentytwenty: the 'before' image is clipped with clip: rect(0, x, h, 0) following the handle drag; changing the select loads the other font's pre-rendered PNG",
+        "content": "Same JS snippet (loadJson + getUser) rendered as images in Victor Mono and in Anonymous Pro, Cartograph, Cascadia Code, Consolas, Dank Mono, Fira Code, Hack, Iosevka, JetBrains Mono, Operator Mono, Source Code Pro and others",
+        "assets": "One pre-rendered code screenshot per rival font plus Victor Mono (dark and light theme versions)",
+        "html": "select > option[value=jetbrains-mono…]; img[alt=before] clipped over img[alt=after]"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "interlude",
+      "variant": "full-bleed-image",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "terminal, ambient",
+        "mobile": "adapts"
+      },
+      "look": "A 350px full-width strip of a dimmed terminal screenshot (Powerline prompt, git status, file listing) set in Victor Mono",
+      "feel": "Atmospheric, at home in the terminal",
+      "ux": "static divider between sections",
+      "learn": "Cropped, dimmed screenshots of the font in a real tool make quiet section breaks that still show the font",
+      "reconstruction": {
+        "layout": "Full-width strip 1440×350, image larger than the strip and cropped (horizontal-large-image)",
+        "typography": "Only in the image: terminal text ~22px Victor Mono",
+        "palette": [
+          "#2b2b2b",
+          "#4a4a4a"
+        ],
+        "behaviour": "none observed",
+        "content": "Terminal session: ls, git status in a Powerline-themed zsh prompt",
+        "assets": "Terminal screenshot PNG (powerline-dark.png, light version too)"
+      }
+    },
+    {
+      "blocks": [
+        "08",
+        "10"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "grateful, practical",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "'Get it': a donation plea, three small outlined buttons (green 'Donate via PayPal', green 'Support via Patreon', white 'Download ~9MB ZIP'), then two command snippets: 'brew install --cask font-victor-mono' and 'npm i victormono → import 'victormono''; after the merch strip, a numbered 'How to use' list of six install steps",
+      "feel": "Generous, low-pressure",
+      "ux": "Download is a direct ZIP link; donations go to PayPal and Patreon; the install list links to editor settings help and to themer.dev for matching themes",
+      "learn": "Put the package-manager one-liners next to the ZIP: developers install fonts the way they install code",
+      "reconstruction": {
+        "layout": "Get it: centred heading, one centred paragraph ~1050px, button row centred (~130×50px buttons, 2-line labels), then two centred caption columns at x≈360 and x≈1020 with italic intro + command; How to use: heading + numbered list ~1050px wide from x≈185",
+        "typography": "Headings ~32px Victor Mono Italic; paragraph and steps ~18px Regular, leading ~2.4; buttons ~13px with 10px italic sublabel; commands ~13px Regular, intros italic; underlined links",
+        "palette": [
+          "#343434",
+          "#eeeeee",
+          "#575371",
+          "#2bb24c"
+        ],
+        "behaviour": "none (confetti credited for the thank-you, likely fired on Donate)",
+        "content": "Donation request in the designer's voice; 1) Download 2) Unpack 3) Install 4) Change editor font to 'Victor Mono' 5) Optional: set the code theme (themer.dev) 6) Optional: modify the theme's italic/bold use",
+        "assets": "Icon font (element-icons) for download/coin icons"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "nerdy humour, merch",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "single"
+      },
+      "look": "Dark strip of merchandise mockups: tote with 'while (true) { code(); eat(); sleep(); }', mug '¯\\_(ツ)_/¯ works on my machine', T-shirts 'I need a <br>', 'SIDE QUESTS', hoodie 'The CODE is STRONG', apron 'I code in cursive'",
+      "feel": "Fun, fan-club",
+      "ux": "Caption links to the merch stores (North America / Europe)",
+      "learn": "Programmer jokes on merch show the regular and cursive italic at poster size while selling something",
+      "reconstruction": {
+        "layout": "Full-width strip 1440×~340, grid of product mockups cropped at the edges; caption right-aligned below",
+        "typography": "Slogans on the products in Victor Mono Regular, Bold and cursive Italic; caption ~13px Italic",
+        "palette": [
+          "#303030",
+          "#474747",
+          "#727272",
+          "#878787"
+        ],
+        "behaviour": "none",
+        "content": "Coding jokes: 'I need a <br>', 'I'm not procrastinating I'm doing SIDE QUESTS', 'I code in cursive'",
+        "assets": "Composite photo of merch mockups (merch-dark.jpg)"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "checkout",
+      "variant": "supporter-tier-wall",
+      "newVariant": true,
+      "variantDefinition": "For a free font: donation tiers shown as medals or badges with their monthly or one-off amounts, each followed by the names of the people who give at that level; the thank-you wall doubles as the ask to donate.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "grateful, gamified",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "'Supporters': four medal images on ribbons (Bronze Fan, Silver Supporter, Gold Patron, Rainbow 'Champion Guardian Unicorn') with tier prices '$1/month or - $9.99 in total' … '$10/month or $45+ in total', and below Gold and Rainbow centred rows of supporter names in glowing yellow",
+      "feel": "Warm, community-run, a little game-like",
+      "ux": "static; the donate buttons are in 'Get it' above",
+      "learn": "Name every donor under a tier medal: the credit list is both a thank-you and a price list for support",
+      "reconstruction": {
+        "layout": "~1600px section; Bronze and Silver side by side at x≈360 and x≈1075, Gold and Rainbow centred below; each tier: ~100px medal, name, role line, price line, then centred flex-wrapped name rows (~45px pitch)",
+        "typography": "Heading ~32px Victor Mono Italic; tier name ~24px Regular; role ~10px; price ~13px Italic; names ~14px Regular in yellow #f5e27a with a soft text-shadow glow",
+        "palette": [
+          "#343434",
+          "#eeeeee",
+          "#f5e27a",
+          "#4f4836"
+        ],
+        "behaviour": "none",
+        "content": "Real Patreon/PayPal tiers and supporter names",
+        "assets": "Four medal PNGs (bronze, silver, gold, unicorn rainbow) with 'Victor Mono' embossed"
+      }
+    },
+    {
+      "blocks": [
+        "12",
+        "13"
+      ],
+      "type": "testimonials",
+      "variant": "embedded-social-posts",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "social proof, casual",
+        "mobile": "adapts"
+      },
+      "look": "'What people are saying' in cursive italic over a row of four embedded dark-mode X/Twitter cards (EOS UI/UX, Wes Bos with a VS Code screenshot, Tony, Lucy) with likes and 'Read more on X'",
+      "feel": "Grassroots, credible",
+      "ux": "Real embedded tweets (iframes): follow, reply and copy-link work",
+      "learn": "Pick tweets that include screenshots of the font in an editor: they add in-use proof to the praise",
+      "reconstruction": {
+        "layout": "Heading centred; 4 equal columns (el-col-lg-6) of ~340px tweet cards with 16px gaps; one column on mobile",
+        "typography": "Heading ~32px Victor Mono Italic; tweet text in X's own system font",
+        "palette": [
+          "#2b2b2c",
+          "#18222d",
+          "#141d29",
+          "#eeeeee"
+        ],
+        "behaviour": "Tweets lazy-load and grow after layout, which pushed later content down in the capture",
+        "content": "Four real tweets praising the italics and ligatures",
+        "assets": "Twitter embed script (vue-tweet-embed)",
+        "html": "4 × div.el-col-lg-6 > blockquote.twitter-tweet-rendered (iframe)"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "interlude",
+      "variant": "full-bleed-image",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "quiet, technical",
+        "mobile": "adapts"
+      },
+      "look": "350px strip of a dimmed character-set specimen image: accented Latin, Greek and Cyrillic in three columns (Regular, cursive Italic, Oblique), cropped at both edges; it belongs to block 13 but the capture shows it at the top of block 14",
+      "feel": "Texture, density",
+      "ux": "static divider",
+      "learn": "A cropped glyph-set image works as a textured divider that hints at coverage",
+      "reconstruction": {
+        "layout": "Full-width strip 1440×350, image wider than the viewport, cropped",
+        "typography": "In the image: ~22px glyph rows in Regular / Italic / Oblique",
+        "palette": [
+          "#303030",
+          "#6a6a6a",
+          "#eeeeee"
+        ],
+        "behaviour": "none observed",
+        "content": "Extended Latin, Greek and Cyrillic glyph rows",
+        "assets": "Specimen PNG (specimen-dark.png)"
+      }
+    },
+    {
+      "blocks": [
+        "14",
+        "15"
+      ],
+      "type": "story",
+      "variant": "faq-accordion",
+      "newVariant": true,
+      "variantDefinition": "Questions and answers about the font (design choices, requests, usage, licence) as a collapsed accordion, often grouped under category tabs; answers expand on click, and the question list itself carries the designer's tone.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "wry, self-deprecating",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "'FAQ*' ('Frequently Anticipated Questions') in cursive italic, three tabs 'Design & features | Usage | Other', and a list of questions each with a '+' at the right ('There's a feature of the font that I don't like. Could you change it?', '…the worst idea in the world… BTW, I am really angry.')",
+      "feel": "Humorous, pre-emptive",
+      "ux": "Tabs switch the question group; clicking a question expands its answer (vue-faq-accordion)",
+      "learn": "Write the FAQ as the questions people will actually ask, angry ones included: it answers requests for alternates and sets expectations with humour",
+      "reconstruction": {
+        "layout": "~1080px section; heading centred; tabs row centred with three labels ~200px apart; questions as rows ~1050px wide from x≈185, '+' at x≈1240, ~80px per row",
+        "typography": "Heading ~32px Victor Mono Italic with asterisk; active tab in Italic, others Regular ~18px; questions ~18px Regular, leading ~2",
+        "palette": [
+          "#303030",
+          "#eeeeee",
+          "#464747"
+        ],
+        "behaviour": "Tab click swaps the list; '+' rotates/opens the answer panel below the question",
+        "content": "Real FAQ about design changes, stylistic variations, a custom style generator, design conventions, obscure ligatures and an angry complaint",
+        "assets": "none",
+        "html": "vue-faq-accordion: category tabs + question rows with + icons"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "interlude",
+      "variant": "full-bleed-image",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "process, technical",
+        "mobile": "adapts"
+      },
+      "look": "350px strip of a dimmed Glyphs-app screenshot (a glyph outline with nodes, metric lines and guides); it is block 15's image, captured at the top of block 16",
+      "feel": "Behind-the-scenes",
+      "ux": "static divider before the credits",
+      "learn": "A cropped editor screenshot hints at the making without a making-of section",
+      "reconstruction": {
+        "layout": "Full-width strip 1440×350, image cropped",
+        "typography": "none (outline drawing)",
+        "palette": [
+          "#343434",
+          "#454648",
+          "#6c6c6c"
+        ],
+        "behaviour": "none observed",
+        "content": "Glyph outlines in the font editor Glyphs",
+        "assets": "Font-editor screenshot (glyphs-dark.png)"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "thankful, open-source",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "'Credits' heading and a centred column of ~20 pairs: an italic role ('Lovely gradients', 'Cool animated typing', 'Code editor', 'Thank-you-confetti', 'Supporter tier medal design') above an underlined link to the library and author",
+      "feel": "Tidy, open-source etiquette",
+      "ux": "Links to each library, tool and author; ends with Glyphs, GitHub and 'Font and web site Rune Bjørnerås' (that last part is past the end of the crop)",
+      "learn": "Credit every library with a playful role line: the colophon becomes part of the voice",
+      "reconstruction": {
+        "layout": "Single centred column, ~46px per pair, ~1800px tall; intro sentence centred above",
+        "typography": "Heading ~32px Victor Mono Italic; role lines ~13px Italic; links ~13px Regular underlined",
+        "palette": [
+          "#343434",
+          "#eeeeee",
+          "#336b78"
+        ],
+        "behaviour": "none",
+        "content": "Granim.js, Typed.js, Vue-Codemirror, Anime.js, vue-scrollto, vue-twentytwenty, vue-faq-accordion, dom-confetti, Element, vue-social-sharing, ImageOptim, Vue CLI, Travis CI, Glyphs, GitHub",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed ~43px bar with the same animated gradient as the hero: '^' (to top), Try · Why · Get · How · FAQ · Credits, GitHub icon and a sun/moon theme toggle at the right; it appears after the hero and repeats across the stitched crops"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/product-landing",
+    "story/large-text-intro",
+    "type-tester/code-playground",
+    "design-details/feature-before-after",
+    "specimen-showcase/in-use-mockups",
+    "story/design-brief",
+    "comparison/pointer-wipe",
+    "interlude/full-bleed-image",
+    "checkout/free-download",
+    "specimen-showcase/in-use-mockups",
+    "checkout/supporter-tier-wall",
+    "testimonials/embedded-social-posts",
+    "interlude/full-bleed-image",
+    "story/faq",
+    "interlude/full-bleed-image",
+    "footer/credits-colophon"
+  ]
+}

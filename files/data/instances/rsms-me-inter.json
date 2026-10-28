@@ -1,0 +1,501 @@
+{
+  "slug": "rsms-me-inter",
+  "extractedBy": "agent",
+  "summary": "The home of a hugely used open-source UI family, built like documentation rather than a showcase: a plain white page with a sticky text nav, a title-and-Download landing, copy-paste CSS usage, editable weight-by-weight sample lines, a yellow table of every OpenType feature off vs on, and a green glyph inspector with an optical-size slider over 2,800 glyphs. Language list, FAQ and trademark line sit past the 30,000px capture limit (HTML only).",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Sticky 48px white bar: 'Inter' (bold, 14px) at the left, Features · Glyphs · FAQ · Lab · Download ↓ at the right; it is stitched over the crops of every block below"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "product-landing",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "plain, confident, utilitarian",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "download",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "White page: 'The Inter / typeface family' in two lines of tight bold display type (~180px), then an 8-column row: tagline 'The 21st century standard' with a small black 'Download ↓' pill, and two columns of small explanatory text with inline links ('2000 glyphs', '147 languages')",
+      "feel": "Calm, documentation-like, self-assured",
+      "ux": "One primary button (Download ↓ → /inter/download/); inline links jump to #glyphs, #languages and #features",
+      "learn": "For a utility family the hero can be a doc page header: name huge, one-line claim, one button, and the spec (glyph count, languages, weights, opsz) as linked facts",
+      "reconstruction": {
+        "layout": "Full width, ~980px tall, page margin ~66px; h1 spans the row (2 lines); below, an r-grid of 8 columns: cell 1–2 tagline + button, cell 3–5 paragraph (~470px), cell 6–8 paragraph (~470px); text columns start ~110px under the title",
+        "typography": "Title ~180px InterVariable Bold/SemiBold (display opsz 32), tracking ~-0.03em, leading ~0.95; tagline 14px Regular; body 14px Regular, leading ~1.45, links underlined; button 12px Medium white on black, radius 4px",
+        "palette": [
+          "#fbfbfb",
+          "#000000",
+          "#515151"
+        ],
+        "behaviour": "none",
+        "content": "Real product copy: workhorse UI typeface, 2000+ glyphs, 147 languages, weights 100–900, text and display optical sizes, true italic; 'one of the world's most used typefaces'",
+        "assets": "none",
+        "html": "r-grid[columns=8] > r-cell[span=row] h1.title + r-cell[span=1-2] (tagline, a.button) + r-cell[span=3-5] + r-cell[span=6..]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "plain, bold",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "The basic alphabet in black on white at ~125px: ABCDEFGHIJKLMN / OPQRSTUVWXYZ / abcdefghijklm / nopqrstuvwxyz / 0123456789 &→!",
+      "feel": "Direct, poster-like",
+      "ux": "The block is contenteditable (no caret hint); a separate line-broken version is used on small screens",
+      "learn": "Making even the A–Z block contenteditable turns a static specimen into a tester at no UI cost",
+      "reconstruction": {
+        "layout": "Full width, ~870px tall, left margin ~66px, 5 lines filling ~1300px",
+        "typography": "~125px InterVariable Regular (display opsz), leading ~1.0, black",
+        "palette": [
+          "#fbfbfb",
+          "#000000"
+        ],
+        "behaviour": "contenteditable, spellcheck off",
+        "content": "A–Z, a–z, 0–9, & → !",
+        "assets": "none",
+        "html": "p.example-a-z.only-large-screen[contenteditable] + p.example-a-z.only-small-screen[contenteditable]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "developer, matter-of-fact",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Two labelled rows on white: 'Usage' with a short instruction and a monospaced HTML <link> + CSS snippet ('Global CDN sponsored by Cloudflare'); 'Free & open source' with three lines on the SIL Open Font License 1.1 and a small outlined '♥ Sponsor' button",
+      "feel": "Helpful, frictionless",
+      "ux": "Copy the snippet to use the hosted CSS (rsms.me/inter/inter.css) straight away; OFL link to the licence text; Sponsor links to GitHub Sponsors",
+      "learn": "For a free family, the best 'checkout' is the two lines of HTML and CSS a developer needs, with the @supports switch to the variable font included",
+      "reconstruction": {
+        "layout": "Two-column rows: label column ~330px (x≈66), content column from x≈400 ~800px wide; ~790px tall in total, ~120px between rows",
+        "typography": "Labels 14px SemiBold; body 14px Regular, leading ~1.5; code ~13px JetBrains Mono (jbmono) in plain text, no box",
+        "palette": [
+          "#fcfcfc",
+          "#000000",
+          "#d5d5d5",
+          "#e0201b"
+        ],
+        "behaviour": "none",
+        "content": "<link rel=preconnect>, <link rel=stylesheet href=…/inter.css>; :root { font-family: Inter; font-feature-settings: 'liga' 1, 'calt' 1 } @supports (font-variation-settings: normal) { :root { font-family: InterVariable } }; OFL 1.1 notice",
+        "assets": "Heart icon for the Sponsor button"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "05",
+        "06"
+      ],
+      "type": "type-tester",
+      "variant": "labelled-editable-lines",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "clean, witty, encyclopedic",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Every weight from Thin 100 to Black 900 as one editable line at ~144px ('Salient gazelle eyes', 'Internationalization', 'Botanica Francisco', 'Hamburgefonstiv'), each with a tiny grey style name left and weight number right; then the same for the italics ('Inorganic compound', '3 hours till midnight', 'United Martians'); then each weight again as a 2–3 line sentence at ~86px ('Chemistry is a physical science…', 'The Sicilian Defense is a chess opening that begins with 1.e4 c5')",
+      "feel": "Systematic, quietly humorous",
+      "ux": "Click any line to type; no toolbar. Three passes (roman lines, italic lines, multi-line sentences) show each weight at display and at paragraph-ish size",
+      "learn": "Give every weight its own phrase rather than one repeated pangram: the list reads like a stream of small facts, and the labels (name + number) teach the weight scale",
+      "reconstruction": {
+        "layout": "Three blocks of 9 rows each (~2040, 2040 and 2900px tall); 6-column r-grid: label cell (cols 1–2) and right-aligned number (cols 3..end) above a full-row sample; ~56px spacer between rows",
+        "typography": "Single-line samples ~144px InterVariable at wght 100…900 (italic block uses the true italic), letter-spacing −0.01em on light weights; multi-line samples ~86px, leading ~1.1, letter-spacing −0.005 to −0.007em; labels ~10px Regular grey (#b0b0b0)",
+        "palette": [
+          "#fcfcfc",
+          "#000000",
+          "#b0b0b0"
+        ],
+        "behaviour": "Each sample r-cell is contenteditable with spellcheck off; style set inline (font-weight:N)",
+        "content": "Varied factual or absurd phrases per weight (gazelles, millimeter waves, Botanica Francisco, 15 Mango Avenue, Stanley Kubrick, Jet Propulsion Laboratory, Padrón A Coruña)",
+        "assets": "none",
+        "html": "r-grid[columns=6] > r-cell.label (style) + r-cell.label.r (weight) + r-cell[span=row].example2.single-line|multi-line[contenteditable][style=font-weight:…]"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "specimen-showcase",
+      "variant": "editorial-in-use",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "bookish, neutral",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "'Example text, Regular': three justified-looking ragged columns of ~17px body text, an excerpt about the Pharos of Alexandria with italics and inline Greek, ending 'Excerpt from \"Lighthouses and Lightships\"'",
+      "feel": "Book-page calm",
+      "ux": "static",
+      "learn": "Show the text weight in real long-form prose with italics and a second script inline, not a lorem block",
+      "reconstruction": {
+        "layout": "Three columns ~400px each with ~50px gutters, from x≈66; ~1000px tall; small grey label above",
+        "typography": "~17px InterVariable Regular (text opsz), leading ~1.45, ragged right; italics for quotations; Greek words inline",
+        "palette": [
+          "#f3f3f3",
+          "#000000",
+          "#d4d4d4"
+        ],
+        "behaviour": "none",
+        "content": "Public-domain excerpt from 'Lighthouses and Lightships' (the Pharos of Alexandria, Sostratus, Ptolemy)",
+        "assets": "none",
+        "html": "p.label + div.columns.size1 > p"
+      }
+    },
+    {
+      "blocks": [
+        "08",
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "technical, reference",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "A chrome-yellow section 'Features' with a white 'altG16I' set with alternates at top right, then a ruled three-column table Feature | Off | On: each row a monospace tag chip (calt, dlig, tnum, frac, case, ccmp, sups, subs, sinf, dnom, numr, zero, ss01–ss08) with name and note, and the same sample twice; in the Off column the glyphs that will change are tinted darker; ends (in block 09) with a 'Listing of all features' in four columns of tags",
+      "feel": "Exhaustive, engineering manual",
+      "ux": "static: no toggles; Off and On are rendered side by side with font-feature-settings 0/1",
+      "learn": "Tint the characters a feature will affect in the 'off' sample: readers see where to look before comparing with 'on'",
+      "reconstruction": {
+        "layout": "~2550px tall yellow section; intro paragraph left (~480px) and the 'altG16I' showcase right (~144px); table under a 1px black rule: col 1 ~330px (tag + name + 11px description), cols 2 and 3 ~500px each; rows ~90–110px separated by hairlines",
+        "typography": "Tags ~11px JetBrains Mono in a pale chip; names ~13px Medium; samples ~36px InterVariable Regular, leading ~1.2; 'altG16I' ~144px white with cv01, cv03, cv04, cv08, cv10, cv11, ss01, ss02, dlig on",
+        "palette": [
+          "#fcd104",
+          "#d4b10b",
+          "#000000",
+          "#f8fafd"
+        ],
+        "behaviour": "none (static off/on pairs via inline font-feature-settings 'xxxx' 0 / 1)",
+        "content": "Feature-specific strings: '3*9 12:34 3–8 +8+x', '(SEMI)PER[M]ANE{N}T', '-> --> ==> <->', 'Difficult affine fjord', 'H2O SF6 H2SO4', 'WP0ACO9XSI1O12O9 Illegal busineß βeta', 'I'm not, uhm \"smol\"', 'ABC123+→' in circles and squares",
+        "assets": "none",
+        "html": ".feat-table > .feat-name (code tag + name + .small note) + .feat-example (off) + .feat-example (on), inline style font-feature-settings"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "precise, light-hearted",
+        "mobile": "adapts",
+        "subject": [
+          "alternates",
+          "features"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "Back on white, five topics each shown as two or three stacked display lines, default first then with alternates on: '1234567890' (alternative digits), 'Guillable ürá' ('Character variants is a mood'), 'Efficient after' (compact f and t), a tabular-figure block in mixed weights, 'Illusion A03 / Illusion A0̸3' (disambiguation), 'It's \"fun\" here, Möbius' ×3 (quote styles); each with a caption and a list of the tags used",
+      "feel": "Clear, a little playful",
+      "ux": "static: compare the lines vertically",
+      "learn": "Stack default and alternate versions of the same display line directly on top of each other, so the eye catches only the glyphs that change",
+      "reconstruction": {
+        "layout": "Rows separated by 1px grey rules, ~600–900px each: 2–3 sample lines full width, then a caption row: description (~330px) + 1–2 columns of tag lists",
+        "typography": "Samples ~140px (digits ~230px Bold) InterVariable Regular or Bold; tabular block mixes Thin to Black; captions 11px Regular; tags ~10px JetBrains Mono chips",
+        "palette": [
+          "#fafafa",
+          "#000000",
+          "#8e8e8e",
+          "#d2d2d2"
+        ],
+        "behaviour": "none",
+        "content": "Words chosen for the alternates: Guillable ürá, Efficient after, Illusion A03, It's \"fun\" here, Möbius; numeric strings for tnum",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "tool-like, exhaustive",
+        "mobile": "shrinks",
+        "coverage": "full",
+        "interaction": "select",
+        "metricsShown": true,
+        "namesOrUnicode": true
+      },
+      "look": "A green section headed 'Glyphs' in white: on the left a sticky inspector (toolbar with an 'Optical size' slider, 'Small opsz' and 'Details' switches, glyph name 'A' and 'U+0041', a small preview) above a canvas showing the selected glyph ~500px on white Cap height / x-height / Baseline lines; on the right a 10-column grid of 2,811 glyphs in hairline cells, grouped by base letter with every accented and Greek/Cyrillic look-alike next to it",
+      "feel": "Precise, tool-like, endless",
+      "ux": "Click a cell to load it into the inspector (URL hash #glyphs/<name>); drag opsz 14–32 or toggle Small opsz; 'Details' toggles construction details on the canvas; the inspector stays pinned while the ~19,000px grid scrolls; cells have a title tooltip with glyph name, code point and Unicode name",
+      "learn": "Order the grid by base letter, not by code point (A, Ä, Ã, …, Greek Α, Cyrillic А): it shows how far each letter's family extends, and the pinned inspector keeps the page usable at 2,800 glyphs",
+      "reconstruction": {
+        "layout": "Section ~19,000px tall, background #76d985. 'Glyphs' heading ~88px white at top left. Two halves: left 720px inspector, position sticky top ~48px (toolbar ~70px with controls left, name/unicode centre, a 72px preview cell right; canvas 720×720 below); right 720px glyph list, 10 columns of ~72px square cells, 1px dark green borders, selected cell inverted (black fill, white glyph)",
+        "typography": "Grid glyphs ~24px InterVariable Regular black; inspector glyph drawn on canvas ~500px; metric labels ~9px white; toolbar labels 11px; name and unicode 11px (unicode in JetBrains Mono)",
+        "palette": [
+          "#76d985",
+          "#6eca7c",
+          "#000000",
+          "#ffffff"
+        ],
+        "behaviour": "Click → select (class .selected, hash #glyphs/A), canvas redraw with metric lines; input[type=range][name=opsz] 14–32 step 0.1 sets --inspector-opsz; checkbox opsz-switch jumps to 14; checkbox show-details toggles outline/point details; CSS vars --inspector-wght 400 and --inspector-opsz 32 on the section; a disabled weight slider and style select exist in comments",
+        "content": "Full character set (2,811 glyphs) incl. Latin, Greek, Cyrillic, punctuation, arrows, enclosed forms, fractions, superiors",
+        "assets": "none (canvas-drawn glyph and metrics)",
+        "html": "#glyphs .glyph-grid > .inspector (.toolbar: .opsz-slider input[name=opsz], label.switch-button input[name=opsz-switch|show-details], .identification .name/.unicode, .preview; .canvas canvas) + .glyph-list .clipview .content > a[data-name][data-cp][title][href=#glyphs/…]"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "reference, plain",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": true
+      },
+      "look": "Beyond the capture limit (HTML and video only): 'Language support', 'Inter currently covers 147 scripts' [sic, languages], then language names one per line in narrow CSS columns under script headings Latin, Greek, Cyrillic",
+      "feel": "Dry, complete",
+      "ux": "static; the hero's '147 languages' link jumps here (#languages)",
+      "learn": "CSS multi-column with a fixed column width (12em) turns a long one-per-line list into a compact grid that reflows on any screen",
+      "reconstruction": {
+        "layout": "~1200px tall; heading and one-line intro, then div.columns style 'column-width:12em; column-gap:1em' across the page width; script names as h4 inside the flow",
+        "typography": "Heading ~33px SemiBold; names ~14px Regular, leading ~1.4; script headings 14px SemiBold",
+        "palette": [
+          "#ffffff",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Language names (Afrikaans … Zulu) grouped by script",
+        "assets": "none",
+        "html": "#languages > h2 + p + div.columns[style=column-width:12em;column-gap:1em] > h4 + names separated by <br>"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "language-support",
+      "variant": "multiscript-specimen",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "plain",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": true
+      },
+      "look": "Beyond the capture limit (HTML only): the basic alphabet of each script under a small label, Latin, Greek (ΑΒΓΔ… αβγδ…), Cyrillic (АБВГ… абвг…)",
+      "feel": "Neutral",
+      "ux": "static",
+      "learn": "Repeat the same alphabet block per script so coverage can be compared at one glance",
+      "reconstruction": {
+        "layout": "~1900px tall; one block per script: label then 4–5 alphabet lines",
+        "typography": "Alphabet lines in InterVariable Regular at display size (exact size not captured); labels small",
+        "palette": [
+          "#ffffff",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Upper- and lowercase alphabets of Latin, Greek and Cyrillic",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "story",
+      "variant": "faq-list",
+      "newVariant": true,
+      "variantDefinition": "Practical questions and answers about using the font (enabling features, CDN reliability, subsetting, customising defaults, contributing, contact, history) set as an open list of question headings with short linked answers; nothing collapses, each question has an anchor.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "helpful, developer",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "Beyond the capture limit (HTML only): 'Frequently Asked Questions' then 11 questions as small bold headings, each followed by a short answer with links (font-feature-settings, Figma's Advanced Type panel, pyftsubset, OpenType Feature Freezer, GitHub issues)",
+      "feel": "Generous support documentation",
+      "ux": "Each question has an id (#faq-using-features, #faq-cdn, #faq-subset …) for deep links; the nav's FAQ item jumps here",
+      "learn": "An open-source family's microsite doubles as its support desk: answer the five things people email about, with anchors you can paste in replies",
+      "reconstruction": {
+        "layout": "~900px; heading then questions in a two-column flow or single column (not captured), each h4 + paragraph",
+        "typography": "Heading ~33px SemiBold; questions 14px SemiBold; answers 14px Regular with underlined links; code terms in JetBrains Mono",
+        "palette": [
+          "#ffffff",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "How to enable features, CDN reliability, subsetting, customising default features, contributing, Inter in use, bug reports, contact, start date, old website, technical details",
+        "assets": "none",
+        "html": "h2 + h4#faq-… + p, repeated"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "minimal",
+        "mobile": "adapts",
+        "contains": [
+          "legal"
+        ]
+      },
+      "look": "Beyond the capture limit (HTML only): one line 'Inter is a trademark of Rasmus Andersson (RSMS)'",
+      "feel": "Bare",
+      "ux": "Link to the designer's site",
+      "learn": "An open-source font's footer can be just the trademark line",
+      "reconstruction": {
+        "layout": "Single line, ~180px band at the page end",
+        "typography": "~14px InterVariable Regular",
+        "palette": [
+          "#ffffff",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Trademark notice",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/product-landing",
+    "glyph-table/category-lines",
+    "checkout/free-download",
+    "type-tester/labelled-editable-lines",
+    "specimen-showcase/editorial-in-use",
+    "design-details/feature-index",
+    "design-details/feature-before-after",
+    "glyph-table/glyph-inspector",
+    "language-support/language-name-list",
+    "language-support/multiscript-specimen",
+    "story/faq",
+    "footer/slim-legal-bar"
+  ]
+}

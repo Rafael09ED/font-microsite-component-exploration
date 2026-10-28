@@ -1,0 +1,185 @@
+{
+  "slug": "larsenwork-com-monoid",
+  "extractedBy": "agent",
+  "summary": "Andreas Larsen's page for Monoid, an open-source coding font, set entirely in Monoid: a typed-on wordmark, a three-column grid of terse facts, and a settings form (alternates, line height, tracking, ligatures) that both restyles a long syntax-highlighted code preview below and builds the custom download. The whole page is essentially one code-playground plus build configurator.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "plain, developer",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "'Monoid' in bold dark-grey monospace at ~200px centred on white, 'Open Source Coding Font' in the oblique at ~50px directly underneath, nothing else",
+      "feel": "Quiet, terminal-like",
+      "ux": "The name and subtitle type themselves on letter by letter after load (blank screen, then 'Monoi', then 'Monoid' + subtitle within ~2s)",
+      "learn": "For a coding font, type the wordmark on like a terminal: the reveal itself says 'monospaced, for typing'",
+      "reconstruction": {
+        "layout": "~85vh white header, name and subtitle centred as a block ~730px wide, slightly above the middle",
+        "typography": "Name ~200px Monoid Bold, tight tracking, #2f2f2f; subtitle ~50px Monoid Italic (oblique), same colour, letter-spaced by the monospace grid",
+        "palette": [
+          "#fefefe",
+          "#2f2f2f",
+          "#d0d0d0"
+        ],
+        "behaviour": "Typewriter reveal: #h1load and #h3load overlays shrink to uncover the letters in steps (≈0.15s per character), the h3 after the h1",
+        "content": "Name and category only",
+        "assets": "none",
+        "html": "header > div > h1 'Monoid' + div#h1load; h3 'Open Source Coding Font' + div#h3load"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "terse, technical",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "A three-column grid of eight short fact cards in small Monoid: Concept, Features, Support, Monoisome, Ligatures (with the ligature list inline: <!-- -> => <=> == != && :: ¯\\_(ツ)_/¯ …), Media, Open Source, Readme; bold headings, one or two lines each, blue links",
+      "feel": "Like a README rendered as a page",
+      "ux": "Links to Font Awesome, Medium articles, GitHub issues, licence and readme",
+      "learn": "State a coding font's whole pitch as one-line specs (size it's hinted for, glyph count, ligatures listed in the font itself) in a grid instead of prose",
+      "reconstruction": {
+        "layout": "Content width ~1340px starting at x=64; 3 equal columns (~400px, 60px gutters); rows ~150px; each card = h2 then p",
+        "typography": "Headings ~18px Monoid Bold; body ~13px Monoid Regular, leading ~1.4, #2f2f2f; links blue; the Monoisome card shows Font Awesome icons rendered inline via the Monoisome font",
+        "palette": [
+          "#fcfcfc",
+          "#2f2f2f",
+          "#337ab7"
+        ],
+        "behaviour": "none",
+        "content": "'Monoid is customizable and optimized for coding with bitmap-like sharpness at 12px/9pt even on low res displays.' / '>750 latin, greek, cyrillic, ligature, alternate and Powerline glyphs'",
+        "assets": "none",
+        "html": "div.blabla > section > h2 + p (flexbox grid)"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "code-playground",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "developer, practical",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "leading",
+          "tracking",
+          "features",
+          "color",
+          "presets"
+        ],
+        "scope": "global",
+        "defaultText": "code",
+        "export": false
+      },
+      "look": "Under the fact grid, a 'Preview' card (Theme: White Light Dark Black; Example: test c py swift js less html) and the 'v0.61' settings form (Alternates $ 0 1 l, LineHeight XS S M L XL, Tracking Tight ½Tight Normal ½Loose Loose, Ligatures On Off) drive a full-width ~3000px dark code view: the Pango language sample table in C with orange strings and grey italic comments, ending in a 'Jump back up' link",
+      "feel": "An editor you already know",
+      "ux": "Click a theme to recolour the code view; click an example to swap the file (Swift, Python, JS, LESS, HTML, C); 'test' is an empty contenteditable editor ('Type or paste your own code here… characters with alternates: $ * 0 1 3 l'); alternate checkboxes, line-height and tracking radios and the ligature switch restyle the preview live and persist (garlic.js); a pink fixed alert warns that alternates and ligature-off previews fail in Safari/iOS; 'Jump back up' returns to #settings",
+      "learn": "Wire the download options and the preview to the same controls: the visitor sees their exact build (alternates, spacing, ligatures) in real code before downloading it",
+      "reconstruction": {
+        "layout": "Controls inside the grid's last row (Preview card in col 3, settings in col 1 with three blue buttons); code view full-bleed, ~3070px tall for the C example, 64px left padding, pre with natural line breaks; 'Jump back up' centred on white below",
+        "typography": "Controls ~13px Monoid, inactive options light grey, active underlined/dark; code ~12px Monoid Regular, comments Monoid Italic; syntax colours: strings orange, comments grey, keywords pale",
+        "palette": [
+          "#201f1d",
+          "#28231e",
+          "#1e1d1b",
+          "#d48b3f",
+          "#8a8378",
+          "#fcfcfc"
+        ],
+        "behaviour": "Theme spans set a class on #codewrapper (white/light/dark/black highlight.js themes); data-tab spans show one .code pane; checkboxes ss01/ss03/ss05/ss08 and radio calt/nocalt toggle font-feature-settings; lh and fw radios set line-height and letter-spacing steps; state saved by garlic.js (data-persist)",
+        "content": "Real code files (Async.swift by Tobias Due Munk, the Pango C language sample table with a pangram per language, Bootstrap HTML) plus an empty paste-your-own-code pane",
+        "assets": "highlight.js for pre-highlighted markup",
+        "html": "#themechooser > span#white|#light|#dark|#black; span.tabs > span[data-tab=test|ccode|python|swift|javascript|less|html]; form[data-persist=garlic] > input#ss01/#ss03/#ss05/#ss08[type=checkbox], input[name=lh] radios, input[name=fw] radios, input#calt/#nocalt; div#codewrapper > div.code#ccode > pre > code.hljs; div#test div#txt[contenteditable]; div#jump > a[href=#settings]; div#safari.alert"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "03"
+      ],
+      "type": "checkout",
+      "variant": "build-configurator",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "generous, nerdy humour",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "The 'v0.61' form (version number as heading) with tiny option rows and three small blue buttons: Download, Monoisome, GitHub; after Download, a full-screen modal (captured offscreen) shows a thank-you written as code: 'if (tweeted || facebooked) { gratitude += 1; } if (githubStarred) { karmaBalance = true; } else { $('we').say('ok'); }'",
+      "feel": "Friendly, in-joke for developers",
+      "ux": "The chosen alternates, line height, tracking and ligature setting select which pre-built variant zip Download fetches; Monoisome downloads the Font Awesome-merged TTF from GitHub; the post-download overlay links 'tweeted', 'facebooked', 'githubStarred' to share intents and the repo, × closes it",
+      "learn": "Ask for the share after the download, and phrase it in the audience's language (a code snippet): it reads as a wink rather than a nag",
+      "reconstruction": {
+        "layout": "Form in the grid's first column (~400px); option rows 18px apart with label then inline toggles; buttons 32px tall in a row; modal: full-viewport overlay with ~108px code text centred, × top-right",
+        "typography": "Heading 'v0.61' ~18px Monoid Bold; options ~13px; buttons ~12px white on blue; modal code ~108px Monoid Regular with link words underlined",
+        "palette": [
+          "#fcfcfc",
+          "#2f2f2f",
+          "#337ab7",
+          "#ffffff"
+        ],
+        "behaviour": "#download click → builds the URL of the matching pre-built zip from the checked options, starts the download and shows #postdownload; #close hides it",
+        "content": "Option labels are the glyphs themselves ($ 0 1 l) rather than feature names",
+        "assets": "none",
+        "html": "section#settings > h2 'v0.61' + form > span#dloptions … + span.noselect.default > a.button#download + a.button (Monoisome) + a.button (GitHub); div#postdownload > div#close + p"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/design-brief",
+    "type-tester/code-playground",
+    "checkout/build-configurator"
+  ]
+}

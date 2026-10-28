@@ -1,0 +1,143 @@
+{
+  "slug": "etna-marksimonson-com",
+  "extractedBy": "agent",
+  "summary": "A small multi-page site; only the intro page was captured: a yellow page whose hero is a mock 19th-century newspaper front page cut into three strips (headline, deck, body), each an autoplaying carousel that swaps in another Etna width, followed by a large lede that links to the History page. The History, Design and Features subpages were not archived.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Sticky yellow top bar: 'ETNA' wordmark in bold Etna (~40px) and the italic tagline 'A classic American type style revisited' on the left; small-caps brick-red links History · Design · Features · Buy on the right (Buy links out to marksimonson.com)"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "strip-mixer",
+      "newVariant": true,
+      "variantDefinition": "A typeset composition (e.g. a newspaper front page) cut into horizontal strips (headline, deck, body), each an independent carousel of alternatives set in other widths or styles that autoplays at its own interval and can be swiped or stepped with arrows, so the page keeps recombining like a flip-book.",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "historical, newspaper, wry",
+        "mobile": "adapts",
+        "carrier": "props",
+        "cta": "buy",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "On a lemon-yellow field, a white newspaper page ('EUROPEAN AFFAIRS · ALL VERSAILLES TROOPS NOW ENCIRCLING PARIS') bleeding off its right edge, cut into three strips with black round arrow buttons at both ends of each strip",
+      "feel": "Period-authentic, witty, tactile like flipping cards",
+      "ux": "The headline, deck and body strips each autoplay on their own timer (5.3s, 3.6s, 4.2s) and slide sideways to a version in another width or style; visitors can drag/swipe a strip or click its ← → arrows, so headline, deck and body recombine independently",
+      "learn": "Cut a typeset page into independent strips: each strip cycles through the family's widths, and the page never shows the same combination twice, showing how the widths pair up in a hierarchy",
+      "reconstruction": {
+        "layout": "Block 1120px wide centred (x=160), yellow background. A ~980px white newspaper sheet left-aligned at x≈220 and clipped on the right; three stacked carousels: headline strip 322px tall, deck strip 198px, body strip 346px. Round black arrow buttons (~22px) on the block edges, vertically centred on each strip. Lede paragraph below (separate instance)",
+        "typography": "Each slide is an SVG of set type: section label 'EUROPEAN AFFAIRS' ~13px bold caps over a hairline rule; headline 2 lines of caps ~110px in Etna Condensed / X Condensed / XX Condensed, tight leading (~1.0); deck ~50px in Etna regular roman or condensed italic ('Forces are Within One Kilometer of the…'), leading ~1.15; body ~17px Etna regular in 3 justified columns with a condensed caps side headline ('COAL SUSPENSION…'), dateline in small caps",
+        "palette": [
+          "#fbef6b",
+          "#f3f3f2",
+          "#d4d4d3",
+          "#000000",
+          "#403f3b"
+        ],
+        "behaviour": "Three Flickity carousels (#heds, #decks, #bodies), wrapAround, cellAlign left, draggable, no page dots, autoPlay 5300 / 3600 / 4200 ms, selectedAttraction 0.2, friction 1 (quick snappy slide); each strip holds 3 slides; prev/next buttons with a custom chevron arrowShape",
+        "content": "Mock 1871 Paris Commune newspaper copy (Versailles troops, Prussian trenches, 'COAL SUSPENSION'): period-themed headlines and running body text",
+        "assets": "Nine SVG slides (A1–A3 headlines, B1–B3 decks, C1–C3 bodies) of pre-set newspaper type; a torn-paper right edge",
+        "html": "figure#mixer > div.carousel#heds|#decks|#bodies[data-flickity] > .flickity-viewport > .flickity-slider > .carousel-cell > img.slide#A1…C3 (svg); visually hidden h1 with the title"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, scholarly",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Under the newspaper, a 4-line lede on yellow: bold 'ETNA' run-in, then 'is a reinterpretation of the ‘Aetna’ genre of typefaces that peaked in popularity as wood type in the 19th century…' ending in a red small-caps 'READ MORE ☞'",
+      "feel": "Calm, bookish",
+      "ux": "'Read more ☞' (with a manicule) links to the History subpage",
+      "learn": "A manicule ☞ in small caps is a period-appropriate 'read more' link that also shows off the font's small caps and dingbats",
+      "reconstruction": {
+        "layout": "Same 1120px column as the hero, text from x≈200 to ~1240, 4 lines, ~200px tall, hyphenated ragged-right",
+        "typography": "~36px Etna regular (normal width), leading ~1.4 (≈50px); run-in name in Etna bold caps; link in small caps (smcp) brick red with a ☞ manicule",
+        "palette": [
+          "#fbef6b",
+          "#403f3b"
+        ],
+        "behaviour": "none",
+        "content": "Real description: Etna reinterprets the 19th-century wood-type 'Aetna' genre for contemporary use",
+        "assets": "none",
+        "html": "p.lede > b + a.smcp.read_more > span.manicule"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "modest, studio",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal"
+        ]
+      },
+      "look": "A centred small-caps link row (Intro · History · Design · Features · Buy Etna) on yellow, then a charcoal band with the white Mark Simonson Studio script logo and a one-line '©2020 Mark Simonson. Website by Nick Sherman / HEX.'",
+      "feel": "Quiet, tidy",
+      "ux": "Repeats the page links at the bottom; logo links to the foundry home",
+      "learn": "Repeat the section links just above the footer so a multi-page specimen can be navigated without scrolling back up",
+      "reconstruction": {
+        "layout": "Full width; ~60px yellow strip with centred link row; ~290px charcoal band with logo (250px wide) centred and a single colophon line ~50px below",
+        "typography": "Links ~18px Etna small caps tracked, red, current page dark; colophon ~14px Etna regular, light grey with underlined names",
+        "palette": [
+          "#403f3b",
+          "#fdf26b",
+          "#fefaef"
+        ],
+        "behaviour": "none",
+        "content": "Section links, studio logo, copyright and site credit",
+        "assets": "Mark Simonson Studio logo SVG"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/strip-mixer",
+    "story/large-text-intro",
+    "footer/slim-legal-bar"
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "slug": "nn-swinton-world",
+  "extractedBy": "agent",
+  "summary": "Nouvelle Noire's Readymag promosite for NN Swinton, a variable grotesque (wght 1–999, slnt), told through a tongue-in-cheek AI-generated history of an invented Swiss designer 'Cram Zord', with mint-green duotone in-use photos. Hover makes the type move (titles swing to heavy italic, weight rows slant), a floating 3D checkmark ticks off the facts and figures, and the page ends with a giant 'END'.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "fresh, confident, Swiss",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "'Swinton' centred in black Medium on a flat mint field, with a three-line centred tagline ('Inspired by early American grotesques, crafted by a Swiss perfectionist, infused with a standardised spirit.') below, a vertical 'Introduction' label at the left edge and vertical NOUVELLE NOIRE / FREE TRIALS links at the right",
+      "feel": "Bright, clean, slightly cheeky",
+      "ux": "Hovering the name swings it to heaviest italic (wght 999, slnt max) with an anticipating cubic-bezier; hovering the tagline drops it to the thinnest weight (wght 1)",
+      "learn": "Hide the variable range behind hover on the hero itself: the first playful gesture reveals the axes without any slider",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×900 mint; name centred at y≈160–380; tagline centred block ~1100px wide at y≈510–720; 12px vertical labels in 30px rails at both edges",
+        "typography": "Name ~280px NN Swinton VF wght 500 slnt 0 (Readymag 200px × 1.406); tagline ~63px wght 500, leading ~1.2, centred; rail labels 12px caps rotated 90°",
+        "palette": [
+          "#01feb0",
+          "#040000",
+          "#06ce8f"
+        ],
+        "behaviour": "CSS transition on font-variation-settings, 0.3s cubic-bezier(0.6,−0.28,0.74,0.05): name → 'wght' 999, 'slnt' 100 on hover; tagline → 'wght' 1",
+        "content": "Name and positioning line",
+        "assets": "none",
+        "html": "Readymag code-injection widget with [data-id] p:hover span { font-variation-settings } rules"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "orderly, crisp",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": true
+      },
+      "look": "On black, two columns repeated over 11 rows, 'Swinton | Extra Black' down to 'Swinton | Extra Thin', each row in the weight it names, fading from heavy white to hairline; vertical 'Weights' label at the left",
+      "feel": "Calm, exhaustive",
+      "ux": "Hover a row and it slants to the italic (slnt 0 → 14, 0.1s) at the same weight",
+      "learn": "Make every weight row hover to its italic: the list shows 22 styles in the space of 11",
+      "reconstruction": {
+        "layout": "Columns at x≈140 (family) and x≈725 (weight name), rows at ~106px pitch, ~1.3 screens; the 'A human-made Typeface:' heading (mobile) is not visible in the desktop capture",
+        "typography": "~90px NN Swinton VF, wght 999, 900, 800, 700, 600, 500, 400, 300, 200, 100, 1; white on black",
+        "palette": [
+          "#070404",
+          "#ffffff",
+          "#717070"
+        ],
+        "behaviour": "Per-row hover → 'slnt' 14 via CSS variables --slnt1/--slnt2, transition 0.1s ease",
+        "content": "Family name and weight names",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "03",
+        "04",
+        "05",
+        "06"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "parody, fairy-tale",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "photo",
+          "illustration"
+        ],
+        "length": "medium"
+      },
+      "look": "'The sense of Magic' in huge black Extra Black Italic, a mint 'An AI-generated history:' subtitle, a centred lead ('Once upon a time … a brilliant Swiss designer named Cram Zord…'), then a B&W photo of a suited man holding a 'g' card beside two paragraphs, and an AI portrait of the invented designer with 'Observing the reactions from behind the scenes, Zord found immense joy…'",
+      "feel": "Knowing, humorous, mock-heroic",
+      "ux": "Static reading; the designer portrait is a canvas frame sequence (Readymag 'shots') whose expression changes as you scroll",
+      "learn": "Admit the fiction up front ('An AI-generated history') and use it to smuggle in real features (the quirky 'g' and 'k')",
+      "reconstruction": {
+        "layout": "Title fills the width (2–3 lines, ~400px cap height); centred lead column ~1100px; then photo ~420×420px at x≈115 and text column x≈560–1300; portrait half-width (720px) left with text at x≈770",
+        "typography": "Title ~560px Extra Black italic (wght 999 slnt 14), tight; subtitle ~95px mint same style; lead ~73px wght 500 centred; body ~22px wght 450 with first-line indent; portrait caption ~39px wght 450",
+        "palette": [
+          "#fafbfa",
+          "#060302",
+          "#01feb0"
+        ],
+        "behaviour": "Portrait frames advance with scroll (canvas image sequence); text static",
+        "content": "Invented biography of Cram Zord, 'inspired by American grotesk typefaces… a subtle nod in the lowercase g and a clandestine twist to the k'",
+        "assets": "AI-generated B&W portraits (frame sequence), vintage-style photo of a man holding a letter card"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "07",
+        "08",
+        "09"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "retro-urban, witty",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "series"
+      },
+      "look": "Mint-green duotone street photos with Swinton signage: a rooftop billboard 'I Love You Nork', a bus-stop poster 'Richard Gehrter — MAMU', a 'Lily's' storefront, a 'DOGZ'S delicatessen' fascia; from the second image on, each sits beside the B&W portrait of the invented designer",
+      "feel": "Mid-century New York, nostalgic, fake-documentary",
+      "ux": "Scroll through split screens: portrait left (frame sequence, changing expression), in-use photo right",
+      "learn": "Tint all in-use mockups in the brand colour so AI-generated scenes read as one consistent photo essay",
+      "reconstruction": {
+        "layout": "First image full-bleed ~1440×860; then four 50/50 split screens: portrait 720×900 left on grey, photo 720×900 right",
+        "typography": "Signage in NN Swinton weights (Bold billboard, Light vertical poster title, Thin shop lettering)",
+        "palette": [
+          "#04d18e",
+          "#043726",
+          "#adacad",
+          "#2e2e2e"
+        ],
+        "behaviour": "Portrait canvas updates with scroll (Readymag shots); photos static",
+        "content": "Puns on New York (Nork), fictional galleries and shops",
+        "assets": "AI-generated street photos with signage, duotoned to #01feb0/black; portrait frame sequence"
+      }
+    },
+    {
+      "blocks": [
+        "09",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "expert, playful",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "italics"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "On light grey, numbered design points, each a row of huge black glyphs with their Bézier points and handles drawn in white and the detail marked by mint discs: ① 'Aar' with a mint scissors icon ('Deep cuts assist legibility…'), ② 'Qke' ('Unexpected play with contrast reduces dark spots…'), ③ 'DRg' with a mint phone icon ('A standardized look combined with charming forms'), ④ 'Aa Bb Cc' upright with the mint italic overlaid ('Uprights and Italics share the same width')",
+      "feel": "Expert yet fun, like an annotated proof",
+      "ux": "static",
+      "learn": "Draw the outline points on the big glyphs and mark the one detail with a coloured disc plus a tiny pictogram (scissors for ink cuts): the explanation fits in one line",
+      "reconstruction": {
+        "layout": "~4 screens on #cfcfcf; each point: glyph row ~330px tall from x≈240, numbered caption below at x≈235 (mint numbered dot + 2 lines); vertical 'Design Features' label in the left rail",
+        "typography": "Glyphs ~420px NN Swinton Bold (wght ~700); captions ~25px Regular black; numbers in 18px mint discs",
+        "palette": [
+          "#cfcfcf",
+          "#040505",
+          "#07fdaf",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Four real design notes: deep ink cuts, contrast play, standardised-yet-charming forms, uprights and italics on the same width",
+        "assets": "Glyph outline SVGs with node/handle markers; mint scissors and phone pictograms"
+      }
+    },
+    {
+      "blocks": [
+        "12",
+        "13"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "clear, comparative",
+        "mobile": "adapts",
+        "subject": [
+          "alternates"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "Pairs of letters, default in black then alternate in mint: 'D D R R Q Q / a a g g u u'; then a legend '● Default Styles ● Stylistic Alternates' over the same paragraph set twice side by side, once with defaults and once with all stylistic sets on",
+      "feel": "Simple, immediate",
+      "ux": "static",
+      "learn": "Colour the alternate and put it right after the default, then repeat a paragraph with all sets on so the overall texture change shows too",
+      "reconstruction": {
+        "layout": "Glyph pairs ~250px across the width (x≈60–1340), two rows; legend row at x≈235; two text columns ~430px each at x≈290 and x≈730",
+        "typography": "Pairs ~300px NN Swinton Medium; legend ~25px; paragraphs ~17px Regular, right column with 'ss01'–'ss11' on",
+        "palette": [
+          "#cfcfcf",
+          "#050505",
+          "#07fdaf"
+        ],
+        "behaviour": "none",
+        "content": "Story-themed paragraph ('Swinton became his hidden treasure…') in both settings",
+        "assets": "none",
+        "html": "code-injection: font-feature-settings 'ss01'…'ss11' on the right paragraph"
+      }
+    },
+    {
+      "blocks": [
+        "14",
+        "15",
+        "16",
+        "17",
+        "20",
+        "21"
+      ],
+      "type": "family-overview",
+      "variant": "big-number-stats",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "proud, punchy",
+        "mobile": "adapts",
+        "structure": "stats",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "'Facts and Figures' on black: '2 Styles, 11 Weights' over a two-column weight table (wght values 999…1 in mint, 'AaBbCc Extra Black' / 'AaBbCc Extra Black Italic', '14\"' sizes), '94 Latin Languages', '.otf .woff2 .ttf' with mint captions, a giant '739' and 'Glyphs in the Character set*', and finally '1 Variable Font' in black on mint; a glossy green 3D checkmark floats over each figure",
+      "feel": "Celebratory, checklist-like",
+      "ux": "The 3D checkmark stays in place (sticky canvas) while each statistic scrolls under it",
+      "learn": "Turn the spec sheet into a checklist: giant numbers plus one persistent 3D tick makes every fact feel like a feature ticked off",
+      "reconstruction": {
+        "layout": "~4 screens; each stat starts at x≈160 in two lines ~230px tall; weight table: wght column at x≈180 (mint 12px), upright samples x≈290, italics x≈735, size column right; formats in three columns; '739' ~600px wide figure; checkmark ~400px centred at x≈720",
+        "typography": "Stats ~185px NN Swinton wght 600–700 white; weight rows ~31px in their weights; captions 15px mint; '739' ~560px; '1 Variable Font' ~190px Extra Black italic black",
+        "palette": [
+          "#060303",
+          "#ffffff",
+          "#01feb0",
+          "#55b56b"
+        ],
+        "behaviour": "3D checkmark rendered on a 512×512 canvas (Readymag shots), full-height sticky; no counters",
+        "content": "Real figures: 2 styles, 11 weights, 94 Latin languages, 3 formats, 739 glyphs, 1 variable font",
+        "assets": "3D glossy green checkmark render (frame sequence)"
+      }
+    },
+    {
+      "blocks": [
+        "15",
+        "16"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "reference",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": false
+      },
+      "look": "Under '94 Latin Languages', seven columns of small white language names (Afrikaans … Zulu) on black",
+      "feel": "Dry, complete",
+      "ux": "static",
+      "learn": "Keep the full list under the big number so the claim and the proof sit together",
+      "reconstruction": {
+        "layout": "7 columns ~165px from x≈150, ~16 rows at ~20px",
+        "typography": "~14px NN Swinton Regular white",
+        "palette": [
+          "#060303",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Alphabetical Latin-script language names",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "technical, tidy",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "tabs",
+        "metricsShown": false,
+        "namesOrUnicode": true
+      },
+      "look": "On black, a mint/grey switch 'NN Swinton STD ⟷ NN Swinton (Basic)' above a dense white grid grouped under mint headings (Uppercase, Lowercase, Ligatures, Figures, Fractions, Punctuation & Symbols, Arrows, Sub/Superscript, Case Sensitive Forms, Stylistic Sets ss01–ss11), each glyph over a tiny mint Unicode or feature tag",
+      "feel": "Precise, reference-grade",
+      "ux": "The switch flips between the standard and basic character sets; the switch stays at the top while the grid scrolls",
+      "learn": "Tag alternates and figure variants with their feature code (onum, tnum, ss05) under the glyph, so the grid documents how to access them",
+      "reconstruction": {
+        "layout": "Grid from x≈120 to x≈1340, CSS grid repeat(auto-fill, minmax(32px,1fr)) scaled (~48px cells), 1px gap; category headings 13px mint with ~30px space above; switch ~90×30px centred",
+        "typography": "Glyphs ~26px NN Swinton Regular white; codes ~7px mint; headings ~13px mint Medium",
+        "palette": [
+          "#070504",
+          "#ffffff",
+          "#01feb0",
+          "#8f8e8e"
+        ],
+        "behaviour": "Toggle shows/hides the STD or Basic grid",
+        "content": "739-glyph STD set incl. sups/subs/numr/dnom, case forms, circled figures, arrows and 11 stylistic sets",
+        "assets": "none",
+        "html": "code-injection .grid { display:grid; grid-template-columns: repeat(auto-fill,minmax(32px,1fr)); } with .code/.feature labels under each glyph"
+      }
+    },
+    {
+      "blocks": [
+        "21",
+        "22"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "loud, friendly",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": true,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "'Get your stuff!' on light grey: two white pills 'BUY' and 'PDF', then a full-width pill 'FREE TRIALS', each in black Heavy caps with a small caption ('Get fonts from 60.— CHF at nouvellenoire.ch', 'Family overview, sample texts, character set, OT features', 'Get trial fonts…')",
+      "feel": "Direct, generous",
+      "ux": "Hovering a pill slants its label (slnt 0 → 14) and fades it to mint over 0.5s; links go to the shop, the PDF specimen and the trial page",
+      "learn": "Let the CTA hover use the font's own axis (slant) instead of a colour-only state",
+      "reconstruction": {
+        "layout": "Two pills ~640×150px (radius 75px) at x≈70 and x≈735; third pill ~1250×185px centred; captions 15px centred below each",
+        "typography": "Labels ~197px NN Swinton wght 800 caps (Readymag 140px); captions 15px Light",
+        "palette": [
+          "#cecece",
+          "#ffffff",
+          "#090909",
+          "#00ffae"
+        ],
+        "behaviour": "a:hover → font-variation-settings 'wght' 800, 'slnt' 14, colour keyframe to #00FFAE (0.5s forwards); transition 0.15s ease-in",
+        "content": "Buy (from 60 CHF), PDF specimen, free trials",
+        "assets": "none",
+        "html": "code-injection <a> inside fixed-size widgets, CSS a:link / a:hover with font-variation-settings"
+      }
+    },
+    {
+      "blocks": [
+        "22",
+        "23"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "warm, cheeky",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "'Thank you …' in ExtraBold then two columns of bolded names with jokey reasons: 'Chat GPT and Stable Diffusion for creating the charming story', 'Edgar Walthert for … mastering and hinting', 'Cram Zord for being the best imaginary type designer in history', 'The world', 'The internet'",
+      "feel": "Grateful, self-ironic",
+      "ux": "static",
+      "learn": "Write the credits as thank-you sentences with the names in bold: more readable and more human than a role list",
+      "reconstruction": {
+        "layout": "Heading at x≈105; two columns at x≈105 and x≈720, ~560px wide, entries ~130px apart; grey then white background",
+        "typography": "Heading ~53px wght 800; entries ~28px wght 450 with names in Bold",
+        "palette": [
+          "#cecece",
+          "#fcfcfc",
+          "#090909"
+        ],
+        "behaviour": "none",
+        "content": "Credits including the AI tools used for imagery and story",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "23",
+        "24"
+      ],
+      "type": "footer",
+      "variant": "big-sign-off",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "cinematic, ironic",
+        "mobile": "adapts",
+        "contains": [
+          "sign-off",
+          "legal",
+          "contact"
+        ]
+      },
+      "look": "'END' in giant black Extra Black across the full width, with the small line '…of this promosite but the beginning of a new era in type history.', then a black legal bar: AI-imagery disclosure, Nouvelle Noire address, directors, register",
+      "feel": "Film-credits ending, tongue-in-cheek",
+      "ux": "static",
+      "learn": "Close a story-driven page like a film: a single giant 'END' plus a wink in small type",
+      "reconstruction": {
+        "layout": "'END' ~1260px wide from x≈90, ~560px tall; caption 15px at x≈90 under it; legal bar ~200px black with three columns (x≈120, 750, 1010)",
+        "typography": "'END' NN Swinton wght 999 caps; caption and legal ~13–15px Regular",
+        "palette": [
+          "#fcfcfc",
+          "#050101",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "'NN Swinton is a human-made sans serif type family… The imagery and story shown on this microsite were created with Chat GPT and Stable Diffusion…' © 2023",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "25"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Fixed vertical rail at the right edge with rotated links NOUVELLE NOIRE, BUY FONTS (mint) and FREE TRIALS; each section also carries a rotated label at the left edge (Introduction, Weights, Story, Design Features, Facts and Figures, Character Set, Get your stuff!). The fixed layer's HTML holds the whole Readymag page.",
+      "feel": "Discreet, editorial",
+      "ux": "Rails stay visible on every screen; links go to nouvellenoire.ch",
+      "learn": "Rotated edge rails keep navigation and section names present without taking any width from full-bleed type",
+      "reconstruction": {
+        "layout": "Right rail ~30px wide at x≈1395, three links spaced along the height; left section labels at x≈20, top-aligned per section",
+        "typography": "~12px caps tracked, rotated 90°",
+        "palette": [
+          "#040000",
+          "#01feb0"
+        ],
+        "behaviour": "Hover animation on rail links (has-onhover-animation)"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "family-overview/style-word-grid",
+    "story/essay",
+    "specimen-showcase/in-use-mockups",
+    "design-details/annotated-specimen",
+    "design-details/feature-before-after",
+    "family-overview/big-number-stats",
+    "language-support/language-name-list",
+    "glyph-table/full-grid",
+    "checkout/link-out-cta",
+    "footer/credits-colophon",
+    "footer/big-sign-off"
+  ]
+}

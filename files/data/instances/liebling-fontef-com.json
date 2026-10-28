@@ -1,0 +1,178 @@
+{
+  "slug": "liebling-fontef-com",
+  "extractedBy": "agent",
+  "summary": "A right-to-left Hebrew/Latin microsite by Fontef for Liebling, a geometric family inspired by the International Style and 1930s functional graphics in Tel Aviv. A fixed full-screen playground of big draggable letters in Bauhaus primaries keeps reshuffling behind the page, then an editable article about the White City (each paragraph with tiny size/weight/alternate cyclers), a 363-glyph grid and a short info box with specimen and buy buttons.",
+  "instances": [
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "hero",
+      "variant": "interactive-specimen",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "Bauhaus, playful, constructivist",
+        "mobile": "adapts",
+        "carrier": "glyph",
+        "cta": "scroll",
+        "rangeShown": "whole-family",
+        "navVisible": false
+      },
+      "look": "Fixed full-screen white stage (no crop; seen in the video and HTML) with eleven giant Hebrew and Latin letters (A, ת, R, V, ש, ב, פ, O, ח…) in red, blue, yellow, grey, black and outline, each at a random size, weight, alternate and rotation, overlapping like a 1930s poster; the name 'ליבלינג' with a one-line description and a ↓ arrow at the right edge; a round Fontef 'פ' logo fixed top-right",
+      "feel": "Energetic, modernist, toy-like",
+      "ux": "Letters can be dragged anywhere; each letter has five hidden controllers (alternate, weight, size, rotation, colour) that cycle its classes; the composition reshuffles itself repeatedly in the video until the visitor scrolls on",
+      "learn": "Randomise style, weight, size, rotation and colour per letter from a fixed set of classes: a few big draggable glyphs make an endless series of constructivist posters",
+      "reconstruction": {
+        "layout": "position:fixed 1440×900 stage behind the page; letter blocks absolutely positioned (random left/top), z-index random; letter sizes in 3 steps (~150, ~300, ~550px); info text block ~260px wide at the right, vertically centred",
+        "typography": "Letters in Liebling at weight classes 1–7, alternates 1–3 (ss01/ss02), rotation classes 1–10, colour classes 1–5; info: name ~24px bold, text ~13px, right-aligned (RTL)",
+        "palette": [
+          "#ffffff",
+          "#c9252c",
+          "#3d5ca8",
+          "#f2c94c",
+          "#9b9b9b",
+          "#000000"
+        ],
+        "behaviour": "jQuery UI draggable per .letter-block; .letter-control > a.variant/weight/size/rotation/color-controller cycle the corresponding class on click; .playground.randomize re-rolls positions and classes on a timer (inferred from the video: a new composition roughly every second at load); the stage fades as content scrolls over it",
+        "content": "Single glyphs from both scripts plus the family description in Hebrew",
+        "assets": "none (live font)",
+        "html": ".playground.randomize > .content-wrap > article > h2 + p; .letter-block.ui-draggable[style=left,top,z-index] > span.letter.variant-N.weight-N.size-N.rotation-N.color-N > span.scale-wrap + .letter-control > a.controller ×5"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "type-tester",
+      "variant": "in-context-editable",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "editorial, architectural",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "weight",
+          "style-select"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A long right-to-left article 'הסגנון הבינלאומי' (The International Style) in black on white: a bold two-line headline, a large light lead, two-column body, a subhead 'The International Style in Israel', an English section on UNESCO and the White City of Tel Aviv, a medium paragraph, a huge thin pull quote about thousands of buildings in the 1930s–40s, small three-column notes and a bold closing paragraph",
+      "feel": "Calm, magazine-like, rooted in place",
+      "ux": "Every element is editable; hovering shows a tiny controller beside it: a size number (72, 36, 16 pt…), a 'פ' set in the current weight and an 'א' in the current alternate, each clicked to cycle size, weight (1–7) or alternate (1–3)",
+      "learn": "Turn a real article into the tester: each paragraph keeps its role in the layout but gets one-click cyclers for size, weight and alternate, labelled with a glyph shown in that very setting",
+      "reconstruction": {
+        "layout": "Content column ~900px right-aligned within 1152px (RTL), ~2144px tall; 11 stacked elements: h1, lead, two-column p, h2, two-column p, Latin h2, two-column English p, p, pull quote, three-column p, bold p; controller (3 small links) floated beside each element on hover",
+        "typography": "h1 96px weight 4 (bold), lead ~36px weight 2 light, body 16px, pull quote ~72px weight 1 thin, closing paragraph ~24px weight 7; English set in Liebling's Latin; size classes font-size-1…6 map to pt labels (e.g. 72, 36, 16)",
+        "palette": [
+          "#f9f9f9",
+          "#000000",
+          "#d7d7d7"
+        ],
+        "behaviour": "contenteditable on each .element; click a.size-controller / a.weight-controller / a.variant-controller to step data-font-size, data-weight, data-variant and swap the matching classes (variant = stylistic sets ss01/ss02)",
+        "content": "Real article on the International Style and Tel Aviv's White City, Hebrew with an English section",
+        "assets": "none",
+        "html": ".test-drive > .test-wrap > .test-element > (h1|h2|p).element.font-size-N.weight-N.variant-N[contenteditable][data-font-size][data-weight][data-variant] + .test-drive-controller > a.size-controller + a.weight-controller.weight-N + a.variant-controller.variant-N"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "orderly, neutral",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'מערכת תווים' (character set): a hairline grid of 363 cells running right to left: the Hebrew alphabet and final forms, dagesh and shin/sin dot variants, nikud marks, figures, fractions, punctuation, ₪ € $, maths signs, eight arrows, then accented Latin capitals and lowercase",
+      "feel": "Methodical, complete",
+      "ux": "static",
+      "learn": "For a bilingual family, run the grid in the primary script's direction and put the nikud combinations right after the base letters",
+      "reconstruction": {
+        "layout": "Grid ~760px wide (10 columns of ~76×100px cells) right-aligned under a small heading, ~3110px tall, 1px #d2d2d2 cell borders",
+        "typography": "Glyphs ~40px Liebling Regular centred; heading ~14px bold",
+        "palette": [
+          "#fafafa",
+          "#000000",
+          "#d2d2d2"
+        ],
+        "behaviour": "none",
+        "content": "Full character set",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, concise",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "Small right-aligned info box: 'ליבלינג', a three-line description (seven weights, three styles, full nikud, superior and inferior figures, arrows; developed for the White City Center's Liebling programme) and two outlined pill buttons 'הורידו את הספסימן' (download the specimen) and 'רכשו את ליבלינג בפונטף' (buy Liebling at Fontef)",
+      "feel": "Understated",
+      "ux": "PDF specimen download and a link out to the Fontef shop",
+      "learn": "End with two equal pills, specimen and buy: the free PDF gives hesitant visitors a next step too",
+      "reconstruction": {
+        "layout": "~190px block at the end of the content column, right-aligned; buttons inline with ~8px gap",
+        "typography": "Name ~24px bold, text ~14px leading 1.4, buttons ~13px bold in 1.5px outlined pills (radius 999px)",
+        "palette": [
+          "#fdfdfd",
+          "#000000",
+          "#8b8b8b"
+        ],
+        "behaviour": "none",
+        "content": "Real product facts",
+        "assets": "liebling-specimen.pdf",
+        "html": ".info > .info-wrap > h2 + p + p > a.button.specimen-link + a.button[href=//fontef.com/liebling-pro/]"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/interactive-specimen",
+    "type-tester/in-context-editable",
+    "glyph-table/full-grid",
+    "checkout/link-out-cta"
+  ]
+}

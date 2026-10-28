@@ -1,0 +1,839 @@
+{
+  "slug": "calhern-frostype-xyz",
+  "extractedBy": "agent",
+  "summary": "FROST's film-poster specimen for Calhern, a 78-style grotesk from Condensed to Wide (named after actor Louis Calhern): a pinned, skippable scroll-driven title sequence, film posters with a hover style inspector, pointer-driven axis tiles, a movie-poster editor with style pickers, colour and image upload, editable credit-block samples, a sticky technical sidebar with glyph metrics and a trial sign-up. The capture stops at 30000px; everything after the VHS strip was read from the HTML, the video and the mobile capture.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12"
+      ],
+      "type": "intro-animation",
+      "variant": "title-sequence",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "cinematic, stark, filmic",
+        "mobile": "adapts"
+      },
+      "look": "White on black, like film opening titles: 'CALHERN' in condensed black caps filling the width; then 'A / TYPEFACE / OF / EXTREMES' builds word by word in a centred stack (the 'A' thinning to a hairline skeleton); a single 'A' swells from condensed to a huge wide black 'A'; corner captions appear in wide caps ('TYPEFACE BY FROST', '78 STYLES 13 WEIGHTS +ITALICS', 'CONDENSED STANDARD WIDE'); finally a film billing block ('STARRING STERLING HAYDEN AND LOUIS CALHERN … DIRECTED BY JOHN HUSTON') sits under the A",
+      "feel": "Cinematic, dramatic, monumental",
+      "ux": "Pinned for ~11 screens of scroll; a thin progress line grows along the bottom with 'SKIP INTRO'; a scroll prompt icon at first; the fixed 'A TYPEFACE BY FROST' / 'BUY CALHERN' bar stays on top",
+      "learn": "Stage the family's range as an opening-credits sequence scrubbed by scroll, with a 'Skip intro' progress bar so impatient visitors can jump straight to the content",
+      "reconstruction": {
+        "layout": "Pinned 100vh stage; wordmark ~1400px wide × ~350px cap height centred; word stack centred ~130px per line; giant 'A' up to ~1300px wide; corner captions 3 lines each at top-left, top-centre, top-right ~40px from edges; progress bar 1px line at bottom-left (width % of progress) with 'SKIP INTRO' at its end",
+        "typography": "Wordmark ~432px FT Calhern Condensed Black caps; stack words ~100px Condensed (Regular→Black, the A from Skeleton to Black); captions ~22px FT Calhern Wide Black caps, tight leading; billing block condensed caps ~10–14px in film-credit style; UI ~11px caps",
+        "palette": [
+          "#030303",
+          "#fafafa",
+          "#525252",
+          "#909090"
+        ],
+        "behaviour": "GSAP ScrollTrigger pins intro_section_1–3; trigger_1…5 divs step the frames (words fade in, font-variation on the A, Lottie 'introLottie' 1157×680 morphing the A from condensed to wide); .intro_progress_bar width tracks progress (e.g. 51%); 'Skip Intro' scrolls past the pin; background grey fade between frames",
+        "content": "Name, 'A typeface of extremes', style counts and a film billing block referencing The Asphalt Jungle (John Huston, Louis Calhern)",
+        "assets": "Lottie animation of the A width morph; scroll-prompt SVG",
+        "html": "div.smooth (fixed) > div.desktop.intro > div.intro_progress (intro_prompt, intro_progress_bar_wrapper > intro_progress_bar, intro_skip_wrapper) + intro_section_1 / intro_section_2 (triggers 1–5, intro_section_2_text_N with font-variation-settings) / intro_section_3 (#introLottie)"
+      }
+    },
+    {
+      "blocks": [
+        "34"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed transparent top bar: 'A TYPEFACE BY FROST' in small caps at the left and a white rounded 'BUY CALHERN' pill at the right (black pill on white sections)"
+    },
+    {
+      "blocks": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "cinephile, graphic",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "illustration"
+        ],
+        "length": "short"
+      },
+      "look": "'THE INFLUENCE OF FILM' in tall condensed caps beside a short paragraph, surrounded by staggered film posters re-set in Calhern (Rogue One in tan and black, Pulp Fiction in orange, a gun-toting Bruce Willis poster with billing block, Dune in tan); the background flips from black to white and back",
+      "feel": "Cinephile, punchy, poster-wall",
+      "ux": "Posters stagger and drift with scroll; background colour switches per section trigger",
+      "learn": "Explain the influence by re-setting famous film posters in the new typeface: the reference and the proof in one image",
+      "reconstruction": {
+        "layout": "12-col grid: poster column at cols 1–5 (~560px) and heading + paragraph + second poster at cols 7–12; posters offset vertically (poster_stagger), ~560×830px each",
+        "typography": "Heading ~100px FT Calhern Condensed Regular caps, leading ~0.95; paragraph ~16px FT Calhern Regular",
+        "palette": [
+          "#040404",
+          "#f7f7f4",
+          "#75694f",
+          "#f9f9f8"
+        ],
+        "behaviour": "section_N_trigger elements toggle the page background (black/white); posters translate on scroll",
+        "content": "Real positioning copy: 'Calhern is a typeface influenced from the variety of typography found in film posters and title sequences…'",
+        "assets": "Re-designed film posters (Calhern_Poster_01–09.png) with high-contrast duotone photos",
+        "html": "div.section_1 > div.grid_12 > div.g12_1_5 > img.poster_stagger_1 + div.inner_grid_6.g12_7_6 > p.h1 + p.p1 + img"
+      }
+    },
+    {
+      "blocks": [
+        "16",
+        "17"
+      ],
+      "type": "design-details",
+      "variant": "hover-css-inspector",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "tool-like, cinematic",
+        "mobile": "adapts",
+        "subject": [
+          "features"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "The Dune poster twice: the finished tan poster on the left and a grey wireframe copy on the right with a 'Hover Around Poster' prompt; below, ruled detail boxes labelled 'Condensed Bold' ('WINNER BEST PICTURE 1994 / CANNES FILM FESTIVAL' with laurels, 'PULP FICTION') and 'Condensed Light' (a full film billing block with 'MIRAMAX')",
+      "feel": "Forensic, design-tool",
+      "ux": "Hovering text on the wireframe poster lights it up and the cursor becomes a small preview showing an 'A' in that style plus the style name ('Hover over some text'); on mobile 'Tap Poster'",
+      "learn": "Let visitors hover the parts of a real layout to learn which style set each line: the poster becomes a style inspector",
+      "reconstruction": {
+        "layout": "Two posters ~440×600px at cols 3–6 and 7–10; prompt icon + caption under the right one; detail boxes in a 2-up row then a full-width row, each with a 12px label top-left and hairline dividers",
+        "typography": "Poster text in FT Calhern Condensed (Bold, Light) and Wide; labels ~12px FT Calhern Regular; cursor preview 'A' ~40px",
+        "palette": [
+          "#020202",
+          "#6d6d6d",
+          "#515151",
+          "#ffffff"
+        ],
+        "behaviour": "SVG poster with hoverable text groups → .poster_cursor_container follows the pointer, .poster_cursor_preview 'A' switches font-family and .poster_cursor_label shows the style name",
+        "content": "Dune, Pulp Fiction and generic billing-block copy",
+        "assets": "Interactive SVG wireframe poster; detail SVGs (Section_2_1.svg, Section_2_2.svg, Film_Credits.svg)",
+        "html": "div.hover_poster_static + div.hover_poster_interact > div.interactive_poster > svg; div.poster_cursor_container > p.poster_cursor_preview + p.poster_cursor_label; div.display_box_wrapper > div.display_box > p.p2 + img"
+      }
+    },
+    {
+      "blocks": [
+        "18",
+        "19",
+        "24",
+        "25"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "assertive, explanatory",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "illustration"
+        ],
+        "length": "short"
+      },
+      "look": "Two headline-and-paragraph spreads in tall condensed caps: 'A TYPEFACE OF EXTREMES / SPLIT INTO THREE SUB FAMILIES' (78 styles, 3 widths × 26 styles, skeleton to black) on black then white, and 'A FLEXIBLE GROTESK SANS' beside a 'snatch' poster with a paragraph on what each sub-family is for",
+      "feel": "Bold, clear, poster-like",
+      "ux": "Headings slide in; background flips black/white with scroll",
+      "learn": "State each sub-family's job (Condensed fits text in tight areas, Wide fills space for logotypes, Standard is neutral) as a short brief beside a poster that uses it",
+      "reconstruction": {
+        "layout": "Two half-width columns: heading stack at cols 1–6 and 7–12 (~100–150px lines), paragraph ~520px wide under the right heading",
+        "typography": "Headings ~130px FT Calhern Condensed Regular caps, leading ~0.9; paragraphs ~16px FT Calhern Regular",
+        "palette": [
+          "#020202",
+          "#fdfdfd",
+          "#b2b2b0"
+        ],
+        "behaviour": "Scroll-triggered background switch and slide-in",
+        "content": "Real structure facts and per-sub-family purposes",
+        "assets": "Film poster images"
+      }
+    },
+    {
+      "blocks": [
+        "19",
+        "20",
+        "25",
+        "26"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "cinephile, retro",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "series"
+      },
+      "look": "A strip of film posters re-set in Calhern running edge to edge (Pulp Fiction in orange, a tan 'Brilliant… a brakeless freewheel' poster, 'snatch', a hooded figure, 'The French Dispatch', 'Rogue One'), plus a large 'snatch' and an 'Ocean's'-style cast poster with billing blocks",
+      "feel": "Cinema lobby, collectible",
+      "ux": "The strip slides sideways as you scroll",
+      "learn": "Pastiche a whole genre (film one-sheets) so every condensed and wide style appears where it historically belongs",
+      "reconstruction": {
+        "layout": "Horizontal strip of ~320×470px posters with 30px gaps, overflowing both edges; larger posters ~420×620px elsewhere",
+        "typography": "Poster titles in FT Calhern Wide Black/Condensed Black; billing blocks in Condensed Light/Regular caps",
+        "palette": [
+          "#fdfdfd",
+          "#766a50",
+          "#52514e",
+          "#323231"
+        ],
+        "behaviour": "Scroll-linked translateX of the strip",
+        "content": "Real film titles and fake billing blocks",
+        "assets": "~10 poster images with duotone photography"
+      }
+    },
+    {
+      "blocks": [
+        "20",
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "bold, declarative",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "none"
+      },
+      "look": "One white line on black, pinned while it slides from right to left across five screens: 'CALHERN IS SET IN 78 STYLES FROM CONDENSED TO STANDARD TO WIDE', each key word set in the width it names (condensed caps, bold condensed, standard, then very wide)",
+      "feel": "Cinematic, emphatic",
+      "ux": "Vertical scroll drives the horizontal movement (pinned)",
+      "learn": "Set each width's name in that width inside one sentence and scroll it sideways: reading the sentence walks the width axis",
+      "reconstruction": {
+        "layout": "Pinned 100vh; single line ~120px tall vertically centred, max-width 1380px wrapper translated horizontally over ~4500px",
+        "typography": "~150px caps: 'CALHERN IS SET IN 78 STYLES FROM' in Condensed Regular, 'CONDENSED' Condensed Black, 'TO' Condensed, 'STANDARD' Calhern Black, 'WIDE' Calhern Wide Black",
+        "palette": [
+          "#020202",
+          "#f4f4f4"
+        ],
+        "behaviour": "ScrollTrigger pin + scrub translateX on .horizontal_text_wrapper",
+        "content": "Real claim: 78 styles from condensed to wide",
+        "assets": "none",
+        "html": "div.horizontal_text_wrapper.h1"
+      }
+    },
+    {
+      "blocks": [
+        "27",
+        "28",
+        "29"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "technical, cool",
+        "mobile": "adapts",
+        "subject": [
+          "axes",
+          "italics"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "Ruled tiles on black: 'Weight : 100' with a tall condensed 'A', 'Width : 100' with an 'H', and '10˚ Italic Axis', each with a small 'Move Cursor' prompt icon",
+      "feel": "Instrument-like, minimal",
+      "ux": "Moving the pointer across a tile drives that axis on the glyph and the label's number updates (Weight: 100…); on mobile a 'Device Motion' toggle maps phone tilt to the axis",
+      "learn": "Give each axis its own glyph tile driven by the pointer (or device tilt on phones), with a live numeric label: no sliders needed",
+      "reconstruction": {
+        "layout": "Two-column ruled grid, each tile ~690×520px, 12px label top-left, glyph centred ~300px tall, prompt icon + 'Move Cursor' caption under the glyph",
+        "typography": "Glyphs ~300px 'Axis Variable' / Calhern Variable (wght, wdth); labels ~12px with tabular numbers (tnum)",
+        "palette": [
+          "#020202",
+          "#fdfdfd",
+          "#6f6f6f"
+        ],
+        "behaviour": "pointermove over tile → font-variation-settings wght or wdth on .sample_interact_weight / .sample_interact_width, label .tab shows the value; mobile .motion_toggle enables DeviceOrientation control",
+        "content": "Single glyphs A and H",
+        "assets": "Italic axis SVG illustration; cursor prompt SVGs",
+        "html": "div.display_box > p.p2 (Weight : <span.tab>100) + div.motion_toggle_wrapper (mobile) + p.sample_interact_weight; div.section_6_prompt_1_wrapper"
+      }
+    },
+    {
+      "blocks": [
+        "27",
+        "28",
+        "29"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "technical, cinephile",
+        "mobile": "adapts",
+        "subject": [
+          "spacing",
+          "construction",
+          "scripts"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "Companion tiles in the same grid: 'Tightly Kerned' ('137th St / Hawthorne / Boulevard' with orange sidebearing boxes), a full-width outline 'FRENCH DISPATCH' in italic condensed with Bézier points, metric lines and an orange 10° angle guide, and 'Greek & Cyrillic' (Πρωταγωνιστής, Quentin Tarantino, John Travolta, Samuel L. Jackson, Uma Thurman, Bruce Willis) on metric lines",
+      "feel": "Blueprint, expert",
+      "ux": "static",
+      "learn": "Draw the construction overlays (sidebearings, points, slant angle) in one accent colour on the real words of a title card",
+      "reconstruction": {
+        "layout": "Ruled tiles as above; the outline title spans the full width ~1300×300px",
+        "typography": "Samples ~60–80px FT Calhern Bold/Condensed Italic; outline in 1px white with 4px point dots; guides orange",
+        "palette": [
+          "#020202",
+          "#ffffff",
+          "#c8782a",
+          "#6f6f6f"
+        ],
+        "behaviour": "none",
+        "content": "Film-cast names and a street address",
+        "assets": "Annotated SVGs (Kerning, outline title, Support.svg)"
+      }
+    },
+    {
+      "blocks": [
+        "29",
+        "30"
+      ],
+      "type": "type-tester",
+      "variant": "in-context-editable",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "creative, cinematic",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "style-select",
+          "color"
+        ],
+        "scope": "in-layout",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "A dark movie-poster template (star ratings row, 'IN CINEMAS 00.00.00', a huge 'TITLE', 'SUB TITLE', a billing block) inside guide lines, with a dark pill style picker beside each text element ('Condensed Medium', 'Wide Heavy'), a 'Publish' toggle above and 'Colour', 'Background', 'Upload Image' controls below",
+      "feel": "Playful, design-tool",
+      "ux": "Click any line to type; each pill selects one of 78 styles for its element and can be dragged; Colour and Background pickers recolour the poster; Upload Image adds a photo behind; 'Publish' hides the guides and controls for a clean preview",
+      "learn": "A fill-in poster template with a style picker per element turns testing into making something worth screenshotting",
+      "reconstruction": {
+        "layout": "Poster ~420×620px at cols 5–8, centred; style pills ~200×40px floating left/right of their element with a drag handle; Publish toggle centred above; controls row centred below",
+        "typography": "'TITLE' fitted ~300px FT Calhern Condensed Medium; 'SUB TITLE' ~20px Wide Heavy; 'IN CINEMAS 00.00.00' ~16px condensed; UI ~13px",
+        "palette": [
+          "#191919",
+          "#ffffff",
+          "#020202",
+          "#2d2d2d"
+        ],
+        "behaviour": "p.edit_poster_text_N[contenteditable]; select per element sets font-family from 78 options; .ept_control draggable (touch-action pan-x, cursor grab); input.ep_color / input.ep_background set --color / --background; input#file-upload (png/gif/jpeg) → img.edit_poster_image; publish toggle hides grid lines",
+        "content": "Placeholder poster copy: TITLE, SUB TITLE, IN CINEMAS 00.00.00",
+        "assets": "Poster frame SVG; drag icon",
+        "html": "div.edit_poster_wrapper[style=--color;--background] > div.ep_publish_toggle_wrapper + div.edit_poster > div.edit_poster_text_N_wrapper > div.ept_control > img.ept_control_toggle + p.ept_style > select + p.edit_poster_text[contenteditable]; div.ep_color_wrapper > input[type=color] ×2 + input[type=file]"
+      }
+    },
+    {
+      "blocks": [
+        "30",
+        "31",
+        "32"
+      ],
+      "type": "language-support",
+      "variant": "coverage-statement",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "bold, declarative",
+        "mobile": "adapts",
+        "method": "statement",
+        "nonLatin": true
+      },
+      "look": "Three huge condensed lines staggered left and right: 'SUPPORTING LATIN', 'GREEK AND CYRILLIC' (skewed into italic), 'IN 150 LANGUAGES'; white on black, then black on white as the background flips",
+      "feel": "Emphatic, poster-like",
+      "ux": "Pinned while the lines slide sideways in opposite directions and the middle one skews −10°",
+      "learn": "Shout the coverage as a three-line title card and move each line on its own: a statement can still feel like a specimen",
+      "reconstruction": {
+        "layout": "Pinned 1380×900 frame; three lines ~150px tall, alternately left- and right-aligned with large gaps",
+        "typography": "~180px FT Calhern Condensed Bold caps; middle line skew(−10deg) (italic look)",
+        "palette": [
+          "#fdfdfd",
+          "#020202"
+        ],
+        "behaviour": "ScrollTrigger pin; translateX per line and skew on the middle line scrubbed with scroll; background colour switch",
+        "content": "'Supporting Latin, Greek and Cyrillic in 150 languages'",
+        "assets": "none",
+        "html": "div.sticky_text_italic_wrapper > div.sticky_text_italic > div.sticky_text_italic_container_1|2 > p.sticky_text_italic_1|2"
+      }
+    },
+    {
+      "blocks": [
+        "33"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "retro, analog",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "carousel"
+      },
+      "look": "A sideways-moving row of flat VHS and film-stock packaging set in Calhern (yellow-black striped 'HS', 'Polaroid Supercolour', 'SONY Dynamicron L-750HG', 'TDK SUPER AVILYN', a red-striped 'Eastman T120', Kodak); later scattered tapes beside a counter (only the top of the row is captured)",
+      "feel": "Nostalgic, tactile, video-store",
+      "ux": "The row slides horizontally with scroll in a seamless loop (duplicate rows before and after)",
+      "learn": "Pastiche period packaging (VHS, film stock) where condensed and wide grotesks were native: the props date and place the type",
+      "reconstruction": {
+        "layout": "Row of 5 boxes per set (grid_5), each ~260×380px, cloned before and after for the loop",
+        "typography": "Packaging lettering in Calhern Wide Black, Condensed Bold, rotated spines",
+        "palette": [
+          "#fefefe",
+          "#756a50",
+          "#f2b705",
+          "#020202"
+        ],
+        "behaviour": "Scroll-linked translateX(%) on .vhs_slide with dummy before/after copies",
+        "content": "Fake VHS and film brands",
+        "assets": "Flat packaging renders (Calhern_VHS_02–09.png)",
+        "html": "div.vhs_slide > div.grid_5 > img ×5 + div.vhs_slide_dumby_before + div.vhs_slide_dumby_after"
+      }
+    },
+    {
+      "blocks": [
+        "33"
+      ],
+      "type": "family-overview",
+      "variant": "big-number-stats",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "bold, factual",
+        "mobile": "adapts",
+        "structure": "stats",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "Beyond the capture (HTML, mobile): a sticky giant counter (captured at '632', '000' on mobile) counting up beside '825 GLYPHS PER STYLE' in tall condensed caps, a paragraph (150 languages, 64,350 glyphs across 78 styles) and floating VHS boxes",
+      "feel": "Emphatic, ticking",
+      "ux": "The number counts up while the section scrolls past",
+      "learn": "Animate the glyph count as a sticky counter so the size of the character set is felt, not just read",
+      "reconstruction": {
+        "layout": "Sticky counter text (h0, ~400px) centred; heading and paragraph at cols 1–6; VHS images at cols 1–2, 3–4, 7–12",
+        "typography": "Counter ~400px FT Calhern Condensed Black with tabular figures; heading ~100px Condensed caps; paragraph ~16px",
+        "palette": [
+          "#ffffff",
+          "#020202"
+        ],
+        "behaviour": "ScrollTrigger scrubs .sticky_count_text from 000 to 825",
+        "content": "825 glyphs per style, 64,350 glyphs, 150 languages",
+        "assets": "VHS packaging images",
+        "html": "div.section_8 > p.sticky_count_text.h0 + div.grid_12 > img.count_vhs_N + p.h1 + p.p1"
+      }
+    },
+    {
+      "blocks": [
+        "33"
+      ],
+      "type": "type-tester",
+      "variant": "labelled-editable-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "cinephile, editorial",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Beyond the capture: ruled boxes of film-poster copy, each labelled with its style and a 'Reset' link: 'ROGUE ONE: A STAR WARS STORY…' (Wide Semibold), 'VHS' (Wide Thin), 'PEELE' (Wide Black), 'Once Upon A Time In Hollywood' (Semibold), 'WINNER BEST DIRECTOR…' (Bold), 'Anderson' (Bold), 'MIRAMAX FILMS PRESENTS…' (Condensed Light), 'TARANTINO' (Condensed Regular), 'SuperAvilyn' (Condensed Bold Italic)",
+      "feel": "Clean, film-buff",
+      "ux": "Click to type in any box; text auto-fits the box width; Reset restores the sample",
+      "learn": "Use director and film names as the default text per style: themed samples that read as a credit sequence",
+      "reconstruction": {
+        "layout": "Rows of 1 or 2 boxes with hairline dividers; label 12px top-left, Reset top-right; text centred, nowrap, font-size fitted (50–300px)",
+        "typography": "Samples in the labelled FT Calhern style at fitted sizes (e.g. PEELE 296px, Anderson 304px, Once Upon… 103px); labels ~12px",
+        "palette": [
+          "#ffffff",
+          "#020202"
+        ],
+        "behaviour": "p.sample_edit_text[contenteditable] with font-size recomputed on input; p.sample_text_reset restores",
+        "content": "Film titles, directors and billing copy",
+        "assets": "none",
+        "html": "div.section_9 > div.display_box_wrapper > div.display_box > p.p2 (style) + div.display_box_text > p.sample_text_reset + div.sample_text_N > p.sample_edit_text[contenteditable]"
+      }
+    },
+    {
+      "blocks": [
+        "33"
+      ],
+      "type": "navigation",
+      "variant": "scroll-spy-nav",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "technical, compact",
+        "mobile": "hidden"
+      },
+      "look": "Beyond the capture: a sticky left sidebar for the technical section with 'Styles / Glyphs / Support / Features' links above a metrics card (a big 'A' on Cap-Height 680, x-Height 500, Baseline 000, Descender −200 lines) and 'CALHERN Grotesk Sans 78 Styles 13 Weights · From £50.00 GBP · Buy'",
+      "feel": "Spec-sheet, orderly",
+      "ux": "The links jump to and highlight the current sub-section; the card stays visible while the right column scrolls",
+      "learn": "Pin a spec card with the glyph metrics and price beside the technical lists: reference and purchase stay in view together",
+      "reconstruction": {
+        "layout": "Sticky column cols 1–3 (~322px); links stacked 12px; metrics card ~300px square with four labelled horizontal lines; content column cols 4–12",
+        "typography": "Links and labels ~12px; metric labels ~10px; 'A' ~200px FT Calhern",
+        "palette": [
+          "#ffffff",
+          "#020202",
+          "#b0b0b0"
+        ],
+        "behaviour": "Sticky positioning; scroll-spy highlight on .tech_nav_items_*",
+        "content": "Section names, vertical metrics, price",
+        "assets": "none",
+        "html": "div.desktop.tech_nav > div.tech_nav_items > p.tech_nav_items_styles|glyphs|support|features + div.tech_nav_button > div.glyph_preview (ascender, xheight, baseline, descender) + a.button"
+      }
+    },
+    {
+      "blocks": [
+        "33"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "systematic",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "Beyond the capture (seen in the video): three blocks 'Calhern Wide', 'Calhern', 'Calhern Condensed', each two columns of 13 weight names from Black to Skeleton, set in themselves, with 'Italic' set in the matching italic beside each",
+      "feel": "Complete, typographic",
+      "ux": "static",
+      "learn": "Pair each weight name with the word 'Italic' in its italic: a 26-style ramp in two tidy columns",
+      "reconstruction": {
+        "layout": "Content column; per sub-family a 3-col inner grid: label, weights column, italics column; 13 lines each",
+        "typography": "~32px per line in each FT Calhern style (Wide / Standard / Condensed), Black → Skeleton",
+        "palette": [
+          "#ffffff",
+          "#020202"
+        ],
+        "behaviour": "none",
+        "content": "Weight names",
+        "assets": "none",
+        "html": "div#styles > div.tech_style.inner_grid_3 > p.p2 + div.h2 > p[style=font-family] ×13 + div.h2 > p ×13"
+      }
+    },
+    {
+      "blocks": [
+        "33"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "technical",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "hover",
+        "metricsShown": true,
+        "namesOrUnicode": false
+      },
+      "look": "Beyond the capture: 'Glyphs' grids by category (Uppercase, Lowercase, Extended Latin Uppercase/Lowercase, Cyrillic, Greek…) in ruled square cells; the active glyph shows large in the sidebar card on its metric lines",
+      "feel": "Methodical",
+      "ux": "Hover or click a cell to set the preview 'A' in the sticky card (likely)",
+      "learn": "Reuse the sticky metrics card as the glyph preview so the grid needs no separate inspector panel",
+      "reconstruction": {
+        "layout": "Grids at cols 4–12, 7 cells per row on mobile, ~60px cells with hairline borders; category title 12px",
+        "typography": "Cells ~28px FT Calhern Regular",
+        "palette": [
+          "#ffffff",
+          "#020202",
+          "#d0d0d0"
+        ],
+        "behaviour": "div.active_glyph marks the selection; preview updates the sidebar",
+        "content": "825-glyph set by category",
+        "assets": "none",
+        "html": "div.tech_glyphs > div.glyph_grid > div.tech_glyphset_wrapper > p.tech_glyphset_title + div.glyph(.active_glyph) > p"
+      }
+    },
+    {
+      "blocks": [
+        "33"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "reference",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": true
+      },
+      "look": "Beyond the capture: 'Support' heading with the languages as small running text in three columns (Afrikaans, Albanian, Asu, Bashkir, Basque, Belarusian…)",
+      "feel": "Dry, complete",
+      "ux": "static",
+      "learn": "Keep the full language list in the technical section, after the bold coverage statement",
+      "reconstruction": {
+        "layout": "Content column, 3-col inner grid of running text",
+        "typography": "~14px FT Calhern Regular",
+        "palette": [
+          "#ffffff",
+          "#020202"
+        ],
+        "behaviour": "none",
+        "content": "~150 Latin, Greek and Cyrillic languages",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "33",
+        "34"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "direct",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": true,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "The fixed 'BUY CALHERN' pill on every screen plus, in the sticky technical sidebar, 'From £50.00 GBP' with a 'Buy' button",
+      "feel": "Discreet but constant",
+      "ux": "Both link to the Calhern Condensed page on frostype.xyz",
+      "learn": "Show a 'from' price next to the spec card so buyers see cost where they check the technical details",
+      "reconstruction": {
+        "layout": "Pill ~130×38px top-right, radius 19px; sidebar button under the price",
+        "typography": "~13px FT Calhern Regular caps",
+        "palette": [
+          "#ffffff",
+          "#020202"
+        ],
+        "behaviour": "none",
+        "content": "'BUY CALHERN', 'From £50.00 GBP'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "33"
+      ],
+      "type": "newsletter",
+      "variant": "email-signup",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "direct",
+        "mobile": "adapts"
+      },
+      "look": "Beyond the capture (video): 'FREE TRIAL / TRY BEFORE YOU BUY' in tall condensed caps on black with an underlined field 'Enter your email for trials', a 'SUBSCRIBE' button and 'Please don't use the trials in any published or commercial work.'",
+      "feel": "Plain, trustworthy",
+      "ux": "Mailchimp form: the email gets the trial fonts (and joins the list)",
+      "learn": "Gate trials behind an email field on the page: one input, a clear usage note",
+      "reconstruction": {
+        "layout": "Heading cols 1–6 at ~130px lines; form at the bottom-left with a 1px underline input ~450px and the button right-aligned; note on the right",
+        "typography": "Heading ~130px FT Calhern Condensed caps; field and note ~13px",
+        "palette": [
+          "#020202",
+          "#ffffff"
+        ],
+        "behaviour": "Mailchimp embedded form validation",
+        "content": "Trial sign-up copy",
+        "assets": "none",
+        "html": "div.footer > form.validate[action=list-manage] > input.email[type=email] + input.button[type=submit]"
+      }
+    },
+    {
+      "blocks": [
+        "33"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "catalogue",
+        "mobile": "adapts"
+      },
+      "look": "Beyond the capture: 'INDEX / MORE TYPEFACES BY FROST' with a 'Go to Frost' button and full-width rows per family (System Blank, Bureau, Calhern Wide, Calhern, Polar, Polar Mono…), each row the name, 'AaBbCc', style and weight counts and '123'",
+      "feel": "Index-like, tidy",
+      "ux": "Rows link to each family; hovering shows a sample in that font",
+      "learn": "List sibling families as a typographic index row (name · AaBbCc · counts) with a hover sample",
+      "reconstruction": {
+        "layout": "12-col rows ~70px with hairline rules: hover sample cols 1–3, name cols 1–3, sample cols 4–7, counts right",
+        "typography": "~32px rows in each family's font",
+        "palette": [
+          "#ffffff",
+          "#020202"
+        ],
+        "behaviour": "Hover reveals .typeface_index_item_hover",
+        "content": "FROST catalogue with style counts",
+        "assets": "Family webfonts",
+        "html": "div.typeface_index > a.typeface_index_item.inner_grid_12 > p.typeface_index_item_hover + p + p"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "35",
+      "reason": "fixed smooth-scroll wrapper holding the whole page (no crop); its components are classified from the screen crops and its HTML"
+    }
+  ],
+  "sequence": [
+    "intro-animation/title-sequence",
+    "story/origin-reference",
+    "design-details/hover-css-inspector",
+    "story/design-brief",
+    "specimen-showcase/poster-series",
+    "design-details/axis-explainer",
+    "design-details/annotated-specimen",
+    "type-tester/in-context-editable",
+    "language-support/coverage-statement",
+    "specimen-showcase/prop-collage",
+    "family-overview/big-number-stats",
+    "type-tester/labelled-editable-lines",
+    "family-overview/style-word-grid",
+    "glyph-table/glyph-inspector",
+    "language-support/language-name-list",
+    "checkout/link-out-cta",
+    "newsletter/email-signup"
+  ]
+}

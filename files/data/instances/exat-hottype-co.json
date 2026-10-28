@@ -1,0 +1,787 @@
+{
+  "slug": "exat-hottype-co",
+  "extractedBy": "agent",
+  "summary": "Hot Type's long GSAP-animated page for Exat, a 21-style neo-grotesk (Condensed, Normal, Wide) rooted in the Croatian EXAT 51 collective. Hard-edged poster tiles in orange, ultramarine, yellow, pink and green on off-white or charcoal. Rotating-letter grids, looping motion-design videos and a pointer-reactive letter field punctuate every chapter (About, Type tester, Character set, Design space, Stylistic sets, OpenType, Languages).",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bold, modernist, loud",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "buy",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Flat orange screen with 'Exat' in off-white at ~640px, bleeding off the bottom and right edges; a slim header with the Hot Type flame logo, 'Exat — New typeface by Hot Type', 'Get Font →' and a hamburger",
+      "feel": "Loud, confident, poster-like",
+      "ux": "A charcoal loader first grows a small poster tile from the centre (t≈1–2s), then the orange hero appears; header links stay fixed",
+      "learn": "Crop the giant name off two edges: the frame feels larger than the screen",
+      "reconstruction": {
+        "layout": "100vh orange field; wordmark SVG ~1420px wide from x=20, baseline below the fold so the letters are cut at the bottom; header 66px",
+        "typography": "Wordmark ~640px Exat Medium (as SVG), tight tracking; header ~13px Exat Medium",
+        "palette": [
+          "#ff6202",
+          "#eef1ed",
+          "#1c1d1f"
+        ],
+        "behaviour": "Intro loader: small image tile scales up on charcoal before the hero; header inverts over dark sections (data-invert-header)",
+        "content": "Name only",
+        "assets": "Wordmark SVG"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed transparent 66px header: flame logo + 'Exat — New typeface by Hot Type' left, 'Get Font →' and a two-line hamburger right; colours invert over dark sections"
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "navigation",
+      "variant": "toc-drawer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "big, direct",
+        "mobile": "adapts"
+      },
+      "look": "Hidden full-screen menu (HTML only) listing the chapters in large type: About font, Type tester, Extensive Character Set, Design Space, Stylistic Sets, Open Type Features, Language Support",
+      "feel": "Poster-like index",
+      "ux": "Opened from the hamburger; each item scrolls to its section",
+      "learn": "A full-screen chapter list in display size doubles as one more specimen",
+      "reconstruction": {
+        "layout": "Fixed 100vw × 100vh overlay, stacked links",
+        "typography": "~90px Exat Medium",
+        "palette": [
+          "#ff6202",
+          "#eef1ed"
+        ],
+        "behaviour": "Hamburger toggles the overlay; anchor links with smooth scroll",
+        "content": "Chapter names",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "03"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "historical, proud, art-directed",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "archival",
+          "photo",
+          "diagram"
+        ],
+        "length": "long"
+      },
+      "look": "On charcoal: 'About font' rule label, two bold ~28px intro paragraphs with a small portrait of Ivan Picelj, then two narrow text columns beside a scan of Picelj's silk-screened 'Edition a' cover (blue 'a' on pink and red), a blue construction drawing of 's' with point coordinates, a red-on-green 'h' tile, and the orange pull quote '→ Exat strikes a balance between form and function, neutrality and character.'; on off-white (block 03) more columns on Croatian modernism",
+      "feel": "Museum-catalogue meets poster wall",
+      "ux": "Headlines reveal word by word (split-words) on scroll",
+      "learn": "Anchor the typeface in a named local movement (EXAT 51, Picelj's 'Edition a') and show the actual artefact the letter came from",
+      "reconstruction": {
+        "layout": "Rule label row at top; intro block ~830px wide from x=20 with portrait ~110px at the right; then 3-col grid: 2 narrow text columns (~300px) + image (~640×640px) right; construction diagram ~640×640 left, small tile right; pull quote indented from x≈370 with an orange arrow at x=20",
+        "typography": "Intro ~28px Exat Bold, leading 1.1, off-white; columns ~12px Regular; pull quote ~80px Exat Medium orange; labels ~11px with a filled dot",
+        "palette": [
+          "#1c1d1f",
+          "#eef1ed",
+          "#ff6202",
+          "#0708cc",
+          "#ff98fb"
+        ],
+        "behaviour": "GSAP split-words / split-lines reveals on scroll",
+        "content": "Real history: EXAT 51 ('Experimental Atelier', 1950–56), Ivan Picelj, Edition a booklets 1962–64, Helvetica in Croatia, Croatian modernism",
+        "assets": "Portrait photo, scans of 'Edition a' covers, construction-drawing image",
+        "html": "section.about-section#aboutSection > .title-author-block + .block-images + .type-demo-block"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "06",
+        "07"
+      ],
+      "type": "specimen-showcase",
+      "variant": "kinetic-scenes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "op-art, rhythmic",
+        "mobile": "adapts",
+        "medium": "generative",
+        "sequence": "series"
+      },
+      "look": "Recurring motion bands between chapters: a 7×5 grid of off-white 'c' letters each rotated a little further (01), square tiles of letter patterns (yellow 'A' in black circles, a blue/orange chevron weave of 'a's, pink-on-green and red-on-yellow letter textures) (06), and a black band of giant cropped 'S' shapes (07)",
+      "feel": "Op-art, kinetic, Bauhaus-inspired",
+      "ux": "Letters rotate as you scroll (GSAP rotators); some tiles are looping videos",
+      "learn": "Repeat one letter in a grid and rotate each copy progressively: pure type becomes a pattern that keeps the long page moving",
+      "reconstruction": {
+        "layout": "Full-width grid of square cells (~205px) with hairline rules; tile groups of 290–640px squares on charcoal with a text column; full-bleed band ~430px",
+        "typography": "Single letters at cell size (~180px) Exat Medium, off-white on charcoal",
+        "palette": [
+          "#1c1d1f",
+          "#eef1ed",
+          "#ffcc30",
+          "#0402ca",
+          "#fe6302"
+        ],
+        "behaviour": "div.rotating-letters > .rotator rotate with scroll progress (GSAP ScrollTrigger); .circle.rotator ×100; Vimeo MP4 loops in .media-frame",
+        "content": "Single letters, no text",
+        "assets": "Looping motion-design videos of letter patterns (Vimeo-hosted MP4)",
+        "html": "div.rotating-letters > div.rotator; div.circle.rotator; .media-frame > video[loop muted playsinline] > source"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "tidy, practical",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "leading",
+          "tracking",
+          "weight",
+          "style-select",
+          "alignment",
+          "color"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Yellow full-width panel: a hairline toolbar (subfamily select 'Exat', weight select 'Medium', Size, Line Height and Letter Spacing mini sliders, four alignment icons, five colour dots) above 'EXAT 51 is the pioneering Croatian art and architecture collective of the 1950s.' at 110px",
+      "feel": "Clean, poster-ready",
+      "ux": "Edit the textarea; pick Exat / Condensed / Wide and one of seven weights; drag size 10–200px, line height 0–200%, tracking -100–100%; align; switch background between yellow, blue, orange, pink, green",
+      "learn": "Let the tester's background swatches use the brand palette: every setting the visitor makes looks like a finished poster",
+      "reconstruction": {
+        "layout": "Panel 1440×742; label row; toolbar row ~30px with underlined selects (~180px) and sliders (~80px tracks), icons right; textarea full width, auto height",
+        "typography": "Sample 110px Exat Medium, leading 87%, tracking 0, black; toolbar ~11px",
+        "palette": [
+          "#fecd30",
+          "#1c1d1f",
+          "#0708cc",
+          "#ff6202",
+          "#ff98fb"
+        ],
+        "behaviour": "select.ff / select.fw (SlimSelect) and input.fs/.lh/.ls set CSS vars --ff --fw --fs --lh --ls on textarea.playground; .aligment .i[data-align]; .colors .c[data-color] sets --background",
+        "content": "A real sentence about EXAT 51",
+        "assets": "none",
+        "html": "section.type-tester#typeTester > .toolbar > .inner (select.ff, select.fw, .range-slider > input.fs, .aligment, .colors) + textarea.playground"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "Croatian modernist, graphic",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "grid"
+      },
+      "look": "A loose grid of modernist poster tiles: '28' over a stack of half-letters, a black card listing EXAT artists (Bećić, Dabac, Detoni … Vaništa) with a pink 'M' on green and a grid of orange 'eyes', the blue 'a' on pink, 'exat' repeated in blue on orange, a fanned stack of 'forma oblik 746' cards, and at the end giant numerals '1 3 2 6' in a black-and-white grid",
+      "feel": "Period pastiche, joyful, rhythmic",
+      "ux": "Numbers in '28' and the big numerals cycle; the 'eyes' rotate; two tiles are videos",
+      "learn": "Pastiche the movement that inspired the font in a grid of small posters, each animating one idea",
+      "reconstruction": {
+        "layout": "Off-white section ~3650px; tiles 210–650px placed asymmetrically on a 12-col grid with text columns between; final full-width black/white numeral grid ~400px",
+        "typography": "Display numerals/letters 300px+ Exat Black/Medium; names list ~16px",
+        "palette": [
+          "#eeefea",
+          "#19191b",
+          "#ff6202",
+          "#18720d",
+          "#ff98fb",
+          "#0708cc"
+        ],
+        "behaviour": ".number-stack-block cycles ten numbers; .eyes-grid .eye.rotator rotate; .animated-numbers swap; Vimeo loops",
+        "content": "EXAT 51 artists' names, 'modernism', 'forma / oblik'",
+        "assets": "Poster tile images and two looping videos",
+        "html": "section.break-section > .number-stack-block, .modernism-block > .eyes-grid > .eye.rotator ×25, .animated-numbers > .numbers > .num"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "family-overview",
+      "variant": "big-number-stats",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "assertive, factual",
+        "mobile": "adapts",
+        "structure": "stats",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "Charcoal card 'Font overview' with four lines at ~80px: '21 weights', 'Latin & Cyrillic', '1715 glyphs', '431 languages' (the last in pink), each with a big round bullet; the pink bullet marks the current line",
+      "feel": "Punchy fact sheet",
+      "ux": "The highlight probably steps from line to line",
+      "learn": "Four numbers in display size with bullets that light up in turn say 'big family' faster than any paragraph",
+      "reconstruction": {
+        "layout": "Card ~1050×650px from x≈370; label row with hairline; four rows ~110px; bullets ~90px circles at the left",
+        "typography": "~80px Exat Medium off-white, active line pink #ff98fb",
+        "palette": [
+          "#1c1d1f",
+          "#eef1ed",
+          "#ff98fb"
+        ],
+        "behaviour": "Active bullet/line highlight cycles (likely)",
+        "content": "21 weights · Latin & Cyrillic · 1715 glyphs · 431 languages",
+        "assets": "none",
+        "html": ".overview-block > .font-overview"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "glyph-table",
+      "variant": "bento-cards",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "graphic, playful",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'Extensive Character Set' heading and a mosaic of square cards: a huge 'ÊÜ' with detached accents on orange, 'arhitektura' split across a black grid, a yellow card of circled numbers beside Cyrillic and Latin words (Светло, Modern art, Простор, Hong Kong, Линија), a green arrow, a circled 'S' on pink, and a black video of concentric rings of letters and figures in red, orange and blue",
+      "feel": "Cheerful, inventive, a toolbox",
+      "ux": "Cards are static except the spiral alphabet video; the circled-S card is sticky (captured twice)",
+      "learn": "Give each glyph category (accents, Cyrillic, circled figures, arrows, symbols) its own colour card instead of a grid of cells",
+      "reconstruction": {
+        "layout": "Heading row with right-hand paragraph; cards on a 4-col grid of ~345px units: 1×2 (accents, 690px), 1 (arhitektura), 1/2-size cards (~170px), 2×2 video (~520px)",
+        "typography": "Heading ~44px Exat Bold; card glyphs 150–450px; captions ~11px",
+        "palette": [
+          "#eeefeb",
+          "#1a1b1d",
+          "#fe6608",
+          "#ffcc30",
+          "#18720d",
+          "#ff98fb"
+        ],
+        "behaviour": "Looping video for the spiral; sticky circled-S card",
+        "content": "Accented caps, Cyrillic and Latin words, circled numbers, arrows, symbols; 1715 glyphs per style",
+        "assets": "One looping motion video (letter rings)"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "systematic, technical",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "On charcoal, a giant cropped 'Glyphs' title, then accordion rows with dot labels: 'Uppercase, Lowercase & Accented' open as a 40-column grid of small ruled cells, 'Cyrillic' and 'Figures & Symbols' collapsed",
+      "feel": "Orderly, reference-like",
+      "ux": "Click a row to expand its grid (↑/↓ icons); hovering a cell shows a tooltip enlargement",
+      "learn": "Fold the full set into accordions per category so the page stays short while everything is one click away",
+      "reconstruction": {
+        "layout": "Accordion rows with hairline top borders, 40px tall; grid of ~34×34px cells with 1px grey borders, 40 per row",
+        "typography": "Cell glyphs ~12px off-white; row labels ~18px Exat Bold with a 12px dot; title ~300px cropped by the top edge",
+        "palette": [
+          "#1b1c1e",
+          "#eef1ed",
+          "#262729"
+        ],
+        "behaviour": "r2-method expanders toggles .fully-open; .tooltip-zone shows a magnified glyph on hover",
+        "content": "Basic Latin + accented, Cyrillic, figures and symbols",
+        "assets": "none",
+        "html": ".expanders-block > .expander > .picker + .letter-grid > .frame (×1219) ; .tooltip-zone > .tooltip"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "specimen-showcase",
+      "variant": "kinetic-scenes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "responsive, hypnotic",
+        "mobile": "adapts",
+        "medium": "generative",
+        "sequence": "single"
+      },
+      "look": "A field of ~240 blue lowercase 'a's in tight rows on charcoal, all Extra Light in the capture (multicoloured with a weight gradient on mobile)",
+      "feel": "Alive, like iron filings under a magnet",
+      "ux": "Letters near the pointer gain weight (and colour), falling off with distance",
+      "learn": "Map pointer distance to weight on a grid of one letter: the visitor feels the weight axis without any control",
+      "reconstruction": {
+        "layout": "Full-width block ~650px; 20 columns × 12 rows of 'a' cells ~72px",
+        "typography": "~70px Exat Variable 'a', wght from 200 (far) to 900 (near), leading 0.75",
+        "palette": [
+          "#1b1c1e",
+          "#1e264e",
+          "#2a46ff"
+        ],
+        "behaviour": "pointermove → for each .letter compute distance d → wght = lerp(900, 200, d/radius); possibly colour by distance",
+        "content": "Lowercase 'a' repeated",
+        "assets": "none",
+        "html": "div.proximity-letters[r2-method=proximityLetters] > span.letter ×243"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "precise, airy",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "glyph",
+        "interactive": true
+      },
+      "look": "'Design Space' heading, then a left column listing all 21 styles in three groups (Condensed, normal, Wide), each name in its own style and pale grey except the active 'Extra Light Condensed', beside a huge 'Rẽ' in the active style",
+      "feel": "Calm, like a style inspector",
+      "ux": "Hover or scroll through the list: the big 'Rẽ' switches to that style and the name darkens",
+      "learn": "One big pair of letters with an accent next to a list of every style is enough to compare weights and widths",
+      "reconstruction": {
+        "layout": "Heading row with right paragraph; list column ~280px at x=20 (21 rows, ~18px pitch, gaps between groups); sample from x≈300, ~560px tall",
+        "typography": "List ~13px Exat in each style, inactive #c0c0c0; sample ~560px Exat (here Extra Light Condensed)",
+        "palette": [
+          "#eeefea",
+          "#1c1d1f",
+          "#c0c0c0"
+        ],
+        "behaviour": "Hover/scroll-triggered (header-trigger) switch of the sample's font-family/weight",
+        "content": "'Rẽ'",
+        "assets": "none",
+        "html": ".styles-weights-section > .weights-part.header-trigger"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "colourful, systematic",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "Three colour-coded panels stacking on scroll: Condensed (red on yellow), Standard (blue on orange), Wide (pink on ultramarine), each a weight ramp of 'Fonts frame form, clarity, and balance.' from Extra Light to Black",
+      "feel": "Bright, like stacked print proofs",
+      "ux": "Panels are sticky and pile over each other as you scroll (captured twice in the stitch)",
+      "learn": "Give each width subfamily its own colour pair and stack them as sticky cards: the three widths read as three products",
+      "reconstruction": {
+        "layout": "Full-width panels ~650px each, sticky top; label with dot at x=20; seven lines from x≈310, ~36px pitch",
+        "typography": "~30px Exat Condensed / Exat / Exat Wide, weights 200, 300, 400, 500, 700, 800, 900",
+        "palette": [
+          "#ffcc30",
+          "#e3001b",
+          "#fe6302",
+          "#0402ca",
+          "#ff98fb"
+        ],
+        "behaviour": "position: sticky stacking cards",
+        "content": "One sentence about the font repeated",
+        "assets": "none",
+        "html": ".third-block > p.text.extra-light.condensed … p.text.black.wide"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "systematic, graphic",
+        "mobile": "adapts",
+        "subject": [
+          "alternates",
+          "features"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "'Stylistic sets' and a staircase of square colour cards, one per set, each with a dot label and one big glyph: Thin Diacritics 'Ñ', Thin Symbols '✻', Thin Currency '₤' (blue); Circled, Black Circled, Squared, Black Squared Numbers '1 2 3 4' (orange); Circled/Squared Letters 'A B C D' (amber); Alternative a 'a' and 'ă' (green); group notes in the left margin",
+      "feel": "Joyful, catalogued, Bauhaus",
+      "ux": "static",
+      "learn": "Colour-code the sets by family (thin forms, numbers, letters, alternate a) and step the cards diagonally so the catalogue reads like a poster",
+      "reconstruction": {
+        "layout": "Cards ~280px squares on a 5-col grid with 16px gaps, offset row by row into a staircase; group notes (~12px) at the left or right of each group",
+        "typography": "Card glyph ~180px Exat Medium off-white, bottom-right aligned; card label ~11px with a dot top-left",
+        "palette": [
+          "#eeefeb",
+          "#2a46ff",
+          "#fe6405",
+          "#ffac04",
+          "#18720d"
+        ],
+        "behaviour": "none",
+        "content": "Named stylistic sets with one sample glyph each",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "clear, technical",
+        "mobile": "adapts",
+        "subject": [
+          "features"
+        ],
+        "presentation": "toggle",
+        "explanation": "caption"
+      },
+      "look": "Blue panel 'Open Type Features': a left list of 13 features (Case sensitive forms, Fractions, Numerators, Denominators, Superscript, Subscript, Tabular figures, Slashed zero, Catalan, Dutch, Romanian & Moldavian, Serbian, Bulgarian, Ukrainian) and a big off-white sample '(a) (A)' showing the active one",
+      "feel": "Methodical, OpenType menu made visible",
+      "ux": "Picking a feature in the list swaps the large sample to show it applied (case-sensitive parentheses rise with the caps)",
+      "learn": "Pair each feature name with a tiny before/after sample in one large viewer instead of 13 separate cards",
+      "reconstruction": {
+        "layout": "Panel full width; heading row with paragraph right; list ~280px at x=20 (active white, rest faded); sample area from x≈300, ~400px tall",
+        "typography": "Sample ~400px Exat Regular off-white; list ~14px, inactive at ~40% opacity",
+        "palette": [
+          "#2a46ff",
+          "#eef1ed"
+        ],
+        "behaviour": ".pick items set font-feature-settings (case, frac, numr, dnom, sups, subs, tnum, zero, locl per language) on the sample",
+        "content": "Short samples per feature",
+        "assets": "none",
+        "html": "div.pick ×13"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "language-support",
+      "variant": "multiscript-specimen",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "pangram",
+        "tone": "multilingual, colourful",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": true
+      },
+      "look": "Not in the crop (block 07 was truncated): a stack of coloured text cards, each a pangram in one language tagged 'Language: …' (Vietnamese, Czech, Danish, Russian, Hungarian, German)",
+      "feel": "Cheerful, international",
+      "ux": "Cards stack on scroll (textCardStack)",
+      "learn": "Use real language pangrams, one per card in a different colour, to prove diacritics and Cyrillic in running text",
+      "reconstruction": {
+        "layout": "Full-width text cards stacking on a dark band",
+        "typography": "Pangrams at display size in Exat, colours such as pink #ff98fb",
+        "palette": [
+          "#1c1d1f",
+          "#ff98fb",
+          "#ffcc30"
+        ],
+        "behaviour": "r2-method textCardStack: sticky cards piling up on scroll",
+        "content": "'Ó, náhlý déšť již zvířil prach…' (Czech), 'В чащах юга жил бы цитрус?…' (Russian), 'Victor jagt zwölf Boxkämpfer…' (German)",
+        "assets": "none",
+        "html": "div.language-block[r2-method=textCardStack] > div.text-card[style=color] > .container > .title + .subtitle"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "plain, comprehensive",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": true
+      },
+      "look": "'Language Support' heading with a note on Koeberlin's Latin M and Adobe Extended Cyrillic, then four columns of language names (Abaza … Chokwe) at ~16px bold, paged with ← → arrows",
+      "feel": "Reference list, generous",
+      "ux": "Arrows page through the 430+ names in a slider",
+      "learn": "Paginate a long language list in a slider so it keeps its display size without a giant scroll",
+      "reconstruction": {
+        "layout": "Heading row; arrows right above a hairline; 4 equal columns of 24 rows, ~16px pitch",
+        "typography": "~16px Exat Bold black, leading 1.0",
+        "palette": [
+          "#eeefea",
+          "#1c1d1f",
+          "#b0b1af"
+        ],
+        "behaviour": "Splide slider with prev/next",
+        "content": "Alphabetical language names",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "vibrant, modernist",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "carousel"
+      },
+      "look": "Two rows of poster and layout mockups scrolling sideways: 'forma oblik 314', a '51' poster, airport wayfinding 'Exit A Zagreb Airport Cargo Heliport', 'Ex at' with dots, a chevron pattern, editorial spreads, a spiral of '6's",
+      "feel": "Energetic, a portfolio of applications",
+      "ux": "Continuous marquee, rows in opposite directions (likely)",
+      "learn": "End with a moving wall of applications (wayfinding, editorial, posters) before the buy button",
+      "reconstruction": {
+        "layout": "Full-width band 720px; two rows ~330px tall of mixed-width tiles (~290–420px) with 16px gaps",
+        "typography": "Inside the mockups",
+        "palette": [
+          "#131516",
+          "#f1f2ed",
+          "#0202c9",
+          "#fe6302"
+        ],
+        "behaviour": "r2-method marqueeSlider: infinite horizontal scroll",
+        "content": "Fictional applications themed on Zagreb and modernism",
+        "assets": "~48 mockup images (duplicated for the loop)",
+        "html": "section.marquee-slider[r2-method=marqueeSlider]"
+      }
+    },
+    {
+      "blocks": [
+        "10",
+        "11"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "direct, loud",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "Closing orange screen with 'Get Exat →' at ~140px in off-white across the top under a hairline; the fixed header carries the same 'Get Font →'",
+      "feel": "Bookend to the hero",
+      "ux": "Links to hottype.co/fonts/exat; PDF specimens (Exat, Condensed, Wide) are linked in a Specimen block seen on mobile",
+      "learn": "Close with the hero's colour and type size so the buy line feels like the last poster",
+      "reconstruction": {
+        "layout": "100vh orange; CTA line at top from x=20, arrow right-aligned; footer lines at the bottom",
+        "typography": "'Get Exat' ~140px Exat Medium; arrow drawn as SVG",
+        "palette": [
+          "#fe6302",
+          "#edf6f5"
+        ],
+        "behaviour": "Hover likely shifts the arrow",
+        "content": "Get Exat →",
+        "assets": "Arrow SVG"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "minimal",
+        "mobile": "adapts",
+        "contains": [
+          "legal",
+          "socials",
+          "credits"
+        ]
+      },
+      "look": "Small lines at the bottom of the orange CTA screen (not visible in the crop): 'Hot Type © 2025, All rights reserved. Privacy Policy · Instagram · Designed by Studio Size, developed by RISE2 Studio'",
+      "feel": "Quiet",
+      "ux": "links",
+      "learn": "Credit the web studios in the legal line",
+      "reconstruction": {
+        "layout": "One row at the bottom of the last screen, items spread left to right",
+        "typography": "~13px Exat Medium",
+        "palette": [
+          "#fe6302",
+          "#edf6f5"
+        ],
+        "behaviour": "none",
+        "content": "Copyright, privacy, Instagram, credits",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/origin-reference",
+    "specimen-showcase/kinetic-scenes",
+    "type-tester/slider-sandbox",
+    "specimen-showcase/poster-series",
+    "family-overview/big-number-stats",
+    "glyph-table/bento-cards",
+    "glyph-table/full-grid",
+    "specimen-showcase/kinetic-scenes",
+    "family-overview/designspace-map",
+    "family-overview/style-word-grid",
+    "design-details/feature-index",
+    "design-details/feature-before-after",
+    "language-support/multiscript-specimen",
+    "language-support/language-name-list",
+    "specimen-showcase/in-use-mockups",
+    "checkout/link-out-cta",
+    "footer/slim-legal-bar"
+  ]
+}

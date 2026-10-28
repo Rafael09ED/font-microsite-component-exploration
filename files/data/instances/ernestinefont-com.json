@@ -1,0 +1,142 @@
+{
+  "slug": "ernestinefont-com",
+  "extractedBy": "agent",
+  "summary": "A small 2011 WordPress (iA³ template) home page for FF Ernestine, a wedge-serif text face with an Armenian companion: a header with three link columns, a broadside-style specimen image of justified lines in every style (Latin and Armenian), three columns of about text set in the font, and a link footer. Styles, glyphs, features, the design story and the gallery are separate subpages (not captured). The about block also hides an injected spam paragraph (display:none), a sign the old site was compromised.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "look": "White header: 'Ernestine.' logo at left; at right three small link columns under pink tracked small-caps headings EXPLORE (Styles, Glyphs, Features), LEARN MORE (About the Design, In-Use Gallery, InfoGuide PDF), GET THE FONTS (Try & Buy); a thin pink rule along the top of the window; on mobile the columns become two dropdowns"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "typeset-page",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "witty, bookish, warm",
+        "mobile": "shrinks",
+        "carrier": "sentence",
+        "cta": "buy",
+        "rangeShown": "whole-family",
+        "navVisible": true
+      },
+      "look": "A broadside of ten justified lines in black on white, each a different style and size: 'look deeper, not sideways;' (Light), '»→ Learn how to survive a hurricane in your bathtub, smiling', 'STATE YOUR OPINION CLEARLY' (Bold caps), an Armenian line in guillemets, a John Cage quote with small-caps credit, 'sufficiently fluffy*' (Light + Bold), 'Maybe you should give the rocket ship a carport.', a bold-italic puffin fact, Armenian capitals, 'WORLD'S BEST BLUEBERRY STREUSEL CAKE — SINCE 1827' in tracked light caps",
+      "feel": "Clever, friendly, typographically literate",
+      "ux": "The whole image links to the FontFont shop (Try & Buy)",
+      "learn": "Justify every line of a mixed-style broadside to one measure and fill it with odd, funny sentences: it shows weights, italics, small caps, arrows, quotes and the second script in one dense block",
+      "reconstruction": {
+        "layout": "Image 1060×714 at x=190 below a ~130px header; ten lines all justified to ~930px, sizes alternating large and small (≈70, 28, 40, 30, 20, 80, 30, 22, 40, 25px), tight vertical spacing",
+        "typography": "FF Ernestine Light, Regular, Italic, Demi, Bold and the Armenian styles; small caps for the quote credit; tracked caps in the last line; arrows and guillemets from the extended set",
+        "palette": [
+          "#ffffff",
+          "#111111",
+          "#949494"
+        ],
+        "behaviour": "none (a GIF image wrapped in a link)",
+        "content": "Whimsical themed one-liners, a John Cage quote, Armenian sentences",
+        "assets": "ernestine-specimen-9422.gif (raster specimen)",
+        "html": "section.G6.GS > h1.implied 'Featured Article' + a[href=fontfont.com] > img"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "plain-spoken, personable",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Four short paragraphs about the family set in Ernestine at text size across three newspaper columns: a wedge/slab text face from FontShop (2011), 'no-bullshit clarity… with a friendly attitude', created by Nina Stössinger with Hrant Papazian's Armenian counterpart 'Vem', four weights of Roman and Italic; pink underlined links",
+      "feel": "Direct, honest, conversational",
+      "ux": "Links to FontShop, the designers' sites",
+      "learn": "Set the about text in the font in narrow columns: the description doubles as a demonstration of the text face at reading size",
+      "reconstruction": {
+        "layout": "Three columns ~340px wide with ~25px gutters across 1060px (x=190), ~340px tall; a dotted rule above",
+        "typography": "~18px FF Ernestine Regular, leading ~1.45, black; links pink with underline",
+        "palette": [
+          "#f9f9f9",
+          "#111111",
+          "#c4305c"
+        ],
+        "behaviour": "none (a hidden display:none paragraph of injected spam follows the text)",
+        "content": "Real description and credits",
+        "assets": "none",
+        "html": "section.G6.GS > div > .formatted > p (CSS columns)"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "tidy, modest",
+        "mobile": "adapts",
+        "contains": [
+          "contact",
+          "socials",
+          "legal",
+          "credits"
+        ]
+      },
+      "look": "Between dotted rules: a site search field, then columns FF ERNESTINE (InfoGuide PDF, Try & Buy), QUESTIONS? (Email us), TWITTER (@ernestinefont, @ninastoessinger, @fontfont) under pink small-caps headings; a legal line with © Nina Stössinger and FontFont trademarks, and template/hosting credits at right",
+      "feel": "Quiet, well-ordered",
+      "ux": "Search (WordPress ?s=), mail and social links",
+      "learn": "Mirror the header's column grid in the footer so the small site stays navigable from both ends",
+      "reconstruction": {
+        "layout": "249px band; the same 6-column grid as the header, link columns from x≈730; legal line split left/right at the bottom",
+        "typography": "Headings ~11px pink tracked small caps; links ~14px FF Ernestine; legal ~11px",
+        "palette": [
+          "#fdfdfd",
+          "#111111",
+          "#c4305c",
+          "#b0b0af"
+        ],
+        "behaviour": "none",
+        "content": "Real links and legal text",
+        "assets": "none",
+        "html": "footer > nav > ul#footerOne.containsGrid > li (form[action] > input#luke-skywalker[name=s]) + li > h2.HSC + ul; ul#footerTwo"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/typeset-page",
+    "story/large-text-intro",
+    "footer/link-columns"
+  ]
+}

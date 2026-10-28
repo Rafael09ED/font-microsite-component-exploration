@@ -1,0 +1,372 @@
+{
+  "slug": "faction-losttype-com",
+  "extractedBy": "agent",
+  "summary": "A one-column, night-mode launch page for a two-style display face (Black and Outline), built on Lost Type's React specimen template: every display line is an editable field that auto-scales to fill the column, and a pill button flips whole sections between the two styles. A long first-person designer essay with diagrams leads into a grey licensing and about section.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "loud, punk announcement",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "buy",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "Centred white ultra-heavy caps on black: 'INTRODUCING / →FACTION← / A NEW DISPLAY TYPEFACE FROM LOST TYPE', the name and arrows in the Outline style, then a small credit line and an outlined pill 'Get Faction'",
+      "feel": "Loud, poster-like, like a gig flyer",
+      "ux": "Lines flicker on one after another at load; a single 'Get Faction' link to the Lost Type shop; a round day/night mode switch sits in the top-right corner",
+      "learn": "Let the launch announcement itself be the specimen, and set only the family name in the second style so both styles appear in the first line you read",
+      "reconstruction": {
+        "layout": "Centred header, max-width 1280px, ~930px tall (≈1 viewport); five display lines at line-height 1, then credit line and pill button ~40px apart; day/night toggle (10vw square, max 100px) absolute top-right",
+        "typography": "Display lines 140px LT Faction Black, uppercase, line-height 1.0; '→FACTION←' in LT Faction Outline with the arrows as glyphs (aria-hidden); credit 'Designed by Shiva Nallaperumal' ~24px LT Tofino Wide; button label ~16px Tofino Wide",
+        "palette": [
+          "#050505",
+          "#f4f4f4"
+        ],
+        "behaviour": "On load each line runs a 'vhs-flicker' keyframe (opacity flicker) with delays 0s, 0.25s, 0.5s, so the headline stutters on like a bad VHS tape; afterwards static. The corner button toggles the whole page between night (black) and day (inverted) mode; images carry an is-day--invert class",
+        "content": "The announcement sentence; designer credit",
+        "assets": "none (sun/moon toggle is an inline SVG)",
+        "html": "header > h1 (div.vhs-flicker × 2 with animation-delay) + span.vhs-flicker + credit + a.button[href=losttype.com/font/?name=faction]; button[aria-label='Switch to Day Mode'] in the corner; root has class is-night"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "blunt, graphic",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "'Faction comes in two styles:' in white heavy type, then 'BLACK &' set in Black and 'OUTLINE' in Outline, each filling the full column width at ~270px",
+      "feel": "Emphatic, minimal",
+      "ux": "Both style names are editable and stay fitted to the column width as you type",
+      "learn": "For a family of two, set each style's name in itself at full measure: the overview is one sentence long",
+      "reconstruction": {
+        "layout": "Centred column max-width 1024px, ~950px tall; intro line, then two list items each one line spanning the column edge to edge; hairline rule at the bottom",
+        "typography": "Intro 'Faction comes in two styles:' fitted at ~140px LT Faction Black, sentence case, centred; 'BLACK &' 269.5px LT Faction Black; 'OUTLINE' 274.1px LT Faction Outline; line-height ~1",
+        "palette": [
+          "#040404",
+          "#f7f7f7"
+        ],
+        "behaviour": "Each line is a Draft.js contenteditable whose font-size is recomputed (fit-to-width) on every edit; lines fade in (public-TypeTester-fadein)",
+        "content": "The style names themselves",
+        "assets": "none",
+        "html": "ul > li.font-family-faction-black|outline > .public-TypeTester > DraftEditor contenteditable > span.tester-line[style=font-size:269.5px]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "auto-fit-editable-lines",
+      "newVariant": true,
+      "variantDefinition": "Editable display lines that each rescale their font size to fill the column width as you type; no size or axis controls, at most one button that switches the style of the whole stack.",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "rebellious, punchy",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "style-select"
+        ],
+        "scope": "global",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Seven white lines each filling the column at ~190px ('BLACK FLAG', 'Revolution!', '“Machine”', '@tweeters', 'ÆSKUÁR 23', '₹2,93,8415', '©Copyright') under an outlined pill button labelled 'Outline'",
+      "feel": "Wall-of-slogans, protest poster",
+      "ux": "Click any line to retype it; it re-fits to the full width as it grows or shrinks. The pill button swaps the whole stack between Black and Outline (its label names the other style)",
+      "learn": "Auto-fitting each editable line to the measure keeps a display tester looking like a poster whatever the visitor types; choose default words that smuggle in the awkward glyphs (Æ, Á, ₹, ©, @, curly quotes)",
+      "reconstruction": {
+        "layout": "Centred column max-width 1024px, ~1520px tall; pill button centred on top (col-4 ≈ 330×44px), then 7 lines stacked tight (line-height ~1.1), each spanning the column; hairline rule at the bottom",
+        "typography": "Lines LT Faction Black at fitted sizes 179–195px (191.3, 188.9, 191.1, 190.9, 193.6, 194.7, 178.9), mixed case; button label ~16px LT Tofino Wide",
+        "palette": [
+          "#050505",
+          "#f5f5f5"
+        ],
+        "behaviour": "On input, measure the line's natural width and set font-size = column width / text width × current size (white-space: nowrap); the button toggles a family class on the wrapper (Black ⇄ Outline) and swaps its own label and fill (black fill with white border vs white fill)",
+        "content": "Political/punk words and glyph-coverage strings: Black Flag, revolution, quotes, @handle, Æ/Á caps with figures, Indian rupee with lakh grouping, ©",
+        "assets": "none",
+        "html": "form > button.button (style toggle) + .font-family-faction-black > ul > li > .public-TypeTester > DraftEditor-root > [contenteditable] > span.tester-line.js-line[style=font-size:…]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "punk, DIY record sleeve",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "carousel"
+      },
+      "look": "Full-width carousel of square black-and-white album covers set in Faction ('Static Shok “Lost Man” Single', 'THE PETTIBONS NO TITLE' in a grainy ink ring, a radio-headed figure, 'Video Drone', 'DUNE'), the centre cover flanked by cropped neighbours",
+      "feel": "Underground, xerox, record-shop",
+      "ux": "Invisible full-height buttons on the left and right halves ('Previous Cover', 'Next Cover') slide the strip by one cover; images invert in day mode",
+      "learn": "Pick one application genre that fits the face (punk record sleeves) and show several invented releases: a coherent fictional catalogue sells the attitude",
+      "reconstruction": {
+        "layout": "Full-bleed 1440px band, ~815px tall; slides 720px wide (one cover ~690px square with 16px side padding), strip translated so one cover is centred and halves of the neighbours show at the edges",
+        "typography": "Cover titles in LT Faction Black and Outline at 60–120px, black on white",
+        "palette": [
+          "#fafafa",
+          "#040404",
+          "#363636"
+        ],
+        "behaviour": "translate3d slide of the ul.slider-list by 720px per step; click zones are transparent buttons covering each side; the two capture passes show different covers, so it may also advance on its own",
+        "content": "Fictional punk/indie album covers and singles",
+        "assets": "5 square album-art PNGs (/media/album-art-01…05.png), greyscale with photo collage and spray texture",
+        "html": ".slider > .slider-frame > ul.slider-list > li.slider-slide > img.is-day--invert; .slider-decorator-0/1 > button[aria-label='Previous Cover'|'Next Cover'] (nuka-carousel style)"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "type-tester",
+      "variant": "auto-fit-editable-lines",
+      "newVariant": true,
+      "variantDefinition": "Editable display lines that each rescale their font size to fill the column width as you type; no size or axis controls, at most one button that switches the style of the whole stack.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "inviting, cheeky",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "style-select"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "One huge outlined line 'Try Me...' with a blinking caret at its end, under a white-filled pill button 'Black'; a thin white chevron line below points down into the story",
+      "feel": "Direct invitation",
+      "ux": "The line is editable and re-fits to the column as you type; the pill toggles the line between Outline and Black",
+      "learn": "Put a single 'Try Me...' line with a visible caret after the showcase: the prompt is the instruction, no label needed",
+      "reconstruction": {
+        "layout": "Centred column max-width 1024px, ~525px tall; pill button ~330×44px centred, one line spanning the column, then a full-width SVG chevron (viewBox 500×55, V from both top corners to the centre) as a divider",
+        "typography": "'Try Me...' 232.9px LT Faction Outline (fitted), centred; button ~16px LT Tofino Wide, black text on white pill",
+        "palette": [
+          "#020202",
+          "#fafafa"
+        ],
+        "behaviour": "Same fit-to-width editor as the other testers; caret shown by default (public-TypeTester-caret) to signal editability; button swaps family Outline ⇄ Black and inverts its own fill",
+        "content": "'Try Me...' prompt",
+        "assets": "inline SVG chevron divider",
+        "html": "form > button + .font-family-faction-outline > .public-TypeTester.public-TypeTester-caret > DraftEditor (alignCenter); svg.SectionTryMe-svg polygon"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "personal, reflective, process-minded",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "diagram",
+          "archival",
+          "process"
+        ],
+        "length": "long"
+      },
+      "look": "'STORY' heading in Faction Black, then a narrow column of first-person prose broken by full-width figures: counter-rectangle diagram over 'OHOSXV' / 'OECSXV', Jan van Krimpen's Open Kapitalen ('EPISTOLA BEATI PETRI…'), 'Filament' in Black, auto-outlined Black and Outline, and an 'Info@LT www.com #Pour¼!' specimen",
+      "feel": "Thoughtful, designer-to-designer",
+      "ux": "Long read; inline links to Calcula, Klimax, Neil Bold, Open Kapitalen and earlier Lost Type releases",
+      "learn": "Explain the one generative rule (counters are only 20-unit rectangles) with a single diagram that pulls the counters out above the letters",
+      "reconstruction": {
+        "layout": "Centred column max-width 768px, ~3980px tall; short paragraphs alternating with full-column figures (~740px wide) with small captions below; chevron divider above the heading",
+        "typography": "Heading 'STORY' ~96px LT Faction Black uppercase centred; body ~20px LT Tofino Wide, leading ~1.45, light grey on black; cited names in small caps (cite.caps); captions ~14px grey",
+        "palette": [
+          "#050505",
+          "#f6f6f6",
+          "#2f2e2f"
+        ],
+        "behaviour": "none (figures invert in day mode)",
+        "content": "Designer's essay: forms vs counter-forms, the 20-unit counter rule, Open Kapitalen as the outline reference, optical correction of the Outline vs auto-outline, influences, the name",
+        "assets": "4 figures: counter diagram (image-01), Open Kapitalen scan (Kris Sowersby collection), Black/auto-outline/Outline comparison (image-02), specimen image (image-03)",
+        "html": "h1 + p.font-family-text + figure > img.is-day--invert + figcaption; cite.caps for titles"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, indie-fair",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": false,
+        "free": false
+      },
+      "look": "On mid-grey, 'PERSONAL LICENSE →' in black Faction Black and 'COMMERCIAL LICENSE →' in Faction Outline, each over one sentence: pay-what-you-want for personal use, $50 for commercial (both styles)",
+      "feel": "Fair, no-nonsense",
+      "ux": "Each heading+paragraph is one big link to the Lost Type product page",
+      "learn": "Set the two licence options in the two styles of the family, so even the buy section is a style comparison",
+      "reconstruction": {
+        "layout": "Grey band (whole lower page wrapped in .bg-gray); centred column max-width 768px, ~825px tall; two stacked link blocks, heading centred above a left-aligned paragraph",
+        "typography": "Headings 103.7px uppercase, Black and Outline respectively, black, two lines with a trailing arrow; paragraphs ~20px LT Tofino Wide white",
+        "palette": [
+          "#7a7a7a",
+          "#090909",
+          "#f6f6f6"
+        ],
+        "behaviour": "none",
+        "content": "Personal: Lost Type's pay-what-you-want model, non-commercial use; Commercial: $50 includes both styles",
+        "assets": "none",
+        "html": "a.col-12.md-col-6 > h2 + p (two of them, both to losttype.com/font/?name=faction)"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "story",
+      "variant": "designer-bio",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "factual, credentialed",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "On grey, black 'ABOUT' heading and a white paragraph on Shiva Nallaperumal, then a black 'CREDITS' heading and one sentence of credits",
+      "feel": "Modest, matter-of-fact",
+      "ux": "Name links to the designer's site; credits link to the mastering engineer, site developer and text face",
+      "learn": "Keep about and credits as short paragraphs under the same display headings as the rest of the page: the closing still reads as a specimen",
+      "reconstruction": {
+        "layout": "Centred column max-width 768px; heading centred, paragraph left-aligned, ~60px gaps; About + Credits ≈ 800px of the 1916px block",
+        "typography": "Headings 103.7px LT Faction Black uppercase black; body ~20px LT Tofino Wide white, links underlined, (USA)/(INDIA) in small caps",
+        "palette": [
+          "#7c7c7c",
+          "#070707",
+          "#fafafa"
+        ],
+        "behaviour": "none",
+        "content": "Third-person bio (Typotheque, Indian Type Foundry, Pentagram, Forbes India 30 Under 30); credits: mastered by Dave Bailey, site by Kenneth Ormandy, text face Tofino Wide by Alanna Munro",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "designer catalogue",
+        "mobile": "adapts"
+      },
+      "look": "'ALSO' heading, one line of copy, then two full-column specimen banners: 'ORWELLIAN' over a grey ampersand on white, 'Enemy' over a grey 'a' on black",
+      "feel": "Collectible, poster-like",
+      "ux": "Each banner links to that family's Lost Type page; the page ends here",
+      "learn": "Cross-sell the designer's other faces with one specimen poster each rather than a list of names",
+      "reconstruction": {
+        "layout": "Centred column 768px; two banners ~740×370px stacked with ~30px gap, ending the page",
+        "typography": "Heading 103.7px LT Faction Black; intro ~20px Tofino Wide; banner lettering is part of the images",
+        "palette": [
+          "#7c7c7c",
+          "#fafafa",
+          "#070707"
+        ],
+        "behaviour": "none (images invert in day mode)",
+        "content": "Orwellian and Enemy, Shiva Nallaperumal's earlier Lost Type releases",
+        "assets": "2 specimen banner PNGs (related-orwellian.png, related-enemy.png)",
+        "html": "a.block > img.is-day--invert"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "family-overview/style-word-grid",
+    "type-tester/auto-fit-editable-lines",
+    "specimen-showcase/in-use-mockups",
+    "type-tester/auto-fit-editable-lines",
+    "story/essay",
+    "checkout/link-out-cta",
+    "story/designer-bio"
+  ]
+}

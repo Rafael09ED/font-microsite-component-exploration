@@ -1,0 +1,522 @@
+{
+  "slug": "area-font-eu",
+  "extractedBy": "agent",
+  "summary": "Blaze Type's microsite for Area, an 88-style variable neo-grotesque (wght, wdth, slnt and a custom INKT inktrap axis): a brutalist-architecture video hero with an animated stack of 'AREA', a drop-cap intro and facts table, then numbered chapters on the variable system, pairing with Blaze display faces, Futura-inspired alternates, inktraps and interface use, broken up by textured photo panels with Normal/Extended switches. Fixed green 'Buy Area' and black 'Download Trial' pills float at the top throughout.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "kinetic-type",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "video",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "brutalist, cinematic",
+        "mobile": "adapts",
+        "carrier": "motion",
+        "cta": "multiple",
+        "rangeShown": "whole-family",
+        "navVisible": true
+      },
+      "look": "A rounded full-width video of a misty concrete building (camera gliding past balconies), with a centred white stack: five small 'AREA' lines growing heavier and wider, 'B L A Z E  T Y P E' letter-spaced, then five more 'AREA' lines growing to ~70px",
+      "feel": "Moody, architectural, premium",
+      "ux": "The stack's lines interpolate wght, wdth and INKT in a staggered loop over the drifting video; fixed Buy/Trial pills at the top",
+      "learn": "Stack the name ten times and give each line a slightly different point on all axes, then animate them: the whole design space reads as one moving column",
+      "reconstruction": {
+        "layout": "Video panel 1440×~870px with ~16px rounded corners and ~0 margin; stack centred at x=720 from y≈130 to y≈730; line heights growing from ~24px to ~80px",
+        "typography": "Area uppercase, white, wide tracking; variation per line from wght 100/wdth 100/INKT 0 up to wght ~897/wdth ~199/INKT ~99; 'BLAZE TYPE' ~28px with ~0.6em tracking",
+        "palette": [
+          "#4d4e4c",
+          "#f5f5f5",
+          "#cfd0cf",
+          "#aeb0ad",
+          "#8f9492"
+        ],
+        "behaviour": "Looping JS/CSS interpolation of font-variation-settings ('INKT', 'wdth', 'wght') per line with a phase offset; background autoplaying muted video; intro shows only the pills on white for ~2s while the video loads",
+        "content": "Family name and foundry name only",
+        "assets": "Architectural video loop (3D render or film of brutalist concrete)",
+        "html": "spans with inline font-variation-settings: \"INKT\" n, \"slnt\" 0, \"wdth\" n, \"wght\" n"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "06"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "compact, commercial",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Two pills fixed at the top centre over everything (never cut as their own block): green 'Buy **Area**' and black 'Download Trial'; at the end a full-width green bar 'See **Area** on Blaze Type's website now! →'",
+      "feel": "Always-available, light-touch",
+      "ux": "Buy and the end bar go to blazetype.eu/typefaces/area; Trial to blazetype.eu/trials",
+      "learn": "Two small fixed pills keep buying one click away without a full nav bar",
+      "reconstruction": {
+        "layout": "Pills ~190×28px each, touching, centred at the top (y≈0–28); end bar 1440×~90px green with left info glyph and right arrow",
+        "typography": "Pills ~15px Area Regular with 'Area' in Bold; bar ~22px",
+        "palette": [
+          "#00b300",
+          "#222222",
+          "#ffffff"
+        ],
+        "behaviour": "Pills stay fixed while scrolling",
+        "content": "Buy, trial and shop links",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "architectural metaphor",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Dark rounded card: a giant 'ARE' drop cap (~150px) eats into a ~26px paragraph whose key phrases are set in the style they describe and coloured green ('Normal and Inktrap', 'variable', 'modular geometrical structure', 'smooth grey', 'steady as well'); the second half switches to bold",
+      "feel": "Confident, crafted",
+      "ux": "static",
+      "learn": "Let the paragraph change weight and style exactly where it names them: the intro becomes a running specimen",
+      "reconstruction": {
+        "layout": "Card 1440×~310px, ~16px radius, 20px padding; drop cap 'ARE' spans 3 lines at the left; text full width",
+        "typography": "Drop cap ~150px Area Medium white; paragraph ~26px Area Light → Bold, white, leading ~1.3; highlighted phrases #22c55e-like green",
+        "palette": [
+          "#2c2c2c",
+          "#ffffff",
+          "#2bd45e"
+        ],
+        "behaviour": "none",
+        "content": "'AREA is a variable font family of 88 fonts. Revolving around two width: Normal and Extended… Like any piece of architecture, the design process of Area started with a stable modular geometrical structure.'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "factual",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "Under the intro: a half-width looping video excerpt of concrete stairs ('Excerpt from Blaze Type's video', pause button) beside a ruled facts table: Designed by Matthieu Salvaggio, Alain Papazian · Released in 2021 · Updated in 2022 · Export .OTF .WOFF .WOFF2 .TTF (Variable) · Developed for Latin European Languages ⌄",
+      "feel": "Spec-sheet, tidy",
+      "ux": "Pause button on the video; the languages row expands into the list",
+      "learn": "Put the family's credits, dates and formats in a five-row table near the top: buyers get the facts before the story",
+      "reconstruction": {
+        "layout": "Two columns: video ~710×430px rounded at x=0; table from x≈730 to 1440, rows ~42px with 1px grey rules, label column ~280px",
+        "typography": "Labels ~16px Area Regular grey; values ~16px black",
+        "palette": [
+          "#f5f5f5",
+          "#000000",
+          "#8f9492"
+        ],
+        "behaviour": "Muted autoplay video with pause toggle; languages row is a disclosure",
+        "content": "Designers, release/update dates, formats, language coverage",
+        "assets": "Short architecture video excerpt"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "systematic",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "'❶ By taking full advantage of the variable technology, Area is a workhorse font family:' over two blocks of the word 'Area' repeated (Regular & Extended / Inktrap & Extended), stepping through every weight with alternating upright and italic, normal and extended, in four dense lines each",
+      "feel": "Comprehensive, rhythmic",
+      "ux": "static",
+      "learn": "Repeat one short word through all instances in reading order: 88 styles fit in eight lines",
+      "reconstruction": {
+        "layout": "Grey rounded panel; two columns ~690px each; 4 lines of ~10 'Area' words per column",
+        "typography": "Heading ~30px Area Light with green highlighted words; samples ~22px, spans with font-variation-settings wght 100–900 × slnt 0/100 × wdth 100/200 (INKT on the right)",
+        "palette": [
+          "#f4f4f4",
+          "#2c2c2c",
+          "#2bd45e"
+        ],
+        "behaviour": "none",
+        "content": "The word 'Area' in every style",
+        "assets": "none",
+        "html": "span[style=font-variation-settings: 'wght' n, 'slnt' 0|100, 'wdth' 200]"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "bold, tactile",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "toggle",
+        "explanation": "caption"
+      },
+      "look": "Rounded dark panels with a black-and-white texture photo (feathers/chewing gum, a Damascus-steel machete): a small heading ('Let's see:', italic 'Moving forward with a machete'), a centred bold extended italic statement ('Area Normal, Extended & Italics', 'Each letter was designed to work by itself') and two square radio buttons '☐ Normal ■ Extended'",
+      "feel": "Punchy, poster-like breathers",
+      "ux": "Clicking Normal or Extended switches the statement's wdth between 100 and 200",
+      "learn": "A two-option switch on a big statement is enough to explain a width axis, and doubles as a chapter break",
+      "reconstruction": {
+        "layout": "Panels 1440×~680px with ~16px radius; heading at top centre; statement centred, 3 lines, ~1000px wide; radios centred below",
+        "typography": "Statement ~94px Area Bold Italic (slnt 10, wght 900, wdth 200), white; heading ~28px Light; radio labels ~28px",
+        "palette": [
+          "#2a2a2a",
+          "#ffffff",
+          "#7a7a7a"
+        ],
+        "behaviour": "input[type=radio][name=width01] value 100/200 → tester-sample font-variation-settings wdth",
+        "content": "Short brand statements",
+        "assets": "Grey texture photos (chewing-1800.jpg, machete-1800.jpg)",
+        "html": "div.variable-tester > img.tester-background + p.tester-title + div.tester-sample + div.tester-controls[data-axis=wdth] > radio#normal01/#extended01"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "comparison",
+      "variant": "versus-tabs",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "editorial, foundry pride",
+        "mobile": "adapts"
+      },
+      "look": "Pill tabs at the top, each set in its own font (Apoc, Emeritus, Inferi, Joly, Oroban, Sigurd), above a mock editorial spread: headline 'Straight From The Blaze' in the selected display face, two Area body columns about the foundry, and three small columns of text in the partner face",
+      "feel": "Magazine-like",
+      "ux": "Choosing a tab resets the headline and accent text in that typeface, with per-font size, leading and offset compensation; Area stays the body",
+      "learn": "Show the house sans as the body under each of the foundry's display faces: a pairing tab sells the catalogue as a system (same tab mechanism as a rival comparison, used for harmony)",
+      "reconstruction": {
+        "layout": "Grey rounded panel ~560px; tabs centred (pills ~70×28px); headline centred ~86px; two body columns ~690px; three 3-column notes below",
+        "typography": "Tabs ~13px each in its font; headline ~86px in the chosen Blaze face; body ~19px Area Regular; notes ~13px partner face",
+        "palette": [
+          "#f0f0f0",
+          "#2a2c28",
+          "#d1d1d1"
+        ],
+        "behaviour": "radio[name=font] with data-font-size / data-line-height / data-offset-top → headline and notes switch font-family and metrics",
+        "content": "Real copy about the foundry; Book of Revelation text in the partner faces",
+        "assets": "Webfonts of the six partner typefaces",
+        "html": "section#pairing > .pairing-tester > .font-list > input[type=radio][name=font][data-font-size][data-line-height] + label.btn"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "fashion, editorial",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "carousel"
+      },
+      "look": "Dark rounded carousel of real projects: a Submarine magazine spread (fashion photo with 'Taller de colecciones y editorial de moda', dense text page) and Zeppelin Museum pieces, with thin < > arrows and a caption '1/10 Submarine magazine, issue 1, April 2021 — awayo.studio'",
+      "feel": "Credible, stylish",
+      "ux": "Arrow buttons step through 10 slides (Splide), with a counter and credit",
+      "learn": "Credit each in-use image with the publication and studio: real clients beat mockups",
+      "reconstruction": {
+        "layout": "Panel 1440×~680px, ~16px radius, slide image ~880px centred, arrows at the edges; caption line under the panel",
+        "typography": "Caption ~12px Area Regular",
+        "palette": [
+          "#2a2c28",
+          "#0c0b10",
+          "#f0f0f0"
+        ],
+        "behaviour": "Splide slider with prev/next arrows and looping clones",
+        "content": "Submarine magazine and Zeppelin Museum work",
+        "assets": "10 photos of real applications",
+        "html": "splide with .splide__arrow--prev/--next"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "playful, historical",
+        "mobile": "shrinks",
+        "subject": [
+          "alternates",
+          "features"
+        ],
+        "presentation": "catalogue",
+        "explanation": "prose"
+      },
+      "look": "'❸ With alternate glyphs for almost all letters, Area is a playground to experiment with:' (set with geometric alternates) and a 'See alternates ⌄' pill; below, a bright green panel: the default a–z & in white with thin arrows dropping to three rows of alternates labelled ss.01, ss.02, ss.03",
+      "feel": "Diagrammatic, fresh",
+      "ux": "The 'See alternates' dropdown has seven checkboxes (Geometric Alternates, Alternate Q a, Geometric Alternates 2, Alternate t u, Alternate f l r t, Alternate j, Alternate t) that switch ss01–ss07 on the section text",
+      "learn": "Draw arrows from each default letter down to its alternates per stylistic set: one chart answers 'what does ss02 change?'",
+      "reconstruction": {
+        "layout": "Grey text panel then green panel 1440×~560px rounded; default alphabet row at the top (~70px), three alternate rows ~130px apart, set labels rotated in the left margin, 1px arrows",
+        "typography": "Chart glyphs ~70px Area Light white; intro heading ~35px with alternates on; body ~15px; caption ~10px",
+        "palette": [
+          "#4ed979",
+          "#ffffff",
+          "#f1f2f2",
+          "#000000"
+        ],
+        "behaviour": "Checkbox change → font-feature-settings on the section's paragraphs",
+        "content": "Alternates inspired by Paul Renner's original Futura and his 1920s normograph experiments",
+        "assets": "Alternates chart (image/SVG)",
+        "html": "div.alternate-tester > dropdown with input[type=checkbox][name=feature][value=ss01…ss07] + label"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "explanatory, sensory",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "optical-size"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "'❹ The inktrap version assures high legibility in all sizes:' with two text columns, then two macro photos side by side: 'Printed details, size 4pt' (halftoned 'Extended / Inktrap Ext…' on paper) and 'Detail on screen, size 6px' ('a&B' over a visible pixel grid)",
+      "feel": "Evidential, tactile",
+      "ux": "static",
+      "learn": "Prove inktraps with macro photos of the font at 4pt in print and 6px on screen: the reason for the feature becomes visible",
+      "reconstruction": {
+        "layout": "Grey text panel (~330px) with two columns; two square photos ~710×710px with 16px radius and small captions beneath",
+        "typography": "Heading ~35px Area Light with green keywords; body ~16px; captions ~11px",
+        "palette": [
+          "#f3f2f1",
+          "#333334",
+          "#adacb0",
+          "#2bd45e"
+        ],
+        "behaviour": "none",
+        "content": "Inktrap rationale: compensation for ink spread and pixel blur",
+        "assets": "Two macro photos (print and screen)"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "digital, contemporary",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "grid"
+      },
+      "look": "'❺ Area will cover every needs for digital interface design:' then two dark rounded tiles: a laptop showing the Jeu de Paume 'PING PONG' kids programme site in green and pink, and a phone with Linda Rammes' 'MÜNDIGES DESIGN' site, each credited with a link",
+      "feel": "Practical, current",
+      "ux": "Caption links to the real websites",
+      "learn": "For an interface typeface, show real sites on device frames, cropped tight on the type",
+      "reconstruction": {
+        "layout": "Text panel then two square tiles ~710×710px, device frames cropped by the tile edges",
+        "typography": "Heading ~35px; captions ~11px underlined links",
+        "palette": [
+          "#f2f2f2",
+          "#252525",
+          "#141414",
+          "#aaaaaa"
+        ],
+        "behaviour": "none",
+        "content": "Real client websites using Area",
+        "assets": "Device mockup images (Macbook-1800.jpg, phone-1800.jpg)"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "video",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "fantasy, cinematic",
+        "mobile": "adapts"
+      },
+      "look": "'Discover other fonts:' and three tall rounded video cards (fiery ember scene 'Sigurd', violet blossoms and rock arch 'Oroban', misty black pillars 'Apoc'), each name set large in white in its own typeface",
+      "feel": "Atmospheric, collectible",
+      "ux": "Each card links to that font's site; background videos loop",
+      "learn": "Give each sibling font its own short world-building video so cross-links feel like trailers",
+      "reconstruction": {
+        "layout": "Three equal cards ~465×690px with ~20px gaps and ~16px radius",
+        "typography": "Names ~90px in Sigurd, Oroban, Apoc (SVG wordmarks), white, centred",
+        "palette": [
+          "#302c2f",
+          "#f8fbf8",
+          "#06ad06",
+          "#658b75"
+        ],
+        "behaviour": "Autoplay muted looping videos (videos/Sigurd.mp4 …)",
+        "content": "Three other Blaze Type families",
+        "assets": "Three 3D-render video loops and SVG name logos"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "minimal",
+        "mobile": "adapts",
+        "contains": [
+          "legal",
+          "credits"
+        ]
+      },
+      "look": "Small grey line '© Blaze Type 2022 · Design: Alexis Cros · Développement: Max Esnée' under the font cards; it was never cut as a block and is visible only in the mobile capture and the HTML",
+      "feel": "Quiet",
+      "ux": "Credit links to the designer and developer",
+      "learn": "Credit the site's designer and developer in the same line as the copyright",
+      "reconstruction": {
+        "layout": "One line at the bottom-left, ~120px tall area",
+        "typography": "~11px Area Regular grey, underlined names",
+        "palette": [
+          "#ffffff",
+          "#aaaaaa"
+        ],
+        "behaviour": "none",
+        "content": "Copyright and site credits",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/kinetic-type",
+    "checkout/link-out-cta",
+    "story/large-text-intro",
+    "footer/credits-colophon",
+    "family-overview/style-word-grid",
+    "design-details/axis-explainer",
+    "comparison/versus-tabs",
+    "specimen-showcase/in-use-mockups",
+    "design-details/feature-index",
+    "design-details/design-notes",
+    "specimen-showcase/in-use-mockups",
+    "footer/slim-legal-bar"
+  ]
+}

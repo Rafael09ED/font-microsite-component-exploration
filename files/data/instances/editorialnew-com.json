@@ -1,0 +1,662 @@
+{
+  "slug": "editorialnew-com",
+  "extractedBy": "agent",
+  "summary": "A Locomotive-built single page for Pangram Pangram's narrow serif, styled like a 90s fashion magazine in near-black and off-white with a tan starburst accent. Its signature pieces are a newspaper hero that zooms in on scroll, two poster randomizers on 80s advertising photos, and a 'font book' glyph inspector with a sticky roundel. Throughout there is a site-wide Invert Colors toggle, a table-of-contents drawer and paper-fold transitions between sections.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "typeset-page",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "editorial, retro, refined",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "scroll",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "A small off-white newspaper front page floats centred on a near-black field: kicker 'A New (Free to Try) Font by Mathieu Desjardins', masthead 'Editorial New', '8 styles · 455 glyphs each', a boxed-word intro and four text columns with a photo. The rest of the 4.6-screen block is empty dark in the stitched capture.",
+      "feel": "Quiet, print-nostalgic, luxurious",
+      "ux": "The page is pinned (sticky) for ~2200px of scroll while it scales up and straightens until it fills the screen and can be read; a small ↓ button scrolls to the intro. A fixed header (Invert Colors, Get the font) and a 'Table of contents' rail frame it",
+      "learn": "Start with the whole specimen as a tiny printed object and let scrolling zoom the reader into it: the font's text and display roles arrive in one continuous move",
+      "reconstruction": {
+        "layout": "Section ~4165px tall (padding-bottom 2208px) with a sticky inner stage of 100vh. The newspaper starts ~360×490px centred (about 25% scale), with a 28px left rail ('Table of contents' rotated, ☰ icon) and a 57px fixed header. Newspaper content: centred header stack, then an intro paragraph, then a 4-column text grid with a 4:3 photo in column 2",
+        "typography": "Masthead 'Editorial New' ~213px Ultralight/Light at full scale; kicker and '8 styles / 455 glyphs each' ~20px Regular; intro ~28px with two words boxed in hairline rectangles ('precise', 'elegant'); columns ~14px Regular justified, all Editorial New. Header UI in Neue Montreal 12–14px",
+        "palette": [
+          "#1a1a1a",
+          "#f4f4f4",
+          "#282828"
+        ],
+        "behaviour": "Intro: ~2s dark loader with a small 'Editorial New' wordmark before the page shows. Locomotive Scroll calls 'newspaperScale' and 'newspaperRotate' on the sticky wrapper: the page scales from ~0.25 to 1 and rotates to upright as you scroll through the pinned distance, then releases; the intro paragraph reveals on 'newspaperIntro'",
+        "content": "Real copy: kicker, name, style and glyph counts, the positioning blurb ('A precise and elegant narrow serif…'), then the designer's essay",
+        "assets": "One 70s-advertising photo (man with tennis racket), 4:3",
+        "html": "#js-newspaper[data-module-newspaper] > #js-newspaper-sticky[data-scroll-sticky] > .c-newspaper_wrap[data-scroll-call=newspaperScale] > .c-newspaper_main[data-scroll-call=newspaperRotate] > header.c-newspaper_header + .c-newspaper_intro + .c-newspaper_columns"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "personal, trend-aware",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "photo"
+        ],
+        "length": "medium"
+      },
+      "look": "The designer's essay runs in four narrow justified columns inside the hero newspaper, with one vintage photo, so it reads like a front-page article",
+      "feel": "Personal, magazine-like",
+      "ux": "Only legible once the scroll zoom has enlarged the newspaper; on mobile it is a plain two-column article",
+      "learn": "Put the designer's statement inside the hero artefact as its body copy: the essay is also the text-size specimen",
+      "reconstruction": {
+        "layout": "4 equal columns with ~20px gutters across the newspaper's width; the photo (4:3) sits at the top of column 2; one group of paragraphs is kept together (column break avoided)",
+        "typography": "Body ~14px Editorial New Regular, justified, leading ~1.3",
+        "palette": [
+          "#f4f4f4",
+          "#1a1a1a"
+        ],
+        "behaviour": "Moves and scales with the newspaper (see hero)",
+        "content": "First-person essay: 'Editorial New started as just an idea, a feeling, a sense of trend. Looking at old 70s and 80s ads for computers and cars…', the case for narrow serifs on sharp screens, light vs heavy weights, then a credit to Locomotive",
+        "assets": "Same photo as the hero"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "family-overview",
+      "variant": "big-number-stats",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "elegant, confident",
+        "mobile": "adapts",
+        "structure": "stats",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "Off-white field, a giant '455' in hairline outline with only the middle '5' solid black, and a small centred caption '{ 8 variable weights } 455 glyphs' over it",
+      "feel": "Elegant, quietly boastful",
+      "ux": "Caption moves at a different scroll speed (parallax 1.5); a paper-fold strip slides horizontally into the next (dark) section",
+      "learn": "Set the key number in the font's own numerals and fill just one digit: the statistic becomes a display specimen",
+      "reconstruction": {
+        "layout": "One viewport (~920px); numerals centred and cropped top and bottom by the section, ~1250px wide in total; caption centred on the solid digit",
+        "typography": "Numerals ~864px Editorial New (outline digits as stroked, transparent text; the solid one filled black); caption ~44px Ultralight with braces",
+        "palette": [
+          "#f4f4f4",
+          "#151515",
+          "#d2d2d2"
+        ],
+        "behaviour": "Caption parallax (data-scroll-speed 1.5); numerals are split into a top and bottom half (.c-hugeNumbers_half) likely animated by the 'numbers' module; .c-section_fold paper strip translates horizontally as the next section approaches",
+        "content": "'455', '{ 8 variable weights }', '455 glyphs'",
+        "assets": "none",
+        "html": ".c-hugeNumbers[data-module-numbers] > .c-hugeNumbers_half.-top + .c-hugeNumbers_half (spans per digit) + .c-hugeNumbers_text[data-scroll-speed]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "creative-toy",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "retro, playful, fashion",
+        "mobile": "adapts",
+        "controls": [
+          "weight",
+          "presets"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A portrait poster centred on near-black: an 80s toy photo (action figures beside a white car) under a white serif title 'Editorial New † Ultrabold', a strip of small print and the site URL at the foot; a white 'Randomize' pill below",
+      "feel": "Fun, vintage-ad, art-directed",
+      "ux": "Hover a line of the poster (weight, text, background) to reveal a 'Change' pill; click cycles that layer only. 'Randomize' shuffles all three at once",
+      "learn": "Split a poster into change-able layers (weight, word, photo) with one button each: visitors art-direct a composition without any type controls",
+      "reconstruction": {
+        "layout": "Section 100vh+, poster ~424×572px centred (3:4), padding-huge top/bottom; three invisible full-width hit zones (.c-posterZone_line) overlay the poster rows, each with a centred white pill button; Randomize pill ~150×72px, 60px under the poster",
+        "typography": "Title ~53px Editorial New in the selected weight, white, two lines with the dagger '†' before the weight name; footer info ~7px; buttons 14px Neue Montreal on white pills",
+        "palette": [
+          "#1a1a1a",
+          "#f0f1f0",
+          "#92a7b5",
+          "#92928b"
+        ],
+        "behaviour": "Click 'Change' on the weight row → next weight (data-poster-weight); on the text row → next word in the running 'Retro Retro Retro' line; on the background row → next photo (posters/01/NN.jpg). Randomize picks all three at random; no transitions beyond swaps",
+        "content": "Family name plus weight name as the headline; a repeated word ('Retro') as the running text",
+        "assets": "A set of ~15 scanned 80s advertising photos per poster (toys, cars)",
+        "html": ".c-posterZone > .c-posterZone_wrap > button.c-posterZone_line[data-poster=changeWeight|changeText|changeBackground] + .c-poster[data-poster=main][data-poster-weight] (.c-poster_background picture, .c-poster_title, .c-poster_weight, .c-poster_infiniteText) + button[data-poster=random]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "refined, catalogue-like",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "select",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Left half: a sticky 'Regular — 400 ↓' style menu, a showcase sentence full of alternates and diacritics ('{ Mąthieu Desjardins } offers you an ełegant «&» retro cøntemporary new font'), then a 10-column grid of all 403 characters; right half: a sticky black disc with a huge white 'E'",
+      "feel": "Calm, browsable, bookish",
+      "ux": "Hovering a grid cell shows that glyph in the sticky disc; the sticky menu switches the whole book between the 8 weights (Thin 100 to Heavy 900)",
+      "learn": "Pin a big round preview beside a long grid: the visitor scrolls the set and the disc keeps a single glyph at display size",
+      "reconstruction": {
+        "layout": "~3880px tall, two 50% columns divided by a hairline. Left: sticky menu row (~56px, label + ↓), sentence block, then grid of 10 cells per row (~66×78px each). Right: sticky circle ~580px diameter, vertically centred in the viewport",
+        "typography": "Sentence ~64px Editorial New Regular, leading ~1.1; grid glyphs ~22px; disc glyph ~450px white; menu 13px Neue Montreal",
+        "palette": [
+          "#f2f2f2",
+          "#1a1a1a",
+          "#ffffff"
+        ],
+        "behaviour": "Hover or tap a cell → disc letter updates (data-font-book=circle); menu items set data-font-book-current to swap the weight of sentence, grid and disc; menu and disc use Locomotive data-scroll-sticky",
+        "content": "A showcase sentence stuffed with alternates and accents, then the character set in encoding order: ASCII, Latin-1, Latin Extended-A, punctuation, arrows, maths, circled and negative-circled numerals",
+        "assets": "none",
+        "html": "#js-fontBook[data-module-font-book][data-font-book-current] > .c-fontBook_column (.c-fontBook_menu buttons[data-font-book-id], .c-fontBook_text, .c-fontBook_characters > .c-fontBook_char > span[data-font-book=char]) + .c-fontBook_column > .c-fontBook_circleWrap > .c-fontBook_circle_char"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "bold, graphic",
+        "mobile": "shrinks",
+        "structure": "list",
+        "samples": "glyph",
+        "interactive": true
+      },
+      "look": "Eight hairline-bordered vertical panels side by side, labelled 'Thin - 100' to 'Heavy - 900', each holding a giant cropped 'a' of its weight; seven are narrow slivers and the last (Heavy) is wide and shows the whole letter",
+      "feel": "Graphic, rhythmic",
+      "ux": "A 'panels' module makes it an accordion: one panel at a time is wide (likely on hover); the others show only the left edge of their 'a'",
+      "learn": "An accordion of one-letter panels shows a weight range as a gradient of black slivers and still gives each weight a full-size moment",
+      "reconstruction": {
+        "layout": "One row ~760px tall, full width minus the 56px rail; 7 collapsed panels ~130px wide, expanded panel ~480px; 1px grey borders; label top-left of each panel",
+        "typography": "'a' ~1100px Editorial New in each weight, cropped by the panel; labels 12px Neue Montreal",
+        "palette": [
+          "#f4f4f4",
+          "#151515",
+          "#cecece"
+        ],
+        "behaviour": "Panel widths animate when another panel is activated (flex transition); static in the capture",
+        "content": "One lowercase 'a' per weight",
+        "assets": "none",
+        "html": ".c-fontPanels[data-module-panels] > .c-fontPanels_item[data-panels=item] > .c-fontPanels_title + .c-fontPanels_letter"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "pangram",
+        "tone": "clean, inviting",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "style-select",
+          "size",
+          "tracking",
+          "leading"
+        ],
+        "scope": "single",
+        "defaultText": "pangram",
+        "export": false
+      },
+      "look": "A row of four controls (Weight dropdown, Size, Letter Spacing, Line Height sliders with px readouts) over a centred three-line pangram at 125px, with a tan 'TRY ME' starburst floating at the end of the first line",
+      "feel": "Airy, inviting",
+      "ux": "Type in the textarea; pick one of 8 weights from a custom dropdown; drag size, spacing and line height. The section is sticky so the next poster slides over it",
+      "learn": "A playful badge ('Try me' starburst) on the sample tells visitors the big text is editable without any instructions",
+      "reconstruction": {
+        "layout": "Section ~1200px, container ~1290px; controls in 4 equal columns (25% each) at the top; textarea centred below, ~1000px wide, 3 lines; footer row 'Font Sampler & Specimen' left and 'Change the text, size, styles and glyphs.' right",
+        "typography": "Sample 125px Editorial New Ultralight, centred, leading 148px; labels and readouts 13px Neue Montreal; dropdown value 13px",
+        "palette": [
+          "#f3f3f3",
+          "#1a1a1a",
+          "#b9a48f",
+          "#d0d0cf"
+        ],
+        "behaviour": "Size slider: four range inputs (9–81, 10–140, 11–189, 12–238) swapped by breakpoint, default 125px; letter spacing −8 to 8px; line height similar ranges, default 148px; weight select swaps the font; starburst label parallax (speed 1.5)",
+        "content": "Pangram 'All questions asked by five watched experts amaze the judge.'",
+        "assets": "Starburst SVG badge (sprite #try-me)",
+        "html": ".c-playground[data-module-playground] > .o-layout (custom select [data-module-select] li[data-select-value], input[type=range][data-playground=sizeInput|spacingInput|heightInput]) + textarea#maintext[data-playground=text] + label.c-playground_try"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "type-tester",
+      "variant": "creative-toy",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "retro, fashion, witty",
+        "mobile": "adapts",
+        "controls": [
+          "weight",
+          "presets"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Second poster on near-black: white top panel with '(Editorial New — Medium)', a two-line capitals headline 'SIMPLY FONTASTIC' and a three-column credit strip, over an 80s beauty close-up of a woman's face; 'Randomize' pill below",
+      "feel": "Glossy, magazine-cover",
+      "ux": "Same three hover zones as the first poster (weight, headline text, photo) plus Randomize",
+      "learn": "Repeat the toy with a different layout (headline-over-photo cover instead of title-on-photo) so the second visit shows another use of the face",
+      "reconstruction": {
+        "layout": "Poster ~424×572px centred; top ~40% white type panel (weight line, headline, 3 credit columns), bottom ~60% photo; three hit zones (small, large, background)",
+        "typography": "Headline ~62px Editorial New in caps, weight from the selector; weight line ~20px; credits ~7px Neue Montreal caps in 3 columns",
+        "palette": [
+          "#191a1a",
+          "#f4f4f4",
+          "#f0b28f",
+          "#d1d1d1"
+        ],
+        "behaviour": "Click Change → cycle weight, headline phrase or photo (posters/02/NN.jpg); Randomize shuffles all",
+        "content": "Punning headlines ('SIMPLY FONTASTIC', 'IGNITE THE FIRE' seen on mobile); credits Mathieu Desjardins / Pangram Pangram Foundry / Locomotive .ca",
+        "assets": "Set of 80s beauty and portrait advertising photos",
+        "html": ".c-posterZone.-two, .c-poster.-two[data-poster-weight=medium], .c-poster_details_item ×3"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "persuasive, editorial",
+        "mobile": "hidden",
+        "medium": "ui",
+        "sequence": "series"
+      },
+      "look": "A sticky large-text claim on the left ('Don't be (fooled) by the name ↘↘ Editorial New is »not« meant just for print. It was designed with web in — mind.') beside four overlapping flat screenshots of the same 'ALBUM BOOKLET (Montreal — Summer 1989)' web page, captioned Desktop, Laptop, Tablet, Mobile",
+      "feel": "Reassuring, practical",
+      "ux": "Screens drift at different parallax speeds while the claim stays pinned",
+      "learn": "Answer the obvious objection (a serif called 'Editorial' is for print) with one layout rendered at four screen sizes",
+      "reconstruction": {
+        "layout": "~1660px; heading pinned top-left (~620px wide); screenshots staggered from top-right to bottom-left: desktop ~690px wide, laptop ~470px, tablet ~360px, mobile ~150px, each with a 12px label under its right edge",
+        "typography": "Claim ~64px Editorial New Regular with a tab indent before 'Editorial New', arrows ↘↘ and guillemets; mock pages use Ultralight caps titles and small justified body",
+        "palette": [
+          "#f3f3f3",
+          "#1a1a1a",
+          "#d6d6d6"
+        ],
+        "behaviour": "Locomotive parallax per screen (speeds 2–6) and inside each image (speed 5); heading data-scroll-sticky; section hidden on small screens (-hiddenSmall)",
+        "content": "One mock web article 'Album Booklet' reusing the designer's essay text",
+        "assets": "Four flat screenshots (desktop, laptop, tablet, mobile) without device frames"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "newVariant": true,
+      "variantDefinition": "A heading plus the full alphabetical list of supported language names, set small as running text or in columns; the list is the proof, no sample sentences.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "plain, reference",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": false
+      },
+      "look": "Four columns of language names (Afrikaans … Turkish, '(and more)') in small serif on off-white, opened by a hairline rule; no heading",
+      "feel": "Quiet, factual",
+      "ux": "static",
+      "learn": "A bare list of language names set in the text weight is the cheapest coverage proof and doubles as a text sample",
+      "reconstruction": {
+        "layout": "~570px; container ~1290px; 4 equal columns of 9 rows, ~33px row pitch; generous empty space below",
+        "typography": "~16px Editorial New Regular, sentence case",
+        "palette": [
+          "#f4f4f4",
+          "#1a1a1a",
+          "#cfcfcf"
+        ],
+        "behaviour": "none",
+        "content": "33 Latin-script languages plus '(and more)'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "highlighted-in-context",
+      "newVariant": true,
+      "variantDefinition": "Ligatures, alternates or special glyphs set inside a display sentence or lockup and picked out in an accent colour, so they are discovered in context rather than in a catalogue",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "witty, vintage-ad",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "annotation",
+        "explanation": "none"
+      },
+      "look": "A full-width caps lockup 'LOOK AT THE BILLBOARD FOUND ON CREEK ST. IT SEEMS TO PROMOTE THE MARLBORO Co. LTD' with small photo chips inset between words; the OO, LL, ST and Co. Ltd ligatures are tan, as are the fi, ff, st ligatures in a two-line aside below. Under it, a full-bleed 80s Marlboro-man photo",
+      "feel": "Cheeky, ad-agency",
+      "ux": "Background photo moves with negative parallax; the lockup is a static SVG (swapped for a dark version when colours are inverted)",
+      "learn": "Write a sentence that needs the ligatures (Creek St., Co. Ltd, difficult) and colour only those glyphs: the feature tour becomes a joke you read",
+      "reconstruction": {
+        "layout": "~1450px; lockup ~1300px wide in 4 justified caps lines (~80px line pitch), each with one image chip (~150×65px) replacing a word space; aside centred ~2 lines; photo full width ~730px tall below, bleeding into the next section",
+        "typography": "Caps lines ~110px Editorial New Regular; aside ~40px Regular; ligatures and superior 'o/TD' in tan",
+        "palette": [
+          "#f1f0f0",
+          "#1a1a1a",
+          "#b9a48f",
+          "#6e483a",
+          "#4d352f"
+        ],
+        "behaviour": "Background image data-scroll-speed −2; SVG swapped via data-invert-src when Invert Colors is on",
+        "content": "A wry ad-copy rant: 'Look at the billboard found on Creek St. It seems to promote the Marlboro Co. Ltd. They should find something healthier to promote like flowers and stuff. I mean, it's not that difficult, right?'",
+        "assets": "Lockup as SVG (light and dark), vintage cigarette ad photo",
+        "html": ".c-ligatureImage > .c-ligatureImage_background (picture, parallax) + .c-ligatureImage_main > img[src=ligature.svg][data-invert-src]"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "light, casual",
+        "mobile": "adapts",
+        "subject": [
+          "alternates"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "Three centred lines 'This font has a bunch of special characters and cool accents.' on off-white, with a footer row 'Special Characters' / '455 glyphs per style'",
+      "feel": "Casual, breezy",
+      "ux": "An 'accents' module fires when the block enters view (data-scroll-call=accents, repeat); it most likely swaps letters for accented and alternate forms and back. The capture shows the plain state",
+      "learn": "Let the sentence about accents perform them: letters flicking to accented forms on entry say 'special characters' without a table",
+      "reconstruction": {
+        "layout": "~880px; text centred in the middle third; footer labels at the bottom edge left and right; a small paper-fold strip below leads into the dark buy section",
+        "typography": "~64px Editorial New Regular, centred, leading ~1.1; footer 12px Neue Montreal",
+        "palette": [
+          "#f4f4f3",
+          "#1a1a1a",
+          "#cfcfcf"
+        ],
+        "behaviour": "On view: per-letter swap animation (inferred from .c-accents[data-module-accents] and data-accents=title); repeats each time it enters",
+        "content": "A plain self-describing sentence",
+        "assets": "none",
+        "html": ".c-accents[data-module-accents] > .c-accents_title[data-accents=title]"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "simple, friendly",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "On near-black: an ↑ back-to-top arrow, then two big white pills 'Buy Editorial New' and 'Try it for Free' with a tan 'GET IT' starburst overlapping the second",
+      "feel": "Uncluttered, light-hearted",
+      "ux": "Both pills open the Pangram Pangram product page (#license and #free-to-try anchors); the arrow scrolls back to the newspaper; header 'Get the font' jumps here",
+      "learn": "Offer 'Try it for Free' at equal weight to 'Buy': a free trial is the softer conversion for a display-heavy face",
+      "reconstruction": {
+        "layout": "Top ~560px of the block; arrow centred at top; two pills ~220×90px side by side, centred, ~120px apart; starburst ~260px straddling the second pill's top-right",
+        "typography": "Pill labels ~20px Neue Montreal; starburst label 'GET IT' ~16px Editorial New caps white",
+        "palette": [
+          "#1a1a1a",
+          "#f4f4f4",
+          "#b9a48f"
+        ],
+        "behaviour": "Starburst parallax (speed 1.5); pills invert on hover (likely)",
+        "content": "Buy / Try it for Free / Get it",
+        "assets": "Starburst SVG (sprite #get-it)",
+        "html": ".c-buy > .c-buy_buttons > a.c-button.-white.-huge ×2 + a.c-buy_try[data-scroll-speed]"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "warm, matter-of-fact",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal"
+        ]
+      },
+      "look": "'Credits' heading and four short paragraphs under hairline-ruled labels Typeface, Website, Visuals in white sans on near-black",
+      "feel": "Modest, collegial",
+      "ux": "static",
+      "learn": "Credit the image sources ('advertising archives from the 80s') beside the designer and the agency: it explains the art direction and covers rights",
+      "reconstruction": {
+        "layout": "Bottom ~500px of the block; heading, then a 4-column grid (typeface spans two columns) with 1px rules under each label",
+        "typography": "Heading ~20px, labels 13px, paragraphs 13px leading 1.4, all Neue Montreal",
+        "palette": [
+          "#1a1a1a",
+          "#f4f4f4",
+          "#333332"
+        ],
+        "behaviour": "none",
+        "content": "Designer bio (Mathieu Desjardins), foundry belief, Locomotive credit, image-rights note",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "footer",
+      "variant": "big-sign-off",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "dramatic, minimal",
+        "mobile": "adapts",
+        "contains": [
+          "sign-off",
+          "legal",
+          "credits"
+        ]
+      },
+      "look": "A single word 'EDITORIAL' at ~1700px slides past so only a huge fragment of the 'E' (and a quote-mark-like serif) fills the off-white frame; tiny copyright left and 'Website by Locomotive' right",
+      "feel": "Bold, abstract, final",
+      "ux": "The giant word translates horizontally with scroll (speed 10), so the visible letter changes as you reach the end",
+      "learn": "End on a word so large that scrolling pans across its letters: the last screen is pure letterform",
+      "reconstruction": {
+        "layout": "~1140px footer; word on one line overflowing both edges, vertically centred; credit row 12px at the bottom inside the container",
+        "typography": "Word ~1728px Editorial New Regular caps; legal 12px Neue Montreal",
+        "palette": [
+          "#f5f5f5",
+          "#191919",
+          "#8f8f8f"
+        ],
+        "behaviour": "data-scroll-direction=horizontal, data-scroll-speed=10 on the word span",
+        "content": "'Editorial', '© 2019 Pangram Pangram Foundry', 'Website by Locomotive'",
+        "assets": "none",
+        "html": "footer.c-footer > .c-footer_type > span[data-scroll-direction=horizontal][data-scroll-speed=10]"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "chrome",
+      "variant": "fixed-header-bar",
+      "newVariant": true,
+      "variantDefinition": "A slim bar fixed to the top of the viewport for the whole page: name, foundry link and a buy/get button, sometimes site toggles (invert colours)",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "57px transparent bar with hairline under it: 'Pangram Pangram® Foundry + Locomotive®' left, 'Editorial New' (serif) centre, 'Invert Colors ●' toggle and a 'Get the font' pill right; colours flip with the section below"
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "navigation",
+      "variant": "toc-drawer",
+      "newVariant": true,
+      "variantDefinition": "An off-canvas panel listing the page's sections as anchor links, opened from a fixed edge tab or menu icon",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "490px panel sliding in from the left edge (opened from the rotated 'Table of contents' rail and ☰ icon): 'Editorial New', numbered section links Introduction, Customization, Characters, Font Sampler, Applications, Special Characters, 'Get (the font)', then foundry/agency links and Terms, FAQ, Contact",
+      "ux": "Links smooth-scroll to section anchors; the current section is marked is-current",
+      "reconstruction": {
+        "layout": "Fixed 490×100vh panel at x=−490, translated in on open; list in the top half, footer links at the bottom",
+        "typography": "Section links ~44px Editorial New; footer links 14px Neue Montreal",
+        "palette": [
+          "#1a1a1a",
+          "#ffffff"
+        ],
+        "behaviour": "Slide-in from the left; scroll-spy marks the current section",
+        "content": "Section names of the page",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/typeset-page",
+    "story/essay",
+    "family-overview/big-number-stats",
+    "type-tester/creative-toy",
+    "glyph-table/glyph-inspector",
+    "family-overview/style-word-grid",
+    "type-tester/slider-sandbox",
+    "type-tester/creative-toy",
+    "specimen-showcase/in-use-mockups",
+    "language-support/language-name-list",
+    "design-details/highlighted-in-context",
+    "design-details/feature-before-after",
+    "checkout/link-out-cta",
+    "footer/credits-colophon",
+    "footer/big-sign-off"
+  ]
+}

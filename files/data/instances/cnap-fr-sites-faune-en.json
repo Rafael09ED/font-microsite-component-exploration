@@ -1,0 +1,339 @@
+{
+  "slug": "cnap-fr-sites-faune-en",
+  "extractedBy": "agent",
+  "summary": "The 2017 site for Faune, Alice Savoie's free type family commissioned by the French Centre National des Arts Plastiques with the Imprimerie Nationale, built from three animal 'parents' (viper → Thin, ram → Black, ibis → Bold Italic) and their interpolations. Captured from the Wayback Machine, so fonts, figures and the hero partly failed: navy, mint and pale-yellow sections hold a foreword, quotes with a Thin↔Black interpolation slider computed in a web worker, a long illustrated essay, a 'mix-and-match' chimera maker with share buttons, a download section with licence and install notes, and credits.",
+  "instances": [
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "literary, natural-history",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "scroll",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "On deep navy, 'faune' set huge in white, split in two halves: 'fau' in Thin on the left and 'ne' in Bold Italic on the right; credits below (designed by Alice Savoie, illustrations by Marine Rivoal, commission by the CNAP with the Imprimerie Nationale), 'Menu' at the left edge, 'Français' top-right, a down chevron and a mint strip at the bottom. The crop itself is covered by the 'faune / Please wait while we are loading this website' loader; the real hero is visible only in the video",
+      "feel": "Elegant, curious",
+      "ux": "Arrow scrolls to the foreword; language switch; the hero holds left/right halves of eight animal engravings (viper, rabbit, ibis, hedgehog, owl, chameleon, ram, whale) that presumably pair up behind the two halves of the name",
+      "learn": "Split the name between two parent styles (Thin | Bold Italic), mirroring how the family was bred from different 'parents'",
+      "reconstruction": {
+        "layout": "Full-bleed ~870px navy; name ~400px centred, left half and right half in separate boxes; two credit boxes in a 2-column row below; chevron centred at the bottom; mint 8px strip on the bottom edge",
+        "typography": "'fau' Faune Display Thin, 'ne' Faune Bold Italic, ~400px white; credits ~14px Faune Text with names in Bold/Black",
+        "palette": [
+          "#1a1732",
+          "#ffffff",
+          "#9ee8c5"
+        ],
+        "behaviour": "Loader overlay until assets load; animal half-images (lazy data-src) likely cycle behind the halves",
+        "content": "Name, designer, illustrator, commissioners",
+        "assets": "16 half-engraving PNGs by Marine Rivoal (animal01/02 left and right)",
+        "html": "#header.section > #language-select + .header-content > .title > .left span.thin + .right span.bolditalic ; .credits ; a.arrow-down"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "navigation",
+      "variant": "toc-drawer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "discreet, bookish",
+        "mobile": "adapts"
+      },
+      "look": "A small fixed 'Menu' label with three lines at the left edge, mid-height, visible over every section (never cut as a block)",
+      "feel": "Unobtrusive",
+      "ux": "Opens a panel listing Home, Foreword, Faune (with essay chapters: Introduction, Reinventing the notion of a typeface family, A collaboration with the Imprimerie Nationale, …), Mix-and-match, Download, Credits; 'Retour' closes it",
+      "learn": "List the essay's chapters inside the menu so readers can jump into a long text from anywhere",
+      "reconstruction": {
+        "layout": "Tab ~40px wide fixed at x≈30, y≈50vh; drawer splits the screen (left: back; right: link list)",
+        "typography": "~12px Faune Text, section titles bold, chapters regular",
+        "palette": [
+          "#1a1732",
+          "#ffffff"
+        ],
+        "behaviour": "#menu-icon click toggles #menu class",
+        "content": "Section and chapter links",
+        "assets": "none",
+        "html": "#menu-icon > span 'Menu' ; #menu > .left span.back + .right .container p.bold a + ul li a"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "official, warm",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "'Foreword' centred in navy on a mint field, then five short paragraphs in a narrow centred column, signed by the directors of the CNAP and the Imprimerie Nationale",
+      "feel": "Formal, generous",
+      "ux": "static",
+      "learn": "Let the commissioners introduce a public commission in their own voice before the designer speaks",
+      "reconstruction": {
+        "layout": "Mint band ~1440×1437; heading at y≈80; column ~440px wide centred (x≈500–940)",
+        "typography": "Heading ~28px Faune Display Bold navy; body ~14px Faune Text Regular, leading ~1.45, navy",
+        "palette": [
+          "#9ee8c5",
+          "#1a1732"
+        ],
+        "behaviour": "none",
+        "content": "Commissioners' foreword",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "literary, contemplative",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "toggle",
+        "explanation": "none"
+      },
+      "look": "Two full-width epigraphs, one white on navy (Jean-Christophe Bailly, Les animaux sont des maîtres silencieux, 2010) and one navy on white (Buffon, Premier discours, 1749), set at ~28px with an attribution below and a small settings icon (three circles on sliders) at the left; in the capture the quotes fell back to Times because the generated font did not load",
+      "feel": "Quiet, thoughtful",
+      "ux": "Clicking the icon reveals 'Thin [slider] Black'; dragging it re-interpolates the quote's font between the Thin and Black masters in real time",
+      "learn": "Before variable fonts, interpolation could still be live: a web worker blends two master fonts (subset to the quote's characters) and swaps in the result",
+      "reconstruction": {
+        "layout": "Bands ~740px and ~660px; quote column ~760px from x≈80 (icon at x≈40), attribution ~12px below; range control appears in a small box beside the icon",
+        "typography": "Quote ~28px interpolated Faune (font-family 'Demo'), leading ~1.4; attribution ~11px Faune Text with italic title",
+        "palette": [
+          "#1a1732",
+          "#ffffff",
+          "#696777"
+        ],
+        "behaviour": "input[type=range] 0–1 step 0.01 → _interpolate(value) → worker.postMessage; the worker interpolates opentype.js glyph outlines between light and heavy buffers for the subset of characters in #quote-text/#quote2-text and adds the font via FontFace",
+        "content": "Real quotations on animals and natural history",
+        "assets": "Two master font files for interpolation; settings icon SVG",
+        "html": "#quote > .configure (svg circles) + p#quote-text + p.box.range-settings 'Thin <input type=range step=0.01 min=0 max=1 oninput=_interpolate(this.value)> Black' ; script#workerscript"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "erudite, imaginative",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "archival",
+          "illustration",
+          "process"
+        ],
+        "length": "long"
+      },
+      "look": "'Faune — A text by Alice Savoie' on pale yellow: a figure column on the left (natural-history plates, sketches, diagrams; all failed to load in the Wayback capture and show as empty placeholders) beside a text column with bold chapter heads and pink-underlined links (Eugène Grasset, George Auriol, Buffon's Histoire naturelle, Description de l'Égypte)",
+      "feel": "Scholarly, enchanting",
+      "ux": "Text links (span.link) are tied to figures by data-textsrc; on desktop the long text appears to scroll inside a fixed-height pane (only the beginning is in the crop; the full essay shows in the mobile capture)",
+      "learn": "Pair each passage of a long essay with its figure in a parallel column, linked by hover: the natural-history-book model applied to a type essay",
+      "reconstruction": {
+        "layout": "Yellow band ~989px; heading centred; figures column x≈120–700 (figures ~160–340px wide, stacked in pairs); text column ~560px from x≈755; 7 text-parts with titles",
+        "typography": "Heading ~28px Faune Display Bold; body ~14px Faune Text, leading ~1.45; chapter heads bold; links with pink underline",
+        "palette": [
+          "#fdefaf",
+          "#1a1733",
+          "#e5daa3",
+          "#d06a9a"
+        ],
+        "behaviour": "js-lazy figures; link spans highlight their figure; internal scrolling pane on desktop (unverified)",
+        "content": "Designer's essay: animal plurality, Buffon and the Description de l'Égypte, three 'vertebrate' parents (viper/haje → Thin, ram → Black, ibis → Bold Italic) and interpolated children (Regular, Bold, Italic)",
+        "assets": "~25 figures: engravings, plates, sketches, interpolation diagrams (Part2–Part6 SVG/PNG/JPG)",
+        "html": ".col-3-5.left > .image-part > img.js-lazy[data-textsrc] ; .text-part > .text-part-title + p with span.link"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "type-tester",
+      "variant": "creative-toy",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "playful, whimsical",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "style-select"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": true
+      },
+      "look": "'Mix-and-match' on navy: a white card holding a black-line engraving of an animal (top and bottom halves from different animals), up/down arrows at the left and right edges, a row of five 'a' style pickers and the editable line 'Place your text here.' in italic over the drawing; 'Share on Facebook, Twitter or download it.' below. In the capture all engravings render stacked, as the carousel did not initialise",
+      "feel": "Delightful, crafty",
+      "ux": "Arrows scroll through animals for each half (mammal, bird, reptile), shuffle randomises, the 'a' buttons pick Thin/Regular/Italic/Bold/Bold Italic/Black, type up to 35 characters, then share or download the combination",
+      "learn": "Turn the family's concept (hybrid parents) into a toy: visitors breed their own chimera and caption it in the style of their choice, then share it",
+      "reconstruction": {
+        "layout": "Navy band ~1308px; heading and intro centred; card ~1200×740px white from x=120; arrow pairs at x≈190 and x≈1240, vertically centred; style pickers centred under the drawing; text line ~48px below them; share line right-aligned under the card",
+        "typography": "Heading ~28px Faune Display Bold white; intro ~14px; sample ~48px Faune (italic active) navy; style pickers 'a' ~20px in each style",
+        "palette": [
+          "#191631",
+          "#fafafb",
+          "#aeacb5",
+          "#fff2b0"
+        ],
+        "behaviour": "span.control_prev/control_next per half swap li.mammal/.bird/.reptile images; span.shuffle randomises; style spans set class on p.text; contenteditable[maxlength=35]; js-exportTwitter / js-exportFacebook / js-exportDownload render and share an image",
+        "content": "Prompt 'Place your text here.'",
+        "assets": "20 line engravings by Marine Rivoal, each split into top and bottom halves",
+        "html": ".controls > span.control_prev + span.control_next (×2) ; ul > li.mammal|bird|reptile > img ; span.thin/.regular/.italic.active/.bold/.bolditalic/.black + span.shuffle ; p.text.italic[contenteditable][maxlength=35] ; ul.sharingLinks"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "public-service, clear",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "'Download' on pale yellow in two columns: left 'Conditions for use of the typeface' (CC BY-ND 4.0, how to credit: complete and short versions), a navy 'Download the fonts' button, and 'Downloading the type specimen' (print and screen PDF buttons, 4,000 printed copies); right 'Installing Faune on a computer' (Display: Thin, Bold Italic, Black; Text: Regular, Italic, Bold; collapsible Windows/Mac steps), 'OpenType functionalities' and 'Installing Faune on a website' with <link> and font-family code boxes",
+      "feel": "Thorough, civic",
+      "ux": "Direct download buttons; disclosure triangles for OS instructions; copyable CSS snippets",
+      "learn": "For a public, free font, the download section should answer licence, credit line, install and web embed in one place",
+      "reconstruction": {
+        "layout": "Yellow band ~1614px; heading centred; two columns ~440px each (x≈200 and x≈760); navy rectangular buttons ~200×40px; code boxes darker yellow",
+        "typography": "Subheads ~14px Faune Text Bold; body ~12px Faune Text; code ~11px monospace",
+        "palette": [
+          "#fcefaf",
+          "#1a1733",
+          "#e5daa3",
+          "#ffffff"
+        ],
+        "behaviour": "Disclosure toggles for OS steps; links to ZIP and two PDFs",
+        "content": "Real licence, credit lines, file list, install steps, CSS",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "institutional, complete",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "contact",
+          "legal"
+        ]
+      },
+      "look": "'Credits' on navy: an intro line, then three columns of role headings and names (CNAP team, Imprimerie Nationale team, creation of the typeface by Alice Savoie, illustrations by Marine Rivoal, typeface development, website, photography, editorial advice, translation, thanks, CNAP address and email), partner logos, and a tiny 'Faune, Alice Savoie / Cnap — 2017' line",
+      "feel": "Thorough, official",
+      "ux": "Email and website links",
+      "learn": "Credit every role, down to translation and editorial advice, in a three-column colophon",
+      "reconstruction": {
+        "layout": "Navy band ~1217px; heading centred; intro ~1200px wide; three columns ~330px from x≈120; logos row bottom-right",
+        "typography": "Headings ~11px Faune Text Bold white; names ~11px regular greyish",
+        "palette": [
+          "#1a1732",
+          "#ffffff",
+          "#aeacb5"
+        ],
+        "behaviour": "none",
+        "content": "Full credits, address, copyright 2017",
+        "assets": "Partner logo images"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "00",
+      "reason": "loader overlay ('faune — Please wait while we are loading this website'); it also covers the hero crop 01"
+    }
+  ],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/essay",
+    "design-details/axis-explainer",
+    "story/essay",
+    "type-tester/creative-toy",
+    "checkout/free-download",
+    "footer/credits-colophon"
+  ]
+}

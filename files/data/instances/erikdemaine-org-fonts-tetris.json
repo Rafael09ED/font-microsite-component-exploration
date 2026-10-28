@@ -1,0 +1,158 @@
+{
+  "slug": "erikdemaine-org-fonts-tetris",
+  "extractedBy": "agent",
+  "summary": "Erik and Martin Demaine's mathematical 'Tetris Font': an unstyled academic page whose whole first screen is a renderer. Typed text is drawn as SVG letters built from exactly one of each Tetris piece, animated as pieces dropping and rotating into place, with puzzle and dissection modes and GIF/SVG export; explanatory paragraphs on the design and the related complexity results follow.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "masthead-nav",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Plain HTML table header: 'Tetris Font' as a blue underlined h1 link at left, 'by Erik Demaine and Martin Demaine, 2020 & 2026' as an h2 at right, browser-default Times"
+    },
+    {
+      "blocks": [
+        "01",
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "creative-toy",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "nerdy, puzzle-like",
+        "mobile": "shrinks",
+        "controls": [
+          "text",
+          "style-select",
+          "features",
+          "presets"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": true
+      },
+      "look": "A row of default HTML form controls (textarea 'Enter text to render', checkboxes, a Speed range, a Font select) above a wide white stage where coloured Tetris pieces with black outlines fall onto a grey floor bar and stack into the letters of the typed text",
+      "feel": "Playful maths demo, game-like",
+      "ux": "Type in the textarea and the SVG re-renders; Animate replays the drop sequence (Include rotations, Speed 0–10); toggles for Puzzle font (pieces placed at drop height so you decode the letter), Black pieces (dissection puzzle), Grid, Rotation center, Bottom floor; Font select picks the 7-piece font or a one-piece-type font (I light/bold, J, L, S, T, Z); below the stage: GIF width field, Download Animated GIF, Download SVG and 'Hide all but font rendering' (not cut as a block, attached here); 'Obscure in URL' rot13s the text in the shareable query string",
+      "learn": "When the font is a system of parts, render the text by assembling it from those parts in time: the animation explains the construction rule better than any diagram, and an export button turns it into a toy",
+      "reconstruction": {
+        "layout": "Full-width 3-cell table of controls (~110px tall): textarea 4×40 with label at left, Animate group in the middle, Font select and display toggles at right; output div 100% wide × ~676px with the rendered SVG letters sitting on a grey floor bar ~520px down; download row right-aligned underneath",
+        "typography": "UI in browser defaults (16px Times New Roman labels, monospace textarea); the 'font' itself is not a webfont but SVG polygons on a unit grid, each letter ~7 cells wide, rendered ~40px per cell at 1440",
+        "palette": [
+          "#ffffff",
+          "#20dfdf",
+          "#dfdf20",
+          "#20df20",
+          "#df2020",
+          "#9f20df",
+          "#df9f20",
+          "#2020df",
+          "#808080",
+          "#000000"
+        ],
+        "behaviour": "SVG.js builds each glyph from piece polygons (classes .I .O .S .Z .T .L .J with Tetris standard fills, 0.2 black stroke, round joins); with Animate on, pieces spawn above the letter and fall cell by cell (optionally rotating per the Super Rotation System) in their drop order; root classes (anim-true, rotate-true, puzzle-false, black-false, grid-false, floor-true) switch the display modes; furls syncs every control to the URL; GIF export renders frames at the chosen width",
+        "content": "Default text 'text'; inline codes [7] [I] [I2] [J] [L] [S] [T] [Z] switch fonts mid-text",
+        "assets": "Piece geometry per glyph (fonts.js, pieces.js); no images",
+        "html": "table#data > textarea#text + input#rot | input#anim, #rotate, input#speed[type=range][min=0][max=10], #puzzle, #black | select#font, #grid, #center, #floor, #hud; div#output > svg; div.noprint > input#width + button#downloadGIF + button#downloadSVG + button#nohud"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04",
+        "05",
+        "06"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "academic, wry",
+        "mobile": "shrinks",
+        "voice": "first-person",
+        "media": [
+          "diagram"
+        ],
+        "length": "medium"
+      },
+      "look": "Full-width paragraphs of 16px Times with bold run-in heads ('Font design.', 'Puzzles.', 'Multiple fonts.', 'Related mathematics.'), small inline SVG icons of each Tetris piece in its colour standing in for the piece names, many blue links; preceded by an uncut intro paragraph ('Tetris is among the best-selling…') after a rule",
+      "feel": "Lab notebook, generous with references",
+      "ux": "Links to papers (NP-completeness, k-tris, few rows or columns), BurrTools, Wikipedia; one link sets the tester to show all the fonts at once",
+      "learn": "Use tiny inline icons of the building blocks in the prose so the explanation reads like the font's own legend",
+      "reconstruction": {
+        "layout": "Single full-width column (8px body margin), one paragraph per topic, ~16px gaps; hr above",
+        "typography": "Browser default 16px Times New Roman, bold run-in heads, italic emphasis; inline piece icons ~16px tall in place of words",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#0000ee",
+          "#20dfdf",
+          "#9f20df"
+        ],
+        "behaviour": "none",
+        "content": "How each letter uses exactly one of each tetromino (found with BurrTools), the puzzle and dissection modes, font-switching codes, the NP-hardness results that inspired the one-piece fonts",
+        "assets": "Inline SVG mini-pieces (span.pieceI … span.pieceZ)"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "academic, friendly",
+        "mobile": "shrinks",
+        "contains": [
+          "credits",
+          "contact",
+          "other-fonts"
+        ]
+      },
+      "look": "An 'Acknowledgments.' paragraph (Kadon Enterprises, BRIDGES 2017, free tetrominoes) and, not cut as a block, a final bullet-separated line: 'Check out other mathematical and puzzle fonts • Feedback or not working? Email Erik • Source code on GitHub'",
+      "feel": "Collegial",
+      "ux": "Links to Kadon, the other Demaine fonts, email and GitHub",
+      "learn": "A one-line ending with 'other fonts · feedback · source' covers cross-promotion, support and openness without a footer component",
+      "reconstruction": {
+        "layout": "Same full-width paragraph flow as the essay; final line a single paragraph with • separators",
+        "typography": "16px Times New Roman, bold run-in head",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#0000ee"
+        ],
+        "behaviour": "none",
+        "content": "Credits to Alex Streif and Kate Jones; links out",
+        "assets": "Inline piece icons"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "type-tester/creative-toy",
+    "story/essay",
+    "footer/credits-colophon"
+  ]
+}

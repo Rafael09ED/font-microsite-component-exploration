@@ -1,0 +1,504 @@
+{
+  "slug": "gt-super-com",
+  "extractedBy": "agent",
+  "summary": "A strict black-and-white long read in two chapters, 'The Story' (archival 1960s–70s titling-serif ads, specimens and book covers, each followed by the same text reset in GT Super) and 'The Design' (short paragraphs alternating with looping type animations). Every text block on the page is editable through one shared style bar, and the intro and outro paragraphs ramp through the weights clause by clause.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Top link bar above the name: three ruled cells 'DOWNLOAD / TRIAL FONTS', 'READ / PDF SPECIMEN', 'BUY / FONT LICENSING' in small white caps on black"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bold, editorial, 70s",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "'GT Super' in white Display Super at ~270px filling the 1240px column on pure black, under the three-cell link bar",
+      "feel": "Heavy, glossy, confident",
+      "ux": "The name is contenteditable; clicking it docks the style bar above it (Subfamily, Weight, Italic, Size, Align, Case, Alternates, Figures, Reset, Exit). A custom 'size' cursor hints that text is editable",
+      "learn": "Let the heaviest display weight carry the whole first screen alone; the editability is discovered, not announced",
+      "reconstruction": {
+        "layout": "Content column 1240px (x=100) on black; link bar (~146px incl. spacing) at y≈95; name centred at y≈336–731, ~1135px wide, one line",
+        "typography": "Name ~270px GT-Super-Display weight 700 ('Super'), sentence case, white, tight tracking; link bar labels ~14px small caps GT-Super-Text, two lines per cell (light verb over bold object)",
+        "palette": [
+          "#020202",
+          "#fdfdfd"
+        ],
+        "behaviour": "Black loader for ~2s: a white brush-stroke shape grows in the centre over a small 'Loading…'; then the page appears; name static until clicked",
+        "content": "Family name",
+        "assets": "none",
+        "html": "div.stylebar-editable[data-editable-id=0] > #stylebar + h1#titlescroll.sb-subfamily-display.sb-size-xl.sb-weight-700.sb-align-middle[contenteditable].cursor-size"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "type-tester",
+      "variant": "global-toolbar",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "editorial, tool-like",
+        "mobile": "unknown",
+        "controls": [
+          "text",
+          "size",
+          "weight",
+          "style-select",
+          "alignment",
+          "features"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A single hidden style bar (HTML only) of labelled button groups: Subfamily Text/Display, Weight Book–Black or Light–Super, Italic, Size XS–XL, Align Left/Center, Case Normal/All Caps/Small Caps, Alternates, Figures Oldstyle/Lining, Reset, Exit Editor",
+      "feel": "Like a word processor's ribbon set in the font",
+      "ux": "Every heading and paragraph on the page (20 contenteditable blocks) is a .stylebar-editable; focusing one moves the one style bar onto it and the buttons toggle sb-* classes on that block; choosing a weight disables the block's weight-gradient 'rainbow' styling",
+      "learn": "Make the long read itself the tester: one bar that jumps to whichever paragraph you click turns every story paragraph into a sample, with no separate tester section",
+      "reconstruction": {
+        "layout": "Horizontal bar docked above the focused text block, full column width (1240px); sections side by side, each a small h6 heading over a row of round buttons joined by a link line, the active one filled",
+        "typography": "Section headings ~12px GT-Super-Text caps; button labels from data-label (Text, Display, Book… XS… XL) ~12px",
+        "palette": [
+          "#020202",
+          "#fdfdfd"
+        ],
+        "behaviour": "Click → swap class on the editable (sb-subfamily-text|display, sb-weight-300…700, sb-italic, sb-size-xs…xl, sb-align-left|middle, sb-case-sentence|allcaps|smallcaps, sb-alts (ss01/ss05), sb-fig-onum|lnum); Display shows Light–Super, Text shows Book–Black; Reset restores the block's default classes; Exit hides the bar",
+        "content": "Uses the page's own story paragraphs as the test text",
+        "assets": "none",
+        "html": "#stylebar.stylebar > .stylebar-inner > .stylebar-section.stylebar-(subfamily|weight|italic|size|align|case|alts|figures|reset|close) > h6 + .stylebar-button-container > button.stylebar-button[data-label][data-class][data-stylebar-class]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "confident, scholarly",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "A centred 7-line white paragraph at ~78px whose weight steps up clause by clause: Light → Regular → Medium → Bold → Super",
+      "feel": "Crescendo, from airy to heavy",
+      "ux": "Editable via the style bar; the weight ramp is a fixed set of spans",
+      "learn": "Set the intro as a weight crescendo: one sentence shows the whole Display range in reading order",
+      "reconstruction": {
+        "layout": "Full column (1240px) centred text, ~700px tall, 7 lines",
+        "typography": "~78px GT-Super-Display, leading ~1.0, centred, white; five spans span-light, span-regular, span-medium, span-bold, span-super (weights 300→700); oldstyle figures (sb-fig-onum) for '1970s and 80s'",
+        "palette": [
+          "#050505",
+          "#ffffff"
+        ],
+        "behaviour": "none (editable)",
+        "content": "'GT Super is the result of an extensive investigation into display serif typefaces from the 1970s and 80s…'",
+        "assets": "none",
+        "html": "p.rainbow-type.sb-subfamily-display.sb-weight-300.sb-size-l > span.span-light|regular|medium|bold|super"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "historical, connoisseur",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "archival"
+        ],
+        "length": "long"
+      },
+      "look": "'The Story' heading, then short left-aligned paragraphs in a narrow centred column alternating with full-width scans: the Swiss 'Baugeld' newspaper ad, three 1969 Buick ads in Perpetua Bold, Perpetua Super/Black specimens, Trooper Roman paperback covers, five Edition Suhrkamp covers in Times Modern",
+      "feel": "Archive browse, collector's pride",
+      "ux": "Scroll only; paragraphs are editable via the style bar; captions under each scan",
+      "learn": "Tell the revival as a chain of named sources (Perpetua Super → Trooper Roman → Times Modern), each with one strong scan and a one-line caption",
+      "reconstruction": {
+        "layout": "~6200px chapter; heading 78px centred; paragraphs in a ~680px column centred on the page but left-aligned; image rows full 1240px: one-up (ad), three-up (Buick, Trooper covers), stacked two-up (specimens), five-up (Suhrkamp covers); 16px centred caption under each row; ~70–120px vertical gaps",
+        "typography": "Heading 'The Story' ~78px GT-Super-Display Super; paragraphs 28px GT-Super-Text Regular, leading ~1.2, with italic and bold names of typefaces; captions 16px GT-Super-Text Medium, centred",
+        "palette": [
+          "#040404",
+          "#ffffff",
+          "#d3d1ce"
+        ],
+        "behaviour": "none",
+        "content": "Real history: the newspaper clipping Urs Lehni showed Noël Leu, Perpetua Super (the source of the name), Dave Trooper's Trooper Roman for VGC (source of the alternate g and y), Times Modern and Willy Fleckhaus's Suhrkamp covers",
+        "assets": "Scans: bauen.gif newspaper ad, 3 Buick ads, 2 specimen scans, 3 paperback covers, 5 Suhrkamp covers",
+        "html": "section.img-container.img-one-up-container > figure.img-one-up > img + figcaption.sb-size-xs"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "06",
+        "09",
+        "10",
+        "14",
+        "15"
+      ],
+      "type": "comparison",
+      "variant": "source-reset",
+      "newVariant": true,
+      "variantDefinition": "A scan of a historical source (ad, specimen, book cover) followed directly by the same text reset in the new typeface at the same scale, so the revival is judged against its model",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "faithful, proud",
+        "mobile": "adapts"
+      },
+      "look": "Three pairs: the scanned 'Kommen Sie jetzt zu uns, wenn Sie später für Ihr Baugeld nur 5% bezahlen wollen.' ad then the same three lines in white Display Super on black; the 'GRAPHIC DESIGN / Graphic Designers need a wide Variety in Characters' specimen then its reset; the Suhrkamp cover titles reset as five rainbow lines (red, orange, yellow, green, blue) pairing roman and italic",
+      "feel": "Homage with a wink: the old ad, but crisp",
+      "ux": "The reset lines are editable via the style bar; the scan sits above with a caption that says what follows ('Below, the same sample typeset in GT Super Display Super')",
+      "learn": "Reset the source's own words, line breaks and size: the viewer compares shapes, not content",
+      "reconstruction": {
+        "layout": "Scan full column width (1240px, ~310px tall on white paper) + 16px caption, then the reset sample centred in ~300px of black; the Suhrkamp reset is 5 centred lines at ~450px total",
+        "typography": "Resets ~78px GT-Super-Display (weight 700 for the ad and specimen); Suhrkamp lines each a weight (Light→Super) with the second word in italic, colours #c81827, #f86607, #f9c708, #04e703, #0497fb",
+        "palette": [
+          "#030303",
+          "#ffffff",
+          "#fafafa",
+          "#c81827",
+          "#f86607",
+          "#f9c708",
+          "#04e703",
+          "#0497fb"
+        ],
+        "behaviour": "none (editable)",
+        "content": "The original ad and specimen copy verbatim; Suhrkamp authors and titles (Moralität, Sittlichkeit, Hölderlin, Brecht, Minima Moralia)",
+        "assets": "Source scans",
+        "html": "p.sample-section.sb-subfamily-display.sb-weight-700.sb-size-l[contenteditable]; rainbow line spans .span-light.sb-red … .span-super.sb-blue + .sb-italic"
+      }
+    },
+    {
+      "blocks": [
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "precise, crafted",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "optical-size"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "'The Design' chapter: short centred-column paragraphs alternating with looping white-on-black type films: 'Satisfying', 'Maple' on metric lines, a broad-nib 'feder' stroke building a letter, 'Cycle Soft' Display vs Text, and a zoom from x into a",
+      "feel": "Calm, cinematic, studio-like",
+      "ux": "Videos autoplay muted on loop; paragraphs editable via the style bar",
+      "learn": "Give each design claim its own short loop (the stroke, the metrics, Text vs Display) right under the sentence that makes it",
+      "reconstruction": {
+        "layout": "Paragraph (~680px column, left-aligned, centred block) then a video, repeated; one-up videos 1240×~290–570px, small videos ~840×440px centred; ~70px gaps",
+        "typography": "Heading 'The Design' ~78px GT-Super-Display Super; paragraphs 28px GT-Super-Text, leading ~1.2; videos show GT Super Display/Text at ~150–250px white",
+        "palette": [
+          "#020202",
+          "#fcfcfc"
+        ],
+        "behaviour": "MP4 loops (with GIF fallback via data-gif): satisfying.mp4, maple-breit.mp4 (width/metric lines), feder.mp4 (pen stroke assembling the a), cycle-soft.mp4 (Text vs Display on the same words), zoom-x-a.mp4 (zoom into the terminals of x and a)",
+        "content": "Real design notes: the reversed workflow (Text follows Display), the lowercase a's one-move outer curve, uppercase shapes growing out of curves, Display's tall x-height and high contrast, Text's lower contrast and ink traps",
+        "assets": "Six type animations by Josh Schaub (MP4 + GIF)",
+        "html": "section.img-container > div.js-gt-video.img-one-up|img-one-up-small[data-gif][data-mp4] > video[autoplay][muted][loop][playsinline]"
+      }
+    },
+    {
+      "blocks": [
+        "28",
+        "29"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "clean, tabular",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "Two ruled columns 'Text Subfamily' (Book, Regular, Medium, Bold, Black) and 'Display Subfamily' (Light, Regular, Medium, Bold, Super), each row the style name set in itself followed by 'Italic' in its italic; a short paragraph below on the two extra Display extremes",
+      "feel": "Orderly, symmetric",
+      "ux": "static",
+      "learn": "Put the two optical subfamilies side by side with matching rows so the shared middle weights and the extra extremes read at a glance",
+      "reconstruction": {
+        "layout": "Two columns ~600px each with a ~30px gutter, centred; header row, then 5 rows ~107px separated by 1px grey rules; paragraph (~680px column) below",
+        "typography": "Header ~32px GT-Super-Text Bold; rows ~78px, Text column in GT-Super-Text 300–700, Display column in GT-Super-Display 300–700, 'Italic' span in the italic of the same weight; centred",
+        "palette": [
+          "#050505",
+          "#ffffff",
+          "#505050"
+        ],
+        "behaviour": "none",
+        "content": "Style names only",
+        "assets": "none",
+        "html": "section#family-overview > ul > li.sb-subfamily-text|display.sb-weight-300…700 > span.sb-italic"
+      }
+    },
+    {
+      "blocks": [
+        "30",
+        "31"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "calligraphic",
+        "mobile": "adapts",
+        "subject": [
+          "italics"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "An italic paragraph about broad-nib calligraphy, then a looping film of 'sixth fuze / kego cyan' in heavy italic",
+      "feel": "Fast, handwritten energy",
+      "ux": "Video loops; paragraph editable",
+      "learn": "Pick test words packed with the letters that change most between roman and italic (k, f, z, y, x)",
+      "reconstruction": {
+        "layout": "Paragraph in the ~680px column, then a one-up video 1240×~570px with the four words in a 2×2 arrangement",
+        "typography": "Paragraph 28px GT-Super-Text Italic; video words ~200px GT Super Display italic (Bold/Super), white",
+        "palette": [
+          "#020202",
+          "#fbfbfb"
+        ],
+        "behaviour": "roman-italic.mp4 loops a roman → italic transformation of the words",
+        "content": "Real note: italics inspired by broad-nib calligraphy, Text italic with pronounced ink traps and a stressed slant",
+        "assets": "roman-italic.mp4 / .gif"
+      }
+    },
+    {
+      "blocks": [
+        "32"
+      ],
+      "type": "footer",
+      "variant": "big-sign-off",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "summarising, confident",
+        "mobile": "adapts",
+        "contains": [
+          "sign-off"
+        ]
+      },
+      "look": "A closing centred paragraph at ~42px whose weight steps down clause by clause, Super → Bold → Medium → Regular → Light, mirroring the intro",
+      "feel": "Decrescendo, a quiet landing",
+      "ux": "Editable via the style bar",
+      "learn": "Mirror the intro's weight ramp in reverse at the end: the page closes the loop typographically",
+      "reconstruction": {
+        "layout": "Centred block ~520px wide (narrower than the intro), 9 lines, ~500px tall",
+        "typography": "~42px GT-Super-Display, centred, white, spans span-super → span-light; oldstyle figures ('70s and 80s')",
+        "palette": [
+          "#060606",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "'With its roots in 70s and 80s titling type, GT Super unites a variety of sources…'",
+        "assets": "none",
+        "html": "p.rainbow-type.rainbow-text-bottom.sb-size-m"
+      }
+    },
+    {
+      "blocks": [
+        "33"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, bookish",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "The same three-cell link bar as the top: 'DOWNLOAD TRIAL FONTS', 'DOWNLOAD PDF SPECIMEN', 'BUY FONT LICENSING', white small caps between hairlines",
+      "feel": "Understated",
+      "ux": "Trials and licensing link to grillitype.com; the PDF specimen downloads from the site; custom cursors per link (down arrow, 'more', money)",
+      "learn": "Bookend the page with the identical CTA bar so the actions are where readers start and where they finish",
+      "reconstruction": {
+        "layout": "Three equal cells across 1240px, ~146px band, 1px white rules above and below",
+        "typography": "~16px GT-Super-Text, verb Regular on line 1, object Bold on line 2, caps/small caps, centred",
+        "palette": [
+          "#030303",
+          "#ffffff"
+        ],
+        "behaviour": "Custom CSS cursors (cursor-down, cursor-more, cursor-money)",
+        "content": "Three CTAs",
+        "assets": "Cursor images",
+        "html": ".linkbox > ul > a.linkbox-threeup.cursor-* > li > span + text"
+      }
+    },
+    {
+      "blocks": [
+        "34"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "grateful",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "A small centred credits paragraph with italic linked names (Noël Leu, Mirco Schiavone, Reto Moser, Urs Lehni, Josh Schaub, Patrick Savolainen, Florian Hardwig, Informal Inquiry, Thirty)",
+      "feel": "Generous, modest",
+      "ux": "Names link to the contributors' sites",
+      "learn": "Credit the animator and the person who found the source scan, not just the type designer",
+      "reconstruction": {
+        "layout": "Centred block ~300px wide, ~10 lines",
+        "typography": "16px GT-Super-Text Medium, centred, linked names in italic, oldstyle figures",
+        "palette": [
+          "#040404",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Credits as running prose",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "35"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Five-cell link bar 'GT HAPTIK · GT CINETYPE · GT EESTI · GT AMERICA · GT WALSHEIM' in the same ruled style as the CTA bar"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "checkout/link-out-cta",
+    "hero/giant-wordmark",
+    "type-tester/global-toolbar",
+    "story/large-text-intro",
+    "story/origin-reference",
+    "comparison/source-reset",
+    "design-details/design-notes",
+    "family-overview/style-word-grid",
+    "design-details/design-notes",
+    "footer/big-sign-off",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

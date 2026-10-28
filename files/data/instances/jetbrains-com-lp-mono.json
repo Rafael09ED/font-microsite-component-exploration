@@ -1,0 +1,552 @@
+{
+  "slug": "jetbrains-com-lp-mono",
+  "extractedBy": "agent",
+  "summary": "JetBrains' landing page for JetBrains Mono, a free coding font: a dark, all-monospace page that types its own headline (with an editable last word), lists six key features with giant numerals, then argues each design decision (taller x-height, code-specific ovals, cut strokes, 9° italic, ligatures) with animated SVG diagrams, a draggable 13px comparison against Consolas and on/off ligature switches, before a weight-tabbed glyph set, 148 languages, install steps, OFL licence FAQ and credits. A teal terminal-style cookie dialog covers the centre of every screen capture.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "corporate, developer",
+        "mobile": "adapts"
+      },
+      "look": "Fixed dark bar on every screen: JetBrains logo, small-caps anchors INTRO · KEY FEATURES · DESIGN · FONT FAMILY at left, 'How to install', 'License' and a blue 'Download font' pill at right (collapses to a hamburger on mobile)",
+      "feel": "Product-site standard",
+      "ux": "Anchor links scroll to sections; Download font links straight to the zip",
+      "learn": "A permanent download button in the nav is enough checkout for a free font",
+      "reconstruction": {
+        "layout": "Fixed 72px bar, 1240px container, links 24px apart, button right",
+        "typography": "~11px JetBrains Mono caps tracked for anchors; ~12px for right links; button ~12px white on blue",
+        "palette": [
+          "#0e0e10",
+          "#ffffff",
+          "#087cfa"
+        ],
+        "behaviour": "none",
+        "content": "Section anchors",
+        "assets": "JetBrains logo"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "confident, minimal, developer",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "download",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Four lines of grey monospace at ~100px, 'JetBrains / Mono. / A typeface / for developers_', ending in a blinking underscore cursor; under it a small version block (v2.304, Updated 1,372 days ago, Release notes ↗), a big blue 'Download font' button and 'It's free & open source'",
+      "feel": "Terminal prompt, self-assured",
+      "ux": "The headline types itself on letter by letter (typed.js) on load; the last word 'developers' is contenteditable, so visitors can retype it",
+      "learn": "Type the pitch like a shell prompt and leave the last word editable: the hero becomes the first tester without any UI",
+      "reconstruction": {
+        "layout": "100vh; headline block top-left from x=100, y≈240, ~1000px wide, 4 lines at ~1.0 leading; footer row at y≈820: version text, 250×48px button, two-line note",
+        "typography": "Headline ~100px JetBrains Mono Regular, grey #8e8e90 on near-black; cursor '_' same size; small texts ~12px JetBrains Mono; button ~16px",
+        "palette": [
+          "#0e0e10",
+          "#8e8e90",
+          "#ffffff",
+          "#087cfa",
+          "#2c2c2e"
+        ],
+        "behaviour": "typed.js-style typing (~80ms per char) with blinking cursor (span.typed-cursor--blink); #input-text[contenteditable] for the last word",
+        "content": "'JetBrains Mono. A typeface for developers' plus live release metadata",
+        "assets": "none",
+        "html": "section#intro > div.section-typing > div#typing-block > span.mono-hero ('JetBrains<br> Mono.<br>A typeface <br>for ' + span#input-text[contenteditable] 'developers') + span.typed-cursor; div.section-typing__download-block"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "use-case-samples",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "IDE-native",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "carousel"
+      },
+      "look": "Large language tabs (Kotlin, Java, Go, Python, C++, C#; underline indicator on the active one) above a line-numbered, syntax-coloured code sample (Kotlin quickSort) in an editor-like panel; at right a note 'Default editor font in JetBrains IDEs + CLion' with the IDE's logo",
+      "feel": "At home in the IDE",
+      "ux": "Tabs (scrollable with arrows on small screens) switch the sample language and the IDE logo beside it",
+      "learn": "Pair each language sample with the IDE that ships the font: the showcase doubles as proof of adoption",
+      "reconstruction": {
+        "layout": "1240px container; tab row ~60px; code panel ~800×300px left with line numbers, note + 70px logo right",
+        "typography": "Tabs ~22px JetBrains Mono; code ~13px with IntelliJ Darcula-like colours (keywords orange, functions yellow, numbers blue)",
+        "palette": [
+          "#0e0e10",
+          "#2c2c2e",
+          "#cc7832",
+          "#ffc66d",
+          "#6897bb",
+          "#a9b7c6"
+        ],
+        "behaviour": "Tab click swaps code and logo",
+        "content": "Real code snippets per language",
+        "assets": "IDE logos (CLion, IntelliJ, GoLand, PyCharm, Rider)",
+        "html": "div._tabsContainer > div._tab[role=tab] ×6 + span._indicator"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "big-number-stats",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "spec-sheet, bold",
+        "mobile": "adapts",
+        "structure": "stats",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "'Key features' as a ruled grid of six numbered cells: 1. giant 'Ap' + 'Increased height for a better reading experience', 2. giant 'Src:' + 'Adapted to reading code', 3. '142/85 code-specific ligatures', 4. '148 languages', 5. giant '8' + 'weights with matching italics', 6. 'JetBrains Mono is free & open source' with Download font, Read license, See project on GitHub; small caps 'EXPLORE …↓' links in each corner",
+      "feel": "Confident, poster-like",
+      "ux": "Each cell's link jumps to its detailed section",
+      "learn": "Lead the feature list with the numbers and specimens set huge: the figure is the headline, the sentence is the caption",
+      "reconstruction": {
+        "layout": "Two-column grid of cells separated by 1px rules, ~300px tall each; index '1.' top-left, huge figure left, statement right-aligned top-right, explore link bottom-right",
+        "typography": "Figures/glyphs 120–300px JetBrains Mono Regular grey, cropped by the cell; statements ~28px; index and links ~11px caps",
+        "palette": [
+          "#0e0e10",
+          "#8e8e90",
+          "#ffffff",
+          "#087cfa",
+          "#2c2c2e"
+        ],
+        "behaviour": "none",
+        "content": "Feature counts: ligatures, languages, weights",
+        "assets": "none",
+        "html": "div.properties-card.border-left > p '6.' + h3.mono-h3 + links"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "rational, engineering",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "spacing",
+          "italics"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "The 'Design' chapter as a sequence of ruled rows, each a big uppercase heading, a short paragraph and an animated SVG diagram: 'Increased letter height' (huge 'Nn' with a 'REGULAR WIDTH' arrow, then 'nnnn' growing), 'Code-specific eye movement' (rows of 'openopen' on a vertical grid showing rectangular ovals), 'Functional construction' (r, g, s, a lined up for JetBrains Mono / Fira Code / Consolas / Source Code Pro), 'Distinctiveness of symbols' (1lI 00 ;: with notes), 'Cut strokes' ('sca' with cut marks), 'Italic' ('fay' with a 9° angle guide)",
+      "feel": "Engineering rationale, calm",
+      "ux": "Each diagram animates when it scrolls into view and can be clicked to replay (animation-block[role=button]); no other interaction",
+      "learn": "Give every design decision the same grammar (heading, two sentences, one animated diagram with a single annotation) and line competitors up on the same letters when making a claim",
+      "reconstruction": {
+        "layout": "1240px container; rows separated by 1px rules with 96px top padding; heading left in 5 cols, text right in 6 cols, full-width diagram below (300–700px tall)",
+        "typography": "Headings ~44px JetBrains Mono caps, light grey; text ~16px, leading 1.6; diagram glyphs 150–400px grey with thin white guides and 10px caps labels",
+        "palette": [
+          "#0e0e10",
+          "#6d6d6d",
+          "#ffffff",
+          "#2c2c2e"
+        ],
+        "behaviour": "Lottie/SVG animations triggered on intersection (letters grow, ovals morph, guides draw on); click replays",
+        "content": "x-height rationale, oval shape, simple forms, 1/l/I and 0/O distinction, cut stroke ends, 9° italic with true-italic a, y, f",
+        "assets": "Animated SVG diagrams per topic",
+        "html": "section#design / #code-specific > h2.mono-h2 + p.mono-text-1 + div.animation-block.increase-letter|code-specific|functional-сonstruction[role=button]"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "comparison",
+      "variant": "pointer-wipe",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "matter-of-fact",
+        "mobile": "adapts"
+      },
+      "look": "'Comparison' text at left (Consolas has wider but smaller letters, so lines run longer); at right a code panel headed 'JETBRAINS MONO – 13px' and 'CONSOLAS – 13px', split by a vertical line with a round white drag handle",
+      "feel": "Fair, evidence-based",
+      "ux": "Drag the handle left or right to wipe between the same Kotlin code rendered in JetBrains Mono and in Consolas at 13px",
+      "learn": "Compare at the real working size (13px) on real code, not at display size: the rival's line length and legibility differences show up immediately",
+      "reconstruction": {
+        "layout": "Text column ~480px left; comparison box ~600×300px right, two stacked screenshots, the top one clipped at the handle's x; handle 30px circle with 2px white border on a 1px line",
+        "typography": "Labels ~10px caps; code screenshots at 13px",
+        "palette": [
+          "#0e0e10",
+          "#1b1c21",
+          "#ffffff",
+          "#cc7832",
+          "#6897bb"
+        ],
+        "behaviour": "Pointer drag on the handle sets clip width of the top image (react-compare-image style), resize-sensor keeps it responsive",
+        "content": "Same quickSort Kotlin snippet in both fonts",
+        "assets": "Two PNG renders (compare_code_jb_mono.png, compare_code_cons.png)",
+        "html": "div > img[src*=compare_code_cons] + img[src*=compare_code_jb_mono] + div handle (border:2px solid #fff; border-radius:100%)"
+      }
+    },
+    {
+      "blocks": [
+        "09",
+        "10"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "explanatory",
+        "mobile": "adapts",
+        "subject": [
+          "features"
+        ],
+        "presentation": "toggle",
+        "explanation": "prose"
+      },
+      "look": "'Ligatures for code' heading and intro, then two numbered rows: '1. To reduce noise by merging symbols…' beside a grid of ligatures (<> |=> ++ -> <!-- ~~> ### ≤ ▷) interleaved with faint letters, and '2. To balance whitespace more efficiently…' beside [||] :? ?? <|> examples; each row has a 'Ligatures on | Ligatures off' pill switch",
+      "feel": "Clear, neutral",
+      "ux": "The pill switch swaps the illustration between ligated and plain sequences",
+      "learn": "Explain ligatures by purpose (less noise, better whitespace) and give each purpose its own on/off switch",
+      "reconstruction": {
+        "layout": "Rows separated by rules: illustration ~600×210px left, numbered text + switch right (5 cols)",
+        "typography": "Illustration glyphs ~48px JetBrains Mono, ligatures white, context letters dark grey; text ~16px; switch ~12px",
+        "palette": [
+          "#0e0e10",
+          "#ffffff",
+          "#3a3a3c",
+          "#087cfa"
+        ],
+        "behaviour": "Switch buttons carry the SVG URL in their value and swap the img src",
+        "content": "Real operator sequences",
+        "assets": "SVG pairs ligatures1_on / off, ligatures2_on / off",
+        "html": "section#ligatures > … img + span._wt-switcher > button[value=…_on.svg] 'Ligatures on' + button[value=data:…] 'Ligatures off'"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "type-tester",
+      "variant": "pointer-xy-axes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "playful, minimal",
+        "mobile": "adapts",
+        "controls": [
+          "weight"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "'JetBrains Mono font family': the word 'weights' at ~250px across the full width, with a motion-blur ghost while it changes, a weight label ('THIN') at top-left and a hint '<<<<< Move mouse over the word to change' at top-right",
+      "feel": "Tactile, quick",
+      "ux": "Moving the pointer horizontally across the word steps it through the eight weights (Thin → ExtraBold) and updates the label",
+      "learn": "Let the pointer's x-position scrub through a static family's weights: no slider, and the word itself names what changes",
+      "reconstruction": {
+        "layout": "Full-width word ~1440×380px (SVG viewBox 1456×382) with corner bracket marks; label row above",
+        "typography": "'weights' JetBrains Mono at 8 weights (pre-rendered SVGs), grey; label ~12px caps",
+        "palette": [
+          "#0e0e10",
+          "#8e8e90",
+          "#ffffff"
+        ],
+        "behaviour": "mousemove x → index 0–7 → swap img src among weight SVGs (data URIs); label text updates; touch devices show the tabs only",
+        "content": "The word 'weights'",
+        "assets": "Eight SVG renderings of the word",
+        "html": "p.mono-text-1_uppercase 'thin' + div 'Move mouse over the word to change'; div.changing-svg > img[src=data:image/svg+xml…]"
+      }
+    },
+    {
+      "blocks": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "complete, technical",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "tabs",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A pill tab bar of weights (Thin, ExtraLight, Light, Regular, Medium, SemiBold, Bold, ExtraBold) with an Italic toggle, then the character set as spaced running lines under small grey labels: Basic latin, Monospace ligatures (-- == != <= && |> <!-- …), Diacritics, Numbers, Punctuation, Greek, Cyrillic, Other symbols, Block symbols, Box drawing, Control codes, Powerline; faint vertical lines mark the monospace cells",
+      "feel": "Like a terminal character map",
+      "ux": "Pick a weight or flip Italic to restyle the whole set",
+      "learn": "For a monospaced font, running lines on a faint column grid show both the glyphs and the fixed advance without boxing each glyph",
+      "reconstruction": {
+        "layout": "~4300px tall; tab bar 32px; each category: 10px label then lines of glyphs separated by spaces, wrapping at 1240px; background vertical hairlines every glyph width",
+        "typography": "Glyphs ~28px JetBrains Mono, light grey; labels ~10px grey",
+        "palette": [
+          "#0e0e10",
+          "#c4c4c6",
+          "#2c2c2e",
+          "#6d6d6d"
+        ],
+        "behaviour": "Weight buttons set font-weight; Italic checkbox switches to JetBrainsMonoItalic",
+        "content": "Full character set incl. 140+ code ligatures, box-drawing and block elements",
+        "assets": "none",
+        "html": "span > button[value=thin|extralight|…|extrabold]; label > input[name=italic][type=checkbox]; p 'Basic latin' + div > p glyph lines"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "factual",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": true
+      },
+      "look": "'148 languages supported' then six tight columns of language names (Afrikaans … Zulu) in small grey monospace",
+      "feel": "Plain reference",
+      "ux": "static",
+      "learn": "A count in the heading plus an alphabetical column list answers 'does it support X?' in one glance",
+      "reconstruction": {
+        "layout": "Heading ~28px, then 6 columns × ~25 rows at ~20px line pitch",
+        "typography": "~12px JetBrains Mono grey",
+        "palette": [
+          "#0e0e10",
+          "#8e8e90"
+        ],
+        "behaviour": "none",
+        "content": "148 language names",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "16",
+        "17",
+        "18"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "helpful, plain-spoken",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "'HOW TO INSTALL': 'In JetBrains IDEs' with a grid of 12 IDE icons and instructions (ships with v2019.3; Settings → Editor → Font); 'Another IDE or an older version' with numbered steps (1. Download font button, 2. unzip and install, with macOS / Windows / Linux icons and per-OS commands incl. fc-cache -f -v); 'RECOMMENDED SETTINGS FOR THE FONT' (Size 13, Line spacing 1.2); 'LICENSE' (SIL Open Font License, free for commercial use, credit appreciated); 'FAQ' as question / '→ YES.' pairs (install, website, poster, logotype…)",
+      "feel": "Generous and frank",
+      "ux": "Direct zip download; OFL link; FAQ answers are always visible (no accordion)",
+      "learn": "Answer licence questions as 'May I…? → YES.' pairs: shorter and friendlier than any licence summary",
+      "reconstruction": {
+        "layout": "Ruled rows: heading left (5 cols), content right (6 cols); IDE icons 6×2 grid of 32px; steps with 20px OS icons; FAQ two columns of Q/A pairs",
+        "typography": "Section titles ~44px JetBrains Mono caps; subheads ~28px; body ~14–16px; answers prefixed '→'",
+        "palette": [
+          "#0e0e10",
+          "#c4c4c6",
+          "#ffffff",
+          "#087cfa",
+          "#21d789"
+        ],
+        "behaviour": "none",
+        "content": "Real install steps per OS, recommended size and leading, OFL summary, FAQ",
+        "assets": "IDE product icons, OS icons",
+        "html": "section#how-to-install > h3 'In JetBrains IDEs' + icons + p; ol.mono-text … ; section#license > h2 + p + h3 'FAQ' + Q/A p pairs"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "team credit",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "'CREDITS' in small caps with columns: Type designer Philipp Nurullin, Project lead Konstantin Bulenkov, Thanks to Nikita Prokopov, Eugene Auduchinok, Dmitrij Batrak, Tatiana Tulupenko, IntelliJ UX Team, + the whole JetBrains Team",
+      "feel": "Modest, collegial",
+      "ux": "static",
+      "learn": "Credit the type designer first and list the thanks plainly, even on a corporate product page",
+      "reconstruction": {
+        "layout": "Rule, label, then 3–4 columns of role + names",
+        "typography": "Labels ~10px caps grey; names ~12px JetBrains Mono",
+        "palette": [
+          "#0e0e10",
+          "#8e8e90",
+          "#c4c4c6"
+        ],
+        "behaviour": "none",
+        "content": "Designer, lead, contributors",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "18",
+        "19"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "corporate",
+        "mobile": "adapts",
+        "contains": [
+          "socials",
+          "legal",
+          "contact"
+        ]
+      },
+      "look": "JetBrains site footer: a row of social icons, 'Share your feedback on GitHub', a language picker (English), then Privacy & Security, Terms of Use, Trademarks, Legal, Genuine Tools and a copyright line",
+      "feel": "Standard corporate",
+      "ux": "Links; feedback goes to GitHub",
+      "learn": "Route font feedback to the GitHub repo from the footer",
+      "reconstruction": {
+        "layout": "Rule, icon row left, feedback + language right; legal links row below; copyright strip",
+        "typography": "~11px JetBrains Sans / Mono grey",
+        "palette": [
+          "#0e0e10",
+          "#6d6d6d",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Corporate legal and social links",
+        "assets": "Social icons"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "20",
+      "reason": "cookie-settings dialog (teal, terminal-styled, 'Accept All' / 'Manage Settings'), fixed over the centre of every screen"
+    }
+  ],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "specimen-showcase/use-case-samples",
+    "family-overview/big-number-stats",
+    "design-details/annotated-specimen",
+    "comparison/pointer-wipe",
+    "design-details/feature-before-after",
+    "type-tester/pointer-xy-axes",
+    "glyph-table/category-lines",
+    "language-support/language-name-list",
+    "checkout/free-download",
+    "footer/credits-colophon",
+    "footer/slim-legal-bar"
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "slug": "nmtype-com-movement",
+  "extractedBy": "agent",
+  "summary": "NM type's specimen page for Movement, a free variable font (wght and a custom SPAC axis) drawn by tracking the movements of dancer Andile Vellem for Design Indaba, after Laban's movement theory. A dark cover, then one white column: five editable tester rows each set in one of the four extremes or the variable mode, a credits sidebar beside the story, the performance film and looping dancer clips, a poster for sale, a style-tabbed glyph grid, a language list and award badges.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Sticky dark bar: 'NM type' logo (collapses to two short bars when scrolled), Fonts · Custom · Articles centred with the active one underlined, '→ Download Movement' at the right; it overlaps the stitched crops repeatedly"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bold, minimal",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "try",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "A short charcoal band with 'MOVEMENT' in white heavy caps (Direct Black) across the width, 'Variable font' bottom-left and '→ Trial fonts' bottom-right in small white text",
+      "feel": "Direct, confident",
+      "ux": "Trial link; the nav's Download link is the main CTA",
+      "learn": "A shared foundry cover template (name as SVG, two corner notes) keeps every specimen consistent while the name itself shows the font",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×392 below the 80px nav; name SVG spans ~x 130–1310 at y≈150–260; notes at y≈360 left and right of the same margins",
+        "typography": "Name in Movement Direct Black (wght 900, SPAC 100) caps as SVG, ~150px cap height; notes ~13px nmtype sans, 'Variable font' bold",
+        "palette": [
+          "#1a1a1a",
+          "#ffffff"
+        ],
+        "behaviour": "none (nav logo animates to bars on scroll)",
+        "content": "Name, 'Variable font', trial link",
+        "assets": "movement_cover.svg",
+        "html": ".specimen-cover[style=--background:#1a1a1a;--color:white] > img + .specimen-cover-texts > strong + a"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "per-row-controls",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "theatrical, clean",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "weight",
+          "axes",
+          "style-select"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Five editable black samples on white, each under a thin control line (style dropdown at left, 'Size' hairline slider with value): BODY IN MOTION (Direct Black, 92), DESIGN INDABA (Direct Thin, 240), THE PERFORMER ANDILE VELLEM (Indirect Black, 100), a Rudolf Laban sentence (Indirect Thin, 50), and DANCE! (Variable, 232) with extra Weight and Space sliders",
+      "feel": "Spare, gallery-like",
+      "ux": "Pick one of the four extremes or 'Variable' per row (Variable reveals Weight 100–900 and Space 100–120 sliders), drag size, type over the text",
+      "learn": "Seed the rows with the project's own story (event, performer, theorist) and give each row one design extreme, ending with a free 'Variable' row",
+      "reconstruction": {
+        "layout": "Column x≈264–1176 (~912px); each row: control line (dropdown ~80px, slider ~400px from x≈440, number at right) then the sample; rows ~250–350px apart; first row starts ~75px under the cover",
+        "typography": "Samples Movement caps: Direct Black (wght 900, SPAC 100), Direct Thin (wght 50, SPAC 100), Indirect Black (wght 900, SPAC 120), Indirect Thin (wght 50, SPAC 120) at 92, 240, 100, 50, 232px; controls ~11px nmtype",
+        "palette": [
+          "#ffffff",
+          "#0c0c0c",
+          "#d6d6d5",
+          "#b0b0b0"
+        ],
+        "behaviour": "font-viewer custom element (contenteditable=plaintext-only) driven by font-controls: radio list of presets sets font-variation-settings; 'Variable' preset (data-axis=show) reveals wght and SPAC range+number inputs; font-size range 24–140/240/340 px with responsive attribute",
+        "content": "Real names and facts from the project: Body in motion, Design Indaba, The Performer Andile Vellem, Rudolf Laban, Dance!",
+        "assets": "none",
+        "html": "figure.specimen-display-block#tab-viewerN > font-viewer[editable][contenteditable=plaintext-only][style=font-variation-settings;font-size] ; font-controls[target] > details.tooltip.specimen-controls-variants > label.toggle > input[type=radio][value=\"variation:'wght' 900,'SPAC' 100\"] ; label.slider-label > input.slider[name=font-size|variation.wght|variation.SPAC] + input.slider-number"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "sober, cultural",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "photo",
+          "process"
+        ],
+        "length": "medium"
+      },
+      "look": "A two-column text block (left: small metadata list Script, Release 2019, Type design, Performance, Film, Music, Specimen → Download PDF, Download Free fonts; right: four paragraphs on the dance collaboration and Laban's theory), then the 2:18 performance film with 'DESIGN INDABA' title card and two silent looping clips of the dancer on grey",
+      "feel": "Serious, documentary",
+      "ux": "Video with native controls; the two clips autoplay muted in a loop",
+      "learn": "Show the performance that produced the letterforms (film + loops) right after explaining it: the source is literally the dancer's body",
+      "reconstruction": {
+        "layout": "Hairline rule above; metadata column ~150px at x≈264, text column ~600px from x≈442; video 912×~420px; two square clips ~440×440px side by side with a 24px gap; caption under the film",
+        "typography": "Body ~17px nmtype Regular, leading ~1.5; metadata labels ~11px bold with values ~11px regular",
+        "palette": [
+          "#ffffff",
+          "#1a1a1a",
+          "#d6d6d5",
+          "#9a9a9a"
+        ],
+        "behaviour": "video[controls] with poster; video[muted loop autoplay playsinline] ×2",
+        "content": "Real story: Design Indaba collaboration, dancer Andile Vellem, Laban's weight/space/time, four design extremes (Direct/Indirect × Black/Thin); film and music credits",
+        "assets": "performance.mp4 (2:18), MOU7.mp4 and ACX5.mp4 loops, video poster"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "print, systematic",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "single"
+      },
+      "look": "'Poster' row: a short note ('We designed a poster to celebrate the release… now reprinted… available in our shop') and the black poster image: MOVEMENT repeated in a waterfall that steps through weight and space, each line tagged WEIGHT/SPACE values at the margins; specs 50×70 cm, Scandia White 130 g, printed by Stream Nordic",
+      "feel": "Collectible, rigorous",
+      "ux": "Link to buy the reprint (see the poster purchase row)",
+      "learn": "Print the variable range as a poster (one word, every step labelled) and sell it: the specimen becomes merchandise",
+      "reconstruction": {
+        "layout": "Label column + image ~410×580px at x≈442 with specs to its right",
+        "typography": "Poster: 'MOVEMENT' lines ~50px white on black, wght 100→900 and back, SPAC 100→120; tiny value labels",
+        "palette": [
+          "#ffffff",
+          "#0c0c0c",
+          "#1a1a1a"
+        ],
+        "behaviour": "none",
+        "content": "Poster announcement and paper specs",
+        "assets": "movement-poster.jpg"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "neutral, reference",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "tabs",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Glyphs in a 10-column grid of light-grey hairline cells grouped under small labels (Uppercase, Numbers, Maths & Symbols, Punctuation), with a sticky style list at the left (Direct Thin highlighted, Indirect Thin, Direct Black, Indirect Black)",
+      "feel": "Quiet, tidy",
+      "ux": "Click a style in the sticky list to redraw the whole grid in that extreme",
+      "learn": "For a four-extreme family, switch the grid between the corner styles rather than offering a slider",
+      "reconstruction": {
+        "layout": "Style list ~120px at x≈264, sticky; grid ~740px wide from x≈440, 10 cells ~74px square; category labels ~11px above each group",
+        "typography": "Glyphs ~26px Movement in the chosen style, centred; labels ~11px nmtype",
+        "palette": [
+          "#ffffff",
+          "#1a1a1a",
+          "#d6d6d5",
+          "#e6e6e6"
+        ],
+        "behaviour": "input[type=radio][data-characters] per style sets font-variation-settings on the grid",
+        "content": "Uppercase with accents, figures, symbols, punctuation (lowercase is set as small caps in this face)",
+        "assets": "none",
+        "html": "label.toggle > input[data-characters][type=radio][name=_][value=\"variation:'wght' 50,'SPAC' 100\"]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "matter-of-fact, African focus",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": false
+      },
+      "look": "'Language support' label and six narrow columns of language names, many of them African (Bemba, Chiga, Kinyarwanda, Ndebele, Shona, Sotho, Swahili, Xhosa, Zulu)",
+      "feel": "Plain, inclusive",
+      "ux": "static",
+      "learn": "List languages in short alphabetical columns; for a South African project the African languages are the point",
+      "reconstruction": {
+        "layout": "Label column + 6 columns of ~120px from x≈440, ~11 rows",
+        "typography": "~11px nmtype Regular, label bold",
+        "palette": [
+          "#ffffff",
+          "#1a1a1a"
+        ],
+        "behaviour": "none",
+        "content": "About 65 Latin-script languages",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "testimonials",
+      "variant": "award-logo-strip",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "proud, understated",
+        "mobile": "adapts"
+      },
+      "look": "'Awards' label and three black circular/hexagonal badges (European Design Awards 2020, ADC-style monogram, D&AD) in a row",
+      "feel": "Credible",
+      "ux": "static",
+      "learn": "Three badges without captions are enough social proof for a free font",
+      "reconstruction": {
+        "layout": "Label column + badges ~100px each with ~25px gaps from x≈440; hairline rules above and below",
+        "typography": "label ~11px bold",
+        "palette": [
+          "#ffffff",
+          "#1a1a1a"
+        ],
+        "behaviour": "none",
+        "content": "Award badges",
+        "assets": "eda_2020.svg, dandad.svg and one more award SVG"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "01",
+        "02"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "generous, low-key",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": true
+      },
+      "look": "No checkout section: '→ Download Movement' in the sticky nav, 'Download · Free fonts' and 'Specimen → Download PDF' in the metadata sidebar, and '→ Trial fonts' on the cover",
+      "feel": "Unfussy",
+      "ux": "The download link fetches Movement.zip directly; the EULA is linked in the footer",
+      "learn": "When the font is free, put the direct ZIP link in the sticky nav so it is one click from anywhere",
+      "reconstruction": {
+        "layout": "Nav CTA right-aligned; sidebar entries in the metadata list",
+        "typography": "~13px nmtype with '→' prefix",
+        "palette": [
+          "#1a1a1a",
+          "#ffffff"
+        ],
+        "behaviour": "Direct file links",
+        "content": "Movement.zip, Movement-PDF-Specimen.pdf, trial fonts page",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "checkout",
+      "variant": "on-page-cart",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "simple shop",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "'Buy Poster' row at the end: a round checkbox, 'Poster Movement 50×70 cm' and '€29' right-aligned between hairlines",
+      "feel": "Minimal",
+      "ux": "Tick the poster and continue to NM type's payment page ('Buy now')",
+      "learn": "Reuse the font cart's row pattern for merchandise",
+      "reconstruction": {
+        "layout": "Label column + a 740px row with checkbox, title/subtitle and price",
+        "typography": "Title ~15px bold, subtitle ~10px, price ~15px",
+        "palette": [
+          "#ffffff",
+          "#1a1a1a",
+          "#d6d6d5"
+        ],
+        "behaviour": "input[type=checkbox][name=item_poster]; Buy now → /payment/",
+        "content": "One product, €29",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Slim grey site footer bar with centred links: About, EULA, Support, Privacy policy, Terms & conditions, ✉ Newsletter (opens a subscribe dialog)"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "type-tester/per-row-controls",
+    "story/origin-reference",
+    "specimen-showcase/poster-series",
+    "glyph-table/full-grid",
+    "language-support/language-name-list",
+    "testimonials/award-logo-strip",
+    "checkout/free-download",
+    "checkout/on-page-cart",
+    "footer/slim-legal-bar"
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "slug": "colroy-ch",
+  "extractedBy": "agent",
+  "summary": "A Readymag page for Nouvelle Noire's re-released Clarendon-style slab NN Colroy. Every block is a rounded sticker shape in loud green, yellow, pink and violet: a sticker-board hero, colour-banded weight strips, a big variable 'm', a yellow glyph sheet, a language card, cropped-glyph detail tiles, paragraph cards waterfalling through the weights, and a 'Never Mind the Sans Serif → GOOD BUY' finale. A fixed bottom row of black pills (Buy, Specimen PDF, Trials, Request variable fonts) stays on screen throughout.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "punchy, sticker-bright, witty",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "A board of rounded stickers on white: a yellow pill 'COLROY' in black slab caps, a black card 'Re-release with 4 new weights: Thin ⋙→ Black' (the words set in Thin and Black), a pink circle with a huge 'C' and a black rounded square with a white '7'; the green octagon of the intro paragraph starts below",
+      "feel": "Loud, fun, confident",
+      "ux": "static; the fixed bottom pill bar is already visible",
+      "learn": "Announce the news (new weights) as a sticker in which the two ends of the range are set in those weights ('Thin → Black')",
+      "reconstruction": {
+        "layout": "Top ~400px: name pill ~660×180px at left (x=20), news card ~660×170px below it, circle ~380px and square ~320px at right; all radius ~30px, 20px gaps",
+        "typography": "Name ~110px NN Colroy Black caps; news kicker ~26px Bold Italic yellow, range line ~66px Thin and Black; glyphs ~300px Black",
+        "palette": [
+          "#f6fe02",
+          "#070506",
+          "#fdc8f0",
+          "#01cb90",
+          "#fefafd"
+        ],
+        "behaviour": "none",
+        "content": "Name, re-release announcement, sample glyphs C and 7",
+        "assets": "none (Readymag shape and text widgets)"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "affectionate, wry",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "A green octagon (clipped corners) holding a ~40px paragraph with 'Colroy' in a white pill: 'Colroy is a Clarendon's Clarendon, if that makes any sense. There's something about the unapologetic nature of the letterforms…', signed 'Lovely words by: Proof&Co'",
+      "feel": "Warm, peer-to-peer praise",
+      "ux": "static; the signature links to Proof&Co",
+      "learn": "Use a fellow foundry's description of the font as the intro, set large: praise and specimen in one",
+      "reconstruction": {
+        "layout": "Octagon ~1300×700px from x≈70 with 45° corner cuts; text column ~1150px, ~8 lines; signature small caps bottom right",
+        "typography": "~40px NN Colroy Regular, leading 1.25, black; inline name pill white with Bold text; signature ~16px small caps",
+        "palette": [
+          "#02cb8f",
+          "#070506",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Quote by Proof&Co about Clarendons",
+        "assets": "Octagon shape"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "02",
+        "03"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "bold, colourful",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "Full-bleed colour bands stacked down the page, one per weight pair, each labelled small top-left ('NEW: Colroy Black & Black Italic', 'Colroy Bold & Bold Italic' …) and filled edge to edge with alternating roman/italic samples: 'AABBCCDDEE' on yellow, 'abcabcdefdefgh' on white, '0123456789' on pink, brackets and symbols, accented pairs 'Åå Êê Øø' on green, ligatures 'fh ffj ffk' on white, 'Øø Pp Rr Ðð Ŋŋ' in Thin on violet",
+      "feel": "Rhythmic, like stacked paint swatches",
+      "ux": "static bands cropped at the right edge",
+      "learn": "Give each weight a colour band and a different slice of the set (caps, lowercase, figures, accents, ligatures): the weight overview doubles as a character tour",
+      "reconstruction": {
+        "layout": "Bands 100% wide, ~250px tall each, label 10px at 30px from the top-left; sample line ~180px tall, overflow hidden",
+        "typography": "Samples ~150px NN Colroy in Black, Heavy, Bold, Medium, Regular, Light, Thin, alternating upright and italic per character pair; labels ~10px Bold",
+        "palette": [
+          "#f6fe02",
+          "#ffffff",
+          "#fdc8f0",
+          "#02cb8f",
+          "#7c01f7",
+          "#030303"
+        ],
+        "behaviour": "none",
+        "content": "Character pairs by weight",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "monumental, simple",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "none"
+      },
+      "look": "'VARIABLE WEIGHT' label and one black lowercase 'm' filling the whole screen width (~1300px), captured at its heaviest",
+      "feel": "Massive, graphic",
+      "ux": "The 'm' presumably animates along the weight axis (the page uses wght; capture shows only the Black end)",
+      "learn": "One letter at full width is enough to show a weight axis when it moves from Thin to Black",
+      "reconstruction": {
+        "layout": "Full screen white; label 10px top-left; glyph ~1300×650px centred",
+        "typography": "'m' ~900px NN Colroy Variable, wght Thin↔Black",
+        "palette": [
+          "#ffffff",
+          "#040404"
+        ],
+        "behaviour": "Loop or scroll-triggered wght animation (Readymag animation, 1–2s durations)",
+        "content": "Single letter 'm'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "05"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "exhaustive, sunny",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'CHARACTER SET' label and a borderless 26-column grid of black glyphs on a bright yellow panel: caps, lowercase, ligatures, lining and oldstyle figures, punctuation, symbols, dingbats (squares, circles, envelopes, planes, card suits), arrows, accented letters, small caps and fractions",
+      "feel": "Bright, generous",
+      "ux": "static",
+      "learn": "A single bright panel colour makes 900+ small glyphs feel like a poster rather than a table",
+      "reconstruction": {
+        "layout": "Panel ~1400×~1700px from x=20, radius small; 26 columns ~53px, rows ~52px, no borders",
+        "typography": "~22px NN Colroy Regular black",
+        "palette": [
+          "#f2fa03",
+          "#111111"
+        ],
+        "behaviour": "none",
+        "content": "Full character set including dingbats and arrows",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "friendly, global",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": false
+      },
+      "look": "'LANGUAGE SUPPORT': a black rounded card with a pink '&' and a yellow globe icon, a violet pill 'Up to 94 Languages', and a running paragraph of language names (Afrikaans, Albanian, Asu, Basque … Zulu)",
+      "feel": "Cheerful, clear",
+      "ux": "static",
+      "learn": "Pair the number in a pill with the full list as running text: headline for skimmers, proof for checkers",
+      "reconstruction": {
+        "layout": "Card ~690×730px at left; pill ~690×200px top-right; list paragraph ~660px wide below the pill",
+        "typography": "Pill ~44px NN Colroy Medium white; list ~17px Regular, leading 1.55; '&' ~500px Light pink",
+        "palette": [
+          "#f6f6f6",
+          "#111111",
+          "#7c00ff",
+          "#fdc8f0",
+          "#f6fe02"
+        ],
+        "behaviour": "none",
+        "content": "94 language names",
+        "assets": "Globe icon"
+      }
+    },
+    {
+      "blocks": [
+        "07",
+        "08",
+        "09"
+      ],
+      "type": "specimen-showcase",
+      "variant": "modular-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bold, toy-like",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "grid"
+      },
+      "look": "A 'Design features' run of sticker tiles with glyphs cropped huge: 'Serif' and 'Slab' set vertically in yellow and white rounded pillars on violet, a giant cropped 'fb', a curved stroke on pink, an 'r' with its ball terminal on yellow, a white arrow on green, a circle 'O' on pink",
+      "feel": "Playful close-ups",
+      "ux": "static",
+      "learn": "Crop glyphs inside rounded colour tiles so details (ball terminals, bracketed serifs) read as graphic shapes",
+      "reconstruction": {
+        "layout": "Two-column grid of 720px cells (some full-width) with rounded inner tiles inset ~12px; vertical words rotated 90° in 230×900px pillars",
+        "typography": "Glyphs 400–900px NN Colroy Regular/Black, cropped by the tiles",
+        "palette": [
+          "#fdfd02",
+          "#7600fc",
+          "#fec6f3",
+          "#11e591",
+          "#080807",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Words 'Slab' and 'Serif'; single glyphs",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "10",
+        "11"
+      ],
+      "type": "specimen-showcase",
+      "variant": "size-waterfall",
+      "newVariant": true,
+      "variantDefinition": "The same running text set at a descending series of labelled sizes, from a display headline down to caption size, often in several weights side by side, to show how the family reads at every size; sometimes with a light/dark switch",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "bookish, thorough",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "grid"
+      },
+      "look": "'SAMPLE TEXT' on black: white rounded cards in rows of 2, 3, 4 and 5, each card the same paragraph about Colroy in one style pair (Heavy & Heavy Italic, Light & Light Italic, Medium …), the text getting smaller row by row",
+      "feel": "Reading-room calm amid the colour",
+      "ux": "static",
+      "learn": "Shrink the card size with the text size: one grid shows every weight at several reading sizes",
+      "reconstruction": {
+        "layout": "Rows: 2 cards ~690px wide, 3 cards ~455px, 4 cards ~340px, 5 cards ~270px; 16px gaps, radius ~12px; small violet style label in each card",
+        "typography": "~26px, ~17px, ~13px, ~10px NN Colroy in the card's weight, italic for names and titles; labels ~9px small caps violet",
+        "palette": [
+          "#050405",
+          "#f4f4f4",
+          "#7c00ff",
+          "#333132"
+        ],
+        "behaviour": "none",
+        "content": "Real copy on Colroy's history (Hermann Eidenbenz's Clarendon for Haas, Marc Droz's revival), 94 languages, small caps",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "11",
+        "12"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "punning, loud",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "A black funnel shape with 'Never Mind / the / Sans Serif' in pink and white italic and a pink arrow pointing down into three pills (green 'SPECIMEN PDF', yellow 'BUY' that flips to 'COLROY' and was captured upside down mid-turn, violet 'FREE TRIALS') above a huge pink rounded button 'GOOD BUY'",
+      "feel": "Cheeky, irresistible",
+      "ux": "Buttons link to nouvellenoire.ch/product/colroy, the specimen PDF and trials; the middle pill rotates between BUY and COLROY",
+      "learn": "Lead into the buy buttons with a slogan and a funnel arrow, and make the main button a pun ('GOOD BUY')",
+      "reconstruction": {
+        "layout": "Funnel (inverted triangle) full width ~450px tall; pill row: three pills ~500×170px, ~330×170px, ~500×170px; 'GOOD BUY' card ~1400×340px radius 30px",
+        "typography": "Slogan ~110px NN Colroy Bold pink + ~60px Bold Italic white; pills ~50px Italic or Black; 'GOOD BUY' ~200px Black caps",
+        "palette": [
+          "#060405",
+          "#fdc6ef",
+          "#01cc91",
+          "#f6fe02",
+          "#7c01f7",
+          "#faf9f9"
+        ],
+        "behaviour": "Middle pill flip animation (rotateX, ~2s loop) swapping BUY / COLROY",
+        "content": "Never Mind the Sans Serif · Specimen PDF · Buy · Free Trials · Good Buy",
+        "assets": "Funnel shape"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "neat, affectionate",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "contact"
+        ]
+      },
+      "look": "A four-column fact sheet under the GOOD BUY card: Typefamily 'NN Colroy ♥', Typeface design, Releases 2014, 2022; Weights Thin→Black with italics (each in its style); Available formats (Variable 'on request ✉'), character sets (STD 94 / 67 languages); Font mastering, Microsite design, Foundry with link",
+      "feel": "Tidy, friendly",
+      "ux": "'on request' opens an email; foundry link",
+      "learn": "List the weights in the colophon in their own styles: the credits are a final specimen",
+      "reconstruction": {
+        "layout": "4 columns from x=30, ~350px each; label (8px small caps) above value (~14px)",
+        "typography": "Labels ~8px small caps; values ~14px NN Colroy Regular, weights list in each weight",
+        "palette": [
+          "#faf9f9",
+          "#060405"
+        ],
+        "behaviour": "none",
+        "content": "Credits, formats, language counts, releases",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "14",
+        "13"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "utilitarian, compact",
+        "mobile": "adapts"
+      },
+      "look": "A fixed row of five small black pills floating at the bottom of every screen: 'NN Colroy', 'Buy at nouvellenoire.ch', 'Download Specimen PDF', 'Get Free Trial Fonts at nouvellenoire.ch', 'Request Variable Fonts' (on mobile a single 'Buy at nouvellenoire.ch' pill, plus Readymag 'VOTE' badges)",
+      "feel": "Always there, unobtrusive",
+      "ux": "Links to shop, PDF, trials and a mailto for the variable fonts",
+      "learn": "Float the utility links as a bottom pill dock so the colourful page needs no header",
+      "reconstruction": {
+        "layout": "Fixed bottom row ~24px from the bottom edge, pills ~24px tall, 8px gaps, centred",
+        "typography": "~10px NN Colroy Regular white on black",
+        "palette": [
+          "#050505",
+          "#ffffff"
+        ],
+        "behaviour": "position: fixed",
+        "content": "Five links",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "story/large-text-intro",
+    "family-overview/style-word-grid",
+    "design-details/axis-explainer",
+    "glyph-table/full-grid",
+    "language-support/language-name-list",
+    "specimen-showcase/modular-grid",
+    "specimen-showcase/size-waterfall",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

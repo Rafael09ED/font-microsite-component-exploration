@@ -1,0 +1,422 @@
+{
+  "slug": "floriankarsten-github-io-space-grotesk",
+  "extractedBy": "agent",
+  "summary": "A compact black-and-white open-source minisite with one orange accent: display sections each paired with a small pill switch (weights, Mono vs Grotesk, OpenType on/off), a toggle that morphs Space Mono into Space Grotesk through a custom transition font, a feature card grid, a sticky glyph inspector with metric lines, and a 'Use, Modify, Contribute' close linking to Google Fonts and GitHub.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Black top bar with a white rule under it: 'Space Grotesk' left, 'About · OpenType Features · Character Set' in the middle, 'Get Space Grotesk ↓' right, all ~12px"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "interactive-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, bold, minimal",
+        "mobile": "adapts",
+        "carrier": "glyph",
+        "cta": "none",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "On black, three centred lines of white Bold 'Spä©ê / Aag®Sş%! / Grøtəsk' (diacritics, ®, ©, ə and an ss02 g) at ~218px, with a row of four small labels along the bottom, '300 Light', '400 Regular', '500 Medium' and an orange pill '700 Bold' (active)",
+      "feel": "Confident, nerdy, poster-like",
+      "ux": "Click a weight label to restyle the specimen (data-weight → font-weight); the active label becomes an orange pill",
+      "learn": "A glyph-salad headline (accents, symbols, alternates) plus a four-pill weight switch shows character and range in one screen with almost no UI",
+      "reconstruction": {
+        "layout": "Section ~736px; text centred, 3 lines; switch row at the bottom with labels spread across the full content width (left, ~1/3, ~2/3, right); thick white rule (~6px) closes the section",
+        "typography": "Specimen ~218px Space Grotesk (300–700), leading ~0.95, white; labels ~10px Space Grotesk; active label black on #fcae06 pill",
+        "palette": [
+          "#030303",
+          "#f9f9f9",
+          "#fcae06"
+        ],
+        "behaviour": "div.switch-container > div[data-weight] click → inline font-weight on .text; class active moves; inline ss02 on one g",
+        "content": "Glyph-rich spelling of the name: 'Spä©ê Aag®Sş%! Grøtəsk'",
+        "assets": "none",
+        "html": "section > div.content.large-type.weights > div.text[style=font-weight] + div.switch-container > div[data-weight=300|400|500|700]"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "04"
+      ],
+      "type": "comparison",
+      "variant": "reference-morph",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "transparent, technical",
+        "mobile": "adapts"
+      },
+      "look": "First a static pair split by a white vertical rule: 'Hello, World! AaBbCc 12345' in Space Mono (Colophon Foundry, 2016) on the left and in Space Grotesk (Florian Karsten, 2020) on the right; then 'Mm1—Ww / Mono Fixed / G®otësk' at ~200px with a switch 'Space Mono' (orange pill) | 'Space Grotesk'",
+      "feel": "Honest about lineage",
+      "ux": "The switch morphs the display text between the monospaced parent and the proportional child: a custom 'Space Grotesk Transition' variable font interpolates widths and shapes, so letters slide into their new widths",
+      "learn": "When a family derives from another, build a transition font between them and let one toggle animate the derivation: the M, 1 and W visibly lose their fixed widths",
+      "reconstruction": {
+        "layout": "Pair: two equal columns of 4 lines (~100px) with small labels above and a 6px white rule between; morph: section ~736px with 3 centred lines and a 2-label switch at bottom left/right",
+        "typography": "Pair ~100px Space Mono / Space Grotesk Regular white; morph ~200px 'Space Grotesk Transition'; labels ~10px",
+        "palette": [
+          "#030303",
+          "#f9f9f9",
+          "#fcae06"
+        ],
+        "behaviour": "div[data-features=on|off] toggles a class on .transition that changes font-variation-settings of the Transition font with a CSS transition (mono ↔ grotesk)",
+        "content": "Words chosen for width changes: Mm1—Ww, Mono Fixed, G®otësk",
+        "assets": "Custom interpolation font (Space Grotesk Transition)",
+        "html": "div.content.large-type.transition > div.text + div.switch-container > div[data-features=on]/'Space Mono', div[data-features=off]/'Space Grotesk'; div.content.columns > div.column.space-mono"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "concise, factual",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'About Space Grotesk' label top-left with a tiny studio bio at bottom-left; on the right half a ~24px white paragraph: 'Space Grotesk is a proportional sans-serif typeface variant based on Colophon Foundry's fixed-width Space Mono family (2016)…'",
+      "feel": "Calm, informative",
+      "ux": "static",
+      "learn": "Split the about section: tiny credits on the left, one 24px paragraph on the right, so it reads as a specimen of the text size",
+      "reconstruction": {
+        "layout": "~258px band, two columns 50/50; label and bio left (~12px), paragraph right (~640px wide, 5 lines)",
+        "typography": "Paragraph ~24px Space Grotesk Regular white, leading ~1.25; labels and bio ~10–12px grey",
+        "palette": [
+          "#030303",
+          "#f9f9f9",
+          "#6d6d6d"
+        ],
+        "behaviour": "none",
+        "content": "Origin from Space Mono, designer Florian Karsten, purpose (text sizes, idiosyncratic details)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "size-waterfall",
+      "newVariant": true,
+      "variantDefinition": "The same running text set at a descending series of labelled sizes, from a display headline down to caption size, often in several weights side by side, to show how the family reads at every size; sometimes with a light/dark switch",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "pangram",
+        "tone": "multilingual, utilitarian",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "A '48px' block of eight pangram lines in German, Hungarian, Czech, Filipino, Slovenian, Catalan, Irish and Italian, each cut off at the right edge; then three paragraph columns of the Universal Declaration of Human Rights in German (24px), Italian (21px) and Spanish (13px), each with its size label, and the weight pill switch (300/400/500/700) at the bottom",
+      "feel": "Practical, international",
+      "ux": "The weight pills restyle all paragraphs at once; the 48px lines are static",
+      "learn": "Label each block with its pixel size and reuse the hero's weight switch: visitors check reading sizes and weights with one control",
+      "reconstruction": {
+        "layout": "48px block full content width, single-line rows (white-space: nowrap, overflow hidden), label at left above; paragraphs block: 24px column ~45% left, 21px and 13px columns stacked right; switch row at bottom; white rule closing each section",
+        "typography": "Rows ~48px Space Grotesk Bold white, leading ~1.1; paragraphs 24px/21px/13px at the switched weight (default 700); size labels ~10px grey",
+        "palette": [
+          "#050505",
+          "#f9f9f9",
+          "#fcae06"
+        ],
+        "behaviour": "Weight switch (data-weight) on the paragraphs section; a mobile-only label swaps 48px → 36px",
+        "content": "Language pangrams; UDHR preamble in three languages",
+        "assets": "none",
+        "html": "div.content.waterfall > span.label + div > span ×8; div.content.paragraphs.weights > div.text > div.paragraph.large|medium|small (span.label + div) + div.switch-container"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "highlighted-in-context",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "punchy, technical",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "toggle",
+        "explanation": "none"
+      },
+      "look": "'OpenType Features' label, then three huge lines '{ABCDäbĉ} / ⅗ H₂O / 1906 1964' with every glyph changed by a feature (case brackets, ss04 B and D, fraction, subscript, tabular 1, slashed zero, oldstyle 1964) in orange and the rest white; switch 'OpenType On' (orange pill) | 'OpenType Off'",
+      "feel": "Show-off, clear",
+      "ux": "The switch removes all features at once, so the orange glyphs revert to their defaults in place",
+      "learn": "Colour only the feature-affected glyphs and give one global On/Off: the visitor sees exactly which characters change",
+      "reconstruction": {
+        "layout": "Section ~778px; 3 centred lines; switch row bottom left/right",
+        "typography": "~218px Space Grotesk 'OpenType' cut, Bold, white with #fcae06 feature glyphs",
+        "palette": [
+          "#030202",
+          "#f8f8f8",
+          "#fcae06"
+        ],
+        "behaviour": "data-features on/off toggles the inline font-feature-settings spans (case, ss04, frac, subs, tnum, zero, onum)",
+        "content": "Feature-showcase string",
+        "assets": "none",
+        "html": "section#opentype-features > div.content.large-type.opentype > div.text (spans with inline font-feature-settings) + div.switch-container > div[data-features]"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "systematic, space-themed",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "A two-column grid of ten cards separated by hairlines: each shows a word in default form at left and with the feature on at right, the changed letters in orange, and a small label (Stylistic Set 1 'Space', Set 2 'Dragon', Set 3 'Skylab', Set 4 'DISCOVERY', Case Sensitive Forms '{H–O}N/M', Superscript/Subscript '32 m2 H2O', Tabular Figures '11. 4. 1970', Oldstyle Figures '7. 12. 1972', Fractions '1/3 2/5 4/7', Slashed Zero '1906')",
+      "feel": "Tidy, reference",
+      "ux": "static",
+      "learn": "Pick space-race words and dates for the feature samples (Skylab, Discovery, 1970): the catalogue stays on theme",
+      "reconstruction": {
+        "layout": "Grid 2 columns × 5 rows, cells ~700×160px, 1px grey rules; in each cell: before word left, after word right-aligned, label below left",
+        "typography": "Words ~50px Space Grotesk Regular white, changed glyphs #fcae06; labels ~9px grey",
+        "palette": [
+          "#020202",
+          "#f9f9f9",
+          "#fcae06",
+          "#525252"
+        ],
+        "behaviour": "none",
+        "content": "Space-exploration words and dates",
+        "assets": "none",
+        "html": "section.ot-section > div.ot-container > div.ot > div.ot-content (span.label + span.ot-string ×2 with inline font-feature-settings)"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "language-support",
+      "variant": "coverage-statement",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bold, playful",
+        "mobile": "adapts",
+        "method": "statement",
+        "nonLatin": false
+      },
+      "look": "'Character Set' label, then 'GF Lẩtiñ Plứs / Głÿpħ Sết / Ẳā₁₂&™Đ:øŵ' in white Bold at ~218px: the name of the glyph set ('GF Latin Plus Glyph Set') spelled with stacked Vietnamese and other diacritics",
+      "feel": "Witty, confident",
+      "ux": "The display weight animates in a loop (variable-animation class, 'Space Grotesk Linear')",
+      "learn": "State the glyph set's name in big type and spell it with its own hardest diacritics: the statement is the proof",
+      "reconstruction": {
+        "layout": "Section ~778px, three centred lines, label top-left, white rule at the bottom",
+        "typography": "~218px Space Grotesk Linear (variable), animated weight, white",
+        "palette": [
+          "#030303",
+          "#f8f8f8",
+          "#929292"
+        ],
+        "behaviour": "CSS @keyframes on font-variation-settings (weight sweep) on .variable-animation",
+        "content": "'GF Latin Plus Glyph Set' respelled with diacritics",
+        "assets": "none",
+        "html": "section#character-set > div.content.large-type.variable-animation > span.label + div.text"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "clean, technical",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "select",
+        "metricsShown": true,
+        "namesOrUnicode": true
+      },
+      "look": "Left half: a sticky 'Character Preview' panel with a huge white 'A' (~400px) on faint labelled metric lines (cap height, x-height, baseline, descender) and 'A  U+0041' at the bottom; right half: a hairline grid of ~45px cells grouped under labels Uppercase, Lowercase, Numbers, Punctuation, Currency, Symbols…, the selected cell white with an orange glyph",
+      "feel": "Precise, tool-like",
+      "ux": "Hover or click a cell to show the glyph large with its name and Unicode; the preview stays pinned while the long grid scrolls (~4500px)",
+      "learn": "Keep the preview sticky beside a long categorised grid: the whole set can be browsed without losing the big view",
+      "reconstruction": {
+        "layout": "Section ~4520px; preview column ~640px with position: sticky; grid column ~640px, 10 cells per row (~45px), 1px grey borders, group labels ~10px above each group",
+        "typography": "Preview glyph ~400px Space Grotesk Variable white; grid ~18px; name/unicode ~10px; metric labels ~9px grey",
+        "palette": [
+          "#080808",
+          "#f9f9f9",
+          "#2a2a2a",
+          "#fcae06"
+        ],
+        "behaviour": "span[data-unicode][data-name] hover/click → #character-preview text and #character-info update; .active cell styled white with orange glyph",
+        "content": "GF Latin Plus character set by category",
+        "assets": "none",
+        "html": "div.character-preview > div.sticky-container > div#character-preview (div.character + span.baseline/.x-height/.ascender/.descender) + div#character-info (span.name, span.unicode); div.character-list > div.character-group (span.label + spans[data-unicode][data-name])"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "open, generous",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "'Use, Modify, Contribute' in white at ~200px over two lines (animated weight), then three small white pills: 'Google Fonts', 'GitHub', 'Florian Karsten'",
+      "feel": "Inviting, community-minded",
+      "ux": "Pills link to the Google Fonts specimen, the GitHub repository and the designer's font page",
+      "learn": "Summarise the open licence as three verbs at display size: the download section explains the OFL before anyone clicks",
+      "reconstruction": {
+        "layout": "Section ~648px; two centred lines; pill row centred below (~100px pills, 8px gaps); white rule at the bottom",
+        "typography": "Headline ~200px Space Grotesk Linear, animated weight, white; pills ~11px Bold black on white, fully rounded",
+        "palette": [
+          "#030303",
+          "#f9f9f9",
+          "#d0d0d0"
+        ],
+        "behaviour": "Same weight keyframe loop as the character-set title",
+        "content": "'Use, Modify, Contribute' + three links",
+        "assets": "none",
+        "html": "section#download > div.content.large-type.variable-animation.download > div.text + div.links > a ×3"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "brief, open-source",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal"
+        ]
+      },
+      "look": "Three small columns: 'Made by friends of Google Fonts' logo; credits (typeface and minisite by Florian Karsten, Space Mono by Colophon Foundry for Google Design) and the SIL Open Font License note; repository and Google Fonts URLs",
+      "feel": "Modest",
+      "ux": "Links to designers, licence and repositories",
+      "learn": "Credit the parent design's foundry in the colophon of a derivative family",
+      "reconstruction": {
+        "layout": "~200px band, columns at ~0, 1/3 and 2/3 of the content width",
+        "typography": "~12px Space Grotesk white/grey",
+        "palette": [
+          "#020202",
+          "#f9f9f9",
+          "#6c6c6c"
+        ],
+        "behaviour": "none",
+        "content": "Credits and licence",
+        "assets": "Google Fonts logo SVG"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/interactive-specimen",
+    "comparison/reference-morph",
+    "story/large-text-intro",
+    "specimen-showcase/size-waterfall",
+    "design-details/highlighted-in-context",
+    "design-details/feature-index",
+    "language-support/coverage-statement",
+    "glyph-table/glyph-inspector",
+    "checkout/free-download",
+    "footer/credits-colophon"
+  ]
+}

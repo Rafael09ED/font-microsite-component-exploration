@@ -1,0 +1,483 @@
+{
+  "slug": "gt-flaire-com",
+  "extractedBy": "agent",
+  "summary": "A 'Flaire OS' parody desktop about business versus pleasure: a boot loader and a scripted Messenger chat with a demanding Creative Director open the site, then the page scrolls through draggable OS windows on a cloud wallpaper: an axis frame of three sliders, font-editor glyph views, '.gtdesign' ad mockups that a Flaire slider pushes from corporate to wild while critique stickers react, and closing windows for the shop, credits, a glyph 'Flaire Book' and an 'Encyclopedia of Minisites'. The tester is a full-screen overlay with sliders on three edges.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "intro-animation",
+      "variant": "title-sequence",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "satirical, office humour",
+        "mobile": "adapts"
+      },
+      "look": "Blurred pink-blue cloud wallpaper with desktop file icons (cartoon page with eyes, 'Amazing-Presentation-Very-Final-99f.design', an isometric floor plan) and a Messenger window where a 'Creative Director' sends messages ('Can you add more cowbells', 'Add more fun! More pizzazz! More flaire!', 'I need it now…'); below it a small orange 'No! I can't!' button and a big green 'Sure!' button in Flaire Extra; white taskbar 'Skip & Start · Messenger · 1:32 PM'",
+      "feel": "Funny, relatable agency life",
+      "ux": "A 'Flaire OS' boot screen ('Initializing stuff… Loading font files… Adding cowbells… Extra Flaire…') with a rainbow 'GT Flaire' logo, then the chat types itself out; 'Sure!' or 'Skip & Start' scrolls into the page; 'Reboot' at the end replays it",
+      "learn": "Open with a scripted chat that states the font's premise as a client brief ('More flaire!'), and let the visitor answer with a button set in the expressive style",
+      "reconstruction": {
+        "layout": "Full viewport 1440×900. Messenger window ~400×470px at x≈215, y≈90 (title bar 'Messenger', avatar row, scrolling bubbles alternating left/right, 'Enter Message' field); buttons below it overlapping the window: 'No! I can't!' ~240×75px, 'Sure!' ~375×125px; desktop icons column at the right edge (~120px each with captions); taskbar 40px at the bottom with Start, app tab and clock",
+        "typography": "Chat GT Flaire Basic (FLAR 0) ~24px, Creative Director lines purple, replies grey right-aligned, timestamps 10px; 'Sure!' GT Flaire Extra Black (FLAR 100, wght 1000) ~70px white; loader logo multicolour per letter; taskbar 13px",
+        "palette": [
+          "#f8f2f9",
+          "#f6d9fa",
+          "#7b08d6",
+          "#05ca6c",
+          "#ff4d00",
+          "#a5dafb"
+        ],
+        "behaviour": "Loader status lines step through; chat bubbles appear with typing indicator ('BOSS IS TYPING'); 'Sure!' grows; taskbar clock live; Lottie designer animation; windows draggable (data-draggable)",
+        "content": "Client-brief chat in agency clichés",
+        "assets": "Cloud wallpaper PNGs (blurred), desktop icon PNGs, Lottie scene",
+        "html": "[data-component=app-loader] + [data-component=app-loader-status]; [data-component=app-messenger]; [data-component=desktop-files]; [data-component=desktop-taskbar] > [data-component=taskbar-clock]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "cheeky, confident",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'There's / GT Flaire / in the air.' on three lines, each line in a different style (Basic Light purple, Extra Extra orange, Extra Light purple), then two purple paragraphs ('Typography is tension…', 'It reclaims an analog warmth…'), every line or paragraph tagged with a small outlined pill naming its style (GT FLAIRE BASIC MEDIUM, GT FLAIRE EXTRA MEDIUM)",
+      "feel": "Playful, self-aware",
+      "ux": "static; vertical tab nav (Intro / Learn / Design / Facts / Test / Buy) at the left edge",
+      "learn": "Tag each line of the intro with the exact style it is set in: the opening copy becomes a labelled style sampler",
+      "reconstruction": {
+        "layout": "Left-aligned column from x≈100; headline lines ~200px tall, the middle line indented ~210px; paragraphs ~1150px wide, the second indented ~210px; style pill 8px above each element",
+        "typography": "Headline ~220px: 'There's' FLAR 0 wght 300, 'GT Flaire' FLAR 100 wght 1000, 'in the air.' FLAR 100 wght 300; paragraphs ~64px FLAR 0 / 100 wght 500, leading ~1.1, purple; pills 10px uppercase in a 1px rounded outline",
+        "palette": [
+          "#ffffff",
+          "#7b08d6",
+          "#ff4d00"
+        ],
+        "behaviour": "none",
+        "content": "'Typography is tension: precision on one side, expression on the other. GT Flaire captures this interplay…'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "corporate parody, colourful",
+        "mobile": "adapts",
+        "structure": "matrix",
+        "samples": "word",
+        "interactive": true
+      },
+      "look": "An OS-window frame with a 'Flaire' slider along the top, a vertical 'Weight' slider on the left and a vertical 'Italic' slider on the right around orange office jargon ('Outstanding work on achieving this milestone!', 'Let's circle back on that'); then two stacks of card labels Light → Extra, purple (Basic) and orange (Extra), each card a step heavier, and a 'FAMILY SETUP' caption (7 weights × Basic/Extra + italics = 28 styles, 3 axes)",
+      "feel": "Toy-like, explanatory",
+      "ux": "The three sliders move by themselves with scroll (keyframes) and can be dragged; the windows themselves are draggable",
+      "learn": "Put one slider on each edge of the sample, each labelled with its axis: the frame itself is the explanation of the design space",
+      "reconstruction": {
+        "layout": "Slider frame ~1240×800px: horizontal track 30px tall across the top, two vertical tracks 30px wide on the sides, sample centred; weight cards: two columns (~520px wide each), 7 overlapping white cards with drop shadow, each ~135px tall; caption 12px in a 450px column below",
+        "typography": "Sample GT Flaire ~150px orange, driven by --font-flar 0–100, --font-wght 300–1000, --font-slnt 0–15; card words ~110px FLAR 0 (purple) vs FLAR 100 (orange) at wght 300…1000; UI labels 10px",
+        "palette": [
+          "#ffffff",
+          "#ff4d00",
+          "#7b08d6",
+          "#05ca6c",
+          "#efefef"
+        ],
+        "behaviour": "input[type=range] with data-keyframes (FLAR 0,0,100,100,0,0; wght 300,1000,1000,1000,300,300; slnt 0,0,0,15,15,0) interpolated over scroll progress; manual drag overrides; windows draggable",
+        "content": "Office jargon: 'Outstanding work on achieving this milestone!', 'Let's circle back on that'",
+        "assets": "none",
+        "html": "[data-component=axes-specimen style=--font-flar…] > [data-component=ui-component][data-draggable] > input[data-component=axes-specimen__range][data-variable=--font-flar|--font-wght|--font-slnt][data-keyframes]; [data-component=section-styles-overview] [data-card=1..7]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "font-editor, friendly",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "alternates"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "Topic rows, each a purple headline sentence ('Flared shapes add warmth to the design.', 'Vertical terminals and their opened counters.', 'Reverse contrast activates negative space.', 'Sometimes being extra is just not enough.'), a huge glyph drawing in orange outline on pale grey ('Aa' with Bézier nodes, 'esca', 'nose'), a small tool window (View: Nodes / Fill / Outline; Pace; Contrast Basic ↔ Extra; Alternates with a pencil and vacuum-cleaner icon) and a caption headed in brackets [PHYSICS OF THE STROKE], [ANATOMY OF THE STROKE], [DYNAMICS OF THE STROKE], [THE BEAUTY OF DIVERSITY]",
+      "feel": "Inside a font editor, but cheerful",
+      "ux": "Lottie drawings play as you scroll; the View buttons jump the 'Aa' animation between node, filled and outline renderings (frame ranges); tool windows are draggable",
+      "learn": "Borrow font-editor views (nodes, fill, outline) as the explainer: the visitor sees the curve logic the caption talks about",
+      "reconstruction": {
+        "layout": "Each topic: headline ~1250px wide at top; drawing full width (~1240×520px); tool window 230×100px floating at left or right; caption column ~450px with a bracketed tag; ~1200px per topic",
+        "typography": "Headlines GT Flaire Basic ~70px purple, leading 1.0; captions ~16px purple; tags 10px uppercase in a 1px box; glyph outlines 1px orange with square nodes",
+        "palette": [
+          "#fcfbfb",
+          "#fe4c06",
+          "#7b08d6",
+          "#e5d6ef",
+          "#d3b4eb"
+        ],
+        "behaviour": "Lottie players (A-all-three, esca, nose, meta) paused and scrubbed with scroll; View buttons play data-start-frame→data-end-frame (1–230 nodes, 239–450 fill, 462–680 outline)",
+        "content": "Real design rationale: calligraphic pressure → FLAR axis, vertical terminals, reverse contrast in the Extra styles, alternates",
+        "assets": "Lottie glyph animations, PNG tool icons",
+        "html": "[data-component=section-physics-of-the-stroke] > [data-component=ui-component][data-draggable] button[data-start-frame][data-end-frame] + lottie-player[data-src=A-all-three-v5.json]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "loud, sloganeering",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "White slogan cards between the design topics: 'Why settle for business when you can have pleasure?' and 'Expression or legibility? Why choose if you can have both.', green Basic words alternating with pink Extra italic words",
+      "feel": "Ad-like, punchy",
+      "ux": "static",
+      "learn": "Alternate the two personalities word by word inside one slogan: the contrast is the message",
+      "reconstruction": {
+        "layout": "Card ~1000×560px centred, light drop shadow, text centred in 4 lines",
+        "typography": "GT Flaire Extra Black ~110px, leading 0.95; green #05ca6c roman (FLAR 0) vs pink #eb72ff italic Extra (FLAR 100, slnt 15)",
+        "palette": [
+          "#ffffff",
+          "#05ca6c",
+          "#eb72ff"
+        ],
+        "behaviour": "none",
+        "content": "Business-vs-pleasure slogans",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "specimen-showcase",
+      "variant": "slider-morph-mockups",
+      "newVariant": true,
+      "variantDefinition": "Realistic layouts (ads, tickets, flyers) each paired with an axis slider that morphs the whole design from one end of the axis to the other, sometimes with reaction stickers that change with the value.",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "satirical, maximalist",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "series"
+      },
+      "look": "Sky-blue grid 'desktop' with four '.gtdesign' file windows: a black lawyer ad 'Smith&Son's Advocacy — Trust.', a railway ticket 'Bern → Earth 12.12.2042 ¥589463.99', a 'basic store' discount flyer, a car-wash ad 'OPEN 24/7 EXIT 66'; under each a 'Flaire' slider with plain jeans at one end and flared trousers at the other; critique stickers ('Add More Flaire!', 'cringe?', 'N.O.', 'is that all?', 'omg') pile on",
+      "feel": "Hilarious, chaotic, very on-brand",
+      "ux": "Drag the Flaire slider: the ad animates from sober Basic to over-the-top Extra and the sticker reactions change by state (meh → interesting → add more flaire → flairing amazing); file names mock version hell ('ticket-redesign-redo-v8-FINAL-final.gtdesign')",
+      "learn": "Let one axis slider rewrite a whole realistic layout, and add client reaction stickers: the visitor feels what the axis does to tone, not just to letters",
+      "reconstruction": {
+        "layout": "~3450px tall section on a 20px light grid over clouds; windows staggered left/right: 500×700px (portrait ad), 800×460px (ticket), 430×500px (flyer), 720×360px (car wash); each with a 10px filename tab and a 600×70px slider window underneath",
+        "typography": "Ad copy GT Flaire from Basic Regular (FLAR 0) to Extra Black (FLAR 100, wght 1000): 'Trust.' ~70px white; ticket numbers ~110px pink/white; stickers set in Extra, rotated ±10°",
+        "palette": [
+          "#a5dafb",
+          "#060606",
+          "#eb72ff",
+          "#05ca6c",
+          "#ff4d00",
+          "#ffc700"
+        ],
+        "behaviour": "Slider value scrubs a paused Lottie (ad-animation-*.json) and swaps sticker PNGs by threshold (state1 meh/boring/yawn, state2 aight/interesting, state3 add-more-flaire/good-job, state4 omg, state6 flairing-amazing); windows draggable",
+        "content": "Fictional clients: law firm, railway, discount store, car wash",
+        "assets": "Four Lottie ad animations, sticker PNGs, jeans icons for slider ends",
+        "html": "div[data-draggable] > filename + lottie-player[data-play-mode=paused][data-src=ad-animation-lawyer-v5.json] + #designer-2-stickers img ×9 + range input"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "tongue-in-cheek manifesto",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Over the cloud wallpaper, two large purple paragraphs tagged GT FLAIRE BASIC MEDIUM and GT FLAIRE EXTRA MEDIUM: 'GT Flaire bridges the worlds of business and pleasure. This typographic liberation is a hostile takeover…' and 'No longer bound to being strictly serious or purely playful…'",
+      "feel": "Wry",
+      "ux": "static; opens the Facts section",
+      "learn": "Set the same message in Basic then Extra one after the other so the reader compares the two personalities in running text",
+      "reconstruction": {
+        "layout": "Paragraph 1 from x≈100, ~1000px wide; paragraph 2 indented ~210px; style pill above each",
+        "typography": "~64px GT Flaire Medium, FLAR 0 then FLAR 100, purple, leading ~1.1",
+        "palette": [
+          "#a5dafb",
+          "#f6d9fa",
+          "#7b08d6"
+        ],
+        "behaviour": "none",
+        "content": "Positioning copy",
+        "assets": "Cloud wallpaper"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "pushy parody",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "'GT Shop' browser window (address bar www.grillitype.com, '3kb/s' badge) with two link rows: 'Trial Fonts' → green/purple tiles TRY NOW / BUY LATER / TRY NOW, 'Buy all Fonts' → orange/black tiles BUY NOW / TRY LATER / BUY NOW, in Flaire Extra Black",
+      "feel": "Spammy-funny, impossible to miss",
+      "ux": "Each row is one big link (trial fonts / shop); the word tiles cycle like a slow-loading banner",
+      "learn": "Make the CTA a parody banner ad: the joke earns the click instead of fighting banner blindness",
+      "reconstruction": {
+        "layout": "Window ~860×540px: grey address bar, then two rows; label column 120px left, 3×2 grid of word tiles (~250×110px each) per row",
+        "typography": "Tiles GT Flaire Extra Black (FLAR 100, wght 1000) ~70px uppercase; labels ~22px",
+        "palette": [
+          "#05ca6c",
+          "#7b08d6",
+          "#ff4d00",
+          "#000000",
+          "#ffffff"
+        ],
+        "behaviour": "Tiles swap words in a loop (TRY/BUY, NOW/LATER); 'Buy' also in the fixed nav",
+        "content": "TRY NOW BUY LATER / BUY NOW TRY LATER",
+        "assets": "none",
+        "html": "#section-gt-shop[data-draggable] > a[href=grillitype.com/free-trial-fonts], a[href=grillitype.com/typeface/gt-flaire]"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "toy-like utility",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'Flaire Book' window: toolbar with Weight (flexed-arm icons), Flaire (straight vs flared jeans), Italic (upright vs tilted vacuum cleaner) sliders and an Alternates Off/On shoe toggle, then the set in grey: Basic A–z, Extended accented capitals, …",
+      "feel": "Witty, usable",
+      "ux": "Icon buttons at each slider end step the axis down/up; hover a glyph to show it large in a zoom layer; Alternates toggle swaps to alternate forms",
+      "learn": "Use pictograms for slider ends (thin arm/strong arm, jeans/flares) so axis names need no explanation",
+      "reconstruction": {
+        "layout": "Draggable window ~860×1300px; toolbar row 70px with four control groups; glyph rows of 11 per line, ~70px pitch, category labels 9px",
+        "typography": "Glyphs GT Flaire ~48px grey #6b6b6b, settable wght 300–1000, FLAR 0–100, slnt 0–15",
+        "palette": [
+          "#ffffff",
+          "#6b6b6b",
+          "#7b08d6",
+          "#efefef"
+        ],
+        "behaviour": "Range inputs and up/down buttons (data-direction, data-variable) set CSS vars on the set; char-set__zoom shows the hovered glyph; alternates toggle",
+        "content": "Full character set",
+        "assets": "Icon PNGs for slider ends",
+        "html": "#section-flaire-book[data-component=char-set] > #gt-character-zoomed-primary[data-component=char-set__zoom]; button[data-direction=up|down][data-variable]; [data-component=char-set__char] ×501"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "OS 'About' box",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "other-fonts"
+        ]
+      },
+      "look": "A 'Credits' window styled like an app About box (smiling blue-white 'I' mascot, 'GT Flaire v.1.01, October 29 2024', credits for typeface, site design, development, icons and copy) and an 'Encyclopedia of Minisites' window with a Wikipedia-like glyph globe and 19 GT families with years; final taskbar 'Reboot · GT Shop · Credits · Flaire Book · Site Explorer · 1:33 PM'",
+      "feel": "Charming, complete",
+      "ux": "Taskbar buttons jump to each window; 'Reboot' shows 'REBOOT INITIATED…' and replays the intro",
+      "learn": "Cast the credits as an app's About box and the sibling list as an encyclopedia: the footer stays inside the fiction",
+      "reconstruction": {
+        "layout": "Credits window ~360×300px; Encyclopedia window ~500×600px with globe 150px and a 4-column list of family name + year; taskbar 40px full width",
+        "typography": "'GT Flaire' Extra ~50px purple; body ~13px grey with bold names; list ~13px",
+        "palette": [
+          "#ffffff",
+          "#7b08d6",
+          "#6b6b6b",
+          "#a5dafb"
+        ],
+        "behaviour": "Windows draggable; reboot screen overlay in neon text",
+        "content": "Real credits (Reto Moser, Patrick Savolainen, Camp Quiet) and family list with release years",
+        "assets": "Mascot PNG, globe GIF"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "playful, maximal",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes",
+          "features",
+          "color",
+          "presets"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Full-screen overlay (offscreen in the capture) with 'PER MY LAST EMAIL' fitted to the viewport (~235px) in green Extra Black, a Flaire slider window on the top edge, Weight on the left edge and Italic on the right edge, a Settings window (Shuffle mixer icon, Autoplay disco ball, Alternates shoe), a Close window (knives icon) and a Color window with 9 numbered swatches incl. a gradient",
+      "feel": "Party mode",
+      "ux": "Opened from 'Test' in the nav; type over the text (auto-fit); drag sliders; Shuffle randomises axes, Autoplay animates them ('Disco' on mobile), Alternates toggles alternate forms, swatches recolour",
+      "learn": "Frame the editable text with one slider per edge and give it a randomiser and autoplay: testing becomes play",
+      "reconstruction": {
+        "layout": "Fixed overlay 100vw×100vh on a patterned background; sample fills the inner area (textFit); slider windows 30px thick pinned to top, left and right (draggable); Settings window top-left (x 80, y 100), Close top-right, Color bottom-left (3×3 swatches, 32px each)",
+        "typography": "GT Flaire, sample auto-sized (~235px for 'PER MY LAST EMAIL'), leading 0.97, default wght 1000 FLAR 100 slnt 0, colour #05CA6C",
+        "palette": [
+          "#ffffff",
+          "#05ca6c",
+          "#eb72ff",
+          "#ffc700",
+          "#ff4d00",
+          "#4124f6",
+          "#dbff00",
+          "#7b08d6"
+        ],
+        "behaviour": "Ranges set --font-flar (0–100), --font-wght (300–1000), --font-slnt (0–15); shuffle sets random values; autoplay runs the data-keyframes loop; colorpicker sets --font-color; text refits on input",
+        "content": "Office cliché 'PER MY LAST EMAIL'",
+        "assets": "Icon PNGs (mixer, disco ball, shoe, knives)",
+        "html": "[data-component=typetester].typetester-overlay-active > [data-component=tt__sample][style=--font-wght;--font-flar;--font-slnt;--font-color] > [data-component=tt__sample-text][contenteditable] span.textFitted; tt__flar-range / tt__wght-range / tt__slnt-range; tt__shuffle-btn, tt__autoplay-btn, tt__alternates-btn, tt__colorpicker button[data-value]"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "navigation",
+      "variant": "scroll-spy-nav",
+      "newVariant": true,
+      "variantDefinition": "A fixed bar or tab strip listing the page's chapters that marks the current one as you scroll (highlighted tab, or a needle moving along a dial or scale); click or drag to jump.",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Narrow vertical OS-style tab strip at the left edge: 'GT Flaire' then rotated tabs Intro · Learn · Design · Facts · Test · Buy, the current section's tab highlighted in purple"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "intro-animation/title-sequence",
+    "story/large-text-intro",
+    "family-overview/designspace-map",
+    "design-details/annotated-specimen",
+    "specimen-showcase/poster-series",
+    "specimen-showcase/slider-morph-mockups",
+    "story/large-text-intro",
+    "checkout/link-out-cta",
+    "glyph-table/glyph-inspector",
+    "footer/credits-colophon",
+    "type-tester/slider-sandbox"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "infinite-tragedy-com",
+  "extractedBy": "agent",
+  "summary": "NaN Tragedy's 'infinite editable type specimen': a black page that keeps appending randomly chosen layout modules (text columns of tragic one-liners, photo with caption, numbered lists, display words), each editable, and re-inserts the title screen between batches, while a full-viewport p5.js canvas draws white line illustrations (angels, daggers, theatre masks) over everything. A fixed bottom bar switches between the endless view and a hidden 'About' specimen tab and offers black/white/red colour themes. The desktop capture only reached the first module; the mobile capture shows more module types.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "dramatic, gothic, witty",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "scroll",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "Black screen: small mono meta row at the top ('INFINITE EDITABLE TYPE SPECIMEN' / 'NaN.XYZ NaN TRAGEDY BY JEAN-BAPTISTE MORIZOT' / 'BERLIN DE JOIGNY FR'); centred three-line serif sentence 'NaN Tragedy An original typeface by J.B Morizot in Text, Italic & Display Styles' with a hand-scrawled green 'NaN', 'Tragedy' in bold green, the last line bold white; a white dagger and italic 'Infinite Scroll' below; white line drawings draw themselves across the screen",
+      "feel": "Theatrical, dark, slightly unhinged",
+      "ux": "Scroll cue (dagger + 'Infinite Scroll'); fixed bottom bar with three tabs and three colour-theme buttons; the line drawings change on each pass",
+      "learn": "Mix the styles inside one announcement sentence (regular, bold, display, scrawled logo) so the pitch lists the styles and shows them in the same breath",
+      "reconstruction": {
+        "layout": "Full viewport 1440×900 (section.intro); meta row of three columns pinned top (left, centre, right) ~30px from the edge; sentence centred, three lines, ~800px wide; dagger + caption centred ~120px below; fixed nav bar 40px at the bottom",
+        "typography": "Sentence ~90px NaN Tragedy (opsz 1000, display) — regular white, 'Tragedy' bold green, line 3 bold; 'NaN' is an inline hand-drawn SVG (189×155 viewBox) in green; meta ~11px NaN Holo Mono uppercase; dagger glyph ~100px; 'Infinite Scroll' ~22px italic (NaN Tragedy Text Italic)",
+        "palette": [
+          "#030303",
+          "#f2f2f2",
+          "#3df53d",
+          "#4f4f4f"
+        ],
+        "behaviour": "A fixed full-viewport p5.js canvas (#holo3, 1440×860) draws white single-line illustrations stroke by stroke over the content (angel wings, sword, masks, figures), different on each repeat of the intro; text is static",
+        "content": "Announcement sentence, designer and places",
+        "assets": "Hand-drawn 'NaN' SVG; line-art illustration paths for the canvas",
+        "html": "div#holo3 > canvas.p5Canvas; main[data-tab=index] > section.intro.shown > .intro-meta (3 divs) + .intro-main > p > em > svg + text + strong + .intro-arrow > i.dagger + em"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "specimen-showcase",
+      "variant": "generative-layout-stream",
+      "newVariant": true,
+      "variantDefinition": "An endless scroll that keeps appending randomly composed layout modules (text columns, image with caption, numbered lists, display words) filled with themed copy, usually editable, so the specimen never ends or repeats exactly.",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "classical tragedy, editorial",
+        "mobile": "adapts",
+        "medium": "generative",
+        "sequence": "series"
+      },
+      "look": "A module of two editable columns of tragic one-liners in small serif, a grainy greyscale photo of a Pietà-like sculpture captioned 'Tragedy', white line drawing of comedy/tragedy masks at right, then a numbered list ('2 — You give me excellent advice..', '52 — Those terrifying agonies..')",
+      "feel": "Like leafing through an endless programme for a Greek tragedy",
+      "ux": "Scrolling near the end loads another batch (section.loading), each starting with the intro screen again; every paragraph, caption and list line is contenteditable",
+      "learn": "Generate the specimen from a library of layout modules and a corpus of themed lines: each visit composes a different page, and the text sizes and styles get shown in many contexts",
+      "reconstruction": {
+        "layout": "Modules ~590px tall here (class body-2-2-image-below): two text columns (~640px each) above, image (~700×420px) bottom-left and drawing at right, numbered list in two columns (number, 100px rule, sentence); other module types on mobile include 4-column text, a number table, tag chips, a style/spec table and a giant cropped word",
+        "typography": "Body ~14px NaN Tragedy Text (opsz 1), white, justified-ish columns; caption word 'Tragedy' in display; list numbers and lines ~16px; mono labels NaN Holo Mono",
+        "palette": [
+          "#030303",
+          "#b9b9b9",
+          "#535353",
+          "#f2f2f2"
+        ],
+        "behaviour": "JS picks modules at random and appends them (unique section ids like '6huY4LZsab'); images lazy-load (div.img.loaded with background-image); the p5 canvas keeps drawing line art on top",
+        "content": "Lines adapted from Greek tragedy ('No work is finished if the tongue does not speak of it', 'Brought up to all this misery . . .', 'Summoning their god..')",
+        "assets": "Greyscale stock photos (Austrian National Library / Unsplash), line-art drawings",
+        "html": "main[data-tab=index] > section.body-2-2-image-below > p[contenteditable] ×2 + figure.left > div.img[data-img] > span.h3 + figcaption[contenteditable]; section.loading as the infinite-scroll sentinel"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "chrome",
+      "variant": "site-nav-bar",
+      "newVariant": true,
+      "variantDefinition": "A persistent site navigation bar (name or logo plus links or view tabs, sometimes utility toggles such as colour themes), top or bottom, fixed or static; it navigates rather than introducing the font.",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Fixed 40px bottom bar of three grey mono-caps tabs (INFINITE NAN TRAGEDY, ABOUT NAN TRAGEDY, DOWNLOAD FREE TRIALS @ NaN.XYZ) and three 'A' swatches (black, white, red) that switch the page's colour theme; the About tab shows a hidden specimen view (weights, charset, opsz demo, samples, credits)"
+    }
+  ],
+  "skipped": [
+    {
+      "block": "01",
+      "reason": "duplicate of the intro screen (#00): the infinite scroll re-inserts it before each new batch; only the canvas drawing differs"
+    },
+    {
+      "block": "02",
+      "reason": "duplicate of the intro screen (#00), third repeat"
+    }
+  ],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "specimen-showcase/generative-layout-stream"
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "slug": "prospectus-losttype-com",
+  "extractedBy": "agent",
+  "summary": "Lost Type's microsite for Dave Bailey's optical-size serif, staged as 'The Daily Prospectus' newspaper in peach, red-orange and olive on grey. It opens on an editable dictionary-entry front page and a full-control tester whose optical size switches automatically with the font size. Editable classified ads are each set in a different optical size, and a sticky 'intended size' switcher resizes the samples. A long first-person making-of essay with archival sources follows, then colour-coded package cards and credits that close with a waterfall of the four optical sizes.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "typeset-page",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "witty, literate, editorial",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "none",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "A peach newspaper page on flat grey, strewn with orange, olive and peach paper-cut blobs: masthead 'The Daily Prospectus' with a Lost Type roundel, 'A Lost Type Co-op Publication / Drawing new shapes for you to read since 2011' and today's date, then a dictionary entry 'pro·spec·tus: noun' with two numbered senses (the second: 'A new and bold contemporary serif typeface, with optical sizes, designed by Dave Bailey…') and an 'origin' paragraph",
+      "feel": "Clever, bookish, warm",
+      "ux": "The masthead (and entry) are editable Draft.js lines with a blinking caret; the blobs drift in and settle as the page loads; no buttons or nav",
+      "learn": "Define the font's name like a dictionary entry: roman, italic, bold, small and large sizes all appear naturally, and the second sense is the pitch",
+      "reconstruction": {
+        "layout": "Section 1440×1476 grey; page ~1100px wide centred, ~1330px tall, 70px padding; masthead row with hairline rule and meta line (roundel + two lines left, date right); entry with hanging numbered list; rule; origin paragraph",
+        "typography": "Masthead ~100px Prospectus XL Black; meta ~14px S Regular/Italic; headword ~36px L Bold + italic 'noun'; senses ~40px M Light with italic/bold-italic emphasis, sense 2 in Bold; origin ~40px M with bold italic Latin words",
+        "palette": [
+          "#fac495",
+          "#aaabab",
+          "#ebb98e",
+          "#cfa872",
+          "#ef4d26"
+        ],
+        "behaviour": "~100 SVG blob shapes animate in (fade/slide) around and over the page in the first ~2s; masthead line is contenteditable with caret; date generated from today",
+        "content": "Dictionary entry for 'prospectus' with real etymology (Latin prōspicere)",
+        "assets": "Paper-cut blob SVGs (illustrations by Marisol Ortega); Lost Type roundel logo",
+        "html": ".public-TypeTester.public-TypeTester-caret > .DraftEditor-root .public-TypeTesterLine[contenteditable]"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bold, inviting",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "leading",
+          "tracking",
+          "style-select",
+          "weight",
+          "features",
+          "alignment"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "A full red-orange screen with a thin control strip at the top (Font Size, Line Height, Tracking sliders; Optical Size, Weight, Numbers, Text Alignment selects; Italics and Small Caps toggle buttons) and one centred black line 'Try Prospectus…' at 200px with a caret",
+      "feel": "Confident, open-ended",
+      "ux": "Type over the line; sliders and selects restyle it. Optical Size defaults to 'Auto', which picks Small/Medium/Large/Xtra Large from the current font size (shown as 'Auto (XL)')",
+      "learn": "Let the tester choose the optical size automatically from the font size, with a manual override: the visitor learns what optical sizes are for by dragging one slider",
+      "reconstruction": {
+        "layout": "1440×1080; control strip ~60px at the top in one row, labels above inputs (three sliders ~130px each, then selects); sample vertically centred, full width",
+        "typography": "Sample default 200px Prospectus XL Light, centred, line-height 1; control labels ~14px Prospectus S Bold, select values ~13px",
+        "palette": [
+          "#ef4d26",
+          "#d34623",
+          "#1a1a1a"
+        ],
+        "behaviour": "Size range 10–300 (200), line height 0.5–2 step 0.05 (1), tracking range; Optical Size select S/M/L/XL/auto (auto maps size thresholds to the optical size); Weight select Thin 200 … Black 900; Numbers select sets font-feature-settings (pnum+onum, pnum+lnum, tnum+lnum+zero, tnum+onum); alignment select; Italics and Small Caps (c2sc/smcp) checkboxes",
+        "content": "Prompt 'Try Prospectus…'",
+        "assets": "none",
+        "html": "label > input.input-range[type=range] ×3; select.Select > option[value='LT Prospectus S'|…|auto]; select weights option[value=200..900]; numbers option[value='\"tnum\", \"lnum\", \"zero\"']; input[type=checkbox] ×2; .public-TypeTester DraftEditor"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "polished, editorial",
+        "mobile": "adapts",
+        "destination": "distributor",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": false,
+        "free": false
+      },
+      "look": "White section: 'Prospectus' intro paragraph, a photo spread of printed 'Daily Prospectus' newspaper specimens (Classifieds pages, front page) under orange and olive blobs, the note that an issue ships free with a commercial licence, then two package columns: 'Standard 12 styles – $99' with one olive row, and 'Pro 48 styles – $249' with four rows colour-coded by optical size (Xtra Large red, Large peach, Medium olive, Small grey), each row with roman and italic 'a' swatches and a weight ramp 'aaaaaa aaaaaa', and an olive 'Get Prospectus …' pill",
+      "feel": "Elegant, orderly",
+      "ux": "Pills link to the Lost Type product pages; the coloured rows preview each package's contents",
+      "learn": "Colour-code each optical size and show its roman/italic swatch and weight ramp inside the package card: the price list doubles as a family map",
+      "reconstruction": {
+        "layout": "~2350px; intro centred ~660px; photo ~1300×860px; note centred; packages in two columns ~630px: Standard lower-left, Pro upper-right (staggered); rows ~72px header + ~52px ramp, swatch cells ~55px square; pills ~290×60px centred under each column",
+        "typography": "Headings ~36px Prospectus L Bold; meta italic ~18px; row names ~24px M Regular; swatches ~28px roman + italic; ramp ~18px from Thin to Black; pill ~18px italic white",
+        "palette": [
+          "#fdfdfd",
+          "#ef4d26",
+          "#f4ad73",
+          "#cead6d",
+          "#aaabab"
+        ],
+        "behaviour": "none",
+        "content": "'A recognizably crisp, bold, and contemporary choice for all of your editorial, fashionable, intellectual, and satirical typesetting needs.' Prices $99 / $249",
+        "assets": "Photo collage of the printed newspaper specimen",
+        "html": "a[href='https://losttype.com/font/?name=prospectus'] / ?name=prospectus-pro"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "type-tester",
+      "variant": "in-context-editable",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "witty, editorial",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "'Classifieds / Wanted: Someone to edit the following before publication. Give Prospectus a try!' over four comic classified ads in a two-by-two grid, each headed 'Try Prospectus Small / Xtra Large / Large / Medium' in coloured italic, every line in its own weight, italic and colour (black, grey, red, orange, olive): a lost-wallet note, 'FOUND: BIKE', 'Offer: Two vintage barrel chairs … $7,000.00 USD; free if you can trap/kill the large spider…', 'For rent June-July: … Pac Heights'",
+      "feel": "Funny, lively, newspaper-real",
+      "ux": "Every line is a separate editable field (60 contenteditable); click anywhere and type, no controls",
+      "learn": "Give the tester a premise ('edit these classifieds') and write absurd small ads: each optical size gets the job it's designed for and people play longer",
+      "reconstruction": {
+        "layout": "~2510px; heading centred; two columns ~620px each with ~40px gutter; ad 1 (Small) top-left, ad 2 (XL) top-right, ad 3 (Large) bottom-left, ad 4 (Medium) bottom-right; lines left-aligned, varied sizes, tight vertical rhythm",
+        "typography": "Labels ~14px Prospectus S Bold Italic in red/orange/olive; Small ad 16–52px in S; XL ad 25–90px in XL Thin to Black; Large ad 45–90px in L; Medium ad 18–64px in M; mixes roman, italic, light and black within each ad",
+        "palette": [
+          "#faf9f8",
+          "#1a1a1a",
+          "#ef4d26",
+          "#f4ad73",
+          "#cead6d",
+          "#a6a6a6"
+        ],
+        "behaviour": "Draft.js editors per line; colour classes (black, gray, red, orange, yellow) and italic per line",
+        "content": "Invented, deadpan San Francisco classified ads (lost wallet, fannypacks, found bike, barrel chairs, sublet)",
+        "assets": "none",
+        "html": ".public-TypeTester > .DraftEditor-root .public-TypeTesterLine; per-line classes 'black italic pb1 col-12', 'red pb1 col-12' etc."
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "clear, didactic",
+        "mobile": "adapts",
+        "subject": [
+          "optical-size"
+        ],
+        "presentation": "toggle",
+        "explanation": "none"
+      },
+      "look": "On silver grey, a segmented 'Intended Size: Small | Medium | Large | Xtra Large' switch (active in red) above two white cards with drop shadows: 'Hello' in a thin high-contrast serif and an 'a' beside three engraved hourglasses",
+      "feel": "Simple, tactile",
+      "ux": "The switch is sticky; picking a size swaps both cards to that optical size and rescales them to the size it is meant for (Small = small card, XL = big card)",
+      "learn": "Show each optical size at its intended size, not at one size: the switch makes 'drawn for 6–14pt' versus 'drawn for 100pt+' visible",
+      "reconstruction": {
+        "layout": "~980px; switch ~700×60px centred, sticky top; cards side by side, each in a 50% column; card sizes change with the selection (~520×340px at XL); offset grey shadow block behind each card",
+        "typography": "Switch labels ~16px Prospectus S, active Bold white on red; 'Hello' and 'a' ~200px in the selected optical size (XL Light by default)",
+        "palette": [
+          "#cecece",
+          "#f8f8f8",
+          "#ef4d26",
+          "#1a1a1a"
+        ],
+        "behaviour": "Buttons set the optical size and card scale; Draft.js line editable",
+        "content": "'Hello' and 'a'",
+        "assets": "Engraved hourglass illustrations",
+        "html": "div.sticky.top-0 > button ×4 (bg-red on active) + .font-family-xl .public-TypeTester cards"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "scholarly, personal",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "archival",
+          "diagram"
+        ],
+        "length": "long"
+      },
+      "look": "'The Making of Prospectus' in heavy black display serif, then a book-like column with a small-caps lead-in, captioned archival images (Catich's Trajan rubbing and 'Origin of the Serif', a 12th-century Carolingian manuscript, three Oldřich Menhart italic alphabets), a red italic pull quote with giant quote marks, and a grid of 48 lowercase 'n's (four optical sizes × weights × roman/italic)",
+      "feel": "Thoughtful, scholarly, generous",
+      "ux": "static long read",
+      "learn": "Cite the actual sources (inscriptions, manuscripts, a calligrapher's alphabets) with captions: the essay credits the history and shows where each feature comes from",
+      "reconstruction": {
+        "layout": "~6430px; title centred ~1100px wide; lead paragraph ~1000px; body column ~850px centred with images at column width and grey italic captions; pull quote hanging into the left margin (~550px); n-matrix image full column",
+        "typography": "Title ~180px Prospectus XL Black, tight leading; lead ~22px M with small-caps opening (c2sc); body ~18px S Regular, leading ~1.6; captions ~13px S Italic grey; pull quote ~36px L Italic red-orange with ~150px peach quote marks",
+        "palette": [
+          "#f8f8f7",
+          "#1a1a1a",
+          "#ef4d26",
+          "#d8d8d8"
+        ],
+        "behaviour": "none",
+        "content": "Dave Bailey's account: Imperial Roman capitals, Catich's brush theory, Carolingian minuscule for the lowercase, Menhart for the italic, Type@Cooper West, optical sizes Small/Medium/Large/Xtra Large and their ranges",
+        "assets": "Archival scans and a rendered n-matrix of all 48 styles",
+        "html": "figure > img[src=/media/P2-P3.jpg] + figcaption.h6.gray.font-family-s"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "consistent, closing",
+        "mobile": "adapts",
+        "destination": "distributor",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": false,
+        "free": false
+      },
+      "look": "The package panel repeated after the essay without the newspaper photo: intro paragraph, Standard ($99) and Pro ($249) columns with colour-coded optical-size rows and olive pills",
+      "feel": "Tidy, unobtrusive",
+      "ux": "Same Lost Type links as the first panel",
+      "learn": "A second, photo-less copy of the price cards after the long read keeps the buy decision one scroll away",
+      "reconstruction": {
+        "layout": "~1360px; same two staggered columns as the first panel, no photo",
+        "typography": "As the first panel",
+        "palette": [
+          "#fefdfd",
+          "#d1b26f",
+          "#ef4d26",
+          "#aeaeaf"
+        ],
+        "behaviour": "none",
+        "content": "Package names, style counts, prices",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "witty, bookish, warm",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "sign-off"
+        ]
+      },
+      "look": "A peach card on grey: left, role/name credits (Type Design Dave Bailey, Art Direction Riley Cran, The Daily Prospectus Publication Design, Site Design & Development Kenneth Ormandy, Illustrations, Copywriting) and a Special Thanks paragraph; right, 'We have charming faces!' set four times, growing from Small to Xtra Large and cropped by the card edge",
+      "feel": "Charming, signed-off",
+      "ux": "Credit names link out; static",
+      "learn": "Pair the credits with a pun waterfall across the optical sizes ('We have charming faces!'): the people and the range close the page together",
+      "reconstruction": {
+        "layout": "Card ~1300×920px on grey; two columns: credits ~560px, waterfall ~650px overflowing right (overflow hidden); each waterfall line labelled underneath",
+        "typography": "Credit roles ~16px Prospectus S Bold, names ~16px Regular underlined; thanks with small-caps lead-in; waterfall ~28px S, ~70px M, ~105px L, ~150px XL; labels ~14px",
+        "palette": [
+          "#f9c395",
+          "#adabaa",
+          "#1a1a1a",
+          "#b18c6c"
+        ],
+        "behaviour": "none",
+        "content": "Real credits and thanks (Type@Cooper West, Letterform Archive, Matthew Carter…)",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/typeset-page",
+    "type-tester/slider-sandbox",
+    "checkout/link-out-cta",
+    "type-tester/in-context-editable",
+    "design-details/axis-explainer",
+    "story/essay",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

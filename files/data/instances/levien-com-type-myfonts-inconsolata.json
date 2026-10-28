@@ -1,0 +1,203 @@
+{
+  "slug": "levien-com-type-myfonts-inconsolata",
+  "extractedBy": "agent",
+  "summary": "Raph Levien's original Inconsolata page from the mid-2000s: one unstyled HTML document in browser-default Times, with the name and the character set as PNG images (no webfont at all), a few first-person paragraphs on the design, and links to the source, OTF, PFA and a PDF proof. It is the 'specimen as a plain web page' baseline: the font is shown only as pictures of itself.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "plain, academic",
+        "mobile": "shrinks",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "The only display element: 'Inconsolata' as a black-on-white PNG (~500×63px) in the font itself, top-left, directly followed by body text",
+      "feel": "Bare, document-like",
+      "ux": "static; no navigation, no buttons",
+      "learn": "Even with no CSS, setting only the title as an image of the font gives the page its identity",
+      "reconstruction": {
+        "layout": "h1 containing an <img> 500×63 at the page's default 8px margin, top-left; no hero area, the text starts ~20px below",
+        "typography": "Name: ~80px Inconsolata Regular rendered into the PNG; everything else is the browser default serif (Times) at 16px",
+        "palette": [
+          "#ffffff",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "The family name only",
+        "assets": "inco.png (name image)",
+        "html": "<h1><img src=inco.png width=500 height=63 alt=Inconsolata></h1>"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "candid, expert",
+        "mobile": "shrinks",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "Six full-width paragraphs of default Times body text: a dated update note pointing to Google Fonts and GitHub, then the designer's notes on influences and decisions",
+      "feel": "Personal, like a lab notebook",
+      "ux": "Inline links to Google Fonts, GitHub, Consolas, TheSansMono and the programmer-fonts list",
+      "learn": "Name the models and the specific borrowed details (Avenir's 'a', Franklin Gothic's 'g' and 'S', Japanese Gothic micro-serifs): the influences double as a guided look at the glyphs",
+      "reconstruction": {
+        "layout": "Unconstrained full-width paragraphs (~1420px measure at 1440 wide), default 16px margins between paragraphs",
+        "typography": "Browser default serif ~16px, leading ~1.2, black; links default blue underlined",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#0000ee"
+        ],
+        "behaviour": "none",
+        "content": "'Inconsolata is my first serious original font release… a monospace font, designed for code listings and the like, in print… First and foremost, Inconsolata is a humanist sans design… also borrows \"micro-serifs\" from some Japanese Gothic fonts'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "raw, technical",
+        "mobile": "shrinks",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A PNG of the whole character set as eight monospaced rows in encoding order: ASCII punctuation and digits, A–Z, a–z, Latin-1 symbols, accented capitals and lowercase, Latin Extended, then quotes, arrows and fractions",
+      "feel": "Proof-sheet, honest",
+      "ux": "static image",
+      "learn": "For a monospace, the glyph set in encoding order as plain rows already forms a perfect grid: no cells needed",
+      "reconstruction": {
+        "layout": "Image 609×320 at the left margin, 8 rows of ~33 characters, ~40px row pitch",
+        "typography": "~32px Inconsolata Regular, black, characters on the monospace grid",
+        "palette": [
+          "#ffffff",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Character set from U+0020 upward (ASCII, Latin-1, Latin Extended-A subset, typographic quotes, arrows, fractions)",
+        "assets": "incoshow.png (character-set image)"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "plain, open-source",
+        "mobile": "shrinks",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "One bracketed link line '[ FontForge source | OpenType file | pfa file | PDF showing ]' under the glyph image, then a paragraph on the Open Font License and TeX Users Group sponsorship with a donation hint",
+      "feel": "Unpretentious",
+      "ux": "Direct file links (.sfd, .otf, .pfa, PDF test sheet); OFL and TUG Development Fund links",
+      "learn": "Offering the editable source file next to the binaries signals that the font is truly open",
+      "reconstruction": {
+        "layout": "Single text line with pipe separators inside square brackets, then a full-width paragraph",
+        "typography": "Default serif 16px, blue underlined links",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#0000ee"
+        ],
+        "behaviour": "none",
+        "content": "File formats offered: FontForge .sfd source, .otf, .pfa, textest.pdf; licence: SIL OFL; sponsor: TUG",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain",
+        "mobile": "shrinks"
+      },
+      "look": "An h3 'Links' with two bulleted external articles (adding straight quotes, Top 10 Programming Fonts), then two bare footer links 'Other fonts I'm working on.' and 'levien.com'",
+      "feel": "Old-web, minimal",
+      "ux": "Text links only; 'Other fonts' leads to the designer's font index",
+      "learn": "On a one-page specimen, a single 'other fonts' link is the minimum cross-promotion",
+      "reconstruction": {
+        "layout": "h3 + ul with default bullets and indent; two links at the bottom-left, no footer bar",
+        "typography": "h3 default bold ~19px; list and links 16px default serif",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#0000ee"
+        ],
+        "behaviour": "none",
+        "content": "External articles about the font; link to the designer's other fonts and homepage",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/essay",
+    "glyph-table/full-grid",
+    "checkout/free-download"
+  ]
+}

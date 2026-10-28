@@ -1,0 +1,449 @@
+{
+  "slug": "azeret-displaay-net",
+  "extractedBy": "agent",
+  "summary": "Displaay's Nuxt microsite for Azeret (captured from the Wayback Machine), a sans with Proportional, SemiMono and Mono sub-families on a 'mono' axis, inspired by OCR fonts and old operating systems: electric violet fields, lilac-tinted archival photos of computer consoles with WebGL transitions, dark 'anatomy' cards (construction lens, metric lines), typed-in-a-loop word showcases and floating 'Get Azeret' / 'Type tester' cards that follow the visitor down the page.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "video",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "techno, retro-futurist",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "'Azeret' in pale lilac at huge size anchored bottom-right over a looping violet video with a glowing horizontal light band; tiny 'New Sans Serif' and '3 sub-families / 48 styles' top-left; two floating lilac cards top-right ('Get Azeret', 'Type tester')",
+      "feel": "Cool, glowing, screen-like",
+      "ux": "Intro: a counter ('0') at the bottom-right, then the letters of 'azereT' animate in one by one before the name settles; the video loops behind",
+      "learn": "Push the wordmark into the bottom-right corner and let a slow light-band video carry the mood: the empty violet space reads as a screen",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×900; name right-aligned at x≈380–1400, baseline at the bottom edge (~240px cap height, partly cropped); meta text 20px from top-left in two columns (x≈20, x≈375); cards 335px wide at x≈1085",
+        "typography": "Name ~330px Azeret wght 500, colour #dcd8e3; meta ~20px Regular lilac",
+        "palette": [
+          "#8c0dee",
+          "#b66ae7",
+          "#dcd8e3"
+        ],
+        "behaviour": "Background <video loop muted playsinline>; on load a numeric counter, then per-letter spans of the name fade/slide in (customFade)",
+        "content": "Name and the family numbers",
+        "assets": "Looping violet gradient video with a moving light band",
+        "html": "Nuxt (data-v-*) section with <video> and the name split into per-letter spans"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "confident, compact",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "archival"
+        ],
+        "length": "short"
+      },
+      "look": "A three-line statement on violet, 'New Sans-Serif with ③ Sub-Families & total ㊽ styles', with the numbers set small inside white discs within the line, followed by a wide lilac-tinted archival photo of a computer console with telephones and screens",
+      "feel": "Product-like, crisp",
+      "ux": "static; photo fades in",
+      "learn": "Drop the key numbers into the sentence as small badges: the claim stays one readable line while the figures pop",
+      "reconstruction": {
+        "layout": "Statement from x≈20, ~3 lines × 125px; discs ~110px inline; photo full column (1420×780) below with 20px margin, rounded corners",
+        "typography": "~144px Azeret wght 500 pale lilac; disc numbers ~26px violet",
+        "palette": [
+          "#941bf0",
+          "#d1ccd3",
+          "#ffffff"
+        ],
+        "behaviour": "Fade-in on scroll",
+        "content": "'New Sans-Serif with 3 Sub-Families & total 48 styles'",
+        "assets": "Archival photo of a control console, duotoned lilac"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "encyclopedic",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'Driven by study of OCR Fonts and Operating Systems.' in four big lines, a hairline rule, then a small 'Optical character recognition — Source: Wikipedia' label and two columns of quoted encyclopedia text with bold key phrases",
+      "feel": "Researchy, factual",
+      "ux": "Source link to Wikipedia",
+      "learn": "Quote the encyclopedia definition of the inspiration, credited, instead of writing your own history",
+      "reconstruction": {
+        "layout": "Heading x≈20, 4 lines ~125px; rule at y≈660; label column x≈20; text columns at x≈735 and x≈1085, ~330px each",
+        "typography": "Heading ~144px Azeret wght 500; label 13px; body ~14px with Bold highlights, lilac",
+        "palette": [
+          "#931bf0",
+          "#e4e0ec",
+          "#cdade5"
+        ],
+        "behaviour": "none",
+        "content": "Wikipedia text on optical character recognition",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "technical, sleek",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "overlay",
+        "explanation": "caption"
+      },
+      "look": "A rounded near-black card labelled 'Construction in detail' with 'RCA 501' in solid violet; inside a thin violet circle the letters turn into outlines with their on-curve points",
+      "feel": "X-ray, precise",
+      "ux": "The circle is a lens drawn on a canvas that reveals the outline and points of whatever it covers (likely follows the pointer)",
+      "learn": "Use a moving lens to switch the letters from fill to outline-with-points: construction shown only where the visitor looks",
+      "reconstruction": {
+        "layout": "Card 1400×1000px with 20px violet margin and ~10px radius; label top-left (x≈60,y≈40); word centred ~1000px wide; lens ~320px diameter",
+        "typography": "Word ~200px Azeret wght 500 violet #8b1be6; label 15px lilac",
+        "palette": [
+          "#1b181e",
+          "#941bf0",
+          "#d4d3da"
+        ],
+        "behaviour": "Canvas (1400×1001) renders filled glyphs outside the lens and outline + points inside it; lens position updates with the cursor",
+        "content": "'RCA 501' (an early computer name)",
+        "assets": "Glyph outline data for the canvas",
+        "html": "div.Anatomy.AnatomyBlock > canvas"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "terminal, nostalgic",
+        "mobile": "adapts",
+        "subject": [
+          "alternates"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "Split row: a lilac card 'Showcase of selected alternates' where words such as 'QWERTY_' and 'Programma_' are typed and erased in violet with a blinking underscore caret; beside it a lilac-tinted archival photo of computer hardware that morphs into the next photo",
+      "feel": "Like watching a terminal",
+      "ux": "Autoplay: vue-typer types a word, pauses, erases, types the next; the photo column cross-dissolves through 6 images with a WebGL distortion",
+      "learn": "Type the alternates in a loop with a terminal caret: the feature is shown in the medium that inspired it",
+      "reconstruction": {
+        "layout": "Two cards 50/50 (each ~700×780px, 10px radius, 20px gutters); word centred in the left card; image fills the right card",
+        "typography": "Typed words ~92px Azeret wght 500 violet with alternates on (ss02/ss04/ss07…); label 15px",
+        "palette": [
+          "#d4d3da",
+          "#941bf0",
+          "#b2acb4"
+        ],
+        "behaviour": "vue-typer (char spans .typed/.erased, smooth caret); WebGL canvas 800×600 transitions between images",
+        "content": "Computer words: QWERTY, Programma",
+        "assets": "6 archival computer photos, lilac duotone",
+        "html": "div.FontListChanger > .fontColumn (vue-typer) + .imageColumn (canvas + imgs)"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "family-overview",
+      "variant": "big-number-stats",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "punchy, generous",
+        "mobile": "adapts",
+        "structure": "stats",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "On violet, three short stats appear one per screen in the centre, '48 styles', '3 sub-families', '1 for free', each fading and slanting into the next (the outgoing line turns faint and italic)",
+      "feel": "Smooth, presentation-like",
+      "ux": "Pinned while scrolling; each stat transitions to the next; a black circular 'Test them all!' button sits under each (mobile)",
+      "learn": "Animate between stats with the font's own italic: the transition itself shows a style",
+      "reconstruction": {
+        "layout": "~4.6 screens; one centred line per screen (~730px wide); pinned stage",
+        "typography": "~194px Azeret wght 500 lilac; outgoing line in italic at ~30% opacity",
+        "palette": [
+          "#941cf0",
+          "#e4e0ec",
+          "#b470e9"
+        ],
+        "behaviour": "Scroll-linked crossfade + slant of consecutive stats",
+        "content": "48 styles, 3 sub-families, 1 for free",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, didactic",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "diagram",
+        "explanation": "caption"
+      },
+      "look": "Dark card 'The basic typography anatomy': 'Typogräphy' in violet across the card with thin violet metric lines (accent, ascender, cap height, x-height, baseline, descender) running through it",
+      "feel": "Textbook, clean",
+      "ux": "Fades in; lines likely draw in",
+      "learn": "Pick one word that touches every vertical metric (ascender, umlaut, descender) and draw only the lines",
+      "reconstruction": {
+        "layout": "Card 1400×1000px; word spans x≈60–1340 at y≈430–650; 6 horizontal hairlines across the card",
+        "typography": "~240px Azeret wght 500 violet; label 15px lilac",
+        "palette": [
+          "#1b181f",
+          "#831bd3",
+          "#d4d3da"
+        ],
+        "behaviour": "SVG (desktop and mobile versions) faded in",
+        "content": "'Typogräphy' (word chosen for ä, y, p, T)",
+        "assets": "AnatomyTypographySVG desktop/mobile"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "terminal",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Mirror of the alternates row: archival console photo on the left, a lilac card 'Showcase of essential characters' on the right where character strings ('ABbC DEFGgHIJK 1,är2_', 'ef-RŞ… Xýp. 3g; &4_') are typed and erased in violet",
+      "feel": "Playful sampler",
+      "ux": "Autoplay typing loop; WebGL image transitions",
+      "learn": "A typed, ever-changing line of sample characters can stand in for a glyph table on a short promo page",
+      "reconstruction": {
+        "layout": "Two 50/50 cards (image left, text right), ~780px tall",
+        "typography": "~60px Azeret violet, 3 centred lines",
+        "palette": [
+          "#d5d4dc",
+          "#941bf0",
+          "#b7b0b8"
+        ],
+        "behaviour": "vue-typer erase/type cycle; WebGL canvas image transitions",
+        "content": "Mixed letters, accents, figures, punctuation",
+        "assets": "3 archival photos",
+        "html": "div.FontListChanger.reverse"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "orderly, informative",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "paragraph",
+        "interactive": false
+      },
+      "look": "Three ruled rows on violet: 'Proportional Version', 'SemiMono Version', 'Mono Version', each heading and its two sample paragraphs (a large lead and a small body about the history of OCR) set in that sub-family",
+      "feel": "Clear comparison",
+      "ux": "Each row ends with a link: 'Starting at €75' (proportional, semi-mono) or 'For free!' (mono) to the Displaay shop (links faded in, not visible in the desktop capture)",
+      "learn": "Set the same text in each sub-family side by side so the mono axis is felt in real paragraphs, then put the price at the end of each row",
+      "reconstruction": {
+        "layout": "3 rows ~500px with hairline rules; heading x≈20 (2 lines); lead column x≈730 (~320px); body column x≈1085 (~330px)",
+        "typography": "Headings ~48px; leads ~25px; body ~14px; Azeret 'mono' 0 / 50 / 100 at wght 400, lilac on violet",
+        "palette": [
+          "#941cf0",
+          "#e4e0ec",
+          "#d8c9e3"
+        ],
+        "behaviour": "Headings slightly sticky within their row; fade-in",
+        "content": "History of OCR (Emanuel Goldberg 1914, Fournier d'Albe's Optophone)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "08",
+        "09"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, low-key",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": true,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Two floating lilac cards stuck to the top-right corner throughout the page ('Get Azeret: More on Displaay. Mono version is for free, also on Google fonts!' and 'Type tester: Explore Azeret typeface in our Type tester!'), collapsing to title + crosshair icon after the hero; per-sub-family 'Starting at €75' / 'For free!' links; and a dark 'Type tester →' banner card near the end",
+      "feel": "Always-there, unobtrusive",
+      "ux": "Cards expand/collapse via the round crosshair icon; links go to displaay.net shop, Google Fonts and the off-site type tester",
+      "learn": "Keep the two key actions (get / try) as small persistent cards that expand on demand instead of a nav bar",
+      "reconstruction": {
+        "layout": "Fixed cards 335×42px collapsed (≈195px expanded), 10px radius, stacked with 4px gap at top-right (x≈1085, y≈20); banner card 1400×320px dark with 'Type tester' ~144px violet and a 110px outlined arrow circle",
+        "typography": "Card titles ~13px violet Medium, body ~14px dark with underlined links; banner ~144px Azeret violet",
+        "palette": [
+          "#e0dce6",
+          "#941bf0",
+          "#1b181e"
+        ],
+        "behaviour": "Click icon toggles card body; cards fixed (position: fixed) over all sections",
+        "content": "Get / try copy; prices from €75; mono free",
+        "assets": "crosshair circle icon, arrow SVG"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "tidy, professional",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal"
+        ]
+      },
+      "look": "Lilac card: a short story paragraph left ('The story of the typeface began with a draft…'), credits in two columns right (Azeret Typeface: Design Displaay Type Foundry (Martin Vácha, Daniel Quisek), Production Renegade Fonts; Microsite: Martin Ehrlich, Redlab), and '© 2021 Displaay Type Foundry' in violet",
+      "feel": "Quiet ending",
+      "ux": "Credit names link to studios",
+      "learn": "Put the one-paragraph story in the footer card: those who reach the end want the background",
+      "reconstruction": {
+        "layout": "Card 1400×740px, 10px radius; text column x≈135 (~400px); labels x≈730 in violet; credits x≈965",
+        "typography": "~15px Azeret Regular dark; labels violet",
+        "palette": [
+          "#d6d5dc",
+          "#1b181e",
+          "#941bf0"
+        ],
+        "behaviour": "none",
+        "content": "Story, credits, availability (3 sub-families, 48 styles), copyright",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/large-text-intro",
+    "story/origin-reference",
+    "design-details/annotated-specimen",
+    "design-details/feature-before-after",
+    "family-overview/big-number-stats",
+    "design-details/annotated-specimen",
+    "glyph-table/category-lines",
+    "family-overview/style-word-grid",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

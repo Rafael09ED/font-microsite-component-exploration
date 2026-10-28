@@ -1,0 +1,341 @@
+{
+  "slug": "adelfaure-net-tools-jgs",
+  "extractedBy": "agent",
+  "summary": "The whole specimen is one 80-column <pre> of ASCII art set in Jgs, a pixel font family whose glyphs join across characters and lines: a text-mode wordmark, short notes, then figures that go from joining primitives (textures, curves, slopes) to patterns, faces, an interior, a landscape and an isometric city. Three ASCII '[X]' switches at the top re-render the entire page in jgs5/7/9, at ×1/×2/×3 and in day or night mode.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "type-tester",
+      "variant": "global-toolbar",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "text-mode, deadpan",
+        "mobile": "adapts",
+        "controls": [
+          "style-select",
+          "size",
+          "color"
+        ],
+        "scope": "global",
+        "defaultText": "code",
+        "export": false
+      },
+      "look": "First line of the page, written as text: 'Font [ ] jgs5 [X] jgs7 [ ] jgs9 · Size [ ] * 1 [X] * 2 [ ] * 3 · Mode [X] Day [ ] Night', blue link labels with a ===== rule beneath",
+      "feel": "Terminal-like, self-consistent",
+      "ux": "Each '[ ]' is a link that sets a class on <body> (jgs5|jgs7|jgs9, x1|x2|x3, day|night): the whole page, art included, re-renders in that font, pixel multiple or colour scheme; the X moves to the chosen option",
+      "learn": "Build the switches out of the font's own characters ('[X]' radio buttons) and let them restyle every figure on the page: the specimen tests itself",
+      "reconstruction": {
+        "layout": "Three label groups in one 80-column pre line, at columns 0, 30 and 57 (x≈8, ≈430, ≈810px at 14px per column); labels above on the previous line; full-width '=' rule under it",
+        "typography": "Everything in Jgs7 at 28px (×2), 14px column advance, 28px line pitch; links #0000ee-ish blue, text black",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#2020c0"
+        ],
+        "behaviour": "Click → script swaps body classes; CSS maps jgs5 → 10/20/30px, jgs7 → 14/28/42px, jgs9 → 18/36/54px so joins stay pixel-exact; Night inverts to light-on-dark",
+        "content": "Option labels only",
+        "assets": "none",
+        "html": "body.jgs7.x2.day > main > pre > a#jgs5|#jgs7|#jgs9|#x1|#x2|#x3|#day|#night, each '[<span>X</span>] label'"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "ASCII-art, retro",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "download",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "'JGS FONT' as a figlet-style ASCII-art wordmark of underscores and pipes, which the font joins into unbroken outline letters, framed by double '=' rules; below it 'X Download Jgs Font (SIL Open Font License)' and 'FR Version française'",
+      "feel": "Nostalgic, BBS/text-mode",
+      "ux": "Download link and language switch under the wordmark",
+      "learn": "Draw the name with ordinary characters (_ | /): if the font makes them join, the wordmark itself proves the font's trick",
+      "reconstruction": {
+        "layout": "Four pre lines of ASCII art, centred-ish from column ~17 to ~63 (~650px wide, ~110px tall), between two pairs of full-width '=' rules (~1130px); link lines below",
+        "typography": "Jgs7 28px; the wordmark's strokes come from '_' and '|' that meet at cell edges",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#2020c0"
+        ],
+        "behaviour": "none (re-renders with the toolbar settings)",
+        "content": "Name as ASCII art; download and French-version links",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, open-source",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "One line 'X Download Jgs Font (SIL Open Font License)' right under the wordmark",
+      "feel": "Direct",
+      "ux": "Links to the ZIP of the Velvetyne GitLab repository; the licence is named inline",
+      "learn": "For a free font, one download line with the licence name in brackets is enough",
+      "reconstruction": {
+        "layout": "Single pre line between rules",
+        "typography": "Jgs7 28px, link in blue",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#2020c0"
+        ],
+        "behaviour": "none",
+        "content": "Download link + licence name",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "modest, explanatory",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Short paragraphs in the pre: a tribute to Joan G. Stark (jgs, ASCII-art pioneer), how glyphs combine into continuous lines, and why there are three fonts (Jgs5/7/9 for size multiples of 10/14/18 px); then an underlined 'Notes' heading saying the project is unfinished, with a link to a character table",
+      "feel": "Honest, workshop-like",
+      "ux": "Link to jgs_table.html (character table and comparison between the fonts)",
+      "learn": "State the pixel-size rule (multiples of 10/14/18) up front: it is the one thing users must know to keep the joins intact",
+      "reconstruction": {
+        "layout": "80-column pre, left aligned, ~1130px wide; blank lines between paragraphs; headings underlined with '-----'",
+        "typography": "Jgs7 28px, 28px leading, black",
+        "palette": [
+          "#ffffff",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "'Jgs Font is a font family made in tribute to Joan G. Stark (aka jgs, Spunk), a pioneer of ASCII art… Jgs5 for sizes multiples of 10: 10px, 20px, 30px etc.'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "systematic, textile-like",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "catalogue",
+        "explanation": "none"
+      },
+      "look": "'Continuous characters': a 4-column grid of ~18×8-character tiles, each one character repeated (. : / % - = | # ~ x …) so it fuses into a seamless texture: dots, hatching, lines, grids, diamonds, waves, scales and solid tones",
+      "feel": "Like a swatch book",
+      "ux": "static (re-renders with the toolbar)",
+      "learn": "Fill a tile with one repeated character: whether the texture is seamless shows the joining design better than any explanation",
+      "reconstruction": {
+        "layout": "Tiles 18 columns × ~8 lines (~250×225px), 2-column gutters, 4 per row, ~6 rows",
+        "typography": "Jgs7 28px; the textures come from the glyphs touching the cell edges",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#d5d5d5"
+        ],
+        "behaviour": "none",
+        "content": "Every joining character repeated as a block",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "03",
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "system-diagrams",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "geometric, methodical",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "diagram",
+        "explanation": "caption"
+      },
+      "look": "'Curves': sine waves drawn with . - ~ ' characters at amplitudes labelled 0.25, 0.5, 1, 1.25, 2.25, 4.25; 'Lines': a fan of straight lines drawn with characters at slopes labelled 0/1, 1/6, 1/4, 2/5 … 4/1, 9/2",
+      "feel": "Like a plotter test sheet",
+      "ux": "static",
+      "learn": "Label each drawn curve or slope with its ratio: the specimen becomes a reference for which character combinations give which angle",
+      "reconstruction": {
+        "layout": "Curves: one wave per row, ~1130px wide, labels at the left; Lines: slope labels in one header row, lines descending ~12 rows below from each label",
+        "typography": "Jgs7 28px; labels in the same font",
+        "palette": [
+          "#ffffff",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Wave amplitudes and line slopes as numeric labels",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "virtuosic, handmade",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "A run of full-width ASCII-art figures, each under a small underlined heading: 'Alphabet' (A–Z as blocky outline letters), 'Patterns' (border bands and lattices), 'Faces' (nine portraits with glasses, hats, curly hair), 'Interior' (a room with furniture), 'Landscape' (clouds, hills, forest, cyclists) and 'Isometric view' (a city with buildings, signs, cars and a bus), signed 'adl'",
+      "feel": "Patient craft, delightful",
+      "ux": "static; scrolling reveals ever more complex scenes; everything re-renders when the toolbar changes font, size or mode",
+      "learn": "Order the figures from primitives to full scenes: the visitor learns the building blocks, then sees what they add up to",
+      "reconstruction": {
+        "layout": "Each figure 80 columns wide (~1130px) left-aligned; heights from ~2 lines (alphabet, ~110px) to ~70 lines (isometric city, ~1900px); ~3 blank lines between figures",
+        "typography": "All Jgs7 28px, one colour; headings same size underlined with '-'",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#d6d6d6"
+        ],
+        "behaviour": "none",
+        "content": "Original ASCII artworks by the designer (faces, interior, landscape, isometric street scene)",
+        "assets": "none: all artwork is text in the pre"
+      }
+    },
+    {
+      "blocks": [
+        "12",
+        "13"
+      ],
+      "type": "footer",
+      "variant": "personal-sign-off",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, kaomoji",
+        "mobile": "adapts",
+        "contains": [
+          "legal",
+          "contact",
+          "socials"
+        ]
+      },
+      "look": "OFL copyright notice, a double rule, then 'contact@adelfaure.net send me an email :-)', an indented 'Find me on' list (Itch.io, Gamejolt, Gitlab, Instagram, Reddit (not often connected), Twitter, Soundcloud 2021 2016 2014), 'You can support me on Ko-fi, you'll make my day \\(♥3♥)/ !' and '/\\ Top'",
+      "feel": "Personal, warm",
+      "ux": "mailto, social and Ko-fi links; back-to-top link drawn as '/\\'",
+      "learn": "Keep the footer in the same text grid and voice as the rest: an emoticon and a Ko-fi line say more than a logo row",
+      "reconstruction": {
+        "layout": "pre lines between double '=' rules; social links indented 12 columns",
+        "typography": "Jgs7 28px; links blue",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#2020c0"
+        ],
+        "behaviour": "none",
+        "content": "Licence text (SIL OFL 1.1, reserved font names Jgs Font, jgs5, jgs7, jgs9), contact, socials, donation",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "type-tester/global-toolbar",
+    "hero/giant-wordmark",
+    "checkout/free-download",
+    "story/design-brief",
+    "design-details/feature-index",
+    "design-details/system-diagrams",
+    "specimen-showcase/poster-series",
+    "footer/personal-sign-off"
+  ]
+}

@@ -1,0 +1,488 @@
+{
+  "slug": "nn-konrad-ch",
+  "extractedBy": "agent",
+  "summary": "A Readymag scroll story for Nouvelle Noire's NN Konrad, a revival of Sweynheym and Pannartz's 1465 Subiaco proto-roman. It runs from the 1462 sack of Mainz, told with surreal black-and-white illustrations, through a 'nerd section' (archival scans, a gothic-to-roman 'n' lineage, a 2015–2023 making-of) to a purple-black-cream specimen grid, a glyph set and buy buttons. Three purple ribbon tabs (Buy, Free tryals, Download specimen) hang from the top of every screen.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "scholarly, bold, warm",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "On warm off-white, 'Konrad' in black at ~300px across the width, the purple tagline 'A contemporary take on the first printed roman type.' under its right half, and the top of a slowly turning alphabet wheel rising from the bottom edge",
+      "feel": "Confident, bookish, a little playful",
+      "ux": "Static name; the wheel below rotates; the three ribbon tabs at the top lead to buy, trials and the specimen PDF",
+      "learn": "Let the giant name sit on the classic book palette (cream, black, one accent) and tease the next screen with a moving element at the bottom edge",
+      "reconstruction": {
+        "layout": "100vh cream; name from x≈70, 1220px wide, baseline ~y=420; tagline ~36px from x≈715 in two lines; wheel centred, top at y≈700",
+        "typography": "Name ~300px NN Konrad Medium, black; tagline ~30px NN Konrad Regular purple #b779f8",
+        "palette": [
+          "#f3f3e9",
+          "#060606",
+          "#b779f8"
+        ],
+        "behaviour": "Wheel rotation is a 99s linear infinite CSS animation (see the glyph-wheel instance)",
+        "content": "Name and tagline",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "ceremonial, astrolabe-like",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A big circular wheel of concentric rings of glyphs around a black cross pattée: capitals outermost, then accented lowercase and ligatures (ff fi fl ffi ſt), lowercase, figures and punctuation toward the centre; it spans the cream/purple split with 'INITIUM' and 'FABULAE' in small caps at the bottom corners",
+      "feel": "Medieval, cosmic, like a printer's astrolabe",
+      "ux": "Rings rotate very slowly (99s per turn); purely decorative",
+      "learn": "Typeset the character set on concentric circles and let it turn: a glyph overview that works as an emblem",
+      "reconstruction": {
+        "layout": "Wheel ~900px diameter centred, straddling the colour split at ~y=210 of the second screen; ring spacing ~60px; labels 24px from the bottom corners",
+        "typography": "Outer ring caps ~70px, inner rings 30–20px NN Konrad, black; labels ~20px tracked caps white",
+        "palette": [
+          "#f3f3ea",
+          "#b779f8",
+          "#020202"
+        ],
+        "behaviour": "CSS rotate keyframes, animation-duration 99s, linear, infinite (possibly alternating ring directions)",
+        "content": "A–Z, a–z with accents, ligatures, figures 0–9, punctuation",
+        "assets": "Rings probably as rotated images or SVG text paths (Readymag picture widgets)"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "dramatic, storybook, witty",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "illustration"
+        ],
+        "length": "long"
+      },
+      "look": "A black checkerboard of text and illustration cells: 'Anno 1453' in giant white numerals with the Mainz history paragraph; 'A BATTLE SET MAINZ ON FIRE' in alternating white and purple caps beside a surreal grayscale drawing of a burning city with a dragon; 'Two young printers flew to Italy.' with a drop-cap paragraph in purple; 'Taking the knowledge of printing with movable metal type with them.' beside a drawing of the Subiaco monastery under a giant eye",
+      "feel": "Epic and tongue-in-cheek, like an illustrated chronicle",
+      "ux": "Scroll through alternating half-screen cells",
+      "learn": "Tell the source story as an illustrated chronicle with headline-sized captions: the history becomes the display specimen",
+      "reconstruction": {
+        "layout": "Two-column 720px cells alternating text/illustration (checkerboard), each ~450–900px tall, on black",
+        "typography": "Year ~260px NN Konrad Regular white; headlines ~70–90px caps or sentence case, alternating white/purple; body ~22px Regular white or purple with drop caps ~70px",
+        "palette": [
+          "#050506",
+          "#f6f6f2",
+          "#b779f8"
+        ],
+        "behaviour": "none (Readymag scroll)",
+        "content": "Real history: Gutenberg, the sack of Mainz in 1462, Sweynheym and Pannartz in Subiaco, Goudy's 'Type 120R'",
+        "assets": "Surreal grayscale illustrations by Luca Schenardi (burning Mainz with dragon, Subiaco monastery with an eye)"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "06",
+        "07"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "scholarly, cheeky",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "archival"
+        ],
+        "length": "medium"
+      },
+      "look": "Cream screens: the purple statement 'They cut and printed the first proto-roman: an early model of roman type with gothic influences.' over a ghost '1465' in white; a black circle badge 'Trigger warning: You are now entering the nerd section ↓'; then a full page scan of Lactantius' 'Divinae institutiones' (Subiaco, 1465) with an enlarged detail and a purple caption with source",
+      "feel": "Archival, generous, self-aware",
+      "ux": "The badge marks the switch from story to technical detail",
+      "learn": "Flag the transition to the technical part with a humorous badge ('Trigger warning: nerd section') so casual readers know where to skim",
+      "reconstruction": {
+        "layout": "Statement ~1300px wide from x=40, 4 lines; ghost year ~600px white behind; badge circle ~260px at bottom right; scans: page ~600×800px left, detail ~600×500px right, caption below",
+        "typography": "Statement ~70px NN Konrad Medium purple, leading 1.1; badge ~32px; caption ~16px purple and black with source in ~10px",
+        "palette": [
+          "#f3f3ea",
+          "#b779f8",
+          "#060606",
+          "#96918f"
+        ],
+        "behaviour": "none",
+        "content": "Proto-roman definition, the 1465 Subiaco Lactantius with citation (Bayerische Staatsbibliothek)",
+        "assets": "Archival scans of the 1465 incunable (full page and close-up)"
+      }
+    },
+    {
+      "blocks": [
+        "07",
+        "08"
+      ],
+      "type": "comparison",
+      "variant": "lineage-lineup",
+      "newVariant": true,
+      "variantDefinition": "One letter drawn from each historical model leading to the new typeface, lined up on a timeline (e.g. gothic → gotico-antiqua → proto-roman → this font → roman), each captioned with source, date and role: a static typographic family tree.",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "didactic, precise",
+        "mobile": "adapts"
+      },
+      "look": "'The evolution from gothic to roman printing types.' in purple, then five large 'n's on a thin arrow line (Textura, Gotico-Antiqua, Proto-Roman, NN Konrad in purple, Roman), each above a cross mark, a bold label and a short paragraph with the source type and date; a rotating 'TIME LAPSE' text badge below",
+      "feel": "Museum label, crystal clear",
+      "ux": "Static; links credit the ANRT Nancy gotico-antiqua revival",
+      "learn": "Put your letter in its family tree, one 'n' per stage: the reader sees exactly which step the new design takes",
+      "reconstruction": {
+        "layout": "Headline ~1300px wide; row of 5 columns ~200px from x≈220, letters ~180px tall on a hairline arrow at ~y=150 extending to the right edge; captions 12px below",
+        "typography": "Letters ~200px in each historical face, Konrad in purple; labels ~13px bold; body ~12px; links purple",
+        "palette": [
+          "#f2f1e8",
+          "#060606",
+          "#b779f8"
+        ],
+        "behaviour": "TIME LAPSE badge rotates (CSS keyframes)",
+        "content": "Textura 140G (Mainz 1455), Fust & Schöffer 'Durandus' 1459, Sweynheym & Pannartz 'Subiaco' 120R (1465), NN Konrad, Jenson 'Eusebius' 115R (Venice 1470)",
+        "assets": "Digitised historical fonts (ANRT) or glyph images"
+      }
+    },
+    {
+      "blocks": [
+        "09",
+        "10",
+        "11"
+      ],
+      "type": "story",
+      "variant": "making-of",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "personal, upbeat",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "process",
+          "archival"
+        ],
+        "length": "short"
+      },
+      "look": "A timeline of giant ghost years in white: '2015' (Martina Meier finds early roman specimens in the Zurich library; a 'd' shown as scan → pen sketch → digital), '2016' (a purple 'R' with Bézier points and handles; first weight finished) with a black badge 'End of section, now: deep dive into Konrad', '2023' on purple (release by Nouvelle Noire: 'Yay! Graphic designers around the world freak out about Konrad')",
+      "feel": "Light, celebratory",
+      "ux": "static",
+      "learn": "Compress years of work into three dated beats, each with one image of the letter at that stage",
+      "reconstruction": {
+        "layout": "Each beat ~900px: year ~500px wide ghost numerals behind, paragraph ~600px column, image ~600×400px panel",
+        "typography": "Years ~400px NN Konrad Regular white (on cream) or white on purple; paragraphs ~26px Regular black or purple",
+        "palette": [
+          "#f2f2e9",
+          "#ffffff",
+          "#b779f8",
+          "#070708"
+        ],
+        "behaviour": "none",
+        "content": "Real timeline 2015–2023",
+        "assets": "Scan, sketch and digital 'd'; screenshot of 'R' in a font editor"
+      }
+    },
+    {
+      "blocks": [
+        "11",
+        "12"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "plain, confident",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "On purple, 'Konrad Regular / Konrad Medium / Konrad Bold' stacked in white at ~130px, each in its weight, with a small black sticker 'Variable Font on Request'",
+      "feel": "Simple, poster-like",
+      "ux": "static",
+      "learn": "For a three-weight family, the style names alone at display size are the overview",
+      "reconstruction": {
+        "layout": "Three centred lines ~110px pitch; sticker circle ~90px at top-left",
+        "typography": "~130px NN Konrad Regular/Medium/Bold, white; sticker ~12px",
+        "palette": [
+          "#ba7afe",
+          "#f3f1ee",
+          "#060606"
+        ],
+        "behaviour": "none",
+        "content": "Style names",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "12",
+        "13",
+        "14",
+        "17"
+      ],
+      "type": "specimen-showcase",
+      "variant": "modular-grid",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "bookish, punchy, Latin",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "grid"
+      },
+      "look": "A 3-column grid of equal square cells in black, purple, cream and white, each labelled with its style at the bottom: 'A a', ligatures 'fb ffb fh ffh fi / fk ffk ff fl ffl ft tt', 'Gutenberg's Invention was brought to Rome.', 'Rr', an alphabet card, '&', 'FORTIS MEDIUM SPIRITUS', an angle-annotated stroke detail (33°), the 'Weyfl of Rome' winged dog illustration, and later 'BOOKS WITHOUT NUMBER' with cross pattées, a pilcrow and 'Roman Roman Roman'",
+      "feel": "Bold, rhythmic, a specimen sheet with jokes",
+      "ux": "static",
+      "learn": "Alternate cell colours in a strict square grid and label every cell with the style: the sheet stays orderly however varied the content",
+      "reconstruction": {
+        "layout": "3 columns of 480px square cells (full width), no gaps; label ~11px centred at each cell's bottom",
+        "typography": "Cell content 60–400px in NN Konrad Regular/Medium/Bold; Latin mottoes in caps; ligature cells ~50px",
+        "palette": [
+          "#f7f6f2",
+          "#040405",
+          "#b673fb",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Latin mottoes (Fortis Medium Spiritus, Books without number, Salvation on Earth), ligatures, single glyphs, an alphabet",
+        "assets": "Illustration of the 'Weyfl of Rome' (Luca Schenardi)"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "orderly, classical",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A borderless 24-column grid of black glyphs on purple: alphabets, ligatures, oldstyle and lining figures, superiors and inferiors, punctuation, symbols and accented letters, closed by a widely spaced 'S C R I P T U M  K O N R A D U S'",
+      "feel": "Calm, like a type founder's sheet",
+      "ux": "static",
+      "learn": "Set the feature variants (sups, subs, numr, dnom, tnum) as rows of the grid so features are visible without explanation",
+      "reconstruction": {
+        "layout": "Grid ~1360px wide, 24 columns ~56px, rows ~48px, no borders; caption line ~60px tall letterspaced ~1em",
+        "typography": "Glyphs ~28px NN Konrad Regular black; caption ~50px caps tracked",
+        "palette": [
+          "#b779f9",
+          "#060606"
+        ],
+        "behaviour": "none",
+        "content": "Full set, with cells styled by OpenType classes (tg-dlig, tg-tnum, tg-sups, tg-subs, tg-numr, tg-dnom, tg-case)",
+        "assets": "none",
+        "html": "table of td.tg-0lax / td.tg-dlig / td.tg-sups … (≈640 cells)"
+      }
+    },
+    {
+      "blocks": [
+        "14",
+        "16"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, punny",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Three stacked white pill buttons in large serif caps: 'BUY FONTS' (black), 'GET FREE TRYAL FONTS' (purple), 'DOWNLOAD SPECIMEN' (black), shown twice (after the specimen grid and above the credits)",
+      "feel": "Generous, typographic",
+      "ux": "Buy and trials open nouvellenoire.ch; the specimen is a direct PDF; the same three links hang as ribbons at the top of every screen",
+      "learn": "Set the buttons in the font at heading size: the CTA is one more specimen",
+      "reconstruction": {
+        "layout": "Pills ~770×110px, radius full, 16px apart, in the right two-thirds or left half of a screen",
+        "typography": "~46px NN Konrad Regular caps",
+        "palette": [
+          "#f3f3ea",
+          "#ffffff",
+          "#060606",
+          "#b779f8"
+        ],
+        "behaviour": "none",
+        "content": "Buy fonts / Get free tryal fonts / Download specimen",
+        "assets": "PDF specimen"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "complete, playful",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "A three-column fact table (Typeface, Typeface Design, Release, Weights; Available formats, Font Mastering & Hinting, Microsite Design; Historic consultancy, Illustration, Type Foundry, Props: 'Arnold Pannartz & Konrad Sweynheym') beside a grayscale illustration of a printing press and a desk with books and a rat",
+      "feel": "Thorough, with a wink",
+      "ux": "Names link to the contributors' sites",
+      "learn": "Credit the historical printers as 'Props' in the colophon: a joke that also restates the story",
+      "reconstruction": {
+        "layout": "Left half 3 columns of label/value pairs (~16px rows); right half illustration ~720×450px",
+        "typography": "Labels ~12px Regular; values ~13px Bold, links purple",
+        "palette": [
+          "#f6f6f1",
+          "#060606",
+          "#b878fd"
+        ],
+        "behaviour": "none",
+        "content": "Credits and formats",
+        "assets": "Printing-press illustration"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "quirky, bookmark-like",
+        "mobile": "adapts"
+      },
+      "look": "A fixed cream strip at the top with three purple ribbon/bookmark shapes hanging down, labelled 'BUY NN KONRAD', 'FREE TRYALS AT NOUVELLENOYRE.CH', 'DOWNLOAD SPECIMEN' in tiny purple caps; visible on every screen",
+      "feel": "Like bookmarks in a book",
+      "ux": "Always-available links to the shop, trials and PDF",
+      "learn": "Shape the persistent CTAs as bookmark ribbons to fit a book-history theme",
+      "reconstruction": {
+        "layout": "Fixed 32px strip; three ribbon shapes ~150×20px at left, centre and right with labels below",
+        "typography": "~9px sans (Archivo/Inter) caps purple",
+        "palette": [
+          "#f3f3e9",
+          "#b779f8"
+        ],
+        "behaviour": "position: fixed",
+        "content": "Buy / Free tryals / Download specimen",
+        "assets": "Ribbon shapes (Readymag shape widgets)"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "glyph-table/category-lines",
+    "story/origin-reference",
+    "comparison/lineage-lineup",
+    "story/making-of",
+    "family-overview/style-word-grid",
+    "specimen-showcase/modular-grid",
+    "glyph-table/full-grid",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

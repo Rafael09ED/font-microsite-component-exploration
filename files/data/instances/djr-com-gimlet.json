@@ -1,0 +1,578 @@
+{
+  "slug": "djr-com-gimlet",
+  "extractedBy": "agent",
+  "summary": "A DJR template page that reads like an illustrated magazine essay: the designer's first-person story of reviving Georg Trump's Schadow as Gimlet, punctuated by full-bleed figure bands in a mid-century orange/mustard/teal/navy palette (annotated anatomy, widths, italics, fun-fact glyph patterns), a Fonts In Use grid, then a very long on-page store where every package lists its styles as live pangram lines and the variable font gets its own axis sliders.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed thin navy DJR site bar above the hero (33px, never cut as a block, attached to 00): 'DAVID JONATHAN ROSS' left; FONTS ▾, CLUB, TYPESET, GLYPHS, NOTES, ABOUT, Sign in, Cart right, in small Input Sans caps"
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "jaunty, mid-century, cocktail-hour",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "A short full-width banner of slanted stripes in orange, mustard and teal, with 'Gimlet!' in a tall white condensed italic filling the centre; the TRY · BUY · TYPESET · PDF button strip sits right under it",
+      "feel": "Upbeat, retro, a little boozy",
+      "ux": "static; buttons in the strip below jump to the tester and store, open the Typeset tool or the PDF",
+      "learn": "A banner-height wordmark (not a full screen) plus a CTA strip gets visitors into the essay immediately; the exclamation mark gives the name its personality",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×375px band starting under the 33px site bar; ~11 diagonal stripes (~130px wide, slanted ~10°) alternating orange/mustard/teal; wordmark ~760px wide centred, cap height ~260px",
+        "typography": "'Gimlet!' in Gimlet Display Condensed/Compressed Italic (Light–Regular), white, as an SVG image (gimlet-header.svg)",
+        "palette": [
+          "#f26625",
+          "#dbbc28",
+          "#02a69c",
+          "#fbfcfa"
+        ],
+        "behaviour": "none",
+        "content": "Family name with an exclamation mark",
+        "assets": "Header SVG with stripes and wordmark",
+        "html": "section#title.fitimg > figure > img[src=gimlet-header.svg]"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Navy strip under the hero with four small orange buttons 'TRY', 'BUY', 'TYPESET', 'PDF' centred (anchors to #buy, typeset.djr.com/?ff=gimlet, the PDF specimen)"
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "warm, personal",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "One six-line paragraph in dark serif on white, a navy link on 'Nick Sherman': 'Gimlet draws its inspiration from Georg Trump's 1938 typeface, Schadow… a typeface that is as funky as it is functional.'",
+      "feel": "Inviting",
+      "ux": "static",
+      "learn": "Open with one larger paragraph in the text face: source, commissioner and promise in six lines",
+      "reconstruction": {
+        "layout": "Column ~610px wide starting at x≈465 (offset right of centre), ~360px band with generous padding",
+        "typography": "~22–29px Gimlet Text Narrow Regular, near-black, leading ~1.4; links navy",
+        "palette": [
+          "#fbfcfb",
+          "#1c1c1c",
+          "#164b6d"
+        ],
+        "behaviour": "none",
+        "content": "Real intro by the designer",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "tongue-in-cheek, technical",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "'Danger' in heavy white Gimlet Display on navy with faint diagonal stripes and thin teal metric lines; orange dots on quirky details joined by thin mustard leader lines to italic labels 'Doohickey', 'Thingamajig', 'Whatchamacallit', 'Whatsits', 'Huh?'; caption 'FIGURE I. ANATOMY' in small teal caps below",
+      "feel": "Funny, knowing",
+      "ux": "static",
+      "learn": "Parody the type-anatomy diagram with nonsense labels: it points at the quirky details and sets the tone of a 'friendly quirkhorse'",
+      "reconstruction": {
+        "layout": "Full-bleed band ~485px: navy panel ~455px with the word ~1000px wide centred, 5 horizontal metric lines across, labels on top and bottom rows with leader lines to orange 12px dots; caption row 30px on white at x≈232",
+        "typography": "'Danger' ~280px Gimlet Display Bold/Black white; labels ~14px Gimlet Text Italic mustard; caption ~10px caps tracked teal",
+        "palette": [
+          "#154c6d",
+          "#2a586f",
+          "#fafbfb",
+          "#f26625",
+          "#dbbc28",
+          "#02a69c"
+        ],
+        "behaviour": "none",
+        "content": "One word plus five joke labels",
+        "assets": "SVG/PNG figure (image)"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "10",
+        "12",
+        "14"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "conversational, expert",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "photo"
+        ],
+        "length": "long"
+      },
+      "look": "Essay sections on white between the figure bands: navy display heads ('Your Friendly Quirkhorse', 'Widths for Text', 'An Irrationally Rational Italic') over 2–4 short paragraphs in the text face; 'Widths for Text' includes a photo of an iPad and iPhone showing this very page at different widths",
+      "feel": "Smart, relaxed, magazine-like",
+      "ux": "Reading; the widths section invites you to resize the window to see the text widths switch by media query",
+      "learn": "Let the page demonstrate its own claim: the responsive widths essay tells you to resize the window, and the text reflows into narrower Gimlet widths",
+      "reconstruction": {
+        "layout": "Single column ~770px wide at x≈232, sections 300–1300px tall; device mockup image ~970px wide in the widths section",
+        "typography": "Heads ~53px Gimlet Display Bold navy, sentence case; body ~17px Gimlet Text Narrow Regular, leading ~1.5, near-black; italics for titles",
+        "palette": [
+          "#fbfbfa",
+          "#1c1c1c",
+          "#164b6d",
+          "#d2d0cd"
+        ],
+        "behaviour": "Body text switches between Gimlet Text widths with viewport media queries",
+        "content": "Designer essay: the Chandler gimlet quote, quirks, widths for responsive text, the decision to draw a true cursive italic",
+        "assets": "Device mockup photo (iPad + iPhone)"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "15",
+        "17"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "exclamatory, fun",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates",
+          "construction"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "Three full-bleed pattern bands spread through the essay, each a wall of one glyph type in coloured tiles or stripes: numerals in orange/mustard/teal cells, ‰ signs in many styles on navy, and lowercase g's in every style; each with a yellow caption strip led by an exclamation ('YOWZA! These figures aren't just tabular…they're fabular!', 'FUN FACT! Gimlet's widest character is the parts per mille sign…', 'GEE WHIZ! Gimlet's lowercase g is modeled after the open form found in Schadow…')",
+      "feel": "Playful, comic-book",
+      "ux": "static",
+      "learn": "Turn one glyph into a wallpaper of all its styles and add a one-line 'fun fact' callout: a design note that works as a visual breather",
+      "reconstruction": {
+        "layout": "Full-bleed bands ~430–490px; pattern image edge to edge; yellow caption strip ~1040px wide at x≈200 overlapping the bottom edge, ~30px tall",
+        "typography": "Pattern glyphs ~150–200px in many Gimlet styles (white on colours); caption lead word ~15px Gimlet Text Bold caps, then Italic ~15px, dark on yellow",
+        "palette": [
+          "#f26625",
+          "#dbbc28",
+          "#06a597",
+          "#124a6a",
+          "#fad634",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Fabular (tabular yet characterful) figures, the per mille sign, the open-tail g",
+        "assets": "Three pattern images"
+      }
+    },
+    {
+      "blocks": [
+        "06",
+        "07",
+        "08",
+        "13"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "scholarly, affectionate",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "archival"
+        ],
+        "length": "medium"
+      },
+      "look": "'A Dialogue with Schadow' essay section, then 'FIGURE II. SCHADOW, AS PUBLISHED BY C. E. WEBER': a full-width scan of the original specimen pages (FORM UND TECHNIK, BESSER DER TOD, REDAKTION, MASCHINENFABRIK, KALENDER, WERKZEUG, POLITIK, CHEMIE, AFRIKA…), a follow-up on how Gimlet answers Schadow, and later 'FIGURE V. SCHADOW KURSIV': the original italic alphabet scan",
+      "feel": "Respectful, curious",
+      "ux": "static; links to the advisers",
+      "learn": "Show the source in its original specimen pages at full width, then say exactly what you kept and what you changed",
+      "reconstruction": {
+        "layout": "Text sections in the ~770px column at x≈232; figure bands full-bleed ~350–490px with the scan cropped edge to edge and a teal caption below",
+        "typography": "Head ~53px Gimlet Display Bold navy; body ~17px Gimlet Text Narrow; captions ~10px caps tracked teal",
+        "palette": [
+          "#faf9f4",
+          "#d1d0cc",
+          "#93938f",
+          "#164b6d",
+          "#1c1c1c"
+        ],
+        "behaviour": "none",
+        "content": "History of Georg Trump's Schadow (1938–52, Weber foundry), Nick Sherman and Indra Kupferschmid as guides",
+        "assets": "Scans of the Schadow specimen and of the Schadow Kursiv alphabet"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "systematic, colourful",
+        "mobile": "adapts",
+        "subject": [
+          "axes",
+          "spacing"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "'FIGURE III. GIMLET ACROSS WIDTH': four full-height colour columns (mustard, orange, teal, navy), each setting the same paragraph ('Why on earth this stroke of genius stands unheralded…') in white in a wider Gimlet Text width from left to right, all cropped at the right edge",
+      "feel": "Orderly, vivid",
+      "ux": "static",
+      "learn": "Set one paragraph in each width in its own colour column: the measure changes visibly while the text stays the same",
+      "reconstruction": {
+        "layout": "Full-bleed band ~485px; 4 columns of increasing width (~250, 250, 300, 500px) with ~12px padding; text clipped by overflow; caption row below",
+        "typography": "~26px Gimlet Text in Compressed, Condensed, Narrow and Normal widths, white, leading ~1.25",
+        "palette": [
+          "#dbbc28",
+          "#f16e2e",
+          "#05a69c",
+          "#164b6d",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "A literary paragraph about radio cabinets and fiction, repeated per width",
+        "assets": "Figure image"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "comic, loud",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "'FIGURE IV. GIMLET'S ITALICS': onomatopoeias ('ka-blam-o!', 'pow!', 'sizzle!', 'zoom!', 'splat!', 'moxie!', 'zap!', 'vronk!', 'whack!') piled in mixed italic weights and widths in white, orange and mustard on navy stripes, cropped at both edges",
+      "feel": "Comic-book energy",
+      "ux": "static",
+      "learn": "Cartoon sound words are perfect italic samples: short, exclamatory and full of the cursive letters (k, z, w)",
+      "reconstruction": {
+        "layout": "Full-bleed band ~455px, words in 2–3 overlapping rows at 60–240px, cropped by the edges; caption below",
+        "typography": "Gimlet Display Italics from Light Compressed to Black Normal, white/orange/mustard",
+        "palette": [
+          "#144b6e",
+          "#2b576f",
+          "#f5cf2f",
+          "#f26625",
+          "#fafbfa"
+        ],
+        "behaviour": "none",
+        "content": "Comic sound effects",
+        "assets": "Figure image"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "credible, varied",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "grid"
+      },
+      "look": "'Gimlet In Use' with a small 'FROM FONTS IN USE' label, then a 3×3 grid of square photos of real uses (Slaughterhouse-Five edition, a recipe book, a magazine cover 'Sole Legend', a poster, matchboxes, magazines, a report)",
+      "feel": "Proof by real work",
+      "ux": "Each tile links to its Fonts In Use entry",
+      "learn": "Pull real uses from Fonts In Use into a square grid: credible social proof with no mockup work",
+      "reconstruction": {
+        "layout": "Column ~980px at x≈232; 3 columns of ~315px square tiles, 12px gaps",
+        "typography": "Head ~53px Gimlet Display Bold navy; label ~10px Input Sans caps tracked",
+        "palette": [
+          "#f9f9f8",
+          "#164b6d",
+          "#cecfd0"
+        ],
+        "behaviour": "none",
+        "content": "Real projects using Gimlet",
+        "assets": "9 photos from Fonts In Use"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "checkout",
+      "variant": "on-page-cart",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "thorough, transparent",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": true,
+        "free": false
+      },
+      "look": "'Get Gimlet!' with a PDF-specimen thumbnail and a paragraph (112 OpenType fonts); navy section bars 'LICENSE SIZES' (8 cards: Mini, Small, Medium, Large, Extra Large, Discounted Mini, Educational, Testing, each with workstation / web-visitor / app limits), 'PREVIEW TEXT' input, 'FULL SERIES PACKAGE' ($350), 'OTHER PACKAGES' (Starter $150, Display Normal / Narrow / Condensed / Compressed $150 each, Display all widths $350, Text $250, Micro $250) and 'INDIVIDUAL STYLES' ($50/style, 25% off roman/italic pairs), every row a checkbox with live pangram samples. The crop is cut at ~2400px of ~10,900px",
+      "feel": "Comprehensive, honest",
+      "ux": "Choose a licence tier (radio, price multipliers 1–8, 0.5 for discounted, 0 for educational/testing), tick packages or styles, prices update, 'Buy Now' per package; each package card expands (▾) to list all its styles; the preview field rewrites every sample",
+      "learn": "Make the price list the specimen: each package card shows its styles as live, editable sample lines, so choosing what to buy is also comparing styles",
+      "reconstruction": {
+        "layout": "Column ~810px at x≈195; licence cards in a 4×2 grid (~195px each, selected card outlined); full-width navy label bars ~24px; package cards with header row (checkbox + name + style count left, price + BUY NOW right) and 3 visible sample lines, collapsible",
+        "typography": "Head ~53px Gimlet Display Bold navy; labels ~10px Input Sans caps white on navy; licence details ~10px Input Mono; sample lines ~30px (Display) to ~13px (Micro) in their style; prices ~14px Input Sans Bold",
+        "palette": [
+          "#f8f8f8",
+          "#164b6d",
+          "#cecfce",
+          "#1c1c1c"
+        ],
+        "behaviour": "input.license-tier-option[data-multiplier] recalculates prices; package and style checkboxes add products; Craft Commerce cart form (commerce/cart/update-cart); button-more expands the card; #tester-input text replaces all style-sample lines",
+        "content": "Real licence terms and prices; pangram 'The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.'",
+        "assets": "PDF specimen thumbnail",
+        "html": "form > input.license-tier-option[name='fields[license]'][data-multiplier][data-tier] ×8; input#tester-input; package cards with input[name=products] + input[type=submit].button 'Buy Now' + button.button-more; .style-sample.GimletDisplay-<Style> lines"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "pangram",
+        "tone": "practical",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes"
+        ],
+        "scope": "single",
+        "defaultText": "pangram",
+        "export": false
+      },
+      "look": "Inside the 'Gimlet Series' package card: 'Gimlet Variable. The quick brown fox…' at ~55px with four small labelled sliders beneath (Weight 400, Width 100, Optical Size 12, Italic 0) with min and max values at the ends",
+      "feel": "Compact, functional",
+      "ux": "Drag the four axis sliders to restyle the variable sample line; the shared preview field sets its text",
+      "learn": "Put the variable-font sliders in the variable package's own buy card, so the tester sits exactly where the purchase decision is made",
+      "reconstruction": {
+        "layout": "Card width ~810px; sample line full width (overflow clipped); slider block ~330px under it: label column ~60px, value, min, 200px track, max",
+        "typography": "Sample ~55px Gimlet Variable; slider labels ~9px Input Sans grey",
+        "palette": [
+          "#ffffff",
+          "#1c1c1c",
+          "#cecfce",
+          "#164b6d"
+        ],
+        "behaviour": "input[type=range] name=wght 300–900 (400), wdth 64–100 (100), opsz 8–48 (12), ital 0–1 (0) → font-variation-settings on the sample",
+        "content": "Pangram",
+        "assets": "none",
+        "html": "input#axis-gimlet-series-gimlet-variable-{wght|wdth|opsz|ital}[type=range]"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "pangram",
+        "tone": "exhaustive",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "paragraph",
+        "interactive": true
+      },
+      "look": "The 'Individual Styles' list (and the expanded package cards): one checkbox row per style, 'Gimlet Display Light. The quick brown fox…' set in that style with a tiny grey style name under it, Light → Black with italics, across Display, Text and Micro and all four widths (112 styles)",
+      "feel": "Catalogue-like",
+      "ux": "Tick a style to add it to the order; the preview field changes all sample text",
+      "learn": "Start each sample line with the style's own name: the list needs no separate labels",
+      "reconstruction": {
+        "layout": "Single column ~810px; rows ~38px for Display, ~20px for Text/Micro; checkbox at left",
+        "typography": "Display rows ~30px, Text ~14px, Micro ~12px, each in its style; style names ~8px grey",
+        "palette": [
+          "#ffffff",
+          "#1c1c1c",
+          "#9a9a9a"
+        ],
+        "behaviour": "Checkboxes and preview-text binding",
+        "content": "Style name + pangram",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "19",
+        "20"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "tidy, foundry-wide",
+        "mobile": "adapts",
+        "contains": [
+          "other-fonts",
+          "socials",
+          "newsletter",
+          "legal",
+          "contact"
+        ]
+      },
+      "look": "A mustard band of atomic-age starburst ornaments (teal and navy), then the navy DJR footer: three columns of small caps links (David Jonathan Ross RSS/mailing list, Elsewhere socials, Font of the Month Club, Typefaces list of ~20 families, Typeset, Glyph Navigator, Licensing, Press, Privacy, Tools)",
+      "feel": "Ordered, retro flourish",
+      "ux": "Plain links",
+      "learn": "A per-family ornament band before the shared foundry footer keeps the template feeling custom",
+      "reconstruction": {
+        "layout": "Ornament band 1440×150px; footer ~540px navy with 3 columns at x≈250, 640, 1040, ~20px rows",
+        "typography": "~11px Input Sans Narrow, headings white caps tracked, links light blue",
+        "palette": [
+          "#dabc29",
+          "#02a69c",
+          "#164b6d",
+          "#7fb2d4"
+        ],
+        "behaviour": "none",
+        "content": "Foundry links, typefaces, licences",
+        "assets": "Ornament band image"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/large-text-intro",
+    "design-details/annotated-specimen",
+    "story/essay",
+    "design-details/design-notes",
+    "story/origin-reference",
+    "design-details/axis-explainer",
+    "specimen-showcase/word-stack",
+    "specimen-showcase/in-use-mockups",
+    "checkout/on-page-cart",
+    "type-tester/slider-sandbox",
+    "family-overview/style-word-grid",
+    "footer/link-columns"
+  ]
+}

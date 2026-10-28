@@ -1,0 +1,175 @@
+{
+  "slug": "gt-eesti-com",
+  "extractedBy": "agent",
+  "summary": "The 'Story' page of a four-page microsite (Story, Design, Origins, Products; only Story was captured). It tells how a Soviet-Estonian children's-book typeface became GT Eesti, as a picture book on black: short chapters with looping flat illustrations of children's-book characters, and each chapter set one weight heavier than the last, so reading the story walks through the family from Ultra Light to Ultra Bold.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "illustration-scene",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "naive, cheerful, storybook",
+        "mobile": "adapts",
+        "carrier": "illustration",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Two round smiling blond children's faces (flat yellow hair, red cheeks) side by side on black, 'GT Eesti' in large white letters beneath, and a red four-line subtitle 'This is the story of the typeface GT Eesti, from its origins in Soviet Russia in 1940 to its rebirth in Switzerland 2016.'",
+      "feel": "Friendly, toy-like, a book cover",
+      "ux": "A ruled tab bar sits above the faces (Story in red as the current page, Design, Origins, Products, Free Trials ↗, Purchase ↗). The faces are looping videos",
+      "learn": "Use characters drawn in the style of the source material (Estonian children's books) as the mascots of the whole site",
+      "reconstruction": {
+        "layout": "950px column centred (x=245–1195); nav at y≈36; two face videos ~245px each side by side at y≈110; wordmark centred below (~240px); subtitle centred, 4 lines, ending ~1150px from the top",
+        "typography": "Wordmark 240px GT Eesti Display Medium, white; subtitle ~40px GT Eesti Display Regular, red, centred, leading ~1.2; nav ~21px Display Regular",
+        "palette": [
+          "#030202",
+          "#fcf20c",
+          "#fbb587",
+          "#fb2906",
+          "#ffffff"
+        ],
+        "behaviour": "Loader before the page: the same two faces with closed eyes and 'Please wait a moment. / Подождите, пожалуйста.' (~2.5s); then the faces open their eyes and blush and loop ('happy' MP4s, GIF fallback via data-gif)",
+        "content": "Real tagline summarising the story",
+        "assets": "Two looping MP4/GIF character animations (left and right face)",
+        "html": "#video-title > .single-item.video-box.js-gt-video[data-gif][data-mp4] > video; #story-title > p.story-title-item + p#story-title-subtitle"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "chrome",
+      "variant": "site-nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Thin-ruled tab bar: 'Story' (red, current), Design, Origins, Products, Free Trials ↗, Purchase ↗",
+      "newVariant": true,
+      "variantDefinition": "A persistent site navigation bar (name or logo plus links or view tabs, sometimes utility toggles such as colour themes), top or bottom, fixed or static; it navigates rather than introducing the font."
+    },
+    {
+      "blocks": [
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "storybook, warm, humorous",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "Seven short chapters on black: a coloured all-caps heading ('ЭССР ЭСТОНСКАЯ СОВЕТСКАЯ СОЦИАЛИСТИЧЕСКАЯ РЕСПУБЛИКА' orange, 'THE ADVENTURE BEGINS' yellow, 'DESIGNING EESTI' green, 'DISCOVERING CYRILLICS' blue, 'VISITING TALLINN' purple, 'LAST TOUCHES' white) and one paragraph beside a looping flat illustration (Soviet pioneers, folk-costume dolls, flash cards, a GT Eesti Display book cover with a kite, a boat of faces, a red pencil)",
+      "feel": "A children's picture book about a typeface",
+      "ux": "Scroll to read; the illustrations loop. The text gets heavier chapter by chapter",
+      "learn": "Step the type weight up with each chapter (headings Display Ultra Light → Ultra Bold, paragraphs Text Ultra Light → Bold): the narrative itself becomes the weight waterfall",
+      "reconstruction": {
+        "layout": "950px column at x=245; each chapter = heading row (~122px, ~79px type, left-aligned) + 478px row split in two: an animation box (~450px half column, artwork ~300px) and a ~460px text box, sides alternating; no rules, generous black space",
+        "typography": "Headings 79px GT Eesti Display, uppercase, one weight per chapter (ULight, Thin, Light, Regular, Medium, Bold, then UBold for the crew); paragraphs ~30px GT Eesti Text, leading ~1.2, weights ULight → Thin → Light → Book → Regular → Medium → Bold; italics for names (Zhurnalnaya Roublennaya, Display, Text)",
+        "palette": [
+          "#030303",
+          "#fb2906",
+          "#fbfb48",
+          "#12b211",
+          "#0b4ff5",
+          "#ca05fa",
+          "#fafafa"
+        ],
+        "behaviour": "Each illustration is a .js-gt-video (MP4 with GIF fallback) that starts looping when it comes into view (captured mid-animation, e.g. only two heads visible in block 06)",
+        "content": "Real history: Zhurnalnaya Roublennaya (Anatoly Schukin, 1947), Soviet Estonia 1944–1991, Urs Lehni's students Reto Moser and Tobias Rechsteiner digitising it from children's books in 2009, Display and Text versions, Cyrillics, a 2015 visit to Prof. Ivar Sakk in Tallinn",
+        "assets": "~7 looping flat vector animations of children's-book characters and objects in primary colours",
+        "html": ".box.story-gallery > .single-item.video-box.js-gt-video + .single-item.text-box > p; chapter headings in .single-item.text-box.big-quote"
+      }
+    },
+    {
+      "blocks": [
+        "15",
+        "16"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "affectionate, jokey",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "'THE EESTI CREW' with each letter in a rainbow colour, then a 5×2 grid of illustrated round faces (mortarboard, cap, glasses, ushanka, moustache) captioned with first name and a role ('Ivar / Sauna King', 'Reto / Type Design', 'Noël / Bad Vibes', 'Маша / Consultant')",
+      "feel": "Team photo of a class",
+      "ux": "static",
+      "learn": "Draw the credits as characters in the site's illustration style and give them joke roles alongside real ones",
+      "reconstruction": {
+        "layout": "Heading row ~122px; grid 5 columns × 2 rows in the 950px column, faces ~125px diameter, two-line captions centred below",
+        "typography": "Heading 79px GT Eesti Display Ultra Bold, uppercase, letters coloured individually; captions ~26px GT Eesti Text Book, white, centred",
+        "palette": [
+          "#030202",
+          "#fcf207",
+          "#f7aa74",
+          "#fa7805",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Ten real collaborators with real and joke roles, one name in Cyrillic",
+        "assets": "Ten flat illustrated portrait PNGs",
+        "html": ".box.story-gallery#story-gallery-8 > .single-item.team-box > img + p"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "chrome",
+      "variant": "site-nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "The same ruled tab bar repeated at the bottom of the page, the only footer (Free Trials ↗ / Purchase ↗ are the page's only buy links)",
+      "newVariant": true,
+      "variantDefinition": "A persistent site navigation bar (name or logo plus links or view tabs, sometimes utility toggles such as colour themes), top or bottom, fixed or static; it navigates rather than introducing the font."
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/illustration-scene",
+    "story/origin-reference",
+    "footer/credits-colophon"
+  ]
+}

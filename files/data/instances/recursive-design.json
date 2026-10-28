@@ -1,0 +1,708 @@
+{
+  "slug": "recursive-design",
+  "extractedBy": "agent",
+  "summary": "ArrowType's site for Recursive Sans & Mono, a free five-axis variable font (MONO, CASL, wght, slnt, CRSV) for code and UI. A three.js hero arranges the letters of 'recursive' through a 3D designspace; a sticky global toolbar (66 named instances, size and every axis) restyles all page prose, which is itself editable markdown in CodeMirror editors with line numbers. Each chapter pairs that prose with an iframe micro-demo (CSS-variable slider sandbox, UI mockups, mono/sans cell widths, robust-layout hover, casual slider, weight pad, slant/cursive slider, named-instance matrix, language list and glyph grid), ending in a free download.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "kinetic-type",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "technical, energetic",
+        "mobile": "adapts",
+        "carrier": "motion",
+        "cta": "download",
+        "rangeShown": "whole-family",
+        "navVisible": true
+      },
+      "look": "On black, the letters r-e-c-u-r-s-i-v-e as nine columns of repeated glyphs in white and greys, each copy an instance at a different weight, casualness and slant, floating in a WebGL scene with thin red (Weight), green (Casual) and blue (Slant) axis lines; the tagline 'A typographic palette for vibrant code & UI' sits under a dotted rule at the bottom",
+      "feel": "Dimensional, playful, nerdy",
+      "ux": "Letters fade in at load (black frame for ~1s); the three.js canvas takes pointer events, probably to orbit the designspace; the fixed nav's 'Get Recursive' button is the CTA",
+      "learn": "Spell the name through the designspace itself: every repetition of a letter is one coordinate, so the hero is a 3D map of the variable font",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×810 black; canvas 1440×900 behind HTML labels positioned with --posX/--posY (projected 3D positions); letter grid ~720px wide centred; tagline band from y≈720, 24px left margin, dotted top border",
+        "typography": "Glyphs ~100px RecVF, MONO 1, wght 300→922 along one axis, CASL 0→1 along another, slnt 0→−15 along the third, tinted by depth (--text-tint); tagline ~40px RecVF Mono Linear Regular, white",
+        "palette": [
+          "#050505",
+          "#ffffff",
+          "#8f8f8f",
+          "#e0302a",
+          "#2bd14a",
+          "#0350fb"
+        ],
+        "behaviour": "three.js scene with div.text-label elements whose font-variation-settings encode their coordinates; axis lines with labels Weight / Casual / Slant; labels fade in ('loaded'); pointer-events enabled on #THREE",
+        "content": "The name split into letters; one tagline",
+        "assets": "none (generated in WebGL + HTML labels)",
+        "html": "div#hero > div.three-container > div#THREE > div.lines > div#line1|line2|line3 > .label + canvas + div.text-label.loaded[style=font-variation-settings;--posX;--posY;--text-tint] × n"
+      }
+    },
+    {
+      "blocks": [
+        "20"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed 48px black bar: 'Recursive Sans & Mono' left, Features, Process, PDF (11MB), Source ↗ links, and a blue pill 'Get Recursive' button at the right; hamburger on mobile"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "type-tester",
+      "variant": "global-toolbar",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "tool-like, precise",
+        "mobile": "adapts",
+        "controls": [
+          "size",
+          "axes",
+          "weight",
+          "style-select",
+          "presets",
+          "color"
+        ],
+        "scope": "global",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A 40px white toolbar pinned under the fixed nav: a 'Default Styles' dropdown, a '15pt' size dropdown and a readout 'MONO 0.00 CASL 0.00 wght 400 slnt 0.00 CRSV 0' that expands into sliders, plus an invert-colours toggle",
+      "feel": "Like an app's font panel",
+      "ux": "Choose one of 66 named instances (Mono Casual Light … Sans Linear ExtraBlack Italic) or [Custom Styles]; open the size panel (6–60pt) or the variability panel (MONO 0–1, CASL 0–1, wght 300–1000, slnt −15–0, CRSV off/auto/on radios); everything set here restyles the editable prose of every chapter; one control inverts the page",
+      "learn": "One sticky toolbar that drives all the page's body copy lets visitors read the whole story in the style they are evaluating",
+      "reconstruction": {
+        "layout": "Sticky bar 1440×40px, centred group ~860px: select (~285px), size toggle (~90px), axis readout (~480px) with collapsible panels dropping below; 1px black borders between items",
+        "typography": "~15px RecVF Mono (CASL 0, MONO 1, wght 400); readout labels grey, values black",
+        "palette": [
+          "#fafafa",
+          "#050505",
+          "#aeaeae",
+          "#797979"
+        ],
+        "behaviour": "select#chooseInstance sets all five axes from a preset; #globalFontSizeSlider 6–60; #globalMonoSlider, #globalCaslSlider, #globalWghtSlider, #globalSlntSlider ranges and CRSV radios update CSS on the CodeMirror text; a#inversePage swaps light/dark; Bootstrap collapse for panels",
+        "content": "66 named instances in the dropdown",
+        "assets": "chevron SVGs",
+        "html": "div.toolbar#toolbar > select#chooseInstance + div#collapseSize > a[data-toggle=collapse] + div#pickFontSize > input#globalFontSizeSlider; div#collapseSettings > span#globalMono… + div#pickVariability > input#global*Slider + span.radio.radio-crsv#globalCrsvOff|Auto|On; a#inversePage"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "05",
+        "08",
+        "10",
+        "12",
+        "14"
+      ],
+      "type": "type-tester",
+      "variant": "in-context-editable",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "developer-friendly, witty",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Every chapter's copy is a markdown document in a code editor: grey line numbers in a left gutter, '## ' and '### ' markers before heavy casual headings, *emphasis* in blue italic with the asterisks visible, `axis tags` in grey pills",
+      "feel": "Like reading a README in your editor",
+      "ux": "Click anywhere in the prose and type: it is a live CodeMirror editor; its styling follows the global toolbar",
+      "learn": "Write the page copy as editable markdown in a code editor: for a coding font, the documentation itself is the most realistic specimen",
+      "reconstruction": {
+        "layout": "Full-width white sections (~270–690px each); gutter ~40px at the far left with line numbers; text column ~790px from x≈320; headings with ~60px space above",
+        "typography": "Headings ~43px RecVF (CASL ~1, wght ~800, Sans) with grey '##' markers; body ~15px (toolbar-driven, default Sans Linear 400), leading ~1.6; emphasis blue italic (CRSV on); inline code in Mono on #e8e8e8 pills",
+        "palette": [
+          "#fbfcfc",
+          "#020202",
+          "#0350fb",
+          "#b0b1b1",
+          "#d0d0d0"
+        ],
+        "behaviour": "CodeMirror (cm-s-paper, line wrapping, markdown mode) with a hidden textarea capturing input; font-variation-settings bound to toolbar values",
+        "content": "Real feature copy: 'Maximum utility. Maximum fun.', 'Extraordinarily versatile', 'One font. Infinite combinations.', 'Sans & Mono. In one file.', 'Ready for work. Ready for play.', 'Light to ExtraBlack…', 'Slant and Cursive…', 'Powerful, yet simple to use.'",
+        "assets": "none",
+        "html": "div.CodeMirror.cm-s-paper.CodeMirror-wrap > textarea + div.CodeMirror-scroll > div.CodeMirror-code > pre.CodeMirror-line > span.cm-formatting-header + span.cm-header-2"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "upbeat, clear",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'## Maximum utility. Maximum fun.' and a paragraph on the five axes, then '## Extraordinarily versatile.' on the single-stroke casual signpainting inspiration; mostly hidden behind the fixed nav and toolbar in the desktop crop (seen in the video and on mobile)",
+      "feel": "Friendly, confident",
+      "ux": "Editable like all chapter prose",
+      "learn": "Open with two short claims (utility and fun) that the rest of the page then demonstrates axis by axis",
+      "reconstruction": {
+        "layout": "~290px section; column ~790px from x≈320 with line-number gutter",
+        "typography": "Heading ~43px casual heavy; body ~15px Sans Linear Regular",
+        "palette": [
+          "#fbfcfc",
+          "#020202",
+          "#0350fb"
+        ],
+        "behaviour": "none of its own",
+        "content": "Positioning and inspiration (brush-written signpainting)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "educational, code-like",
+        "mobile": "adapts",
+        "controls": [
+          "size",
+          "axes",
+          "weight"
+        ],
+        "scope": "single",
+        "defaultText": "code",
+        "export": false
+      },
+      "look": "A big black camelCase word 'trialSegment' (~170px) above a light grey panel that looks like a CSS rule: 'font-size: 12vw;', '--mono: \"MONO\" 0;', '--casl: \"CASL\" 0;', '--wght: \"wght\" 800;', '--slnt: \"slnt\" 0;', '--CRSV: \"CRSV\" 0.5; ○ off ● auto ○ on', each followed by a slider and a /* comment */ explaining the axis, ending 'font-variation-settings: var(--mono), var(--casl), …'",
+      "feel": "Didactic, hacker-friendly",
+      "ux": "Drag any slider (or pick a CRSV radio) and the sample and the code values update together; the panel doubles as copy-paste CSS",
+      "learn": "Present the controls as the CSS they produce: visitors learn the custom-property pattern for variable fonts while playing",
+      "reconstruction": {
+        "layout": "iframe /singlefile, 1396×846 from x=44; sample centred in the top ~420px; code panel full width below (#efefef), rows ~28px: property + value (~260px) | slider (~180px) | comment",
+        "typography": "Sample 12vw (~173px) RecVF Sans, wght 800; code ~13px RecVF Mono: property names maroon, values blue, comments grey",
+        "palette": [
+          "#f7f7f8",
+          "#0a0a0a",
+          "#929292",
+          "#0350fb",
+          "#a0303a"
+        ],
+        "behaviour": "input[type=range] per custom property (font-size, MONO 0–1, CASL 0–1, wght 300–1000, slnt −15–0) and CRSV radios set CSS variables on the sample; value text updates",
+        "content": "A camelCase code identifier as the sample",
+        "assets": "none",
+        "html": "iframe[data-src='/singlefile'][title='Highly Customizable']"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "specimen-showcase",
+      "variant": "use-case-samples",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "product-like, crisp",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "grid"
+      },
+      "look": "Three blue-outlined interface mockups set entirely in Recursive: a documentation site (Basics, Getting Started, API), a solid-blue terminal window with fontTools log lines, and a phone weather app ('Manhattan, New York, NY', '68°', hourly temps, Friday 52°/42°)",
+      "feel": "Practical, polished",
+      "ux": "Self-contained demo; parts appear to shift or scroll slowly (slowShift keyframes)",
+      "learn": "Show the same family running a docs site, a terminal and a mobile app side by side: one font, three very different UI jobs",
+      "reconstruction": {
+        "layout": "iframe /morewithtypography 1396×652; left column ~580px with docs card (~580×290) above terminal card (~580×300); right phone card ~330×620 with rounded corners; 2px blue outlines, window dots",
+        "typography": "Docs: Sans Casual headings ~18px blue, body ~13px; terminal: Mono ~13px light blue on #0a54f9; weather: big temperature ~120px Sans Light, table ~12px",
+        "palette": [
+          "#f7f9fa",
+          "#0a54f9",
+          "#2f6ef5",
+          "#dae4f2",
+          "#030303"
+        ],
+        "behaviour": "CSS keyframe animation (slowShift) moves content inside the cards; no interaction",
+        "content": "Realistic UI copy (docs nav, build log from fontTools, weather forecast)",
+        "assets": "none",
+        "html": "iframe[data-src='/morewithtypography'][title='Single File']"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "diagrammatic",
+        "mobile": "adapts",
+        "subject": [
+          "axes",
+          "spacing"
+        ],
+        "presentation": "diagram",
+        "explanation": "prose"
+      },
+      "look": "After '### One font. Infinite combinations.' and '## Sans & Mono. In one file. MONO', the string 'W7i#$_' twice: on top in white on black cells of identical width (Mono), below in white on blue cells of different widths labelled with advance widths (900, 600, 350 …) (Sans)",
+      "feel": "Clear, graphic",
+      "ux": "Prose editable; demo animates or responds inside its iframe (MONO between 0 and 1)",
+      "learn": "Box each glyph in a cell coloured by its advance width: the difference between mono and proportional becomes visible at a glance",
+      "reconstruction": {
+        "layout": "Prose section ~690px; iframe /monosans 1396×750: two rows of 6 cells, ~1040px wide from x≈290, rows ~320px tall, 1px white dividers; width labels ~10px in each cell's top-left",
+        "typography": "Glyphs ~260px RecVF wght ~800, MONO 1 (top) / 0 (bottom); labels ~10px Mono",
+        "palette": [
+          "#f9fafa",
+          "#050505",
+          "#0350fb",
+          "#4d86fc",
+          "#8eb1f9"
+        ],
+        "behaviour": "Bottom cells shaded by width (lighter = narrower); MONO likely animates between the rows",
+        "content": "A string mixing letters, figures and symbols: W7i#$_",
+        "assets": "none",
+        "html": "iframe[data-src='/monosans'][title='Sans and Monospace']"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "practical, UI-minded",
+        "mobile": "adapts",
+        "subject": [
+          "spacing"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "Two dropdown menus side by side (Menu Item / Item Two / Another Thing), a dark one captioned 'font-family: sans-serif;' and a blue one captioned 'font-family: Recursive;', with an animated hand cursor hovering 'Item Two', which turns bold in both",
+      "feel": "Convincing, simple",
+      "ux": "Looping CSS animation: the hover bolds the item; in the generic sans the text reflows, in Recursive the width stays the same",
+      "learn": "Demonstrate uniwidth weights with the real UI problem they solve (bold hover states that shift layout), against a generic fallback",
+      "reconstruction": {
+        "layout": "iframe /robustlayouts 1396×350; two menus ~340×230px at x≈290 and x≈706; caption 10px below each",
+        "typography": "Menu items ~36px: left system sans-serif, right RecVF Sans; hover state wght 700; captions ~10px Mono",
+        "palette": [
+          "#fefefe",
+          "#323232",
+          "#054ff8",
+          "#ffffff"
+        ],
+        "behaviour": "Keyframes activateGood / activateBad animate the cursor and the bold state on each menu in a loop",
+        "content": "Generic menu labels",
+        "assets": "Hand-cursor image",
+        "html": "iframe[data-src='/robustlayouts'][title='Robust Layouts']"
+      }
+    },
+    {
+      "blocks": [
+        "08",
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "friendly, explanatory",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "'## Ready for work. Ready for play. CASL' with prose on Linear vs Casual, then a demo: a big blue '&' at the current Casual value between two grey ghost ampersands (Linear on the left, Casual on the right), above a slider 'Linear 0 —●— 1 Casual' with a blue value tag '0.3'",
+      "feel": "Playful, tactile",
+      "ux": "Drag the slider: the blue & morphs between the two ghosts and moves along with the handle; on mobile the & carries numbered annotation points (rationalized construction, smooth counters, …)",
+      "learn": "Keep both axis extremes on screen as ghosts while the live glyph slides between them: the visitor always sees where they are in the range",
+      "reconstruction": {
+        "layout": "Prose ~437px; iframe /readyforwork 1396×496: three ampersands ~240px tall across ~800px centred, slider ~560px wide below with end labels and a tag under the thumb",
+        "typography": "Ampersands ~300px RecVF wght ~800 (grey #d8d8d8 ghosts at CASL 0 and 1, live one blue); labels ~11px Mono",
+        "palette": [
+          "#fdfdfd",
+          "#024ffd",
+          "#d8d8d8"
+        ],
+        "behaviour": "Range 0–1 sets CASL on the live glyph and translates it horizontally between the ghosts; value tag follows the thumb",
+        "content": "The ampersand, whose shape changes most along CASL",
+        "assets": "none",
+        "html": "iframe[data-src='/readyforwork'][title='Ready for Work']"
+      }
+    },
+    {
+      "blocks": [
+        "10",
+        "11"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "diagram",
+        "explanation": "prose"
+      },
+      "look": "'## Light to ExtraBlack. And everything in between. wght' and a paragraph, then a light grey pad with a blue dot, a blue base line labelled 'Weight:300 … 1000' and '864' on the left edge; the sample glyphs did not render in the desktop capture (mobile shows a row of '$$$$$' with 'wght: 708' and 'CASL: 0 … 1.00' edge labels)",
+      "feel": "Instrument-like",
+      "ux": "Drag the dot in the 2D pad: one direction sets weight, the other casualness, with live edge readouts",
+      "learn": "A 2D pad lets one gesture explore two axes at once while the edge labels keep the numbers visible",
+      "reconstruction": {
+        "layout": "Prose ~269px; iframe /weightforit 1396×546: pad ~990×400 from x≈290, dot 16px, axis labels on the bottom and left edges",
+        "typography": "Samples (not captured) RecVF; labels ~10px Mono blue",
+        "palette": [
+          "#f8f8f8",
+          "#0b0b0b",
+          "#5985ee",
+          "#d9d9d9"
+        ],
+        "behaviour": "Pointer drag on the pad sets wght (300–1000) on one axis and CASL (0–1) on the other; readouts update",
+        "content": "Repeated '$' on mobile",
+        "assets": "none",
+        "html": "iframe[data-src='/weightforit'][title='Light to ExtraBlack']"
+      }
+    },
+    {
+      "blocks": [
+        "12",
+        "13"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "precise, didactic",
+        "mobile": "adapts",
+        "subject": [
+          "axes",
+          "italics"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "'## Slant and Cursive. Two axes that work great together, or separate. slnt, CRSV' with prose, then a vertical slider (Upright 0 → −15 Slanted, blue tag '−7.5') beside three blue 'grgr' samples captioned 'ital: 0 (off)', 'ital: 0.5 (auto)', 'ital: 1 (on)', with grey ghosts of the upright and fully slanted states above and below",
+      "feel": "Methodical",
+      "ux": "Drag the slant slider: all three samples slant together while each keeps its CRSV setting, so you see when cursive g and r swap in (auto at slnt ≤ −14)",
+      "learn": "Show two linked axes as one slider × three fixed states: the interaction between slant and cursive substitution becomes obvious",
+      "reconstruction": {
+        "layout": "Prose ~482px; iframe /trueritalics 1396×510: vertical slider ~150px tall at x≈340 with end labels, three samples ~190px wide each to the right, captions under each",
+        "typography": "Samples ~120px RecVF Mono wght ~800, blue; ghosts grey #d8d8d8; labels ~10px Mono",
+        "palette": [
+          "#fafafa",
+          "#064dfa",
+          "#d8d8d8"
+        ],
+        "behaviour": "Vertical range slnt 0 to −15 sets slnt on all samples; CRSV fixed at 0 / 0.5 / 1 per sample",
+        "content": "'grgr' (letters whose cursive forms differ most)",
+        "assets": "none",
+        "html": "iframe[data-src='/trueritalics'][title='Slant and Cursive']"
+      }
+    },
+    {
+      "blocks": [
+        "14",
+        "15"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "systematic",
+        "mobile": "shrinks",
+        "structure": "matrix",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "'## Powerful, yet simple to use.' on named instances, then a matrix: column headers Mono / Sans → Casual / Linear → Normal / Italic (8 columns), rows Light (300) to ExtraBlack (1000), each cell the pair 'rw' in blue (italics lighter blue)",
+      "feel": "Comprehensive, neat",
+      "ux": "Static table",
+      "learn": "Use a two-letter sample ('rw') whose shapes change with every axis: 64 named instances fit in one readable table",
+      "reconstruction": {
+        "layout": "Prose ~266px; iframe /powerfulbutsimple 1396×807: row-label column ~110px at x≈290, 8 sample columns ~115px, three header tiers with hairline underlines, rows ~80px",
+        "typography": "Samples ~40px RecVF at each instance; headers ~11px blue; row labels ~12px with grey weight numbers",
+        "palette": [
+          "#fafbfc",
+          "#0350fb",
+          "#91b2f4",
+          "#cbdaf6"
+        ],
+        "behaviour": "none",
+        "content": "All 64 named instances",
+        "assets": "none",
+        "html": "iframe[data-src='/powerfulbutsimple'][title='Powerful but Simple']"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "thorough",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": false
+      },
+      "look": "'## Supports over 200 languages.' (seen in the video; top of the iframe), a sentence on Vietnamese, currencies, symbols and fractions, then one dense paragraph of language names (Abenaki, Afaan Oromo, Afar … Zulu, Zuni)",
+      "feel": "Exhaustive",
+      "ux": "Static",
+      "learn": "A single run-in paragraph of 200+ language names reads as proof without needing samples",
+      "reconstruction": {
+        "layout": "Top of iframe /languages (1396×2790): heading and text column ~790px, then the list full width as one justified paragraph",
+        "typography": "List ~10px RecVF Sans, leading ~1.4, near-black",
+        "palette": [
+          "#f6f8fb",
+          "#020202"
+        ],
+        "behaviour": "none",
+        "content": "Real list of supported languages",
+        "assets": "none",
+        "html": "iframe[data-src='/languages'][title='Languages']"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "orderly",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Under the language list, the full character set in blue on a light grid of ~25 columns: accented capitals, lowercase, ligatures, figures and fractions, punctuation, currencies, math, arrows and geometric shapes, ending with '@'",
+      "feel": "Clean, comprehensive",
+      "ux": "Static in the capture (hover state, if any, not observed)",
+      "learn": "One colour, one size, uniform cells: the grid stays calm even with 1,000+ glyphs",
+      "reconstruction": {
+        "layout": "~2400px of grid inside the iframe; cells ~56×72px with 1px light borders",
+        "typography": "Glyphs ~28px RecVF Sans Regular, blue",
+        "palette": [
+          "#f6f8fb",
+          "#0350fb",
+          "#dae4f8"
+        ],
+        "behaviour": "none observed",
+        "content": "Character set in encoding order",
+        "assets": "none",
+        "html": "iframe[data-src='/languages'] (glyph cells inside)"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "generous, open",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "'Free and open-source' in heavy Mono Casual at ~120px, a line about the SIL Open Font License 1.1, a blue pill 'Get Recursive' button and an underlined 'View source on GitHub' link",
+      "feel": "Generous, simple",
+      "ux": "Button downloads the release zip from GitHub (same as the nav's Get Recursive); link opens the repository",
+      "learn": "For a libre font, state the licence in one sentence and pair the download with the source link",
+      "reconstruction": {
+        "layout": "Section ~634px; heading two lines from x≈320; text and buttons below at the same x; pill ~140×32px",
+        "typography": "Heading ~120px RecVF MONO 1, CASL 1, wght ~1000; text ~15px; button ~13px white on blue",
+        "palette": [
+          "#fcfcfc",
+          "#040404",
+          "#0350fb"
+        ],
+        "behaviour": "button#get-rec-2.get-rec-button triggers the download",
+        "content": "Licence summary",
+        "assets": "none",
+        "html": "div.footer-checkout > h2 + p > a + div.cta > button#get-rec-2.get-rec-button + a[href='https://github.com/arrowtype/recursive']"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "chrome",
+      "variant": "announcement-banner",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Thin black strip: 'Want news from ArrowType? →' and 'Sign up for the ArrowType newsletter!' linking to arrowtype.com (a link, no email field)"
+    },
+    {
+      "blocks": [
+        "19"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "collaborative, transparent",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal",
+          "contact"
+        ]
+      },
+      "look": "Black footer: 'Made by friends of Google Fonts' logo, a site link column (Features, Process, PDF, Download Fonts ↓), a credits column (By ArrowType with contributors, type engineering, website by Math Practice, content editing, performance upgrades) with a small Google disclaimer, and GitHub links plus an analytics notice",
+      "feel": "Collegial, open",
+      "ux": "Plain links",
+      "learn": "List the website makers next to the type team, and link both the font and the site repositories",
+      "reconstruction": {
+        "layout": "Footer ~379px, dotted top border; 4 columns: logo (~200px), nav (~200px), credits (~400px), links/notice (~400px)",
+        "typography": "~13px RecVF Sans, white; disclaimer ~9px grey",
+        "palette": [
+          "#040404",
+          "#ffffff",
+          "#4e4e4e"
+        ],
+        "behaviour": "none",
+        "content": "Credits, repository links, privacy note",
+        "assets": "Google Fonts logo SVG"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/kinetic-type",
+    "type-tester/global-toolbar",
+    "type-tester/in-context-editable",
+    "story/large-text-intro",
+    "type-tester/slider-sandbox",
+    "specimen-showcase/use-case-samples",
+    "design-details/axis-explainer",
+    "design-details/feature-before-after",
+    "design-details/axis-explainer",
+    "family-overview/designspace-map",
+    "language-support/language-name-list",
+    "glyph-table/full-grid",
+    "checkout/free-download",
+    "footer/credits-colophon"
+  ]
+}

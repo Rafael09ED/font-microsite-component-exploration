@@ -1,0 +1,537 @@
+{
+  "slug": "logical-family",
+  "extractedBy": "agent",
+  "summary": "Bold Monday's one-page specimen for Logical, a humanist sans whose OpenType features turn ':keywords:' and whole words into icons. The page runs on that trick: section headings end in a ':down:' arrow glyph, the hero spins an icon carousel, a typewriter types keywords that become icons, and a feature catalogue shows input → output with ID/CSS/Word how-to tooltips, all on one long turquoise-to-lime gradient.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "friendly, clean, clever",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "A full-screen turquoise gradient with 'Logical' centred in dark teal at ~160px and a yellow outline icon above it that keeps changing (⇄ arrows, fish, bottle, shield, person…)",
+      "feel": "Fresh, friendly, a little magical",
+      "ux": "The icons sit on an invisible 3D ring (translate3d around a circle) and rotate into view one at a time; no buttons",
+      "learn": "Spin the font's own icons on a 3D ring above the name: the hero announces the icon feature before any text explains it",
+      "reconstruction": {
+        "layout": "100vh; name centred ~640px wide; icon slot ~80px above the name, centred",
+        "typography": "Name ~160px Logical Medium, dark teal #00505a; icons ~80px from the font itself (ligatures like ':shield:'), yellow outline #f0fa00",
+        "palette": [
+          "#4fd6d7",
+          "#77e2e3",
+          "#3ed3d2",
+          "#00505a",
+          "#f0fa00"
+        ],
+        "behaviour": "~30 .icon divs positioned on a ring with translate3d(x, y, z); only the front one is display:inline-block; the ring steps every ~1–2s (JS)",
+        "content": "Icon keywords: :fish:, :hourglass:, :archive:, :fir:, :folder:, :bike:, :tel:, :pants:, :bottle:, :bulb:, :eyes:, :gift:, :cup:, :shield:",
+        "assets": "none (icons are glyphs of the font)",
+        "html": "div.Splash > div#container > div.icon[style=transform: translate3d(…)] ×n"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "explanatory, warm",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "A narrow centred paragraph in dark teal on the light turquoise gradient: 'This typeface follows a logical set of rules… a rich set of icons that are automatically transformed from words (logos in Greek)…'",
+      "feel": "Calm, concise",
+      "ux": "static; 'logos' links to Wikipedia",
+      "learn": "Explain the name's double meaning (logic, logos) in the first paragraph",
+      "reconstruction": {
+        "layout": "Column ~590px centred, ~4 lines",
+        "typography": "~24px Logical Regular, leading ~1.3, dark teal",
+        "palette": [
+          "#99eaea",
+          "#00505a"
+        ],
+        "behaviour": "none",
+        "content": "Real description of the rules and icons",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "precise, friendly",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "'Parameters ↓': the word 'Á Page'' in big dark teal with yellow overlays (circles in the counters, open-counter marks, rounded stroke endings), over a numbered list '(1) open counter shapes for optimal legibility (2) circular shapes (3) rounded stroke endings in diagonal stems and terminals'",
+      "feel": "Clear, didactic",
+      "ux": "Hovering a numbered rule highlights its overlay on the word (opacity 0.3s transitions)",
+      "learn": "Link each numbered design rule to its own overlay layer: hovering the rule lights up where it applies",
+      "reconstruction": {
+        "layout": "SVG 920×346 centred (~1000px wide); list ~590px centred below, 3 lines",
+        "typography": "Word drawn ~260px Logical; list ~14px; numbers bold",
+        "palette": [
+          "#b4f0ed",
+          "#064c50",
+          "#f0fa00"
+        ],
+        "behaviour": "Rule rows (.open-counters, .circular-shape, .rounded-endings) toggle the opacity of matching SVG groups and colour of their number",
+        "content": "Three construction rules",
+        "assets": "SVG drawing of the word with overlay groups",
+        "html": "svg#parameters-drawing > g > ellipse.circular-shape…; div.rule.open-counters > b.number + span"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "orderly, poetic",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "paragraph",
+        "interactive": false
+      },
+      "look": "'Family ↓': two columns (romans left, italics right) of eight rows, each a big 'Ag' beside the style name and a three-line paragraph ('A human being is a symbol that doesn't know its own meaning…'), Thin to Black, on a mint-to-lime gradient",
+      "feel": "Even, catalogue-like",
+      "ux": "static",
+      "learn": "Repeat one short poem across every style so the weight ramp reads as texture, with an 'Ag' as a quick visual key",
+      "reconstruction": {
+        "layout": "Two columns ~420px each, rows ~78px: 'Ag' ~32px left, label + 3-line paragraph right",
+        "typography": "'Ag' ~32px; labels ~10px underlined; paragraphs ~11px in each style (Thin, Light, Regular, Book, Medium, Bold, Heavy, Black + italics)",
+        "palette": [
+          "#d0efb5",
+          "#effa9a",
+          "#00505a"
+        ],
+        "behaviour": "none",
+        "content": "Dirk Vis lyric about symbols and emoji",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "witty, demonstrative",
+        "mobile": "adapts",
+        "subject": [
+          "features"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "'Icons ↓' on lime: a short paragraph on keyword icons, then one large line being typed letter by letter (':track', ':rece', ':wink') that snaps into an icon when the closing word completes",
+      "feel": "Playful, surprising",
+      "ux": "A typewriter loop types a keyword; when it completes, the ligature swaps it for the icon, then deletes and types the next",
+      "learn": "Demonstrate a word-to-icon ligature by typing it live: the swap at the last letter is the explanation",
+      "reconstruction": {
+        "layout": "Paragraph ~590px centred; typed line centred ~160px tall",
+        "typography": "Typed line ~160px Logical Regular dark teal (#00505a); paragraph ~16px in cyan-green",
+        "palette": [
+          "#eef999",
+          "#dbf49c",
+          "#00505a",
+          "#2fbfbf"
+        ],
+        "behaviour": "JS typewriter: add one character every ~150ms to div.Icons, pause when the icon forms, backspace, next keyword",
+        "content": "Icon keywords (:track:, :record:, :wink:)",
+        "assets": "none",
+        "html": "div.Icons[style=color]"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "specimen-showcase",
+      "variant": "editorial-in-use",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "poetic, multilingual, witty",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "'Intermission ↓': a white paper card with a soft shadow carrying a song lyric 'Bird's Song' by Dirk Vis: a large cloud-and-bird icon, verses with inline icons (:bird:, :cat:, :heart:), and choruses in German, English and Dutch italics",
+      "feel": "Gentle, literary, humorous",
+      "ux": "static",
+      "learn": "Commission a short text written for the font's quirk (icons replacing words): an interlude that is also an in-use specimen",
+      "reconstruction": {
+        "layout": "Card ~400×530px centred with drop shadow; icon ~100px at top-right; text column ~300px",
+        "typography": "~11px Logical Regular, italic choruses, bold title; icons inline at text size, some in the black icon set",
+        "palette": [
+          "#f7faf9",
+          "#b0ebac",
+          "#8fe4b6",
+          "#00505a"
+        ],
+        "behaviour": "none",
+        "content": "Original multilingual lyric with icons in place of words",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "glyph-table",
+      "variant": "bento-cards",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "organised, friendly",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'Characters ↓' on turquoise: white cards with small yellow tag labels (UPPERCASE, LOWERCASE, SMALL CAPS, LIGATURES, NUMERALS, SPECIAL CHARACTERS, PUNCTUATION), a full-width ICONS card with ~400 pictograms, a dark '→ SHORTCODES' bar, and an UNDERLINE card repeating the set in the underlined styles",
+      "feel": "Organised, generous",
+      "ux": "The SHORTCODES bar expands to list the icon keywords; otherwise static",
+      "learn": "Give the icon set its own full-width card with a 'shortcodes' drawer: users need the keyword list more than the pictures",
+      "reconstruction": {
+        "layout": "Two-column masonry of white cards (~650px each, 24px gap), full-width icons and underline cards; tags ~10px caps on yellow #f0fa00 above each card",
+        "typography": "Glyphs ~24px Logical Regular dark teal, letter-spaced; numerals in four styles (tabular, proportional, small, superior)",
+        "palette": [
+          "#37d2d1",
+          "#ffffff",
+          "#00505a",
+          "#f0fa00"
+        ],
+        "behaviour": "Shortcodes bar toggles a list",
+        "content": "Full Latin set, figures, icons, underline variants",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "practical, helpful",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "'Features ↓': white cards, each with a yellow tag (LIGATURES, SMALL CAPS, CAPITALS TO SMALL CAPS, CAPITAL FORMS, CONTEXTUAL ALTERNATES, LINING NUMBERS, SUPERIORS, INFERIORS, FRACTIONS, ORDINALS, STYLISTIC SET 01–10, 19, 20) followed by small 'ID', 'CSS', 'W' chips, and an input → output pair with a yellow arrow ('The sun is up, bird is flying' → 'The ☀ is ↑, 🐦 is flying')",
+      "feel": "Practical, thorough",
+      "ux": "Hovering ID, CSS or W shows a dark tooltip with how to switch the feature on in InDesign, in CSS (font-feature-settings block with a copy icon) or in Word",
+      "learn": "Attach per-app how-to tooltips (InDesign, CSS, Word) to each feature card: the catalogue becomes documentation",
+      "reconstruction": {
+        "layout": "Two columns of cards (~650px), full-width cards for stylistic sets 01–05 and 19–20; each card: tag row, then input left, arrow, output right; footnote ~9px under some",
+        "typography": "Samples ~22px Logical Regular dark teal; tags ~9px caps on yellow; chips ~9px on grey/teal; tooltips monospace",
+        "palette": [
+          "#2faaaf",
+          "#ffffff",
+          "#00505a",
+          "#f0fa00",
+          "#add5d5"
+        ],
+        "behaviour": "react-tooltip on chips: ID → InDesign menu path, CSS → <pre> with font-feature-settings / font-variant + copy icon (:cut:), W → Word instructions",
+        "content": "Real feature demos incl. automatic icons for English, German, Dutch, French words, black icons, simple g, single-storey a, slashed zero, smart underline with or without word gaps",
+        "assets": "none",
+        "html": "div.Features > div.item > div.tabs > div.label + div#ID-… [data-tip] + div#CSS-… + div#W-… + div.__react_component_tooltip > pre"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "type-tester",
+      "variant": "feature-toggle-board",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "utilitarian, compact",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "style-select",
+          "features"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "'Tester ↓' on dark teal: a turquoise style select ('Regular'), 'Size: 60 px' with a thin slider, a white editable box reading 'TYPE SºMETHING…' (small caps and ordinals on), and a grid of feature toggles (Ligatures, Small Caps, Capitals to Small Caps, Contextual alternates, Lining Numbers, Superiors, Inferiors, Fractions, Ordinals, Stylistic Sets 05–20) with active ones highlighted in turquoise",
+      "feel": "Tool-like, tidy",
+      "ux": "Type in the box; pick a style; drag size 8–200px; click feature names to toggle them",
+      "learn": "Pre-activate a couple of features in the default prompt so the visitor sees toggles do something before touching them",
+      "reconstruction": {
+        "layout": "Width ~1335px; control row (select ~330px + size label + slider); white text box ~150px tall; 6-column toggle grid below",
+        "typography": "Sample 60px Logical Regular dark teal; toggles ~10px bold white; active toggle on #4fd6d7",
+        "palette": [
+          "#005059",
+          "#feffff",
+          "#4fd6d7",
+          "#2d6e73"
+        ],
+        "behaviour": "select → font style; input[type=range min=8 max=200] → font-size and label; toggle → add/remove tag in font-feature-settings",
+        "content": "Prompt 'Type something…'",
+        "assets": "none",
+        "html": "div.Tester > select + input[type=range] + div[contenteditable] + div > div > strong (feature names)"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "language-support",
+      "variant": "multiscript-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "poetic, multilingual",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": false
+      },
+      "look": "'Languages ↓': a yellow dropdown ('English') over the poem in white ('A human being is a symbol that doesn't know its own meaning…', via Dirk Vis) and the line 'Logical supports 91 latin based languages.'",
+      "feel": "Quiet, personal",
+      "ux": "The dropdown swaps the poem into another language",
+      "learn": "Translate one short poem into the supported languages and switch it with a picker: coverage shown through meaning, not pangrams",
+      "reconstruction": {
+        "layout": "Column ~590px centred; select ~200×18px; paragraph; credit right-aligned; coverage line centred below",
+        "typography": "~20px Logical Regular white; select ~10px; coverage line ~12px",
+        "palette": [
+          "#0f6e75",
+          "#045864",
+          "#ffffff",
+          "#f0fa00"
+        ],
+        "behaviour": "select change → replace sample text with the translation",
+        "content": "Dirk Vis lyric in several languages",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "nostalgic, practical",
+        "mobile": "adapts",
+        "subject": [
+          "features"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "'Underline ↓': two stanzas of 'I Walk the Line' set in the underlined styles, the first with gaps between words, the second (italic) with the line running through the spaces, then a short note on why the underline versions exist",
+      "feel": "Warm, clever",
+      "ux": "static",
+      "learn": "Show the two underline flavours (with and without word gaps) on a song everyone knows, roman versus italic",
+      "reconstruction": {
+        "layout": "Column ~590px centred; 4 + 4 lines; credit line; paragraph",
+        "typography": "~16px Logical Regular / Italic with built-in underline (ss19 / ss20), dark teal; note in white",
+        "palette": [
+          "#2caeb1",
+          "#1c8a90",
+          "#4ccece",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Johnny Cash lyrics; history of the underline styles (2012, hyperlink-heavy homepage)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "minimal, witty",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "'Buy ↓': one big dark-teal shopping-cart icon (the font's ':cart:' glyph) with an underlined 'boldmonday.com' link below",
+      "feel": "Clean, self-referential",
+      "ux": "Cart and link go to the Bold Monday product page",
+      "learn": "Use the font's own icon as the buy button",
+      "reconstruction": {
+        "layout": "Centred stack, icon ~160px, link below",
+        "typography": "Icon ~160px Logical; link ~18px bold underlined",
+        "palette": [
+          "#6ec5c7",
+          "#55cbcc",
+          "#00505a"
+        ],
+        "behaviour": "none",
+        "content": "':cart:', 'boldmonday.com'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "generous, thankful",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "'Credits ↓' on grey-teal: three columns of roles and names with linked sites and tiny bird icons for Twitter handles (Designer, Foundry, Website, Text, Editing, French dictionary, Portrait photo / Technical support / Beta-testers / Kind advice)",
+      "feel": "Grateful, communal",
+      "ux": "Hovering 'Designer' shows a portrait photo tooltip of Edgar Walthert",
+      "learn": "Credit everyone, beta-testers included, and put a portrait behind the designer's name on hover",
+      "reconstruction": {
+        "layout": "Three columns ~280px each; role label bold, names below; ~12px lines",
+        "typography": "~11px Logical Regular, roles bold, dark teal links underlined",
+        "palette": [
+          "#95b8b9",
+          "#7aa5a7",
+          "#00505a"
+        ],
+        "behaviour": "react-tooltip with a 470px portrait image on the designer row",
+        "content": "Full credits list",
+        "assets": "Designer portrait photo"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/large-text-intro",
+    "design-details/annotated-specimen",
+    "family-overview/style-word-grid",
+    "design-details/feature-before-after",
+    "specimen-showcase/editorial-in-use",
+    "glyph-table/bento-cards",
+    "design-details/feature-index",
+    "type-tester/feature-toggle-board",
+    "language-support/multiscript-specimen",
+    "design-details/feature-before-after",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "slug": "gt-haptik-com",
+  "extractedBy": "agent",
+  "summary": "A stark black/white slide-per-screen page for a typeface designed to be read by touch: a 'Form Follows Touch' slogan, hover-zone style switchers (pointer position picks weight, slant or alternates), a measured KÖ/ait diagram and black-and-white photos and GIFs of hands tracing letters. A fixed top-left Try/Buy pair and a circle toggle site-wide alternates. The final links slide (Live Typetester, trials, PDF, minisite buttons) exists in the DOM and the mobile capture but was not segmented into a block.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "manifesto, minimal, Swiss",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Two-screen black slide: 'FORM / FOLLOWS / TOUCH' in big white caps with 'GT HAPTIK' below, three short centred intro paragraphs, and a line-drawn 'YO' flag pictogram; tiny grey 'Try the free trial fonts / Buy the printed specimen' and a small circle pinned top-left",
+      "feel": "Calm, principled, tactile",
+      "ux": "Fixed top-left links (Try → trials, Buy → printed specimen shop) collapse to 'Try / Buy' after the hero; clicking the fixed circle turns on alternates for R, C, G and 0 across the whole page (copy says so); a hand-gesture photo flashes as a loader before the slogan",
+      "learn": "Rewrite a design maxim around the font's purpose ('Form follows touch') and let the slogan be the specimen",
+      "reconstruction": {
+        "layout": "Slide 1440×1800 (2 viewports) black; slogan centred, 3 lines, top at y≈160, ~760px wide; 'GT HAPTIK' ~60px below; intro text column ~700px centred at y≈830; flag pictogram ~300px centred at y≈1220; fixed corner UI at x≈30, y≈30",
+        "typography": "Slogan uppercase GT Haptik Medium, rendered cap height ~110px (≈150px; computed font-size 72px, apparently scaled), tight leading ~1.05; name ~60px caps Medium; intro ~22px GT Haptik Regular, centred, leading ~1.35; corner links ~13px grey",
+        "palette": [
+          "#030303",
+          "#ffffff",
+          "#505050"
+        ],
+        "behaviour": "Loader frame: black-and-white photo of two hands making signs (~1s) before the slide; alternates toggle swaps glyph forms site-wide (class switch); no scroll animation",
+        "content": "Real description: 'Its uppercase letters and numbers were optimized to be read blindfolded and by touching them' plus style count and alternates note",
+        "assets": "Line pictogram of a 'YO' flag (background image); hand photo loader",
+        "html": "#intro.slide.twovp > nav.button > a.tryandbuy ×2 + #slogan h2 (Form<br>Follows<br>Touch + span#fontnametitle) + #introtext.infotext p (.hidealternate desktop / .showtouch mobile) + #yoflag"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "plain, geometric",
+        "mobile": "adapts",
+        "structure": "map",
+        "samples": "word",
+        "interactive": true
+      },
+      "look": "White screen with 'Monolinear / Geometric' in black at ~250px, filling the width",
+      "feel": "Clean, declarative",
+      "ux": "Seven invisible vertical zones across the screen (Lazer, Thin, Light, Regular, Medium, Bold, Black); the pointer's x position sets the weight of both words and a dot with the style name marks the current zone; on mobile, touch instead and four extra words appear (Dreieck, Research, Touchable, Solution)",
+      "learn": "Map the weight ladder onto the screen width: sweeping the pointer left to right is the whole weight demo, with no visible control",
+      "reconstruction": {
+        "layout": "Slide 1440×900 white; two words centred on two lines starting y≈130; 7 zones of ~206px each across the width (ids a0014…a8600 encode positions 0.14%–86%), each zone with a hidden .dotcontainer label + ●",
+        "typography": "~250px GT Haptik (Lazer → Black per zone, Regular by default), sentence case, tight leading ~0.95; zone labels small ~12px",
+        "palette": [
+          "#fefefe",
+          "#000000"
+        ],
+        "behaviour": "mouseenter on a .stylechooser zone → swap the sample's font-family to that weight and show its dot and label",
+        "content": "Two descriptive words ('Monolinear', 'Geometric'), plus portrait-only 'Dreieck', 'Research', 'Touchable', 'Solution'",
+        "assets": "none",
+        "html": "#familyintro > #familyswitcher > div.stylechooser#a0014… > .dotcontainer > .stylename + ● ; div.mainpiece.familysamples(.portraitonly)"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "systematic",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": true
+      },
+      "look": "Two-screen black slide with seven centred lines 'GT Haptik Lazer' … 'GT Haptik Black', each in its own weight (Lazer a hairline, nearly invisible)",
+      "feel": "Ladder-like, crescendo",
+      "ux": "Three invisible zones (Roman, Oblique, Rotalic) across the width; the pointer's horizontal position switches all seven lines to roman, oblique or the 'rotalic' (rotated italic) with a labelled dot",
+      "learn": "Use the same hover-zone trick for slant: the visitor compares oblique and rotalic on the full weight ladder by moving the pointer",
+      "reconstruction": {
+        "layout": "Slide 1440×1800 black; 7 lines centred in a block ~1050px wide starting y≈380, leading ~150px; 3 zones of 480px (ids d0033, d3366, d6600)",
+        "typography": "Lines ~120px GT Haptik Lazer/Thin/Light/Regular/Medium/Bold/Black (separate font files per style), white, sentence case",
+        "palette": [
+          "#030303",
+          "#ffffff"
+        ],
+        "behaviour": "mouseenter on a .dstylechooser zone → swap every line to its Roman, Oblique or Rotalic file; dot + label show the active zone",
+        "content": "Style names only",
+        "assets": "none",
+        "html": "#familyoverview > #linesoftype > .lineoftype > div.dstylechooser ×3 + span.lineofsample#lineof<weight> ×7"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "technical, blueprint",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "spacing"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "On white, a huge black 'KÖ' and 'ait' on dotted metric lines, every stroke labelled with its thickness in points (90 pt, 136 pt dots, 77–86 pt lowercase strokes) and 350/700 pt dimension arrows; one-line caption below",
+      "feel": "Engineering drawing, exact",
+      "ux": "static",
+      "learn": "Label stroke thicknesses directly on the letters: the uppercase's constant 90 pt next to the lowercase's 77–86 pt proves 'monolinear vs optically corrected' without prose",
+      "reconstruction": {
+        "layout": "Slide 1440×1800 white; two diagrams ~750px wide centred (x≈335–1085): KÖ at y≈70–560, ait at y≈720–1200, each between 5 dotted horizontal metric lines; caption ~16px centred at y≈1700",
+        "typography": "Letters ~480px GT Haptik (drawn as images); annotation labels ~9px in white on the black strokes and black dimension text; caption ~20px GT Haptik Regular",
+        "palette": [
+          "#fefefe",
+          "#070707",
+          "#c0c0c0"
+        ],
+        "behaviour": "none",
+        "content": "Real measurements: 90 pt uppercase strokes, 136 pt dots, 350 pt half-heights, 700 pt O width, 75–86 pt lowercase strokes",
+        "assets": "Two annotated letter diagrams (background images on .measurepic)",
+        "html": "#measurementgrids > #measurements > #haptik-KO.measurepic + #haptik-ait.measurepic + .infotext p"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "research-led, plain",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "One black screen filled by three run-on centred paragraphs in white at ~38px about the 2009–2014 touch-reading research, with the circled-zero alternate in '2009' and '2014'",
+      "feel": "Earnest, explanatory",
+      "ux": "static",
+      "learn": "Let the site-wide alternates show up inside the story text ('2⊙⊙9'): the prose doubles as a feature demo",
+      "reconstruction": {
+        "layout": "Slide 1440×900 black; text block ~1150px wide centred, 17 lines from y≈90 to y≈770, paragraphs run on without spacing",
+        "typography": "~38px GT Haptik Regular, white, centred, leading ~1.13; alternates on for 0 (concentric) and others",
+        "palette": [
+          "#090909",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Real research story: Reto Moser and Tobias Rechsteiner, reading Latin type blindfolded by touch, R, C, G with guides for fingers, lowercase added later for text",
+        "assets": "none",
+        "html": "p.storytime#storyintro, #storyuc, #storylc"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "matter-of-fact",
+        "mobile": "adapts",
+        "subject": [
+          "alternates"
+        ],
+        "presentation": "toggle",
+        "explanation": "caption"
+      },
+      "look": "White screen with four centred lines naming the alternates in themselves: 'Concentric', 'Geometric Body', 'Rhombic' (rhombic R), 'Year 2⊙⊙⊙' (concentric zeros); caption 'Alternate designs available in GT Haptik.'",
+      "feel": "Simple, self-describing",
+      "ux": "Two invisible halves: pointer on the left = 'Off' (default glyphs), right = 'On' (alternates); a dot with Off/On label marks the state",
+      "learn": "Name each alternate with a word that contains it, so the label and the demo are the same text",
+      "reconstruction": {
+        "layout": "Slide 1440×900 white; 4 lines centred from y≈90, ~160px leading; caption at y≈830; two hover zones of 720px",
+        "typography": "~117px GT Haptik Regular, black, sentence case; caption ~16px",
+        "palette": [
+          "#fdfdfd",
+          "#000000"
+        ],
+        "behaviour": "mouseenter on #featureoff / #featureon → toggle salt alternates on .feature-sets (separate alternate glyphs)",
+        "content": "Self-describing words for each alternate set",
+        "assets": "none",
+        "html": "#features > #familyswitcher > #featureshow > div.dddstylechooser#featureoff|#featureon + #feature-salt.feature-sets > ul > li ×4"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "interlude",
+      "variant": "full-bleed-image",
+      "newVariant": true,
+      "variantDefinition": "A full-viewport image with no text (often a close-up of the source artefact or of the letters) used as a pause between chapters",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "warm, human",
+        "mobile": "adapts"
+      },
+      "look": "Black screen with a black-and-white cut-out photo of two hands forming a heart",
+      "feel": "Affectionate, human",
+      "ux": "static pause between the alternates and the touch GIFs",
+      "learn": "Use the hand, the font's real 'reader', as the recurring image: the photos carry the concept between technical slides",
+      "reconstruction": {
+        "layout": "Slide 1440×900 black; photo ~1050×560px centred",
+        "typography": "none (only the fixed Try/Buy corner)",
+        "palette": [
+          "#020202",
+          "#8f8f8f",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "No text",
+        "assets": "B/W cut-out photo of hands (heart.jpg)"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "demonstrative, tactile",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "animation",
+        "explanation": "none"
+      },
+      "look": "Three stacked black panels on white, each a looping GIF of a photographed finger tracing a white letter (R, S, G) along a dashed arrow path",
+      "feel": "Instructional, almost braille-like",
+      "ux": "GIFs loop automatically; no captions",
+      "learn": "Film the intended reading gesture: a finger following the stroke explains why R, C and G have their guiding details",
+      "reconstruction": {
+        "layout": "Slide 1440×2700 white; three panels ~1010×630px centred (x≈215), 48px gaps, starting y≈225",
+        "typography": "Letters ~400px GT Haptik white inside the panels; no text outside",
+        "palette": [
+          "#ffffff",
+          "#020202",
+          "#9a9a9a"
+        ],
+        "behaviour": "Animated GIFs: the letter draws on while a finger photo moves along a dashed path with an arrowhead",
+        "content": "Letters R, S, G",
+        "assets": "Three GIFs touching-r.gif, touching-s.gif, touching-g.gif (photo of finger composited over drawn letters)"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "family-overview/designspace-map",
+    "family-overview/style-word-grid",
+    "design-details/annotated-specimen",
+    "story/large-text-intro",
+    "design-details/feature-before-after",
+    "interlude/full-bleed-image",
+    "design-details/design-notes"
+  ]
+}

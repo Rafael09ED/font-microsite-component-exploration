@@ -1,0 +1,858 @@
+{
+  "slug": "pp-frama-com",
+  "extractedBy": "agent",
+  "summary": "A Framer-built page for Pangram Pangram's geometric sans that sells Frama as an industrial product. It moves through mid-century architecture photos, halftone pipes and blades scrubbed frame by frame on scroll, a grey-and-blue 'technical sheet' chapter with a nutrition-label weight list, packaging and case mockups, and an orange four-box tester full of roller-bearing copy. An orange 'PP foundry' logo and a 'GET THE FONT' button stay fixed throughout.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "name-over-photo",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "architectural, sunny, mid-century",
+        "mobile": "adapts",
+        "carrier": "photo",
+        "cta": "buy",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "A full-bleed photo of a white cantilevered modernist house with oval cut-outs above rocks and lawn; a blue box holds a hairline 'frama' wordmark at left, and two orange info cards ('Celebrating Geometry', 'Beneath Its Apparent Simplicity Lies a Careful Play of Proportion') float over the picture",
+      "feel": "Calm, architectural, retro-modern",
+      "ux": "The photo is cut into depth layers (house, trees, rocks, lawn) that move at different speeds as you scroll, and the cards slide over them; the fixed orange 'PP foundry' logo and 'GET THE FONT' button sit at the corners",
+      "learn": "Pick a building whose geometry rhymes with the letterforms (ovals, slabs) and set the name in the thinnest weight: the photo argues 'geometric' before any copy",
+      "reconstruction": {
+        "layout": "1440×1600 (1.8 screens); photo layers absolutely stacked full-bleed (Z-1 lawn … Z-4 house); wordmark box ~700×245px at x=24, y≈630, flush left; card 1 ~280×240px at right (x≈1140, y≈640), card 2 ~290×180px under the wordmark (x≈370, y≈900)",
+        "typography": "Wordmark 'frama' ~250px PP Frama Thin, white on blue (#1e7fd0 approx.), lowercase; card kicker 'PP FRAMA' 8px caps, card title ~20px Bold, body ~16px Text Regular, black on orange",
+        "palette": [
+          "#49542e",
+          "#6d714c",
+          "#acb28f",
+          "#f86d04",
+          "#1e7fd0"
+        ],
+        "behaviour": "Framer scroll transforms on each photo layer (parallax depth) and on the cards (they move up faster than the photo); possible intro video before the page (see intro instance)",
+        "content": "Positioning copy only: 'Circles, lines, and counterforms meet in a quiet system of balance, a subtle homage to geometry's enduring role in design.'",
+        "assets": "One mid-century house photo cut into 4 transparent depth layers (webp); logo SVG",
+        "html": "[data-framer-name=Hero] > Main_Content > Logo_Frama + Text_orange + Z-4 / Z-3.5 / Z-3.25 / Z-1 image layers"
+      }
+    },
+    {
+      "blocks": [
+        "19"
+      ],
+      "type": "intro-animation",
+      "variant": "title-sequence",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "cinematic",
+        "mobile": "unknown"
+      },
+      "look": "A fixed full-viewport Vimeo player (autoplay, muted, no loop, no controls) layered over the page; the capture only shows ~2s of dark screen before the hero",
+      "feel": "Cinematic opening (inferred)",
+      "ux": "Plays once over the page on load and then gives way to the hero; not visible in the stitched capture",
+      "learn": "A one-shot muted video overlay is the cheapest way to add an opening title to a page builder site",
+      "reconstruction": {
+        "layout": "position:fixed, 1440×900, full viewport, above the page",
+        "typography": "Unknown (video content not captured)",
+        "palette": [
+          "#141414"
+        ],
+        "behaviour": "Vimeo iframe autoplay muted, controls off, loop off; presumably removed or faded when it ends",
+        "content": "Unknown",
+        "assets": "Intro film (Vimeo 1154767301)",
+        "html": "fixed [data-framer-name='Variant 2'] > iframe[src*=player.vimeo.com]"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "interlude",
+      "variant": "scroll-scrubbed-sequence",
+      "newVariant": true,
+      "variantDefinition": "A pinned frame sequence (dozens of pre-rendered images) of a themed object, scrubbed by scroll so the object turns, travels or releases letters; mood between sections with little or no text",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "industrial, halftone, cool",
+        "mobile": "adapts"
+      },
+      "look": "A credit row ('SIMPLICITY, VERSATILY & CLARITY' in grey heavy caps; 'By Samuel Salminen, Francesca Bolognini & Mat Desjardins', 'Built for clarity.') then a black stage with a halftone-shaded steel Y-pipe junction under a grey 'FRAMA' wordmark",
+      "feel": "Mechanical, deadpan",
+      "ux": "The stage is sticky; scrolling scrubs through 39 frames so the pipe rotates in place",
+      "learn": "A scroll-scrubbed object render (a pipe fitting for a 'functional' face) gives a type page the physicality of a product film without video",
+      "reconstruction": {
+        "layout": "Block 1296px wide inside a 72px margin, ~1950px tall: credit row ~170px with a heading left (~60%) and a credit column right behind a vertical hairline; then a sticky 100vh black stage with the object centred (~780px wide) and the wordmark ~140px above it",
+        "typography": "Heading ~80px PP Frama Black caps grey (#afafaf), two lines, tight leading; credits ~16px Text Regular; wordmark ~70px Black grey",
+        "palette": [
+          "#020202",
+          "#afafaf",
+          "#d0d0d0",
+          "#2e2e2e"
+        ],
+        "behaviour": "Wrap_sticky + Wrap_scroll: scroll progress picks one of 39 stacked webp frames (only the current one is visible)",
+        "content": "Designer credits; no sample text",
+        "assets": "39-frame image sequence of a halftone-rendered steel Y-junction",
+        "html": "[data-framer-name=Scroll_media_v02] > Wrap_sticky > Tuyaux (39 img frames)"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "technical, confident",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "A chrome-embossed '2in1' badge and 'THE NEW GEOMETRIC SANS-SERIF FROM PANGRAMPANGRAM.', then five centred grey words SIGNAL / SYSTEM / MODULE / PATTERN / CIRCUIT, each in another weight, with circled weight numbers (③⓪⓪, ⑨⓪⓪…) at left and the style name at right",
+      "feel": "Industrial, catalogue-like",
+      "ux": "Static list; in the video the letters 'DISPLAY' and 'TEXT' orbit the 2in1 badge",
+      "learn": "Write the weight as circled numerals (③⓪⓪) in the font itself: the label doubles as a glimpse of the enclosed figures",
+      "reconstruction": {
+        "layout": "~1120px; badge ~560px wide centred at top; list rows ~112px pitch, words centred, number and style label pinned to the left and right edges (x≈60 and x≈1380)",
+        "typography": "Words ~80px PP Frama caps in Light, Black, Thin, SemiBold, Regular; numbers ~16px circled digits; style labels ~12px caps; tagline ~16px caps",
+        "palette": [
+          "#020202",
+          "#afafaf",
+          "#313131",
+          "#929292"
+        ],
+        "behaviour": "Rotating 'DISPLAY'/'TEXT' lettering around the badge (seen in the scroll video); rows fade in (Framer appear)",
+        "content": "Themed engineering nouns (Signal, System, Module, Pattern, Circuit), one per weight",
+        "assets": "Chrome 3D '2in1' badge image",
+        "html": "[data-framer-name=2in1] + List_graisses > Textual_titles"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "systematic, plain",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "Two hairline-ruled columns on black: 'PP FRAMA TEXT' with the lowercase alphabet in Light → Bold (5 lines) and 'PP FRAMA DISPLAY' with it in Thin → Black (9 lines), style names right-aligned in each column",
+      "feel": "Orderly, reference",
+      "ux": "static",
+      "learn": "Put the two optical cuts side by side with the same alphabet line: the visitor sees the Text cut is wider and sturdier at the same weights",
+      "reconstruction": {
+        "layout": "~600px; two equal columns (~680px each) with 24px gutter; header row with rules above and below; lines ~50px pitch",
+        "typography": "Alphabet lines ~32px PP Frama Text / Display at each weight, grey (#c8c8c8) on black; headers ~12px caps; labels 12px",
+        "palette": [
+          "#040404",
+          "#2f2f2f",
+          "#c8c8c8"
+        ],
+        "behaviour": "none",
+        "content": "abcdefghijklmnopqrstuvwxyz per style",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "interlude",
+      "variant": "scroll-scrubbed-sequence",
+      "newVariant": true,
+      "variantDefinition": "A pinned frame sequence (dozens of pre-rendered images) of a themed object, scrubbed by scroll so the object turns, travels or releases letters; mood between sections with little or no text",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "industrial, playful",
+        "mobile": "adapts"
+      },
+      "look": "A long spiral-seam steel duct crosses the black screen horizontally; letters (I, k, J, mirrored S and b) tumble out of its open end",
+      "feel": "Mechanical, slightly absurd",
+      "ux": "Pinned stage; 59 full-HD frames scrub with scroll so the duct slides and blows letters out",
+      "learn": "Have the themed object produce the letters (a duct blowing out glyphs): the interlude still says 'this is a typeface'",
+      "reconstruction": {
+        "layout": "~2025px of scroll; sticky 100vh stage; duct spans the full width at mid-height; letters scatter in the left third",
+        "typography": "Flying letters ~50px PP Frama, white, rotated and mirrored (rendered into the frames)",
+        "palette": [
+          "#030303",
+          "#b1b4b1",
+          "#8f918f",
+          "#727472"
+        ],
+        "behaviour": "Stack_scroll: 59 stacked 1920×1080 webp frames; scroll progress selects the visible one",
+        "content": "none",
+        "assets": "59-frame render of a spiral steel duct with letters",
+        "html": "[data-framer-name=Stack_scroll] (59 img frames) + Vis_top"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "engineered, spec-sheet",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": true,
+        "namesOrUnicode": false
+      },
+      "look": "Grey panel framed in thin yellow lines: 'TECHNICAL SHEET / Manufactured by Pangram Pangram' in heavy blue caps, a blue spec blurb at right, and below a cropped giant lowercase run 'klmnopq' in blue sitting on yellow metric lines (ascender, x-height, baseline, descender)",
+      "feel": "Cool, drafting-table",
+      "ux": "The alphabet slides sideways along its metric lines in a looping muted Vimeo video",
+      "learn": "Draw the vertical metrics as coloured hairlines behind a moving alphabet: the font reads as an engineered system",
+      "reconstruction": {
+        "layout": "Panel 1392×1000 at 24px margins, 1px yellow (#d9dd7a approx.) frame lines; title block ~180px with a vertical rule splitting heading (left 65%) and blurb (right); video band below, full panel width, ~600px tall",
+        "typography": "Title ~66px PP Frama Black caps blue (#4f6eb9), tight; subline ~14px; blurb ~18px Text Regular blue; glyphs ~400px Regular blue in the video",
+        "palette": [
+          "#c3c6c4",
+          "#4f6eb9",
+          "#738abb",
+          "#c8cabd"
+        ],
+        "behaviour": "Muted autoplay looping Vimeo (alphabet marquee over metric lines)",
+        "content": "Lowercase alphabet; spec copy 'Built with precision and balance, this typeface functions as a clear channel for communication…'",
+        "assets": "Looping video of the alphabet on metric lines",
+        "html": "[data-framer-name=Technical_sheet] > Title (Title_gauche, Title_droit) + Stack_grid > iframe vimeo"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "precise, cool",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Left: 'ENGINEERED FOR EFFICIENCY' heading and blue prose on grey; right: a big blue panel with a grey 'a' (~500px) above a strip of ten small tiles showing default and alternate forms (a a ɑ ɑ g g M M y y)",
+      "feel": "Clean, product-detail",
+      "ux": "Hovering a tile (Framer component variants) shows that form in the large panel; it pairs the default and alternate of each letter",
+      "learn": "A ten-tile strip under one big glyph is enough to tour the alternates: keep the preview huge and the picker tiny",
+      "reconstruction": {
+        "layout": "Panel 1392×830 inside the yellow-framed grey chapter; text column ~480px left; preview area ~900×740px right with a 1px inner border; tile row at the bottom, 10 squares ~84px",
+        "typography": "Heading ~66px PP Frama Black caps blue; prose ~18px Text Regular blue; preview glyph ~500px Regular grey (#c4c7c6) on blue; tiles ~50px",
+        "palette": [
+          "#5379d9",
+          "#c4c7c6",
+          "#6988d1",
+          "#b2bac7"
+        ],
+        "behaviour": "Tile hover/click swaps the preview glyph (inferred from Framer 'Variant 1', Stack_haut/Stack_bas); no animation captured",
+        "content": "Default and alternate a, ɑ, g, M, y",
+        "assets": "none",
+        "html": "[data-framer-name=Section_test] > Title_gauche + Variant 1 > Stack_haut (preview) + Stack_bas (tiles)"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "witty, packaging parody",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "Three panels: 'YOUR NEW EVERYDAY TOOL' heading and prose; a nutrition-facts style label 'PP Frama / Precision Calibration • Optical Balancing • Structural Alignment / Strength 98%' listing Text 5 weights and Display 9 weights with numbered rows and a fine-print footnote; and a blue mock product box 'ALL IN ONE / The last font you will ever need / 100% GEOMETRIC / DANGER EXTREMELY VERSATILE'",
+      "feel": "Tongue-in-cheek, consumer-product",
+      "ux": "static",
+      "learn": "Dress the style list as a nutrition label (thick bars, numbered rows, '98%' stat): a dry weight list becomes a joke people read to the end",
+      "reconstruction": {
+        "layout": "Three columns inside the 1392px framed panel: text ~480px, label ~430px with thick blue bars between groups, product box ~440px solid blue; height ~820px",
+        "typography": "Heading ~66px Black caps blue; label title ~44px Regular, 'Strength 98%' ~36px Black, rows ~16px Text Regular with right-aligned numbers; box 'ALL IN ONE' ~56px Black white, '100 %' ~110px Thin black, 'DANGER' ~16px Bold",
+        "palette": [
+          "#c3c6c7",
+          "#5378d8",
+          "#afb8ca",
+          "#6e8bd5",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Label parody (Strength 98%, Text 1–5, Display 1–9, '* Typographic Calibration & Structural Optimization Services…'); box slogans",
+        "assets": "none (all live type and rules)",
+        "html": "[data-framer-name=Section_etiquette] > Etiquette (Barre bleu rules) + Mockup_bidon"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "design-object, soft, curated",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "series"
+      },
+      "look": "A pinned headline 'shapes in display' (Thin 'shapes' with an alternate P, Black 'display') over a small portrait poster; as you scroll the field turns brown → pale lime → grey and the poster swaps: a resin chair ('ICONIC / VERSATILITY'), stacked soft blobs ('Soft supply'), an inflatable dome ('built to last'), with a centred paragraph under each",
+      "feel": "Design-gallery, tactile",
+      "ux": "Three scroll triggers inside a sticky container step through the states; headline colour matches each poster",
+      "learn": "Keep one headline pinned and step the background colour and poster per scroll trigger: three moods for the price of one layout",
+      "reconstruction": {
+        "layout": "~2250px of scroll, sticky 100vh stage; headline centred ~720px wide at top third; poster ~300×400px centred overlapping the headline; paragraph ~380px wide centred below",
+        "typography": "'shapes' ~120px PP Frama Thin, 'in' superscript ~30px Black, 'display' ~90px Black; paragraph ~14px Text Medium centred, colour matching the headline",
+        "palette": [
+          "#4e3422",
+          "#eaf0ce",
+          "#cfd4d3",
+          "#f5c99a",
+          "#5a92c8",
+          "#f15a24"
+        ],
+        "behaviour": "Scroll triggers (trigger_01–03) switch background colour, headline colour and poster image (crossfade)",
+        "content": "Product-style posters for design objects; paragraph 'Built around balance and form… One flavor explores nine intensities… The other is made for daily use, offered in five calm variations.'",
+        "assets": "Three poster mockups with photos of design objects (chair, blob stack, dome)",
+        "html": "[data-framer-name=Shapes_and_display] > Triggers (trigger_01..03) + Sticky_container > Sticky_section"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "type-tester",
+      "variant": "labelled-editable-lines",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "bold, engineering, witty",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "On flat orange, '↓ Try Frama for Yourself ↓' then four outlined boxes: a full-width Black 900 headline 'Use this font tester. Roller bearings employ either cylindrical or tapered rollers…', and below it Medium 500, Regular 400 (small paragraph) and Thin 100 boxes, each with a tiny style / 'Weight: N' / Reset header",
+      "feel": "Loud, industrious, fun",
+      "ux": "Click into any box to type (contenteditable); Reset restores that box's text; no sliders",
+      "learn": "Write the tester copy in the font's theme (bearings and load capacity) and open it with an instruction ('Use this font tester.'): the default text both explains and sells",
+      "reconstruction": {
+        "layout": "~1320px; title centred; box 1 full width (1392px) ~550px tall; below, two columns: left stack Medium box (~200px) + Regular box (~220px), right Thin box (~420px); 1px black outlines, 8px radius; header row 12px above each box: style name left, 'Weight: N' centre, Reset right",
+        "typography": "Black 900 at 80px (5rem) centred, leading ~1.1; Medium 500 at 32px centred; Thin 100 at 48px centred; Regular 400 at 16px justified; headers 12px Text Light",
+        "palette": [
+          "#f86d04",
+          "#000000",
+          "#ca5909"
+        ],
+        "behaviour": "contenteditable boxes; Reset button restores the default string; no other state",
+        "content": "Mechanical-engineering prose about roller and thrust bearings",
+        "assets": "none",
+        "html": "[data-framer-name=Section_type_tester] > Tester_top (label row + button Reset + div[contenteditable]) + Testers_left > Stack_tester ×3"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "specimen-showcase",
+      "variant": "kinetic-scenes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "witty, gymnastic",
+        "mobile": "adapts",
+        "medium": "video",
+        "sequence": "single"
+      },
+      "look": "Off-white panel: heavy caps 'LETTERS BUILT TO DO THE HEAVY LIFTING' and a short paragraph left; in a framed box at right, a looping video of 'Ä' characters stacked in a human pyramid, one on top of three, their umlaut dots like heads",
+      "feel": "Playful, cartoonish",
+      "ux": "Sticky panel; muted looping video ('A_push_up') plays in view",
+      "learn": "Animate a letter as a character acting out the headline (Ä doing push-ups for 'heavy lifting'): copy and specimen tell one joke",
+      "reconstruction": {
+        "layout": "~1260px incl. sticky travel; heading column ~480px left, bottom-aligned with a hairline and paragraph under it; video frame ~920×580px right, 1px dark border, 12px radius",
+        "typography": "Heading ~66px PP Frama Black caps, near-black; paragraph ~16px Text Regular; Ä figures ~300px Regular in the video",
+        "palette": [
+          "#eef0e5",
+          "#242424",
+          "#b2b3ab"
+        ],
+        "behaviour": "Muted autoplay looping webm; section sticky",
+        "content": "'Geometry that Works as Hard as You Do'",
+        "assets": "Looping webm of animated Ä letters",
+        "html": "[data-framer-name=A_push_up] > Texte + Container_image > video[loop][muted]"
+      }
+    },
+    {
+      "blocks": [
+        "11",
+        "12"
+      ],
+      "type": "language-support",
+      "variant": "diacritic-word-wall",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "quiet, technical",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": false
+      },
+      "look": "On charcoal, a six-column grid of thin accented letters (e é ĕ ế ể ễ, ǻ ă ǎ ả ā ą…) at ~160px fills the right half, with the top row cropped to bare diacritics; bottom-left a small 'PP Frama / Supports many languages' and the language list",
+      "feel": "Calm, precise",
+      "ux": "Sticky panel; the rows of accented letters appear to roll upward in a loop (top row clipped mid-move)",
+      "learn": "Stack every diacritic on one base letter in a rolling grid: Vietnamese double accents prove the vertical spacing works",
+      "reconstruction": {
+        "layout": "100vh sticky + 450px buffer block; language text column ~330px bottom-left at x=24; glyph grid ~700px wide in the right half, 6 columns ~120px, rows ~165px",
+        "typography": "Glyphs ~160px PP Frama Thin, off-white (#e8e8e2); list ~16px Text Regular, label bold",
+        "palette": [
+          "#242424",
+          "#e8e8e2",
+          "#4e4e4c"
+        ],
+        "behaviour": "Vertical looping marquee of glyph rows (Framer component cycling 'Variant 8', groups A1–A7); continues into the 450px 'buffer' block",
+        "content": "e and a with acute, breve, circumflex, hook, tilde, dot below, ogonek, ring, macron and Vietnamese stacks; 33 languages incl. Vietnamese",
+        "assets": "none",
+        "html": "[data-framer-name=Img_3D_and_list] > Contenu (list) + A > A1..A7 (three glyphs each)"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "hardware-store, witty",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "single"
+      },
+      "look": "Left half: a flattened blue cardboard box of 'Nails' from 'PP FRAMA, Manufactured by Pangram Pangram, Box of 2025', with 'Holds Everything Together Forever' on a diagonal lime band, 'Keeps Meaning In Place' and a list of available weights",
+      "feel": "Tactile, deadpan",
+      "ux": "Sticky panel; the box image stays while the right column scrolls",
+      "learn": "Package the font as a box of nails: the packaging copy ('Keeps meaning in place') pitches reliability and the weight list reads like product contents",
+      "reconstruction": {
+        "layout": "Left 50% (720×1140) photo of the unfolded box, cropped at the edges, barcode strips at the corners",
+        "typography": "'Nails' ~150px PP Frama Bold, lime (#e5f5a0 approx.); 'PP FRAMA' ~40px Black; slogan ~36px Medium; weight list ~14px with weights set in each style",
+        "palette": [
+          "#5a92b8",
+          "#e5f5a0",
+          "#1a1a1a",
+          "#ebeced"
+        ],
+        "behaviour": "Sticky with the adjacent column (Section_sticky_geometric)",
+        "content": "Fake hardware packaging copy and the weight inventory",
+        "assets": "Photo/scan of a printed cardboard box",
+        "html": "[data-framer-name=Section_sticky_geometric] > Nails"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "didactic, Bauhaus",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "diagram"
+        ],
+        "length": "medium"
+      },
+      "look": "Right half, framed in light blue rules: 'FUNCTIONS OF FRAMA' in an outlined box, then ❶ STRENGTH (triangle), ❷ UNITY (circle), ❸ STRUCTURE (square), each with a solid blue shape and two columns of title-case prose, a Bauhaus note at the end, and a narrow column of technical drawings of valves and gauges",
+      "feel": "Manual-like, earnest with a wink",
+      "ux": "static; scrolls beside the sticky box",
+      "learn": "Ground a geometric sans in the three primitives (triangle, circle, square) as numbered 'functions': the brief reads like an equipment manual",
+      "reconstruction": {
+        "layout": "Right 50%: drawings column ~130px with 1px rounded frame; content column ~520px with outlined title box (~70px tall, 12px radius), three numbered sections ~260px each (shape ~50px top-right), closing two-column note",
+        "typography": "Title ~42px PP Frama Bold caps blue in outline box; section heads ~26px Bold caps with negative-circled numerals; body ~13px Text Medium Title Case, italics for second columns; all blue (#5a92b8)",
+        "palette": [
+          "#ebeced",
+          "#5a92b8",
+          "#cad9e2",
+          "#dae3e8"
+        ],
+        "behaviour": "none",
+        "content": "Triangle = strength, circle = unity, square = structure; 'In the Bauhaus movement, the triangle, circle, and square interact…'",
+        "assets": "Line drawings of valves, filters and a pressure gauge with part numbers",
+        "html": "Section_Geometric > Layout_droit (Img_schemas) + Layout_typo > Stack_shapes > Content_01..04"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "interlude",
+      "variant": "scroll-scrubbed-sequence",
+      "newVariant": true,
+      "variantDefinition": "A pinned frame sequence (dozens of pre-rendered images) of a themed object, scrubbed by scroll so the object turns, travels or releases letters; mood between sections with little or no text",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "sharp, sloganeering",
+        "mobile": "adapts"
+      },
+      "look": "A snap-off utility-knife blade slides diagonally up into a black stage framed by a thin orange line; mid-sequence an orange slogan 'bring precision into your life.' appears, rotated along the blade",
+      "feel": "Sharp, punchy",
+      "ux": "Sticky stage; 87 frames (72 unique, 2880×1600) scrub with scroll as the blade advances and the slogan appears",
+      "learn": "Pair a precision tool with a one-line slogan in the heaviest weight: the interlude delivers the brand promise in one image",
+      "reconstruction": {
+        "layout": "~2790px of scroll; sticky 100vh stage inside a 12px inset frame (1px orange border, rounded); blade enters from bottom-left to right; slogan ~560px wide at the centre, rotated ~−20°",
+        "typography": "Slogan ~90px PP Frama Black lowercase, orange (#f86d04), four lines, tight leading (rendered into the frames)",
+        "palette": [
+          "#030202",
+          "#3b434c",
+          "#454d55",
+          "#f86d04"
+        ],
+        "behaviour": "Sticky_wrap with stacked frames; scroll progress selects the frame",
+        "content": "'bring precision into your life.'",
+        "assets": "87-frame render of a snap-off blade",
+        "html": "[data-framer-name=Sticky_wrap] > Wrap > Wrap_comp > v04 (img frames)"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "industrial, bold",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "single"
+      },
+      "look": "On black, a thin orange 'INFORMATION CONDUIT / ENGINEERED FOR COMMUNICATION' title over a photo of an orange plastic tool case printed 'BASEFORM', 'Strong enough to hold meaning in place.' (rotated) and 'Designed by Mat Desjardins · Available soon on pangrampangram.com'",
+      "feel": "Rugged, utilitarian",
+      "ux": "static",
+      "learn": "Print the specimen on a rugged object (a tool case): the weights become product labelling and the photo carries the 'durable' claim",
+      "reconstruction": {
+        "layout": "~1210px; title centred at top (~420px wide); photo ~1050×840px centred, 16px radius",
+        "typography": "Title ~64px PP Frama Thin caps orange, two lines; kicker ~11px caps; case lettering 'BASEFORM' ~120px Black off-white, side text in Display/Text weights rotated 90°",
+        "palette": [
+          "#050403",
+          "#f9731b",
+          "#fa8a2a",
+          "#f4e3d0"
+        ],
+        "behaviour": "none",
+        "content": "Fake product branding on the case",
+        "assets": "Product photo mockup of a printed orange case"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "family-overview",
+      "variant": "big-number-stats",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "punny, matter-of-fact",
+        "mobile": "adapts",
+        "structure": "stats",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "White header: a heavy black '9to5' at top-left and a paragraph at right explaining 9 Display weights + italics vs 5 Text weights + italics, 'PP Frama' and 'Free to Try' under a rule; below, a rounded dark video panel where white, red, green, blue and yellow paper rectangles sit in a row",
+      "feel": "Workmanlike, witty",
+      "ux": "Muted autoplay looping Vimeo video below (paper shapes, probably assembling into forms); 'Free to Try' link",
+      "learn": "Turn the family's counts into a phrase ('9 to 5' = nine display, five text weights): the stat becomes a pitch for an everyday workhorse",
+      "reconstruction": {
+        "layout": "~880px; header row ~200px: '9to5' ~500px wide left, vertical rule, text column ~700px right; hairline; video panel full width minus 24px margins, ~640px tall, 16px radius",
+        "typography": "'9to5' ~160px PP Frama Black, tight tracking; paragraph ~20px Text Regular; meta row 12px",
+        "palette": [
+          "#fafafa",
+          "#282b30",
+          "#e21f26",
+          "#1b931b",
+          "#01a2d5",
+          "#f1e83a"
+        ],
+        "behaviour": "Vimeo loop autoplay muted (stop-motion paper shapes)",
+        "content": "'With 9 variable weights and italics in its Display style… its 5 variable weights and corresponding italics in the Text style ensure clarity…'",
+        "assets": "Stop-motion style video of coloured paper rectangles",
+        "html": "[data-framer-name=9to5] > words + Contenu_texte_droit + Radius_video > iframe vimeo"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "graphic, Swiss-retro",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "carousel"
+      },
+      "look": "A strip of rounded-corner specimen posters edge to edge: an editorial 'Story' page, a grey poster listing 'Alt MM / Round Dots / Alt Figures / Alt gg / Alt Ä and Ü / Alt ✱* / Alt aa' over a giant orange M, an orange charset sheet with 'Aa Aa' Text vs Display, and an olive pixel-block poster",
+      "feel": "Collectible, print-shop",
+      "ux": "Nine images in a row wider than the screen, probably an auto-scrolling marquee",
+      "learn": "Make each poster a specimen of one topic (alternates, charset, editorial use) so a carousel doubles as documentation",
+      "reconstruction": {
+        "layout": "~530px tall strip; 9 posters ~350×530px each with 12px radius and ~8px gaps, overflowing to the right",
+        "typography": "Posters use PP Frama Display and Text across weights (alternates list ~60px Bold, charset lines ~16px)",
+        "palette": [
+          "#eb5625",
+          "#afb0b0",
+          "#e5764b",
+          "#996830",
+          "#9aa33a"
+        ],
+        "behaviour": "Horizontal marquee of image_01…image_09 (inferred); no controls",
+        "content": "Specimen posters: alternates list, Text vs Display charset, editorial layout",
+        "assets": "9 poster images",
+        "html": "[data-framer-name=image_01]…[data-framer-name=image_09]"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "footer",
+      "variant": "big-sign-off",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "bright, Bauhaus, punning",
+        "mobile": "adapts",
+        "contains": [
+          "sign-off",
+          "legal"
+        ]
+      },
+      "look": "Stacked colour bands: multicolour overlapping 'Display' letters on orange, a giant black 'Text' on blue with a tiny 'TEXT VARIABLE 5 WEIGHTS & ITALICS' note, then green with a thin cream 'Frama follow function' and a blocky geometric 'FF' monogram, an orange 'GRAB THE FONT NOW' button and a blue copyright bar; a metal 'PP FRAMA available on Pangram Pangram' badge slides in",
+      "feel": "Joyful, poster-like, conclusive",
+      "ux": "Bands enter as you scroll (sticky colour layers); the badge slides in from the right; button links to the shop",
+      "learn": "End on a pun on the design motto ('Frama follow function') in the thinnest weight after the two subfamily names in the heaviest: the last screen restates the whole range",
+      "reconstruction": {
+        "layout": "~2110px; three full-bleed bands ~620px each: 'Display' band (letters overflow the top), 'Text' band (word ~1040px wide right of centre), green band with slogan left (~600px) and monogram right (~470px); copyright bar 24px tall inset 24px",
+        "typography": "'Display' ~450px Regular in overlapping transparent colours; 'Text' ~450px Black; slogan 160px (10rem) PP Frama Thin, three lines; button ~11px Bold caps; legal ~11px",
+        "palette": [
+          "#fd4c02",
+          "#3688b4",
+          "#0e7c19",
+          "#030404",
+          "#f7e7c0",
+          "#f6e244"
+        ],
+        "behaviour": "Coloured backgrounds follow scroll (Background_jaune_follow); Medal badge translates in from x+250px",
+        "content": "'Frama follow function', 'GRAB THE FONT NOW', '© 2018 – 2025 Pangram Pangram® Foundry'",
+        "assets": "Metal badge image; FF monogram SVG",
+        "html": "[data-framer-name=Footer] > Display + Text + Contenu_centre (Variant 1 slogan, Variant 3 button) + section_bas"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "direct",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "The only buy point besides the fixed header button: a small orange outlined pill 'GRAB THE FONT NOW' under the closing slogan, plus 'Free to Try' text in the 9to5 header",
+      "feel": "Low-key",
+      "ux": "Links to pangrampangram.com/products/frama (licences and trial live there)",
+      "learn": "When a fixed 'Get the font' button follows the reader everywhere, the end of page needs only one small repeat",
+      "reconstruction": {
+        "layout": "Pill ~205×44px at x=24 under the slogan; same style as the fixed header button",
+        "typography": "~13px PP Frama Bold caps black on orange with a darker orange outline",
+        "palette": [
+          "#f86d04",
+          "#000000"
+        ],
+        "behaviour": "Hover state (Framer variant)",
+        "content": "GRAB THE FONT NOW",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "20"
+      ],
+      "type": "chrome",
+      "variant": "fixed-header-bar",
+      "newVariant": true,
+      "variantDefinition": "A slim bar fixed to the top of the viewport for the whole page: name, foundry link and a buy/get button, sometimes site toggles (invert colours)",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "No bar background: an orange square 'PP foundry' logo fixed top-left and an orange outlined 'GET THE FONT' pill fixed top-right, repeated on every captured screen"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/name-over-photo",
+    "intro-animation/title-sequence",
+    "interlude/scroll-scrubbed-sequence",
+    "family-overview/style-word-grid",
+    "interlude/scroll-scrubbed-sequence",
+    "glyph-table/category-lines",
+    "glyph-table/glyph-inspector",
+    "family-overview/style-word-grid",
+    "specimen-showcase/in-use-mockups",
+    "type-tester/labelled-editable-lines",
+    "specimen-showcase/kinetic-scenes",
+    "language-support/diacritic-word-wall",
+    "specimen-showcase/in-use-mockups",
+    "story/design-brief",
+    "interlude/scroll-scrubbed-sequence",
+    "specimen-showcase/in-use-mockups",
+    "family-overview/big-number-stats",
+    "specimen-showcase/poster-series",
+    "footer/big-sign-off",
+    "checkout/link-out-cta"
+  ]
+}

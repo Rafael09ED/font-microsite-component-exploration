@@ -1,0 +1,550 @@
+{
+  "slug": "surt-font-eu",
+  "extractedBy": "agent",
+  "summary": "Blaze Type's template microsite for Surt, a 60-style variable sans (wdth, wght, slnt) 'inspired by Norse mythology and Scandinavian architecture': a 3D stone ampersand in a Nordic landscape, small grey label tabs and green control pills, pointer-driven axis panels, a weight-ramp marquee, a stylistic-set picker, a pairing tester with the foundry's other fonts and a carousel wall of real client work.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "kinetic-type",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "video",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "epic, Nordic, monumental",
+        "mobile": "adapts",
+        "carrier": "glyph",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "A rendered stone ampersand floating and turning above a rocky coastal ridge under a hazy sky, inset 10px on white; a mute toggle bottom-right and small grey 'INTRODUCTION' / 'CREDITS' tabs along the bottom edge; no name",
+      "feel": "Mythic, cinematic, quiet",
+      "ux": "The 3D glyph rotates (different angles across the storyboard); sound toggle; clicking the video scrolls to the content; a sticky bar (Blaze Type / Buy Surt / Download Trial) appears after scrolling",
+      "learn": "Render one characteristic glyph as a physical monument in a landscape that matches the font's mythology: mood before name",
+      "reconstruction": {
+        "layout": "Box x=10, y=40, 1420×785 (~87vh), media object-fit cover; mute icon 36px bottom-right; label tabs at the bottom edge",
+        "typography": "No display type; tab labels ~10px Surt caps in grey #6e6e6e pills with white text",
+        "palette": [
+          "#faf9f2",
+          "#110e0b",
+          "#b4cbeb",
+          "#b3b4b8"
+        ],
+        "behaviour": "Looping 3D render (video, here a placeholder image) of the '&' turning; .btn-mute swaps sound icons; click → smooth scroll to one viewport down",
+        "content": "None; the glyph alone",
+        "assets": "3D rendered stone '&' composited into a landscape (video loop)",
+        "html": "section.section-poster > video.intro-poster-bg (commented out) / img.poster + div.btn-mute > svg.icon-sound-off + svg.icon-sound-on"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "descriptive, calm",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Grey 'INTRODUCTION' label tab and a five-line paragraph in black at ~22px across the left two-thirds; the sticky Blaze Type / Buy Surt bar overlaps its top in the capture",
+      "feel": "Clean, Nordic-modern",
+      "ux": "static",
+      "learn": "A small UI-style label tab above each section keeps a long, varied page feeling like one tool",
+      "reconstruction": {
+        "layout": "Column x=40, 893px wide (left ~2/3); label pill above; right third holds the credits table (separate instance)",
+        "typography": "~22px Surt Regular, leading ~1.25, black; label 10px caps white on #6e6e6e, radius 4px",
+        "palette": [
+          "#f9faf9",
+          "#111111",
+          "#6e6e6e"
+        ],
+        "behaviour": "none",
+        "content": "'This typeface family, inspired by Norse mythology and Scandinavian Architecture, draws a bridge between a geometric sans and a human process…'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "factual",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "Not cut as a block: in the right column beside the intro, a 'CREDITS' tab over a ruled two-column fact table (Designed by Matthieu Salvaggio · Released in 2020 · Styles Upright, Italic, Normal, Expanded, Extended · Export .OTF .WOFF .WOFF2 .TTF (Variable) · Developed for Latin European Languages ▾)",
+      "feel": "Spec-sheet precise",
+      "ux": "The languages row expands as a dropdown; the hero's 'CREDITS' tab jumps here",
+      "learn": "Put the colophon facts (designer, year, styles, formats, languages) at the top as a spec table, not at the end",
+      "reconstruction": {
+        "layout": "Right column x≈950–1400; 5 rows ~22px with hairline rules; label left, value right-aligned",
+        "typography": "~12px Surt Regular black; tab 10px caps",
+        "palette": [
+          "#f9faf9",
+          "#111111",
+          "#d0d0cf"
+        ],
+        "behaviour": "details/summary dropdown for the language list",
+        "content": "Designer, release year, styles, export formats, languages",
+        "assets": "none",
+        "html": "header.section-header (Credits) + div.credits-details > div.credits-line ×5"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "technical, compact",
+        "mobile": "adapts",
+        "controls": [
+          "axes",
+          "weight"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A 'SPECS' tab followed by three bright-green pills, each holding a label and a tiny white slider (WIDTH, WEIGHT, SLANT), above a paragraph about the 60-font family set at wdth 100, wght 324, slnt -3.5",
+      "feel": "Compact, gadget-like",
+      "ux": "Drag the mini sliders to restyle the specs paragraph live (wdth 100–200, wght 100–900, slnt -10–0)",
+      "learn": "Embed the axis sliders in the section's label row so the description paragraph itself becomes the tester",
+      "reconstruction": {
+        "layout": "Label row of pills ~24px tall: grey 'SPECS' + three green pills ~120px wide with a slider inside; paragraph 893px wide below",
+        "typography": "Paragraph ~22px Surt at slnt -3.5, wght 324; pill labels 10px caps white",
+        "palette": [
+          "#f9f9f8",
+          "#2ed90d",
+          "#ffffff",
+          "#111111"
+        ],
+        "behaviour": "input[type=range] wdth/wght/slnt → font-variation-settings on the paragraph",
+        "content": "Real family description (60 fonts, Expanded and Extended, small caps, alternate numerals, fractions)",
+        "assets": "none",
+        "html": "div.control-slider > label + .control-slider-start + input[type=range] + .control-slider-end"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "systematic, clean",
+        "mobile": "adapts",
+        "structure": "matrix",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "Three ruled columns STANDARD / EXPANDED / EXTENDED, each with two lists of ten style names (Thin → Black) in roman and italic, every name set in its own style",
+      "feel": "Orderly, complete",
+      "ux": "static",
+      "learn": "Set each style name in itself in width columns × roman/italic: 60 styles fit in one short band",
+      "reconstruction": {
+        "layout": "1360px wide, 3 columns ~453px separated by 1px vertical rules; inside each, two sub-columns (roman, italic); 10 rows ~24px; column header 10px caps",
+        "typography": "~24px Surt, wght 100→900 down the list, slnt 0 (left) and -10 (right), wdth 100/150/200 per column; Thin in light grey",
+        "palette": [
+          "#fcfcfc",
+          "#111111",
+          "#909090"
+        ],
+        "behaviour": "none",
+        "content": "Style names only",
+        "assets": "none",
+        "html": "div.family-styles > div.family-width > h3.family-heading + span.family-style ×20"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "type-tester",
+      "variant": "pointer-xy-axes",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "atmospheric, playful",
+        "mobile": "adapts",
+        "controls": [
+          "weight",
+          "axes"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Washed-out grey photo of a white monolith ampersand sculpture on rocks, with 'Scandinavian / Architecture' at ~74px in italic centred and small italic lines above ('This typeface family, inspired by Norse mythology and…') and below ('…will allow text layouts to have this unusual corkiness.')",
+      "feel": "Airy, sculptural",
+      "ux": "Moving the pointer over the panel drives width horizontally (wdth 100–200) and weight vertically (wght 100–900) at a fixed slant -10; a small HUD shows the live values ('+ wdth : 114, slnt : -3')",
+      "learn": "Frame the phrase as a sentence fragment with lead-in and follow-on lines: the morphing words stay readable as copy",
+      "reconstruction": {
+        "layout": "1360×755px panel at x=40; background image cover, low contrast; three centred text blocks: top line at ~40px, sample at the centre, bottom line ~40px from the bottom",
+        "typography": "Sample ~74px Surt, slnt -10, default wdth 100, wght 400, leading 1.1; small lines ~13px italic",
+        "palette": [
+          "#ececec",
+          "#b2b2b2",
+          "#111111"
+        ],
+        "behaviour": "pointermove → map x to data-h-axis (wdth) and y to data-v-axis (wght) between data-*-min/max, write font-variation-settings; HUD reads values; resets to defaults on leave (likely)",
+        "content": "Themed sentence split around the sample: 'Scandinavian Architecture'",
+        "assets": "Desaturated landscape photo with a sculptural ampersand (images/fond.jpg)",
+        "html": "section.variable-tester[data-h-axis=wdth][data-v-axis=wght][data-h-min][data-h-max][data-v-min][data-v-max][data-axis=slnt][data-val=-10] > img.tester-background + .tester-top + .tester-sample + .tester-bottom; .tester-hud"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "rhythmic, systematic",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Ten full-bleed lines of the same intro sentence, each one weight heavier (100 → 900) from top to bottom, cropped at both edges",
+      "feel": "Flowing, like a news ticker in gradations",
+      "ux": "Each line is a horizontal marquee scrolling continuously",
+      "learn": "A weight ramp as stacked marquees: one sentence shows every weight and keeps moving",
+      "reconstruction": {
+        "layout": "1360px wide, ten lines of ~44px pitch (~448px total), overflow hidden, no gaps",
+        "typography": "~37px Surt, wdth 100, slnt 0, font-weight 100, 200 … 900 per line, black",
+        "palette": [
+          "#f7f7f7",
+          "#111111"
+        ],
+        "behaviour": "CSS translateX marquee per line with duplicated before/after copies for a seamless loop; possibly alternating speeds",
+        "content": "The intro sentence repeated",
+        "assets": "none",
+        "html": "section.section-marquee > div.marquee[style=font-weight:N] > div.marquee-inner > span.marquee-copy-before + text + span.marquee-copy-after"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "neutral, tool-like",
+        "mobile": "adapts",
+        "subject": [
+          "alternates",
+          "features"
+        ],
+        "presentation": "toggle",
+        "explanation": "none"
+      },
+      "look": "Left half: 'ALTERNATES' tab and a green 'STYLISTIC SET ▾' pill above a big light-grey card with the lowercase, figures and caps in black at ~58px, centred",
+      "feel": "Neutral, sample-card",
+      "ux": "The dropdown lists nine named sets (ss01 Geometric Alternates, ss02 Alternate Punctuation, ss04–ss09 square/lozenge/circled numbers, ss10 Alternate Ampersand); choosing one applies it to the alphabet card",
+      "learn": "Give each stylistic set a human name in the picker and apply it to the full alphabet so changes jump out",
+      "reconstruction": {
+        "layout": "Card ~700×1000px (left half of a 2-col grid), #f1f1f1, radius ~4px; alphabet block centred",
+        "typography": "~58px Surt Medium, centred, leading 1.25",
+        "palette": [
+          "#f4f4f4",
+          "#111111",
+          "#2ed90d"
+        ],
+        "behaviour": "details.control-select with radio list → font-feature-settings 'ssNN' on the card",
+        "content": "a–z, 0–9, A–Z",
+        "assets": "none",
+        "html": "section.alternate-tester > header > details.control-select > summary + ul.control-select-list > li.control-select-radio > input[name=alternate][data-value=ss01]"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "minimal, responsive",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "none"
+      },
+      "look": "Right half: two grey cards tabbed 'WEIGHTS' and 'WIDTHS', each holding one word that is the current style name ('Bold', 'Standard'), ~44px centred",
+      "feel": "Quiet until touched",
+      "ux": "Pointer over a card: x drives the card's axis (wght 100–900 or wdth 100–200) and y drives slant (0 to -10); the word changes to the nearest named style (Thin… Black, Standard/Expanded/Extended)",
+      "learn": "Let the sample word be the style name itself, so moving across an axis reads out the family's named instances",
+      "reconstruction": {
+        "layout": "Two stacked cards ~700×470px and ~700×470px in the right column, 24px gap; label tabs above",
+        "typography": "~44px Surt, default wght 692 slnt -3 (Weights) and wdth 114 slnt -3 (Widths)",
+        "palette": [
+          "#f4f4f4",
+          "#111111",
+          "#6e6e6e"
+        ],
+        "behaviour": "pointermove → data-h-axis (wght or wdth) and data-v-axis slnt; data-label-axis selects which axis names the word",
+        "content": "Style names",
+        "assets": "none",
+        "html": "section.variable-tester[data-h-axis=wght][data-v-axis=slnt][data-label-axis=wght]"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "type-tester",
+      "variant": "creative-toy",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "practical, editorial",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes",
+          "style-select"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A toolbar of WEIGHT and SLANT slider pills, a reset icon and four font chips (Armag selected in green, Apoc, Oroban, Joly, each label in its own font), over an editable 'Font Pairing' headline and paragraphs alternating Surt Bold and the chosen serif in a 2-up and 3-up grid",
+      "feel": "Editorial, a layout preview",
+      "ux": "Pick a companion Blaze font; drag Surt's weight (100–900) and slant (0 to -10); edit the headline; reset restores defaults",
+      "learn": "Recommend pairings from the foundry's own catalogue as a live layout: the tester also cross-sells",
+      "reconstruction": {
+        "layout": "Toolbar row; headline ~60px; then a 2-col row of large paragraphs (~24px) and a 3-col row of small ones (~16px), alternating fonts",
+        "typography": "Headline ~60px Surt wght 700; Surt paragraphs bold; companion paragraphs in Armag/Apoc/Oroban/Joly with per-font size corrections (data-font-size 1.075–1.2, data-offset-top)",
+        "palette": [
+          "#fafafa",
+          "#111111",
+          "#2ed90d",
+          "#6e6e6e"
+        ],
+        "behaviour": "radio name=font → font-family on .pairing-secondary with size and baseline correction; sliders → weight and slnt on .pairing-primary; button.control-reset",
+        "content": "Real foundry copy on why Surt was made to pair with Blaze's other fonts",
+        "assets": "Companion webfonts",
+        "html": "section.pairing-tester > .pairing-tester-controls (control-slider ×2, button.control-reset, div.control-radio > input[name=font]) + .pairing-tester-content > h2.pairing-primary[contenteditable] + p.pairing-secondary / p.pairing-primary"
+      }
+    },
+    {
+      "blocks": [
+        "08",
+        "09"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "professional, portfolio",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "carousel"
+      },
+      "look": "'IN USE' tab, one large carousel slide (Vrtiška & Žák architecture studio website with orange ceiling sculptures) with arrows and a dot strip, then a three-column masonry of small carousels (Rencontres Photographiques, Enzo Carniel at La Petite Halle poster, HIAS website, Tirana Art Lab, Studio Futura vinyl, Hinkilink identity, Lily Paris West, Milid app, Sneakers Generator), each captioned in small caps with green/grey dot pagination",
+      "feel": "Credible, a portfolio of real clients",
+      "ux": "Each project is its own looping, draggable carousel; the dots after the caption show its slide count",
+      "learn": "Give every in-use project its own mini-carousel and put the dots in the caption line: a dense wall that still lets each project show several views",
+      "reconstruction": {
+        "layout": "Large slider 1360×~900px; then 3-column masonry (~440px columns, 20px gutters), images at natural ratios, caption under each (~11px)",
+        "typography": "Captions ~11px Surt caps; pagination dots ~4px green (active) and grey",
+        "palette": [
+          "#fdfdfd",
+          "#0c0c0d",
+          "#2ed90d",
+          "#e4dad8"
+        ],
+        "behaviour": "Splide carousels (loop, draggable); arrows on the large one; dots in the caption",
+        "content": "Real client work: websites, posters, identities, an app",
+        "assets": "~70 project photos and screenshots",
+        "html": "div.splide.gallery-lg + div.splide.gallery.grid-item ×9 > .splide__track > ul.splide__list > li.splide__slide; .gallery-caption + .gallery-legend + ul.splide__pagination"
+      }
+    },
+    {
+      "blocks": [
+        "10",
+        "12"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "utilitarian",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "A sticky three-cell bar that slides in after the hero: grey 'BLAZE TYPE', bright green 'BUY SURT', grey 'DOWNLOAD TRIAL'; at the end a full-width grey button 'See Surt on Blaze Type's website ↗'",
+      "feel": "Always available, low-key",
+      "ux": "Buy and the end button open blazetype.eu/typefaces/surt; trial opens blazetype.eu/trials",
+      "learn": "A three-equal-cell sticky bar (foundry · buy · trial) keeps the buy button one click away without a header",
+      "reconstruction": {
+        "layout": "Sticky header: three equal cells ~470×24px across the top with 4px gaps, hidden until scroll; end button 1360×80px, centred label",
+        "typography": "~10px Surt caps centred; end button ~12px white on #6e6e6e",
+        "palette": [
+          "#2ed90d",
+          "#e0e0e0",
+          "#6e6e6e",
+          "#ffffff"
+        ],
+        "behaviour": "header.site-header-sticky toggles .hide after the hero",
+        "content": "Blaze Type / Buy Surt / Download Trial",
+        "assets": "external-link icon",
+        "html": "header.site-header-sticky.hide > a.header-block ×3; a.website-link"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Sticky top bar of three equal cells (Blaze Type · green Buy Surt · Download Trial), hidden above the viewport until the visitor scrolls past the hero"
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "video",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "cinematic, otherworldly",
+        "mobile": "adapts"
+      },
+      "look": "'Discover other Blaze fonts:' and a carousel of tall rounded video cards, each a 3D-rendered scene with the family name in white in its own font (Apoc in fog with black monoliths, Oroban with pink blossoms, Area on a concrete building); a slim credit line '© Blaze Type 2022 · Design: Alexis Cros · Coding: Max Esnée' below",
+      "feel": "Moody, collectible, like film posters",
+      "ux": "Draggable carousel; each card links to that font's microsite; videos loop",
+      "learn": "Give each sibling family its own looping 3D mood video so cross-links feel like trailers",
+      "reconstruction": {
+        "layout": "Cards ~470×700px, radius ~6px, 20px gaps, the fourth cut by the edge; credit line ~11px below",
+        "typography": "Names ~70px in each family's typeface, white, centred",
+        "palette": [
+          "#302c30",
+          "#f8f8f8",
+          "#668b76",
+          "#d1ced0"
+        ],
+        "behaviour": "Splide carousel; autoplaying muted video per card",
+        "content": "Sibling families Apoc, Oroban, Area, …",
+        "assets": "Looping 3D render videos per family"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/kinetic-type",
+    "story/large-text-intro",
+    "footer/credits-colophon",
+    "type-tester/slider-sandbox",
+    "family-overview/style-word-grid",
+    "type-tester/pointer-xy-axes",
+    "specimen-showcase/word-stack",
+    "design-details/feature-before-after",
+    "design-details/axis-explainer",
+    "type-tester/creative-toy",
+    "specimen-showcase/in-use-mockups",
+    "checkout/link-out-cta"
+  ]
+}

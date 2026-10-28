@@ -1,0 +1,307 @@
+{
+  "slug": "kermit-font-com",
+  "extractedBy": "agent",
+  "summary": "Underware's site for Kermit, Microsoft's 'writable' font for children with a built-in time axis that draws letters stroke by stroke. Four full-screen views switched by icons in the four corners (▶ Experience, ✎ Write, 📖 Read, 👁 Look): a glyph drawn on with its Bézier points, a tester that replays your text being written, three essays, and a poster gallery. Only the splash and the first essay were captured; Write and Look exist only in the HTML.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "05"
+      ],
+      "type": "hero",
+      "variant": "construction-drawing",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "gentle, technical, magical",
+        "mobile": "adapts",
+        "carrier": "glyph",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Dark blue-grey screen with soft diagonal light streaks; one big glyph (a '2', on other loads a 'K' or '&') drawn as a hot-pink outline with Bézier points and handles, captioned 'This is Kermit / And this is the number two (Roman, wght 266) / They say it takes two to tango' above small Underware and Microsoft logos",
+      "feel": "Calm and wondrous, like watching a pen write in the dark",
+      "ux": "The outline draws itself stroke by stroke after a ~4s load (storyboard: partial '2' at 4.7s, complete by 7.9s); a hidden '▶write' button and a 0–1000 slider (#splashSlider) replay and scrub the writing; the glyph and its caption are picked at random per visit",
+      "learn": "Introduce a time-based font by letting the hero glyph write itself as an outline with its points visible: the mechanism is the message",
+      "reconstruction": {
+        "layout": "Full screen 1440×900; glyph centred ~520px tall from y≈140; title ~44px centred at y≈670; two italic caption lines below; logos ~80px wide at y≈795; four corner icons ~24px at 24px insets",
+        "typography": "Title 'This is Kermit' ~44px KermitRoman wght 266, light grey; captions ~13px KermitItalic grey, the second naming the glyph, style and weight in parentheses; glyph outline stroke 2–3px #f06 with ~8px round nodes and handle lines",
+        "palette": [
+          "#15181c",
+          "#161b22",
+          "#ff0066",
+          "#d9d9d9"
+        ],
+        "behaviour": "SVG lines and nodes (#splashSVG) revealed in stroke order on load; splashSlider (0–1000) scrubs the write-on, the ▶write button replays it; random glyph per load with a matching witty caption",
+        "content": "One glyph plus a pun about it ('They say it takes two to tango', 'The name Kermit starts with this')",
+        "assets": "none (glyph outline generated as SVG)",
+        "html": "section.screen#screen1 > svg#splashSVG + div#splashText (h1 + h2#splashLine1 + h2#splashLine2) + div#splashInterface (button#splashButton + input#splashSlider) + .logos"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "pictographic, childlike",
+        "mobile": "adapts"
+      },
+      "look": "No bar: four line icons fixed in the four corners of every screen, ▶ (Experience, pink or green) top-left, a pen (Write) top-right, an open book (Read) bottom-left, an eye (Look) bottom-right; never cut as its own block",
+      "feel": "Wordless and child-friendly",
+      "ux": "Each corner switches the full-screen view (Experience / Write / Read / Look); the Read view adds a centre-left button that opens an index of the three essays",
+      "learn": "Four views, four corners: a navigation a child can learn without reading",
+      "reconstruction": {
+        "layout": "Fixed icons ~24×24px at 24px from each viewport corner; views are full-screen sections faded in and out (opacity) rather than scrolled",
+        "typography": "none (icons only)",
+        "palette": [
+          "#ff0066",
+          "#2ee6a8",
+          "#ffffff",
+          "#000000"
+        ],
+        "behaviour": "Click a corner → the matching section.screen gets opacity 1; the play icon recolours per view",
+        "content": "Section names live only in the HTML descriptions: '1 Experience: this is Kermit', '2. Write: font tester', '3. Read: 3 stories about Kermit', '4. Look: pictures and details'",
+        "assets": "Four line icons (play, pen, book, eye)",
+        "html": "nav > #topBar + button.center-left.nav-button2 (essay index) + corner buttons; section.screen[description]"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "type-tester",
+      "variant": "write-on-playback",
+      "newVariant": true,
+      "variantDefinition": "Editable samples in a font with a time (write-on) axis: a play button draws the typed text stroke by stroke and a timeline slider scrubs the writing progress, instead of size or style controls.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "encouraging, childlike",
+        "mobile": "unknown",
+        "controls": [
+          "text"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Not captured (the Write screen came out black). From the HTML: six stacked editable samples in Kermit Roman and Italic at weights 100–800 ('I can write.', 'I am Kermit.', 'That's right!', 'Read & enjoy.', 'Panta Rhei', 'Right to read.'), each with a '▶write' button and a thin timeline slider; top bar 'get license' and '▶write all'",
+      "feel": "Magic-slate: the computer writes your words like a hand would",
+      "ux": "Type in any sample; ▶write animates it being written stroke by stroke; drag the 'write frame' slider (0–1000) to scrub; '▶write all' plays every row at once; two writestyle modes per row",
+      "learn": "When the font has a time axis, the tester's main control is a play button and a timeline, not size or weight",
+      "reconstruction": {
+        "layout": "Full screen; top bar with two buttons; six rows each = a wide SVG stage (viewBox 0 -100 7000 1200, i.e. ~6:1) over a contenteditable line, then a stagemenu row (button + full-width range)",
+        "typography": "Samples presumably ~100px KermitRoman/KermitItalic, wght 800, 800, 400, 100, 700, 650; buttons ~14px",
+        "palette": [
+          "#010101",
+          "#ff0066",
+          "#ffffff"
+        ],
+        "behaviour": "contenteditable input mirrored into an SVG stage; play button animates the write frame 0→1000 (the font's time axis / stroke order); slider scrubs; writestyle attribute switches between two writing renderings",
+        "content": "Short first-person reading affirmations for children",
+        "assets": "none",
+        "html": "section.example > div.stageContainer[writestyle][fontstyle][weight] > svg.stageSVG + div.stageInput[contenteditable] ; div.stagemenu > button.write + input.writeFrame[type=range min=0 max=1000]"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "05"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "literary, thoughtful",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "photo",
+          "diagram",
+          "process"
+        ],
+        "length": "long"
+      },
+      "look": "White reading screen with a book-like article: big bold italic title 'Introducing Kermit / A Typeface for Kids', grey italic standfirst, '— Rob McKaughan (Microsoft)', then an indented single column of body text set in Kermit with italic titles (Harry Potter, Narnia)",
+      "feel": "Like a well-set children's book essay",
+      "ux": "Three essays ('Introducing Kermit' by Rob McKaughan, 'Time to play' by Underware, 'Hints of paradigm shifts' by Gerry Leonidas) picked from an essay index; superscript footnote links jump to numbered notes; lazy-loaded figures (prosody captioning, variable typography, HOI vs linear interpolation)",
+      "learn": "Invite outside voices (client, critic) to write the story and set it as a proper essay with footnotes: the read view doubles as a long text specimen",
+      "reconstruction": {
+        "layout": "Single column ~720px wide from x≈200 on white; title, standfirst, byline, then paragraphs with first-line indents (p.indent) and figure images at column width; footnotes list at the end of each article",
+        "typography": "Title ~58px KermitItalic wght ~800, leading 1.1; standfirst ~30px KermitItalic grey #909090; byline ~16px Zeitung grey; body ~20px/1.6 KermitRoman with italics; footnote markers as sups",
+        "palette": [
+          "#fafafa",
+          "#1a1a1a",
+          "#909090"
+        ],
+        "behaviour": "Essay index (centre-left button) switches article #article1/2/3; footnote anchors; lazy images",
+        "content": "Three real essays on readability for kids, dyslexia, prosody captioning and writable fonts",
+        "assets": "Essay figures (specimen photo, prosody caption examples, interpolation diagrams, a GIF)",
+        "html": "article.essay#article1 > section.title (+ span.author) + p.indent… + img.essayImage + section.footnotes > ol > li#footnote-N"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "friendly, informative",
+        "mobile": "unknown",
+        "medium": "illustration",
+        "sequence": "series"
+      },
+      "look": "Not captured (the Look screen came out black). From the HTML: 29 full-width poster images (Kermit-poster-01…29, SVG and PNG) in one column, interrupted by four short text panels on the writable technology, the 42-style family, tabular figures and alternates, and availability in Microsoft 365",
+      "feel": "Picture-book gallery with fact sheets between the pages",
+      "ux": "Scroll a long stack of posters; top bar 'get license', 'PDF', 'contact'",
+      "learn": "Alternate full-width specimen posters with one-paragraph facts, so the gallery also answers the buyer's questions",
+      "reconstruction": {
+        "layout": "Single column, images width 100%; .lookText paragraphs between posters 1–2, 2–3, after ~18 and at the end",
+        "typography": "lookText ~20px KermitRoman; posters carry their own type",
+        "palette": [
+          "#010101",
+          "#ffffff",
+          "#ff0066"
+        ],
+        "behaviour": "lazy-loaded images",
+        "content": "Facts: 'Kermit includes a unique time axis', '7 weights, each with accompanying italics… 42 fonts… Latin, Greek and Cyrillic', 'All numbers are tabular', 'available through Microsoft 365'",
+        "assets": "29 specimen poster graphics",
+        "html": "section.screen#screen4 > .topBar + (img.lazy-img[width=100%] | div.lookText)…"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "low-key",
+        "mobile": "unknown",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "Small 'get license' buttons in the top bar of the Write and Look screens (with 'PDF' and 'contact' beside them on Look); a closing text panel notes Kermit is free in Microsoft 365 and licensable from Underware",
+      "feel": "Unobtrusive, informational",
+      "ux": "'get license' links to underware.nl/fonts/kermit/buy; 'PDF' downloads /_assets/Kermit.pdf; 'contact' is a mailto",
+      "learn": "When the font already ships with an OS suite, the buy link can be a quiet utility button",
+      "reconstruction": {
+        "layout": "Top bar across the screen: left, middle and right buttons ~14px text",
+        "typography": "~14px Zeitung lowercase",
+        "palette": [
+          "#010101",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "get license / PDF / contact",
+        "assets": "PDF specimen",
+        "html": ".topBar > a > button.left.top.writeAll"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "thorough, grateful",
+        "mobile": "unknown",
+        "contains": [
+          "credits",
+          "contact"
+        ]
+      },
+      "look": "Not captured. At the end of the Look view: 'About Underware', 'Acknowledgments' (designers, cooperators, production, the Microsoft team, hinting, external advisors) and 'Colophon' with a long thank-you list",
+      "feel": "Generous, academic",
+      "ux": "static text with links",
+      "learn": "A commissioned font can credit the client team by name next to the foundry",
+      "reconstruction": {
+        "layout": "Text sections stacked in a column under the posters",
+        "typography": "Bold run-in heads ('About Underware') then ~16px body",
+        "palette": [
+          "#010101",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Foundry bio, credits by role, thanks list",
+        "assets": "none",
+        "html": "section.footer > section > b + text; span.label"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "02",
+      "reason": "empty capture: solid black screen (inactive full-screen view faded out); the Write tester lives here in the HTML"
+    },
+    {
+      "block": "03",
+      "reason": "empty capture: solid black screen (inactive view)"
+    },
+    {
+      "block": "04",
+      "reason": "empty capture: solid black screen (inactive view); the Look gallery exists only in the HTML"
+    }
+  ],
+  "sequence": [
+    "hero/construction-drawing",
+    "type-tester/write-on-playback",
+    "story/essay",
+    "specimen-showcase/poster-series",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

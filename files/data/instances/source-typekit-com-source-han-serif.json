@@ -1,0 +1,440 @@
+{
+  "slug": "source-typekit-com-source-han-serif",
+  "extractedBy": "agent",
+  "summary": "Adobe's launch page for an open-source Pan-CJK serif (2017), laid out like a long press article in black-and-white line art: a hero grid mixing Chinese, Japanese and Korean characters on writing-practice cells, a video, big glyph statistics, line-drawn mock software UIs, a four-region comparison of one code point with a 'Spot the differences' button, a weight row with a one-character tester, line-portrait team bios and a grid of Typekit cards plus download links. A corporate, multi-partner (Adobe, Google, Sandoll, Iwata, SinoType) voice; the whole page, UI included, is set in the typeface and localised in five languages.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Static top strip: Adobe logo at the left, a language switcher 'English · 简体中文 · 繁體中文 · 日本語 · 한국어' (current greyed) at the right, all set in Source Han Serif"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Fixed at the right edge (stitched over many crops): three small outlined boxes stacked vertically, 'STORY', 'TEAM', 'FONTS', jumping to #story, #team and #get-the-fonts"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "glyph-grid-sampler",
+      "newVariant": true,
+      "variantDefinition": "The first screen is a small name and subtitle over a large uniform grid of characters drawn from every script or language the family covers (often on writing-practice guide lines and bleeding off the page); the coverage itself is the first impression.",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "scholarly, calm, pan-Asian",
+        "mobile": "adapts",
+        "carrier": "glyph",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "White page: 'Source Han Serif' in bold serif and 'An open source Pan-CJK typeface' below it, then a 5-row grid of characters mixing Traditional Chinese, Simplified Chinese, Japanese kana and Korean hangul (社 시 此 십 べ キ 포 現 …), each in a square cell with faint diagonal and centre guide lines like a calligraphy practice sheet; the grid bleeds off the left edge",
+      "feel": "Orderly, literary, inclusive",
+      "ux": "A short loader first (a boxed '源' turning like a cube, ~1s); then static; section jumps via the fixed STORY / TEAM / FONTS tabs",
+      "learn": "Interleave the scripts cell by cell instead of grouping them: one grid says 'four languages, one design' before any text, and the 米字格 guide lines frame them in a shared tradition",
+      "reconstruction": {
+        "layout": "Content column 1041px from x=200; title block ~130px; grid of 14+ columns × 5 rows of ~75px square cells (1px #d0d0d0 borders with thin diagonal and cross guides drawn by an <i> overlay), extending past the left page edge at 1440",
+        "typography": "Title ~52px Source Han Serif Bold (Latin from Source Serif); subtitle ~26px Bold; grid glyphs ~54px Source Han Serif Regular, each span tagged lang=zh-Hant / zh-Hans / ja / ko to pick the regional font",
+        "palette": [
+          "#fafafa",
+          "#000000",
+          "#d0d0d0",
+          "#b0b0b0"
+        ],
+        "behaviour": "Loader cube with a rotating glyph before the page appears; grid static",
+        "content": "High-frequency characters from each of the four CJK locales",
+        "assets": "none (live text; guide lines in CSS)",
+        "html": ".container.header > h1.title + h2.sub-title + .glyph-table > .cell > span[lang] + i (guide-line overlay); .navigation > a.nav-item[href=#story|#team|#get-the-fonts]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "making-of",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "crafted, documentary",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "illustration",
+          "process"
+        ],
+        "length": "short"
+      },
+      "look": "A wide framed poster in black line art of a hand holding a fine brush (the moment before a stroke), with a round outlined play button at the bottom right",
+      "feel": "Hand-made, respectful",
+      "ux": "Play opens the partners' video about how the project came together (#story); repeated as a smaller video row in the team section",
+      "learn": "Use one line drawing (a hand with a brush) as the video poster: it ties a corporate collaboration film to the calligraphic origin of the forms",
+      "reconstruction": {
+        "layout": "1041px wide, ~588px tall frame with 1px grey border; illustration fills it; play button ~90px circle at bottom right",
+        "typography": "none",
+        "palette": [
+          "#fcfcfc",
+          "#000000",
+          "#d5d5d5"
+        ],
+        "behaviour": "Click .video-button → plays the embedded video (YouTube yNfYdxgV1jA)",
+        "content": "Project film",
+        "assets": "Line-art poster image (video.png), play icon SVG",
+        "html": ".container.video.video-wrapper#story > img + svg + .video-button"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "05",
+        "07",
+        "09",
+        "11"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "press release, institutional",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "Short article paragraphs between the figures, in a single 1041px column of ~21px serif: what Source Han Serif is (second Pan-CJK family, 1.5 billion people, 65,535 glyphs × 7 weights, Latin/Greek/Cyrillic from Source Serif), the Adobe–Google collaboration with Sandoll, Iwata and SinoType, quotes from Google's Bob Jung and Sandoll's CEO ('No More Tofu'), its literary personality, and free Typekit access",
+      "feel": "Informative, measured",
+      "ux": "Inline links to blog posts, partner foundries, Typekit lists",
+      "learn": "Structure a launch page as an article whose figures are live type demos: each paragraph sets up the specimen that follows it",
+      "reconstruction": {
+        "layout": "Single column 1041px from x=200, 2–3 paragraphs per block, ~60px between text and figures; quotes as indented paragraphs with quotation marks",
+        "typography": "~21px Source Han Serif Regular (Latin from Source Serif), leading ~1.6, black; links underlined; hyphenation on",
+        "palette": [
+          "#fafafa",
+          "#000000",
+          "#d0d0d0"
+        ],
+        "behaviour": "none",
+        "content": "Real project facts, partner credits and executive quotes",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "family-overview",
+      "variant": "big-number-stats",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "impressive, factual",
+        "mobile": "adapts",
+        "structure": "stats",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "Left: three big light numerals with small labels, '65,535 glyphs per weight', '7 weights', '458,745 glyphs in total'; right: a framed wall of 13 rows of characters cycling through TC, KR, SC and JP, with columns getting heavier from ExtraLight to Heavy, labelled '24px ExtraLight … Heavy' underneath",
+      "feel": "Monumental yet tidy",
+      "ux": "static",
+      "learn": "Pair the headline numbers with a dense wall that shows them: the weights run across, the locales run down",
+      "reconstruction": {
+        "layout": "Full width 1440 (~400px tall): stats column ~560px (numbers right-aligned to labels); glyph wall ~760px wide in a hairline frame, 7 weight columns of ~3 characters each, 13 rows",
+        "typography": "Numbers ~70px Source Han Serif ExtraLight/Light; labels ~16px Bold; wall glyphs 24px in 7 weights; legend 10px grey",
+        "palette": [
+          "#fafafa",
+          "#000000",
+          "#d0d0d0",
+          "#b1b1b0"
+        ],
+        "behaviour": "none",
+        "content": "Glyph counts; high-frequency characters per locale",
+        "assets": "none",
+        "html": ".glyph-count > .glyph-count-info (.row > span.number + span.label) + .glyph-count-graphic > div[lang] × 13"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "product demo, line-art",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "single"
+      },
+      "look": "Centred heading 'Source Han Serif / Available on Typekit for web use and desktop sync' with an outlined 'GET THE FONTS' pill, then two line-drawn application windows: an 'Adobe Photoshop CC 2017' window with a Character panel and an open font menu listing every style (JP, TC, K, SC × ExtraLight…Heavy) with a sample '文字もじモジ' in each, 'Source Han Serif Bold' highlighted, and '文字' on the canvas; and a browser window showing '源ノ明朝 / オープンソース Pan-CJK 書体' with an inspector pane of the HTML and CSS",
+      "feel": "Clear, explanatory, elegant",
+      "ux": "Button jumps to #get-the-fonts; the mockups are static",
+      "learn": "Draw the software UI in the page's own line style but keep every label as live text in the font: the menu itself becomes a style list (all 28 styles) and the browser pane shows the CSS to use",
+      "reconstruction": {
+        "layout": "Full width 1440, ~1030px; heading centred; two overlapping windows: desktop app at left (~700×800, cropped by the viewport edge) and browser at right (~700×650) with a split inspector at the bottom",
+        "typography": "Heading ~32px Source Han Serif Bold, 2 lines centred; menu rows ~12px names with samples in each weight; browser h1 ~60px Bold, h4 ~36px Regular; code ~12px",
+        "palette": [
+          "#f8f8f8",
+          "#000000",
+          "#d4d4d3",
+          "#2f8f2f"
+        ],
+        "behaviour": "none observed (an .active font-choice row)",
+        "content": "Real style names; HTML/CSS snippet: body { font-family: \"source-han-serif-japanese\", serif } h1 { font-weight: 700 } h4 { font-weight: 600 }",
+        "assets": "Line-drawn window chrome (CSS borders/SVG); Typekit badge icons",
+        "html": ".container.typekit > h1.secondary-title + a.button + .typekit-graphic > .desktop-use .font-menu > .font-choice (span.name + span.sample.<weight>[lang])"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "language-support",
+      "variant": "multiscript-specimen",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "precise, didactic",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": true
+      },
+      "look": "One code point four times: '曜' at ~200px in four guide-lined cells, each headed 'UNICODE U+66DC / LANGUAGE Traditional Chinese | Simplified Chinese | Japanese | Korean'; an outlined 'SPOT THE DIFFERENCES' button and a caption about regional glyph variants",
+      "feel": "Puzzle-like, enlightening",
+      "ux": "Clicking 'Spot the Differences' reveals circles (four .spot markers per cell) on the strokes that differ between the regional forms",
+      "learn": "Show the same Unicode code point in each locale side by side and let the visitor ask for the answer: it explains language tagging better than prose",
+      "reconstruction": {
+        "layout": "1041px column; 4 equal cells (~260px) each with a two-row label (small caps label + value) above a square glyph cell with diagonal guides; button right-aligned under the row; caption left (~700px)",
+        "typography": "Labels ~10px Source Han Serif caps tracked grey + 14px Bold values; glyph ~200px Bold/Heavy; caption ~14px Bold; button 12px caps tracked in a rounded outline",
+        "palette": [
+          "#fafafa",
+          "#0a0a0a",
+          "#d0d0d0",
+          "#929292"
+        ],
+        "behaviour": "#spot click toggles visibility of .spot1–.spot4 circles over each glyph",
+        "content": "曜 (U+66DC) in zh-Hant, zh-Hans, ja, ko",
+        "assets": "none (spots in CSS)",
+        "html": ".glyph-regional-design > .glyph-info > .glyph-info-item (.row label/value ×2) + .glyph-graphic > .cell[lang] > .spot.spot1…4 + span + i ; #spot.button"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "clean, systematic",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "glyph",
+        "interactive": true
+      },
+      "look": "A row of seven guide-lined cells each holding '漢' in one weight, ExtraLight to Heavy, with the weight names above (labels get bolder too), a small 'Test Glyph' field, and the caption 'Source Han Serif has 7 different weights…'",
+      "feel": "Calm, exact",
+      "ux": "Type one character into the 'Test Glyph' input (maxlength 1) and all seven cells show it",
+      "learn": "For CJK, a one-character tester across all weights is more useful than a sentence: the visitor checks the exact ideograph they care about",
+      "reconstruction": {
+        "layout": "1041px column; label row ~30px; 7 equal square cells (~148px) with 1px borders and diagonal guides; small input under/beside; caption under",
+        "typography": "Labels ~14px in matching weights; glyphs ~120px Source Han Serif TC at 200…900; caption ~14px Bold",
+        "palette": [
+          "#fafafa",
+          "#060606",
+          "#d0d0d0",
+          "#909090"
+        ],
+        "behaviour": "input[type=text][maxlength=1][lang=zh-Hant] → replaces the span in each .weight-graphic .cell",
+        "content": "漢",
+        "assets": "none",
+        "html": ".variations > .weight-info > span × 7 + .weight-graphic[lang=zh-Hant] > .cell > span + i ; .tester > span.label + input[maxlength=1]"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "story",
+      "variant": "designer-bio",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "appreciative, professional",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "illustration"
+        ],
+        "length": "medium"
+      },
+      "look": "'Meet the world-class team behind Source Han Serif': a framed video row (hand-and-brush drawing, play button, 'Watch our video to learn more about the partners…'), a paragraph, then three line-drawn portraits in hairline frames (Dr. Ken Lunde, Ryoko Nishizuka, Frank Grießhammer) each over a bio with the name in bold",
+      "feel": "Humanising, respectful",
+      "ux": "Video plays inline or on YouTube; links to Google's announcement, an interview with Ryoko Nishizuka and Source Serif",
+      "learn": "Draw the team as line portraits in the same style as the page illustrations, so the people sit inside the design system rather than as stock headshots",
+      "reconstruction": {
+        "layout": "1041px column; heading; video row (poster ~300px + text) in a 1px frame; paragraph; three columns (~330px) each with a ~330×330 framed portrait and a bio",
+        "typography": "Heading ~32px Source Han Serif Bold; video caption ~28px Light; body ~19px Regular, leading ~1.6, names Bold",
+        "palette": [
+          "#f4f4f4",
+          "#000000",
+          "#d9d9d9"
+        ],
+        "behaviour": "none (video on click)",
+        "content": "Roles: project architect (Lunde), chief type designer for ideographs and kana (Nishizuka), Latin/Greek/Cyrillic designer (Grießhammer)",
+        "assets": "Line-art portraits (ken.png, ryoko.png, frank.png), video poster",
+        "html": "#team"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "helpful, orderly",
+        "mobile": "adapts",
+        "destination": "distributor",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "'Get the fonts': two rows of four Typekit-style cards (Serif and Sans × Traditional Chinese 繁體, Simplified 简体, Japanese 永あ, Korean 한글), each with a big sample, the family name, 'Adobe' and '7 fonts'; then four outlined link cards with line icons: Direct download (ZIP), Get started with Typekit, GitHub (in English only), Download guide (PDF)",
+      "feel": "Clear, catalogue-like",
+      "ux": "Each card opens that family on Typekit; ZIP and GitHub for the open-source files; a PDF guide explains which file to choose",
+      "learn": "Label each regional font with two or three characters in its own locale (繁體, 简体, 永あ, 한글): the right download is recognisable at a glance, and a PDF guide handles the confusing choice",
+      "reconstruction": {
+        "layout": "1041px column; intro paragraph; 4-column card grid (~240×180 cards, 1px border, sample top, meta row bottom), two rows; 2-column grid of link cards (~490×100) with 60px icons",
+        "typography": "Heading ~32px Bold; intro ~19px; card samples ~40px Source Han Serif/Sans Bold in each locale; card meta ~12px Bold/Regular; link cards ~24px Light",
+        "palette": [
+          "#fafafa",
+          "#000000",
+          "#d5d6d5"
+        ],
+        "behaviour": "none",
+        "content": "8 regional font cards; 4 download/help links",
+        "assets": "Line icons (download, Typekit, GitHub, PDF)",
+        "html": "#get-the-fonts a.font-card × 8 ; a.link-card.direct-download|help-typekit|github|guide-pdf"
+      }
+    },
+    {
+      "blocks": [
+        "14",
+        "15"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "corporate legal",
+        "mobile": "adapts",
+        "contains": [
+          "legal",
+          "socials"
+        ]
+      },
+      "look": "A centred pair of outlined share buttons (Twitter, Facebook) above a black footer band with the white Adobe logo and three small lines: 'Copyright 2026 Adobe Systems Incorporated. All rights reserved. Subject to terms of use and privacy policy. Do not sell or share my personal information'",
+      "feel": "Corporate, minimal",
+      "ux": "Share links prefill a tweet / Facebook share; legal links",
+      "learn": "A launch page ends with share buttons rather than a colophon: the goal is reach",
+      "reconstruction": {
+        "layout": "Share row ~82px (two ~50px square outlined buttons centred); black band ~230px with logo at x≈200 and text beside it",
+        "typography": "~12px Source Han Serif Regular white, underlined links",
+        "palette": [
+          "#010101",
+          "#ffffff",
+          "#fbfbfb",
+          "#d2d2d2"
+        ],
+        "behaviour": "none",
+        "content": "Share links; Adobe legal",
+        "assets": "Adobe logo, Twitter and Facebook line icons"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/glyph-grid-sampler",
+    "story/making-of",
+    "story/essay",
+    "family-overview/big-number-stats",
+    "specimen-showcase/in-use-mockups",
+    "language-support/multiscript-specimen",
+    "family-overview/style-word-grid",
+    "story/designer-bio",
+    "checkout/free-download",
+    "footer/slim-legal-bar"
+  ]
+}

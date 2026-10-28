@@ -1,0 +1,449 @@
+{
+  "slug": "weg-huertatipografica-com",
+  "extractedBy": "agent",
+  "summary": "A long feed of 1000px-wide raster panels for an experimental single-line pattern font, alternating tomato-red and mint full-bleed bands: alphabet posters per weight, cheeky posters ('Using this typeface under 72pt is at your own risk'), product mockups, a decoded character set and a lowercase 'pattern' chapter. The font itself is never live on the page (only Alegreya Sans is loaded); everything is images, so the specimen is a poster wall rather than a tool.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "experimental, playful, graphic",
+        "mobile": "shrinks",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "On mint, 'WEG' drawn in the font's single red line, which runs off both edges of the frame and tangles into near-illegible shapes, with 'WEG [ve:k]' in bold red Alegreya Sans as the readable key at the right; a small caption 'ONE WAY OF EXPERIMENTATION / Carolina Giovagnoli. March 2021. Last update January 2023.' below",
+      "feel": "Maze-like, bold, a little cheeky",
+      "ux": "Fixed two-row white nav above (anchors Set / Inspiration / Pattern + external links); no CTA in the hero",
+      "learn": "When the display face is barely legible, put a plain-type key (name + pronunciation) right beside it so the hero still reads",
+      "reconstruction": {
+        "layout": "Header 1000px wide centred (x=220–1220) under an 84px fixed nav; wordmark image ~1000×290 with the line extending to both edges; caption 2 lines at bottom-left, ~16px",
+        "typography": "Wordmark is an image of Weg Regular (one continuous ~8px red line); key 'WEG' ~60px Alegreya Sans Bold red + '[ve:k]' ~50px Alegreya Sans Light red; caption ~16px Alegreya Sans, first line caps",
+        "palette": [
+          "#9be7d7",
+          "#ff3f38",
+          "#4a4a4a"
+        ],
+        "behaviour": "none",
+        "content": "Name, IPA pronunciation, designer and dates",
+        "assets": "weg-head.png (wordmark raster)",
+        "html": "header > h1.visually-hidden + figure > img + p"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "candid, experimental",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "On mint: a large italic lead 'WEG* is an experimental pattern-font where legibility isn't the focus.' in the left column, three short first-person paragraphs on the right, then a white box with the dictionary entry '* Weg [ve:k] noun. Path, way, trail, route…' running through Spanish, German and Italian synonyms in monospace",
+      "feel": "Honest, studio-notebook",
+      "ux": "Inline links send readers who need legibility to other HT fonts (Telder, Cira, Kalidoscopio)",
+      "learn": "Admit the font's limit up front ('legibility isn't the focus') and point to sister fonts for text: honesty that builds trust for an experimental release",
+      "reconstruction": {
+        "layout": "12-col grid inside 1000px: lead in col 1–3 (~230px), text cols 4–12; dictionary blockquote below as a white panel ~1000px wide, ~110px tall, padding ~16px",
+        "typography": "Lead ~26px Alegreya Sans Italic, leading 1.15, grey; body ~15px Alegreya Sans, one sentence bold; blockquote ~13px Roboto Mono, headword bold, 'noun.' italic, '••' separators between languages",
+        "palette": [
+          "#9be7d7",
+          "#f9f9f9",
+          "#4a4a4a",
+          "#ff3f38"
+        ],
+        "behaviour": "none",
+        "content": "Designer statement: single line connecting letters, words and paragraphs; lighter weights are more legible; character set and languages (Spanish, Guaraní, English); multilingual synonyms of 'Weg' (path)",
+        "assets": "none",
+        "html": "article > .margins > .row > .col-3 > .bajada > p + .col-9 > p×3; blockquote > p"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "03",
+        "04"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "graphic, systematic",
+        "mobile": "shrinks",
+        "structure": "list",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "Three full-bleed panels, the same uppercase alphabet A–Z (3 lines) in Regular (white line on red), Light (red on mint) and Thin (white on red); the letters untangle as the weight drops",
+      "feel": "Rhythmic, like flipping through screen prints",
+      "ux": "static images; no style labels, the change of colour marks each weight",
+      "learn": "For a line font whose legibility depends on weight, repeat one alphabet per weight on alternating colour panels so the reader sees it untangle",
+      "reconstruction": {
+        "layout": "Each panel 1440×667, background colour matching the image; image 1000×667 centred; alphabet in 3 centred lines (A–I, J–R, S–Z.) ~900px wide",
+        "typography": "Weg Regular / Light / Thin uppercase as raster, cap height ~90px; one continuous line per word",
+        "palette": [
+          "#fe3d36",
+          "#9be7d7",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Alphabet A–Z plus a full stop",
+        "assets": "Weg1.jpg, Weg2.jpg, Weg3.jpg (alphabet rasters)",
+        "html": "article.rojo > figure > img (red panels); article > figure > img (mint panels)"
+      }
+    },
+    {
+      "blocks": [
+        "06",
+        "08",
+        "09",
+        "15",
+        "20",
+        "28"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "cheeky, self-aware, bold",
+        "mobile": "shrinks",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Two-colour posters alternating red and mint: 'I'M NOT SURE!' in the line font, 'BUT, THE BIG QUESTION IS: WHERE COULD I USE THIS FONT?' in a box inside a giant Regular glyph, 'USING THIS TYPEFACE UNDER 72PT IS AT YOUR OWN RISK' beside tangled letters, 'TO USE ABOVE 72 POINTS' over a giant filled cut, a cryptic three-line word block beside a huge frame (20), and the giant 'WEG' path wordmark (28)",
+      "feel": "Funny, honest, punchy",
+      "ux": "static images interleaved with the mockups",
+      "learn": "Let the posters talk about the font's own limits ('under 72pt at your own risk') in a plain bold face: the joke doubles as usage guidance",
+      "reconstruction": {
+        "layout": "Each poster 1440×667 full-bleed (1000px centred image on a matching background); compositions put one giant line glyph cropped by the frame against a block of bold sans copy",
+        "typography": "Weg Regular/Light/Thin as raster line drawings (strokes ~6–30px); commentary in Alegreya Sans ExtraBold caps ~40px, some italic, red on mint or mint on red",
+        "palette": [
+          "#fe3d36",
+          "#9be7d7",
+          "#ffffff",
+          "#ef544c"
+        ],
+        "behaviour": "none",
+        "content": "Self-referential copy about where and at what size to use the font",
+        "assets": "Weg5, Weg7, Weg8, Weg14, Weg19, Weg27 .jpg posters",
+        "html": "article(.rojo) > figure > img; HTML comments name each poster ('using this typeface under…', 'to use above 72 pt')"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "07",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "16",
+        "17",
+        "18",
+        "19",
+        "30"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "product-mockup, crafty",
+        "mobile": "shrinks",
+        "medium": "photo-mockup",
+        "sequence": "series"
+      },
+      "look": "Photographic mockups of the patterns and caps on objects: shipping box with 'OLÁ'/'WEG' stickers, a poncho, magazine spread, tote bag + numerals, 'WARTE ZIMMER' wall lettering in a waiting room, three spiral notebooks, a shop window, a matchbox, swing tags, three T-shirts labelled REGULAR / LIGHT / THIN, a wall frieze, a green pillow",
+      "feel": "Merchandisable, textile-friendly",
+      "ux": "static images; the 'Inspiration' nav anchor jumps here",
+      "learn": "Answer 'where could I use this font?' with surfaces that suit a pattern face (textiles, packaging, signage) rather than text settings",
+      "reconstruction": {
+        "layout": "Each mockup a 1000×667 image (some 781/742/570px tall) centred on a full-bleed band of matching red, mint, teal or slate; no captions except the shirt labels baked into the image",
+        "typography": "All type inside the photos (Weg line drawings, patterns); no live text",
+        "palette": [
+          "#fe3d36",
+          "#9be7d7",
+          "#6ee7d6",
+          "#364659",
+          "#272530",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Spanish and German mockup copy ('Warte Zimmer', 'El enemigo está dentro de uno…', '1976')",
+        "assets": "12 photographic mockups (several from free PSD templates)",
+        "html": "article.verde2/.rojo2/.verdeazul/.verde3/.rojo4 > figure > img"
+      }
+    },
+    {
+      "blocks": [
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "decoder, systematic",
+        "mobile": "shrinks",
+        "coverage": "by-category",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": true
+      },
+      "look": "Introduced by a poster 'I'LL GIVE YOU A LITTLE HINT… IF YOU NEED IT.', then the uppercase set per weight ('WEG Regular / Light / Thin'): A–Z, accented vowels, punctuation and figures, each glyph threaded on one baseline line with its plain letter printed small underneath; then the figures 1–0 at poster size per weight",
+      "feel": "Puzzle with an answer key",
+      "ux": "static images; the 'Set' nav anchor jumps here",
+      "learn": "Print the plain character under each illegible glyph: the character set becomes a decoder for the reader",
+      "reconstruction": {
+        "layout": "Each panel 1440×667; title centred at top; 5 rows (A–M, N–Z, accented vowels, punctuation, 0–9) ~900px wide, each glyph ~55px with a ~10px label below; then three panels of two rows of figures ~250px tall",
+        "typography": "Titles 'WEG' Alegreya Sans ExtraBold + style name italic ~24px; glyphs raster Weg; labels ~10px sans caps, tracked",
+        "palette": [
+          "#fe3d36",
+          "#9be7d7",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Uppercase, ÁÉÍÓÚÄËÏÖÜÑ-style vowels, punctuation, figures",
+        "assets": "Weg20–Weg26.jpg",
+        "html": "article#characterset > figure > img (anchor 'Set')"
+      }
+    },
+    {
+      "blocks": [
+        "29"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "plain, open-ended",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "Chapter 'Beauti—useful typographical pattern set' on white: italic lead at left, a short first-person paragraph on the lowercase 'pattern' stage, a '[ C L I C K H E R E ]' link to the PDF specimen, and a mint box listing the eleven stylistic sets (ss01 Disconnect top … ss09 Disconnected, ss10 Connect Right & Left, ss11 Connect Top & Bottom)",
+      "feel": "Matter-of-fact, workshop note",
+      "ux": "Link opens the pattern specimen PDF; the 'Pattern' nav anchor jumps here",
+      "learn": "Name stylistic sets by what they do to the connecting line (disconnect top, connect left & right) so the feature list reads as a construction kit",
+      "reconstruction": {
+        "layout": "White band 500px; lead col 1–3, text cols 4–12 (~740px); feature list in a mint panel ~740px wide with ~16px padding",
+        "typography": "Lead ~26px Alegreya Sans Italic grey; body ~15px; link in tracked red caps; list ~14px with bold heading 'OpenType features:'",
+        "palette": [
+          "#ffffff",
+          "#9be6d7",
+          "#4a4a4a",
+          "#ff3f38"
+        ],
+        "behaviour": "none",
+        "content": "ss01–ss11 names; the lowercase is a set of connected, combinable patterns in three weights",
+        "assets": "none (PDF linked)",
+        "html": "article.blanco#coming > .row > .col-3 .bajada + .col-9 > p + p > a + .verde > p"
+      }
+    },
+    {
+      "blocks": [
+        "31",
+        "32",
+        "33"
+      ],
+      "type": "glyph-table",
+      "variant": "keymap-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "textile swatch book",
+        "mobile": "shrinks",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": true
+      },
+      "look": "'WEG LC Regular / Light / Thin': three columns of the lowercase keys a–z, each key letter followed by a strip of its pattern tile repeated, like a swatch book",
+      "feel": "Dense, fabric-like",
+      "ux": "static images",
+      "learn": "For a pattern font, show each key as a repeated strip, not a single cell: the reader sees the tile and how it joins its neighbours",
+      "reconstruction": {
+        "layout": "Panels 1440×500 on alternating mint/red; three columns (a–h, i–q, r–z) ~180px wide each, ~22px rows, key letter in a ~20px gutter",
+        "typography": "Title 'WEG LC' Alegreya Sans ExtraBold + style italic ~20px; key letters ~12px; pattern strips raster",
+        "palette": [
+          "#9be7d7",
+          "#fe3d36",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Lowercase a–z mapped to patterns, per weight",
+        "assets": "Weg_lowercase-1/2/3.jpg"
+      }
+    },
+    {
+      "blocks": [
+        "34",
+        "35",
+        "36",
+        "37"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "pangram",
+        "tone": "op-art, textile",
+        "mobile": "shrinks",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Pattern compositions from the lowercase: a profile/hand silhouette carved out of dense line texture, 'THIS IS AN EXTENDED PANGRAM' set beside a block of pattern text, an all-over triangle wallpaper with one plain 'd' key revealed in a box, and a circle-and-bar pattern fading into hatching",
+      "feel": "Op-art, wallpaper-like",
+      "ux": "static images",
+      "learn": "Set a pangram in a pattern font and label it: running text becomes a textile, and the label explains what you're looking at",
+      "reconstruction": {
+        "layout": "Panels 1440×500 alternating red/mint; 1000px images centred, some framed with a mint margin",
+        "typography": "Raster patterns; caption 'THIS IS AN EXTENDED PANGRAM' Alegreya Sans ExtraBold caps ~30px red",
+        "palette": [
+          "#fe3d36",
+          "#9be7d7",
+          "#ffffff",
+          "#ee554d"
+        ],
+        "behaviour": "none",
+        "content": "Extended pangram set in the pattern lowercase; single-key reveal ('d')",
+        "assets": "Weg_lowercase-4/5/6/8.jpg"
+      }
+    },
+    {
+      "blocks": [
+        "38"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "foundry-standard",
+        "mobile": "adapts",
+        "contains": [
+          "contact",
+          "socials",
+          "legal"
+        ]
+      },
+      "look": "Mint footer: HT FONTS logo, then three link columns separated by thin vertical rules (page anchors Set/Inspiration/Pattern; Try and Buy Fonts, Font in use, PDF, Press article, DiaTipoX presentation, Github repo; Contact us, Instagram, Facebook) and '© 2021-2026 HT Fonts' below",
+      "feel": "Tidy, utilitarian",
+      "ux": "Repeats the nav links; buy link goes to htfonts.com/fonts/weg/buy",
+      "learn": "Collect press, talk video, Fonts In Use and the repo in one column: social proof for an experimental font",
+      "reconstruction": {
+        "layout": "410px band; logo at x≈220; three ~180px columns with 1px left rules, bullet lists",
+        "typography": "~12px Alegreya Sans, links red, bullets; copyright ~11px grey",
+        "palette": [
+          "#9ce6d7",
+          "#ff3f38",
+          "#4a4a4a",
+          "#111111"
+        ],
+        "behaviour": "none",
+        "content": "Real links",
+        "assets": "htfonts-b.png logo"
+      }
+    },
+    {
+      "blocks": [
+        "39"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "look": "Fixed white two-row nav (84px): HT logo + 'WEG' and anchors SET / INSPIRATION / PATTERN, then a grey sub-row of external links (Try and Buy Fonts, Font in use, PDF, Press article, DiaTipoX presentation, Github repo, Contact us); it is stamped across most stitched crops"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/essay",
+    "family-overview/style-word-grid",
+    "specimen-showcase/poster-series",
+    "specimen-showcase/in-use-mockups",
+    "glyph-table/full-grid",
+    "design-details/feature-index",
+    "glyph-table/keymap-grid",
+    "specimen-showcase/poster-series",
+    "footer/link-columns"
+  ]
+}

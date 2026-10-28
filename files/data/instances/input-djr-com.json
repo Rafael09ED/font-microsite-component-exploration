@@ -1,0 +1,145 @@
+{
+  "slug": "input-djr-com",
+  "extractedBy": "agent",
+  "summary": "The 2014 landing page of Input, a family of fonts for code, is one short screen: a green masthead, a mosaic of live text tiles in editor themes (Lisp, HTML, Python, C++, a baseball table in box-drawing characters, a screenplay, a marine forecast, 'Code Beaches' in Input Sans) that swap places on a timer, a paragraph of intro and a link to the article. The preview tool, the info article and the download configurator are subpages that were not captured.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "masthead-nav",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "techy, understated, retro-web",
+        "mobile": "adapts"
+      },
+      "look": "Pale green page; 'INPUT™' in heavy green slab-like caps top-left, the italic tagline 'Fonts for code from DJR & Font Bureau' under it, a tab row 'Intro Preview Info Download' (current tab bold), and the DJR and Font Bureau logos in green at the far right",
+      "feel": "Plain, confident, a developer's tool page",
+      "ux": "Tabs go to the Preview tool, Info article and Download configurator subpages",
+      "learn": "For a utility font a masthead with four tabs can replace the hero: the samples below do the persuading",
+      "reconstruction": {
+        "layout": "Container 1152px centred (x=144); header ~155px: wordmark top-left (~80px cap height), tagline 14px below, nav row 12px with ~20px gaps; two 32px SVG logos right-aligned",
+        "typography": "Wordmark Input Sans Narrow Black (or Serif) ~80px, uppercase, #00a000; tagline Input Serif Condensed Italic ~13px green; nav Input Sans Narrow ~13px, active item bold",
+        "palette": [
+          "#ebf5ed",
+          "#00a000",
+          "#2d4e55"
+        ],
+        "behaviour": "none",
+        "content": "Name, tagline, nav",
+        "assets": "DJR and Font Bureau SVG logos",
+        "html": "#header > #title > h1 > a + span.trademark + .tagline; .nav > ul > li.Introduction/.Preview/.Info/.Download"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "use-case-samples",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "nerdy, versatile",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "grid"
+      },
+      "look": "A tight 4×3 mosaic of tiles, each a different text in its own editor theme: Racket/Lisp on navy, HTML in Monokai, a baseball standings table drawn with box characters, a JS function, a NASA screenplay, 'Code Beaches + California + New York + Washington' in Input Sans, Python in Solarized, C++ on dark teal, Ruby, 'Trapezoid / Diagonal / Semicircle' in large Input Serif, TeX, a 'SMALL CRAFT ADVISORY' marine forecast, a Unix 'top' process list",
+      "feel": "Busy, smart, like a wall of terminals",
+      "ux": "Tiles swap on a timer (tileswap.js): one tile at a time is replaced by another sample, so the mosaic keeps changing while you read",
+      "learn": "Show a coding font in every context a programmer meets (many languages, themes, data tables, prose, screenplays) as a self-shuffling mosaic of real text, not screenshots",
+      "reconstruction": {
+        "layout": "1152×483 grid of 4 columns × 3 rows, tiles ~288×161px, no gutters, overflow hidden so code is cropped at the tile edges",
+        "typography": "Code tiles ~11–12px in Input Mono / Mono Narrow / Mono Compressed with syntax colours per CodeMirror theme; 'Code Beaches' 44px Input Sans Compressed, list ~28px; 'Trapezoid…' ~40px Input Serif Condensed Light; screenplay in Input Mono with bold caps character names; forecast in Input Mono caps",
+        "palette": [
+          "#2d4e55",
+          "#f6f5f5",
+          "#d0cfb3",
+          "#4a4e50",
+          "#002b36",
+          "#272822",
+          "#00a000"
+        ],
+        "behaviour": "Interval-driven tile swap with a short transition (exact timing inferred from the video: a tile changes every ~1–2s); initial load shows tiles filling in",
+        "content": "Real code (Racket pollen server, defcon/vanilla Python, C++ noordzij_cube), baseball standings, NASA screenplay, NOAA marine forecast, process list",
+        "assets": "none (live text; CodeMirror themes: base16, monokai, solarized, lesser-dark, paraiso, xq-light, oldskool)",
+        "html": "div.CodeMirror.sample.{light|dark}.{language}.cm-s-{theme} ×n; #baseball.sample.Input_Mono; #Code_Beaches.sample; CodeMirror runmode for highlighting; /js/tileswap.js"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "article-teaser",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "concise, technical",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Centred green paragraph in Input Sans 'Input is a flexible system of fonts designed specifically for code by David Jonathan Ross…' with an underlined designer link, then a bold underlined link 'See what makes Input a different coding typeface.'",
+      "feel": "Matter-of-fact",
+      "ux": "The bold link opens the Info article subpage",
+      "learn": "One sentence on what is different (monospaced and proportional, many widths and weights) plus a link to the long argument is enough on a landing page",
+      "reconstruction": {
+        "layout": "Column 688px centred (x=376), ~158px tall; paragraph then a 20px gap and the link line",
+        "typography": "~19px Input Sans Regular, leading ~1.5, #2f8a2f green; link line ~19px Input Sans Medium/Bold with underline",
+        "palette": [
+          "#ecf5ec",
+          "#2f8a2f",
+          "#00a000"
+        ],
+        "behaviour": "none",
+        "content": "Real description of the Input family",
+        "assets": "none",
+        "html": "p + a.Medium[href=/info/]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "look": "Footer repeat of the tab row 'Intro · Preview · Info · Download' spread across the 1152px column between two hairlines"
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "look": "Two small lines in Input Sans: 'Questions or comments about Input? E-mail david@djr.com.' and site credits (David Jonathan Ross, Nick Sherman, Chris Lewis) with '©2014 DJR & The Font Bureau, Inc.'"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "specimen-showcase/use-case-samples",
+    "story/article-teaser",
+    "footer/slim-legal-bar"
+  ]
+}

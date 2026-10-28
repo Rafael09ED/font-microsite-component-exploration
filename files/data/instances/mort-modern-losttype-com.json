@@ -1,0 +1,356 @@
+{
+  "slug": "mort-modern-losttype-com",
+  "extractedBy": "agent",
+  "summary": "Lost Type's microsite for Riley Cran's 56-style didone, built in pastel colour blocks around the story of the mid-century lettering artist Mortimer Leach. A colourful circuit-diagram header leads into a comic-strip introduction of Mortimer and Riley. A flip card then switches between 'The Fonts' (feature rows with iOS-style OpenType switches, a cycling multilingual word, packages and an optical-size waterfall) and 'The Story' (a full biography of Leach). The page ends with every style name set in itself and credits on a scribbled yellow sheet.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "01",
+        "02"
+      ],
+      "type": "hero",
+      "variant": "illustration-scene",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "playful, mid-century, storybook",
+        "mobile": "adapts",
+        "carrier": "illustration",
+        "cta": "buy",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "A white field covered by a 'circuit board' of pastel squares, circles and bars joined by thin black lines and arrows, with 'MORT' (black caps on yellow), 'MODERN' (thin italic caps on blue), a pink disc with an italic 'm', a green '2018' tag and a purple box 'A serif typeface in 56 styles designed by Riley Cran…'. A line leads on to 'This is the story of a typeface.' and angled cut-out panels: a caricature 'This is Mortimer Leach.', 'Mortimer was a lettering artist.', a photo 'This is Riley Cran.', 'Riley is a type designer.', then a yellow banner 'This is Mort Modern' and a pitch sentence that mixes widths, weights and italics",
+      "feel": "Cheerful, nostalgic, narrative",
+      "ux": "On load the header boxes appear empty and their lettering fades in; scrolling follows the connecting line through the comic panels to a blue 'Get Mort Modern' pill (links to Lost Type). No nav bar",
+      "learn": "Introduce the font as the meeting of two people (the inspiring lettering artist and the designer) in captioned comic panels: the first screens tell the origin before any specimen",
+      "reconstruction": {
+        "layout": "~2700px over three screens; header diagram full width ~900px tall: grid of ~56px squares and circles on a ~95px pitch, text boxes spanning 3–4 cells (MORT ~450×120px, MODERN ~460×120px), disc ~260px; then centred italic caption; four rotated polygon panels (~450×180px) alternating left/right, linked by a thin line; banner ~950×200px; pitch paragraph centred ~1050px wide; pill ~310×95px",
+        "typography": "'MORT' ~120px Mort Modern Large Black caps; 'MODERN' ~110px Large Light Italic caps; box text ~36px Text Bold white; captions ~36px Text Italic; panel text ~30px Text Regular; 'Mort Modern' ~120px Large Black; pitch ~36px with condensed, italic and bold words mixed; pill ~22px Italic",
+        "palette": [
+          "#f9f8f8",
+          "#f9c9d2",
+          "#f9d548",
+          "#9878b5",
+          "#8accdb",
+          "#6da945",
+          "#c8a392"
+        ],
+        "behaviour": "Intro: header shapes show first, lettering fades in after ~0.5s (CSS animation); static afterwards",
+        "content": "'This is the story of a typeface. This is Mortimer Leach. Mortimer was a lettering artist. This is Riley Cran. Riley is a type designer. This is Mort Modern.'",
+        "assets": "Header diagram (shapes and lines), caricatures of Mortimer Leach (Chris Sandlin), photo of Riley Cran, a skeleton 'M' drawing with Bézier points, header PNGs",
+        "html": "header > panels; a.button.button-primary.bg-blue.button-large[href='https://losttype.com/font/?name=mort-modern']"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "biographical, affectionate",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "long"
+      },
+      "look": "Hidden in the capture: the 'The Story' tab (lilac, beside a brown 'The Fonts' tab) flips the page's main card to its white back side, which holds 'Mortimer Leach: An American Lettering Artist, by Riley Cran, with illustrations by Chris Sandlin', a long biography with drop-cap section starts, signed with a handwritten signature",
+      "feel": "Researched, warm",
+      "ux": "Two full-width tab buttons switch a CSS flip card between the fonts specimen (front) and the biography (back); on very wide screens both sides can sit side by side (lg-col-6)",
+      "learn": "Put the inspiration's biography behind a 'Story' flip: specimen-hunters and readers each get a complete page without one burying the other",
+      "reconstruction": {
+        "layout": "Tab bar 2×720px, ~90px tall, just under the hero pill; card flips horizontally to a white back with a single reading column (~700px)",
+        "typography": "Tabs ~18px Text Italic (active black, inactive grey); title ~60px Large; body ~18px Mort Modern Text, large initial letters at section starts; small caps for acronyms",
+        "palette": [
+          "#ffffff",
+          "#c8a392",
+          "#beacd1",
+          "#1a1a1a"
+        ],
+        "behaviour": "Click 'The Story' → .Flipcard-flipper rotates to show .Flipcard-back (horizontal flip)",
+        "content": "Biography of Mortimer Leach (1906–1976): New York childhood, Chicago art school (tuition $75.50, about $1084 today), Madison Avenue lettering, wartime map work at Caltech, teaching at Art Center with Doyald Young, his book; thanks to his daughter Laurie",
+        "assets": "Signature image; bio illustrations (Chris Sandlin) likely",
+        "html": "button.bg-brown 'The Fonts' + button.bg-purple-light 'The Story'; .Flipcard > .Flipcard-flipper.Flipcard--horizontal > .Flipcard-front + .Flipcard-back"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "friendly, explanatory, pastel",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates",
+          "optical-size",
+          "italics"
+        ],
+        "presentation": "toggle",
+        "explanation": "prose"
+      },
+      "look": "A stack of ~500px pastel bands (brown, lilac, yellow, blue, green) bordered by 2px rules; each band has a demo on the left and a heading plus paragraph on the right: Various Weights (illustrated bookshelf of spines in every weight), Contextual Alternates 'Relevant Specifics', Fractions '½ of the time', Lining and Non-Lining Figures '235', Small Caps 'Vancouver, BC', Optical Sizes (an '&&&' card, Large → Subhead → Text), Romans and italics (green card 'Mort Modern / Mort Modern'), Stylistic alternates 'sample'. Black-and-white pill switches sit above the toggleable samples",
+      "feel": "Clear, cheerful, magazine-sidebar",
+      "ux": "Each switch toggles one OpenType feature (calt, frac, onum, c2sc, salt) on its sample, which is also editable; the illustrated rows (weights, optical sizes, italics) are static",
+      "learn": "Pair every feature with a word that shows it (repeated letters for calt, '½' for frac, 'Vancouver, BC' for small caps) and an on/off switch right above it: no tags or codes needed",
+      "reconstruction": {
+        "layout": "Each band min-height 500px; two columns: demo ~58% left, centred; text ~40% right with a heading, hairline under it and paragraph ~470px wide; switch ~64×36px pill centred above the sample",
+        "typography": "Samples ~96px Mort Modern Large/Subhead Regular (black); headings ~28px Subhead Semibold; paragraphs ~16px Text Regular, leading ~1.6",
+        "palette": [
+          "#d7bcb2",
+          "#beacd1",
+          "#ffea97",
+          "#a0d4e3",
+          "#a8d18d",
+          "#1a1a1a"
+        ],
+        "behaviour": "label > input.Switch-input[type=checkbox] (hidden) + rounded track with background transition .2s; toggling sets font-feature-settings on the Draft.js sample (SwitchFeatures_calt/frac/onum/salt; small caps via 'smcp' 0/1 on a span)",
+        "content": "Feature demo words: 'Relevant Specifics', '1/2 of the time', '235', 'Vancouver, BC', 'sample'; explanatory prose on mid-century lettering habits",
+        "assets": "Illustrations: bookshelf of book spines set in the styles, '&&&' optical-size card, romans/italics card (drop-shadowed, slightly rotated)",
+        "html": ".Flipcard-front > figure.sm-flex (min-height 500px) > .sm-col-6 (label > input.Switch-input + .public-TypeTester[data-editor=SwitchFeatures_calt]) + figcaption"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "language-support",
+      "variant": "diacritic-word-wall",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "worldly, gentle",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": false
+      },
+      "look": "On the yellow band, one word at ~96px, 'Mezinárodní', with a small italic language label 'Czech' above it; the paragraph at right says Mort Modern speaks over 150 languages",
+      "feel": "Calm, international",
+      "ux": "The word cycles on a timer through translations of 'international' (Czech Mezinárodní, Croatian Međunarodna…), fading between them with the label updating",
+      "learn": "Cycle one meaningful word ('international') through languages with diacritics: coverage shown one clean example at a time",
+      "reconstruction": {
+        "layout": "Band ~500px; label centred over the left column at ~30vh height; word left-aligned below",
+        "typography": "Label ~16px Text Italic; word ~96px Mort Modern Large Regular",
+        "palette": [
+          "#ffea97",
+          "#1a1a1a",
+          "#d7c786"
+        ],
+        "behaviour": "Draft.js TypeTesterCycle with public-TypeTester-animate / -fadein classes cycles words and labels",
+        "content": "'International' in many Latin-script languages",
+        "assets": "none",
+        "html": ".public-TypeTester [data-editor=TypeTesterCycle_English] .tester-line.public-TypeTester-animate"
+      }
+    },
+    {
+      "blocks": [
+        "08",
+        "09",
+        "10"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "collectible, friendly",
+        "mobile": "adapts",
+        "destination": "distributor",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": false,
+        "free": false
+      },
+      "look": "A scattered pile of drop-shadowed printed specimen cards (a 'Typography' ransom-note card, a pointing hand, a 'Type Selector' swatch fan, Mortimer's caricature with a pencil, the bookshelf, '&&&', 'Supercalifragilisticexpialidocious'), the note that the specimen set ships free with a commercial licence, then 'Standard 22 styles – $75' and 'Pro 56 styles – $175' columns of colour-coded rows (Large yellow, Mort Modern blue, Text purple) with 'a' swatches and weight ramps, and blue 'Get Mort Modern …' pills",
+      "feel": "Playful, collectible",
+      "ux": "Pills link to the Lost Type product pages",
+      "learn": "Show the printed specimen set as a fan of collectible cards right above the prices: the physical bonus sells the commercial licence",
+      "reconstruction": {
+        "layout": "Collage ~900×600px centred; note centred ~520px; package columns ~500px each, Standard lower-left and Pro upper-right (staggered); rows ~60px name bar + ~45px ramp, 4 swatch cells per row; pills ~280×55px",
+        "typography": "Package headings ~28px Subhead Bold, meta ~16px Italic; row names ~26px Mort Modern Regular; swatches ~24px roman/italic; ramp ~18px; pills ~18px Text Italic white",
+        "palette": [
+          "#fbfcfb",
+          "#f7d550",
+          "#8bcad9",
+          "#9878b5",
+          "#c9a995"
+        ],
+        "behaviour": "none",
+        "content": "Prices $75 / $175; 'This Mort Modern specimen set ships free to your door with a purchase of a commercial license (both Standard or Pro) in the USA.'",
+        "assets": "Illustrated/photographed specimen card set",
+        "html": "a[href='https://losttype.com/font/?name=mort-modern'] / ?name=mort-modern-pro"
+      }
+    },
+    {
+      "blocks": [
+        "10",
+        "11"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "lively, wordy",
+        "mobile": "adapts",
+        "subject": [
+          "optical-size"
+        ],
+        "presentation": "toggle",
+        "explanation": "none"
+      },
+      "look": "On pale pink, 'Optical Size' over a sticky blue pill switch 'Large | Subhead | Text', then a centred waterfall of long words each in another weight or italic: fantasticalities, subfreezing, Microenvironment, Superpowers, superheavyweights, futurologies, miniaturization, zoophysiologist",
+      "feel": "Fun, showy",
+      "ux": "The switch stays pinned while you scroll the list and swaps all words to the chosen optical size; each word is editable",
+      "learn": "Use very long words in alternating weights and italics: when you switch optical size, the change in contrast and spacing is obvious across a whole column",
+      "reconstruction": {
+        "layout": "~1500px; label and pill (~500×55px, 999px radius, soft shadow) centred and sticky at top; list centred, ~130px line pitch",
+        "typography": "Words ~108px in Mort Modern Large (default), Subhead or Text; mixed weights 300–800 and italics; pill labels ~16px Italic white",
+        "palette": [
+          "#fdd9e1",
+          "#8eccdb",
+          "#a7d8e3",
+          "#1a1a1a"
+        ],
+        "behaviour": "Buttons (value font-family-large / -subhead / -text) swap the list's class; active button disabled and lighter; Draft.js editors per word (Waterfall_Item_*)",
+        "content": "Long compound words with super-/micro- prefixes",
+        "assets": "none",
+        "html": "div[role=group] > .sticky > ul > li > button[value=font-family-large|subhead|text] + .font-family-large > ul > li .public-TypeTester"
+      }
+    },
+    {
+      "blocks": [
+        "12",
+        "13",
+        "14"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "exhaustive, festive",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": true
+      },
+      "look": "A tall purple panel listing all 56 styles in white, each name set in itself (Mort Modern Large Light → Large Black Italic, Large Condensed…, Subhead…, Subhead Condensed…, Text Light → Text Black Italic, Text №2), with hand-painted yellow, blue, pink and green blobs and starbursts floating over it",
+      "feel": "Complete, celebratory",
+      "ux": "Every name is editable (Draft.js); static otherwise",
+      "learn": "End the specimen with the full style menu set in itself: buyers can find the exact name they need and see it in one place",
+      "reconstruction": {
+        "layout": "~2700px; list left-aligned in a column starting ~x=320, ~42px row pitch; painted spots absolutely positioned at the right of the list",
+        "typography": "~28px in each style, white on purple; condensed and optical-size cuts each in their own family",
+        "palette": [
+          "#997aba",
+          "#ac92c4",
+          "#ffffff",
+          "#f4d04d"
+        ],
+        "behaviour": "contenteditable per name (DemoListing_* editors)",
+        "content": "The 56 style names",
+        "assets": "Painted blob and starburst spot illustrations (Marisol Ortega)"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "crafty, magazine masthead",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "A slightly rotated white sheet titled 'CREDITS' on a yellow background covered in loose black pencil scribbles, listing roles in two columns (Typeface Design Riley Cran, Production Assistance Dave 'Bezier Wrangler' Bailey, Specimen & Header Designs, Editorial Design, Character & Bio Illustrations, Patterns & Spot Illustrations, Editor-In-Chief, Site Design, Site Development, Special Thanks Laurie Leach & Rick Cusick)",
+      "feel": "Handmade, generous",
+      "ux": "Names link to each contributor's site",
+      "learn": "Credit a microsite like a magazine masthead (editor-in-chief, editorial design) on a 'paper' sheet: the specimen reads as a publication",
+      "reconstruction": {
+        "layout": "~730px; sheet ~800×640px centred, rotated ~-1°, drop shadow; two columns of role/name pairs; scribble texture full-bleed behind",
+        "typography": "'CREDITS' ~50px Mort Modern Large Condensed Black caps; roles ~20px Subhead Condensed Semibold; names ~16px Text Regular underlined",
+        "palette": [
+          "#f5d148",
+          "#fcfcfc",
+          "#1a1a1a",
+          "#d1d1d1"
+        ],
+        "behaviour": "none",
+        "content": "Real credits including editorial roles",
+        "assets": "Pencil-scribble yellow texture"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/illustration-scene",
+    "story/origin-reference",
+    "design-details/feature-before-after",
+    "language-support/diacritic-word-wall",
+    "checkout/link-out-cta",
+    "design-details/axis-explainer",
+    "family-overview/style-word-grid",
+    "footer/credits-colophon"
+  ]
+}

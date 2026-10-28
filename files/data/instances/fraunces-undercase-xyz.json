@@ -1,0 +1,473 @@
+{
+  "slug": "fraunces-undercase-xyz",
+  "extractedBy": "agent",
+  "summary": "A grocery-store-themed one-pager for Fraunces, Undercase Type's 'Old Style' (wonky) variable family for Google Fonts with four axes (opsz, wght, SOFT, WONK). Black, white and supermarket-orange bands carry shop-sign slogans ('Honk for Wonky Fonts', 'Please Wait to be Seated', 'Thank You for Shopping With us!') with price-tag stickers, and each axis gets its own slider demo, a with/without optical-size wipe and an instance picker.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Slim orange top bar, 'Fraunces Roman & Italic' in small bold left and an underlined 'Download' link (GitHub releases) right"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "retro supermarket, cheeky",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "download",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "On black, 'Fraunces' in heavy soft white and 'Roman & Italic' below, then 'An “Old Style” Typeface Family by Undercase Type' in light orange (last line italic), with four tilted price-tag stickers slapped on top: green star 'NEW SMOOTH FONT!', green 'Typographer.', red 'Just looking!', green round 'SPECIAL'",
+      "feel": "Fun, cut-price, 70s grocery",
+      "ux": "Stickers drop in one by one on load, at randomised positions, tilts and scales; header Download link",
+      "learn": "Treat stickers as a second voice: a few price-tag jokes ('Just looking!') over a serious title make the genre's attitude clear without extra copy",
+      "reconstruction": {
+        "layout": "Full-bleed black 1440×804 (~89vh) under a 48px header; centred stack: name at y≈90–190, subtitle line, then 3-line tagline at y≈280–420; stickers absolutely positioned via CSS vars --x (vw) / --y (vh) / --tilt (±7–11deg) / --scale (0.8–1.25), ~90–130px wide",
+        "typography": "Name ~166px Fraunces Black (wght 900, SOFT 100, WONK 1, opsz 144) white; 'Roman & Italic' ~90px same; tagline ~48px Fraunces Light, orange, last line italic; sticker text in Fraunces Black ~16px",
+        "palette": [
+          "#030202",
+          "#ffffff",
+          "#fba919",
+          "#2ee02e",
+          "#e8202a"
+        ],
+        "behaviour": "Stickers appear in sequence over ~1s (scale/rotate pop-in); positions differ per load and per viewport",
+        "content": "Name, styles, genre tag in quotes, maker",
+        "assets": "Sticker SVGs (starburst, rounded rectangle, circle with stars)",
+        "html": ".sticker-hero > h1 > span + h2 > em ; .sticker.sticker-N.static[style=--tilt;--scale;--x;--y]"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "04"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "ticker, shop-window",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "Two thin orange marquee bands between sections, scrolling the names of every predefined instance ('Regular 9pt Sharp Thin', 'Italic 9pt Sharp Light', … 'Italic 9pt SuperSoft Black'), each name set in its own instance",
+      "feel": "Busy, shop-ticker",
+      "ux": "Continuous horizontal scroll; no interaction",
+      "learn": "A ticker of instance names, each set in itself, lists a 100-instance family in 48px of height and doubles as a section divider",
+      "reconstruction": {
+        "layout": "Full-width band 48px tall, orange; content duplicated twice for a seamless loop",
+        "typography": "~20px Fraunces in the named settings (opsz 9/72/144, SOFT 0/50/100, wght 100–900, roman and italic), black",
+        "palette": [
+          "#fba91b",
+          "#330800"
+        ],
+        "behaviour": "CSS marquee: two identical .marquee-marq-content strips translate left in a loop",
+        "content": "All instance names",
+        "assets": "none",
+        "html": ".marquee-marq > .marquee-marq-content ×2 > span.opsz9pt.sharp.thin / span.italic…"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "warm, knowledgeable",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "archival"
+        ],
+        "length": "medium"
+      },
+      "look": "'Meet Fraunces, an “Old Style” typeface': a single book-like column of body text in Fraunces, interrupted by orange lettering samples of the genre's history (a 'goofy!' lettering floated left, a line of Morris's Golden Type, 'In Aid of Bart's Second Annual DANCE' in Richmond Oldstyle, Benguiat's 'Thank You for Shopping With us!' Bookman Swash), each with a small italic orange caption; signed by Phaedra Charles",
+      "feel": "Affectionate, well-read",
+      "ux": "static; one caption link to the image source",
+      "learn": "Redraw the historical samples in one accent colour instead of pasting scans: the genre's lineage reads as one consistent story beside the text",
+      "reconstruction": {
+        "layout": "Text column ~800px (x=320–1120), ~2725px tall; samples either floated left (~260px wide, text wrapping) or set full column width; captions ~11px centred under each",
+        "typography": "Heading ~28px Fraunces Black; body ~19px Fraunces Regular at text opsz, leading ~1.45; samples orange #fba919; captions ~11px italic orange; signature bold italic",
+        "palette": [
+          "#fcfcfb",
+          "#030202",
+          "#fba919"
+        ],
+        "behaviour": "none",
+        "content": "Real essay: Google Fonts commission (2018), Arts & Crafts origins, Golden Type, Cooper Black, Windsor, Bookman Swash, the 'Thank You' grocery bag",
+        "assets": "Orange SVG/PNG renderings of historical lettering samples",
+        "html": ".prose-content with figure/img + figcaption"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "jokey, bumper-sticker",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "On black, the editable slogan 'Honk for / Wonky / Fonts' in white (middle line italic) with a green 'Lookin' Good!' starburst sticker, and a row of four orange sliders with white knobs labelled SOFT (Softness), wght (Weight), WONK (Wonk), opsz (Optical Size)",
+      "feel": "Cheeky, hands-on",
+      "ux": "Drag any of the four axes; click the text to type",
+      "learn": "Label each slider with both the axis tag and its plain name ('SOFT (Softness)') so the tester also teaches the registered/custom axis vocabulary",
+      "reconstruction": {
+        "layout": "Full-bleed black ~887px; slogan centred, 3 lines ~150px apart; slider row at y≈730: four ~170px tracks with 20px gaps, centred; sticker at left ~100px",
+        "typography": "Slogan ~173px Fraunces (wght 900, opsz 144, SOFT 0, WONK 1) white; slider labels ~11px Fraunces Black orange",
+        "palette": [
+          "#030302",
+          "#f6f6f6",
+          "#fba919",
+          "#2ee02e"
+        ],
+        "behaviour": "input[type=range] SOFT 0–100, wght 100–900, WONK 0–1 (step any), opsz 9–144 update CSS custom properties --SOFT/--wght/--WONK/--opsz on the editable text",
+        "content": "Themed slogan 'Honk for Wonky Fonts'",
+        "assets": "Sticker SVG (lookin-good.svg)",
+        "html": ".thank-you.interactive-controls > .thank-you-demo-text-container > .interactive-controls-text[contenteditable][style=--SOFT;--wght;--WONK;--opsz] + ul.interactive-controls-sliders > input.interactive-controls-slider#axis-SOFT|wght|WONK|opsz"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "affectionate, funny",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "'UV Light / Rafters' in huge orange heavy soft roman and italic, with thin grey leader lines and circles calling out 'unnecessary U's', 'soft-boy serifs', 'nubby bottoms', 'raucous combovers', 'festive globules', 'precarious legs'; then 'Your friend, Fraunces' and a short paragraph",
+      "feel": "Witty, endearing",
+      "ux": "Annotations appear when the block scrolls into view (am-i-in-view)",
+      "learn": "Name the quirks with comic labels instead of technical terms: the anatomy diagram becomes a character sketch",
+      "reconstruction": {
+        "layout": "Two display lines spanning ~1100px (x≈150–1290), ~240px each; six labels placed around the words with 1px grey leaders ending in ~40px circles; paragraph column ~800px below",
+        "typography": "Words ~250px Fraunces Black SOFT 100, WONK 1 (italic second line), orange; labels ~13px Fraunces Regular grey #b2b2b2; heading ~28px Black",
+        "palette": [
+          "#fcfcfb",
+          "#faa707",
+          "#b2b2b2",
+          "#030202"
+        ],
+        "behaviour": "Labels and leader lines fade or draw in when in view",
+        "content": "Two words full of wonky features, six joke labels",
+        "assets": "SVG leaders and circles (.uv-labels)",
+        "html": ".anatomy > .uv-container.am-i-in-view > .uv-text + .uv-labels"
+      }
+    },
+    {
+      "blocks": [
+        "07",
+        "10"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "playful, clear",
+        "mobile": "adapts",
+        "subject": [
+          "axes",
+          "alternates"
+        ],
+        "presentation": "toggle",
+        "explanation": "prose"
+      },
+      "look": "One band per custom axis: on orange, 'Please Wait to be Seated' in white with a single SOFT slider and a 'SPECIAL' sticker, then 'A Softie at Heart'; on black, 'minimum' and italic 'billabong' each with its own WONK slider, a red 'EXTRA WONK' sticker, then 'Extra Wonk Included' in orange",
+      "feel": "Focused, fun",
+      "ux": "Each slider drives only its axis on the editable word above (SOFT 0–100; WONK 0–1 swaps the leaning h, n, m and flagged italic forms)",
+      "learn": "Give each custom axis its own band, one slider and a word chosen to show it best (round shapes for SOFT, n/m/h for WONK)",
+      "reconstruction": {
+        "layout": "Full-bleed bands ~1040–1150px; word block centred (~3 lines or 2 single words with a slider under each); slider ~560px track with a round knob and a small caps label under it; prose column ~800px below",
+        "typography": "Words ~145–200px Fraunces Black, white on orange (SOFT) or white on black (WONK, roman then italic); slider labels ~11px Black caps; prose ~16px Fraunces, black on orange / orange on black",
+        "palette": [
+          "#fca919",
+          "#ffffff",
+          "#030202",
+          "#e8202a",
+          "#2ee02e"
+        ],
+        "behaviour": "input[type=range] step any writes --SOFT or --WONK on the contenteditable text",
+        "content": "'Please Wait to be Seated', 'minimum', 'billabong'; real explanations of SOFT and WONK",
+        "assets": "Sticker SVGs",
+        "html": ".soft-demo.interactive-controls > .soft-demo-text[contenteditable][style=--SOFT] + .soft-demo-slider > input#soft-slider3 ; .wonk-demo > .interactive-controls ×2 > .wonk-demo-text + .wonk-demo-slider > input.wonk-slider"
+      }
+    },
+    {
+      "blocks": [
+        "08",
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "demonstrative, jokey",
+        "mobile": "adapts",
+        "subject": [
+          "optical-size"
+        ],
+        "presentation": "overlay",
+        "explanation": "prose"
+      },
+      "look": "A text sample at three sizes (~112px, ~40px, ~14px) split by a vertical orange bar with a round ◂▸ handle: left half 'WITH OPTICAL SIZING' (green 'Lookin' Good!' sticker, happy face), right half 'WITHOUT OPTICAL SIZING' (orange 'Not So Much!' sticker, sad face); then 'Ask Me About My Optical Size Axis' prose",
+      "feel": "Clear, persuasive",
+      "ux": "Drag the handle left or right to wipe between the opsz-on and opsz-off renderings of the same text",
+      "learn": "A draggable wipe over identical text at several sizes shows what opsz does better than any slider: you see both states at the seam",
+      "reconstruction": {
+        "layout": "848px-wide demo centred (x=296–1144), ~1050px tall; labels row at top with stickers at both ends; three paragraphs at large/medium/small size; a 6px orange vertical bar with a ~36px round handle as the divider; prose block below (~800px column)",
+        "typography": "Large ~112px, medium ~40px, small ~14px Fraunces Light/Regular; 'with' side uses auto opsz (up to 144), 'without' side a fixed opsz; labels ~14px Fraunces Black caps",
+        "palette": [
+          "#fbfbfa",
+          "#030202",
+          "#fba919",
+          "#2ee02e",
+          "#ff5a1f"
+        ],
+        "behaviour": ".opsz-slider-window width follows the dragged .opsz-slider-handle, clipping the with-opsz layer over the without-opsz layer; happy/sad faces swap per side",
+        "content": "Retro how-to copy: 'The self-hypnosis revolution has arrived.', CB radio, 'Tips on Saving Energy in Your Geodesic Dome'",
+        "assets": "Sticker and face SVGs",
+        "html": ".opsz-demo > .with-opsz (p.opsz-large-with, p.opsz-medium-with, p.opsz-small) + .opsz-slider-window > .without-opsz + .opsz-slider-handle"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "friendly, systematic",
+        "mobile": "adapts",
+        "structure": "map",
+        "samples": "word",
+        "interactive": true
+      },
+      "look": "On orange, the editable 'Thank You / for Shopping / With us!' in white, above a five-column picker separated by thin black rules (Family · opsz 9/72/144 · SOFT Sharp/Soft/SuperSoft · WGHT Thin…Black · Style Roman/Italic), the active value of each column aligned on one white row; then 'Instance gratification' prose",
+      "feel": "Neat, slot-machine-like",
+      "ux": "Click a value in any column to set that axis; the column slides so the active value sits on the shared row (like a combination lock) and the sample updates",
+      "learn": "Lay the named instances out as aligned columns per axis and slide the chosen value onto one reading row: the current instance name reads straight across",
+      "reconstruction": {
+        "layout": "Sample centred, 3 lines ~110px apart (~600px wide); picker ~420px wide with five narrow columns, headers at top, vertical 1px rules ~240px tall, active row at mid-height; prose column ~800px below",
+        "typography": "Sample ~120px Fraunces Regular (opsz 72, SOFT 50, wght 400) white; headers ~11px Fraunces Black; values ~12px Fraunces, active in white bold",
+        "palette": [
+          "#fcaa1a",
+          "#ffffff",
+          "#030202"
+        ],
+        "behaviour": "button[value='n axis value'] sets the axis; each ul.flip-control is offset by --offset rows so the active li lines up; text is contenteditable",
+        "content": "'Thank You for Shopping With us!' (the grocery-bag slogan); 100+ predefined instances explained",
+        "assets": "none",
+        "html": ".flip > .flip-text[contenteditable] + .flip-controls-container > ul.flip-controls > li > h4[data-control] + ul.flip-control[style=--offset:N] > li > button[value='2 SOFT 50'].active"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "playful, informative",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": false
+      },
+      "look": "A checkerboard of orange and black squares with accented letters (ȁ ć ẹ ģ … Ŵ Ỳ Ż Ø) placed like checkers pieces on some squares, then 'Language Support' and a paragraph naming the supported languages in italics",
+      "feel": "Game-like, light",
+      "ux": "static in the capture",
+      "learn": "Turn the diacritic sample into a board game: accented glyphs as pieces on a checkerboard make the coverage list visual",
+      "reconstruction": {
+        "layout": "Board ~500×500px centred (8×8 squares ~62px); pieces centred in squares; heading and paragraph in the ~800px prose column below",
+        "typography": "Pieces ~28px Fraunces Black white/black; heading ~28px Black; list ~16px Fraunces with language names in italic",
+        "palette": [
+          "#fcfcfc",
+          "#fcae17",
+          "#06070a"
+        ],
+        "behaviour": "none observed (pieces may move; not seen in the video)",
+        "content": "About 45 Latin-script languages by name; ~30 accented letters",
+        "assets": "none",
+        "html": ".charset-checkers > .checkersboard > .checkN > .piece > span"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "13"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "low-key",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "No buy section: a small underlined 'Download' link in the header bar and a 'github.com/undercasetype/fraunces' link in the footer",
+      "feel": "Open-source, understated",
+      "ux": "Download opens the GitHub releases page in a new tab",
+      "learn": "For a free Google Fonts family, a persistent header link to the repository replaces the whole checkout",
+      "reconstruction": {
+        "layout": "Header link right-aligned in the 48px bar; footer link in the third column",
+        "typography": "~13px Fraunces Bold, underlined",
+        "palette": [
+          "#fba919",
+          "#030202"
+        ],
+        "behaviour": "target=_blank links",
+        "content": "Download; GitHub repo",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "collegial",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal"
+        ]
+      },
+      "look": "Orange footer in three columns: 'Made by friends of Google Fonts' logo, a stack of credit lines (© 2020 Undercase Type; designers Phaedra Charles and Flavia Zimbardi; contributors; website by Kabisa; mastering by Alphabet; content by Andy Sturdevant; thanks), and the GitHub link",
+      "feel": "Tidy, grateful",
+      "ux": "Links to collaborators and the repo",
+      "learn": "List every contributor role (mastering, copy, web) in the footer",
+      "reconstruction": {
+        "layout": "Full-bleed orange ~376px; three columns from x≈130: logo (~120px), credits (~300px), link",
+        "typography": "~11px Fraunces Regular black, leading ~1.4",
+        "palette": [
+          "#fcaa1a",
+          "#030202"
+        ],
+        "behaviour": "none",
+        "content": "Credits and copyright",
+        "assets": "Google Fonts logo image"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "family-overview/style-word-grid",
+    "story/origin-reference",
+    "type-tester/slider-sandbox",
+    "design-details/annotated-specimen",
+    "design-details/axis-explainer",
+    "design-details/feature-before-after",
+    "family-overview/designspace-map",
+    "language-support/language-name-list",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

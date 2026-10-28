@@ -1,0 +1,578 @@
+{
+  "slug": "andada-huertatipografica-com",
+  "extractedBy": "agent",
+  "summary": "HT Fonts' long static page for Andada, a free organic-slab text serif designed for Spanish and Guaraní: nearly every specimen is an animated GIF (slideshows, style cards, character-set strips, OpenType toggles), framed by a sticky anchor header. Its distinctive core is a deep dive on the Guaraní language (the saltillo, its Unicode and the alphabet, a world map), a full OpenType feature catalogue with off/on toggles, and an orthotypography primer on figures and small caps.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "warm, bookish, Latin American",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "download",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "A dark-brown slide with the name spelled entirely in accented letters, 'ȁñđạðă', in cream, flanked by small orange caps notes ('Since 2021 this font is part of the Google Fonts catalog as a librefont'), under the sticky white 'ht Andada' header; slideshow controls '1 2 3 4 5 · Play · Next · Previous' below",
+      "feel": "Calm, literary, proud of its accents",
+      "ux": "A 5-slide slideshow (slides.js) that can autoplay or be stepped; other slides celebrate the ñ ('La eñe también es gente'), Argentine typography and Rubén Fontana",
+      "learn": "Spell the name with a diacritic on every letter: the hero announces language support before any text",
+      "reconstruction": {
+        "layout": "Slide ~1200×580px (from x≈0, top under the 90px header); name centred ~260px tall; notes in two small orange blocks top-right and bottom-right; controls row 20px below (dots left, Play/Next/Previous right)",
+        "typography": "Name ~300px Andada Regular cream #efe8d8; notes ~13px orange caps (Alegreya Sans), link in bold; controls 13px",
+        "palette": [
+          "#4f4a47",
+          "#efe8d8",
+          "#f26d32",
+          "#fbfbfb"
+        ],
+        "behaviour": "slides.js carousel of GIF images (Play/Stop/Next/Previous, numbered pagination)",
+        "content": "Name with diacritics; slides on Google Fonts, ñ, Argentine type",
+        "assets": "5 GIF slides (web_info-general-1-*.gif)",
+        "html": ".slidesjs-container > img.slidesjs-slide; .slidesjs-navigation buttons"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "factual, proud",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "A bold four-line intro ('Andada was born from the relationship between language and typography. It is an organic-slab serif text font… product of 10 years' research… Award category Design II Bienal Iberoamericana de Diseño') followed by three columns of orange-bulleted facts (foundry, author Carolina Giovagnoli, created 2010, revisions 2015–2023, 8 fonts, Roman/Italic/Small caps, Latin Plus, SIL Open Font License)",
+      "feel": "Compact fact sheet",
+      "ux": "static",
+      "learn": "Follow the intro sentence with a bullet fact sheet (author, dates, revisions, licence) so the history reads at a glance",
+      "reconstruction": {
+        "layout": "Intro paragraph full column (~1200px); fact columns ~390px with vertical hairline dividers",
+        "typography": "Intro ~27px Alegreya Sans Bold; facts ~16px with bold labels and orange ▸ bullets",
+        "palette": [
+          "#fbfbfb",
+          "#1a1a1a",
+          "#f26d32"
+        ],
+        "behaviour": "none",
+        "content": "Real history: revisions 2015 (OpenType small caps), 2019 (diacritics), 2021 (Google Fonts), 2023 (Wounaan)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "pangram",
+        "tone": "poetic, multilingual",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "One panel per style, each labelled small ('Andada - Regular', '- Italic', '- Medium', '- Medium Italic', '- Bold'…) and showing the word 'butterfly' in another language at display size with a pangram in that language underneath: '{LA} mariposa' + 'El veloz murciélago hindú come un kiwi enmarañado', '[DER] Schmetterling' + 'Ma la volpe col suo balzo…', '✳ borboleta ✳' + '„Fix, Schwyz!“ quäkt Jürgen blöd vom Paß', 'motyl' beside a Basque pangram (the crop is cut at Bold)",
+      "feel": "Delicate, travelling, warm",
+      "ux": "static images (GIFs), separated by dotted rules",
+      "learn": "Give every style the same word in a different language plus that language's pangram: the style list doubles as a language-support showcase",
+      "reconstruction": {
+        "layout": "8 panels ~560px tall each, centred composition; label 13px top-left; display word ~120px tall centred; pangram line ~40px below; dotted divider between panels",
+        "typography": "Words ~150px Andada in the named style with brackets/asterisks as ornaments and small caps for articles ({LA}, [DER]); pangrams ~36px mixing roman, italic and small caps",
+        "palette": [
+          "#ffffff",
+          "#1a1a1a",
+          "#d1d1d1"
+        ],
+        "behaviour": "Each panel is a GIF (web_info-general-2…9-*.gif), possibly cycling content",
+        "content": "'Butterfly' in Spanish, German, Portuguese, Polish… with matching pangrams",
+        "assets": "8 GIF specimen cards"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "committed, linguistic",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "'Avañe'ẽ' (the Guaraní name of the language) in huge dark-brown italic on an orange band, then three columns: a large light lead ('Andada was born from the relationship between language and typography… Spanish and Guaraní (pre-Hispanic) languages — so language is its design criterion') and smaller text on the puso/saltillo problem and a new Guaraní keyboard layout",
+      "feel": "Purposeful, scholarly",
+      "ux": "Link to the github keyboard layout (huertatipografica/teclado-Guarani)",
+      "learn": "Open the story with the language's own name set huge, then state the design criterion in one sentence: 'language is its design criterion'",
+      "reconstruction": {
+        "layout": "Orange band ~600px with the word centred ~1300px wide; 3 columns ~460px with hairline dividers; lead text in the first column",
+        "typography": "Word ~260px Andada Italic #4f4a47; lead ~30px Alegreya Sans Light; body ~16px",
+        "palette": [
+          "#f26d32",
+          "#4f4a47",
+          "#f4f4f4",
+          "#726e69"
+        ],
+        "behaviour": "none",
+        "content": "First-person design rationale: bilingual Spanish–Guaraní context, saltillo vs apostrophe, 10 years of work",
+        "assets": "Title GIF"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "practical, explanatory",
+        "mobile": "adapts",
+        "subject": [
+          "alternates",
+          "features",
+          "history-of-revision"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "Three rows, each a bulleted note left and a slideshow right: '\"Beautification\" of the language' (vel'kosťami twice on dark brown, 'CONTEXTUAL ALTERNATE', 6 slides), 'New weight program' ('Hola' in Bold/Extra bold, 2 slides), 'And more…' (orange field of asterisk ornaments, 5 slides)",
+      "feel": "Methodical changelog",
+      "ux": "Each slideshow has numbered pagination and Play / Next / Previous",
+      "learn": "Pair each revision topic with its own small slideshow of before/after GIFs: a changelog you can watch",
+      "reconstruction": {
+        "layout": "Row: notes column ~560px left, slideshow ~860×480px right; dotted rules between rows",
+        "typography": "Notes ~16px Alegreya Sans with bold heading and orange ▸ bullets; slides with Andada at ~120–260px",
+        "palette": [
+          "#ffffff",
+          "#4f4a47",
+          "#f26d32",
+          "#efe8d8"
+        ],
+        "behaviour": "slides.js carousels of GIFs",
+        "content": "Saltillo via ss01, alternative k and caron forms, unconnected cedilla ss03, uppercase diacritics; weights since 2019; small-caps figures, Roman numerals, ornaments",
+        "assets": "13 GIF slides"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04"
+      ],
+      "type": "language-support",
+      "variant": "language-profile",
+      "newVariant": true,
+      "variantDefinition": "A deep dive into the one language the family was designed for: its special characters with Unicode, classification and keyboard problems, a map of where it is spoken, its alphabet, and a sample text in it, instead of a coverage list",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "scholarly, respectful",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": false
+      },
+      "look": "'About Guaraní language': a 3-slide slideshow of the saltillo — a huge 'aꞌ' beside its definition ('✳ SALTILLO → U+A78B [ꞌ] / U+A78C [Ꞌ]', 'CLASIFICACIÓN: LETRA…') and 'Avañeꞌẽ Guaraní ñeꞌẽ'; three columns comparing saltillo, apostrophe (U+2019) and prime (U+2032); a dotted world map with South America and Spain highlighted; facts on where it is official; an orange Guaraní text sample set with ss01; the 33-letter Guaraní alphabet with vowels, consonants and digraphs",
+      "feel": "Careful, educational, culturally rooted",
+      "ux": "Slideshow controls; static map and lists",
+      "learn": "When a font serves a minority language, explain its key character (Unicode, class, keyboard problem) and show it in a real text: the visitor learns why the font exists",
+      "reconstruction": {
+        "layout": "Slideshow ~1440×780 (glyph left ~400px, definition right); 3 columns of definitions ~460px; map ~720px wide right-aligned with facts below; orange text box ~720px right; alphabet list below",
+        "typography": "Glyph ~400px Andada Bold dark brown; definition ~28px Andada with small caps headings; sample line ~110px Italic; column text ~16px Alegreya Sans; Guaraní sample ~36px Andada cream on orange",
+        "palette": [
+          "#f9f9f9",
+          "#4f4a47",
+          "#f26d32",
+          "#d7e7b0",
+          "#b23a48"
+        ],
+        "behaviour": "slides.js carousel; GIFs",
+        "content": "Real linguistics: saltillo, apostrophe, prime; official in Paraguay, Bolivia, Corrientes, Mato Grosso do Sul, Mercosur; ~8 million speakers; 33-letter alphabet; sample 'Poã ma Nhanderu ombojera vaꞌe…'",
+        "assets": "Dotted world map image, glyph GIFs"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "thorough, warm",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "An orange banner wall of every accented letter with 'ANDADA · HT' hidden in a line, then category blocks (Upper case, Lower case, Small caps, Figures and fractions, Punctuations, signs, symbols) set as running lines in which each base letter is orange and its accented forms follow in black, with one big glyph (R, ñ, S, ⟨F⟩) at the right of each block",
+      "feel": "Generous, typographic, hand-set",
+      "ux": "Animated GIF per category (the big glyph changes)",
+      "learn": "Colour the base letter and run its accented variants after it: the set reads as families of diacritics instead of a grid",
+      "reconstruction": {
+        "layout": "Banner full width ~500px; each category ~1000px wide text block with a ~300px glyph at the right; '4×2=8 STYLISTIC SET 6' tile in the figures block; dotted rules between categories",
+        "typography": "Lines ~40px Andada Regular, base letters #f26d32; category labels 13px bold; big glyph ~300px",
+        "palette": [
+          "#f7f6f6",
+          "#1a1a1a",
+          "#f26d32",
+          "#4f4a47"
+        ],
+        "behaviour": "GIF animations (web_set-de-caracteres-*.gif)",
+        "content": "Latin Plus set incl. small caps, fractions, arrows, geometric symbols",
+        "assets": "6 GIFs"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "reference",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": false
+      },
+      "look": "'Language support: LATIN PLUS' then a running comma-separated list of 219 language names validated by Underware (Abenaki, Afaan Oromo, Afar, Afrikaans…) at the end of the character set (beyond the truncated crop)",
+      "feel": "Dense, credible",
+      "ux": "static",
+      "learn": "Cite the validator (Underware's Latin Plus) and the count before the list: '219 languages from 212 countries'",
+      "reconstruction": {
+        "layout": "Full-width paragraph of names after a short heading",
+        "typography": "~16px Alegreya Sans, heading bold",
+        "palette": [
+          "#f7f6f6",
+          "#1a1a1a"
+        ],
+        "behaviour": "none",
+        "content": "219 language names",
+        "assets": "web_set-de-caracteres-underware.gif"
+      }
+    },
+    {
+      "blocks": [
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "23"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "methodical, friendly",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "toggle",
+        "explanation": "prose"
+      },
+      "look": "An orange banner of every OpenType tag ('/ABVF/ABVS/AFRC/…') and a one-line intro, then one entry per feature: a grey 'off' sample and, below a thin orange rule, the black 'on' sample with an orange switch (labelled DEFAULT or the tag), then the feature name with its tag in code style ('Ligatures [liga]') and a short explanation; 17 entries from liga, dlig, calt, smcp/c2sc, case, figures, tnum, sups/subs, frac, ordn to ss01 Guaraní, ss02 Roman numerals, ss03 cedilla, ss04 arrows, ss05 geometry, ss06 maths",
+      "feel": "Clear, catalogue-like",
+      "ux": "Each sample is an animated GIF whose switch flips off → on; the sticky header's 'Character set ↓' menu links to each feature anchor",
+      "learn": "Show every feature as the same off/on pair with a drawn switch and real multilingual sample text: readers learn what to toggle in their app",
+      "reconstruction": {
+        "layout": "Entries ~650–1000px wide, left-aligned: samples ~2 lines each, off above on; heading and paragraph below; ~320–500px per entry",
+        "typography": "Samples ~55px Andada (off in #b0b0b0, on in black); switch 40×20px grey/orange; headings 16px bold with tag in monospace; body ~16px Alegreya Sans Light grey",
+        "palette": [
+          "#fbfbfb",
+          "#1a1a1a",
+          "#b0b0b0",
+          "#f26d32"
+        ],
+        "behaviour": "Looping GIF per feature (web_OPEN-TYPE-*.gif) animating the switch and the substitution",
+        "content": "Multilingual themed samples: 'Un infinito after office', 'The cat is under the table!', 'FÜẞE - Gulka', '¡HOLA? (123 VIENDO ALGO}', 'Oughtred 3,1415…', 'Carl Mosander in 1839', '2 ½ tazas de azúcar morena', 'mba'éichapa OMBA'APO', 'SIGLO XXI'",
+        "assets": "17 feature GIFs + tag banner"
+      }
+    },
+    {
+      "blocks": [
+        "24",
+        "25",
+        "26"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "didactic, scholarly",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "spacing"
+        ],
+        "presentation": "overlay",
+        "explanation": "prose"
+      },
+      "look": "Lime-green 'Orthotypography' chapter: a banner of French text showing French punctuation spacing ('« Lisez » dans ce livre ;') with a small-caps definition line, an intro paragraph, then two slideshow topics: 'Figures vs Letters' (Spanish rules for when to use figures, a huge 'Note¹ [SUPS]') and 'Small caps' (real vs fake small caps overlaid on 'OA' with a legend, 8 slides) with bulleted usage rules",
+      "feel": "Like a typesetting manual",
+      "ux": "Slideshows with pagination and Play/Next/Previous",
+      "learn": "Teach the conventions the font's features exist for (small caps, superiors, figures vs words) and the features sell themselves",
+      "reconstruction": {
+        "layout": "Green banner ~600px full width; per topic: slideshow ~860×480px on the left or right with notes column ~560px; 3 rule columns under small caps",
+        "typography": "Banner ~75px Andada roman/italic/small caps on #a3d03a; slides ~40–300px Andada; notes ~16px Alegreya Sans with orange bullets",
+        "palette": [
+          "#a3d03a",
+          "#1a1a1a",
+          "#ffffff",
+          "#72902d"
+        ],
+        "behaviour": "slides.js carousels of GIFs",
+        "content": "Real orthotypographic rules (Spanish figures usage, small-caps uses in signatures, legal texts, plays, biographies) with source link",
+        "assets": "12 GIF slides"
+      }
+    },
+    {
+      "blocks": [
+        "27"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "editorial, bookish",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "grid"
+      },
+      "look": "A collage banner of book pages in Andada, then 'External link to the Fonts in Use page' and project after project as 3×2 photo grids of books (Transpassar, a Chinese horoscope, Nosotros Valemos, La jarana de Mario…), each with title, short description, designer, font pairing and a [fontsinuse] link",
+      "feel": "Credible, real-world, book-heavy",
+      "ux": "Links to each Fonts In Use entry (crop truncated by the 30,000px capture limit)",
+      "learn": "Show real book projects with their font pairings ('Andada + Montserrat'): text faces are proven in pages, not posters",
+      "reconstruction": {
+        "layout": "Banner ~410px of tilted page crops; per project a 3-column grid of ~390×260px photos (2 rows) then caption block ~1200px",
+        "typography": "Project titles ~16px Alegreya Sans Bold; descriptions ~15px; links orange",
+        "palette": [
+          "#f6f6f6",
+          "#1a1a1a",
+          "#f26d32"
+        ],
+        "behaviour": "none",
+        "content": "Real projects from fontsinuse.com",
+        "assets": "~37 project photos"
+      }
+    },
+    {
+      "blocks": [
+        "28"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "plain",
+        "mobile": "adapts",
+        "contains": [
+          "legal",
+          "contact",
+          "socials"
+        ]
+      },
+      "look": "Beyond the capture (HTML only): HT FONTS logo and columns of section anchors (Overview … Font in use), 'Download from HT Fonts' / 'Download from Google Fonts', 'Contact us', Instagram and Facebook @htfonts, © HT Fonts",
+      "feel": "Tidy end",
+      "ux": "Anchor links and outbound download links",
+      "learn": "Repeat the section index and the download links in the footer of a long single page",
+      "reconstruction": {
+        "layout": "~170px footer: logo left, 3–4 link columns",
+        "typography": "~16px Alegreya Sans",
+        "palette": [
+          "#ffffff",
+          "#1a1a1a",
+          "#f26d32"
+        ],
+        "behaviour": "none",
+        "content": "Section links, downloads, socials",
+        "assets": "HT logo"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "28"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "generous, low-key",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "No buy section: the hero note says the font is a librefont on Google Fonts, the fact list names the SIL Open Font License 1.1, and the footer links 'Download from HT Fonts' and 'Download from Google Fonts'",
+      "feel": "Understated",
+      "ux": "Outbound links only",
+      "learn": "For a free font, state the licence in the facts and repeat the download links where the reader ends",
+      "reconstruction": {
+        "layout": "Small text links in the hero note and the footer column",
+        "typography": "~13–16px Alegreya Sans, orange or bold",
+        "palette": [
+          "#ffffff",
+          "#f26d32"
+        ],
+        "behaviour": "none",
+        "content": "SIL OFL 1.1; links to htfonts.com and fonts.google.com/specimen/Andada+Pro",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "29"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Sticky white header: 'ht Andada' logo left; OVERVIEW, ABOUT THE FONT ↓, CHARACTER SET ↓, FONT IN USE, CONTACT US right; '[ SCROLL DOWN OR CLICK ]' under a heavy black rule; small '[ GO TO TOP ↑ ]' links end sections (blocks 02, 04); stitched into many crops",
+      "feel": "Book-like running head",
+      "ux": "Dropdowns list sub-anchors (About Guaraní; each OpenType feature: liga, calt, case, frac, sups, ss…); jumps by anchor",
+      "learn": "A running head with dropdown anchors turns a very long specimen into a navigable manual",
+      "reconstruction": {
+        "layout": "Sticky ~90px bar, 3px black rule below, hint text right-aligned under the rule",
+        "typography": "Logo ~32px Andada; links ~11px Alegreya Sans caps tracked",
+        "palette": [
+          "#ffffff",
+          "#1a1a1a"
+        ],
+        "behaviour": "position: sticky; dropdown menus on hover"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "22",
+      "reason": "bad cut: a half-width duplicate of the ss06 entry (block 23) plus a 'GO TO TOP' link"
+    }
+  ],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/large-text-intro",
+    "family-overview/style-word-grid",
+    "story/design-brief",
+    "design-details/design-notes",
+    "language-support/language-profile",
+    "glyph-table/category-lines",
+    "language-support/language-name-list",
+    "design-details/feature-index",
+    "design-details/design-notes",
+    "specimen-showcase/in-use-mockups",
+    "footer/link-columns",
+    "checkout/free-download"
+  ]
+}

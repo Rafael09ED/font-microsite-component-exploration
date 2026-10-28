@@ -1,0 +1,133 @@
+{
+  "slug": "serf-nan-xyz",
+  "extractedBy": "agent",
+  "summary": "A one-screen poster site: a 2×2 grid of saturated colour fields, each naming one optical-size subfamily of NaN Serf (Display, Headline, Text, Micro) in its own opsz, while a huge blurred squiggle in difference blend draws itself across the quadrants. The only other element is a 'Download trial fonts' sticker.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "01",
+        "02"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "loud, pop, playful",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "download",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "Four flat quadrants (red, magenta, green, blue) each centring 'NaN Serf / Display|Headline|Text|Micro' in a contrasting quadrant colour; a fat, soft-edged scribble stroke in difference blend sweeps over them, inverting colours where it passes",
+      "feel": "Loud, joyful, poster-like; the serif feels unexpectedly pop",
+      "ux": "Nothing scrolls: the screen is the whole site (wheel events only advance the squiggle animation in the capture). Blocks 01–02 are later states of the same screen",
+      "learn": "Let colour and one ambient gesture carry a single screen; naming each optical size in its own opsz makes the family structure the whole message",
+      "reconstruction": {
+        "layout": "100vw × 100vh grid, 2 columns × 2 rows of equal 720×450 cells; each cell centres a two-line label; sticker fixed bottom-right (~175×70px, 20px from the edges); full-screen SVG squiggles (viewBox 800×600, width/height 100%) layered above the grid",
+        "typography": "Labels ~64px NaN Serf A variable, Regular (wght 400), two lines 'NaN Serf' / subfamily, leading ~1.05, centred; each cell sets its own opsz: Display opsz 100, Headline 60, Text 18, Micro 8; sticker text ~10px NaN Holo Mono caps, white",
+        "palette": [
+          "#f41518",
+          "#fe01fb",
+          "#01ad02",
+          "#0e84e8",
+          "#187131"
+        ],
+        "behaviour": "Several thick blurred SVG paths (class 'difference squiggle', mix-blend-mode difference) draw in and out in a loop (stroke-dash animation), so the overlap with each quadrant changes colour; label colours change between passes; a 'variablicious' keyframe animates opsz/wght; data-initial on each cell plus texts.js suggests clicking a cell swaps the name for sample text (not verified)",
+        "content": "Only the family and subfamily names; texts.js likely holds alternate sample copy",
+        "assets": "Hand-drawn squiggle paths (SVG); blob-shaped sticker SVG",
+        "html": "main > div.serf-o.NaN-Serf-{Display|Headline|Text|Micro}-Regular[data-family][data-weight][data-initial] > span; svg.difference.squiggle × 8 (paths duplicated for a soft halo); aside#trials > a > svg blob"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "systematic, pop",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "The same 2×2 grid read as a family map: one cell per optical-size subfamily, each label set in that cut so the contrast drops from Display (fine hairlines) to Micro (sturdy, wide)",
+      "feel": "Diagrammatic but colourful",
+      "ux": "static reading; the grid is the hero itself",
+      "learn": "Four optical sizes at one identical point size expose how the drawing changes with opsz better than a waterfall would",
+      "reconstruction": {
+        "layout": "2×2 equal cells filling the viewport, label centred in each; on mobile the cells stack into four 100vw bands",
+        "typography": "All labels the same ~64px; only opsz differs (100 / 60 / 18 / 8) at wght 400, so contrast and spacing visibly change from cell to cell",
+        "palette": [
+          "#f41518",
+          "#fe01fb",
+          "#01ad02",
+          "#0e84e8"
+        ],
+        "behaviour": "none of its own (shares the hero's squiggle)",
+        "content": "Subfamily names only",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "sticker, casual",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "A magenta blob-shaped sticker in the bottom-right corner with 'DOWNLOAD / TRIAL FONTS' in small white mono caps; never cut as its own block, attached here",
+      "feel": "Off-hand, like a sticker on a poster",
+      "ux": "The only link on the page, to nan.xyz/trial-fonts",
+      "learn": "On a poster-site, a single sticker-shaped CTA can sit on top of the composition without needing a nav bar",
+      "reconstruction": {
+        "layout": "Fixed bottom-right, ~175×70px irregular rounded blob (SVG path), slightly rotated, ~20px from the corner; text centred in two lines",
+        "typography": "~10px NaN Holo Mono uppercase, white, tracked",
+        "palette": [
+          "#fe01fb",
+          "#ffffff"
+        ],
+        "behaviour": "none observed (hover not captured)",
+        "content": "'DOWNLOAD TRIAL FONTS'",
+        "assets": "Blob SVG path",
+        "html": "aside#trials > a[href='https://www.nan.xyz/trial-fonts/'] > svg"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "family-overview/style-word-grid",
+    "checkout/link-out-cta"
+  ]
+}

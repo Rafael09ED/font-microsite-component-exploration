@@ -1,0 +1,449 @@
+{
+  "slug": "moriston-losttype-com",
+  "extractedBy": "agent",
+  "summary": "A narrow-column, magazine-like page for a high-contrast grotesque, built on Lost Type's earlier 'BigIdeasText' template: headline blocks are contenteditable and re-fit line by line to the column, each flagged with a small blue 'Edit Me!' sticker. Between them sit full-width colour bands (a two-colour riso glyph poster in live SVG text, a weight ramp, a live clock) and a long first-person origin story about a Rollfast bicycle logo and the designer's grandfather.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "friendly, enthusiastic, indie",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "buy",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "White page, short red bar on top, 'Introducing' kicker, red Black-weight 'MORISTON' with a tilted blue 'Edit Me!' sticker on its corner, then 'A sans-serif typeface with / unusually high contrast—and enthusiasm!' in two weights, 'by Riley Cran' and a short intro paragraph",
+      "feel": "Warm, approachable, a little cheeky",
+      "ux": "Name and tagline form one contenteditable block: click to retype the hero; each line re-fits to the column width",
+      "learn": "A tiny 'Edit Me!' sticker on the headline turns the hero itself into a tester without adding any controls",
+      "reconstruction": {
+        "layout": "Centred column 720px wide in a 1440 page, ~1050px tall block; red bar 720×20px at the very top; kicker, headline block (3 lines, each fitted to 720px), byline, ~17px intro paragraph, then a grey promo card (see checkout)",
+        "typography": "'MORISTON' ~110px Moriston 900 uppercase red; line 2 ~44px Moriston 400; line 3 ~30px 400 with 'and enthusiasm!' in 600; kicker and byline ~14px 400 grey; sticker ~11px white on blue, rotated about −5°; body ~17px 400",
+        "palette": [
+          "#fbfbfb",
+          "#ef6c6a",
+          "#0296c9",
+          "#222222"
+        ],
+        "behaviour": "BigIdeasText script sizes every span (.bigIdeasText-lineN) so each line fills the container width, and refits on input (min font size 20px); no animation",
+        "content": "Real tagline: 'A sans-serif typeface with unusually high contrast—and enthusiasm!' and positioning copy (6 weights, 200+ languages, number styles)",
+        "assets": "none in the hero itself (the promo card below uses a riso print photo)",
+        "html": "header.story-header > span.story-intro + div.is-editable.simpleTester.js-scaleText.bigIdeasText[contenteditable][bigideastext-minfontsize=20] > h1.bigIdeasText-line0 + span.bigIdeasText-line1/2; the 'Edit Me!' tag is a CSS ::before on .is-editable"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "generous, indie",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": false,
+        "free": false
+      },
+      "look": "Light-grey card: photo of the two-colour riso poster on a wooden table at left; at right 'Pay-What-You-Want for a Personal Use License. Purchase a Commercial Use License for $75 and receive a kickass risograph print at no extra charge!' and a red 'Get Moriston' button",
+      "feel": "Fair, gift-like",
+      "ux": "The whole card is one link to the Lost Type shop page; the same card is repeated at the end of the story (block 06)",
+      "learn": "Bundle a physical print with the commercial licence and show its photo in the buy card: buying feels like patronage, not a transaction",
+      "reconstruction": {
+        "layout": "Card 720px wide (column width), ~250px tall, light grey; two equal cells: photo (~290×190px) left, text + button right; button full cell width ~320×56px",
+        "typography": "Card text ~18px Moriston 400 grey with lining figures (lnum); button label ~16px 600 white",
+        "palette": [
+          "#f6f6f6",
+          "#ef6c6a",
+          "#9a9a9a",
+          "#ffffff"
+        ],
+        "behaviour": "none (hover state on the link)",
+        "content": "Pay-what-you-want personal licence, $75 commercial licence with a free riso print",
+        "assets": "Photo of the riso poster (moriston-riso-photo-1.jpg)",
+        "html": "a.promo > .grid.grid--collapse > .grid__cell > img + .grid__cell.u-fontFeatureSettings-lnum > p + div.button"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "modular-grid",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "riso print, bold, graphic",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "grid"
+      },
+      "look": "A tall 3×4 grid of square tiles, each holding one giant cropped glyph (7, @, 5, S, &, ®, m, ?, %, Q, £…), overprinted in coral red and blue so overlaps go navy and glyph-on-glyph knocks out white",
+      "feel": "Screen-printed, playful, poster-like",
+      "ux": "static",
+      "learn": "Recreate the bonus print as live SVG text: two layers of cropped glyphs multiplied together give a riso overprint look with real font outlines",
+      "reconstruction": {
+        "layout": "Near-full-bleed band (1380px wide, ~1840px tall), SVG viewBox 600×800 = 3 columns × 4 rows of 200-unit squares; no gutters",
+        "typography": "One glyph per square at 340–400 SVG units (≈780–920px rendered), Moriston weights 400–900, white, positioned so it overflows and is clipped by its square",
+        "palette": [
+          "#333448",
+          "#ed5a57",
+          "#378ecd",
+          "#fafafa"
+        ],
+        "behaviour": "none; two <g> layers ('blue-layer', 'red-layer'), each a grid of coloured squares with white glyphs, combined with mix-blend-mode: multiply so square×square = navy, glyph over square = the other colour, glyph×glyph = white",
+        "content": "Mixed figures, lowercase, caps and symbols (6 5 a s p 2 ß Q m G m % 7 M @ 0 d & ® ? 8 V 4 £)",
+        "assets": "none (inline SVG with <text> in the webfont)",
+        "html": "div.section.riso > svg[viewBox='0 0 600 800'] > g#blue-layer|#red-layer > g.svg-square > rect + clipPath + text"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "retro sign-painting, bold",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "'MORISTON' three times in red Black caps, each with a long black stepped drop shadow running down-right, 'EDIT ME!' sticker on the first line",
+      "feel": "Vintage sign, comic-book punch",
+      "ux": "The stack is one editable block that keeps every line fitted to the column (max font size 1000px)",
+      "learn": "A hard extruded shadow in CSS makes the heaviest weight look like a painted sign while staying live, editable text",
+      "reconstruction": {
+        "layout": "White band ~810px tall, centred 720px column; three lines fitted to the column width, tight leading (~0.85); shadow overflows right (section--crop clips it)",
+        "typography": "~85px Moriston 900 uppercase, red",
+        "palette": [
+          "#fefefe",
+          "#f52533",
+          "#070404"
+        ],
+        "behaviour": "Stacked text-shadow (many 1px steps down-right in black) for the extrusion; BigIdeasText refits on input",
+        "content": "The family name repeated",
+        "assets": "none",
+        "html": "div#shadow.container > div.simpleTester.js-scaleText.is-editable.shadow.u-fontWeight--900[contenteditable][bigideastext-maxfontsize=1000]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "type-tester",
+      "variant": "auto-fit-editable-lines",
+      "newVariant": true,
+      "variantDefinition": "Editable display lines that each rescale their font size to fill the column width as you type; no size or axis controls, at most one button that switches the style of the whole stack.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "clean, story-driven",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "On saturated blue, six white lines stepping from Light to Black, all justified to the same width: 'Airplane travels', 'ROLLFAST BICYCLE', 'Scottish River Glens', 'LOCAL LOCH', 'Very good Jazz albums', 'New York'",
+      "feel": "Crisp, travel-poster",
+      "ux": "One editable block; every line is re-fitted to the column, so typed text always forms a justified weight ramp",
+      "learn": "Fit every line of a weight ramp to the same measure: the weights read as a clean block, and the default words retell the origin story (bicycle, Scotland, New York)",
+      "reconstruction": {
+        "layout": "Full-bleed blue band ~1080px tall; centred 720px column; six lines, each fitted to 720px, ~30px gaps",
+        "typography": "Moriston weights 300, 400, 500, 600, 700, 900 in order; sizes from fitting ≈54–127px (shortest line biggest); mixed case and all caps alternating; white",
+        "palette": [
+          "#0296c9",
+          "#ffffff"
+        ],
+        "behaviour": "BigIdeasText fit-to-width per line, recalculated on input",
+        "content": "Words from the design story: airplane travels, Rollfast bicycle, Scottish river glens, local loch, jazz albums, New York",
+        "assets": "none",
+        "html": "div.section.knockout.knockout--blue > div.is-editable.simpleTester.js-scaleText.bigIdeasText[contenteditable] > span.u-fontWeight--300…900.bigIdeasText-line0…5"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "quiet, elegant",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "single"
+      },
+      "look": "A working analogue clock on white: numerals 1–12 in light Moriston around an empty face, thick black hour and minute hands, a thin red second hand with a small square-outlined tip",
+      "feel": "Calm, domestic, mid-century",
+      "ux": "Live: the hands are rotated by JavaScript every second to the visitor's local time",
+      "learn": "A live object (a ticking clock) shows off the numerals at display size and keeps a quiet section moving",
+      "reconstruction": {
+        "layout": "White band ~840px tall; clock ~520px diameter centred; numerals placed on a circle (ol.clock-numbers), hands pivot at the centre; section--crop clips it on small screens",
+        "typography": "Numerals ~52px Moriston Light (300), tabular feel, dark grey; two-digit numbers (10–12) slightly condensed spacing (.clock-double)",
+        "palette": [
+          "#fefefe",
+          "#2a2a2a",
+          "#e04848"
+        ],
+        "behaviour": "setInterval each second: transform: rotate() on #js-clockS (6°/s), #js-clockM and #js-clockH computed from the current time",
+        "content": "Clock numerals 1–12",
+        "assets": "none (hands are CSS boxes)",
+        "html": "#js-clock.clock > .clock-center + #js-clockS.clock-seconds + #js-clockM.clock-minutes + #js-clockH.clock-hours + ol.clock-numbers > li (li.clock-double for 10–12)"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "newVariant": true,
+      "variantDefinition": "A heading plus the full alphabetical list of supported language names, set small as running text or in columns; the list is the proof, no sample sentences.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "confident, inclusive",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": false
+      },
+      "look": "On charcoal, the white heading 'Moriston speaks your language' and below it ~225 Latin-script language names (Abenaki … Zuni) as one comma-separated paragraph flowing through three columns",
+      "feel": "Generous, matter-of-fact",
+      "ux": "Both the heading and the list are contenteditable (same BigIdeasText fitting as elsewhere)",
+      "learn": "Flow the whole language list as one small paragraph in columns: it reads as texture from afar and as a checklist up close, and doubles as a text-size specimen",
+      "reconstruction": {
+        "layout": "Dark band ~800px tall; wider 'breakout' container (~1100px); heading centred; list in 3 CSS columns with ~40px gap",
+        "typography": "Heading ~61px Moriston 600–700 white; list ~12px Moriston 400 light grey, leading ~1.4",
+        "palette": [
+          "#343434",
+          "#ffffff",
+          "#adadad"
+        ],
+        "behaviour": "none (editable)",
+        "content": "Real list of ~225 supported languages",
+        "assets": "none",
+        "html": "div.section.knockout--grayDark > #language.container--breakout > div.bigIdeasText > h2 + div.bigIdeasText.u-columns[bigideastext-minfontsize=12] > p"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "personal, heartfelt, storytelling",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "photo",
+          "process"
+        ],
+        "length": "long"
+      },
+      "look": "'Fall 2015' dateline and an editable 'READ MORISTON' title, a large lede paragraph, then a narrow article column with a full-width photo of the Rollfast bicycle 'R' badge on grey, an interpolation proof (outline 'Moriston' at five weights with point coordinates), subheads 'Glenmoriston' and 'At first, light', and two riso-poster photos",
+      "feel": "Intimate, like a long blog post from the designer",
+      "ux": "Long read; title and dateline editable; captions link to the shop",
+      "learn": "Tell the origin as a found object (a bicycle logotype seen in Soho) plus a family dedication: the name and the letterforms both get a story",
+      "reconstruction": {
+        "layout": "Article column ~600px (lede ~720px) centred; figures break out to ~1100px on light-grey (#f6f6f6) bands with captions under them; interpolation figure 75% + caption 25% side column; ~6900px tall in total",
+        "typography": "Title ~100px Moriston 900 uppercase, two lines; lede ~24px 400; body ~16px 400, leading ~1.5; subheads ~24px 700; captions ~14px grey; 'Fall 2015' kicker ~14px with lnum",
+        "palette": [
+          "#f9f8f8",
+          "#222222",
+          "#d9d7d5"
+        ],
+        "behaviour": "none (title is editable)",
+        "content": "First-person story: Rollfast bicycle logotype in Soho, Benton Gothic and Miller & Richards Grotesque #7 references, grandfather Glenn Morison Chronister and Glenmoriston, interpolation process",
+        "assets": "Photo of the Rollfast chain guard, interpolation proof PNG, two riso poster photos",
+        "html": "article.story > header (bigIdeasText dateline + h1) + p + figure > img + figcaption; figure > .mwl-75 + figcaption.mwl-25"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "story",
+      "variant": "designer-bio",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "warm, personal",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "At the end of the article, two black-and-white portrait cards side by side: 'Riley Cran @rileycran' with a short bio, and 'Glenn Morison Chronister' with the dedication line; the riso promo card repeats below",
+      "feel": "Heartfelt, family album",
+      "ux": "Twitter handle and Lost Type links",
+      "learn": "Give the dedicatee a portrait card next to the designer's: the page honours the person the font is named after",
+      "reconstruction": {
+        "layout": "Two-cell grid with gutters under an <hr>, each cell ~260px: square B/W portrait, name heading, short paragraph",
+        "typography": "Names ~24px Moriston 700, handle 400 blue link; bio ~14px 400",
+        "palette": [
+          "#f9f8f8",
+          "#222222",
+          "#0296c9"
+        ],
+        "behaviour": "none",
+        "content": "Designer bio (Lost Type Co-op co-founder) and dedication to Glenn Morison Chronister",
+        "assets": "2 black-and-white portrait photos",
+        "html": "article > footer.container > .grid.grid--gutters > .grid__cell > img + h2 + p"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "newsletter",
+      "variant": "email-signup",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "casual, first-person",
+        "mobile": "adapts"
+      },
+      "look": "On bright red, the line 'I want to hear about future Lost Type releases, email me then!', a white email field and a lighter red full-width 'Subscribe' bar, 'Or, follow @losttypecoop here' underneath",
+      "feel": "Chatty, friendly",
+      "ux": "Mailchimp form posts in a new tab; Twitter as the alternative",
+      "learn": "Write the signup prompt in the visitor's voice ('I want to hear…, email me then!'), and the prompt line is itself editable type",
+      "reconstruction": {
+        "layout": "Red band; 720px column; prompt (2 lines) then input 720×56px and button 720×56px stacked flush; secondary link centred below",
+        "typography": "Prompt ~30px Moriston 400 dark; input placeholder ~22px; button ~16px 600 white",
+        "palette": [
+          "#ec2230",
+          "#ffffff",
+          "#731117"
+        ],
+        "behaviour": "Standard form submit (Mailchimp list-manage, target _blank)",
+        "content": "First-person prompt",
+        "assets": "none",
+        "html": "div.simpleTester--target.bigIdeasText[contenteditable] + form.newsletter > input[type=email] + input.button--large[type=submit] + a.button-secondary"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "grateful, community",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "other-fonts"
+        ]
+      },
+      "look": "Under the signup, 'Special thanks to…' with four paragraphs of acknowledgements (family, critics, mastering, tool makers), then a darker red bar: 'Site by Kenneth Ormandy. Edited by Danelle Cheney. Get more fonts by Riley Cran and friends from The Lost Type Co-op.'",
+      "feel": "Grateful, community-minded",
+      "ux": "Links to people and to the foundry",
+      "learn": "Thank the toolmakers (RoboFont, Superpolator, Glyphs, Word-O-Mat) by name: it places the font inside the type-design community",
+      "reconstruction": {
+        "layout": "Same red band, 720px column: heading + 4 paragraphs (~600px); then a darker red strip (~90px) with a two-line credit",
+        "typography": "Heading ~30px Moriston 700 dark; paragraphs ~16px 400 dark, leading 1.5; credit bar ~16px with dark-red links",
+        "palette": [
+          "#ec2230",
+          "#731117",
+          "#1a0a0a"
+        ],
+        "behaviour": "none",
+        "content": "Acknowledgements by group; site and editing credits; link to more fonts",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "checkout/link-out-cta",
+    "specimen-showcase/modular-grid",
+    "specimen-showcase/word-stack",
+    "type-tester/auto-fit-editable-lines",
+    "specimen-showcase/in-use-mockups",
+    "language-support/language-name-list",
+    "story/essay",
+    "story/designer-bio",
+    "newsletter/email-signup",
+    "footer/credits-colophon"
+  ]
+}

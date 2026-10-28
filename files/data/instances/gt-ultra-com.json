@@ -1,0 +1,814 @@
+{
+  "slug": "gt-ultra-com",
+  "extractedBy": "agent",
+  "summary": "A variable-font essay on a 'humanist flare sans' that sits between sans and serif. Its signature is morphing: custom variable fonts interpolate generic and historical typefaces into GT Ultra, every sample loops through the Weight, Contrast and Italic axes with live labels, a family overview responds to the pointer's x position, and the background flips between black and white sections. The tester is a hidden drawer opened from a fixed 'TRY ↓' link, as on GT America.",
+  "instances": [
+    {
+      "blocks": [
+        "16",
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "bold, confident, editorial",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "'GT Ultra' in heavy white letters at the top-left of a black screen, a large right-aligned paragraph below it, and tiny 'TRY ↓' and 'BUY ↗' captions in a black top bar",
+      "feel": "Self-assured, magazine cover",
+      "ux": "On scroll the giant wordmark shrinks and slides up into the fixed top bar, where it stays as a small 'GT Ultra' logo; 'TRY ↓' opens the tester drawer, 'BUY ↗' goes to the shop",
+      "learn": "Let the hero wordmark become the site's logo by scaling it into the sticky bar on scroll: one element, two jobs",
+      "reconstruction": {
+        "layout": "Fixed nav 1440×54, black with a 10px black box-shadow fade; h1 absolutely positioned inside it, translateY(153px) at the top of the page; intro paragraph in a right-aligned 4-of-6 column (x≈553–1240) starting ~340px down",
+        "typography": "Wordmark ~180px GT Ultra, wght ~880 (captured mid-animation), CNTR 0, slnt 0, letter-spacing ~0; nav captions ~12px uppercase; paragraph 44px GT Ultra wght 340, CNTR ~9",
+        "palette": [
+          "#040404",
+          "#ffffff",
+          "#504f50"
+        ],
+        "behaviour": "Loader first: 'OH HELLO! I'M LOADING SOME STUFF.' in GT Ultra Ultra on black with 'GT Ultra / Loading' captions (~1.5s). Scroll updates the h1's font-size and translateY (180px → caption size) and possibly its wght (keyframes 'morph-intro'); #js-typetester-open toggles the drawer",
+        "content": "Family name; positioning paragraph",
+        "assets": "none",
+        "html": "nav.grid > #nav-h1-container > h1[style=transform, font-size, font-variation-settings] + span#js-typetester-open.text-caption + a#link-buy.text-caption"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "assertive, articulate",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "A ten-line white paragraph in GT Ultra's light text weight, right-aligned in a 4-of-6 column: 'GT Ultra dances between the worlds of sans and serifs, fusing calligraphy and construction…'",
+      "feel": "Elegant, persuasive",
+      "ux": "static",
+      "learn": "Set the positioning paragraph slightly off the default (CNTR ~9) so the intro already shows a little of the contrast axis",
+      "reconstruction": {
+        "layout": "Column x≈553–1240 (~690px), ~790px tall block, generous top margin",
+        "typography": "44px GT Ultra, font-variation-settings wght 340, CNTR 9.24, slnt 0; leading ~1.2; white",
+        "palette": [
+          "#040404",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Real positioning copy",
+        "assets": "none",
+        "html": "h2.text-4of6-alignright"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "comparison",
+      "variant": "reference-morph",
+      "newVariant": true,
+      "variantDefinition": "A custom variable font interpolates a reference typeface (a generic sans or serif, or a historical model) into this one; scroll or a looping animation scrubs the morph while two labels mark the ends",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "argumentative, clever",
+        "mobile": "adapts"
+      },
+      "look": "Two huge white words side by side, 'Sans' and 'Serif', each with a caption pair above ('GENERIC SANS · GT ULTRA', 'GENERIC SERIF · GT ULTRA'); in the capture 'Serif' has dropped lower than 'Sans'",
+      "feel": "A visual argument",
+      "ux": "In a tall sticky wrapper, scrolling moves the words and morphs each from a generic sans or serif into GT Ultra; the caption pair fills like a progress bar from the left label to the right",
+      "learn": "Build a throwaway variable font whose axis runs from 'what you expect' to 'this typeface', and let scroll do the morph: the thesis (neither sans nor serif) is proved, not told",
+      "reconstruction": {
+        "layout": "Sticky wrapper 1228px tall inside the 1040px grid (x=200–1240); two halves of 520px, each with a 4-cell caption header (12px) and an absolutely positioned h4 whose bottom offset changes with scroll",
+        "typography": "Words ~200px (measured; up to 576px on tablet layout) in the custom 'Sans-Serif VAR' font, wght 100 (Sans) and 300 (Serif) at the captured position; captions ~12px uppercase, grey → white",
+        "palette": [
+          "#020202",
+          "#ffffff",
+          "#b1b1b1"
+        ],
+        "behaviour": "Scroll progress → font-variation-settings of the morph font and the h4 'bottom' offset; label fill via background-position-x (0% → 50%) on gradient-backed labels",
+        "content": "The words 'Sans' and 'Serif'",
+        "assets": "A custom interpolation variable font (generic → GT Ultra)",
+        "html": "#morph-generic-sans-and-serif-container-wrapper > #morph-generic-sans-and-serif > header.grid-2-plus-2 > label.ms--white.sans-header-a|b, serif-header-a|b + h4.sans-specimen + h4.serif-specimen"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, elegant",
+        "mobile": "adapts",
+        "structure": "map",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "A single white 'M' standing inside a thin wireframe cube, with a readout above it: '900 Black / 88 Median / 0 Roman'",
+      "feel": "Diagrammatic, precise",
+      "ux": "The M morphs through the three axes while the readout counts the values (weight name, contrast subfamily, roman/italic)",
+      "learn": "Draw the three axes as a cube and put one letter inside it: the readout tells you where in the cube you are",
+      "reconstruction": {
+        "layout": "Animation ~1040×700, cube in perspective spanning most of the width; readout top-centre, right-aligned numbers",
+        "typography": "M ~450px GT Ultra; readout ~35px GT Ultra weight 200, numbers right-aligned in a column",
+        "palette": [
+          "#030303",
+          "#fbfbfb",
+          "#2d2d2d"
+        ],
+        "behaviour": "Lottie animation (animations/designspace.json, SVG renderer); captured mid-morph with the top of the M cut off",
+        "content": "Axis values as words and numbers",
+        "assets": "Lottie JSON of the cube and outlined M",
+        "html": "#anim-designspace > lottie-player[data-src=animations/designspace.json]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "polemical, upbeat",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Three narrow columns of small white text: sans typefaces seen as contemporary by default, serifs as old-fashioned, and GT Ultra here to prove both wrong",
+      "feel": "Manifesto in small print",
+      "ux": "static",
+      "learn": "State the prejudice the typeface answers ('sans = now, serif = then') in plain words before showing the answer",
+      "reconstruction": {
+        "layout": "Three columns across the 1040px grid, ~330px each, ~236px tall",
+        "typography": "19px GT Ultra wght 300, leading ~1.3, white",
+        "palette": [
+          "#040404",
+          "#ffffff",
+          "#6d6d6e"
+        ],
+        "behaviour": "none",
+        "content": "Real positioning argument",
+        "assets": "none",
+        "html": ".text-multicol > p.text-body.cols-3"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "welcoming, fluid",
+        "mobile": "adapts",
+        "subject": [
+          "axes",
+          "italics"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "'Welcome to that something' on three lines in big white letters, under three captions 'WEIGHT · CONTRAST · ITALIC'",
+      "feel": "Smooth, alive",
+      "ux": "The phrase cycles through each axis in turn on a 6s loop; the caption of the axis that is moving lights up",
+      "learn": "Name the axes as captions above one phrase and highlight the one being animated: three axes explained in a single line of copy",
+      "reconstruction": {
+        "layout": "1040px grid; 3-column caption row; h4 of three spans, one per line, left-aligned",
+        "typography": "202px GT Ultra, animated wght / CNTR / slnt (captured at CNTR 0.23, slnt 11.97, wght 400); captions ~12px uppercase, grey with the active one white",
+        "palette": [
+          "#030303",
+          "#f7f7f7",
+          "#707070"
+        ],
+        "behaviour": "CSS keyframes 'morph-all3axes' on font-variation-settings; caption classes ms--loop--3-1..3 with anim--6s highlight in sync",
+        "content": "Copy line 'Welcome to that something'",
+        "assets": "none",
+        "html": "#morph-all3axes > .morph-stations.morph-stations-3 > label.ms--loop--3-n.anim--6s + h4 > span×3"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "comparison",
+      "variant": "reference-morph",
+      "newVariant": true,
+      "variantDefinition": "A custom variable font interpolates a reference typeface (a generic sans or serif, or a historical model) into this one; scroll or a looping animation scrubs the morph while two labels mark the ends",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "historical, witty",
+        "mobile": "adapts"
+      },
+      "look": "On white (the page flips from black), three huge black words 'Spike', 'Raged', 'Scarf', each captioned 'HISTORICAL EXAMPLE · GT ULTRA', a narrow text column on the right; below, an animated 'Design Craft' and a narrow text column on the left",
+      "feel": "Playful, scholarly",
+      "ux": "Each word ping-pongs every 2s between a 1970s–80s flare serif and GT Ultra; the active caption highlights. Animations start when the section scrolls into view",
+      "learn": "Morph from each historical model into your design on a loop: visitors see what was kept and what was dropped without a single annotation",
+      "reconstruction": {
+        "layout": "Full-width white section; 'column-with-sidebar': visual column ~800px (x=200) with three stacked words ~300px apart, sidebar ~180px at the right with a 12px text column; second row mirrors it (sidebar left, Lottie right ~800×450)",
+        "typography": "Words 245px in custom 'Spike VAR', 'Ragged VAR', 'Scarf VAR' fonts (historical → GT Ultra); captions ~12px uppercase grey/black; sidebar ~16px GT Ultra",
+        "palette": [
+          "#fdfdfd",
+          "#050505",
+          "#d5d5d5",
+          "#aeaeae"
+        ],
+        "behaviour": "Keyframes per word (morph-spike etc.) alternate the interpolation axis 0 ↔ max, 2s ping-pong; labels ms--pingpong--2-1/2-2 in sync; section has js-animation-paused until in view; body background animates to white via data-background; 'Design Craft' is a Lottie (animations/design-craft.json)",
+        "content": "The names of three historical flare-serif styles; 'Design Craft'",
+        "assets": "Three interpolation variable fonts; Lottie animation",
+        "html": "section#story.section-bg-white[data-background=white] > .column-with-sidebar > .visual-column > .morph#morph-spike > .morph-stations-2 > label.ms--pingpong--2-n.anim--2s + h4"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "story",
+      "variant": "making-of",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "reflective, crafted",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "process",
+          "diagram"
+        ],
+        "length": "medium"
+      },
+      "look": "Back on black: a calligraphic serif 'a' drawn stroke by stroke, a large paragraph ('Our process, much like the alphabet, begins with the letter a…'), 'Calligraphy' morphing under 'STARTING POINT · GT ULTRA STANDARD · GT ULTRA FINE', three columns of process text, then 'Geometric Construction' animated",
+      "feel": "Studio diary, deliberate",
+      "ux": "Animations play as the section enters the viewport; the Calligraphy word ping-pongs through three stages on a 4s loop",
+      "learn": "Tell the process as a morph from the first sketch to the final styles, so the history of the design is visible in one word",
+      "reconstruction": {
+        "layout": "~2920px section: full-width Lottie 'a' (~800px tall), right-aligned 4-of-6 paragraph, 3-label morph row with one word across the grid, 3-column text, full-width Lottie",
+        "typography": "Paragraph 44px GT Ultra wght 340; 'Calligraphy' ~202px in custom 'Calligraphy VAR'; body ~16px; 'Geometric Construction' ~150px (Lottie)",
+        "palette": [
+          "#040404",
+          "#ffffff",
+          "#4c4c4c"
+        ],
+        "behaviour": "Lotties a-drawing.json and geometric.json (mobile variant geometric-mobile.json); keyframes morph-calligraphy with labels ms--pingpong--3-n anim--4s",
+        "content": "Real process: Noël Leu's classical serif sketch, removing serifs and ball terminals, adding a weight axis, repeating geometric forms",
+        "assets": "Two Lottie animations; a calligraphy → Standard → Fine interpolation font",
+        "html": "section#process.section-bg-black > #anim-drawing-a lottie-player + h2.text-4of6-alignright + #morph-calligraphy + .text-multicol + #anim-geometric-construction"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "refined, measured",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "On white, a stack of five black words in rising weights, 'Grand' (Thin), 'Flowing', 'Order', 'Raison', 'Feather' (Black), cropped at the right edge, with a narrow text column on the left about flared terminals",
+      "feel": "Calm, high-contrast elegance",
+      "ux": "The whole stack loops through the contrast subfamilies (Standard → Median → Fine) every 4s; captions show which",
+      "learn": "Animate one axis across a weight stack: the visitor sees how the contrast axis behaves at every weight at once",
+      "reconstruction": {
+        "layout": "Sidebar ~180px at x=200 (two paragraphs); visual column from x≈560 to the right edge; five lines ~180px apart",
+        "typography": "202px GT Ultra, wght 100/300/400/700/900 per line, CNTR animated 0 → 50 → 100; sidebar ~16px",
+        "palette": [
+          "#fcfcfc",
+          "#000000",
+          "#b0b0b0"
+        ],
+        "behaviour": "Keyframes morph-axis-contrast-100/300/400/700/900 (one per weight) with captions ms--loop--3-n anim--4s",
+        "content": "Real words chosen for the mood of each weight",
+        "assets": "none",
+        "html": "#morph-axis-contrast > .morph-stations-3 + h4.weight-100…h4.weight-900"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "draughtsmanlike",
+        "mobile": "adapts",
+        "subject": [
+          "italics",
+          "construction"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "The word 'sage' in italic drawn as hairline outlines with Bézier points and handles, black on white, with an italic text column at the right",
+      "feel": "Technical but graceful",
+      "ux": "The outline animates (Lottie) as it scrolls into view",
+      "learn": "Show the italic as its skeleton of points and handles to explain the 'pragmatized' construction of the slanted forms",
+      "reconstruction": {
+        "layout": "Visual column ~800×430 on the left, sidebar ~180px at the right",
+        "typography": "'sage' ~300px outline drawing; sidebar ~16px GT Ultra Italic",
+        "palette": [
+          "#fcfcfc",
+          "#000000",
+          "#d4d4d4"
+        ],
+        "behaviour": "Lottie animations/sage-italics.json",
+        "content": "Real note: Italic proportions narrower, lighter weight, steeper terminals, interpolable slant axis",
+        "assets": "Lottie outline animation with Bézier points"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "loud, jubilant",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "Black-on-white stack of very heavy words 'Slow', 'East', 'Age!', 'Pup', 'jinx' in the Ultra cut with tight spacing, cropped at the right edge, captions 'STANDARD · MEDIAN · FINE'",
+      "feel": "Bursting, cheeky",
+      "ux": "The Ultra stack loops through the contrast subfamilies like the previous stack",
+      "learn": "Give the extreme cut its own short, fat words so its quirks (no flares, über-tight spacing) are obvious",
+      "reconstruction": {
+        "layout": "Same sidebar + visual column as the contrast stack; lines ~200px apart",
+        "typography": "288px GT Ultra Ultra, weights thin → black of the Ultra cut, CNTR animated; sidebar ~16px ('GT Ultra Ultra (hell yeah!)')",
+        "palette": [
+          "#fcfcfc",
+          "#040404",
+          "#d3d3d3"
+        ],
+        "behaviour": "Keyframes morph-axis-ultra with captions ms--loop--3-n anim--4s",
+        "content": "Short punchy words",
+        "assets": "none",
+        "html": "#morph-axis-ultra > h4.weight-thin … h4.weight-black"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "salesy, confident",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Large white paragraph on black introducing the overview: 'Distinct individual cuts within the Standard, Median, and Fine subfamilies…'",
+      "feel": "Assured",
+      "ux": "static",
+      "learn": "Introduce each section with the same big right-aligned paragraph so the page has a steady reading rhythm",
+      "reconstruction": {
+        "layout": "Right-aligned 4-of-6 column x=553–1240, ~475px tall",
+        "typography": "44px GT Ultra wght 340, CNTR 0, leading ~1.2",
+        "palette": [
+          "#060606",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Family breadth claim",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "systematic",
+        "mobile": "adapts",
+        "structure": "matrix",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "Three columns headed 'STANDARD · ITALIC', 'MEDIAN · ITALIC', 'FINE · ITALIC', each listing 'Thin Light Regular Bold Black Ultra' set in those weights",
+      "feel": "Orderly catalogue",
+      "ux": "Each column loops between roman and italic every 4s, the header label lighting up to match",
+      "learn": "A contrast × weight matrix of style names, toggling italic over time, covers three axes without any control",
+      "reconstruction": {
+        "layout": "Three equal columns of ~347px across the 1040px grid; 6 lines each",
+        "typography": "~80px GT Ultra, weights 100/300/400/700/900/Ultra, CNTR 0/50/100 per column, slnt animated 0 → 12",
+        "palette": [
+          "#030303",
+          "#ffffff",
+          "#717171"
+        ],
+        "behaviour": "Keyframes morph-full-family-std|med|fin-100…900; labels ms--loop--2-1/2-2 anim--4s",
+        "content": "Style names",
+        "assets": "none",
+        "html": "#morph-full-family > .morph-stations-3-of-2 + h4.third-width.std-subfamily > span.std-weight-thin.weight-100 …"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "cheeky, energetic",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Large white paragraph: 'A bit of then and a bit of now, GT Ultra takes what we know and throws a spanner in the works…'",
+      "feel": "Fun",
+      "ux": "static",
+      "learn": "A one-paragraph personality statement right before the specimen keeps the voice consistent",
+      "reconstruction": {
+        "layout": "Right-aligned column x=553–1240, ~317px tall",
+        "typography": "44px GT Ultra wght 340, leading ~1.2",
+        "palette": [
+          "#040404",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Personality copy",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "punchy, editorial",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "word",
+        "interactive": true
+      },
+      "look": "One row per weight (ULTRA, BLACK, BOLD, REGULAR, LIGHT, THIN), each with a huge word ('Cat', 'Site', 'Bag', 'Qui', 'Not', 'Rips'), a three-line 46px column (caps / italic / roman headlines) and a 20px paragraph; between them, two variable rows 'No Big Shot' and 'DISTANCE Little Shots' with live readouts ('98 CONTRAST', '400 WEIGHT 10 ITALIC 16 CONTRAST')",
+      "feel": "Newspaper type specimen, lively",
+      "ux": "Moving the pointer left to right across the section changes the contrast axis of all rows; the two variable rows animate on their own while their caption numbers count",
+      "learn": "Map pointer x to one axis across a whole specimen sheet, and print the live axis values in the captions of the animated rows",
+      "reconstruction": {
+        "layout": "1040px grid, 3 columns (~347px): caption row (weight / 46PX / 20PX, ~12px uppercase), then word, 3 headline lines, paragraph; rows ~300px; variable rows span full width with a caption row of values",
+        "typography": "Words 184px in each weight; middle column 46px (uppercase, italic, roman lines); right column 20px paragraphs mixing caps and italics; variable rows ~184px with animated wght/CNTR/slnt",
+        "palette": [
+          "#070708",
+          "#ffffff",
+          "#8e8e8e"
+        ],
+        "behaviour": "mousemove on .js-cursor-morph → CNTR value from pointer x applied to .js-x-axis-control rows (italic spans too); keyframes morph-ultra-var and morph-ultra-ultra-var with JS-updated labels #ultra-label-weight/-italic/-contrast",
+        "content": "Real-looking headlines and facts about mountains, transit, albums and bands",
+        "assets": "none",
+        "html": "#morph-x-axis-contrast.js-cursor-morph > .family-overview-row.family-overview-ultra.js-x-axis-control > .text-caption.js-size-label + h4.third-width ×3; #morph-ultra-var with span#ultra-label-*"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "neat, reference",
+        "mobile": "shrinks",
+        "coverage": "by-category",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'Character Set' on white: bordered cells grouped under BASIC LATIN, EXTENDED LATIN, NUMERALS AND CURRENCIES, PUNCTUATION AND ARROWS",
+      "feel": "Clean and complete",
+      "ux": "Hovering a cell shows it enlarged in a zoom box (#gt-character-zoomed-primary)",
+      "learn": "Category headings in small caps turn a long grid into scannable groups",
+      "reconstruction": {
+        "layout": "1040px wide, 26 columns of ~40px square cells with 1px black borders, category labels ~12px uppercase above each group",
+        "typography": "Glyphs ~22px GT Ultra Regular; heading 58px GT Ultra wght 700",
+        "palette": [
+          "#f2f2f2",
+          "#000000",
+          "#dbdbdb"
+        ],
+        "behaviour": "mouseover .js-gt-character → zoomed box; feature cells carry ot-onum / ot-ss01 / ot-lnum-slash classes",
+        "content": "~395 characters",
+        "assets": "none",
+        "html": ".charset-container > #gt-character-zoomed-primary + .character-set-container > h5 + .character-set-category > .single-item.character-set-box.js-gt-character.border"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "helpful, plain",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Directly above the character set (same white #credits section, not cut as its own block; visible in the mobile capture): 'Free Trial Fonts' and 'Purchase Licensing' headings, each with a short paragraph and underlined inline links",
+      "feel": "Informative rather than pushy",
+      "ux": "'Download all 33 trial font files of GT Ultra' links to the trial page; 'purchase' to the shop; 'email us' for questions. The fixed 'BUY ↗' in the top bar is the main buy affordance",
+      "learn": "Explain what the packages contain (single styles, subfamilies, full family with both variable fonts) in one sentence next to the link",
+      "reconstruction": {
+        "layout": "Two stacked text blocks in the 1040px grid, heading + paragraph each, ~120px apart",
+        "typography": "Headings 58px GT Ultra wght 700; paragraphs ~19px GT Ultra wght 300 with underlined links",
+        "palette": [
+          "#f2f2f2",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Trial package of 33 files; licensing by single style, subfamily or family",
+        "assets": "none",
+        "html": "section#credits > .grid > h3 + p.text-body > a"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "brand family",
+        "mobile": "adapts"
+      },
+      "look": "'Minisites' heading on the left, and a right-hand list of ten sibling names (GT Maru, Flexa, Alpina, Zirkon, Super, Walsheim, America, Eesti, Cinetype, Haptik), each set in its own typeface",
+      "feel": "A shelf of siblings",
+      "ux": "Each name links to its microsite; two stacked images per link suggest a hover swap",
+      "learn": "Set each sibling's name in its own font (as images) so the cross-links are a mini specimen of the catalogue",
+      "reconstruction": {
+        "layout": "Heading at x=200; list from x≈730, rows ~100px",
+        "typography": "Names ~58px, each in its own family (images); heading 58px GT Ultra wght 700",
+        "palette": [
+          "#fefefe",
+          "#000000",
+          "#909090"
+        ],
+        "behaviour": "Probably image swap on hover (two <img> per link)",
+        "content": "Grilli Type minisites",
+        "assets": "Name images per sibling family",
+        "html": "ul#minisite-links > li > a > img×2"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "matter-of-fact",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "contact",
+          "other-fonts"
+        ]
+      },
+      "look": "A 'Credits' heading and one paragraph (design by Noël Leu 2017–2021, production, animations by Josh Schaub, copy by Harry Bennett, development with Sensor Station) in the same white #credits section that ends with the minisite list; the credits text itself sits above the character set and was not cut as a block",
+      "feel": "Plain, complete",
+      "ux": "Names link to personal sites; the page ends with the sibling list",
+      "learn": "Group trial, licensing, credits, charset and siblings into one white closing section so the end of the page reads as an appendix",
+      "reconstruction": {
+        "layout": "Heading + paragraph in the 1040px grid, then (after the character set) the minisite list",
+        "typography": "Heading 58px GT Ultra wght 700; paragraph ~19px wght 300, underlined links",
+        "palette": [
+          "#fefefe",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Real credits",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "poetic, playful",
+        "mobile": "unknown",
+        "controls": [
+          "text",
+          "weight",
+          "axes",
+          "presets"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A full-screen drawer (hidden off-canvas, captured in HTML only): top row of three thin sliders labelled Weight, Contrast, Italic; one huge editable line 'We speak in italics, featherlight and ever so faintly.'; bottom row of toggles 'Test Ultra Ultra', 'Animate Sample', 'New Sample', 'Close'",
+      "feel": "Focused, toy-like",
+      "ux": "Opened from the fixed 'TRY ↓'; drag sliders to set wght, CNTR and slnt; type over the sample; toggle to the Ultra Ultra cut; 'Animate Sample' sets the axes moving; 'New Sample' swaps in another preset phrase",
+      "learn": "A tester with only the family's three axes plus 'animate' and 'new sample' buttons is enough for a display family and fits in a drawer",
+      "reconstruction": {
+        "layout": "Viewport-sized overlay sliding from the top; nav row of 3 equal items (caption + custom range track) at top, sample centred, nav row of 4 toggles at bottom",
+        "typography": "Sample 11vmax (~158px at 1440×900) GT Ultra, default wght 300, slnt 12, CNTR 100; UI captions ~12px uppercase",
+        "palette": [
+          "#000000",
+          "#ffffff"
+        ],
+        "behaviour": "Custom spans as sliders (.typetester-range-input[data-axis=wght|CNTR|slnt] with draggable .typetester-range-slider left %) → font-variation-settings; #tt_ultraToggle switches to the 'ultra-ultra' sample; #js-tt_animateEverything runs keyframes; #js-tt_newSample cycles texts",
+        "content": "Atmospheric preset sentences ('We speak in italics, featherlight and ever so faintly.')",
+        "assets": "none",
+        "html": ".typetester-container > .typetester-nav-top > #tt_weight|#tt_contrast|#tt_italic > span.typetester-range-input[data-axis] > span.typetester-range-slider; .typetester-sample-ultra > p[contenteditable]; .typetester-nav-bottom > #tt_ultraToggle, #js-tt_animateEverything, #js-tt_newSample, .js-typetester-close"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "17",
+      "reason": "loader overlay ('OH HELLO! I'M LOADING SOME STUFF.'), described in the hero"
+    }
+  ],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/large-text-intro",
+    "comparison/reference-morph",
+    "family-overview/designspace-map",
+    "story/design-brief",
+    "design-details/axis-explainer",
+    "comparison/reference-morph",
+    "story/making-of",
+    "design-details/axis-explainer",
+    "design-details/annotated-specimen",
+    "design-details/axis-explainer",
+    "story/large-text-intro",
+    "family-overview/designspace-map",
+    "story/large-text-intro",
+    "family-overview/style-word-grid",
+    "glyph-table/full-grid",
+    "checkout/link-out-cta",
+    "footer/credits-colophon",
+    "type-tester/slider-sandbox"
+  ]
+}
