@@ -32,7 +32,7 @@ export function VariantStage({ taxonomy, route, refs, refsOf, sites }: Props) {
   const t = taxonomy.types[type];
   const v = t.variants[variant];
   return (
-    <div className="stage-wrap">
+    <div className={`stage-wrap ${showRebuild ? '' : 'examples'}`}>
       <header className="stage-head">
         <div className="crumbs"><a href={href({ section, type, i: 0 })}>{taxonomy.sections[section].title} › {type}</a></div>
         <div className="tabs">

@@ -5,6 +5,9 @@ node_modules/
 # Holds rendered DOM, screenshots, scroll videos and block crops of third-party sites.
 archive/
 
+# Built gallery app (published to the gh-pages branch by npm run app:deploy)
+app/dist/
+
 # Run logs
 *.log
 

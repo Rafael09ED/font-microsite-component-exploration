@@ -17,7 +17,8 @@ export type Instance = {
 export type SiteDoc = { slug: string; summary?: string; instances: Instance[]; sequence?: string[] };
 export type Site = { n: number; slug: string; url: string; host: string };
 
-export const fileUrl = (rel: string) => `/files/${rel}`;
+// Relative to the page's base so the built app also works under a GitHub Pages subpath.
+export const fileUrl = (rel: string) => `${import.meta.env.BASE_URL}files/${rel}`;
 
 async function json<T>(rel: string): Promise<T> {
   const res = await fetch(fileUrl(rel));

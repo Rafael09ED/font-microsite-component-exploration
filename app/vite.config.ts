@@ -28,8 +28,12 @@ function repoFiles(): Plugin {
   };
 }
 
-export default defineConfig({
+// The build uses a relative base (hash routing, so the app is always index.html); scripts/deploy-app.mjs
+// copies the files it needs into dist/files/ and publishes it to GitHub Pages.
+export default defineConfig(({ command }) => ({
   root: __dirname,
+  base: command === 'build' ? './' : '/',
   plugins: [react(), repoFiles()],
   server: { port: 5178 },
-});
+  build: { outDir: 'dist', emptyOutDir: true },
+}));

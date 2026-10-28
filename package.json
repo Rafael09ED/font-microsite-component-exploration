@@ -14,7 +14,9 @@
     "patterns": "node scripts/patterns.mjs",
     "extract": "node scripts/extract.mjs",
     "app": "vite --config app/vite.config.ts",
-    "app:check": "tsc -p app/tsconfig.json"
+    "app:check": "tsc -p app/tsconfig.json",
+    "app:build": "node scripts/deploy-app.mjs --dry-run",
+    "app:deploy": "node scripts/deploy-app.mjs"
   },
   "keywords": [],
   "author": "",
