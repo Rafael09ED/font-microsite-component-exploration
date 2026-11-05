@@ -1,0 +1,374 @@
+{
+  "slug": "pleasure-typefaces-pizza",
+  "extractedBy": "agent",
+  "summary": "A split-screen, two-colour (blue and white) site that stages the variable font Pleasure (wght, ital and an inktrap axis TRAP) as the flyers of a fictional prepaid-phone and repair shop. The left column scrolls down while the right column scrolls up in the opposite direction, and cloned panels make the page loop. Many flyers are editable, one panel has axis sliders, and a phone keypad on the right lets you type with multi-tap.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "prop-collage",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "Y2K, ironic, phone-shop",
+        "mobile": "adapts",
+        "carrier": "props",
+        "cta": "buy",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "Left half: a glowing duotone photo of a silver flip phone inside a ring of small caps 'NO BLUETOOTH · NO NFC · NO WIFI' on blue; right half (fixed column, seen in the video): the colophon flyer 'PLEASURE TYPEFACE / DESIGNED IN MARSEILLE BY FLIRT(STUDIO) / DEVELOPPED IN PARIS BY PIZZA TYPEFACES / ©2021' with recycle, CC and '1' icons; white pills 'PLEASURE TYPEFACE ?' top-left and 'buy now' top-right",
+      "feel": "Nostalgic, tongue-in-cheek, glossy",
+      "ux": "Scrolling moves the two halves in opposite directions at once",
+      "learn": "Pick a lost everyday object (the dumb phone) as the font's world: its slogans (NO WIFI, PREPAID SIM) give every specimen its copy",
+      "reconstruction": {
+        "layout": "Two 50vw columns, each panel 720×973px (≈1.08vh); left panel: phone photo bottom-centre ~400px wide, text ring an ellipse ~640×880px centred; fixed pills 24px from the top-left and top-right",
+        "typography": "Ring text ~18px Pleasure Medium caps, white, set on an elliptical path with letter-spacing ~0.05em; pills ~22px Pleasure wght 500 caps, blue on white, fully rounded; colophon caps ~40px mixing wght 900 and 300 per word",
+        "palette": [
+          "#1177c1",
+          "#f5f8fb",
+          "#2e87c6",
+          "#70a9d5",
+          "#8db4dd"
+        ],
+        "behaviour": "#col-2 (right column) is position:fixed and translated with translate3d(0, scrollY − columnHeight, 0) so it moves up while the left column moves down; cloned sections at both ends let the scroll loop",
+        "content": "Fictional anti-smartphone slogans; colophon",
+        "assets": "Duotone (blue-mapped) cut-out photo of a flip phone; SVG ring text; icon set",
+        "html": "left: section.col1-s1 (img layers); right: div#col-2[style=transform] > section.col2-s12.clone"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "07",
+        "08",
+        "10",
+        "11",
+        "14"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "Y2K flyer, street, witty",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "series"
+      },
+      "look": "A stack of shop-flyer posters in blue and white with glossy gradients and ellipse badges: 'Buy Sell Trade → GSM / All Kinds Of Phones / New & Used / Any Brands*', 'ENJOY THE PLEASURE OF NEW TASTE' in outline caps over a hand with lightning, price stickers ('€1', 'FREE', '€5', '-60%', 'OFFER PERIOD EXPIRED'), a huge '@' blister-pack tab with 'Ple@sure in @ny W@y / M@RSEILLE — P@RIS', 'UNLOCK / REPAIR' running vertically beside a flip phone, a ruled list of phone numbers '+33(0) 622 122 869…', '↘ SLOW DOWN (PLEA-SURE) ↗ UP 2020–2021', 'MADE FOR PLEASURE' on a cloud, 'GUILTY / SMS'; the right column adds 'PIN 1234 PREPAID SIM', 'CONNECTING PEOPLE', 'CRAKED ↔ SCREEN FIX IT', 'INTERNATIONAL SERVICE express 24/24 NON STOP 7/7 N°1', an SMS thread 'Msg (184)' in slang, 'QUICK Delivery 30 minutes guarantee'",
+      "feel": "Cheeky, saturated, nostalgic",
+      "ux": "The two columns counter-scroll so each screen pairs two different flyers; several headlines are contenteditable; '@' panel swaps a still for an animated GIF",
+      "learn": "Counter-scrolling columns turn a list of posters into ever-changing pairs; a two-colour duotone keeps very different images feeling like one set",
+      "reconstruction": {
+        "layout": "Each poster 720×973px; left column panels stack downwards, right column panels stack upwards; compositions use ellipse outlines, rotated vertical words, ruled lists (1px white rules between rows) and stickers",
+        "typography": "Pleasure across wght 300–900, italic and inktrap: headlines 64–143px (phone numbers 64px wght 700, 'SLOW DOWN' 143px mixing wght 900 and 300), outline caps for some headlines, small captions ~14–18px; right column up to ~280px",
+        "palette": [
+          "#1177c1",
+          "#fafcfe",
+          "#b0d1e8",
+          "#73aed8",
+          "#d4e6f2",
+          "#0b79c4"
+        ],
+        "behaviour": "Right column translate3d tied to scroll (opposite direction); contenteditable headlines; GIF overlays; loop via cloned panels",
+        "content": "Phone-shop and SIM-card vocabulary, fake French phone numbers, slang SMS, prices; one real paragraph describing the font",
+        "assets": "Duotone blue photos (phones, hands, SIM card, lightning, cracked screen), sticker and ellipse graphics, an animated '@' GIF",
+        "html": "section.col1-sN (left) and section.col2-sN (right) each with an <img> background plus text divs; .slide-container wrappers; .clone sections for looping"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "clean, inviting",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "axes"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "White panel headed 'Variable axes' with 'Write your message|' in blue at ~97px (weight 800, inktrap 70) and three thin slider rows at the bottom: weight 800, inktrap 70, italic 0, values right-aligned",
+      "feel": "Calm, phone-like (an SMS draft)",
+      "ux": "Type over the sample; drag weight (300–900), inktrap (0–100) and italic (0–100); the number beside each slider updates",
+      "learn": "Phrase the default text as a prompt that fits the theme ('Write your message' on a phone-shop site) and expose the custom axis (inktrap) by its plain name",
+      "reconstruction": {
+        "layout": "720×973 panel; title centred 60px from the top; sample centred at ~45% height, 2 lines; sliders in a 610px block 120px from the bottom: label 90px, track ~460px, value right; white-to-blue gradient at the bottom",
+        "typography": "Sample ~97px Pleasure, font-variation-settings 'TRAP' 70, 'ital' 0, 'wght' 800, centred, blue #1177c1; labels and values ~22px Regular",
+        "palette": [
+          "#fdfefe",
+          "#1177c1",
+          "#d4e7f2",
+          "#b1d2e8"
+        ],
+        "behaviour": "rangeslider.js inputs with data-variableparam (wght, TRAP, ital) → font-variation-settings on the editable sample; <output> mirrors the value",
+        "content": "'Write your message'",
+        "assets": "none",
+        "html": ".slide-container.sliders > .sliders-header + .sliders-text > .editable[contenteditable] + .slider × 3 (div.axe + input[type=range][data-variableparam] + output)"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "06",
+        "07",
+        "10",
+        "14"
+      ],
+      "type": "type-tester",
+      "variant": "in-context-editable",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "playful, retro-tech",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "The flyers' own copy is editable ('Ple@sure in @ny W@y', 'Double your pleasure, double your fun', the seven phone numbers, the description paragraph), and the right column has a blue phone-keypad picture (OK, CLEAR, 1–9, *, 0, #) whose keys type into the phone screen above",
+      "feel": "Toy-like, nostalgic",
+      "ux": "Click any flyer headline to retype it; on the keypad, tap a key repeatedly to cycle through its letters (multi-tap: '2abc', '7pqrs'…) and the text appears on the phone's screen",
+      "learn": "Make the input device part of the fiction: a multi-tap keypad on a phone-shop site makes typing a sample feel like sending an old SMS",
+      "reconstruction": {
+        "layout": "Editable text sits inside each 720×973 poster; keypad panel: phone-keypad image ~600px tall with transparent hit areas (div.phone-btn.toucheN) over each key and a div.phone-text display area above",
+        "typography": "Flyer text 64–100px Pleasure in its poster style; phone screen text in Pleasure ~40px",
+        "palette": [
+          "#1276c1",
+          "#fbfcfd",
+          "#afd1e5",
+          "#3188c8"
+        ],
+        "behaviour": "contenteditable on poster text (dir=auto, spellcheck off); keypad: click on .phone-btn reads data-letters (e.g. '7pqrs'), repeated clicks within a short delay cycle the character, a pause commits it to .phone-text",
+        "content": "Shop slogans, fake numbers; keypad starts empty",
+        "assets": "Keypad image (3-col2.png)",
+        "html": "div.s5|.s7-2|.s11|.editable[contenteditable=true]; section.col2-s3 > .phone-text + img + .phone-btn.touche0…touche12[data-letters]"
+      }
+    },
+    {
+      "blocks": [
+        "06",
+        "14"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "clear, graphic",
+        "mobile": "adapts",
+        "subject": [
+          "alternates"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "'ALTERNATE' over 'DOUBLE YOUR PLEASURE, DOUBLE YOUR FUN' in white caps with an oval 'PUSH' button at the bottom right; in the right column 'ALTERNATE PLEASURE' shows the 'a' three times in two styles, labelled DEFAULT, UNSPIN (ss06) and GEOMETRIC (ss05), split by a vertical rule",
+      "feel": "Direct, button-like",
+      "ux": "PUSH (a no-select pseudo-button) switches the alternates in the sample on and off; the 'a' trio is static",
+      "learn": "Label alternates with descriptive names (unspin, geometric) instead of ss numbers, and give the toggle a physical-button look that matches the theme",
+      "reconstruction": {
+        "layout": "Poster 720×973: label top-left at 55px, 6 lines of caps ~96px left-aligned, PUSH oval ~150×90px bottom-right on a white gradient; 'a' comparison: two columns (Standard and Inktrap?) of three 'a' at ~200px with labels rotated vertically",
+        "typography": "Caps ~96px Pleasure Regular white; 'a' ~200px; labels ~12px caps",
+        "palette": [
+          "#1276c1",
+          "#ffffff",
+          "#076fbd"
+        ],
+        "behaviour": "Click PUSH → toggle font-feature-settings (ss01/ss02 alternates) on the text; 'a' samples use font-feature-settings 'ss06' and 'ss05'",
+        "content": "Slogan 'Double your pleasure, double your fun' (the ad jingle)",
+        "assets": "none",
+        "html": ".s7-1 'ALTERNATE' + .s7-2[contenteditable] + .push.no-select; .col2-s11-2-g/-d > div[style=font-feature-settings] + span label"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "witty, systematic",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "catalogue",
+        "explanation": "prose"
+      },
+      "look": "Right column panel 'variable': thirteen lines 'BATTERY 90 %' down to 'BATTERY 30 %' in white caps, each set at the weight shown in a tiny number at the left (900, 850 … 300), so the text thins as the battery drains; next to it a big 'S' with its Bézier points and a paragraph on the 20 styles in two families (Standard, Inktrap) and the three axes",
+      "feel": "Clever, legible",
+      "ux": "Static list inside the counter-scrolling column; the paragraph is editable",
+      "learn": "Map the weight axis to a quantity from the theme (battery level): a weight waterfall that tells a joke reads instantly",
+      "reconstruction": {
+        "layout": "Panel 720px wide; label 'variable' top-left; 13 rows ~38px apart, weight number column ~40px, 'BATTERY' ~300px, percentage right-aligned",
+        "typography": "Rows ~40px Pleasure caps, font-variation-settings 'wght' 900 → 300 in steps of 50; weight numbers ~10px",
+        "palette": [
+          "#1177c1",
+          "#ffffff"
+        ],
+        "behaviour": "Static; moves with the right column",
+        "content": "BATTERY 90 % … 30 %; family description: 20 styles, two families, axes weight, inktrap, italic",
+        "assets": "Outline image of an 'S' with on-curve and off-curve points",
+        "html": "section.col2-s4 > .col2-s4-2 > div[style=\"font-variation-settings: 'wght' N\"] > span.wheight + span + span.percent; section.col2-s2 > .col2-s2-1[contenteditable]"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "story",
+      "variant": "info-popover",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "light, wry",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Off-canvas half-screen panel (left of the viewport in the capture) with three sentences at ~39px: 'The Pleasure font is almost a running grotesque font… did not resist the urge to be led… to an extrapolation of the terminals by converting them into loops… a certain irony in the rolling of the eyes', then links to Typefaces.pizza and Flirt Studio",
+      "feel": "Brief, self-aware",
+      "ux": "Opened by the '?' pill next to 'PLEASURE TYPEFACE' in the fixed header; slides in over the left column",
+      "learn": "Keep the only real explanation behind a '?' so the posters can stay pure fiction",
+      "reconstruction": {
+        "layout": "Panel 720×900 (50vw × 100vh) parked at x=−720, slides to x=0",
+        "typography": "~39px Pleasure Regular, leading ~1.2",
+        "palette": [
+          "#1177c1",
+          "#ffffff"
+        ],
+        "behaviour": "Click a.btn-about toggles a class that translates .about into view (CSS transition)",
+        "content": "Three-sentence description plus credits links",
+        "assets": "none",
+        "html": "header > a.btn-about; div.about"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "proud, graphic",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal",
+          "socials"
+        ]
+      },
+      "look": "Right-column colophon flyer: 'PLEASURE TYPEFACE / DESIGNED IN MARSEILLE BY FLIRT(STUDIO) / DEVELOPPED IN PARIS BY PIZZA TYPEFACES / ©2021' with small words (IN, BY) in a lighter weight, then recycle, CC and '1' outline icons; the 'ENJOY THE PLEASURE' flyer carries the Instagram handles and URLs as rotated side text",
+      "feel": "Label-like, tidy",
+      "ux": "static (it is also the first screen on the right because the column runs upwards)",
+      "learn": "Set the colophon like a product label (made in…, by…, recycling marks): the credits stay in character",
+      "reconstruction": {
+        "layout": "720px panel, centred stack of ~9 lines, icons row below",
+        "typography": "~40px Pleasure caps alternating wght 900 (names) and 300 (IN, BY, TYPEFACE)",
+        "palette": [
+          "#1177c1",
+          "#ffffff"
+        ],
+        "behaviour": "Moves with the counter-scrolling column; cloned at the start for the loop",
+        "content": "Designer studio, developer foundry, cities, year",
+        "assets": "Recycle/CC icons"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed transparent header with white rounded pills: 'PLEASURE TYPEFACE' and a round '?' (opens the about panel) at the top-left, 'buy now' at the top-right linking to the Pizza Typefaces shop"
+    }
+  ],
+  "skipped": [
+    {
+      "block": "12",
+      "reason": "clone of block 00 appended so the page can loop back to the top"
+    },
+    {
+      "block": "13",
+      "reason": "black remainder below the loop clone; no content"
+    }
+  ],
+  "sequence": [
+    "hero/prop-collage",
+    "specimen-showcase/poster-series",
+    "type-tester/slider-sandbox",
+    "type-tester/in-context-editable",
+    "design-details/feature-before-after",
+    "design-details/axis-explainer",
+    "story/info-popover",
+    "footer/credits-colophon"
+  ]
+}

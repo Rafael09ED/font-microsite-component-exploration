@@ -1,0 +1,487 @@
+{
+  "slug": "nationalparktypeface-com",
+  "extractedBy": "agent",
+  "summary": "A Cargo-built split-screen page for National Park, a free typeface based on the router-carved signs of US national parks. The left half scrolls through forest-green, black and lime panels of images (ASCII-art title, badges, sign photos, animated GIFs of the router skeleton and of diacritics), while the right half is a fixed type tester (an embedded iframe) that sets every national park's name with Size and Weight sliders. Lime 'Download' bars recur between panels.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "illustration-scene",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "outdoorsy, nostalgic, nerdy",
+        "mobile": "adapts",
+        "carrier": "illustration",
+        "cta": "download",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "Left half: a forest-green night sky of ASCII stars (+ * ^ o ,) over an ASCII-line arrowhead/tree emblem and the lockup 'NOW ENTERING / NATIONAL PARK / TYPEFACE' (solid caps, the last word in outline), with a one-sentence tagline below; right half: the black fixed tester listing park names",
+      "feel": "Arriving at a park gate at night; campfire-geeky",
+      "ux": "No nav; the tester sliders on the right are usable from the first screen; a lime download bar follows directly",
+      "learn": "Borrow the real-world sign formula ('Now entering …') for the lockup and draw the scenery in ASCII characters: the theme and the digital/router origin are both stated before any copy",
+      "reconstruction": {
+        "layout": "Split screen: left column 720×895 green (#033402) with a 40% green overlay on a wallpaper of ASCII mountains/stars; lockup ~620×300px at x≈40, y≈420–720 (ASCII emblem ~170px wide on the left of the words); tagline at x≈40, y≈790, ~640px wide. Right column 720px fixed black tester",
+        "typography": "Lockup is an SVG: 'NOW ENTERING' ~22px caps, 'NATIONAL PARK' ~70px bold caps white, 'TYPEFACE' ~70px outline caps; tagline ~22px National Park Regular white, leading ~1.3",
+        "palette": [
+          "#033402",
+          "#070706",
+          "#ffffff",
+          "#d8fe12"
+        ],
+        "behaviour": "Static as captured; Cargo backdrop (background_splash) holds the ASCII wallpaper",
+        "content": "'Capturing the charm of the router-carved type ubiquitous in America's national parks, without sacrificing legibility or versatility.'",
+        "assets": "NATIONALPARK-AsciiTitle-White.svg (lockup), NP-ascii-Mountains.svg backdrop",
+        "html": "Cargo .page_container > .image-gallery (svg) + h2 tagline; .backdrop[data-backdrop=wallpaper] > .background_overlay rgba(0,51,0,.4)"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "practical, themed",
+        "mobile": "hidden",
+        "controls": [
+          "size",
+          "weight"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A fixed right half of the viewport (block 15, an iframe): on black, a paragraph listing all US national parks ('Acadia, Arches, Badlands, Big Bend, Biscayne, Black Canyon of the Gunnison … Yellowstone, Yosemite, Zion') in white at 24px, with two thin sliders at the bottom: 'Size 24 px' and 'Weight 275'",
+      "feel": "A ranger's checklist that is always at hand",
+      "ux": "The tester stays put while the left column scrolls, so visitors can adjust size and weight at any point; it is hidden on mobile (exclude_mobile). Whether the text is editable could not be checked (cross-origin iframe)",
+      "learn": "Pin the tester to half the screen and fill it with a themed list (every park's name) that uses capitals, commas and long words: the story column and the tester never compete for the scroll",
+      "reconstruction": {
+        "layout": "position: fixed; right 0; top 0; 720×900px; black panel with ~18px padding; text block top-aligned ~660px wide; two sliders side by side at the bottom (~300px each) with label left and value right above a 1px track and white round thumb",
+        "typography": "Sample ~24px National Park Variable at wght 275, leading ~1.15, white; slider labels ~11px, values right-aligned",
+        "palette": [
+          "#050404",
+          "#ffffff",
+          "#2c2b2b"
+        ],
+        "behaviour": "Size slider sets font-size (default 24px); Weight slider drives the variable wght axis (default 275, readout updates); storyboard shows the weight readout changing from 400 to 275 just after load",
+        "content": "The 63 US national park names in alphabetical order",
+        "assets": "none",
+        "html": ".page_container.overlay.fixed.exclude_mobile > .embed-container > iframe[src='https://mattkirkland.com/ku_typetest/']"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "04",
+        "07",
+        "14"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "direct, trail-sign",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Four identical 100px lime bars across the left column with '→ → → DOWNLOAD NATIONAL PARK TYPEFACE' in small black bold caps at the left, repeated after the hero, after the router section, after the styles and at the very end",
+      "feel": "Trail markers pointing the way",
+      "ux": "Each bar links to the Downloads-Donations page (free download with optional donation)",
+      "learn": "Repeat one identical download bar between chapters: wherever the reader stops, the next step is in view",
+      "reconstruction": {
+        "layout": "720×100px lime band (left column only); text vertically centred, x≈20",
+        "typography": "~13px National Park Bold uppercase, black, arrows as text",
+        "palette": [
+          "#d8fe12",
+          "#020102"
+        ],
+        "behaviour": "none",
+        "content": "'→ → → DOWNLOAD NATIONAL PARK TYPEFACE'",
+        "assets": "none",
+        "html": "a[href=Downloads-Donations] inside a Cargo page_container"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "09"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "park-service, badge-like",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "grid"
+      },
+      "look": "Park-service emblems set in the font: a round dark-green seal 'LET TRAILS CONNECT US · NATL PARK TYPE FACE 2016–2022' on white (02), and later a checkerboard of six badges on lime, dark green and white cells (Moraine Park campground, 'Elevation 14259 ft Longs Peak', Big Thompson trout 'catch and release', Lodge Pole Pine, Adams Falls, Huffer's Hill Trail Team) (09)",
+      "feel": "Merch-shop, ranger patch collection",
+      "ux": "static images",
+      "learn": "Design believable badges for real places (peaks, trails, campgrounds): the font's home context becomes the showcase",
+      "reconstruction": {
+        "layout": "Left column 720px: seal block 720×806 (seal ~400px circle centred on white); badge grid 720×867 as a 3-row checkerboard of cells ~360px and ~240px wide alternating lime/green/white",
+        "typography": "Badge lettering in National Park caps, arched and straight, several weights and the outline style",
+        "palette": [
+          "#d9f452",
+          "#123107",
+          "#ffffff",
+          "#060505"
+        ],
+        "behaviour": "none",
+        "content": "Real Rocky Mountain National Park place names and slogans",
+        "assets": "trails_connect.png, NP_BADGES_1-copy.png (flat two-colour badge artwork)"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, clear",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "On black, a large single-storey 'a' that loops between its router skeleton (a lime centre-line with dot coordinates, as seen in the mobile capture) and the white stroked letter, beside a narrow column of text with '(or series of coordinates)' highlighted in lime",
+      "feel": "Simple and revealing, like a machine diagram",
+      "ux": "Looping GIF; static text",
+      "learn": "Show the letter as the machine sees it (a centre-line path with points) and then as stroked: one animated glyph explains why the font's terminals and joins look routed",
+      "reconstruction": {
+        "layout": "Left column 720×667 black: GIF ~300px square at x≈40–300 vertically centred; text column x≈310–440 (~130px wide), three short paragraphs",
+        "typography": "Text ~13px National Park Medium white, key phrase in lime; final paragraph ~10px lime",
+        "palette": [
+          "#060505",
+          "#ffffff",
+          "#d8fe12"
+        ],
+        "behaviour": "Animated GIF loop: skeleton with coordinate dots → stroked letter at a weight",
+        "content": "'Each character's design begins with a vector skeleton, (or series of coordinates) that a router would typically interpret and then carve into a wooden sign. From there, we adjust each skeleton to be comfortably legible at each weight…'",
+        "assets": "NATIONALPARK-Router-a.gif (1000×1000)"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "documentary",
+        "mobile": "adapts",
+        "voice": "none",
+        "media": [
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "A black-and-white photo of the routed wooden sign 'ENTERING ROCKY MOUNTAIN NATIONAL PARK' on a post beside a trail, filling the left column with no caption",
+      "feel": "Quiet, archival",
+      "ux": "static",
+      "learn": "Show the source artefact once, uncaptioned, right after the paragraph that names it: the comparison does the talking",
+      "reconstruction": {
+        "layout": "Left column 720×480, image cover",
+        "typography": "Only the carved letters in the photo",
+        "palette": [
+          "#4b554b",
+          "#6a746a",
+          "#070606"
+        ],
+        "behaviour": "none",
+        "content": "Real park entrance sign",
+        "assets": "rockkky_sign.png (desaturated photo)"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "friendly, outdoorsy",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "On forest green: 'Like our parks, this typeface covers a lot of ground.' centred in white, a row of lime slashes, a short note (7 weights, a variable version, an outline style mimicking wood-carved shadows), then a two-column grid of eight camping words, each in its style with a tiny label (Extralight Campfire, Light Meltoff, Regular Stargaze, Medium Vista, Semibold Geyser, Bold Backpack, Extrabold Fauna, Outline Ranger), closed by an ASCII-line tent and pine tree in lime",
+      "feel": "Cheerful, camp-themed",
+      "ux": "static (words are SVG images)",
+      "learn": "Name every style with a word from the theme (Campfire, Geyser, Ranger): the overview doubles as atmosphere",
+      "reconstruction": {
+        "layout": "Left column 720×1605: statement centred at y≈60–260; note x≈40, ~620px; style grid 2 columns at x≈40 and x≈380, rows ~108px; ASCII illustration ~600×220px at the bottom",
+        "typography": "Statement ~44px National Park Light white, leading ~1.1; words ~56px in Extralight → Extrabold plus Outline; labels ~9px; note ~13px with 'National Park' in lime bold",
+        "palette": [
+          "#033402",
+          "#ffffff",
+          "#d8fe12"
+        ],
+        "behaviour": "none as captured (a Variable-Animation.gif is also in the section)",
+        "content": "Camping vocabulary per style",
+        "assets": "Asset-30…36.svg style words, Variable-Animation.gif, tent_tree.png ASCII illustration"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "story",
+      "variant": "making-of",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "hands-on, field research",
+        "mobile": "adapts",
+        "voice": "none",
+        "media": [
+          "process",
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "A lime-duotone photo of a researcher in a puffer jacket and beanie taking a rubbing of a 'WILDERNESS CAMPING AND BEAR … REQUIRED OVERNIGHT' sign in a fern forest",
+      "feel": "Fieldwork, earnest",
+      "ux": "static",
+      "learn": "One photo of field research (a sign rubbing) signals that the letterforms were measured from the real thing",
+      "reconstruction": {
+        "layout": "Left column 720×808, photo cover",
+        "typography": "Only the routed sign letters",
+        "palette": [
+          "#4f6e09",
+          "#708e0b",
+          "#335405",
+          "#d8fe12"
+        ],
+        "behaviour": "none",
+        "content": "Process photo",
+        "assets": "rubbing.png (duotone lime/green)"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "language-support",
+      "variant": "coverage-statement",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "playful, informative",
+        "mobile": "adapts",
+        "method": "statement",
+        "nonLatin": false
+      },
+      "look": "On black, a centred three-line sentence in white 'Full diácrítics añd súppórt for Spanish' whose language name and accents change in a loop (the mobile capture shows 'Fůll ďiacrítičs áňd support foř Czěch')",
+      "feel": "Witty, compact",
+      "ux": "Looping GIF cycles through languages",
+      "learn": "Put the accents of each language into the coverage sentence itself and rotate the language name: one line states and proves support",
+      "reconstruction": {
+        "layout": "Left column 720×464 black; text centred",
+        "typography": "~44px National Park Regular white, leading ~1.2",
+        "palette": [
+          "#040304",
+          "#ffffff"
+        ],
+        "behaviour": "Animated GIF swapping the language and its diacritics",
+        "content": "'Full diacritics and support for <language>' with that language's accents applied to the sentence",
+        "assets": "NATIONALPARK-LanguageSupport-Transparent.gif"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "clean, sign-shop",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "On forest green with small corner marks (+, =, x, o), centred lines of the basic set: 'ABCDEFGHIJKLM / NOPQRSTUVWXYZ' white stepping heavier left to right, lowercase in lime, '1234567890' and punctuation '([{!?.;:@#%^&*}])' in lime light to bold",
+      "feel": "Tidy specimen card",
+      "ux": "static image",
+      "learn": "Grade the weight along each line of the alphabet so a basic character card also hints at the weight range",
+      "reconstruction": {
+        "layout": "Left column 720×801; lines centred, ~60px leading; corner marks ~20px from each corner",
+        "typography": "~44px National Park, weights increasing across each line; caps white, lowercase and figures lime",
+        "palette": [
+          "#033202",
+          "#ffffff",
+          "#d8fe12"
+        ],
+        "behaviour": "none",
+        "content": "A–Z, a–z, 0–9, punctuation",
+        "assets": "typeface.png"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "exhaustive",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "On lime, the full Medium character set in a uniform 20-column grid of small black glyphs: accented capitals, accented lowercase, Greek specials, figures, punctuation, currency, maths and arrows",
+      "feel": "Dense reference sheet",
+      "ux": "static SVG",
+      "learn": "A single SVG of the whole set on the accent colour is a cheap, crisp glyph table when no interaction is needed",
+      "reconstruction": {
+        "layout": "Left column 720×935; grid ~640px wide from x≈40, 20 columns × ~22 rows, cells ~32px",
+        "typography": "~16px National Park Medium black",
+        "palette": [
+          "#d2f432",
+          "#060505"
+        ],
+        "behaviour": "none",
+        "content": "Full Latin set",
+        "assets": "NationalPark-AllGlyphsMedium.svg"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "academic, modest",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "On black, a lime heading 'NATIONAL PARK TYPEFACE IS A PROJECT BY:' and three rows of name (bold white) plus a two-line bio: Andrea Herstowski, Ben Hoepner, Jeremy Shellhorn (University of Kansas; Design Outside studio; Rocky Mountain National Park collaboration since 2012)",
+      "feel": "Collegiate, credit-giving",
+      "ux": "static",
+      "learn": "Give each contributor a one-line bio that explains why they were on the project (park collaboration, typography teaching)",
+      "reconstruction": {
+        "layout": "Left column 720×583; heading centred at y≈60; rows ~100px apart, name column ~200px at x≈40, bio column ~260px at x≈240",
+        "typography": "Heading ~11px National Park Bold uppercase lime; names ~11px Bold white; bios ~11px Regular white",
+        "palette": [
+          "#070606",
+          "#d8fe12",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Real credits and bios",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/illustration-scene",
+    "type-tester/slider-sandbox",
+    "checkout/link-out-cta",
+    "specimen-showcase/prop-collage",
+    "design-details/annotated-specimen",
+    "story/origin-reference",
+    "family-overview/style-word-grid",
+    "story/making-of",
+    "language-support/coverage-statement",
+    "glyph-table/category-lines",
+    "glyph-table/full-grid",
+    "footer/credits-colophon"
+  ]
+}

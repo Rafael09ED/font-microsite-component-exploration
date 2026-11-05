@@ -1,0 +1,245 @@
+{
+  "slug": "gidole-github-io",
+  "extractedBy": "agent",
+  "summary": "A six-slide, scroll-driven deck (skrollr) for an open-source 'modern DIN': every slide is a fixed layer that cross-fades at set scroll offsets over one photo of Mount Gidole in Ethiopia, which blurs after the title. Its signature is a set of thin construction circles that morph from letter to letter ('an', 'se') and end in an ampersand drawn by a stroke animation.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "05"
+      ],
+      "type": "hero",
+      "variant": "name-over-photo",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "calm, personal, open",
+        "mobile": "breaks",
+        "carrier": "photo",
+        "cta": "scroll",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Full-screen photo of Mount Gidole (blue sky over an ochre savanna) with 'Gidole' centred in white at 270px and 'Open Source Modern DIN' letterspaced below; 'menu ↑ ↓' bottom centre and '1/6' bottom right",
+      "feel": "Quiet, open-air, personal",
+      "ux": "Scroll (or the ↓ arrow) fades the title out over the first 300px while the photo blurs to 20px and saturates; the blurred photo stays as the backdrop of every following slide",
+      "learn": "Use one place photo as a persistent backdrop and blur it after the title: the hero becomes the stage for the whole deck, and the white type stays legible on top",
+      "reconstruction": {
+        "layout": "Fixed full-viewport layers (100vw × 100vh) over a body ~4200px tall that only provides scroll distance; name centred at ~42% height, tagline ~30px below it; nav and counter fixed along the bottom edge (~18px from the bottom)",
+        "typography": "Name: 270px Gidole Regular, white, sentence case, tight leading; tagline: ~34px Gidole Regular, white, letter-spacing ~0.15em (class .spaced); UI 'menu ↑ ↓' ~24px",
+        "palette": [
+          "#1375c4",
+          "#0668b9",
+          "#8f5119",
+          "#2d352c",
+          "#ffffff"
+        ],
+        "behaviour": "White #loadfade screen fades out on window load (~1.5s). Scroll-mapped with skrollr: #uno opacity 1 → 0 between 0 and 300px (cubic); #background filter blur(0) saturate(1) → blur(20px) saturate(1.2) between 0 and 600px; photo stays fixed",
+        "content": "Name plus a three-word positioning line ('Open Source Modern DIN')",
+        "assets": "One landscape photograph of Mount Gidole (the designer's home town)",
+        "html": "#background (fixed, background-image, skrollr data-0/data-600 filter keyframes); #uno.clickable > h1 + p.spaced with data-0/data-300 opacity"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "06"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "modest, grateful",
+        "mobile": "breaks",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Slide 2: three white words spread across the blurred photo, 'Download', 'Github', 'pdf', at ~42px; the screen crop (01) caught the cross-fade gap, so only the blurred photo shows (links seen in the video at t≈2.8s)",
+      "feel": "Low-key, generous",
+      "ux": "'Download' opens a white 'Thank you! 🙏' overlay (donate to an Ethiopian charity, tweet, star on GitHub, designer avatar) and starts the GitHub zip download after 1s; 'Github' opens the repo; 'pdf' opens the readme + character-set PDF",
+      "learn": "Turn the free download into a thank-you moment: the overlay asks for a donation, a tweet or a star while the file arrives",
+      "reconstruction": {
+        "layout": "Fixed slide; nav.wrap 1280px wide from x=80, three links in equal columns on one line at mid-height",
+        "typography": "Links ~42px Gidole Regular, white, sentence/lower case; overlay h3 + small list ~16px dark on white",
+        "palette": [
+          "#0673d1",
+          "#8e4a0d",
+          "#ffffff",
+          "#171a1c"
+        ],
+        "behaviour": "Slide opacity 0 → 1 → 0 between scroll 300, 600 and 900px; click #get → hide counter, show #thankyou overlay, redirect to the zip after 1000ms; × closes the overlay",
+        "content": "Download, Github, pdf; overlay copy 'Thank you!' with Donate / Tweet / Star on Github",
+        "assets": "Designer avatar (circle-masked SVG image)",
+        "html": "nav.wrap > #get > a#download, #github > a, #pdf > a; #thankyou.inverted.invisible > .wrap > #close + h3 + ul; #me avatar link"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "07"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "personal, warm",
+        "mobile": "breaks",
+        "voice": "first-person",
+        "media": [
+          "photo",
+          "illustration"
+        ],
+        "length": "short"
+      },
+      "look": "Slide 3: heading 'Gidole' (~109px) and two lines in white on the blurred photo ('Gidole is a small, beautiful mountain town in southern Ethiopia where I grew up. The font (my first) is a humanist and minimal DIN.'), with an ASCII-art globe of Africa in dots and @ signs whose one highlighted '@' marks Gidole; not visible in the screen crop (cross-fade gap)",
+      "feel": "Intimate, homemade",
+      "ux": "The ASCII globe fades in and zooms (scale 1 → 3) as the slide leaves",
+      "learn": "Explain the name with a place and a personal line; an ASCII map drawn in characters keeps even the illustration typographic",
+      "reconstruction": {
+        "layout": "Fixed slide, text block in a 1280px wrap from x=80, vertically centred; ASCII globe (#world) centred behind the text, ~43 lines of 43 characters",
+        "typography": "Heading ~109px Gidole Regular white; paragraph ~40px Regular white, leading ~1.4; ASCII art in a small monospaced size (Gidole Mono likely) using . · @",
+        "palette": [
+          "#0673d1",
+          "#8e4a0d",
+          "#ffffff"
+        ],
+        "behaviour": "Slide opacity 0 → 1 → 0 at scroll 900 / 1200 / 1500px; #world opacity 0 → 1 between 500 and 1200px, then scale(3) and opacity 0 at 1500px; span#dot highlights Gidole on the map",
+        "content": "Two first-person sentences: home town plus 'my first' font",
+        "assets": "None beyond the shared photo; the map is text",
+        "html": "#world.behind > #worldcenter (ASCII lines with <br>, span#dot); .wrap > div > h2 + p"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "03",
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "geometric, elegant",
+        "mobile": "breaks",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "animation",
+        "explanation": "none"
+      },
+      "look": "Slides 4–5: giant translucent white letters 'an' (then 'se') fill the screen over the blurred photo, and thin white circles sit in their bowls, showing the round construction; the circles end as a stacked '8' before an ampersand is drawn",
+      "feel": "Precise, meditative",
+      "ux": "Scrolling morphs one set of SVG circles: from a huge circle beyond the viewport, they shrink into the bowls of 'a' and 'n', slide to the bowls of 's' and 'e', then close into an '8' that becomes an ampersand stroke drawn on and filled",
+      "learn": "Animate the construction geometry itself between letters: the same circles fitting several glyphs prove the system better than a static annotation",
+      "reconstruction": {
+        "layout": "Fixed full-screen SVG layers (viewBox 2600×2000 for letters, 2600×4700 for circles) scaled to cover; letters ~600px tall, centred, two per slide",
+        "typography": "Letters are SVG outlines of Gidole Regular at ~0.9 opacity white; circles are 1–2px white strokes, no fill",
+        "palette": [
+          "#0470cf",
+          "#8d4a0c",
+          "#eff2f5",
+          "#ffffff"
+        ],
+        "behaviour": "skrollr path-d keyframes (custom easing 'easeCustom') morph each circle path at scroll 1500 → 1800 → 2400 → 2700px; letter layers fade 0 → 0.9 → 0 (an: 1500–2100, se: 2100–2700); ampersand: stroke-dasharray 6630 with stroke-dashoffset 7680 → 13360 between 2700 and 3000px, then a filled path morphs in",
+        "content": "Letter pairs 'an' and 'se', then '&'",
+        "assets": "SVG outlines of the letters and circle paths (exported from the font)",
+        "html": "svg.goo > path[data-1500='@d…'][data-1800='@d…'] per circle; .farbehind > svg.letter > path per glyph; #stroke > svg#ampstroke path[stroke-dasharray]; svg#ampfill"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "09"
+      ],
+      "type": "footer",
+      "variant": "personal-sign-off",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, proud",
+        "mobile": "breaks",
+        "contains": [
+          "sign-off",
+          "other-fonts"
+        ]
+      },
+      "look": "Slide 6 switches to an off-white page with a soft vignette: 'The End' at ~109px in near-black and a short paragraph 'More info + all glyphs in the pdf. Gidole has been featured by GitHub (7th on the list and rising thanks to you).' with blue links",
+      "feel": "Light-hearted, thankful",
+      "ux": "Links to the PDF specimen and to GitHub's font showcase; the bottom UI switches to dark",
+      "learn": "Put the full glyph set in a linked PDF and close with one honest line: a small site can end without a footer",
+      "reconstruction": {
+        "layout": "Fixed slide, text block from x≈220 (inside a 1280px wrap), heading near the top third, paragraph ~1000px wide",
+        "typography": "Heading ~109px Gidole Regular #171a1c; paragraph ~40px Regular, leading ~1.55, links in mid blue",
+        "palette": [
+          "#fcfcfc",
+          "#cfcfcf",
+          "#171a1c",
+          "#2a7fb8"
+        ],
+        "behaviour": "Fades in between scroll 3000 and 3200px after the ampersand animation; class .inverted flips the UI colour",
+        "content": "Sign-off with links: PDF (readme + characters), GitHub showcase",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Fixed at the bottom centre: 'menu ↑ ↓' in small white Gidole (dark on the last slide); 'menu' returns to slide 1 and the arrows animate the scroll to the previous or next slide stop (removed on mobile user agents)"
+    },
+    {
+      "blocks": [
+        "11",
+        "12"
+      ],
+      "type": "chrome",
+      "variant": "scroll-progress-indicator",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed bottom-right slide counter '1/6' … '6/6' at ~26px; each number cross-fades at its slide's scroll offsets, the last one in dark on the white end slide"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/name-over-photo",
+    "checkout/link-out-cta",
+    "story/origin-reference",
+    "design-details/annotated-specimen",
+    "footer/personal-sign-off"
+  ]
+}

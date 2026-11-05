@@ -1,0 +1,479 @@
+{
+  "slug": "optician-sans-com",
+  "extractedBy": "agent",
+  "summary": "A WordPress/Divi one-pager (captured via Wayback) for Optician Sans, a free display face built from Snellen and Sloan eye-chart optotypes: a black hero whose giant 'O' pulses in and out of focus like an eye test, a promo video, press quotes, a LogMAR chart, a Snellen → Sloan → Optician Sans lineage of single letters on grids, the alphabet as an eye-chart grid, an alternates table and a black licensing/contact footer.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "clinical, witty, minimal",
+        "mobile": "adapts",
+        "carrier": "glyph",
+        "cta": "download",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "Black field: left 'OPTICIAN SANS' in white caps, a three-line tagline, an outlined 'DOWNLOAD FOR FREE ▸' button and a row of award badges (One Show, TDC, Communication Arts, ED Awards, Gullblyanten); right a single huge white 'O' that blurs and sharpens",
+      "feel": "Calm, clever, like looking into an eye-test machine",
+      "ux": "The 'O' loops between blurred and sharp (CSS filter blur 10px → 0) like an eye focusing; the button downloads the ZIP directly",
+      "learn": "Animate the one glyph with the theme's own effect (out-of-focus → sharp for an eye-chart font): a single CSS filter carries the whole concept",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×570px black, two equal columns; left column text block from x≈116, name at y≈160, tagline 440px wide, button 316×50px, badges row ~50px tall ~240px wide; right column a ~360px 'O' centred at x≈1080",
+        "typography": "Name ~44px Optician Sans Regular caps, tracked +0.05em, white; tagline ~22px Montserrat Regular, leading 1.4; button ~17px caps tracked +0.1em, 2px white border",
+        "palette": [
+          "#010101",
+          "#fcfcfc",
+          "#e43b3b"
+        ],
+        "behaviour": "@keyframes optics { from { filter: blur(10px) } to { filter: blur(0) } } looping alternate on the O image (~3s); text modules fade in from the top ('fadeTop') on load",
+        "content": "Tagline 'A free font based on the historical eye charts and optotypes used by opticians world wide.'",
+        "assets": "Big 'O' image or glyph; award badge strip image (Sertificates@2x)",
+        "html": "a#download-font.et_pb_button[href$='OpticianSans.zip']; .et_pb_image_sticky badges"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "testimonials",
+      "variant": "award-logo-strip",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "credentialed",
+        "mobile": "adapts"
+      },
+      "look": "Under the hero's download button, a small cluster of award badges: The One Show, TDC Certificate of Excellence, Communication Arts Award of Excellence, then ED Awards and Gullblyanten 2015 logos",
+      "feel": "Proud but compact",
+      "ux": "static",
+      "learn": "Tuck award badges right under the free-download button: social proof at the moment of decision",
+      "reconstruction": {
+        "layout": "One image ~240×100px, two rows of logos below the button in the left hero column",
+        "typography": "Logos only",
+        "palette": [
+          "#010101",
+          "#ffffff",
+          "#e5172f",
+          "#55b4d4"
+        ],
+        "behaviour": "none",
+        "content": "Real award badges",
+        "assets": "Single PNG of award badges"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "promotional film",
+        "mobile": "adapts",
+        "medium": "video",
+        "sequence": "single"
+      },
+      "look": "A wide embedded YouTube video ('Optician Sans - new free font') on black, extending from the hero's black band into the white page below; the capture shows only a black player with a play button",
+      "feel": "Cinematic",
+      "ux": "Click to play the promo film",
+      "learn": "Let the video frame straddle the black hero and the white page: it bridges the two sections",
+      "reconstruction": {
+        "layout": "Black band ~330px continues below the hero, then white; the video (1080×~610px, 16:9) is centred at x=180–1260 and straddles the black/white edge, ~45px white margin below",
+        "typography": "none",
+        "palette": [
+          "#010101",
+          "#ffffff",
+          "#898989"
+        ],
+        "behaviour": "YouTube iframe (7U0riH6cQG8), no autoplay",
+        "content": "Promo film about the font",
+        "assets": "YouTube video",
+        "html": "iframe[src*='youtube.com/embed/7U0riH6cQG8']"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "testimonials",
+      "variant": "quote-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "press praise",
+        "mobile": "adapts",
+        "media": [
+          "none"
+        ]
+      },
+      "look": "Two rows of three press quotes on white, each a tiny italic tracked caps headline ('\"WEIRD AND WONDERFUL\"', '\"EN ELEGANT TYPEFACE\"', '\"LET`S EVERYONE ACT AS A OPTICIAN\"', '\"COMPLETES THE EYE TEST CHART ALPHABET\"'…) above the outlet's logo (Gizmodo, Fast Company, NRK, Dezeen, designmodo, Khoi Vinh / Adobe), rows split by a grey rule",
+      "feel": "Understated, credible",
+      "ux": "static",
+      "learn": "Quote only the headline each outlet ran, in small caps above its logo: press proof in one glance",
+      "reconstruction": {
+        "layout": "Content width ~680px centred, 3 equal columns, row height ~150px; 1px #b0b0b0 rule between rows",
+        "typography": "Quotes ~9px Optician Sans italic caps, tracked +0.05em; logos ~22px tall",
+        "palette": [
+          "#fefefe",
+          "#111111",
+          "#b0b0b0"
+        ],
+        "behaviour": "none",
+        "content": "Real press headlines",
+        "assets": "Press logos (PNG)"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "informative, medical",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "diagram"
+        ],
+        "length": "short"
+      },
+      "look": "Left, a short paragraph on the LogMAR chart (10 letters, National Vision Research Institute of Australia); right, a LogMAR chart in the font: rows 'C O H Z V', 'S Z N D C', 'V K C N R'… shrinking to a point",
+      "feel": "Clinical, familiar",
+      "ux": "static",
+      "learn": "Set the real-world source artefact (the eye chart) in the new font: the reference and the specimen are the same picture",
+      "reconstruction": {
+        "layout": "Two columns: paragraph 330px wide at x≈80, vertically centred; chart ~280px wide at x≈550 (×2 on the 1440 page ≈ x 1100), 11 rows decreasing from ~40px to ~6px",
+        "typography": "Paragraph ~14px Open Sans Regular, leading 1.6, dark grey; chart letters Optician Sans caps, tracked widely, black",
+        "palette": [
+          "#fefefe",
+          "#111111",
+          "#cecece"
+        ],
+        "behaviour": "none",
+        "content": "Real facts about the LogMAR chart",
+        "assets": "Chart (image or live text)"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "comparison",
+      "variant": "lineage-lineup",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "museum-like, precise",
+        "mobile": "adapts",
+        "media": [
+          "diagram"
+        ]
+      },
+      "look": "On light grey, three letters side by side on faint construction grids: a slab-serif 'E' (SNELLEN – 1862 –), a sans 'D' (SLOAN – 1959 –) and a 'K' (OPTICIAN SANS – 2018 –) with two grey dots marking the optical corrections, each with a title, italic date and a short centred caption",
+      "feel": "Calm, historical, didactic",
+      "ux": "static",
+      "learn": "Draw one letter from each ancestor on the same grid: the lineage reads left to right without a timeline graphic",
+      "reconstruction": {
+        "layout": "Full-width 1440×896 band #e5e5e5; three columns centred at x≈360, 720, 1080; each grid box ~250×240px with ~25px cells in #c8c8c8 hairlines, glyph ~165px tall; title 70px below, date, then 4–5 line caption ~260px wide",
+        "typography": "Titles ~20px Optician Sans caps, tracked; dates ~13px Georgia italic grey; captions ~14px Montserrat/Open Sans grey #888, centred, leading 1.6",
+        "palette": [
+          "#e5e5e5",
+          "#0b0b0b",
+          "#888888",
+          "#c8c8c8"
+        ],
+        "behaviour": "none",
+        "content": "Real history: Snellen 1862 (5×5 grid), Sloan 1959 (10 letters), Optician Sans 2018 (optically adjusted display face)",
+        "assets": "Three glyph-on-grid images (SVG/PNG)"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "testimonials",
+      "variant": "quote-columns",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "professional endorsement",
+        "mobile": "adapts",
+        "media": [
+          "photo"
+        ]
+      },
+      "look": "Split band: left black half with a blue vertical rule and a white quote ('The typeface, made with Sloan optotypes as the basis of construction, is the most effective letter selection…') signed Øyvind Krogh, Optometrist at Optiker-A; right half a portrait photo of the bearded optometrist in glasses on blue-grey",
+      "feel": "Trustworthy, human",
+      "ux": "static",
+      "learn": "Get the endorsement from the profession the font imitates (an optometrist), with his portrait: domain authority beats design press",
+      "reconstruction": {
+        "layout": "1440×656, two 50% columns; quote block ~300px wide at x≈80 with a 2px blue left rule; photo full-bleed right",
+        "typography": "Quote ~14px Open Sans white, leading 1.6; name ~10px bold, role ~10px",
+        "palette": [
+          "#030303",
+          "#546367",
+          "#ffffff",
+          "#3d7bd9"
+        ],
+        "behaviour": "none",
+        "content": "Real customer quote (the font was commissioned for an optician's identity)",
+        "assets": "Portrait photo"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "eye-chart, airy",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "The capital alphabet A–Z as a 6-column grid of big black letters on white, widely spaced like an eye chart (D, G, U and Z are missing in the desktop capture: their images failed to load from the Wayback copy)",
+      "feel": "Clean, clinical",
+      "ux": "static",
+      "learn": "Space a caps-only display alphabet like an eye chart, one letter per wide cell: the grid itself recalls the source",
+      "reconstruction": {
+        "layout": "Width ~680px centred (x≈125–790 at 1440), 6 columns × 5 rows, cells ~120×116px; letters ~60px tall centred",
+        "typography": "Optician Sans Regular caps, black (as 26 separate PNG images)",
+        "palette": [
+          "#fefefe",
+          "#0b0b0b"
+        ],
+        "behaviour": "none",
+        "content": "A–Z",
+        "assets": "26 letter images (characters-min.png … characters26-min-1.png)"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "technical, tidy",
+        "mobile": "adapts",
+        "subject": [
+          "alternates"
+        ],
+        "presentation": "catalogue",
+        "explanation": "prose"
+      },
+      "look": "On black: left a heading 'CUSTOM ALTERNATES FOR A MORE CONSISTENT LOOK.' and a paragraph; right a ruled table of letters in three columns: the original optotype letters (B C D E F G I K L O Q S U Ø), their consistent alternates beside them, and a third column with further alternates for E, F and I",
+      "feel": "Systematic, quiet",
+      "ux": "static; text points to the Glyphs panel in design apps",
+      "learn": "List default and alternate forms in adjacent columns of a ruled table: an alternates catalogue that reads like the eye chart's own grid",
+      "reconstruction": {
+        "layout": "1440×628 black; text column ~480px at x≈116; table at x≈950, 3 columns × 14 rows, cells ~45×38px, 1px grey rules",
+        "typography": "Heading ~19px Optician Sans caps, tracked, white; paragraph ~17px Montserrat, leading 1.5; table letters ~26px Optician Sans white",
+        "palette": [
+          "#020202",
+          "#ffffff",
+          "#4e4e4e"
+        ],
+        "behaviour": "none",
+        "content": "Real alternates list",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "story",
+      "variant": "making-of",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "studio, candid",
+        "mobile": "adapts",
+        "voice": "none",
+        "media": [
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "Full-width photo of the designer at a laptop showing a huge 'OH' in the glyph editor, a crumpled paper ball and an eye-chart print on the desk",
+      "feel": "Craft, behind the scenes",
+      "ux": "static",
+      "learn": "One studio photo of the letters on the designer's screen adds a human maker without any text",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×809 image, no text",
+        "typography": "Only inside the photo (OH in Optician Sans)",
+        "palette": [
+          "#abacaf",
+          "#f0f0f0",
+          "#717171",
+          "#111111"
+        ],
+        "behaviour": "none",
+        "content": "Studio photo",
+        "assets": "Photo of the designer working"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "open, plain",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Centred stack on black: 'LICENSING' with a blue link line 'Optician Sans is released under the SIL OPEN FONT LICENSE.', then 'OPEN SOURCE', a GitHub wordmark and 'Optician Sans is available on GitHub.'",
+      "feel": "Generous, simple",
+      "ux": "Links to the OFL text and the GitHub repo (the actual ZIP download is the hero button)",
+      "learn": "State the licence and the source repo as two one-line blocks; for a free font that is the whole checkout",
+      "reconstruction": {
+        "layout": "Centred column ~600px; each heading with ~40px gap above its link line",
+        "typography": "Headings ~22px Optician Sans caps, tracked, white; links ~11px Open Sans, blue #2ea3f2",
+        "palette": [
+          "#020203",
+          "#ffffff",
+          "#2ea3f2"
+        ],
+        "behaviour": "none",
+        "content": "SIL OFL 1.1, GitHub anewtypeofinterference/Optician-Sans",
+        "assets": "GitHub wordmark"
+      }
+    },
+    {
+      "blocks": [
+        "09",
+        "10"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, press-ready",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "contact"
+        ]
+      },
+      "look": "'PRESS & CONTACT': a press-kit Dropbox link for images, movies and gifs, 'Send us an e-mail', and 'Optician Sans is created by ANTI Hamar and typographer Fábio Duarte Martins.'; then an empty black strip ends the page",
+      "feel": "Open, helpful",
+      "ux": "Links to the press folder, email and the creators",
+      "learn": "Offer a press folder of images and gifs in the footer: it makes coverage (and the press quotes above) easy",
+      "reconstruction": {
+        "layout": "Same centred column as the licensing blocks, ~200px; then a ~108px black spacer",
+        "typography": "Heading ~22px Optician Sans caps; text ~11px Open Sans white with blue links",
+        "palette": [
+          "#020203",
+          "#ffffff",
+          "#2ea3f2"
+        ],
+        "behaviour": "none",
+        "content": "Press kit, contact, credits",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "testimonials/award-logo-strip",
+    "specimen-showcase/in-use-mockups",
+    "testimonials/quote-columns",
+    "story/origin-reference",
+    "comparison/lineage-lineup",
+    "testimonials/quote-columns",
+    "glyph-table/full-grid",
+    "design-details/feature-index",
+    "story/making-of",
+    "checkout/free-download",
+    "footer/credits-colophon"
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "slug": "overpassfont-org",
+  "extractedBy": "agent",
+  "summary": "A small open-source specimen for Red Hat's Overpass (after Highway Gothic): one 'about' view with a product-style hero, animated per-letter slogans and a split-flap board, plus two hidden 'Try it' / 'Try Mono' views switched by a fixed three-tab bar built from CSS radio inputs (weight radios, italic checkbox, one shared text field, waterfall/glyphs/variants tabs).",
+  "instances": [
+    {
+      "blocks": [
+        "02",
+        "03",
+        "04"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed full-width top bar of three equal 480px green tabs, 'OVERPASS' (darker #1c7c4c, active) | 'TRY IT' | 'TRY MONO' (#339966), white caps ~11px; they are <label>s for radio inputs that swap the whole page between the about view and two hidden tester views"
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "product-landing",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "open-source, plain, utilitarian",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Centred 'OVERPASS' in Black caps on near-white, a two-line credit ('inspired by Highway Gothic. Sponsored by Red Hat — Created by Delve Fonts'), a slate 'Visit the source on GitHub' button, a green 'Desktop OTF Files' button and two monospaced CDN stylesheet URLs",
+      "feel": "Practical, developer-friendly, no-nonsense",
+      "ux": "Buttons go to the GitHub repo and a release zip; the CDN URLs are read-only inputs that select themselves on click for copy-paste",
+      "learn": "For an open-source family, put the embed URL right in the hero as a click-to-select field: the hero is also the install instructions",
+      "reconstruction": {
+        "layout": "First screen ~556px tall under the 48px fixed tab bar; single centred column: name at y≈90, credit 2 lines at y≈270, buttons 320×50px stacked with 18px gap, then two centred URL fields ~13px Mono",
+        "typography": "Name 144px Overpass Black (900), all caps, tight; credit ~14px Regular grey with blue inline links; buttons ~13px Regular white on fill; URLs ~14px Overpass Mono",
+        "palette": [
+          "#f7f7f7",
+          "#12141a",
+          "#56606e",
+          "#339966",
+          "#3b7dd8"
+        ],
+        "behaviour": "Static; input[readonly] onclick=this.select()",
+        "content": "Real facts: inspiration (Highway Gothic), sponsor (Red Hat), maker (Delve Fonts); links to GitHub release 3.0.2 desktop zip and kxcdn CSS files",
+        "assets": "none",
+        "html": "article.about > h1 + p (credits) + a.button.repo + a.button.download + .cdn > label > input[type=text][readonly][onclick='this.select()']"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "punchy, slogan-like",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Two slogan bands: 'Smashed Apart / a complete rebuild' (Black over Thin) centred on light grey, then 'Eight Weights / Plus true italics / and monospace' in white over a dark, desaturated photo of a highway underpass, each line set in the style it announces",
+      "feel": "Energetic, a bit showy, self-describing",
+      "ux": "No interaction; letters animate in one by one (scatter and settle for 'Smashed Apart', weight or fade flicker on the photo lines) when the band appears",
+      "learn": "Make each claim line its own proof: 'Plus true italics' set in the italic, 'and monospace' in the mono, so the family range is read and seen at once",
+      "reconstruction": {
+        "layout": "Band 1: full-width ~300px tall, #ececec, two centred lines; band 2: full-width ~400px, background photo (underpass) darkened to ~20% brightness, three centred lines with ~40px leading gaps",
+        "typography": "'Smashed Apart' ~72px Overpass Black (900), sentence case, dark slate #2a3240; 'a complete rebuild' at .75em (~54px) weight 200; photo lines ~48px white: 'Eight Weights' 900, 'Plus true italics' 900 italic, 'and monospace' Overpass Mono 900, some letters lighter mid-animation",
+        "palette": [
+          "#ececec",
+          "#2a3240",
+          "#12141a",
+          "#ffffff",
+          "#88888d"
+        ],
+        "behaviour": "Lettering.js wraps each letter in span.charN; CSS keyframes ('effect', 'fadeit', 'peekaboo') with per-letter delays: letters drop and scatter then reassemble ('smashed apart'), others fade in; runs on load, not scroll-scrubbed",
+        "content": "Feature slogans: 'Smashed Apart — a complete rebuild', 'Eight Weights', 'Plus true italics', 'and monospace'",
+        "assets": "Desaturated photo of a concrete highway underpass with pedestrians",
+        "html": ".sample-2 / .sample-3 > h3.letter[aria-label] > span.char1…charN[aria-hidden]; weights set inline (font-weight:900 / 200; font-style:italic; font-family:overpass-mono)"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "transit, analog, mechanical",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "single"
+      },
+      "look": "A split-flap departure board: 'MONOSPACE' in white Mono capitals on nine glossy red flap tiles, then 'FOR THAT ANALOG FEEL' on smaller dark-grey tiles with a hinge line through each letter, on near-black",
+      "feel": "Airport/station board, retro-mechanical",
+      "ux": "Static to the visitor; letters flicker in like flaps turning (CSS per-letter animation)",
+      "learn": "Put each monospaced character on its own flap tile: the fixed advance width becomes the visual grid of a Solari board",
+      "reconstruction": {
+        "layout": "Full-width ~380px band on #12141a; centred row of 9 red tiles ~96×100px with 4px gaps; below, word groups of grey tiles ~56×64px, gaps between words",
+        "typography": "MONOSPACE ~110px Overpass Mono Regular white caps, one per tile; FOR THAT ANALOG FEEL ~44px Overpass Mono, letterspaced by the tiles",
+        "palette": [
+          "#12141a",
+          "#b3121b",
+          "#2a2d32",
+          "#ffffff",
+          "#cfd2d3"
+        ],
+        "behaviour": "Per-letter CSS animation (Lettering.js spans) mimicking flaps settling; a horizontal hinge line and dots at tile edges are drawn with CSS",
+        "content": "Slogan 'MONOSPACE FOR THAT ANALOG FEEL'; the hidden Mono view reuses the board for 'COLLABORATION' and a timetable (Bengaluru 20SEP, Singapore 29SEP, Tokyo 5OCT, Seoul 11OCT, Hong Kong 27OCT, Sydney 3NOV)",
+        "assets": "none (CSS tiles)",
+        "html": ".sample-4 > .peoplepowered > #pp-text.headline + .board > .headline[aria-label] > span.charN"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04"
+      ],
+      "type": "type-tester",
+      "variant": "global-toolbar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "simple, utilitarian",
+        "mobile": "unknown",
+        "controls": [
+          "text",
+          "weight",
+          "style-select"
+        ],
+        "scope": "global",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "Hidden views (HTML only, never shown in the capture) opened by the 'TRY IT' / 'TRY MONO' tabs: a row of weight radios labelled '2 00' … '9 00', an 'italic' checkbox and one 'Type Here' text field above tabbed sample panels",
+      "feel": "Bare-bones, CSS-trick tester",
+      "ux": "Typing in the single field rewrites every sample (.tr) on both views; weight radios and the italic checkbox restyle all samples; sub-tabs switch 'waterfall | glyphs | variants' (proportional) or 'glyphs | syntax | display' (mono)",
+      "learn": "A whole tester can run on radio inputs and :checked sibling selectors, with only one line of JS to copy the typed text into every sample",
+      "reconstruction": {
+        "layout": "Page-level view switch: body > input[radio name=family] ×3 + labels in the fixed bar; tester controls are a row of 8 weight labels + italic checkbox + full-width text input; below, a 3-tab carousel of sections (waterfall: SVG onion-skin of 8 overlaid 'Overpass' weights + 8 sample lines; variants: 8 h2 rows roman + italic, Thin→Heavy; glyphs: glyph chart)",
+        "typography": "Samples 'Overpass' / 'Overpass Mono' at display size in Overpass 200–900 roman and italic; weight labels show the hundreds digit large and '00' small",
+        "palette": [
+          "#f7f7f7",
+          "#12141a",
+          "#339966",
+          "#1c7c4c"
+        ],
+        "behaviour": "#type-sample keyup/change → $('.tr').text(value) (all samples including two mono <textarea>s, dark and light); input#variant-200…900 radios and #variant-italic checkbox drive CSS via :checked ~ selectors; carousel radios show one section at a time",
+        "content": "Default text is the family name; placeholder prompt 'Type Here'; the mono 'display' tab is a split-flap timetable of Red Hat event cities and dates",
+        "assets": "none",
+        "html": "input#variant-200…#variant-900[type=radio][name=variant] + label ('2<span>00</span>'), input#variant-italic[type=checkbox], input#type-sample[type=text][placeholder='Type Here ']; article.standard-sample with input#carousel-1..3 (waterfall | glyphs | variants); article.monospace-sample with #mono-carousel-1..3 (glyphs | syntax | display), section.syntax > textarea.tr ×2"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "plain reference",
+        "mobile": "unknown",
+        "coverage": "full",
+        "interaction": "tabs",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "In the hidden tester views' 'glyphs' tabs: a chart of single-character cells from '!' through Latin-1 and Latin Extended (≈257 cells for Overpass, ≈948 elements in the Mono view, which adds a big 'Overpass Mono' sample line on top)",
+      "feel": "Raw, complete",
+      "ux": "Reached by a sub-tab; restyled by the global weight radios and italic checkbox",
+      "learn": "Letting the tester's weight controls also drive the glyph chart turns a static grid into a per-weight coverage check",
+      "reconstruction": {
+        "layout": "div.glyph-chart of plain <div>s in encoding order, flowing as a wrapping grid",
+        "typography": "Cells in Overpass / Overpass Mono at the weight chosen in the toolbar; sizes unknown (not rendered in the capture)",
+        "palette": [
+          "#f7f7f7",
+          "#12141a"
+        ],
+        "behaviour": "Shown when its tab radio is :checked; weight/italic inherit from the global radios",
+        "content": "ASCII + Latin-1 + extended Latin in encoding order",
+        "assets": "none",
+        "html": "section.glyphs > div.glyph-chart > div (one character each)"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "corporate, grateful",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "Dark charcoal footer: large 'Sponsored by Red Hat' logo, a small tracked 'WEBFONT HOSTING SPONSORS' label, and three host logos (Google Fonts, KeyCDN, Font Library) framed by laurel wreaths like awards, each above an outlined 'CSS Direct' button; round black back-to-top button bottom right",
+      "feel": "Sober, appreciative",
+      "ux": "Logos link to each host's Overpass page; 'CSS Direct' links go straight to that host's stylesheet; ↑ returns to top",
+      "learn": "Treat webfont hosts as laurel-wreathed sponsors and pair each with a direct CSS link: thanks and install options in one row",
+      "reconstruction": {
+        "layout": "Full-width ~560px band on #26292e; centred sponsor logo ~300px wide at top; label; 3-column row (each ~340px) of wreath+logo (~60px tall) above a 340×44px outlined button; 64px circular ↑ button fixed bottom-right",
+        "typography": "Label ~11px Overpass caps, tracked +0.15em, grey #aaa; buttons ~13px Regular grey",
+        "palette": [
+          "#26292e",
+          "#aaaaaa",
+          "#ee0000",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Sponsor and webfont-host credits with CSS links (Google Fonts css?family=Overpass…, kxcdn overpass.css, fontlibrary face)",
+        "assets": "Red Hat 'Sponsored by' SVG, host logos, laurel wreath SVGs",
+        "html": "footer > a[href=#] + .sponsor + .award (×3) > a + a.resource"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/product-landing",
+    "specimen-showcase/word-stack",
+    "specimen-showcase/prop-collage",
+    "type-tester/global-toolbar",
+    "glyph-table/full-grid",
+    "footer/credits-colophon"
+  ]
+}

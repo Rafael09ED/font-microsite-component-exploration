@@ -1,0 +1,107 @@
+{
+  "slug": "leon-kim-com",
+  "extractedBy": "agent",
+  "summary": "A single full-screen canvas (PIXI/WebGL) that plays a sequence of animated scenes made with Leon Sans, a geometric sans drawn entirely in code as a JavaScript library: the name is drawn stroke by stroke, gains weight, the camera zooms into the letters, then glyphs are drawn, dropped with physics into a liquid floor and finally written in multicoloured strokes. There is no text on the page except the canvas and a GitHub corner icon.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "01",
+        "02"
+      ],
+      "type": "hero",
+      "variant": "kinetic-type",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "minimal, technical, elegant",
+        "mobile": "shrinks",
+        "carrier": "motion",
+        "cta": "none",
+        "rangeShown": "whole-family",
+        "navVisible": false
+      },
+      "look": "On white, 'LEON SANS' in hairline caps (~60px) is drawn on stroke by stroke from the centre, thickens to a bold weight, then the view zooms until thin 'N SA' and finally 'SA' fill and overflow the screen",
+      "feel": "Calm, precise, generative",
+      "ux": "Plays by itself after load (the capture's wheel events may also step it); nothing to click except the GitHub corner icon",
+      "learn": "For a font that is code, show the drawing itself: stroke draw-on, live weight change and a camera zoom prove the glyphs are parametric, not static outlines",
+      "reconstruction": {
+        "layout": "One canvas 100vw × 100vh (devicePixelRatio 2); name centred horizontally at ~48% height, letter-spaced caps ~360px wide; zoom stage scales the word until two letters are ~560px tall (01) then ~830px (02), cropped by the viewport",
+        "typography": "Leon Sans rendered as canvas strokes: caps, start weight ~1 (hairline), animated to ~7–8 (bold) with tracking ~0.2em; at zoom the stroke stays hairline-to-light (~6px at 560px cap height)",
+        "palette": [
+          "#ffffff",
+          "#080808",
+          "#707070",
+          "#d1d1d1"
+        ],
+        "behaviour": "Timeline: blank white ~1.5s; strokes draw on letter by letter (~2s, each path's drawing progress 0 → 1); weight tweens to bold (~1.5s); camera scale tween zooms into 'SA' (~2s); hard cut to black for the next scene. Leon Sans API: new LeonSans({text, size, weight, tracking}) with drawing animation via each path's 'drawing' value (GSAP tween)",
+        "content": "The name only",
+        "assets": "Leon Sans JS library (github.com/cmiscm/leonsans); PIXI.js canvas",
+        "html": "div#root > canvas#canvas (2880×1800 backing for 1440×900); a#git GitHub SVG icon fixed top-right; new LeonSansApp() on window.onload"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "type": "specimen-showcase",
+      "variant": "kinetic-scenes",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "playful, generative, physical",
+        "mobile": "shrinks",
+        "medium": "generative",
+        "sequence": "series"
+      },
+      "look": "Black scenes: a white rounded 'B' (~260px) is drawn on from a single arc, sinks into a wavy white liquid floor rising from the bottom while capitals (K, W, J, O, Z, H, Y, &) rain from the top with physics; then white, and (video only, t≈19–21s) the word 'composition' written in multicoloured dashed strokes",
+      "feel": "Toy-like, satisfying, experimental",
+      "ux": "Watch-only sequence; each scene demonstrates a different capability of the code font (draw-on, rounded weight, physics bodies, fluid/metaball floor, colour pattern strokes)",
+      "learn": "When the font is a library, the specimen is a reel of demos: each scene shows one thing you can do with the glyph paths (animate, collide, melt, recolour)",
+      "reconstruction": {
+        "layout": "Same full-screen canvas; single glyph centred (~260px cap height, 520px in 2x) then sinking to the bottom; falling letters ~100–140px scattered across the top half; white fluid band ~20–200px tall along the bottom edge with a wobbling top",
+        "typography": "Leon Sans caps with round caps and joins, white strokes ~14px at 260px size on black; final word lowercase ~70px in rainbow-coloured stroke segments on white",
+        "palette": [
+          "#010101",
+          "#ffffff",
+          "#8a8a8a",
+          "#b3b3b3"
+        ],
+        "behaviour": "Scene 1: 'B' drawn on (path progress) then weight-in; scene 2: glyphs become rigid bodies (Matter.js-style physics) falling and tumbling onto a liquid metaball floor that rises and swallows them; scene 3: cross-fade to white, 'composition' drawn with a colour pattern along each stroke. Auto-advancing, ~4–5s per scene, loops",
+        "content": "Single letters and one word ('composition'); no copy",
+        "assets": "Leon Sans library, a 2D physics engine and a metaball/fluid shader (PIXI filters)",
+        "html": "Everything is drawn into canvas#canvas; no DOM text"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Not cut as a block: a ~16px GitHub octocat icon fixed in the top-right corner (black on white scenes, white on black) linking to the Leon Sans repository, the site's only link"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/kinetic-type",
+    "specimen-showcase/kinetic-scenes"
+  ]
+}

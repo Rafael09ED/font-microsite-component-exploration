@@ -1,0 +1,127 @@
+{
+  "slug": "cursorfont-liebermannkiepereddemann-de",
+  "extractedBy": "agent",
+  "summary": "A one-screen utility page for a pictogram font of macOS system cursors: a one-sentence description with a Download button, then a plain 5-column keymap grid of the 41 cursor glyphs, each cell labelled with the key that types it and (on mobile, or on hover) the matching CSS cursor value; a glyph follower replaces the pointer with the font's own cursor.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "masthead-nav",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "deadpan, utilitarian",
+        "mobile": "adapts"
+      },
+      "look": "No hero: one paragraph across the top in a large system-like serif/sans mix ('Cursor.otf beta is a font by Liebermann Kiepe Reddemann that allows you to use the MacOS system cursors as a font…') ending in a grey rounded 'Download' pill",
+      "feel": "Dry, tool-like, in on the joke",
+      "ux": "Studio name links to the studio; the pill downloads the OTF",
+      "learn": "For a utility font, a single explanatory sentence can replace hero, story and CTA at once",
+      "reconstruction": {
+        "layout": "Full-width text block at the top-left, ~1420px wide, 3 lines (~150px), 10px padding; the grid starts directly beneath",
+        "typography": "~32px 'TimesNewArial' (the studio's own Times/Arial hybrid with ital and srff axes), black, leading ~1.1; button label same size in a light grey pill",
+        "palette": [
+          "#f3f3f3",
+          "#000000",
+          "#d7d7d7"
+        ],
+        "behaviour": "none observed",
+        "content": "One factual sentence describing the font and its use (implying interaction in website sketches)",
+        "assets": "none",
+        "html": ".info > a.lkr + button > a[href='fonts/Cursor-Apple.otf']"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "casual",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "An inline grey pill 'Download' at the end of the intro sentence",
+      "feel": "Frictionless",
+      "ux": "Direct link to the .otf file, no licence text or form",
+      "learn": "Put the download button inline at the end of the only sentence: the CTA is part of the description",
+      "reconstruction": {
+        "layout": "Inline button after the last word, ~110×34px, radius ~17px",
+        "typography": "Same ~32px sans as the sentence, black on light grey",
+        "palette": [
+          "#e2e2e2",
+          "#000000"
+        ],
+        "behaviour": "Downloads Cursor-Apple.otf",
+        "content": "'Download'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "01",
+        "02"
+      ],
+      "type": "glyph-table",
+      "variant": "keymap-grid",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "plain, technical",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": true
+      },
+      "look": "A 5-column grid of light grey cells separated by 1px black rules; each cell has its key (0–5, R, B, K, N, X, m, +, -, ?, C, c, t, T, r, d, x, s, y, a, q, w, e, h, v, E, Q, H, V, W, S, M, A, D, p) in small type top-left and the cursor glyph (grab hand, arrow, spinning wait, copy-plus, not-allowed, zoom, I-beam, resize arrows, crosshair) centred",
+      "feel": "Reference sheet, deadpan",
+      "ux": "On desktop a follower element replaces the pointer with the font's own cursor glyph for the hovered key; the matching CSS value ('cursor: grabbing', 'cursor: nesw-resize') is in each cell, visible under the glyph on mobile",
+      "learn": "For a pictogram font, label every cell with the key to type and the real-world name (here the CSS cursor value): it becomes a cheat sheet for DTP users and web developers alike",
+      "reconstruction": {
+        "layout": "Full-width CSS grid, 5 columns × 288px, rows ~176px, 1px black borders, 41 cells over ~1.75 screens; on mobile 2 columns with taller cells",
+        "typography": "Key labels ~13px sans top-left; cursor glyphs 36px in the Cursor font, centred; CSS value ~13px sans bottom-left",
+        "palette": [
+          "#f5f5f5",
+          "#000000",
+          "#2b74c6",
+          "#2e9a3a"
+        ],
+        "behaviour": "Mouse move drives a fixed .follower holding a .letter in the Cursor font that tracks the pointer and shows the hovered cell's key (jQuery script.js); grid otherwise static",
+        "content": "All 41 cursor glyphs mapped to keys, with CSS cursor equivalents (default, pointer, grab, grabbing, wait, progress, copy, no-drop, not-allowed, context-menu, zoom-in, zoom-out, help, cell, crosshair, text, vertical-text, alias, *-resize, move, all-scroll)",
+        "assets": "none (the glyphs come from the font; colour cursors like the wait spinner and copy badge are colour glyphs)",
+        "html": ".wrapper > .item > .desc (key) + .letter (glyph) + .css (cursor value); .followerwrapper > .follower > .letter"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "checkout/free-download",
+    "glyph-table/keymap-grid"
+  ]
+}

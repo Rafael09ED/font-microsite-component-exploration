@@ -1,0 +1,446 @@
+{
+  "slug": "brailleinstitute-org-freefont",
+  "extractedBy": "agent",
+  "summary": "Braille Institute's charity-site page for the free Atkinson Hyperlegible family (original, Next and Mono): a plain, accessible WordPress layout that sells legibility through six 'design feature' cards, big-number stat grids per version, impact figures and in-use photos, with an email-gated download form, install steps and a donation widget. Its whole page is set in the font and offers site-wide Large Text / Dark Mode toggles.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "announcement-banner",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Full-width yellow (#fddc3e) strip, ~70px: underlined bold 'TRIPLE MATCH' + 'Your support now will go 3X as far to help keep our library resources free!' + underlined 'Give now.' at ~16px"
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "White header ~100px with a 6px cyan rule below: Braille Institute 'b•' logo, outlined '☰ Menu' button left; right a 'Text Size & Contrast ⌄' dropdown (Large Text, Light Mode, Dark Mode checkboxes), yellow search square and pale-blue 'Give' button, all with chunky navy offset shadows"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "navigation",
+      "variant": "toc-drawer",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Small outlined '☰ Section Menu' button at the top-left of the content (navy offset shadow) that opens a panel of the section's sub-pages"
+    },
+    {
+      "blocks": [
+        "02",
+        "03"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "warm, plain-spoken, accessible",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "download",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Bold black headline 'Read Easier With Our Family of Hyperlegible® Fonts' over two lines; below, a left column of large body copy opening 'Is this font easy for you to read? Good—that's the idea.' and a 'Download Now' button; on the right a grey video poster on graph paper reading 'every day' with a big yellow play button",
+      "feel": "Friendly, reassuring, public-service",
+      "ux": "Download Now jumps to the email-gated download form; the play button starts an embedded Vimeo film about the font",
+      "learn": "Ask the reader directly whether this text is easy to read: the whole hero copy becomes the legibility test",
+      "reconstruction": {
+        "layout": "Content width 1320px (60px margins); headline ~180px tall block at y≈420; below a 2-column split: text column ~640px left, video card ~640×360px right (rounded 8px, 1px grey border); pale-blue (#ddf7ff) band ~80px then a 6px cyan rule closes the section",
+        "typography": "Headline 90px Atkinson Hyperlegible Next Bold, title case, leading ~1.1, black; body ~24px Regular, leading ~1.5; button ~14px Bold in a white box with black border and navy offset shadow",
+        "palette": [
+          "#ffffff",
+          "#040404",
+          "#f5d53b",
+          "#ddf7ff",
+          "#4fc3e8"
+        ],
+        "behaviour": "Vimeo iframe lazy-loaded behind a custom poster with a yellow play button; no motion until clicked",
+        "content": "Mission copy: designed for low-vision readers, award-winning, free for personal and commercial use; 'Start reading with ease today!'",
+        "assets": "Promo video (Vimeo 'Atkinson Hyperlegible Font - Final Cut V04') and its poster",
+        "html": "iframe[data-src*=player.vimeo.com/video/1114350441].lazyload"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "proud, earnest",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'Legible. Life Changing.' heading and three short paragraphs: named after founder J. Robert Atkinson, Fast Company Innovation by Design Award (2019), Cooper Hewitt collection (2024)",
+      "feel": "Earnest, credentialed",
+      "ux": "static",
+      "learn": "State the name's origin and the awards in three one-line paragraphs: credibility without a history essay",
+      "reconstruction": {
+        "layout": "Single full-width text column (1320px) ~560px tall, heading then paragraphs with 24px gaps",
+        "typography": "Heading ~56px Atkinson Hyperlegible Next Bold; paragraphs ~22px Regular, leading ~1.5, italic for the magazine name",
+        "palette": [
+          "#ffffff",
+          "#040404"
+        ],
+        "behaviour": "none",
+        "content": "Real facts: founder name, award, museum collection, the growing need",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "testimonials",
+      "variant": "quote-columns",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "grateful, personal",
+        "mobile": "adapts",
+        "media": [
+          "none"
+        ]
+      },
+      "look": "A single full-width yellow card with a dark border and rounded corners: bold label 'Atkinson Hyperlegible Font User' over a two-line quote ('I've been using this font as my browser default since it was released… improved my life…')",
+      "feel": "Heartfelt",
+      "ux": "static",
+      "learn": "One anonymous user quote about a real-life benefit (no migraines) is stronger proof for an accessibility font than designer praise",
+      "reconstruction": {
+        "layout": "Card 1320×~140px, 2px dark border, radius ~8px, padding 28px, below the story text",
+        "typography": "Label ~16px Bold; quote ~16px Regular, leading 1.5",
+        "palette": [
+          "#f5d53b",
+          "#2a2a2a"
+        ],
+        "behaviour": "none",
+        "content": "Real user testimonial",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "clear, educational",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "'Unique Design Features': a 2×3 grid of light-grey rounded cards, each holding a few large characters ('B8 O0', '1Iil', 'EF pq', 'ebgs', 'gmnr', 'Å9%.'), with a bold title (Unambiguous Letterforms, Clear Uprights, Distinct Pairs, Open Counters, Spurs and Tails, Special Circles) and a one-line caption under each; 'Learn More' button",
+      "feel": "Calm, didactic, accessible",
+      "ux": "Static cards; 'Learn More' links to a longer article",
+      "learn": "Pick the confusable character groups (B/8, 0/O, 1/I/l, mirrored pairs) and show only those, large, one principle per card: the legibility argument is made in six glances",
+      "reconstruction": {
+        "layout": "Intro paragraph then a 2-column grid, column 640px, gap 40px; card 640×210px, #f2f2f2 fill, 1px #9a9a9a border, radius 8px, sample centred; title + caption below each card (~100px), rows ~420px apart",
+        "typography": "Samples ~96px Atkinson Hyperlegible Next Regular, black; titles ~16px Bold; captions ~16px Regular; heading ~56px Bold",
+        "palette": [
+          "#ffffff",
+          "#f2f2f2",
+          "#9a9a9a",
+          "#040404"
+        ],
+        "behaviour": "none",
+        "content": "Real legibility principles with matching character sets; slashed zero shown in 'O0'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "family-overview",
+      "variant": "big-number-stats",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "clear, reassuring",
+        "mobile": "adapts",
+        "structure": "stats",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "'One Family. Three Versions.': for each of Atkinson Hyperlegible, Hyperlegible Next and Hyperlegible Mono, a heading, a short paragraph and a 2×2 grid of big figures with captions: 'Âçēřß' (accents for 27 / 150+ languages), '335+' / '370' / '373' (glyphs per style), 'II' or 'IIIIIII' stepping from Extrabold to Light (weights), 'Free' (licence)",
+      "feel": "Simple comparison chart",
+      "ux": "static; 'support over 150 languages' links to a language list",
+      "learn": "Show the weight count as a row of capital I's stepping from heavy to light: the number of weights is visible, not just stated",
+      "reconstruction": {
+        "layout": "Per version: heading + paragraph (~1320px), then a 2-column grid of stat cells (640px wide, ~260px tall): figure centred, caption left-aligned below, 2px black rule under each cell",
+        "typography": "Figures ~115px Atkinson Hyperlegible Next (or Mono) Regular, the I-row in successive weights 800→300; version headings ~32px Bold with ® superscript; captions ~18px Regular",
+        "palette": [
+          "#ffffff",
+          "#040404",
+          "#1a4c8b"
+        ],
+        "behaviour": "none",
+        "content": "Real numbers per version: language support, glyph count, weights, free licence",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "procedural, helpful",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "'Download the Atkinson Hyperlegible® Font': a light-grey rounded form panel (email field, required EULA agreement checkbox, optional news checkbox, 'Submit'), followed by 'Installation Instructions' in two columns of ruled steps (One Typeface—Three Styles, Seven Weights and Italics, Step 1 Download, Step 2 Finding the Right Fonts, Step 3A Windows, Step 3B Mac)",
+      "feel": "Careful, step-by-step",
+      "ux": "The ZIP is released after submitting an email and ticking the licence agreement; install steps explain which folder to open on each OS",
+      "learn": "Write install steps for non-designers (where the OTFs are inside the ZIP, what to double-click on Windows vs Mac): an accessibility font reaches people who have never installed a font",
+      "reconstruction": {
+        "layout": "Form panel 1320×~640px, #f2f2f2, radius 8px, padding 40px; then heading + 2-column grid of step cells (640px each), each with bold title, paragraph and a 2px black rule below",
+        "typography": "Heading ~56px Bold; form labels ~14px Bold, red asterisks; steps: titles ~18px Bold, text ~18px Regular",
+        "palette": [
+          "#ffffff",
+          "#f2f2f2",
+          "#040404",
+          "#1a4c8b",
+          "#c02b0a"
+        ],
+        "behaviour": "Gravity Forms AJAX submit (iframe target), required email and EULA checkbox, then download link",
+        "content": "EULA link, newsletter opt-in, OS-specific install instructions",
+        "assets": "none",
+        "html": "form#gform_13 > input[type=email]#input_13_3 + input[type=checkbox]#input_13_1_1 (EULA) + #input_13_5_1 (news)"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "testimonials",
+      "variant": "usage-stats",
+      "newVariant": true,
+      "variantDefinition": "Adoption figures (downloads, websites using the font, impressions, users) set as huge numerals with short captions, as social proof of reach rather than of family size",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "celebratory, factual",
+        "mobile": "adapts",
+        "media": [
+          "none"
+        ]
+      },
+      "look": "'A Font Created for Everyone': '2025 marks 6 years…', then a 2×2 grid of huge figures '153K+' (downloads), '10K+' (websites), '40M+' (impressions via Google Fonts), 'Free' (to download and use. Always.) with ruled captions, and a 'Download Now' button",
+      "feel": "Proud, momentum",
+      "ux": "static; button scrolls back to the form",
+      "learn": "Reuse the big-number grid for adoption metrics: the same component that described the family now proves its reach",
+      "reconstruction": {
+        "layout": "Same stat grid as the family overview: 2 columns × 640px, cells ~260px, 2px black rule under each caption",
+        "typography": "Figures ~115px Atkinson Hyperlegible Next Regular (slashed zero in 40M+); captions ~18px",
+        "palette": [
+          "#ffffff",
+          "#040404"
+        ],
+        "behaviour": "none",
+        "content": "Real metrics: downloads, websites, Google Fonts impressions",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "credible, broad",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "grid"
+      },
+      "look": "'Hyperlegible® Across Industries': 2×3 grid of rounded photo cards of real uses (Blue Origin website, Munich MVG departure sign, makeup packaging, book covers, a brochure, the USC Roski Eye Institute report) each titled Websites / Signage / Packaging / Print Publications / Digital Tools and Software / Employee Communications with a benefit line",
+      "feel": "Trustworthy, wide-reaching",
+      "ux": "static; final line 'Contact us today' for companies",
+      "learn": "Label in-use photos by industry with one benefit each: visitors find their own context instead of browsing a mood wall",
+      "reconstruction": {
+        "layout": "Heading + intro, then 2-column grid (640px each, 40px gap), photo 640×360px with 2px dark border, radius 8px; title + 1–2 caption lines below; rows ~540px",
+        "typography": "Titles ~20px Bold; captions ~16px Regular; heading ~56px Bold",
+        "palette": [
+          "#ffffff",
+          "#040404",
+          "#1d39c4",
+          "#c62828"
+        ],
+        "behaviour": "none",
+        "content": "Real clients and sectors",
+        "assets": "Six photos/screenshots of the font in use"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "checkout",
+      "variant": "donation-widget",
+      "newVariant": true,
+      "variantDefinition": "For a free font: a short appeal beside an embedded donation form (one-time/monthly frequency tabs, preset amounts, other amount, designation) so visitors can pay what they want for what they download",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "gentle appeal",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "'Easy to Read. Easy to Support.': left a short appeal ('We offer this font for free… help others by making a donation') and 'Download Now'; right an embedded white donation card with the logo, One Time / Monthly / Quarterly tabs, $25 / $50 / $100 / $250 buttons, '$ or other amount', 'Donate To' select, 'Donation Options' and a navy 'Continue' button",
+      "feel": "Polite, low-pressure",
+      "ux": "Visitors can donate on the page through a third-party (Funraise) iframe; downloading stays free",
+      "learn": "Put the donation ask next to the download, not instead of it: the free font stays free while supporters can pay on the spot",
+      "reconstruction": {
+        "layout": "Two columns: appeal text 640px left; donation card ~640×1000px right, 1px grey border, radius 8px; amount buttons in a 2×2 grid",
+        "typography": "Heading ~56px Bold; appeal ~22px Regular; widget in its own UI sans ~13px",
+        "palette": [
+          "#ffffff",
+          "#040404",
+          "#1c3a4f",
+          "#e9ecef"
+        ],
+        "behaviour": "Third-party iframe form (frequency tabs, amount select, continue to payment)",
+        "content": "Mission-driven appeal for a free font",
+        "assets": "none",
+        "html": "iframe.fr_funraise.fr_form[src*=assets.funraise.io]"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "05"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "institutional, charitable",
+        "mobile": "adapts",
+        "contains": [
+          "contact",
+          "socials",
+          "legal",
+          "newsletter"
+        ]
+      },
+      "look": "Site-wide charity footer: a pale-blue promo band 'A Partner in Your Vision Loss Journey' (Take Our Quiz / Ready to Join? + photo of seniors at computers), a yellow 'Give Us Your Feedback' survey band, then logo, phone 1-800-BRAILLE, address and 'Contact Us' left, a navy donor card with photo and 'Give' right, social icon pill, transparency badges, a Webby Honoree seal, a row of pipe-separated links (Download Accessible Font, Locations, Careers, Volunteer, Join Our Mailing List, Shop, Privacy & Legal) and a copyright line",
+      "feel": "Busy, organisational",
+      "ux": "Links out to the charity's services, donation and social channels",
+      "learn": "A font hosted by an organisation inherits its footer; the font page's own download link reappears first in the link row",
+      "reconstruction": {
+        "layout": "Promo band 1440×~550px (text left 50%, photo right 50%, 12px cyan bottom rule); feedback band ~200px yellow; footer ~900px: two columns (contact 640px, donor card 640×330px), badges row, centred Webby seal ~110px, link row, 2px rule, copyright",
+        "typography": "Promo heading ~48px Bold; feedback heading ~56px Bold; footer text ~20px Regular; links ~20px blue",
+        "palette": [
+          "#ddf8fe",
+          "#f6d63d",
+          "#fafbfb",
+          "#283949",
+          "#1a4c8b"
+        ],
+        "behaviour": "none",
+        "content": "Organisation contact, services, donation and legal",
+        "assets": "Photos (seniors at computers, girl on a swing), badges, Webby seal"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "story/origin-reference",
+    "testimonials/quote-columns",
+    "design-details/design-notes",
+    "family-overview/big-number-stats",
+    "checkout/free-download",
+    "testimonials/usage-stats",
+    "specimen-showcase/in-use-mockups",
+    "checkout/donation-widget",
+    "footer/link-columns"
+  ]
+}

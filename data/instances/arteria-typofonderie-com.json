@@ -1,0 +1,472 @@
+{
+  "slug": "arteria-typofonderie-com",
+  "extractedBy": "agent",
+  "summary": "A Svelte one-pager for a compressed display family inspired by Italian shop signs, alternating tomato-red and sage-green sections under thick charcoal rules. Vintage hotel and shop-sign stickers set in the font are scattered over every section, draggable and switchable from a 'Shop Signs' toggle in the nav; the page closes on a wall of pastiche foundry specimen pages.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "retro, Italian, warm",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "none",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "On tomato red, under a thick charcoal rule: the pitch 'A compressed display typeface inspired by Italian shop signs & woodtype tradition.' in charcoal Bold, then the table of contents as two columns of large white Light words (Weights & Sizes, Principles, Alphabet, Try yourself, Story / Foundry type specimens, Italian shops & hotels, Buy & Download), with vintage hotel stickers (Hotel Isotta Naples, Berlin Hilton, Capo Ufficio Veicoli, Olio di Semi) scattered lower right",
+      "feel": "Sunny, nostalgic, poster-like",
+      "ux": "Menu items stagger in on load (translate + fade); clicking scrolls to the section; stickers can be dragged",
+      "learn": "Set the table of contents itself at display size in the light weight: the hero menu is both navigation and a second specimen beside the bold pitch",
+      "reconstruction": {
+        "layout": "Full-screen section (~1012px); 48px side margins; 28px charcoal rule full content width at top; headline 2 lines across ~1340px; menu in two columns at x=48 and x≈380 from y≈280; stickers absolutely placed in the right half (200–260px each)",
+        "typography": "Headline ~96px Arteria Bold charcoal #3b3a36, leading ~1.0; menu ~72px Arteria Light (Thin-ish) white, leading ~1.1; sticker lettering in many Arteria weights",
+        "palette": [
+          "#e64d42",
+          "#3b3a36",
+          "#f0f6f6",
+          "#8dc69b"
+        ],
+        "behaviour": "Loader (dark screen) <1s, then menu items fade/slide in one after another (GSAP); stickers drift slightly with a per-label transform and are draggable (pointer events, touch-action none)",
+        "content": "Real positioning line and section names",
+        "assets": "Sticker PNGs of fictional Italian hotel labels and shop signs lettered in Arteria",
+        "html": "section#home.red.fullscreen > .labels-grid > .label > img (draggable) + .content-inner > .title-line + h1 + ul > li.menu-item > a"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "01",
+        "02",
+        "03",
+        "04",
+        "08"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "vintage travel, playful",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "series"
+      },
+      "look": "About 15 vintage stickers scattered across the sections, overlapping the content: round and shield-shaped hotel luggage labels (Hotel Isotta Genève, Palmes Palermo, Princesse Hotel Evian, Guglielmina Grand Hotel, Alicante) and enamel-style shop signs (Macelleria con vendita, Dirigente Movimento, Univers Napoli, Panafico), all lettered in Arteria",
+      "feel": "Collectible, like a suitcase covered in labels",
+      "ux": "Each sticker can be dragged around the page; the 'Shop Signs' checkbox in the fixed nav hides or shows them all",
+      "learn": "Treat the in-use props as a removable layer: draggable stickers scattered over the specimen, with one nav toggle for readers who want them out of the way",
+      "reconstruction": {
+        "layout": "Each section has an absolutely positioned 12-column .labels-grid; each sticker sits in a grid column span with a top % offset and z-index 3, 150–300px wide, overlapping text and samples",
+        "typography": "Sticker lettering set in Arteria Thin to Black, caps, tracked, in red, green, charcoal and cream",
+        "palette": [
+          "#e64d42",
+          "#8dc69b",
+          "#3b3a36",
+          "#f0f1f0"
+        ],
+        "behaviour": "Pointer drag moves a sticker (touch-action none, cursor pointer); a --transformation offset per label suggests scroll parallax; nav toggle 'Shop Signs' shows/hides the labels layer",
+        "content": "Fictional Italian hotels and shops (Naples, Palermo, Alicante, Genève, Berlin)",
+        "assets": "~15 transparent PNG stickers (images/labels/Arteria_etiquettes_hotel-*.png, Arteria_fili-shop-signs-*.png)",
+        "html": ".labels-grid > .label[style=grid-column; top; --transformation] > img; nav p.toggle-labels"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "systematic, rhythmic",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "On sage green, 'Weights & Sizes' then five columns of the word 'Arteria' cascading from tiny to large in each weight, alternating charcoal and white, so each column forms a diagonal wedge; the nine weight names in a row underneath",
+      "feel": "Musical, cascading",
+      "ux": "Columns slide down and fade in one by one when the section enters",
+      "learn": "Combine weight and size in one figure: a size cascade per weight makes the family read as a pattern of wedges",
+      "reconstruction": {
+        "layout": "Section ~844px; 5 columns across 1344px, each ~270px wide holding two interleaved size cascades (~12 steps from ~10px to ~90px); weight-name line at the bottom",
+        "typography": "'Arteria' in Thin→Black, sizes ~10–90px; weight list ~40px Arteria Light charcoal; heading 96px Arteria Bold charcoal",
+        "palette": [
+          "#8dc69b",
+          "#3b3a36",
+          "#f0f1f0"
+        ],
+        "behaviour": "Each li.col starts at translateY(-60px) opacity 0 and animates in, staggered, when scrolled into view",
+        "content": "Family name only; list 'Thin, ExtraLight, Light, Regular, Demi, Bold, ExtraBold, Heavy, Black'",
+        "assets": "Five SVGs (weights-01…05.svg) of the cascades",
+        "html": "section#weights ul > li.col.one…five > img[src=weights-0N.svg] + p"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "expert, conversational",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "spacing"
+        ],
+        "presentation": "toggle",
+        "explanation": "caption"
+      },
+      "look": "Two topics on red. 'Principles': 'C9SGS3Jcersasa' and a giant 'REF REF' in Black and Thin, with a side note 'Your headlines will be perfectly aligned.' and a '☒ Construction' checkbox that draws alignment lines through them. 'Human Drawings': 'Geometrica' repeated at growing sizes, then a huge pale 'oeaoe' with a grey strict-geometric outline behind it, captioned 'Compare Arteria with a strict geometric construction in grey', with checkboxes 'Human drawings better for my eyes' and 'Construction'",
+      "feel": "Didactic but witty",
+      "ux": "Checkboxes toggle the guide overlay and swap between the drawn Arteria shapes and the geometric version; the 'Geometrica' stack grows and fades as you scroll",
+      "learn": "Let the visitor flip a construction overlay on and off over giant letters: alignment and optical correction become visible in one click",
+      "reconstruction": {
+        "layout": "Section ~2540px; content column ~1060px on the left with a ~260px caption/checkbox column at the right (4-column grid); each topic opens with the charcoal rule and an h1; samples 200–500px tall",
+        "typography": "Samples: 'C9SGS3J…' ~200px Thin→Black mixed; 'REF REF' ~500px Black + Thin white; 'oeaoe' ~420px pale grey; captions ~32px Arteria Light charcoal; checkbox labels same with a capsule-shaped box glyph",
+        "palette": [
+          "#e64f43",
+          "#f1eded",
+          "#3b3a36",
+          "#e4736a"
+        ],
+        "behaviour": "'Construction' toggles .overlay guide layers (thin rules at baseline, x-height, cap height); 'Human drawings' swaps details-01.svg vs the geometric outline; the 'Geometrica' images scale from 10% to 80% width with opacity tied to scroll",
+        "content": "Two design principles: aligned heights across weights, and a fluid, hand-drawn take on geometric construction",
+        "assets": "SVG samples (details-01…05.svg, details_hover-02.svg) and overlay guide layers",
+        "html": "section#principles .alignments > .img-N.overlay + .img-N > img; #drawing .comparison > img.geometrica[style=width;opacity]; .checkbox > p.label.active"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "specimen-sheet",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'Alphabet' on green: six full-width white lines of glyphs in Arteria Light: accented lowercase, f-ligatures and Th/st/sp ligatures, accented caps, short caps, two numeral sets with currency, and a line of circled figures, arrows and dingbats",
+      "feel": "Tidy, airy",
+      "ux": "static",
+      "learn": "Run each glyph category as one justified line at display size; a compressed face fits a whole category per line",
+      "reconstruction": {
+        "layout": "Six lines, each full content width (1344px), ~120px line pitch",
+        "typography": "~100px Arteria Light white (rendered as SVG lines)",
+        "palette": [
+          "#8dc69b",
+          "#f8f4f7",
+          "#3b3a36"
+        ],
+        "behaviour": "none",
+        "content": "Representative character set: accents, ligatures, caps, short caps, figures, currency, dingbats",
+        "assets": "Six SVG lines (glyphset-01…06.svg)"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "clear, graphic",
+        "mobile": "adapts",
+        "subject": [
+          "alternates"
+        ],
+        "presentation": "pairs",
+        "explanation": "none"
+      },
+      "look": "'Alternates': four rows of three versions joined by charcoal arrows: 'Quick → Quick → Quick' (long Q), 'ALFA → ALFA → ALFA' (Italian A), 'JCP → JCP → JCP' (closed C, narrow J), 'Aa → Aa → Aa' (single-storey a), the changed letters picked out in white against pale grey",
+      "feel": "Obvious at a glance",
+      "ux": "Rows fade and slide in as you scroll",
+      "learn": "Show alternates as a three-step chain with arrows and highlight only the letters that change",
+      "reconstruction": {
+        "layout": "Four rows ~300px tall, each 3 samples (~360px) separated by 60px arrow glyphs",
+        "typography": "Samples ~220px, Thin (Quick), Light (ALFA), Bold (JCP), Black (Aa); unchanged letters pale grey #d9dcd9, changed letters white",
+        "palette": [
+          "#8dc69b",
+          "#f0f1f0",
+          "#d0d4d0",
+          "#3b3a36"
+        ],
+        "behaviour": "Each .line-alternates animates from opacity 0 with the columns translating in",
+        "content": "Words chosen to contain each alternate",
+        "assets": "SVG per sample (Alts-0N-1…3.svg) and an arrow SVG",
+        "html": ".line-alternates > .col-1 img + .arrow img + .col-2 img + .arrow + .col-3"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "type-tester",
+      "variant": "feature-toggle-board",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, direct",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "features"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "'Try yourself' on red: one huge editable white paragraph in Arteria Light describing the family, and on the right a column of checkbox labels: Bold, All Caps, Short Caps, Closed CJc, Narrow Jr, Italian A, Single-story a, Long Q",
+      "feel": "Inviting, spacious",
+      "ux": "Click the paragraph to type; each checkbox applies a style or OpenType feature to the whole paragraph; options cascade in as the section scrolls into view",
+      "learn": "Name feature toggles after what they do to letters ('Italian A', 'Long Q'), not after tags",
+      "reconstruction": {
+        "layout": "Section ~1400px; editable paragraph ~1060px wide on the left, 7 lines; option list ~260px wide in the right column from y≈100",
+        "typography": "Paragraph ~160px Arteria Light white, leading ~0.95; option labels ~36px Arteria Light charcoal with a capsule checkbox glyph, inactive ones faded",
+        "palette": [
+          "#e64f43",
+          "#f0f1f0",
+          "#3b3a36",
+          "#e8928b"
+        ],
+        "behaviour": "Checkbox → toggles font-weight bold, text-transform uppercase, font-feature-settings (c2sc/smcp-like short caps, ss for C/J, A, a, Q); list items fade/slide in with stagger",
+        "content": "'Arteria is a Compressed Display Typeface Available in Nine Weights. The Family Features not only Joyful Alternates, Small Caps, various Dingbats, Arrows, Quotes, different sets of Numerals but also Short Caps!'",
+        "assets": "none",
+        "html": "section#try .tester > p[contenteditable=true] + .tester-options > ul > li.tester-item > p.label"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "scholarly, personal",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "'Story' on green: two subsections 'Historical references' and 'Design features' in white Arteria Light, each over two columns of charcoal serif body text, the second block shifted one column right, signed '— Jean François Porchez'",
+      "feel": "Bookish, calm",
+      "ux": "static",
+      "learn": "Pair the display face with a text serif for the essay, and stagger the text blocks across the grid to keep a long read airy",
+      "reconstruction": {
+        "layout": "~1516px; 4-column grid; 'Historical references' spans columns 1–2 (two ~520px text columns), 'Design features' spans columns 2–4",
+        "typography": "Subheads ~44px Arteria Light white; body ~22px Mencken Std Text charcoal, leading ~1.6; signature italic",
+        "palette": [
+          "#8dc69b",
+          "#3b3a36",
+          "#f0f1f0"
+        ],
+        "behaviour": "none",
+        "content": "Real essay on condensed type history, Italian shop signs, wood type, alternates and short caps",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "period pastiche",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "'Foundry type specimens': a 6500px cascade of overlapping off-white specimen pages on red, pastiching ATF 1923, Nebiolo, Stephenson Blake, Fonderie Typographique Française and Livret Typographique: price lists by corps, 'LETTRES ARTERIA FORTES ALLONGÉES' with giant 'FEU RU', 'CONFÉRENCE ÉLECTRICITÉ PAQUEBOT MAISON', numbered sample lines with weights and kilo prices",
+      "feel": "Archival, generous",
+      "ux": "Pages appear to drift at different speeds as you scroll (staggered layout)",
+      "learn": "Reset the family into the specimen-book conventions it descends from: the pastiche proves the historical claim better than prose",
+      "reconstruction": {
+        "layout": "~6500px; 15 page images (~440–600px wide) staggered left/right and overlapping, alternating offsets so red shows between them",
+        "typography": "Each page uses Arteria in one weight (Thin to Black) at a ladder of sizes with small serif captions and point/price annotations",
+        "palette": [
+          "#e64d41",
+          "#edeeee",
+          "#111111",
+          "#c4403a"
+        ],
+        "behaviour": "Likely parallax offsets per page on scroll (not confirmed in capture)",
+        "content": "Period-style sample lines in French, Italian, English, German ('Orientalisches Prachtbauwerk 3', 'Moderne costruzioni edili', 'House magazine', 'Se ha filmado')",
+        "assets": "15 PNG specimen pages (images/specimens/Arteria-ATF-1923.png, Arteria-Nebolio_01.png, Arteria-Stephenson-Black_0N.png …)",
+        "html": "section#specimens > img.specimen ×15"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "foundry, understated",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "Charcoal footer: Typofonderie logo with 'My wor(l)d is empty without typography.' at left, the section menu repeated in tracked Arteria caps, and a credits column ('Buy Arteria', typeface by Jean François Porchez, minisite coded by Joachim Vu, ZeCraft, set in Arteria and Mencken)",
+      "feel": "Quiet, signed",
+      "ux": "Section links scroll; 'Buy Arteria' and credit names link out",
+      "learn": "Repeat the section menu in the footer in tracked caps and credit both the type designer and the site developer",
+      "reconstruction": {
+        "layout": "~456px band; three columns: logo block at x=48, menu at x≈700, credits at x≈900",
+        "typography": "Menu ~26px Arteria Regular caps, letter-spacing ~0.1em, light grey; credits ~18px Mencken Std Text, names in white",
+        "palette": [
+          "#3b3a36",
+          "#d6d4cf",
+          "#ffffff",
+          "#e64d42"
+        ],
+        "behaviour": "none",
+        "content": "Real credits",
+        "assets": "Typofonderie logo"
+      }
+    },
+    {
+      "blocks": [
+        "07",
+        "08"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "discreet",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "No buy section on the page: purchase is a cart icon in the fixed nav, a 'Buy & Download' menu item and a 'Buy Arteria' text link in the footer, all to typofonderie.com",
+      "feel": "Low-pressure",
+      "ux": "Links out to the Arteria Compress family page in the Typofonderie shop",
+      "learn": "A persistent cart icon in the nav can replace a checkout section on a short brand page",
+      "reconstruction": {
+        "layout": "Cart icon 20px at the right end of the 60px nav; text link at the top of the footer credits column",
+        "typography": "Footer link ~18px Mencken Std Text white",
+        "palette": [
+          "#3b3a36",
+          "#ffffff",
+          "#f0f1f0"
+        ],
+        "behaviour": "none",
+        "content": "'Buy Arteria'",
+        "assets": "Cart icon"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed off-white 60px top bar: 'Arteria' in Bold at left, a capsule checkbox 'Shop Signs' (shows/hides the stickers) and a cart icon at right"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "specimen-showcase/prop-collage",
+    "family-overview/style-word-grid",
+    "design-details/annotated-specimen",
+    "glyph-table/category-lines",
+    "design-details/feature-before-after",
+    "type-tester/feature-toggle-board",
+    "story/essay",
+    "specimen-showcase/poster-series",
+    "footer/credits-colophon",
+    "checkout/link-out-cta"
+  ]
+}

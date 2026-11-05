@@ -1,0 +1,463 @@
+{
+  "slug": "djr-com-fern",
+  "extractedBy": "agent",
+  "summary": "DJR's page for Fern, a Venetian oldstyle for screens, staged as a printed book: a centred title page framed by fleurons, then Moby-Dick set in each optical size inside a bordered 'page' column, with red damask chapter bands between sections. The standout is an ornament keyboard plus 9-slice pattern generator that builds border-framed tilings from the Fern Ornaments font; the page ends with the standard DJR cart.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "typeset-page",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "bookish, Renaissance, refined",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "A title page on white: 'FERN' in widely tracked titling caps between two mirrored red fleuron clusters, an italic line 'A Venetian oldstyle for screens & other things by David Jonathan Ross' under the name, and a hairline-ruled foot with 'BUY ❖ TRIAL ❖ PDF' in small caps",
+      "feel": "Quiet, ceremonial, like opening a fine-press book",
+      "ux": "Buy jumps to #buy; Trial is a form button that adds the Testing license to the cart; PDF downloads the specimen",
+      "learn": "Build the hero frame from the family's own ornament font (rows of fleuron glyphs typed as text): the decoration is itself a specimen of a family member",
+      "reconstruction": {
+        "layout": "1440×729 below the 31px site bar; everything centred. Upper fleuron cluster ~340px wide, y≈110–250; name y≈265–320; tagline y≈350 (~680px wide); mirrored lower cluster y≈390–520; 1px light-grey rule at y≈640 across the full width; CTA row centred at y≈694",
+        "typography": "Name ~64px Fern Titling Caps, uppercase, letter-spacing ~0.2em, black; tagline ~20px Fern Variable Italic (opsz 12, wght 400) with the '&' and 'other' swashed; CTAs ~15px Fern small caps, tracked, black, separated by red ❖ glyphs",
+        "palette": [
+          "#fefefe",
+          "#a62617",
+          "#111111",
+          "#d0cdcd"
+        ],
+        "behaviour": "Static. Fonts swap in at load (the tagline appears ~1s after the name)",
+        "content": "Name, one-line positioning with credit, three CTAs",
+        "assets": "none: the fleurons are Fern Ornaments glyphs",
+        "html": "header > .heading > div.ornaments×3 ('W', 'ITRP', 'IGQTREFP') + h1.h-headline + p.h-subheadline + div.ornaments×3 ('ITZGFCRP', 'IGFP', 'X'); .try-buy-pdf > a.button, form[commerce/cart/update-cart, fields[license]=Testing] > button, a.button[href=pdf]"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "foundry house style",
+        "mobile": "adapts"
+      },
+      "look": "DJR's 31px black site bar above the title page (never cut as a block, attached to 00): 'DAVID JONATHAN ROSS' left; FONTS ▾, CLUB, TYPESET, GLYPHS, NOTES, ABOUT, Sign in, Cart right, in tiny white tracked caps",
+      "feel": "Neutral foundry chrome; the black bar contrasts with the white title page",
+      "ux": "Fonts opens a dropdown of all DJR families; on mobile the links collapse behind a MENU button",
+      "learn": "Keep shared foundry chrome tiny and monochrome so a themed specimen page owns the first screen",
+      "reconstruction": {
+        "layout": "Static full-width bar 1440×31px, content in a centred 1024px container: name left, links right with ~24px gaps",
+        "typography": "~10px Input Sans Narrow Medium, uppercase, wide tracking, white",
+        "palette": [
+          "#111111",
+          "#ffffff"
+        ],
+        "behaviour": "Alpine.js dropdown on Fonts (opens on hover for non-touch); Menu/Close toggle on mobile",
+        "content": "Foundry navigation",
+        "assets": "none",
+        "html": "div.bg-djr-black > div[x-data] > a + button.md:hidden(Menu) + nav.md:flex"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "learned, wry",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "One justified, hyphenated paragraph at book-text size inside a page column with faint grey side borders; topics separated by red pilcrows (¶) instead of paragraph breaks, ending in a red ornament",
+      "feel": "Like the first page of a well-set book",
+      "ux": "static",
+      "learn": "Run the intro on as one paragraph with coloured pilcrows: it keeps a solid text colour for judging the face and borrows a pre-modern typographic convention that suits a Venetian revival",
+      "reconstruction": {
+        "layout": "Centred 'page' column ~1020px wide (x≈208–1230) bounded by 1px light-grey vertical rules running down the whole specimen section; text measure ~836px (x≈304–1140), ~430px of text in a 666px block",
+        "typography": "~24px Fern Variable Roman (opsz 12, wght 400), leading ~1.45, justified with hyphenation; oldstyle figures; ¶ and the closing ornament in red",
+        "palette": [
+          "#f9f9f9",
+          "#111111",
+          "#a62617",
+          "#d0d0d0"
+        ],
+        "behaviour": "none",
+        "content": "Real positioning copy: Jenson to Centaur and Dante, screens make Venetians 'light and splotchy', Fern exaggerates weight clumps and triangular serifs; 'it is a typeface that lends elegance, strength, and grace to text'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "03",
+        "04",
+        "05"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "literary, book-like",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "paragraph",
+        "interactive": false
+      },
+      "look": "After a red damask band with a framed 'SPECIMENS' label (02), the opening of Moby-Dick runs through the styles: Text Regular and Text Italic at 24px, then two columns of Micro Regular/Italic at ~16px, a red Text Bold/Regular small-caps paragraph, and two columns of Micro Variable at wght 600 and 500; each sample is captioned in tiny red small caps with its settings, e.g. 'TEXT REGULAR (WGHT 400, OPSZ 12)'",
+      "feel": "A real book specimen: continuous reading, not word samples",
+      "ux": "static",
+      "learn": "Let one continuous literary text flow through every style and optical size, captioning each with its axis values: the reader experiences the opsz shift (12 at text size, 8 at micro size) while reading",
+      "reconstruction": {
+        "layout": "Chapter band (02): full-bleed 315px of red damask texture with a centred white box ~380×130px holding an inset hairline frame and the label. Samples (03–05): same bordered 1020px page column; single measure ~836px for 24px text, two ~400px columns with ~40px gutter for micro text; captions 8px below each sample, ~60px between samples",
+        "typography": "Text styles ~24px Fern Variable (opsz 12, wght 400 / 700), leading ~1.4; Micro ~16px (opsz 8, wght 400–600), leading ~1.45; first words 'CALL ME ISHMAEL.' in small caps; captions ~11px Fern small caps, red, tracked; band label 44px Fern Titling Caps with ornament glyphs 'A' and 'D' either side",
+        "palette": [
+          "#f9f9f9",
+          "#111111",
+          "#a62617",
+          "#d9d9d8"
+        ],
+        "behaviour": "none",
+        "content": "Moby-Dick chapter 1 continued across all samples, so it reads as one text",
+        "assets": "Red damask background texture (tile made from the ornaments)",
+        "html": "div.bg-texture-red#specimens > h2.h-heading > span.wrap > span.ornament('A') + span + span.ornament('D'); samples are paragraphs with inline font-variation-settings and a red caption"
+      }
+    },
+    {
+      "blocks": [
+        "06",
+        "07"
+      ],
+      "type": "type-tester",
+      "variant": "creative-toy",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "game-like",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "crafty, generative, decorative",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "presets"
+        ],
+        "scope": "single",
+        "defaultText": "code",
+        "export": true
+      },
+      "look": "Under a red 'ORNAMENTS' band (06): an on-screen keyboard whose keys show each Fern Ornaments glyph in red above its letter (Q–P, A–L, Z–B, lowercase too, plus *, Delete, Return, Space), then a left control column (PATTERN TEXT textarea, Presets 1–12, Grid dimensions X/Y, Canvas symmetry X/Y, Pattern symmetry X/Y, 'Copy plain text') beside a large square tiling of red leaves with a distinct border and corners",
+      "feel": "A Victorian pattern book turned into a toy",
+      "ux": "Click keys (or type) to edit a tiny 9-slice template: corners, edges and '*' repeat markers; the generator tiles it to the X×Y grid with optional mirror symmetry; presets load ready-made templates; 'Copy plain text' copies the result to paste as live text",
+      "learn": "Expose the ornament font through a 9-slice template (corner, edge and fill glyphs plus repeat markers) so a few keystrokes produce a full framed border pattern: it teaches how the ornaments are designed to interlock",
+      "reconstruction": {
+        "layout": "Keyboard panel centred, ~1020×215px (x≈210–1230, y≈100–315), rounded light-grey frame, ~44px square keys in three rows per half and a column of wide function keys on the right. Below: control column x≈96–430 (textarea ~330×320, preset buttons in a 6×2 grid, then fieldsets) and the pattern square x≈476–1324 (~850px), font-size 71px",
+        "typography": "Key glyphs ~24px Fern Ornaments red over ~11px Fern letter labels; textarea ~18px Input Mono; legends ~10px Input Mono Bold uppercase; preset and toggle buttons ~12px Input Mono red in hairline boxes",
+        "palette": [
+          "#f9f8f7",
+          "#a62617",
+          "#e7d1ce",
+          "#111111"
+        ],
+        "behaviour": "Template text like 'q*ad*e / ****** / w*Yu*x / x*hJ*w / ****** / z*ad*c' expands to a grid of lines ('qadadadadade', 'wYuYuYuYuYux', 'xhJhJhJhJhJw', … 'zadadadadadc') at 12×12 by default; '*' rows and columns repeat to fill X and Y (number inputs 1–100); symmetry checkboxes mirror the canvas or each tile; output re-renders on every input",
+        "content": "Ornament key letters as the pattern source; 12 presets",
+        "assets": "none (pattern is live text in the ornament font)",
+        "html": ".fern-ornaments > .js-keyboard (button.js-char[data-key] per glyph, button.js-function Delete/Return/Space) + .fern-pattern-generator > .js-pattern (lines joined by <br>) + form: textarea[name=js-pattern-text], button.js-pattern-example×12, input[type=number][name=gridx|gridy], checkboxes totalxsymmetry/totalysymmetry/localxsymmetry/localysymmetry; script fern-ornaments-patterns.min.js"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "practical, web-developer friendly",
+        "mobile": "adapts",
+        "subject": [
+          "features"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "On near-black, 'OPENTYPE FEATURES' between red fleurons, then eight rows: a white sample right-aligned to the centre line ('With halting steps I paced', 'The 24 sailors for Bean & Co.', 'Cite this source² and that one³', 'Combine H₂O and Na₂Cr₂O₇', '½ cup butter, ⅔ tsp. salt', 'Connecticut Casting Raspberries') and, left-aligned after it, the feature name and its CSS declaration in pinkish-red mono",
+      "feel": "A reference card for web designers",
+      "ux": "static",
+      "learn": "Caption each feature sample with the exact CSS that triggers it (font-variant-caps: all-small-caps; font-variant-numeric: diagonal-fractions): the catalogue doubles as copy-paste documentation",
+      "reconstruction": {
+        "layout": "Full-bleed 863px dark band; heading centred at y≈120; rows ~68px apart from y≈230; samples right-aligned ending ~10px left of centre (x≈710), captions from x≈732",
+        "typography": "Heading 44px Fern Titling Caps white with red ornament glyphs; samples ~24px Fern Text white (small caps, figures, sups and sinfs as set); captions two lines of ~13px Input Mono: feature name then CSS, pinkish red",
+        "palette": [
+          "#121111",
+          "#ffffff",
+          "#c26a66",
+          "#a62617"
+        ],
+        "behaviour": "none",
+        "content": "Small caps, all small caps, lining and tabular figures, superiors, scientific inferiors, fractions, discretionary ligatures, each with a themed sample (Moby-Dick and Bedford echoes, a recipe)",
+        "assets": "none",
+        "html": "div.opentype-features > figure > div.example > p[style='font-variant…'] + figcaption > h4 + p (CSS)"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "orderly, complete",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'CHARACTER SET' between red fleurons, then centred running lines in the bordered page column: A–Z and a–z in roman and in italic, accented capitals, accented small capitals, accented lowercase, three sets of figures separated by red bullets, punctuation and symbols, fractions, and a closing row of dingbats",
+      "feel": "The glyph page at the back of a printed specimen",
+      "ux": "static",
+      "learn": "Centre the character set as wrapped lines of text in the same column as the specimens: it reads as part of the book rather than a data table",
+      "reconstruction": {
+        "layout": "Full-width 1416px block, content in the 1020px bordered column; centred lines with ~40px gaps between categories",
+        "typography": "~24px Fern Variable Roman and Italic (opsz 12; one figure set at opsz 8), letter-spaced caps lines; heading 44px Fern Titling Caps",
+        "palette": [
+          "#f9f9f9",
+          "#111111",
+          "#a62617"
+        ],
+        "behaviour": "none",
+        "content": "The full Latin set grouped by category",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "credible, curated",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "grid"
+      },
+      "look": "On a black damask texture of the ornaments, 'FERN IN USE' with 'From Fonts In Use' under it, then a 3-column grid of square thumbnails (book covers, a chicken-shack logo, an engraved stone, a magazine spread); 3 of the 8 images failed to load in the capture",
+      "feel": "Proof of real use, framed like an endpaper",
+      "ux": "Each thumbnail links to its Fonts In Use page; on hover the image fades to 50% and a white title tag appears bottom-left",
+      "learn": "Pull the in-use grid live from Fonts In Use so the page stays current, and reuse the ornament texture as the backdrop",
+      "reconstruction": {
+        "layout": "Full-bleed 1198px; heading centred at y≈120; grid ~830px wide centred, 3 columns of ~266px squares with ~16px gaps",
+        "typography": "Heading 44px Fern Titling Caps white with red ornaments; credit ~14px Fern Italic with an underlined link; hover label ~12px Input Sans Medium on white",
+        "palette": [
+          "#121212",
+          "#312e2d",
+          "#ffffff",
+          "#a62617"
+        ],
+        "behaviour": "Hover: img opacity 0.5 and the caption tag shows (Tailwind group-hover)",
+        "content": "Real projects from Fonts In Use ('I Take Full Responsibility', 'Mushroom People', 'Birdman's Chicken Shack', 'The Culture Keeper')",
+        "assets": "Fonts In Use thumbnails; black damask texture",
+        "html": "a.group.block.relative.bg-djr-black > img.group-hover:opacity-50 + div.absolute.hidden.group-hover:block > span (title)"
+      }
+    },
+    {
+      "blocks": [
+        "11",
+        "12"
+      ],
+      "type": "checkout",
+      "variant": "on-page-cart",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "pangram",
+        "tone": "transparent, practical",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": true,
+        "free": false
+      },
+      "look": "A red damask 'GET FERN' band (11), then DJR's cart in red: LICENSE SIZES as 8 cards (Mini selected in pink; Small, Medium, Large, Extra Large, Discounted Mini, Educational, Testing), a PREVIEW TEXT field, FULL SERIES PACKAGE (Fern Series, 10 styles + 2 variable, $150), OTHER PACKAGES (Fern Text, Fern Micro, $100 each), INDIVIDUAL STYLES ($50/style, '25% off Roman/Italic Pairs!') with a checkbox per style, a 'BUY SELECTED PACKAGES AND STYLES' button and ADDITIONAL INFORMATION (PDF, formats)",
+      "feel": "Clear, honest pricing, tinted to the page's red",
+      "ux": "Pick a licence card (radio) and prices rescale by its multiplier; type in Preview text to restyle every pangram row; tick packages or styles and buy in one submit; package cards expand with a ▼ tab",
+      "learn": "Make the licence tiers the first thing in the cart and price everything by a multiplier, so one radio choice reprices the whole list",
+      "reconstruction": {
+        "layout": "Centred 1024px column (x=208); red section bars ~36px with white labels; licence cards in a 4×2 grid ~245×245px with 10px gaps; preview input full width ~50px; package cards full width with header row (checkbox, title, style count, price + 'Mini License', red BUY NOW) over pangram rows clipped at the right edge",
+        "typography": "Bars ~11px Input Sans Narrow Bold uppercase tracked white; card text ~11px Input Mono red, numbers ~16px bold; prices ~22px Input Sans red; pangram rows ~30px Fern (Titling Caps row ~64px, Ornaments row ~40px), each with a ~10px style label",
+        "palette": [
+          "#f8f7f7",
+          "#a62617",
+          "#eee1de",
+          "#111111"
+        ],
+        "behaviour": "license-tier-option radios carry data-multiplier (Mini 1, Small 2, Medium 3, Large 5, XL 8, Discounted 0.5, Educational and Testing 0); #tester-input mirrors typed text into all rows; Buy button enables when a checkbox is ticked",
+        "content": "'Fern Text Regular. The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.' per style; licence limits (workstations, monthly web visitors, apps)",
+        "assets": "none",
+        "html": "form > .packages > input.license-tier-option[type=radio][data-multiplier] + label.license-tier; input#tester-input; #buy-packages > .package.package-font-pack > .package__header (input.js-buy-now-checkbox, .package-title, .price, input.button) + ul.package-display"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "pangram",
+        "tone": "utilitarian",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "axes"
+        ],
+        "scope": "per-row",
+        "defaultText": "pangram",
+        "export": false
+      },
+      "look": "Inside the Fern Series package card: 'Fern Variable Roman. The quick brown fox…' at ~30px with a red VAR tag, and under it two thin sliders, Weight 600 (400–800) and Optical Size 10 (8–12), with value readouts; the italic row has the same pair",
+      "feel": "A quiet, functional test bench inside the cart",
+      "ux": "Drag Weight or Optical Size to restyle that row; the Preview text field above replaces the pangram; this is the only place on the page to drive the axes",
+      "learn": "Put axis sliders on the variable-font row of the price list so buyers test exactly what they would buy",
+      "reconstruction": {
+        "layout": "Row inside a 1024px card: sample line clipped at the right, style label + VAR tag beneath, then two slider rows ~420px wide (label, value, min, track, max)",
+        "typography": "Sample ~30px Fern Variable (wght 600, opsz 10 by default); labels ~10px Input Mono grey; VAR tag ~9px white on red",
+        "palette": [
+          "#f8f7f7",
+          "#111111",
+          "#a62617",
+          "#b6b6b5"
+        ],
+        "behaviour": "input[type=range] name=wght min 400 max 800 step 1, name=opsz min 8 max 12 step 0.1 → font-variation-settings on the row; label data-val updates",
+        "content": "Pangram 'The quick brown fox jumps over the lazy dog. Pack my box…'",
+        "assets": "none",
+        "html": "label[for=axis-fern-series-fern-variable-roman-wght][data-val] + input#axis-fern-series-fern-variable-roman-wght[type=range]"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "foundry house style",
+        "mobile": "adapts",
+        "contains": [
+          "contact",
+          "socials",
+          "newsletter",
+          "other-fonts",
+          "legal"
+        ]
+      },
+      "look": "DJR's black footer with links tinted Fern red: three columns (David Jonathan Ross feeds and mailing list + Elsewhere; Font of the Month Club + Typefaces list; Typeset/Glyph Navigator/Notes/About/Contact + Licensing, Press, Privacy, Tools), closed by a thin red strip",
+      "feel": "Functional; the red links keep the page's colour to the end",
+      "ux": "Plain links",
+      "learn": "Recolour the shared footer's links with the specimen's accent so the foundry chrome belongs to each family page",
+      "reconstruction": {
+        "layout": "Full-bleed 640px; content in the centred 1024px container, three columns ~340px apart; red bottom strip ~24px",
+        "typography": "~12px Input Sans Narrow; headings uppercase white Medium, tracked; links red-pink",
+        "palette": [
+          "#121111",
+          "#a82415",
+          "#ffffff"
+        ],
+        "behaviour": "Hover turns links white",
+        "content": "Foundry links, list of DJR families, licences",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/typeset-page",
+    "story/large-text-intro",
+    "family-overview/style-word-grid",
+    "type-tester/creative-toy",
+    "design-details/feature-index",
+    "glyph-table/category-lines",
+    "specimen-showcase/in-use-mockups",
+    "checkout/on-page-cart",
+    "type-tester/slider-sandbox",
+    "footer/link-columns"
+  ]
+}

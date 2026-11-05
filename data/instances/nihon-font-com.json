@@ -1,0 +1,403 @@
+{
+  "slug": "nihon-font-com",
+  "extractedBy": "agent",
+  "summary": "A WordPress (Lay theme) specimen built as a stack of full-screen slides on warm grey: each 100vh slide holds one centred SVG specimen of the seal-like 'japonism' ligature font, with a small bold caption bottom-left. It walks through the idea, the Inkan-seal origin, the ligature system, the character set by category, borders, styles × weights and a lookbook of posters, then ends on 'Visit the shop'. All type is shown as images; nothing moves or can be typed.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "quiet, ceremonial, minimal",
+        "mobile": "adapts",
+        "carrier": "glyph",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "One red seal-shaped ligature (the name written as a single stamp) centred on warm grey, with 'NIHON TYPEFACE' in bold caps and a two-line tagline below",
+      "feel": "Calm, formal, like a stamped document",
+      "ux": "Static; a slim nav (name left, Shop / License / About / Imprint right) slides away on scroll down",
+      "learn": "When the font turns a whole word into one glyph, the logo can be the font's own ligature for the name, set as a stamp",
+      "reconstruction": {
+        "layout": "Full-screen 1440×900 slide; seal ~185×250px centred at y≈250–500; title centred at y≈590; tagline two lines centred below; site nav row at the very top (name x≈30, links right-aligned)",
+        "typography": "Seal: SVG of the Nihon 'Border' style ligature in solid red; title ~32px Helvetica Bold uppercase; tagline ~24px Helvetica Regular, centred, leading ~1.3; nav ~16px Helvetica",
+        "palette": [
+          "#cac5bf",
+          "#e7524f",
+          "#000000"
+        ],
+        "behaviour": "none; nav translates up out of view while scrolling down",
+        "content": "'NIHON TYPEFACE — An ornamental japonism typefamily with 24 fonts and more than 30.000 ligatures.'",
+        "assets": "SVG of the name ligature (01_nihon_logo.svg)",
+        "html": ".row._100vh > .col.type-img (centred, span-2) + .col.type-text (span-10, padding-top 25vw)"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Never cut as a block: thin top row with 'Nihon Typeface' at the left and Shop, License, About, Imprint at the right; fixed but hidden on scroll down (Lay theme navbar); attached to the hero block"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "graphic, enigmatic",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "Three words set as vertical ligature stacks side by side (black 'MOONY', red 'OUTTHINK', black 'NIKO'), each with its Latin spelling in tiny tracked caps running down beside it",
+      "feel": "Puzzle-like, decorative",
+      "ux": "Static image slide, no caption",
+      "learn": "Label each decorative word with its Latin spelling in tiny vertical caps so the visitor can decode the ligatures",
+      "reconstruction": {
+        "layout": "Full-screen 1440×900 slide; three glyph stacks centred around x≈420, 720, 1020, ~150–270px tall, middle one larger and red; vertical labels ~8px letters stacked at the right of each",
+        "typography": "Nihon ligatures (SVG) in black and red; labels ~8px Helvetica Bold caps, one letter per line",
+        "palette": [
+          "#cac5bf",
+          "#000000",
+          "#e7524f"
+        ],
+        "behaviour": "none",
+        "content": "Invented themed words: Moony, Outthink, Niko",
+        "assets": "One SVG slide (nihon-slide_01.svg)"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "05",
+        "10"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "didactic, minimal",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "features",
+          "alternates"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "Full-screen slides, each one centred diagram and a bold caption bottom-left: 'WHAT IS NIHON?' (the word LATIN in plain vertical caps → black Nihon → red Nihon), 'LIGATURE SYSTEM' (red ligatures above the black letters they are built from, labelled KI / NOU / SHE), 'BORDER ADAPTABILITY' (the same word in red framed seals and a hairline box of a different length)",
+      "feel": "Patient, gallery-like, one idea per screen",
+      "ux": "Static; scrolling steps one slide at a time",
+      "learn": "Give each design mechanism its own full screen: one input → output diagram and one caption, so an unusual ligature system is learned step by step",
+      "reconstruction": {
+        "layout": "Each slide 1440×900; diagram centred in columns 4–10 of a 12-column grid (~560–800px wide), vertically centred slightly high; caption block bottom-left at x≈30, max ~900px wide: heading, then up to 4 lines of prose",
+        "typography": "Caption heading ~32px Helvetica Bold uppercase; prose ~24px Helvetica Regular, leading ~1.3; diagram labels ~8px tracked caps; glyphs as SVG",
+        "palette": [
+          "#cac5bf",
+          "#000000",
+          "#e7524f"
+        ],
+        "behaviour": "none",
+        "content": "Real explanation: 'builds the bridge between the western and eastern typography… write and read in latin letters with an japanese appearance'; 'each letter will adjust its look depending on the next letter following… more than 1200 ligatures for each font'",
+        "assets": "One SVG diagram per slide (nihon-slide_02.svg, _05b.svg, _10.svg)",
+        "html": ".row._100vh > .col.type-text.align-bottom (span-7/9) + .col.type-img.align-middle (span-6/8)"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "cultural, concise",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "illustration"
+        ],
+        "length": "short"
+      },
+      "look": "A small red rounded Inkan-style seal in the centre of the grey screen and 'WHERE DOES IT COME FROM?' with four lines of prose bottom-left",
+      "feel": "Respectful, museum-label",
+      "ux": "Static",
+      "learn": "One emblem of the source (a seal) plus a four-line caption is enough origin story for a display face",
+      "reconstruction": {
+        "layout": "1440×900 slide; seal ~120×120px centred at y≈260; caption block bottom-left x≈30, ~900px wide",
+        "typography": "Heading ~32px Helvetica Bold uppercase; prose ~24px Helvetica Regular, leading ~1.3",
+        "palette": [
+          "#cac5bf",
+          "#e7524f",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "'All latin letters were abstracted and completely new designed following the visual language of the traditional japanese Inkan-Seals… used as official signatures for papers, artworks or the traditional Ukiyo-e woodblock prints.'",
+        "assets": "SVG of a seal stamp with rough rounded edges (nihon-slide_03.svg)"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "07",
+        "08",
+        "09"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "orderly, sparse",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": true
+      },
+      "look": "Four slides, one per category ('BASIC ALPHABET', 'CASES', 'NUMERALS', 'SYMBOLS'): the glyphs run as narrow vertical columns (UPPER black, LOWER red, LINGUISTICS / NUMERALS WITH LIGATURES in a third column), or as a 3×5 grid of letter pairs each tagged with its Latin letters",
+      "feel": "Archival, like a seal catalogue",
+      "ux": "Static slides",
+      "learn": "Run each category as a vertical column (upper, lower, ligatures) side by side so a tall, narrow script-like font reads like a column of seals",
+      "reconstruction": {
+        "layout": "1440×900 slides; 3 columns centred ~200px apart (x≈500, 720, 940), each a vertical string of glyphs ~400px tall, ~30–40px wide; column labels ~8px caps above; category caption bottom-left (x≈30, y≈850)",
+        "typography": "Glyphs as SVG (~40px per glyph); column labels ~8px Helvetica Bold caps; captions ~32px Helvetica Bold uppercase",
+        "palette": [
+          "#cac5bf",
+          "#000000",
+          "#e7524f"
+        ],
+        "behaviour": "none",
+        "content": "Basic alphabet as glyph pairs (labelled AB, CD …), upper/lower/linguistic forms, numerals 1–0 upper/lower and ligated, brackets and symbols in hairline style",
+        "assets": "One SVG per slide (nihon-slide_04/07/08/09.svg)"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "abundant, textile-like",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A wide rectangle of ~1400 tiny red ligature glyphs in tight rows, framed by thin black columns of the basic glyphs at both ends, with '+200 GLYPHS +1200 LIGATURES' bottom-left",
+      "feel": "Overwhelming in a good way, like a woven pattern",
+      "ux": "Static",
+      "learn": "Show the size of a ligature set as one dense field of tiny glyphs and put the count in the caption instead of making the glyphs inspectable",
+      "reconstruction": {
+        "layout": "1440×900 slide; grid ~950×470px centred (x≈245–1195, y≈170–650), ~45 columns × ~30 rows, cells ~20px; caption two lines bottom-left",
+        "typography": "Glyphs ~14px (SVG); caption ~32px Helvetica Bold uppercase",
+        "palette": [
+          "#cac5bf",
+          "#d29893",
+          "#e7524f",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Every ligature in one style",
+        "assets": "SVG (nihon-slide_06.svg)"
+      }
+    },
+    {
+      "blocks": [
+        "11",
+        "12"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "systematic, graphic",
+        "mobile": "adapts",
+        "structure": "matrix",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "'IN EVERY WEIGHT +1200 LIGATURES' shows the name ligature in a 3×3 mix of styles and weights; then '4 STYLES WITH 6 WEIGHTS EACH' lays the same ligature out as a 4×6 matrix: rows Standard (black), Rustica (red), Linear (black outline), Border (red framed), weights getting lighter to the right",
+      "feel": "Methodical, like a stamp sample card",
+      "ux": "Static",
+      "learn": "One glyph repeated in a styles × weights matrix, with style names running vertically at the row starts, shows the whole family in one screen",
+      "reconstruction": {
+        "layout": "1440×900 slide; matrix ~800×520px centred (x≈330–1130, y≈170–690), 6 columns ~90px apart, 4 rows ~100px apart; style names as 8px vertical tracked caps left of each row; caption bottom-left. Teaser slide: 3×3 grid ~260×270px centred",
+        "typography": "Glyph ~70px tall per cell (SVG); row labels ~8px Helvetica Bold caps rotated; caption ~32px Helvetica Bold uppercase",
+        "palette": [
+          "#cac5bf",
+          "#000000",
+          "#e7524f",
+          "#d6938d"
+        ],
+        "behaviour": "none",
+        "content": "The 'Nihon' ligature in all 24 fonts",
+        "assets": "SVGs (nihon-slide_11.svg, nihon-slide_12.svg)"
+      }
+    },
+    {
+      "blocks": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "moody, poster-like",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "series"
+      },
+      "look": "Lookbook of seven portrait posters, two per slide: one giant ligature word per poster on dark forest green or taupe, in solid black, taupe or hairline outline, with tiny vertical credits and city names (Tokyo, Kyoto, London…)",
+      "feel": "Sober, Zen, gallery wall",
+      "ux": "Static slides",
+      "learn": "Alternate two muted poster grounds and the font's weights to make a coherent poster set from single words",
+      "reconstruction": {
+        "layout": "1440×900 slides; two portrait posters ~385×540px (ratio 1:1.4) centred at x≈420 and x≈1020; the last slide has one poster at the left; posters centred vertically",
+        "typography": "One word per poster as a ligature column ~60–75% of poster height; corner credits ~6px; city name ~6px vertical caps bottom-right",
+        "palette": [
+          "#cac5bf",
+          "#283128",
+          "#938e88",
+          "#0c0c0c"
+        ],
+        "behaviour": "none",
+        "content": "Single words and city names",
+        "assets": "Seven poster SVGs (nihon-lookbook_NN.svg)"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "understated",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "An empty grey full screen with 'VISIT THE SHOP' centred, 'SHOP' in red as the link",
+      "feel": "Minimal, almost a closing title card",
+      "ux": "One text link to the shop page",
+      "learn": "A whole empty screen around one short CTA works as the end of a slide-based specimen",
+      "reconstruction": {
+        "layout": "1440×900 slide; one line centred at y≈450",
+        "typography": "~20px Helvetica Bold uppercase; 'SHOP' red and underlined",
+        "palette": [
+          "#cac5bf",
+          "#000000",
+          "#e7524f"
+        ],
+        "behaviour": "none",
+        "content": "'VISIT THE SHOP'",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "specimen-showcase/word-stack",
+    "design-details/design-notes",
+    "story/origin-reference",
+    "glyph-table/category-lines",
+    "glyph-table/full-grid",
+    "family-overview/designspace-map",
+    "specimen-showcase/poster-series",
+    "checkout/link-out-cta"
+  ]
+}

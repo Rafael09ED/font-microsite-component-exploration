@@ -1,0 +1,656 @@
+{
+  "slug": "usgraphics-com-products-berkeley-mono",
+  "extractedBy": "agent",
+  "summary": "A product entry in a fictional retro-industrial catalogue: a narrow 810px column of small Univers prose, each section paired with flat SVG 'marketing slides' in terminal colours (green, amber, red on black) and jQuery tab strips for code languages, document types and signature glyphs. It sells a coding monospace through use-case evidence (code, API docs, phone book, financial tables), a 1970s machine-type lineage, a post-purchase font compiler, developer testimonials and a licence table by company size.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Static site header: 'U.S. Graphics Company' in condensed bold beside a strip of colour swatches (catalogue colour bar), and a row of six outlined button tabs (Office, ● Products, Catalog, Extras!, Sitemap, Login); a 'Products / Typefaces' breadcrumb sits below"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "product-landing",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "dry, technical, retro-industrial",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "download",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Catalogue-entry layout: left half has 'Berkeley Mono™' heading, a yellow SKU tag 'TYPEFACE' and an outlined 'TX-02' tag, three short manifesto paragraphs and a green 'Datasheet (PDF) →' button; right half is a bordered card reading 'TX-02 / -------- / BERKELEY / MONO™ / TYPEFACE' in the font",
+      "feel": "Spec sheet, deadpan, engineered",
+      "ux": "Only CTA is the PDF datasheet; purchase is far below",
+      "learn": "Present the font like an industrial part (SKU, model number, datasheet) instead of a creative product: the framing itself tells programmers it is a tool",
+      "reconstruction": {
+        "layout": "810px centred column (x=315); two equal columns (~395px) ~410px tall; text left; card right with 1px grey border and ~20px padding, 5 lines of ~60px type",
+        "typography": "Heading ~16px Univers LT Pro Bold; SKU tags ~11px Berkeley Mono caps in small boxes; body 14px Univers, leading ~1.45; card lines ~60px Berkeley Mono Regular, dashed rule made of hyphens",
+        "palette": [
+          "#fbfbfb",
+          "#000000",
+          "#f5e66a",
+          "#1a6b3c"
+        ],
+        "behaviour": "none",
+        "content": "'Berkeley Mono™ is a love letter to the golden era of computing… It wears a UNIX T-shirt… It is Adrian Frutiger visits Bell Labs… Berkeley Mono is a typeface for professionals.'",
+        "assets": "TX-02 banner SVG",
+        "html": ".columns > .column.col-6 (h2, p > span.sku.bg-light-yellow + span.sku, a.btn-classic.bg-dark-green) + .column.col-6 > img.img-card"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "specimen-showcase",
+      "variant": "use-case-samples",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "terminal, nerdy, witty",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "carousel"
+      },
+      "look": "'Engineered for Code': a strip of five outlined tabs (Generic, SQL, Haskell, Files, Finance) above a black panel of large green code ('@tick.tock! func Go( system::float $1, 3.2706 * x^2 - 4, 0xFC82 &| 0x1A9E ) return { i += 1, get[\"KEY\"].run() };')",
+      "feel": "Phosphor terminal, confident",
+      "ux": "jQuery UI tabs swap the panel image per language or data type; on mobile the tab labels shorten to 1–5",
+      "learn": "Write fake code that packs the troublemakers (0/O, braces, operators, hex) into a few lines, and set it huge: a code font proves itself in code, not in pangrams",
+      "reconstruction": {
+        "layout": "Full column 810px; tab strip of 5 equal outlined buttons ~28px tall, active tab filled black; panel 810×~800px black with ~50px padding",
+        "typography": "Code ~48px Berkeley Mono Regular, green #2bd47d-ish on black, 2-space indents; tab labels ~11px Univers",
+        "palette": [
+          "#020403",
+          "#1fbf7a",
+          "#094837",
+          "#ffffff"
+        ],
+        "behaviour": "Click tab → show its panel (jQuery UI tabs, aria-selected); panels are static SVGs",
+        "content": "Invented code per tab: generic pseudo-language, SQL, Haskell, file listings, finance data",
+        "assets": "Five SVG code slides",
+        "html": "#code-tabs.ui-tabs > ul.tab.tab-block > li.tab-item > a > span.tab-long-label + span.tab-short-label; #comp-tab-N > img.img-card"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "plain-spoken, engineer",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "diagram"
+        ],
+        "length": "short"
+      },
+      "look": "'By software engineers, for software engineers.' a short paragraph on legibility and distinct glyphs ending 'It's boring. It's good.', beside a black card of red confusable characters: {x}[y](z) q9g (C * iI1lL \"' OO o8.;,:",
+      "feel": "Matter-of-fact, sure of itself",
+      "ux": "static",
+      "learn": "Argue legibility with a line-up of the characters programmers confuse (iI1lL, O0o, quotes, punctuation) rather than with adjectives",
+      "reconstruction": {
+        "layout": "Two columns ~395px; text left; black card right ~395×395px with 4 lines of glyphs",
+        "typography": "Heading 14px Univers Bold; body 14px Univers; glyphs ~54px Berkeley Mono, red #e0301e on black",
+        "palette": [
+          "#fdfdfd",
+          "#040203",
+          "#e0301e"
+        ],
+        "behaviour": "none",
+        "content": "Claims: tested by writing production code throughout development; distinct but not distracting glyphs; comfortable line-height; 100% monospaced",
+        "assets": "Confusables SVG card"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "technical, deadpan",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "'Unlike any other': a black poster of 13 white caps lines of technical ephemera: '@RFC STANDARD 8901', 'TICKET #942-7145-2850', 'GENERAL CORPORATION®', 'ELECTROCARDIOGRAPHY', 'McMASTER CARR™ 16015T55', 'SOS → 146.520 MHz', 'CLOUDCACHE R2 <- S3?', 'SR-71 BLACKBIRD', 'TCP/UDP 128.0.0.0/8', '© 2024 U.S. GRAPHICS'",
+      "feel": "Control-panel, cool",
+      "ux": "static",
+      "learn": "Stack strings from real technical life (part numbers, RFCs, frequencies, IP ranges) so every line exercises numerals, symbols and caps together",
+      "reconstruction": {
+        "layout": "Full column 810×~815px black card; 13 left-aligned lines at ~64px pitch, ~55px left padding",
+        "typography": "~40px Berkeley Mono Regular caps, white, tracking 0 (monospaced)",
+        "palette": [
+          "#060606",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Industrial and computing identifiers (tickets, standards, model numbers, network ranges)",
+        "assets": "Poster SVG"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "comparison",
+      "variant": "lineage-lineup",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "pangram",
+        "tone": "historical, precise",
+        "mobile": "adapts"
+      },
+      "look": "Prose on combining 70s machine-readable type with humanist sans ('There is nothing like it.') beside a card listing UNIVERS, EUROSTILE, OCR-B, DIN and BERKELEY MONO in red mono labels, each with 'Hamburgevons 0123456789' set in that typeface",
+      "feel": "Educated, comparative",
+      "ux": "static",
+      "learn": "Set the same 'Hamburgevons 0123456789' in each ancestor and end with your own: readers see what was borrowed from each in one glance",
+      "reconstruction": {
+        "layout": "Two columns ~395px; card right with 5 rows ~70px: label column ~90px, sample column",
+        "typography": "Labels ~10px Berkeley Mono caps red; samples ~22px in Univers, Eurostile, OCR-B, DIN, Berkeley Mono; body 14px Univers",
+        "palette": [
+          "#fdfdfd",
+          "#000000",
+          "#b70202"
+        ],
+        "behaviour": "none",
+        "content": "Classic test word Hamburgevons and digits per reference typeface",
+        "assets": "Comparison SVG card"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "themed-infographic",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "satirical, nerdy",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "'Box Drawing Characters': a mock architecture diagram drawn entirely with box-drawing glyphs and arrows, boxes labelled WEBSCALE™ MICROSERVICE, NO SQL, WEB 3.0, PAAS, JS LIB, OOP FACTORY, DATA SEWAGE, KUBERPODS, ERR/NOP/SOE, AI ENGINE, FERMION UI, with hatched drop shadows",
+      "feel": "In-joke, ASCII-art",
+      "ux": "static",
+      "learn": "Show box-drawing support by drawing something programmers know (a parody system diagram) instead of listing the U+2500 block",
+      "reconstruction": {
+        "layout": "Full column card 810×~815px, white with grey border; diagram fills the card: header boxes in a row, flowchart below with orthogonal connector lines",
+        "typography": "~14px Berkeley Mono caps inside single and double-line boxes; shading with light-shade block glyphs",
+        "palette": [
+          "#f6f6f6",
+          "#000000",
+          "#d4d4d4"
+        ],
+        "behaviour": "none",
+        "content": "Tech buzzword satire (DATA SEWAGE, KUBERPODS, WEBSCALE)",
+        "assets": "Diagram SVG"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "glyph-table",
+      "variant": "category-tabs",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "retro, iconic",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "tabs",
+        "metricsShown": false,
+        "namesOrUnicode": true
+      },
+      "look": "'Tribute to the Golden Era': tabs Zero, At Symbol, Letter K, Asterisk, Arrow; the panel shows one signature glyph filling a black square in amber (the dotted-oval zero)",
+      "feel": "Monumental, nostalgic",
+      "ux": "Tabs switch the single giant glyph",
+      "learn": "Pick the five characters that define a monospace's personality and give each its own full-panel tab",
+      "reconstruction": {
+        "layout": "Tab strip of 5 equal buttons, then a black square panel 810×~800px with one glyph centred at ~75% of the panel height",
+        "typography": "Glyph ~600px tall Berkeley Mono, amber #fbb401 on black; tab labels ~11px Univers",
+        "palette": [
+          "#020201",
+          "#fbb401",
+          "#ffffff"
+        ],
+        "behaviour": "jQuery UI tabs; each panel a static SVG",
+        "content": "Zero, @, K, *, → glyphs",
+        "assets": "Five glyph SVGs",
+        "html": "#vintage-tabs.ui-tabs > ul.tab > li.tab-item; #vintage-tab-N > img"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "wistful, then practical",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "A paragraph on vintage tech (cathode-ray glow, rotary encoders, static interfaces), 'But Berkeley Mono is functional first… Maybe it is timeless.', beside a card of big green 'R r / a n'",
+      "feel": "Nostalgic but sober",
+      "ux": "static",
+      "learn": "Acknowledge the nostalgia, then redirect to function: the copy disarms the 'retro gimmick' objection",
+      "reconstruction": {
+        "layout": "Two columns ~395px; card right ~395×395px, 2×2 glyphs",
+        "typography": "Glyphs ~150px Berkeley Mono, green #1a8a3c on white; body 14px Univers",
+        "palette": [
+          "#fdfdfd",
+          "#000000",
+          "#1a8a3c"
+        ],
+        "behaviour": "none",
+        "content": "Vintage-technology references; 'old school, understated and unfashionable'",
+        "assets": "Glyph specimen SVG"
+      }
+    },
+    {
+      "blocks": [
+        "09",
+        "10"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "plain, complete",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": false
+      },
+      "look": "'International – Wide Language Support': a two-column list of ~26 European language names in blue mono at display size (Albanian … Welsh), then two cards: accented capitals and lowercase in green (ÀÂÆÇÉÈÊË ÎÏÔŒÙÛÜŸ…) and a huge red capital ẞ for German",
+      "feel": "Orderly, factual",
+      "ux": "static",
+      "learn": "Set the language list itself at display size in the font: the names are the proof, and a giant capital ẞ adds one memorable detail",
+      "reconstruction": {
+        "layout": "09: full column card 810×~815px, two columns of names at ~32px pitch; 10: two cards ~395×395px side by side",
+        "typography": "Names ~28px Berkeley Mono, blue #2a5bb0; accents ~44px green #1a8a3c in 4 lines; ẞ ~300px red #b70202",
+        "palette": [
+          "#fafbfc",
+          "#2a5bb0",
+          "#1a8a3c",
+          "#b70202"
+        ],
+        "behaviour": "none",
+        "content": "European language names; Latin-1 accented letters; capital sharp s",
+        "assets": "Three SVG cards"
+      }
+    },
+    {
+      "blocks": [
+        "11",
+        "12"
+      ],
+      "type": "specimen-showcase",
+      "variant": "use-case-samples",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "corporate-retro, deadpan",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "carousel"
+      },
+      "look": "'Exceptional legibility': tabs API Docs, Tel Book, Magazine over a perforated-margin printout ('BLOCK & STRIPE BUSINESS MACHINES INC.', API DOCUMENTATION MACHINE MX-4000, a POST request and JSON response); below, prose on long-form use (user manuals, movie scripts, Submarine EXIT signs) next to a dense 'Annual Financial Report 1968–1979' table",
+      "feel": "Mainframe printout, believable",
+      "ux": "Tabs swap the document type; static otherwise",
+      "learn": "Prove text legibility with full fake documents (API reference, phone book, magazine, financial tables) that a monospace would really set",
+      "reconstruction": {
+        "layout": "11: tab strip + full-column card 810×~800px with tractor-feed holes in a left margin column; 12: two columns, prose left, table card right ~395×395px",
+        "typography": "Document text ~13px Berkeley Mono, headings in caps, rules made of box glyphs; table ~6px tabular figures; body 14px Univers",
+        "palette": [
+          "#f8f8f8",
+          "#000000",
+          "#d3d3d3"
+        ],
+        "behaviour": "jQuery UI tabs swap SVG documents",
+        "content": "Invented corporate documents (Block & Stripe Business Machines API docs, telephone directory, magazine page, 1968–1979 financial report); copy mentions 5 widths, 12 weights, 2 slants and variable wdth/wght/slnt",
+        "assets": "Four document SVGs",
+        "html": "#doc-tabs.ui-tabs > ul.tab > li.tab-item; #doc-tab-N > img.img-card"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "systematic",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "'Subfamilies, Styles and Cuts': two cards; left lists the five widths (TX-02 Normal, Semi Condensed, Condensed, Extra Condensed, Ultra Condensed) each labelled in small blue caps over 'HAL9000 EXABYTE'; right stacks 'HAL9000 EXABYTE' 12 times from Thin to Black",
+      "feel": "Technical, tidy",
+      "ux": "static",
+      "learn": "Use one short alphanumeric sample ('HAL9000 EXABYTE') for every cut so width and weight steps are the only variables",
+      "reconstruction": {
+        "layout": "Two cards ~395×395px; left 5 rows ~75px (label + sample); right 12 lines ~32px pitch",
+        "typography": "Labels ~9px Berkeley Mono caps blue; samples ~26px (left, widths) and ~24px (right, weights 100→900)",
+        "palette": [
+          "#fafafa",
+          "#000000",
+          "#2a5bb0"
+        ],
+        "behaviour": "none",
+        "content": "'HAL9000 EXABYTE' (computing references)",
+        "assets": "Two SVG cards"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "design-details",
+      "variant": "highlighted-in-context",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "inclusive, practical",
+        "mobile": "adapts",
+        "subject": [
+          "features"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "'Ligatures, we have them!': prose about 150+ ligatures (and a no-ligature version for purists) with a blue 'Ligatures Explorer →' button, beside an amber-on-black code card where arrows, ≡, ≥, ≤, ⊨, <=> and .. render as ligatures",
+      "feel": "Generous, playful",
+      "ux": "Button links to a separate Ligatures Explorer subpage",
+      "learn": "Show ligatures inside believable code rather than in a catalogue, and offer the opt-out up front to reassure purists",
+      "reconstruction": {
+        "layout": "Two columns ~395px; code card right ~395×395px, 8 lines",
+        "typography": "Code ~24px Berkeley Mono with ligatures, amber #f0a400 on black; body 14px Univers; button ~11px white on blue",
+        "palette": [
+          "#fefefe",
+          "#040403",
+          "#f0a400",
+          "#1d4f9c"
+        ],
+        "behaviour": "none",
+        "content": "Fake code: '@func__top! proc Foo( 0xFF <~~ x ≡≡ 0; x ≥ bar && y ≤ 2 ) return { i++, baz —>> qux ⊨ 86, [bbq<>] <== x..y; };'",
+        "assets": "Ligature code SVG",
+        "html": "a.btn.btn-classic.bg-dark-blue[href=/products/berkeley-mono/ligatures]"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "configurable, practical",
+        "mobile": "adapts",
+        "subject": [
+          "alternates"
+        ],
+        "presentation": "catalogue",
+        "explanation": "prose"
+      },
+      "look": "'Customization and Font Compilers': a 'Glyph Alternatives' form screenshot with rows Zero (4 variants: slashed, dotted, plain, reversed slash), Seven (2), Bar (solid, broken), German 'r' (2), each glyph in a box with a radio button below, beside prose explaining that editors can't select stylistic sets so fonts are 'baked' after purchase",
+      "feel": "Utility, settings panel",
+      "ux": "static screenshot; the real choices are made in the compiler after purchase",
+      "learn": "For coding fonts, show alternates as radio-button choices: it tells programmers they can bake their preferred zero into the font",
+      "reconstruction": {
+        "layout": "Two columns; left card ~395px: label column ~60px + glyph boxes ~45×55px in a row, radio under each; prose right",
+        "typography": "Glyphs ~40px Berkeley Mono in bordered boxes; labels ~10px Univers; body 14px Univers",
+        "palette": [
+          "#fafafa",
+          "#000000",
+          "#b70202"
+        ],
+        "behaviour": "none",
+        "content": "Alternates for 0, 7, |, r",
+        "assets": "Compiler glyph-alternatives PNG"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "checkout",
+      "variant": "build-configurator",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "spec-sheet, power-user",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "'New Supertype™ Compiler': a retro dot-matrix logo, a feature table (Standard vs Supertype™: font format, custom family name, glyph alternatives, retina and book weights, spacing, custom widths/weights/slants, line height 'Investigating', SemiOblique 'Coming soon') beside a screenshot of the compiler UI with Font Width, Tracking, Weight and Slant pickers: numeric values, checkboxes and red triangle markers on sliders",
+      "feel": "Pro-tool, hardware-panel",
+      "ux": "Explains an add-on compiler used after purchase to build custom fonts; no live controls on this page",
+      "learn": "Show the configurator UI as a screenshot plus a Standard vs Pro comparison table to upsell a build option without building it into the page",
+      "reconstruction": {
+        "layout": "Two columns: left ~395px logo image + 16-row table (3 columns) + paragraph; right ~395px stacked panels (Width 5 rows, Tracking 1, Weight 12, Slant 2), each row: icon, value box, radio/checkbox + name, slider with triangle marker",
+        "typography": "Table ~12px Univers, header bold; UI panel labels ~12px Univers Bold, values in Berkeley Mono in boxes",
+        "palette": [
+          "#f4f4f4",
+          "#000000",
+          "#d7d6d5",
+          "#c00000"
+        ],
+        "behaviour": "none (screenshots)",
+        "content": "Real feature comparison and roadmap ('Coming soon', 'Investigating'); width values 75/81/88/94/100, weights 110–900, slant 0/−16",
+        "assets": "Supertype logo, compiler UI PNG"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "testimonials",
+      "variant": "quote-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "enthusiastic, peer",
+        "mobile": "adapts"
+      },
+      "look": "'Testimonials': two columns of italic quotes, each with a grey left rule, the name in bold with a tiny Twitter bird, and role + linked company (Serenity OS, Axiom, Perplexity, Cartesia, Stack Overflow, NYU, Shopify)",
+      "feel": "Credible, insider",
+      "ux": "Company names link out",
+      "learn": "Quote recognisable engineers with role and company; one-liners like 'It's boring, it's good.' echo the page's own voice",
+      "reconstruction": {
+        "layout": "Two columns ~395px, ~600px tall; each quote block with 2px grey left border, 10px padding, ~20px gap",
+        "typography": "Quotes 13px Univers Italic; names 13px bold; roles 13px regular with blue underlined links",
+        "palette": [
+          "#f9f9f9",
+          "#000000",
+          "#d4d4d4",
+          "#1d4f9c"
+        ],
+        "behaviour": "none",
+        "content": "Real quotes (Andreas Kling, Jeff Atwood, Tobi Lutke 'worth the $75', etc.)",
+        "assets": "Twitter bird icons"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "straightforward, lenient",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": true,
+        "trial": true,
+        "free": false
+      },
+      "look": "'Purchase': two side-by-side tables, Personal Use (Trial → yellow button, Developer → green Purchase) and Commercial Use (Indie, Startup, Medium, Enterprise by company size, blue Purchase → buttons), with notes that commercial licences exclude open-source apps and IDE/terminal products",
+      "feel": "Transparent, form-like",
+      "ux": "Each row links to its catalogue product page (FX-050, FX-102, FX-202, FX-400, FX-600, FX-700); no prices on this page",
+      "learn": "Size commercial licences by company headcount in a plain table: buyers find their row without a calculator",
+      "reconstruction": {
+        "layout": "Two columns ~395px; each a heading, 2–3 lines of copy, then a 3-column table (License, Company Size, Link) with a coloured left border; small coloured buttons in the Link column",
+        "typography": "Headings 14px Univers Bold; table 12px; buttons ~11px white on green/blue, black on yellow",
+        "palette": [
+          "#fbfbfb",
+          "#000000",
+          "#f5b301",
+          "#1a6b3c",
+          "#1d4f9c"
+        ],
+        "behaviour": "none",
+        "content": "Licence tiers: Trial, Developer, Indie (sole proprietor), Startup (2–7), Medium (8–50), Enterprise (50+)",
+        "assets": "none",
+        "html": "table with a.btn-classic per row linking to /catalog/FX-xxx"
+      }
+    },
+    {
+      "blocks": [
+        "19"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "'Additional Information' link table (Datasheet, Change Log and Release Notes, Newsletters, Personal and Commercial EULAs) beside a yellow framed 'U.S. GRAPHICS COMPANY GENERAL CATALOG' badge; the slim legal footer (© U.S. Graphics, 'PROD V3.0.12' tag) follows and was not cut as a block"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/product-landing",
+    "specimen-showcase/use-case-samples",
+    "story/design-brief",
+    "specimen-showcase/word-stack",
+    "comparison/lineage-lineup",
+    "specimen-showcase/themed-infographic",
+    "glyph-table/category-tabs",
+    "story/origin-reference",
+    "language-support/language-name-list",
+    "specimen-showcase/use-case-samples",
+    "family-overview/style-word-grid",
+    "design-details/highlighted-in-context",
+    "design-details/feature-index",
+    "checkout/build-configurator",
+    "testimonials/quote-columns",
+    "checkout/link-out-cta"
+  ]
+}

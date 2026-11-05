@@ -1,0 +1,505 @@
+{
+  "slug": "unbounded-polkadot-network",
+  "extractedBy": "agent",
+  "summary": "Polkadot's launch page for Unbounded, a free, on-chain-funded wide geometric display family: a Lottie hero, then tilted marquee bands, a black tester card, greeting marquees, a pink glyph inspector, a purple figure-style switcher, variable-font recipes with 'Copy CSS code', a magnifier-lens anatomy section and a wall of the name scrolling behind Download/GitHub buttons. Built in Svelte on Locomotive Scroll, whose sections sit at opacity 0 outside the viewport, so every desktop crop after the hero is black; the reading below relies on the mobile capture and the HTML.",
+  "instances": [
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Fixed corners only: pink dotted Polkadot ring logo top-left and a small white 'MENU' toggle top-right (menu contents are rendered on open, not in the DOM)"
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "kinetic-type",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bold, crypto, energetic",
+        "mobile": "adapts",
+        "carrier": "motion",
+        "cta": "none",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "Black screen; a white disc rises from the bottom-left corner and 'THIS IS / UNBOUNDED' appears centred, the first line Light and the second Black; the name then breaks apart letter by letter as you scroll and the disc grows until the page turns white",
+      "feel": "Launch-event, dramatic",
+      "ux": "Lottie animation on a full-viewport canvas, scrubbed by scroll (data-scroll-call='updateBackground' flips the page background); a cursor-follow element trails the pointer",
+      "learn": "Use one geometric shape (a circle growing from a corner) as the transition from a black hero to the white page, so the hero literally opens into the site",
+      "reconstruction": {
+        "layout": "Pinned section ~2 viewports (1800px); canvas 1440×900 fills the viewport; title centred at ~38% height, ~560px wide; the disc starts as a quarter circle ~420px radius at bottom-left and scales up",
+        "typography": "'THIS IS' ~64px Unbounded Light uppercase; 'UNBOUNDED' ~64px Unbounded Black uppercase, both centred, tight leading; rendered inside the Lottie canvas",
+        "palette": [
+          "#030303",
+          "#fefdfe",
+          "#e6007a"
+        ],
+        "behaviour": "Lottie (canvas renderer) played or scrubbed on scroll; letters scatter vertically at t≈3s in the video; Locomotive Scroll smooth scrolling with data-scroll-speed parallax; background colour switched by the 'updateBackground' scroll call",
+        "content": "'This is Unbounded'",
+        "assets": "Lottie JSON animation (disc + title)",
+        "html": "div.introduction-wrapper[data-scroll-section] > div.lottie-wrapper[data-scroll-repeat][data-scroll-call=updateBackground] > canvas; div.cursor-follow"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "proud, inclusive",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Three short centred paragraphs in Unbounded: 'Unbounded is possibly the first open source, freely available and on-chain funded font in the world.' then the six weights + variable font, Latin and Cyrillic with 1300 glyphs, and attention to African languages",
+      "feel": "Earnest, mission-driven",
+      "ux": "Paragraphs drift at half scroll speed (parallax) as the disc expands behind them",
+      "learn": "Set the about text in the wide display face at a modest size and centre it: the width of the letters carries the identity even in body copy",
+      "reconstruction": {
+        "layout": "Centred column ~460px wide in the second viewport of the hero section, 3 paragraphs with one blank line between",
+        "typography": "~20px Unbounded Regular, centred, leading ~1.4, black on white (white on black while the disc is small)",
+        "palette": [
+          "#fefdfe",
+          "#030303"
+        ],
+        "behaviour": "data-scroll-speed=0.5 parallax per paragraph",
+        "content": "Real positioning: free, on-chain funded, six weights + variable, 1300 glyphs, hundreds of languages incl. African ones",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "dynamic, energetic",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "Six slightly tilted bands stacked down the page, one per weight (ExtraLight, Light, Regular, Medium, Bold, Black), each a ruled strip with the weight name and a marquee of a crypto slogan in that weight ('Explore the blockchain multiverse.', 'Seamless on-chain upgrades.', 'Scalab…'), heavier bands overlapping lighter ones",
+      "feel": "Kinetic, banner-like",
+      "ux": "Bands scroll sideways continuously; on mobile only the weight names show, rotated a few degrees",
+      "learn": "Give each weight its own tilted marquee band and stack them by z-index (heavier on top) so the weight range reads as a pile of moving tapes",
+      "reconstruction": {
+        "layout": "~1240px tall; 6 full-width bands ~170px tall, each rotated ~-3° to +3°, 1px black rules top and bottom, overlapping slightly (z-index 1–5)",
+        "typography": "Band text ~128px Unbounded at wght 200/300/400/500/700/900, sentence case; weight label in the same style",
+        "palette": [
+          "#fefdfe",
+          "#010101"
+        ],
+        "behaviour": "CSS marquee per band (content + cloned content, translateX loop), started when intersecting (.intersect/.visible)",
+        "content": "Crypto/Polkadot slogans per weight",
+        "assets": "none",
+        "html": ".weights > .title + .marquee-wrapper > .marquee.visible > .content + .content.cloned; inline style z-index + font-weight per band"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "bold, product-like",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "leading",
+          "weight",
+          "alignment"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A big black rounded card: a row of white pill weight buttons (ExtraLight … Black; a select on mobile), three round alignment buttons, Size and Leading sliders, a 'TYPEWRITER' label and the editable sample 'Many chains, one network.' in white Bold at ~128px; two tilted ruled marquee strips follow ('ANY TYPE OF DATA ACROSS ANY TYPE OF BLOCKCHAIN.', '⭘ THE FUTURE IS MULTICHAIN. AND IT'S TAKING SHAPE NOW ON POLKADOT.')",
+      "feel": "Punchy, app-like",
+      "ux": "Weight radios (200, 300, 400, 500, 700, 900), align radios left/centre/right, Size 1–18rem (step 0.1), Leading 0.9–2.5; type into the textarea",
+      "learn": "Put the tester on a dark card inside a light page and label it like a tool ('Typewriter'), with pill radios for named weights instead of a slider",
+      "reconstruction": {
+        "layout": "Card ~1360px wide, ~800px tall, ~40px radius, black; controls row at top (pills ~40px tall), sliders in a second row ~300px wide each; textarea fills the rest; marquee strips below, full-bleed, rotated ~2°",
+        "typography": "Sample 12.8rem (≈128px with a 10px root) Unbounded Bold, leading 1, left-aligned, white; pill labels ~14px uppercase Unbounded; strips ~34px uppercase Regular",
+        "palette": [
+          "#010101",
+          "#ffffff"
+        ],
+        "behaviour": "Controls write inline font-weight, text-align, font-size (rem) and line-height on the textarea; strips are CSS marquees",
+        "content": "Polkadot slogans: 'Many chains, one network.'",
+        "assets": "Alignment icons",
+        "html": "label.btn.white[for=weight-*] > input[type=radio][name=weight][value=200…900]; select[name=weight] (mobile); input[type=radio][name=align]; input#size[type=range][min=1][max=18][step=0.1]; input#leading[min=0.9][max=2.5][step=0.01]; textarea#type[placeholder]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "language-support",
+      "variant": "diacritic-word-wall",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "welcoming, global",
+        "mobile": "adapts",
+        "method": "word-wall",
+        "nonLatin": true
+      },
+      "look": "Four huge marquee lines of greetings in Unbounded Light joined by long arrows (Привіт ⟶ Habari ⟶ Pele o ⟶ / ⟵ Ndew ⟵ Hej ⟵ Hei ⟵ Olá / Bonjour ⟶ Hallo ⟶ Ciao ⟶ / ⟵ Labas ⟵ Witam ⟵ Hola!), with a magenta disc 'Over 400 supported languages · VIEW ALL' floating over them",
+      "feel": "Friendly, worldly",
+      "ux": "Each line scrolls in the direction its arrows point (alternating); the disc moves at its own scroll speed (data-scroll-speed=1) and its button opens the full language list",
+      "learn": "Let the arrows inside the copy announce each marquee's direction, and use greetings, the first word anyone looks for in their language",
+      "reconstruction": {
+        "layout": "~680px tall; 4 full-bleed lines ~150px pitch; disc ~400px diameter centred, overlapping lines 2–3",
+        "typography": "Greetings ~128px Unbounded Light, arrows ⟶ ⟵ in the font; disc text ~22px Medium centred, 'VIEW ALL' 12px underlined",
+        "palette": [
+          "#fefdfe",
+          "#010101",
+          "#e6007a"
+        ],
+        "behaviour": "Alternating-direction CSS marquees; parallax disc; button reveals the language list (overlay)",
+        "content": "Greetings in Ukrainian, Swahili, Yoruba, Wolof, Swedish, Finnish, Portuguese, French, German, Italian, Lithuanian, Polish, Spanish",
+        "assets": "none",
+        "html": "section.supported-languages[data-scroll-section] > .marquee-wrapper > 4 × .marquee; button.languages-btn[data-scroll-speed=1]"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "bold, colourful",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "filter",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A magenta rounded panel with a huge black 'A' preview and a category menu (VIEW ALL, BASIC UPPERCASE, BASIC LOWERCASE, LATIN EXTENDED ACCENTS, FIGURES, CIRCLES FIGURES, LIGATURES, ORDINALS, SUP/INF, CURRENCY, PUNCTUATION, SIGN & SYMBOLS, ARROWS & SHAPES, CYRILLIC, GREEK LETTERS), next to a white rounded grid of glyphs with the selected one in a black circle",
+      "feel": "Playful, poster-like",
+      "ux": "Pick a category to filter the grid (pill list on desktop, select on mobile); hover/click a glyph to show it large in the magenta panel",
+      "learn": "Mark the selected glyph with a filled circle in the grid and mirror it in a colour-field preview card",
+      "reconstruction": {
+        "layout": "~630px tall; desktop two panels side by side (preview ~700px square-ish magenta card, grid card with ~10 columns of ~50px cells, scrollable); mobile stacks them",
+        "typography": "Preview glyph ~280px Unbounded Bold/Black; grid glyphs ~22px Regular; category pills ~12px uppercase",
+        "palette": [
+          "#e6007a",
+          "#010101",
+          "#fefdfe"
+        ],
+        "behaviour": "Category filter swaps the grid content; glyph select updates the preview",
+        "content": "1082 glyphs by category, Latin, Cyrillic, Greek, circled figures, arrows",
+        "assets": "none",
+        "html": "select.nav.btn.mobile-only (options View all … Greek letters) + desktop pill list; grid of glyph cells"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "crypto, playful",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "toggle",
+        "explanation": "none"
+      },
+      "look": "A purple rounded card with a pill select 'PILLED FIGURES ▾' and five centred lines 'Block number 42 / 856 / 677 / 365 / 26' in white, the numbers enclosed in pill outlines, weights stepping up line by line",
+      "feel": "Clever, on-brand",
+      "ux": "The select switches the numbers between pilled, plain and circled figures (the font's figure-building system)",
+      "learn": "Demonstrate a figure system with the brand's own vocabulary (block numbers), switching the style in place",
+      "reconstruction": {
+        "layout": "Card ~1360×780, ~40px radius; select pill centred near the top; 5 centred lines ~75px apart",
+        "typography": "Lines ~60–75px Unbounded, wght stepping from Light to Black; pills drawn by the font's enclosing figures",
+        "palette": [
+          "#7b00ff",
+          "#ffffff"
+        ],
+        "behaviour": "Select changes the OpenType feature (stylistic set, ss02 recorded on the page) applied to the figures",
+        "content": "'Block number' + figures",
+        "assets": "none",
+        "html": "select.nav.btn (Pilled figures / Plain figures / Circled figures)"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "cheeky, explanatory",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "toggle",
+        "explanation": "prose"
+      },
+      "look": "Two centred paragraphs on why variable fonts matter, then '1-size-fits-none :)' in big black type with a single dark pill slider underneath",
+      "feel": "Light-hearted",
+      "ux": "Drag the slider (100–900) to change the weight of the phrase",
+      "learn": "A one-line joke headline plus one slider is enough to explain a weight axis",
+      "reconstruction": {
+        "layout": "~790px; text column ~520px centred; headline centred below on 2–3 lines; slider ~330px wide, 20px tall dark track with white knob",
+        "typography": "Paragraphs ~20px Unbounded Regular centred; headline ~110px Unbounded at the slider weight (default 400)",
+        "palette": [
+          "#fefdfe",
+          "#010101",
+          "#333333"
+        ],
+        "behaviour": "input[type=range] sets font-weight on the headline",
+        "content": "'1-size-fits-none :)'",
+        "assets": "none",
+        "html": "input#font-weight[type=range][min=100][max=900][step=1]"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "design-details",
+      "variant": "copyable-animation-cards",
+      "newVariant": true,
+      "variantDefinition": "Cards that each play a variable-font animation on a UI-like sample (a button label, a headline) on hover or in a loop, each with a 'Copy CSS code' button that copies the keyframes so visitors can reuse the effect",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "developer-friendly, slick",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "none"
+      },
+      "look": "Two white outlined cards side by side: a purple pill button reading 'Truly decentralized' (letters as separate spans) and 'Future-proof' in big black type, each with a 'COPY CSS CODE' pill under it",
+      "feel": "Practical, slick",
+      "ux": "Hovering a card plays its animation (per-letter weight wave on the button, wdth/wght keyframes on the headline, captured at wdth 85 wght 100); the button copies the CSS",
+      "learn": "Ship the animation, not just the demo: a copy button next to each variable-font effect turns the specimen into a snippet library",
+      "reconstruction": {
+        "layout": "~620px; two equal cards ~660×520 with 1px black border and ~30px radius; sample centred, copy pill bottom-centre",
+        "typography": "Button label ~28px Unbounded Light white on purple pill; 'Future-proof' ~80px Unbounded Bold; copy pills 12px uppercase",
+        "palette": [
+          "#fefdfe",
+          "#010101",
+          "#7b00ff"
+        ],
+        "behaviour": "Hover on .hover.wrapper triggers keyframes (svelte font-animation on 'wdth'/'wght'); per-letter <i> spans for staggered animation; copy to clipboard",
+        "content": "Polkadot claims as UI labels",
+        "assets": "none",
+        "html": "div.hover.wrapper > div.col > span.btn-preview > span.center > i×n; button.btn.big 'Copy css code'"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "confident, explanatory",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "'Anatomy' heading and 'Distinctive forms and unconventional details, as disruptive as the movement that inspired them.', then 'ENDLESS' and 'possibilities' at display size with purple dots on the letters joined by thin leader lines to small purple captions (Extend width, 90 degree terminals, Chevron stems, Large x-height with short extenders, Chevron detailing, Side-eye counters, Mix of humanist & grotesk forms, Narrow apertures)",
+      "feel": "Technical yet lively",
+      "ux": "A magnifier lens follows the cursor over the words, showing an enlarged view of the detail under it",
+      "learn": "Pin captions with dot-and-line leaders on two display words and add a cursor magnifier so visitors inspect details at their own pace",
+      "reconstruction": {
+        "layout": "~960px; heading centred, intro 520px centred; two words ~1300px wide each, ~280px tall, 9 dots with captions alternating above (.infos.top) and below (.infos.bottom), leader lines ~40px",
+        "typography": "Heading ~60px Unbounded Black; intro ~20px Regular; words ~280px Unbounded Black ('ENDLESS' caps, 'possibilities' lowercase); captions ~11px Unbounded purple centred",
+        "palette": [
+          "#fefdfe",
+          "#010101",
+          "#7b00ff"
+        ],
+        "behaviour": "A circular .cursor-magnifier clone of the word is scaled up and clipped to a lens following the pointer; dots static",
+        "content": "Design notes as short captions",
+        "assets": "none",
+        "html": ".dot ×9; .infos.top / .infos.bottom; .preview-magnifier > .magnifier.preview; .cursor-magnifier"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "open, generous",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "A full-screen wall of ~50 marquee rows of 'UNBOUNDED' in widely spaced caps, with two black pill buttons 'DOWNLOAD' and 'GITHUB' in the middle",
+      "feel": "Expansive, endless",
+      "ux": "Rows scroll sideways (alternating); Download fetches Unbounded-Polkadot.zip from the site, GitHub links to the w3f/unbounded repo",
+      "learn": "End on the name repeated to infinity behind the download: the visual pun ('unbounded') and the CTA in one screen",
+      "reconstruction": {
+        "layout": "Full-bleed ~925px; 50 rows ~18px pitch; buttons stacked centre (~240×60 pills)",
+        "typography": "Rows ~16–33px Unbounded Regular uppercase, letter-spacing ~1em; buttons ~22px uppercase white on black",
+        "palette": [
+          "#fefdfe",
+          "#010101"
+        ],
+        "behaviour": "CSS marquees started by intersection (.intersect.in); buttons static",
+        "content": "Name only",
+        "assets": "none",
+        "html": ".download > .marquee-wrapper (50 × .marquee) + a.download-btn ×2"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "collaborative, tidy",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal"
+        ]
+      },
+      "look": "Centred 'Unbounded.' and 'A joint collaboration between Koto, NaN, Parity Technologies, and Web3 Foundation for Polkadot Network.', the Polkadot logo, '© 2026 WEB3 FOUNDATION', 'LEGAL DISCLOSURES', 'PRIVACY'",
+      "feel": "Clean, official",
+      "ux": "Partner names and legal items are links",
+      "learn": "Credit every partner in one sentence of linked names above the legal lines",
+      "reconstruction": {
+        "layout": "~585px; everything centred in a ~440px column; logo ~120px wide",
+        "typography": "~20px Unbounded Regular for the credit; legal lines ~11px uppercase",
+        "palette": [
+          "#fefdfe",
+          "#010101",
+          "#e6007a"
+        ],
+        "behaviour": "none",
+        "content": "Credits to Koto (design), NaN, Parity, Web3 Foundation",
+        "assets": "Polkadot logo"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/kinetic-type",
+    "story/large-text-intro",
+    "family-overview/style-word-grid",
+    "type-tester/slider-sandbox",
+    "language-support/diacritic-word-wall",
+    "glyph-table/glyph-inspector",
+    "design-details/feature-before-after",
+    "design-details/axis-explainer",
+    "design-details/copyable-animation-cards",
+    "design-details/annotated-specimen",
+    "checkout/free-download",
+    "footer/credits-colophon"
+  ]
+}

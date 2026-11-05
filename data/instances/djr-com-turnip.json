@@ -1,0 +1,350 @@
+{
+  "slug": "djr-com-turnip",
+  "extractedBy": "agent",
+  "summary": "An older-template DJR page for Turnip, a rugged Bookman-and-Cheltenham-flavoured text face, dressed as a 19th-century American book on grainy cream paper with rust-red ornaments. Almost every specimen is a static SVG drawing rather than live text: a Mark Twain paragraph that climbs through the weights, a first-person profile, and a long feature tour (weights, alternates, short f, figures, small caps and the florets, borders, swelled rules and folio curls that ship with the font) before the standard DJR cart with distributor links.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "typeset-page",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "rustic, 19th-century, bookish",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "On grainy cream paper, 'TURNIP' in widely spaced small caps inside a rust-red rectangular border of square floret blocks with corner pieces, and 'TRY   BUY' in small red caps beneath; a swelled-rule ornament divider follows",
+      "feel": "A modest title page from a county printer",
+      "ux": "Try submits a form that adds the Testing licence to the cart; Buy jumps to #buy",
+      "learn": "Frame the name with the font's own border ornaments (sides plus corner blocks): the hero shows a feature the buyer will find in the glyph set",
+      "reconstruction": {
+        "layout": "Block 1440×401 under the 33px red site bar; border frame ~980×260px centred (x≈230–1210, y≈50–310), name centred in it; CTA row centred ~50px below; next a full-width swelled rule (~1000px, 84px band)",
+        "typography": "Name ~32px Turnip small caps, letter-spacing ~0.15em, near-black; CTAs ~15px Turnip small caps red, ~40px apart",
+        "palette": [
+          "#f4ece1",
+          "#c03a15",
+          "#ce8d77",
+          "#2a2420"
+        ],
+        "behaviour": "none",
+        "content": "Name only, plus Try/Buy",
+        "assets": "turnip_title.svg (name and border drawn as one SVG), turnip_dash.svg divider, paper-grain background",
+        "html": "section.infobar > .wrapper > img.fill[src=turnip_title.svg] + .try-buy-pdf > form(input.button[value=Try], fields[license]=Testing) + a.button[#buy]"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "foundry house style",
+        "mobile": "adapts"
+      },
+      "look": "DJR's older 33px site header, tinted Turnip's rust red with cream caps (never cut as a block, attached to 00): 'DAVID JONATHAN ROSS' left; FONTS, CLUB, TYPESET, GLYPHS, NOTES, ABOUT, Sign in, Cart right",
+      "feel": "Page-tinted foundry chrome",
+      "ux": "Fonts toggles a sub-list of series; MENU on mobile",
+      "learn": "Tint the shared header to the specimen's accent colour",
+      "reconstruction": {
+        "layout": "Static bar 1440×33px; name left, links right in the content wrapper",
+        "typography": "~10px Input Sans Narrow uppercase, tracked, cream",
+        "palette": [
+          "#c03a15",
+          "#f2ebe0"
+        ],
+        "behaviour": "js-nav-sub-list toggle on Fonts",
+        "content": "Foundry navigation",
+        "assets": "none",
+        "html": "header.site-header > nav > #nav-container > h2.site-title + ul#main-nav > li.js-nav-sub-list.site-nav-fonts"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "folksy, literary",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "paragraph",
+        "interactive": false
+      },
+      "look": "One big paragraph from Twain's 'Jumping Frog' in near-black, whose lines step heavier every two lines while alternating roman and italic: Light small-caps opening 'WELL, THISH-YER SMILEY', Light Italic, Book, Book Italic, Regular, Italic, Medium … down to Black Italic at the end; a tiny italic credit line below",
+      "feel": "A tall-tale reading that slowly gains weight, like the frog",
+      "ux": "static (an SVG image, not live text)",
+      "learn": "Run one continuous text through every style in weight order, pairing each roman with its italic: the family overview reads as a passage instead of a list, and the jump between steps is visible line to line",
+      "reconstruction": {
+        "layout": "Block 1440×1511; text measure ~976px centred (x≈236–1212), 24 lines at ~57px leading; the credit ~10px below at the left of the measure",
+        "typography": "~44px Turnip, two lines per style: Light, Light Italic, Book, Book Italic, Regular, Italic, Medium, Medium Italic, Bold, Bold Italic, Black, Black Italic; opening words in small caps; credit ~11px italic with a red link",
+        "palette": [
+          "#f4ece1",
+          "#1e1a17",
+          "#c03a15"
+        ],
+        "behaviour": "none",
+        "content": "Mark Twain, 'The Celebrated Jumping Frog of Calaveras County' (dialect copy chosen for the font's rustic tone)",
+        "assets": "turnip_oneline.svg (the whole paragraph is a pre-drawn SVG)",
+        "html": "section#sample > .wrapper > img.fill[src=turnip_oneline.svg] + .small-caption > cite"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "candid, self-deprecating",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "'PROFILE' between two red floret glyphs, then nine short paragraphs in Turnip at book size: 'When you say a typeface is horsey, it is rarely a compliment.' through Lowell storefront signs, Lawson's Anatomy of a Typeface, the 1930 Pynson Printers Tom Sawyer in Monotype Bookman, Cheltenham, and the Reading Edge screen styles",
+      "feel": "Personal, workshop talk",
+      "ux": "One red link to the Reading Edge series",
+      "learn": "Open the essay with a self-deprecating hook ('horsey is rarely a compliment') and then argue the virtue: candour makes a quirky design persuasive",
+      "reconstruction": {
+        "layout": "Block 1440×996; heading centred at y≈40; text column ~860px (x≈290–1150), paragraphs ~16px apart",
+        "typography": "Heading ~14px Turnip small caps bold with red ornament glyphs either side; body ~17px Turnip Regular, leading ~1.5, italic book titles",
+        "palette": [
+          "#f5ece2",
+          "#1e1a17",
+          "#c03a15"
+        ],
+        "behaviour": "none",
+        "content": "Designer's first-person origin story and design intent ('dense, punchy paragraphs', 'round, doughy outer forms and crisp, angular inner counters')",
+        "assets": "floret_l.svg / floret_r.svg heading ornaments"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "explanatory, folksy",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "'FEATURES': rust-red samples on cream, each followed by a paragraph with a bold run-in head. Pairs: Regular vs Book ('But still he was lucky, uncommonly lucky…'), default vs ball-terminal s ('Impressive earnestness, also sincerity'), default italic vs single-storey g, non-cursive k, non-cursive p and swash k ('Frogs skipping to kingpins of Poughkeepsie'), each labelled in tiny italics; then single samples for short f, text figures, small caps, and under 'AND OTHER SKETCHES' the ornaments: a 'MARK TWAIN' lockup with florets, a 'Celebrated Jumping Frog' title in a block border, swelled rules and '256' folio curls",
+      "feel": "A thorough, chatty tour by the designer",
+      "ux": "static (all samples are SVG images)",
+      "learn": "Give every feature the same unit (sample in the accent colour, tiny label, run-in-headed paragraph) and write the sample phrase so it is crowded with the glyphs that change",
+      "reconstruction": {
+        "layout": "Block 1440×3755; samples ~980px wide centred (x≈230–1210); paragraphs indented to ~860px (x≈290–1150); ~80px between features; labels ~6px under each sample line",
+        "typography": "Samples ~45–55px Turnip in red (#c03a15) in the relevant style; labels ~10px Turnip Italic red; run-in heads ~12px Turnip Bold small caps; body ~14px Turnip Regular near-black",
+        "palette": [
+          "#f4ede2",
+          "#c03a15",
+          "#1e1a17",
+          "#e6c7b6"
+        ],
+        "behaviour": "none",
+        "content": "Twain-flavoured phrases and invented ones ('Frogs skipping to kingpins of Poughkeepsie', 'He made a $40 bet on May 16, 1849…', 'Published in The Saturday Press'); real technical notes: borders built from side and corner blocks on the em square, dash extender lengthens rules by one em, folio curls nod to the Pynson Printers Tom Sawyer",
+        "assets": "One SVG per sample (turnip_weights_regular.svg, turnip_salt_italic_g.svg, turnip_onum.svg, turnip_smcp.svg, turnip_ornm_borders.svg …)",
+        "html": "img.fill[alt=feature] followed by p > span.subhead (run-in head) + text"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "credible, editorial",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "grid"
+      },
+      "look": "'TURNIP IN USE' between red florets, 'FROM FONTS IN USE' in tiny red caps, then two rows of three square thumbnails (Houstonia '50 Best Mexican', Civil War Monitor, 'Top Burgers', 'Suffer the Children', 'Wood Type Evolved', a German book cover)",
+      "feel": "Magazine-rack proof of use",
+      "ux": "Each thumbnail links to its Fonts In Use entry; each has a span.use-name with the entry title (probably a hover label)",
+      "learn": "Six well-chosen editorial uses are enough proof for a text face",
+      "reconstruction": {
+        "layout": "Block 1440×619; heading centred; grid ~880px wide, 3 columns of ~220px squares with ~110px gaps",
+        "typography": "Heading ~14px Turnip small caps bold; credit ~10px Input Sans Narrow uppercase red",
+        "palette": [
+          "#f4ede4",
+          "#c03a15",
+          "#1e1a17"
+        ],
+        "behaviour": "Likely a hover label from span.use-name (older template; not seen in the capture)",
+        "content": "Real Fonts In Use entries",
+        "assets": "Fonts In Use thumbnails",
+        "html": ".use-grid > .use-case > a > img + span.use-name"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "checkout",
+      "variant": "on-page-cart",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "pangram",
+        "tone": "transparent, practical",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": true,
+        "free": false
+      },
+      "look": "'GET TURNIP' between florets, then the cart with rust-red section bars: LICENSE SIZES (8 cards), PREVIEW TEXT, FULL SERIES PACKAGE (Turnip Series, 16 styles, $300), OTHER PACKAGES (Starter Pack $100, Book Starter Pack $100, Standard 12 styles $250, Reading Edge 4 styles $100), INDIVIDUAL STYLES ($50/style, 25% off roman/italic pairs), a disabled buy button, TURNIP ELSEWHERE (Type Network, Fontstand, Adobe Fonts with logos) and ADDITIONAL INFORMATION (formats, language support, cases, figures, stylistic alternates)",
+      "feel": "Plain and complete; the paper texture continues under the cart",
+      "ux": "Licence radio reprices; Preview text replaces every pangram; tick packages or styles and buy; or go to a distributor for webfonts, rentals or Creative Cloud",
+      "learn": "List the third-party channels (rental, subscription, hosted webfonts) inside the cart with one line on what each is for: buyers who can't buy direct still convert",
+      "reconstruction": {
+        "layout": "Centred ~980px column; red bars ~30px; licence cards 4×2 (~235px); package cards with header row and clipped pangram rows ~48px; distributor list with 20px logos",
+        "typography": "Bars ~10px Input Sans Narrow Bold uppercase cream; card text Input Mono red; pangram rows ~27px Turnip in each style, near-black; prices ~20px Turnip red",
+        "palette": [
+          "#f1e7dc",
+          "#c03a15",
+          "#d8d1c8",
+          "#1e1a17"
+        ],
+        "behaviour": "license-tier-option radios with data-multiplier; text input mirrors into rows; package cards expand with ▼; no axis sliders (Turnip is static)",
+        "content": "'Turnip Light. The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.' per style",
+        "assets": "Distributor logos (Type Network, Fontstand, Adobe Fonts)",
+        "html": "h3.license-size-label 'Turnip Elsewhere' + ul > li.fontstand-link > a > img[src=/assets/logos/fontstand.svg]"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "foundry house style",
+        "mobile": "adapts",
+        "contains": [
+          "contact",
+          "socials",
+          "newsletter",
+          "other-fonts",
+          "legal"
+        ]
+      },
+      "look": "DJR's footer on a grainy rust-red field with cream text: three columns (David Jonathan Ross feeds + Elsewhere; Font of the Month Club + Typefaces; Typeset, Glyph Navigator, Notes, About, Contact, Licensing, Press, Privacy, Tools), a thin black strip at the bottom",
+      "feel": "Warm, page-tinted",
+      "ux": "Plain links",
+      "learn": "Flip the page's accent into the footer background so the page ends in its signature colour",
+      "reconstruction": {
+        "layout": "Full-bleed 540px; three columns ~400px apart from x≈248; ~16px black bottom strip",
+        "typography": "~12px Input Sans Narrow; headings uppercase bold cream; links lighter cream",
+        "palette": [
+          "#be3915",
+          "#f2ebe0",
+          "#260c08"
+        ],
+        "behaviour": "none",
+        "content": "Foundry links and families",
+        "assets": "Grain texture"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "01",
+      "reason": "tiny decorative divider: swelled rule with dots (turnip_dash.svg)"
+    },
+    {
+      "block": "03",
+      "reason": "tiny decorative divider (turnip_dash.svg), same as #01"
+    },
+    {
+      "block": "05",
+      "reason": "tiny decorative divider (turnip_dash.svg)"
+    },
+    {
+      "block": "07",
+      "reason": "tiny decorative divider (turnip_dash.svg)"
+    },
+    {
+      "block": "09",
+      "reason": "tiny decorative divider (turnip_dash.svg)"
+    }
+  ],
+  "sequence": [
+    "hero/typeset-page",
+    "family-overview/style-word-grid",
+    "story/essay",
+    "design-details/feature-before-after",
+    "specimen-showcase/in-use-mockups",
+    "checkout/on-page-cart",
+    "footer/link-columns"
+  ]
+}

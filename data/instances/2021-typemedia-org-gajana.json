@@ -1,0 +1,290 @@
+{
+  "slug": "2021-typemedia-org-gajana",
+  "extractedBy": "agent",
+  "summary": "One student page of the TypeMedia 2020/21 graduation site (shared template): a cover image of 'Anguilla', a three-column text panel (links, project blurb, designer bio), then a column of full-width 16:9 images (eel illustrations, glyph scatters, themed word stacks, a text setting) and a 'Process' chapter of scans, proofs and a desk photo. Images fade in, and the page background flips between white and black as the text panels scroll in.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Sticky slim bar: hamburger at the left (opens an overlay menu), ← ↑ → arrows to the previous student, the index and the next student, 'About TypeMedia' at the right (opens a sidebar); it turns black over the dark part of the page and is stamped across many crops"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "calligraphic, clean, academic",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "scroll",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "The name 'Anguilla' in the black display style, with a looping calligraphic swash 'A', filling a white image band edge to edge under the slim nav",
+      "feel": "Elegant, confident, hand-made",
+      "ux": "The cover image fades in on load (grey to black over ~1.5s); 'Jump to process ↓' sits just below",
+      "learn": "A cover image of the name in the display cut, with the template doing everything else, makes a strong first screen for a student project",
+      "reconstruction": {
+        "layout": "Image 1411×400 at x=14, y=93 (14px side margins, 2rem bottom margin); name spans ~95% of the width, centred vertically",
+        "typography": "'Anguilla' as an image, ~330px cap height, display style with a swash initial; nav ~19px CoFo Sans",
+        "palette": [
+          "#fefefe",
+          "#040404",
+          "#afafaf"
+        ],
+        "behaviour": "AOS 'fade-in' (data-aos-duration 1500ms) on the cover image",
+        "content": "Family name",
+        "assets": "Cover JPG (img/gajana/gajana-cover.jpg)",
+        "html": "img[data-aos=fade-in] above .grid.panel[data-color]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "designer-bio",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "academic, personal",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Three text columns: 'Jump to process ↓' at the left, the bold title 'Anguilla' and a six-line description in the middle, and 'Gajana Aslanjan' with a short bio plus mail, website and Instagram links at the right; white on black in the captured state",
+      "feel": "Calm, catalogue-like",
+      "ux": "The page background switches between white and black (body.color-white / color-black) as this panel scrolls into view; anchor link jumps to the Process panel",
+      "learn": "A three-column panel (anchor links, project blurb, designer bio) gives a student or small-foundry project page all its facts in one band",
+      "reconstruction": {
+        "layout": "Full-width panel ~300px tall on a 12-column grid with 14px gutters: anchor column ~250px at the left, description from x≈390 ~620px wide, bio column from x≈1090 ~330px wide",
+        "typography": "Title ~19px CoFo Sans Bold; description ~19px CoFo Sans Regular, leading ~1.4; bio ~14px (smaller-font-size) with bold link values",
+        "palette": [
+          "#030303",
+          "#ffffff",
+          "#4f4f4f"
+        ],
+        "behaviour": "Body colour class toggles between white and black per panel's data-color on scroll (CSS transition)",
+        "content": "Real project description (text-to-display family: regular text, bold, display; flat-nib research) and designer bio with contacts",
+        "assets": "none",
+        "html": ".grid.panel[data-color] > .scroll-links, .project-description > h1.heading, .smaller-font-size > h3 + p + ul"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "15"
+      ],
+      "type": "interlude",
+      "variant": "full-bleed-image",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "playful, graphic",
+        "mobile": "adapts"
+      },
+      "look": "Flat vector illustrations of the font's namesake, an eel: a green eel with a sparkling eye coiled over grey, and later an abstract close-up of green eel curves on white",
+      "feel": "Witty, colourful pause",
+      "ux": "Static images that fade in",
+      "learn": "Illustrate the font's name (Anguilla = eel) between specimen panels to give a text face a mascot and a colour",
+      "reconstruction": {
+        "layout": "Image 1411×794 (16:9) with 14px side margins, ~19px gap between images",
+        "typography": "none (no type in the illustrations)",
+        "palette": [
+          "#077330",
+          "#094908",
+          "#b1b0b1",
+          "#0da949",
+          "#42af49"
+        ],
+        "behaviour": "AOS fade-in on scroll",
+        "content": "Eel illustrations",
+        "assets": "Two flat vector illustrations (gajana-1.jpg, gajana-p-4 area)"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "05",
+        "07",
+        "09"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "lively, calligraphic",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "A run of 16:9 specimen images: rows of scattered, rotated glyphs ('ja deg3 zG!?*ň9', 'ahegy i'G.rAc', 'alsze PndGf') on grey-over-white bands, and a large text setting about eels mixing Regular, Bold and the swashy display italic ('Eels are elongated fish…')",
+      "feel": "Energetic, hand-moved",
+      "ux": "Static images that fade in one by one",
+      "learn": "Scatter and rotate single glyphs at display size to show a font born from tool movement, then follow with real running text to prove it still reads",
+      "reconstruction": {
+        "layout": "Each image 1411×794 at x=14; glyph scatters in two rows of 6–7 glyphs at ~250–330px, top row on a grey band (#afafaf), bottom on white; text image shows 5 lines at ~95px, cropped at the right edge",
+        "typography": "Anguilla Regular, Bold and Display; glyphs rotated ±15°; the text setting mixes weights mid-sentence",
+        "palette": [
+          "#fafafa",
+          "#070707",
+          "#b1b1b1",
+          "#2f2f2f"
+        ],
+        "behaviour": "AOS fade-in on scroll",
+        "content": "Glyph selections with diacritics and punctuation; Wikipedia-style eel facts ('ranging in length from 5 cm (2 in) in the one-jawed eel (Monognathus ahlstromi) to 4 m')",
+        "assets": "JPG specimen images (gajana-2 … gajana-7)"
+      }
+    },
+    {
+      "blocks": [
+        "06",
+        "08",
+        "10"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "multilingual, witty",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Three images of three stacked, centred words each: 'American / Anguilla / Magazine' in the swash display, 'Électrifié / Ōkeanós / Predators' in Bold, 'Åletjønn / Električna / WĘGORZ' in Regular",
+      "feel": "Themed and international",
+      "ux": "Static images",
+      "learn": "Pick eel words in several languages so a themed word stack also shows diacritics and each style",
+      "reconstruction": {
+        "layout": "Each 1411×794, three centred lines of ~200px type with tight leading; the first image uses a grey top band",
+        "typography": "One style per image: Display (swash caps), Bold, Regular; mixed case and all caps ('WĘGORZ')",
+        "palette": [
+          "#fcfcfc",
+          "#050505",
+          "#afafaf"
+        ],
+        "behaviour": "AOS fade-in on scroll",
+        "content": "Eel-themed words in French, Greek transliteration, Norwegian, Croatian and Polish",
+        "assets": "JPG specimen images"
+      }
+    },
+    {
+      "blocks": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "16"
+      ],
+      "type": "story",
+      "variant": "making-of",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "candid, studious",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "archival",
+          "process",
+          "photo"
+        ],
+        "length": "medium"
+      },
+      "look": "A black 'Process' panel with one first-person paragraph, then collage images of the research: Gaelic manuscript scans, flat-brush calligraphy, 'dyna mic' and 'eanbgsi' brush tests, Arabic letters, printed proofs with pencil marks and screenshots, ending on a photo of the desk covered in prints",
+      "feel": "Honest, workshop-like",
+      "ux": "'Jump to top ↑' link; the page background flips to black at the panel; images fade in",
+      "learn": "Show the path from historical sources and brush experiments to printed proofs as dense collages after a short first-person paragraph",
+      "reconstruction": {
+        "layout": "Text panel 1440×508: link column left, paragraph from x≈390 ~620px wide; then four 1411×794 collage images, each a tight mosaic of 6–12 scans and proofs on white",
+        "typography": "Heading ~19px CoFo Sans Bold; paragraph ~19px Regular, leading ~1.4, white on black",
+        "palette": [
+          "#050505",
+          "#ffffff",
+          "#b3b3b1",
+          "#f6f5f4"
+        ],
+        "behaviour": "Body colour class toggles to black for this panel; AOS fade-in on images",
+        "content": "First-person process: flat brush and markers, acceleration and deceleration of the stroke, Gaelic handwritten script",
+        "assets": "Manuscript scans, calligraphy, proof scans, desk photo (gajana-p-1 … p-5)",
+        "html": ".grid.panel#process"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "A single centred 'Scroll up ↑' link on black, no legal text"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/designer-bio",
+    "interlude/full-bleed-image",
+    "specimen-showcase/poster-series",
+    "specimen-showcase/word-stack",
+    "story/making-of",
+    "footer/slim-legal-bar"
+  ]
+}

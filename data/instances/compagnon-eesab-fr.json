@@ -1,0 +1,307 @@
+{
+  "slug": "compagnon-eesab-fr",
+  "extractedBy": "agent",
+  "summary": "A student-made free typewriter family (EESAB Rennes, five styles drawn by five designers) presented as one black specimen grid of uniform cells with hairline borders: a big glyph, a sentence, a date or a note per cell. All 145 cells are contenteditable, and a slider in the sticky header sets how many cells sit on a row (1–6), so the whole sheet reflows and rescales.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "playful, mechanical, friendly",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "whole-family",
+        "navVisible": true
+      },
+      "look": "'*Compagnon:)' spelled one character per cell across two rows of the 6-column black grid, white glyphs filling each cell; a third row names the styles (Light, Italic, Roman, Medium, Script, each in its own style) and ends with a big ↙ arrow",
+      "feel": "Cheeky, typewriter-like, systematic",
+      "ux": "Every letter cell is editable; style names jump to their chapter; ↙ jumps to the download cell",
+      "learn": "Spell the name one glyph per grid cell: the hero already is the specimen grid that the rest of the page continues, and the smiley ':)' sets the tone",
+      "reconstruction": {
+        "layout": "Grid of 6 equal columns (240px each at 1440) under a 28px sticky white header; cells ~240×310px with 1px grey (#4e4e4e) borders; rows 1–2 one glyph per cell, row 3 style labels centred low in their cells, ↙ arrow cell last",
+        "typography": "Glyph cells: Compagnon Medium (the '*' in Roman), font-size ~341px with line-height 0.45 (size computed as a fraction of the cell width); style labels ~32px in each style; header ~11px Compagnon Roman caps",
+        "palette": [
+          "#040404",
+          "#f7f7f7",
+          "#a8a8a8",
+          "#4e4e4e"
+        ],
+        "behaviour": "Contenteditable glyph cells; font sizes recomputed from data-size × cell width on resize or slider change (jquery.fittext)",
+        "content": "'*Compagnon:)' plus the five style names",
+        "assets": "none",
+        "html": "section#grille > div.bloc.<style>.blackandwhite[data-profil=large][data-size=0.07][data-lineheight=0.45][data-blocperline=6] > p.editable[contenteditable]"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "modest, academic",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Five cells of small typewriter text in a row, one paragraph each: a family of five styles; inspired by the online Typewriter Database archive; each weight built on references from a significant period; who drew which style; 'you may use, modify and redistribute it freely'",
+      "feel": "Plain, documentary",
+      "ux": "Text cells are editable like the rest of the grid",
+      "learn": "Split the intro into one idea per cell so the story keeps the specimen-sheet rhythm",
+      "reconstruction": {
+        "layout": "One grid row of 240×310 cells; text top-left with 10px padding; sixth cell holds a small ornament",
+        "typography": "~11px Compagnon Roman, leading ~1.3, white on black, French",
+        "palette": [
+          "#070707",
+          "#f7f7f7",
+          "#282828"
+        ],
+        "behaviour": "Contenteditable",
+        "content": "Real description of the project (French)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "comparative, crisp",
+        "mobile": "adapts",
+        "structure": "matrix",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "Rows of the same glyph in the five styles side by side, one per cell: 'a' (Light, Italic, Roman, Script, Medium), 'A', '1', each row closed by a small ornament cell; then 'ici...' in big Roman letters",
+      "feel": "Clear, comparative",
+      "ux": "Cells are editable; no labels, the column order follows the style row of the hero",
+      "learn": "A glyph × style matrix of single characters shows how different five 'typewriter' styles really are, faster than any style list",
+      "reconstruction": {
+        "layout": "3 rows × 6 columns of 240×310 cells; one glyph per cell centred, sixth column a tiny ornament",
+        "typography": "Glyphs ~280–340px in Compagnon Light, Italic, Roman, Script and Medium",
+        "palette": [
+          "#060606",
+          "#f8f8f8",
+          "#2d2d2d"
+        ],
+        "behaviour": "Contenteditable",
+        "content": "Single glyphs a, A, 1 per style",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "type": "specimen-showcase",
+      "variant": "modular-grid",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "witty, archival, typewriter",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "grid"
+      },
+      "look": "Six chapters (Light, Italic, Roman, Light & Roman Monofaked, Medium, Script), each opened by a white cell 'Compagnon Light' etc., then the designers' names, the reference date range ('1873 – 2018', '1884 2018', '1313 2018'), huge single glyphs (2, @, ¶, ß, %, f, z, &, $), quirky French sentences ('Tac! Tac! Tac! Cling!', 'Olivia aime les bonbons…', 'Trump, jugez-y fake news d'ex-bolchevique !') and small notes on the historical typewriter source, all in uniform black cells",
+      "feel": "Archive drawer, playful, rigorous",
+      "ux": "Every cell can be retyped; the header slider changes cells per row; the 'STYLES' menu jumps to each chapter",
+      "learn": "One uniform cell grid can hold every kind of specimen content (glyph, pangram, date, note, credit); a white cell is enough to mark each chapter",
+      "reconstruction": {
+        "layout": "Continuous 6-column grid, cells 240×310px with 1px grey borders; chapter label cell inverted (white bg, black text); cell profiles: large (single glyph), medium (short sentence centred ~32px), small (paragraph top-left ~11px)",
+        "typography": "Large glyphs ~340px (line-height 0.45) in the chapter's style; sentences ~28–32px centred, some italic/caps; notes ~11px; features onum and ss01 used in places",
+        "palette": [
+          "#070707",
+          "#f8f8f8",
+          "#292929",
+          "#ababab"
+        ],
+        "behaviour": "Contenteditable cells; font sizes recomputed from cell width (data-size factor) when the number of columns changes",
+        "content": "Themed French sentences and pangrams about typewriters ('Ah, les bonnes vieilles machines à écrire!'), designer names, reference dates, notes on the historical models (Remington, Goudy)",
+        "assets": "none",
+        "html": "div.bloc.<light|italic|roman|medium|script>[.middle|.left|.whiteback][data-profil=large|medium|small][data-size][data-lineheight][data-padding] > p.editable; chapter anchors #lightpart, #italicpart, #romanpart, #romanduopart, #mediumpart, #scriptpart"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "type-tester",
+      "variant": "global-toolbar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "minimal, tool-like",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "color"
+        ],
+        "scope": "global",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Sticky white header bar over the grid: 'COMPAGNON', 'STYLES' (hover menu), 'Roman selectionné', and at the right a long black slider with a round knob plus a half-filled circle colour-mode icon",
+      "feel": "Quiet, utilitarian",
+      "ux": "The slider (1–6, default 6) sets the number of cells per row, which rescales every sample on the page; the circle icon switches the colour mode of all cells; any cell can be clicked and retyped",
+      "learn": "Make the grid density the size control: fewer columns means bigger samples everywhere, with no per-sample settings",
+      "reconstruction": {
+        "layout": "Header fixed at the top, full width, ~28px tall; slider ~350px wide right-aligned, colour icon 22px at the far right",
+        "typography": "~11px Compagnon Roman caps, black on white",
+        "palette": [
+          "#f7f7f7",
+          "#040404"
+        ],
+        "behaviour": "rangeslider.js input (min 1, max 6, step 1) → data-blocperline on every .bloc → width = 100%/n, font-size recomputed; #colortrigger toggles a colour mode (cells carry class .blackandwhite); 145 p.editable[contenteditable]",
+        "content": "Default cell texts are the specimen itself",
+        "assets": "colour.svg icon",
+        "html": "header > #logo, #styleselector (#origin + #onhover anchors), #styleselected, #divisions_selector > input[type=range][min=1][max=6], #color_modes > img#colortrigger"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "generous, simple",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "In the last grid row: a big ↑ (back to top) cell, then a white cell 'Télécharger Compagnon', then a big '&'",
+      "feel": "Casual, inviting",
+      "ux": "The white cell downloads Compagnon_Family.zip directly; the free-use licence is stated in the intro cells; the hero's ↙ arrow links here",
+      "learn": "Make the download one inverted cell of the specimen grid: it stands out without breaking the system",
+      "reconstruction": {
+        "layout": "Cells 240×~300px; download cell white with centred two-line label",
+        "typography": "Label ~32px Compagnon Roman, black on white; arrows ~300px",
+        "palette": [
+          "#030303",
+          "#fbfbfb"
+        ],
+        "behaviour": "Direct file link; ↑ anchors to #anchortop",
+        "content": "'Télécharger Compagnon'",
+        "assets": "Font zip",
+        "html": "div.bloc.middle.whiteback#downloadlink > a[href=Compagnon_Family.zip]"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "grateful, academic",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "contact"
+        ]
+      },
+      "look": "Three small-text cells at the end of the grid: 'Crédits' (EESAB Rennes, type design workshop, 5th year graphic design, 2018, 'Made in France, Made in Brittany'), 'Les dessinateurs' (five designers with their websites) and 'Remerciements' (teachers, Velvetyne Type Foundry, Typewriter Database)",
+      "feel": "Collegial",
+      "ux": "Designer names link to their portfolios",
+      "learn": "Keep credits inside the same grid cells as the specimen so the colophon is part of the sheet",
+      "reconstruction": {
+        "layout": "Three 240px cells side by side after the download cell, text top-left with 10px padding",
+        "typography": "~10px Compagnon Roman/Script headings in italic script ('Crédits', 'Les dessinateurs'), body ~10px Roman",
+        "palette": [
+          "#030303",
+          "#fbfbfb",
+          "#2d2d2d"
+        ],
+        "behaviour": "none",
+        "content": "School, workshop, designers with URLs, thanks",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Not cut as a block: the sticky white header's left side, 'COMPAGNON' (home), 'STYLES' revealing anchor links Light / Italic / Roman / Monofaked / Medium / Script on hover, and a static 'Roman selectionné' label"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/origin-reference",
+    "family-overview/style-word-grid",
+    "specimen-showcase/modular-grid",
+    "type-tester/global-toolbar",
+    "checkout/free-download",
+    "footer/credits-colophon"
+  ]
+}

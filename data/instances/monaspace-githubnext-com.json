@@ -1,0 +1,599 @@
+{
+  "slug": "monaspace-githubnext-com",
+  "extractedBy": "agent",
+  "summary": "GitHub Next's dark, Primer-styled product page for a free superfamily of five metric-compatible coding fonts (Neon, Argon, Xenon, Radon, Krypton), each with its own accent colour. It explains the two big ideas, mixing families inside code and 'texture healing' (contextual alternates that rebalance monospaced widths), with pinned scroll explainers, and ends with a CodeMirror playground, a toggleable ligature catalogue and a Download link to GitHub.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "product-landing",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "developer, polished, techy",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "whole-family",
+        "navVisible": true
+      },
+      "look": "Near-black field with a faint dot grid; 'monaspace' as a white outline wordmark showing its Bézier points, a small 'v1.400' tag, the tagline 'An innovative superfamily of fonts for code', white 'Download ›' and ghost 'Learn more ›' buttons, then five full-width lines of real code, each in another family and accent colour, bleeding off the edges",
+      "feel": "Slick, product-launch, nerdy",
+      "ux": "Static GitHub sub-brand bar ('GitHub / Monaspace'); the code lines are clickable (cursor-pointer) and pick the active family, which also drives the wordmark's font; lines alternate left- and right-aligned so they crop on opposite sides",
+      "learn": "Let the hero's code lines double as a family picker: each line is a sample in one member, and clicking it re-sets the wordmark",
+      "reconstruction": {
+        "layout": "Full-bleed ~1090px (1.2vh); sub-brand bar 64px; wordmark centred at y≈260, ~770px wide; tagline 24px below; button pair centred (Download 194×60 primary white, Learn more secondary outline); code band from y≈660: 5 rows of ~86px (py-20px), 100vw wide with overflow hidden, rows 1,3,4 left-aligned and 2,5 right-aligned",
+        "typography": "Wordmark: font-size min(10vw,10rem) = 144px, three stacked layers in a 1×1 grid: 'Neon Dots' outline with node points (-webkit-text-stroke 1px white), 'Neon Title' outline with a top-fading mask, and a filled layer at 10% via mask; version tag ~14px Monaspace in neon salmon; tagline 24px Mona Sans Regular; code lines max(1.5rem, min(3rem, 3vw)) = 43px in Neon, Argon, Xenon (italic slab), Radon (handwriting), Krypton, each in its accent colour with a soft glow (.glowtext)",
+        "palette": [
+          "#0d1017",
+          "#ffffff",
+          "#f9a58f",
+          "#f1e05a",
+          "#c5d97a",
+          "#7fd1c4",
+          "#b49cf4"
+        ],
+        "behaviour": "Code rows fade and slide in on load (framer-motion, opacity + transform), glow text; clicking a row sets --font/--font-dots/--font-title/--color-primary on the wrapper so the wordmark switches family (inferred from the wrapper's CSS variables); buttons use Primer's expandable arrow on hover",
+        "content": "Real code snippets in five languages: console.log(`Terminal dimensions: ${my_terminal.width}…`), $l_optimized_time = $timing_obj->get_optimized_time(…), std::transform(vec.begin(), …), let sumSensorReadings: u32 = (1..=10).filter(|x| x % 2…)",
+        "assets": "Faint dot-grid background (.bg-hero); GitHub octicon",
+        "html": "div[style=--font:var(--font-monaspace-neon);--font-dots…;--font-title…] > h1 grid of 3 .monaspace-settings layers; div.w-[100vw].flex.flex-col.overflow-hidden > div.cursor-pointer.text-[max(1.5rem,min(3rem,3vw))].font-monaspace-<family>.text-<family>-primary"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "manifesto, technical",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Three-line bold monospaced headline 'One superfamily. / Five fonts. / Three variable axes.' over two columns of small grey prose, the last sentence highlighted in salmon",
+      "feel": "Clear, confident pitch",
+      "ux": "static",
+      "learn": "State the system in a three-line count (superfamily, fonts, axes) and follow it with the problem in two short columns ending on one coloured sentence that names the promise",
+      "reconstruction": {
+        "layout": "Container 1280px (x=80), headline top-left ~3 lines × 60px; two text columns of ~560px with 64px gutter; ~450px tall before the family cards",
+        "typography": "Headline ~52px Monaspace Neon ExtraBold (wght 800), sentence case, tight leading 1.1; body 16px Mona Sans Regular, grey (#c9d1d9-ish), 1.5 leading; highlight sentence 16px semibold in neon salmon",
+        "palette": [
+          "#0d1017",
+          "#ffffff",
+          "#c9d1d9",
+          "#f9a58f"
+        ],
+        "behaviour": "none",
+        "content": "History of monospace from the teletype to IDEs, then the gap: code still has only colours and decorations for meaning",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "product, colour-coded",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "glyph",
+        "interactive": true
+      },
+      "look": "Five equal rounded cards in a row, each a two-letter monogram (Ne, Ar, Xe, Rn, Kr) in its family and accent colour, the family name below and a mono classification footer (Neo-grotesque sans, Humanist sans, Slab serif, Handwriting, Mechanical sans); the selected card has a salmon outline",
+      "feel": "Periodic-table, collectible",
+      "ux": "Cards are buttons in a radiogroup ('Select a font'); clicking one sets the active family for the playground below and the page accent",
+      "learn": "Name family members like chemical elements and give each a two-letter symbol card: the overview becomes a picker",
+      "reconstruction": {
+        "layout": "Row of 5 cards, 1280px total, each ~250×300px, gap 20px, 12px radius, 1px border #30363d; monogram centred at ~45% height, name below, footer strip 40px with hairline above",
+        "typography": "Monogram ~60px in the member's font (wght 400) and colour; name ~22px same font; footer 11px Monaspace in muted grey",
+        "palette": [
+          "#171a21",
+          "#2e2f34",
+          "#f9a58f",
+          "#f1e05a",
+          "#c5d97a",
+          "#7fd1c4",
+          "#b49cf4"
+        ],
+        "behaviour": "Selected card gets a 3px outline in currentColor; selection drives the playground's font family",
+        "content": "Element-style abbreviations of the five members",
+        "assets": "none",
+        "html": "div[aria-label='Select a font'] > button[style=font-family:var(--font-monaspace-<family>);color:var(--color-<family>-primary)] (outline-[3px] when active)"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "type-tester",
+      "variant": "code-playground",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "IDE, practical",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "weight",
+          "axes",
+          "features",
+          "presets",
+          "language"
+        ],
+        "scope": "global",
+        "defaultText": "code",
+        "export": false
+      },
+      "look": "A real code editor (line numbers, syntax colours) with language tabs JavaScript / HTML / CSS / Java / Python / C++ / PHP / F#, beside a sidebar of four sliders with live values, three checkboxes and a Theme select",
+      "feel": "Like trying the font inside your own editor",
+      "ux": "Pick the family with the cards above, a language tab swaps the sample program, the editor is fully editable; sliders for Font size 10–48 (16), Weight 200–800 (300, ticks per named weight), Width 100–125 (ticks Normal/SemiWide/Wide), Slant -11–0 (ticks Italic/Upright); checkboxes Texture healing (calt), Ligatures, Grid overlay; Theme select with 8 editor themes",
+      "learn": "For a coding font, test inside a real editor (CodeMirror) with editor themes and feature switches named by what they do (Texture healing, Ligatures) rather than by tag",
+      "reconstruction": {
+        "layout": "1280px wide, ~580px tall; editor panel ~830px (65%) with a tab strip (32px) and a 36-line scrolling CodeMirror; sidebar ~420px on the right: label + value row above each full-width range, 50px apart, then checkboxes and a select",
+        "typography": "Editor text in the selected Monaspace family at 16px default, wght 300, wdth 100, slnt 0; line numbers muted; UI labels 14px Mona Sans semibold with right-aligned numeric value",
+        "palette": [
+          "#0c0f16",
+          "#191c24",
+          "#282832",
+          "#f9a58f",
+          "#c9d1d9"
+        ],
+        "behaviour": "Ranges write font-size and font-variation-settings ('wght', 'wdth', 'slnt') on .cm-content; Texture healing toggles 'calt', Ligatures toggles ss01–ss10 + liga; Grid draws column guides on the monospaced grid; Theme select swaps the syntax-highlighting theme (Atom One Dark, Dracula, Darcula, GitHub Dark/Light, VS Code Dark, Xcode Dark/Light); range thumbs salmon with tick datalists",
+        "content": "A sample program per language (JavaScript: a Terminal_Dimensions class and timing functions with comments)",
+        "assets": "none",
+        "html": "input#font-size[type=range][min=10][max=48][list=font-size-tickmarks]; input#font-wght[min=200][max=800] + datalist option[label=ExtraLight…ExtraBold]; input#font-wdth[min=100][max=125]; input#font-slnt[min=-11][max=0]; 3 Primer checkboxes; select with 8 theme options; .cm-content[contenteditable=true][data-language=javascript]"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "use-case-samples",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "speculative, inventive",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "grid"
+      },
+      "look": "'Mix & Match' pill and 'What if?' heading, then a bento of three dark panels: 'merge' with each letter in a different family and colour (ghost letters above and below like a slot reel) and a shuffle button; a code snippet whose comments are set in Radon (handwriting) and docstrings in Xenon (slab); and 'What if Copilot had its own voice?' with a Before/After code pair where the suggested part is set in another family",
+      "feel": "Visionary, playful",
+      "ux": "Shuffle button rerolls the font of each letter of 'merge'; Copilot ghost text pulses (ghostpulse keyframes) and types in",
+      "learn": "Show what metric-compatible families make possible by assigning each kind of code text (comments, docstrings, AI suggestions) its own typeface in a real snippet",
+      "reconstruction": {
+        "layout": "Intro column ~520px; bento: row 1 two panels (~490px and ~710px wide, ~300px tall, 16px radius, inset darker background), row 2 one full-width panel 1250px with heading left, two short paragraphs right, code box below",
+        "typography": "Heading 'What if?' ~52px Neon ExtraBold; 'merge' ~70px, letters in Neon/Argon/Xenon/Radon/Krypton with their accent colours, faded duplicates above and below; code 14px; 'What if' in Neon Bold then 'Copilot had its own voice?' in Radon light grey; Before/After code 18px with the suggestion in a lighter weight and another family",
+        "palette": [
+          "#090c13",
+          "#181b22",
+          "#2a2c33",
+          "#f9a58f",
+          "#b49cf4",
+          "#7fd1c4"
+        ],
+        "behaviour": "Shuffle button picks a random family per letter with a vertical reel transition; ghostpulse/ghostpulse2/ghostpulse3 keyframes pulse the ghost text weight (wght ~283 captured mid-animation); a caret blinks in 'What if|'",
+        "content": "Real React/JS snippets: const [isClicked, setClicked] = React.useState(false); comments '// What if tentative ideas looked handwritten?'",
+        "assets": "none",
+        "html": "button 'Shuffle font combination' absolute top-right of the panel; code spans with per-token font-family"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "didactic, calm",
+        "mobile": "adapts",
+        "subject": [
+          "spacing",
+          "features",
+          "construction"
+        ],
+        "presentation": "diagram",
+        "explanation": "prose"
+      },
+      "look": "'Feature' pill, 'Texture healing' heading and three short columns; then a pinned left half showing 'cal' with its sidebearings as rust-coloured bars and a faded stack of 'calming' in the five families, while paragraphs on the right brighten one by one as they scroll past (proportional widths → sidebearings → why monospace can't fix it → narrow vs wide letters)",
+      "feel": "Patient explainer, like a good keynote",
+      "ux": "Scroll only: the left stage is sticky (h-screen, 50% width) while the text column scrolls; the paragraph in view is white with a salmon highlight, the others dim grey",
+      "learn": "Explain a spacing idea by drawing the sidebearings as coloured bars on a pinned word while the argument scrolls beside it, one dimmed-or-lit paragraph at a time",
+      "reconstruction": {
+        "layout": "Intro: heading + three 360px text columns; explainer: two halves, left sticky top-0 h-screen basis-50% (35vh tall on mobile, full width, with shadow) centring 'cal' (~150px) above five 'calming' lines (~50px); right column ~500px of 8 short paragraphs spaced ~1 screen apart",
+        "typography": "Heading ~52px Neon ExtraBold; intro body 15px Mona Sans; stage 'cal' ~150px Neon Regular white with sidebearing boxes in #9a4a33; 'calming' ~50px at 10% opacity in Neon/Argon/Xenon/Radon/Krypton; right paragraphs ~24px Mona Sans, active white, inactive #6e7681, key phrases salmon; inline code letters in Monaspace",
+        "palette": [
+          "#0e1118",
+          "#ffffff",
+          "#6e7681",
+          "#f9a58f",
+          "#9a4a33"
+        ],
+        "behaviour": "Sticky stage; paragraph opacity/colour driven by scroll position (in-view = lit); sidebearing bars may resize per step",
+        "content": "Real explanation of uneven monospaced texture, sidebearings, narrow 'i/l' and wide 'm/w' glyphs",
+        "assets": "none",
+        "html": "div.top-0.h-[35vh].md:h-screen.sticky.basis-[50%] (stage) beside the scrolling text column"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, crisp",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "spacing"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "Full-width slightly lighter band: 'TIME_limit' twice in white over faint column guides, labelled 'TEXTURE HEALING OFF' above and 'TEXTURE HEALING ON' below in small boxed mono tags; a round shuffle button top-right; two columns of explanation underneath",
+      "feel": "Lab comparison",
+      "ux": "The shuffle button ('Shuffle word') swaps in another sample word so visitors can compare more letter pairs",
+      "learn": "Stack the same word with the feature off and on over the monospaced column guides, so the shift inside each cell is measurable",
+      "reconstruction": {
+        "layout": "Band 100vw × ~270px; two lines ~80px apart centred; tags 10px boxed above line 1 and below line 2; button 40px square top-right (16px inset); then two 560px text columns",
+        "typography": "Sample ~56px Monaspace Neon Regular white, calt 0 vs calt 1; tags 10px uppercase Monaspace with 1px border (ON tag filled grey); body 14px Mona Sans",
+        "palette": [
+          "#161b22",
+          "#ffffff",
+          "#6e7681"
+        ],
+        "behaviour": "Click shuffle → next sample word (both lines update); feature toggled by font-feature-settings 'calt'",
+        "content": "Code identifiers with uneven letters: TIME_limit; explanation of contextual alternates and VS Code instructions link",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "step-by-step, didactic",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "spacing",
+          "construction"
+        ],
+        "presentation": "diagram",
+        "explanation": "prose"
+      },
+      "look": "'Step by step': a pinned top stage showing 'calming' over faint cell guides with a coloured bar and tiny label ('← extend left', 'extend both', 'shift → right') marking the glyph being swapped, while a timeline of dotted steps scrolls up underneath",
+      "feel": "Methodical, frame-by-frame",
+      "ux": "Scroll only: each step paragraph that reaches the stage swaps one glyph for its narrower/wider alternate and moves the coloured marker (purple for the l/m pair, amber for the next pair)",
+      "learn": "Scrub an OpenType substitution one glyph at a time on a pinned word, with a marker and arrow label naming each alternate",
+      "reconstruction": {
+        "layout": "Sticky full-width stage top-0 h-[42vh] w-screen with shadow, word centred; below, a 640px timeline column with a 1px vertical rule and dot bullets, each step ~1 screen apart",
+        "typography": "'calming' ~90px Monaspace Neon Regular white; marker labels 9px italic mono in the marker colour; step text ~22px Mona Sans, inactive steps grey",
+        "palette": [
+          "#161b22",
+          "#ffffff",
+          "#8b5cf6",
+          "#e3a82b",
+          "#6e7681"
+        ],
+        "behaviour": "Scroll position selects the step: glyph swaps (l narrower and shifted left, m extended left; then the next pair shifts right; m extends both ways), marker bar slides to the affected cell",
+        "content": "Seven steps ending 'The resulting text still obeys the monospaced grid.'",
+        "assets": "none",
+        "html": "div.top-0.h-[42vh].w-screen.sticky.bg-canvas-overlay (stage)"
+      }
+    },
+    {
+      "blocks": [
+        "09",
+        "10",
+        "11"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "systematic, colourful",
+        "mobile": "adapts",
+        "structure": "matrix",
+        "samples": "word",
+        "interactive": true
+      },
+      "look": "'Styles' pill and '640k styles ought to be enough for anyone' heading over three columns listing each axis's named stops (weight 200 Extra Light … 800 ExtraBold; slant 0 / -5.5° / -11°; width 100 / 112.5 / 125); then a 5-column wall of 35 obscure English words (verbatim, sanguine, halflife, epigrams, moondust…), one column per family in its colour, weights stepping up or down the column; an 'Italic' checkbox under it",
+      "feel": "Rich, joyful, specimen-sheet",
+      "ux": "Italic checkbox slants every word (slnt to -11) at once",
+      "learn": "Pick quirky, letter-rich words instead of style names: the weight × family matrix reads as a specimen, not a spreadsheet",
+      "reconstruction": {
+        "layout": "Text part: 1280px container, heading top-left, three 380px columns of axis lists; word wall full-bleed ~430px: 5 columns × 7 rows, ~37px row pitch, family caption under each column; checkbox centred below at 125% scale",
+        "typography": "Heading ~48px Neon ExtraBold; lists 13px Mona Sans with bold values; words ~32px in each family, weights 200–800 (alternating ascending/descending per column), family captions 9px uppercase Monaspace tracked",
+        "palette": [
+          "#0c0e16",
+          "#f9a58f",
+          "#f1e05a",
+          "#c5d97a",
+          "#7fd1c4",
+          "#b49cf4"
+        ],
+        "behaviour": "Each word is split into per-letter spans with --font-slant; the Italic toggle sets --font-slant (with a duplicate faded layer for a cross-fade); no scroll animation",
+        "content": "Axis ranges with named instances; 35 eight-letter words",
+        "assets": "none",
+        "html": "span[style=--font-slant:0] per letter (280 spans, duplicated with opacity 0); Primer checkbox 'Italic' in div.scale-125"
+      }
+    },
+    {
+      "blocks": [
+        "13",
+        "14"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "reference, developer",
+        "mobile": "adapts",
+        "subject": [
+          "features"
+        ],
+        "presentation": "catalogue",
+        "explanation": "prose"
+      },
+      "look": "'Code ligatures' heading and two prose columns, a 'Visual Studio Code' snippet bar with a copy button ('\"editor.fontLigatures\": \"'calt', 'ss01', …, 'liga'\"'), then a grid of 11 dark cards (ss01–ss10, liga) each with a checkbox and a list of operator sequences, raw on the left and ligated on the right joined by dot leaders",
+      "feel": "Thorough, configurable",
+      "ux": "Each card's checkbox toggles that set; the settings.json line updates to the chosen sets and the copy button copies it",
+      "learn": "Turn the feature catalogue into a config builder: checkboxes per set that write the exact settings line developers paste into their editor",
+      "reconstruction": {
+        "layout": "Text: 1280px, heading + two 600px columns; snippet bar full width, 40px, rounded, copy icon right; cards: 5 columns × 3 rows (last row 1 card), each ~250px wide, 12px radius, header row (tag + count + checkbox), rows of 'input ……… output' at ~22px pitch",
+        "typography": "Heading ~48px Neon ExtraBold; prose 15px Mona Sans with inline code chips (salmon text on #2d1f1f); card tag 14px Monaspace salmon with grey count; sequences 14px Neon, left raw (calt 0, liga 0) and right with the set on",
+        "palette": [
+          "#0d1017",
+          "#181b22",
+          "#272930",
+          "#f9a58f",
+          "#ffffff"
+        ],
+        "behaviour": "Checkbox per card toggles inclusion of that feature in the settings string (and probably the ligated column); copy-to-clipboard button",
+        "content": "Real operator sequences per set: ss01 === !== =!= =/= /== (JS equality), ss02 >= <=, ss03 arrows <--> <!-- ->, ss04 </ /> </>, ss05 F# [| |] /\\, ss06 ### +++ &&&, ss07 :: :=, ss08 ..= ..<, ss09 <=> =>> <<, ss10 #[ #(, liga ... /// || ;;",
+        "assets": "none",
+        "html": "11 cards with Primer checkbox (checked) + rows; left sample spans style=font-feature-settings:'calt' 0, 'liga' 0; snippet button 'Copy to clipboard'"
+      }
+    },
+    {
+      "blocks": [
+        "16",
+        "17"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "grateful, warm",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "'Made with :heart:' pill and 'Contributors' heading, a short paragraph crediting GitHub Next and the Lettermatic foundry with underlined links, and a large white circular '!!!' logo on the right",
+      "feel": "Sincere, collaborative",
+      "ux": "Links to GitHub Next, Lettermatic and the repo for the full contributor list",
+      "learn": "Credit the commissioning team and the foundry in one paragraph and send the full list to the repository",
+      "reconstruction": {
+        "layout": "1280px container; heading block ~140px; text column ~560px left, logo ~210px circle right-aligned at ~x=1000",
+        "typography": "Heading ~48px Neon ExtraBold; body 18px Mona Sans, links underlined in salmon",
+        "palette": [
+          "#0d0f17",
+          "#ffffff",
+          "#f9a58f"
+        ],
+        "behaviour": "none",
+        "content": "'Monaspace was made with the goal of improving all code, for all developers…'",
+        "assets": "Lettermatic/GitHub Next logo (white disc with '!!!')"
+      }
+    },
+    {
+      "blocks": [
+        "19"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "inviting, upbeat",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Centred question 'What will you make with Monaspace?' in white bold mono, one white 'Download ›' button, and a glowing pile of oversized cropped glyphs on pastel tiles (a, R, g, braces) rising from the bottom",
+      "feel": "Celebratory, open-ended",
+      "ux": "Download goes to the latest GitHub release",
+      "learn": "Close with a question and a single button, over an illustration built from the fonts' own glyphs",
+      "reconstruction": {
+        "layout": "Full-bleed ~860px; heading centred at y≈160, two lines; button 194×60 below; SVG collage 100vw wide anchored to the bottom (~450px visible), dot-grid background",
+        "typography": "Heading ~72px Monaspace Neon ExtraBold (wght 800), centred, leading 1.05; button 16px Mona Sans semibold",
+        "palette": [
+          "#0d0f16",
+          "#ffffff",
+          "#f1e05a",
+          "#b49cf4",
+          "#7fd1c4",
+          "#c5d97a",
+          "#f9a58f"
+        ],
+        "behaviour": "none (static SVG with glow filters)",
+        "content": "One question, one button",
+        "assets": "Large SVG collage of glyphs from all five families on rounded pastel tiles (4148×2390 viewBox)",
+        "html": "a.Primer_Brand__Button--primary.size-large href=github.com/githubnext/monaspace/releases/latest; svg[role=img][aria-label='An abstract collage of glyphs…'].w-full"
+      }
+    },
+    {
+      "blocks": [
+        "20"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "corporate, minimal",
+        "mobile": "adapts",
+        "contains": [
+          "legal"
+        ]
+      },
+      "look": "GitHub wordmark, a hairline, then '© 2026 GitHub. All rights reserved.' left and 'V1.400' right",
+      "feel": "Corporate",
+      "ux": "GitHub logo links to github.com",
+      "learn": "Put the font version in the footer so the page doubles as a changelog marker",
+      "reconstruction": {
+        "layout": "Full-bleed ~260px; logo row at 64px; 1px rule; legal row 48px with 108px side padding",
+        "typography": "13px Mona Sans grey; version 13px Monaspace Krypton uppercase",
+        "palette": [
+          "#0d1017",
+          "#8b949e",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Copyright and version",
+        "assets": "GitHub wordmark SVG"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "01",
+      "reason": "empty spacer"
+    },
+    {
+      "block": "03",
+      "reason": "empty spacer"
+    },
+    {
+      "block": "05",
+      "reason": "empty spacer"
+    },
+    {
+      "block": "07",
+      "reason": "empty spacer"
+    },
+    {
+      "block": "12",
+      "reason": "empty spacer"
+    },
+    {
+      "block": "15",
+      "reason": "empty spacer"
+    },
+    {
+      "block": "18",
+      "reason": "empty spacer"
+    }
+  ],
+  "sequence": [
+    "hero/product-landing",
+    "story/design-brief",
+    "family-overview/style-word-grid",
+    "type-tester/code-playground",
+    "specimen-showcase/use-case-samples",
+    "design-details/annotated-specimen",
+    "design-details/feature-before-after",
+    "design-details/annotated-specimen",
+    "family-overview/style-word-grid",
+    "design-details/feature-index",
+    "footer/credits-colophon",
+    "checkout/link-out-cta",
+    "footer/slim-legal-bar"
+  ]
+}

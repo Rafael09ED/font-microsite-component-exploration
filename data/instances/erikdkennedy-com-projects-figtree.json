@@ -1,0 +1,359 @@
+{
+  "slug": "erikdkennedy-com-projects-figtree",
+  "extractedBy": "agent",
+  "summary": "A designer's project page for a free geometric sans (Figtree), built like a polished product landing page: aerial-ocean photo hero, a weight-labelled list of editable UI-ish lines, an annotated outline 'tag!' on yellow, a variable slider tester with parallax iridescent blobs, a navy feature board whose 'after' column types itself, and design notes whose inline glyph chips load a sticky glyph inspector.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "name-over-photo",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "breezy, friendly",
+        "mobile": "adapts",
+        "carrier": "photo",
+        "cta": "download",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "Full-screen aerial photo of turquoise sea with a tiny sailboat; 'figtree' in white at ~200px Bold, 'A new, friendly (free!) sans serif' under it and a small dark 'GET IT ↓' button",
+      "feel": "Holiday-light, optimistic",
+      "ux": "Button jumps to #download; fixed 'E' logo top-left and grey DOWNLOAD button top-right stay on screen",
+      "learn": "A calm, wordless photo plus a three-word promise ('friendly, free') is enough for a free UI font",
+      "reconstruction": {
+        "layout": "100vh full-bleed background image; content block left-aligned at x≈430, name at y≈335–525, subtitle y≈580, button y≈650; boat PNG layered separately near top-right",
+        "typography": "Name ~200px Figtree wght 650–700, white, tight tracking; subtitle ~22px Regular white; button ~12px caps SemiBold",
+        "palette": [
+          "#0bafb3",
+          "#0c6977",
+          "#90dad5",
+          "#ffffff"
+        ],
+        "behaviour": "Static (ocean image is a CSS background div; boat is a separate layer, possibly parallax)",
+        "content": "Name and one-line positioning",
+        "assets": "Aerial ocean photograph; sailboat PNG cut-out",
+        "html": "section.atf > #ocean-image + .sailboat-image img + .floating-content > h1.floating-title + p.floating-subtitle + a.btn.floating-button[href=#download]"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "type-tester",
+      "variant": "labelled-editable-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "practical, UI-minded",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Weight names in tiny grey caps in a left column (MEDIUM, BLACK, REGULAR, EXTRABOLD, LIGHT, BLACK, SEMIBOLD, REGULAR) beside editable lines in dark teal: a nav string 'ABOUT · HOME · BLOG · HELP · CONTACT → …', 'Pacific Northwest Made', 'Free to use (and modify) → $0 or £0 or ¥0 or €0', 'Mulțumesc! Support for 280+ łåŋģűąġéš', a paragraph of body text",
+      "feel": "Product-like, reassuring",
+      "ux": "Every line is contenteditable; mobile swaps in a separate set of single words per weight (Engineering, Association, Malagueñas…)",
+      "learn": "Write the sample lines as the font's own sales points (free, 280+ languages, bold for buttons): each line is specimen and pitch at once",
+      "reconstruction": {
+        "layout": "Section ~770px; label column right-aligned ending at x≈310; lines from x≈345, ~1050px wide; rows ~65px apart, body paragraph after a gap",
+        "typography": "Labels ~10px caps grey #9aa; lines 24–48px in weights 300–900 of Figtree, dark teal #0d3b46; paragraph ~14px Regular, leading 1.5",
+        "palette": [
+          "#f7f9f9",
+          "#0d3b46",
+          "#718e94",
+          "#cfd7d8"
+        ],
+        "behaviour": "contenteditable lines; desktop and mobile containers swap via CSS",
+        "content": "Self-promotional sample lines and a body paragraph",
+        "assets": "none",
+        "html": ".try-it-dt-container / .try-it-mob-container > .try-it-row > p.try-it-label + p.try-it.try-it--NNN[contenteditable]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, light",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "On saturated yellow, the word 'tag!' as a thin outline (~450px) on faint metric lines, with four pointer callouts: 'Simple, monolinear construction', 'High x-height for maximum legibility', 'Friendly curved forms', 'Slight taper adds charm'; a small 'FIGTREE VERSION 1.000 LETTERFORM ANALYSIS' label top-left",
+      "feel": "Blueprint-like, clean",
+      "ux": "The outline appears to draw itself in (stroke animation caught mid-way on the g)",
+      "learn": "A four-letter word drawn as outline with pin callouts sums up a sans in four claims",
+      "reconstruction": {
+        "layout": "Section ~1000px; SVG 785×430 viewBox centred (~1100px wide); callouts positioned by CSS vars --x/--y (%) with a vertical line and dot",
+        "typography": "SVG <text> 'tag!' ~450px Figtree, fill none, 1px dark stroke; captions ~11px caps Figtree SemiBold, right- or left-aligned",
+        "palette": [
+          "#feea00",
+          "#1a1a1a",
+          "#edda07"
+        ],
+        "behaviour": "Outline stroke draw-on (stroke-dasharray/offset) when scrolled into view; pointers fade in",
+        "content": "Four design claims",
+        "assets": "none",
+        "html": "svg.tag > text 'tag!' + .tag-annotations > .pointer[style=--x;--y;--label-offset] > p.pointer-caption + span.pointer-line + span.pointer-circle"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "techy, glossy",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "weight",
+          "size",
+          "tracking",
+          "leading"
+        ],
+        "scope": "single",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "A row of boxed controls (WEIGHT 500, SIZE 100, LETTER SPACE 0, LINE SPACE 110, ☑ CAPS) each with a slider below, over the editable headline 'Made with the finest in variable font technology' in navy; iridescent glass blobs float around it",
+      "feel": "Playful, modern",
+      "ux": "Drag a slider or type a number in its box; Caps checkbox uppercases the text; blobs move at different speeds on scroll",
+      "learn": "Pair each slider with an editable number box: designers can set exact values instead of dragging",
+      "reconstruction": {
+        "layout": "Section ~1080px; control row from x≈230, 5 controls ~200px wide, 45px apart; sample text below at x≈230, ~900px wide; 4 blob PNGs absolutely placed at the edges",
+        "typography": "Sample default 100px Figtree wght 500, line-height 110%, navy #12123a; control labels ~10px caps",
+        "palette": [
+          "#fdfdfd",
+          "#12123a",
+          "#cfced7",
+          "#ff3d9a"
+        ],
+        "behaviour": "Range and number inputs sync both ways and set font-variation-settings wght 300–900, font-size 10–150px, letter-spacing −0.1–0.1em, line-height 60–150%; checkbox toggles text-transform; blobs have data-parallax data-speed −0.3…0.1",
+        "content": "Self-referential headline",
+        "assets": "Four iridescent blob PNGs",
+        "html": ".variable-controls > .variable-control > label.variable-control-box > p + input[type=number] + input[type=range]#var-weight-slider…; .variable-text[contenteditable]; .blobs img[data-parallax][data-speed]"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "witty, precise",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "On navy with a faint grid, four rows 'default → featured': FRACTIONS '1/2 3/5 8/13 → ½ ⅗ 8⁄13', MONOSPACE NUMBERS '$87.65 $12.34 $11.93' aligned, SCIENTIFIC INFERIORS 'C8H10N4O2 → C₈H₁₀N₄O₂', and 'ONE ALTERNATE \"A\" THAT JUST WANTS TO PARTY' 'ah yeah!'; a giant vertical 'features' word runs down the right edge",
+      "feel": "Confident, a bit cheeky",
+      "ux": "The right-hand column types itself out character by character when the row scrolls in; small (i) buttons show the CSS (font-feature-settings: 'frac') in a tooltip",
+      "learn": "Type the 'after' version live next to the static 'before', and give every feature an (i) tooltip with the exact CSS to copy",
+      "reconstruction": {
+        "layout": "Section ~1170px; rows at x≈230, before column ~480px, arrow ~80px, after column ~480px; rows ~240px apart; rotated heading 'features' ~120px Black at the right edge, reading top-to-bottom; background grid of 1px lines",
+        "typography": "Samples ~48px Figtree Light white; labels ~10px caps grey with a grey 'i' chip; vertical heading ~120px wght 900 white",
+        "palette": [
+          "#101b31",
+          "#ffffff",
+          "#2c3547",
+          "#8a93a6"
+        ],
+        "behaviour": "IntersectionObserver triggers a typewriter fill of #fractions-after etc. with the feature applied (frac, tnum, sinf, ss01); tooltip on (i) hover shows data-tooltip",
+        "content": "Feature names in plain English with jokey captions",
+        "assets": "none",
+        "html": ".feature > p.feature-label > a.info-button[data-tooltip=\"font-feature-settings: 'frac';\"] + .feature-row > .feature-before + .feature-arrow + .feature-after"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "prose-glyph-inspector",
+      "newVariant": true,
+      "variantDefinition": "Design notes written as running prose in which every letter mentioned is an inline clickable chip; clicking a chip loads that glyph large on its metric lines in a sticky side panel (often with a weight slider), so reading the rationale and inspecting the letter happen together.",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "personal, nerdy, warm",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "prose"
+      },
+      "look": "'Design Notes' in Black, then a first-person essay whose mentioned glyphs (t, f, y, g, A, P, R, S, ?, !, comma, quotes, é, û, #, ‡, r, 1, 2, 5) are small pink rounded chips (the active one purple); to the right a sticky white panel 'LOWERCASE T' with a big t on Cap height / X height / Baseline / Descender lines and a WEIGHT 400 box with slider; fig-leaf photos frame the column",
+      "feel": "Generous, conversational",
+      "ux": "Click any chip → the panel shows that glyph and its name; the weight slider re-renders it from 300 to 900; on mobile the panel becomes an overlay with a close button",
+      "learn": "Turn every letter you write about into a button: the essay becomes the glyph browser",
+      "reconstruction": {
+        "layout": "Centred 980px container; text column ~520px left; inspector ~320px right, sticky, glyph box ~320×330 with 4 labelled horizontal metric lines, weight control below; decorative leaf PNGs at the right edge",
+        "typography": "Heading ~60px Figtree Black; body ~16px Regular, leading 1.6, bold for key words; chips ~14px white on #e63fa0, radius 3px, active #5b2bd6; inspector glyph ~300px, metric labels ~9px caps grey",
+        "palette": [
+          "#f5f5f5",
+          "#111111",
+          "#e63fa0",
+          "#5b2bd6",
+          "#dbdada"
+        ],
+        "behaviour": "a.letter-button click → sets .glyph-specimen text and .glyph-name from data-name, toggles .active; glyph-weight-slider/input set wght 300–900 on the specimen; panel position: sticky",
+        "content": "Real designer's notes on t/f/y curves, widened caps, punctuation, numerals",
+        "assets": "Leaf photo cut-outs (decorative), close icon SVG",
+        "html": "p > a.letter-button[data-name='Lowercase T'] ; .glyph-inspector > h3.glyph-name + a.close-glyph-inspector + .glyph-box > p.glyph-specimen + span.glyph-cap-height/.glyph-x-height/.glyph-baseline/.glyph-descender + .glyph-weight-control > input#glyph-weight-input + input#glyph-weight-slider"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, open-source",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "'figtree' in Light ~80px, 'a friendly & free geometric sans', then two gradient buttons (blue→green): 'DOWNLOAD FROM GOOGLE FONTS →' and 'VIEW SOURCE ON GITHUB →'; a fig plant photo fills the right",
+      "feel": "Clean, inviting",
+      "ux": "Links out to Google Fonts and the GitHub repo; the fixed DOWNLOAD button anywhere on the page scrolls here",
+      "learn": "For an open-source font, offer both the consumer route (Google Fonts) and the source (GitHub) side by side",
+      "reconstruction": {
+        "layout": "100vh white section; content at x≈230: name, tagline, two stacked buttons 320×44px with 16px gap; plant image anchored bottom-right ~600px",
+        "typography": "Name ~80px Figtree wght 300; tagline ~16px SemiBold; buttons ~11px caps SemiBold white",
+        "palette": [
+          "#fefefe",
+          "#1aa3d9",
+          "#2ee59d",
+          "#111111"
+        ],
+        "behaviour": "none",
+        "content": "Two outbound CTAs",
+        "assets": "Fiddle-leaf fig PNG cut-out"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "footer",
+      "variant": "personal-sign-off",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "personal, salesy",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "other-fonts"
+        ]
+      },
+      "look": "A small rounded portrait of Erik Kennedy beside 'Figtree was designed by Erik Kennedy, creator of Learn UI Design and Learn UX Design. Interested in learning design? Join 5,000+ students…' and '(Or just get free design tutorials here 😎)'",
+      "feel": "Approachable, self-promotional",
+      "ux": "Links to the designer's courses and newsletter",
+      "learn": "A free font is a calling card: close with the designer's face and a soft plug for what they sell",
+      "reconstruction": {
+        "layout": "Row at x≈230 under the buttons: 76px rounded-square photo, text column ~400px",
+        "typography": "~14px Figtree Regular, name bold, underlined links",
+        "palette": [
+          "#fefefe",
+          "#333333"
+        ],
+        "behaviour": "none",
+        "content": "Designer credit and course plug",
+        "assets": "Portrait photo"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "No bar, just two fixed corner pieces present on every screen (not cut as blocks; attached to 00): a small grey square 'E' logo top-left linking to erikdkennedy.com and a grey 'DOWNLOAD' button top-right"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/name-over-photo",
+    "type-tester/labelled-editable-lines",
+    "design-details/annotated-specimen",
+    "type-tester/slider-sandbox",
+    "design-details/feature-before-after",
+    "design-details/prose-glyph-inspector",
+    "checkout/free-download",
+    "footer/personal-sign-off"
+  ]
+}

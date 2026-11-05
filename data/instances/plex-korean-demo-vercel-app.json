@@ -1,0 +1,72 @@
+{
+  "slug": "plex-korean-demo-vercel-app",
+  "extractedBy": "agent",
+  "summary": "A one-column developer demo of IBM Plex Sans KR: the name, one Korean word, and the same Yun Dong-ju poem repeated in each of the eight weights (Thin 100 to Bold 700, with a 450 Text weight), plus a light/dark toggle and two source links. It is a weight check sheet more than a microsite.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "masthead-nav",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Top of the column stands in for a hero: 'IBM Plex Sans KR' in 54px Bold, the Korean word '혁신하다' (to innovate) in grey Bold below, and a 48px sun icon button at the right that toggles dark mode"
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "plain, literary, utilitarian",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "paragraph",
+        "interactive": false
+      },
+      "look": "A 700px column of eight sections, each a weight label ('Thin (100)', 'ExtraLight (200)' … 'Text (450)' … 'Bold (700)') above the same five-line Korean poem paragraph in that weight, from barely-there grey to dense black",
+      "feel": "Quiet, bookish, honest",
+      "ux": "Scroll to compare colour of text across weights; the sun button switches the page to dark mode",
+      "learn": "Repeat one real text (a known poem) in every weight, labelled with name and numeric weight, so the visitor judges texture rather than letter shapes; a dark-mode toggle doubles the test",
+      "reconstruction": {
+        "layout": "Centred column 700px wide (x=370) on a full-page #f4f4f4 ground; header at y≈176; then 8 stacked sections ~188px each: h2 label, 16px gap, paragraph of 5 lines; ~30px between sections; dark-mode button 48×48 top-right of the column",
+        "typography": "h1 54px IBM Plex Sans Bold, #161616; subheader ~20px IBM Plex Sans KR Bold grey; labels ~20px IBM Plex Sans Regular; paragraphs ~15px IBM Plex Sans KR at font-weight 100, 200, 300, 400, 450, 500, 600, 700 (inline style per p), leading ~1.6, lang=ko",
+        "palette": [
+          "#f4f4f4",
+          "#161616",
+          "#d3d3d3"
+        ],
+        "behaviour": "Button .dark-mode-toggle swaps the page to light text on dark; no animation",
+        "content": "Yun Dong-ju's poem '소년' (Boy), the same full paragraph in each weight; heading word '혁신하다'",
+        "assets": "Sun icon SVG",
+        "html": "main > button.dark-mode-toggle + div.stack > h1, span.subheader[lang=ko], (h2 + p[lang=ko][style=font-weight:N]) × 8"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Two small underlined links at the column edges: 'Poem source' left (the poet's archive) and 'Code source' right (GitHub)"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "family-overview/style-word-grid",
+    "footer/slim-legal-bar"
+  ]
+}

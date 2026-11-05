@@ -1,0 +1,429 @@
+{
+  "slug": "vercel-com-font",
+  "extractedBy": "agent",
+  "summary": "Vercel's Swiss-minimal page for the free Geist family (Sans, Mono, Pixel), drawn on a visible light-grey cell grid. A sticky Sans/Mono/Pixel switch re-sets every specimen on the page; the core components are a sticky glyph inspector with metric lines and a Solid/Anchors view, a one-line playground and a developer install section with copyable code.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Slim white header: Vercel triangle left, a centred black pill radiogroup 'Sans | Mono | Pixel' that stays sticky after the bar scrolls away, and a black 'Get It ⊕' pill right that jumps to #get"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "Swiss, minimal, technical",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "download",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "'Geist.' in near-black at ~340px flush left on an off-white field ruled into a light-grey square grid; a small 'New · Geist Pixel now available' pill above; at the right edge tiny black tags '710', '530', '0', '-150' sit on the cap-height, x-height, baseline and descender guides",
+      "feel": "Clean, engineered, confident",
+      "ux": "The sticky Sans/Mono/Pixel switch swaps the wordmark between the three families; 'Get It' jumps to the download section",
+      "learn": "Annotate the hero wordmark with its vertical metrics in font units: a single number column makes a plain name feel like a technical drawing",
+      "reconstruction": {
+        "layout": "Container 1375px at x=26 (~1440 minus side gutters), ~690px tall; background grid of ~120px square cells with 1px #e8e8e8 lines (five guide densities by breakpoint); wordmark starts at x=0 y≈220, ~780px wide; announcement pill 24px tall at y≈120; metric tags at x≈1340, 1px dashed guides across at each metric",
+        "typography": "Wordmark 'Geist.' ≈336px Geist Sans SemiBold/Bold, tracking ≈-0.05em; pill 12px Geist Medium; metric tags 10px Geist Mono white on #111 (2px radius)",
+        "palette": [
+          "#fafafa",
+          "#0e0e0e",
+          "#e6e6e6"
+        ],
+        "behaviour": "Family switch re-renders the wordmark in Sans, Mono or Pixel (with a fade); no motion otherwise",
+        "content": "Family name with a full stop; metric values 710 / 530 / 0 / -150",
+        "assets": "none",
+        "html": "div[role=radiogroup][aria-label='Toggle font family'] > label.sans|mono|pixel > input.geist-sr-only; .gVwRya_guide.gVwRya_cap / _x / _baseline / _descender guides; AMTIxG_guides cell grid"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "big-number-stats",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "factual, spec-sheet",
+        "mobile": "adapts",
+        "structure": "stats",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "A four-row spec table centred on the grid: icon, label, number: Weights 9, Glyphs 652, Stylistic sets 9, Languages 32",
+      "feel": "Calm, factual",
+      "ux": "static",
+      "learn": "Four numbers with small pictograms are enough to size up a family before any specimen",
+      "reconstruction": {
+        "layout": "Block 1375×474; rows at 64px pitch starting y≈130; columns: icon at x≈380 (24px), label at x≈505, value at x≈965, aligned to grid columns",
+        "typography": "Labels and numbers 40px Geist Light/Regular, sentence case; icons 24px line pictograms",
+        "palette": [
+          "#fafafa",
+          "#0e0e0e",
+          "#cfcfcf"
+        ],
+        "behaviour": "none",
+        "content": "Weights, glyphs, stylistic sets, languages",
+        "assets": "4 small line icons (weights bars, glyph box, grid, translate)"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "precise, minimal",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "Three grid cells side by side, each one large lowercase 'l' in Geist Sans, Geist Mono and Geist Pixel with a thin circle outlining the terminal that differs (curved foot, slab serif, stepped pixel corner), labelled underneath",
+      "feel": "Diagrammatic, quiet",
+      "ux": "static",
+      "learn": "Compare one letter across the family's sub-families and circle only the detail that changes",
+      "reconstruction": {
+        "layout": "Three equal columns (~458px) separated by grid lines; glyph ~190px tall centred in a ~350px band between two dashed guides; caption 20px below the lower guide",
+        "typography": "Glyph 'l' ≈260px in each family (Sans, Mono, Pixel Square); circle 1px #111 ~60px diameter; captions 13px in the column's own family",
+        "palette": [
+          "#f9f9f9",
+          "#111111",
+          "#d7d7d7"
+        ],
+        "behaviour": "none",
+        "content": "The letter l, one per family",
+        "assets": "none (circles are CSS: .mpYF8W_circle)"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "corporate, principled",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Under the three glyphs, two small grey paragraphs with key words in black (developers, designers, monospace variant, design principles, Swiss design movement) and, in the third column, the statement 'Geist truly represents the coding and design spirit within Vercel's creative community.' at display size",
+      "feel": "Brand-voice, concise",
+      "ux": "static",
+      "learn": "Split the about text into two quiet columns plus one large pull statement in the same row, so the grid carries the hierarchy",
+      "reconstruction": {
+        "layout": "Same three columns; paragraphs start ~120px below the glyph band, ~380px wide with 48px inner padding",
+        "typography": "Body 15px Geist Light grey #666 with 1.6 leading, emphasised words #111 Regular; statement ~34px Geist Medium, leading 1.2, #111",
+        "palette": [
+          "#f9f9f9",
+          "#666666",
+          "#111111"
+        ],
+        "behaviour": "none",
+        "content": "Origin: monospace first, then Sans and Pixel; Swiss design principles",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "technical, tool-like",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "select",
+        "metricsShown": true,
+        "namesOrUnicode": false
+      },
+      "look": "Left half: a sticky preview of the selected glyph (here 'l') huge on dashed metric lines labelled CAP HEIGHT 710, X-HEIGHT 530, BASELINE 0, DESCENDER -150, with a 'Solid | Anchors' tab bar on top; right half: a 9-column grid of 652 glyphs in hairline cells, the selected cell inverted black",
+      "feel": "Precise, like a font editor",
+      "ux": "Click a glyph button → preview updates; Solid shows the filled shape, Anchors shows outline points and handles; the preview stays pinned while the long grid scrolls; a 'Skip to Playground' link lets keyboard users jump past the 270 buttons",
+      "learn": "Pin the inspector preview while the grid scrolls and label the metric lines with their unit values, so every glyph is seen in the same frame",
+      "reconstruction": {
+        "layout": "Two halves of ~687px; left: tab bar 75px (two equal tabs, active underlined 2px black), preview area sticky (top 0, ~100vh) with four 1px dashed horizontal guides, labels left in 9px caps and value tags right; right: 9 columns × ~73 rows of 76px square cells with 1px #e5e5e5 borders",
+        "typography": "Preview glyph ≈500px Geist Regular (cap height ≈355px); grid glyphs ~30px Geist Regular; guide labels 9px Geist Mono uppercase, values 9px Geist Mono white on black tags",
+        "palette": [
+          "#f8f8f8",
+          "#111111",
+          "#d7d7d7"
+        ],
+        "behaviour": "button[aria-pressed] per glyph toggles selection (black cell, white glyph) and swaps the preview; Solid/Anchors tabs switch the preview rendering to an SVG outline with on-curve points and handles; preview is position: sticky",
+        "content": "Full character set in encoding order (A Á Ă Ǎ … a–z, figures, punctuation, symbols, arrows, ▲)",
+        "assets": "Glyph outline SVGs for the Anchors view",
+        "html": "button.vC2Ldq_character[type=button][aria-pressed] ×270; tabs Solid/Anchors; guides 'Cap height' 710 / 'X-height' 530 / 'Baseline' 0 / 'Descender' -150; a 'Skip to Playground' link"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "specimen-showcase",
+      "variant": "kinetic-scenes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "brand film, technical",
+        "mobile": "adapts",
+        "medium": "video",
+        "sequence": "series"
+      },
+      "look": "Two square video cells: left, a Geist 'a' drawn with its Bézier handles under a scrolling mono ticker 'CODING AND DESIGN SPIRIT WITHIN OUR COMMUNITY OF CREATORS'; right, a big black Vercel triangle with the caption 'OPEN SOURCE GEIST SANS & MONO / DEVELOPED BY VERCEL · 2023'",
+      "feel": "Product-film, graphic",
+      "ux": "Autoplaying muted loops; the ticker scrolls continuously",
+      "learn": "Pair a construction loop of one letter with the brand mark in matching square cells to tie the type to the company",
+      "reconstruction": {
+        "layout": "Grid of 2 equal cells (~687×668), 1px grid lines; marquee strip ~40px at the top of the left cell; videos fill each cell",
+        "typography": "Ticker 25px Geist Mono uppercase, tracked; captions 9px Geist Mono uppercase",
+        "palette": [
+          "#fafafa",
+          "#020202",
+          "#d0d0d0"
+        ],
+        "behaviour": "CSS marquee (.mYMuPW_track with two copies of the sentence) loops horizontally; two <video autoplay loop muted playsinline> (sans-dark.mp4, geist.mp4) fade in (opacity 0.5s)",
+        "content": "Brand sentence repeated",
+        "assets": "Two MP4 loops: 'a' outline construction, triangle logo animation"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "Swiss poster, monochrome",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "grid"
+      },
+      "look": "Three staggered columns of six greyscale Swiss-style posters: 'GEIST TYPEFACE ©2023 VERCEL V-1.0 GLYPHS: 632' with an outlined 'a', 'Geist principles of good design.' on black with a photographic triangle, a type-scale table sheet, 'Geistconographic.' icon grid, 'Geist Sans' style sheet, and a sizes chart (H72, L20, C16…)",
+      "feel": "Design-system manual, gallery",
+      "ux": "static",
+      "learn": "Show the font through the design system's own documents (scale charts, icon sheets, principles) laid out as posters",
+      "reconstruction": {
+        "layout": "3 columns of ~435px with ~20px gaps inside the grid, posters 3:4 portrait, middle column offset down ~100px (masonry), ~1440px total height; 2 columns on mobile",
+        "typography": "Poster content in Geist Sans and Geist Mono (Mono caps metadata lists ~16px, display 60–90px)",
+        "palette": [
+          "#f2f2f2",
+          "#cecece",
+          "#151515",
+          "#b0b0b0"
+        ],
+        "behaviour": "none",
+        "content": "Design-system artefacts: type scale names (H72, L20, C16), principles list (Balanced, Understandable, Intuitive…), icon set",
+        "assets": "6 poster images (posters/opti… on Vercel blob storage)"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "clean, minimal",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "tracking",
+          "weight",
+          "style-select",
+          "alignment"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "A compact centred toolbar (weight select 'Regular', upright/italic pair, three alignment icons, Size slider 160, Spacing slider -3%, reset ↺) above one editable sample 'What will you ship next?' at 160px on two dashed guides",
+      "feel": "Focused, product-like",
+      "ux": "Type into the textarea (max 256 chars); select weight Thin–Ultra Black (100–900); toggle italic; align left/centre/right; Size 8–256px; Spacing -15% to +10% (step 1%); reset restores defaults; the sticky family switch picks Sans/Mono/Pixel",
+      "learn": "One sample plus a single slim toolbar of five control groups covers most testing needs without clutter",
+      "reconstruction": {
+        "layout": "Block 1375×678; toolbar centred at top (~730px wide, 36px tall) of grouped controls with 8px gaps; textarea fills the width, centred text, baseline guides dashed",
+        "typography": "Sample 160px Geist Regular (wght 400), letter-spacing -0.03em, centred, ~1.0 leading; toolbar 12px Geist Mono labels with right-aligned values",
+        "palette": [
+          "#fafafa",
+          "#111111",
+          "#d1d1d1",
+          "#8f8f8f"
+        ],
+        "behaviour": "Inputs write inline style on the textarea: font-weight + font-variation-settings 'wght', letter-spacing em, text-align, font-style; range thumbs black dots on 1px tracks",
+        "content": "Prompt: 'What will you ship next?' (Vercel's tagline)",
+        "assets": "none",
+        "html": "select (option 100 Thin … 900 Ultra Black); input[type=radio][name=italic] regular|italic; input[type=radio][name=align]; input#size[type=range][min=8][max=256]; input#spacing[min=-0.15][max=0.1][step=0.01]; textarea.VekgEW_textarea[maxlength=256]"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "developer docs, helpful",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Two-column install guide on the grid: 'Install via NPM (Recommended)' with a copyable 'npm i geist' line and Next.js import snippet; 'Use from Google Fonts' with next/font/google code and Tailwind utilities for the five pixel variants; below, a 'Features by installation method' comparison table (NPM / Google Fonts / .zip with check, cross and warning icons) and 'Get the .zip' with a 'Download ⊕' pill and 'Licensed under OFL… Read the license'",
+      "feel": "Practical, documentation-grade",
+      "ux": "Copy buttons on each snippet; Download goes to the latest GitHub release; licence link to LICENSE.txt",
+      "learn": "For a free developer font, compare the install routes in a small feature table so people choose before they copy code",
+      "reconstruction": {
+        "layout": "Two columns of ~687px with 48px padding, separated by a grid line; code blocks full column width with 6px radius and a copy icon top-right; second row: table (5 rows × 4 columns) left, zip box right; ~1800px total",
+        "typography": "Headings 32px Geist Light; subheads 18px Geist Medium; body 15px Geist grey; code 12px Geist Mono with syntax colours; table 12px with Geist Mono feature names",
+        "palette": [
+          "#f7f7f7",
+          "#111111",
+          "#d9d9d9",
+          "#45a557",
+          "#e5484d"
+        ],
+        "behaviour": "Copy-to-clipboard buttons; status icons in the table",
+        "content": "Real install commands: npm i geist; import { GeistSans } from 'geist/font/sans'; Geist_Pixel with axes: ['ELSH'] and @utility font-pixel-square/circle/grid/triangle/line",
+        "assets": "Status icons (check, cross, warning)"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "corporate, site-wide",
+        "mobile": "adapts",
+        "contains": [
+          "legal",
+          "socials",
+          "contact"
+        ]
+      },
+      "look": "Vercel's global footer: six columns of product links (Agent Stack, Core Platform, Security, Tools, Frameworks, SDKs), a second row (Build, Learn, Explore, Company, Legal & Trust, Social), the triangle logo, a blue '● ALL SYSTEMS NORMAL' status and theme icons",
+      "feel": "Corporate, comprehensive",
+      "ux": "Links only; theme switch icons bottom-right",
+      "learn": "A microsite hosted on the company site inherits the global footer: the specimen ends inside the brand",
+      "reconstruction": {
+        "layout": "1361px wide, ~850px; 6 columns × 2 rows of link lists, 14px rows; bottom bar with logo, status and theme toggle",
+        "typography": "Column heads 14px Geist Medium; links 14px Geist grey; status 12px Geist Mono blue",
+        "palette": [
+          "#f8f8f8",
+          "#666666",
+          "#111111",
+          "#0070f3"
+        ],
+        "behaviour": "none",
+        "content": "Company navigation",
+        "assets": "Vercel logo"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "10",
+      "reason": "invisible fixed tooltip layer (context-card root, opacity 0)"
+    }
+  ],
+  "sequence": [
+    "hero/giant-wordmark",
+    "family-overview/big-number-stats",
+    "design-details/annotated-specimen",
+    "story/large-text-intro",
+    "glyph-table/glyph-inspector",
+    "specimen-showcase/kinetic-scenes",
+    "specimen-showcase/poster-series",
+    "type-tester/slider-sandbox",
+    "checkout/free-download",
+    "footer/link-columns"
+  ]
+}

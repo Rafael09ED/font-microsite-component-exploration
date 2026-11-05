@@ -16,7 +16,8 @@
     "app": "vite --config app/vite.config.ts",
     "app:check": "tsc -p app/tsconfig.json",
     "app:build": "node scripts/deploy-app.mjs --dry-run",
-    "app:deploy": "node scripts/deploy-app.mjs"
+    "app:deploy": "node scripts/deploy-app.mjs",
+    "report": "node scripts/report.mjs"
   },
   "keywords": [],
   "author": "",

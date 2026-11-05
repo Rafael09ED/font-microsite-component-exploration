@@ -1,0 +1,622 @@
+{
+  "slug": "grandgothik-com",
+  "extractedBy": "agent",
+  "summary": "A strictly black-and-white, cinema-themed single page for a variable grotesque system (width, weight, italic): pinned looping type videos ('A MOVING STORY', 'dimensional', 'CHANGE', 'MULTISCRIPT') alternate with white chapters of history, owl-carousel detail and stylistic-set slides, a five-width style table and a 1000-glyph grid, ending with a filmed flipbook and a 'Now available on your screen' end card. Most specimens are images or videos rather than live text; the live tester is a hidden full-screen panel opened from the menu.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "cinematic, wordplay",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "White extended heavy caps on black, flush left in two staggered blocks: 'MOVIEABLE TYPE / VARIABLE TYPE' then, indented, 'A TYPE OF / MOVIE A / MOVIE / OF TYPE'; only the slim fixed nav above",
+      "feel": "Title card, punchy, self-aware",
+      "ux": "static image (a background-image div); a loader spinner on black shows for ~2s first",
+      "learn": "A palindromic pun about the theme ('a type of movie, a movie of type') set as the hero makes the concept and the widest style land together",
+      "reconstruction": {
+        "layout": "Full-bleed black ~820px (≈90vh) under a 55px fixed bar; 8 lines of caps, lines 1–4 from x≈16, lines 5–8 indented to x≈236, line pitch ~74px, text block ~820px wide in the upper 80%",
+        "typography": "Grand Gothik Extended Black (wdth max, wght ~800), ~85px caps, leading ~0.88, tracking 0, white",
+        "palette": [
+          "#020202",
+          "#ffffff"
+        ],
+        "behaviour": "none in the capture; preceded by a fade-out loader (lds-roller spinner)",
+        "content": "Wordplay sentence: 'MOVIEABLE TYPE VARIABLE TYPE A TYPE OF MOVIE A MOVIE OF TYPE'",
+        "assets": "Pre-rendered image of the set type (mobile uses its own image)",
+        "html": "section#contentPage1.black > .img.image1 (CSS background image)"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "movie-poster pastiche, witty",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "Four centred movie-review blurbs, each in a different width and weight with a tiny style label above: '“Unførgettåble”' (Wide Regular), '“HARD-HITTING, DISTRESSINGLY REALISTIC”' (Compressed Regular), '“LIVES UP TO THE HYPE”' (Extended Medium), '“breathtaking”' (Extended Black), then five rating stars labelled ICONS",
+      "feel": "Knowing, poster-like",
+      "ux": "static",
+      "learn": "Fake critics' blurbs are a natural word stack for a cinema-themed font: each quote can sit in a different width without seeming random",
+      "reconstruction": {
+        "layout": "White ~834px panel; centred column, 5 rows at ~114px pitch, each a ~8px label then a ~56px line; stars row ~40px",
+        "typography": "Quotes ~56px in Wide Regular, Compressed Regular caps, Extended Medium caps, Extended Black lowercase; labels ~8px Extended caps tracked; curly quotes included",
+        "palette": [
+          "#fdfdfd",
+          "#010101"
+        ],
+        "behaviour": "none",
+        "content": "Review clichés with diacritics slipped in ('Unførgettåble'); five ★ glyphs from the font's symbol set",
+        "assets": "Pre-rendered image",
+        "html": "section#contentPage2 > .img.image1"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "05",
+        "07",
+        "10"
+      ],
+      "type": "specimen-showcase",
+      "variant": "kinetic-scenes",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "cinematic, rhythmic",
+        "mobile": "adapts",
+        "medium": "video",
+        "sequence": "series"
+      },
+      "look": "Four full-screen black interludes of white type in motion: 'A STORY / A MOVING STORY' lines stacking in Compressed caps; 'mensional … dimensional' repeating as the width grows to Extended Thin; a diagonal wall of 'CHANGE CHANGE' in Compressed Black Italic; 'MULTISCRIPT' stacked lines stepping through weights",
+      "feel": "Film title sequence, hypnotic",
+      "ux": "Each panel is pinned (ScrollMagic) while the next white chapter slides over it; videos autoplay muted on loop",
+      "learn": "Use short looping videos of one word sweeping an axis as chapter breaks: they show the variable range without any UI and set a cinematic rhythm",
+      "reconstruction": {
+        "layout": "Each a full-bleed 100vh black panel (≈900px); 02 lines flush left x≈24 at ~150px pitch; 05 words bleed off the left edge, last word right-shifted; 07 rows of 'CHANGE' tiled edge to edge at ~130px pitch; 10 centred stack of ~12 lines ~48px apart",
+        "typography": "02 Compressed Light caps ~150px; 05 Condensed Bold to Extended Thin lowercase ~100px; 07 Compressed Black Italic caps ~180px; 10 Extended caps ~70px from Thin to Black; all white, tight leading ~0.95",
+        "palette": [
+          "#030303",
+          "#ffffff",
+          "#4d4d4d"
+        ],
+        "behaviour": "Autoplay muted looping MP4 per panel (page-3/6/12.mp4; 07 is an image); the panel pins while the following section scrolls over it; mobile gets GIF or SVG replacements",
+        "content": "Single words or short phrases on the theme (story, dimensional, change, multiscript)",
+        "assets": "Four rendered type-animation videos or GIFs",
+        "html": "div.scrollmagic-pin-spacer > section.parallaxPage.black > video#vid1[autoplay][muted][loop] (desktop) / img (mobile)"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "historical, scholarly",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "archival",
+          "photo"
+        ],
+        "length": "medium"
+      },
+      "look": "'BACK STORY': a centred text column of three paragraphs interleaved with a Godard film-title grid ('MA SCU LIN … FÉMININ', The new wave Cinematic Typography of Jean-Luc Godard), a black 'TRADITION REIMAGINED' stack stepping through weights, and two photos of historical specimens (Venus, Bauersche Giesserei 1915; Title Gothic No.9, ATF 1923)",
+      "feel": "Researched, reverent",
+      "ux": "static",
+      "learn": "Name the exact historical models and show photos of them in the text column: the genealogy becomes evidence, not just a claim",
+      "reconstruction": {
+        "layout": "Single column x≈256–1186 (~930px) on white, ~2470px tall; images span the column width with 9px captions centred below; the weight stack is ~930×330px",
+        "typography": "Body ~25px Grand Gothik Wide/Normal Book (wdth 75–100, wght 350), leading ~1.4, justified-left; title 'BACK STORY' ~12px Extended caps; captions ~9px",
+        "palette": [
+          "#fbfbfb",
+          "#0a0a0a",
+          "#8e8e8e"
+        ],
+        "behaviour": "none",
+        "content": "Real history: late 19th and early 20th-century grotesques, movie marquees, new-wave cinema, highway signage and phone directories; originally a 2017 bespoke magazine face",
+        "assets": "Godard title-card reconstruction, photos of Venus and Title Gothic specimens, rendered weight-stack image"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, calm",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "alternates"
+        ],
+        "presentation": "annotation",
+        "explanation": "prose"
+      },
+      "look": "'DETAILS': a 3-slide carousel; each slide is a big lowercase word ('achgpy') on metric lines with grey dot markers and tiny callouts ('a' with a spur, oblique terminals, dynamic unusual ending, squared-off descenders, 'y' with curved tail) above a paragraph; circled → arrow at the right edge",
+      "feel": "Quiet, textbook",
+      "ux": "Circled arrow buttons page through slides (default variant, ss01/ss02, readability notes); the top image carousel and bottom text carousel move together",
+      "learn": "Sync an annotated-glyph carousel with a text carousel so each design note keeps its picture and explanation aligned",
+      "reconstruction": {
+        "layout": "Centred column 930px (col-xl-8 offset-2); slide image ~920×200px with metric lines and callouts, then a ~25px paragraph ~930px wide; next arrow 70px circle at x≈1370",
+        "typography": "Specimen word ~200px Normal Regular; callout labels ~8px; paragraph ~25px Book; section title ~12px Extended caps",
+        "palette": [
+          "#fcfcfc",
+          "#060606",
+          "#d7d7d7",
+          "#505050"
+        ],
+        "behaviour": "Owl Carousel, two instances (owl_first_top images, owl_first_bottom text) linked; slide transition on arrow click",
+        "content": "Real design notes: ss01 removes spurs and straightens the y tail; ss02 slants stem endings; open counters, oblique terminals, sharp joints",
+        "assets": "Three annotated specimen images",
+        "html": ".owl-carousel.owl_first_top (3 .owl-item .img) + .owl-carousel.owl_first_bottom (3 p.gothicParagraph); .owl-nav button.owl-next > .owl_arrow-right"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "marquee, bold",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "A tall stack of justified display words, each labelled with its style in tiny caps: Automobiles (Compressed Black), NEON (Extended Ultra), CANADIEN (Condensed XBold), EDITIONS Cűlhingás (Extended Ultra and its italic), Unførgettåble / Celestial phantasmagoria show / AVENUE / Eternal sunshine of the spotless mind / POSTMODERN (Wide styles)",
+      "feel": "Loud, marquee-like",
+      "ux": "static",
+      "learn": "Fit every word to the same column width whatever the style: the width axis becomes visible because the words all end at the same edge",
+      "reconstruction": {
+        "layout": "White ~3200px; centred column x≈140–1300 (~1160px); each word fitted to the full column width; label ~8px above each; groups separated by ~200px",
+        "typography": "Words 120–250px in Compressed Black, Extended Ultra (+Italic), Condensed XBold, Wide Medium/Regular/Black; sentences ~60px; labels ~8px Extended caps",
+        "palette": [
+          "#fcfcfc",
+          "#0a0a0a"
+        ],
+        "behaviour": "none",
+        "content": "Words and film titles on a cinema/road theme with diacritics ('Cűlhingás', 'Eternal sunshine of the spotless mind')",
+        "assets": "Pre-rendered image (one tall background image)"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "romantic-comedy, wry",
+        "mobile": "adapts",
+        "subject": [
+          "alternates",
+          "features"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "Split screen: 'SS01' set big in Extended on the left with 'STYLISTIC VARIANT 1' below, a vertical hairline, and on the right a film quote ('When you realize you want to spend the rest of your life with somebody…', When Harry Met Sally, 1989) set with that set on; circled arrow to page",
+      "feel": "Cinematic, gentle",
+      "ux": "Arrow pages through three slides (SS01, SS02, SS03), left label and right quote change together",
+      "learn": "Give each stylistic set its own famous line of dialogue so the alternate shapes are read in a full sentence, not as isolated glyphs",
+      "reconstruction": {
+        "layout": "Two half-width (705px) carousels side by side, ~985px tall; left: label centred ~140px tall; separator 1px vertical rule ~650px tall; right: quote column ~500px, attribution right-aligned below",
+        "typography": "Set name ~70px Extended Regular caps; quote ~50px Normal Medium, leading ~1.15, ss01 on; labels ~8px Extended caps ('MEDIUM – SS01 ON', 'STYLISTIC VARIANT 1')",
+        "palette": [
+          "#fdfdfd",
+          "#040404",
+          "#8d8d8d"
+        ],
+        "behaviour": "Two linked Owl carousels (owl_second_left, owl_second_right), 3 slides each, advanced by the right-hand arrow",
+        "content": "Romantic film quotes, one per stylistic set",
+        "assets": "Six pre-rendered slide images",
+        "html": ".owl-carousel.owl_second_left (image1/3/5 + .separator) and .owl_second_right (image2/4/6)"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "language-support",
+      "variant": "multiscript-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "travel, editorial",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": true
+      },
+      "look": "Carousel of language slides; the captured Greek slide has a giant black 'A' cropped at the left edge, a heading '→ Αθήνα, Ελλάς' and a narrow justified Greek paragraph translating the back story, labelled GREEK",
+      "feel": "Postcard-like, editorial",
+      "ux": "Circled arrow pages through 4 slides, one per script or language (city heading + translated paragraph)",
+      "learn": "Head each script sample with a city name in that script ('Athens, Greece'): a place gives the language slide a reason to exist",
+      "reconstruction": {
+        "layout": "Full-width slides 1440px with 300px gap, ~675px tall; giant letter ~650px tall bleeding off the bottom-left; heading at x≈390; paragraph column ~400px at x≈740; label ~8px bottom right",
+        "typography": "Giant capital ~650px Extended Regular; heading ~32px Wide Regular; paragraph ~18px Book, justified, hyphenated",
+        "palette": [
+          "#fcfcfc",
+          "#030303",
+          "#d4d4d4"
+        ],
+        "behaviour": "Owl carousel, 4 slides (third_owl), arrow navigation",
+        "content": "Translated intro paragraphs (Greek shown) with a city heading per language",
+        "assets": "Four pre-rendered slide images",
+        "html": ".owl-carousel.third_owl > .owl-item (1440px, margin-right 300px) > .img.specialsItems"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "glyph-table",
+      "variant": "bento-cards",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "friendly, digital",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'SYMBOLS' on black: four big circled pictograms in a row (a wry face, a storm cloud, a circled 5, an up arrow) labelled emotional, seasonal, numerical, directional, over a short centred paragraph",
+      "feel": "Playful, concise",
+      "ux": "static",
+      "learn": "Introduce a large symbol set with one representative glyph per category and a one-word label instead of the whole grid",
+      "reconstruction": {
+        "layout": "Black ~1037px panel; title centred; 4 icons ~165px diameter at ~230px pitch, centred; labels ~28px under each; paragraph ~600px wide centred below",
+        "typography": "Icons from the font, white; labels ~28px Wide Regular lowercase; paragraph ~22px Book; title ~12px Extended caps",
+        "palette": [
+          "#030303",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Weather icons, numeral symbols, wayfinding arrows, movie-rating stars and emojis",
+        "assets": "none (glyphs) or pre-rendered image"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "orderly, reference",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "name-only",
+        "interactive": true
+      },
+      "look": "'FAMILIES + STYLES': a hairline-ruled two-column table, roman left and italic right, each cell the style name set in itself from Extended XThin to Extended Ultra Italic",
+      "feel": "Tidy, catalogue",
+      "ux": "Arrow pages through five tables, one per width family (Compressed, Condensed, normal, Wide, Extended)",
+      "learn": "One table per width with roman/italic columns turns a 90-style family into five readable pages",
+      "reconstruction": {
+        "layout": "Carousel 1410px; table ~1010px wide centred (x≈216–1224), 10 rows × ~53px, 1px grey borders; arrow circle at the right edge",
+        "typography": "Style names ~30px in their own style (wght 100→900+ ultra, ital 0/1), left-aligned with ~20px padding; title ~12px Extended caps",
+        "palette": [
+          "#f9f9f9",
+          "#0e0e0e",
+          "#b1b1b1"
+        ],
+        "behaviour": "Owl carousel with 5 slides; arrow navigation",
+        "content": "Style names only",
+        "assets": "none or pre-rendered table images"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "exhaustive, neutral",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'CHARACTER SET': ~1000 characters in a 14-column grid of square hairline cells, from ASCII through Latin Extended, Greek, Cyrillic, alternates and ligatures to dozens of circled numerals, emoji faces, arrows and checkboxes",
+      "feel": "Thorough, plain",
+      "ux": "Hovering a cell shows a magnified glyph in a floating 280×280 canvas loupe at the pointer",
+      "learn": "A loupe that follows the pointer gives a big preview without a fixed side panel, keeping the grid full width",
+      "reconstruction": {
+        "layout": "Centred grid ~1232px wide (14 × 88px cells), ~6600px tall; 1px grey cell borders; title centred above",
+        "typography": "Glyphs ~30px Wide Regular, centred in cells, black",
+        "palette": [
+          "#f5f5f5",
+          "#020202",
+          "#919191"
+        ],
+        "behaviour": "mouseover cell → draw the glyph large into the canvas (280×280) positioned at the cursor; hidden on leave",
+        "content": "Full character set in encoding order",
+        "assets": "none",
+        "html": ".font_grid > .wrapper_canvas > canvas[width=280][height=280] + .char > span (Vue component)"
+      }
+    },
+    {
+      "blocks": [
+        "15",
+        "16"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "video",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "collector's item, cinephile",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "carousel"
+      },
+      "look": "'CINEMATOGRAPHY – 16:9 FLIPBOOK': a full-width Vimeo film of hands flipping a black book, then a split section with a photo carousel of the open book ('The End') on the left, a description and a black square 'BUY FLIPBOOK' button on the right",
+      "feel": "Tactile, premium",
+      "ux": "Play button starts the Vimeo film (Plyr); dots page the photos; BUY FLIPBOOK links to the foundry's goods page",
+      "learn": "A printed object made with the font, filmed being flipped, proves the type works in print and sells a collectible next to the licence",
+      "reconstruction": {
+        "layout": "15: black 90px title band, 16:9 video at full width cropped to ~80vh; 16: two columns split by a 1px vertical rule, photo carousel ~680×490px left, text column ~540px right, 110px square button below",
+        "typography": "Title ~12px Extended caps white on black; description ~22px Book with bold lead-in; button label ~10px caps white on black",
+        "palette": [
+          "#020202",
+          "#f8f7f7",
+          "#d7d8d8"
+        ],
+        "behaviour": "Plyr-wrapped Vimeo player (no autoplay); Owl photo carousel with dots",
+        "content": "Real product: 156-page flipbook of 70 typographic posters on historic movie titles",
+        "assets": "Vimeo film of the flipbook; product photos",
+        "html": "section#contentPage18 > .plyr > iframe[src*=player.vimeo.com]; a.gothicBuy"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "footer",
+      "variant": "big-sign-off",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "end credits, cinematic",
+        "mobile": "adapts",
+        "contains": [
+          "sign-off",
+          "legal",
+          "socials",
+          "contact"
+        ]
+      },
+      "look": "Black end card 'N O W  A V A I L A B L E / O N  Y O U R  S C R E E N' in very widely tracked caps across the width; at the bottom a small foundry URL and ©2026 Parachute Typefoundry, an IMPRINT link and five round white social icons",
+      "feel": "Like the last frame of a trailer",
+      "ux": "Social and mail links; IMPRINT opens a popup",
+      "learn": "End the page with a cinema end-card line ('Now available on your screen') to complete the film metaphor",
+      "reconstruction": {
+        "layout": "Full-bleed black ~880px; two lines centred vertically, each justified across x≈180–1270; footer row at the bottom: copyright centred, imprint + 5 icons (~36px circles) at the right",
+        "typography": "Sign-off ~45px Wide Regular caps with ~1em letter-spacing and wide word gaps; footer ~16px",
+        "palette": [
+          "#020202",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "'NOW AVAILABLE ON YOUR SCREEN'",
+        "assets": "Social icon SVGs",
+        "html": "section#contentPage17 > .img.image1 + #copySocials (.copyright, .socials .icons)"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed 55px black bar: 'PF Grand Gothik' logo left, hamburger right that expands to TEST, SPECIMEN (PDF), FLIPBOOK, TRIAL (Dropbox zip), BUY (parachutefonts.com); on mobile a round TESTER button sits beside it"
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "pangram",
+        "tone": "tool-like, minimal",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "leading",
+          "weight",
+          "axes",
+          "features",
+          "style-select",
+          "alignment",
+          "language"
+        ],
+        "scope": "single",
+        "defaultText": "pangram",
+        "export": false
+      },
+      "look": "Hidden full-screen white panel (never cut as a block; captured in HTML only, attached to the nav that opens it): a top row of three selects (Language, Weight with 90 named styles, Features multi-select) and a close ×, one big textarea, and a bottom row of alignment icons plus line-height, font-size, width, weight and italic sliders with value tooltips",
+      "feel": "Clean, utilitarian",
+      "ux": "Opened from TEST in the menu (TESTER button on mobile); language select loads sample text (incl. Greek pangram); style select snaps the sliders; feature select toggles liga, tnum, pnum, onum, lnum, ss01–ss03, ornm, locl, zero; on mobile the selects move behind an OPTIONS button",
+      "learn": "A single textarea with every axis, size and feature control is enough when it lives in an overlay: the scroll page stays a film, the tool is one click away",
+      "reconstruction": {
+        "layout": "Fixed full-viewport panel; selects in col-xl-2 cells offset 3 columns at the top; textarea fills the middle (flex 1); control row at the bottom: 3 alignment glyph icons (~150px), then 5 sliders in col-xl-2 cells each with a title under it",
+        "typography": "Sample in Grand Gothik driven by CSS vars --wdth (0–100), --wght (100–900), --ital (0–1); controls ~12px Extended caps",
+        "palette": [
+          "#ffffff",
+          "#000000"
+        ],
+        "behaviour": "range input → CSS custom properties on the textarea (font-variation-settings), font-size 10–200px, line-height 1–3; bootstrap-select dropdowns; close × hides the panel",
+        "content": "Language samples: Greek, Greek pangram, English, Russian, French, German, Spanish, Polish, Italian, Portuguese, Swedish, Czech, Danish, Dutch, Romanian, Turkish",
+        "assets": "none",
+        "html": "#fixme > .options (select#language, select#instance, select#features[multiple]) + #variable_content textarea[style=--wdth;--wght;--ital] + input#leading/#font_size/#font_width/#font_weight/#font_italic[type=range] with .slider_tooltip"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "newsletter",
+      "variant": "email-signup",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "transactional",
+        "mobile": "adapts"
+      },
+      "look": "Hidden modal 'FREE TRIAL FONTS' (HTML only, never shown in the capture): name and e-mail fields, checkboxes for newsletter and Trial Font EULA, reCAPTCHA and submit",
+      "feel": "Formal gate",
+      "ux": "Trial download gated behind a mailing-list sign-up (the desktop TRIAL link goes straight to a Dropbox zip instead)",
+      "learn": "Gating the trial behind the newsletter trades a free download for a lead; keep the EULA checkbox next to it",
+      "reconstruction": {
+        "layout": "Centred modal with title, one-line intro, two full-width inputs, a two-column row of checkboxes and captcha, close ×",
+        "typography": "Title ~30px Extended caps; inputs ~16px",
+        "palette": [
+          "#ffffff",
+          "#000000"
+        ],
+        "behaviour": "POST form with required checkboxes and reCAPTCHA",
+        "content": "'Subscribe to our mailing list and download a trial version of PF Grand Gothik'",
+        "assets": "none",
+        "html": "form#contact_form > input#name, input#email[type=email], label.chkcontainer > input[type=checkbox] ×2, reCAPTCHA iframe"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "09",
+      "reason": "empty black spacer (120px) between the stylistic-set carousel and the MULTISCRIPT video"
+    }
+  ],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "specimen-showcase/word-stack",
+    "specimen-showcase/kinetic-scenes",
+    "story/origin-reference",
+    "design-details/design-notes",
+    "specimen-showcase/word-stack",
+    "design-details/feature-index",
+    "language-support/multiscript-specimen",
+    "glyph-table/bento-cards",
+    "family-overview/style-word-grid",
+    "glyph-table/full-grid",
+    "specimen-showcase/in-use-mockups",
+    "footer/big-sign-off",
+    "type-tester/slider-sandbox",
+    "newsletter/email-signup"
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "slug": "2020-typefacedesign-org-simon",
+  "extractedBy": "agent",
+  "summary": "One student page of the Reading MATD 2020 graduation site (shared template) for 'chunky', a friendly Latin/Hebrew/Arabic text face. An animated SVG of tumbling letters opens it, then a personified intro ('Hi, I am chunky'), four non-editable samples each with its own weight slider, line-drawn illustrations of themed artefacts (jute bags, a spacing proof sheet, pride asterisks, a small-ads page), a designer bio, a Q&A interview and the site colophon.",
+  "instances": [
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed white 72px bar: 'MATD二零二零' logo at the left, 'Menu' at the right opening an overlay of all 13 student projects (thumbnail, font name, designer); a fragment of the logo ('零二零') is stamped over several crops"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "kinetic-type",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "playful, chunky, bold",
+        "mobile": "adapts",
+        "carrier": "motion",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "An animated SVG: big black letters of the heaviest weight drop in one by one at odd angles and pile into a dense cluster reading roughly 'time for change'; the crop is blank because the <object> SVG did not paint in the screenshot, the storyboard shows it",
+      "feel": "Fun, tumbling, physical",
+      "ux": "Plays once on load (≈2–4s), then rests as a static cluster",
+      "learn": "Let a few huge letters fall into a heap: a one-shot SVG animation gives a text face a playful entrance without any controls",
+      "reconstruction": {
+        "layout": "Centred in the 1030px grid (x=205), ~1030×570px; cluster of ~12 letters, each ~150–300px, rotated ±90°, overlapping slightly; name and intro follow below",
+        "typography": "chunky Bold/Black lowercase letters, black on white",
+        "palette": [
+          "#ffffff",
+          "#000000"
+        ],
+        "behaviour": "SMIL/CSS animation inside the SVG: letters appear sequentially with a drop/rotate, ending in a static pile",
+        "content": "Letters of a short phrase (likely 'time for change')",
+        "assets": "Animated SVG (img/simon/change-2.svg) embedded with <object>",
+        "html": ".gridContainer > .four > object[data=change-2.svg]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "warm, personified",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Bold 'chunky' title and 'Simon Thiefes' byline, then two short columns where the typeface introduces itself in the first person",
+      "feel": "Cosy, friendly",
+      "ux": "Static",
+      "learn": "Let the font speak about its purpose in the first person ('I am the fabric that wraps your words') to state the brief with personality",
+      "reconstruction": {
+        "layout": "In the 1030px grid at x=205: title, byline, then two equal columns (~490px) of 2–3 lines each, ~220px total",
+        "typography": "Title ~34px Degular Bold; byline ~13px Bold; body ~13px Degular Regular, colour #242433; the name 'chunky' in italics inline",
+        "palette": [
+          "#ffffff",
+          "#242433"
+        ],
+        "behaviour": "none",
+        "content": "'Hi, I am chunky. I am like trousers made from corduroy or a shirt made from flannel… I am here to give a voice to those who have something to say.'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "08",
+        "10"
+      ],
+      "type": "type-tester",
+      "variant": "per-row-controls",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "friendly, bilingual",
+        "mobile": "adapts",
+        "controls": [
+          "weight"
+        ],
+        "scope": "per-row",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Four short samples scattered down the page between illustrations, each topped by a tiny 'Weight ●—— 400' slider: 'Pack your jute bag!', 'Grab a chunkyset! / !תפוס ערכת שמנמן', '* innen? / innen!', 'chunky! / !שמנמן'",
+      "feel": "Light-touch, conversational",
+      "ux": "Drag a sample's slider to change its weight from 400 to 700 with a live numeric readout; the text is not editable",
+      "learn": "Pair each themed sample with its own single weight slider and let the samples double as captions for the illustrations around them",
+      "reconstruction": {
+        "layout": "Each sample in the 1030px grid at x=205: slider row (label ~13px, track ~130px, value) then 1–2 lines of sample; samples separated by illustrations and large spacers (spaceXL)",
+        "typography": "Samples ~80px chunky Regular (wght 400 default), mixed case, Latin and Hebrew lines (<rtl>), colour #242433; slider labels ~13px Degular",
+        "palette": [
+          "#ffffff",
+          "#242433",
+          "#2a2931"
+        ],
+        "behaviour": "input[type=range] min 400 max 700 step 1 → font-variation-settings / font-weight of #testarea-N, readout span#value-wght-N updates",
+        "content": "Themed calls to action that tie into the illustrations (jute bags, chunkyset, gender star); Hebrew translations",
+        "assets": "none",
+        "html": ".gridContainer > .four > p > label + input#slider-wght[-N] + span#value-wght[-N]; div#testarea[-N].simon[contenteditable=false]"
+      }
+    },
+    {
+      "blocks": [
+        "08",
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "inclusive, colourful",
+        "mobile": "adapts",
+        "subject": [
+          "alternates",
+          "features"
+        ],
+        "presentation": "pairs",
+        "explanation": "none"
+      },
+      "look": "'* innen?' (the gender asterisk as a separate glyph) above 'innen!' where ss01 puts the asterisk on the i as its dot; then a poster of German gender-inclusive nouns ('gewerkschafter*in', 'fahrradkurier*in', 'sozialdemokrat*in', 'klimaaktivist*in') with the star-dot, interleaved with rows of asterisks in rainbow colours",
+      "feel": "Political, cheerful",
+      "ux": "The pair has a weight slider; the poster is a static SVG",
+      "learn": "Show a socially meaningful alternate as a question/answer pair, then celebrate it in real words with a colourful pattern built from the same glyph",
+      "reconstruction": {
+        "layout": "Pair: two lines ~80px in the 1030px grid; poster full-width 1440×810: four word lines ~150px in light grey alternating with rows of 11 asterisks ~50px, each row a different colour",
+        "typography": "chunky Regular; line 2 with font-feature-settings 'ss01' 1; poster words lowercase ~150px in #a0a0a0 grey, asterisks in the font",
+        "palette": [
+          "#ffffff",
+          "#242433",
+          "#e2572b",
+          "#e8e83a",
+          "#3fd13f",
+          "#3346d6",
+          "#b23fd6"
+        ],
+        "behaviour": "none beyond the weight slider",
+        "content": "German feminine plural '*innen' and gendered job nouns",
+        "assets": "SVG poster (img/simon/pride.svg)",
+        "html": "div[style=font-feature-settings: 'ss01' 1]"
+      }
+    },
+    {
+      "blocks": [
+        "07",
+        "08",
+        "11"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "line-drawn, eco, multilingual",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "series"
+      },
+      "look": "Full-width line drawings of artefacts lettered in chunky: tote bags printed 'Jute statt Plastik' in Arabic, Hebrew, French and German; a tilted 'chunkyset' spacing proof sheet (hhhhii iiijjjjkk…); a folded newspaper page of small ads ('Get chunky for your work:') mixing Latin, Hebrew and Arabic",
+      "feel": "Grounded, everyday, activist",
+      "ux": "Static SVGs",
+      "learn": "Draw everyday objects in thin outline and letter them in several scripts, so the type is the only filled element on the page",
+      "reconstruction": {
+        "layout": "Bags and small ads: full-bleed 1440×810 images cropped at the edges; spacing sheet ~800px wide inside the grid, rotated ~5°",
+        "typography": "chunky in several weights, Latin + Hebrew + Arabic; bags with rotated text blocks; small ads in newspaper hierarchy (bold heads, body ~20px)",
+        "palette": [
+          "#fbfbfb",
+          "#242433",
+          "#d0d0d0",
+          "#afafaf"
+        ],
+        "behaviour": "none",
+        "content": "Themed: sustainability slogans, a 'chunkyset' kit, multilingual classifieds dated 18 October 2020",
+        "assets": "SVG illustrations (jute-statt-plastik.svg, chunkyset-2.svg, Small-ads.svg)"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "story",
+      "variant": "designer-bio",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "self-deprecating, witty",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'Simon Thiefes' heading and one humorous paragraph (came to Reading because he likes books…), with Website and Twitter links",
+      "feel": "Informal, friendly",
+      "ux": "Links out",
+      "learn": "A jokey third-person bio with an invitation to talk ('about the weather or to discuss politics') makes a student page personal",
+      "reconstruction": {
+        "layout": "Text block ~480px wide at x≈145 in a 560px band",
+        "typography": "Heading ~34px Degular Bold; paragraph ~13px Degular Regular, leading ~1.5; links underlined",
+        "palette": [
+          "#fdfdfd",
+          "#242433"
+        ],
+        "behaviour": "none",
+        "content": "Real bio",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "reflective, thoughtful",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "long"
+      },
+      "look": "Dark navy band 'Q&A': three bold questions (multi-script workflow, contributing to the community, inspiration) each followed by a long first-person answer, in two columns",
+      "feel": "Earnest, studious",
+      "ux": "Static",
+      "learn": "A short interview with the designer is an easy structure for the process essay of a graduation project",
+      "reconstruction": {
+        "layout": "Band 1440×1314 on #262535; heading at x≈145; two text columns ~330px wide (x≈145 and x≈560)",
+        "typography": "Heading ~34px Degular Bold white; questions ~13px Bold; answers ~13px Regular, leading ~1.5, white",
+        "palette": [
+          "#262535",
+          "#ffffff",
+          "#454550"
+        ],
+        "behaviour": "none",
+        "content": "Interview quoting Herbert Simon on variety; open source; 'widen the interior space, find a solid structure, and wrap the contrast around the skeleton'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "grateful, tidy",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "sign-off"
+        ]
+      },
+      "look": "Light-grey band: 'Colophon' with a thank-you paragraph and 'Typeface: Ohno Type's Degular', and 'Team' with roles (Branding, Content, Development, PM, UI/UX) and names in two sub-columns; a bottom line with the department",
+      "feel": "Warm wrap-up",
+      "ux": "One link to the typeface foundry",
+      "learn": "Close a template site with a role-by-role team list and a credited UI typeface",
+      "reconstruction": {
+        "layout": "Band 1440×807 on #eeeeee; colophon column ~330px at x≈145; team column with two role sub-columns from x≈560; bottom row of two small lines",
+        "typography": "Headings ~34px Degular Bold; role labels ~11px Bold; names and text ~11–13px Regular",
+        "palette": [
+          "#eeeeee",
+          "#242433"
+        ],
+        "behaviour": "none",
+        "content": "'And that's a wrap!' thank-you and the MATD19/20 site team",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "00",
+      "reason": "empty intro element at the top (72px, behind the fixed header)"
+    },
+    {
+      "block": "02",
+      "reason": "empty spacer (spaceL)"
+    },
+    {
+      "block": "04",
+      "reason": "empty spacer (spaceL)"
+    },
+    {
+      "block": "06",
+      "reason": "empty spacer (spaceL)"
+    }
+  ],
+  "sequence": [
+    "hero/kinetic-type",
+    "story/design-brief",
+    "type-tester/per-row-controls",
+    "design-details/feature-before-after",
+    "specimen-showcase/prop-collage",
+    "story/designer-bio",
+    "story/essay",
+    "footer/credits-colophon"
+  ]
+}

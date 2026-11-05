@@ -1,0 +1,130 @@
+{
+  "slug": "db-pixel-club",
+  "extractedBy": "agent",
+  "summary": "A one-screen site for a free pixel font: a full-viewport grid of random characters that slowly flicker (3% of cells re-roll every 500ms) behind a single bordered card holding the name, a two-line pitch, Download/GitHub buttons and an email sign-off. A fixed light/dark switch is the only other control.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "hero",
+      "variant": "glyph-grid-sampler",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "nerdy, lo-fi, friendly",
+        "mobile": "adapts",
+        "carrier": "glyph",
+        "cta": "download",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "Cream page filled edge to edge with a monospaced grid of random pixel characters (letters, digits, punctuation) in near-black, with one small cream card centred on top carrying the name 'db-pixel.club'",
+      "feel": "Terminal-like, playful, low-key",
+      "ux": "Nothing to scroll; characters in the grid re-roll at random so the background shimmers; a fixed square sun/moon button top-right flips light/dark (persisted in localStorage, defaults to the system theme)",
+      "learn": "For a single-style display font, a field of the font's own random characters is both the texture and the character-set preview; let a few cells change at a time so it feels alive without distracting",
+      "reconstruction": {
+        "layout": "Full-viewport (100vw × 100vh) absolutely positioned grid: cell = min(vw, vh) × 0.05 (45px at 1440×900), pitch = cell × 1.2 (54px), cols = ceil(vw/pitch), rows = ceil(vh/pitch), each char a span at left = j·pitch + pitch/2, top = i·pitch (≈27 × 17 = 459 spans); centred card 448px wide (max-w-md; 280px on mobile), padding 32px, 1px solid border in the text colour, background = page colour so it masks the grid; theme switch fixed top 16px right 16px, 1px border, 12px padding, 18px feather icon",
+        "typography": "Everything in db-pixel (single style). Grid chars 45px (5% of the shorter viewport side); card title 48px (text-5xl, 24px on mobile); pitch 18px with ~1.4 leading; button labels 16px; footer line 13px with underlined link",
+        "palette": [
+          "#fffdf1",
+          "#001000",
+          "#d4d5ca"
+        ],
+        "behaviour": "setInterval every 500ms: each grid span has a 3% chance to swap to a random char from A–Z a–z 0–9 and !@#$%^&*()_+-[]{};:,.<>?; grid regenerates on resize (debounced); theme toggle sets html[data-theme] to swap --bg-color/--text-color (light #fffdf1 on #001000; dark #001000/#121212 background with light text), aria-checked mirrors it; buttons invert on hover (bg-current, text = bg colour)",
+        "content": "No sample text: random characters; card copy is casual ('Pretty cool font right? And it's free for you to download and use and / or modify however you please. Have fun and tell your designer friends about it ;)')",
+        "assets": "Feather icons (sun, moon, download, github)",
+        "html": "#textContainer.text-container[aria-hidden] > span.pixel-text (absolute, inline font-size/left/top); main.relative.z-10.min-h-screen.flex.items-center.justify-center > .card.border.border-current; button.theme-toggle.fixed[role=switch][aria-checked] onclick=toggleTheme()"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "casual, generous",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Two full-width outlined buttons stacked inside the hero card: '⤓ Download Font' and 'GitHub' with feather icons",
+      "feel": "Simple, no friction",
+      "ux": "Download Font fetches db-pixel.zip directly from the site; GitHub links to the repository; the licence is stated in plain words in the card ('use and / or modify however you please')",
+      "learn": "When the font is free, the pitch sentence can double as the licence summary and the download sits right under it",
+      "reconstruction": {
+        "layout": "Flex column, gap 12px, buttons full card width (~384px), ~40px tall (py-2), 1px border, centred icon + label; margin-bottom 24px",
+        "typography": "16px db-pixel labels, sentence case",
+        "palette": [
+          "#fffdf1",
+          "#001000"
+        ],
+        "behaviour": "Hover fills the button with the text colour and inverts label and icon",
+        "content": "'Download Font' (zip), 'GitHub' (repo)",
+        "assets": "Feather download and github icons",
+        "html": "a.action-button.flex.items-center.justify-center.w-full.border.border-current.hover:bg-current.group"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "footer",
+      "variant": "personal-sign-off",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "informal, warm",
+        "mobile": "adapts",
+        "contains": [
+          "contact",
+          "credits",
+          "sign-off"
+        ]
+      },
+      "look": "Inside the same card, above and below the buttons: 'Created something using this font? Feel free to email it to: hello@daanblom.com' and a centred tiny '2026, daanblom.com' line",
+      "feel": "Personal, open",
+      "ux": "Email address is plain text; the designer's site is an underlined link",
+      "learn": "Ask users to send what they make: the sign-off becomes a call for showcase material",
+      "reconstruction": {
+        "layout": "Paragraph block above the buttons, then a 13px centred line 16px below them, all inside the 448px card",
+        "typography": "18px db-pixel for the request, 13px (10px mobile) for the year/credit line",
+        "palette": [
+          "#fffdf1",
+          "#001000"
+        ],
+        "behaviour": "none",
+        "content": "Email request and year + designer domain",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/glyph-grid-sampler",
+    "checkout/free-download",
+    "footer/personal-sign-off"
+  ]
+}

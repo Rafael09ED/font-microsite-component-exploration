@@ -1,0 +1,336 @@
+{
+  "slug": "urbangrotesk-suitcasetype-com",
+  "extractedBy": "agent",
+  "summary": "A short one-pager (2014, captured from the Wayback Machine) for Suitcase Type Foundry's Urban Grotesk: a yellow hero, then a repeating rhythm of short text bands (black or yellow), parallax 'windows' of justified word stacks on white, and image panels (annotated 'Regi24', the six weights, an OpenType feature board), ending with Buy and free test-font links.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bold, cheerful, urban",
+        "mobile": "breaks",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "Saturated yellow field with 'Urban Grotesk™' in black Bold at 210px on two left-aligned lines and a small white starburst 'new!' sticker at the upper right",
+      "feel": "Loud, signage-like, friendly",
+      "ux": "static; no nav, no CTA above the fold",
+      "learn": "A single saturated colour plus the name in its boldest weight is enough of a hero when the colour carries through the page's text bands",
+      "reconstruction": {
+        "layout": "Full-width band ~750px tall; name block left-aligned at x≈150, two lines, top at ~180px; 'new!' badge ~70px circle at x≈650, y≈230",
+        "typography": "Name: 210px Urban Grotesk Bold, black, leading ~1.05, tight tracking, ™ superscript",
+        "palette": [
+          "#fecd01",
+          "#d2ab07",
+          "#080605",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Name only plus a 'new!' sticker",
+        "assets": "'new!' starburst PNG (New.png, @2x and mobile versions)",
+        "html": "header > .row > h1 (span.tm) + picture > img.new"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "historical, measured",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Black band with one narrow centred paragraph in yellow small text on early-20th-century Grotesks (Französische Grotesk, Reform Grotesk, Breite Halbfette Grotesk, Normal Grotesk, Square Gothic¹)",
+      "feel": "Sober, scholarly",
+      "ux": "Footnote ¹ resolves in the footer with foundries and dates",
+      "learn": "Name the historical models in the copy and source them in a footnote: credibility without a history chapter",
+      "reconstruction": {
+        "layout": "Full-width band ~340px; text column ~470px wide starting at x≈530, top padding ~45px",
+        "typography": "~18px Urban Grotesk Regular, yellow #fecd01 on black, leading ~1.5 (rendered small in the band)",
+        "palette": [
+          "#030304",
+          "#fecd01"
+        ],
+        "behaviour": "none",
+        "content": "History of the Grotesk genre",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "05",
+        "08"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "urban-planning, editorial",
+        "mobile": "breaks",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Three white 'windows' through which a tall stack of justified lines slides by: each line a word or phrase forced to the full column width at its own size and weight ('Garden', 'Commonwealth Association of Planners', 'Satellite imagery', 'SUSTAINABLE DEVELOPMENT', 'Industrial City', '3/9/2014', 'ISBN 0-06-430376-4', 'Cornershop', '1862–1907', 'MECHANIZED'…)",
+      "feel": "Dense, newspaper-like, rhythmic",
+      "ux": "Each window is a background image that scrolls at a different speed from the page (parallax), so the stack drifts past as you scroll",
+      "learn": "Justify every line of a word stack to the same width and vary only size, weight and case: the column shows the whole family's colour range at a glance, and parallax keeps it moving",
+      "reconstruction": {
+        "layout": "Window 1060×1000px centred (x=190) with overflow hidden; content is a tall image with lines spanning the full 1060px, line heights from ~40px (small sentences) to ~250px (single words), lines tight together",
+        "typography": "Urban Grotesk Light to Black, roman and italic, caps and lowercase; each line sized to fill the width (from ~30px for a sentence to ~300px for 'seria'); black on white",
+        "palette": [
+          "#fafafa",
+          "#080808",
+          "#b0b0b0",
+          "#d0d0d0"
+        ],
+        "behaviour": "Parallax: div.row[data-type=background][data-speed=6][data-top=10] shifts background-position-y with scroll (≈ scrollY / speed)",
+        "content": "Urban-planning vocabulary: Garden City, satellite imagery, collaborative planning, population figures, ISBN, dates, footnote-style sentences ('A Woozle is an imaginary character in the A.A. Milne book…')",
+        "assets": "Three tall pre-rendered word-stack images",
+        "html": "section.window#first > div.row[data-speed][data-top][data-type=background] (background-image)"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "explanatory, crisp",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "'Regi24' in big white Bold on black, the final '4' smaller, with six short yellow callouts around it ('The uppercase R has a straight tail with a fluid connection', 'The basic g has double loops for better legibility', 'Dots are rounded', 'The diagonal of the numeral 4 is slightly curved'…); a yellow band of explanatory text follows",
+      "feel": "Didactic, tidy",
+      "ux": "static image",
+      "learn": "Pick one word that contains every characteristic letter and hang one-line notes around it: a whole anatomy lesson in one panel",
+      "reconstruction": {
+        "layout": "Black band ~570px; word ~1090px wide centred, cap height ~260px; callouts ~150px wide placed above and below the letters they describe; followed by a yellow band (~340px) with a centred 470px text column",
+        "typography": "Sample: Urban Grotesk Bold ~370px white; callouts ~11px Regular yellow; band text ~18px Regular black on yellow",
+        "palette": [
+          "#030302",
+          "#fafafa",
+          "#fecd01",
+          "#fccd04"
+        ],
+        "behaviour": "none",
+        "content": "Six design notes on R, round stroke endings, double-storey g, round dots, curved 4 and closed numerals; paragraph on rounded arches, thinner connections, vertical stress",
+        "assets": "Desktop_Characters.png and a mobile version",
+        "html": "section#characters > .row.desktop > picture (desktop/mobile sources)"
+      }
+    },
+    {
+      "blocks": [
+        "06",
+        "07"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "orderly",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "On black, six white lines from Light to Black, each '<Weight> Italic SMALL CAPS ITALICS' set in that weight, so roman, italic, small caps and italic small caps show per weight; a yellow text band follows",
+      "feel": "Compact, complete",
+      "ux": "static image",
+      "learn": "Let each style name be its own sample and append Italic and SMALL CAPS on the same line: twelve-plus styles in six lines",
+      "reconstruction": {
+        "layout": "Black band ~590px; left-aligned list at x≈140, six lines ~48px apart",
+        "typography": "~40px Urban Grotesk in Light, Regular, Medium, Semibold, Bold, Black with italic and small caps; white",
+        "palette": [
+          "#040404",
+          "#ffffff",
+          "#fdcd04"
+        ],
+        "behaviour": "none",
+        "content": "Style names; text band on the six weights, 10° italics with the same width as roman, single-storey a and g alternates, small caps in all styles",
+        "assets": "Desktop_Styles.png and a mobile version"
+      }
+    },
+    {
+      "blocks": [
+        "09",
+        "10"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "technical, generous",
+        "mobile": "adapts",
+        "subject": [
+          "features"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "A 5×3 board on black: each tile a short white sample with a yellow label below: Small Capitals 'HA1?', Localized Forms 'il·șț', Discretionary Ligatures 'H™℠®', Lining Figures, Old Style Numerals, Tabular Figures, Superscript, Scientific Inferiors, Numerators, Denominators, Fractions '10/25', Standard Ligatures 'fiff', Slashed Zero '0101', Stylistic Sets 'Iaal', Case Sensitive Forms '¿@–'; a yellow text band follows",
+      "feel": "Thorough, neat",
+      "ux": "static image",
+      "learn": "Use 'H' plus the affected glyphs as the sample for every figure feature, so the tiles compare like with like",
+      "reconstruction": {
+        "layout": "Black band ~590px; 5 columns × 3 rows, each tile ~200px wide; sample ~50px tall, label ~12px below; grid starts at x≈220",
+        "typography": "Samples ~56px Urban Grotesk Bold white; labels ~11px Bold yellow #fecd01; band text ~18px Regular",
+        "palette": [
+          "#020202",
+          "#ffffff",
+          "#fecd01",
+          "#fdcd04"
+        ],
+        "behaviour": "none",
+        "content": "15 OpenType features by name; text: 800+ glyphs per face, 50+ Latin languages, nine numeral sets, fractions, arrows, stylistic sets",
+        "assets": "Desktop_Features.png and a mobile version"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "direct",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "On white: 'Buy Urban Grotesk™' as a 64px Bold heading link, below it 'Download the Free Urban Grotesk™ Test Font' as a yellow highlighted text link",
+      "feel": "Plain, confident",
+      "ux": "Buy opens the Suitcase Type shop page; the test font zip downloads directly",
+      "learn": "Pair the buy link with a free test-font download so visitors who aren't ready to buy still leave with the font",
+      "reconstruction": {
+        "layout": "Centred 1060px column (x=190); heading at top ~80px padding, test-font link ~40px below",
+        "typography": "Heading 64px Urban Grotesk Bold black; link ~18px Medium black on a yellow #fecd01 highlight box",
+        "palette": [
+          "#fefefe",
+          "#000000",
+          "#fecd01"
+        ],
+        "behaviour": "none",
+        "content": "Buy / free test font",
+        "assets": "none",
+        "html": "footer > .row.higher > h2 > a; span.download > a[href$=UrbanGrotesk_TestFont.zip]"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain",
+        "mobile": "adapts",
+        "contains": [
+          "socials",
+          "legal",
+          "credits"
+        ]
+      },
+      "look": "Under the CTAs: 'Twitter / Facebook / Google+ / Email' share links, the footnote listing the five historical Grotesks with foundry and year, '© 2014 Suitcase Type Foundry. All rights reserved.' and a small black Suitcase Type Foundry logo square at the right",
+      "feel": "Minimal",
+      "ux": "Share links open the networks' share dialogs",
+      "learn": "Use the footer for the essay's footnote: sources live at the end like in print",
+      "reconstruction": {
+        "layout": "Same 1060px column; share line, then two-line footnote, then copyright; logo ~60×65px right-aligned",
+        "typography": "Share ~18px Medium; footnote and copyright ~8–9px Regular black",
+        "palette": [
+          "#fefefe",
+          "#000000",
+          "#cecece"
+        ],
+        "behaviour": "none",
+        "content": "Share links, footnote, copyright",
+        "assets": "Foundry logo (suitcase icon)"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/origin-reference",
+    "specimen-showcase/word-stack",
+    "design-details/annotated-specimen",
+    "family-overview/style-word-grid",
+    "design-details/feature-index",
+    "checkout/link-out-cta",
+    "footer/slim-legal-bar"
+  ]
+}

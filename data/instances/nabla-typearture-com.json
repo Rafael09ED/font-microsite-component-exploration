@@ -1,0 +1,378 @@
+{
+  "slug": "nabla-typearture-com",
+  "extractedBy": "agent",
+  "summary": "A short one-page specimen for a free COLRv1 isometric colour font: alternating blue specimen bands and grey two-column prose bands, an annotated COLRv0-vs-COLRv1 diagram, an axis demo with Depth/Highlight sliders, and a full customizer with axis sliders, palette select and ten per-layer colour pickers. Everything leads to Google Fonts and GitHub.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "retro-digital, bright, toy-like",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "The word 'ISOMETRY' in yellow-orange extruded Nabla letters across a royal-blue field ruled with faint isometric grid lines, with 'Nabla — the isometric color font' and the byline in white below",
+      "feel": "Bright, arcade-like, confident",
+      "ux": "Static; the slim fixed white nav bar sits above",
+      "learn": "Use a word that names the font's concept (here 'Isometry') instead of the family name, and draw the concept's own grid behind it",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×720 (80vh) under a 44px fixed nav; word image ~1200px wide, ~240px tall, left-aligned at x≈120, vertically centred slightly high (top ≈210px); title line at y≈500, byline under it, same left edge",
+        "typography": "Display word: Nabla default palette (yellow faces, orange sides), ~240px cap height, uppercase, rendered as a background image; title 32px Degular Bold white; byline ~16px Degular Regular white. The real h1 is screen-reader-only",
+        "palette": [
+          "#142dad",
+          "#fad837",
+          "#ff9123",
+          "#ffffff"
+        ],
+        "behaviour": "none (static image)",
+        "content": "Concept word 'ISOMETRY'; 'Nabla — the isometric color font / by Arthur Reinders Folmer & Just van Rossum'",
+        "assets": "Background image of the word in Nabla over thin light-blue isometric grid lines (30°/150° diagonals plus verticals)",
+        "html": ".intro background image; h1 inside .title.screen-reader-text"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "upbeat, plain",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Light-grey band, bold small heading 'Nabla. Isometry, typeable' in the left half and three short paragraphs in the right half, ending in a bold browser-support warning link",
+      "feel": "Friendly, matter-of-fact",
+      "ux": "Static text with a caniuse link",
+      "learn": "Pair each colourful specimen band with a quiet grey prose band so the page alternates show and tell",
+      "reconstruction": {
+        "layout": "Full-width band ~350px tall, 2 equal columns (bit-column-6) inside a ~1150px frame; heading top-left at x≈145, paragraphs in the right column from x≈730, ~560px wide",
+        "typography": "Heading ~16px Degular Bold; body ~16px Degular Regular, leading ~1.5; warning line in Bold",
+        "palette": [
+          "#f3f3f3",
+          "#1a1919"
+        ],
+        "behaviour": "none",
+        "content": "Real intro: inspired by vintage computer games and the isometric cube, going beyond pixel-lettering; open source and free; 'Nabla does not work in all browsers, check for current support here'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "arcade, chromatic",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "Three stacked words 'ISOMETRIC / CHROMATIC / PROJECTED' in Nabla, each in another built-in palette (yellow-orange, blue-cyan, pink-magenta) on royal blue",
+      "feel": "Loud, toy-like, celebratory",
+      "ux": "The letters extrude and flatten in a staggered wave (depth axis keyframes)",
+      "learn": "Give each stacked line a different colour-font palette and animate the depth axis letter by letter so a static stack becomes a moving demo of both features",
+      "reconstruction": {
+        "layout": "Full-width band 1440×650; three centred lines, ~175px each, tight leading (~1.0), block ~1150px wide",
+        "typography": "Nabla 173px uppercase; line 1 palette 0 (yellow/orange), line 2 a blue/cyan palette, line 3 a pink/magenta palette (font-palette per line)",
+        "palette": [
+          "#132bac",
+          "#fad837",
+          "#29b6f6",
+          "#e91e63"
+        ],
+        "behaviour": "CSS keyframes 'depthcharge'/'depthuncharge' animate font-variation-settings 'EDPT' 0 → 200 → 0; letters carry classes one/two/three so the animation delay steps across the word in a wave",
+        "content": "Three words naming the font's qualities",
+        "assets": "none",
+        "html": ".animation > .color-anim(.blue|.red) > span.one|.two|.three per letter"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04",
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "explanatory, friendly-technical",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "features"
+        ],
+        "presentation": "annotation",
+        "explanation": "prose"
+      },
+      "look": "Two grey prose bands ('Cutting edge technology', 'What is COLRv1?') around an illustration of the same isometric 'A' twice, COLRv0 (flat colours, solid shadow) vs COLRv1 (gradients, blended shadow, pattern fill), with hand-drawn arrows, circles and handwritten-style callouts",
+      "feel": "Approachable explainer, like a textbook margin",
+      "ux": "Static",
+      "learn": "Explain a new font technology by drawing the same letter in the old and new format side by side and circling each difference with a short callout",
+      "reconstruction": {
+        "layout": "Prose bands as in the intro (heading left, paragraphs right, ~350px tall); diagram band 1440×570 on #e6e7e7: two letters ~280px tall centred at x≈500 and x≈950, separated by a vertical dashed rule; dashed baseline and cap-height rules across; column titles 'COLRv0' and 'COLRv1' above; 5–6 callouts with curved arrows and circles; dark 'And much more!' tag bottom-right",
+        "typography": "Prose: 16px Degular Regular, headings Degular Bold; callouts ~14px Degular, sentence case; column titles ~14px Bold caps",
+        "palette": [
+          "#f3f3f3",
+          "#e6e7e7",
+          "#fad837",
+          "#ff9123",
+          "#1a1919"
+        ],
+        "behaviour": "none",
+        "content": "Real explanation: COLRv1 allows gradients, sharp highlights, blended shadows, internal palettes and variable axes for depth and highlight; browser support caveat. Callouts: 'Only solid colors', 'Only alpha channel for transparency', 'Added layer effects (screen, multiply etc.)', 'Smooth gradients!', 'Can be filled with other (variable) drawings!'",
+        "assets": "One PNG illustration (assets/visuals/COLRv1_4.png) of the two letters with callouts",
+        "html": ".COLRv1_1 > img.COLRv1_1_img"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "metallic, technical",
+        "mobile": "adapts",
+        "subject": [
+          "axes",
+          "features"
+        ],
+        "presentation": "animation",
+        "explanation": "none"
+      },
+      "look": "On near-black navy, 'greyscale / highlight' in a silver greyscale Nabla palette at 250px, under a white bar with two sliders: Depth and Highlight",
+      "feel": "Cool, chrome-like, hands-on",
+      "ux": "Dragging Depth extrudes or flattens the letters; dragging Highlight moves the specular highlight; the sample text is fixed",
+      "learn": "Show an alternate palette and its two custom axes on a word that names them, with one slider per axis and nothing else",
+      "reconstruction": {
+        "layout": "Band 1440×770; white control bar ~55px tall with two label+slider pairs centred (labels ~110px, sliders ~160px); sample two lines centred below, ~250px each, overflowing slightly",
+        "typography": "Sample: Nabla 250px, greyscale palette, lowercase; line 2 in <strong>; slider labels 16px Degular Bold",
+        "palette": [
+          "#04022b",
+          "#f8f8fa",
+          "#9190ac",
+          "#515071",
+          "#ffffff"
+        ],
+        "behaviour": "Depth range 0–200 (default 100) → 'EDPT'; Highlight range 0–24 (default 12) → 'EHLT', applied via font-variation-settings on input; letters carry mirrored classes l_1…l_9 (line 2 reversed) for a staggered depth animation",
+        "content": "Two words naming what is shown: 'greyscale highlight'",
+        "assets": "none",
+        "html": ".nabla_bw > .slider-bar input[type=range][name=depth-slider|highlight-axis]; p.bw-text > span.l_N per letter"
+      }
+    },
+    {
+      "blocks": [
+        "07",
+        "08"
+      ],
+      "type": "type-tester",
+      "variant": "palette-editor",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "playful, hands-on",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "leading",
+          "axes",
+          "color",
+          "presets"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "After a grey 'Test it out!' prose band, a white control panel (Size, Line height, Background gradient swatches, Depth, Highlight, Color palette select, a row of ten 'Custom colors' swatches) above a blue-to-navy gradient field with 'Give Nabla a go yourself!' in 200px Nabla",
+      "feel": "Generous, toy-box",
+      "ux": "Click to type in the sample; sliders change size, leading and the two axes live; the palette select picks one of 7 built-in palettes; each colour swatch overrides one palette layer; two swatches set the background gradient",
+      "learn": "For a colour font, expose the palette itself: one colour input per layer rewrites the font's colours live, next to the built-in palette presets",
+      "reconstruction": {
+        "layout": "Intro band ~350px (heading left, text right). Tester 1440×850: white control panel ~140px tall, 3 rows centred in a ~900px grid (label ~120px + slider ~150px per cell, 3 cells per row); third row a centred row of 10 swatches ~30×16px; below, editable paragraph centred on a vertical gradient field (#3a50ef top → #00002b bottom), 2 lines at 200px, leading 1.1",
+        "typography": "Sample: Nabla 200px, palette 0, mixed case; labels 16px Degular Bold; intro 16px Degular",
+        "palette": [
+          "#3a50ef",
+          "#00002b",
+          "#ffffff",
+          "#ffd214",
+          "#ff552d",
+          "#ff9b00",
+          "#ffeb6e"
+        ],
+        "behaviour": "Size range 24–600 (200); Line height 0.1–2 (1.1); Depth 0–200 (100) → EDPT; Highlight 0–24 (12) → EHLT; select #font-palette sets font-palette --0…--6; 10 input[type=color] (defaults #FFD214 #FF552D #FF9B00 #FF9123 #FFD214 #FFEB6E #FFD214 #FFEB6E #FFFABE #FFFFFF) rewrite override-colors of a @font-palette-values rule; two color inputs rebuild the background gradient; .COLRv1_setting controls hidden when chromacheck finds no COLRv1 support",
+        "content": "Prompt text 'Give Nabla a go yourself!'",
+        "assets": "none",
+        "html": ".nabla_color > .slider-bar.top > .slider-row > .slider-cell (label + input) ; .picker-cell input.colorpicker.COLRv1_optN ; p.color-text[contenteditable]"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "open-source, plain",
+        "mobile": "adapts",
+        "destination": "distributor",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Grey band: short note on COLRv1 support, a black pill 'get Nabla at Google fonts' and an outlined 'github repository' button, an OFL line; credits (Design, Engineering, Google Fonts logo) in the right column",
+      "feel": "Low-key, generous",
+      "ux": "Two buttons link out to Google Fonts and GitHub",
+      "learn": "For a free font, one filled and one outlined button (distributor + source) plus a one-line licence note is enough",
+      "reconstruction": {
+        "layout": "Band 1440×350, two columns: left ~560px from x≈145 with text, buttons side by side (~250×60 and ~185×60, 8px radius), licence text; right column from x≈730 with three credit groups",
+        "typography": "16px Degular Regular; buttons 16px Degular Bold; credit names Bold",
+        "palette": [
+          "#f2f2f2",
+          "#000000",
+          "#ffffff",
+          "#1a1919"
+        ],
+        "behaviour": "none",
+        "content": "'Nabla is currently only supported in Chrome.' 'Nabla is licensed under SIL Open Font License 1.1'",
+        "assets": "Google Fonts logo"
+      }
+    },
+    {
+      "blocks": [
+        "09",
+        "10"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "fresh, simple",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "contact",
+          "socials"
+        ]
+      },
+      "look": "Credits column (Design / Engineering / made possible by Google Fonts) in the grey band, then a mint-green band with the foundry line and four small columns: Telephone, Twitter, Email, Instagram",
+      "feel": "Light, studio-like",
+      "ux": "Plain links",
+      "learn": "A single mint band with label/value pairs is a tidy foundry footer",
+      "reconstruction": {
+        "layout": "Mint band 1440×210; 5 columns in the ~1150px frame: foundry name (bold, 2 lines), then label/value pairs stacked two per column",
+        "typography": "All ~14–16px Degular; labels Bold, values Regular",
+        "palette": [
+          "#b0fed0",
+          "#1a1919"
+        ],
+        "behaviour": "none",
+        "content": "Typearture contact details and socials; designer and engineer credits",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed white 44px top bar: mint 'T/a' logo tile and 'Nabla by Typearture' left, centred links (specimen, what is COLRv1?, download Nabla, github source), 'Typearture fonts →' right; it is stamped into several stitched crops"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "story/origin-reference",
+    "specimen-showcase/word-stack",
+    "design-details/annotated-specimen",
+    "design-details/axis-explainer",
+    "type-tester/palette-editor",
+    "checkout/free-download",
+    "footer/link-columns"
+  ]
+}

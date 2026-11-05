@@ -1,0 +1,472 @@
+{
+  "slug": "compressa-preusstype-com",
+  "extractedBy": "agent",
+  "summary": "A Bootstrap one-pager for a condensed sans: a stack of full-width flat-colour bands, each either one OpenType feature demonstrated by a looping GIF (small caps, figures, case forms, localized forms, stylistic sets, ligatures) or one giant slab-fitted German word with a hard drop shadow, then the character set, an 80-style list, a variable-font teaser and download links.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "cheeky, poster-like",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "On flat sky blue, a three-line slab-fitted pitch 'A new Typeface. / Not just condensed, / it's Compressa!' (last line lime green) on the left and a huge white capital on the right that cycles through the letters of the name with a pale-blue ghost of the next letter behind it",
+      "feel": "Loud, friendly, self-assured",
+      "ux": "Fixed blue nav bar above; the glyph on the right is an animated GIF spelling C-O-M-P-R-E-S-S-A letter by letter",
+      "learn": "A slab-fitted pitch (each line scaled to the same width) next to a single cycling capital: the sentence sells, the glyph loop shows the letterforms one at a time",
+      "reconstruction": {
+        "layout": "Full-bleed ~1020px tall (113vh); Bootstrap container 1170px centred; left col-5 holds the 3-line headline vertically centred (~x=150, y≈340–650); right col-7 centres a ~300×460px GIF of one capital",
+        "typography": "Headline slabText-fitted lines: 'A new Typeface.' 112px, 'Not just condensed,' 94px, 'it's Compressa!' 120px; Compressa PRO Regular condensed, white then lime #8fd14f; tight leading ~1.0",
+        "palette": [
+          "#3699dc",
+          "#fafdfe",
+          "#91c8e8",
+          "#98db35"
+        ],
+        "behaviour": "Looping GIF (compressa-name.gif) shows each letter of the name in turn, the next letter fading in as a translucent pale-blue layer behind; headline static; nav fixed",
+        "content": "Pitch line playing on 'condensed' vs 'Compressa'",
+        "assets": "Animated GIF of the name's capitals (could be rebuilt as CSS keyframes cycling letters)",
+        "html": "#headerwrap.colorwrap-00 > .col-lg-5 h2.slabtextdone > span.slabtext ×3 (inline font-size per line) + .col-lg-7 img[src=compressa-name.gif]"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "03",
+        "04",
+        "06",
+        "07",
+        "09"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bold, didactic",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "A run of one-screen bands, each in its own flat colour (lime, pale yellow, mint, salmon, olive, mustard), with a feature name on one side ('Small Caps', 'Case-Sensitive Forms', '6 Stylistic Sets', 'Ligatures', 'Localized Forms') and a large looping GIF on the other: 'Aa Bb Cc Dd' turning into small caps, '139' cycling through the figure sets (with a list of the 9 numeral styles), 'Hg' case forms, 'Ugly Babies' swapping stylistic sets, 'ffl' ligature, Polish weekday names in a 3-slide carousel",
+      "feel": "Poster-like, one idea per screen",
+      "ux": "Nothing to click except the carousel dots on Localized Forms; every feature demonstrates itself on a loop",
+      "learn": "One feature per full-colour band with a self-playing before/after loop: the visitor learns the OpenType feature set just by scrolling, no toggles needed",
+      "reconstruction": {
+        "layout": "Each band ~820px tall (91vh), full-bleed colour; Bootstrap two-column split (col-6/col-6 or col-8/col-4): heading at x≈150 vertically ~y=200, GIF ~520–650px wide on the other side; the figures band adds two col-3 lists of feature names; Localized Forms is centred: heading, a 3-slide carousel (col-6 offset-3) and a centred paragraph of ~110 language names",
+        "typography": "Feature headings h1 ~96px Compressa PRO Regular, dark grey #2f2f2f; samples in the GIFs ~150–420px; figure-style list 26px; language list ~22px",
+        "palette": [
+          "#98db35",
+          "#f8f9af",
+          "#8ef4dc",
+          "#f0a59f",
+          "#c7cd73",
+          "#eec94f",
+          "#2f2f2f"
+        ],
+        "behaviour": "GIF loops: default forms → feature forms (small caps with a fading lighter row, figures cycling proportional/tabular/oldstyle, superior/inferior, case-sensitive punctuation, ss01–ss06 alternates fading in, f+f+l → ligature); Bootstrap carousel auto-advances every ~5s",
+        "content": "Feature names as headings; samples chosen per feature ('Aa Bb Cc Dd', '139', 'Hg', 'Ugly Babies', 'ffl', 'piątek środa poniedziałek')",
+        "assets": "One animated GIF per feature (compressa-caps.gif, compressa-ziffern.gif, compressa-casesensitive.gif, compressa-StylisticSet.gif, compressa-ligatures.gif) and 3 PNGs for localized forms",
+        "html": ".colorwrap.colorwrap-NN > .container > .row > .col-lg-6 h1 + .col-lg-6 img.img-responsive[src$=.gif]; #carousel-example-generic.carousel.slide[data-ride=carousel]"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "05",
+        "08",
+        "10"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "cheeky, German slang",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Between the feature bands, single giant words fitted to the container width, each with a hard offset drop shadow: 'geile Type!' dark grey with white shadow on red, 'isso!' white with purple shadow on violet, 'Space is limited' sky-blue on orange, 'Hopfensmoothie' yellow on teal",
+      "feel": "Punchy, humorous",
+      "ux": "static; each has a title tooltip translating the slang ('German for: Horny Typeface!', 'that's so!', Tschichold quote)",
+      "learn": "Interleave one-word punchlines between explanatory sections: the rhythm alternates learning and shouting, and each word is a display specimen",
+      "reconstruction": {
+        "layout": "Full-bleed bands 510–820px tall; one centred line, slab-fitted to the 1170px container, vertically centred",
+        "typography": "Compressa PRO Regular at 428px ('geile Type!'), 628px ('isso!'), 296px ('Space is limited'), 286px ('Hopfensmoothie'); hard text-shadow offset ~6–10px in a contrasting tone",
+        "palette": [
+          "#d43635",
+          "#323333",
+          "#9265b8",
+          "#fdfcfd",
+          "#ea6942",
+          "#72b6e7",
+          "#02a3b0",
+          "#f5cb4c"
+        ],
+        "behaviour": "none (slabText.js fits the size on load and resize)",
+        "content": "German slang and puns: 'geile Type!', 'isso!', 'Hopfensmoothie' (beer), 'Space is limited' (a nod to condensed type)",
+        "assets": "none",
+        "html": "h2.slabtextdone[title=translation] > span.slabtext.<word> with inline font-size"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "plain, complete",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": false
+      },
+      "look": "Under the Localized Forms carousel, a centred justified paragraph 'Languages: Afrikaans, Albanian, Asu, Basque, … Welsh, Zulu' in small dark condensed type on salmon",
+      "feel": "Matter-of-fact",
+      "ux": "static",
+      "learn": "Put the language list right under the localized-forms demo so coverage and locl are read together",
+      "reconstruction": {
+        "layout": "Centred paragraph ~900px wide, ~7 lines, below the carousel, ~60px bottom padding",
+        "typography": "~22px Compressa PRO Regular, centred, dark brown #3a2a28, leading ~1.4",
+        "palette": [
+          "#f0a59f",
+          "#2f2f2f"
+        ],
+        "behaviour": "none",
+        "content": "~110 Latin-script language names, alphabetical",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "plain, complete",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'Characters' in lime green, then the set as centred running lines in roman and again in italic: caps, lowercase, small caps, two figure sets, accents and symbols, with the stylistic alternates (I, U, a, g, i, j, l, ß) highlighted in lime inline",
+      "feel": "Dense, specimen-sheet",
+      "ux": "static",
+      "learn": "Insert each alternate right after its default letter and colour it: the alphabet line doubles as an alternates index",
+      "reconstruction": {
+        "layout": "Light grey #efefef band ~1714px; centred block of 5 lines per style, roman then italic, ~1000px wide",
+        "typography": "Heading 96px lime; glyph lines h1 ~70px Compressa PRO Regular, word-spacing −0.1em, then compressa-it italic; small caps line via smcp class; alternates and the cap ẞ in lime #98db35",
+        "palette": [
+          "#efefef",
+          "#2f2f2f",
+          "#98db35"
+        ],
+        "behaviour": "none",
+        "content": "A–Z with alternates, a–z with alternates, small caps, lining and oldstyle figures, accented letters, currency and punctuation",
+        "assets": "none",
+        "html": "#characters h1 lines with span.stylisticset.color-01 (alternates) and span.feature_on (smcp / onum)"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "catalogue",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "'Styles' at the left and 'NOW AVAILABLE – AS SINGLE CUTS: 80 FONTS!' (the 80 blinking) over three columns per width (Extra Condensed, Neutral, Expanded; then Condensed, Extra Expanded), each a list of 16 style names in small blue link text",
+      "feel": "Inventory-like",
+      "ux": "Each style name links to that single font's shop page on preusstype.com",
+      "learn": "Group the style list by width with small-cap headers so 80 fonts read as 5 tidy columns",
+      "reconstruction": {
+        "layout": "Light cyan band; col-3 'Styles' heading at left, col-9 with a headline and a 3-column grid (each col ~290px) of style lists, two rows of groups; ~1120px tall",
+        "typography": "'Styles' 96px; headline ~36px small caps (feature_on → smcp); group headers ~26px small caps dark; style names ~19px Compressa PRO in link blue #3296da, presumably set in their own width",
+        "palette": [
+          "#77d8fa",
+          "#3296da",
+          "#2f2f2f"
+        ],
+        "behaviour": "'80' blinks via a CSS opacity keyframe (blink_me-02)",
+        "content": "All 80 style names: 5 widths × 8 weights × roman/italic",
+        "assets": "none",
+        "html": ".col-lg-4 > h4.feature_on + a[href*='/fonts/compressa/'] > p.mass per style"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "announcement",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "On violet, 'Now available as Variable Font' in white over a framed screenshot of the Axis-Praxis specimen page ('COMPRESSA' condensed above 'EXPANDA' extended on a blue panel), with two small link lines below",
+      "feel": "Newsy, a little makeshift",
+      "ux": "Links out to the Axis-Praxis online tester and to the PreussType shop ('Test, enjoy and order at PreussType.com', the link text blinking)",
+      "learn": "When there is no on-page tester, a screenshot of an external playground plus a link still shows the axis range at a glance",
+      "reconstruction": {
+        "layout": "Violet band ~1400px; centred h1, then a 1140px-wide screenshot (~710px tall), then two centred lines of 16px link text, 150px bottom margin",
+        "typography": "Heading 96px white Compressa PRO; link lines ~16px dark with link blue #3598db",
+        "palette": [
+          "#714dc6",
+          "#f7f7f8",
+          "#3598db",
+          "#47519a"
+        ],
+        "behaviour": "Shop link text blinks (CSS opacity keyframes)",
+        "content": "Variable-font announcement, credits to Laurence Penney",
+        "assets": "Screenshot of axis-praxis.org showing the width extremes",
+        "html": "img[src=AxisPraxis.jpg] + a[href*=axis-praxis.org] + a[href*='gx/compressa'] > span.blink_me-02"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "salesy, energetic",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "'Compressa is the perfect typeface for:' in lime, then a justified tower of use cases, each line slab-fitted to the same width so sizes swing from ~70px ('editorial design, magazines, newspapers, brochures') to 515px ('t-shirts'), ending 'You have so many, many, many creative possibilities!' in italic",
+      "feel": "Exuberant, poster wall",
+      "ux": "Every other line pulses lighter/darker (blinking) as you scroll past",
+      "learn": "Fit every line of a list to one column width: line length drives the size, so short words become huge and the list becomes a typographic poster",
+      "reconstruction": {
+        "layout": "Light cyan band ~3000px; single centred column ~940px wide (x≈250–1190); ~16 lines, flush both sides by size fitting, ~10px gaps",
+        "typography": "Intro line ~60px lime; list lines slabText-fitted 70–515px Compressa PRO Regular, dark #2f2f2f, alternate lines in a muted slate blue mid-blink; last line italic ~50px",
+        "palette": [
+          "#7dddfc",
+          "#2f2f2f",
+          "#4b6a74",
+          "#98db35"
+        ],
+        "behaviour": "Alternate lines (span.blink_me-01) fade in and out with a CSS opacity keyframe loop",
+        "content": "Use cases: logos, displays and signage; editorial design; advertising; web design & apps; branding & packaging; letterheads; greeting cards; prominent headlines & titles; posters & prints; t-shirts; typographic illustrations; web banners; large type size & lot of text in small spaces",
+        "assets": "none",
+        "html": "#perfect h2.slabtextdone > span.slabtext (some .blink_me-01) with inline font-size"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "plain, personal",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "On mustard, 'Download Compressa' at left and a right-hand text column: the family description, then inline blue links 'test and purchase Compressa OTF online', 'variable fonts version', 'Compressa PDF-Specimen', a VF gimmick by Juan Fuentes, and 'let me know'",
+      "feel": "Informal, link-in-prose",
+      "ux": "Text links out to the PreussType shop, the PDF specimen, a CodePen experiment and a contact page",
+      "learn": "Low-key checkout: links woven into a short paragraph, including a PDF specimen and a community experiment",
+      "reconstruction": {
+        "layout": "Band ~720px; two columns: heading col-6 left, paragraphs col-6 right (~560px wide) starting ~y=160",
+        "typography": "Heading 96px dark; paragraphs ~20–26px Compressa PRO Regular, dark #2f2f2f with link blue #3598db; 'PDF' in small caps",
+        "palette": [
+          "#e7c349",
+          "#2f2f2f",
+          "#3598db"
+        ],
+        "behaviour": "none",
+        "content": "Real description and download/purchase/feedback links",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "story",
+      "variant": "designer-bio",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "personal, small-foundry",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "On midnight navy: 'Contact' heading and an 'Impressum' link at left, a round portrait of Ingo Preuß with his name, then a short bio and glyphicon rows for address, email, phone and website",
+      "feel": "Personal, approachable",
+      "ux": "mailto, tel and web links",
+      "learn": "Ending with the designer's face and direct contact makes a one-person foundry feel reachable",
+      "reconstruction": {
+        "layout": "Navy band ~820px; three columns: heading col (~300px), portrait col (150px circle + name), text col (~560px) with bio and 4 icon rows",
+        "typography": "Heading 96px white; bio ~20px white Compressa PRO; contact rows ~18px, links blue #3394d8; 'GERMANY' and 'PREUSSTYPE' in small caps",
+        "palette": [
+          "#0f1257",
+          "#ffffff",
+          "#3394d8"
+        ],
+        "behaviour": "none",
+        "content": "Real bio and contact details",
+        "assets": "Circular portrait photo; Glyphicons Halflings icons"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "A thin white bar after the contact band, 'CREATED WITH ♥ (AND THE HELP OF MY FRIEND MICHI BUNDSCHERER)' in tiny caps (not cut as a block; seen in the storyboard; attached to block 16)",
+      "feel": "Warm, modest",
+      "ux": "Credit link",
+      "learn": "A one-line credit is enough at the end of a self-published microsite",
+      "reconstruction": {
+        "layout": "Full-width white bar ~60px, centred one line",
+        "typography": "~11px Compressa PRO small caps, dark, link blue",
+        "palette": [
+          "#ffffff",
+          "#2f2f2f",
+          "#3598db"
+        ],
+        "behaviour": "none",
+        "content": "Credit line",
+        "assets": "Heart icon"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed sky-blue top bar: 'COMPRESSA by Ingo Preuß' (byline in lime small caps) at left, anchor links Characters / Application / Download / Contact / › preusstype.com at right; collapses to a hamburger on mobile"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "design-details/feature-before-after",
+    "specimen-showcase/word-stack",
+    "language-support/language-name-list",
+    "glyph-table/category-lines",
+    "family-overview/style-word-grid",
+    "checkout/link-out-cta",
+    "specimen-showcase/word-stack",
+    "checkout/link-out-cta",
+    "story/designer-bio",
+    "footer/slim-legal-bar"
+  ]
+}

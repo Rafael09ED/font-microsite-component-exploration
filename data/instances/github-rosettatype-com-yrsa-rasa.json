@@ -1,0 +1,231 @@
+{
+  "slug": "github-rosettatype-com-yrsa-rasa",
+  "extractedBy": "agent",
+  "summary": "A minimal GitHub Pages microsite for Rosetta's open-source Yrsa (Latin) and Rasa (Gujarati): a proof-sheet photo, a short intro with download links, two tall SVG specimen sheets themed on Indian performing arts, and teaser links to four process articles. The site's stylesheet did not load in the capture, so it renders as unstyled Times New Roman HTML around the images.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Intended fixed navbar (div.navbar.fixed): 'Rosetta' logo link left, 'Website · GitHub · Contact' right; in the capture the CSS is missing so it shows as a plain link and bullet list in Times"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "material-photo",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "workshop, honest process",
+        "mobile": "breaks",
+        "carrier": "photo",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Full-width photo of printed test sheets lying at an angle: huge bold Yrsa words ('adhesion', 'krasnoludek', 'hamburger') covered with green handwritten correction notes, arrows and redrawn letters",
+      "feel": "Hands-on, scholarly, in progress",
+      "ux": "static image; no name or text over it",
+      "learn": "Open with annotated proofs: the corrections prove the craft and show the type at display size at the same time",
+      "reconstruction": {
+        "layout": "Image full container width (1424px at 8px body margin), ~900px tall, no overlay; page title 'Yrsa & Rasa' follows below",
+        "typography": "Type only inside the photo (Yrsa Bold on paper); no live text",
+        "palette": [
+          "#fbfbfb",
+          "#111111",
+          "#2e9a6b",
+          "#d7d7d7"
+        ],
+        "behaviour": "none",
+        "content": "Real proof sheets with test words in Polish/Czech and English",
+        "assets": "Photo 'Yrsa-corrections_big.jpg' (printouts with green pen corrections)",
+        "html": "img.full[src='assets/Yrsa-corrections_big.jpg']"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "matter-of-fact, open-source",
+        "mobile": "breaks",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'Yrsa & Rasa' heading and four short paragraphs: published by Rosetta with support from Google, 92 Latin languages + Gujarati and Kachchi, 5 weights; designed as a remix of Merriweather (Latin) and Skolar Gujarati; a row of three links (GitHub repo, Download the Yrsa fonts, Download the Rasa fonts)",
+      "feel": "Plain, documentary",
+      "ux": "Inline links to designers, source typefaces and the two release ZIPs on GitHub",
+      "learn": "Name the source typefaces openly ('a deliberate experiment in remixing existing typefaces'): for an open-source remix the lineage is the story",
+      "reconstruction": {
+        "layout": "Single text column under the photo, ~180px tall; links in one line at the end",
+        "typography": "Intended site font unknown (CSS missing); captured as Times ~13px body and ~19px bold heading",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#0000ee"
+        ],
+        "behaviour": "none",
+        "content": "Project facts, credits (Anna Giedryś, David Březina), sources (Merriweather by Eben Sorkin, Skolar Gujarati)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "minimal",
+        "mobile": "breaks",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Three plain underlined links at the end of the intro: 'Yrsa & Rasa GitHub repo', 'Download the Yrsa fonts', 'Download the Rasa fonts'",
+      "feel": "Bare",
+      "ux": "Direct links to v1.002 release ZIPs on GitHub",
+      "learn": "Separate download links per script family help users who only need one script",
+      "reconstruction": {
+        "layout": "Inline row of three links, space-separated",
+        "typography": "Default link style (captured in Times ~13px, blue underlined)",
+        "palette": [
+          "#ffffff",
+          "#0000ee"
+        ],
+        "behaviour": "none",
+        "content": "github.com/rosettatype/yrsa-rasa releases v1.002 (Yrsa-fonts, Rasa-fonts)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "theatrical, multilingual, bookish",
+        "mobile": "breaks",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Two tall specimen sheets (SVG images) of rows separated by hairlines, alternating teal and black, mixing sizes and weights: 'Safflowers', a Bharata quote, '¿Qué está pasando?', a Lithuanian paragraph, 'Harmonious performance', 'Jedyne £64', 'Theater & Dance', two-column sonnet text, 'Süßholzraspeln', Polish, then Gujarati: 'શેરી નાટકો', 'હો રે છબીલા તારા', a bilingual two-column note on the Natya Shastra, ending with 'Tickets 156₹ | ટિકિટ ૧૫૬₹ | ટિકિટ 156₹'",
+      "feel": "Elegant, literary, festival-programme",
+      "ux": "static images",
+      "learn": "Theme one specimen sheet around a subject that belongs to both scripts (Indian theatre and dance) and end with a mixed-script line (prices in Latin and Gujarati numerals): harmony between scripts is shown, not claimed",
+      "reconstruction": {
+        "layout": "Column ~940px wide, left-aligned; ~25 rows, each one line or a 2-column paragraph, separated by 1px light-grey rules with ~30px padding; sizes jump between rows (180px → 40px → 110px)",
+        "typography": "Yrsa Light–Bold for Latin lines, Rasa Light–Bold for Gujarati; display rows ~100–180px, medium rows ~40–60px, paragraphs ~16px with bold run-in names; teal #6dbcb4 for alternate rows, black for the rest",
+        "palette": [
+          "#ffffff",
+          "#6dbcb4",
+          "#111111",
+          "#e6e6e6"
+        ],
+        "behaviour": "none",
+        "content": "Performing-arts theme in many Latin languages (Spanish, Lithuanian, Czech, German, Polish) and Gujarati; currency and numerals",
+        "assets": "Two SVG specimen images (Yrsa-Rasa-previews_1_big.svg, _2_big.svg)",
+        "html": "img.full[src$='previews_1_big.svg'], img.full[src$='previews_2_big.svg']"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "03"
+      ],
+      "type": "story",
+      "variant": "article-teaser",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "documentary, open",
+        "mobile": "breaks",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Grid of numbered article teasers in two columns (div.row > .span.six): '1. Introducing Yrsa', '2. Harmonizing Gujarati and Latin', '3. Yrsa & Rasa released', 'Language support', each a bold heading, one-line description and 'Read more' link",
+      "feel": "Blog-index, transparent process",
+      "ux": "Each 'Read more' opens a sub-page article on the same site",
+      "learn": "Number the process articles so the microsite reads as a short serial about the making",
+      "reconstruction": {
+        "layout": "Rows of two 50% columns, each card ~200px tall: h3, p, a.secondary",
+        "typography": "Captured unstyled: headings ~19px bold Times, descriptions ~13px, links blue",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#0000ee"
+        ],
+        "behaviour": "none",
+        "content": "Project articles: intro, script harmonisation, release lessons ('redesigning someone else's work'), language support",
+        "assets": "none",
+        "html": ".row > .span.six > h3 + p + a.secondary[href='introducing-yrsa/']"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Last teaser card 'About Rosetta — Learn more about Rosetta and its open-source projects hosted on GitHub · Read more' linking to github.rosettatype.com; below it (not cut as a block) a 'Back' link and '© Rosetta Type Foundry, 2015.'"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/material-photo",
+    "story/origin-reference",
+    "checkout/free-download",
+    "specimen-showcase/word-stack",
+    "story/article-teaser"
+  ]
+}

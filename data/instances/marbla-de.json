@@ -1,0 +1,293 @@
+{
+  "slug": "marbla-de",
+  "extractedBy": "agent",
+  "summary": "A student-scale, lavender one-pager for an experimental variable display font with three custom axes (Inktrap, Balloon, Curve): a wordmark that inflates letter by letter, a video grid of morphing Ms, one auto-playing slider per axis, a small slider tester, a poster carousel and a full glyph grid switchable between the eight axis extremes. Bilingual DE/EN toggle.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "kinetic-type",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "playful, soft, experimental",
+        "mobile": "adapts",
+        "carrier": "motion",
+        "cta": "none",
+        "rangeShown": "whole-family",
+        "navVisible": false
+      },
+      "look": "On flat lavender, the lowercase name 'marbla' at ~230px in charcoal, a short paragraph under it, a round 'DE' language pill top-left and 'Experimental Variable Font' top-right",
+      "feel": "Calm then bubbly",
+      "ux": "The name's letters inflate and curl one after another (each letter its own span with staggered axis values), then deflate back to the thin Regular, on a loop; the DE/EN pill swaps all copy between German and English",
+      "learn": "Animate a variable wordmark per letter with a phase offset: the wave through the name shows the axes more vividly than a uniform morph",
+      "reconstruction": {
+        "layout": "Full-bleed ~800px; Bootstrap fluid grid with a 1-column left gutter (~120px); wordmark at x≈135, y≈190–380; paragraph col-5 (~560px) below at y≈500; thin rule at the bottom of the section",
+        "typography": "Wordmark ~230px Marbla (blln/curv/iktr 0 → ~60), charcoal #222; paragraph ~16px Marbla Regular, leading ~1.6; top labels ~14px",
+        "palette": [
+          "#d3cfea",
+          "#222226",
+          "#b9b5cd"
+        ],
+        "behaviour": "Two-dot loader, then each of span#m, #a1, #r, #b, #l, #a2 animates font-variation-settings 'blln','curv','iktr' together from 0 to ~60+ and back, offset ~20 units per letter (JS-driven loop)",
+        "content": "Family name and a real description paragraph",
+        "assets": "none",
+        "html": "p > span.variable_headline#m/#a1/#r/#b/#l/#a2; a.language_button.rounded-pill[href=javascript:translateAndShowHide('en'|'de')]; p.german / p.english pairs"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "kinetic-scenes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "hypnotic, rhythmic",
+        "mobile": "adapts",
+        "medium": "video",
+        "sequence": "single"
+      },
+      "look": "A black panel with a 13×8 grid of lavender capital Ms, each at a different point between thin Regular and fully inflated Balloon/Curve, forming diagonal waves",
+      "feel": "Hypnotic, wave-like",
+      "ux": "Looping muted video; a separate portrait video for mobile",
+      "learn": "Repeat one glyph in a grid and sweep its axes as a travelling wave: the whole design space reads as motion",
+      "reconstruction": {
+        "layout": "Black panel ~1200×670px centred in the lavender band (margins ~120px), aspect ~16:9",
+        "typography": "Capital M, Marbla, ~70px cells, lavender #d4d0eb on black",
+        "palette": [
+          "#09090b",
+          "#d4d0eb",
+          "#4b4a54"
+        ],
+        "behaviour": "Autoplay loop video (M_1.mp4 desktop, M_mobil.mp4 mobile); could be rebuilt with CSS keyframes on font-variation-settings and per-cell animation-delay",
+        "content": "One glyph repeated",
+        "assets": "Two MP4 loops",
+        "html": "video[autoplay][loop][muted][playsinline] > source[src=imgs/M_1.mp4]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "clear, gentle",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "Three axis names in a stepped diagonal, each set in its own axis: 'Inktrap', 'Balloon', 'Curve' at ~115px, each above a thin slider line with a dot handle and a 3-line caption",
+      "feel": "Airy, explanatory",
+      "ux": "Each word animates along its own axis while the (disabled) slider handle moves in sync, so the slider acts as a progress readout",
+      "learn": "Use a non-interactive slider as an animated gauge under each axis word: visitors read the axis position without having to touch anything",
+      "reconstruction": {
+        "layout": "Section ~756px; three blocks staggered: Inktrap at x≈600, Balloon at x≈390, Curve at x≈750, each word over a ~320px slider line and a ~300px caption",
+        "typography": "Axis words ~115px Marbla with only that axis active (iktr / blln / curv 0–100); captions ~12px Marbla Regular charcoal",
+        "palette": [
+          "#d3cfea",
+          "#222226",
+          "#7e7a94"
+        ],
+        "behaviour": "JS loop: one axis value 0→100→0 per word, with input[type=range][disabled] value mirroring it (flairSlider, signSlider, boxSlider)",
+        "content": "Axis name as the sample; one-sentence definition per axis",
+        "assets": "none",
+        "html": "#flair.big_letters[style=font-variation-settings] + input.slider#flairSlider[disabled]; #sign / #signSlider; box / #boxSlider; p.animationText (DE/EN)"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "pangram",
+        "tone": "minimal, tool-like",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "axes",
+          "size",
+          "tracking",
+          "leading"
+        ],
+        "scope": "single",
+        "defaultText": "pangram",
+        "export": false
+      },
+      "look": "A row of three thin labelled sliders (Inktrap, Balloon, Curve) above an editable pangram 'the quick brown fox jumps over the lazy dog'; at the right three icon-labelled sliders for size, spacing and line height",
+      "feel": "Minimal, quiet",
+      "ux": "Type in the sample; sliders change the three axes, font size (1–8vw), letter-spacing (−0.3 to 0.3rem) and line height (80–160%)",
+      "learn": "Put axis sliders above the text and typographic sliders beside it, each marked by a tiny icon instead of a word",
+      "reconstruction": {
+        "layout": "Section ~534px; axis sliders 3 × ~200px at y≈100 from x≈135; sample col (~800px) below; settings column at x≈990 with three 300px sliders, icons above each",
+        "typography": "Sample 4.5vw (~65px) Marbla, line-height 120%; slider labels ~12px",
+        "palette": [
+          "#d3cfea",
+          "#222226",
+          "#9895aa"
+        ],
+        "behaviour": "input oninput=changeMarblaTester() writes font-variation-settings 'iktr','blln','curv' (0–100), font-size vw, letter-spacing rem and line-height % to #testerText",
+        "content": "English pangram",
+        "assets": "Three small PNG icons (size.png, spacing.png, line-height.png)",
+        "html": "input.slider#inktrapRange/#balloonRange/#curveRange; #testerText[contenteditable]; img.sliderIcon + input#fontSizeRange/#spacingRange/#lineHeightRange"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "nightlife, poetic",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "carousel"
+      },
+      "look": "A framed Bootstrap carousel of black-and-lavender poster banners: e.g. a waterfall of each letter morphing from thin to inflated beside a designspace cube of 'b' at its eight axis corners and a black 'INFINITE' bar; other slides set phrases like 'CRYING AT THE DISCOTHEQUE / POP UP / GLOOMING NIGHT SKIES'",
+      "feel": "Moody, graphic",
+      "ux": "Auto-advancing slides with thin dash indicators and Previous/Next arrows; separate slide set for mobile",
+      "learn": "Pack the explanatory diagrams (axis cube) and mood posters into one carousel so the page stays short",
+      "reconstruction": {
+        "layout": "Carousel ~1200×650px centred with a thin outline frame; slides are full-bleed JPG banners; dash indicators bottom centre",
+        "typography": "Slide type in Marbla across the axes, mostly caps, lavender on black or black on lavender",
+        "palette": [
+          "#d3cfea",
+          "#040404",
+          "#2f2f30"
+        ],
+        "behaviour": "Bootstrap carousel (data-ride) auto-advance ~5s, prev/next controls",
+        "content": "Night-out phrases and a designspace diagram",
+        "assets": "~10 desktop banners (imgs/banner_01…10.jpg) plus mobile versions",
+        "html": ".carousel.slide > .carousel-indicators + .carousel-inner > .carousel-item > img.img-fluid; .carousel-control-prev/next"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "orderly",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "select",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A 'Regular ▾' dropdown above a bordered 16-column table of the full character set in small charcoal glyphs on lavender, with faint cell borders",
+      "feel": "Neat, complete",
+      "ux": "The dropdown re-renders the whole table in Regular, Inktrap, Balloon, Curve or any combination of them (8 options)",
+      "learn": "For a font with a few custom axes, offer the named corners of the designspace as a dropdown on the glyph grid",
+      "reconstruction": {
+        "layout": "~1924px; col-10 table (~1200px) at x≈135, 16 fixed columns × ~75px, rows ~64px, 1px pale borders",
+        "typography": "Glyphs ~26px Marbla charcoal centred; dropdown label ~16px",
+        "palette": [
+          "#d2cee9",
+          "#222226",
+          "#c7c3dd"
+        ],
+        "behaviour": "changeGlyphsOverview(style) rebuilds the table with font-variation-settings for the chosen axis combination",
+        "content": "Full set: A–Z with alternates, a–z, two figure styles, accented Latin, superiors/inferiors, punctuation, math, arrows",
+        "assets": "none",
+        "html": ".dropdown > button#dropdownMenuButton + .dropdown-menu > button.dropdown-item[onclick=changeGlyphsOverview('Inktrap Balloon')]; #glyphsOverviewContainer > table.table-bordered > td.table_cell"
+      }
+    },
+    {
+      "blocks": [
+        "06",
+        "07"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "minimal",
+        "mobile": "adapts",
+        "contains": [
+          "contact",
+          "legal"
+        ]
+      },
+      "look": "A small black '→ Contact' pill centred above a slim bar with 'Imprint' at left and '© 2026 Katharina Gresch' at right",
+      "feel": "Quiet, tidy",
+      "ux": "Contact pill opens an obfuscated mailto; imprint links to the designer's site",
+      "learn": "One pill button for contact is enough when the font is not for sale",
+      "reconstruction": {
+        "layout": "Pill ~110×28px centred; legal bar ~170px with two 12px labels at the content edges (x≈135 and right)",
+        "typography": "~13px Marbla Regular; pill text lavender on #24272d",
+        "palette": [
+          "#d3cfea",
+          "#24272d",
+          "#222226"
+        ],
+        "behaviour": "mailto assembled on click (spam obfuscation)",
+        "content": "Contact, imprint, copyright",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/kinetic-type",
+    "specimen-showcase/kinetic-scenes",
+    "design-details/axis-explainer",
+    "type-tester/slider-sandbox",
+    "specimen-showcase/poster-series",
+    "glyph-table/full-grid",
+    "footer/slim-legal-bar"
+  ]
+}

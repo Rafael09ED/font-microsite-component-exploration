@@ -2,7 +2,7 @@
 
 _Generated from `data/progress.json` by `scripts/lib/progress.mjs` — edit via the scripts, not by hand._
 
-**Next action:** Run `node scripts/extract.mjs next` and extract those sites per methodology/EXTRACTION.md (agents), then `node scripts/extract.mjs sync` — 62 site(s) pending for **extract**.
+**Next action:** Run `node scripts/extract.mjs next` and extract those sites per methodology/EXTRACTION.md (agents), then `node scripts/extract.mjs sync` — 27 site(s) pending for **extract**.
 
 ## Phases
 
@@ -11,7 +11,7 @@ _Generated from `data/progress.json` by `scripts/lib/progress.mjs` — edit via 
 - [x] Phase 2.2 — Sample ~250 blocks across sites, contact sheets, label each sheet — 28/28 sheets labelled — 250 blocks, 28 sheets labelled (6 by Claude, 22 by agents)
 - [x] Phase 2.3 — Cluster instances by component similarity — taxonomy.json: 19 types / 84 variants; DOM features predict type 41%
 - [x] Phase 2.4 — Write METHOD.md + patterns/*.md, review together — reviewed 2026-10-27: sections→types→variants, look at every block, reconstruction notes
-- [ ] Phase 3 — Extract: type + variant + rubric + reconstruction per block — 119/181 done
+- [ ] Phase 3 — Extract: type + variant + rubric + reconstruction per block — 154/181 done
 - [ ] Phase 4 — Gallery & playground — browser built (npm run app → localhost:5178); playground rebuilds after Phase 3
 
 ## Sites
@@ -137,64 +137,64 @@ Legend: ✓ done · ✗ failed · … interrupted · ↻ stale (older method, wi
 - [x] 117 [ibm-com-plex](https://www.ibm.com/plex) — archive ✓ · blocks ✓ · extract ✓
 - [x] 118 [source-typekit-com-source-han-serif](https://source.typekit.com/source-han-serif/) — archive ✓ · blocks ✓ · extract ✓
 - [x] 119 [tokotype-github-io-plusjakarta-sans](https://tokotype.github.io/plusjakarta-sans) — archive ✓ · blocks ✓ · extract ✓
-- [ ] 120 [overpassfont-org](https://overpassfont.org) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 121 [boharat-com-zaatar](https://boharat.com/zaatar/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 122 [brailleinstitute-org-freefont](https://www.brailleinstitute.org/freefont/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 123 [github-rosettatype-com-yrsa-rasa](https://github.rosettatype.com/yrsa-rasa) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 124 [optician-sans-com](https://optician-sans.com) — archive ✓ · blocks ✓ · extract ☐
+- [x] 120 [overpassfont-org](https://overpassfont.org) — archive ✓ · blocks ✓ · extract ✓
+- [x] 121 [boharat-com-zaatar](https://boharat.com/zaatar/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 122 [brailleinstitute-org-freefont](https://www.brailleinstitute.org/freefont/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 123 [github-rosettatype-com-yrsa-rasa](https://github.rosettatype.com/yrsa-rasa) — archive ✓ · blocks ✓ · extract ✓
+- [x] 124 [optician-sans-com](https://optician-sans.com) — archive ✓ · blocks ✓ · extract ✓
 - [ ] 125 [nrse-io](https://www.nrse.io) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 126 [bigshoulders-me](https://bigshoulders.me) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 127 [spectral-prototypo-io](https://spectral.prototypo.io) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 128 [stencil-gothic-com](https://www.stencil-gothic.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 129 [gidole-github-io](https://gidole.github.io) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 130 [leon-kim-com](https://leon-kim.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 131 [pampatype-com-octothorpe-en](https://pampatype.com/octothorpe/en/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 132 [compagnon-eesab-fr](https://compagnon.eesab.fr) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 133 [urbangrotesk-suitcasetype-com](http://urbangrotesk.suitcasetype.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 134 [pleasure-typefaces-pizza](https://pleasure.typefaces.pizza/) — archive ✓ · blocks ✓ · extract ☐
+- [x] 129 [gidole-github-io](https://gidole.github.io) — archive ✓ · blocks ✓ · extract ✓
+- [x] 130 [leon-kim-com](https://leon-kim.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 131 [pampatype-com-octothorpe-en](https://pampatype.com/octothorpe/en/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 132 [compagnon-eesab-fr](https://compagnon.eesab.fr) — archive ✓ · blocks ✓ · extract ✓
+- [x] 133 [urbangrotesk-suitcasetype-com](http://urbangrotesk.suitcasetype.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 134 [pleasure-typefaces-pizza](https://pleasure.typefaces.pizza/) — archive ✓ · blocks ✓ · extract ✓
 - [ ] 135 [excelsiorama-com](https://excelsiorama.com) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 136 [kostasbartsokas-com-oi-you-mate](https://kostasbartsokas.com/oi-you-mate) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 137 [redaction-us](https://redaction.us) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 138 [compressa-preusstype-com](https://compressa.preusstype.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 139 [cursorfont-liebermannkiepereddemann-de](https://cursorfont.liebermannkiepereddemann.de) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 140 [arteria-typofonderie-com](https://arteria.typofonderie.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 141 [marbla-de](https://marbla.de) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 142 [cnap-fr-sites-infini-en](https://www.cnap.fr/sites/infini/en/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 143 [erikdkennedy-com-projects-figtree](https://www.erikdkennedy.com/projects/figtree.html) — archive ✓ · blocks ✓ · extract ☐
+- [x] 138 [compressa-preusstype-com](https://compressa.preusstype.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 139 [cursorfont-liebermannkiepereddemann-de](https://cursorfont.liebermannkiepereddemann.de) — archive ✓ · blocks ✓ · extract ✓
+- [x] 140 [arteria-typofonderie-com](https://arteria.typofonderie.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 141 [marbla-de](https://marbla.de) — archive ✓ · blocks ✓ · extract ✓
+- [x] 142 [cnap-fr-sites-infini-en](https://www.cnap.fr/sites/infini/en/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 143 [erikdkennedy-com-projects-figtree](https://www.erikdkennedy.com/projects/figtree.html) — archive ✓ · blocks ✓ · extract ✓
 - [ ] 144 [seraphs-varfont-com](https://www.seraphs.varfont.com) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 145 [graphit-type-com](https://www.graphit-type.com) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 146 [basco-typofonderie-com](https://basco.typofonderie.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 147 [db-pixel-club](https://db-pixel.club) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 148 [monaspace-githubnext-com](https://monaspace.githubnext.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 149 [vercel-com-font](https://vercel.com/font) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 150 [unbounded-polkadot-network](https://unbounded.polkadot.network) — archive ✓ · blocks ✓ · extract ☐
+- [x] 147 [db-pixel-club](https://db-pixel.club) — archive ✓ · blocks ✓ · extract ✓
+- [x] 148 [monaspace-githubnext-com](https://monaspace.githubnext.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 149 [vercel-com-font](https://vercel.com/font) — archive ✓ · blocks ✓ · extract ✓
+- [x] 150 [unbounded-polkadot-network](https://unbounded.polkadot.network) — archive ✓ · blocks ✓ · extract ✓
 - [ ] 151 [aspen-ludwigtype-de](http://aspen.ludwigtype.de) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 152 [rt-dromo-com](http://www.rt-dromo.com) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 153 [wix-com-typeface-madefor](https://www.wix.com/typeface/madefor) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 154 [fridamedrano-com-jabin](https://www.fridamedrano.com/jabin.html) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 155 [lobdell-me-affogato](https://lobdell.me/affogato/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 156 [nabla-typearture-com](https://nabla.typearture.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 157 [nihon-font-com](https://www.nihon-font.com) — archive ✓ · blocks ✓ · extract ☐
+- [x] 156 [nabla-typearture-com](https://nabla.typearture.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 157 [nihon-font-com](https://www.nihon-font.com) — archive ✓ · blocks ✓ · extract ✓
 - [ ] 158 [djr-com-bungee](https://djr.com/bungee) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 159 [plex-korean-demo-vercel-app](https://plex-korean-demo.vercel.app) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 160 [lozanotype-github-io-java-sans](https://lozanotype.github.io/Java_Sans/) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 161 [2021-typemedia-org-gajana](https://2021.typemedia.org/gajana.html) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 162 [2020-typefacedesign-org-simon](http://2020.typefacedesign.org/simon.html) — archive ✓ · blocks ✓ · extract ☐
+- [x] 159 [plex-korean-demo-vercel-app](https://plex-korean-demo.vercel.app) — archive ✓ · blocks ✓ · extract ✓
+- [x] 160 [lozanotype-github-io-java-sans](https://lozanotype.github.io/Java_Sans/) — archive ✓ · blocks ✓ · extract ✓
+- [x] 161 [2021-typemedia-org-gajana](https://2021.typemedia.org/gajana.html) — archive ✓ · blocks ✓ · extract ✓
+- [x] 162 [2020-typefacedesign-org-simon](http://2020.typefacedesign.org/simon.html) — archive ✓ · blocks ✓ · extract ✓
 - [ ] 163 [colab-munken-com-munken-sans](https://colab.munken.com/munken-sans) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 164 [x5-acjs-net](https://x5.acjs.net) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 165 [daifoldes-com-eubiescript-sub](https://www.daifoldes.com/eubiescript-sub/index.html) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 166 [grandgothik-com](https://grandgothik.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 167 [usgraphics-com-products-berkeley-mono](https://usgraphics.com/products/berkeley-mono) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 168 [brailleneue-com](https://brailleneue.com) — archive ✓ · blocks ✓ · extract ☐
+- [x] 165 [daifoldes-com-eubiescript-sub](https://www.daifoldes.com/eubiescript-sub/index.html) — archive ✓ · blocks ✓ · extract ✓
+- [x] 166 [grandgothik-com](https://grandgothik.com) — archive ✓ · blocks ✓ · extract ✓
+- [x] 167 [usgraphics-com-products-berkeley-mono](https://usgraphics.com/products/berkeley-mono) — archive ✓ · blocks ✓ · extract ✓
+- [x] 168 [brailleneue-com](https://brailleneue.com) — archive ✓ · blocks ✓ · extract ✓
 - [ ] 169 [commitmono-com](https://commitmono.com) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 170 [dyslexiefont-com](https://dyslexiefont.com) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 171 [indestructibletype-com-jost](https://indestructibletype.com/Jost.html) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 172 [latofonts-com](https://latofonts.com) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 173 [luciole-vision-com](https://luciole-vision.com) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 174 [djr-com-fern](https://djr.com/fern) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 175 [djr-com-job-clarendon](https://djr.com/job-clarendon) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 176 [djr-com-turnip](https://djr.com/turnip) — archive ✓ · blocks ✓ · extract ☐
-- [ ] 177 [nationalparktypeface-com](https://nationalparktypeface.com) — archive ✓ · blocks ✓ · extract ☐
+- [x] 174 [djr-com-fern](https://djr.com/fern) — archive ✓ · blocks ✓ · extract ✓
+- [x] 175 [djr-com-job-clarendon](https://djr.com/job-clarendon) — archive ✓ · blocks ✓ · extract ✓
+- [x] 176 [djr-com-turnip](https://djr.com/turnip) — archive ✓ · blocks ✓ · extract ✓
+- [x] 177 [nationalparktypeface-com](https://nationalparktypeface.com) — archive ✓ · blocks ✓ · extract ✓
 - [ ] 178 [sourcefoundry-org-hack](https://sourcefoundry.org/hack/) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 179 [timesnewerroman-com](https://timesnewerroman.com) — archive ✓ · blocks ✓ · extract ☐
 - [ ] 180 [typeof-net-iosevka](https://typeof.net/Iosevka/) — archive ✓ · blocks ✓ · extract ☐

@@ -1,0 +1,362 @@
+{
+  "slug": "boharat-com-zaatar",
+  "extractedBy": "agent",
+  "summary": "A Readymag page for Zaatar, a slanted Arabic display face (Ruq'ah + Nastaliq with a geometric touch) by Boharat and Hey Porter!: a word slideshow and facts panel, then Egyptian colloquial sayings set huge beside vintage film stills, the alphabet in all contextual forms, five stylistic sets as before/after pairs and a wall of ligatures, all as images on black with one green accent.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed 70px black bar on every screen: Boharat calligraphic logo in an outlined oval top-left, 'TYPEFACES BLOG ABOUT SHOP' in ~11px white caps top-right (doubled in screen 10 where the stitched captures overlap)"
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "word-slideshow",
+      "newVariant": true,
+      "variantDefinition": "An auto-advancing slideshow of pre-set display compositions (a place name, the family name in each weight with labels, a short phrase) in a full-width banner, one word or lockup per slide, usually above a facts panel; the hero is a sequence of words rather than one wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "bold, retro-futurist, Cairene",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "A charcoal banner across the top of the page with one huge light-grey Arabic word per slide: 'القاهرة' (Cairo) in the capture; other slides show 'زعتر' three times with green oval stamps 'ZAATAR BLACK' / 'ZAATAR REGULAR', and 'لحظة نحن هنا؟' in white over green",
+      "feel": "Punchy, poster-like, local",
+      "ux": "Slides cross-fade/slide automatically (13 slides, '3 / 13' counter in the DOM); no visible controls; nav fixed above",
+      "learn": "Rotate a few words with local meaning (a city, the name in each weight with a stamp label) instead of one fixed wordmark: the first screen shows range and place in a few seconds",
+      "reconstruction": {
+        "layout": "Banner full-bleed 1440×506px starting under the 66px nav, background #2d2d2d; one composition centred per slide, word ~640×320px; slides are 4267×1500 images scaled to fit",
+        "typography": "Zaatar Black/Regular as images, light grey #d4d4d4, word cap height ~250px; badge labels in a small Latin serif inside rotated green ovals",
+        "palette": [
+          "#2d2d2d",
+          "#0e0e0e",
+          "#d4d4d4",
+          "#00a14b"
+        ],
+        "behaviour": "Readymag widget-slideshow, autoplay, transitions between 13 images; no arrows shown",
+        "content": "Place name (Cairo), the family name per weight with stamps, a colloquial phrase",
+        "assets": "13 pre-rendered slide images (PNG, 4267×1500)",
+        "html": ".rmwidget.widget-slideshow > .common-slideshow > .images > .image (prev/center/next/hidden)"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "informative, friendly",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Under the banner, a black facts strip: two narrow spec columns ('Display - 3 Style', 'Regular, Bold, and Black', 'Release October 2021', 'Version 0.3', a 'Specimen' file link, 'In progress/available', 'Designers' Tawfiq Dawi and Abdo Mohamed with → arrows) and a wide column of two small paragraphs",
+      "feel": "Calm, factual, catalogue-card",
+      "ux": "Designer names link out with arrows; 'Specimen' opens a PDF on Google Drive",
+      "learn": "Pair the origin story with a compact spec card (styles, release, version, status, designers) so the facts are scannable beside the prose",
+      "reconstruction": {
+        "layout": "Strip ~330px tall on #0e0e0e; columns at x≈116 (180px), x≈386 (180px) and x≈626 (~620px text); rows ~26px apart, small icons before 'Specimen' and 'In progress'",
+        "typography": "Labels ~12px Graphik Medium white, values ~12px Regular; paragraph ~12px Regular, leading ~1.5, white",
+        "palette": [
+          "#0e0e0e",
+          "#ffffff",
+          "#8f8f8f"
+        ],
+        "behaviour": "none",
+        "content": "Real copy: 'Zaatar is a dynamic Arabic typeface abstracted from a mixture of Arabic Ruq'ah and Nastaliq, the slanted baseline…'; 'Zaatar means thyme… first collaboration between Boharat (Cairo) and Hey Porter! (Jordan)'",
+        "assets": "Small file and list icons, arrow icons"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Row of four outlined white pills under the nav, '★ In use', '✓ Opentype features', 'Glyphs', 'supported languages' (~13px), each an anchor link that scrolls the page to that section"
+    },
+    {
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "04"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "nostalgic, humorous, Egyptian cinema",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "On black, Egyptian colloquial sayings set huge in light grey and centred ('القاهرة', 'أكل العيش صعب ومرّ' twice, 'مساكين بنضحك من البلوة', 'الصبر' in a 2×2 pair, 'حكي كلونيا حكي جاتوه'), each paired with a small vintage film still (a Cairo alley, an oud player, two actors laughing) tucked behind or beside the words",
+      "feel": "Warm, witty, cinematic-nostalgic",
+      "ux": "Plain scroll; a green four-way arrow icon between the 'الصبر' pairs and tiny green 'M' / 'E' marks around 'حكي' are decorative",
+      "learn": "Use well-known film lines and sayings of the target culture as specimen copy, with a still from the source: local readers recognise the words before they judge the letters",
+      "reconstruction": {
+        "layout": "~3600px of black, single centred column ~900px; each saying 1–3 lines with line height ~0.9 of the type size; film stills ~350×500px (or ~420×290) overlapping the left edge of the words; generous ~200px gaps between sayings; repeated lines stacked to show rhythm",
+        "typography": "Zaatar Black/Bold (images) ~180–260px, light grey #d4d4d4, slanted baseline; no Latin text except the pills",
+        "palette": [
+          "#040404",
+          "#d4d4d4",
+          "#312f2c",
+          "#00a14b"
+        ],
+        "behaviour": "none (static images; Readymag fade-in on some widgets)",
+        "content": "Egyptian colloquial sayings and film quotes: 'earning a living is hard and bitter', 'poor us, we laugh at our misfortune', 'patience'",
+        "assets": "Pre-rendered word images; 3–4 sepia/black-and-white Egyptian film stills"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "06"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "systematic, bold",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Two rows of numerals in green, Arabic-Indic '١٢٣٤٥٦٧٨٩٠' above Western '1234567890', a thin green rule, then the whole Arabic alphabet in light grey running right-to-left as lines, every letter followed by its contextual forms (ب ببب ت تتت …), ending with punctuation and both numeral sets",
+      "feel": "Dense, rhythmic, workmanlike",
+      "ux": "static",
+      "learn": "For Arabic, list each letter with its initial, medial and final forms joined in a row: the set reads as connected script, not isolated glyphs",
+      "reconstruction": {
+        "layout": "Numeral rows centred, ~840px wide, glyphs ~140px tall; rule across ~1110px at x≈165; alphabet lines ~1000px wide, ~8 lines with ~95px line pitch, right-aligned RTL",
+        "typography": "Zaatar Bold/Black as images; numerals green #01ad50 ~150px; alphabet ~70px light grey",
+        "palette": [
+          "#020403",
+          "#01ad50",
+          "#047035",
+          "#d4d4d4"
+        ],
+        "behaviour": "none",
+        "content": "Arabic-Indic and Western numerals; Arabic letters with all positional forms; punctuation",
+        "assets": "Images of the glyph lines"
+      }
+    },
+    {
+      "blocks": [
+        "07",
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "clear, didactic",
+        "mobile": "adapts",
+        "subject": [
+          "alternates",
+          "features"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "Five rows, each a word twice side by side (default left, with the stylistic set right: 'مصر', 'الطرف', 'اللعبي', 'مساحة', …), a small green dot under the changed letter of the right-hand word and a green label 'STYLISTEC SET 01…05' at the right edge",
+      "feel": "Quiet, precise",
+      "ux": "static",
+      "learn": "Mark the one changed glyph with a small coloured dot under the 'after' word: the eye finds the alternate instantly without arrows or outlines",
+      "reconstruction": {
+        "layout": "Rows ~210px apart; two word columns centred at x≈470 and x≈860, each word ~300×120px; label column at x≈1060; dot 10px centred under the altered letter",
+        "typography": "Words Zaatar Black ~140px light grey (images); labels ~10px bold Latin caps, green",
+        "palette": [
+          "#030303",
+          "#d4d4d4",
+          "#00a14b"
+        ],
+        "behaviour": "none",
+        "content": "Real Arabic words chosen to contain the letter each set changes (Egypt, edge, game, space…)",
+        "assets": "Word images"
+      }
+    },
+    {
+      "blocks": [
+        "08",
+        "09"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "ornamental, exhaustive",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Green 'LIGATURES' label, then ~12 justified rows of ligature combinations (سر سز سـِر … ـخي ـغي) in light grey on black, slanting together like a woven texture",
+      "feel": "Calligraphic, patterned",
+      "ux": "static",
+      "learn": "Show the ligature set as one big justified block: the repetition becomes a texture that sells the calligraphic flow",
+      "reconstruction": {
+        "layout": "Centred block ~1000px wide from x≈210, rows ~56px pitch, 10–13 items per row; label centred 40px above",
+        "typography": "Ligatures ~55px Zaatar Bold (images), light grey; label ~10px bold caps green",
+        "palette": [
+          "#040404",
+          "#d4d4d4",
+          "#00a14b"
+        ],
+        "behaviour": "none",
+        "content": "Ligature combinations of seen/sheen/sad with following letters",
+        "assets": "Images"
+      }
+    },
+    {
+      "blocks": [
+        "09",
+        "10"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "minimal, factual",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": true
+      },
+      "look": "After a full-width solid green band (~354px), two small spec columns 'SUPPLIED FONT FILE FORMATS — OTF and TTF for Desktop use' and 'LANGUAGE SUPPORT — Arabic', then an outlined 'All Fonts' pill",
+      "feel": "Terse, catalogue-like",
+      "ux": "'All Fonts' links to the typefaces index",
+      "learn": "A two-fact spec (formats, language) plus a way back to the catalogue is enough closure for a single-script display face",
+      "reconstruction": {
+        "layout": "Green band #00a14b 1440×354px; then ~340px black area with two columns at x≈446 and x≈766, heading 12px bold caps above 11px value; pill 216×56px centred at y+260",
+        "typography": "Headings ~12px Graphik Bold caps white; values ~11px Regular; pill ~14px Regular",
+        "palette": [
+          "#00a14b",
+          "#050505",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "File formats and the single supported language",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "foundry house style",
+        "mobile": "adapts",
+        "contains": [
+          "other-fonts",
+          "socials",
+          "newsletter",
+          "legal"
+        ]
+      },
+      "look": "Near-black footer: logo oval and '© Boharat All rights reserved 2022' left; columns 'Retail Fonts' (Felfel, Zaatar, Qoronfull, Mestika, Zafran, Zanjabeel), 'Get in touch' (Instagram, Behance, Twitter), 'Info' (About); 'Subscribe to our newsletter' with an underlined email field and a pill 'Subscribe' button; round 'UP' button at the right edge",
+      "feel": "Tidy, small-foundry",
+      "ux": "Links to sibling font pages and socials; newsletter form; UP scrolls to top",
+      "learn": "Name every retail font in the footer: each microsite cross-sells the rest of the catalogue",
+      "reconstruction": {
+        "layout": "Band ~256px tall on #0b0b0b; logo at x≈140; columns at x≈422, 684, 916; form at x≈1114 (~190px wide); circular 46px UP button at x≈1356",
+        "typography": "Column heads ~13px Graphik Medium white; links ~11px Regular grey; legal ~9px",
+        "palette": [
+          "#0b0b0b",
+          "#ffffff",
+          "#9a9a9a"
+        ],
+        "behaviour": "Newsletter form submit; UP anchor",
+        "content": "Foundry catalogue, socials, newsletter",
+        "assets": "Boharat logo",
+        "html": ".rmwidget.widget-form (email + Subscribe), widget-button UP (border-radius 100%)"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "11",
+      "reason": "49px leftover strip at the bottom of the stitched capture, empty black"
+    }
+  ],
+  "sequence": [
+    "hero/word-slideshow",
+    "story/origin-reference",
+    "specimen-showcase/word-stack",
+    "glyph-table/category-lines",
+    "design-details/feature-before-after",
+    "glyph-table/category-lines",
+    "language-support/language-name-list",
+    "footer/link-columns"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "lozanotype-github-io-java-sans",
+  "extractedBy": "agent",
+  "summary": "Not a scrolling specimen but a single-screen p5.js sketch: the typed word ('java') is sampled into outline points, and a small square brush is stamped along every point while rotating, so the letters become animated 3D ribbons. A left-hand menu of sliders, colour pickers and selects (with a random button and 'save jpg') turns it into a poster maker.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "type-tester",
+      "variant": "creative-toy",
+      "newVariant": false,
+      "variantDefinition": null,
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "experimental, loud, generative",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "tracking",
+          "leading",
+          "color",
+          "presets"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": true
+      },
+      "look": "The word 'java' drawn as twisting extruded ribbons of hundreds of thin blue square outlines on a flat acid-green canvas, with a narrow column of unstyled controls at the left: magenta 'random' button, a text box, sliders, three colour swatches, two grey selects and 'save jpg'",
+      "feel": "Raw, hacky, mesmerising",
+      "ux": "Type in the box to change the word; sliders set size, spacing, point density, brush scale, stroke weight and rotation speed; selects swap the brush (square, circle, uploaded image) and pick which parameter animates per letter; 'random' rolls colours and settings; 'save jpg' exports the frame. On mobile the menu hides behind 'menu' and 'save' tabs",
+      "learn": "Sample the font outline into points and stamp a rotating shape along them: one small rule turns any typeface into an animated poster generator, and a save button makes visitors' results shareable",
+      "reconstruction": {
+        "layout": "Full-viewport canvas 1440×900; control column fixed at the left, ~130px wide from x≈10, controls stacked ~40px apart (button, textarea ~100×35, 3 sliders, 3 colour inputs ~50×25, 4 sliders, 2 selects ~120×30, save button); the word is centred, ~960px wide and ~530px tall",
+        "typography": "Rendered font '36days-Light' (Java Sans) via p5 textToPoints, default 450px (range 200–1600), lowercase; UI labels ~10px default sans in grey, mostly unreadable on the green",
+        "palette": [
+          "#15c522",
+          "#12a94e",
+          "#0a4fe0",
+          "#ff00ff",
+          "#808080"
+        ],
+        "behaviour": "p5 draw loop: for each sampled point (density 'Points' 0–4) a brush (square/circle/image, 'Scale' 20–600) is drawn with stroke weight 0–8, offset and rotated over time ('Rotate Speed' −10…10) so letters appear to tumble in 3D; 'Animate letter' (none|points|scale|stroke) oscillates one parameter per letter; Letter Spacing −100…400, Line Spacing 0…400; 'random' randomises colours and values; save-image calls saveCanvas to JPG",
+        "content": "Default word 'java'; any typed text, multiline via textarea",
+        "assets": "The TTF and p5.js; optional user-uploaded brush image",
+        "html": "#menu > .menu-section: button#randomizer, textarea#type, input[type=range]#range-typescale|#letter-space|#line-space|#range-points|#range-scale|#range-stroke|#range-rotate, input[type=color]#color-picker-background|-fill|-stroke, select#select-brush-shape, select#animate-letter, button#save-image; canvas.p5Canvas"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "type-tester/creative-toy"
+  ]
+}

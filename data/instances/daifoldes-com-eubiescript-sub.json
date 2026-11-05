@@ -1,0 +1,292 @@
+{
+  "slug": "daifoldes-com-eubiescript-sub",
+  "extractedBy": "agent",
+  "summary": "A short one-page sales sheet for a single-style bouncing brush script: name and $30 price burst, a wall of social-media stickers, four numbered feature rows with accent-colour annotations, a diacritic word wall, one auto-fitting editable line and a buy button at the centre of converging arrows. All specimens are vector SVG lettering; the accent colour shifts between red, orange, yellow and lime while the page is open. Captured from the Wayback Machine, where the webfonts 404, so live text (name, body, tester) falls back to a serif.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "retro sign-painter, cheerful",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "buy",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "A black 'Introducing…' ribbon banner above the name 'Eubie Script' at 192px, a narrow centred intro paragraph, then a black starburst 'Just $30' beside a small accent-coloured BUY NOW button; webfonts failed in the Wayback capture, so the name and copy render in a fallback serif",
+      "feel": "Showcard announcement, friendly and cheap-and-cheerful",
+      "ux": "Single BUY NOW link to the site's own checkout page; no nav",
+      "learn": "Borrow the vocabulary of a sale poster (ribbon banner, price starburst) so the hero announces the product and its price in one glance",
+      "reconstruction": {
+        "layout": "Centred column on white, ~825px tall: ribbon SVG ~290×85px at top centre; name 192px centred (~950px wide); intro paragraph in a ~480px column starting x≈480, two short paragraphs; price starburst ~150px plus a ~180×58px button side by side under the text, centred",
+        "typography": "Name 192px in Eubie Script (falls back to a serif in capture); ribbon and starburst lettering are SVG drawings of the script; body ~19px Balto Web Book, leading ~1.4, dark grey #222; button label ~19px bold caps",
+        "palette": [
+          "#fcfcfc",
+          "#222222",
+          "#f3c64f",
+          "#e8533a"
+        ],
+        "behaviour": "The accent fill (button, later the sticker field and annotations) changes colour over time: red at load, then orange, yellow, lime (JS swaps fill classes); no scroll effects",
+        "content": "Real positioning copy: 'A casual semi-connected script, Eubie Script's letterforms rise and drop to create surprising word shapes…'; 'brought to you by Dai Foldes and available in OTF for desktop and WOFF/EOT for web'",
+        "assets": "SVG lettering for the 'Introducing…' ribbon and the 'Just $30' starburst",
+        "html": ".introduction > svg.introducing + h1 + p + .buy-link-container (svg.price-burst + a.button); SVG paths use .fill-1 / .fill-bg classes so CSS can recolour them"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "prop-collage",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "internet slang, playful",
+        "mobile": "adapts",
+        "medium": "illustration",
+        "sequence": "grid"
+      },
+      "look": "A 4×4 grid of sticker shapes (cloud, oval, starburst, arrow, heart, ribbon, flag) in black or white on a mustard field, each lettered with internet slang: Like, Win, Trending!, Fail!, LOL, Skip Ad, Omg., Sign Up, +1, 301+ Views, Troll, Upvote, Never Read the Comments, Cute, ROFL, Wow!",
+      "feel": "Cheeky, pop, sticker-sheet",
+      "ux": "static; the background colour cycles with the page accent",
+      "learn": "Put a retro showcard script on modern internet slang: the contrast between period style and present-day words makes the font feel current",
+      "reconstruction": {
+        "layout": "Full-bleed field ~1012px tall; 4 rows × 4 columns of stickers, each ~200–300px wide and ~120–150px tall, centred in equal cells with ~130px side margins",
+        "typography": "Each sticker word in Eubie Script (drawn as SVG), ~50–70px cap height, white on black shapes or black on white shapes; slight upward tilt on some",
+        "palette": [
+          "#f3c64f",
+          "#222222",
+          "#ffffff"
+        ],
+        "behaviour": "Field colour cycles with the site accent (seen orange then yellow in the video); stickers are static",
+        "content": "Social-media and web slang, one or two words per sticker",
+        "assets": "One SVG with 16 sticker shapes and lettering (fill-1 / fill-bg classes)",
+        "html": "div.callout-specimens > svg with g.fill-bg background rect"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "explanatory, playful",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "features",
+          "alternates",
+          "scripts"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "Four numbered rows (black oval badges 1–4), each a phrase that names its feature set in the script, with the feature marked in the accent colour: arrows at rising and dropping letters in 'Bouncy Baselines', rings around joins in 'Lively Connections', tinted letters in 'Letter Substitution', tinted accents in 'Cultured & Traveled', and a two-line caption",
+      "feel": "Clear, cheerful teaching",
+      "ux": "static",
+      "learn": "Make each feature's name its own demonstration: the phrase 'Letter Substitution' shows letter substitution, and one accent colour points out where it happens",
+      "reconstruction": {
+        "layout": "Centred stack, ~1646px tall; 4 rows of ~410px: number badge ~60×45px, phrase ~720×140px, caption in a ~460px column starting x≈480; ~120px between rows",
+        "typography": "Phrases are SVG drawings of the script (~110px cap height), dark #222; annotations (arrows, circles, highlighted glyphs, a faint baseline rule) in the accent colour; numbers in the script inside black ovals; captions ~19px Balto Book",
+        "palette": [
+          "#fefefd",
+          "#222222",
+          "#f3c64f"
+        ],
+        "behaviour": "Annotation colour follows the cycling page accent (orange and yellow seen in the video)",
+        "content": "Feature names as phrases: Bouncy Baselines (bouncing baseline), Lively Connections (ligatures, semi-connected joins), Letter Substitution (contextual alternates), Cultured & Traveled (Latin-1 accents; 'never be at a loss to properly render the latest deposed president's name')",
+        "assets": "Four annotated SVGs (letters in .fill-1, annotations in .fill-2)",
+        "html": "div.features > div.feature × 4 (number svg, phrase svg, p)"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "language-support",
+      "variant": "diacritic-word-wall",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "bold, poster-like",
+        "mobile": "adapts",
+        "method": "word-wall",
+        "nonLatin": false
+      },
+      "look": "Six long accented words, one per line, filling the width in accent yellow on near-black: Galloromàniques, Leiðöngrum, Bağımsızlığın, Rozpoczęły, Pääkaupungissa, Edelweiß",
+      "feel": "Loud, celebratory",
+      "ux": "static; word colour follows the page accent (orange in the first pass of the video, yellow later)",
+      "learn": "Pick long real words packed with diacritics and set each one to fill the line: the wall proves Latin-1 coverage and how the connections survive accents",
+      "reconstruction": {
+        "layout": "Full-bleed dark panel ~2150px tall; 6 words stacked, centred, each ~1100–1250px wide, line pitch ~340px, ~100px top and bottom padding",
+        "typography": "Eubie Script as SVG, ~200px cap height, accent colour on #252523",
+        "palette": [
+          "#252523",
+          "#e9e15a",
+          "#222222"
+        ],
+        "behaviour": "Fill colour cycles with the page accent",
+        "content": "Real words from French/Catalan, Icelandic, Turkish, Polish, Finnish and German",
+        "assets": "One SVG of the six words (.fill-3)",
+        "html": "div.foreign-specimen > svg"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "brief, historical",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "One short centred paragraph of small text on white crediting the source: lettering styles of Harry Knorr, artist at Globe Poster for over 50 years",
+      "feel": "Modest footnote",
+      "ux": "static",
+      "learn": "A single sentence naming the real lettering artist behind the style gives the script credibility without an archive section",
+      "reconstruction": {
+        "layout": "~460px column at x≈480, ~160px tall, between the word wall and the tester",
+        "typography": "~19px Balto Web Book, leading ~1.4, #222",
+        "palette": [
+          "#f9f9f9",
+          "#222222"
+        ],
+        "behaviour": "none",
+        "content": "'…draws from the many lettering styles of Harry Knorr, an artist at Globe Poster for over 50 years. The script's contours are drawn (impossible to write with any tool)… cut his captions directly into the printing linoleum backwards'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "type-tester",
+      "variant": "auto-fit-editable-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "inviting, minimal",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "A black oval sticker 'Try me…' above one centred editable line 'Click & Type Here!' at ~96px (fallback serif in the capture; meant to be Eubie Script)",
+      "feel": "Inviting, toy-like",
+      "ux": "Click the line and type; the container id 'bigtext' points to a fit-to-width script (BigText) that rescales the line to the column as you type; no other controls",
+      "learn": "For a single-style script, one big auto-fitting editable line is enough of a tester: the only question the buyer has is how their own word looks",
+      "reconstruction": {
+        "layout": "Centred, ~340px tall: oval badge ~220×125px, then one editable line ~760px wide in a centred column",
+        "typography": "Sample ~96px Eubie Script (rescaled to fit the column width), #222; badge lettering SVG white on black",
+        "palette": [
+          "#fefefe",
+          "#262626"
+        ],
+        "behaviour": "contenteditable line; text size recalculated to fill the column on input (BigText-style fit)",
+        "content": "Prompt text 'Click & Type Here!'",
+        "assets": "'Try me…' badge SVG",
+        "html": "div.tester-wrapper > svg.try-me + div#bigtext.tester > div.content[contenteditable=true][spellcheck=false]"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "hard-sell, comic",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": true,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "Closing panel of ~20 heavy black arrows converging from every edge onto a small accent BUY NOW button in a white centre, with a 'Just $30' starburst at top-left; it is also the end of the page (no footer)",
+      "feel": "Comic, emphatic, a wink at hard-sell ads",
+      "ux": "One BUY NOW link to the site's own checkout page (checkout.html)",
+      "learn": "Let the illustration do the pointing: a field of arrows converging on one small button makes the final CTA impossible to miss without making it big",
+      "reconstruction": {
+        "layout": "Full-bleed ~960px tall; arrows SVG (viewBox 1400×930) covering the panel; button ~180×56px at the exact centre; starburst ~300px at top-left overlapping the top edge",
+        "typography": "Button label ~19px bold serif caps, dark on the accent; starburst lettering in the script SVG",
+        "palette": [
+          "#fcfcfc",
+          "#252525",
+          "#c8e05a"
+        ],
+        "behaviour": "Button and starburst colour follow the cycling accent (lime in the capture)",
+        "content": "'BUY NOW', 'Just $30'",
+        "assets": "Converging-arrows SVG; price starburst SVG",
+        "html": "div.outro > a.button + svg.arrows + svg.price-burst"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "specimen-showcase/prop-collage",
+    "design-details/annotated-specimen",
+    "language-support/diacritic-word-wall",
+    "story/origin-reference",
+    "type-tester/auto-fit-editable-lines",
+    "checkout/link-out-cta"
+  ]
+}

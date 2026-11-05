@@ -1,0 +1,406 @@
+{
+  "slug": "brailleneue-com",
+  "extractedBy": "agent",
+  "summary": "A bilingual (English/Japanese) project page for a typeface that fuses Braille dots with Latin and Katakana letterforms so sighted and blind readers share one text. It argues inclusion rather than legibility metrics: a photo of a finger reading embossed type, a 'Braille + character → Braille Neue' equation, real signage and exhibition case studies, partner logos and press. The font itself appears only in images; the page is set in Poppins and Noto Sans JP, and licensing is by contact form.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "material-photo",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "humane, calm, inclusive",
+        "mobile": "adapts",
+        "carrier": "photo",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Full-screen photo, darkened to 70%, of a white surface printed with blue Braille Neue words with raised black dots, a fingertip touching them; 'Character with Braille.' in white Poppins at 72px left of centre with the Japanese line '点字と文字が一体になった、目でも指でも読める書体。' under it; a transparent top bar with 'Braille Neue' and 8 anchor links",
+      "feel": "Gentle, tactile, hopeful",
+      "ux": "Anchor nav to About, Project Movie, Typeface, Case Study, Collaborator, Media, Reference, Contact; headline fades in after load",
+      "learn": "For a tactile typeface, the hero photo should show a hand reading it: the image explains 'readable by eye and by finger' before any copy",
+      "reconstruction": {
+        "layout": "Section 100svh (min 560px), image object-fit cover with brightness 0.7; 70px header with 20–30px side padding, links 40px apart at the right; headline block vertically centred at x≈100",
+        "typography": "Headline 72px Poppins Medium white, sentence case with full stop; Japanese subline ~16px Noto Sans JP; logo 22px Poppins Medium; nav links 15px Poppins Medium white, hover opacity 0.6",
+        "palette": [
+          "#aeafb1",
+          "#3a8fd0",
+          "#111111",
+          "#ffffff"
+        ],
+        "behaviour": "Headline fades in at load; hover dims nav links",
+        "content": "Tagline 'Character with Braille.' plus the Japanese 'a typeface readable by eye and by finger'",
+        "assets": "Close-up photo of embossed Braille Neue text with a finger (hero.webp)",
+        "html": "section.relative.h-[100svh] > img[data-nimg=fill].brightness-[0.7] + header (a + nav ul li a[href=#about…])"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "clear, mission-driven",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "diagram"
+        ],
+        "length": "short"
+      },
+      "look": "'About': an equation diagram, six black Braille dots '+' a blue letter 'T' (Existing Character) '→' the same T with the dots placed on its strokes (Braille Neue), labelled underneath; then the purpose in English and Japanese side by side",
+      "feel": "Simple, persuasive",
+      "ux": "Fades in on scroll (.reveal)",
+      "learn": "Explain a hybrid design as an equation (A + B → C) with one glyph: the construction rule and the inclusive aim are understood at once",
+      "reconstruction": {
+        "layout": "Centred 960px column; heading centred; diagram image full width ~960×180px (dots, +, glyph, arrow, glyph, each with a 13px label); two text columns 450px with 60px gap",
+        "typography": "Heading 32px Poppins Regular #333; labels ~13px Poppins Medium; body 15px Poppins Medium, leading 1.8, tracking 0.15px; Japanese in Noto Sans JP",
+        "palette": [
+          "#fdfdfd",
+          "#333333",
+          "#1ab0e0",
+          "#111111"
+        ],
+        "behaviour": "Reveal fade-in on scroll",
+        "content": "'Braille Neue is a project that creates a universal typeface that combines Braille and characters… sharing information between the sighted and the visually impaired using a common medium.'",
+        "assets": "Equation diagram image",
+        "html": "section#about > div.reveal > h2 + div.reveal > img + div.grid.md:grid-cols-2 > p × 2"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "documentary",
+        "mobile": "adapts",
+        "medium": "video",
+        "sequence": "single"
+      },
+      "look": "'Project Movie': an embedded YouTube promotion film (Braille Neue | Promotion Movie, Kosuke Takahashi) at the full column width, poster showing the same embossed-type close-up",
+      "feel": "Informative, branded",
+      "ux": "Click to play in the YouTube embed",
+      "learn": "A short film of people touching and reading the type does what stills cannot: it shows the reading gesture",
+      "reconstruction": {
+        "layout": "960px column, 16:9 iframe (~960×540px) under a centred 32px heading",
+        "typography": "Heading 32px Poppins Regular #333",
+        "palette": [
+          "#fdfdfd",
+          "#333333",
+          "#c9cac7"
+        ],
+        "behaviour": "YouTube iframe, no autoplay",
+        "content": "Promotion movie of the project",
+        "assets": "YouTube video ce-LsV7myyk",
+        "html": "section#movie iframe[src*=youtube.com/embed]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "neat, informative",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "'Typeface': two cards side by side, each a tilted, cropped image of the alphabet in cyan strokes with black dots: Braille Neue Standard (Latin Alphabets) and Braille Neue Outline (Latin Alphabets, Japanese Katakana)",
+      "feel": "Bright, graphic",
+      "ux": "static; fades in on scroll",
+      "learn": "Show each style as an angled, cropped alphabet close-up so it feels like a printed object, with its script coverage under the name",
+      "reconstruction": {
+        "layout": "960px column, 2-column grid with 60px gap; each image aspect 9:5 (~450×250px) on #eee, then name (16px) and coverage note (12px)",
+        "typography": "Names ~16px Poppins Medium #333; notes ~12px Poppins; glyphs in images ~70px cyan with black dots",
+        "palette": [
+          "#fdfefd",
+          "#1ab0e0",
+          "#111111",
+          "#333333"
+        ],
+        "behaviour": "Reveal fade-in",
+        "content": "Alphabet A–Z (Standard) and Katakana (Outline)",
+        "assets": "Two alphabet images"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "civic, practical",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "carousel"
+      },
+      "look": "'Case Study': three rows, each a photo carousel on the left (Shibuya City Office floor signage with a dot-and-number '3', a child reading a Panasonic Center exhibit, the 'Fix me.' storybook) and on the right the project name, type of work, date, client, place and the client's logo",
+      "feel": "Credible, real-world",
+      "ux": "Each image area has prev/next arrow zones (60px wide) at its edges to page photos",
+      "learn": "For an accessibility typeface, real public installations (city hall signage, exhibitions, a children's book) are the strongest legibility argument: show them with client and date",
+      "reconstruction": {
+        "layout": "960px column; rows 40px apart; image ~640×360px left, info column ~260px right with 60px gap, vertically centred",
+        "typography": "Project name 20px Poppins Medium; meta 12px Poppins Medium (Signage Design / Date / Client / Place); arrows white chevrons",
+        "palette": [
+          "#f7f7f7",
+          "#333333",
+          "#b5d84a",
+          "#1ab0e0"
+        ],
+        "behaviour": "Per-row image slider; arrow buttons with hover bg black/20",
+        "content": "Real projects: Shibuya City Office signage (2019.1), Panasonic Center exhibition (2019.1), 'Fix me.' storybook",
+        "assets": "Project photographs, client logos",
+        "html": "section#casestudy > div.reveal > div.flex (image slider with button[aria-label=前の画像/次の画像]) + div (h3, dl-like meta, img logo)"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "testimonials",
+      "variant": "award-logo-strip",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "corporate, endorsed",
+        "mobile": "adapts"
+      },
+      "look": "'Collaborators': two rows of four partner logos in their own colours (Panasonic, Johnson & Johnson, Woven Planet, dentsu tokyo, CTC, Obayashi, Frapbois, Modanech)",
+      "feel": "Trustworthy",
+      "ux": "static",
+      "learn": "Partner logos from big companies tell visitors the inclusive idea has been adopted, not just proposed",
+      "reconstruction": {
+        "layout": "960px column, 4-column grid of logos ~180×50px, 2 rows, ~40px gaps",
+        "typography": "Heading 32px Poppins Regular #333",
+        "palette": [
+          "#fefefe",
+          "#333333",
+          "#0051a5",
+          "#c4122f"
+        ],
+        "behaviour": "Reveal fade-in",
+        "content": "Collaborating companies",
+        "assets": "Eight partner logo images"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "testimonials",
+      "variant": "press-link-list",
+      "newVariant": true,
+      "variantDefinition": "A dated list of press coverage, one ruled row per article ('date · outlet : headline' with an arrow), each linking to the article; the coverage itself is the social proof, with no quotes or logos.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "documented, bilingual",
+        "mobile": "adapts"
+      },
+      "look": "'Media': a hairline-ruled list of ~10 rows, each a date (2018.03.26 …), the outlet and headline in English or Japanese (designboom, CAREER HACK, Spoon & Tamago, Wired Audi Innovation Award, Nikkei, GQ Journal, Design Indaba…) and a → at the right",
+      "feel": "Orderly, quietly proud",
+      "ux": "Each row links out to the article in a new tab",
+      "learn": "A chronological press list shows how the project spread over years and across languages without needing quotes",
+      "reconstruction": {
+        "layout": "960px column; rows ~56px with 1px #999 top/bottom rules; date column ~100px, title flexible, arrow right-aligned",
+        "typography": "Dates and titles ~13px Poppins Medium #333 (Noto Sans JP for Japanese); heading 32px",
+        "palette": [
+          "#fbfbfb",
+          "#333333",
+          "#999999"
+        ],
+        "behaviour": "Row hover (opacity); reveal fade-in",
+        "content": "Real coverage 2018–2022",
+        "assets": "Arrow SVG icons",
+        "html": "section#media > div.reveal.border-t > a[target=_blank] rows"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "humble, generous",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'Reference': a bilingual paragraph acknowledging that others have combined Braille with characters before, then a ruled list of prior projects with year and author ('Visual Braille' – Christopher Heller 2009, 'Braille Fonts' – Larysa Kurak 2014, 'Blind words' – Nuria Lopez 2015) linking out",
+      "feel": "Honest, collegial",
+      "ux": "Rows link to the earlier projects",
+      "learn": "Credit prior art openly: it frames the project as a contribution to a shared cause rather than a claim of invention",
+      "reconstruction": {
+        "layout": "960px column; two text columns 450px; list rows ~56px with hairline rules, year column ~100px, arrow right",
+        "typography": "Body 15px Poppins Medium leading 1.8; list ~13px",
+        "palette": [
+          "#fbfbfb",
+          "#333333",
+          "#999999"
+        ],
+        "behaviour": "Reveal fade-in",
+        "content": "Real references to earlier Braille-letter hybrids",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "checkout",
+      "variant": "inquiry-form",
+      "newVariant": true,
+      "variantDefinition": "No shop or price list: licensing (and other requests) go through an on-page contact form (name, e-mail, message, privacy consent, send), with a line saying the fonts are provided for a fee on request.",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "polite, formal",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "'Contact': bilingual note ('For inquiries regarding the use of typefaces… We also provide typefaces for a fee'), then full-width bordered fields Full Name*, Email*, Message*, a privacy-policy checkbox and a full-width black 'Send' button",
+      "feel": "Personal, gated",
+      "ux": "Required fields and consent checkbox; submit sends the inquiry",
+      "learn": "For a project typeface licensed case by case, a contact form is the honest checkout: say plainly that use is available for a fee",
+      "reconstruction": {
+        "layout": "960px column; two text columns, then a single full-width form: inputs 50px tall, textarea 160px, 20px gaps, button 50px tall full width 40px below",
+        "typography": "Labels 13px Poppins Medium; inputs 15px; button 18px Poppins Medium white on black",
+        "palette": [
+          "#fcfcfc",
+          "#333333",
+          "#999999",
+          "#030303"
+        ],
+        "behaviour": "HTML5 required validation; focus darkens the border to #333; button hover opacity 0.8",
+        "content": "Contact copy in English and Japanese",
+        "assets": "none",
+        "html": "form > label > input[name=name][required] / input[type=email] / textarea[name=message] + input[type=checkbox][required] + button[type=submit]"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "minimal",
+        "mobile": "adapts",
+        "contains": [
+          "legal",
+          "credits",
+          "socials"
+        ]
+      },
+      "look": "Charcoal 200px band with a centred X (Twitter) icon over '(C)2018-2022 Braille Neue, All rights reserved. Designed by Kosuke Takahashi.' in small white text",
+      "feel": "Quiet close",
+      "ux": "X icon and designer name link out",
+      "learn": "A single centred line with the designer's credit is enough for a project site",
+      "reconstruction": {
+        "layout": "Full-bleed 200px, flex column centred, 16px gap",
+        "typography": "14px Poppins white, designer name underlined",
+        "palette": [
+          "#333333",
+          "#ffffff"
+        ],
+        "behaviour": "Hover opacity on the icon",
+        "content": "Copyright and credit",
+        "assets": "X logo SVG"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/material-photo",
+    "story/design-brief",
+    "specimen-showcase/in-use-mockups",
+    "family-overview/style-word-grid",
+    "specimen-showcase/in-use-mockups",
+    "testimonials/award-logo-strip",
+    "testimonials/press-link-list",
+    "story/origin-reference",
+    "checkout/inquiry-form",
+    "footer/slim-legal-bar"
+  ]
+}

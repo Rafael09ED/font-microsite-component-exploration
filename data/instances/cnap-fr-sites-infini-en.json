@@ -1,0 +1,324 @@
+{
+  "slug": "cnap-fr-sites-infini-en",
+  "extractedBy": "agent",
+  "summary": "The home page of a state-commissioned free typeface (Wayback snapshot): a fullPage.js deck of four full-screen sections, a black wordmark hero with a credits-and-download strip, then one section per style (Roman + ligatures, Italic, Bold + pictograms), each a horizontal carousel of 12–15 SVG specimen slides alternating white, blue and black. Project, story, studies, tester and info live on separate pages that were not captured.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "institutional, sharp",
+        "mobile": "unknown",
+        "carrier": "name",
+        "cta": "download",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Full black screen with 'INFINI' in white caps at ~240px, its flared, chiselled strokes the only ornament; beneath it a white-outlined strip split into 'A TYPEFACE CREATED BY SANDRINE NUGUE' | 'A PUBLIC COMMISSION BY THE CENTRE NATIONAL DES ARTS PLASTIQUES (FR)' | a solid white 'DOWNLOAD' cell; a ↓ arrow at the bottom",
+      "feel": "Monumental, civic",
+      "ux": "Download cell fetches the zip; the arrow or wheel snaps to the next full-screen section",
+      "learn": "Fold credits and the download into one ruled strip under the wordmark: it reads like a museum label and a button at once",
+      "reconstruction": {
+        "layout": "100vh black section; wordmark centred at y≈260–510, ~920px wide; credit strip 940×76px centred at y≈570 with a 2px white border, three cells (~310 / ~380 / ~235px), the last filled white; ↓ at bottom centre",
+        "typography": "Wordmark ~240px Infini Roman caps, white; strip labels ~13px Infini caps white, two lines; DOWNLOAD ~14px caps black on white",
+        "palette": [
+          "#040404",
+          "#f8f8f8",
+          "#2b2b2b"
+        ],
+        "behaviour": "fullPage.js: wheel or arrow snaps to the next section with a vertical slide; dot nav at right marks the active section",
+        "content": "Name, designer credit, commissioning body",
+        "assets": "none",
+        "html": "#hero .jumbotron > h1 + #claimer.col-xs-8.col-xs-offset-2 > .col-xs-4 span + .col-xs-5 span + .col-xs-3 a.btn"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "public, generous",
+        "mobile": "unknown",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Two 'DOWNLOAD' buttons: a grey block at the right end of the nav and the white cell in the hero strip",
+      "feel": "Open, no friction",
+      "ux": "Both download a zip with the fonts and a PDF specimen (Creative Commons licence, explained on the Info page)",
+      "learn": "Keep the free download in the nav on every screen and repeat it in the hero",
+      "reconstruction": {
+        "layout": "Nav button ~150×50px at the far right of the 50px bar; hero cell ~235×76px",
+        "typography": "~14px Infini caps",
+        "palette": [
+          "#2b2b2b",
+          "#f8f8f8",
+          "#040404"
+        ],
+        "behaviour": "Direct link to download/Infini-cnap-engl_fonts-specimen-v2.zip",
+        "content": "'DOWNLOAD'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "02",
+        "03"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "witty, editorial",
+        "mobile": "unknown",
+        "medium": "type-only",
+        "sequence": "carousel"
+      },
+      "look": "Three full-screen sections, one per style, each with a thin electric-blue label bar ('INFINI ROMAN + LIGATURES', 'INFINI ITALIC', 'INFINI BOLD + PICTOGRAMS') and a title slide: 'Infini Roman + LIGATURES' / 'Bristly in display sizes, supple for text', 'Infini italic' / 'Faithful partner for the roman, yet independent', 'Infini bold + PICTOS' (with a snake pictogram) / 'Oversized to overshadow its neighbors', large black type with a blue tagline; ← → arrows at the screen edges",
+      "feel": "Clean, characterful, slide-show",
+      "ux": "Wheel moves between style sections; side arrows (or swipe) page horizontally through 15 Roman, 12 Italic and 13 Bold specimen slides whose backgrounds alternate white, blue and black (only the title slides were captured)",
+      "learn": "Give each style its own horizontal slide deck under a one-line characterisation: the visitor chooses depth per style instead of scrolling one long specimen",
+      "reconstruction": {
+        "layout": "Each section 100vh; 30px blue label bar at the top with the style name at x≈250; slide content centred (~1100px); arrows 30px at x≈60 and x≈1360, vertically centred; fp-nav dots at the right edge",
+        "typography": "Title ~110px Infini (Roman, Italic or Bold) black, second line in caps with the special ligatures (LI, GA, TU, RE); tagline ~44px in the same style, blue #1010c8; label bar ~11px caps white",
+        "palette": [
+          "#ffffff",
+          "#040404",
+          "#1638ff",
+          "#1010c8"
+        ],
+        "behaviour": "fullPage.js vertical sections with horizontal fp-slides; control arrows .fp-prev/.fp-next; slide classes .blue/.black switch the background",
+        "content": "One-line characterisations per style; further slides are specimen 'friezes' (eng-frise-roman-01…15.svg)",
+        "assets": "40 SVG slides (img/home/roman|italic|bold/eng-frise-*-blanc|bleu|noir.svg)",
+        "html": "#romain.fp-section > .headTypename h4 + .fp-slides > .fp-slidesContainer > .slide.fp-slide(.blue|.black) > img.img-responsive; .fp-controlArrow.fp-prev/.fp-next"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "navigation",
+      "variant": "scroll-spy-nav",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "discreet",
+        "mobile": "unknown"
+      },
+      "look": "Four small outlined dots fixed at the right edge, the current section's dot filled (white on the black hero, black on the white slides)",
+      "feel": "Unobtrusive",
+      "ux": "Marks which of the four full-screen sections is active; clicking a dot jumps there",
+      "learn": "A dot column is all a snap-scrolling deck needs for orientation",
+      "reconstruction": {
+        "layout": "Fixed at right ~14px from the edge, vertically centred, 4 dots ~8px with ~12px gaps",
+        "typography": "none",
+        "palette": [
+          "#f8f8f8",
+          "#040404"
+        ],
+        "behaviour": "fullPage.js #fp-nav: active class follows the section",
+        "content": "none",
+        "assets": "none",
+        "html": "#fp-nav.right > ul > li > a(.active) > span"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Dark grey 50px top bar on the hero: round 'GF' (Graphisme en France) logo at left, tabs INFINI (active, black) / The project / The story / Studies / Try it / Info linking to separate pages, an 'FR' badge and a grey DOWNLOAD block at right"
+    }
+  ],
+  "skipped": [
+    {
+      "block": "04",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the hero (black INFINI screen)"
+    },
+    {
+      "block": "05",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Roman + Ligatures section"
+    },
+    {
+      "block": "06",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Italic section"
+    },
+    {
+      "block": "07",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Bold + Pictos section"
+    },
+    {
+      "block": "08",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the hero (black INFINI screen)"
+    },
+    {
+      "block": "09",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Roman + Ligatures section"
+    },
+    {
+      "block": "10",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Italic section"
+    },
+    {
+      "block": "11",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Bold + Pictos section"
+    },
+    {
+      "block": "12",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the hero (black INFINI screen)"
+    },
+    {
+      "block": "13",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Roman + Ligatures section"
+    },
+    {
+      "block": "14",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Italic section"
+    },
+    {
+      "block": "15",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Bold + Pictos section"
+    },
+    {
+      "block": "16",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the hero (black INFINI screen)"
+    },
+    {
+      "block": "17",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Roman + Ligatures section"
+    },
+    {
+      "block": "18",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Italic section"
+    },
+    {
+      "block": "19",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Bold + Pictos section"
+    },
+    {
+      "block": "20",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the hero (black INFINI screen)"
+    },
+    {
+      "block": "21",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Roman + Ligatures section"
+    },
+    {
+      "block": "22",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Italic section"
+    },
+    {
+      "block": "23",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Bold + Pictos section"
+    },
+    {
+      "block": "24",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the hero (black INFINI screen)"
+    },
+    {
+      "block": "25",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Roman + Ligatures section"
+    },
+    {
+      "block": "26",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Italic section"
+    },
+    {
+      "block": "27",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Bold + Pictos section"
+    },
+    {
+      "block": "28",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the hero (black INFINI screen)"
+    },
+    {
+      "block": "29",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Roman + Ligatures section"
+    },
+    {
+      "block": "30",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Italic section"
+    },
+    {
+      "block": "31",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Bold + Pictos section"
+    },
+    {
+      "block": "32",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the hero (black INFINI screen)"
+    },
+    {
+      "block": "33",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Roman + Ligatures section"
+    },
+    {
+      "block": "34",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Italic section"
+    },
+    {
+      "block": "35",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Bold + Pictos section"
+    },
+    {
+      "block": "36",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the hero (black INFINI screen)"
+    },
+    {
+      "block": "37",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Roman + Ligatures section"
+    },
+    {
+      "block": "38",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Italic section"
+    },
+    {
+      "block": "39",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the Bold + Pictos section"
+    },
+    {
+      "block": "40",
+      "reason": "duplicate-capture: the wheel capture looped through the 4 fullPage.js sections; repeats the hero (black INFINI screen)"
+    }
+  ],
+  "sequence": [
+    "hero/giant-wordmark",
+    "checkout/free-download",
+    "specimen-showcase/poster-series"
+  ]
+}

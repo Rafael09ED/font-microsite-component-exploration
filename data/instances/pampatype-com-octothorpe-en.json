@@ -1,0 +1,327 @@
+{
+  "slug": "pampatype-com-octothorpe-en",
+  "extractedBy": "agent",
+  "summary": "A Mobirise one-pager (captured from the Wayback Machine) for Octothorpe, a 1970s multi-line 'stripes' display revival: 24 full-screen panels, each a pre-rendered PNG/GIF of white striped lettering on a flat colour, with the background colour blending panel to panel through a rainbow (red → magenta → violet → blue → cyan → green → yellow → red). Captioned feature panels ('8 great reasons to love Octothorpe') alternate with pangrams in several languages and display phrases; no live text in the font.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "retro, groovy, bold",
+        "mobile": "breaks",
+        "carrier": "name",
+        "cta": "scroll",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Flat red screen with a small black 'pampatype' wordmark above 'OCTOTHORPE®' in white six-line striped capitals (~130px tall, ~1020px wide); the stripes of the last 'P' run straight down off the bottom of the screen; round translucent ↓ button at the bottom centre",
+      "feel": "Seventies, loud, graphic",
+      "ux": "Static image panel with a jarallax parallax background; the ↓ button jumps to the next panel",
+      "learn": "Let one letter's stripes keep running off the panel: the multi-line construction becomes a graphic device that leads the eye into the scroll",
+      "reconstruction": {
+        "layout": "Full-screen section (100vh) under a 64px fixed black nav; wordmark centred at ~45% height, foundry logo ~60px above it; stripe tail from the 'P' (x≈930) to the bottom edge; ↓ button 56px circle centred ~60px from the bottom",
+        "typography": "Name in Octothorpe caps (pre-rendered image), each stroke 6 parallel white lines, ~130px cap height; foundry logo ~26px bold lowercase black; UI in Chercan ~16px",
+        "palette": [
+          "#e51d20",
+          "#e49192",
+          "#ffffff",
+          "#030f10"
+        ],
+        "behaviour": "Background image in a jarallax container (parallax on scroll); arrow is an anchor to #next",
+        "content": "Name only, with ® and foundry logo",
+        "assets": "Pre-rendered PNG of the wordmark (octothorpe.png) at 1920px wide",
+        "html": "section.mbr-fullscreen.mbr-parallax-background > #jarallax-container-0 (background-image cover) + .mbr-arrow > a[href=#next] > i.mbri-down"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "02",
+        "07",
+        "11",
+        "13",
+        "17"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "groovy, poster-like",
+        "mobile": "breaks",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Full-screen poster panels of white striped lettering on colour fields that blend into each other: the English pangram in four stacked lines on red, lowercase 'octothorpe' with stripes running up and down, '—QUESTION EVERYTHING —WHY?' on violet, formulas '(x+y)²=4×(½)xy+z²', 'PLATFORM 9¾', 'C₁₀H₁₂N₂O' on cyan, a two-slide carousel of a physics sentence ('For a finite-size system to evolve in such a way that… imposed currents') on green, prices '€ 9.823', '¥ 1.000,8000', '₿ 0,0007' on yellow",
+      "feel": "Joyful, rhythmic, record-sleeve",
+      "ux": "Scroll from panel to panel (each 100vh with a ↓ button); the green panel is a Bootstrap carousel with ← → buttons and no autoplay",
+      "learn": "Grade the background from one panel's colour into the next: a run of separate posters reads as one continuous rainbow scroll",
+      "reconstruction": {
+        "layout": "Sections of exactly 100vh; one centred composition per panel, 2–4 lines of display type ~900–1200px wide, ~100–140px cap height; backgrounds use vertical linear gradients at the panel edges so neighbouring colours meet seamlessly",
+        "typography": "Octothorpe (image), 6-line striped strokes, caps or lowercase, line-height ~1.0, lines interlocking via connectors; tiny captions in Chercan ~14px white",
+        "palette": [
+          "#e51d20",
+          "#c94696",
+          "#554697",
+          "#2952a1",
+          "#6cc6d9",
+          "#68b42d",
+          "#fcbd16",
+          "#ffffff"
+        ],
+        "behaviour": "Static images (some animated GIFs); carousel slides change on button click (data-interval=false); ↓ anchors step to the next section",
+        "content": "English pangram, slogan 'Question everything — why?', maths and chemistry formulas, a physics quote, currency amounts",
+        "assets": "One pre-rendered PNG/GIF per panel (e.g. octothorpelc.png, finite01.png, externsors.png)",
+        "html": "section.mbr-fullscreen with CSS background-image per section; carousel: section.carousel > .mbr-slider > .carousel-inner > .carousel-item.slider-fullscreen-image (img) + a.carousel-control-prev/next"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04",
+        "06",
+        "08",
+        "10",
+        "12",
+        "14",
+        "16",
+        "18",
+        "19"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "showy, generous",
+        "mobile": "breaks",
+        "subject": [
+          "features",
+          "alternates",
+          "scripts"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "'8 GREAT REASONS TO LOVE OCTOTHORPE' as a striped title panel, then eight full-screen panels each with one small white caption: 'Contextual alternates' (a huge overlapping 'UG'), 'Swashes' (four rows of swash letters), 'Extensive diacritic coverage' (rows of accented A and other letters), 'Positional forms and fractions' (A¹²³ A₄₅₆ ⁷⁸/₉₀ and fractions), 'Extenders and connectors' ('EQUITY', 'pedigüeñería', 'MANNEQUIN' with long joining strokes), 'Cyrillic range', 'Extended currency', then '#8' and striped arrows and a pointing hand",
+      "feel": "Proud, catalogue-like",
+      "ux": "Watch-and-scroll; the last dingbat panel is an animated GIF (the arrow changes direction)",
+      "learn": "Number the selling points ('8 great reasons') and give each feature one full screen with a one-line caption: a feature list becomes a paced show",
+      "reconstruction": {
+        "layout": "Each reason is a 100vh panel: centred specimen ~700–1200px wide, caption ~14px centred just below or between the lines; the reasons are interleaved with pangram panels",
+        "typography": "Specimens in Octothorpe striped caps, lowercase, swashes, superior/inferior figures, Cyrillic, currency and arrow dingbats (images); captions Chercan ~14px white",
+        "palette": [
+          "#e51d20",
+          "#ca4594",
+          "#554697",
+          "#2a53a2",
+          "#6cc6d9",
+          "#68b42d",
+          "#8cbe23",
+          "#fcbd16",
+          "#ffffff"
+        ],
+        "behaviour": "Static; the '#8' panel grades yellow → red and the dingbat panel loops an animation",
+        "content": "Feature names as captions; sample letters and words chosen to show each feature (EQUITY, pedigüeñería, MANNEQUIN)",
+        "assets": "Pre-rendered PNG/GIF per feature panel"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "09",
+        "15"
+      ],
+      "type": "language-support",
+      "variant": "multiscript-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "pangram",
+        "tone": "playful, multilingual",
+        "mobile": "breaks",
+        "method": "samples",
+        "nonLatin": true
+      },
+      "look": "Three pangram panels in white striped lettering, each with its English translation in brackets below: Italian 'Ma la volpe col suo balzo ha raggiunto il quieto Fido' on magenta, Polish 'Pchnąć w tę łódź jeża lub ośm skrzyń fig' on blue, Russian 'В чащах юга жил бы цитрус? Да, но фальшивый экземпляр!' on green",
+      "feel": "Witty, worldly",
+      "ux": "static",
+      "learn": "Translate each foreign pangram in a bracketed caption: visitors enjoy the sentence and still see which accents it exercises",
+      "reconstruction": {
+        "layout": "100vh panels, 3–4 centred lines ~1000–1200px wide, ~70px cap height, caption ~14px below",
+        "typography": "Octothorpe lowercase or caps (image) with diacritics and Cyrillic; captions Chercan ~14px white in parentheses",
+        "palette": [
+          "#c94696",
+          "#2a53a2",
+          "#8dbf22",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Classic pangrams in Italian, Polish and Russian with English translations ('(But the fox with his leap has reached quiet Fido)')",
+        "assets": "Pre-rendered PNG per panel"
+      }
+    },
+    {
+      "blocks": [
+        "20",
+        "21"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "nostalgic, declarative",
+        "mobile": "breaks",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Back on red: 'A REVIVAL OF ANTHONY WENMAN'S \"STRIPES\"' and 'ARCHETYPAL \"STRIPES\" FONT FROM THE 70'S' set as huge striped capitals; in the second the horizontal stripes run out to both screen edges",
+      "feel": "Retro, matter-of-fact",
+      "ux": "static",
+      "learn": "Tell the origin in two display sentences set in the revival itself: the backstory doubles as the last specimen",
+      "reconstruction": {
+        "layout": "Two 100vh panels; 4 centred lines each ~600–1000px wide, ~100px cap height; panel 2 extends the line stripes horizontally across the full width",
+        "typography": "Octothorpe caps (image), white on red",
+        "palette": [
+          "#e51d20",
+          "#e49091",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Origin statement: revival of Anthony Wenman's 'Stripes' (1970s)",
+        "assets": "Pre-rendered PNGs"
+      }
+    },
+    {
+      "blocks": [
+        "22",
+        "23"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "proud, simple",
+        "mobile": "breaks",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "Red panels with small 'designed by' above 'JORGE IVÁN MORENO MAJUL' in striped lowercase/caps, then 'PAMPATYPE FONT FOUNDRY'; the second crop shows a duplicated nav bar across the lettering (capture artefact)",
+      "feel": "Credit roll",
+      "ux": "static",
+      "learn": "Set the designer's and foundry's names in the display face as closing titles",
+      "reconstruction": {
+        "layout": "Two 100vh panels; 2 centred lines each, ~720px wide, ~70px cap height; 'designed by' label ~14px above",
+        "typography": "Octothorpe (image) white; label Chercan ~14px",
+        "palette": [
+          "#e61d20",
+          "#e49294",
+          "#ffffff",
+          "#041010"
+        ],
+        "behaviour": "none",
+        "content": "Designer and foundry names",
+        "assets": "Pre-rendered PNGs"
+      }
+    },
+    {
+      "blocks": [
+        "24"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "A short red band with two small white rectangular buttons, 'Read the article' and 'See the font', grey text",
+      "feel": "Understated end",
+      "ux": "'Read the article' opens the foundry blog post on the concept; 'See the font' opens the Octothorpe page in the Pampatype shop",
+      "learn": "End a pure-image showcase with exactly two exits: the story and the product page",
+      "reconstruction": {
+        "layout": "Band ~335px tall, two buttons centred side by side (~230×52px and ~200×52px, 26px gap)",
+        "typography": "Buttons ~16px Chercan, letter-spaced, grey #777 on white",
+        "palette": [
+          "#e51d20",
+          "#fafafa"
+        ],
+        "behaviour": "Hover state from the Mobirise button style",
+        "content": "Read the article / See the font",
+        "assets": "red-1920x1280.png parallax background",
+        "html": ".mbr-section-btn > a.btn.btn-md.btn-white.display-4 ×2"
+      }
+    },
+    {
+      "blocks": [
+        "25"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed black top bar (~64px): white Pampatype animal logo at the left; 'Read the article', 'See the font' and 'English / Español' language links at the right; hamburger on mobile"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "specimen-showcase/poster-series",
+    "design-details/design-notes",
+    "language-support/multiscript-specimen",
+    "story/large-text-intro",
+    "footer/credits-colophon",
+    "checkout/link-out-cta"
+  ]
+}

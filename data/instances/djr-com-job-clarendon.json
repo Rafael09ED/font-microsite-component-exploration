@@ -1,0 +1,620 @@
+{
+  "slug": "djr-com-job-clarendon",
+  "extractedBy": "agent",
+  "summary": "DJR's page for Job Clarendon, a condensed Clarendon homage to letterpress job printing. The page is mostly a gallery of twenty-six commissioned job-printing posters (images in a 1-, 2- and 3-up grid), broken by electric-blue and mint-green 'breakout' panels that explain widths, weights, the tailed R, squared terminals and the stylistic sets. A sticky Try/Typeset/PDF/Buy bar follows the whole scroll; the DJR cart closes the page.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "cheeky, confident",
+        "mobile": "unknown",
+        "carrier": "sentence",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "On off-white, a centred five-line claim in electric-blue condensed semibold: 'Next to / Job Clarendon, / everything else / is practically / a sans.'; the black/yellow action bar sits along the bottom of the first screen",
+      "feel": "A wisecrack set like a letterpress handbill",
+      "ux": "No controls in the hero; the action bar under it (Try, Typeset, PDF, Buy) is the call to action",
+      "learn": "A joke about the genre ('everything else is practically a sans') sells a heavy-serif display face faster than a description, and the line breaks make it a poster",
+      "reconstruction": {
+        "layout": "1440×803 under the 31px site bar; text block centred horizontally and vertically, ~520px wide, 5 lines; the wrapper is position: sticky in the DOM (posters scroll up after it)",
+        "typography": "~80px Job Clarendon Variable, wdth 34 (Extra Condensed–Compressed range), wght 600, centred, tight leading ~0.95, blue #0000ff",
+        "palette": [
+          "#fbfbfb",
+          "#0000ff"
+        ],
+        "behaviour": "Static text; fonts swap in at load",
+        "content": "One claim sentence about the genre",
+        "assets": "none",
+        "html": "div.jc-intro > div.jc-intro--box > p with <br> line breaks"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "utilitarian, print-shop",
+        "mobile": "unknown"
+      },
+      "look": "A white strip with three black label buttons 'Try', 'Typeset', 'PDF' on the left and a yellow 'Buy' on the right; it starts at the bottom of the first screen and then stays stuck to the top, so it is repeated across every stitched crop (attached to 00)",
+      "feel": "Like price tags stapled onto every poster",
+      "ux": "Try is a form button that adds the free Testing licence to the cart; Typeset opens typeset.djr.com with the family preloaded; PDF downloads the specimen; Buy jumps to #buy",
+      "learn": "One sticky bar of four verbs (try, typeset, read, buy) keeps conversion one click away on a page that is otherwise a long image gallery",
+      "reconstruction": {
+        "layout": "Full-width ~32px white strip, content in the 1024px column: buttons ~26×16px with 8px gaps on the left, Buy right-aligned; position: sticky top 0",
+        "typography": "~11px Job Clarendon Text Beta, sentence case, white on black buttons, black on yellow Buy",
+        "palette": [
+          "#fbfbfb",
+          "#111111",
+          "#ffdd00"
+        ],
+        "behaviour": "Sticks to the top once scrolled past the hero",
+        "content": "Try · Typeset · PDF · Buy",
+        "assets": "none",
+        "html": "div.jc-actions > div.jc-actions--box > form[commerce/cart/update-cart, fields[license]=Testing] > input.button[value=Try] + a.button[#buy] + a.button[typeset.djr.com/?ff=jobclarendon] + a.button[pdf]"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "foundry house style",
+        "mobile": "unknown"
+      },
+      "look": "DJR's 31px black site bar above the hero (never cut as a block, attached to 00): 'DAVID JONATHAN ROSS' left; FONTS ▾, CLUB, TYPESET, GLYPHS, NOTES, ABOUT, Sign in, Cart right in tiny white caps",
+      "feel": "Neutral foundry chrome",
+      "ux": "Fonts opens a dropdown of DJR families; Menu button on small screens",
+      "learn": "Shared foundry chrome stays black and tiny on every family page",
+      "reconstruction": {
+        "layout": "Static bar 1440×31px, centred 1024px container, name left, links right",
+        "typography": "~10px Input Sans Narrow Medium uppercase, wide tracking, white",
+        "palette": [
+          "#111111",
+          "#ffffff"
+        ],
+        "behaviour": "Alpine.js dropdown on Fonts",
+        "content": "Foundry navigation",
+        "assets": "none",
+        "html": "div.bg-djr-black > div[x-data] > a + nav"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "02",
+        "03",
+        "05",
+        "06",
+        "07",
+        "09",
+        "10",
+        "12",
+        "13",
+        "15",
+        "16",
+        "17",
+        "19",
+        "20",
+        "21",
+        "23",
+        "24"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "letterpress, vernacular, witty",
+        "mobile": "unknown",
+        "medium": "illustration",
+        "sequence": "grid"
+      },
+      "look": "Twenty-six job-printing posters as flat images in a centred column, one, two or three per row: '374 CLAIM CHECK', '\"X\" indicates prior damage', a cut-out 'a' and 'EXIT', 'eternity in an hour*' over clouds, 'We Move The World' with a globe, 'N.Y.C', 'Guitar Lessons' tear-off flyer, 'Archery' target, 'I SURVIVED CLARENCE'S HAUNTED HAYRIDE', 'WINNER 2018 Belgian Grand Prix', 'Voyager II', 'VOTE CLARENDON', 'Leather Goods', 'Old & New Bargains (323)-555-0134'…",
+      "feel": "A wall of handbills from a busy print shop: loud, funny, varied",
+      "ux": "static images; the sticky action bar overlays them while scrolling",
+      "learn": "Commission one designer to make a long series of genre posters (claim checks, flyers, race posters, playbills) so every width and weight is shown doing the job the genre was made for",
+      "reconstruction": {
+        "layout": "Column 1056px wide (x=192–1248), rows separated by 16px: 2-up rows 1056×630 (two ~520px posters), 1-up rows 1056×1280, 3-up rows 1056×413; every poster shares one portrait ratio ≈ 0.82; breakout panels interrupt the grid every 3–5 rows",
+        "typography": "Inside the images: Job Clarendon from Skyline Hairline to Black, often a single word filling the poster width, with small grotesque secondary text",
+        "palette": [
+          "#fb3212",
+          "#0279fd",
+          "#fcf8c7",
+          "#121313",
+          "#ffe531",
+          "#f8f7f7"
+        ],
+        "behaviour": "none (lazy-loaded images)",
+        "content": "Invented job-printing ephemera: movers, guitar lessons, archery range, haunted hayride, car wash, grand prix, city-council campaign, playbill ('Rose of Corbeil'), flea market",
+        "assets": "26 poster images (poster_N.jpg) designed by Noah Baker; vintage photos inside some posters",
+        "html": "div.jc-grid > figure.jc-one | div.jc-two > figure×2 | div.jc-three > figure×3, each img[loading=lazy][alt=poster headline]"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "warm, collaborative",
+        "mobile": "unknown",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "On electric blue, two large paragraphs in mint green condensed light: what job printing is and that 'This page features twenty-six posters', then the credits with each name in a heavier weight (Bethany Heck, David Jonathan Ross, Sophia Tai, Noah Baker, Phil Moody)",
+      "feel": "Bright and generous with credit",
+      "ux": "static; 'job printing' is set heavier as a keyword",
+      "learn": "Set the people's names in a heavier weight inside the intro paragraph: the credits become a weight contrast specimen",
+      "reconstruction": {
+        "layout": "Full-bleed 846px blue panel; text column x≈208–1232 (1024px), two paragraphs ~300px apart",
+        "typography": "~62px Job Clarendon Variable wdth 50 (Condensed), wght 300 for prose and wght 500 for names and keywords, leading ~1.2, green",
+        "palette": [
+          "#0204fa",
+          "#05e283"
+        ],
+        "behaviour": "none",
+        "content": "Genre definition (display-heavy designs for posters and flyers in the heyday of letterpress) and full credits",
+        "assets": "none",
+        "html": "div.jc-breakout > div.jc-breakout--box > p (names in strong/spans)"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "systematic, playful colour",
+        "mobile": "unknown",
+        "structure": "grid",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "On mint green, the letter 'f' in blue: a row of four widths (Skyline, Compressed, Extra Condensed, Condensed) and below it ten weights from a hairline 'f' to a ball-terminal Black 'f', each labelled in small caps; a short paragraph at the end",
+      "feel": "Clean, diagrammatic, a little comic as the f fattens",
+      "ux": "static",
+      "learn": "Pick one letter with a dramatic terminal (the f's ball) and show it at every width and weight: the extremes read instantly without any words",
+      "reconstruction": {
+        "layout": "Full-bleed 1796px green panel; group label 'WIDTHS' then a 4-column grid (columns ~264px apart from x≈322); 'WEIGHTS' grid 4 columns × 3 rows; captions under each glyph; paragraph ~360px wide at bottom left",
+        "typography": "Glyphs ~259px Job Clarendon Variable (wdth 25/34/42/50 at wght 300; weights wght 1–900 at wdth 50); labels ~11px Job Clarendon Text Beta uppercase tracked blue; paragraph ~15px Text Beta",
+        "palette": [
+          "#06e183",
+          "#0000ff"
+        ],
+        "behaviour": "none",
+        "content": "Named widths and weights; note that the weights expand into hairlines 'that signal its embrace of modern type technology'",
+        "assets": "none",
+        "html": "div.jc-breakout-five > .jc-breakout-five--group > p.jc-breakout--label + .jc-breakout-five--grid > figure > p.jc-breakout-five--text.jc-breakout-five--{skyline|compressed|…|black} + figcaption"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bold, graphic",
+        "mobile": "unknown",
+        "subject": [
+          "axes",
+          "alternates"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "On electric blue, a single mint-green tailed 'R' (stylistic set 2) about 640px tall in the centre, with a two-line caption at bottom left about the width and weight axes",
+      "feel": "Poster-like, punchy",
+      "ux": "The R loops through width and weight (CSS keyframes 'fontweights'/'fontweightsalt'; captured mid-animation at wdth 42, wght 652)",
+      "learn": "Animate a single alternate glyph through the axes at poster size: the tail shows how the details survive every width and weight",
+      "reconstruction": {
+        "layout": "Full-bleed 1022px blue panel; glyph centred, ~500px wide; caption x≈208, ~360px wide, near the bottom",
+        "typography": "R ~640px Job Clarendon Variable with ss02 (tailed R), animating wdth and wght; caption ~15px Job Clarendon Text Beta green",
+        "palette": [
+          "#0001fd",
+          "#06e382"
+        ],
+        "behaviour": "Infinite CSS keyframe loop on font-variation-settings (wdth ~25–50, wght ~1–900)",
+        "content": "One letter; caption 'Job Clarendon's width and weight axes allow for precision typesetting despite its heavy, bracketed serifs.'",
+        "assets": "none",
+        "html": "figure.jc-breakout-one > div.jc-breakout-one--text.»ss02 ('R') + figcaption.jc-breakout-one--label ('Tailed R')"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "precise, graphic",
+        "mobile": "unknown",
+        "subject": [
+          "alternates"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "On mint green, '“Jack455”' twice at ~320px in blue: under the label TERMINALS with the default ball terminals, then under SQUARED TERMINALS with ss01, plus a two-line caption",
+      "feel": "Direct A/B comparison",
+      "ux": "static",
+      "learn": "Choose a short string that hits every affected glyph (J, a, c, k, 4, 5, quotes) and stack default over alternate at display size",
+      "reconstruction": {
+        "layout": "Full-bleed 1038px green panel; two full-width lines from x≈208, each under a small label; caption at bottom left",
+        "typography": "~320px Job Clarendon Variable wdth 50 wght 500, blue; second line ss01; labels ~11px Text Beta uppercase tracked",
+        "palette": [
+          "#06e283",
+          "#0307fa"
+        ],
+        "behaviour": "none",
+        "content": "'“Jack455”'; caption: squared terminals give a crisper tone, closer to an Antique",
+        "assets": "none",
+        "html": "div.jc-breakout-four > figure.jc-breakout-four--box > figcaption.jc-breakout--label + div.jc-breakout-four--text(.»ss01)"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "witty, informative",
+        "mobile": "unknown",
+        "subject": [
+          "alternates"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "On electric blue, a two-column grid of six stylistic sets, each a pair of lines in light condensed: the default line in pale blue, then the same words with the alternate glyphs picked out in mint green ('Dangerously falling toxicity' – Square Terminals & Dots; 'Rambling banana parade' – Tailed R and a; 'Fettuccine & Mostaccioli' – Simplified C / T; 'Monumental Minimalism' – Connected Serifs; '$79,772,197 & $17,496,247' – Simplified 7); two paragraphs of background below",
+      "feel": "Playful word choice, very clear",
+      "ux": "static",
+      "learn": "Colour only the glyphs a stylistic set changes in the 'after' line, and write a silly phrase dense in those letters for each set",
+      "reconstruction": {
+        "layout": "Full-bleed 1081px blue panel; 2 columns (x≈208 and x≈752, ~500px each); each cell = two ~67px lines + 11px label, ~170px per cell; prose columns ~470px wide at the bottom",
+        "typography": "Lines ~67px Job Clarendon Variable wdth 50 wght 200; default text pale periwinkle, changed glyphs mint green via <span>; labels ~11px Text Beta uppercase green; paragraphs ~15px Text Beta green",
+        "palette": [
+          "#0307f9",
+          "#595af8",
+          "#05e283",
+          "#fcfcfb"
+        ],
+        "behaviour": "none",
+        "content": "Themed alliterative phrases per set (pasta names, banana parade, dollar amounts); prose on the Condensed Clarendon genre and the collaboration with Bethany Heck",
+        "assets": "none",
+        "html": "div.jc-breakout-three > .jc-breakout-three--box > p (default) + p.»ss0N with <span> around changed glyphs + p.jc-breakout--label"
+      }
+    },
+    {
+      "blocks": [
+        "22"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "loose, inky",
+        "mobile": "unknown",
+        "subject": [
+          "axes",
+          "construction"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "On electric blue, a mint-green 'Jumper' pulsing through weight on the left above a paragraph, and on the right four words stacked in Black ('Right / Foam / Legal / Basic') whose serif gaps fill in as if overinked",
+      "feel": "Squishy, cartoonish heft",
+      "ux": "'Jumper' loops through the weight range (CSS keyframes; captured at wght 533)",
+      "learn": "Pair an animated weight sweep with a static stack of the heaviest weight, so viewers see both the motion and the deliberate 'overinked' details at the end of the axis",
+      "reconstruction": {
+        "layout": "Full-bleed 698px blue panel; left column x≈208–700 with the animated word centred at y≈270 and a paragraph below; right column x≈740 with four lines stacked, cropped at the bottom",
+        "typography": "'Jumper' ~70px Job Clarendon Variable wdth 42 animating wght; stack ~158px wdth 50 wght 900, tight leading ~1.0; paragraph ~15px Text Beta",
+        "palette": [
+          "#0103fb",
+          "#06f27a"
+        ],
+        "behaviour": "Infinite keyframe loop on wght",
+        "content": "Design note: lean into the soft nature of Clarendons, sharp details only where counters need space, serif gaps allowed to fill at the heaviest end",
+        "assets": "none",
+        "html": "div.jc-breakout-two > .jc-breakout-two--col > .jc-breakout-two--animation > p + .jc-breakout--content; .jc-breakout-two--col > p.jc-breakout-two--text > span×4"
+      }
+    },
+    {
+      "blocks": [
+        "25"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "credible, lively",
+        "mobile": "unknown",
+        "medium": "photo-mockup",
+        "sequence": "grid"
+      },
+      "look": "On electric blue, 'Job Clarendon in use' in mint green with 'From Fonts In Use', then a 3-column grid of 11 square photos (film-club poster, Vietnamese book spread, newspaper, album covers, transit posters)",
+      "feel": "Evidence of real adoption",
+      "ux": "Each tile links to Fonts In Use; hover dims the image and shows a white title tag",
+      "learn": "Recolour the shared in-use grid's heading to the page palette so the template module feels native",
+      "reconstruction": {
+        "layout": "Full-bleed 1648px blue; heading at x≈208; grid 1024px wide, 3 columns of ~330px squares with 16px gaps",
+        "typography": "Heading ~62px Job Clarendon Variable wdth 50 wght 300 green; credit ~14px Text Beta; hover tag ~12px Input Sans",
+        "palette": [
+          "#0102fd",
+          "#05e283",
+          "#fbfaf9"
+        ],
+        "behaviour": "Hover: img opacity 0.5 and caption tag (Tailwind group-hover)",
+        "content": "Real projects from Fonts In Use",
+        "assets": "Fonts In Use thumbnails",
+        "html": "div.jc-in-use > .inner > h2.h-headline + p.h-link + .grid.grid-cols-2.md:grid-cols-3 > a.group > img + div.group-hover:block"
+      }
+    },
+    {
+      "blocks": [
+        "26"
+      ],
+      "type": "interlude",
+      "variant": "full-bleed-image",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "tactile, full-circle",
+        "mobile": "unknown"
+      },
+      "look": "A full-bleed photo of rows of mirrored maple wood-type letters (Job Clarendon Bold), with a small blue caption box bottom-left: 'Job Clarendon Bold wood type, produced by Type High Design'",
+      "feel": "Warm, physical, the font returned to its letterpress origin",
+      "ux": "static",
+      "learn": "End the visual story with the digital face cut back into wood type: the photo proves the homage without a word of argument",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×960 photo, object-fit cover; caption box ~190×100px at bottom-left with 16px padding",
+        "typography": "Caption ~14px Job Clarendon Text Beta white on blue",
+        "palette": [
+          "#b18c6d",
+          "#a97851",
+          "#0000ff",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Photo credit caption",
+        "assets": "One photograph of the wood type"
+      }
+    },
+    {
+      "blocks": [
+        "27"
+      ],
+      "type": "checkout",
+      "variant": "on-page-cart",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "pangram",
+        "tone": "transparent, practical",
+        "mobile": "unknown",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": true,
+        "free": false
+      },
+      "look": "'Get Job Clarendon!' in blue condensed, a lead paragraph (pre-order with free upgrade; also a discounted Font of the Month Club back issue), then DJR's cart with royal-blue section bars: LICENSE SIZES (8 cards, Mini selected in lavender), PREVIEW TEXT, FULL SERIES PACKAGE (Job Clarendon, 40 styles + 1 variable, $150), OTHER PACKAGES (Condensed, Extra Condensed, Compressed, Skyline, 10 styles each, $100), INDIVIDUAL STYLES ($50/style); the crop stops mid-list, the DOM continues with 'Additional information' (formats, language support, list of stylistic alternates, variable axes)",
+      "feel": "Thorough and honest; the pre-order note sets expectations",
+      "ux": "Licence radio rescales prices by multiplier; Preview text rewrites every pangram row; tick packages or styles and buy; package cards expand with a ▼ tab",
+      "learn": "Group packages by width (one package per width, 10 weights each) so the cart itself teaches the family structure",
+      "reconstruction": {
+        "layout": "Centred 1056px column; h2 then lead (~620px wide); blue bars ~30px; licence cards 4×2 ~245px; package cards full width with header row and clipped pangram rows ~45px",
+        "typography": "Headline ~64px Job Clarendon Variable wdth 50 wght 300 blue; lead ~16px Text Beta; bars ~11px Input Sans Narrow Bold uppercase white; card text Input Mono navy; pangram rows ~45px in each style",
+        "palette": [
+          "#f2f2f4",
+          "#1415f8",
+          "#d4d4ee",
+          "#111111"
+        ],
+        "behaviour": "license-tier-option radios with data-multiplier; #tester-input mirrors into rows; Buy enabled when a box is ticked",
+        "content": "'Job Clarendon Condensed Hairline. The quick brown fox jumps over the lazy dog. Pack my box with five dozen liquor jugs.' per style; licence limits",
+        "assets": "none",
+        "html": "div#buy.jc-buy > h2.h-headline + p.lead + .packages > form > .license-grid (input.license-tier-option[data-multiplier]) + input#tester-input + .package.package-font-pack…"
+      }
+    },
+    {
+      "blocks": [
+        "27"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "pangram",
+        "tone": "utilitarian",
+        "mobile": "unknown",
+        "controls": [
+          "text",
+          "axes"
+        ],
+        "scope": "per-row",
+        "defaultText": "pangram",
+        "export": false
+      },
+      "look": "Inside the full-series card: 'Job Clarendon Variable. The quick brown fox jumps over t…' at ~55px with a VAR tag, and two sliders under it: Width 50 (25–50) and Weight 400 (1–900)",
+      "feel": "Small test bench inside the cart",
+      "ux": "Drag Width or Weight to restyle the row; the Preview text field replaces the pangram; the only free axis control on the page",
+      "learn": "A weight range that starts at 1 (hairline) makes the cart slider itself a dramatic demo",
+      "reconstruction": {
+        "layout": "Row inside the 1056px card: sample line clipped at the right, label + VAR tag, two slider rows ~420px wide",
+        "typography": "Sample ~55px Job Clarendon Variable (wdth 50, wght 400 default); slider labels ~10px Input Mono",
+        "palette": [
+          "#f2f2f4",
+          "#111111",
+          "#1415f8"
+        ],
+        "behaviour": "input[type=range] name=wdth min 25 max 50 step 0.1; name=wght min 1 max 900 step 1 → font-variation-settings",
+        "content": "Pangram",
+        "assets": "none",
+        "html": "input[type=range][name=wdth|wght] with label[data-val] in the package-display list"
+      }
+    },
+    {
+      "blocks": [
+        "28"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "foundry house style",
+        "mobile": "unknown",
+        "contains": [
+          "contact",
+          "socials",
+          "newsletter",
+          "other-fonts",
+          "legal"
+        ]
+      },
+      "look": "Beyond the 30000px capture (HTML and video only): DJR's black footer with links in Job Clarendon green, three columns (feeds and mailing list + Elsewhere; Font of the Month Club + Typefaces; Typeset, Glyph Navigator, Notes, About, Licensing, Press, Tools) and a blue strip at the very bottom",
+      "feel": "Functional, page-tinted",
+      "ux": "Plain links, hover white",
+      "learn": "Tint only the link colour of the shared footer to tie it to the page",
+      "reconstruction": {
+        "layout": "Full-bleed ~640px; three columns in the 1024px container; ~24px blue strip at the bottom",
+        "typography": "~12px Input Sans Narrow; white uppercase headings, green links",
+        "palette": [
+          "#111111",
+          "#05e283",
+          "#0000ff"
+        ],
+        "behaviour": "Hover to white",
+        "content": "Foundry links",
+        "assets": "none",
+        "html": "footer links use .hover:text-jobclarendon-green / .text-jobclarendon-green"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "specimen-showcase/poster-series",
+    "story/large-text-intro",
+    "family-overview/style-word-grid",
+    "design-details/axis-explainer",
+    "design-details/feature-before-after",
+    "design-details/feature-index",
+    "design-details/axis-explainer",
+    "specimen-showcase/in-use-mockups",
+    "interlude/full-bleed-image",
+    "checkout/on-page-cart",
+    "type-tester/slider-sandbox",
+    "footer/link-columns"
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-27T23:13:13.256Z",
-  "sites": 119,
+  "generatedAt": "2026-11-05T02:13:36.196Z",
+  "sites": 154,
   "sections": {
     "hero": {
       "title": "Hero",
@@ -171,6 +171,62 @@
               "exemplar": true,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "brailleinstitute-org-freefont#02",
+              "slug": "brailleinstitute-org-freefont",
+              "blocks": [
+                "02",
+                "03"
+              ],
+              "crop": "archive/brailleinstitute-org-freefont/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "compressa-preusstype-com#00",
+              "slug": "compressa-preusstype-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/compressa-preusstype-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "arteria-typofonderie-com#00",
+              "slug": "arteria-typofonderie-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/arteria-typofonderie-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "grandgothik-com#00",
+              "slug": "grandgothik-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/grandgothik-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-job-clarendon#00",
+              "slug": "djr-com-job-clarendon",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/djr-com-job-clarendon/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "prop-collage": [
@@ -205,6 +261,17 @@
               "crop": "archive/isolation-abc-xyz/blocks/00.jpg",
               "exemplar": true,
               "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pleasure-typefaces-pizza#00",
+              "slug": "pleasure-typefaces-pizza",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/pleasure-typefaces-pizza/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
               "proposed": false
             }
           ],
@@ -319,6 +386,52 @@
               "exemplar": true,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "leon-kim-com#00",
+              "slug": "leon-kim-com",
+              "blocks": [
+                "00",
+                "01",
+                "02"
+              ],
+              "crop": "archive/leon-kim-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "marbla-de#00",
+              "slug": "marbla-de",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/marbla-de/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "unbounded-polkadot-network#00",
+              "slug": "unbounded-polkadot-network",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/unbounded-polkadot-network/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "2020-typefacedesign-org-simon#01",
+              "slug": "2020-typefacedesign-org-simon",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/2020-typefacedesign-org-simon/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "illustration-scene": [
@@ -423,6 +536,17 @@
               "crop": "archive/github-com-mona-sans/blocks/01.jpg",
               "exemplar": true,
               "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nationalparktypeface-com#00",
+              "slug": "nationalparktypeface-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/nationalparktypeface-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
               "proposed": false
             }
           ],
@@ -872,6 +996,116 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "optician-sans-com#00",
+              "slug": "optician-sans-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/optician-sans-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pampatype-com-octothorpe-en#00",
+              "slug": "pampatype-com-octothorpe-en",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/pampatype-com-octothorpe-en/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "compagnon-eesab-fr#00",
+              "slug": "compagnon-eesab-fr",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/compagnon-eesab-fr/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "urbangrotesk-suitcasetype-com#00",
+              "slug": "urbangrotesk-suitcasetype-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/urbangrotesk-suitcasetype-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "cnap-fr-sites-infini-en#00",
+              "slug": "cnap-fr-sites-infini-en",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/cnap-fr-sites-infini-en/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "vercel-com-font#01",
+              "slug": "vercel-com-font",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/vercel-com-font/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nabla-typearture-com#00",
+              "slug": "nabla-typearture-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/nabla-typearture-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "nihon-font-com#00",
+              "slug": "nihon-font-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/nihon-font-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "low",
+              "proposed": false
+            },
+            {
+              "id": "2021-typemedia-org-gajana#01",
+              "slug": "2021-typemedia-org-gajana",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/2021-typemedia-org-gajana/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "daifoldes-com-eubiescript-sub#00",
+              "slug": "daifoldes-com-eubiescript-sub",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/daifoldes-com-eubiescript-sub/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "mini-game": [
@@ -997,6 +1231,28 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "djr-com-fern#00",
+              "slug": "djr-com-fern",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/djr-com-fern/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-turnip#00",
+              "slug": "djr-com-turnip",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/djr-com-turnip/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "name-over-photo": [
@@ -1020,6 +1276,29 @@
               "crop": "archive/tofino-losttype-com/blocks/00.jpg",
               "exemplar": false,
               "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gidole-github-io#00",
+              "slug": "gidole-github-io",
+              "blocks": [
+                "00",
+                "05"
+              ],
+              "crop": "archive/gidole-github-io/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "erikdkennedy-com-projects-figtree#00",
+              "slug": "erikdkennedy-com-projects-figtree",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/erikdkennedy-com-projects-figtree/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
               "proposed": false
             }
           ],
@@ -1154,6 +1433,28 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "github-rosettatype-com-yrsa-rasa#01",
+              "slug": "github-rosettatype-com-yrsa-rasa",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/github-rosettatype-com-yrsa-rasa/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "brailleneue-com#00",
+              "slug": "brailleneue-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/brailleneue-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "product-landing": [
@@ -1213,6 +1514,39 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "overpassfont-org#00",
+              "slug": "overpassfont-org",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/overpassfont-org/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "monaspace-githubnext-com#00",
+              "slug": "monaspace-githubnext-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/monaspace-githubnext-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#01",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "strip-mixer": [
@@ -1237,6 +1571,31 @@
               ],
               "crop": "archive/source-typekit-com-source-han-serif/blocks/01.jpg",
               "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "db-pixel-club#00",
+              "slug": "db-pixel-club",
+              "blocks": [
+                "00",
+                "01"
+              ],
+              "crop": "archive/db-pixel-club/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "word-slideshow": [
+            {
+              "id": "boharat-com-zaatar#00",
+              "slug": "boharat-com-zaatar",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/boharat-com-zaatar/blocks/00.jpg",
+              "exemplar": false,
               "confidence": "medium",
               "proposed": false
             }
@@ -1873,6 +2232,161 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "boharat-com-zaatar#00",
+              "slug": "boharat-com-zaatar",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/boharat-com-zaatar/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "brailleinstitute-org-freefont#03",
+              "slug": "brailleinstitute-org-freefont",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/brailleinstitute-org-freefont/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "github-rosettatype-com-yrsa-rasa#01",
+              "slug": "github-rosettatype-com-yrsa-rasa",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/github-rosettatype-com-yrsa-rasa/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "optician-sans-com#03",
+              "slug": "optician-sans-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/optician-sans-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gidole-github-io#01",
+              "slug": "gidole-github-io",
+              "blocks": [
+                "01",
+                "07"
+              ],
+              "crop": "archive/gidole-github-io/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "compagnon-eesab-fr#01",
+              "slug": "compagnon-eesab-fr",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/compagnon-eesab-fr/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "urbangrotesk-suitcasetype-com#01",
+              "slug": "urbangrotesk-suitcasetype-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/urbangrotesk-suitcasetype-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "nabla-typearture-com#01",
+              "slug": "nabla-typearture-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/nabla-typearture-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "nihon-font-com#03",
+              "slug": "nihon-font-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/nihon-font-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "daifoldes-com-eubiescript-sub#04",
+              "slug": "daifoldes-com-eubiescript-sub",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/daifoldes-com-eubiescript-sub/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "grandgothik-com#03",
+              "slug": "grandgothik-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/grandgothik-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#08",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "brailleneue-com#07",
+              "slug": "brailleneue-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/brailleneue-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "nationalparktypeface-com#05",
+              "slug": "nationalparktypeface-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/nationalparktypeface-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "making-of": [
@@ -1953,6 +2467,43 @@
               "crop": "archive/source-typekit-com-source-han-serif/blocks/02.jpg",
               "exemplar": false,
               "confidence": "low",
+              "proposed": false
+            },
+            {
+              "id": "optician-sans-com#08",
+              "slug": "optician-sans-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/optician-sans-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "2021-typemedia-org-gajana#11",
+              "slug": "2021-typemedia-org-gajana",
+              "blocks": [
+                "11",
+                "12",
+                "13",
+                "14",
+                "16"
+              ],
+              "crop": "archive/2021-typemedia-org-gajana/blocks/11.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nationalparktypeface-com#08",
+              "slug": "nationalparktypeface-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/nationalparktypeface-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "medium",
               "proposed": false
             }
           ],
@@ -2456,6 +3007,62 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "pampatype-com-octothorpe-en#20",
+              "slug": "pampatype-com-octothorpe-en",
+              "blocks": [
+                "20",
+                "21"
+              ],
+              "crop": "archive/pampatype-com-octothorpe-en/blocks/20.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "vercel-com-font#03",
+              "slug": "vercel-com-font",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/vercel-com-font/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "unbounded-polkadot-network#00",
+              "slug": "unbounded-polkadot-network",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/unbounded-polkadot-network/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-fern#01",
+              "slug": "djr-com-fern",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/djr-com-fern/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-job-clarendon#04",
+              "slug": "djr-com-job-clarendon",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/djr-com-job-clarendon/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "design-brief": [
@@ -2693,6 +3300,50 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "monaspace-githubnext-com#02",
+              "slug": "monaspace-githubnext-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/monaspace-githubnext-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "2020-typefacedesign-org-simon#03",
+              "slug": "2020-typefacedesign-org-simon",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/2020-typefacedesign-org-simon/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "low",
+              "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#03",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "brailleneue-com#01",
+              "slug": "brailleneue-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/brailleneue-com/blocks/01.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "scroll-narrative": [
@@ -2802,6 +3453,17 @@
               "slug": "universalsans-com",
               "blocks": [
                 "02"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pleasure-typefaces-pizza#16",
+              "slug": "pleasure-typefaces-pizza",
+              "blocks": [
+                "16"
               ],
               "crop": null,
               "exemplar": false,
@@ -3185,6 +3847,39 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "arteria-typofonderie-com#05",
+              "slug": "arteria-typofonderie-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/arteria-typofonderie-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "2020-typefacedesign-org-simon#13",
+              "slug": "2020-typefacedesign-org-simon",
+              "blocks": [
+                "13"
+              ],
+              "crop": "archive/2020-typefacedesign-org-simon/blocks/13.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-turnip#04",
+              "slug": "djr-com-turnip",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/djr-com-turnip/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "designer-bio": [
@@ -3276,6 +3971,39 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "compressa-preusstype-com#16",
+              "slug": "compressa-preusstype-com",
+              "blocks": [
+                "16"
+              ],
+              "crop": "archive/compressa-preusstype-com/blocks/16.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "2021-typemedia-org-gajana#02",
+              "slug": "2021-typemedia-org-gajana",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/2021-typemedia-org-gajana/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "2020-typefacedesign-org-simon#12",
+              "slug": "2020-typefacedesign-org-simon",
+              "blocks": [
+                "12"
+              ],
+              "crop": "archive/2020-typefacedesign-org-simon/blocks/12.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "article-teaser": [
@@ -3363,6 +4091,18 @@
                 "12"
               ],
               "crop": "archive/justfont-com-huninn/blocks/12.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "github-rosettatype-com-yrsa-rasa#02",
+              "slug": "github-rosettatype-com-yrsa-rasa",
+              "blocks": [
+                "02",
+                "03"
+              ],
+              "crop": "archive/github-rosettatype-com-yrsa-rasa/blocks/02.jpg",
               "exemplar": false,
               "confidence": "high",
               "proposed": false
@@ -3781,6 +4521,73 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "overpassfont-org#03",
+              "slug": "overpassfont-org",
+              "blocks": [
+                "03",
+                "04"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "low",
+              "proposed": false
+            },
+            {
+              "id": "optician-sans-com#06",
+              "slug": "optician-sans-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/optician-sans-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "marbla-de#05",
+              "slug": "marbla-de",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/marbla-de/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nihon-font-com#06",
+              "slug": "nihon-font-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/nihon-font-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "grandgothik-com#14",
+              "slug": "grandgothik-com",
+              "blocks": [
+                "14"
+              ],
+              "crop": "archive/grandgothik-com/blocks/14.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nationalparktypeface-com#12",
+              "slug": "nationalparktypeface-com",
+              "blocks": [
+                "12"
+              ],
+              "crop": "archive/nationalparktypeface-com/blocks/12.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "glyph-inspector": [
@@ -3991,6 +4798,28 @@
               "crop": "archive/rsms-me-inter/blocks/10.jpg",
               "exemplar": true,
               "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "vercel-com-font#04",
+              "slug": "vercel-com-font",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/vercel-com-font/blocks/04.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "unbounded-polkadot-network#04",
+              "slug": "unbounded-polkadot-network",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/unbounded-polkadot-network/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
               "proposed": false
             }
           ],
@@ -4274,6 +5103,88 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "boharat-com-zaatar#05",
+              "slug": "boharat-com-zaatar",
+              "blocks": [
+                "05",
+                "06"
+              ],
+              "crop": "archive/boharat-com-zaatar/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "boharat-com-zaatar#08",
+              "slug": "boharat-com-zaatar",
+              "blocks": [
+                "08",
+                "09"
+              ],
+              "crop": "archive/boharat-com-zaatar/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "compressa-preusstype-com#11",
+              "slug": "compressa-preusstype-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/compressa-preusstype-com/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "arteria-typofonderie-com#03",
+              "slug": "arteria-typofonderie-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/arteria-typofonderie-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nihon-font-com#04",
+              "slug": "nihon-font-com",
+              "blocks": [
+                "04",
+                "07",
+                "08",
+                "09"
+              ],
+              "crop": "archive/nihon-font-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-fern#09",
+              "slug": "djr-com-fern",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/djr-com-fern/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nationalparktypeface-com#11",
+              "slug": "nationalparktypeface-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/nationalparktypeface-com/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "category-tabs": [
@@ -4307,6 +5218,17 @@
                 "09"
               ],
               "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#07",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/07.jpg",
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
@@ -4345,6 +5267,17 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "grandgothik-com#12",
+              "slug": "grandgothik-com",
+              "blocks": [
+                "12"
+              ],
+              "crop": "archive/grandgothik-com/blocks/12.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "keymap-grid": [
@@ -4371,6 +5304,19 @@
               "crop": "archive/whirlybirdie-com/blocks/04.jpg",
               "exemplar": false,
               "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "cursorfont-liebermannkiepereddemann-de#00",
+              "slug": "cursorfont-liebermannkiepereddemann-de",
+              "blocks": [
+                "00",
+                "01",
+                "02"
+              ],
+              "crop": "archive/cursorfont-liebermannkiepereddemann-de/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
               "proposed": false
             }
           ]
@@ -4501,6 +5447,30 @@
               ],
               "crop": "archive/source-typekit-com-source-han-serif/blocks/08.jpg",
               "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pampatype-com-octothorpe-en#05",
+              "slug": "pampatype-com-octothorpe-en",
+              "blocks": [
+                "05",
+                "09",
+                "15"
+              ],
+              "crop": "archive/pampatype-com-octothorpe-en/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "grandgothik-com#11",
+              "slug": "grandgothik-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/grandgothik-com/blocks/11.jpg",
+              "exemplar": false,
               "confidence": "medium",
               "proposed": false
             }
@@ -4790,6 +5760,41 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "boharat-com-zaatar#09",
+              "slug": "boharat-com-zaatar",
+              "blocks": [
+                "09",
+                "10"
+              ],
+              "crop": "archive/boharat-com-zaatar/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "low",
+              "proposed": false
+            },
+            {
+              "id": "compressa-preusstype-com#06",
+              "slug": "compressa-preusstype-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/compressa-preusstype-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#09",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "09",
+                "10"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "diacritic-word-wall": [
@@ -4834,6 +5839,28 @@
                 "02"
               ],
               "crop": "archive/typearture-com-schijn-specimen/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "unbounded-polkadot-network#03",
+              "slug": "unbounded-polkadot-network",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/unbounded-polkadot-network/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "daifoldes-com-eubiescript-sub#03",
+              "slug": "daifoldes-com-eubiescript-sub",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/daifoldes-com-eubiescript-sub/blocks/03.jpg",
               "exemplar": false,
               "confidence": "high",
               "proposed": false
@@ -4882,6 +5909,17 @@
                 "32"
               ],
               "crop": "archive/calhern-frostype-xyz/blocks/30.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nationalparktypeface-com#10",
+              "slug": "nationalparktypeface-com",
+              "blocks": [
+                "10"
+              ],
+              "crop": "archive/nationalparktypeface-com/blocks/10.jpg",
               "exemplar": false,
               "confidence": "high",
               "proposed": false
@@ -5032,6 +6070,19 @@
               "crop": null,
               "exemplar": true,
               "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "2020-typefacedesign-org-simon#05",
+              "slug": "2020-typefacedesign-org-simon",
+              "blocks": [
+                "05",
+                "08",
+                "10"
+              ],
+              "crop": "archive/2020-typefacedesign-org-simon/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "medium",
               "proposed": false
             }
           ],
@@ -5480,6 +6531,105 @@
               "exemplar": true,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "pleasure-typefaces-pizza#09",
+              "slug": "pleasure-typefaces-pizza",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/pleasure-typefaces-pizza/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "marbla-de#03",
+              "slug": "marbla-de",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/marbla-de/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "erikdkennedy-com-projects-figtree#03",
+              "slug": "erikdkennedy-com-projects-figtree",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/erikdkennedy-com-projects-figtree/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "vercel-com-font#07",
+              "slug": "vercel-com-font",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/vercel-com-font/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "unbounded-polkadot-network#02",
+              "slug": "unbounded-polkadot-network",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/unbounded-polkadot-network/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "grandgothik-com#18",
+              "slug": "grandgothik-com",
+              "blocks": [
+                "18"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-fern#12",
+              "slug": "djr-com-fern",
+              "blocks": [
+                "12"
+              ],
+              "crop": "archive/djr-com-fern/blocks/12.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-job-clarendon#27",
+              "slug": "djr-com-job-clarendon",
+              "blocks": [
+                "27"
+              ],
+              "crop": "archive/djr-com-job-clarendon/blocks/27.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "nationalparktypeface-com#15",
+              "slug": "nationalparktypeface-com",
+              "blocks": [
+                "15"
+              ],
+              "crop": null,
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "global-toolbar": [
@@ -5558,6 +6708,29 @@
               ],
               "crop": "archive/adelfaure-net-tools-jgs/blocks/00.jpg",
               "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "overpassfont-org#03",
+              "slug": "overpassfont-org",
+              "blocks": [
+                "03",
+                "04"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "compagnon-eesab-fr#00",
+              "slug": "compagnon-eesab-fr",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/compagnon-eesab-fr/blocks/00.jpg",
+              "exemplar": false,
               "confidence": "medium",
               "proposed": false
             }
@@ -5661,6 +6834,17 @@
               ],
               "crop": "archive/rsms-me-inter/blocks/04.jpg",
               "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "erikdkennedy-com-projects-figtree#01",
+              "slug": "erikdkennedy-com-projects-figtree",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/erikdkennedy-com-projects-figtree/blocks/01.jpg",
+              "exemplar": false,
               "confidence": "high",
               "proposed": false
             }
@@ -5856,6 +7040,29 @@
               "exemplar": true,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "lozanotype-github-io-java-sans#00",
+              "slug": "lozanotype-github-io-java-sans",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/lozanotype-github-io-java-sans/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-fern#06",
+              "slug": "djr-com-fern",
+              "blocks": [
+                "06",
+                "07"
+              ],
+              "crop": "archive/djr-com-fern/blocks/06.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "in-context-editable": [
@@ -5976,6 +7183,21 @@
               "exemplar": true,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "pleasure-typefaces-pizza#04",
+              "slug": "pleasure-typefaces-pizza",
+              "blocks": [
+                "04",
+                "06",
+                "07",
+                "10",
+                "14"
+              ],
+              "crop": "archive/pleasure-typefaces-pizza/blocks/04.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "auto-fit-editable-lines": [
@@ -6056,6 +7278,17 @@
               "exemplar": true,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "daifoldes-com-eubiescript-sub#05",
+              "slug": "daifoldes-com-eubiescript-sub",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/daifoldes-com-eubiescript-sub/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "write-on-playback": [
@@ -6105,6 +7338,18 @@
                 "00"
               ],
               "crop": "archive/djr-com-gimlet-xray/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nabla-typearture-com#07",
+              "slug": "nabla-typearture-com",
+              "blocks": [
+                "07",
+                "08"
+              ],
+              "crop": "archive/nabla-typearture-com/blocks/07.jpg",
               "exemplar": true,
               "confidence": "high",
               "proposed": false
@@ -6179,6 +7424,17 @@
               "exemplar": true,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "monaspace-githubnext-com#04",
+              "slug": "monaspace-githubnext-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/monaspace-githubnext-com/blocks/04.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "outline-editor": [
@@ -6215,6 +7471,17 @@
                 "08"
               ],
               "crop": "archive/logical-family/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "arteria-typofonderie-com#04",
+              "slug": "arteria-typofonderie-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/arteria-typofonderie-com/blocks/04.jpg",
               "exemplar": false,
               "confidence": "high",
               "proposed": false
@@ -6538,6 +7805,69 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "overpassfont-org#00",
+              "slug": "overpassfont-org",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/overpassfont-org/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "arteria-typofonderie-com#00",
+              "slug": "arteria-typofonderie-com",
+              "blocks": [
+                "00",
+                "01",
+                "02",
+                "03",
+                "04",
+                "08"
+              ],
+              "crop": "archive/arteria-typofonderie-com/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "2020-typefacedesign-org-simon#07",
+              "slug": "2020-typefacedesign-org-simon",
+              "blocks": [
+                "07",
+                "08",
+                "11"
+              ],
+              "crop": "archive/2020-typefacedesign-org-simon/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "daifoldes-com-eubiescript-sub#01",
+              "slug": "daifoldes-com-eubiescript-sub",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/daifoldes-com-eubiescript-sub/blocks/01.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nationalparktypeface-com#02",
+              "slug": "nationalparktypeface-com",
+              "blocks": [
+                "02",
+                "09"
+              ],
+              "crop": "archive/nationalparktypeface-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "poster-series": [
@@ -6808,6 +8138,144 @@
               ],
               "crop": "archive/github-com-mona-sans/blocks/10.jpg",
               "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pampatype-com-octothorpe-en#01",
+              "slug": "pampatype-com-octothorpe-en",
+              "blocks": [
+                "01",
+                "02",
+                "07",
+                "11",
+                "13",
+                "17"
+              ],
+              "crop": "archive/pampatype-com-octothorpe-en/blocks/01.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pleasure-typefaces-pizza#01",
+              "slug": "pleasure-typefaces-pizza",
+              "blocks": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05",
+                "07",
+                "08",
+                "10",
+                "11",
+                "14"
+              ],
+              "crop": "archive/pleasure-typefaces-pizza/blocks/01.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "arteria-typofonderie-com#06",
+              "slug": "arteria-typofonderie-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/arteria-typofonderie-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "marbla-de#04",
+              "slug": "marbla-de",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/marbla-de/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "cnap-fr-sites-infini-en#01",
+              "slug": "cnap-fr-sites-infini-en",
+              "blocks": [
+                "01",
+                "02",
+                "03"
+              ],
+              "crop": "archive/cnap-fr-sites-infini-en/blocks/01.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "vercel-com-font#06",
+              "slug": "vercel-com-font",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/vercel-com-font/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nihon-font-com#13",
+              "slug": "nihon-font-com",
+              "blocks": [
+                "13",
+                "14",
+                "15",
+                "16"
+              ],
+              "crop": "archive/nihon-font-com/blocks/13.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "2021-typemedia-org-gajana#04",
+              "slug": "2021-typemedia-org-gajana",
+              "blocks": [
+                "04",
+                "05",
+                "07",
+                "09"
+              ],
+              "crop": "archive/2021-typemedia-org-gajana/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-job-clarendon#01",
+              "slug": "djr-com-job-clarendon",
+              "blocks": [
+                "01",
+                "02",
+                "03",
+                "05",
+                "06",
+                "07",
+                "09",
+                "10",
+                "12",
+                "13",
+                "15",
+                "16",
+                "17",
+                "19",
+                "20",
+                "21",
+                "23",
+                "24"
+              ],
+              "crop": "archive/djr-com-job-clarendon/blocks/01.jpg",
+              "exemplar": true,
               "confidence": "high",
               "proposed": false
             }
@@ -7275,6 +8743,95 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "brailleinstitute-org-freefont#03",
+              "slug": "brailleinstitute-org-freefont",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/brailleinstitute-org-freefont/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "optician-sans-com#01",
+              "slug": "optician-sans-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/optician-sans-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "low",
+              "proposed": false
+            },
+            {
+              "id": "grandgothik-com#15",
+              "slug": "grandgothik-com",
+              "blocks": [
+                "15",
+                "16"
+              ],
+              "crop": "archive/grandgothik-com/blocks/15.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "brailleneue-com#02",
+              "slug": "brailleneue-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/brailleneue-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "brailleneue-com#04",
+              "slug": "brailleneue-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/brailleneue-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-fern#10",
+              "slug": "djr-com-fern",
+              "blocks": [
+                "10"
+              ],
+              "crop": "archive/djr-com-fern/blocks/10.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-job-clarendon#25",
+              "slug": "djr-com-job-clarendon",
+              "blocks": [
+                "25"
+              ],
+              "crop": "archive/djr-com-job-clarendon/blocks/25.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-turnip#08",
+              "slug": "djr-com-turnip",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/djr-com-turnip/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "kinetic-scenes": [
@@ -7380,6 +8937,58 @@
               "exemplar": true,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "leon-kim-com#03",
+              "slug": "leon-kim-com",
+              "blocks": [
+                "03",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08"
+              ],
+              "crop": "archive/leon-kim-com/blocks/03.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "marbla-de#01",
+              "slug": "marbla-de",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/marbla-de/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "vercel-com-font#05",
+              "slug": "vercel-com-font",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/vercel-com-font/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "grandgothik-com#02",
+              "slug": "grandgothik-com",
+              "blocks": [
+                "02",
+                "05",
+                "07",
+                "10"
+              ],
+              "crop": "archive/grandgothik-com/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "slider-morph-mockups": [
@@ -7465,6 +9074,23 @@
               "crop": "archive/colroy-ch/blocks/07.jpg",
               "exemplar": false,
               "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "compagnon-eesab-fr#02",
+              "slug": "compagnon-eesab-fr",
+              "blocks": [
+                "02",
+                "03",
+                "04",
+                "05",
+                "06",
+                "07",
+                "08"
+              ],
+              "crop": "archive/compagnon-eesab-fr/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "high",
               "proposed": false
             }
           ],
@@ -7604,6 +9230,17 @@
                 "01"
               ],
               "crop": "archive/departuremono-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#06",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/06.jpg",
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
@@ -7845,6 +9482,148 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "overpassfont-org#00",
+              "slug": "overpassfont-org",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/overpassfont-org/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "boharat-com-zaatar#01",
+              "slug": "boharat-com-zaatar",
+              "blocks": [
+                "01",
+                "02",
+                "03",
+                "04"
+              ],
+              "crop": "archive/boharat-com-zaatar/blocks/01.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "github-rosettatype-com-yrsa-rasa#01",
+              "slug": "github-rosettatype-com-yrsa-rasa",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/github-rosettatype-com-yrsa-rasa/blocks/01.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "urbangrotesk-suitcasetype-com#02",
+              "slug": "urbangrotesk-suitcasetype-com",
+              "blocks": [
+                "02",
+                "05",
+                "08"
+              ],
+              "crop": "archive/urbangrotesk-suitcasetype-com/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "compressa-preusstype-com#02",
+              "slug": "compressa-preusstype-com",
+              "blocks": [
+                "02",
+                "05",
+                "08",
+                "10"
+              ],
+              "crop": "archive/compressa-preusstype-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "compressa-preusstype-com#14",
+              "slug": "compressa-preusstype-com",
+              "blocks": [
+                "14"
+              ],
+              "crop": "archive/compressa-preusstype-com/blocks/14.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nabla-typearture-com#02",
+              "slug": "nabla-typearture-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/nabla-typearture-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "nihon-font-com#01",
+              "slug": "nihon-font-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/nihon-font-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "low",
+              "proposed": false
+            },
+            {
+              "id": "2021-typemedia-org-gajana#06",
+              "slug": "2021-typemedia-org-gajana",
+              "blocks": [
+                "06",
+                "08",
+                "10"
+              ],
+              "crop": "archive/2021-typemedia-org-gajana/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "grandgothik-com#01",
+              "slug": "grandgothik-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/grandgothik-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "grandgothik-com#06",
+              "slug": "grandgothik-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/grandgothik-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#04",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "generative-layout-stream": [
@@ -7938,6 +9717,40 @@
               "crop": "archive/departuremono-com/blocks/00.jpg",
               "exemplar": false,
               "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "monaspace-githubnext-com#06",
+              "slug": "monaspace-githubnext-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/monaspace-githubnext-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#02",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#11",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "11",
+                "12"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/11.jpg",
+              "exemplar": true,
+              "confidence": "high",
               "proposed": false
             }
           ],
@@ -8248,6 +10061,18 @@
               "crop": "archive/fraunces-undercase-xyz/blocks/11.jpg",
               "exemplar": false,
               "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nihon-font-com#11",
+              "slug": "nihon-font-com",
+              "blocks": [
+                "11",
+                "12"
+              ],
+              "crop": "archive/nihon-font-com/blocks/11.jpg",
+              "exemplar": true,
+              "confidence": "medium",
               "proposed": false
             }
           ],
@@ -8939,6 +10764,178 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "compagnon-eesab-fr#01",
+              "slug": "compagnon-eesab-fr",
+              "blocks": [
+                "01",
+                "02"
+              ],
+              "crop": "archive/compagnon-eesab-fr/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "urbangrotesk-suitcasetype-com#06",
+              "slug": "urbangrotesk-suitcasetype-com",
+              "blocks": [
+                "06",
+                "07"
+              ],
+              "crop": "archive/urbangrotesk-suitcasetype-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "compressa-preusstype-com#12",
+              "slug": "compressa-preusstype-com",
+              "blocks": [
+                "12"
+              ],
+              "crop": "archive/compressa-preusstype-com/blocks/12.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "arteria-typofonderie-com#01",
+              "slug": "arteria-typofonderie-com",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/arteria-typofonderie-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "monaspace-githubnext-com#02",
+              "slug": "monaspace-githubnext-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/monaspace-githubnext-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "monaspace-githubnext-com#09",
+              "slug": "monaspace-githubnext-com",
+              "blocks": [
+                "09",
+                "10",
+                "11"
+              ],
+              "crop": "archive/monaspace-githubnext-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "unbounded-polkadot-network#01",
+              "slug": "unbounded-polkadot-network",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/unbounded-polkadot-network/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "plex-korean-demo-vercel-app#00",
+              "slug": "plex-korean-demo-vercel-app",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/plex-korean-demo-vercel-app/blocks/00.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "grandgothik-com#13",
+              "slug": "grandgothik-com",
+              "blocks": [
+                "13"
+              ],
+              "crop": "archive/grandgothik-com/blocks/13.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#13",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "13"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/13.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "brailleneue-com#03",
+              "slug": "brailleneue-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/brailleneue-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-fern#02",
+              "slug": "djr-com-fern",
+              "blocks": [
+                "02",
+                "03",
+                "04",
+                "05"
+              ],
+              "crop": "archive/djr-com-fern/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-job-clarendon#08",
+              "slug": "djr-com-job-clarendon",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/djr-com-job-clarendon/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-turnip#02",
+              "slug": "djr-com-turnip",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/djr-com-turnip/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "nationalparktypeface-com#06",
+              "slug": "nationalparktypeface-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/nationalparktypeface-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "big-number-stats": [
@@ -9067,6 +11064,28 @@
               "crop": "archive/source-typekit-com-source-han-serif/blocks/04.jpg",
               "exemplar": false,
               "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "brailleinstitute-org-freefont#03",
+              "slug": "brailleinstitute-org-freefont",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/brailleinstitute-org-freefont/blocks/03.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "vercel-com-font#02",
+              "slug": "vercel-com-font",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/vercel-com-font/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "medium",
               "proposed": false
             }
           ]
@@ -9215,6 +11234,29 @@
               "crop": "archive/github-com-mona-sans/blocks/05.jpg",
               "exemplar": false,
               "confidence": "low",
+              "proposed": false
+            },
+            {
+              "id": "2021-typemedia-org-gajana#03",
+              "slug": "2021-typemedia-org-gajana",
+              "blocks": [
+                "03",
+                "15"
+              ],
+              "crop": "archive/2021-typemedia-org-gajana/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-job-clarendon#26",
+              "slug": "djr-com-job-clarendon",
+              "blocks": [
+                "26"
+              ],
+              "crop": "archive/djr-com-job-clarendon/blocks/26.jpg",
+              "exemplar": false,
+              "confidence": "medium",
               "proposed": false
             }
           ],
@@ -9759,6 +11801,132 @@
               "exemplar": true,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "gidole-github-io#02",
+              "slug": "gidole-github-io",
+              "blocks": [
+                "02",
+                "03",
+                "08"
+              ],
+              "crop": "archive/gidole-github-io/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "urbangrotesk-suitcasetype-com#03",
+              "slug": "urbangrotesk-suitcasetype-com",
+              "blocks": [
+                "03",
+                "04"
+              ],
+              "crop": "archive/urbangrotesk-suitcasetype-com/blocks/03.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "arteria-typofonderie-com#02",
+              "slug": "arteria-typofonderie-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/arteria-typofonderie-com/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "erikdkennedy-com-projects-figtree#02",
+              "slug": "erikdkennedy-com-projects-figtree",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/erikdkennedy-com-projects-figtree/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "monaspace-githubnext-com#08",
+              "slug": "monaspace-githubnext-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/monaspace-githubnext-com/blocks/08.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "monaspace-githubnext-com#08",
+              "slug": "monaspace-githubnext-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/monaspace-githubnext-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "vercel-com-font#03",
+              "slug": "vercel-com-font",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/vercel-com-font/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "unbounded-polkadot-network#08",
+              "slug": "unbounded-polkadot-network",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/unbounded-polkadot-network/blocks/08.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "nabla-typearture-com#03",
+              "slug": "nabla-typearture-com",
+              "blocks": [
+                "03",
+                "04",
+                "05"
+              ],
+              "crop": "archive/nabla-typearture-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "daifoldes-com-eubiescript-sub#02",
+              "slug": "daifoldes-com-eubiescript-sub",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/daifoldes-com-eubiescript-sub/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nationalparktypeface-com#03",
+              "slug": "nationalparktypeface-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/nationalparktypeface-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "feature-before-after": [
@@ -10255,6 +12423,124 @@
               "crop": "archive/justfont-com-huninn/blocks/05.jpg",
               "exemplar": true,
               "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "boharat-com-zaatar#07",
+              "slug": "boharat-com-zaatar",
+              "blocks": [
+                "07",
+                "08"
+              ],
+              "crop": "archive/boharat-com-zaatar/blocks/07.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pleasure-typefaces-pizza#06",
+              "slug": "pleasure-typefaces-pizza",
+              "blocks": [
+                "06",
+                "14"
+              ],
+              "crop": "archive/pleasure-typefaces-pizza/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "compressa-preusstype-com#01",
+              "slug": "compressa-preusstype-com",
+              "blocks": [
+                "01",
+                "03",
+                "04",
+                "06",
+                "07",
+                "09"
+              ],
+              "crop": "archive/compressa-preusstype-com/blocks/01.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "arteria-typofonderie-com#03",
+              "slug": "arteria-typofonderie-com",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/arteria-typofonderie-com/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "erikdkennedy-com-projects-figtree#04",
+              "slug": "erikdkennedy-com-projects-figtree",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/erikdkennedy-com-projects-figtree/blocks/04.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "monaspace-githubnext-com#08",
+              "slug": "monaspace-githubnext-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/monaspace-githubnext-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "unbounded-polkadot-network#05",
+              "slug": "unbounded-polkadot-network",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/unbounded-polkadot-network/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "2020-typefacedesign-org-simon#08",
+              "slug": "2020-typefacedesign-org-simon",
+              "blocks": [
+                "08",
+                "09"
+              ],
+              "crop": "archive/2020-typefacedesign-org-simon/blocks/08.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-job-clarendon#14",
+              "slug": "djr-com-job-clarendon",
+              "blocks": [
+                "14"
+              ],
+              "crop": "archive/djr-com-job-clarendon/blocks/14.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-turnip#06",
+              "slug": "djr-com-turnip",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/djr-com-turnip/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "medium",
               "proposed": false
             }
           ],
@@ -10786,6 +13072,72 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "pleasure-typefaces-pizza#14",
+              "slug": "pleasure-typefaces-pizza",
+              "blocks": [
+                "14"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "marbla-de#02",
+              "slug": "marbla-de",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/marbla-de/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "unbounded-polkadot-network#06",
+              "slug": "unbounded-polkadot-network",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/unbounded-polkadot-network/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "nabla-typearture-com#06",
+              "slug": "nabla-typearture-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/nabla-typearture-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-job-clarendon#11",
+              "slug": "djr-com-job-clarendon",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/djr-com-job-clarendon/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-job-clarendon#22",
+              "slug": "djr-com-job-clarendon",
+              "blocks": [
+                "22"
+              ],
+              "crop": "archive/djr-com-job-clarendon/blocks/22.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "design-notes": [
@@ -11019,6 +13371,61 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "brailleinstitute-org-freefont#03",
+              "slug": "brailleinstitute-org-freefont",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/brailleinstitute-org-freefont/blocks/03.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pampatype-com-octothorpe-en#03",
+              "slug": "pampatype-com-octothorpe-en",
+              "blocks": [
+                "03",
+                "04",
+                "06",
+                "08",
+                "10",
+                "12",
+                "14",
+                "16",
+                "18",
+                "19"
+              ],
+              "crop": "archive/pampatype-com-octothorpe-en/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "nihon-font-com#02",
+              "slug": "nihon-font-com",
+              "blocks": [
+                "02",
+                "05",
+                "10"
+              ],
+              "crop": "archive/nihon-font-com/blocks/02.jpg",
+              "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "grandgothik-com#04",
+              "slug": "grandgothik-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/grandgothik-com/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "system-diagrams": [
@@ -11181,6 +13588,17 @@
               "crop": "archive/louisefili-com-montecatini-pro/blocks/08.jpg",
               "exemplar": false,
               "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#14",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "14"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/14.jpg",
+              "exemplar": false,
+              "confidence": "medium",
               "proposed": false
             }
           ],
@@ -11381,6 +13799,85 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "optician-sans-com#07",
+              "slug": "optician-sans-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/optician-sans-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "urbangrotesk-suitcasetype-com#09",
+              "slug": "urbangrotesk-suitcasetype-com",
+              "blocks": [
+                "09",
+                "10"
+              ],
+              "crop": "archive/urbangrotesk-suitcasetype-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "monaspace-githubnext-com#13",
+              "slug": "monaspace-githubnext-com",
+              "blocks": [
+                "13",
+                "14"
+              ],
+              "crop": "archive/monaspace-githubnext-com/blocks/13.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "grandgothik-com#08",
+              "slug": "grandgothik-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/grandgothik-com/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#15",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "15"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/15.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-fern#08",
+              "slug": "djr-com-fern",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/djr-com-fern/blocks/08.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-job-clarendon#18",
+              "slug": "djr-com-job-clarendon",
+              "blocks": [
+                "18"
+              ],
+              "crop": "archive/djr-com-job-clarendon/blocks/18.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "hover-css-inspector": [
@@ -11405,6 +13902,32 @@
               "crop": "archive/calhern-frostype-xyz/blocks/16.jpg",
               "exemplar": false,
               "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "prose-glyph-inspector": [
+            {
+              "id": "erikdkennedy-com-projects-figtree#05",
+              "slug": "erikdkennedy-com-projects-figtree",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/erikdkennedy-com-projects-figtree/blocks/05.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "copyable-animation-cards": [
+            {
+              "id": "unbounded-polkadot-network#07",
+              "slug": "unbounded-polkadot-network",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/unbounded-polkadot-network/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "low",
               "proposed": false
             }
           ]
@@ -11520,6 +14043,28 @@
               ],
               "crop": "archive/nn-konrad-ch/blocks/07.jpg",
               "exemplar": true,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "optician-sans-com#04",
+              "slug": "optician-sans-com",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/optician-sans-com/blocks/04.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#05",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/05.jpg",
+              "exemplar": false,
               "confidence": "medium",
               "proposed": false
             }
@@ -12415,6 +14960,132 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "gidole-github-io#01",
+              "slug": "gidole-github-io",
+              "blocks": [
+                "01",
+                "06"
+              ],
+              "crop": "archive/gidole-github-io/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pampatype-com-octothorpe-en#24",
+              "slug": "pampatype-com-octothorpe-en",
+              "blocks": [
+                "24"
+              ],
+              "crop": "archive/pampatype-com-octothorpe-en/blocks/24.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "urbangrotesk-suitcasetype-com#11",
+              "slug": "urbangrotesk-suitcasetype-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/urbangrotesk-suitcasetype-com/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "compressa-preusstype-com#13",
+              "slug": "compressa-preusstype-com",
+              "blocks": [
+                "13"
+              ],
+              "crop": "archive/compressa-preusstype-com/blocks/13.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "compressa-preusstype-com#15",
+              "slug": "compressa-preusstype-com",
+              "blocks": [
+                "15"
+              ],
+              "crop": "archive/compressa-preusstype-com/blocks/15.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "arteria-typofonderie-com#07",
+              "slug": "arteria-typofonderie-com",
+              "blocks": [
+                "07",
+                "08"
+              ],
+              "crop": "archive/arteria-typofonderie-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "low",
+              "proposed": false
+            },
+            {
+              "id": "monaspace-githubnext-com#19",
+              "slug": "monaspace-githubnext-com",
+              "blocks": [
+                "19"
+              ],
+              "crop": "archive/monaspace-githubnext-com/blocks/19.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nihon-font-com#17",
+              "slug": "nihon-font-com",
+              "blocks": [
+                "17"
+              ],
+              "crop": "archive/nihon-font-com/blocks/17.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "daifoldes-com-eubiescript-sub#06",
+              "slug": "daifoldes-com-eubiescript-sub",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/daifoldes-com-eubiescript-sub/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#18",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "18"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/18.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nationalparktypeface-com#01",
+              "slug": "nationalparktypeface-com",
+              "blocks": [
+                "01",
+                "04",
+                "07",
+                "14"
+              ],
+              "crop": "archive/nationalparktypeface-com/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "package-price-sheet": [
@@ -12553,6 +15224,40 @@
               "crop": "archive/universalsans-com/blocks/00.jpg",
               "exemplar": false,
               "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-fern#11",
+              "slug": "djr-com-fern",
+              "blocks": [
+                "11",
+                "12"
+              ],
+              "crop": "archive/djr-com-fern/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-job-clarendon#27",
+              "slug": "djr-com-job-clarendon",
+              "blocks": [
+                "27"
+              ],
+              "crop": "archive/djr-com-job-clarendon/blocks/27.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-turnip#10",
+              "slug": "djr-com-turnip",
+              "blocks": [
+                "10"
+              ],
+              "crop": "archive/djr-com-turnip/blocks/10.jpg",
+              "exemplar": false,
+              "confidence": "high",
               "proposed": false
             }
           ],
@@ -12832,6 +15537,127 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "brailleinstitute-org-freefont#03",
+              "slug": "brailleinstitute-org-freefont",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/brailleinstitute-org-freefont/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "github-rosettatype-com-yrsa-rasa#01",
+              "slug": "github-rosettatype-com-yrsa-rasa",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/github-rosettatype-com-yrsa-rasa/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "optician-sans-com#09",
+              "slug": "optician-sans-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/optician-sans-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "compagnon-eesab-fr#09",
+              "slug": "compagnon-eesab-fr",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/compagnon-eesab-fr/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "cursorfont-liebermannkiepereddemann-de#00",
+              "slug": "cursorfont-liebermannkiepereddemann-de",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/cursorfont-liebermannkiepereddemann-de/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "cnap-fr-sites-infini-en#00",
+              "slug": "cnap-fr-sites-infini-en",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/cnap-fr-sites-infini-en/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "erikdkennedy-com-projects-figtree#06",
+              "slug": "erikdkennedy-com-projects-figtree",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/erikdkennedy-com-projects-figtree/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "db-pixel-club#00",
+              "slug": "db-pixel-club",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/db-pixel-club/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "vercel-com-font#08",
+              "slug": "vercel-com-font",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/vercel-com-font/blocks/08.jpg",
+              "exemplar": true,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "unbounded-polkadot-network#09",
+              "slug": "unbounded-polkadot-network",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/unbounded-polkadot-network/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "nabla-typearture-com#09",
+              "slug": "nabla-typearture-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/nabla-typearture-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "build-configurator": [
@@ -12857,6 +15683,17 @@
               "exemplar": false,
               "confidence": "low",
               "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#16",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "16"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/16.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "supporter-tier-wall": [
@@ -12867,6 +15704,32 @@
                 "11"
               ],
               "crop": "archive/rubjo-github-io-victor-mono/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "donation-widget": [
+            {
+              "id": "brailleinstitute-org-freefont#03",
+              "slug": "brailleinstitute-org-freefont",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/brailleinstitute-org-freefont/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "inquiry-form": [
+            {
+              "id": "brailleneue-com#08",
+              "slug": "brailleneue-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": "archive/brailleneue-com/blocks/08.jpg",
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
@@ -12907,6 +15770,28 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "optician-sans-com#00",
+              "slug": "optician-sans-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/optician-sans-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "brailleneue-com#05",
+              "slug": "brailleneue-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/brailleneue-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "quote-columns": [
@@ -12946,6 +15831,50 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "brailleinstitute-org-freefont#03",
+              "slug": "brailleinstitute-org-freefont",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/brailleinstitute-org-freefont/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "optician-sans-com#02",
+              "slug": "optician-sans-com",
+              "blocks": [
+                "02"
+              ],
+              "crop": "archive/optician-sans-com/blocks/02.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "optician-sans-com#05",
+              "slug": "optician-sans-com",
+              "blocks": [
+                "05"
+              ],
+              "crop": "archive/optician-sans-com/blocks/05.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#17",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "17"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/17.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "embedded-social-posts": [
@@ -12959,6 +15888,32 @@
               "crop": "archive/rubjo-github-io-victor-mono/blocks/12.jpg",
               "exemplar": false,
               "confidence": "high",
+              "proposed": false
+            }
+          ],
+          "usage-stats": [
+            {
+              "id": "brailleinstitute-org-freefont#03",
+              "slug": "brailleinstitute-org-freefont",
+              "blocks": [
+                "03"
+              ],
+              "crop": "archive/brailleinstitute-org-freefont/blocks/03.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            }
+          ],
+          "press-link-list": [
+            {
+              "id": "brailleneue-com#06",
+              "slug": "brailleneue-com",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/brailleneue-com/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "medium",
               "proposed": false
             }
           ]
@@ -13051,6 +16006,17 @@
               "crop": "archive/calhern-frostype-xyz/blocks/33.jpg",
               "exemplar": false,
               "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "grandgothik-com#18",
+              "slug": "grandgothik-com",
+              "blocks": [
+                "18"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "low",
               "proposed": false
             }
           ]
@@ -13727,6 +16693,119 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "overpassfont-org#01",
+              "slug": "overpassfont-org",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/overpassfont-org/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "optician-sans-com#09",
+              "slug": "optician-sans-com",
+              "blocks": [
+                "09",
+                "10"
+              ],
+              "crop": "archive/optician-sans-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pampatype-com-octothorpe-en#22",
+              "slug": "pampatype-com-octothorpe-en",
+              "blocks": [
+                "22",
+                "23"
+              ],
+              "crop": "archive/pampatype-com-octothorpe-en/blocks/22.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "compagnon-eesab-fr#09",
+              "slug": "compagnon-eesab-fr",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/compagnon-eesab-fr/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "pleasure-typefaces-pizza#14",
+              "slug": "pleasure-typefaces-pizza",
+              "blocks": [
+                "14"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "arteria-typofonderie-com#07",
+              "slug": "arteria-typofonderie-com",
+              "blocks": [
+                "07"
+              ],
+              "crop": "archive/arteria-typofonderie-com/blocks/07.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "monaspace-githubnext-com#16",
+              "slug": "monaspace-githubnext-com",
+              "blocks": [
+                "16",
+                "17"
+              ],
+              "crop": "archive/monaspace-githubnext-com/blocks/16.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "unbounded-polkadot-network#10",
+              "slug": "unbounded-polkadot-network",
+              "blocks": [
+                "10"
+              ],
+              "crop": "archive/unbounded-polkadot-network/blocks/10.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "2020-typefacedesign-org-simon#14",
+              "slug": "2020-typefacedesign-org-simon",
+              "blocks": [
+                "14"
+              ],
+              "crop": "archive/2020-typefacedesign-org-simon/blocks/14.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nationalparktypeface-com#13",
+              "slug": "nationalparktypeface-com",
+              "blocks": [
+                "13"
+              ],
+              "crop": "archive/nationalparktypeface-com/blocks/13.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "big-sign-off": [
@@ -13853,6 +16932,17 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "grandgothik-com#17",
+              "slug": "grandgothik-com",
+              "blocks": [
+                "17"
+              ],
+              "crop": "archive/grandgothik-com/blocks/17.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "personal-sign-off": [
@@ -13888,6 +16978,40 @@
               "crop": "archive/adelfaure-net-tools-jgs/blocks/12.jpg",
               "exemplar": false,
               "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "gidole-github-io#04",
+              "slug": "gidole-github-io",
+              "blocks": [
+                "04",
+                "09"
+              ],
+              "crop": "archive/gidole-github-io/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "erikdkennedy-com-projects-figtree#06",
+              "slug": "erikdkennedy-com-projects-figtree",
+              "blocks": [
+                "06"
+              ],
+              "crop": "archive/erikdkennedy-com-projects-figtree/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "db-pixel-club#00",
+              "slug": "db-pixel-club",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/db-pixel-club/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
               "proposed": false
             }
           ],
@@ -14134,6 +17258,84 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "urbangrotesk-suitcasetype-com#11",
+              "slug": "urbangrotesk-suitcasetype-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/urbangrotesk-suitcasetype-com/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "compressa-preusstype-com#16",
+              "slug": "compressa-preusstype-com",
+              "blocks": [
+                "16"
+              ],
+              "crop": "archive/compressa-preusstype-com/blocks/16.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "marbla-de#06",
+              "slug": "marbla-de",
+              "blocks": [
+                "06",
+                "07"
+              ],
+              "crop": "archive/marbla-de/blocks/06.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "monaspace-githubnext-com#20",
+              "slug": "monaspace-githubnext-com",
+              "blocks": [
+                "20"
+              ],
+              "crop": "archive/monaspace-githubnext-com/blocks/20.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "plex-korean-demo-vercel-app#01",
+              "slug": "plex-korean-demo-vercel-app",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/plex-korean-demo-vercel-app/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "2021-typemedia-org-gajana#17",
+              "slug": "2021-typemedia-org-gajana",
+              "blocks": [
+                "17"
+              ],
+              "crop": "archive/2021-typemedia-org-gajana/blocks/17.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "brailleneue-com#09",
+              "slug": "brailleneue-com",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/brailleneue-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "link-columns": [
@@ -14359,6 +17561,85 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "boharat-com-zaatar#10",
+              "slug": "boharat-com-zaatar",
+              "blocks": [
+                "10"
+              ],
+              "crop": "archive/boharat-com-zaatar/blocks/10.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "brailleinstitute-org-freefont#04",
+              "slug": "brailleinstitute-org-freefont",
+              "blocks": [
+                "04",
+                "05"
+              ],
+              "crop": "archive/brailleinstitute-org-freefont/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "vercel-com-font#09",
+              "slug": "vercel-com-font",
+              "blocks": [
+                "09"
+              ],
+              "crop": "archive/vercel-com-font/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nabla-typearture-com#09",
+              "slug": "nabla-typearture-com",
+              "blocks": [
+                "09",
+                "10"
+              ],
+              "crop": "archive/nabla-typearture-com/blocks/09.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-fern#13",
+              "slug": "djr-com-fern",
+              "blocks": [
+                "13"
+              ],
+              "crop": "archive/djr-com-fern/blocks/13.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-job-clarendon#28",
+              "slug": "djr-com-job-clarendon",
+              "blocks": [
+                "28"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-turnip#11",
+              "slug": "djr-com-turnip",
+              "blocks": [
+                "11"
+              ],
+              "crop": "archive/djr-com-turnip/blocks/11.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ]
         },
@@ -14554,6 +17835,28 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "github-rosettatype-com-yrsa-rasa#04",
+              "slug": "github-rosettatype-com-yrsa-rasa",
+              "blocks": [
+                "04"
+              ],
+              "crop": "archive/github-rosettatype-com-yrsa-rasa/blocks/04.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#19",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "19"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/19.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "scroll-spy-nav": [
@@ -14670,6 +17973,17 @@
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
+            },
+            {
+              "id": "cnap-fr-sites-infini-en#00",
+              "slug": "cnap-fr-sites-infini-en",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/cnap-fr-sites-infini-en/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "toc-drawer": [
@@ -14736,6 +18050,17 @@
                 "02"
               ],
               "crop": "archive/scenik-frostype-xyz/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "brailleinstitute-org-freefont#01",
+              "slug": "brailleinstitute-org-freefont",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/brailleinstitute-org-freefont/blocks/01.jpg",
               "exemplar": false,
               "confidence": "medium",
               "proposed": false
@@ -15535,6 +18860,294 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "overpassfont-org#02",
+              "slug": "overpassfont-org",
+              "blocks": [
+                "02",
+                "03",
+                "04"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "boharat-com-zaatar#00",
+              "slug": "boharat-com-zaatar",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/boharat-com-zaatar/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "boharat-com-zaatar#01",
+              "slug": "boharat-com-zaatar",
+              "blocks": [
+                "01"
+              ],
+              "crop": "archive/boharat-com-zaatar/blocks/01.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "brailleinstitute-org-freefont#00",
+              "slug": "brailleinstitute-org-freefont",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/brailleinstitute-org-freefont/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "github-rosettatype-com-yrsa-rasa#00",
+              "slug": "github-rosettatype-com-yrsa-rasa",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/github-rosettatype-com-yrsa-rasa/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gidole-github-io#10",
+              "slug": "gidole-github-io",
+              "blocks": [
+                "10"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "leon-kim-com#00",
+              "slug": "leon-kim-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/leon-kim-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pampatype-com-octothorpe-en#25",
+              "slug": "pampatype-com-octothorpe-en",
+              "blocks": [
+                "25"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "compagnon-eesab-fr#00",
+              "slug": "compagnon-eesab-fr",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/compagnon-eesab-fr/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "pleasure-typefaces-pizza#15",
+              "slug": "pleasure-typefaces-pizza",
+              "blocks": [
+                "15"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "compressa-preusstype-com#17",
+              "slug": "compressa-preusstype-com",
+              "blocks": [
+                "17"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "arteria-typofonderie-com#08",
+              "slug": "arteria-typofonderie-com",
+              "blocks": [
+                "08"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "cnap-fr-sites-infini-en#00",
+              "slug": "cnap-fr-sites-infini-en",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/cnap-fr-sites-infini-en/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "erikdkennedy-com-projects-figtree#00",
+              "slug": "erikdkennedy-com-projects-figtree",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/erikdkennedy-com-projects-figtree/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "vercel-com-font#00",
+              "slug": "vercel-com-font",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/vercel-com-font/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "unbounded-polkadot-network#11",
+              "slug": "unbounded-polkadot-network",
+              "blocks": [
+                "11"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "nabla-typearture-com#11",
+              "slug": "nabla-typearture-com",
+              "blocks": [
+                "11"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "nihon-font-com#00",
+              "slug": "nihon-font-com",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/nihon-font-com/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "2021-typemedia-org-gajana#00",
+              "slug": "2021-typemedia-org-gajana",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/2021-typemedia-org-gajana/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "2020-typefacedesign-org-simon#15",
+              "slug": "2020-typefacedesign-org-simon",
+              "blocks": [
+                "15"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "grandgothik-com#18",
+              "slug": "grandgothik-com",
+              "blocks": [
+                "18"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "usgraphics-com-products-berkeley-mono#00",
+              "slug": "usgraphics-com-products-berkeley-mono",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/usgraphics-com-products-berkeley-mono/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-fern#00",
+              "slug": "djr-com-fern",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/djr-com-fern/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-job-clarendon#00",
+              "slug": "djr-com-job-clarendon",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/djr-com-job-clarendon/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-job-clarendon#00",
+              "slug": "djr-com-job-clarendon",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/djr-com-job-clarendon/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "djr-com-turnip#00",
+              "slug": "djr-com-turnip",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/djr-com-turnip/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "masthead-nav": [
@@ -15570,6 +19183,28 @@
               "exemplar": false,
               "confidence": "high",
               "proposed": false
+            },
+            {
+              "id": "cursorfont-liebermannkiepereddemann-de#00",
+              "slug": "cursorfont-liebermannkiepereddemann-de",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/cursorfont-liebermannkiepereddemann-de/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "plex-korean-demo-vercel-app#00",
+              "slug": "plex-korean-demo-vercel-app",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/plex-korean-demo-vercel-app/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "medium",
+              "proposed": false
             }
           ],
           "announcement-banner": [
@@ -15604,6 +19239,17 @@
               "crop": "archive/proxima-vara-marksimonson-com/blocks/00.jpg",
               "exemplar": false,
               "proposed": false
+            },
+            {
+              "id": "brailleinstitute-org-freefont#00",
+              "slug": "brailleinstitute-org-freefont",
+              "blocks": [
+                "00"
+              ],
+              "crop": "archive/brailleinstitute-org-freefont/blocks/00.jpg",
+              "exemplar": false,
+              "confidence": "high",
+              "proposed": false
             }
           ],
           "scroll-progress-indicator": [
@@ -15616,6 +19262,18 @@
               "crop": "archive/isolation-abc-xyz/blocks/01.jpg",
               "exemplar": false,
               "confidence": "medium",
+              "proposed": false
+            },
+            {
+              "id": "gidole-github-io#11",
+              "slug": "gidole-github-io",
+              "blocks": [
+                "11",
+                "12"
+              ],
+              "crop": null,
+              "exemplar": false,
+              "confidence": "high",
               "proposed": false
             }
           ]
