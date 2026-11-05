@@ -1,0 +1,383 @@
+{
+  "slug": "luciole-vision-com",
+  "extractedBy": "agent",
+  "summary": "A sober one-page site for a typeface designed for visually impaired readers, built by a French institutional partnership. Warm paper background, very generous leading, a scroll-spy nav, and a compact tester in a dark band; the page itself practises the accessibility the typeface argues for (skip link, fully compliant statement, large text).",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "navigation",
+      "variant": "scroll-spy-nav",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Sticky dark-green bar: 'Luciole' in Bold left, section links right with the current one on a grey tab, 'Français' language switch in a slate tile, plus a skip-to-content link for keyboards. It is repainted over the crops of the following blocks (a capture artefact of sticky positioning)"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "sober, institutional, caring",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Left column: the purpose sentence at 48px with the name in slate blue, dotted vertical rule, right column two intro paragraphs at very open leading; all on warm beige",
+      "feel": "Serious, quiet, trustworthy",
+      "ux": "Static. No button: the first action is simply reading in the font at a size low-vision readers can use",
+      "learn": "For an accessibility typeface, the hero's job is legibility itself: a plain statement of purpose, set large, on low-glare paper, says more than a stylish wordmark",
+      "reconstruction": {
+        "layout": "Container 1200px, two columns: sentence ~370px wide; 1px dotted vertical rule at ~380px; paragraphs from ~430px to 1200px; ~600px tall, top padding ~50px",
+        "typography": "Sentence 48px Luciole Regular, leading ~1.3, tracking ~0.02em, name in slate; paragraphs ~21px Luciole Regular, leading ~2, tracking ~0.02em",
+        "palette": [
+          "#eee7dd",
+          "#303834",
+          "#566676"
+        ],
+        "behaviour": "none",
+        "content": "'Luciole is a new typeface developed explicitly for visually impaired people.' then the project's origin and adoption",
+        "assets": "none",
+        "html": "section#intro; h1 with a coloured span around the name; #logo accesskey skip link in the header"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "06"
+      ],
+      "type": "testimonials",
+      "variant": "award-logo-strip",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "institutional",
+        "mobile": "adapts"
+      },
+      "look": "A row of seven grey partner and label logos (Les PEP, ctrdv, typographies.fr, DIPHE, Ceres Foundation, GUTenberg, Marianne label) between dotted horizontal rules, shown under the hero and again above the Impressum",
+      "feel": "Accredited, reassuring",
+      "ux": "Static; the logos stand for the institutions behind the claim, not for customers. Repeated at page end",
+      "learn": "For a typeface with a medical purpose, institutional partner logos do what customer quotes do elsewhere: they back the claim",
+      "reconstruction": {
+        "layout": "Full-container row, ~7 logos evenly distributed, ~110px tall row, 1px dotted rules above and below; wraps to 2 columns on mobile",
+        "typography": "Logos only",
+        "palette": [
+          "#eee7dd",
+          "#303834",
+          "#b7b5ac"
+        ],
+        "behaviour": "none",
+        "content": "Partner institutions and a state accessibility label",
+        "assets": "Seven logos in greyscale"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "evidence-based, plain",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "diagram",
+          "process"
+        ],
+        "length": "medium"
+      },
+      "look": "Three alternating text + image rows separated by dotted rules: 'A typeface for visual impairment', 'A powerful editorial tool', 'A typeface to advance research', the last listing three reading studies beside a font-editor screenshot",
+      "feel": "Clinical but warm",
+      "ux": "Static reading; links go to published studies, marked with an external-link icon",
+      "learn": "Cite reading studies with links next to the design criteria, so a legibility claim reads as evidence rather than marketing",
+      "reconstruction": {
+        "layout": "Container 1200px, ~1700px tall; rows of two columns ~550px + ~550px with ~100px gutter, image side alternating; dotted rule and ~60px padding between rows; heading above the text",
+        "typography": "Subheads 27px Luciole Regular; body ~21px, leading ~1.9; 'About' heading visually hidden or covered by the sticky bar; list items use en dashes",
+        "palette": [
+          "#eee7dd",
+          "#f3f0ea",
+          "#303834"
+        ],
+        "behaviour": "none",
+        "content": "Design criteria, adoption (publishers, transcribers, teachers, orthoptists; tens of thousands of books), Luciole Math, three reading studies with results",
+        "assets": "Screenshot of a font editor (FontForge-like) showing a large 'a'; two specimen images covered by separate instances"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "technical, clear",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "spacing"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "White panel with four rows of large grey specimen words on hairlines ('aces96', 'IlI1 rnm', 'ùij Bold', 'lisibilité'), each tied to a small arrow caption: open counters, important differentiation, high weight contrast, clear word shape",
+      "feel": "Didactic, chart-like",
+      "ux": "Static image",
+      "learn": "State each legibility criterion once, on the exact letters where it matters: confusable pairs (Il1, rn/m) make the argument without prose",
+      "reconstruction": {
+        "layout": "Panel ~550×330px, white on beige, 4 rows ~80px on hairlines; captions in the left and right margins with small ↔ arrows pointing at the sample",
+        "typography": "Samples ~70px Luciole Regular grey, 'Bold' in Bold; captions ~13px grey",
+        "palette": [
+          "#f3f0ea",
+          "#d7d3cc",
+          "#5f615e"
+        ],
+        "behaviour": "none",
+        "content": "Test strings that isolate one trait: aces96 (open counters), IlI1 rnm (differentiation), ùij Bold (weight contrast), lisibilité (word shape)",
+        "assets": "Static image; can be rebuilt as live text"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "plain, reference",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "White panel of four labelled single lines, each fading off with an ellipsis: Accented letters, Punctuation, Mathematics, Arrows",
+      "feel": "Compact, suggestive",
+      "ux": "Static image beside the 'editorial tool' text; a sample of each class, not the whole set",
+      "learn": "One labelled line per class ending in '…' suggests breadth without a full table, and foregrounds the unusual math and arrow coverage",
+      "reconstruction": {
+        "layout": "Panel ~550×330px, 4 rows of ~80px with a hairline and a small label above each line",
+        "typography": "Glyphs ~42px Luciole Regular grey; labels ~13px grey",
+        "palette": [
+          "#f3f0ea",
+          "#d7d3cc",
+          "#5f615e"
+        ],
+        "behaviour": "none",
+        "content": "Character samples per class, each line ending in an ellipsis",
+        "assets": "Static image; can be rebuilt as live text"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "calm, functional",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "leading",
+          "style-select",
+          "alignment"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "Full-bleed grey band with one row of minimal controls on top (style select, three align icons, size and leading sliders) and a 60px white editable line below",
+      "feel": "Uncluttered, accessible",
+      "ux": "The default text is an invitation to type. Native select and radios are labelled and keyboard reachable; sliders update live",
+      "learn": "The prompt sentence is both instruction and sample. Text-align and leading are useful controls here because the visitor is testing readability, not style",
+      "reconstruction": {
+        "layout": "Full-bleed 840px tall band, contents in a 1200px container; control row 4 columns at x=120, 425, 730, 1037, ~80px tall; editable area below fills the rest (min-height ~600px). The sticky nav crosses the band in the crop",
+        "typography": "Sample 60px Luciole Regular, line-height 150%, tracking ~0.02em, white; control labels ~18px; select 15px in a 1px white box",
+        "palette": [
+          "#5f615e",
+          "#303834",
+          "#fbfaf7"
+        ],
+        "behaviour": "select#variant onchange → updateVariant sets the family (Regular, Italic, Bold, Bold Italic); radio align left/center/right; #size 16–128 default 60 (px); #leading 100–200 default 150 (%); oninput → updateFontSettings sets the style on the contenteditable",
+        "content": "'Give the Luciole typeface a try by typing some text here.'",
+        "assets": "Three SVG align icons",
+        "html": "#try; select#variant; radios input.sr-only#left/#center/#right with icon labels; input[type=range]#size,#leading; [contenteditable=true][spellcheck=false]"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "plain, helpful",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Left column: 'Download the typeface', licence summary, two slate buttons with file size in small type ('Download Luciole (ZIP · 244 Ko)', 'Download Luciole webfonts (ZIP · 2.1 Mo)'), a paragraph for Luciole Math",
+      "feel": "Unfussy, public-service",
+      "ux": "Direct ZIP links; the copy explains in one sentence how to install, for non-specialist users",
+      "learn": "Audience matters: 'move the files to the Fonts folder' is the right instruction for teachers and orthoptists. Show file size on the button",
+      "reconstruction": {
+        "layout": "Container 1200px, 2 columns as the About rows; text column ~550px, buttons stacked, 8px radius, ~40px tall, left aligned",
+        "typography": "Heading 27px Regular; body ~21px, leading ~1.9; button 18px Medium white with file size ~13px",
+        "palette": [
+          "#eee7dd",
+          "#566676",
+          "#303834",
+          "#ffffff"
+        ],
+        "behaviour": "Direct file links",
+        "content": "CC-BY summary including commercial use; webfonts for developers; separate OFL Luciole Math; contact for other formats",
+        "assets": "Link-out icon after external links",
+        "html": "a.btn[href$='.zip']"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "plain",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "White panel beside the download buttons: the lowercase alphabet in four rows labelled Regular, Bold, Italic, Bold Italic",
+      "feel": "Compact, sufficient",
+      "ux": "Static image; shows exactly what the ZIP holds",
+      "learn": "With only four styles, an alphabet per style next to the download button doubles as a contents list",
+      "reconstruction": {
+        "layout": "Panel ~550×340px, 4 rows with hairline and label",
+        "typography": "Alphabet ~42px, grey, each row in its style; label ~13px grey",
+        "palette": [
+          "#f6f3ee",
+          "#d5d2ca",
+          "#5f615e"
+        ],
+        "behaviour": "none",
+        "content": "'abcdefghijklmnopqrstuvw', cropped by the panel",
+        "assets": "Static image"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "06"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "thorough, accountable",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "contact",
+          "legal"
+        ]
+      },
+      "look": "Two-column team section (initial and current team with roles in bold, including ophthalmologist, orthoptist and psychologist; right: Contact, Awards, Links), then the logo strip and a three-column Impressum in small grey type",
+      "feel": "Transparent, institutional",
+      "ux": "Static with external links marked by an icon; ends with 'Accessibility: fully compliant'",
+      "learn": "Listing clinicians among the type credits is itself evidence: the team list makes the same claim as the hero",
+      "reconstruction": {
+        "layout": "Team 2 columns ~550px + ~550px, ~850px tall; Impressum heading then 3 equal columns ~415px, ~300px tall; dotted rules between groups",
+        "typography": "Subheads 27px Regular; 'Role: Name' lines ~18px with role in Bold, leading ~1.8; Impressum ~15px grey, licence lines ~13px",
+        "palette": [
+          "#efe8de",
+          "#303834"
+        ],
+        "behaviour": "none",
+        "content": "Roles with names, awards (TDC New York and Tokyo for Luciole Math, Access to Culture Excellence Award), hosting and publisher legal data required by French law",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "testimonials/award-logo-strip",
+    "story/design-brief",
+    "design-details/annotated-specimen",
+    "glyph-table/category-lines",
+    "type-tester/slider-sandbox",
+    "checkout/free-download",
+    "family-overview/style-word-grid",
+    "footer/credits-colophon"
+  ]
+}

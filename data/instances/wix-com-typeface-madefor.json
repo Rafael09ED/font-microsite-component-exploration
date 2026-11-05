@@ -1,0 +1,517 @@
+{
+  "slug": "wix-com-typeface-madefor",
+  "extractedBy": "claude",
+  "summary": "Wix's corporate typeface page, built on Wix itself: seven numbered chapters in rounded orange, lilac and green cards, opening on a film in which a single looping Bézier line writes the name. There is no buy or download path; the page closes on an artist video from Wix Playground.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "navigation",
+      "variant": "toc-drawer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "corporate, tidy",
+        "mobile": "adapts"
+      },
+      "look": "WIX logo top-left and a hamburger icon top-right on the hero; the menu lists Introduction, Typetester, Glyphs, Design features, Examples, Signs, Philosophy; attached to the hero, not cut as a block",
+      "feel": "Unobtrusive",
+      "ux": "The burger opens a chapter menu; closed state only in the capture",
+      "learn": "Numbered chapters in the page pair well with a menu listing them by the same names",
+      "reconstruction": {
+        "layout": "Fixed header ~70px, logo 26px from left, icon 26px from right",
+        "typography": "Logo wordmark ~18px bold",
+        "palette": [
+          "#000000"
+        ],
+        "behaviour": "Open state not captured",
+        "content": "Section names",
+        "assets": "Wix logo"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "kinetic-type",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "playful, precise, corporate",
+        "mobile": "adapts",
+        "carrier": "motion",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Big orange rounded card on lilac; a thin blue Bézier line with handles loops through it, wrapping into 'Madefor' letters as it goes, while small words ride along the line",
+      "feel": "A pen drawing the brand in one movement",
+      "ux": "Loops: flat line with four labels, loops grow, the word is revealed inside them, line straightens, name fully shown, wipes away",
+      "learn": "One line tying the labels and the letters together shows a typeface's construction and table of contents in a single loop",
+      "reconstruction": {
+        "layout": "Lilac 1440×900; card inset 45px sides, top 90px, radius ~130px, about 1350×800, cropped below the fold on capture",
+        "typography": "'Madefor' ~210px Madefor Display Regular, black, centred; path text ~12px",
+        "palette": [
+          "#fd5532",
+          "#dcd8f9",
+          "#2d5bd7",
+          "#000000"
+        ],
+        "behaviour": "Muted autoplay looping video drawn via WebGL canvas on Wix; ~20s cycle; the line starts as a straight rule, then each letter appears inside a loop",
+        "content": "Path labels: 'Our New Custom Typeface', 'Look Inside', 'Let's Get Acquainted', 'For Your Vision'",
+        "assets": "Vector-animated video",
+        "html": "video + canvas.webglcanvas inside a rounded masked container"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, brand-voice",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'* 01 Introduction' tiny italic tag with asterisk above a six-line 58px paragraph on lilac",
+      "feel": "Calm manifesto",
+      "ux": "Static",
+      "learn": "A big asterisk plus a small numbered italic tag works as a repeating section marker",
+      "reconstruction": {
+        "layout": "Left text block from x=180, ~790px wide; tag above at y≈100",
+        "typography": "Tag ~14px Text Italic underlined, with a 30px asterisk; paragraph ~52px Madefor Display Regular, leading ~1.1",
+        "palette": [
+          "#dad6f6",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "'A versatile typographic toolkit with a distinct personality…'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "labelled-editable-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "pangram",
+        "tone": "inviting, plain",
+        "mobile": "shrinks",
+        "controls": [
+          "text"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "A full-width 3-line text area on faint horizontal rules, with the blinking cursor shown: 'Type something here to play with the font.'; a 'Try it out: tap here' prompt above",
+      "feel": "A sheet of ruled paper",
+      "ux": "Click and type up to 45 characters; no toolbar",
+      "learn": "Ruled lines give an empty tester the feel of writing paper and show the font on a baseline",
+      "reconstruction": {
+        "layout": "Full-bleed white, three lines at ~148px pitch from x=40",
+        "typography": "~125px Madefor Display Regular; rule lines 1px beige/grey at baseline and x-height",
+        "palette": [
+          "#fcfbfb",
+          "#000000",
+          "#d3d2d2"
+        ],
+        "behaviour": "Text area maxlength=45 with a large typed value; a blinking caret shown by default",
+        "content": "A self-referential prompt",
+        "assets": "none",
+        "html": "textarea#textarea_comp-kculwfkx[maxlength=45]"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "clean, friendly",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Left half: blue-ruled 4-column grid of letter pairs (Aa to Zz) with a style dropdown in the first cells; right half: the hovered pair huge on an orange rounded card",
+      "feel": "A friendly card catalogue",
+      "ux": "Hover a pair to preview it; the dropdown changes the style among nine (Text Regular to Display XBold)",
+      "learn": "A pair (Ee) rather than a single glyph in the preview shows caps and lowercase together; style selection lives inside the grid",
+      "reconstruction": {
+        "layout": "Split 50/50; grid 720px, 4 columns of 180px × 115px rows; the select spans two cells; right card ~630×600, radius ~90px",
+        "typography": "Grid pairs ~50px Regular; preview ~220px",
+        "palette": [
+          "#f8fafb",
+          "#6e9bd5",
+          "#fe5531",
+          "#000000"
+        ],
+        "behaviour": "Pairs sit off-centre in their cells in the capture (likely a Wix alignment artefact); hover sets the preview text; select sets font-family of the grid and preview",
+        "content": "A-Z pairs",
+        "assets": "none",
+        "html": "select#collection_comp-kbhwd756 (9 options)"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bold, simple",
+        "mobile": "shrinks",
+        "structure": "list",
+        "samples": "glyph",
+        "interactive": true
+      },
+      "look": "On green: a horizontal strip of huge letter S in each of nine styles, side by side, with tiny captions under each and '← Scroll for more →'",
+      "feel": "A row of swans",
+      "ux": "Sideways drag or scroll along the strip",
+      "learn": "A single characterful letter in a horizontal strip compares styles in less space than a word list",
+      "reconstruction": {
+        "layout": "Full-bleed green 900px; strip of cells ~250px wide starting at the left edge, overflow-x; caption row below; scroll hint centred",
+        "typography": "S at ~320px, Text Regular to Display XBold; captions 10px",
+        "palette": [
+          "#00a678",
+          "#000000"
+        ],
+        "behaviour": "Horizontal overflow; the rounded black card of the next chapter peeks in at the bottom",
+        "content": "One glyph with style names",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "explanatory, graphic",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "italics"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "A black rounded card on green: '02 Design Features' prose at left and a huge white 'a' or 'g' with orange Bézier outline and handles at right; the top of the card is cut by the screen split",
+      "feel": "Technical without being dry",
+      "ux": "The glyph video loops, drawing its curves",
+      "learn": "Use the outline editor's visual language as an image: curves and handles signal craft",
+      "reconstruction": {
+        "layout": "Card 1310×~760 with 130px radius centred in green; text column 500px at x=160; video right half",
+        "typography": "~18px Text Regular white, leading ~1.5",
+        "palette": [
+          "#000000",
+          "#00a678",
+          "#ffffff",
+          "#fe5531"
+        ],
+        "behaviour": "Muted looping video in a WebGL canvas",
+        "content": "'Madefor combines wide geometric proportions, clean curves, and flaring grotesk terminals…'",
+        "assets": "Short glyph-construction video"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "branded, warm",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "carousel"
+      },
+      "look": "'03 Examples': a one-sentence pitch at 58px, then a row of rounded photo cards of packaging, books and a specimen, overflowing both edges",
+      "feel": "Marketing deck slide",
+      "ux": "Cards extend beyond the screen; likely a horizontal scroller",
+      "learn": "Bleeding rounded cards past both edges tells the visitor there's more without arrows",
+      "reconstruction": {
+        "layout": "Sentence at x=75, 3 lines; row of ~390×400 cards with 30px gaps, radius ~50px",
+        "typography": "~55px Display Regular",
+        "palette": [
+          "#f8f8f9",
+          "#000000",
+          "#dae2e9"
+        ],
+        "behaviour": "Scroll behaviour not captured",
+        "content": "'Madefor represents our natural passion to create products that enable millions to pursue their dreams.'",
+        "assets": "Three or more studio photos of branded items"
+      }
+    },
+    {
+      "blocks": [
+        "07",
+        "08"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "iconic, airy",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'04 Symbols': four-by-four grid of big bold symbols on lilac: • ™ © × ^ < § @ & {} ~ → * # ← ?",
+      "feel": "Emoji-size punctuation",
+      "ux": "Static",
+      "learn": "Sixteen symbols at icon size can stand in for a full punctuation table",
+      "reconstruction": {
+        "layout": "4 columns ~250px from x=50, row pitch ~160px, on a 900px lilac band",
+        "typography": "~65px Display XBold, centred in each cell",
+        "palette": [
+          "#dcd8f8",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Selected signs",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "08",
+        "09"
+      ],
+      "type": "interlude",
+      "variant": "full-bleed-image",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "delicate, abstract",
+        "mobile": "adapts"
+      },
+      "look": "Concentric hairline outlines of an 'O'-like form in black on lilac, closing the Symbols section; the top is cut by a screen boundary",
+      "feel": "A breath before the philosophy text",
+      "ux": "Static in the capture; possibly animated",
+      "learn": "Overlaying all weights of one letter as hairlines makes a calm abstract image",
+      "reconstruction": {
+        "layout": "Centred, ~800px wide, ~450px tall",
+        "typography": "No text; outline only",
+        "palette": [
+          "#d9d5f6",
+          "#000000"
+        ],
+        "behaviour": "Not determined",
+        "content": "none",
+        "assets": "Vector outlines"
+      }
+    },
+    {
+      "blocks": [
+        "09",
+        "10"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "reasoned, editorial",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "paragraph",
+        "interactive": true
+      },
+      "look": "'05 The Madefor Philosophy': the same paragraph in several styles in two columns, each with a bold style name and a rotated '16 pt' tag on a vertical rule, ended by a 'More Weights →' rule",
+      "feel": "A style guide page",
+      "ux": "'More Weights' pages through the other styles",
+      "learn": "Use the brand philosophy as the text sample, so a style list also delivers the message",
+      "reconstruction": {
+        "layout": "Two columns ~540px at x=100 and 840; 1px vertical rule at left of each sample; rotated 10px '16 pt' label; rows ~270px",
+        "typography": "Name 16px Bold; sample 16px in each style, leading ~1.5",
+        "palette": [
+          "#fbfbfb",
+          "#000000"
+        ],
+        "behaviour": "Click 'More Weights' shows the next batch (nine styles total in the DOM)",
+        "content": "'A typeface is the visual personification of your voice…'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "10",
+        "11"
+      ],
+      "type": "specimen-showcase",
+      "variant": "kinetic-scenes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "surreal, ornate",
+        "mobile": "adapts",
+        "medium": "video",
+        "sequence": "single"
+      },
+      "look": "Full-width autoplay film framed by black: stained-glass arcs with G's and doves around two blue hands touching, Michelangelo-style; other scenes of the film appear in the mobile capture",
+      "feel": "Baroque brand film",
+      "ux": "Muted looping video",
+      "learn": "A commissioned art film gives a corporate typeface a personality that specimen pages can't",
+      "reconstruction": {
+        "layout": "Full-bleed 16:9 band ~800px tall, black bars above and below",
+        "typography": "Letters appear in the artwork only",
+        "palette": [
+          "#000000",
+          "#d33028",
+          "#2d5bd7",
+          "#f9eeda"
+        ],
+        "behaviour": "Autoplay muted loop in canvas",
+        "content": "Commissioned motion artwork",
+        "assets": "A short 3D-illustrated film"
+      }
+    },
+    {
+      "blocks": [
+        "11",
+        "12"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "corporate, light",
+        "mobile": "adapts",
+        "contains": [
+          "legal",
+          "credits"
+        ]
+      },
+      "look": "Mint band: WIX logo and 'Madefor font' at left; 'Wix Playground celebrates design culture and creative freedom online', copyright and trademark at right",
+      "feel": "Corporate close",
+      "ux": "One link to Wix Playground",
+      "learn": "Attribute the page to a programme rather than to a shop when the font isn't sold",
+      "reconstruction": {
+        "layout": "~270px mint band, two text columns at x=150 and x=540",
+        "typography": "Logo ~24px; text ~12px; link italic underlined",
+        "palette": [
+          "#d7f1e4",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "'Copyright © 2025 Wix.com, Inc.'; 'Wix Madefor is a trademark of Wix.com Inc.'",
+        "assets": "Wix logo"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "13",
+      "reason": "cookie banner, fixed; it sits over the bottom ~110px of every crop"
+    }
+  ],
+  "sequence": [
+    "hero/kinetic-type",
+    "story/large-text-intro",
+    "type-tester/labelled-editable-lines",
+    "glyph-table/glyph-inspector",
+    "family-overview/style-word-grid",
+    "design-details/design-notes",
+    "specimen-showcase/in-use-mockups",
+    "glyph-table/full-grid",
+    "interlude/full-bleed-image",
+    "family-overview/style-word-grid",
+    "specimen-showcase/kinetic-scenes",
+    "footer/slim-legal-bar"
+  ]
+}

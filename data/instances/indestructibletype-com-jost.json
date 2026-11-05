@@ -1,0 +1,392 @@
+{
+  "slug": "indestructibletype-com-jost",
+  "extractedBy": "agent",
+  "summary": "A plain, hand-coded single page for a free, pay-what-you-want Futura-inspired sans. It leads with weight and italic sliders on the editable name, then reads like a narrow justified document with red accents. Its idea is that almost every text on the page is contenteditable, so the page is the tester.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "hero",
+      "variant": "interactive-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "simple, modernist, friendly",
+        "mobile": "adapts",
+        "carrier": "controls",
+        "cta": "none",
+        "rangeShown": "whole-family",
+        "navVisible": true
+      },
+      "look": "'Jost*' at 187px, charcoal with a red asterisk, on pale grey, above two long thin sliders labelled 'weight: book' and 'italic: 0%'. A small 'indestructible type*' link sits above it and was not cut as a block",
+      "feel": "Immediate, unpretentious",
+      "ux": "Drag the sliders to change the name's weight and slant; the labels update with style names and a percentage; the name itself can be retyped",
+      "learn": "Make the wordmark the tester: two sliders directly under a name, labelled in words instead of numbers, explain the variable axes in one gesture",
+      "reconstruction": {
+        "layout": "Centred; foundry link y≈10; name y≈105–375; sliders 1220px wide, x≈110, at y≈535 and y≈620 with labels centred above them; ~970px down to the next block",
+        "typography": "Name 187px Jostvf at wght 400; red asterisk; labels 40px wght 400 in grey; foundry link ~20px",
+        "palette": [
+          "#f2f2f2",
+          "#2c2c2c",
+          "#b22a2e",
+          "#666666"
+        ],
+        "behaviour": "#wght range 100–900 and #italic range 0–200 update font-variation-settings on #title and the #disweight and #disitalic labels (sliders.js is not archived; effect read from labels and ids). The slider fill is a CSS gradient up to the thumb; the thumb is a thin 6px tick",
+        "content": "Family name",
+        "assets": "Variable font",
+        "html": "h1#title[contenteditable] > span.red; h1 > #webice > h2#disweight + input.slider#wght[min=100][max=900] + h2#disitalic + input.slider#italic[min=0][max=200]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "graphic, modernist",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "carousel"
+      },
+      "look": "Full-width dark panel cross-fading between five SVG type compositions; the capture shows a huge 'a' beside 'minimal' stacked in lightening greys, and the video shows a list 'Jost* Hairline! … Black!'",
+      "feel": "Quietly stylish",
+      "ux": "Auto-advances every 5 seconds with a fade, no controls",
+      "learn": "Five full-width SVG posters on a simple timer are the cheapest way to add a display moment to a plain text page",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×576, one SVG at a time, stacked and cross-faded",
+        "typography": "SVG outlines of Jost* at heavy weights, cropped by the frame; tints of grey",
+        "palette": [
+          "#343434",
+          "#4d4d4d",
+          "#6e6e6e",
+          "#ffffff"
+        ],
+        "behaviour": "jQuery: setInterval 5000ms, first child fadeOut, next fadeIn, appendTo #Slideshow",
+        "content": "Words 'minimal', style names, single letters",
+        "assets": "Five SVG posters: Jost/1.svg … 5.svg",
+        "html": "#Slideshow > img×5"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04",
+        "05",
+        "06",
+        "17"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "thoughtful, modest, conversational",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "Centred grey 'about' heading and narrow justified sections under bold tracked caps headings: 'What's new', 'A modern masterpiece', 'A tribute for the digital era', and later 'Always improving'",
+      "feel": "Bookish, careful",
+      "ux": "All editable; red 'reach out' link to GitHub issues",
+      "learn": "Justify a narrow column at very generous leading to feel like a printed booklet, and let the paragraphs be the running-text specimen",
+      "reconstruction": {
+        "layout": "Column 720px centred at x=360; ~70px between sections; first-line indent ~40px; section heading ~60px above",
+        "typography": "Section word 48px Medium grey, lowercase; run-in headings 24px Bold caps tracked ~0.05em; body 24px Light justified, leading 2",
+        "palette": [
+          "#f2f2f2",
+          "#2c2c2c",
+          "#666666",
+          "#b22a2e"
+        ],
+        "behaviour": "contenteditable paragraphs",
+        "content": "Renner, Heinrich Jost, why Jost* departs from Futura; version 3.5 notes",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "07",
+        "08",
+        "09"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "tidy, modular",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "'features' heading, 'Nine weights' paragraph, then a single row of nine 'Aa' pairs from Hairline to Black with small labels",
+      "feel": "Neat, complete",
+      "ux": "Static SVG row",
+      "learn": "Nine 'Aa' pairs in a line show a weight range at a glance and need just 135px of height",
+      "reconstruction": {
+        "layout": "Row 1440 wide, 135px tall (image weight.svg), centred, pairs ~100px wide",
+        "typography": "Aa ~70px Hairline, Thin, Light, Book, Medium, Semi, Bold, Heavy, Black; labels 14px Medium",
+        "palette": [
+          "#f2f2f2",
+          "#2c2c2c"
+        ],
+        "behaviour": "none",
+        "content": "Style names",
+        "assets": "Jost/weight.svg"
+      }
+    },
+    {
+      "blocks": [
+        "10",
+        "11"
+      ],
+      "type": "language-support",
+      "variant": "diacritic-word-wall",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "concise, matter-of-fact",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": true
+      },
+      "look": "'Extended character set' paragraph above three words with small language labels: 'några' (swedish), 'экранизация' (russian), 'año' (spanish)",
+      "feel": "Light, international",
+      "ux": "Static SVG row",
+      "learn": "Three well-chosen words carry coverage: a diacritic, a whole script, and a tilde",
+      "reconstruction": {
+        "layout": "Row ~1000px wide, 135px tall, centred; word labels centred under each",
+        "typography": "Words ~70px Book; labels 14px",
+        "palette": [
+          "#f2f2f2",
+          "#2c2c2c"
+        ],
+        "behaviour": "none",
+        "content": "Swedish, Russian, Spanish words; 'over 50 languages' and interrobang mentioned in prose",
+        "assets": "Jost/char.svg"
+      }
+    },
+    {
+      "blocks": [
+        "12",
+        "13"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "simple, helpful",
+        "mobile": "adapts",
+        "subject": [
+          "alternates",
+          "features"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "'Alternate character sets' text on the single-storey a and tabular figures, then two rows of 0123456789 labelled proportional and tabular",
+      "feel": "Clear, modest",
+      "ux": "Static SVG",
+      "learn": "Set the same numerals side by side with one-word labels: the width difference needs no explanation",
+      "reconstruction": {
+        "layout": "Two lines of figures ~430px each, 80px apart, in a 135px row",
+        "typography": "Figures ~70px Book; labels 14px",
+        "palette": [
+          "#f2f2f2",
+          "#2c2c2c"
+        ],
+        "behaviour": "none",
+        "content": "0123456789 twice",
+        "assets": "Jost/tabs.svg"
+      }
+    },
+    {
+      "blocks": [
+        "14",
+        "15",
+        "16"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "open, plain",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Justified sections 'Variable font technology' ($10 minimum for the variable version, static fonts free, source free on GitHub) and 'Easy web use' with a copyable <link> tag in monospace",
+      "feel": "Open-source, candid",
+      "ux": "Copy the snippet (it is user-select styled); GitHub link in red",
+      "learn": "Explain in plain words why one version costs $10 and the others don't, and offer free hosted CSS",
+      "reconstruction": {
+        "layout": "Same 720px column; snippet 828px wide, centred, 46px tall, grey monospace",
+        "typography": "Body 24px Light justified; code 16px bold grey Courier-like",
+        "palette": [
+          "#f2f2f2",
+          "#2c2c2c",
+          "#b22a2e",
+          "#6e6e6e"
+        ],
+        "behaviour": "h4.selectable selects on click (inferred from the class)",
+        "content": "'<link rel=\"stylesheet\" href=\"https://indestructibletype.com/fonts/Jost.css\" type=\"text/css\" charset=\"utf-8\" />'",
+        "assets": "none",
+        "html": "h4#selectable1.selectable"
+      }
+    },
+    {
+      "blocks": [
+        "18",
+        "19",
+        "20"
+      ],
+      "type": "type-tester",
+      "variant": "in-context-editable",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, invitational",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "in-layout",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "'not convinced?' heading and a paragraph saying most of the website is editable, then a borderless centred text field 'Try me out!'",
+      "feel": "Confident, disarming",
+      "ux": "Click any heading or paragraph on the page and type; the input below is an explicit prompt for those who need one",
+      "learn": "Skip tester UI entirely: contenteditable on the page's own prose lets a visitor retype anything at real text sizes",
+      "reconstruction": {
+        "layout": "Heading centred; 720px paragraph; input spanning 1430px with centred text, 133px tall",
+        "typography": "Heading 48px Medium grey; input 60px Book centred, no border",
+        "palette": [
+          "#f2f2f2",
+          "#2c2c2c"
+        ],
+        "behaviour": "15 elements carry contenteditable=true (h1, h2, p, even a.red links); plain text input lower down",
+        "content": "'You can test Jost* out by editing paragraphs on this webpage… Most of this website is editable!'",
+        "assets": "none",
+        "html": "[contenteditable=true] on h1, h2, p; input[type=text][value='Try me out!']"
+      }
+    },
+    {
+      "blocks": [
+        "21"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "generous, low-pressure",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "'DOWNLOAD' paragraph ('You don't have to pay anything if you don't want to!') and one red button 'download'; the button falls between blocks 21 and 22 and is taken from the video",
+      "feel": "Trusting, relaxed",
+      "ux": "Button to BuyJost.html, a separate pay-what-you-want page",
+      "learn": "Tell people they can come back and pay later: a generous ask works because it removes all pressure",
+      "reconstruction": {
+        "layout": "720px paragraph, then a 120×50px red button centred at y≈7000",
+        "typography": "Body 24px Light justified; button ~20px Bold, tracked, white on red, lowercase",
+        "palette": [
+          "#f2f2f2",
+          "#2c2c2c",
+          "#b22a2e",
+          "#ffffff"
+        ],
+        "behaviour": "Link only",
+        "content": "'You can always come back and pay what you think it's worth.'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "22"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "A single red asterisk above tiny 'created by indestructible type*', centred on pale grey"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/interactive-specimen",
+    "specimen-showcase/poster-series",
+    "story/origin-reference",
+    "family-overview/style-word-grid",
+    "language-support/diacritic-word-wall",
+    "design-details/feature-before-after",
+    "checkout/free-download",
+    "type-tester/in-context-editable",
+    "checkout/link-out-cta",
+    "footer/slim-legal-bar"
+  ]
+}

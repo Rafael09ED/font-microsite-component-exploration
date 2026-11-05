@@ -1,0 +1,692 @@
+{
+  "slug": "dyslexiefont-com",
+  "extractedBy": "agent",
+  "summary": "A commercial WordPress landing page for an accessibility typeface: the whole site is set in the font ('This website is in Dyslexie Font'), in long pastel-coloured sections with big blue caps headings. It is sales-led: three product lines, downloadable sample texts, and heavy social proof (reviews, clients, the V&A, research).",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "21"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed 136px translucent white header: logo at left, nav (Home, Lettertype, Producten, FAQ, Dyslexie, Contact), blue SHOP button, flag language switch, account icon, hamburger. It blurs over content and repeats across the stitched crops; nav labels are in Dutch in an otherwise English capture"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "bold, direct, signage-like",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Three lines 'READ WITH / DYSLEXIE / FONT' in black caps at maximum width on a signal-yellow field",
+      "feel": "Loud, clear, confident",
+      "ux": "Static; the first screen makes a single statement. The yellow field continues into the two following blocks",
+      "learn": "An accessibility font can be sold by its own legibility: a three-word imperative at huge size on a high-contrast field is the demo",
+      "reconstruction": {
+        "layout": "Yellow field 1245px wide in a boxed row (x=98) continuing to full-bleed background; 3 left-aligned lines fill ~660px height, starting at x≈100",
+        "typography": "160px Dyslexie Bold caps, tracked ~0.05em, line height ~1, black",
+        "palette": [
+          "#f8b602",
+          "#040304",
+          "#ffc403"
+        ],
+        "behaviour": "none",
+        "content": "'Read with Dyslexie Font'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "specimen-showcase",
+      "variant": "kinetic-scenes",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "scroll-driven",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, tactile",
+        "mobile": "adapts",
+        "medium": "generative",
+        "sequence": "single"
+      },
+      "look": "A 3D extruded dark lowercase 'd' inside a thin blue arrow ring on yellow; in the mobile capture it is turned so far it reads as a 'p'",
+      "feel": "Playful, explanatory",
+      "ux": "WebGL letter that rotates with scroll (data-mode=scroll) and can also be dragged (cursor grab) or set by keyboard (role=slider); an SVG 'd' is the fallback",
+      "learn": "Turning a 'd' in 3D until it looks like another letter acts out what dyslexic readers report, far better than a sentence could",
+      "reconstruction": {
+        "layout": "Centred 650×650px square stage in the yellow band (717px tall)",
+        "typography": "Letter is a 3D extrusion of the font's d, ~350px; fallback SVG text 350px Helvetica",
+        "palette": [
+          "#f8b602",
+          "#2b2c35",
+          "#205ceb",
+          "#f5da8b"
+        ],
+        "behaviour": "Custom raw WebGL (no library), rotation tied to page scroll, with pointer drag; touch-action pan-y; aria-valuenow 0–100 updates with the rotation; blue arrows show the direction",
+        "content": "The single letter d",
+        "assets": "Extruded glyph mesh, written in inline WebGL",
+        "html": ".df-turn[data-mode=scroll][data-mouse=true] > .df-turn__stage[role=slider][tabindex=0] > canvas.df-turn__art + svg.df-turn__fallback"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "earnest, plain",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Dark 28px paragraph on the same yellow, ending with a small 'This website is in Dyslexie Font'",
+      "feel": "Sincere, direct",
+      "ux": "static",
+      "learn": "The line 'This website is in Dyslexie Font' turns every later paragraph into a live specimen",
+      "reconstruction": {
+        "layout": "Column ~640px wide starting at x≈300; note centred at the bottom; 540px tall",
+        "typography": "28px Regular, leading ~1.4, black; note 14px centred",
+        "palette": [
+          "#f8b602",
+          "#111111"
+        ],
+        "behaviour": "none",
+        "content": "'Dyslexie Font revolutionizes readability for individuals with dyslexia… Designed by Christian Boer, dyslexic himself.'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "05"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "practical, reassuring",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "series"
+      },
+      "look": "A white card 'USE DYSLEXIE FONT LIKE ANY OTHER TYPEFACE' with Office, iWork and Adobe icons over a pale yellow enlarged document with a font menu showing Dyslexie selected, then an illustration of desktop and laptop screens with Word open",
+      "feel": "Everyday, compatible",
+      "ux": "'How Does It Work' button leads to the font files page; link to the product page",
+      "learn": "Show the font inside the familiar font dropdown: it answers 'will it work in my software?' without a word",
+      "reconstruction": {
+        "layout": "Full-column screenshot background in 04 (492px) with a white rounded card ~620×400px centred over it; 05 is a 532px image of devices on cream",
+        "typography": "Card heading 30px Bold caps blue; button 18px; screenshot text in Dyslexie ~20px",
+        "palette": [
+          "#fdfdfc",
+          "#fae9b0",
+          "#0a4f9c",
+          "#cbd7d5"
+        ],
+        "behaviour": "none",
+        "content": "Word document about dyslexia, app icon set",
+        "assets": "Application icons, screenshot of a word processor, device illustration"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "clear, purposeful",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'DYSLEXIA FRIENDLY FONT' in big blue caps, a paragraph on legibility, and two buttons (outlined Typeface Page, filled Get Dyslexie Font)",
+      "feel": "Calm, informative",
+      "ux": "Links to the typeface page and registration",
+      "learn": "State the design rationale in reader terms (mental effort, fluency) and put the buy button directly after the claim",
+      "reconstruction": {
+        "layout": "Column ~640px at x≈300 on cream, 918px tall; heading 3 lines then paragraph then button row",
+        "typography": "Heading 90px Bold caps blue, tight leading; body 24px Regular blue, leading ~1.5; buttons 18px",
+        "palette": [
+          "#f9f7e8",
+          "#0a4f9c",
+          "#ffffff"
+        ],
+        "behaviour": "Sticky header blurs over the text",
+        "content": "'Designed by a dyslexic… heavier bottoms and wider openings for improved readability'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "07",
+        "08"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "salesy, friendly",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "'USING DYSLEXIE FONT' intro with a glossy logo and icons, then three pastel columns (Chrome Extension, Dyslexie Font, Dyslexia Workspace), each with subhead, screenshot, device icons, and Read More and Get Started buttons",
+      "feel": "Product line-up, clear options",
+      "ux": "Each column has an outlined and a filled button; devices show where it runs",
+      "learn": "Sell by context rather than by licence: columns answer 'where do you want to read?', with device icons doing the comparison",
+      "reconstruction": {
+        "layout": "07: 528px two-column intro on white. 08: full-bleed 3 equal 480px pastel columns, 768px tall: heading, subhead, screenshot ~250px wide, device icons, button row",
+        "typography": "Column heading 45px Bold caps blue; subhead 30px Bold caps; buttons 18px; icon labels 14px",
+        "palette": [
+          "#e9f6f2",
+          "#f6ecd0",
+          "#d7e9ee",
+          "#0a4f9c",
+          "#0088e6"
+        ],
+        "behaviour": "Buttons link to the product pages and my.dyslexiefont.com registration",
+        "content": "Three product names and short subheads",
+        "assets": "3D logo render, screenshots, device icons"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "practical, low-priced",
+        "mobile": "adapts",
+        "destination": "app-store",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": true,
+        "free": false
+      },
+      "look": "'CHROME EXTENSION' block with explanatory text, a laptop screenshot on a yellow-to-purple panel, and blue Full Version and green Free Version buttons",
+      "feel": "Friendly, app-like",
+      "ux": "Two buttons; copy states a free tier and the full version at 12 dollars a year",
+      "learn": "State a tiny yearly price in plain prose beside a free option, and the decision barely needs a pricing table",
+      "reconstruction": {
+        "layout": "Full-bleed 991px on pale mint; text column ~420px at x≈270; image ~600×400px at right, with a small reCAPTCHA badge in the corner",
+        "typography": "Heading 50px Bold caps blue; body 22px; buttons 18px",
+        "palette": [
+          "#e6f7f6",
+          "#d1e8ee",
+          "#0a4f9c",
+          "#0088e6",
+          "#55aa33"
+        ],
+        "behaviour": "none",
+        "content": "'Adjust the font size spacing interline and color and use the immersive reader…'",
+        "assets": "Laptop mockup with a page in Dyslexie"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "specimen-showcase",
+      "variant": "use-case-samples",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "educational, generous",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "series"
+      },
+      "look": "'EXAMPLE TEXT' with four stacked blue PDF buttons by reader age (5–7, 8–15, 16–18, adults), a green 'Try out Chrome Extension', and an illustrated stack of books",
+      "feel": "Teacherly, helpful",
+      "ux": "Each button downloads a PDF sample in the font",
+      "learn": "Offer sample texts by reader age: sharing is the conversion step, because the buyer is often a parent or teacher",
+      "reconstruction": {
+        "layout": "1033px tall on pale blue; text and buttons at left, ~620px; book image at right ~400px",
+        "typography": "Heading 60px Bold caps blue; body 22px; buttons 18px white on blue",
+        "palette": [
+          "#d9e3f8",
+          "#eceff8",
+          "#0a4f9c",
+          "#0088e6",
+          "#55aa33"
+        ],
+        "behaviour": "none",
+        "content": "Age-graded PDFs for download",
+        "assets": "Book stack illustration; 4 PDFs"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "practical, inviting",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Promo: 'DO YOU HAVE A WORDPRESS SITE? Then use our new Dyslexia Font plugin for free now.' beside a screenshot of the plugin's settings panel on a bright blue band",
+      "feel": "Helpful cross-sell",
+      "ux": "Button 'Go to the PLUGIN'",
+      "learn": "Show the settings panel: it signals the product's control in one image",
+      "reconstruction": {
+        "layout": "534px; centred text ~420px; blue diagonal band at the bottom; settings panel screenshot pinned at the right edge",
+        "typography": "Heading 30px Bold caps blue; body 30px Regular; button 18px",
+        "palette": [
+          "#f9f4f1",
+          "#019ee4",
+          "#0a4f9c"
+        ],
+        "behaviour": "none",
+        "content": "Plugin offer",
+        "assets": "Plugin panel screenshot with size, spacing and colour controls"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "testimonials",
+      "variant": "award-logo-strip",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "prestigious, proud",
+        "mobile": "adapts"
+      },
+      "look": "Huge blue V&A logo on a tan wall of pale letters, with 'VICTORIA & ALBERT MUSEUM' and a paragraph on the first sketches entering the museum's collection",
+      "feel": "Institutional pride",
+      "ux": "static",
+      "learn": "A single museum credit is worth more than a row of badges: give it a whole screen",
+      "reconstruction": {
+        "layout": "902px; logo ~300px tall at left; text ~520px at right; background a pale pattern of letters on tan",
+        "typography": "Heading 60px Bold caps blue; body 24px blue",
+        "palette": [
+          "#cdb98a",
+          "#b2ab8b",
+          "#034e9d"
+        ],
+        "behaviour": "none",
+        "content": "True provenance statement about the V&A collection",
+        "assets": "V&A logo, letter-pattern background"
+      }
+    },
+    {
+      "blocks": [
+        "13",
+        "14"
+      ],
+      "type": "testimonials",
+      "variant": "quote-columns",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "heartfelt, emotional",
+        "mobile": "adapts"
+      },
+      "look": "'REVIEWS' with a horizontal row of gold laurel wreaths around short quotes and five stars, then five columns of long user e-mails in small blue text",
+      "feel": "Moving, human",
+      "ux": "The wreath row runs off the right edge and appears to scroll sideways; the emails below are static",
+      "learn": "Quote complete personal emails rather than one-liners: 'I was silently crying' does more than any star rating, and the laurels supply the skim layer",
+      "reconstruction": {
+        "layout": "13: text ~430px at left, wreath row at right ~200px each, 724px tall. 14: five equal columns ~200px wide, 598px tall",
+        "typography": "Heading 60px Bold caps blue; quote in wreath 18px caps; email text 18px Regular blue, leading ~1.3",
+        "palette": [
+          "#f9f7e8",
+          "#f3ecda",
+          "#0a4f9c",
+          "#d89a3a"
+        ],
+        "behaviour": "Wreaths likely a slow marquee (cut off at the edge in both desktop and mobile)",
+        "content": "'It truly makes a difference', 'It doesn't hurt when I read this'; full emails beginning 'I'm 42 years old…'",
+        "assets": "Laurel wreath and star graphics"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "testimonials",
+      "variant": "embedded-social-posts",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "public, media-savvy",
+        "mobile": "adapts"
+      },
+      "look": "An embedded Instagram reel (BBC Radio 2, Alex Scott on presenting with dyslexia) beside the heading 'THE DIFFERENCE DYSLEXIE FONT MAKES FOR PEOPLE WITH DYSLEXIA'",
+      "feel": "Mainstream validation",
+      "ux": "Play on the embed; link to Instagram",
+      "learn": "Embed a recognisable public figure's post, not a quote: the platform's chrome is part of the proof",
+      "reconstruction": {
+        "layout": "851px; embed ~460×700px at left; heading at right, ~640px",
+        "typography": "Heading 30px Bold caps blue",
+        "palette": [
+          "#f8f7f4",
+          "#070707",
+          "#0a4f9c"
+        ],
+        "behaviour": "Instagram iframe",
+        "content": "BBC Radio 2 reel",
+        "assets": "iframe.instagram-media"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "testimonials",
+      "variant": "award-logo-strip",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "credible, corporate",
+        "mobile": "adapts"
+      },
+      "look": "'CLIENTS' heading above two rows of logos: Government of the Netherlands, NOS, US State Department, DVSA, RDW, Shell, Engie, Google, Penguin, Maastricht University",
+      "feel": "Trustworthy, established",
+      "ux": "static",
+      "learn": "Lead with government and education logos, which say the font is approved, before commercial ones",
+      "reconstruction": {
+        "layout": "577px; centred heading; 2 rows of 5 logos, ~180px cells",
+        "typography": "Heading 60px Bold caps blue",
+        "palette": [
+          "#fefefe",
+          "#0a4f9c"
+        ],
+        "behaviour": "none",
+        "content": "Ten client logos",
+        "assets": "Client logos in full colour"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "story",
+      "variant": "article-teaser",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "evidence-based, measured",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "illustration"
+        ],
+        "length": "short"
+      },
+      "look": "'READ RESEARCH' on pale mint, paragraph, outlined 'Research' button, and an illustration of a clipboard and magnifying glass",
+      "feel": "Serious, tidy",
+      "ux": "Button to the research page",
+      "learn": "Put a one-paragraph evidence claim on the sales page and the citations one click away",
+      "reconstruction": {
+        "layout": "815px; text ~430px at left; illustration at right ~430px, tilted",
+        "typography": "Heading 60px Bold caps blue; body 22px; button 18px outlined",
+        "palette": [
+          "#e9f5f0",
+          "#d6e8e9",
+          "#0a4f9c"
+        ],
+        "behaviour": "none",
+        "content": "'Research within the dyslexia community consistently shows…'",
+        "assets": "3D-style clipboard illustration"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "story",
+      "variant": "article-teaser",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "caring, informative",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "illustration"
+        ],
+        "length": "short"
+      },
+      "look": "'ABOUT DYSLEXIA' on lavender with 3D brain renders, a paragraph on neurodiversity, and a 'Dyslexia' button",
+      "feel": "Warm, educational",
+      "ux": "Button to the Dyslexia page",
+      "learn": "Give the audience's condition its own teaser, not only the product",
+      "reconstruction": {
+        "layout": "727px; brains at left ~600px; text ~430px at right",
+        "typography": "Heading 60px Bold caps blue; body 22px",
+        "palette": [
+          "#e3d4f4",
+          "#d0caeb",
+          "#0a4f9c"
+        ],
+        "behaviour": "none",
+        "content": "'Dyslexia is part of the neurodiversity spectrum…'",
+        "assets": "3D brain render"
+      }
+    },
+    {
+      "blocks": [
+        "19"
+      ],
+      "type": "story",
+      "variant": "article-teaser",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "personal, founder-led",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "'ABOUT US' on pale pink: a short founder paragraph, 'About us' button, and an image of a TEDx talk 'How a font can help' with a microphone render",
+      "feel": "Credible, founder-led",
+      "ux": "Button to the About page",
+      "learn": "A thumbnail of a TEDx stage is a compact credential for the designer",
+      "reconstruction": {
+        "layout": "724px; text ~430px at left; image at right, cut by the edge",
+        "typography": "Heading 60px Bold caps blue; body 22px",
+        "palette": [
+          "#efdde9",
+          "#f3eaf0",
+          "#0a4f9c"
+        ],
+        "behaviour": "none",
+        "content": "'Dyslexie font is a special font designed by Christian Boer, who has dyslexia himself.'",
+        "assets": "TEDx still, microphone render"
+      }
+    },
+    {
+      "blocks": [
+        "20"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "practical, civic",
+        "mobile": "adapts",
+        "contains": [
+          "contact",
+          "socials",
+          "sign-off",
+          "credits"
+        ]
+      },
+      "look": "Pale footer: two logos, yellow pills for Home, Typeface, Solutions, Contact, a blue 'Get me the typeface' pill, the Dyslexia Week logo with a paragraph on the HOI Foundation, and a contact column with e-mail, phones in three countries and social links",
+      "feel": "Reachable, civic-minded",
+      "ux": "Links and phone numbers",
+      "learn": "Close on a cause (Dyslexia Week) beside the contact details",
+      "reconstruction": {
+        "layout": "Full-bleed 938px; columns at x≈300 and x≈990; pills row with a yellow rule under it",
+        "typography": "Headers 20px Bold caps; body 20px Regular blue; links cyan",
+        "palette": [
+          "#f6f6f2",
+          "#0a4f9c",
+          "#f8b602",
+          "#28b6c8"
+        ],
+        "behaviour": "Sticky header overlaps part of the crop",
+        "content": "Week of Dyslexia, NL/UK/USA phone numbers",
+        "assets": "Logos"
+      }
+    },
+    {
+      "blocks": [
+        "22"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed bottom bar captured off-position: 'Dyslexie Font is patented. Copyright © 2024 Dyslexie Font B.V. All rights reserved. Design by Dyslexie Font'; seen at the page end in the video"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "specimen-showcase/kinetic-scenes",
+    "story/large-text-intro",
+    "specimen-showcase/in-use-mockups",
+    "story/design-brief",
+    "checkout/link-out-cta",
+    "specimen-showcase/use-case-samples",
+    "checkout/link-out-cta",
+    "testimonials/award-logo-strip",
+    "testimonials/quote-columns",
+    "testimonials/embedded-social-posts",
+    "testimonials/award-logo-strip",
+    "story/article-teaser",
+    "footer/link-columns",
+    "footer/slim-legal-bar"
+  ]
+}

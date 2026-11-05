@@ -1,0 +1,410 @@
+{
+  "slug": "stencil-gothic-com",
+  "extractedBy": "agent",
+  "summary": "A revival site for an 1885 patented stencil face: a narrow, serif-set scholarly article (history, the full patent text, a bibliography) in Dapifer and Mercantile, punctuated by two editable three-line lockups in the display face. A small fixed scroll-spy and a minimal on-page price selector with EULA gate frame it.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "typeset-page",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "Victorian, wry, scholarly",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "scroll",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Centred Victorian title stack on cream: small ornament, 'STENCIL-GOTHIC', a much larger 'OXYMORON', 'APTITUDE 1885', and a stencil arrow pointing down",
+      "feel": "A 19th-century specimen sheet that is quietly joking",
+      "ux": "Arrow suggests scrolling; a fixed nav and a logo stamp sit in the bottom corners",
+      "learn": "Pick words that describe the design as period specimen copy: 'Oxymoron Aptitude 1885' is a joke, a date and a brief in three lines",
+      "reconstruction": {
+        "layout": "Full width, ~704px tall (78vh); centred stack; ornament rule ~120px wide at y≈110; lines at 2:5:2 scale; arrow at y≈640. First paragraph of the essay peeks at the fold",
+        "typography": "'Stencil-Gothic' and 'Aptitude 1885': ~64px; 'Oxymoron': 160px; all Stencil-Gothic Regular (caps-only font), #1d1c1a-ish on cream, centred",
+        "palette": [
+          "#fdfaf8",
+          "#2a2927",
+          "#92918f"
+        ],
+        "behaviour": "none",
+        "content": "Period-style specimen copy",
+        "assets": "Ornament rule (font glyph or image), round logo stamp bottom right",
+        "html": "header > p.sten_goth.medium_size, h1.sten_goth.small_size, p.sten_goth.big_size.centered, p.small_size.extra, p '↓'"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "navigation",
+      "variant": "scroll-spy-nav",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "discreet, museum-label",
+        "mobile": "adapts"
+      },
+      "look": "Never cut as a block (fixed): bottom-left stack ABOUT / RESEARCH / REVIVAL / PURCHASE in tiny tracked caps with the active item reversed black on cream, and a vertical rule at left; visible in stitched crops 03, 05 and 08",
+      "feel": "Discreet",
+      "ux": "Active item follows scroll; clicking jumps to the section",
+      "learn": "Tiny fixed nav in a corner keeps a long article scholarly; a reversed bar is enough to mark the current chapter",
+      "reconstruction": {
+        "layout": "Fixed bottom-left, ~20px from edges, ~70×60px; four stacked items with a 1px vertical rule at the left",
+        "typography": "~10px Mercantile caps, tracked; active item white on black",
+        "palette": [
+          "#fdfaf8",
+          "#000000",
+          "#92918f"
+        ],
+        "behaviour": "jQuery scroll handler sets li.active by the sections' tops, using topMenuHeight offset",
+        "content": "Four chapter names",
+        "assets": "none",
+        "html": "nav > ul#menu_list > li.active > a[href=#research]"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "scholarly, dry wit",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "A narrow serif article whose last sentence runs into a display line: '…all the sparkle of VICTORIAN ECLECTICISM.' in the stencil face",
+      "feel": "Essayistic",
+      "ux": "static",
+      "learn": "End a text paragraph in the display face: the sentence finishes as a specimen",
+      "reconstruction": {
+        "layout": "638px column centred at x=401, ~800px tall; closing display heading centred",
+        "typography": "Body 21px Dapifer, leading ~1.43, left aligned; closing 'Victorian Eclecticism.' ~64px Stencil-Gothic, centred",
+        "palette": [
+          "#f9f7f4",
+          "#2a2927"
+        ],
+        "behaviour": "none",
+        "content": "Real essay on stencils as skeuomorph ('bare of its technical necessity they turn into pure patina')",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "03"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "archival, tactile",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "archival",
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "'HISTORICAL RESEARCH' then a paragraph, opening on a full-bleed five-slide carousel of macro photographs of the original 1885 specimen book pages",
+      "feel": "Handling the real book",
+      "ux": "Dots below the photo and direction arrows move through five slides",
+      "learn": "Shoot the source specimen as an object, with its page curl and paper edge, not as a flat scan: it proves the history and makes the type feel physical",
+      "reconstruction": {
+        "layout": "Text in the 638px column, 407px; then full-bleed slider 1440×~840px with ~16px cream above; paging dots centred below",
+        "typography": "Heading 26px Mercantile Bold caps, tracked ~0.15em, centred; body 21px Dapifer",
+        "palette": [
+          "#fcf9f6",
+          "#2a2927",
+          "#0d090b",
+          "#d5c4b8"
+        ],
+        "behaviour": "FlexSlider: horizontal slide with looping clones, draggable, dots and prev/next",
+        "content": "Names of early specimen books, sizes and founders",
+        "assets": "Five macro photographs of the specimen book, full width",
+        "html": ".flexslider > .flex-viewport > ul.slides > li > img; ol.flex-control-nav"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "legalese, poetic",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "archival"
+        ],
+        "length": "medium"
+      },
+      "look": "'THE PATENT': a short introduction, then the 1885 patent declaration typeset as an indented document ('To all whom it may concern:'… 'I claim as new—' … signed JOHN WEST)",
+      "feel": "Found document",
+      "ux": "static",
+      "learn": "Reproduce a primary source in full, set with its original indents and signatures: its language does the storytelling",
+      "reconstruction": {
+        "layout": "638px column, ~1088px tall; indented paragraphs, right-indented signature",
+        "typography": "Heading 26px Mercantile caps tracked; body 21px Dapifer; italic opening",
+        "palette": [
+          "#faf8f4",
+          "#2a2927"
+        ],
+        "behaviour": "none",
+        "content": "Full US-Patent No. 15,965 text",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "05",
+        "08"
+      ],
+      "type": "type-tester",
+      "variant": "labelled-editable-lines",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "witty, poster-like",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "Two centred three-line lockups interrupting the essay ('Quizzicality of / John West, / Hybrid Expert' and 'South Brooklyn / 123 Test / Flower Market'), middle line larger, with no visible controls",
+      "feel": "Letterpress poster; a hidden affordance",
+      "ux": "Click anywhere and type (the whole section is contenteditable); the 'Test' in the second lockup is the only hint",
+      "learn": "Plant the word 'Test' in an editable lockup: the sample is its own instruction, and the three-size hierarchy keeps anything typed looking composed",
+      "reconstruction": {
+        "layout": "Centred, 1296px wide; 400–448px tall, ~190px margins around; three lines at small / medium-or-big / small",
+        "typography": "Stencil-Gothic Regular caps; small ~64px; medium ~120px (first) or big ~160px (second); #2a2927",
+        "palette": [
+          "#fcfaf8",
+          "#2a2927"
+        ],
+        "behaviour": "section[contenteditable] with spellcheck off; line sizes are per article element, so typed text keeps the line's size; no fit-to-width",
+        "content": "Period-style phrases that nod to the designer and place",
+        "assets": "none",
+        "html": "section.testing_text.sten_goth[contenteditable] > article.small_size | .medium_size"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "bibliographic",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'RESOURCES': a dash-led bibliography grouped by the names the face was sold under ('Stencil-Gothic', 'Cleft-Gothic', other references), with italic book titles in grey",
+      "feel": "A footnote apparatus",
+      "ux": "Patent link to Google Patents; the asterisk in the essay jumps here",
+      "learn": "Group a bibliography by the historical names of the typeface, so the list itself tells the story",
+      "reconstruction": {
+        "layout": "638px column, ~784px tall; hanging em-dash indent",
+        "typography": "Section heads 26px and ~20px Mercantile caps tracked, centred; entries ~16px Dapifer grey #777 with italics",
+        "palette": [
+          "#faf7f4",
+          "#2a2927",
+          "#777775"
+        ],
+        "behaviour": "Anchor #ProfKindel from the essay's footnote",
+        "content": "Real sources: specimen books 1888–1893, Solo, Walters, Kindel in Eye",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "concise, thoughtful",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'DIGITAL REVIVAL': three paragraphs on the digitisation decisions, closed by a black 'DOWNLOAD A PDF SPECIMEN' button",
+      "feel": "Short, reasoned",
+      "ux": "Button downloads the PDF",
+      "learn": "Keep the revival rationale short and give the reader the PDF specimen right after it",
+      "reconstruction": {
+        "layout": "638px column, ~666px; button centred, ~360×32px",
+        "typography": "Heading 26px Mercantile caps tracked; body 21px Dapifer; button ~20px Mercantile Bold tracked, cream on black",
+        "palette": [
+          "#faf8f5",
+          "#2a2927",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Real design notes: crude main strokes vs soft flourishes, three optical sizes, caps-only",
+        "assets": "PDF specimen"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "checkout",
+      "variant": "on-page-cart",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, small-shop",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": false,
+        "free": false
+      },
+      "look": "Paragraph on licensing, then a single native select of licence scope, a large 'Eur 23,—' and a EULA checkbox; the 'Checkout via Pay-pal' link is hidden until it's ticked",
+      "feel": "Shop counter simplicity",
+      "ux": "Select changes the price (23, 41, 59); ticking the EULA reveals the PayPal link to FetchApp",
+      "learn": "One select, one price, one tick: a one-product checkout needs no cart. Gating the pay link on the EULA makes the licence the last thing read",
+      "reconstruction": {
+        "layout": "638px column, ~597px; centred stack: full-width paragraph, select ~480px with 2px black border, price, checkbox + two-line label",
+        "typography": "Heading 26px Mercantile caps tracked; body 21px Dapifer; price 32px Dapifer; select in system or Dapifer; EULA link red",
+        "palette": [
+          "#fdfaf7",
+          "#2a2927",
+          "#e22a2a"
+        ],
+        "behaviour": "#prizelist change → updates #prize text (1–5 computers Eur 23; 6–11 Eur 41; 12–17 Eur 59; all with 1 domain incl. subdomains). input#c1 onclick eula_ok() shows h3#download, hidden by default",
+        "content": "Real terms: OpenType and webfont formats",
+        "assets": "none",
+        "html": "select#prizelist, p#prize, input#c1, h3#download > a#payment (stencil-gothic.fetchapp.com)"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "gracious, old-fashioned",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "contact",
+          "socials",
+          "legal"
+        ]
+      },
+      "look": "'COLOPHON': centred thank-yous, fonts used and contact lines, then (c) 2014 and the ornament rule from the hero",
+      "feel": "A book's last page",
+      "ux": "Grey text links to e-mail and Twitter",
+      "learn": "Close with the hero's ornament so the page reads as a bound object",
+      "reconstruction": {
+        "layout": "638px column, ~827px tall, all centred; ornament ~120px wide near the bottom",
+        "typography": "Heading 26px Mercantile caps tracked; body 21px Dapifer centred; links grey",
+        "palette": [
+          "#fcf9f6",
+          "#2a2927",
+          "#7d7c78"
+        ],
+        "behaviour": "none",
+        "content": "Thanks to Eric Kindel and Frode Bo Helland; set in Dapifer and Mercantile Micro; contacts for Johannes Lang and Ellmer Stefan",
+        "assets": "Ornament rule"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/typeset-page",
+    "story/essay",
+    "story/origin-reference",
+    "type-tester/labelled-editable-lines",
+    "story/origin-reference",
+    "story/essay",
+    "checkout/on-page-cart",
+    "footer/credits-colophon"
+  ]
+}

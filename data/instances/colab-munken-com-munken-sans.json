@@ -1,0 +1,418 @@
+{
+  "slug": "colab-munken-com-munken-sans",
+  "extractedBy": "agent",
+  "summary": "A strict black-and-white brand page for a paper maker's corporate sans: a WebGL hero of real paper sheets, then large-text story, a video of sliced letterforms, a tidy tester and a character set with a hover preview. Its special quality is how little there is: paper-white, one typeface, generous space.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "material-photo",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "tactile, Scandinavian, calm",
+        "mobile": "adapts",
+        "carrier": "photo",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Full-screen grey paper still life: a blank white sheet tilted over a printed sheet with a rotated manifesto and 'This is Munken / CoLab / Sans'; the giant 'A TILL Ö' peeks up from below the fold. A cookie bar covers the bottom of the capture",
+      "feel": "Quiet, material, considered",
+      "ux": "No CTA. The sheets are rendered in a WebGL canvas that fades in on load (blank until t≈1.5s, then settles); scrolling leaves it behind",
+      "learn": "For a paper brand, render the hero as lit paper with real shadows and displacement: the font's first appearance is as ink on the client's product",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×900 canvas, image inset from x≈150 to the right edge and from y≈70; printed sheet ~340×560px right of centre, rotated ~4°, its text turned 90°; blank sheet ~430px square rotated about 35° overlapping it; fixed logo bar above",
+        "typography": "Printed text ~20px Munken Sans Regular, rotated, sentence case; 3-line sign-off in the corner",
+        "palette": [
+          "#f3f2f5",
+          "#d0cdcb",
+          "#b5b4b3",
+          "#111111"
+        ],
+        "behaviour": "WebGL scene built from textures (background, paper, shadow and displacement maps listed in data-textures); .l-paper-hero--anim plays a settle-in on load. Whether it reacts to the pointer is not visible in the capture",
+        "content": "'Collaboration, diversity and encounters form the roots of creativity…', 'This is Munken, This is Munken CoLab, This is Munken Sans'",
+        "assets": "Photographed background, paper textures with shadow and displacement maps",
+        "html": ".l-paper-hero.js-paper-hero.l-paper-hero--anim[data-textures] > canvas"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "White top bar: round logo left, tracked MUNKEN centre, hamburger right. On scroll only the hamburger stays fixed at the right edge, so it repeats across the stitched crops; a white cookie bar also repeats"
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, institutional",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "'This is Munken' heading, three short paragraphs in large Regular on white, broken by a giant full-width line 'A TILL Ö'. The black rectangle over the heading and the cookie bars are capture artefacts",
+      "feel": "Calm, plainspoken",
+      "ux": "One e-mail link for licensing: service@lineto.com",
+      "learn": "Let one giant line ('A till Ö', Swedish for A to Z) interrupt the prose: it nods to the Swedish road-sign origin and shows the display size in one stroke",
+      "reconstruction": {
+        "layout": "Single centred column ~820px wide from x≈312; heading at y≈240; first paragraph; ~400px gap; the line 'A TILL Ö' spans 1300px at y≈900 in the block; ~300px gap; second text block; ~1850px tall overall",
+        "typography": "Heading ~40px Medium centred; paragraphs ~32px Regular, leading ~1.25, left aligned; giant line ~560px Regular caps",
+        "palette": [
+          "#fdfdfd",
+          "#000000",
+          "#d6d6d6"
+        ],
+        "behaviour": "none detected; the giant line is static in the video",
+        "content": "History: Munken's 2020 rebrand, inspired by Kåge Gustafson's Tratex for Swedish road signs, developed with Lineto; three weights",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "specimen-showcase",
+      "variant": "kinetic-scenes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "graphic, fragmented, bold",
+        "mobile": "adapts",
+        "medium": "video",
+        "sequence": "single"
+      },
+      "look": "Full-width looping muted video (cube_2.mp4) of huge black letter fragments on white, sliced and shifted in bands, on the faces of what the file name suggests is a cube",
+      "feel": "Op-art, restless",
+      "ux": "Autoplays lazily, loops, no controls",
+      "learn": "Pure black shapes cropped from huge letters are recognisably the typeface: it is a pause in a text page that still shows nothing but type",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×810 (16:9) with no margins",
+        "typography": "Munken Sans letter fragments, cropped far beyond the viewport",
+        "palette": [
+          "#fdfdfd",
+          "#040404"
+        ],
+        "behaviour": "Looping muted video; slices shift; lazy-loaded via .video-lazyloaded",
+        "content": "No readable text",
+        "assets": "Rendered MP4 of fragmented letterforms",
+        "html": "figure.c-video.js-video > .c-video__wrapper--transparent > video[muted][playsinline][loop]"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "tidy, minimal, inviting",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "size",
+          "leading",
+          "tracking",
+          "style-select",
+          "alignment"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "Pale grey band with one compact control group: weight dropdown, case and alignment icons, reset, then three thin sliders, above a single centred 'Try it!' on a hairline",
+      "feel": "Polite, Swiss-tidy",
+      "ux": "Click and type (placeholder 'Try it!'); select weight; toggle uppercase/lowercase; align; drag size 8–280, line height 80–180%, spacing −0.1–0.2em; reset",
+      "learn": "Store all settings as CSS variables on the editable element: a clear state model that keeps a tester down to a few dozen lines",
+      "reconstruction": {
+        "layout": "Band 1440×688 on #f6f6f6; content column 770px centred; row 1 at y≈130: 300px select, then icon groups spaced across; row 2 at y≈215: 3 equal sliders, ~230px wide with ~35px gaps; sample at y≈350 centred, hairline under it at y≈525",
+        "typography": "Sample 120px Regular, centred, line height 120%; select 14px; slider labels 12px Regular",
+        "palette": [
+          "#f6f6f6",
+          "#000000",
+          "#d4d4d4"
+        ],
+        "behaviour": "Each input sets a CSS custom property on the sample (--weight, --case, --align, --size, --lineheight, --spacing); reset restores defaults; ranges: size 8–280 step 1, line height 80–180 step 5, spacing −0.1–0.2 step 0.01",
+        "content": "Empty field with the placeholder 'Try it!'",
+        "assets": "Small 22px icons for case and alignment",
+        "html": ".l-type-tester.js-type-tester > .l-type-tester__controls > select[name=weight] (normal, bold, 900), fieldset.c-toggle-group radios case/align, .js-type-tester-reset, input.c-input__range ×3; [contenteditable][data-placeholder='Try it!'][style='--weight…']"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "precise, minimal",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "Three giant M's in Regular, Medium and Bold, each with a small three-line label 'This is Munken Sans [weight]'",
+      "feel": "Spare, sign-like",
+      "ux": "A Lottie animation runs in view (the text layers include r, m and 1, so letters seem to cycle; the capture shows only M)",
+      "learn": "With only three weights, one large glyph per weight is the whole overview; a short animated glyph swap adds interest with no extra layout",
+      "reconstruction": {
+        "layout": "Centred ~1090px wide, three equal columns ~290px apart; glyphs ~210px wide, ~255px tall; labels below, left aligned to each glyph",
+        "typography": "Glyphs ~340px Regular, Medium, Bold; labels 18px at the matching weight, leading ~1.2",
+        "palette": [
+          "#fefefe",
+          "#030303"
+        ],
+        "behaviour": "Lottie SVG (weights.json, 2180×980) using live text layers at weights normal, bold and 900",
+        "content": "'This is Munken Sans Regular', 'Medium', 'Bold'",
+        "assets": "Lottie JSON animation",
+        "html": ".c-lottie.js-lottie > div[data-json=weights.json] > svg"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "glyph-table",
+      "variant": "glyph-inspector",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "plain, thorough",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Centred lines of about 400 characters in small black type, grouped by caps, lowercase, numerals, accents, punctuation, maths, fractions, Roman numerals and arrows. The empty preview stays hidden on desktop; the mobile capture shows one large þ above the set with its cell outlined",
+      "feel": "Unadorned, complete",
+      "ux": "Hovering or tapping a character shows it large in the preview element above; on mobile the set scrolls in a strip",
+      "learn": "Centred, line-grouped glyphs look like a typeset page, and a hidden preview gives inspection without a visible panel",
+      "reconstruction": {
+        "layout": "Full width, centred lines ~1100px wide, ~35px line pitch, category groups separated by small gaps; preview element above the list; 638px tall",
+        "typography": "Glyphs ~25px Regular; preview ~300px on mobile",
+        "palette": [
+          "#f6f6f6",
+          "#000000"
+        ],
+        "behaviour": "Hover or tap a span → copy its character into .js-character-set-preview and outline the cell",
+        "content": "Full character set in 401 spans",
+        "assets": "none",
+        "html": ".l-character-set.js-character-set > .l-character-set__preview.js-character-set-preview + .l-character-set__wrapper > .l-character-set__list > span×401"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "dry, witty",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "One huge line running past both screen edges over five pale horizontal metric lines: '→ Narrow letters, wide spacing. This is Munken Sans. Happy tuesday ←'",
+      "feel": "Roomy, deadpan",
+      "ux": "The strip can be dragged sideways (cursor grab, pan-y kept for vertical scroll); arrows at both ends tell you where it stops. Whether it also moves with page scroll was not visible in the video",
+      "learn": "Draw the font's own metric lines behind one draggable sentence: a giant line becomes a lesson in proportions, and the arrows give the drag a start and an end",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×515, overflow hidden, 14,000px-long single line; five hairlines across at cap, x-height, baseline and descender positions",
+        "typography": "~350px Regular, sentence case, no wrapping",
+        "palette": [
+          "#fdfdfd",
+          "#040404",
+          "#d0d0d0"
+        ],
+        "behaviour": "Horizontal drag on .l-scroll-text__wrapper (overflow auto hidden, touch-action pan-y); the metric SVG stays fixed under the text",
+        "content": "'→ Narrow letters, wide spacing. This is Munken Sans. Happy tuesday ←'",
+        "assets": "none",
+        "html": ".l-scroll-text.js-scroll-text > .l-scroll-text__wrapper > p.l-scroll-text__text + .l-scroll-text__lines > svg[viewBox='0 -385 1 1470'] > line×5 (y −383, 0, 519, 700, 1083)"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "precise, gentle, instructive",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "caption"
+      },
+      "look": "Staggered grey tiles each holding one large black glyph (M, A, a) with translucent grey discs laid over the details, and a one-line centred caption under each",
+      "feel": "Museum label, unhurried",
+      "ux": "static",
+      "learn": "A translucent disc is the gentlest possible callout: no lines or numbers, just a soft lens on the exact spot the caption names",
+      "reconstruction": {
+        "layout": "Two-column stagger: tiles ~614×614px at x≈80 and x≈746, each row dropping ~550px so tiles alternate left and right; caption centred under each tile; ~1750px tall",
+        "typography": "Glyphs ~520px Regular; captions ~18px Regular centred",
+        "palette": [
+          "#fbfbfb",
+          "#f6f6f6",
+          "#040404",
+          "#c8c8c8"
+        ],
+        "behaviour": "none",
+        "content": "'Blunt tip & high turning point', 'Low cross line & narrow turning point', 'Angular transitions'",
+        "assets": "SVG glyphs with ~115px translucent circles"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "product, restrained",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "single"
+      },
+      "look": "One blue-grey photo of the printed Munken Handbook front and back, one cover covered in fragmented black letterforms, with a bold underlined link 'The Munken Handbook' beneath",
+      "feel": "Finished, real",
+      "ux": "Text link to colab.munken.com/munken-handbook",
+      "learn": "End with one real object using the same graphic language as the video, tying the abstract fragments to print",
+      "reconstruction": {
+        "layout": "Image centred ~770×514px (3:2) in the same column as the tester; link below, left aligned to the image",
+        "typography": "Link ~18px Bold underlined",
+        "palette": [
+          "#f1f1f2",
+          "#b4bbc4",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "The brand's real handbook",
+        "assets": "Studio photograph of the book"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "corporate, tidy",
+        "mobile": "adapts",
+        "contains": [
+          "legal",
+          "contact",
+          "socials"
+        ]
+      },
+      "look": "Black band with white logo left and three small columns of links right: site pages, collaborations/contact/legal, Instagram",
+      "feel": "Solid, conventional",
+      "ux": "Links to the rest of the brand site",
+      "learn": "A single black band ends the paper-white page firmly",
+      "reconstruction": {
+        "layout": "1440×346 black; logo at x≈70, y≈75; columns at x≈770, x≈980, x≈1190, row pitch ~32px",
+        "typography": "Links ~16px Medium white; logo as SVG",
+        "palette": [
+          "#010101",
+          "#fafafa"
+        ],
+        "behaviour": "none",
+        "content": "Home, Papeterie Collection, About Munken, Munken Notes, Munken Creator, Munken Sans, Collaborations, Contact, License agreement, Privacy Policy, Instagram",
+        "assets": "Logo SVG",
+        "html": "footer.l-footer.js-footer"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/material-photo",
+    "story/large-text-intro",
+    "specimen-showcase/kinetic-scenes",
+    "type-tester/slider-sandbox",
+    "family-overview/style-word-grid",
+    "glyph-table/glyph-inspector",
+    "specimen-showcase/word-stack",
+    "design-details/annotated-specimen",
+    "specimen-showcase/in-use-mockups",
+    "footer/link-columns"
+  ]
+}

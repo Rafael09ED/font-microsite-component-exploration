@@ -1,0 +1,217 @@
+{
+  "slug": "nrse-io",
+  "extractedBy": "agent",
+  "summary": "A compact one-page specimen for Norse Sans: a wall of OpenType-feature sentences whose weight is set by one slider, split-wordmark intro cards, five weight tiles with random glyphs and a hover-expanding character grid. Everything sits on a lilac-white page with hairline boxes and clipped corner ticks; the only buy path is a fixed Gumroad pill.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "interactive-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "technical, confident, compact",
+        "mobile": "adapts",
+        "carrier": "controls",
+        "cta": "buy",
+        "rangeShown": "whole-family",
+        "navVisible": true
+      },
+      "look": "Nine full-bleed lines of repeating text at 60px, each demonstrating one OpenType feature (small caps → SS QQ GG, ligatures, fractions, slashed zero, arrow ligatures, oldstyle figures, stylistic alternates), cropped by both edges, above a small dotted weight slider with a 'REGULAR' label",
+      "feel": "A datasheet turned into a wall of type",
+      "ux": "The lines fade in one by one and drift sideways; dragging the single slider handle steps the whole wall through the weights, and the label above the handle names the current one",
+      "learn": "Make the hero sentence wall a feature inventory, each line repeating one feature, so one weight slider tests every feature at once",
+      "reconstruction": {
+        "layout": "Starts at y=128 below a 77px fixed bar. Nine lines, ~90px line pitch (960px total), full-bleed with overflow hidden and each line offset so words crop at both edges; below it a centred slider ~1140px wide with seven pips, label above the handle",
+        "typography": "Lines: 60px Norse Regular, tight sentence case, #111. Weight label: ~11px Norse Bold uppercase, tracked. Feature spans via classes .smcp .dlig .onum .zero .tnum .ss01–.ss04",
+        "palette": [
+          "#f4f2f8",
+          "#111111",
+          "#949395"
+        ],
+        "behaviour": "Lines reveal staggered on load (t≈1.6–2.2s) with slow horizontal drift. noUiSlider with one handle (0–5 range, value shown as 2.50) and seven pips sets the font weight of all lines; label text updates (Regular, Bold…). Handle is a tall thin box with two grips",
+        "content": "Each line repeats one phrase: 'Norse Sans', 'Impressive language support — Château ∞ d'Eau. Małżeńska* \"tükörfúrógép\"', 'Small caps → SS QQ GG HH JJ', 'Lovely ligatures rf rt fi', 'Fantastic fractions 180° m² Roughly ½ on 19/07/2011', 'Slashed zeroes 00/00', 'Arrow ligatures → = →', 'Oldstyle figures 1246 → 1246', 'Stylistic Alternates [ ɑ/a, l/I, B/B, A/A ]'",
+        "assets": "none",
+        "html": ".charline.reveal > .charline-text > span.froly (repeated, with feature classes .smcp .onum .zero .ss01…); #slider.noUi-target; .weight-indicator; .pips > .pips-1…"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, lightly cheeky",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "The name split into two: bold 'NOR' beside a hairline card of copy, then a card of copy beside bold 'SE', staggered left and right so the eye zig-zags",
+      "feel": "Airy and diagrammatic, like a labelled drawing",
+      "ux": "Rows reveal on scroll (fade up)",
+      "learn": "Split the wordmark across two rows and use the fragments as anchors for two short copy cards, so the about text reads as part of the logo",
+      "reconstruction": {
+        "layout": "Two rows, each 80% of the 1140px container, the first aligned right and the second left. Each row is 40% wordmark fragment and 60% bordered card (~370×150px), with a dashed rule along the top running from the fragment. Cards have a clipped diagonal tick at top-left and bottom-right corners",
+        "typography": "Fragments 96px Norse Bold (fw9), uppercase; cards 16px then 14px Regular, leading ~1.4, #111",
+        "palette": [
+          "#f3f0f7",
+          "#111111",
+          "#d4d1d6"
+        ],
+        "behaviour": "Fade-up reveal on scroll (.reveal → .reveal_visible)",
+        "content": "'A typeface for the modern world. An exciting combo between grotesque principles and legibility.' and 'Norse really shines when small…sports enough pizzazz to be used in titles and print design.'",
+        "assets": "none",
+        "html": ".furniture draws the corner ticks on a .ba bordered box; .bt-dashed for the rule"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "calm, playful chance",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "glyph",
+        "interactive": false
+      },
+      "look": "'5 Weights': three-column staggered grid of square hairline tiles, each with the style name on a dashed rule and one glyph or pair in that weight. The fixed bar covers the tops of the first row in the stitched crop",
+      "feel": "Sparse, like museum labels",
+      "ux": "Each load picks a different glyph per tile (↖, 7, Hh on one capture; 06, €, 2 on another)",
+      "learn": "Randomise the sample glyph per tile on load, so a tiny overview shows more of the character set over repeat visits",
+      "reconstruction": {
+        "layout": "Three columns of ~30% width; each has a label and a dashed top rule, and a 260px square tile in the right 60%. Second row has two tiles, the first and third columns, leaving the middle empty",
+        "typography": "Labels 16px Regular; tile glyph ~48px (f1) at fw9, fw5, fw4 and lighter",
+        "palette": [
+          "#f3f0f7",
+          "#111111"
+        ],
+        "behaviour": "span.random gets a random glyph on load; tiles fade up on scroll",
+        "content": "Bold, DemiBold, Regular, Light, Thin with one random glyph or pair each",
+        "assets": "none",
+        "html": ".furniture > .aspect-ratio--1x1 > span.f1.fw9.random"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "tidy, tactile",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "hover",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Four ruled sections (Characters, Numerals, Punctuation, Symbols), each with a label and small note at left and a 10-column grid of 100px bordered cells at right; letter cells show a case pair. Sticky bar repeats through the stitched crop",
+      "feel": "Clean and tabular",
+      "ux": "Hovering a cell inverts it to black; letter cells hold a hidden list of accented variants that expand on hover (Ā, Ç, Ď, Ę in the capture)",
+      "learn": "Put accents inside the base letter's cell and reveal them on hover: 29 cells stand in for ~120 glyphs and the grid stays short",
+      "reconstruction": {
+        "layout": "Left column 30% label (~340px) with dashed rule on top; right 70% grid of 100×100px cells, 10 per row, 1px #111 borders collapsed. Sections ~270–400px tall with ~80px gaps",
+        "typography": "Cell glyphs ~24–30px (f4/f3) Regular; labels 16px; note 14px grey",
+        "palette": [
+          "#f3f0f7",
+          "#111111",
+          "#949395"
+        ],
+        "behaviour": "CSS hover-bg-black hover-white on each cell; .expand-list cells swap to the next of up to four accented li items while hovered (others .dn)",
+        "content": "Whole Latin set by category; note 'Supports — Portuguese, Italian, Moldovan, Spanish, French, Turkish, Romanian, Polish, Swedish and many more'",
+        "assets": "none",
+        "html": ".grid > .glyph.grid__item > ul.expand-list > li.hover-bg-black.hover-white (first visible, rest .dn)"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "minimal",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "Never cut as a block: one 16px line 'Made by graz.io' at the end of block 01",
+      "feel": "Quiet",
+      "ux": "Link to the designer's site",
+      "learn": "A one-line credit is enough when the bar above always carries the buy link",
+      "reconstruction": {
+        "layout": "Left-aligned line ~50px below the last grid",
+        "typography": "16px Norse Regular, link in grey",
+        "palette": [
+          "#f3f0f7",
+          "#111111",
+          "#949395"
+        ],
+        "behaviour": "none",
+        "content": "'Made by graz.io'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed 77px bar on page tint with a bottom hairline: 'Norse Sans Typeface' left, outlined 'Purchase Norse →' pill right (Gumroad link), the only buy route on the page"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/interactive-specimen",
+    "story/large-text-intro",
+    "family-overview/style-word-grid",
+    "glyph-table/full-grid",
+    "footer/slim-legal-bar"
+  ]
+}

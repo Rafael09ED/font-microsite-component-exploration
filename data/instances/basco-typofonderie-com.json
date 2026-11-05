@@ -1,0 +1,413 @@
+{
+  "slug": "basco-typofonderie-com",
+  "extractedBy": "claude",
+  "summary": "A food-themed specimen in a three-colour riso palette (butter yellow, mint, lavender): chapters named like a menu (Landscapes, Ingredients, Recipe, Cherry on the Cake, Cashier, Pure Pleasure) over duotone photographs. The 'Recipe' chapter's article text is itself the tester, with swash, caps and italic switches per paragraph.",
+  "instances": [
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "navigation",
+      "variant": "scroll-spy-nav",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Slim butter-yellow top bar that slides in after the hero: 'Basco → LANDSCAPES' naming the current chapter, cart icon right; offscreen in the DOM and stitched repeatedly into crops 01-06"
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "material-photo",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "sunny, tropical, delicate",
+        "mobile": "adapts",
+        "carrier": "photo",
+        "cta": "scroll",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "Butter-yellow screen with a cut-out mint-duotone photo of a citrus drink and fruit at left; 'Basco' in heavy lavender, swash-italic tagline and a small style note right-aligned",
+      "feel": "Printed menu from a beach bar",
+      "ux": "A 'Basco…' loader fattens from Thin to Bold for ~4s, then the hero fades in",
+      "learn": "One duotone cut-out in the palette's second colour on a flat field gives a whole theme with no type effects",
+      "reconstruction": {
+        "layout": "100vh, 1440×900; image left ~50% wide bleeding toward the bottom; right-aligned text block ending at x≈1380: name at y≈110, tagline, note",
+        "typography": "Name ~200px Basco Bold/Heavy; tagline 48px Basco Italic swash, leading ~1.2, right-aligned; note ~22px Regular",
+        "palette": [
+          "#fce782",
+          "#92c898",
+          "#5f6096",
+          "#12684f"
+        ],
+        "behaviour": "Loader: 'Basco…' centred, stepping through the weights over ~4s; then cross-fade",
+        "content": "'A mix of Renaissance & Calligraphy, with a touch of tropical atmosphere'; 'Nine weights in Romans & Italics, swashes'",
+        "assets": "Transparent duotone (mint) citrus-and-glass photo"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "lush, Brazilian",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "series"
+      },
+      "look": "Lavender duotone waterfall photo under paired Portuguese words: two columns of word pairs, alternating white and mint, Roman and swash italic, then capitals",
+      "feel": "Words like a jungle postcard",
+      "ux": "Words fade in as the section scrolls; the storyboard shows them nearly invisible on entry",
+      "learn": "Two-word rows mixing weights and two colours keep a stack dense, and Portuguese words sell the designer's Brazilian voice",
+      "reconstruction": {
+        "layout": "1760px section, ten centred rows of two words, ~150px per row, ~1200px wide",
+        "typography": "~110px Basco, Thin to Black; alternating Roman/Italic with swashes (swsh, dlig 'st', 'sp'); last rows caps",
+        "palette": [
+          "#6f6e93",
+          "#ffffff",
+          "#92c898"
+        ],
+        "behaviour": "GSAP fade-in of the rows as they enter; background photo stays fixed in colour",
+        "content": "Quadruplas, Maracanã, Respectiva, Qüinqüênio, Magistério, Nespereira, Horizonte, Hedonistas, PANTHERA, PARAGUAY",
+        "assets": "Lavender duotone waterfall photo, ten images overall"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "abundant, market-stall",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'Ingredients': centred running lines of the set over a mint duotone spice shop; lowercase, italics, small caps, capitals, swash forms, ligatures, figures, circled numerals, superiors, math, arrows, marks; top row of pointing-hand dingbats",
+      "feel": "An inventory on a market shelf",
+      "ux": "Static",
+      "learn": "Naming the set 'ingredients' and listing it in centred lines keeps the glyph table inside the page's metaphor",
+      "reconstruction": {
+        "layout": "Centred lines, 1200-1300px wide; each category has its line with ~90px line pitch over a fixed-feeling image; dingbat row across the top, ~90px tall",
+        "typography": "~60px Basco Regular per line, italics and swashes per category, small accents row ~24px",
+        "palette": [
+          "#8bb692",
+          "#ffffff",
+          "#ffec7f",
+          "#5f6096"
+        ],
+        "behaviour": "none",
+        "content": "Character set by category with no labels",
+        "assets": "Mint duotone spice-shop photo"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "simple, tabular",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "End of the Ingredients section on flat mint: ROMANS and ITALICS columns of style names in themselves, light in yellow-white, bold in butter",
+      "feel": "A short ingredients list",
+      "ux": "Static",
+      "learn": "Split nine weights into a light and a bold column so a two-axis list fits in one row of four columns",
+      "reconstruction": {
+        "layout": "Four columns ~330px across 1300px, five rows ~85px",
+        "typography": "~60px, each name in its own style; column heads in small caps",
+        "palette": [
+          "#8dc59b",
+          "#fde780"
+        ],
+        "behaviour": "none",
+        "content": "Thin, ExtraLight, Light, Regular, Demi, Bold, ExtraBold, Heavy, Black",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "specimen-showcase",
+      "variant": "kinetic-scenes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "festive, ornamental",
+        "mobile": "adapts",
+        "medium": "generative",
+        "sequence": "single"
+      },
+      "look": "'Cherry on the cake': the swash capitals A-Z scattered at varied sizes and weights over lavender duotone spices, in yellow and pale grey, overlapping",
+      "feel": "Spilled sprinkles",
+      "ux": "The letters seem to drift in layers as you scroll; the doubled letters in the crop are the same letters caught mid-motion",
+      "learn": "Treat decorative capitals as confetti: scatter, vary weight and size, and let them overlap",
+      "reconstruction": {
+        "layout": "1558px section; about 26 absolutely placed letters in a loose 5×5 scatter, each ~120-300px",
+        "typography": "Basco Italic swash capitals, Thin to Black",
+        "palette": [
+          "#6a6b97",
+          "#e5d386",
+          "#d4d4d4"
+        ],
+        "behaviour": "Assumed GSAP parallax per letter on scroll (speed from the differing offsets between stitched viewports)",
+        "content": "A-Z only",
+        "assets": "Lavender duotone spice photo"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "type-tester",
+      "variant": "per-row-controls",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "gentle, instructive",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "style-select",
+          "features"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": false
+      },
+      "look": "'Recipe' article on flat mint: four text blocks at 144, ~48, 28 and 36px, the first with a small 'TT / I / A' tab on a rule for caps, italic and swash; ampersands in SVG open the section",
+      "feel": "The article waits for a click",
+      "ux": "Each paragraph is contenteditable and has its own caps, italic and swash toggles, shown when active; the rest of the page stays intact",
+      "learn": "Turn the About copy into the tester: three style toggles per paragraph make the swash system discoverable without a separate tool",
+      "reconstruction": {
+        "layout": "4009px section, content column 1200px from x=120; ampersand SVGs top-left ~580px tall; each .tester has text plus a rule with the toggle tab at left",
+        "typography": "h1 144px Medium swash, leading ~1.15; h2 48px Italic swash caps; p.small 28px Regular leading 1.45; p 36px Italic swash, leading 1.55",
+        "palette": [
+          "#8dc59b",
+          "#fde780",
+          "#5f6096",
+          "#f6f5e4"
+        ],
+        "behaviour": "Click a <li> to toggle caps, italic or swsh classes on the sibling text; two-way class state; fonts stay on the same size",
+        "content": "Real article on the Renaissance sources and Bruno Mello's approach",
+        "assets": "Two ampersand SVGs",
+        "html": ".tester > [contenteditable] + .container ul li.caps|.italic|.swsh(.active)"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "warm, scholarly",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "Four graded paragraphs explaining Renaissance calligraphy as the source, then features and the designer, each in another text style",
+      "feel": "A short foreword",
+      "ux": "Reads as an essay; every paragraph can be restyled in place",
+      "learn": "Grade the same story through four sizes and styles so the text works as hierarchy demo too",
+      "reconstruction": {
+        "layout": "Single 1200px column, stacked, large gaps ~90px",
+        "typography": "As the tester: 144px, 48px caps italic, 28px Regular, 36px italic",
+        "palette": [
+          "#8dc59b",
+          "#fde780",
+          "#5f6096"
+        ],
+        "behaviour": "none",
+        "content": "'Basco is an exploration of the Renaissance style…'; 'Basco is the first typeface by Sao Paulo based designer Bruno Mello…'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "whimsical, relaxed",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "'Cashier': yellow screen with a teal duotone dog in profile, a right-aligned credit in swash italic and three small tracked mint text links",
+      "feel": "A closing joke rather than a sales pitch",
+      "ux": "Three links to Typofonderie: buy, try-out fonts, PDF specimen",
+      "learn": "Mirror the hero layout for the buy section: same palette, new animal, and links small enough to stay elegant",
+      "reconstruction": {
+        "layout": "100vh-ish 933px; dog bust from the left edge, ~500px tall; right column right-aligned at x≈1320, links at the bottom right",
+        "typography": "Credit ~80px Basco Italic swash; note ~22px; links ysans-std ~13px caps, tracked",
+        "palette": [
+          "#ffe880",
+          "#12684f",
+          "#92c898"
+        ],
+        "behaviour": "none captured",
+        "content": "'Basco, a contemporary take on calligraphic letterforms by Bruno Mello'; 'Buy Basco', 'Free try-out fonts', 'Download the PDF specimen'",
+        "assets": "Cut-out teal duotone dog photo"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "appetising, generous",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "series"
+      },
+      "look": "'Pure pleasure': full-width justified lines of food words over a mauve duotone of blueberries, each with its own size and style and fit to the column",
+      "feel": "A chalkboard menu at full volume",
+      "ux": "Fades in during scroll",
+      "learn": "Fit each line to the same measure by changing the size, and the page becomes one big typographic menu",
+      "reconstruction": {
+        "layout": "2359px section, ~1300px measure, 14 centred lines of varying height 60-200px",
+        "typography": "60-300px Basco, Thin to Black, Roman/Italic/swash, caps and lowercase, alternating yellow, white and mint",
+        "palette": [
+          "#9690a7",
+          "#ffed7e",
+          "#ffffff",
+          "#92c898"
+        ],
+        "behaviour": "Rows fade in with GSAP on scroll",
+        "content": "Cookies, Pasta Ai Fiori Di Zucca, Meringue Cheesecake, Roasted Vegetables, Trustworthy, Fajita, Homemade stracciatella, Chunky, Easy Chorizo Tacos, Brazilian Chicken, Respectable Guacamole",
+        "assets": "Mauve duotone blueberry photo"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "plain, foundry-branded",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "other-fonts"
+        ]
+      },
+      "look": "Dark grey band: Typofonderie logo left, list of chapters in small caps, then credits",
+      "feel": "Foundry-standard",
+      "ux": "Chapter links and credit links",
+      "learn": "List the chapters again in the footer as a table of contents",
+      "reconstruction": {
+        "layout": "390px, container 1200px; logo at 120px, columns at 430px and 640px",
+        "typography": "ysans-std 12-16px, chapter caps tracked",
+        "palette": [
+          "#3b3a36",
+          "#ffffff",
+          "#b9b8b4"
+        ],
+        "behaviour": "none",
+        "content": "Start, Landscapes, Ingredients, Recipe, Cherry on the Cake, Cashier, Pure Pleasure; 'Buy Basco'; credits to Bruno Mello, Joachim Vu, ZeCraft",
+        "assets": "Foundry logo"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/material-photo",
+    "specimen-showcase/word-stack",
+    "glyph-table/category-lines",
+    "family-overview/style-word-grid",
+    "specimen-showcase/kinetic-scenes",
+    "type-tester/per-row-controls",
+    "story/origin-reference",
+    "checkout/link-out-cta",
+    "specimen-showcase/word-stack",
+    "footer/link-columns"
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "slug": "spectral-prototypo-io",
+  "extractedBy": "agent",
+  "summary": "A blue bento of tiles in which each glyph tile is a pointer pad driving one parametric font control (aperture, thickness, serif, curviness, contrast), generated live by Prototypo in the browser, promoting the Prototypo app. The capture never got past the 'Loading your experience' overlay, so every instance below is reconstructed from the HTML only.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "hero",
+      "variant": "interactive-specimen",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "technical, promotional",
+        "mobile": "unknown",
+        "carrier": "controls",
+        "cta": "try",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "Not visible in the capture (loader over everything). From HTML: first row is an 8/12 description tile at ~35px beside a 4/12 stack of small tiles (a 'Discover Spectral…' tile with Thickness arrows, prototypo.io URL tile, Production Type tile, share tiles); second row is a full-width tile with 'Spectral' at ~288px and a 'Try Spectral in prototypo' link",
+      "feel": "Tool demo, a tiled dashboard",
+      "ux": "Left and right arrows at the edge of the big word's tile show that moving the pointer across it changes Aperture; a tooltip legend names the parameter",
+      "learn": "Make the name itself the first control, with arrows inside the tile saying the whole box responds",
+      "reconstruction": {
+        "layout": "Bootstrap-style 12-col grid of .block.box tiles on blue, with thin white or tint tile separations (inferred). Row 1 522px tall: 8/12 + 4/12 stack. Row 2 481px tall: full-width. Heights from facts; internal positions are not captured",
+        "typography": "Description ~35px Spectral (generated font 'gfnt') white; 'Spectral' ~288px in a generated instance 'gnft-aperture'; tile labels small, in 'gr' (Spectral Regular, likely)",
+        "palette": [
+          "#518ff4",
+          "#ffffff"
+        ],
+        "behaviour": "Loader shows while 10 parametric fonts generate in the browser ('We are creating 10 parametric fonts…'). Then pointer position over .hastooltip changes the parameter, regenerating the font (inferred from the mobile helper: 'Slide your finger inside the boxes with the arrows to change the font parameters!')",
+        "content": "Real pitch: 'Spectral, designed by our partner Production Type, is the first Google font turned parametric by Prototypo…'; share links to Facebook, Twitter, Google+, LinkedIn",
+        "assets": "Prototypo logo SVG",
+        "html": ".block.box.hastooltip#aperture > a.trynow + span.glyph + span.arrow.arrow-left/.arrow-right + .slider-tooltip.horizontal.bottom > .legend"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "03"
+      ],
+      "type": "type-tester",
+      "variant": "pointer-xy-axes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "experimental, engineering",
+        "mobile": "unknown",
+        "controls": [
+          "axes"
+        ],
+        "scope": "per-row",
+        "defaultText": "user-empty",
+        "export": false
+      },
+      "look": "From HTML only (loader covered the capture): a bento of glyph tiles, 'S' (~576px) with three parameters, 'a' for Thickness, 'xyz' with serif height and bracket curve, 'Oo' for curviness and 'ec' at ~800px for contrast",
+      "feel": "A lab bench of dials with no dials",
+      "ux": "Each tile is its own pad. Horizontal pointer movement changes one parameter and vertical movement another (arrows along the edges mark each direction, top and bottom edges can drive different parameters); on touch, slide a finger in the box. A legend names the parameter",
+      "learn": "Pick the letters that show a parameter best and give each its own pad: 'S' for serifs, 'Oo' for curviness, 'ec' for contrast. The choice of glyph teaches what the axis does",
+      "reconstruction": {
+        "layout": "Block 02 912px tall: 4/12 'S' tile + 8/12 split into 'a' tile and a text tile. Block 03 768px tall: 4/12 stack of 'xyz' and 'Oo' + 8/12 'ec' tile. Each tile has arrow pairs on the edge of each direction and legend tooltips",
+        "typography": "Glyphs 576–806px in generated instances (gnft-serifs, gnft-thickness, gnft-bracketcurve, gnft-curviness, gnft-contrast); legends small caps-like uppercase ('SERIF HEIGHT', 'SERIF WIDTH', 'SERIF ROTATION', 'BRACKET CURVE', 'CURVINESS', 'CONTRAST')",
+        "palette": [
+          "#518ff4",
+          "#ffffff"
+        ],
+        "behaviour": "On pointer move inside a tile the font parameter updates live, via Prototypo's browser font generator (not OpenType variations; each tile is a separate generated @font-face). 'S' tile: serif height (vertical), serif width (top horizontal), serif rotation (bottom horizontal). 'xyz': serif height (vertical), bracket curve (horizontal). Exact ranges not captured",
+        "content": "Single letters and pairs picked per parameter",
+        "assets": "Arrow icons",
+        "html": "#serifs #thickness #bracketcurve #curviness #contrast each .hastooltip with .arrow-left/.arrow-right, .arrow-top, .arrow-left-vertical/.arrow-right-vertical and .slider-tooltip.horizontal|vertical.top|bottom > .legend"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "visionary, promotional",
+        "mobile": "unknown",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "From HTML only: a tile whose paragraph has each sentence in a different pre-generated thickness (gfnt-100, -105, -110, -70, -75…)",
+      "feel": "Forward-looking pitch",
+      "ux": "static (unverified)",
+      "learn": "Set each sentence of the pitch in a different generated instance, so the prose shows the parameter range without a label",
+      "reconstruction": {
+        "layout": "4/12-wide tile next to the 'a' tile in block 02, ~456px tall",
+        "typography": "Spectral generated instances, one per sentence; size not captured, around 20–25px",
+        "palette": [
+          "#518ff4",
+          "#ffffff"
+        ],
+        "behaviour": "none known",
+        "content": "'Imagine shop windows that react according to the movements of passers-by. Think data visualisation mixing info and text…'",
+        "assets": "none",
+        "html": "#technology .content > span.paragraph-N.gfnt-NN"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "SaaS, promotional",
+        "mobile": "unknown",
+        "destination": "app-store",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "From HTML only: the headline 'Create Stronger. Design Faster. Custom Fonts.', a pitch paragraph, a screenshot of the Prototypo interface, 'Create Now' and 'Want to tweak more than 30 parameters ? Try the app'",
+      "feel": "SaaS landing page",
+      "ux": "Links to app.prototypo.io signup; the target is the tool, not the font",
+      "learn": "When the page sells a tool, end the toy with a screenshot of the full tool and a count ('more than 30 parameters') of what the toy left out",
+      "reconstruction": {
+        "layout": "Block 1316px tall, full width; headline, paragraph and buttons around one large product screenshot",
+        "typography": "Headings ~42px Spectral white; body in 'gfnt'",
+        "palette": [
+          "#518ff4",
+          "#ffffff"
+        ],
+        "behaviour": "none known",
+        "content": "'Prototypo empowers designers to create stronger identities…one of our four font templates'",
+        "assets": "images/prototypo-interface-spectral.png (app screenshot)"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "brand sign-off",
+        "mobile": "unknown",
+        "contains": [
+          "socials",
+          "contact"
+        ]
+      },
+      "look": "From HTML only: Prototypo logo, 'www.prototypo.io' at ~40px and 'Follow us on Twitter, Facebook, Instagram and Youtube.'",
+      "feel": "Promotional close",
+      "ux": "Social links",
+      "learn": "Give the product URL display size at the end when the goal is a visit",
+      "reconstruction": {
+        "layout": "Full-width block 458px tall, likely centred",
+        "typography": "URL ~40px 'gfnt' white; social line smaller",
+        "palette": [
+          "#518ff4",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "URL and social links",
+        "assets": "Prototypo logo SVG"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "06",
+      "reason": "fixed loader overlay ('Loading your experience…'), which never cleared in the 30s capture and covers every crop and the mobile capture"
+    }
+  ],
+  "sequence": [
+    "hero/interactive-specimen",
+    "type-tester/pointer-xy-axes",
+    "story/large-text-intro",
+    "checkout/link-out-cta",
+    "footer/slim-legal-bar"
+  ]
+}

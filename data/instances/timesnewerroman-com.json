@@ -1,0 +1,297 @@
+{
+  "slug": "timesnewerroman-com",
+  "extractedBy": "agent",
+  "summary": "A one-joke microsite from MSCHF for a font that looks like Times New Roman but is 5–10% wider, so students can pad essays. Everything is staged as a comparison: an overlaid hero, a word-count face-off and two parallel sheets of paper. Black Times-style display with yellow as the second font's colour and Cousine for labels.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "intro-animation",
+      "variant": "title-sequence",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "brand drop, streetwear",
+        "mobile": "unknown"
+      },
+      "look": "About 2.5s full-screen black preloader with a rotating gradient frame (yellow, red, blue) around 'MSCHF DROP #03 / TIMES NEWER ROMAN'. It's the shared MSCHF preloader and wasn't cut as a block; seen only in the video (t<3s), attached to the first block",
+      "feel": "Product drop, a tease",
+      "ux": "Plays once and fades over the hero; not skippable",
+      "learn": "Numbering each project as a 'drop' turns a font joke into a limited release, and a shared preloader brands a whole series of sites",
+      "reconstruction": {
+        "layout": "Fixed full-viewport black panel, ~6px coloured frame at the viewport edge, two centred lines",
+        "typography": "~14px serif uppercase; first line white, second red",
+        "palette": [
+          "#000000",
+          "#ffffff",
+          "#d0342c",
+          "#fbd330",
+          "#2d9cdb"
+        ],
+        "behaviour": "#gradientBackground rotates behind a slightly smaller black panel so the edge reads as a turning gradient frame; fades out at ~2.6s; classes preloader-hidden, preloader-remove",
+        "content": "'MSCHF DROP #03', 'TIMES NEWER ROMAN'",
+        "assets": "none",
+        "html": "#MSCHFPreloader > #gradientBackground.gradient-background.rotate + .loader-inner > #contentWrapper"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "deadpan, mischievous",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "download",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "'One of these lines is longer than the other.' at ~190px, set twice on top of each other: black Times New Roman over yellow Times Newer Roman, the misregistration growing along each line; below, a black and a yellow label button",
+      "feel": "Witty, instantly understood",
+      "ux": "The two labels are radio labels, presumably switching which font is on top (the CSS is not in the archive). The overlap itself is the demo",
+      "learn": "Overprint the font on its rival in two colours: the drift along each line is the entire product pitch, with no need for a body sentence",
+      "reconstruction": {
+        "layout": "Container 1296px at x=72, top 60px; two absolutely stacked SVGs (viewBox 1177×568) scaled to the container, three lines ~175px apart with ~190 unit type; button row below, label buttons left and Download right",
+        "typography": "Display ~190 SVG units (≈210px at 1440) Times New Roman and Times Newer Roman Regular, tight leading; labels 14px Cousine with 'Newer' in Bold, on black or yellow",
+        "palette": [
+          "#f5f6f8",
+          "#0d0c0a",
+          "#fbd330",
+          "#ffffff"
+        ],
+        "behaviour": "Hidden input.fonts radios #newer and #new (default newer) with label.button_newer and label.button_new; CSS sibling selectors likely restack or recolour the SVG layers (not verified). No scroll or ambient motion",
+        "content": "The sentence is both a claim and a riddle",
+        "assets": "none",
+        "html": ".row.compare > input.fonts[type=radio]#newer + input#new + .hero > svg#hero text.one-new + svg#hero-newer text.two-newer; label.button_newer, label.button_new"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "offhand, cheeky",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Black 'Download Times Newer Roman' button at the right end of the hero's button row, with a tiny 'License info, project by MSCHF' and an SMS opt-in note below (those lines fall outside the block crop)",
+      "feel": "Terse, sly",
+      "ux": "Direct ZIP download with a pixel tracking event; small print says using the project opts you in to texts",
+      "learn": "Keep the download in the hero when the idea is fully explained by the hero",
+      "reconstruction": {
+        "layout": "Button right aligned in the hero row, ~180×36px; small print centred under it, 12px, with a full-width 1px rule below",
+        "typography": "Button 14px Cousine white on black with 'Newer' Bold; small print 12px Times Newer Roman with underlined Cousine links",
+        "palette": [
+          "#000000",
+          "#ffffff",
+          "#f5f6f8"
+        ],
+        "behaviour": "a.download.link[download] → assets/TimesNewerRoman.zip, onclick trackDownload()",
+        "content": "'License info, project by MSCHF', 'This is MSCHF drop #3. Text 917-540-3113 to get MSCHF drop #4 before the public.'",
+        "assets": "none",
+        "html": "a.download.link[download][onclick=trackDownload()]"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "deadpan, conspiratorial",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "diagram"
+        ],
+        "length": "short"
+      },
+      "look": "Two short paragraphs at ~24px in Times Newer Roman at left: 'Introducing Times Newer Roman, a font that looks just like Times New Roman, except each character is 5-10% wider'",
+      "feel": "Dry, like an infomercial",
+      "ux": "static",
+      "learn": "One sentence naming a real, shameful student problem is a complete brief: 'Fulfill lengthy page requirements with hacked margins, adjusted punctuation sizing, and now…'",
+      "reconstruction": {
+        "layout": "Full-width 1px rule on top; left column ~720px from x=72, ~250px tall, right column holds the diagram",
+        "typography": "~24px Times Newer Roman Regular, leading ~1.5, name in Bold",
+        "palette": [
+          "#f5f6f7",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "The product definition and the use case",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "mock-technical",
+        "mobile": "adapts",
+        "subject": [
+          "spacing"
+        ],
+        "presentation": "overlay",
+        "explanation": "caption"
+      },
+      "look": "'fml' in yellow fill (one font) overlaid with a black outline (the other); a dimension bar below labelled 'Much space'",
+      "feel": "Joke disguised as an engineering drawing",
+      "ux": "static SVG",
+      "learn": "Hide a joke in the specimen word (fml), and use a drafting dimension line with a comic label to parody technical specimens",
+      "reconstruction": {
+        "layout": "Right column ~450px wide; word ~200px tall; dimension bar 440px wide below with end ticks; caption centred under it",
+        "typography": "'fml' ~411 SVG units in Times New Roman (outline, stroke 2) and yellow-filled Times Newer Roman; caption 12px Cousine",
+        "palette": [
+          "#f5f6f7",
+          "#ffc700",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "'fml' with the caption 'Much space'",
+        "assets": "Inline SVG, stroke #000 width 2, fill #FFC700"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "comparison",
+      "variant": "metric-face-off",
+      "newVariant": true,
+      "variantDefinition": "Two big figures side by side, each set in its own typeface under a label, stating one measured result of the comparison (word count, pages, file size), with a small badge giving the gain",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "mock-scientific, deadpan",
+        "mobile": "adapts"
+      },
+      "look": "White panel: 'Estimated word count for a 15-page, single-spaced document in 12pt type:' over 6,680 in light Times New Roman and 5,833 in bold Times Newer Roman, divided by a vertical rule, with a yellow circular sticker 'A word savings of 13%!'",
+      "feel": "Parody of a marketing claim",
+      "ux": "static",
+      "learn": "Reduce the claim to one measured number per font: set each number in its own font so the digits are also the sample",
+      "reconstruction": {
+        "layout": "White card 1296×484px at x=72 on grey; prompt centred on top; two columns ~350px wide split by a 1px vertical rule ~220px tall; each a grey label bar (~350×40px) above a number; sticker 88px circle right of the second number",
+        "typography": "Prompt ~28px Times Regular; label 14px Cousine with 'Newer' Bold; numbers 112px Times New Roman Regular and Times Newer Roman Bold; sticker 12px Cousine, rotated ~-8°",
+        "palette": [
+          "#fdfdfd",
+          "#f5f6f8",
+          "#000000",
+          "#fbd330"
+        ],
+        "behaviour": "none",
+        "content": "'Times New Roman 6,680', 'Times Newer Roman 5,833', 'A word savings of 13%!'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "comparison",
+      "variant": "parallel-pages",
+      "newVariant": true,
+      "variantDefinition": "The same running text set in both typefaces on two side-by-side sheets at the same size, with no controls; the difference is read from where the text ends on each page",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "academic parody",
+        "mobile": "hidden"
+      },
+      "look": "'Side-by-side comparison.' over two white paper sheets with black label bars ('Times New Roman / 14px', 'Times Newer Roman / 14px'); the right text runs a line or so longer",
+      "feel": "Term-paper, evidence exhibit",
+      "ux": "Static; the copy itself explains the method, and the punchline 'Brevity is the soul of wit.' closes both pages. Hidden on mobile, where the sheets are removed",
+      "learn": "Make the comparison copy the actual design notes: reading the sample teaches the changes (x-height +5%, punctuation +15%), and the end of the text marks the result",
+      "reconstruction": {
+        "layout": "Container 1296px; centred heading; two col-sm-4 sheets ~470×575px, 60px apart, 1px black border with a soft shadow, 28px padding",
+        "typography": "Heading 28px Times Regular; label 14px Cousine white on a black bar; sample 14px at leading ~1.45 in Times New Roman and Times Newer Roman",
+        "palette": [
+          "#f2f3f4",
+          "#ffffff",
+          "#000000",
+          "#dadada"
+        ],
+        "behaviour": "none",
+        "content": "The design note: an altered Nimbus Roman No.9 L, widened letters and gaps without changing heights, x-height +5%, punctuation +15%, 'hopefully without being noticeable to whoever's job it is to grade the paper.'",
+        "assets": "none",
+        "html": ".row.demo > .col-sm-4.new + .col-sm-4.newer > .descriptor + .sample_text"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Black strip with one centred Cousine line: 'Times Newer Roman is a MSCHF project. Text 917-540-3113 to hear about drops 24 hours early.'"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "intro-animation/title-sequence",
+    "hero/sentence-as-specimen",
+    "checkout/free-download",
+    "story/design-brief",
+    "design-details/feature-before-after",
+    "comparison/metric-face-off",
+    "comparison/parallel-pages",
+    "footer/slim-legal-bar"
+  ]
+}

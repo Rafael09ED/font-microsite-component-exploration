@@ -1,0 +1,525 @@
+{
+  "slug": "vollkorn-typeface-com",
+  "extractedBy": "agent",
+  "summary": "A hand-made 820px column on wheat-coloured paper, themed on wholegrain bread (bread and butter type, bakery icons drawn in an icon font). Its core is a long OpenType feature catalogue of grey cards where red shows the feature's result, followed by a pay-what-you-want appeal, an FAQ and a comment form: a personal, long-lived free-font home page from 2006 onwards.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "typeset-page",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "wholesome, bakery broadside",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "A centred broadside in one narrow column: dark-red wheat icon tile, 'Vollkorn' in Black, ruled italic tagline, row of tan bakery icons, small-caps news line, 'free as always' in red, scripts line, 'pay what you want' in grey italic, oldstyle numerals, designer credit",
+      "feel": "Warm, homemade, like a bakery sign or a label on a flour sack",
+      "ux": "Most lines are links down the page (icons to In Use, 'free as always' to Download, 'pay what you want' to Donate), so the poster also acts as the menu. It's taller than the viewport at 1212px",
+      "learn": "Stack every feature of the family (Black, italic, small caps, oldstyle figures, Cyrillic and Greek) into one centred poster, each line delivering a fact: the hero becomes specimen, news and table of contents",
+      "reconstruction": {
+        "layout": "Centred 820px column at x=310 on a full-bleed wheat ground; stack: 270px rounded icon tile (32px radius) at y≈80, name, tagline between two 2px black rules 780px wide, 5 icons ~70px tall, then 5 centred lines, each filling most of the column at its own size",
+        "typography": "Name ~150px Vollkorn Black; tagline ~30px Bold Italic red; news ~26px small caps Bold tracked (smcp, c2sc); 'free as always' ~80px Black red; scripts ~44px Regular; 'pay what you want' ~56px Black Italic grey; figures ~80px Regular oldstyle (onum); credit ~24px red; icons from a custom font in tan",
+        "palette": [
+          "#e4dfcd",
+          "#7f0b0c",
+          "#000000",
+          "#b39d7e",
+          "#7e7f81"
+        ],
+        "behaviour": "Static; anchors scroll to sections",
+        "content": "'The free and healthy typeface for bread and butter use', 'Version 4.1 provides more weights than ever!', 'free as always', 'Latin • Кириллица • Ελληνικά', '→ pay what you want ←', '0123456789'",
+        "assets": "Icon font with wheat, loaf, cutting board, knife and butter dish glyphs (letters S E L A K B typed in the 'icons' family)",
+        "html": "#oben.kiste > p#firsticon, h1, p#breadandbutter, p.iconsline a, p.smallcaps#version4, p#freeas, p#latcyrgrk, p#paywhatyouwant, p#figures, p#byFA"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, quiet",
+        "mobile": "adapts"
+      },
+      "look": "Fixed tan strip across the top with six centred text links: Features, Download, Donate, In Use, FAQ, Comments. Never cut as a block; attached here, and it repeats across the crops as a capture artefact",
+      "feel": "Unobtrusive",
+      "ux": "Stays at the top; links jump to the sections",
+      "learn": "With long catalogue pages a thin fixed strip costs 36px and saves a lot of scrolling",
+      "reconstruction": {
+        "layout": "Full-bleed fixed bar ~36px tall, links centred with ~36px gaps",
+        "typography": "~18px Vollkorn Regular, cream on tan",
+        "palette": [
+          "#b39d7e",
+          "#e4dfcd"
+        ],
+        "behaviour": "position fixed; anchor links",
+        "content": "Six section links",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "plain, grainy pun",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "'Twelve Grainy Styles': a grey card listing six lines 'Vollkorn Regular Italic' to 'Vollkorn Black Italic', the name in black roman and 'Italic' in red italic, with a small red 'new' badge at the left edge",
+      "feel": "Simple, confident",
+      "ux": "An 'info ▼' pill beside the heading reveals the CSS weight values",
+      "learn": "Roman and italic on the same line, in two colours, shows twelve styles in six lines",
+      "reconstruction": {
+        "layout": "Heading above a 790px card with 10px radius, ~40px padding; 6 lines at ~58px",
+        "typography": "~48px Vollkorn at wght 400–900, roman black, italic red; heading 22px Regular; pill 14px cream on tan",
+        "palette": [
+          "#eeeeee",
+          "#000000",
+          "#7f0b0c",
+          "#b39d7e"
+        ],
+        "behaviour": "a.showbutton javascript:toggle('morestyles') shows or hides a paragraph",
+        "content": "Each style named in itself, with its weight value (400–900) in the info text",
+        "assets": "none",
+        "html": "h3 > a.showbutton + p#morestyles[display:none] + .cyrillbox"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "generous, thorough",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "A long stack of grey cards, one per OpenType feature: Small Caps, Localization, Figures, Combining Accents, Ligatures, Contextual Alternates, Superscripts, Titling, Historical Forms, Alternative Glyph Forms, Ordinals, Case Sensitive Forms, each showing default in black and the feature's result in red, often with '→'",
+      "feel": "Patient, like a friendly manual",
+      "ux": "Static samples in live type, with an 'info ▼' pill per card that reveals how to access the feature (e.g. 'ss02 Polish' or 'locl'). Green italic labels name the rows in Figures and Localization",
+      "learn": "One colour rule across the whole catalogue (black = default, red = feature on) replaces all per-card explanation; the info pills keep the technical notes out of the way",
+      "reconstruction": {
+        "layout": "Column 790px; per feature a 22px heading with info pill, then a card with 10px radius, ~40px padding; table cards use a right-aligned ~170px label column and a sample column; ~80–250px tall, ~20px gaps; ~4000px of cards in total",
+        "typography": "Samples ~38–48px Vollkorn Regular or Bold; row labels ~17px Bold Italic green; red for feature results",
+        "palette": [
+          "#eeeeee",
+          "#e4dfcd",
+          "#000000",
+          "#7f0b0c",
+          "#0a7a2a",
+          "#b39d7e"
+        ],
+        "behaviour": "Inline font-feature-settings per sample span (smcp, c2sc, onum, pnum, lnum, tnum, frac, subs, sups, zero, case, salt, swsh, hlig, dlig, ss02–ss17); toggle(id) flips display of the info paragraph",
+        "content": "'For all łäṇǧųãgḝs, including Кириллица & numbers 256/789 €$.', 'Georg-Weiß-Straße → Georg=Weiß=Straße' (historical forms), '1a → 1ª', 'No. → №', '{1+2=3 ¿QUÉ-PAS@⟩ ∉∞H' (case forms), 'Ââ Čč Éé Stḁ̮̈̃̋̂́ckable'",
+        "assets": "none",
+        "html": "h3 + p#id[display:none] + .cyrillbox; span.red with style=font-feature-settings; table.cyrillbox for rows"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "language-support",
+      "variant": "multiscript-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "pangram",
+        "tone": "proud, thorough",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": true
+      },
+      "look": "Cyrillic and Greek cards: running lines of the rarer letters at ~36px, with localized forms in red, closing with a pangram in Bold Italic ('Съешь же ещё этих мягких цельнозерновых французских булок…') or a Greek sentence",
+      "feel": "Dense, celebratory",
+      "ux": "Static with an 'info ▼' pill thanking the Cyrillic adviser",
+      "learn": "Lead with the unusual letters, not the alphabet everyone has: the extended Cyrillic forms are what a Cyrillic reader checks first",
+      "reconstruction": {
+        "layout": "Cards 790px wide, ~40px padding, same as the feature cards; justified glyph lines with space-separated pairs",
+        "typography": "~36px Vollkorn Bold; red for the alternate Bulgarian and Serbian forms; pangram ~34px Bold Italic",
+        "palette": [
+          "#eeeeee",
+          "#000000",
+          "#7f0b0c"
+        ],
+        "behaviour": "Info toggle only",
+        "content": "Extended Cyrillic letters in case pairs; 'Vollkorn περιλαμβάνει πλέον Ελληνικά:' then the Greek alphabet",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "plain, exhaustive",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": true
+      },
+      "look": "A short grey card of comma-separated language names in Bold, grouped under italic script labels, clipped at the bottom with a fade",
+      "feel": "Compact reference",
+      "ux": "Inner scroll box so a very long list takes only ~180px of the page",
+      "learn": "An inner scroll box with a fade hides a long proof without leaving it out",
+      "reconstruction": {
+        "layout": "Card 790×180px, overflow-y scroll, soft fade at the bottom",
+        "typography": "~19px Vollkorn Bold, leading ~1.25; script label Bold Italic",
+        "palette": [
+          "#eeeeee",
+          "#000000"
+        ],
+        "behaviour": "overflow scroll inside the card",
+        "content": "'Latin: Abenaki, Afaan Oromo, Afar, Afrikaans, Albanian…'",
+        "assets": "none",
+        "html": ".cyrillbox#languagescrolllist"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "technical, complete",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": true
+      },
+      "look": "White panel at the end of the Features chapter: a grid of 10 glyphs per row in encoding-like order, each with its glyph name and Unicode underneath in small grey type",
+      "feel": "Printed from the font editor",
+      "ux": "Static images split into 15 PNG strips, so glyphs can't be selected",
+      "learn": "A font editor's proof sheet exported as images is a cheap way to show a large set; keep names visible as a reference",
+      "reconstruction": {
+        "layout": "Panel 790px wide, 10 columns ~65px, rows ~70px; only the top is visible in the crops",
+        "typography": "Glyphs ~40px Vollkorn Regular; labels ~9px grey sans",
+        "palette": [
+          "#ffffff",
+          "#000000",
+          "#888888"
+        ],
+        "behaviour": "Info toggle ('morecharset')",
+        "content": "All glyphs with production names (Aacute, Abreveacute…) and Unicode for some",
+        "assets": "15 PNG strips images/character_set_01–15.png"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, friendly",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "A dark-red icon tile with a down arrow beside 'Download Vollkorn' at ~44px Bold and a small line 'Version 4.105 | 2018_05_09 | zip | 11 mb'. The sticky bar covers the heading in the crop",
+      "feel": "Direct, unfussy",
+      "ux": "The whole row is one link to the ZIP; older versions are linked from the FAQ",
+      "learn": "Give the download a rich icon and metadata (version, date, size), and it reads as a release",
+      "reconstruction": {
+        "layout": "Row in the 820px column: 120px rounded icon tile at x≈90, text to its right, 190px tall",
+        "typography": "Title ~36px Bold; meta ~16px; icon glyph from the icons font in cream on red",
+        "palette": [
+          "#e4dfcd",
+          "#7f0b0c",
+          "#000000"
+        ],
+        "behaviour": "Direct file link",
+        "content": "'Download Vollkorn', 'Version 4.105 | 2018_05_09 | zip | 11 mb'",
+        "assets": "Icon font glyph D",
+        "html": "table.downloadtable td.icons + td.nebenIcon"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "checkout",
+      "variant": "donation-widget",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, modest",
+        "mobile": "adapts",
+        "destination": "distributor",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Same row as Download: a red tile with cash and coins beside 'Pay what you want!' and the classic yellow PayPal Donate pill. The 'Share' heading below is empty",
+      "feel": "Dated but sincere",
+      "ux": "Plain PayPal form with no amounts on the button; suggested sums (10 €, 50 €, 250 €) are in the FAQ",
+      "learn": "Place the appeal in the same format right below the download, so paying feels like the next step",
+      "reconstruction": {
+        "layout": "Same as the Download row, 190px tall; PayPal image ~225px wide below the title",
+        "typography": "Title ~36px Bold",
+        "palette": [
+          "#e7e2ce",
+          "#7f0b0c",
+          "#fcae2f",
+          "#000000"
+        ],
+        "behaviour": "form POST to paypal.com with hosted_button_id",
+        "content": "'Pay what you want!'",
+        "assets": "donate.png button image",
+        "html": "#donate.kiste table.downloadtable form[action*=paypal] input[type=image]"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "community, down-to-earth",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "grid"
+      },
+      "look": "'In The Wild': a grey card holding a 3-column grid of 230px white rounded tiles with photos of real uses (a wholefood book, pasta packaging, a choir, a guest house), each with a translucent caption strip",
+      "feel": "Grateful, scrapbook-like",
+      "ux": "Each tile links to the project; the card clips with a fade and scrolls inside, holding 22 tiles in ~600px",
+      "learn": "Food and wholefood uses of a typeface called 'wholegrain' confirm the theme; a scroll box keeps a long community wall in one screen",
+      "reconstruction": {
+        "layout": "Card 790px wide, ~570px tall, overflow-y scroll; 3 columns of 230×230 tiles, ~25px gaps, 8px white padding; caption overlay on the bottom third at ~70% white",
+        "typography": "Caption ~21px Vollkorn Regular; heading 22px",
+        "palette": [
+          "#f4f5f4",
+          "#e6e1d0",
+          "#000000"
+        ],
+        "behaviour": "Inner scroll; external links with target blank",
+        "content": "Real projects with years: Die Vollwert-Fibel (2017), Chornfeld Jazz Choir Leipzig, Yaotaos Zeichen, Latermark for Pocket, Tress Pasta Wholemeal, Website Gästehaus »zum Jäger«",
+        "assets": "22 project photos in images/inuse/",
+        "html": ".cyrillbox#inusebox > a > img[height:100%] + span"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "story",
+      "variant": "faq",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "personal, candid",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "Red '?' tile beside 'Frequently Asked Questions', then 13 tan rounded bars with a question and a ▼",
+      "feel": "Approachable, handmade",
+      "ux": "Click a bar to expand its answer. Questions run from licensing and donation to 'How did you become a type designer?' and 'Why is the typeface called »Vollkorn«?'",
+      "learn": "Let the FAQ double as the story: the origin and designer bio sit behind questions, so only curious visitors read them",
+      "reconstruction": {
+        "layout": "Icon tile + title row ~150px; 13 full-column bars 790×35px with 8px radius and 8px gaps",
+        "typography": "Title ~36px Bold; questions ~20px Regular cream on tan; answers ~20px black",
+        "palette": [
+          "#baa78a",
+          "#e6e1ce",
+          "#7f0b0c",
+          "#000000"
+        ],
+        "behaviour": "javascript:toggle(id) shows the answer with no animation; several can stay open",
+        "content": "Real answers: 'It's free. Pay what you want!', donation guide of 10 € educational, 50 € non-commercial, up to 250 € commercial, difference from Google Fonts, older versions",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "testimonials",
+      "variant": "comment-board",
+      "newVariant": true,
+      "variantDefinition": "An open comment form at the end of the page where visitors post thanks, bug reports and feature requests in public, often with a tally of the most requested features; visitors' voices rather than curated quotes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "open, old-web",
+        "mobile": "adapts"
+      },
+      "look": "'Thanks, Bugs, Feature Requests' with a 'Discuss here or on Github' line, a 'Most wanted features ▼' pill, the empty-state line 'Be the first person to leave a comment' and a plain form (name, email, comment, Submit) powered by EasyComment",
+      "feel": "Personal, a guestbook",
+      "ux": "The pill reveals a tally of requests with counts (Polytonic Greek [12], Phonetic Alphabet IPA [5] / UPA [1], Pinyin [4]…). The captured page shows no comments",
+      "learn": "A public 'most wanted features' tally with counts shows visitors the type family is still being worked on, and tells the designer what to draw next",
+      "reconstruction": {
+        "layout": "Column 790px; heading; pill; empty-state line; progress-like rounded bar; three label + field pairs, inputs 440×30, textarea 440×155; Submit bottom right of the form",
+        "typography": "Heading ~24px Regular; labels ~20px; empty state ~18px Bold Italic",
+        "palette": [
+          "#e6e1cf",
+          "#fbfafa",
+          "#b9a88d",
+          "#000000"
+        ],
+        "behaviour": "Toggle for the tally; form posts to the EasyComment script",
+        "content": "Tally of requested features with counts",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "07",
+        "08"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "modest, personal",
+        "mobile": "adapts",
+        "contains": [
+          "legal",
+          "contact",
+          "socials",
+          "newsletter"
+        ]
+      },
+      "look": "The tan bakery icon row again (block 07), then four small grey centred lines: copyright, postal address and site, Twitter and newsletter links, 'Updated 2019_06_07'",
+      "feel": "Small-trade letterhead",
+      "ux": "Links only",
+      "learn": "Repeating the hero's icon row closes the page, and an 'Updated' date is honest for a long-lived site",
+      "reconstruction": {
+        "layout": "Icon row ~126px, centred; text block 182px, 4 centred lines",
+        "typography": "~17px Vollkorn Regular grey, underlined links",
+        "palette": [
+          "#e6e1ce",
+          "#b39d7e",
+          "#7e7f81"
+        ],
+        "behaviour": "none",
+        "content": "'© 2006—2019 Friedrich Althausen', address in Caputh, Germany, 'Updated 2019_06_07'",
+        "assets": "Icon font row"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/typeset-page",
+    "family-overview/style-word-grid",
+    "design-details/feature-index",
+    "language-support/multiscript-specimen",
+    "language-support/language-name-list",
+    "glyph-table/full-grid",
+    "checkout/free-download",
+    "checkout/donation-widget",
+    "specimen-showcase/in-use-mockups",
+    "story/faq",
+    "testimonials/comment-board",
+    "footer/slim-legal-bar"
+  ]
+}

@@ -1,0 +1,726 @@
+{
+  "slug": "commitmono-com",
+  "extractedBy": "agent",
+  "summary": "A free coding font's site built as a single-screen, keyboard-driven terminal-like app: ten numbered sections, all set small in the font on flat grey, driven by arrows, number keys and letter shortcuts. It teaches its Smart Kerning idea, tests the reader with a character-guessing game, and builds a personalised font in the browser. Only section 01 was captured as an image; sections 02–10 come from dom.html.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "playground-app",
+      "variant": "keyboard-driven-app",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "neutral, nerdy, utilitarian",
+        "mobile": "adapts"
+      },
+      "look": "A flat mid-grey screen with black 12–24px mono text, a row of numbered section tabs on top and a legend of keycaps along the bottom. No images, no display sizes: it resembles a terminal or an old manual",
+      "feel": "A tool for programmers, not a page about one",
+      "ux": "No scrolling: ↑↓←→ move focus between controls, 1 2 3… jump to sections, WASD scrolls inside a section, + − zoom, ENTER/ESC edit text, R reset, B L I weight and italic, M light/dark, C high contrast, H hides keys. All state restyles the whole site live. Mobile shows a warning to use desktop for all features",
+      "learn": "Make navigation part of the pitch: a site driven like an editor proves to programmers that the designer thinks like them, and global shortcuts turn every paragraph into a specimen",
+      "reconstruction": {
+        "layout": "Fixed 1440×900 app; tab strip at top from x≈28, 10 labels ~90px apart with the active one in a darker chip; one visible section at a time in the left two-thirds (#main_scale scales for zoom); keyboard legend pinned to the bottom 55px",
+        "typography": "All Commit Mono: title and tagline 24px Regular; body 12px Regular, leading ~1.3; legend 10–12px; keycaps are outlined boxes ~14px",
+        "palette": [
+          "#ababab",
+          "#969696",
+          "#111111"
+        ],
+        "behaviour": "Global keydown handler; tabs are radio inputs (nav_form, .nav_section_input) so Tab order and arrow focus work natively; showing a section adds .visible; a #click_focus overlay asks for a click when the window loses focus; #change_setting briefly confirms each setting change; #block_tab_start and #block_tab_end trap focus; 'loading' text at t≈0.3s while the font loads",
+        "content": "'Use keyboard to control website', tips such as 'Tip: Press I to switch between italic and regular' seeded in each section",
+        "assets": "none",
+        "html": "#app_root > #click_focus, #change_setting, #page_animation, #loading, #content_root > header > nav > form#nav_form + #keyboard_section; #main_scale > section#section_1…10; .key[data-key-code] for pressed-state feedback; forms use data-forform and onchange=updateX(event,this)"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "product-landing",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "neutral, understated",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Section 01: 'Commit Mono. / Neutral programming typeface.' at 24px, one sentence of description, a black-on-white 'Use keyboard to control website' tag with a keycap list, and 'Next section →'",
+      "feel": "Deliberately unimpressive",
+      "ux": "The first thing taught is the shortcuts; there is no buy or download button",
+      "learn": "For a font selling neutrality, an anti-hero fits: replace the display moment with operating instructions",
+      "reconstruction": {
+        "layout": "Left aligned at x≈28; title y≈130; description y≈185; inverted label y≈235; 5 instruction rows; 'All controls in footer' y≈325; link y≈355; the rest of the screen empty",
+        "typography": "Title 24px Regular on two lines; description 12px; keycaps 10px in outlined boxes; 'Use keyboard…' 12px Bold, white on black",
+        "palette": [
+          "#ababab",
+          "#000000",
+          "#ffffff"
+        ],
+        "behaviour": "Next section button moves focus and section",
+        "content": "'Commit Mono is an anonymous and neutral coding font focused on creating a better reading experience.'",
+        "assets": "none",
+        "html": "section#section_1.visible"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "opinionated, plain",
+        "mobile": "unknown",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Section 02 'Concept', HTML only: 'The most effective font is the one you don't notice.' with a four-part list of what the font refuses to do",
+      "feel": "Dry, assured",
+      "ux": "Text with a tip: press I for italic",
+      "learn": "State the design by negation: listing what the font refuses to do is a stronger brief than listing its features",
+      "reconstruction": {
+        "layout": "Same left column as section 01, heading then a short paragraph, ~500px wide",
+        "typography": "Heading 24px Commit Mono Regular; body 12px; tip line at the end",
+        "palette": [
+          "#ababab",
+          "#111111"
+        ],
+        "behaviour": "none",
+        "content": "'No super high x-height, no geometric construction, no eye-catching design and no confusing ligatures. Designed to be neutral and anonymous, Commit Mono is quietly useful.'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "technical, computing-history",
+        "mobile": "unknown",
+        "coverage": "partial",
+        "interaction": "select",
+        "metricsShown": false,
+        "namesOrUnicode": true
+      },
+      "look": "Section 02, HTML only: the 96 printable ASCII characters in a real table whose rows and columns are headed by binary (000–111, 0000–1111), each cell a radio input, captioned 'Commit Mono: ASCII character table'",
+      "feel": "Computer-science textbook",
+      "ux": "Arrow keys or clicks move a selection through the cells (updateTable); what it updates beyond the selection is not visible in the archive",
+      "learn": "Lay out the character set by binary code, not alphabetically: the table's headers speak the audience's language",
+      "reconstruction": {
+        "layout": "HTML table with 16 columns and 6 rows plus binary headers, fixed-size square cells",
+        "typography": "Cells ~24px Commit Mono; headers ~10px",
+        "palette": [
+          "#ababab",
+          "#111111"
+        ],
+        "behaviour": "form#table_form onchange=updateTable; 7 fieldsets precede the table; radio cells make it keyboard-navigable",
+        "content": "ASCII 0x20–0x7F, plus prose: 'Since most code is written using ASCII characters, these characters are the backbone of every coding font.'",
+        "assets": "none",
+        "html": "form#table_form > table > tr > th (binary labels), td > input[type=radio] + label"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "comparison",
+      "variant": "lineage-lineup",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "reasoned, historical",
+        "mobile": "unknown"
+      },
+      "look": "Section 03 'Familiar', HTML only: a timeline of five years (1896, 1956, 2013, 2017, 2023) with an SVG letter sample for each, and a note on what was taken from each model",
+      "feel": "Short, logical argument",
+      "ux": "Arrow keys or clicks choose a year; the lineage note changes: Franklin Gothic, Letter Gothic, Fira Mono, Untitled Sans, Commit Mono",
+      "learn": "Give each ancestor a verdict and a borrowed trait ('Clear, simple and monospaced, but too quirky'): the lineage becomes an argument for the new font",
+      "reconstruction": {
+        "layout": "Row of 5 radio-backed year stops, an SVG sample per year, and one text area beneath",
+        "typography": "Years 12px Commit Mono; samples are SVG outlines of each historic typeface; notes 12px",
+        "palette": [
+          "#ababab",
+          "#111111"
+        ],
+        "behaviour": "form#familiar_form onchange=updateFamiliar; radios select_year = franklin_gothic, letter_gothic, …",
+        "content": "'Franklin Gothic, 1896. Tried-and-true, but overly traditional for code. Inspiration was taken from most of the letter constructions, such as g.'",
+        "assets": "5 SVG specimens traced from the reference fonts",
+        "html": "form#familiar_form > fieldset > div > input[name=select_year] + label"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "clear, explanatory",
+        "mobile": "unknown",
+        "subject": [
+          "spacing",
+          "features"
+        ],
+        "presentation": "toggle",
+        "explanation": "prose"
+      },
+      "look": "Section 04 'Intelligent', HTML only: 'Commit Mono: Normal programming typeface' set twice, with four radios (Smart kerning OFF/ON, How it works OFF/ON). The 'How it works' view zooms into the letters m o i and shows the o slid 44 units",
+      "feel": "A neat trick explained clearly",
+      "ux": "Keyboard or click toggles the sample between plain and kerned; a second pair shows the mechanism on three letters",
+      "learn": "Two toggles for one feature: first show the effect, then the mechanism on the smallest example possible",
+      "reconstruction": {
+        "layout": "Radio row, then a sample line, then an explanation swapped per state; 'm o i' shown large with the letter boxes",
+        "typography": "Sample ~24–32px Commit Mono with ss05 on or off; explanation 12px",
+        "palette": [
+          "#ababab",
+          "#111111"
+        ],
+        "behaviour": "form#intelligent_form onchange=updateIntelligent; select_state = before, after, original, …; the switch is the font's ss05 smart-kerning feature",
+        "content": "'Smart kerning works by looking at single letter between two other letters. If the other letters are in different width classes, the middle letter will slide closer to the narrow letter.'",
+        "assets": "none",
+        "html": "form#intelligent_form > fieldset > input#input_before|#input_after|#input_original…"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "careful, practical",
+        "mobile": "unknown",
+        "subject": [
+          "construction",
+          "alternates"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "Section 05 'Code', HTML only: a strip of 18 code-critical characters (0 1 @ $ ? \" % & * - ( [ { ~ ; # ` <), a canvas, and one note per character",
+      "feel": "A workshop bench",
+      "ux": "Selecting a character shows it in the canvas with its rationale, e.g. the slashed zero or the simplified @; notes point to alternates in section 07",
+      "learn": "Curate the critique to the glyphs your audience types most, and let notes link straight to the alternate in the configurator",
+      "reconstruction": {
+        "layout": "Horizontal radio strip of 18 characters, a large canvas below, a note beside it",
+        "typography": "Strip ~24px; canvas shows the glyph large (drawn with opentype.js, likely as an outline); notes 12px",
+        "palette": [
+          "#ababab",
+          "#111111"
+        ],
+        "behaviour": "form#code_form onchange=updateCode; input.code_character radios zero, one, at, …; the canvas redraws per selection",
+        "content": "'0 (zero): The slashed 0 is easy to tell apart from O at small sizes. Change to a dotted zero in 07 Customize.'",
+        "assets": "none",
+        "html": "form#code_form > fieldset > div > input.code_character[name=code] + label; section#section_5 canvas"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "self-test-evidence",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "game-like",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "playful, testing",
+        "mobile": "unknown",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Section 06 'Distinct', HTML only: the game 'Guess the Character' with Easy, Medium, Hard and Expert radios, pairs of answers such as 'uppercase o' / 'zero' under a confusable glyph, a 'Score: 0/5' and 'Play again?'",
+      "feel": "A quick quiz that flatters the font",
+      "ux": "Pick a difficulty, then choose which of two labels matches the shown glyph; the score builds; presumably harder levels shrink the glyphs",
+      "learn": "Turn a legibility claim into a game: if visitors can tell 0 from O at speed, they have proved the claim themselves",
+      "reconstruction": {
+        "layout": "Difficulty radio row, question area with one character and two answer buttons in a list, score line",
+        "typography": "12px labels; glyph sample size set by difficulty",
+        "palette": [
+          "#ababab",
+          "#111111"
+        ],
+        "behaviour": "button.question_button[data-question-index] answers; ten questions per the copy, with the capture state showing 0/5",
+        "content": "Confusable pairs: O/0, Z/2, b/6, B/8, 5/S",
+        "assets": "none",
+        "html": "button.question_button[data-question-index]"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "specimen-showcase",
+      "variant": "size-waterfall",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "diagnostic, plain",
+        "mobile": "unknown",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Under the game, HTML only: one string of confusable characters, 'tl1I|!ijO0QDØ38B:;.,`‘'\"2Z5S7T6b', repeated from 40px down to 8px, each row labelled in rem and px",
+      "feel": "An eye test",
+      "ux": "static",
+      "learn": "Use only confusable glyphs for a waterfall: for a coding font, the only size question is when the characters stop being distinct",
+      "reconstruction": {
+        "layout": "8 stacked rows, label then string, left aligned",
+        "typography": "2.5rem/40px, 1.5rem/24px, 1rem/16px, 0.875rem/14px, 0.75rem/12px, 0.625rem/10px, 0.5625rem/9px, 0.5rem/8px",
+        "palette": [
+          "#ababab",
+          "#111111"
+        ],
+        "behaviour": "Responds to the global weight, italic and zoom shortcuts",
+        "content": "Confusable character string",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "type-tester",
+      "variant": "code-playground",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "practical, developer",
+        "mobile": "unknown",
+        "controls": [
+          "text",
+          "weight",
+          "tracking",
+          "leading",
+          "features",
+          "presets"
+        ],
+        "scope": "global",
+        "defaultText": "code",
+        "export": false
+      },
+      "look": "Section 07 'Customize', HTML only: tabs for 8 rival fonts ('Compare different fonts': Commit Mono, Fira Code, JetBrains Mono, Source Code Pro, Cascadia Code, Consolas, Menlo/Meslo, Google Sans Code) and 12 language samples above a code example, with radio ladders for weight, spacing and line height",
+      "feel": "An honest comparison in the visitor's own language",
+      "ux": "Pick a language sample or 'Code Tests'; switch to a rival to compare the same code; the weight, spacing and line-height ladders restyle it at once; ENTER edits",
+      "learn": "Keep rivals one keypress from your own font in the same code sample: confidence is persuasive, and the comparison happens where the choice is made",
+      "reconstruction": {
+        "layout": "Two-part section: form rows of radio labels at the top, a code pane, settings ladders beside it",
+        "typography": "Code ~12–16px in the selected font; radios 12px",
+        "palette": [
+          "#ababab",
+          "#111111"
+        ],
+        "behaviour": "fonts_form swaps font-family; examples_form swaps code text (JavaScript, TypeScript, HTML/CSS, Rust, Python, C++, Kotlin, Java, Ruby, PHP, Fortran, Code Tests); weight_form 200–700 step 25; letter_spacing_form −10–10%; line_height_form 0.9–1.8 step 0.05",
+        "content": "A real palindrome-number function sampled from sampleprograms.io",
+        "assets": "Rival fonts (open ones) for the comparison",
+        "html": "form#fonts_form, #examples_form, #weight_form, #letter_spacing_form, #line_height_form inside section#section_7 .content_container"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "build-configurator",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "generous, exact",
+        "mobile": "unknown",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Section 07 continued, HTML only: 16 two-state radio rows labelled with their tag and effect (ss01 Ligatures, ss02 Arrows, ss03 Smart case, ss04 Symbol spacing, ss05 Smart kerning; cv01–cv11 alternates, each DEF/ALT), a font-name field, and 'Download custom for dev' and 'Download custom for design'",
+      "feel": "Compiler flags for a typeface",
+      "ux": "Set options, name the font, then download; the font is generated client-side with your defaults baked in, so it needs no editor settings",
+      "learn": "Bake chosen features into static files in the browser with opentype.js: users of weak tools get the alternates, and no server is needed",
+      "reconstruction": {
+        "layout": "One row per feature: tag and name at left, OFF/ON or DEF/ALT radios at right, with a live sample in the label ('<= != ===', 'Alt. g'); two download buttons below",
+        "typography": "All 12px Commit Mono; the example text in the label uses the feature",
+        "palette": [
+          "#ababab",
+          "#111111"
+        ],
+        "behaviour": "examplesettings_form radios (less_equal, arrows, case, ellipsis, smartkerning, a, g, square, i, at, six, zero, slanted, asterisk, l, one) update font-feature-settings live; font_name_form edits the name; opentype.js writes the feature changes and zip.js builds CommitMono.zip of four style-linked files",
+        "content": "16 features: ss01–05, cv01–11; weight, spacing and line height from the tester above",
+        "assets": "Variable source font, opentype.js, zip.js",
+        "html": "form#examplesettings_form, form#font_name_form; two buttons in section#section_7"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "helpful, step-by-step",
+        "mobile": "unknown",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Section 08 'Install', HTML only: numbered guide with 'Download (default settings)' and 'Customize download', four style-linked files, per-OS install steps, editor activation and VS Code settings.json lines",
+      "feel": "Thorough, friendly documentation",
+      "ux": "Download buttons; step list covering Windows, Mac, Linux and editors",
+      "learn": "Explain why four files make a 'Style Group' and give the exact settings.json lines: install friction is the real checkout barrier for a free coding font",
+      "reconstruction": {
+        "layout": "Numbered list in the left column, code lines inline",
+        "typography": "12px Commit Mono; list numbers; inline code",
+        "palette": [
+          "#ababab",
+          "#111111"
+        ],
+        "behaviour": "Buttons download a zip; 'Customize download' jumps to section 07",
+        "content": "CommitMono-400-Regular, -400-Italic, -700-Regular, -700-Italic; '\"editor.fontFamily\": \"CommitMono\"'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "faq",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "direct, helpful",
+        "mobile": "unknown",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "long"
+      },
+      "look": "Section 09 'Docs', HTML only: five topic tabs (FAQ, Features, Alternates, Character set, Languages); FAQ as native disclosure rows; intro with GitHub, e-mail and buy-me-a-coffee links",
+      "feel": "README, plain",
+      "ux": "Tabs by radio; rows open with <details>; licence questions answered with one-word 'Yes.'",
+      "learn": "Short legal FAQs answered 'Yes.' say more than a licence summary",
+      "reconstruction": {
+        "layout": "Radio tab row, then a stack of details rows in the left column; the section scrolls with WASD",
+        "typography": "12px Commit Mono; summary text Regular, body Regular",
+        "palette": [
+          "#ababab",
+          "#111111"
+        ],
+        "behaviour": "form#docs_form radios docs_topic = faq, features, alternates, charset, language swap .docs_container panels; native <details>",
+        "content": "'My .zip file won't work', 'How can I be sure that I'm looking at Commit Mono?', 'May I use Commit Mono to design my own font?'",
+        "assets": "none",
+        "html": "form#docs_form + div#faq_container_docs.docs_container > details > summary"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "reference, exact",
+        "mobile": "unknown",
+        "subject": [
+          "features",
+          "alternates"
+        ],
+        "presentation": "toggle",
+        "explanation": "caption"
+      },
+      "look": "Docs Features and Alternates tabs, HTML only: every ss and cv feature with a description, default state, tag and sample text in three states",
+      "feel": "Spec sheet",
+      "ux": "'Hold O to view feature ON' and 'Hold O to view ALT': one held key flips every sample at once",
+      "learn": "A single held key flips all samples: fast, comparative, and a better fit for a keyboard audience than one toggle per row",
+      "reconstruction": {
+        "layout": "Vertical list of ~16 feature blocks, each a description plus a sample in a grid",
+        "typography": "12px Commit Mono; samples at the same size",
+        "palette": [
+          "#ababab",
+          "#111111"
+        ],
+        "behaviour": "Keydown O applies each feature in the samples; keyup removes it",
+        "content": "'No ligatures [OFF] or common sequences into a single symbol [ON]… Default: OFF. Feature in variable font: \"ss01\".' with 'i <= j i >= k i == l i === m i != n i !== o'",
+        "assets": "none",
+        "html": "#features_container_docs, #alternates_container_docs"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "plain, complete",
+        "mobile": "unknown",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Docs Character set tab, HTML only: 'Full character set without alternates', 913 single-character cells, a 'new' note 'Added support for Greek. Καλώς ήρθες, απόλαυσε!', and 'Support for Cyrillic coming soon'",
+      "feel": "Complete, simple",
+      "ux": "Scrolled with W and S; ends with 'End of transmission.'",
+      "learn": "Sign off a long list with an in-world line: 'End of transmission.' gives a dry table some personality",
+      "reconstruction": {
+        "layout": "Flex-wrap grid of uniform p cells in the content column",
+        "typography": "Cells ~24px Commit Mono",
+        "palette": [
+          "#ababab",
+          "#111111"
+        ],
+        "behaviour": "none",
+        "content": "All 913 glyphs",
+        "assets": "none",
+        "html": "#charset > p.charset_letter×913"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "factual, reference",
+        "mobile": "unknown",
+        "method": "list",
+        "nonLatin": true
+      },
+      "look": "Docs Languages tab, HTML only: an alphabetical list of language names, ending at Zulu",
+      "feel": "Dry reference",
+      "ux": "static list inside the tab",
+      "learn": "A plain alphabetical list behind a tab serves the one reader who needs to check a language, without costing the page anything",
+      "reconstruction": {
+        "layout": "Column list in the content area",
+        "typography": "12px Commit Mono",
+        "palette": [
+          "#ababab",
+          "#111111"
+        ],
+        "behaviour": "Shown by docs_topic=language",
+        "content": "Tab text begins: Currently supported languages AfrikaansAlbanianAsuBasqueBembaBenaBreto… and ends with Western Frisian, Zulu; Greek support is stated in the charset tab",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "story",
+      "variant": "designer-bio",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "modest, personal",
+        "mobile": "unknown",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Section 10 'About', HTML only: a short third-person note on Eigil Nikolajsen, a support link, and social links",
+      "feel": "Student-project humble",
+      "ux": "Links to GitHub, X/Twitter, LinkedIn and buy me a coffee",
+      "learn": "A two-sentence bio is enough when the whole site already shows who made it",
+      "reconstruction": {
+        "layout": "Short paragraph at the top of section 10, then labelled link groups",
+        "typography": "12px Commit Mono",
+        "palette": [
+          "#ababab",
+          "#111111"
+        ],
+        "behaviour": "none",
+        "content": "'Eigil is a creative developer and designer from Denmark with a particular interest in type design.'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "generous, thankful",
+        "mobile": "unknown",
+        "contains": [
+          "credits",
+          "other-fonts",
+          "socials"
+        ]
+      },
+      "look": "Rest of section 10, HTML only: 'Thank you', 'Inspiration', 'Programming font resources' with other free coding fonts, 'Programs used', and '← First section'",
+      "feel": "Community-minded",
+      "ux": "22 outbound links, including to competing free coding fonts",
+      "learn": "List competing free fonts in your colophon: for an open project, generosity builds more trust than exclusivity",
+      "reconstruction": {
+        "layout": "Stacked labelled lists in the content column",
+        "typography": "12px Commit Mono with underlined links",
+        "palette": [
+          "#ababab",
+          "#111111"
+        ],
+        "behaviour": "'← First section' wraps back to the start",
+        "content": "Thanks to Hakim Mazouz and beta testers; Klim's Untitled, sampleprograms.io, opentype.js, zip.js, OpenType Cookbook; FontLab 8, Figma, VS Code",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed footer legend of keycap groups with labels: Navigate, To section, Scroll, Zoom, Edit text, Reset, Weight/italic, Light/dark, High contrast, Hide keys; keys light up when pressed (.key[data-key-code]) and can be clicked except where data-noclick is set"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "playground-app/keyboard-driven-app",
+    "hero/product-landing",
+    "story/design-brief",
+    "glyph-table/full-grid",
+    "comparison/lineage-lineup",
+    "design-details/feature-before-after",
+    "design-details/design-notes",
+    "story/self-test-evidence",
+    "specimen-showcase/size-waterfall",
+    "type-tester/code-playground",
+    "checkout/build-configurator",
+    "checkout/free-download",
+    "story/faq",
+    "design-details/feature-index",
+    "glyph-table/full-grid",
+    "language-support/language-name-list",
+    "story/designer-bio",
+    "footer/credits-colophon"
+  ]
+}

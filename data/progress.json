@@ -22,6 +22,9 @@
       "status": "running",
       "note": "browser built (npm run app → localhost:5178); playground rebuilds after Phase 3",
       "updatedAt": "2026-10-27T22:07:48.040Z"
+    },
+    "extract": {
+      "failuresReviewed": true
     }
   },
   "sites": {
@@ -2971,7 +2974,10 @@
         "updatedAt": "2026-10-20T21:01:02.709Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 6,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.105Z"
       }
     },
     "bigshoulders-me": {
@@ -2991,8 +2997,12 @@
         "updatedAt": "2026-10-20T21:01:03.127Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 9,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.115Z"
+      },
+      "note": "re-extract: 22 of 28 poem blocks read from overview tiles only, not full crops"
     },
     "spectral-prototypo-io": {
       "archive": {
@@ -3012,8 +3022,12 @@
         "updatedAt": "2026-10-20T21:01:03.213Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 5,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.121Z"
+      },
+      "note": "recapture: loader never cleared; all instances from HTML, low confidence"
     },
     "stencil-gothic-com": {
       "archive": {
@@ -3032,7 +3046,10 @@
         "updatedAt": "2026-10-20T21:01:03.453Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 10,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.128Z"
       }
     },
     "gidole-github-io": {
@@ -3194,7 +3211,10 @@
         "updatedAt": "2026-10-20T21:01:06.184Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 7,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.143Z"
       }
     },
     "kostasbartsokas-com-oi-you-mate": {
@@ -3215,7 +3235,10 @@
         "updatedAt": "2026-10-20T21:01:06.601Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 13,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.148Z"
       }
     },
     "redaction-us": {
@@ -3235,8 +3258,12 @@
         "updatedAt": "2026-10-20T21:01:06.779Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 8,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.153Z"
+      },
+      "note": "recapture: essay scrolls inside its sheet, mostly uncropped"
     },
     "compressa-preusstype-com": {
       "archive": {
@@ -3397,8 +3424,12 @@
         "updatedAt": "2026-10-20T21:01:10.835Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 11,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.163Z"
+      },
+      "note": "re-extract: short blocks judged from overview tiles, not full crops"
     },
     "graphit-type-com": {
       "archive": {
@@ -3419,8 +3450,12 @@
         "updatedAt": "2026-10-20T21:01:11.462Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 16,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.167Z"
+      },
+      "note": "re-extract: short blocks judged from overview tiles, not full crops"
     },
     "basco-typofonderie-com": {
       "archive": {
@@ -3440,8 +3475,12 @@
         "updatedAt": "2026-10-20T21:01:11.804Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 11,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.170Z"
+      },
+      "note": "re-extract: short blocks judged from overview tiles, not full crops"
     },
     "db-pixel-club": {
       "archive": {
@@ -3555,8 +3594,12 @@
         "updatedAt": "2026-10-20T21:01:13.148Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 3,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.177Z"
+      },
+      "note": "recapture: only page 1 of the flip-book archived"
     },
     "rt-dromo-com": {
       "archive": {
@@ -3575,8 +3618,12 @@
         "updatedAt": "2026-10-20T21:01:16.646Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 17,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.179Z"
+      },
+      "note": "re-extract: all 67 blocks judged from overview tiles, not full crops"
     },
     "wix-com-typeface-madefor": {
       "archive": {
@@ -3596,8 +3643,12 @@
         "updatedAt": "2026-10-20T21:01:17.091Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 13,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.182Z"
+      },
+      "note": "re-extract: short blocks judged from overview tiles, not full crops"
     },
     "fridamedrano-com-jabin": {
       "archive": {
@@ -3617,8 +3668,12 @@
         "updatedAt": "2026-10-20T21:01:17.304Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 12,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.184Z"
+      },
+      "note": "re-extract: short blocks judged from overview tiles, not full crops"
     },
     "lobdell-me-affogato": {
       "archive": {
@@ -3637,7 +3692,10 @@
         "updatedAt": "2026-10-20T21:01:17.466Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 10,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.187Z"
       }
     },
     "nabla-typearture-com": {
@@ -3697,12 +3755,17 @@
       "blocks": {
         "status": "done",
         "v": 3,
-        "blocks": 0,
-        "kinds": {},
-        "updatedAt": "2026-10-20T21:01:18.234Z"
+        "blocks": 17,
+        "kinds": {
+          "flow": 17
+        },
+        "updatedAt": "2026-11-05T02:27:36.353Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 17,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.191Z"
       }
     },
     "plex-korean-demo-vercel-app": {
@@ -3817,7 +3880,10 @@
         "updatedAt": "2026-10-20T21:01:19.273Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 11,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.196Z"
       }
     },
     "x5-acjs-net": {
@@ -3838,7 +3904,10 @@
         "updatedAt": "2026-10-20T21:01:19.549Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 7,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.199Z"
       }
     },
     "daifoldes-com-eubiescript-sub": {
@@ -3952,8 +4021,12 @@
         "updatedAt": "2026-10-20T21:01:21.410Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 19,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.204Z"
+      },
+      "note": "recapture: only section 01 imaged; 02-10 HTML-only, sizes estimated"
     },
     "dyslexiefont-com": {
       "archive": {
@@ -3973,7 +4046,10 @@
         "updatedAt": "2026-10-20T21:01:22.076Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 19,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.206Z"
       }
     },
     "indestructibletype-com-jost": {
@@ -3993,7 +4069,10 @@
         "updatedAt": "2026-10-20T21:01:22.433Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 10,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.209Z"
       }
     },
     "latofonts-com": {
@@ -4013,7 +4092,10 @@
         "updatedAt": "2026-10-20T21:01:22.549Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 8,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.210Z"
       }
     },
     "luciole-vision-com": {
@@ -4033,7 +4115,10 @@
         "updatedAt": "2026-10-20T21:01:22.685Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 10,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.213Z"
       }
     },
     "djr-com-fern": {
@@ -4148,8 +4233,12 @@
         "updatedAt": "2026-10-20T21:01:25.799Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 14,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.221Z"
+      },
+      "note": "recut: three-point row and stats band never cut"
     },
     "timesnewerroman-com": {
       "archive": {
@@ -4168,7 +4257,10 @@
         "updatedAt": "2026-10-20T21:01:25.865Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 8,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.224Z"
       }
     },
     "typeof-net-iosevka": {
@@ -4188,7 +4280,10 @@
         "updatedAt": "2026-10-20T21:01:26.223Z"
       },
       "extract": {
-        "status": "pending"
+        "status": "done",
+        "instances": 12,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.226Z"
       }
     },
     "vollkorn-typeface-com": {
@@ -4208,8 +4303,12 @@
         "updatedAt": "2026-10-20T21:01:26.536Z"
       },
       "extract": {
-        "status": "pending"
-      }
+        "status": "done",
+        "instances": 13,
+        "warnings": 0,
+        "updatedAt": "2026-11-05T02:27:57.228Z"
+      },
+      "note": "recut: block 01 crops cover ~4690 of 6754px"
     }
   }
 }

@@ -1,0 +1,271 @@
+{
+  "slug": "excelsiorama-com",
+  "extractedBy": "agent",
+  "summary": "A collaborative open-source display font by 30+ Upstate New York designers, each glyph drawn by someone else. The page is a long wall of ~105 poster-coloured glyph cards, each crediting its author, followed by full-bleed colour bands of editable sentences that show off the deliberately mismatched mashup.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "loud, collaborative, irreverent",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "'EXCELSIORAMA' at ~174px on charcoal with each letter a different drawing and colour (cyan, lime, purple, orange, yellow), one line of white monospace below, and a small fixed white 'A/a' chip at top centre",
+      "feel": "A carnival poster from a group show",
+      "ux": "Static; the fixed A/a chip (attached here, never cut as a block) stays on screen and toggles the size of the glyph-wall cards",
+      "learn": "When every letter has a different author, let colour separate them: the wordmark explains the concept on its own",
+      "reconstruction": {
+        "layout": "Centred 940px box, ~519px tall on #232323; word at ~y=230, tagline at ~y=450; chip 48×28px fixed at top centre, white",
+        "typography": "Name ~174px Excelsiorama, fitted with FitText (0.5); tagline 16px monospace white; chip ~10px bold",
+        "palette": [
+          "#232323",
+          "#61daff",
+          "#bbdd00",
+          "#a03eed",
+          "#ff971a",
+          "#fc3d62",
+          "#ffffff"
+        ],
+        "behaviour": "FitText on #headline; per-letter colour spans",
+        "content": "'A typeface made by graphic designers living and working in \"Upstate\" (not NYC) New York.'",
+        "assets": "none",
+        "html": "h1#headline with per-letter colour spans; a#size 'A/a'"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "poster-bright, communal, joyful",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A wall of ~105 tall five-across cards, each a flat colour (lime, cyan, yellow, pink, purple, orange, grey) with one white glyph cropped by the card, a hairline, the contributor's name in Six Caps and a @handle; alternates carry a black 'ALT' tag",
+      "feel": "Trading cards, a wall of gig posters",
+      "ux": "Each handle links to the contributor's Twitter; the fixed A/a chip toggles .small on the cards so the wall shrinks",
+      "learn": "Turn the character set into a credit roll: each cell names who drew the letter, so the glyph table becomes the 'about' section and contributors have a card to share",
+      "reconstruction": {
+        "layout": "Five columns, 1020px wide total centred on charcoal; cards ~202×336px with 3px gaps; ~21 rows, 8932px tall. Glyph oversized and clipped by the card (overflow hidden); name and handle fixed near the bottom. Colour order cycles through 7 colours",
+        "typography": "Glyph ~160px+ excelsiorama, white; name ~24px Six Caps uppercase black under a 1px rule; handle ~10px Arial Black or Helvetica Neue Bold; 'ALT' tag ~8px white on black",
+        "palette": [
+          "#242323",
+          "#b8da02",
+          "#61daff",
+          "#f9df04",
+          "#fc3d62",
+          "#9937eb",
+          "#fb9314",
+          "#666666",
+          "#ffffff"
+        ],
+        "behaviour": "#size click toggles .on on itself and .small on all .on elements (cards). Links open Twitter. No hover glyph detail",
+        "content": "Whole set in order: A–Z, a–z, figures, punctuation, currency, then alternates (ss01). Real contributors",
+        "assets": "none",
+        "html": "ul > li.on[.alt] > span.letter + div.container > h2 + a.cta"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "shadowy, local pride",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "'UPSTNY' at 268px in near-black on charcoal, barely visible, each letter a different hand",
+      "feel": "A ghosted sign",
+      "ux": "static",
+      "learn": "A tone-on-tone word makes a quiet divider between a loud wall and loud bands (or the per-letter colour classes failed; only one span's class looks misspelled in the HTML, so the darkness may be a bug)",
+      "reconstruction": {
+        "layout": "Full-width, 508px tall, word centred",
+        "typography": "268px excelsiorama via FitText(.5)",
+        "palette": [
+          "#222222",
+          "#111111"
+        ],
+        "behaviour": "none",
+        "content": "'UPSTNY', short for Upstate New York",
+        "assets": "none",
+        "html": "h2#upstny2 > span.blue, .green, .yellow, .pink, .purp"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "04",
+        "05",
+        "06"
+      ],
+      "type": "type-tester",
+      "variant": "labelled-editable-lines",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "pangram",
+        "tone": "bold, cheerful, DIY",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "per-row",
+        "defaultText": "pangram",
+        "export": false
+      },
+      "look": "Three full-bleed colour bands, each with one centred editable pangram: cyan on yellow, black on sky blue ('hamburgefonstiv'), yellow on pink, then a bordered dark 'TYPE SOMETHING' box",
+      "feel": "Screen-printed bands",
+      "ux": "Click and type on any band; the last field empties itself on focus. No controls, no labels",
+      "learn": "One colour pair per editable band: with no toolbar, each field shows a different mood and a different test string",
+      "reconstruction": {
+        "layout": "Stacked full-width bands of 724, 434 and 360px, with centred text; then 1300×244px outlined field on charcoal",
+        "typography": "Yellow band: ~130px caps; blue band: ~134px (FitText 1) lowercase; pink band: ~90px lowercase; field ~100px grey text; all Excelsiorama, centred, wrapping",
+        "palette": [
+          "#f9df04",
+          "#61dbfe",
+          "#fb3b62",
+          "#242424",
+          "#969696"
+        ],
+        "behaviour": "p#rando, p#pangram and h2#upstny are contenteditable with spellcheck off; textarea onfocus clears contents. Band sizes fixed by content",
+        "content": "'THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG', 'hamburgefonstiv', 'pack my box with five dozen liquor jugs', 'TYPE SOMETHING'",
+        "assets": "none",
+        "html": "p#rando[contenteditable], h2#upstny[contenteditable], p#pangram[contenteditable], textarea"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "casual, candid",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "A single paragraph of 16px monospace on charcoal explaining the project and linking to Github",
+      "feel": "A README",
+      "ux": "Links to Github and two Twitter accounts",
+      "learn": "A plain mono README paragraph is a good foil after a loud mashup, and asks for use in return",
+      "reconstruction": {
+        "layout": "760px centred column, ~282px tall",
+        "typography": "16px monospace, leading ~1.8, white",
+        "palette": [
+          "#262626",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "'…completed by over 30 collaborators… Contributors snagged glyphs on a first come first served basis, with zero direction and guidance.'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Yellow 'DOWNLOAD EXCELSIORAMA' button in 18px monospace red-orange on charcoal, linking to the Github zip"
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "sly, understated",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "Dark band with three tiny grey logos typed from the font's own custom glyphs ('_ + \\ + •': a heart, AIGA, a signature) joined by plus signs",
+      "feel": "A wink",
+      "ux": "Each glyph links to AIGA's Slack, AIGA Upstate NY and the developer",
+      "learn": "Draw the partner logos as glyphs and the credit line is typed in the font itself",
+      "reconstruction": {
+        "layout": "Full-width, 350px tall, centred row ~180px wide",
+        "typography": "~50px excelsiorama for the logo glyphs, monospace '+', grey",
+        "palette": [
+          "#222222",
+          "#4f4f4f"
+        ],
+        "behaviour": "none",
+        "content": "Logo glyphs mapped to _ \\ •",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "glyph-table/full-grid",
+    "specimen-showcase/word-stack",
+    "type-tester/labelled-editable-lines",
+    "story/essay",
+    "checkout/free-download",
+    "footer/slim-legal-bar"
+  ]
+}

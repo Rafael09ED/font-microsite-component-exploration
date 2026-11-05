@@ -1,0 +1,329 @@
+{
+  "slug": "redaction-us",
+  "extractedBy": "agent",
+  "summary": "A black-and-white site for the free Redaction family, commissioned for Titus Kaphar and Reginald Dwayne Betts's exhibition on court fines. Its idea is the family's six progressively pixel-damaged cuts, shown through a degrading hero, a slider tester, draggable glyph tiles and a legal essay on a folded sheet; a flag-shaped custom cursor runs through the whole page.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "grave, stark, institutional",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "White 'redaction' at 230px centred on black, a small credit line and a white pill with the venue; a black-and-white American-flag cursor sits top left in every stitched crop",
+      "feel": "A sombre courtroom title card",
+      "ux": "The block is .type-slider and preloads the cuts f-0–f-6 with bold and italic: the word likely steps through the degraded cuts with the pointer or on a timer; no degradation was visible in the capture. The cursor is replaced by a small flag SVG",
+      "learn": "Swap the arrow cursor for a loaded symbol: the flag follows the visitor through a site about the justice system, and it costs one SVG",
+      "reconstruction": {
+        "layout": "Full-bleed 100vh black; word centred at ~y=310; description 14px centred at y≈540; venue pill below it. Custom flag cursor ~85×46px",
+        "typography": "'redaction' 230px Redaction Regular white, lowercase; description ~14px Redaction, italic title; pill ~13px black on white",
+        "palette": [
+          "#020202",
+          "#ffffff",
+          "#aeaeae"
+        ],
+        "behaviour": "All seven cuts preloaded in hidden .pre spans so swaps don't flash. Probably pointer-driven swapping of cut (.type-slider); not verified from capture. Mobile shows a giant 'R' instead",
+        "content": "Title, credit, 'NXTHVN / August – September 26' venue link",
+        "assets": "cursor/flag.svg (monochrome flag)",
+        "html": ".type-slider > h1.f-0; .pre > span.f-0…f-6 > span.b, span.i; .type-cursor.flag"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "legal, blunt, conceptual",
+        "mobile": "hidden",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "'Marbury v.' at 173px, with a solid black bar in the place of 'Madison' on the second line, centred on white",
+      "feel": "A censored legal document at poster size",
+      "ux": "The second word is hidden by the bar; .type-redactor suggests a hover or pointer reveal of the name beneath. Only desktop has it; absent on mobile",
+      "learn": "Enact the subject on the specimen: a redacted line of real case law states the concept with no explanation",
+      "reconstruction": {
+        "layout": "1170px tall section (130vh), two centred lines; bar ~776×192px directly under line 1, covering the second word",
+        "typography": "173px Redaction Regular black; second line (hidden) same size in black on black",
+        "palette": [
+          "#fefefe",
+          "#020202"
+        ],
+        "behaviour": "h2 inside .two with black background over black text; likely pointer interaction reveals it; not observed",
+        "content": "A landmark US Supreme Court case name; component .cases may hold others",
+        "assets": "none",
+        "html": ".type-redactor > .cases > h2.f-0 + .two > h2.f-0"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "clinical, restrained",
+        "mobile": "hidden",
+        "structure": "grid",
+        "samples": "glyph",
+        "interactive": true
+      },
+      "look": "Canvas: three white 'S' at ~300px (Italic, Regular, Bold) in a row on black with tiny labels, and a large white disc partly off the top left corner",
+      "feel": "Microscope view",
+      "ux": "Canvas drawn with Paper.js; the disc probably follows the pointer or inverts what it covers. Not visible on mobile",
+      "learn": "Reduce a family overview to one letter in three styles at huge size: the differences do the talking",
+      "reconstruction": {
+        "layout": "990px tall (110vh) canvas full-bleed; three equal columns; labels ~12px below each at y≈480; disc ~400px diameter",
+        "typography": "~300px Redaction Italic, Regular, Bold rendered as canvas text; labels ~12px Redaction",
+        "palette": [
+          "#010101",
+          "#f8f8f8"
+        ],
+        "behaviour": "canvas#view-0[resize=true] (Paper.js); pointer interaction not observed",
+        "content": "'S' in the three styles",
+        "assets": "none",
+        "html": ".type-detail > canvas#view-0"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "specimen-showcase",
+      "variant": "draggable-glyph-tiles",
+      "newVariant": true,
+      "variantDefinition": "Overlapping square tiles of huge cropped glyphs (some animated GIFs) that the visitor can drag and resize into their own collage; the specimen is a pile of cards on a table rather than a fixed layout.",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "game-like",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "graphic, tactile, stark",
+        "mobile": "adapts",
+        "medium": "generative",
+        "sequence": "grid"
+      },
+      "look": "Seven overlapping black or white squares, each cropping one huge glyph (&, n, a pixelated X, a comma-like shape, !, /5), scattered on white",
+      "feel": "Evidence photos spread on a desk",
+      "ux": "Each tile can be dragged and resized by edge handles; some contain animated GIFs by Zipeng Zhu with a JPG fallback. On mobile the tiles stack in a column",
+      "learn": "Give the visitor a heap of cropped letters to push around: curating a collage makes them look at details they would scroll past",
+      "reconstruction": {
+        "layout": "1080px tall (120vh); seven ~250–406px absolute squares, overlapping, with z-order by last touched; some 1px outlined white on white",
+        "typography": "Glyph images, not live text: crops of Redaction and damaged cuts",
+        "palette": [
+          "#fdfdfd",
+          "#040404",
+          "#4c4c4c"
+        ],
+        "behaviour": "vue-draggable-resizable: .drag-item.draggable.resizable.vdr with eight .handle-* shown on activation; animation images a_N.gif above a_N.jpg",
+        "content": "Single glyphs chosen for their shape",
+        "assets": "Seven animated glyph GIFs with JPG posters (/static/animations/a_1–7)",
+        "html": ".font-draggable > .drag-container > .drag-item.vdr[style=top,left,width,height] > .handle.handle-tl… + img"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "serious, documentary",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "archival",
+          "photo"
+        ],
+        "length": "long"
+      },
+      "look": "A white sheet with a folded top-right corner on a black ground, holding a headline, the essay and images in a contained scroll area with a square scrollbar thumb on a grey rail",
+      "feel": "A legal document in a file",
+      "ux": "The sheet scrolls internally (perfect-scrollbar); most of the essay and its images sit outside the capture and were read from HTML only",
+      "learn": "Style the long read as the object it talks about: a fold and a tall custom scrollbar turn a modal into a document",
+      "reconstruction": {
+        "layout": "Section 1170px tall on black; sheet x=85–1355, y=262–910, clipped by a polygon top-right corner (~200px fold in grey #d6d6d6); text 840px column, scrollbar rail 50px wide, right edge, starting below the fold",
+        "typography": "Title 90px Redaction Regular; deck ~44px; body ~17px Redaction, leading ~1.5; links underlined",
+        "palette": [
+          "#010101",
+          "#fbfbfb",
+          "#d6d6d6"
+        ],
+        "behaviour": "perfect-scrollbar in the sheet; square 50×50px outlined thumb",
+        "content": "Real essay on the exhibition, Civil Rights Corps documents, court fines and fees; redact-1–5 and other images",
+        "assets": "Essay images (15 total), redaction.svg",
+        "html": ".type-intro.black > .text; .ps__rail-y > .ps__thumb-y"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "pointed, minimal",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "style-select",
+          "axes"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "A single input with grey placeholder 'make history.' at 104px, then three circled buttons r, b, i and one long hairline slider",
+      "feel": "A form with a charged prompt",
+      "ux": "Type; pick regular, bold or italic; drag the slider to step through the seven cuts from clean to damaged (fonts f-0…f-6)",
+      "learn": "Treat a stepped set of files as an axis: one slider across separate fonts feels like variable type with no variable font",
+      "reconstruction": {
+        "layout": "100vh; input ~1040px wide, centred; config row ~y=520: three 30px circles at left and a 700px slider, thumb 30px outlined circle",
+        "typography": "Input 104px Redaction (max 48px reported in HTML; rendered larger); circled letters ~16px; placeholder #777",
+        "palette": [
+          "#fdfdfd",
+          "#000000",
+          "#777777"
+        ],
+        "behaviour": "Buttons swap style; slider (vue-slide-bar) maps to Redaction, 10, 20, 35, 50, 70, 100 family swap; placeholder clears on focus, returns on blur",
+        "content": "Placeholder prompt 'make history.'",
+        "assets": "none",
+        "html": ".type-writer > .input > input[placeholder='make history.'].f-0; .config > .weight > button.f-0*3; .bitmap > .vue-slide-bar"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, ceremonial",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Black screen with a huge radio circle + 'Agree' at 206px, and 'Download' at the same size reversed on a white strip",
+      "feel": "Signing a declaration",
+      "ux": "Tick Agree to enable the download; the agreement is a huge display word rather than small print. Open Font License is linked elsewhere",
+      "learn": "Make consent the headline: two words at 200px turn the dullest step into the page's final act",
+      "reconstruction": {
+        "layout": "1080px (120vh); left aligned from x≈100; radio ~100px circle at y≈380, 'Agree' next to it; white strip 1065×245px at y≈590 with 'Download'",
+        "typography": "Both ~206px Redaction Regular; 'Agree' white, 'Download' black on white",
+        "palette": [
+          "#010101",
+          "#fbfbfb"
+        ],
+        "behaviour": "input#agree radio with custom .check; h2.dl is the action, enabled once agreed",
+        "content": "Two words, licence context nearby",
+        "assets": "none",
+        "html": ".type-download > form > input#agree + .check + p.agree; h2.dl"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "sober, complete",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "contact"
+        ]
+      },
+      "look": "'Credits —' at 52px on white with a left-aligned list of roles and thanks, and a larger contact e-mail",
+      "feel": "Museum wall label",
+      "ux": "Mail link",
+      "learn": "Keep the long dash from the essay title, so the colophon is visibly the same document",
+      "reconstruction": {
+        "layout": "743px tall; column at x≈220, ~800px wide",
+        "typography": "Heading 52px Redaction; list ~20px; e-mail ~36px",
+        "palette": [
+          "#fefefe",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Creative direction Forest Young, type Jeremy Mickel, web Wilm Thoben, animation Zipeng Zhu / Dazzle; thanks to MoMA staff; info@redaction.us",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "specimen-showcase/word-stack",
+    "family-overview/style-word-grid",
+    "specimen-showcase/draggable-glyph-tiles",
+    "story/essay",
+    "type-tester/slider-sandbox",
+    "checkout/free-download",
+    "footer/credits-colophon"
+  ]
+}

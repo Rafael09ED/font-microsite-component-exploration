@@ -1,0 +1,699 @@
+{
+  "slug": "djr-com-bungee",
+  "extractedBy": "agent",
+  "summary": "A horizontally scrolling desktop page (one long row of 900px-tall colour panels; a plain vertical stack on mobile) for a free chromatic signage family. Fitting the subject, chapter headings run vertically in Rotated Shade, and the site's centrepiece is a layer-by-layer colour and sign builder that exports SVG, PNG and PDF.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "loud, sign-painter, joyful",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "'BUN-GEE!' hyphenated onto two lines, white with a deep maroon extruded Shade layer on signal red, filling the panel; a one-line dark-red tagline beneath",
+      "feel": "Roadside, shouting, fun",
+      "ux": "Static; the first panel of a horizontal scroll, the yellow panel peeking at the right edge invites scrolling sideways",
+      "learn": "Layer the same word in Regular and Shade at full viewport height and the hero demonstrates the chromatic system with no explanation; let the next panel peek in to teach the scroll direction",
+      "reconstruction": {
+        "layout": "Panel 1035×900 (100vh tall) at the start of a horizontal row; 1035px is sized by the word, so it fits to the height; word occupies y≈60–710 from x≈50; tagline at y≈755, ~920px wide; ~24px nav bar over the top",
+        "typography": "Wordmark ~540px per line (max 45vh per line via .fit-to-width), Bungee Regular white with Shade layer #7a1f16 behind; tagline ~32px Bungee Regular dark red, tracked, reads 'Fonts for vertical andmulticolor typography' (the missing space is in the capture)",
+        "palette": [
+          "#dc4227",
+          "#ffffff",
+          "#7a1f16"
+        ],
+        "behaviour": "Layers are absolutely stacked text copies; the text is fitted to the panel by script (data-max-font-size=45vh)",
+        "content": "Family name and tagline",
+        "assets": "none",
+        "html": "section#cover.red with .fit-to-width[data-max-font-size=45vh]; layered figure.bungee built by bungee.js (.layer.text.regular/.inline/.shade)"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "foundry, neutral",
+        "mobile": "adapts",
+        "navVisible": true
+      },
+      "look": "Slim maroon foundry bar across the cover: David Jonathan Ross at left, Fonts +, Club, Typeset, Glyphs, Notes, About, Sign in, Cart at right. Not cut as its own block, attached here",
+      "feel": "Utility, unobtrusive",
+      "ux": "Scrolls away with the cover (absent from later video frames); collapses to a Menu link on mobile",
+      "learn": "A horizontal page leaves no room for a persistent bar, so it can simply belong to the first panel",
+      "reconstruction": {
+        "layout": "Full viewport width, ~26px tall, name left, links right with ~24px gaps",
+        "typography": "~11px Output Sans or Input Sans Narrow caps, tracked ~0.15em, white",
+        "palette": [
+          "#7a1f16",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Foundry site links",
+        "assets": "none",
+        "html": "#nav-container > #main-nav"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "main-street, retro signage",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "grid"
+      },
+      "look": "Yellow panel of nine vertical signs side by side: PARKING in an arrow, TIRES in boxes, PERMANENT PRESS, LIGHTS & DARKS, LIQUID DETERGENT, SOAPS, SPIN CYCLE, POOLSIDE in discs, COIN-OPS",
+      "feel": "Street at night, a strip of small businesses",
+      "ux": "static",
+      "learn": "Pick words from one trade (a laundromat, a motel) so a wall of vertical specimens reads as a real street, with each sign showing a different layer and shape combination",
+      "reconstruction": {
+        "layout": "1424×900 panel; 9 full-height columns of different widths, from ~50px to ~200px, tops and bottoms roughly aligned at y≈20 and y≈840",
+        "typography": "All Bungee vertical forms: Regular, Inline, Outline and Shade, 1 to 3 layers per sign; letters ~100–160px tall",
+        "palette": [
+          "#efe446",
+          "#184b57",
+          "#cc1f0f",
+          "#2b859d",
+          "#dc4227",
+          "#4a2c2c",
+          "#ffffff"
+        ],
+        "behaviour": "none; two SVGs, specimen-vertical-A and -B, appear to be swapped by viewport (the mobile page stacks them as two rows)",
+        "content": "Laundromat and parking vocabulary",
+        "assets": "Two SVG specimens using banner shapes (arrow, rounded, discs, boxes)"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "palette-editor",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "toy-like, generous, practical",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "color",
+          "presets",
+          "features"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": true
+      },
+      "look": "A huge layered 'TESTER' fills the top of a teal panel, with a small grey form below: text field, Horizontal/Vertical radios, preset colour theme chips drawn as an R, then collapsible Colors, Background shapes, Alternates and Save/Share",
+      "feel": "A sign shop's order form",
+      "ux": "Type to change the sign; flip orientation; click one of 11 themes or set a colour per layer; add banner start, end and block shapes; tick alternates; then copy a permalink or download SVG, PNG or PDF",
+      "learn": "Make the tester produce a finished artefact: per-layer colours, sign shapes and a server-rendered SVG, PNG or PDF export turn it into a free sign maker, and the URL holds the whole state so any result can be shared",
+      "reconstruction": {
+        "layout": "Panel 1224×900 with the whole background tinted by the chosen theme; preview fills from x≈30, y≈70, up to ~1100px wide, capped at 30vh tall; control card at x≈64, y≈355, 455×315px, light grey with hairline dividers, each expander a ~43px row",
+        "typography": "Preview auto-sized (270px here, data-max-font-size=30vh), Bungee layers; form labels ~14px bold Output Sans; chips ~28px squares each rendering 'R' in its own theme",
+        "palette": [
+          "#2b859d",
+          "#ffffff",
+          "#e8e8e7",
+          "#215966",
+          "#247082"
+        ],
+        "behaviour": "All inputs re-render the stacked layers (Regular, Inline, Outline, Shade, Sign, Background), each a separately coloured copy; a change updates the permalink and the export URLs, /assets/bungee/svg/svg.php?text=…&size=144&orientation=…&regular=…&inline=…&shade=…&sign=…&background=…&begin=…&end=…&block=…&ss=…&format=png|pdf. Fieldset.expander collapses and expands",
+        "content": "Default text 'Tester'; themes such as red-on-white, red-on-dark, blue-on-dark, teal, cool-blues, peach-orange-purple, sherman; alternates: Alternate A M N W X Y, Round E, Simplified I, Simplified L, Alternate ampersand, Small apostrophe",
+        "assets": "Colour-layer font files and banner-shape glyphs; a server endpoint for SVG, PNG and PDF export",
+        "html": "section#tester > figure#preview.bungee[data-max-font-size=30vh] > div > .layer.background + .layer.text.regular|inline|shade; form#controls > #text-control, #orientation-controls, fieldset.expander#preset-controls (#palettes), #layer-controls (.swatch[data-layer] + input.layercolors), #banner-controls (radios begin-*, end-*, block-*), #stylistic-sets (checkbox name=alt), #save-share (#permalink, #download-svg/png/pdf, #view-code)"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "05"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "observant, urban, curious",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "On warm off-white, a vertical red 'STACKING' title beside three tall street photos of signs (G&G Hardware, Little City Selected Meats, the Tower theatre), with a short caption and paragraph; a later panel shows three odd signs (Drugs, Telephone, Do Not Enter) and asks design questions",
+      "feel": "A field notebook of signage",
+      "ux": "static",
+      "learn": "Rotate the chapter title 90° so the page's headings use the very feature being discussed, and let three cropped street photos carry the argument",
+      "reconstruction": {
+        "layout": "Panels 1136 and 1008px wide, 900 tall; vertical title column ~80px at left in the first; three portrait photos ~280×635px with ~18px gaps at y≈32; caption 10px; paragraph ~640px wide below at y≈705",
+        "typography": "Title Bungee Rotated Shade ~96px, red with tan shade, reading downward; caption ~11px Input Sans Narrow; body ~16px Output Sans, leading ~1.4",
+        "palette": [
+          "#ece6df",
+          "#dc4227",
+          "#e6cfa0",
+          "#222222"
+        ],
+        "behaviour": "none",
+        "content": "'Bungee is a typeface that celebrates the urban sign…' then 'How should I handle word breaks and apostrophes? How monowidth is too monowidth?'",
+        "assets": "Designer's own street photographs of vertical signs"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "glyph-table",
+      "variant": "full-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "bold, schematic",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Yellow A–Z in Inline on teal, set as five vertical columns reading top to bottom, with a paragraph on straight-sided rounds and tricky letters below",
+      "feel": "Signboard alphabet",
+      "ux": "Static SVG; text links to the avoid-these-letters note and alternates",
+      "learn": "When a typeface is meant to stack, read the alphabet down columns instead of across rows: the layout itself proves the vertical rhythm",
+      "reconstruction": {
+        "layout": "1008×900 panel; SVG ~880×640 from x≈65, y≈35; 5 columns of 5 letters, ~195px column pitch, ~133px row pitch; paragraph ~640px wide at y≈705",
+        "typography": "Letters ~100px tall, Bungee Regular + Inline, yellow with thin dark outline; body ~16px Output Sans white",
+        "palette": [
+          "#2b859d",
+          "#efe446",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "A–Z; rationale for proportions, naming O, A, I, L, M, W",
+        "assets": "bungee-alpha.svg"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "technical, diagrammatic",
+        "mobile": "adapts",
+        "subject": [
+          "spacing",
+          "features"
+        ],
+        "presentation": "diagram",
+        "explanation": "prose"
+      },
+      "look": "Five vertical words on red (AÇAÍ, BYRÅ, AQUA, TRÆK, EFJA) with each glyph's box outlined to show varying height and overlap, topped by a small ↓T vertical-text icon",
+      "feel": "Engineering drawing in a hot colour",
+      "ux": "Static; links to OpenType notes and the CSS pair writing-mode: vertical-rl with text-orientation: upright, set as inline code",
+      "learn": "Draw the glyph boxes to make invisible vertical metrics and kerning visible, and pick words with accents, ligatures and descending tails to stress them",
+      "reconstruction": {
+        "layout": "1052×900 panel; SVG ~900×640; 5 columns ~195px apart, staggered starts with the ↓T icon above each; paragraph ~640px wide at y≈705",
+        "typography": "Letters Bungee Regular + Inline, white, ~130px wide; hairline boxes darker red; body ~16px Output Sans white; code in Input Mono Narrow on a darker chip",
+        "palette": [
+          "#dc4227",
+          "#ffffff",
+          "#7a1f16",
+          "#efe446"
+        ],
+        "behaviour": "none",
+        "content": "Words chosen for diacritics and awkward vertical pairs",
+        "assets": "bungee-spacing.svg"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "story",
+      "variant": "making-of",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "wry, hands-on",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "process",
+          "photo"
+        ],
+        "length": "short"
+      },
+      "look": "One big photo of the designer with a laptop turned on its side, typing to draw rotated letterforms, above a short paragraph",
+      "feel": "Funny, candid",
+      "ux": "Link to a tip on rotating the text box",
+      "learn": "A single absurd workshop photo says more about a process than a sequence of sketches",
+      "reconstruction": {
+        "layout": "1008×900 panel; photo ~880×660 at x≈65, y≈32; paragraph ~640px wide at y≈705",
+        "typography": "Body ~16px Output Sans, leading ~1.4, dark on warm white; red underlined link",
+        "palette": [
+          "#ece6df",
+          "#222222",
+          "#dc4227"
+        ],
+        "behaviour": "none",
+        "content": "'I began by drawing each of Bungee's letterforms on its side, rotated 90° counter-clockwise…'",
+        "assets": "Photograph of the designer at work (djr-sideways.jpg)"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "diner, roadside, multicultural",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "grid"
+      },
+      "look": "Yellow panel with two columns of seven horizontal shop signs each: PHỞ ĐÀ LẠT, ROSA'S LIQUORS, SUITS, EXPRESS, BOULANGERIE, ZAPATERÍA, RAY'S DINER, BARBER, HOT FRESH PIZZA, COCKTAILS, VACANCY, LUNCHEONETTE, OPEN 24 HOURS, MOTEL",
+      "feel": "A whole downtown on one screen",
+      "ux": "static",
+      "learn": "Sign words from several languages show diacritics in passing, and vary layer, colour and banner shape line by line so each word is a new recipe",
+      "reconstruction": {
+        "layout": "1507×900 panel; two equal columns ~660px wide with a ~30px gutter; 7 rows ~100–120px tall, each fitted to the column width",
+        "typography": "Bungee Regular, Inline, Outline, Shade and Hairline in varied layer stacks; heights ~65–135px",
+        "palette": [
+          "#efe446",
+          "#4a2c2c",
+          "#184b57",
+          "#dc4227",
+          "#2b859d",
+          "#ffffff"
+        ],
+        "behaviour": "none; specimen-horizontal-A and -B SVGs, stacked on mobile",
+        "content": "Shop and venue names in English, Vietnamese, French and Spanish",
+        "assets": "Two SVG specimens with banner shapes (ornate plaque, chevrons, discs, ribbon, boxes)"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "historical, enthusiastic",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "archival"
+        ],
+        "length": "short"
+      },
+      "look": "Vertical 'COLOR' title beside a large scan from Wm. H. Page & Co.'s 1874 chromatic type specimen, showing 'RIDE' in overprinted wood type, with a short history paragraph",
+      "feel": "Antique, ornamental",
+      "ux": "One link to a chromatic font resource",
+      "learn": "Open the feature chapter with the historical precedent so a modern colour-font technology reads as the return of a craft",
+      "reconstruction": {
+        "layout": "1136×900 panel; title column ~80px at left; scan ~880×660 at x≈190, y≈32, cropped into the page; caption and ~640px paragraph below",
+        "typography": "Title Bungee Rotated Shade ~96px red with tan shade; caption ~11px Input Sans Narrow; body ~16px Output Sans",
+        "palette": [
+          "#ece6df",
+          "#dc4227",
+          "#e6cfa0",
+          "#222222"
+        ],
+        "behaviour": "none",
+        "content": "'Chromatic fonts are nothing new: sets of wood type intended for overprinting were produced as early as 1841…'",
+        "assets": "Archival specimen scan (page-chromatic_etruscan.jpg)"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "design-details",
+      "variant": "system-diagrams",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "instructional, layered",
+        "mobile": "adapts",
+        "subject": [
+          "features",
+          "construction"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "'BUNGEE!' four times on teal, one layer each: Outline in thin pink, Regular in red, Inline in dark blue, Shade as a heavy extruded block, with a paragraph on combining them",
+      "feel": "Print separations pulled apart",
+      "ux": "An animated GIF (bungee-layers.gif) shows the layers; the capture holds one frame. Link to the mix-and-match tester; ::before, ::after and bungee.js set as inline code",
+      "learn": "Pull a chromatic font apart like print separations: one word per layer explains the system better than any description, and links straight to where to try it",
+      "reconstruction": {
+        "layout": "958×900 panel; GIF ~830×670 from x≈65, y≈30, four equal rows; paragraph ~640px wide at y≈705",
+        "typography": "One word at ~130px per row across Outline, Regular, Inline, Shade; body ~16px Output Sans white; inline code Input Mono Narrow on a darker chip",
+        "palette": [
+          "#2b859d",
+          "#dc4227",
+          "#184b57",
+          "#efe446",
+          "#ffffff"
+        ],
+        "behaviour": "GIF animation of the layers, exact sequence not determined from the stills",
+        "content": "'Bungee comes in four layers: Regular, Inline, Outline, and Shade…'",
+        "assets": "bungee-layers.gif"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "clear, poster-like",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "Five left-aligned lines, each style's name set in itself: REGULAR, HAIRLINE, INLINE, OUTLINE, SHADE, in red on warm white, above a short note on the standalone Basic fonts",
+      "feel": "Simple, confident",
+      "ux": "Static; link to Google Fonts",
+      "learn": "Five style names, each set in its own style, are a complete family overview",
+      "reconstruction": {
+        "layout": "920×900 panel; SVG ~770×650 at x≈65, y≈35; rows ~133px; paragraph ~640px wide at y≈720",
+        "typography": "Style names ~105px tall, Bungee Basic Regular, Hairline, Inline, Outline, Shade; body ~16px Output Sans",
+        "palette": [
+          "#ece6df",
+          "#dc4227",
+          "#7a1f16",
+          "#222222"
+        ],
+        "behaviour": "none",
+        "content": "Style names only",
+        "assets": "bungee-basic.svg"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "video",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "techy, delighted",
+        "mobile": "adapts",
+        "medium": "ui",
+        "sequence": "single"
+      },
+      "look": "Animated GIF of a TextEdit window on a Mac with red Bungee Color being typed live: 'THIS IS BUNGEE COLOR!!! IT'S SO EASY TO TYPE I…', above a paragraph on OT-SVG, COLR/CPAL and SBIX",
+      "feel": "A live demo, mildly astonished",
+      "ux": "Autoplaying GIF; links to the three colour-font specs",
+      "learn": "Record the font being typed into a plain, everyday app: seeing colour glyphs in TextEdit proves the point better than a technical explanation",
+      "reconstruction": {
+        "layout": "1108×900 panel; screen recording ~980×660 at x≈65, y≈32, with window drop shadow; paragraph ~640px wide at y≈705",
+        "typography": "Recorded text ~85px Bungee Color; body ~16px Output Sans white with yellow-green links",
+        "palette": [
+          "#2b859d",
+          "#cc1f0f",
+          "#ffffff"
+        ],
+        "behaviour": "GIF loop of the text being typed",
+        "content": "A self-referential typed sentence",
+        "assets": "Screen-recorded GIF (bungee-color.gif)"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "ornamental, sign-shop",
+        "mobile": "adapts",
+        "subject": [
+          "alternates",
+          "features"
+        ],
+        "presentation": "catalogue",
+        "explanation": "prose"
+      },
+      "look": "Yellow panel of vertical signs in teal and navy: CINEMA, LIQUOR with an arrow, BAR with a pointing hand, THE HAWAIIAN, a column of arrow and hand ornaments, LOUNGE, MOTEL, SLUTERIJ, showing banner shapes and alternates in use rather than as tiles",
+      "feel": "Generous kit of parts",
+      "ux": "Static; links to the alternates and shapes documentation",
+      "learn": "Show ornaments and banner pieces already assembled into signs: the catalogue doubles as a set of recipes",
+      "reconstruction": {
+        "layout": "1293×900 panel; 8 columns ~110–140px wide, ~600px tall, from y≈40; ~640px paragraph at y≈705",
+        "typography": "Bungee vertical forms, white on teal or navy banners; alternates (Dutch IJ, double-II, Deco forms); arrows, pointing hands and shapes from the font",
+        "palette": [
+          "#efe446",
+          "#2b859d",
+          "#184b57",
+          "#ffffff"
+        ],
+        "behaviour": "none; specimen-features-A and -B SVGs for wide and narrow layouts",
+        "content": "Bar and venue vocabulary chosen to contain the alternates",
+        "assets": "Two SVG specimens"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "proud, community",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "grid"
+      },
+      "look": "'BUNGEE IN USE / FROM FONTS IN USE' above a three-column grid of square thumbnails of real projects (posters, apps, packaging, film festival, Pokémon book). The HTML holds 17 tiles; the capture shows 9, with the third row cut at the panel bottom",
+      "feel": "Busy, real-world proof",
+      "ux": "Each tile links to its Fonts In Use page, with a name label (.use-name) probably shown on hover",
+      "learn": "Pull in-use examples from a third-party archive: the wall keeps growing without maintenance and the proof is independent",
+      "reconstruction": {
+        "layout": "848×900 panel; heading at x≈65, y≈30; 3-column grid from y≈150, cells ~230×230px, gaps ~30px; on desktop the panel's lower rows overflow the 900px height in the capture",
+        "typography": "Heading 48px Bungee Regular white; subhead ~11px Input Sans Narrow caps tracked, with a yellow link",
+        "palette": [
+          "#2b859d",
+          "#ffffff",
+          "#efe446"
+        ],
+        "behaviour": "Image error fallback to the Fonts In Use asset URL",
+        "content": "Real projects with Bungee, thumbnails hot-linked from assets.fontsinuse.com",
+        "assets": "Thumbnails from Fonts In Use",
+        "html": "section#in-use > .use-grid > .use-case > a[href^=fontsinuse.com/uses] > img + span.use-name"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "warm, grateful",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal",
+          "other-fonts"
+        ]
+      },
+      "look": "Vertical 'THANKS' title beside four paragraphs: sponsors and the Open Font License, why the font is free, who built the page, and a long list of linked names",
+      "feel": "Gracious, personal",
+      "ux": "Many links to people and to the designer's retail typefaces",
+      "learn": "Write the licence and credits as a thank-you note: the legal facts land as gratitude, and the note can gently point to paid fonts",
+      "reconstruction": {
+        "layout": "896×900 panel; title column ~80px at left; text column ~640px from x≈190, y≈32, top-aligned, the lower third empty",
+        "typography": "Title Bungee Rotated Shade ~96px red with tan shade; body ~16px Output Sans, leading ~1.4; red underlined links",
+        "palette": [
+          "#ece6df",
+          "#dc4227",
+          "#e6cfa0",
+          "#222222"
+        ],
+        "behaviour": "none",
+        "content": "Thanks to Google and Font Bureau, SIL OFL statement, page credits (Nick Sherman, Chris Lewis), contributors",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "16"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "direct, celebratory",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Final red panel: vertical dark-red 'GET BUNGEE' at left, three descending-size links in white Bungee with shade and arrows: Download now ↓, Clone on GitHub →, Bungee on Google Fonts →",
+      "feel": "Big, closing, free",
+      "ux": "Zip from GitHub Releases, GitHub repository, Google Fonts. Page ends here at the right edge",
+      "learn": "Set the download links in the display face at falling sizes: the type itself ranks the options, and no button styling is needed",
+      "reconstruction": {
+        "layout": "999×900 panel; vertical title column ~60px at x≈85; link stack from x≈190, y≈35, top-aligned, rest of the panel empty",
+        "typography": "Links Bungee Shade ~96, ~72 and ~48px, white with dark shade; title Bungee Rotated ~96px darker red",
+        "palette": [
+          "#dc4227",
+          "#ffffff",
+          "#7a1f16"
+        ],
+        "behaviour": "none",
+        "content": "'Download now', 'Clone on GitHub', 'Bungee on Google Fonts'",
+        "assets": "none",
+        "html": "section#get.has-heading.red"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "specimen-showcase/word-stack",
+    "type-tester/palette-editor",
+    "story/origin-reference",
+    "glyph-table/full-grid",
+    "design-details/annotated-specimen",
+    "story/making-of",
+    "specimen-showcase/word-stack",
+    "story/origin-reference",
+    "design-details/system-diagrams",
+    "family-overview/style-word-grid",
+    "specimen-showcase/in-use-mockups",
+    "design-details/feature-index",
+    "specimen-showcase/in-use-mockups",
+    "footer/credits-colophon",
+    "checkout/link-out-cta"
+  ]
+}

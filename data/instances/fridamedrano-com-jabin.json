@@ -1,0 +1,416 @@
+{
+  "slug": "fridamedrano-com-jabin",
+  "extractedBy": "claude",
+  "summary": "A designer's portfolio page for Jabin, a free two-axis variable blackletter: a near-black oxblood page where everything is an animated GIF of the font on pink, teal or black. It shows axis values as Glyphs-like metric readouts and ends with three licence cards.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "10"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed transparent top bar over everything: 'Frida Medrano' left, Work, About, Mail right, underlined; a logotype 'Jabin Typeface' sits centred in the static header. The bar is stitched repeatedly into crops 01-08"
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Fixed black bar centred at the bottom edge with Instagram → and LinkedIn → links, stitched over crops as well"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "sentence-as-specimen",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "gothic, personal",
+        "mobile": "adapts",
+        "carrier": "sentence",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Four centred lines of thin blackletter on oxblood black, ornate initials swashing out: 'Jabin was developed as a personal exploration of the new Variable font format…'",
+      "feel": "An illuminated invitation",
+      "ux": "Static; the only text in the first screen; nothing tells you to scroll",
+      "learn": "Blackletter at thin weight is legible as prose only at 60px with wide leading: the hero proves it",
+      "reconstruction": {
+        "layout": "100vh, ~1100px centred; four lines from y≈230; small credit lines at y≈585",
+        "typography": "62px Jabin Typeface, thin (wght axis low), leading ~1.4, centred, off-white; credit 14px IBM Plex Sans",
+        "palette": [
+          "#120303",
+          "#ffe9e8"
+        ],
+        "behaviour": "none",
+        "content": "Designer's first-person note: 'Feel free to use it in personal projects and let me know what you think.'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "glyph-table",
+      "variant": "bento-cards",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "ornamental, curious",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Bottom half of the hero block: a borderless two-row grid of seven pink and mint GIFs of single items (punctuation, dagger, fraction, fi ligature, JT, @, rows of dots)",
+      "feel": "A cabinet of curiosities",
+      "ux": "Each GIF morphs a glyph along the axes in a loop",
+      "learn": "Pick the most exotic items in the set and let them animate alone on black",
+      "reconstruction": {
+        "layout": "4 columns at ~360px, 2 rows ~300px, centred; GIFs on the page colour so the cards are invisible",
+        "typography": "All glyphs ~180px; variable morph",
+        "palette": [
+          "#120303",
+          "#ffdcdb",
+          "#c6f2e9"
+        ],
+        "behaviour": "Looping animated GIFs; the file names (punctuation, dagger, fraction, ligature, JT, at, period) identify the subjects",
+        "content": "Punctuation, dagger, 3/4 fraction, fi, JT, @, a dot pattern",
+        "assets": "Seven transparent animated GIFs"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, ornamental",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "none"
+      },
+      "look": "Two panels: pink with huge 'Aa' on metric lines and numeric readouts along the bottom; black with symbols on the same frame (captured nearly empty mid-loop)",
+      "feel": "A type editor's window as art",
+      "ux": "GIFs loop: letters sweep the axes while the metric lines and values update",
+      "learn": "Keep the font editor's metric lines and numbers in the GIF: they turn a morph into an explanation",
+      "reconstruction": {
+        "layout": "1240px row of two tiles ~620×421, no gap, centred, ~110px side margin",
+        "typography": "Glyphs ~320px Jabin Black; readouts ~9px sans",
+        "palette": [
+          "#020202",
+          "#fddcdb",
+          "#ffe9e8"
+        ],
+        "behaviour": "Looping GIF exported from the type editor; lines stay, the outline changes",
+        "content": "Aa, then symbols",
+        "assets": "Two GIFs: metrics_latin, metrics_symbols"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "antique, reverent",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "carousel"
+      },
+      "look": "A dim photo of a parchment sheet with wax seal, printed 'Inspired by George Shelley' in the typeface, in a three-slide carousel on near-black, with arrows and dots",
+      "feel": "Old document in a dark archive",
+      "ux": "Manual slider (no autoplay), side arrows and three dots",
+      "learn": "Render the specimen as a physical old sheet to pay respect to the genre",
+      "reconstruction": {
+        "layout": "1000px tall full-width slider, sheet ~920×580 centred; arrows at x≈30/1405, dots centred below",
+        "typography": "Title ~32px, body ~27px Jabin on paper",
+        "palette": [
+          "#0a0a09",
+          "#4e4c4a",
+          "#ffffff"
+        ],
+        "behaviour": "Webflow slider: animation slide, 500ms, autoplay false",
+        "content": "Text about Shelley and the Gutenberg Bible",
+        "assets": "Three mockup images"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "scholarly, gothic",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Seven centred lines of blackletter on oxblood explaining the sources",
+      "feel": "A short inscription",
+      "ux": "Static",
+      "learn": "Set the origin note in the font itself, even at the edge of readability, when the font's point is ornament",
+      "reconstruction": {
+        "layout": "940px centred column, 630px tall",
+        "typography": "48px Jabin Typeface, leading ~1.05, centred",
+        "palette": [
+          "#110304",
+          "#ffe9e8"
+        ],
+        "behaviour": "none",
+        "content": "'Jabin was inspired by George Shelley's work on the cover \"The Second Part of Natural Scripture\" and in the Gutenberg Bible…'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "dramatic, technical",
+        "mobile": "adapts",
+        "subject": [
+          "axes"
+        ],
+        "presentation": "animation",
+        "explanation": "none"
+      },
+      "look": "The word 'Fraktur' huge in pink on dark teal, with concentric ornaments and small sidebearing numbers along the baseline",
+      "feel": "A blackletter under inspection",
+      "ux": "GIF loops the word along the XXXX and wght axes",
+      "learn": "Choose one word from the genre as the test string, and show its live values on the baseline",
+      "reconstruction": {
+        "layout": "Tile 1240×655 centred; word ~1130px wide; number row at bottom",
+        "typography": "~320px Jabin; numbers ~9px",
+        "palette": [
+          "#0a1415",
+          "#ffebec",
+          "#504f4f"
+        ],
+        "behaviour": "Looping GIF (variable_test_fraktur)",
+        "content": "'Fraktur'",
+        "assets": "One GIF"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "formal, ornamental",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "grid"
+      },
+      "look": "Three animated specimen sheets: a teal certificate-like 'Jabin Typeface' document, a tall pink page with big ligature, a tall black page with a 'Time' word and clock hand",
+      "feel": "Proclamations and certificates",
+      "ux": "GIFs loop",
+      "learn": "A certificate layout is a natural form for blackletter; the axis morph brings it to life",
+      "reconstruction": {
+        "layout": "Row 1240px: wide 690×513, two narrow 215×513, small gaps, centred",
+        "typography": "Name ~80px, labels ~14px Jabin, ornaments",
+        "palette": [
+          "#0a1113",
+          "#fadad9",
+          "#ffffff"
+        ],
+        "behaviour": "Three looping GIFs (document_ornament, symbols, time)",
+        "content": "Mock legal certificate wording; 'Time'",
+        "assets": "Three GIFs"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "friendly, candid",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": true,
+        "trial": false,
+        "free": true
+      },
+      "look": "'License Agreement' title, a chatty note in serif, then three dark-teal cards: Variable font with two axis (personal), Font family: 12 styles (personal), Desktop and variable font (commercial, 20 dlls), each with Download and Contribute buttons",
+      "feel": "A friend sharing files, with clear rules",
+      "ux": "Download gets the zip; Contribute goes to PayPal ($10 suggested); licence links open agreement pages",
+      "learn": "Pair each download with a small voluntary 'Contribute' button: the pay-what-you-want ask stays at each moment of choice",
+      "reconstruction": {
+        "layout": "Title centred ~62px; note ~24px; three cards 390×495, 8px gap in a 1200px row; darker button footer strip per card",
+        "typography": "Title Jabin Bold 62px; note Spectral 24px; card label 12px; card title ~34px Jabin; body 18px Ppmori or IBM Plex Sans; buttons 11px bold",
+        "palette": [
+          "#0c0d0d",
+          "#1c4e4f",
+          "#376a69",
+          "#ffffff"
+        ],
+        "behaviour": "Plain links; no hover captured",
+        "content": "'Update: I updated this version with new things I learned of variable fonts…'; 'Buy for 20 dlls the commercial version'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "portfolio, modern",
+        "mobile": "adapts"
+      },
+      "look": "'Explore additional projects.' at 78px in grey sans, then two big rounded cards with short captions: Kalnia Typeface, A Million Miles Away",
+      "feel": "Back to portfolio",
+      "ux": "Card click goes to the case study",
+      "learn": "Hard cut to a neutral portfolio section ends a themed page clearly",
+      "reconstruction": {
+        "layout": "1257px section on #101010, 2 columns of ~615×750 rounded cards",
+        "typography": "78px Ppmori, half white half grey; captions 30px",
+        "palette": [
+          "#101010",
+          "#0358f8",
+          "#ffffff",
+          "#2f2f2f"
+        ],
+        "behaviour": "GIF in the Kalnia card",
+        "content": "Two project teasers",
+        "assets": "Two project images"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "casual, helpful",
+        "mobile": "adapts",
+        "contains": [
+          "legal",
+          "contact",
+          "socials"
+        ]
+      },
+      "look": "Mint bar with two centred 14px lines: licence links, email, Glyphs.app reference, and social links",
+      "feel": "A closing note",
+      "ux": "Text links",
+      "learn": "State the tools used in one line; other designers find it useful",
+      "reconstruction": {
+        "layout": "80px, centred, full width",
+        "typography": "14px IBM Plex Sans",
+        "palette": [
+          "#c6f2e9",
+          "#273130"
+        ],
+        "behaviour": "none",
+        "content": "'All info in Personal License Agreement and the Commercial License Agreement…'",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/sentence-as-specimen",
+    "glyph-table/bento-cards",
+    "design-details/axis-explainer",
+    "specimen-showcase/poster-series",
+    "story/origin-reference",
+    "design-details/axis-explainer",
+    "specimen-showcase/poster-series",
+    "checkout/free-download",
+    "footer/slim-legal-bar"
+  ]
+}

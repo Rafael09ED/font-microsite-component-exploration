@@ -1,0 +1,422 @@
+{
+  "slug": "seraphs-varfont-com",
+  "extractedBy": "claude",
+  "summary": "A hand-coded one-page variable-font poster: bands alternating acid lime and midnight navy, every line of copy animating along a custom SRFS (serif style) axis plus wght via CSS keyframes. It has no images; the deadpan copy ('a pig that grows Merino wool and lays eggs') and the morphing letters carry the page, ending in a three-slider tester.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "announcement-banner",
+      "confidence": "medium",
+      "exemplar": false,
+      "look": "Tiny tracked caps note on navy above a hairline: 'This website uses variable fonts and CSS effects. It is optimized for Chrome and Safari.'"
+    },
+    {
+      "blocks": [
+        "01",
+        "02",
+        "03"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bold, circus-like, wry",
+        "mobile": "shrinks",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "Centred stack on navy: 'SAY HELLO TO', then SERAPHS in heavy lime slab with a two-step hard shadow, then 'NOT YOUR AVERAGE TEXT FONT'",
+      "feel": "A circus barker's introduction: loud and a little mischievous",
+      "ux": "Static; there is no nav or CTA, the next lime band peeks in at the fold",
+      "learn": "A hard, stacked text-shadow in two colours turns a variable wordmark into a sign-painter's lockup using only CSS",
+      "reconstruction": {
+        "layout": "Three centred rows in 8px body margin: label row 227px, wordmark row 236px, label row 227px; about 690px in total on a 900px viewport",
+        "typography": "Wordmark 274px (19vw) uppercase, SRFS 2 wght 200; labels ~50px box, visually ~28px caps, SRFS 0 wght 160, centred",
+        "palette": [
+          "#0d1a26",
+          "#ccff33",
+          "#0a9933"
+        ],
+        "behaviour": "No motion; text-shadow 6px 6px 0 #0d1a26, 10px 10px 0 #0a9933 on the wordmark",
+        "content": "'Say hello to / Seraphs / Not your average text font'",
+        "assets": "none",
+        "html": "div.center5 > span.bigboldsans"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "05",
+        "06",
+        "07"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "deadpan, witty",
+        "mobile": "shrinks",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Alternating lime and navy bands, each holding one centred statement: 'Seraphs is like Jekyll and Hyde…', 'It is like a pig that grows Merino wool and lays eggs.', TRANSMUTATION, 'You can also use it for STATIC TEXT'",
+      "feel": "Stand-up comedy in big type",
+      "ux": "Each line loops between serif styles on its own timer as you scroll; 'STATIC TEXT' is the joke: the only line that doesn't morph, swept by a light glint instead",
+      "learn": "Let the copy describe the morph while it happens: a text about duality that changes its own serifs needs no explanation",
+      "reconstruction": {
+        "layout": "Full-width stacked bands 360-690px tall, alternating background; centred text with big vertical padding, no grid",
+        "typography": "Statements ~115px, leading ~1.05, centred, sentence case; TRANSMUTATION 137px caps tracked 0.1em; 'You can also use it for' ~130px SRFS 0 wght 100; STATIC TEXT caps tracked 0.1em",
+        "palette": [
+          "#ccff33",
+          "#0d1a26",
+          "#2b3b2b"
+        ],
+        "behaviour": "CSS keyframes on font-variation-settings, 5-7s ease-in-out infinite: LooperThree wght 200 SRFS 6 ↔ wght 160 SRFS 5; LooperTwo wght 200 SRFS 0 ↔ wght 100 SRFS 3; STATIC TEXT uses a 15vw gradient (#2b3b2b → #ccff33 → #2b3b2b) with background-clip:text sweeping in 2.5s (animation 'shine')",
+        "content": "Wry analogies for a shapeshifter: Jekyll and Hyde, Bruce Banner and Hulk, the egg-laying wool pig",
+        "assets": "none",
+        "html": "span.specani4, span.Transmutation, span.writing"
+      }
+    },
+    {
+      "blocks": [
+        "08",
+        "09",
+        "10"
+      ],
+      "type": "design-details",
+      "variant": "axis-explainer",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "technical, plain-spoken",
+        "mobile": "shrinks",
+        "subject": [
+          "axes",
+          "construction"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "Small sans paragraph on how the designspace was built beside LIGHT / BOLD at display size; then 'It has a weight axis and multiple serif styles that all interpolate:' with each line in another style; then 'From sans to Seraphs' huge and morphing",
+      "feel": "Maker's note between the jokes",
+      "ux": "Static paragraph, looping headline; the 08 crop is nearly empty because its content landed in the top of the 09 crop",
+      "learn": "State the axis logic in one sentence whose lines are each set in the style they name, then demonstrate it with one looping phrase",
+      "reconstruction": {
+        "layout": "Row 1 (lime): two centred columns, paragraph ~230px wide at left, LIGHT/BOLD stacked at right, ~400px tall. Row 2 (navy): three centred lines ~560px tall. Row 3 (lime): two-line 701px band, text nearly edge to edge",
+        "typography": "Paragraph ~24px body scale SRFS 0, tracked 0.025em, leading 1.4; LIGHT wght 100 / BOLD wght 200 at ~100px caps; statement lines ~115px, SRFS 0 / 3 / 6 line by line; 'From sans to Seraphs' ~290px sentence case",
+        "palette": [
+          "#ccff33",
+          "#0d1a26"
+        ],
+        "behaviour": "'From sans to Seraphs' loops the SRFS axis with LooperOne (wght 100 SRFS 0 ↔ wght 200 SRFS 6), 6.5-7s ease-in-out",
+        "content": "Real note: 'Seraphs started with the idea to create a designspace using only a light and a bold master… expanded into 12 Masters'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "11",
+        "12",
+        "13"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "orderly, generous",
+        "mobile": "shrinks",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "Three alternating bands (Light on navy, Regular on lime, Bold on navy), each a centred stack of six style names set in themselves: Sans, Seraphs, Slab, Wedge, Tuskan, Calligraphic",
+      "feel": "A roll-call: the same voice in six costumes",
+      "ux": "Static",
+      "learn": "A family made of 6 serif styles × 3 weights reads clearly as three bands of six self-naming lines",
+      "reconstruction": {
+        "layout": "Three bands, each 861px tall (~96vh), six centred lines; line width varies with the name so the stack has a soft silhouette",
+        "typography": "115px, leading ~1.0, sentence case; wght 100 / 142 / 200 by band; SRFS 0, 1, 2, 3, 4, 6 line by line",
+        "palette": [
+          "#0d1a26",
+          "#ccff33"
+        ],
+        "behaviour": "none",
+        "content": "Style names only: 'Seraphs Sans Light … Seraphs Calligraphic Bold'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "language-support",
+      "variant": "coverage-statement",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "honest, dry",
+        "mobile": "shrinks",
+        "method": "statement",
+        "nonLatin": false
+      },
+      "look": "Lime band, one centred sentence: 'Up to now Seraphs just speaks English, but the characterset will be extended.'",
+      "feel": "Candid, in the same humorous voice",
+      "ux": "Static",
+      "learn": "A limitation can be a one-line display statement that keeps the page's tone",
+      "reconstruction": {
+        "layout": "693px band, four centred lines filling ~88% of the width",
+        "typography": "~115px, SRFS 6 wght 160, leading ~1.05, sentence case",
+        "palette": [
+          "#ccff33",
+          "#0d1a26"
+        ],
+        "behaviour": "none",
+        "content": "A plain statement of the current Latin-only coverage",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "15",
+        "16"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "monumental, alive",
+        "mobile": "shrinks",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A-Z and a-z set as five huge centred lines of spaced letters filling a navy band and a lime band, each letter morphing between serif styles",
+      "feel": "An alphabet book that won't sit still",
+      "ux": "Static to the eye but looping: every letter breathes through weight and serif style, so one screen shows all the designs",
+      "learn": "Animating the whole alphabet along the style axis replaces a glyph grid per style: one block shows every serif shape on every letter",
+      "reconstruction": {
+        "layout": "Two bands 1475px tall (1.64vh), five centred rows of five letters, each row ~260px tall, letters separated by word spaces",
+        "typography": "~260px, uppercase then lowercase, leading ~0.95, letter-spaces as plain spaces",
+        "palette": [
+          "#0d1a26",
+          "#ccff33"
+        ],
+        "behaviour": "One span animates: LooperOne 6.5s ease-in-out infinite, wght 100 SRFS 0 ↔ wght 200 SRFS 6",
+        "content": "Basic alphabet only (J is missing from the capitals row, a typo in the source)",
+        "assets": "none",
+        "html": "span.part1 with <br> between rows"
+      }
+    },
+    {
+      "blocks": [
+        "17"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "circus poster, retro",
+        "mobile": "shrinks",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "A typeset circus bill: ALPHABET, 'circus' arched on an SVG curve in heavy Tuskan with green offset shadow, BERLIN, 'Calligraphic influence'",
+      "feel": "Wood-type showbill",
+      "ux": "Letters keep animating along SRFS",
+      "learn": "An SVG textPath plus a Tuscan axis setting gets a period-poster lockup out of a live font",
+      "reconstruction": {
+        "layout": "1275px centred column; arch ~1270px wide spanning the band, ALPHABET above, BERLIN and caption below",
+        "typography": "ALPHABET ~120px SRFS 4 wght 200; 'circus' ~274px on textPath; BERLIN ~200px SRFS 0.3-5; caption ~90px bold",
+        "palette": [
+          "#0d1a26",
+          "#ccff33",
+          "#0a9933"
+        ],
+        "behaviour": "text-shadow 2px 2px 0 #0d1a26, 3px 3px 0 #0a9933; keyframes LooperFour (SRFS 5 ↔ 4) and LooperSans (SRFS 1 ↔ 0), 5s infinite",
+        "content": "An invented circus bill",
+        "assets": "SVG arc path for the textPath",
+        "html": "<svg viewBox='0 -40 500 180'><path id='curve'/><text class='circusbig'><textPath xlink:href='#curve'>circus"
+      }
+    },
+    {
+      "blocks": [
+        "18"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "friendly, minimal",
+        "mobile": "shrinks",
+        "controls": [
+          "text",
+          "size",
+          "weight",
+          "axes"
+        ],
+        "scope": "single",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "Row of three thin sliders with green square thumbs (WEIGHT, SERIF, FONT-SIZE) above one editable line, 'Give it a try!', on lime",
+      "feel": "Small and unfussy: a late invitation to play",
+      "ux": "Dragging a slider rewrites font-variation-settings on the output and sets size in vw; click the line to type",
+      "learn": "Three sliders are enough when one axis has real range; a custom thumb in the page's accent colour is the only styling needed",
+      "reconstruction": {
+        "layout": "506px lime band; slider row at the top, spanning the width with label + 150px track repeated three times; centred output below",
+        "typography": "Labels ~14px caps, tracked, SRFS 0 medium; output default 7.6vw (109px), wght 140, SRFS 1, leading 0.97em",
+        "palette": [
+          "#ccff33",
+          "#0d1a26",
+          "#0a9933"
+        ],
+        "behaviour": "form oninput: wght 100-200, SRFS 0-7 step 0.01, size 3-24vw; no reset, no presets",
+        "content": "'Give it a try!'",
+        "assets": "none",
+        "html": "form.typetest[oninput] with input[type=range]#weight-input,#serif-input,#size-input and output#typetest-output[contenteditable]"
+      }
+    },
+    {
+      "blocks": [
+        "19",
+        "20"
+      ],
+      "type": "footer",
+      "variant": "big-sign-off",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bookended, modest",
+        "mobile": "shrinks",
+        "contains": [
+          "credits",
+          "sign-off"
+        ]
+      },
+      "look": "The hero's SERAPHS wordmark repeated, a hairline, then one tiny tracked line of links",
+      "feel": "Curtain call",
+      "ux": "Two inline links only",
+      "learn": "Repeating the hero lockup as the closer frames the page like a poster",
+      "reconstruction": {
+        "layout": "368px wordmark band, then 80px line under a 1px lime rule, all centred",
+        "typography": "Wordmark as in the hero, 274px; legal line ~12px caps tracked, link names heavier",
+        "palette": [
+          "#0d1a26",
+          "#ccff33",
+          "#0a9933"
+        ],
+        "behaviour": "none",
+        "content": "'Typeface and Website by Bernd Volmer'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "20"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "understated",
+        "mobile": "shrinks",
+        "destination": "distributor",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": false
+      },
+      "look": "The only buy path is a tiny text link in the footer line: 'Buy Seraphs on FUTURE FONTS'",
+      "feel": "Almost an afterthought",
+      "ux": "One inline link to the Future Fonts page",
+      "learn": "An exhibition-style microsite can leave selling to the distributor, at the cost of a very quiet CTA",
+      "reconstruction": {
+        "layout": "Inline in the 80px footer line, centred, before the credit",
+        "typography": "~12px caps, tracked, 'Future Fonts' in wght 200",
+        "palette": [
+          "#0d1a26",
+          "#ccff33"
+        ],
+        "behaviour": "Plain link",
+        "content": "'Buy Seraphs on Future Fonts'",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "specimen-showcase/word-stack",
+    "design-details/axis-explainer",
+    "family-overview/style-word-grid",
+    "language-support/coverage-statement",
+    "glyph-table/category-lines",
+    "specimen-showcase/poster-series",
+    "type-tester/slider-sandbox",
+    "footer/big-sign-off",
+    "checkout/link-out-cta"
+  ]
+}

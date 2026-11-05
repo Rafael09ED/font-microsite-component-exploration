@@ -1,0 +1,517 @@
+{
+  "slug": "sourcefoundry-org-hack",
+  "extractedBy": "agent",
+  "summary": "A dark developer landing page built on a stock Bootstrap/Unify template: Revolution Slider hero on rows of huge binary digits, feature lists, code screenshots in signal-colour frames, and copy-paste CDN snippets. Almost all type on the page is the template's sans (Helvetica Neue, Open Sans); Hack appears mainly in images, the only live Hack being the CDN snippets.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "product-landing",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "hacker, no-nonsense",
+        "mobile": "adapts",
+        "carrier": "glyph",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Three rows of huge '1010101' in Hack, ghosted at the top and bright at the bottom, on near-black dotted texture, under a centred boxed tagline, three short lines and three outlined buttons",
+      "feel": "Terminal-like, cinematic but stock",
+      "ux": "Full-viewport slider: on load the digit background splits into curtain strips, then captions drop in one after another; a second slide ('By Devs, For Devs', in the DOM only) follows. Buttons LEARN MORE, TRY IT, DOWNLOAD",
+      "learn": "Binary digits are the perfect sample for a code font: the slashed-dotted zero against the 1 shows the font's key disambiguation at billboard size, and it needs no copy",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×900; background image of 3 digit rows ~290px tall cropped at the edges; tagline box centred at y≈300 (846px wide, 1px rules top and bottom, stars at both ends); lines at y≈415–510; button row y≈575",
+        "typography": "Digits ~400px Hack Regular (image), opacity ~10% / ~18% / ~75% from top to bottom; tagline 32px Helvetica Neue uppercase white; lines 26px; buttons 13px uppercase, 1px white border. The headline is not set in Hack",
+        "palette": [
+          "#111111",
+          "#2b2b2b",
+          "#c9c9c9",
+          "#ffffff"
+        ],
+        "behaviour": "Revolution Slider: data-transition curtain-1, 5 slots, 700ms; captions .tp-caption sft (slide from top) at data-start 2000ms and 3000ms, Back.easeInOut; 2-slide autoplay with slideup transition to bg-hack2.png",
+        "content": "'A TYPEFACE DESIGNED FOR SOURCE CODE', 'Designed for the screen. Open source. Libre.'",
+        "assets": "Background PNG of binary digits; dotted overlay .tp-dottedoverlay.twoxtwo",
+        "html": ".tp-banner li[data-transition] > .tp-bgimg + .tp-caption.rs-caption-1/.rs-caption-2.sft"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "02"
+      ],
+      "type": "story",
+      "variant": "design-brief",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "spec-sheet, developer",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "FEATURES: three dark cards with a green icon disc, title, one line and a ruled list of 5–8 properties (Metrics & Style, Type Traits, Free and Open Source). A three-column row of icon points ('A Family of Four Faces', 'Multilingual', 'Powerline Support') sits at y≈900–1146 between hero and block 01; it was never cut as a block and is attached here",
+      "feel": "Template-tidy, list-driven",
+      "ux": "Static; a link to the licence in the third card",
+      "learn": "Listing traits as a spec (large x-height, open counters, oval-filled zero) speaks developers' language: properties, not adjectives",
+      "reconstruction": {
+        "layout": "Centred heading with a short green rule beneath; 3 equal columns ~370px wide inside a 1170px container, 30px gaps, cards a shade lighter than the page; icon disc 74px; list rows ~50px with thin green dividers ~270px wide",
+        "typography": "Section title 28px Open Sans Light uppercase; card title 22px Open Sans Light; description 15px Merriweather; list items 16px Lato Light, centred, grey",
+        "palette": [
+          "#161616",
+          "#242424",
+          "#72c02c",
+          "#bbbbbb"
+        ],
+        "behaviour": "none",
+        "content": "Real trait lists: minimal stroke contrast, large x-height, open counters, wide apertures, sturdy terminals; free to modify, free for print, desktop & web, free for commercial use",
+        "assets": "Icon fonts (FontAwesome) in green discs"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "matter-of-fact, workmanlike",
+        "mobile": "shrinks",
+        "medium": "ui",
+        "sequence": "single"
+      },
+      "look": "'A WORKHORSE FOR CODE' heading, 'No frills. No gimmicks.', then one large screenshot of a dark code editor showing syntax-highlighted Angular source set in Hack",
+      "feel": "Honest, at-work",
+      "ux": "Static image",
+      "learn": "For a code font the single most convincing proof is the real environment: a full editor window at true size, with line numbers and syntax colours",
+      "reconstruction": {
+        "layout": "Section ~1024px tall, centred heading, 2 lines, then screenshot 1000×620px centred with a thin light title bar",
+        "typography": "Heading 28px Open Sans Light uppercase with short green rule; lines 18px grey sans; code ~13px Hack in the image",
+        "palette": [
+          "#111111",
+          "#2b2d38",
+          "#353844",
+          "#8d8d91"
+        ],
+        "behaviour": "none",
+        "content": "A real function (Angular's forEach) with comments",
+        "assets": "Editor screenshot srcmockup.png",
+        "html": "img.img-responsive[width=1000]"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "big-number-stats",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "scroll-driven",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, community-proud",
+        "mobile": "adapts",
+        "structure": "stats",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "A parallax band with two count-up figures, '1573 GLYPHS' and '129 CONTRIBUTORS'. It sits at y≈2170–2377 between blocks 01 and 02, was never cut as a block, and shows only in the video and mobile strip",
+      "feel": "Compact, open-source pride",
+      "ux": "Counters run up from low values when scrolled into view (t=4.5s shows 15 and 1); background parallaxes",
+      "learn": "A contributor count beside the glyph count makes community a feature of the typeface",
+      "reconstruction": {
+        "layout": "Full-bleed ~207px band; four col-sm-3 slots with the outer two empty, so the two figures sit centre; number over label",
+        "typography": "Numbers ~36px white sans; labels 12px uppercase grey",
+        "palette": [
+          "#111111",
+          "#ffffff",
+          "#8d8d91"
+        ],
+        "behaviour": "jQuery counterUp on span.counter when in view (~1.5s); .parallaxBg background shifts with scroll",
+        "content": "1573 Glyphs, 129 Contributors",
+        "assets": "Dark textured background",
+        "html": ".parallax-counter.parallaxBg .counters > span.counter + h4"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "brief, factual",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Dark textured band: 'A TYPEFACE IN THE BITSTREAM VERA LINEAGE' and two centred sentences",
+      "feel": "Respectful, concise",
+      "ux": "static",
+      "learn": "Crediting the open-source ancestry (Bitstream Vera, DejaVu) in two lines is the libre-community version of a history chapter",
+      "reconstruction": {
+        "layout": "Full-bleed 307px, centred column ~1040px, heading, short green rule, two sentences",
+        "typography": "Heading 28px Open Sans Light uppercase; body 16px sans grey, leading ~1.6",
+        "palette": [
+          "#1b1b1b",
+          "#323232",
+          "#72c02c",
+          "#b0b0b0"
+        ],
+        "behaviour": "none",
+        "content": "'Hack has deep roots in the libre, open source typeface community and includes the contributions of the Bitstream Vera & DejaVu projects.'",
+        "assets": "Subtle dark tile texture of glyphs"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "bold, poster-like",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'THE CAST OF CHARACTERS': a white card with a thick yellow frame, giant 'Aa' over three lines of ASCII (uppercase + 01234, lowercase + 56789, symbols)",
+      "feel": "Loud against the dark page, classic specimen",
+      "ux": "The whole image links to the full specimen page ('Click either image above for a full type specimen')",
+      "learn": "One card can stand in for the glyph table: all ASCII, including the symbols coders care about, plus a click-through for the rest",
+      "reconstruction": {
+        "layout": "Heading + 2 lines, then 750×550px image centred, ~15px solid yellow border, white ground; 'Aa' fills the top 65%, three text lines justified below",
+        "typography": "'Aa' ~420px Hack Regular; lines ~36px Hack Regular; heading 28px Open Sans Light; captions 16px grey",
+        "palette": [
+          "#101011",
+          "#f5f4f2",
+          "#f3e30a",
+          "#111111"
+        ],
+        "behaviour": "Link to font-specimen.html",
+        "content": "A–Z 01234 / a–z 56789 / {}[]()>@<$*-+=/_\\%^&|~?'\"!.,:;",
+        "assets": "PNG specimen card (can be rebuilt as live text)"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "bold, poster-like",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "A second card with a thick red frame: 'Händgrovels 12345' four times, in Regular, Italic, Bold and Bold Italic",
+      "feel": "Simple, complete",
+      "ux": "Links to the full specimen",
+      "learn": "A word with an umlaut and digits is the shortest useful style test for a code font",
+      "reconstruction": {
+        "layout": "750×550px image, ~15px solid red border, ~#ebebeb ground; two pairs of lines with a gap between roman and bold",
+        "typography": "~58px Hack in the four styles, left aligned as a block, centred on the card",
+        "palette": [
+          "#101011",
+          "#ebebeb",
+          "#d12124",
+          "#111111"
+        ],
+        "behaviour": "Link to font-specimen.html",
+        "content": "'Händgrovels 12345'",
+        "assets": "PNG specimen card"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "specimen-showcase",
+      "variant": "poster-series",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "themed",
+        "tone": "punchy, developer humour",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "grid"
+      },
+      "look": "Three edge-to-edge tiles of code in display sizes: red with 'printf' (C), slate with ''use strict';' (JS), yellow with '#!/usr/bin/env' (Python), each cropped. The 'SOURCE EXAMPLES' heading above them was not cut as a block",
+      "feel": "Bold, poster-like, the liveliest part of the page",
+      "ux": "Static images in a borderless three-column list",
+      "learn": "Code keywords are display type: set 'printf' huge and a font specimen becomes a language poster that every programmer reads instantly",
+      "reconstruction": {
+        "layout": "Full-bleed 3 equal columns (480×320), no gutters, content cropped at the right edge; each tile: one giant keyword line plus 2–5 lines of code, sometimes a white or black strip at the bottom",
+        "typography": "Keyword ~120–60px Hack Bold or Bold Italic; code ~36px Hack Regular with bold keywords and italic types; heading 28px Open Sans Light",
+        "palette": [
+          "#d12124",
+          "#2c2e39",
+          "#f3e30a",
+          "#000000",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "Short real code per language: C (printf, int func(const char *var), JavaScript ('use strict', REGEXP), Python (shebang, try/except ImportError)",
+        "assets": "c-mockup.png, js-mockup.png, python-mockup.png",
+        "html": "ul.portfolio-box-v1 > li.col-sm-4 > img.img-responsive"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "pangram",
+        "tone": "explanatory, technical",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "spacing"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "'DISTINCT GLYPH SHAPES': two green-disc points at left (A Handful of Serifs, Weight and Spacing) beside a yellow-framed code sample designed to stress lookalike characters",
+      "feel": "Technical, confident",
+      "ux": "static",
+      "learn": "A torture-test code snippet ('O0,l1,Z2,S5,G6,B8') shows disambiguation and heavier punctuation together in the real context",
+      "reconstruction": {
+        "layout": "Container 1170px; left 50% has 2 rows (68px disc + title + 4–5 lines of text); right 50% has a 540×320 image in a ~15px yellow frame with black bands above and below the light code area",
+        "typography": "Row titles 15px Open Sans uppercase; body 14px Lato Light grey; code ~14px Hack in the image",
+        "palette": [
+          "#151516",
+          "#eeeff4",
+          "#f3e30a",
+          "#72c02c"
+        ],
+        "behaviour": "none",
+        "content": "Code pangram: '// The five boxing wizards jump', 'unsigned O0,l1,Z2,S5,G6,B8__XY;', 'int 0xFaced=0xBAD||\"[{(CQUINE\";'",
+        "assets": "Code sample PNG"
+      }
+    },
+    {
+      "blocks": [
+        "07",
+        "08"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "focused, utilitarian",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "Over a dark blurred parallax image, a drag carousel of five white tiles at a time, each with one confusable pair: l1, Z2, S5, G6, B8 (nine tiles including O0, from the image set); one caption line below in block 08",
+      "feel": "Clear, flash-card-like",
+      "ux": "Grab and drag the tiles left or right to reach other pairs (owl-carousel); the caption tells you to drag",
+      "learn": "Confusable pairs as flash cards: the only test that matters for a code font, one tile per pair, with no explanation needed",
+      "reconstruction": {
+        "layout": "Full-bleed band 275px, tiles ~222×120px with 6px gaps in a 1140px track; caption band 94px below",
+        "typography": "Pairs ~60px Hack Regular black on white; caption 18px sans grey",
+        "palette": [
+          "#0a0a0b",
+          "#fefefe",
+          "#313131"
+        ],
+        "behaviour": "owl-carousel drag and swipe, 9 items, pagination dots hidden or minimal",
+        "content": "O0, l1, Z2, S5, G6, B8 and similar pairs",
+        "assets": "PNG per pair (assets/img/clients/*.png, a repurposed client-logo slot of the template)",
+        "html": ".owl-carousel.owl-clients-v1 > .owl-item > img[alt='l and 1']"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "practical, developer docs",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Three stacked centred sections: DOWNLOAD with two green OS buttons, TRY HACK IN YOUR BROWSER with a link to the external font playground, WEB FONT CDN with two boxed <link> snippets set in Hack",
+      "feel": "Docs-like, efficient",
+      "ux": "Buttons by platform (macOS and Linux .zip, Windows .exe); snippets can be copied by selecting; playground opens off-site, so there's no tester on the page",
+      "learn": "Give developers the CDN <link> right on the landing page, in subset and full variants, and split downloads by OS rather than by format",
+      "reconstruction": {
+        "layout": "Full-bleed 1191px textured dark; centred 540px column; three sections ~320px each with heading + short green rule; snippet boxes 540×60px, 1px light border, 4px radius, centred mono text",
+        "typography": "Headings 28px Open Sans Light uppercase; body 18px sans grey; buttons 14px white on green with file type dimmed; snippets 13px Hack Bold (Menlo fallback)",
+        "palette": [
+          "#1b1b1b",
+          "#29292a",
+          "#72c02c",
+          "#2c2e39",
+          "#ffffff"
+        ],
+        "behaviour": "Direct downloads; link out to the playground",
+        "content": "//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css and hack.css; subset labelled 'ASCII, Latin-1, Latin Extended A'",
+        "assets": "none",
+        "html": "pre > code inside a dark box (2 instances)"
+      }
+    },
+    {
+      "blocks": [
+        "10"
+      ],
+      "type": "footer",
+      "variant": "link-columns",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "open-source project",
+        "mobile": "adapts",
+        "contains": [
+          "legal",
+          "credits"
+        ]
+      },
+      "look": "Logo and tagline, then three link columns (About Hack, Development, Releases) in grey on near-black, back-to-top chevron centred below",
+      "feel": "Quiet, organised",
+      "ux": "Links to repo, issues, changelog, builds",
+      "learn": "The footer of an open-source font acts as a project index: source, issues, releases",
+      "reconstruction": {
+        "layout": "Full-bleed 250px, container 1170px, 4 columns: logo 25% + 3 × ~290px",
+        "typography": "Column heads 24px Open Sans Light; links 16px Lato Light grey",
+        "palette": [
+          "#151515",
+          "#2d2d2d",
+          "#a0a0a0"
+        ],
+        "behaviour": "Chevron scrolls to top",
+        "content": "License, Changelog, Contributors, Install Guide, Type Specimen; Source Repository, Issue Reporting, Open Issues; Desktop Builds, Windows Installer, Web Font Archive",
+        "assets": "Logo image"
+      }
+    },
+    {
+      "blocks": [
+        "11"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Two centred grey lines: CC BY 4.0 site licence and hosting credits (GitHub, Cloudflare, jsDelivr), with a Twitter icon"
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed translucent black bar (rgba 0,0,0,.4) 74px tall: 'Hack' logo with a yellow H left, SPECIMEN · SOURCE · DOWNLOAD right; the active link turns green. It appears repeatedly in the crops as a capture artefact"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/product-landing",
+    "story/design-brief",
+    "specimen-showcase/in-use-mockups",
+    "family-overview/big-number-stats",
+    "story/origin-reference",
+    "glyph-table/category-lines",
+    "family-overview/style-word-grid",
+    "specimen-showcase/poster-series",
+    "design-details/design-notes",
+    "checkout/free-download",
+    "footer/link-columns",
+    "footer/slim-legal-bar"
+  ]
+}

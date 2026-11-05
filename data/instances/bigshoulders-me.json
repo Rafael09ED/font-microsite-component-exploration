@@ -1,0 +1,378 @@
+{
+  "slug": "bigshoulders-me",
+  "extractedBy": "agent",
+  "summary": "A single 700px column in Chicago-flag colours on charcoal: hero, download and credits lines, a one-block style and character sheet, then Carl Sandburg's whole poem 'Chicago', from which the family takes its name, set line by line with every line fitted to the column width. The poem is the specimen; there is no script-driven interaction beyond the fit-to-width.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "civic, blunt, proud",
+        "mobile": "shrinks",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "several",
+        "navVisible": false
+      },
+      "look": "'BIG' plus four red Chicago-flag stars, 'SHOULDERS' below, and 'is a suite of typefaces for Chicagoans', each line fitted to the 700px column in sky blue and white on charcoal",
+      "feel": "Municipal, like a city banner",
+      "ux": "static",
+      "learn": "Use the four stars of the local flag as a typed glyph in the wordmark: place identity costs one line of text and no image",
+      "reconstruction": {
+        "layout": "Centred 700px column from y=8; three stacked lines, each scaled to the full column width, ~420px tall, negative margins between lines (-40px, -20px). Blue horizontal bar 750×60px follows",
+        "typography": "'BIG✶✶✶✶' ~147px ExtraBold uppercase; 'SHOULDERS' ~165px ExtraBold uppercase; tagline ~57px Regular sentence case white. Stars are text, red",
+        "palette": [
+          "#4d4d4c",
+          "#41b9ec",
+          "#e4002b",
+          "#ffffff"
+        ],
+        "behaviour": "SlabText.js fits each span to the column on load and on resize, setting font-size and microscopic word and letter spacing inline",
+        "content": "Name plus claim 'for Chicagoans'",
+        "assets": "none",
+        "html": "p.slabtextdone > span.slabtext.bsxb.big.blue > span.red for the stars"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, generous",
+        "mobile": "shrinks",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "A two-line fitted sentence: 'Download: XO Type Co or Google Fonts.' in blue with underlined links, then 'Big Shoulders will always be free to download and use.' in white",
+      "feel": "Direct",
+      "ux": "Two inline text links, placed directly under the hero",
+      "learn": "A free family can place 'always free' as a display line in place of a button",
+      "reconstruction": {
+        "layout": "700×147px block in the column between two blue 750×60px bars",
+        "typography": "Line 1 ~53px SemiBold, blue, links pale blue #b7eaf9 underlined; line 2 ~40px white; both fitted to the column",
+        "palette": [
+          "#4c4d4d",
+          "#41b5e6",
+          "#b7eaf9",
+          "#ffffff"
+        ],
+        "behaviour": "Fit-to-width only",
+        "content": "Links to xotype.co/shop/big-shoulders and fonts.google.com",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "story",
+      "variant": "article-teaser",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, civic",
+        "mobile": "shrinks",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Two fitted white lines with underlined blue links: 'Part of the Chicago Design System. Read how the design came about at XO Type Co.'",
+      "feel": "Matter-of-fact",
+      "ux": "Links to the Chicago Design System and to the making-of article",
+      "learn": "Two fitted lines can stand for the whole 'about' section when the page's real story is elsewhere",
+      "reconstruction": {
+        "layout": "700×160px in the column under the second blue bar",
+        "typography": "~57px and ~40px SemiBold fitted, white; links #b7eaf9 underlined",
+        "palette": [
+          "#4c4d4d",
+          "#ffffff",
+          "#b7eaf9"
+        ],
+        "behaviour": "none",
+        "content": "Links to design.chicago.gov and xotype.co/2020/07/14/building-big-shoulders/",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "poster-like, direct",
+        "mobile": "shrinks",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "White 'BIG SHOULDERS HAS 8 WEIGHTS', then two fitted blue lines with each style name set in itself: 'Thin Light Regular Medium' and 'SemiBold Bold ExtraBold Black'",
+      "feel": "Compact, shouted",
+      "ux": "static",
+      "learn": "Fit all style names into two justified lines: size becomes a side effect and the family reads as one object",
+      "reconstruction": {
+        "layout": "Top ~200px of the 700×671px block; three full-column lines",
+        "typography": "Heading ~58px ExtraBold uppercase white; line 2 ~83px, line 3 ~62px, each word in its own weight, blue",
+        "palette": [
+          "#4d4c4d",
+          "#ffffff",
+          "#41b5e6"
+        ],
+        "behaviour": "Fit-to-width only",
+        "content": "The eight style names",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "bold, signage",
+        "mobile": "shrinks",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "A–Z and a–z in fitted heavy red lines, tight to the point of touching, then numerals and symbols in brackets in blue",
+      "feel": "Dense, printed-poster",
+      "ux": "static",
+      "learn": "Colour the alphabets differently from the numerals so three fitted lines read as a labelled set with no labels",
+      "reconstruction": {
+        "layout": "Middle ~210px of block 05; three full-column lines",
+        "typography": "Alphabets ~48px Black red; figures line '{[(0123456789)]}!?@#$£¥%^&*®©™' ~43px Bold blue",
+        "palette": [
+          "#4d4c4d",
+          "#e4002b",
+          "#41b5e6"
+        ],
+        "behaviour": "Fit-to-width only",
+        "content": "Alphabets and punctuation in encoding order",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "practical, civic",
+        "mobile": "shrinks",
+        "subject": [
+          "features"
+        ],
+        "presentation": "pairs",
+        "explanation": "caption"
+      },
+      "look": "Fitted lines stating features and proving them: 'CASE-SENSITIVE FORMS HELP UPPERCASE LINES READ SMOOTHLY', 'info@chicago.gov INFO@CHICAGO.GOV ¿¡que!? ¿¡QUE!?', 'True Small Caps in every weight'",
+      "feel": "Useful, like a style guide",
+      "ux": "static",
+      "learn": "Write the feature's name in the feature, with a lowercase/uppercase pair of a real city e-mail address to prove the case forms",
+      "reconstruction": {
+        "layout": "Bottom ~210px of block 05; three full-column lines",
+        "typography": "~33px Regular uppercase; ~35px Regular; ~50px Bold with small caps. `case` feature on uppercase runs; .smcp on the last",
+        "palette": [
+          "#4d4c4d",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "City-themed examples (info@chicago.gov)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "literary, plain",
+        "mobile": "shrinks",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Two fitted white lines between blue bars: 'Big Shoulders takes its name from the poem \"Chicago\" by Carl Sandburg, written in 1914'",
+      "feel": "A title card",
+      "ux": "static",
+      "learn": "One sentence of origin can introduce a whole-page specimen",
+      "reconstruction": {
+        "layout": "700×164px with blue bars above and below",
+        "typography": "~70px and ~40px SemiBold white, fitted",
+        "palette": [
+          "#4d4c4d",
+          "#ffffff",
+          "#41b5e6"
+        ],
+        "behaviour": "none",
+        "content": "The poem's title, author and date",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "brawling, civic, literary",
+        "mobile": "shrinks",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Sandburg's full poem in the column: 'CHICAGO' at 220px in blue, then stanza after stanza of lines fitted to 700px in shifting weights and small caps, the size set by line length, with BAREHEADED, / SHOVELING, / WRECKING… running Thin to Black and a red 'Laughing!' at 212px",
+      "feel": "Loud, muscular, read aloud",
+      "ux": "Static; a plain scroll, the page rhythm comes from the changing line sizes",
+      "learn": "A public-domain text with a rhythm of its own does the art direction: fitting every line to the measure and mapping weight to the words gives you a whole-page poster for free",
+      "reconstruction": {
+        "layout": "Centred 700px column, ~5400px tall (y=2007–7431). Each line one span scaled to the full width; stanzas separated by ~0–30px; no images. Vertical word stack of seven participles, ~200px each",
+        "typography": "All Big Shoulders: Thin to Black chosen per stanza, moving Thin→Black across the seven participles and through the poem. Sizes emerge from fitting, 37–220px. Mixed small caps lines (.smcp) and lowercase lines alternate. White, with 'CHICAGO' and 'CITY OF THE BIG SHOULDERS:' blue and 'Laughing!' red",
+        "palette": [
+          "#4d4d4d",
+          "#ffffff",
+          "#42b6e8",
+          "#e4002b"
+        ],
+        "behaviour": "SlabText.js fit-to-width on load and resize; no animation",
+        "content": "The whole public-domain poem 'Chicago' (Carl Sandburg, 1914), line breaks chosen by the designer",
+        "assets": "none",
+        "html": "p > span.slabtext.bst|bsl|bsr|bsm|bssb|bsb|bsxb|bsbl with .smcp, .blue, .red; inline font-size written by slabText"
+      }
+    },
+    {
+      "blocks": [
+        "26"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "One fitted line between blue bars: 'Made for the Chicago Design System by XO Type Co', with both names as underlined links"
+    }
+  ],
+  "skipped": [
+    {
+      "block": "01",
+      "reason": "blue divider bar (750×60px) between column blocks"
+    },
+    {
+      "block": "03",
+      "reason": "blue divider bar"
+    },
+    {
+      "block": "06",
+      "reason": "blue divider bar"
+    },
+    {
+      "block": "08",
+      "reason": "blue divider bar"
+    },
+    {
+      "block": "25",
+      "reason": "blue divider bar"
+    },
+    {
+      "block": "27",
+      "reason": "blue divider bar"
+    }
+  ],
+  "sequence": [
+    "hero/giant-wordmark",
+    "checkout/link-out-cta",
+    "story/article-teaser",
+    "family-overview/style-word-grid",
+    "glyph-table/category-lines",
+    "design-details/feature-before-after",
+    "story/origin-reference",
+    "specimen-showcase/word-stack",
+    "footer/credits-colophon"
+  ]
+}

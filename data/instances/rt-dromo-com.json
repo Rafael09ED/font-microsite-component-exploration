@@ -1,0 +1,727 @@
+{
+  "slug": "rt-dromo-com",
+  "extractedBy": "claude",
+  "summary": "A designer's case study built like a long lecture: one narrow column of 21px text between pastel tiles, moving from black 'Origin' pages (Swiss rock ephemera, concert tickets, typewriters) to pale-yellow 'Design' pages where looping videos explain each decision. The hero animates two isometric ticket printers; the pastel palette itself comes from ticket stock.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "illustration-scene",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "video",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "witty, retro-tech, deadpan",
+        "mobile": "adapts",
+        "carrier": "illustration",
+        "cta": "none",
+        "rangeShown": "one-style",
+        "navVisible": true
+      },
+      "look": "Pale yellow field with two isometric line-drawn ticket machines, printing cards labelled DROMO and MONO",
+      "feel": "An office gadget from 1985, drawn by a Swiss engineer",
+      "ux": "Muted looping video; the two machines swap ticket labels and colours",
+      "learn": "Illustrate the source technology, not the letters: a ticket printer tells you the origin in one image and shows both subfamilies as its output",
+      "reconstruction": {
+        "layout": "Full-bleed 1440×751 with a 180px yellow margin each side; two machines ~490px wide, offset diagonally, the second lower right; no headline",
+        "typography": "Words on the tickets only, ~50px Dromo Bold, rotated to the isometric plane; 'RT' stamped on each housing",
+        "palette": [
+          "#fefe91",
+          "#efefef",
+          "#000000",
+          "#fdd2fd",
+          "#deffff"
+        ],
+        "behaviour": "autoplay muted loop <video> (2000×1332); the ticket slides out while the label switches between DROMO and MONO",
+        "content": "Machine labels 'RT', 'DROMO', 'MONO'",
+        "assets": "Looping isometric vector animation of two ticket printers (mp4)",
+        "html": "video.autoplay[data-ar='0.666'] in a Lay Theme (WordPress) grid"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "bare, utilitarian",
+        "mobile": "adapts"
+      },
+      "look": "Sticky white top strip with three centred caps links, TOP TRY BUY; never cut as a block, it shows through crop 01 as a stuck bar",
+      "feel": "Minimal",
+      "ux": "Three fixed jumps: top, trial form, buy page",
+      "learn": "A three-word nav is enough on a long read",
+      "reconstruction": {
+        "layout": "Fixed top 0, full width, ~35px tall, white, hairline below; links centred with ~25px gaps",
+        "typography": "~13px RT Dromo Medium caps",
+        "palette": [
+          "#ffffff",
+          "#000000"
+        ],
+        "behaviour": "Stays visible through the whole page",
+        "content": "TOP, TRY, BUY",
+        "assets": "none",
+        "html": "a[href='#TOP'], a[href*=test-fonts], a[href*=fonts/rt-dromo]"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "dry, precise",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Two short centred-column paragraphs of 21px text on yellow directly under the hero",
+      "feel": "A label on a museum case",
+      "ux": "Static",
+      "learn": "One-paragraph origin and one-paragraph family facts are enough before a long essay",
+      "reconstruction": {
+        "layout": "Text column ~480px wide, left edge at 455px, second paragraph after ~15px",
+        "typography": "21px RT Dromo Regular, leading ~1.35, black",
+        "palette": [
+          "#fefe91",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "'RT Dromo is a typographic line-up of vintage concert ticket typography from the 1980s…'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02",
+        "03"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "mixed",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "clean, matter-of-fact",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "Two tall pastel cards (pink for Dromo, cyan for Mono), each listing seven weights in one line per style, with the Italic at the end of the line",
+      "feel": "Ticket-stock colour coding",
+      "ux": "Static",
+      "learn": "One line per weight with the italic beside it fits two subfamilies into a pair of panels, and the colours become their identity",
+      "reconstruction": {
+        "layout": "Each card 1080×564 centred with 180px yellow margins; 40px gap; seven lines, left at x≈225",
+        "typography": "~55px, leading ~1.2; RT Dromo Light to Super; Mono ditto",
+        "palette": [
+          "#fefe91",
+          "#fdd2fd",
+          "#d9f9f9",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Style names, e.g. 'RT Dromo Medium Italic'",
+        "assets": "none (cards are images)"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "archival, insider",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "archival"
+        ],
+        "length": "long"
+      },
+      "look": "'ORIGIN / The Book' on black: short text columns between rows of Swiss punk posters and a white-on-black wall of band logos, with tiny centred credits under each image",
+      "feel": "A rock archive at night",
+      "ux": "Static; a link to Studio UFO",
+      "learn": "Black ground plus full-colour archival posters makes the source material the loudest thing on the page",
+      "reconstruction": {
+        "layout": "Centred 1080px, rows of 3 or 2 posters 355px wide with 15px gaps, 513px tall; 480px text column at varying offsets (x≈330 or 455); section title centred",
+        "typography": "21px Regular white; captions 15px Light, centred, under each image",
+        "palette": [
+          "#000000",
+          "#ffffff",
+          "#f8edc8"
+        ],
+        "behaviour": "none",
+        "content": "History of the book 'Die Not hat ein Ende: The Swiss Art of Rock' and the brief",
+        "assets": "Scans of posters; logo wall"
+      }
+    },
+    {
+      "blocks": [
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "detective, nerdy",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "archival",
+          "diagram"
+        ],
+        "length": "long"
+      },
+      "look": "'The Tickets': scans of Ticketmaster and BASS stubs from the 80s, then a white-on-black reconstruction of the ticket's two type sizes on a vertical hairline pitch grid with letter pairs Ee Mm Oo Gg Rr Ss",
+      "feel": "Forensic and affectionate",
+      "ux": "Read the hunt, then see the specimen isolated from the scan",
+      "learn": "Follow a scan with the same letters extracted on a clean grid: readers see how the found evidence becomes a design rule",
+      "reconstruction": {
+        "layout": "Ticket stack 690px wide, centred; 4-up ticket grid; pitch diagram 1000×530: rows of two sizes over a comb of tick marks, each column one fixed pitch",
+        "typography": "21px Regular white; diagram letters are pixel-faithful ticket type",
+        "palette": [
+          "#000000",
+          "#ffffff",
+          "#505050"
+        ],
+        "behaviour": "none in the captured frames",
+        "content": "Real concert tickets (Grateful Dead, Allman Brothers, AC/DC); the double-size small-cap relationship explained",
+        "assets": "High-resolution ticket scans, one diagram image"
+      }
+    },
+    {
+      "blocks": [
+        "24",
+        "25",
+        "26",
+        "27",
+        "28"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "scholarly, curious",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "archival"
+        ],
+        "length": "medium"
+      },
+      "look": "'The Typewriter': an Adler 1961 'Pica Double Gothic' catalogue sample on white paper against black, with an explanation of double-gothic faces",
+      "feel": "Library footnote",
+      "ux": "A 'here' link to the catalogue source",
+      "learn": "One typed sample, credited and linked, names the historic genre and earns the design's logic",
+      "reconstruction": {
+        "layout": "Image 1080×569 centred; 480px text column below",
+        "typography": "21px Regular white; 15px Light captions; link in grey",
+        "palette": [
+          "#000000",
+          "#fbfbfb",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "History of typewriter faces for special purposes",
+        "assets": "Typewriter specimen scan"
+      }
+    },
+    {
+      "blocks": [
+        "29",
+        "30",
+        "31"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "clear, teacherly",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "'DESIGN' chapter opens on yellow: two square-ish video tiles, cyan 'HO' and pink 'Oo', with outlines sweeping across letters, captioned '1. Uniform Proportions, 2. Straight Segments'",
+      "feel": "Slide from a good lecture",
+      "ux": "Autoplay muted loops; no scrubbing or controls",
+      "learn": "Introduce the whole design with two labelled loops that double as a table of contents",
+      "reconstruction": {
+        "layout": "Two tiles ~530×554 side by side centred, 15px gap, in the 1080px container; caption 15px below; 480px text after",
+        "typography": "Tile letters ~200px RT Dromo Regular; outlined layer in white with hairline",
+        "palette": [
+          "#fefe91",
+          "#deffff",
+          "#fed2fc",
+          "#000000"
+        ],
+        "behaviour": "mp4 loops (01-Proportions, 02-Segments): an outlined comparison glyph wipes over the solid letter",
+        "content": "HO; Oo",
+        "assets": "Two square looping videos"
+      }
+    },
+    {
+      "blocks": [
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38"
+      ],
+      "type": "design-details",
+      "variant": "system-diagrams",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "analytical, tidy",
+        "mobile": "adapts",
+        "subject": [
+          "construction",
+          "spacing"
+        ],
+        "presentation": "diagram",
+        "explanation": "prose"
+      },
+      "look": "'Uniform Proportions': ERGO three ways (ticket large, ticket small, RT Dromo), a mono-to-proportional video, then HO/HO/no with overlaid outlines showing how similar every letter width is against RT Rondelle",
+      "feel": "An argument in three figures",
+      "ux": "Static and looped tiles alternate with text",
+      "learn": "Overlay a letter's outline on its neighbours to prove a proportion claim at a glance",
+      "reconstruction": {
+        "layout": "Three tiles ~355×363 with ERGO; one 1080×564 cyan video tile; 1080×677 comparison with rows of H O, H-O overlay and stems",
+        "typography": "~90px ERGO; ~150px comparison letters, overlays hairline outlines",
+        "palette": [
+          "#fefe91",
+          "#deffff",
+          "#000000",
+          "#808080"
+        ],
+        "behaviour": "03-DromoMono.mp4 loops the morph between the proportional and mono widths; the capture caught only a stem",
+        "content": "ERGO; H O n o",
+        "assets": "Vector overlays; one video"
+      }
+    },
+    {
+      "blocks": [
+        "39",
+        "40",
+        "41"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "musical, mechanical",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "grid"
+      },
+      "look": "Four cyan tiles of centred Mono words stepping from Light to Bold line by line (Off, Dance, 12-inch, Acappella) with vertical pitch lines through the letters",
+      "feel": "A cassette's track list",
+      "ux": "Static",
+      "learn": "Vertical pitch lines through a stacked sample turn a mono specimen into proof of its fixed width",
+      "reconstruction": {
+        "layout": "2×2 tiles ~530×443, 20px gaps; four centred lines; vertical lines at every character pitch",
+        "typography": "~80px RT Dromo Mono, Light to Bold descending",
+        "palette": [
+          "#fefe91",
+          "#d7f7f7",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Music vocabulary: Interlude, 125-BPM, Lyric, Rec, Metronome, Seq+Ext, Pitch, Aux",
+        "assets": "none (images)"
+      }
+    },
+    {
+      "blocks": [
+        "42",
+        "43"
+      ],
+      "type": "design-details",
+      "variant": "system-diagrams",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "precise, delightful",
+        "mobile": "adapts",
+        "subject": [
+          "spacing"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "Cyan tile: a ruler and four labelled rows (inches, 12pt, glyphs, units) where 'tenperinch' types letter by letter into 600-unit boxes",
+      "feel": "A typewriter's maths, animated",
+      "ux": "Autoplay loop",
+      "learn": "Animate a technical fact (ten characters per inch at 12pt) with a typed word on a ruler",
+      "reconstruction": {
+        "layout": "Tile 1080×564; labels at left 90px, ruler across the top ~700px; ten equal boxes each ~53px wide",
+        "typography": "Labels ~14px Mono; word ~80px Mono",
+        "palette": [
+          "#dcfbfc",
+          "#000000",
+          "#ffffff"
+        ],
+        "behaviour": "Video loop: letters land box by box and the counters 0-10 and 600 fade in",
+        "content": "The word 'tenperinch'",
+        "assets": "One animated video"
+      }
+    },
+    {
+      "blocks": [
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "methodical, musical",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "animation",
+        "explanation": "prose"
+      },
+      "look": "'Straight Segments': pink video tiles where each letter's flats light up as white outlines (chord; O © Ω 0 D; stratocaster / jazz-infused / beautiful riff), NOW RECORDING versus FF Din, and an aerial stadium beside an O that gave the name",
+      "feel": "A close-up on a single idea",
+      "ux": "Autoplay muted loops; one static comparison",
+      "learn": "Keep the sample words in the theme (music) and run the same highlighting device through the whole chapter",
+      "reconstruction": {
+        "layout": "Tiles 1080×564 or 677 centred on yellow; 480px column of 21px text between each",
+        "typography": "~140px words RT Dromo Regular, black; highlight layer white with a hairline; NOW RECORDING 100px caps",
+        "palette": [
+          "#f7f796",
+          "#fed2fc",
+          "#000000",
+          "#ffffff"
+        ],
+        "behaviour": "mp4 loops: a letter switches from solid to outline to mark straight sections, in sequence",
+        "content": "Music words plus 'Dromo = racetrack' from Greek 'dromos'",
+        "assets": "Short mp4 animations; aerial satellite photo of a stadium"
+      }
+    },
+    {
+      "blocks": [
+        "54",
+        "55",
+        "56"
+      ],
+      "type": "specimen-showcase",
+      "variant": "in-use-mockups",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "resolved, proud",
+        "mobile": "adapts",
+        "medium": "photo-mockup",
+        "sequence": "single"
+      },
+      "look": "Single grey studio photo of the book: orange-and-black covers and open spreads",
+      "feel": "The payoff at the end of the story",
+      "ux": "Static, then a short reflective text",
+      "learn": "Show the commission that gave the font its reason, not a fictional mockup",
+      "reconstruction": {
+        "layout": "1080×1015 centred photo on yellow; caption 15px; 480px text",
+        "typography": "Caption 15px Light; text 21px Regular",
+        "palette": [
+          "#fefe91",
+          "#e9e9e8",
+          "#000000",
+          "#f46b1c"
+        ],
+        "behaviour": "none",
+        "content": "Real book spreads",
+        "assets": "One photo of book covers and spreads"
+      }
+    },
+    {
+      "blocks": [
+        "57",
+        "58",
+        "59"
+      ],
+      "type": "design-details",
+      "variant": "design-notes",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "video",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "honest, editorial",
+        "mobile": "adapts",
+        "subject": [
+          "history-of-revision",
+          "alternates",
+          "spacing"
+        ],
+        "presentation": "animation",
+        "explanation": "caption"
+      },
+      "look": "'What's New': six lavender tiles with white outline glyphs (Mo, Aa, Gg, Tw, Q?, Ęę), each captioned with the change: Additional Monospace, New alternate a, Refined Drawing, Improved Spacing + Kerning, Reworked Punctuation, Updated Diacritics",
+      "feel": "Compact release notes",
+      "ux": "Muted autoplay loops",
+      "learn": "A six-tile changelog with one animated glyph per change explains a remaster better than a list",
+      "reconstruction": {
+        "layout": "3×2 tiles ~355×363, 20px gap, centred; captions below",
+        "typography": "~130px glyph pairs in white with black hairline; captions 15px",
+        "palette": [
+          "#f7f796",
+          "#d2d3fc",
+          "#ffffff"
+        ],
+        "behaviour": "Each video morphs an old outline into the new one",
+        "content": "A changelog of the 2024 remaster",
+        "assets": "Six short videos"
+      }
+    },
+    {
+      "blocks": [
+        "60",
+        "61",
+        "62"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "plain, friendly",
+        "mobile": "adapts",
+        "destination": "foundry-shop",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": true,
+        "free": false
+      },
+      "look": "Three stacked white pills, centred: LICENSE RT DROMO, GET FREE TRIAL FONTS, SEE PDF SPECIMEN",
+      "feel": "Ticket-counter simple",
+      "ux": "Each pill opens razziatype.com in a new tab",
+      "learn": "After a long story, three stacked pills are enough",
+      "reconstruction": {
+        "layout": "Pills ~175×45px with 60px between, centred on yellow",
+        "typography": "~14px Regular caps, tracked lightly",
+        "palette": [
+          "#fefe91",
+          "#ffffff",
+          "#000000"
+        ],
+        "behaviour": "Plain links, target _blank",
+        "content": "'License RT Dromo', 'Get free trial fonts', 'See PDF specimen'",
+        "assets": "none",
+        "html": "a.laybutton3.laybutton"
+      }
+    },
+    {
+      "blocks": [
+        "63",
+        "64",
+        "65"
+      ],
+      "type": "navigation",
+      "variant": "related-projects",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "plain",
+        "mobile": "adapts"
+      },
+      "look": "Three stacked black bars with white names: RT Alias, RT Rondelle, RT Vitrine; the line 'Check out other Razzia typefaces:' above them was not cut into a block",
+      "feel": "Short ticket stubs",
+      "ux": "Each bar links to a sister microsite",
+      "learn": "Sister-site links as flat bars keep cross-promotion quiet",
+      "reconstruction": {
+        "layout": "Bars 350×71px, centred, 20px gap",
+        "typography": "~15px Regular white, centred",
+        "palette": [
+          "#fefe91",
+          "#000000",
+          "#ffffff"
+        ],
+        "behaviour": "Plain links",
+        "content": "Family names",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "66"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "brief, factual",
+        "mobile": "adapts",
+        "contains": [
+          "credits"
+        ]
+      },
+      "look": "Tiny three-column credits on yellow: Typeface, Website, Animations",
+      "feel": "End titles",
+      "ux": "Static",
+      "learn": "Crediting the animator too is natural on a video-heavy page",
+      "reconstruction": {
+        "layout": "Hairline, then three columns ~240px starting at x=180",
+        "typography": "15px Light",
+        "palette": [
+          "#fcfd98",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "'Designed by Mirco Schiavone, spacing and kerning by Igino Marini' etc.",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/illustration-scene",
+    "story/origin-reference",
+    "family-overview/style-word-grid",
+    "story/origin-reference",
+    "design-details/design-notes",
+    "design-details/system-diagrams",
+    "specimen-showcase/word-stack",
+    "design-details/system-diagrams",
+    "design-details/design-notes",
+    "specimen-showcase/in-use-mockups",
+    "design-details/design-notes",
+    "checkout/link-out-cta",
+    "footer/credits-colophon"
+  ]
+}

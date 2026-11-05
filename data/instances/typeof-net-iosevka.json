@@ -1,0 +1,457 @@
+{
+  "slug": "typeof-net-iosevka",
+  "extractedBy": "agent",
+  "summary": "An open-source coding-font site by Belleve Invis, styled like a dark IDE: everything is set in Iosevka with cyan used only for emphasis, and each chapter pairs a large thin title with a short note and a working sampler. Its depth is in the live feature pickers: 19 stylistic sets, 63 cherry-pickable characters and 21 ligation sets, with the results handed to a customizer.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "technical, restrained",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "multiple",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "'Iosevka' at 240px in the Thin weight, light grey on near-black; below, the version number beside two cyan-outlined buttons and two small text links; animated-looking chevrons at the bottom",
+      "feel": "Precise, cold, like a boot screen",
+      "ux": "Download goes to GitHub releases, Customize to a build page. Version number is shown first, as for software",
+      "learn": "Showing the current version beside the download treats the typeface as living software, which is what its audience expects",
+      "reconstruction": {
+        "layout": "Full-bleed 100vh; name centred at y≈330; action row centred at y≈660: version block, 288×68 button, 192×68 button, two stacked links; triple chevron centred near the bottom at y≈830",
+        "typography": "Name 240px Iosevka Thin (wght 100); version 28px Light with 12px 'Version' label; button labels 20px Iosevka Regular; links 14px",
+        "palette": [
+          "#101415",
+          "#c7cccb",
+          "#3cacd4",
+          "#172428"
+        ],
+        "behaviour": "Web font swaps in after a bold serif fallback flash at t≈0.9s; chevrons pulse in sequence (the page's one keyframe animation, likely)",
+        "content": "Name, version '34.9.0', '📦 Download Fonts', 'Customize', 'Repository', 'Specimen'",
+        "assets": "One box emoji in the download button",
+        "html": "a.main-button.install-button > span.label; a.sub-button"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "software release",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "The hero's button pair is the page's only acquisition point: 'Download Fonts' to GitHub releases and 'Customize' to the customizer; no licence text or download section further down",
+      "feel": "Assumes a developer",
+      "ux": "Off-site to releases; 'Bake Custom Build' buttons in the feature chapters lead to the same customizer",
+      "learn": "A free font for developers can end its checkout at the release page; pair it with a route to a personalised build",
+      "reconstruction": {
+        "layout": "Two adjacent outlined buttons, 2px cyan-ish border, no fill",
+        "typography": "20px Iosevka Regular",
+        "palette": [
+          "#101415",
+          "#3cacd4",
+          "#c7cccb"
+        ],
+        "behaviour": "Plain links",
+        "content": "'Download Fonts', 'Customize'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "story",
+      "variant": "large-text-intro",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "matter-of-fact, syntax-coloured",
+        "mobile": "adapts",
+        "voice": "institutional",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Six-line sentence at 64px, Light weight: every noun that names a property is in cyan, like keywords in highlighted code, and 'writing code' is heavier",
+      "feel": "Reads like syntax highlighting",
+      "ux": "static",
+      "learn": "Highlight the meaningful terms the way an editor highlights tokens: the intro becomes scannable and borrows the audience's own visual language",
+      "reconstruction": {
+        "layout": "Left aligned at x=160, column ~1120px, line height ~106px, ~640px tall",
+        "typography": "64px Iosevka Light, leading ~1.65, grey text with cyan keywords",
+        "palette": [
+          "#101415",
+          "#c7cccb",
+          "#3cacd4"
+        ],
+        "behaviour": "none",
+        "content": "'Iosevka is an open-source, sans-serif + slab-serif, monospace + quasi-proportional typeface family, designed for writing code, using in terminals, and preparing technical documents.'",
+        "assets": "none",
+        "html": "font-feature-settings:'WWID' on used on wide samples"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "family-overview",
+      "variant": "designspace-map",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "mathematical, systematic",
+        "mobile": "adapts",
+        "structure": "matrix",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "Eight subfamily names, each in its own face and tagged MONOSPACE or QUASI-PROPORTIONAL, followed by a multiplication '9 Weights × 3 Slopes × 2 Widths'; thin leader lines at the bottom expand each factor into its list (Regular…Heavy, Upright/Italic/Oblique, Normal/Extended)",
+      "feel": "Equation-like, exact",
+      "ux": "Static; aligned columns let the eye see which families lack the width axis",
+      "learn": "Write the family as a formula: 'name: 9 × 3 × 2' states the size of a huge system in one line per family, with the legend attached once at the bottom",
+      "reconstruction": {
+        "layout": "Grid from x=160: name column 560px, then 3 factor columns at x=720, 920, 1120 with × signs at x=835 and 1035; rows ~108px; legend lists under each factor column, tied by 1px vertical lines",
+        "typography": "Name 48px Iosevka Regular in each subfamily; tag 14px uppercase grey above; factors 48px Light cyan with 16px label; × 40px grey; legend 16px grey",
+        "palette": [
+          "#101415",
+          "#c7cccb",
+          "#3cacd4",
+          "#292e2f"
+        ],
+        "behaviour": "none",
+        "content": "Iosevka, Term, Fixed, Slab, Term Slab, Fixed Slab, Aile, Etoile with their counts; '(Monospace, ligation off)' on the Fixed families",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "big-number-stats",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "spec-sheet, confident",
+        "mobile": "adapts",
+        "structure": "stats",
+        "samples": "name-only",
+        "interactive": false
+      },
+      "look": "A 3×2 grid of thin cyan figures with small captions: 7,758 Characters, 48,725 Glyphs, 248 Languages, 146 Character Variant Features, 19 Stylistic Sets, 21 Ligation Sets",
+      "feel": "Technical bragging, calm",
+      "ux": "static",
+      "learn": "Counting features, not just glyphs, shifts the claim to what developers care about",
+      "reconstruction": {
+        "layout": "Band 491px; 3 columns from x=200 with 373px step; 2 rows ~165px apart",
+        "typography": "Numbers 80px Iosevka Thin/Light cyan; captions 20px Regular grey",
+        "palette": [
+          "#101415",
+          "#3cacd4",
+          "#c7cccb"
+        ],
+        "behaviour": "none",
+        "content": "Six real counts",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "comparison",
+      "variant": "versus-tabs",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "evidence-based, nerdy",
+        "mobile": "shrinks"
+      },
+      "look": "'Spatial Efficient' title with a short note, then a window of Unicode database text with tabs above it: Iosevka and Iosevka Extended at left, rivals Fira Code and IBM Plex at right",
+      "feel": "Terminal-native, empirical",
+      "ux": "Clicking a tab resets the same fixed-width sample in that font: rival fonts run wider and clip more columns at the window's right edge",
+      "learn": "Use a data file with very long lines as the sample: width is what's compared, so the right-hand clipping point becomes the score",
+      "reconstruction": {
+        "layout": "Chapter header 2 columns: 460px title, 1px vertical rule, ~630px note; below, a 1120px window at x=160 with a 1px border, overflow hidden, ~610px tall; tab row above it with two button groups justified apart, active tab underlined",
+        "typography": "Title 72px Iosevka Thin; note 20px Regular with cyan terms, leading ~1.75; tabs 24px, active Bold; sample ~16px with line-height ~21px",
+        "palette": [
+          "#111516",
+          "#2a2d2f",
+          "#c7cccb",
+          "#3cacd4"
+        ],
+        "behaviour": "a.picker-button swaps font classes on pre.sample-text (.sans.wd-500 / .wd-600 / .fira-code / .ibm-plex); no animation",
+        "content": "UnicodeData.txt excerpt from 00B0 onwards, under '# UCD DATA Section'",
+        "assets": "Web fonts of the two rivals, loaded for this section",
+        "html": ".width-sampler > .picker-frame > .toolbar.separate-toolbar .button-group a.picker-button + pre.sample-text.sans.w-400.wd-500.s-1"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "technical, exact",
+        "mobile": "adapts",
+        "subject": [
+          "spacing",
+          "construction"
+        ],
+        "presentation": "pairs",
+        "explanation": "prose"
+      },
+      "look": "'Code and Terminal' header, then one row of math and symbols ('∑ { n ∈ ▲ } ☒(n) ○→ Ⓨ[n] □△◈') set three times in Iosevka, Term and Fixed, with symbols shrinking and the arrow ligature breaking apart in Fixed",
+      "feel": "Diagrammatic",
+      "ux": "Static stacked rows",
+      "learn": "Pick a string made only of the characters that differ, so a stack of three lines explains subfamily behaviour with no labels beyond the names",
+      "reconstruction": {
+        "layout": "Same chapter header; 3 rows from x=160, ~180px each, 14px label above a sample of one line",
+        "typography": "Sample ~56px Iosevka Light and Italic for n, cyan symbols; labels 18px Regular",
+        "palette": [
+          "#111516",
+          "#c7cccb",
+          "#3cacd4"
+        ],
+        "behaviour": "none",
+        "content": "Mixed math, shape and arrow glyphs that change width per family",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "expert, configurable",
+        "mobile": "hidden",
+        "subject": [
+          "alternates",
+          "features"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "'Variants à la Carte': a style toolbar and a dimmed live character sample, then 'Stylistic Sets' (ss01–ss20 named after famous code fonts: Andale Mono Style, Consolas Style, Menlo Style…) and a 'Cherry-Picking' grid of 63 characters each with a dropdown caret",
+      "feel": "Like a settings panel for a font",
+      "ux": "Pick a set or open a character's dropdown to choose its variant, and the sample above updates. Each option has a tooltip with its CSS (cv01 2) and TOML config; right click resets. 'Show Usage' and 'Bake Custom Build' side tiles export the choice",
+      "learn": "Naming stylistic sets after the fonts people already love ('Menlo Style') makes alternates instantly understandable; cherry-picking per glyph with CSS and TOML in the tooltip turns the specimen into a configuration tool",
+      "reconstruction": {
+        "layout": "Chapter header; toolbar row at y≈400; 4-line sample 1120px wide; hairline; 3 regions: Stylistic Sets 260px (3-column grid of ss tiles), Cherry-Picking 690px (11-column grid, 62px step), side tiles 120px (Show Usage, Bake Custom Build)",
+        "typography": "Toolbar 16px with active item Bold + cyan underline; sample 32px Regular grey; ss tag 20px with 12px brief; grid glyph 28px; section labels 20px Regular",
+        "palette": [
+          "#121617",
+          "#24282a",
+          "#c7cccb",
+          "#3cacd4"
+        ],
+        "behaviour": "a.picker-button sets family, weight (1–9 = w-100…900), slope on all samples; a.option.substantial selects a stylistic set; .character-variant-picker-group opens .options dropdown, each option previewing via font-feature-settings 'calt' off,'dlig' 1,'cv01' n; the state composes the feature string on the sample",
+        "content": "ABC.DEF.GHI… abc.def… !iIlL17|¦ ¢coO08BDQ $5SZ2zs ∂96µm float il1[]={1-2/3.4,5+6=7/8%90}; 1234567890 plus punctuation, Greek, Cyrillic",
+        "assets": "Tiny triangle carets; full feature font (very heavy web font)",
+        "html": ".character-variant-picker-group.large.dropdown-hidden[title] > .option.header + .options > a.option.sans.s-1.active|inactive[style=font-feature-settings][title='CSS: … TOML: …'] with .upright-sample; 959 options in total"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "design-details",
+      "variant": "feature-index",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "language-aware, nerdy",
+        "mobile": "hidden",
+        "subject": [
+          "features"
+        ],
+        "presentation": "catalogue",
+        "explanation": "caption"
+      },
+      "look": "'Coding Ligations': a board of ligature sequences (arrows, comparison, comment markers) where sequences not enabled in the active set stay dim, above a grid of set switches tagged with OpenType tags (calt, dlig, CLIK, JSPT, PHPX, HSKL, MTLB…), each named for a language",
+      "feel": "Discoverable, language-specific",
+      "ux": "Clicking a language switch relights the board, so a Haskell or C user sees exactly which ligatures apply; a toolbar also changes style, weight, slope and width",
+      "learn": "A single board with dim and lit states shows both what a ligature set does and what it leaves out, which a list of pairs can't",
+      "reconstruction": {
+        "layout": "Chapter header; toolbar; board 1120px wide of ~6 rows, ~80px row height; hairline; set grid 6 columns ~164px wide, 4 rows; side tiles at right as above",
+        "typography": "Board ~32px Regular, disabled at ~20% opacity, new-in-set glyphs cyan; switch tag 18px with 12px brief; struck-through 'calt' for Off",
+        "palette": [
+          "#111516",
+          "#262b2c",
+          "#c7cccb",
+          "#3cacd4"
+        ],
+        "behaviour": "a.switch sets font-feature-settings on .ligation-sampler-body; .token.dim vs .token states differ per set; 'calt' off and default options; Extended width added to the toolbar",
+        "content": "-<< <-- --> ==> <=> :: != === /* */ <!-- and similar, 80+ sequences",
+        "assets": "none",
+        "html": ".ligation-sampler-body + .panel.ligation-set-switches > .switches > a.switch.on|off[.active] > span.tag + span.brief"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "specimen-showcase",
+      "variant": "editorial-in-use",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "scholarly, quiet",
+        "mobile": "hidden",
+        "medium": "type-only",
+        "sequence": "single"
+      },
+      "look": "'For Every Writing' header over a long essay on grammatical gender in Indo-European, set in Iosevka Etoile with a toolbar to switch Aile/Etoile, weight 1–9 and Italic/Oblique",
+      "feel": "Bookish, surprising for a code font",
+      "ux": "Toolbar re-sets the fixed text; it isn't editable. Hidden on mobile",
+      "learn": "Show a code family's proportional cuts on old philology, with Greek and Latin inline, to prove it can leave the terminal",
+      "reconstruction": {
+        "layout": "Chapter header; toolbar at x=160; text block 1120px wide, full measure, ~680px tall, two paragraphs",
+        "typography": "~20px Iosevka Etoile Light (wght 300), leading ~1.4, grey",
+        "palette": [
+          "#111416",
+          "#26292a",
+          "#c7cccb",
+          "#3cacd4"
+        ],
+        "behaviour": "Picker buttons change classes on .sample-code.etoile.w-300.literature",
+        "content": "Public-domain philology essay opening 'AMONG the many valuable contributions of William Dwight Whitney…', with Greek and macron Latin",
+        "assets": "none",
+        "html": ".proportional-sampler-body > .sample-code.etoile.w-300.literature > .token.text"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "language-support",
+      "variant": "language-name-list",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "exhaustive, dry",
+        "mobile": "adapts",
+        "method": "list",
+        "nonLatin": false
+      },
+      "look": "'248 Languages Supported' title over five long columns of language names in Iosevka",
+      "feel": "A credits roll",
+      "ux": "static",
+      "learn": "Lead with the count and let a tall alphabetical list serve as the proof",
+      "reconstruction": {
+        "layout": "Title at x=160; 5 columns ~226px wide from x=160, 50 rows at ~20px",
+        "typography": "Title 48px Iosevka Light; names 16px Regular, leading ~1.25",
+        "palette": [
+          "#111415",
+          "#c7cccb"
+        ],
+        "behaviour": "none",
+        "content": "Language names only, alphabetical, with a few locale tags such as (bal_latn)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "09"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "One centred dark-grey line: 'Copyright (c) 2015-2026 Belleve Invis.'"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "checkout/link-out-cta",
+    "story/large-text-intro",
+    "family-overview/designspace-map",
+    "family-overview/big-number-stats",
+    "comparison/versus-tabs",
+    "design-details/feature-before-after",
+    "design-details/feature-index",
+    "specimen-showcase/editorial-in-use",
+    "language-support/language-name-list",
+    "footer/slim-legal-bar"
+  ]
+}

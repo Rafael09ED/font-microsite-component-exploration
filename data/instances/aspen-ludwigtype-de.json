@@ -1,0 +1,133 @@
+{
+  "slug": "aspen-ludwigtype-de",
+  "extractedBy": "claude",
+  "summary": "A flip-book of full-screen photographs with live editable type on them: each page is a real street scene whose type block is contenteditable with a per-box font menu, and arrows move to the next page. Only the first page was captured; the rest (vote.html…) is not in the archive.",
+  "instances": [
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "hero",
+      "variant": "name-over-photo",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "fresh, urban, friendly",
+        "mobile": "breaks",
+        "carrier": "photo",
+        "cta": "try",
+        "rangeShown": "one-style",
+        "navVisible": false
+      },
+      "look": "Full-bleed photo of a yellow wall with a birch-forest mural door; 'Aspen' in Black on the door and four lines of italic text aligned to the door panel",
+      "feel": "Street-found signage",
+      "ux": "The copy tells you what to do: click text to edit, use arrows to flip; a right arrow sits bottom-right",
+      "learn": "Choose a photo with a flat framed area, and place the type in it so it looks painted on the scene",
+      "reconstruction": {
+        "layout": "Photo 3000×1800 scaled to cover (1500×900 at 1440, left -60px, centred at x=0.53). Name ~420px wide inside the green panel, top ~110px; paragraph centred below",
+        "typography": "'Aspen' ~230px Aspen Black, rgba(255,255,255,.8); paragraph ~33px Aspen Italic, centred, leading ~1.25",
+        "palette": [
+          "#495536",
+          "#f0da4f",
+          "#c8104f",
+          "#ffffff"
+        ],
+        "behaviour": "Image resizes to cover keeping data-center; text scale follows the image; mobile keeps the image wide and crops the text",
+        "content": "'Explore this refreshing and resilient typeface. Click on any text to edit it. Use the arrows at the bottom of the site to flip through the pages.'",
+        "assets": "One high-resolution photo per page",
+        "html": ".container[data-size][data-center] > .bgcontainer > img.bgimage"
+      }
+    },
+    {
+      "blocks": [
+        "00",
+        "01"
+      ],
+      "type": "type-tester",
+      "variant": "in-context-editable",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "hands-on, casual",
+        "mobile": "breaks",
+        "controls": [
+          "text",
+          "size",
+          "leading",
+          "style-select",
+          "features",
+          "color",
+          "alignment"
+        ],
+        "scope": "in-layout",
+        "defaultText": "meaningful",
+        "export": true
+      },
+      "look": "Each text box on the photo darkens on hover with a white 'Click to Edit' pill; clicking opens a font menu for that box (hidden select dropdowns, not in the capture)",
+      "feel": "Editing a poster in a mock-up, not filling a form",
+      "ux": "Hover box, click, type; the menu has font family (18 styles), size 100-800, alignment, line height, text colour, reset, alternates and figure feature checkboxes, plus share buttons",
+      "learn": "Put the tester inside a real picture: with per-box controls the visitor makes a shareable poster from the specimen",
+      "reconstruction": {
+        "layout": "Absolutely placed .textbox over the image at image-relative coordinates; hover overlay rgba(0,0,0,.4); pill centred, ~60px wide, radius 6px, 10px black on white",
+        "typography": "Each box sets its defaults through data-fontmenu: font-size default 500 (image px), min 100, max 800, Aspen Black",
+        "palette": [
+          "#000000",
+          "#ffffff"
+        ],
+        "behaviour": "jquery.fontselect dropdowns; feature sets 'set1' (Roman) / 'set2' (Italic) swap per style: ss01 Alternate a, ss02 Alternate g, tnum, lnum, sups, subs, zero; Facebook, Twitter and Download buttons at bottom left share or save the composed image",
+        "content": "The editable copy is the site's instructions",
+        "assets": "none beyond the photo",
+        "html": "div.textbox[contenteditable][data-fontmenu='{font-family:{default,options[]},font-size:{default,min,max},text-align,line-height,color,reset-button,font-feature-settings:{set1,set2}}']"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "navigation",
+      "variant": "next-chapter-link",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "photo",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "minimal",
+        "mobile": "adapts"
+      },
+      "look": "A round translucent white arrow button fixed bottom-right, linking to the next page; attached to the screen block, never cut on its own",
+      "feel": "Slideshow pager",
+      "ux": "Click goes to vote.html; left-side round buttons appear for share and download",
+      "learn": "One round arrow turns a set of photo pages into a flip-book",
+      "reconstruction": {
+        "layout": "~40px circle at bottom-right, 20px inset, position fixed",
+        "typography": "No text; SVG arrow",
+        "palette": [
+          "#ffffff"
+        ],
+        "behaviour": "Plain link to the next HTML page",
+        "content": "none",
+        "assets": "right.svg",
+        "html": "a.btn.btn_right[href=vote.html]"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/name-over-photo",
+    "type-tester/in-context-editable"
+  ]
+}

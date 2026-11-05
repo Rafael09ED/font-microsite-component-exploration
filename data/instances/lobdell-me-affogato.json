@@ -1,0 +1,408 @@
+{
+  "slug": "lobdell-me-affogato",
+  "extractedBy": "agent",
+  "summary": "A compact one-page specimen for a free, pay-what-you-want friendly sans in five weights: alternating charcoal and white bands, one yellow accent, and a fixed yellow Download button. Its special moves are hidden overlays: a 'Try Now: Type something!' sticker leads to a full-screen tester, and Download opens a Stripe pay-what-you-want modal.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "friendly, restrained, minimal",
+        "mobile": "adapts",
+        "carrier": "glyph",
+        "cta": "download",
+        "rangeShown": "whole-family",
+        "navVisible": false
+      },
+      "look": "Charcoal screen with a small ruled 'AFFOGATO' title above five white capital A's stepping from Black to Light, a one-line descriptor below",
+      "feel": "Quiet, friendly, confident",
+      "ux": "The A's fade in one after another on load (seen at t≈0.3s in the video); a fixed yellow Download button sits top-right and a tilted yellow 'Try Now' sticker pokes up from the bottom-left",
+      "learn": "One letter repeated across all weights is a wordmark-free hero: it shows the family's range in a single glance, and needs no sample copy",
+      "reconstruction": {
+        "layout": "Full-bleed ~95vh (852px) dark band; centred column 800px wide: title with 280px hairlines on both sides at y≈225; row of 5 A's at y≈350–470, about 180px apart; caption centred at y≈700; Download button fixed top 45px, right 72px, 174×46px",
+        "typography": "Title 36px Affogato Bold caps, tracked ~0.1em, white; A's 160px Black, Bold, Medium, Regular, Light; caption 24px Bold white; 'Designed by' 18px Regular with the name link in yellow; button 20px Regular caps, dark on yellow",
+        "palette": [
+          "#252525",
+          "#ffffff",
+          "#fcfb2a"
+        ],
+        "behaviour": "Staggered fade-in of the A's left to right on load, finished within ~1s; nothing else moves",
+        "content": "'A friendly sans-serif typeface. Designed by Eric Lobdell'",
+        "assets": "none",
+        "html": "section#intro > .intro-line + .intro-title + ul.string.s160 > li.black|bold|medium|regular|light"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "type-tester",
+      "variant": "slider-sandbox",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "playful, immediate",
+        "mobile": "unknown",
+        "controls": [
+          "text",
+          "weight"
+        ],
+        "scope": "single",
+        "defaultText": "user-empty",
+        "export": false
+      },
+      "look": "Never captured open: hidden section#type-tester holds one centred 200px text input and a row of five 80px A's labelled Black, Bold, Medium, Regular, Light as the weight picker; only its tilted yellow 'Try Now: Type something!' sticker is visible, at the bottom-left of the hero",
+      "feel": "Inviting, low-friction",
+      "ux": "The sticker invites typing with no field in sight. The input has autofocus and a close × button; the trigger itself is in the unarchived script.js, so opening on a keypress is inferred from the wording. Clicking an A swaps the weight class on the input",
+      "learn": "Ask visitors to type before they see any field: a small sticker turns the whole page into a tester, and letter buttons in each weight replace a slider for a static family",
+      "reconstruction": {
+        "layout": "Full-screen overlay inferred from the hidden section; single-line input centred at 200px text size; picker row of five A's beneath; × at a corner; sticker is ~230×40px, rotated about −5°, overlapping the band edge at left ~115px",
+        "typography": "Input 200px Affogato Black by default, centred; picker A's 80px each in its own weight with a 20px Regular label; sticker 16px Bold 'Try Now:' + Medium, dark on yellow",
+        "palette": [
+          "#252525",
+          "#ffffff",
+          "#fcfb2a"
+        ],
+        "behaviour": "Weight picker: click li[data-change-weight] → replace the weight class on .test-input and move .active-weight (HTML comments say the selected weight gets a yellow class); close with .overlay-close",
+        "content": "Empty field; the visitor's own text",
+        "assets": "none",
+        "html": "section#type-tester.hidden > button.overlay-close + input.test-input[autofocus] + .weight-selector > ul.test-weights > li[data-change-weight=black|bold|medium|regular|light] > label; sticker is .hint in #intro"
+      }
+    },
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "checkout",
+      "variant": "donation-widget",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "candid, informal",
+        "mobile": "unknown",
+        "destination": "on-page",
+        "pricesOnPage": true,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Modal, captured in HTML only: 'PAY WHAT YOU WANT / Fonts are hard to make, you know.', an e-mail field, five price chips ($50, $25, $10, $5, Free) and a submit button. Its fixed yellow Download trigger appears on every screen and repeats across the stitched capture (attached here to the hero block)",
+      "feel": "Honest, personal",
+      "ux": "Fixed Download button opens the modal. Choosing a paid amount reveals the Stripe card fields and 'Donate & Download'; Free keeps the plain 'Download Now'. Terms of Use link, tooltip explaining e-mail use",
+      "learn": "Put the free option in the same row as the paid amounts and reveal card fields only after a paid choice: the ask stays light and Free stays honest",
+      "reconstruction": {
+        "layout": "Centred modal with a coloured accent strip on top, close × at the corner; stacked: header, e-mail, 5 equal radio chips in a row, conditional #pay block (name, card number, CVC, expiry, zip) or #free block, legal notice",
+        "typography": "Title 32px Affogato Bold caps; subline 16px Regular; fields 20px Regular centred; chips 16px Medium; button 20px Regular caps; notice 14px Regular",
+        "palette": [
+          "#ffffff",
+          "#232323",
+          "#fcfb2a"
+        ],
+        "behaviour": "Radio change toggles #pay and #free; each chip has two stacked spans, likely a hover or selected state swap; Stripe Elements card form posts to download.php; errors show in .payment-errors and .choice-errors",
+        "content": "Amounts $50, $25, $10, $5, Free; 'Used only for a major Affogato update'; 'Payments via Stripe'",
+        "assets": "none",
+        "html": "button#download.modal-open; .modal > .accent, .modal-header, form#payment-form.prices > .email, .field.choices > label > input.radio[data-price], #pay, #free"
+      }
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "plain, airy",
+        "mobile": "adapts",
+        "coverage": "full",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "'GLYPHS' in big Light caps above the whole character set in Light as one centred, wide-spaced paragraph on white",
+      "feel": "Calm, delicate",
+      "ux": "static; plain selectable text",
+      "learn": "A single paragraph of space-separated glyphs reads like a grid at almost no cost: no cells, no script, and it reflows on mobile by itself",
+      "reconstruction": {
+        "layout": "~1255px tall white band; heading centred; paragraph ~1000px wide from x≈215, 13 lines at ~64px line height, glyphs separated by spaces and letter-spacing, justified-looking to about the same width",
+        "typography": "Heading 80px Affogato Light caps; glyphs 36px Light, dark grey",
+        "palette": [
+          "#fbfbfb",
+          "#232323"
+        ],
+        "behaviour": "none",
+        "content": "A–Z, accented capitals, a–z, accented lowercase, punctuation, currency, numerals, maths, symbols",
+        "assets": "none",
+        "html": "section#glyphs p.all-glyphs.light.s36 with each glyph separated by a space"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "graphic, wordless",
+        "mobile": "adapts",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "annotation",
+        "explanation": "none"
+      },
+      "look": "The letters P R D B A in Black over the same row in Light, with a tilted yellow highlighter stripe running through the Black row along the slant of their tops",
+      "feel": "Bold, marker-pen casual",
+      "ux": "static",
+      "learn": "One coloured stripe along a shared angle explains a design trait across letters with no words: the slanted apexes the text below mentions",
+      "reconstruction": {
+        "layout": "~600px white band; two centred rows of 5 letters, ~155px letter pitch; yellow stripe ~1150px long, ~45px tall, from x≈130 to 1280, rotated about −3.5°, behind the Black row",
+        "typography": "200px Affogato Black, then 200px Light, letters spaced apart as list items",
+        "palette": [
+          "#fefefe",
+          "#232323",
+          "#fcfb2a"
+        ],
+        "behaviour": "none",
+        "content": "The five letters that carry the slanted apex: P, R, D, B, A",
+        "assets": "none; the stripe is a rotated div",
+        "html": "section#angles > .angles-line + ul.string.s200.black + ul.string.s200.light"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "orderly, informative",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "paragraph",
+        "interactive": false
+      },
+      "look": "Four rows, Regular to Black: the style name in big caps on the left, the same descriptive paragraph in that style on the right",
+      "feel": "Tidy, factual",
+      "ux": "static",
+      "learn": "Use the real 'about' text as the sample for every style, so the comparison paragraph also does the job of the intro copy",
+      "reconstruction": {
+        "layout": "Rows ~243px apart; name column from x≈216 (300px wide); text column from x≈518, ~700px wide; generous gaps between rows; Download button overlaps the right edge while fixed",
+        "typography": "Names 56px caps in their own weight; paragraphs 20px, leading ~1.45, in their own weight",
+        "palette": [
+          "#f9f9f9",
+          "#232323"
+        ],
+        "behaviour": "none",
+        "content": "'Affogato is a friendly sans-serif typeface that's unusually expressive… Inspired by geometric humanist typefaces…' repeated four times",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "design-details",
+      "variant": "annotated-specimen",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "graphic, wordless",
+        "mobile": "hidden",
+        "subject": [
+          "construction"
+        ],
+        "presentation": "catalogue",
+        "explanation": "none"
+      },
+      "look": "Five capital Q's in a row, Black to Light, with no caption, spotlighting the characteristic tail. Not annotated in the strict sense; the paragraph above names Q as a signature glyph",
+      "feel": "Punctuating, graphic",
+      "ux": "static",
+      "learn": "After text naming a signature glyph, set that glyph alone across all weights as a visual full stop",
+      "reconstruction": {
+        "layout": "~400px white band; centred row of 5 Q's about 200px apart, y≈220–350 within the block",
+        "typography": "200px Affogato Black, Bold, Medium, Regular, Light",
+        "palette": [
+          "#fefefe",
+          "#141414"
+        ],
+        "behaviour": "none",
+        "content": "The letter Q",
+        "assets": "none",
+        "html": "section#qs > ul.string.s200 > li.black|bold|medium|regular|light"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "nerdy, playful",
+        "mobile": "adapts",
+        "structure": "grid",
+        "samples": "word",
+        "interactive": false
+      },
+      "look": "On charcoal, a 2×4 grid of one word per cell at display size with a tiny yellow style label: Patronum, Alohomora, Leviosah, Nerfherder, Deathstar, Butterbeer, Kumquatter, Moof-Milker",
+      "feel": "Fan-culture wink",
+      "ux": "static",
+      "learn": "Sample words from fan culture give a plain style grid personality, and reward readers who get the references",
+      "reconstruction": {
+        "layout": "Two columns at x≈220 and x≈786; rows ~170px apart; ~930px tall band",
+        "typography": "Words 80px in the labelled weight, white; labels 18px Regular yellow above each word",
+        "palette": [
+          "#262626",
+          "#ffffff",
+          "#fcfb2a"
+        ],
+        "behaviour": "none",
+        "content": "Harry Potter and Star Wars vocabulary",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "06"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "candid, funny, personal",
+        "mobile": "adapts",
+        "voice": "first-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "'Fonts Ain't Easy': a blog excerpt in a narrow column, with a giant yellow vertical AFFOGATO running up behind the left edge and a large Light pull quote at the end. The block crop starts mid-text; the heading and first paragraphs (y≈5076–5476) fell between blocks and were read from the video and HTML",
+      "feel": "Conversational, self-deprecating",
+      "ux": "Link out to the full Medium post",
+      "learn": "A rotated wordmark behind the column makes a plain text excerpt feel designed, without any images",
+      "reconstruction": {
+        "layout": "Text column ~600px wide from x≈458; vertical word rotated 90° reading upwards, ~160px cap height, straddling the column's left edge; quote block indented ~40px, ~570px wide",
+        "typography": "Title 48px Bold; body 18px Regular, leading ~1.6, grey; quote 36px Light, leading ~1.2; vertical word 160px Black caps yellow",
+        "palette": [
+          "#f9f9f8",
+          "#232323",
+          "#fcfb2a"
+        ],
+        "behaviour": "none",
+        "content": "Designer's first-person story of a road trip and his first paid font licence, ending 'free fonts are to designers. I'm trying to make the best code library I can!'",
+        "assets": "none",
+        "html": "section#story > .vertical.caps.yellow.s160.black + .container > .story-shift > .story-title + p.copy + p.quote"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "footer",
+      "variant": "slim-legal-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "modest, tidy",
+        "mobile": "adapts",
+        "contains": [
+          "legal"
+        ]
+      },
+      "look": "Charcoal band: AFFOGATO in Black, copyright line, small yellow Privacy Policy link, all centred",
+      "feel": "Neat, closing",
+      "ux": "One link",
+      "learn": "Repeat the hero's dark field at the end to bookend the alternating bands",
+      "reconstruction": {
+        "layout": "~238px band, centred stack, 56px name, 18px line, 14px link",
+        "typography": "Name 56px Affogato Black caps; copyright 18px Regular; link 14px Medium yellow",
+        "palette": [
+          "#252525",
+          "#ffffff",
+          "#fcfb2a"
+        ],
+        "behaviour": "none",
+        "content": "'© Eric Lobdell 2016 All rights reserved.'",
+        "assets": "none"
+      }
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "type-tester/slider-sandbox",
+    "checkout/donation-widget",
+    "glyph-table/category-lines",
+    "design-details/annotated-specimen",
+    "family-overview/style-word-grid",
+    "design-details/annotated-specimen",
+    "family-overview/style-word-grid",
+    "story/essay",
+    "footer/slim-legal-bar"
+  ]
+}

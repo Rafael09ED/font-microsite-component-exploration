@@ -1,0 +1,507 @@
+{
+  "slug": "kostasbartsokas-com-oi-you-mate",
+  "extractedBy": "agent",
+  "summary": "A stack of 100vh colour screens for the ultra-fat free display face Oi!, separated by bowed SVG curves and shouting in layered two-font type (Oi You for the fill, Oi Mate for the extruded shadow). Three editable samples with OpenType toggles, glyph and language carousels, pointing-hand bands and a donation pitch all keep up the loudmouth voice.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "hero",
+      "variant": "giant-wordmark",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "loud, cartoonish, cocky",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "none",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "'oi!' at 300px in yellow with a dark maroon extruded shadow on hot pink-red, centred, with a small credit stack below and an Awwwards 'Honors' ribbon on the right edge",
+      "feel": "A comic-book shout",
+      "ux": "static; fixed maroon bar above; ribbon links out",
+      "learn": "Stack two fonts, a fill and a shadow, in two colours: one word gets the depth of a logo, and it's still live text",
+      "reconstruction": {
+        "layout": "Full-bleed 100vh (from y=50 under the bar). Word centred at ~y=300; credits centred at y≈520–650: award line, 'by Kostas Bartsokas', hairline rule ~400px wide, tagline",
+        "typography": "'oi!' 300px OiYou yellow over OiMate maroon/black shadow layer (same text, aria-hidden clone); credits ~14px Averta black, by-line yellow, tagline ~13px Averta Bold caps",
+        "palette": [
+          "#ed1651",
+          "#fdd601",
+          "#9a1b51",
+          "#000000"
+        ],
+        "behaviour": "White screen ~2s before the page shows; static after that",
+        "content": "'TDC Award of Excellence in Type Design, 2018', 'A CLARENDONESQUE ON STEROIDS'",
+        "assets": "Awwwards ribbon SVG",
+        "html": "span._layer1 (OiYou) + span[aria-hidden]._layer2 (OiMate) stacked absolutely, with font-feature-settings inline"
+      }
+    },
+    {
+      "blocks": [
+        "01",
+        "06"
+      ],
+      "type": "specimen-showcase",
+      "variant": "word-stack",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "themed",
+        "tone": "shouted, cheeky",
+        "mobile": "adapts",
+        "medium": "type-only",
+        "sequence": "series"
+      },
+      "look": "Full-screen stacks of shouted words: white 'you!' over black 'mate?' on maroon, and on near-black 'FOR / LOUD / DESIGNS / &DESIGNERS' in pink on a teal extrusion, each line narrower to fit",
+      "feel": "Bar-room heckling",
+      "ux": "static",
+      "learn": "Continue the hero's joke across screens ('oi! / you! / mate!'), so the name is read as a phrase over three scrolls",
+      "reconstruction": {
+        "layout": "100vh panels, words centred; block 06 is 988px tall with four lines scaled from 322px down to ~110px, fit to a ~1200px column",
+        "typography": "OiYou lowercase or caps; fill + OiMate shadow layer in contrasting colour. 'you!' 185px; 'FOR' 322px",
+        "palette": [
+          "#9b1a50",
+          "#fdfafb",
+          "#030102",
+          "#241e20",
+          "#ef1551",
+          "#2f5a68"
+        ],
+        "behaviour": "none",
+        "content": "'you! mate?', 'FOR LOUD DESIGNS &DESIGNERS'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "origin-reference",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "cheeky but informed",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "Short centred Averta column on white with one full-width yellow band defining the word 'oi' in italics",
+      "feel": "A breather after the shouting",
+      "ux": "static",
+      "learn": "Define the name as a dictionary-style band in the middle of the prose: the etymology is the brand story",
+      "reconstruction": {
+        "layout": "Column ~730px centred; yellow band full-bleed, ~180px tall, italic text inside centred; section 1234px tall",
+        "typography": "22px Averta, leading ~1.4, bold for key names; band italic",
+        "palette": [
+          "#fdfcfc",
+          "#fad202",
+          "#000000"
+        ],
+        "behaviour": "none",
+        "content": "Roots in Caslon's Ionic 1844 and Clarendon 1845; meanings of 'oi'; Latin and Greek, two styles",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "story",
+      "variant": "article-teaser",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "playful",
+        "mobile": "adapts",
+        "voice": "none",
+        "media": [
+          "none"
+        ],
+        "length": "short"
+      },
+      "look": "A huge yellow asterisk with 'THE STORY OF OI!' overprinted in black caps, used as a round link at the end of the about text",
+      "feel": "A sticker",
+      "ux": "Links to a subpage with the long story",
+      "learn": "Use a glyph as the button shape: the asterisk is literally a footnote mark to the long version",
+      "reconstruction": {
+        "layout": "~300px asterisk centred below the text, heading stacked on it",
+        "typography": "Asterisk ~400px OiYou yellow; label ~50px OiYou caps black, `case` on, line break after each word",
+        "palette": [
+          "#ffffff",
+          "#fad202",
+          "#000000"
+        ],
+        "behaviour": "Link to subpage",
+        "content": "'The story of oi!'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03",
+        "09"
+      ],
+      "type": "checkout",
+      "variant": "link-out-cta",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "on-interaction",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "pushy, comic",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Half-height black bands with a chunky white stacked 'GET IT FOR FREE NOW!' or 'SEE THE SPECIMEN', flanked left and right by huge yellow pointing-hand glyphs reaching in from the edges",
+      "feel": "Fairground barker",
+      "ux": "Band is a button; the first jumps to get-it, the second opens the PDF specimen on Dropbox",
+      "learn": "Use the font's own manicules as the arrow: the pointing hands aim the eye at the CTA and show off a glyph",
+      "reconstruction": {
+        "layout": "Full-width, 450px tall, curved top and bottom. Text centred, hands ~170×60px each side (font ☜ ☞ with long arrow dashes)",
+        "typography": "115px OiYou caps white, three or two stacked lines, tight; hands OiYou yellow",
+        "palette": [
+          "#020202",
+          "#fbfbfb",
+          "#fdd601"
+        ],
+        "behaviour": "Whole band is a button; hands likely slide on hover",
+        "content": "'GET IT FOR FREE NOW!' and 'SEE THE SPECIMEN', links to the get-it section and a Dropbox PDF",
+        "assets": "none",
+        "html": "button containing text and '<–––––––' rendered with calt into pointing hands"
+      }
+    },
+    {
+      "blocks": [
+        "04",
+        "10",
+        "11"
+      ],
+      "type": "type-tester",
+      "variant": "feature-toggle-board",
+      "confidence": "high",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "punchy, playful",
+        "mobile": "adapts",
+        "controls": [
+          "text",
+          "features",
+          "size"
+        ],
+        "scope": "per-row",
+        "defaultText": "prompt",
+        "export": false
+      },
+      "look": "Full-screen colour panels with one giant editable sample ('TRY ME' mint on maroon; '¿¡12.609 tweets only!?' violet on coral; Greek 'Άυλες αυλές…' olive on off-white) above a row of black-and-white chip checkboxes labelled MATE, CAPS, DLIG, SS01, SS02 or ZERO and a small slider chip",
+      "feel": "A chunky game menu",
+      "ux": "Click to edit the text. Each chip flips an OpenType feature; MATE shows or hides the shadow layer; the first panel's slider sets size or leading (range 0–100, value 50)",
+      "learn": "Tailor the toggle set and the sample to each panel: ZERO only appears with numerals, Greek with CAPS and SS02, so every panel tests what it shows",
+      "reconstruction": {
+        "layout": "Each panel 100vh, curved edges; sample centred at ~35% height, wrapped to ~1000px; toggles in a 3×2 grid or a row at ~y=660, spaced ~360px",
+        "typography": "Sample 180px (first), ~163px, ~103px OiYou, plus OiMate shadow layer when MATE is on; chip labels 12px Averta Bold caps white on black",
+        "palette": [
+          "#9b1b51",
+          "#a5e6b8",
+          "#fe4f4f",
+          "#4e13d0",
+          "#f3f2f3",
+          "#708e0b",
+          "#000000"
+        ],
+        "behaviour": "input[type=checkbox][value=mate|caps|dlig|ss01|ss02|zero] rewrites font-feature-settings inline on the sample (\"kern\", \"calt\", \"dlig\" 0, \"case\" 0, \"zero\" 0, \"ss01\" 0, \"ss02\" 0); input#fader range 0–100; two stacked contenteditable layers, kept in sync",
+        "content": "'TRY ME', tweet-count joke, Greek pun; themed humour per panel",
+        "assets": "none",
+        "html": "label > input[type=checkbox][value=…] with chip; input#fader; div[contenteditable] twice for fill and shadow"
+      }
+    },
+    {
+      "blocks": [
+        "05"
+      ],
+      "type": "glyph-table",
+      "variant": "category-tabs",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "dense",
+        "realism": "abstract",
+        "tone": "bold, poster-like",
+        "mobile": "adapts",
+        "coverage": "by-category",
+        "interaction": "tabs",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "Black centred lines of the character set at ~64px on white, with hand-glyph left and right arrows at the edges paging between Latin, Greek and figures/symbols",
+      "feel": "Inky and heavy",
+      "ux": "Arrows flip between three slides of glyphs",
+      "learn": "A carousel of centred glyph stanzas keeps a heavy face readable without a dense grid",
+      "reconstruction": {
+        "layout": "100vh panel, ~1100px wide centred block of 6–7 lines, arrows at x≈60 and x≈1380",
+        "typography": "~64px OiYou black, centred; arrows are font glyphs",
+        "palette": [
+          "#fafafa",
+          "#0c0c0c"
+        ],
+        "behaviour": "Two buttons slide between three panels: Latin A–Z a–z, Greek, numerals+currency+arrows+manicules",
+        "content": "Encoding-order lines including ☜ ☟ ☝ ☞",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "07"
+      ],
+      "type": "language-support",
+      "variant": "multiscript-specimen",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "on-interaction",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "themed",
+        "tone": "rude, multilingual",
+        "mobile": "adapts",
+        "method": "samples",
+        "nonLatin": true
+      },
+      "look": "Carousel of full-screen colour slides, each with one expletive-toned phrase with a speech-bubble or shadow treatment: a Slovak pangram on yellow, Greek '#$@% το κέρατό μου!' in black on green-shadowed pink, 'oh là là'",
+      "feel": "Swearing in several languages",
+      "ux": "Hand arrows page through the slides",
+      "learn": "Pick phrases native speakers would shout in each language; coverage becomes the joke rather than a list",
+      "reconstruction": {
+        "layout": "100vh, full-bleed colour change per slide; text centred, ~1000px wide, arrows at left and right; speech bubble shape in some slides",
+        "typography": "~120–160px OiYou plus OiMate shadow in another colour",
+        "palette": [
+          "#fc7cae",
+          "#040605",
+          "#22c342",
+          "#fdd601"
+        ],
+        "behaviour": "Buttons slide horizontally through at least three slides (Slovak, Greek, French)",
+        "content": "'Kŕdeľ ďatľov učí koňa žrať kôru!', '#$@% το κέρατό μου!', 'oh là là'",
+        "assets": "Speech bubble shape"
+      }
+    },
+    {
+      "blocks": [
+        "08"
+      ],
+      "type": "language-support",
+      "variant": "diacritic-word-wall",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "dense, inked",
+        "mobile": "adapts",
+        "method": "word-wall",
+        "nonLatin": false
+      },
+      "look": "Two justified black columns of accent-heavy words on white: lowercase at left (kêrel, đačić, grüßen, småøer…), caps at right (WÎE, FÊTE, ZƏFƏR, MAĦFRA…), each fit to the column so sizes shrink with word length",
+      "feel": "A blackletter-like poster",
+      "ux": "static",
+      "learn": "Fit each word to the column, so shorter words get larger and the diacritics become the texture",
+      "reconstruction": {
+        "layout": "Two ~500px columns, 60px gap, centred; 8 rows of decreasing height; 952px tall",
+        "typography": "OiYou 162px down to ~60px, black, tight leading",
+        "palette": [
+          "#fbfbfb",
+          "#090909"
+        ],
+        "behaviour": "none",
+        "content": "kêrel, đačić, grüßen, småøer, papağını, fuŝĥoraĵo, gabonaőrlő, przyjeżdżają; WÎE, FÊTE, ZƏFƏR, MAĦFRA, STJÅLET, APĢĒRBS, OCTAÈDRIC",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "12"
+      ],
+      "type": "design-details",
+      "variant": "feature-before-after",
+      "confidence": "low",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "ambient",
+        "interactivity": "controls",
+        "density": "sparse",
+        "realism": "abstract",
+        "tone": "mysterious",
+        "mobile": "adapts",
+        "subject": [
+          "features"
+        ],
+        "presentation": "toggle",
+        "explanation": "none"
+      },
+      "look": "A black screen with one DLIG checkbox; the sample was empty at capture, only the bottom of a yellow-and-maroon glyph is seen behind the stitched bar",
+      "feel": "Unresolved in the capture",
+      "ux": "A sample (empty spans in the HTML, probably cycled by script) with a dlig toggle",
+      "learn": "Give discretionary ligatures their own screen, so that the big shape is the payoff of a single switch",
+      "reconstruction": {
+        "layout": "100vh black, sample centred, one checkbox chip at y≈745",
+        "typography": "OiYou + OiMate display; chip 12px Averta Bold",
+        "palette": [
+          "#020101",
+          "#6f133a",
+          "#fdd601",
+          "#ffffff"
+        ],
+        "behaviour": "Default has dlig on; text apparently injected by script (likely a cycling word), checkbox flips the feature",
+        "content": "Unknown; not captured",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "13"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "friendly, direct",
+        "mobile": "adapts",
+        "destination": "repository",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Green panel with 'get it!' at 180px, a black 'FREE LICENCE' button and copy, then a giant '$' with a black 'DONATE' button and a sentence asking for support",
+      "feel": "Generous, pay-what-you-like",
+      "ux": "Licence button goes to Google Fonts; Donate goes to PayPal",
+      "learn": "Give 'free' and 'donate' the same weight: two stacked equal buttons, each under one display glyph",
+      "reconstruction": {
+        "layout": "Full-width, 1121px tall; centred stacks: heading → button → two lines; $ glyph (~180px) → button → paragraph",
+        "typography": "'get it!' 180px OiYou black; buttons 22px Averta Bold white on black; copy 18px Averta white",
+        "palette": [
+          "#22c342",
+          "#020803",
+          "#ffffff"
+        ],
+        "behaviour": "none",
+        "content": "'If you'd like to show your appreciation and help me spend more time to improve and add further script support to Oi! (i.e. Cyrillic!)'",
+        "assets": "none",
+        "html": "a[href=fonts.google.com/specimen/Oi]; a[href=paypal.com/cgi-bin/webscr…]"
+      }
+    },
+    {
+      "blocks": [
+        "14"
+      ],
+      "type": "footer",
+      "variant": "big-sign-off",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "dark",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "theatrical punchline",
+        "mobile": "adapts",
+        "contains": [
+          "sign-off",
+          "credits"
+        ]
+      },
+      "look": "'IT AIN'T OVER TILL THE FAT LADY SINGS' in dark violet on navy, stacked over small credits",
+      "feel": "A last-line gag",
+      "ux": "Credits links",
+      "learn": "Use an idiom about being fat in the ending for an ultra-fat face: the copy doubles as the type's character",
+      "reconstruction": {
+        "layout": "100vh panel; five centred lines, ~1000px wide; credits below centred",
+        "typography": "~100px OiYou caps violet; credits ~14px Averta, bold for names, violet",
+        "palette": [
+          "#0b1728",
+          "#4d13ce",
+          "#351491"
+        ],
+        "behaviour": "none",
+        "content": "'Body type is set in Averta. Html by tol.is. Special thanks to Dr. Gerard Unger and Shani Avni. Kostas Bartsokas © 2017'",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "15"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Fixed 50px maroon bar with a round white foundry monogram at the centre and two small 'f' and 't' share buttons at the right, set in the font's own layered glyphs; repeats across stitched crops"
+    }
+  ],
+  "skipped": [],
+  "sequence": [
+    "hero/giant-wordmark",
+    "specimen-showcase/word-stack",
+    "story/origin-reference",
+    "story/article-teaser",
+    "checkout/link-out-cta",
+    "type-tester/feature-toggle-board",
+    "glyph-table/category-tabs",
+    "language-support/multiscript-specimen",
+    "language-support/diacritic-word-wall",
+    "design-details/feature-before-after",
+    "checkout/free-download",
+    "footer/big-sign-off"
+  ]
+}

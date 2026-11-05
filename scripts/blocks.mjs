@@ -91,7 +91,9 @@ function refine(outline) {
   // A flow leaf that vertically contains two or more other flow leaves is a background layer or
   // wrapper sitting beside the content (e.g. a full-page decoration div on DJR sites), not a component.
   const flow = leaves.filter((b) => b.kind === 'flow');
-  const contains = (a, b) => a !== b && b.box.y >= a.box.y - 4 && b.box.y + b.box.h <= a.box.y + a.box.h + 4;
+  // Both axes matter: on horizontal pages every section shares the same vertical extent.
+  const contains = (a, b) => a !== b && b.box.y >= a.box.y - 4 && b.box.y + b.box.h <= a.box.y + a.box.h + 4
+    && b.box.x >= a.box.x - 4 && b.box.x + b.box.w <= a.box.x + a.box.w + 4;
   const wrappers = new Set(flow.filter((a) => flow.filter((b) => contains(a, b)).length >= 2));
   const kept = leaves.filter((b) => !wrappers.has(b));
   // Flow blocks in reading order; fixed/offscreen ones after.

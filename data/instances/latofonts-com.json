@@ -1,0 +1,309 @@
+{
+  "slug": "latofonts-com",
+  "extractedBy": "agent",
+  "summary": "A plain DaisyUI/Tailwind reference page for a free family: small product-style hero, a nine-weight list driven by a single text input, then an About essay with a flat character list embedded in the middle. Its value is the shared input that rewrites every weight row at once; nothing moves and there is no brand world.",
+  "instances": [
+    {
+      "blocks": [
+        "00"
+      ],
+      "type": "chrome",
+      "variant": "nav-bar",
+      "confidence": "high",
+      "exemplar": false,
+      "look": "Static white top bar: 'Lato fonts' lockup left, five centred text links (Lato fonts, Download free fonts, Usage gallery, Contact the Lato team, Download), purple Donate button right"
+    },
+    {
+      "blocks": [
+        "01"
+      ],
+      "type": "hero",
+      "variant": "product-landing",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "plain, informational",
+        "mobile": "adapts",
+        "carrier": "name",
+        "cta": "download",
+        "rangeShown": "several",
+        "navVisible": true
+      },
+      "look": "Centred lockup 'Lato' in purple Black beside 'fonts' in grey Hairline at 72px, a three-line description and two buttons on a faint white-to-grey gradient",
+      "feel": "Tidy, utilitarian, like a software project page",
+      "ux": "Primary 'Download Free Fonts' and outlined 'View Gallery'; both go to subpages",
+      "learn": "A two-word lockup that sets the heaviest and lightest weight side by side shows the family's full range before any specimen, using only the name",
+      "reconstruction": {
+        "layout": "Full-width band 384px tall (min-h-96), content centred, max-width ~900px; lockup, then description, then a button row with 16px gap; 24px vertical rhythm",
+        "typography": "Lockup 72px Lato, 'Lato' wght 900 tracking-tight, 'fonts' wght 100; description 24px Lato Light with bold '100+ Latin, 50+ Cyrillic' and a purple underlined designer link; buttons ~18px Semibold / Medium",
+        "palette": [
+          "#fafafa",
+          "#3219cd",
+          "#18181b",
+          "#d2d2d3"
+        ],
+        "behaviour": "None beyond default button hover",
+        "content": "Real description: 'A sanserif typeface family designed in the Summer 2010 by Warsaw-based designer Łukasz Dziedzic. Supporting 100+ Latin, 50+ Cyrillic, and Greek languages.'",
+        "assets": "Small download icon in the primary button",
+        "html": ".hero.min-h-96.bg-gradient-to-br.from-base-100.to-base-200 > .hero-content.text-center; h1 with span.text-primary + span.font-hairline; a.btn.btn-primary.btn-lg + a.btn.btn-outline.btn-lg"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "type-tester",
+      "variant": "labelled-editable-lines",
+      "confidence": "medium",
+      "exemplar": true,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "on-interaction",
+        "interactivity": "editable",
+        "density": "balanced",
+        "realism": "pangram",
+        "tone": "practical, reference",
+        "mobile": "adapts",
+        "controls": [
+          "text"
+        ],
+        "scope": "global",
+        "defaultText": "pangram",
+        "export": false
+      },
+      "look": "One small text input in a grey band above nine bordered cards, each with the style name and numeric weight at left and the same sample at right in roman (large) and italic (small)",
+      "feel": "Calm, list-like, complete",
+      "ux": "Typing in the single input rewrites all 18 samples (every .specimen-text) at once; cards are not themselves editable despite the copy, and they lift with a shadow on hover",
+      "learn": "One input bound to a whole style list lets a visitor compare weights on their own text with no per-row controls; pairing roman and italic in each row covers two axes of the family in one list",
+      "reconstruction": {
+        "layout": "Section heading centred, italic note below, then a 1120px wide grey band (~100px tall, 8px radius) with a centred label plus 448px input; below, a stack of 9 cards 1120px wide, ~186px tall, 24px gap, 1px border, 8px radius, 24px padding; card row: 192px label column + flexible sample column, vertically centred",
+        "typography": "Heading 36px Lato Bold; note 18px italic with bold key phrase; style name 18px Bold, weight number 14px at 60% opacity; roman sample 30px at that weight, leading 1.625; italic sample 20px at that weight, 70% opacity; input ~14px centred. Weights 100, 200, 300, 400, 500, 600, 700, 800, 900",
+        "palette": [
+          "#fafafa",
+          "#d3d3d3",
+          "#18181b",
+          "#f4f4f5"
+        ],
+        "behaviour": "input event on #specimen-text copies the value into all .specimen-text paragraphs; card hover transition to shadow-lg",
+        "content": "Multilingual pangram string: 'Książęcych spóźnień czułość. The quick brown fox jumps over the lazy dog. Zwei Boxkämpfer jagen Eva quer durch Sylt.' (Polish first, for the designer's language)",
+        "assets": "none",
+        "html": "input#specimen-text.input.input-bordered; .grid.gap-6 > .border.rounded-lg.p-6.hover:shadow-lg > .md:flex-row > (.md:w-48 h3 + span) + (.flex-1 p.specimen-text + p.specimen-text.italic)"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "family-overview",
+      "variant": "style-word-grid",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "pangram",
+        "tone": "orderly, reference",
+        "mobile": "adapts",
+        "structure": "list",
+        "samples": "paragraph",
+        "interactive": false
+      },
+      "look": "The same nine cards read as the family overview: Hairline (100) to Black (900), each with name, number and the same two-line paragraph in roman and italic",
+      "feel": "Even, methodical",
+      "ux": "Static reading of the list; order runs light to heavy so the colour of the text steps down the page",
+      "learn": "An identical paragraph in every weight makes grey value the thing you compare, so the family reads as a ramp",
+      "reconstruction": {
+        "layout": "Single column of 9 cards, 1120px wide, fixed label column at left; see the tester instance on the same block for measurements",
+        "typography": "Roman 30px and italic 20px per weight, name labels 18px Bold",
+        "palette": [
+          "#fafafa",
+          "#d3d3d3",
+          "#18181b"
+        ],
+        "behaviour": "none",
+        "content": "Same multilingual pangram string in every row",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "02"
+      ],
+      "type": "checkout",
+      "variant": "free-download",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "color-field",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "sparse",
+        "realism": "real-content",
+        "tone": "friendly, direct",
+        "mobile": "adapts",
+        "destination": "on-page",
+        "pricesOnPage": false,
+        "licenceOptions": false,
+        "trial": false,
+        "free": true
+      },
+      "look": "Purple card at the end of the weight list: 'Ready to use Lato?', 'Download all 18 font files (9 weights × 2 styles) for free', pink 'Download All Weights' button",
+      "feel": "Simple, promotional",
+      "ux": "The button tracks a download event then navigates to /lato-free-fonts/ rather than downloading directly",
+      "learn": "Put the download right after the style list, and state the file count as arithmetic (9 × 2 = 18) so visitors know what they get",
+      "reconstruction": {
+        "layout": "Centred card ~448×156px, 8px radius, 32px padding, centred text; attached to the bottom of the weight list block, not cut as its own block",
+        "typography": "Title ~18px Bold white; line 14px white; button 14px Medium white",
+        "palette": [
+          "#3219cd",
+          "#ffffff",
+          "#fd2d8d"
+        ],
+        "behaviour": "onclick trackFontDownload('all-weights','zip') then location change",
+        "content": "'Ready to use Lato? Download all 18 font files (9 weights × 2 styles) for free'",
+        "assets": "none",
+        "html": "button.btn.btn-secondary.btn-wide inside a primary-coloured card"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "story",
+      "variant": "essay",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "balanced",
+        "realism": "real-content",
+        "tone": "plain, factual",
+        "mobile": "adapts",
+        "voice": "third-person",
+        "media": [
+          "none"
+        ],
+        "length": "medium"
+      },
+      "look": "Centred 36px heading 'About the Font Family Lato' over a single text column of ~1000px on pale grey, with a white card holding a pull quote from the designer, interrupted by the character set card",
+      "feel": "Encyclopedic, modest",
+      "ux": "Static reading with outbound links to the designer, Adobe Typekit and Google Fonts",
+      "learn": "A designer's quote in a white card ('Male and female, serious but friendly. With the feeling of the Summer') gives the one memorable line in otherwise flat prose",
+      "reconstruction": {
+        "layout": "Grey section ~1680px tall, column ~1000px wide centred at x≈220, paragraphs with ~24px gaps; quote card same width, ~145px tall, centred text, 8px radius",
+        "typography": "Heading 36px Bold centred; body ~20px Lato Regular, leading ~1.6; quote 20px Medium centred; links purple underlined",
+        "palette": [
+          "#f4f4f4",
+          "#ffffff",
+          "#18181b",
+          "#3219cd"
+        ],
+        "behaviour": "none",
+        "content": "History (2010 commission for a corporate client, dropped, released under OFL), the 2013–14 extension to 3000+ glyphs, the 'transparent in text, warm in display' brief, the meaning of 'Lato' (Summer in Polish)",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "03"
+      ],
+      "type": "glyph-table",
+      "variant": "category-lines",
+      "confidence": "high",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "none",
+        "density": "balanced",
+        "realism": "abstract",
+        "tone": "plain, compact",
+        "mobile": "adapts",
+        "coverage": "partial",
+        "interaction": "static",
+        "metricsShown": false,
+        "namesOrUnicode": false
+      },
+      "look": "White shadowed card under 'Complete Character Set': five centred lines of space-separated characters, basic and Western Latin plus punctuation and math",
+      "feel": "Modest, almost an afterthought",
+      "ux": "Static, selectable text. Despite the title it shows ~300 of the 3000+ glyphs the copy claims",
+      "learn": "Live selectable text is the cheapest possible glyph table; the trade-off is that it undersells a large character set, so don't label it 'complete'",
+      "reconstruction": {
+        "layout": "Card ~990×225px, 16px radius, soft shadow, 32px padding, centred justified lines; sits between About paragraphs with a 24px subheading above",
+        "typography": "Characters ~20px Lato Regular, space-separated, leading ~1.5; subheading 24px Bold centred",
+        "palette": [
+          "#ffffff",
+          "#f4f4f4",
+          "#18181b"
+        ],
+        "behaviour": "none",
+        "content": "Character list in alphabetical order with accented forms following their base letter (A a ª Á á À à …), then digits, punctuation, symbols, math",
+        "assets": "none"
+      }
+    },
+    {
+      "blocks": [
+        "04"
+      ],
+      "type": "footer",
+      "variant": "credits-colophon",
+      "confidence": "medium",
+      "exemplar": false,
+      "rubric": {
+        "colorMode": "light",
+        "motion": "none",
+        "interactivity": "links",
+        "density": "dense",
+        "realism": "real-content",
+        "tone": "generic, template",
+        "mobile": "adapts",
+        "contains": [
+          "credits",
+          "legal",
+          "newsletter",
+          "contact"
+        ]
+      },
+      "look": "A single row of very small columns on grey: text links with a Donate heart, 'Stay Updated' with an empty newsletter slot, 'About Lato' summary, copyright and the tech credit (Astro, Tailwind, DaisyUI)",
+      "feel": "Generic, squeezed",
+      "ux": "Links only; the newsletter form needs JavaScript and is blank in the capture ('Please enable JavaScript to subscribe')",
+      "learn": "Crediting the build stack alongside the type designer is a small honest touch; the rest shows how a 5-column row loses legibility at 1440px",
+      "reconstruction": {
+        "layout": "261px tall band, 4–5 centred auto-width columns, stacked on mobile",
+        "typography": "Links 14px Lato; headings 14px Bold; small print 12px",
+        "palette": [
+          "#f7f7f7",
+          "#18181b",
+          "#3219cd"
+        ],
+        "behaviour": "none",
+        "content": "Download Fonts, Contact Team, Gallery, License (OFL), Donate via PayPal; © 2025 LatoFonts.com; Font designed by Łukasz Dziedzic",
+        "assets": "Heart icon"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "block": "05",
+      "reason": "third-party privacy consent bar (Consent / Do Not Sell My Information), not part of the specimen"
+    }
+  ],
+  "sequence": [
+    "hero/product-landing",
+    "type-tester/labelled-editable-lines",
+    "family-overview/style-word-grid",
+    "checkout/free-download",
+    "story/essay",
+    "glyph-table/category-lines",
+    "footer/credits-colophon"
+  ]
+}

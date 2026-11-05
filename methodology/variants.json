@@ -174,6 +174,13 @@
       "count": 0,
       "examples": [],
       "mergedFrom": []
+    },
+    "word-slideshow": {
+      "definition": "An auto-advancing slideshow of pre-set display compositions (a place name, the family name in each weight with labels, a short phrase) in a full-width banner, one word or lockup per slide, usually above a facts panel; the hero is a sequence of words rather than one wordmark",
+      "cues": "auto-advancing display words in a banner",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
     }
   },
   "intro-animation": {
@@ -685,6 +692,13 @@
       "count": 0,
       "examples": [],
       "mergedFrom": []
+    },
+    "draggable-glyph-tiles": {
+      "definition": "Overlapping square tiles of huge cropped glyphs (some animated GIFs) that the visitor can drag and resize into their own collage; the specimen is a pile of cards on a table rather than a fixed layout.",
+      "cues": "overlapping square glyph tiles, drag handles",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
     }
   },
   "family-overview": {
@@ -841,6 +855,20 @@
       "count": 0,
       "examples": [],
       "mergedFrom": []
+    },
+    "prose-glyph-inspector": {
+      "definition": "Design notes written as running prose in which every letter mentioned is an inline clickable chip; clicking a chip loads that glyph large on its metric lines in a sticky side panel (often with a weight slider), so reading the rationale and inspecting the letter happen together.",
+      "cues": "inline letter chips in prose, sticky glyph panel",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
+    },
+    "copyable-animation-cards": {
+      "definition": "Cards that each play a variable-font animation on a UI-like sample (a button label, a headline) on hover or in a loop, each with a 'Copy CSS code' button that copies the keyframes so visitors can reuse the effect",
+      "cues": "animated samples with a Copy CSS button",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
     }
   },
   "language-support": {
@@ -939,6 +967,20 @@
       "count": 0,
       "examples": [],
       "mergedFrom": []
+    },
+    "metric-face-off": {
+      "definition": "Two big figures side by side, each set in its own typeface under a label, stating one measured result of the comparison (word count, pages, file size), with a small badge giving the gain",
+      "cues": "two huge figures with a gain badge",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
+    },
+    "parallel-pages": {
+      "definition": "The same running text set in both typefaces on two side-by-side sheets at the same size, with no controls; the difference is read from where the text ends on each page",
+      "cues": "same text on two sheets, different end points",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
     }
   },
   "testimonials": {
@@ -963,6 +1005,27 @@
     "award-logo-strip": {
       "definition": "A single row of award, prize or press logos as social proof, no quotes.",
       "cues": "logo row, often under the hero",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
+    },
+    "usage-stats": {
+      "definition": "Adoption figures (downloads, websites using the font, impressions, users) set as huge numerals with short captions, as social proof of reach rather than of family size",
+      "cues": "huge adoption numbers with captions",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
+    },
+    "press-link-list": {
+      "definition": "A dated list of press coverage, one ruled row per article ('date · outlet : headline' with an arrow), each linking to the article; the coverage itself is the social proof, with no quotes or logos.",
+      "cues": "dated rows of press links",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
+    },
+    "comment-board": {
+      "definition": "An open comment form at the end of the page where visitors post thanks, bug reports and feature requests in public, often with a tally of the most requested features; visitors' voices rather than curated quotes",
+      "cues": "public comment form, requested-features tally",
       "count": 0,
       "examples": [],
       "mergedFrom": []
@@ -1033,6 +1096,20 @@
     "supporter-tier-wall": {
       "definition": "For a free font: donation tiers shown as medals with amounts, each followed by the names of supporters at that level; the thank-you wall is also the ask.",
       "cues": "tiers, amounts, supporter names",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
+    },
+    "donation-widget": {
+      "definition": "For a free font: a short appeal beside an embedded donation form (one-time/monthly frequency tabs, preset amounts, other amount, designation) so visitors can pay what they want for what they download",
+      "cues": "embedded donation form with preset amounts",
+      "count": 0,
+      "examples": [],
+      "mergedFrom": []
+    },
+    "inquiry-form": {
+      "definition": "No shop or price list: licensing (and other requests) go through an on-page contact form (name, e-mail, message, privacy consent, send), with a line saying the fonts are provided for a fee on request.",
+      "cues": "contact form instead of a shop",
       "count": 0,
       "examples": [],
       "mergedFrom": []
