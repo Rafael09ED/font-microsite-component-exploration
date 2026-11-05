@@ -44,6 +44,8 @@ if (!dryRun) {
   const origin = git(['remote', 'get-url', 'origin']);
   // Commit as the repo's configured identity, or else as the author of the last commit on main.
   const ident = (key, fmt) => { try { return git(['config', `user.${key}`]); } catch { return git(['log', '-1', `--format=${fmt}`]); } };
+  // Vite keeps dist/.git between builds; start fresh so a retry after a failed push still has a commit to make.
+  fs.rmSync(path.join(DIST, '.git'), { recursive: true, force: true });
   run('git', ['init', '-q', '-b', 'gh-pages'], DIST);
   run('git', ['add', '-A'], DIST);
   run('git', ['-c', `user.name=${ident('name', '%an')}`, '-c', `user.email=${ident('email', '%ae')}`, 'commit', '-q', '-m', `Deploy ${new Date().toISOString()}`], DIST);
